@@ -729,7 +729,33 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
     </div>
     <nav class="site-nav" aria-label="Primary">
       <a href="/practice-areas/">Practice Areas</a>
-      <a href="/asset-classes/" aria-current="page">Asset Classes</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
       <a href="/analytical-framework/">Framework</a>
 <a href="/research-notes/">Research</a>
       <a href="/the-practice/">About</a>
@@ -1350,15 +1376,16 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
 
 <script id="mega-markets-script">
 (function(){
-  var wrap=document.querySelector('.has-mega');
-  if(!wrap) return;
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
   var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
   function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
   function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
   btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
   document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
   wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
 })();
 </script>
 </body>
