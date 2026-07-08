@@ -8,12 +8,7 @@ Thumbs.db
 # Source packages (not part of the site)
 *.zip
 
-# Source research files (kept local; not served on the public site)
-/florida.md
-/illinois.md
-/new york.md
-/pennsylvania.md
-/assisted living.md
-/retail.md
-/rv parks.md
-/rv and boat storage.md
+# Source research files (kept local; NOT served on the public site).
+# Ignore every root-level .md (research/deep-search dumps) except the README.
+/*.md
+!/README.md
