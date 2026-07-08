@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name", footer -->
+<title>About | Independent Feasibility Study Company</title>
+<meta name="description" content="An independent, third-party feasibility and market-study practice for SBA, USDA, EB-5, and conventional commercial real estate lenders and borrowers.">
+<link rel="canonical" href="https://feasibility-study-company.com/the-practice/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="About | Feasibility Study Company">
+<meta property="og:description" content="An independent, third-party feasibility and market-study practice. What we do, the standards we are accountable to, and what we deliberately will not do.">
+<meta property="og:url" content="https://feasibility-study-company.com/the-practice/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About | Feasibility Study Company">
+<meta name="twitter:description" content="An independent, third-party feasibility and market-study practice for lenders and borrowers.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png",
+      "description": "An independent, third-party feasibility and market-study practice serving lenders and borrowers on SBA, USDA, EB-5, and conventional and agency-financed commercial real estate.",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "knowsAbout": [
+        "SBA 7(a) feasibility studies",
+        "SBA 504 feasibility studies",
+        "USDA Business and Industry feasibility studies",
+        "USDA Community Facilities feasibility studies",
+        "USDA REAP feasibility studies",
+        "EB-5 economic impact analysis",
+        "Multifamily market studies",
+        "Hotel feasibility studies",
+        "Self-storage feasibility studies",
+        "Debt service coverage analysis",
+        "NCHMA Model Content Standards",
+        "HUD MAP market studies"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "inquiries",
+        "email": "info@feasibility-study-company.com",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      }
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://feasibility-study-company.com/the-practice/#aboutpage",
+      "url": "https://feasibility-study-company.com/the-practice/",
+      "name": "About Feasibility Study Company",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "about": { "@id": "https://feasibility-study-company.com/#org" },
+      "mainEntity": { "@id": "https://feasibility-study-company.com/#org" },
+      "lastReviewed": "2026-07-08",
+      "reviewedBy": { "@id": "https://feasibility-study-company.com/#org" },
+      "primaryImageOfPage": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/the-practice/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "The Practice", "item": "https://feasibility-study-company.com/the-practice/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://feasibility-study-company.com/the-practice/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "What does Feasibility Study Company do?", "acceptedAnswer": { "@type": "Answer", "text": "Feasibility Study Company is an independent, third-party feasibility and market-study practice. It prepares lender-grade feasibility studies and market studies for SBA 7(a) and 504, USDA Rural Development, EB-5, and conventional and agency-financed commercial real estate across asset classes including multifamily, hospitality, and self-storage. It does not lend, broker, develop, or hold an interest in the transactions it studies." } },
+        { "@type": "Question", "name": "Is Feasibility Study Company independent?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Independence is established by exclusion: the practice holds no lending, brokerage, development, or ownership interest in the transactions it evaluates, so its conclusions reflect the data rather than a desired outcome. It also never prepares both the feasibility study and the lender's credit memo on the same transaction, maintaining a strict information barrier between the two roles." } },
+        { "@type": "Question", "name": "What does Feasibility Study Company not do?", "acceptedAnswer": { "@type": "Answer", "text": "The practice does not perform Phase I or Phase II Environmental Site Assessments, does not provide legal or investment advice, does not perform civil, structural, or mechanical engineering, and does not prepare both the feasibility study and the credit memo on the same transaction. These are deliberate scope disciplines, stated plainly so a lender knows exactly what the deliverable is and is not." } },
+        { "@type": "Question", "name": "What standards are the studies built to?", "acceptedAnswer": { "@type": "Answer", "text": "Each study is built to the standard that will review it: SBA SOP 50 10 8 for 7(a) and 504, the five feasibility components of USDA 7 CFR Part 5001 for Rural Development, NCHMA Model Content Standards and the HUD MAP Guide for multifamily, USCIS methodology requirements for EB-5, and USPAP discipline throughout." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:300px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:1;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="frame">
+      <p class="hero-eyebrow">The Practice</p>
+      <h1>About Feasibility Study Company</h1>
+      <p class="hero-sub">
+        An independent, third-party feasibility and market-study practice serving lenders and
+        borrowers. This page sets out what the practice is, the standards its work is accountable to,
+        and, just as plainly, what it will not do.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#contact">Request a methodology briefing</a>
+        <a class="btn btn-outline" href="/analytical-framework/">See the methodology</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">The Practice</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ WHAT WE ARE (answer capsule) ============ -->
+  <section class="section" id="what-we-are" aria-labelledby="h-wwa">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">In One Paragraph</span>
+        <h2 id="h-wwa">What this practice is.</h2>
+      </div>
+      <div class="capsule">
+        <p>
+          Feasibility Study Company is an independent, third-party feasibility and market-study
+          practice. It prepares lender-grade studies for SBA, USDA, EB-5, and conventional and
+          agency-financed commercial real estate. It does not lend, broker, develop, or hold an
+          interest in the transactions it studies, and it never prepares both the feasibility study
+          and the credit memo on the same deal.
+        </p>
+      </div>
+      <div class="prose">
+        <p>
+          The practice exists to give a lender, an agency, or an investment committee a defensible
+          basis for a decision: an analysis of whether a specific project will generate the demand
+          and cash flow to succeed, and to service its debt, on the terms the reviewer will test.
+          Our work is judged by the party relying on it, which is why the pages that follow describe
+          the method, the standards, and the limits of what we deliver rather than a record of who
+          we have worked with.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT WE DO ============ -->
+  <section class="section section-alt" id="what-we-do" aria-labelledby="h-wwd">
+    <div class="frame split">
+      <div>
+        <span class="eyebrow">What We Do</span>
+        <h2 id="h-wwd">Independent feasibility and market studies.</h2>
+        <div class="prose" style="margin-top:22px">
+          <p>
+            The practice prepares feasibility studies and market studies across the federal and
+            conventional programs that finance commercial real estate: SBA 7(a) and 504, USDA Rural
+            Development (Business and Industry, Community Facilities, and REAP), EB-5, and
+            conventional and agency debt. The work spans asset classes, from
+            <a href="/asset-classes/multifamily/">multifamily</a> and hospitality to self-storage and
+            special-purpose property.
+          </p>
+          <p>
+            Each engagement is produced by an in-house analyst desk of market and financial analysts
+            who build every study to the applicable program standard and to a single, repeatable
+            method. That consistency is deliberate: it lets a credit committee compare our analysis
+            across deals, and it means every conclusion rests on the same
+            <a href="/analytical-framework/">feasibility study methodology</a> rather than a one-off
+            narrative. The deliverable is written for the reviewer, sourced to primary data, and
+            structured around what an underwriter actually examines.
+          </p>
+        </div>
+      </div>
+      <aside class="panel" aria-label="Programs and asset classes">
+        <h3>Programs served</h3>
+        <ul>
+          <li>SBA 7(a) and 504 <span>owner-user and special-purpose</span></li>
+          <li>USDA Rural Development <span>B&amp;I, CF, REAP</span></li>
+          <li>EB-5 <span>economic impact analysis</span></li>
+          <li>Conventional and agency <span>bank, CMBS, life-company</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ HOW WE WORK: INDEPENDENCE ============ -->
+  <section class="section" id="independence" aria-labelledby="h-ind">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">How We Work</span>
+        <h2 id="h-ind">Independence, established by exclusion.</h2>
+      </div>
+      <div class="capsule">
+        <p>
+          Independence here is structural, not a slogan. The practice holds no lending, brokerage,
+          development, or ownership interest in the transactions it evaluates, and it never prepares
+          both the feasibility study and the lender's credit memo on the same deal.
+        </p>
+      </div>
+      <div class="prose">
+        <p>
+          A feasibility study is only useful to a lender if it reflects the data rather than the
+          sponsor's hopes. That requires the analyst to have nothing at stake in the outcome. Because
+          the borrower is by definition an interested party, independence cannot be asserted; it has
+          to be established by exclusion, and it is assessed by the party relying on the study. The
+          practice therefore takes no position in the deal and reaches no conclusion it cannot
+          support with evidence.
+        </p>
+        <p>
+          The clearest expression of that discipline is a rule we do not break: on any single
+          transaction, the practice will prepare the independent feasibility study or assist a
+          lender's credit analysis, but never both. Performing both roles on one deal would collapse
+          the information barrier that makes the feasibility opinion worth relying on. Keeping them
+          separate is how the analysis stays independent in fact, not just in name.
+        </p>
+      </div>
+      <div class="charter" role="note" aria-label="Independence principle">
+        <span class="charter-label">Independence Charter</span>
+        <p>
+          Our conclusions serve the party relying on the analysis: the lender, the agency, the
+          adjudicator, the committee. The practice holds no ownership, development, brokerage,
+          operating, or financing interest in the project evaluated. A determination is never revised
+          under commercial pressure, and a study that cannot support its conclusion is not delivered
+          with one.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT WE DO NOT DO ============ -->
+  <section class="section section-alt" id="scope" aria-labelledby="h-scope">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Scope Discipline</span>
+        <h2 id="h-scope">What we do, and what we do not.</h2>
+        <p class="lede">
+          A clear scope is a form of accountability. Stating what the practice will not do is as
+          important as stating what it will, because it tells a lender exactly what the deliverable
+          is, and is not.
+        </p>
+      </div>
+      <div class="do-cols">
+        <div>
+          <h3 class="do-yes">What the practice does</h3>
+          <ul class="do-yes-list">
+            <li>Market and demand analysis, capture and penetration testing, and absorption forecasting</li>
+            <li>Financial projections, operating-expense rationalization, and debt-service coverage and stress testing</li>
+            <li>Feasibility studies and market studies built to SBA, USDA, EB-5, HUD, and conventional standards</li>
+            <li>EB-5 economic impact analysis using transparent, program-compliant methods</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="do-no">What the practice does not do</h3>
+          <ul class="do-no-list">
+            <li>Phase I or Phase II Environmental Site Assessments</li>
+            <li>Legal advice or investment and financial advice</li>
+            <li>Civil, structural, or mechanical engineering</li>
+            <li>Both the feasibility study and the credit memo on the same transaction</li>
+          </ul>
+        </div>
+      </div>
+      <div class="prose" style="margin-top:30px">
+        <p>
+          Where a project needs work outside this scope, an environmental assessment, an engineering
+          report, a legal opinion, or an appraisal, the practice says so and stays in its lane. The
+          study is stronger for it, because a document that claims to do everything invites the
+          question of whether it does anything well.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STANDARDS ACCOUNTABILITY ============ -->
+  <section class="section" id="standards" aria-labelledby="h-std">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Accountable To</span>
+        <h2 id="h-std">The standards our work is built to.</h2>
+        <p class="lede">
+          Every engagement is built to the published standard that will review it. These are the
+          authorities our analysis is measured against, by program.
+        </p>
+      </div>
+      <ol class="standards-list">
+        <li>
+          <h3>SBA SOP 50 10 8</h3>
+          <p>The operative Standard Operating Procedure for 7(a) and 504 lending, effective June 1, 2025, under which a feasibility study is expected for special-purpose properties and startup or ground-up projects.</p>
+        </li>
+        <li>
+          <h3>USDA 7 CFR Part 5001</h3>
+          <p>The OneRD Guaranteed Loan regulation, which defines a feasibility study as an evaluation of the economic, market, technical, financial, and management feasibility of a project, the five components every USDA study must address, with the requirement set in the Community Facilities and Business and Industry program sections.</p>
+        </li>
+        <li>
+          <h3>NCHMA Model Content Standards</h3>
+          <p>The national methodology framework for rental-housing market studies, updated to Version 3.1 in September 2025, governing LIHTC allocations, agency lending, and conventional underwriting, with field verification of comparables required.</p>
+        </li>
+        <li>
+          <h3>HUD MAP Guide</h3>
+          <p>The Multifamily Accelerated Processing Guide and its mandatory form set, including HUD-92273, HUD-92274, and HUD-92264, for FHA-insured multifamily transactions.</p>
+        </li>
+        <li>
+          <h3>USPAP, 2024 Edition</h3>
+          <p>The Uniform Standards of Professional Appraisal Practice discipline, the ethics, competency, scope-of-work, and credible-results rules applied throughout the analysis.</p>
+        </li>
+        <li>
+          <h3>USCIS EB-5 requirements</h3>
+          <p>The USCIS Policy Manual requirement that EB-5 economic impact analysis rest on economically and statistically valid and transparent forecasting tools, under the Reform and Integrity Act of 2022.</p>
+        </li>
+      </ol>
+      <a class="btn btn-outline-dark" style="margin-top:34px" href="/analytical-framework/">How the standards shape the method</a>
+    </div>
+  </section>
+
+  <!-- ============ HOW OUR ANALYSIS IS SOURCED ============ -->
+  <section class="section section-alt" id="sourcing" aria-labelledby="h-src">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Evidence Standard</span>
+        <h2 id="h-src">How our analysis is sourced.</h2>
+      </div>
+      <div class="capsule">
+        <p>
+          Every figure in a study traces to a named primary source. Demand and demographics come from
+          the Census Bureau and the Bureau of Labor Statistics; economic impact from federal
+          multiplier data; program parameters from the agencies themselves; and market reads from
+          comparable-operator and recognized industry data, each attributed and dated.
+        </p>
+      </div>
+      <div class="prose">
+        <p>
+          A conclusion is only as good as the evidence a reviewer can follow back to its origin. The
+          practice documents provenance so that any number in a study can be traced to its source,
+          and it discloses where data providers diverge rather than selecting the most favorable
+          figure. The same discipline governs the research we publish: the
+          <a href="/analytical-framework/">methodology framework</a> and the asset and market
+          monitors carry their sources in full, because a claim without a citation is an opinion, not
+          an analysis.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Considering an engagement?</h2>
+      <p>
+        A methodology briefing walks through the analytical framework, the deliverable your program
+        requires, and how the practice would approach your asset class and market.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>
