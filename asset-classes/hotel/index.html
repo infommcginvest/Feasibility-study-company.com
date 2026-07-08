@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name", footer -->
+<title>Multifamily Feasibility &amp; Market Study | Apartment Analysis</title>
+<meta name="description" content="Independent multifamily feasibility and market studies: a national and metro apartment oversupply monitor, absorption forensics, and NCHMA and HUD authority.">
+<link rel="canonical" href="https://feasibility-study-company.com/asset-classes/multifamily/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Multifamily Feasibility &amp; Market Studies | Feasibility Study Company">
+<meta property="og:description" content="A national and metro apartment oversupply and absorption monitor, the lease-up failure forensics, and the market-study-versus-feasibility authority lenders rely on.">
+<meta property="og:url" content="https://feasibility-study-company.com/asset-classes/multifamily/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Multifamily Feasibility &amp; Market Studies | Feasibility Study Company">
+<meta name="twitter:description" content="The national and metro apartment oversupply monitor, absorption failure forensics, and NCHMA and HUD form authority.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://feasibility-study-company.com/asset-classes/multifamily/#service",
+      "name": "Multifamily Feasibility and Market Studies",
+      "serviceType": "Multifamily market study and feasibility analysis",
+      "provider": { "@id": "https://feasibility-study-company.com/#org" },
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "description": "Independent, lender-grade multifamily and apartment feasibility and market studies for agency, HUD-FHA, life-company, CMBS, conventional bank construction, and USDA rural financing, prepared to NCHMA Model Content Standards and HUD MAP form requirements."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/asset-classes/multifamily/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Asset Classes", "item": "https://feasibility-study-company.com/asset-classes/" },
+        { "@type": "ListItem", "position": 3, "name": "Multifamily", "item": "https://feasibility-study-company.com/asset-classes/multifamily/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://feasibility-study-company.com/asset-classes/multifamily/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is the difference between a multifamily market study and a feasibility study?", "acceptedAnswer": { "@type": "Answer", "text": "In multifamily lending the two terms are not interchangeable, though the analytical work overlaps. Agency and HUD reviewers require a market study, meaning a demand and supply analysis (rent comparables, demand drivers, pipeline, absorption) that informs the lender's own underwriting. A feasibility study adds the site-specific financial model, debt-service coverage, and a viability conclusion on top of that market study. The market-study convention traces to the Fannie Mae and Freddie Mac seller-servicer structure, where the lender bears underwriting responsibility." } },
+        { "@type": "Question", "name": "What are NCHMA Model Content Standards?", "acceptedAnswer": { "@type": "Answer", "text": "The National Council of Housing Market Analysts Model Content Standards are the recognized methodology framework for multifamily market studies, updated to Version 3.1 in September 2025. They specify content, terminology, and analytical depth across the study, including primary market area definition, employment and demographics, demand and capture or penetration rates, and absorption, with field verification of comparable properties required. NCHMA standards govern LIHTC allocations, agency lending, and conventional underwriting." } },
+        { "@type": "Question", "name": "What HUD forms are required for FHA-insured multifamily?", "acceptedAnswer": { "@type": "Answer", "text": "HUD-92273 (Estimate of Market Rent by Comparison) documents the rent-comparability adjustment grid; HUD-92274 (Operating Expense Analysis) builds the per-unit expense projection; and HUD-92264 (Multifamily Summary Appraisal Report) aggregates income and expense into a capitalized value. The forms are mandatory and form-driven for FHA-insured deals under Section 223(f) acquisition or refinance and Section 221(d)(4) new construction, and appraisal exhibits must generally be dated within 120 days of pre-application." } },
+        { "@type": "Question", "name": "Can multifamily be financed with an SBA loan?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no. Pure investment apartments are SBA-ineligible because both the 7(a) and 504 programs require owner-occupancy, at least 51 percent of the space for existing buildings and 60 percent for new construction. Apartments qualify only as an owner-occupied or mixed-use structure, for example a ground-floor business the owner occupies with a minority of rental units above meeting the occupancy test. Standard market-rate multifamily routes through agency, HUD-FHA, life-company, CMBS, conventional bank, or USDA rural channels instead." } },
+        { "@type": "Question", "name": "Which apartment markets are oversupplied right now?", "acceptedAnswer": { "@type": "Answer", "text": "As of 2026, oversupply is concentrated in the Sun Belt and Mountain West, with Austin posting the steepest rent decline nationally near negative 4.7 percent, alongside Phoenix, San Antonio, Tampa, Denver, Charlotte, Nashville, Orlando, and Raleigh-Durham. Gateway and Midwest markets are tightening, with New York, Minneapolis, Chicago, and San Francisco showing positive asking-rent growth. The national delivery pipeline is falling sharply, so most oversupplied metros are expected to inflect through 2026 and 2027." } },
+        { "@type": "Question", "name": "Why does the multifamily takeout loan often come in below the LTV ceiling?", "acceptedAnswer": { "@type": "Answer", "text": "In a higher-rate environment the permanent agency loan is sized by debt-service coverage rather than loan-to-value. When the debt constant rises, the loan amount that satisfies a 1.25x coverage minimum on stabilized net operating income can fall well below the 80 percent LTV ceiling, leaving a funding gap against construction cost that equity must fill. This DSCR-constrained takeout is the dominant execution risk on newly built lease-up assets, which is why absorption and effective-rent accuracy matter more than headline value." } },
+        { "@type": "Question", "name": "How is absorption forecast in a multifamily market study?", "acceptedAnswer": { "@type": "Answer", "text": "Absorption is derived across four layers: demand drivers (employment, household formation, migration, income by tier) establish annual rental demand at the subject's rent point; the supply pipeline establishes the competitive constraint, including units delivering into the lease-up window; capture-rate analysis allocates demand against the subject and competing supply; and the resulting monthly lease-up schedule, commonly 12 to 25 units per month for stabilized product, sizes the working-capital and interest reserve. Lease-up under six months signals strong demand; beyond eighteen months signals oversupply or mispricing." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" aria-current="page">Asset Classes</a>
+      <a href="/analytical-framework/">Framework</a>
+<a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="/inquiries/">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Multifamily &middot; Asset Class</p>
+      <h1>Multifamily Feasibility &amp; Market Studies</h1>
+      <p class="hero-sub">
+        Independent, lender-grade analysis for apartment projects across agency, HUD-FHA,
+        life-company, CMBS, conventional bank construction, and USDA rural capital. This page is our
+        standing read on where the apartment market is oversupplied, how absorption forecasts fail
+        review, and the difference between the market study a lender requires and the feasibility
+        study that surrounds it.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+        <a class="btn btn-outline" href="#monitor">Jump to the oversupply monitor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/asset-classes/">Asset Classes</a></li>
+        <li aria-current="page">Multifamily</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ STAT BAND ============ -->
+  <section class="stat-band" aria-label="Multifamily at a glance">
+    <div class="frame">
+      <div class="stat-grid">
+        <div class="stat">
+          <div class="stat-num">608<span>K</span></div>
+          <div class="stat-label">2024 deliveries, most since 1986<sup class="fn"><a href="#s1">1</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">$176<span>B</span></div>
+          <div class="stat-label">2026 combined agency caps<sup class="fn"><a href="#s9">9</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">16.9<span>%</span></div>
+          <div class="stat-label">Units offering concessions, a post-2014 high<sup class="fn"><a href="#s2">2</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">50<span>/50</span></div>
+          <div class="stat-label">Largest metros where renting beats owning<sup class="fn"><a href="#s24">24</a></sup></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THESIS ============ -->
+  <section class="section" id="thesis" aria-labelledby="h-thesis">
+    <div class="frame split">
+      <div>
+        <span class="eyebrow">The Multifamily Thesis</span>
+        <h2 id="h-thesis">One national number hides two Americas.</h2>
+        <div class="prose" style="margin-top:22px">
+          <p>
+            Multifamily is the only commercial real estate asset class that routes through every
+            capital source, and the only one where lenders demand a market study rather than a
+            feasibility study. The distinction is not cosmetic. Agency and HUD reviewers require a
+            demand and supply analysis that informs their own underwriting; the feasibility study
+            adds the site-specific financial model and the coverage conclusion around it. We prepare
+            both, aligned to the standard that will judge the file.
+          </p>
+          <p>
+            The market itself is at an inflection. The supply wave that defined the last two years
+            crested in 2024 at the highest delivery total since 1986, then began falling
+            sharply.<sup class="fn"><a href="#s1">1</a></sup> National demand has overtaken new
+            supply, yet the recovery is deeply uneven. The Sun Belt and Mountain West are grinding
+            through a painful glut, with Austin posting the steepest rent decline in the country,
+            while gateway and Midwest markets are tightening with positive rent
+            growth.<sup class="fn"><a href="#s7">7</a></sup> A national vacancy figure, or a national
+            rent assumption, is analytically useless: the same asset class is oversupplied in one
+            metro and tight in another, and even two submarkets of the same metro can face opposite
+            conditions.
+          </p>
+          <p>
+            What follows is organized as a working desk: a national and metro oversupply and
+            absorption monitor, the lease-up failure forensics that sink apartment studies, the
+            capital-source routing that decides which deliverable a project needs, and the study-type
+            distinctions competitors state loosely. Every figure is dated and attributed in the
+            <a href="#sources">sources</a> below.
+          </p>
+        </div>
+      </div>
+      <aside class="panel" aria-label="Capital sources for multifamily">
+        <h3>Routes to capital</h3>
+        <ul>
+          <li>Agency (Fannie DUS, Freddie Optigo) <span>NCHMA market study</span></li>
+          <li>HUD-FHA (223(f), 221(d)(4)) <span>MAP form set</span></li>
+          <li>Life-company &amp; CMBS <span>NCHMA baseline</span></li>
+          <li>Bank construction <span>pre-lease &amp; absorption</span></li>
+          <li>USDA rural (538, 515) <span>restricted-rent modeling</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ OVERSUPPLY & ABSORPTION MONITOR ============ -->
+  <section class="section section-alt" id="monitor" aria-labelledby="h-monitor">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">The Oversupply &amp; Absorption Monitor</span>
+        <h2 id="h-monitor">Where the apartment market stands, metro by metro.</h2>
+        <p class="lede">
+          A supply-pressure read for the major US apartment markets, refreshed each quarter from
+          named primary sources. Sorted from most oversupplied to tightening. Data current through
+          mid-2026; all 2026 delivery figures are forecasts.
+        </p>
+      </div>
+
+      <div class="prose" style="margin-bottom:28px">
+        <p>
+          The national picture frames every metro. Apartment completions reached roughly 608,000
+          units in 2024, the most since 1986, then fell about thirty percent to near 500,000 in
+          2025, with 2026 forecast lower still.<sup class="fn"><a href="#s1">1</a></sup><sup class="fn"><a href="#s2">2</a></sup>
+          Construction starts have collapsed to their lowest in over a decade, down roughly sixty
+          percent from the 2022 peak, and because completions lag starts by eighteen to twenty-four
+          months, the 2026 and 2027 pipeline is guaranteed thin.<sup class="fn"><a href="#s2">2</a></sup><sup class="fn"><a href="#s16">16</a></sup>
+          Demand, meanwhile, overtook supply beginning in late 2024, with net absorption reaching an
+          historic peak in mid-2025 before cooling.<sup class="fn"><a href="#s2">2</a></sup> The
+          result is a market that has passed its supply peak nationally but remains sharply divided
+          by geography.
+        </p>
+      </div>
+
+      <div class="monitor-wrap">
+        <table class="monitor">
+          <caption class="table-source" style="text-align:left;margin-bottom:12px">Supply pressure: <span class="pill pill-over">Oversupplied</span> <span class="pill pill-bal">Balanced</span> <span class="pill pill-tight">Tightening</span>. Vacancy basis varies by provider; rent is effective or asking as noted in the sources.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Metro</th>
+              <th scope="col">Deliveries 2025 &rarr; 2026</th>
+              <th scope="col">Vacancy</th>
+              <th scope="col">YoY rent</th>
+              <th scope="col">Supply pressure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Austin</td><td>~21,500 &rarr; ~10,200</td><td>13.5%</td><td>&minus;4.7%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>San Antonio</td><td>No read</td><td>15.8%</td><td>&minus;4.8%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Phoenix</td><td>20,598 &rarr; 12,868</td><td>~11.5%</td><td>&minus;2.9%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Tampa</td><td>8,192 &rarr; 7,559</td><td>10.7%</td><td>&minus;4.1%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Denver</td><td>12,422 &rarr; 4,978</td><td>7.6%</td><td>&minus;4.8%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Charlotte</td><td>14,484 &rarr; 9,971</td><td>6.2%</td><td>&minus;3.2%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Dallas&ndash;Fort Worth</td><td>32,002 &rarr; 15,765</td><td>12.2%</td><td>&minus;2.1%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Nashville</td><td>9,011 &rarr; 6,020</td><td>~8.4%</td><td>&minus;1.0%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Orlando</td><td>~10,900 &rarr; lower</td><td>~8.7%</td><td>&minus;1.5%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Raleigh&ndash;Durham</td><td>~11,000 &rarr; ~6,000</td><td>~8.0%</td><td>+1.5% proj.</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Salt Lake City</td><td>9,896 &rarr; ~6,000</td><td>7.3%</td><td>&minus;1.0%</td><td><span class="pill pill-over">Oversupplied</span></td></tr>
+            <tr><td>Houston</td><td>17,199 &rarr; 8,401</td><td>~11.1%</td><td>+0.1%</td><td><span class="pill pill-bal">Balanced</span></td></tr>
+            <tr><td>Atlanta</td><td>~16,700 &rarr; ~9,000</td><td>6.4%</td><td>+1.6%</td><td><span class="pill pill-bal">Balanced</span></td></tr>
+            <tr><td>Miami / S. Florida</td><td>12,649 &rarr; 12,842</td><td>6.6%</td><td>+0.7%</td><td><span class="pill pill-bal">Balanced</span></td></tr>
+            <tr><td>Seattle</td><td>10,556 &rarr; 5,115</td><td>7.1%</td><td>+2.1%</td><td><span class="pill pill-bal">Balanced</span></td></tr>
+            <tr><td>Washington DC</td><td>~14,300 &rarr; &lt;10,000</td><td>5.2%</td><td>&minus;4.2%</td><td><span class="pill pill-tight">Tightening supply</span></td></tr>
+            <tr><td>Minneapolis</td><td>~5,400 &rarr; ~4,200</td><td>4.3%</td><td>+4.5%</td><td><span class="pill pill-tight">Tightening</span></td></tr>
+            <tr><td>New York</td><td>Supply-constrained</td><td>3.1%</td><td>+3.3%</td><td><span class="pill pill-tight">Tightening</span></td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Metro figures compiled from MMG Real Estate Advisors, Northmarq, Matthews and CoStar, Apartment List, Yardi Matrix, Zillow, and the MMCG database, Q4 2025 through Q2 2026; see sources 7 and 11&ndash;15. Vacancy basis differs by provider (stabilized versus overall, a 150&ndash;400 bps gap). Washington DC softness is demand-driven, not oversupply. Los Angeles, Chicago, and San Francisco are discussed in the narrative where single-provider data prevents a clean matrix row.</p>
+      </div>
+
+      <div class="prose" style="margin-top:44px">
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin-bottom:10px">The vacancy number depends entirely on the provider</h3>
+        <p>
+          No figure on this page is more misused than vacancy. Stabilized same-store measures report
+          national occupancy near 95.4 percent, while broad-inventory measures that include newly
+          delivered, still-leasing units report vacancy as high as the low-to-mid eight percent
+          range, and one Census-based reading hit a record 7.3 percent in late
+          2025.<sup class="fn"><a href="#s2">2</a></sup><sup class="fn"><a href="#s6">6</a></sup><sup class="fn"><a href="#s8">8</a></sup>
+          The two-to-four-point gap is not disagreement; it is the footprint of the supply wave.
+          Lease-up units drag down broad measures but are excluded from stabilized ones. Any
+          feasibility or market study that cites a single vacancy number without stating its universe
+          is not defensible.
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Concessions are the hidden rent story</h3>
+        <p>
+          Headline asking rents overstate what apartments actually collect. As of the first half of
+          2026, roughly 16.9 percent of stabilized units were offering concessions averaging a 10.9
+          percent discount, the equivalent of nearly six weeks free on a twelve-month lease and the
+          highest concession level since mid-2014.<sup class="fn"><a href="#s2">2</a></sup> In the
+          most oversupplied markets, Austin, Denver, and San Antonio, close to one-third of
+          stabilized units carry a concession. A revenue model built on posted rents rather than
+          effective rents overstates year-one income by the concession value plus loss-to-lease, a
+          three-to-five percent haircut before vacancy in deep-concession markets.
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Cap rates, capital, and the investment floor</h3>
+        <p>
+          Investment has re-engaged. Average going-in cap rates on core assets sat near 4.75 percent
+          at the end of 2025, with stabilized product broadly in the low-to-mid five percent range
+          and transaction volume rebuilding roughly nine to nineteen percent year over
+          year.<sup class="fn"><a href="#s6">6</a></sup> Per-unit trade pricing near $208,000 sits
+          well below the cost to build in high-cost submarkets, where all-in development runs $300,000
+          per unit or more, which puts a floor under existing-asset values and a structural brake on
+          new starts.<sup class="fn"><a href="#s3">3</a></sup> For 2026, the combined Fannie Mae and
+          Freddie Mac purchase caps rose about twenty percent to $176 billion, positioning the
+          agencies as refinance backstops against roughly $90 billion of maturing multifamily
+          debt.<sup class="fn"><a href="#s9">9</a></sup>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABSORPTION FAILURE FORENSICS ============ -->
+  <section class="section" id="failures" aria-labelledby="h-failures">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Common Review Failures</span>
+        <h2 id="h-failures">How multifamily absorption forecasts fail review.</h2>
+        <p class="lede">
+          Absorption and lease-up are the variables a credit committee scrutinizes most, and the
+          places apartment studies most often break. Each failure below is tied to a real mechanism
+          or number.
+        </p>
+      </div>
+      <ol class="failures">
+        <li>
+          <div>
+            <h3>Asking rent instead of effective rent</h3>
+            <p>Forecasting on posted rents while the market clears on concessions. With concessions near a twelve-year high and one-third of units discounted in the softest metros, an asking-rent pro forma overstates year-one revenue by the concession plus loss-to-lease.<sup class="fn"><a href="#s2">2</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Ignoring the pipeline delivering into lease-up</h3>
+            <p>The correct competitive denominator is not today's supply, it is the units delivering during the subject's lease-up window. A project leasing over twelve to eighteen months in Charlotte or Austin faces new competitive supply mid-lease-up that a snapshot misses.<sup class="fn"><a href="#s13">13</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Capture-rate math on an over-broad market area</h3>
+            <p>Capture rate is subject units divided by income- and size-qualified demand. An over-broad primary market area inflates the demand denominator and understates the capture rate, the leading red flag in LIHTC and agency market-study review.<sup class="fn"><a href="#s23">23</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Unbenchmarked absorption pace</h3>
+            <p>Stabilized garden and mid-rise product typically absorbs twelve to twenty-five units per month. Lease-up projected under six months signals aggressive demand assumptions; beyond eighteen months signals oversupply or mispricing, and either way the pace sizes the interest and working-capital reserve.<sup class="fn"><a href="#s23">23</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Metro averages applied to a submarket</h3>
+            <p>Two projects in one metro can face opposite conditions. In Atlanta, high-supply core submarkets posted rent declines while exurban Gwinnett County posted increases and materially higher occupancy. A metro average misprices both.<sup class="fn"><a href="#s11">11</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Stale taxes and understated insurance</h3>
+            <p>Most states reassess property taxes to the buyer's basis on sale, not the seller's historical bill, and hazard-exposed insurance has escalated sharply. Operating expenses run 38 to 55 percent of revenue; using the seller's snapshot understates the stabilized expense load.<sup class="fn"><a href="#s22">22</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Ignoring the coverage-constrained takeout</h3>
+            <p>In a higher-rate environment the permanent agency loan is sized by debt-service coverage, not loan-to-value. A loan meeting a 1.25x coverage minimum can fall well below the 80 percent LTV ceiling, leaving an equity gap at refinance. This is the dominant 2026 execution risk on lease-up assets.<sup class="fn"><a href="#s6">6</a></sup></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CAPITAL-SOURCE ROUTING ============ -->
+  <section class="section section-alt" id="routing" aria-labelledby="h-routing">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Capital-Source Routing</span>
+        <h2 id="h-routing">Which channel funds the project, and what it requires.</h2>
+        <p class="lede">
+          Multifamily routes through every capital source, and each requires a different deliverable
+          and coverage standard. The study is built to the union of requirements across the channels
+          actually in play.
+        </p>
+      </div>
+
+      <div class="data-table-wrap">
+        <div class="data-table-title">The multifamily lender matrix</div>
+        <table class="data">
+          <caption>Deliverable, form set, and coverage convention by capital source. Coverage figures are market conventions, not universal minimums.<sup class="fn"><a href="#s6">6</a></sup></caption>
+          <thead><tr><th scope="col">Capital source</th><th scope="col">Deliverable</th><th scope="col">Coverage convention</th></tr></thead>
+          <tbody>
+            <tr><td>Fannie DUS / Freddie Optigo</td><td>NCHMA-compliant market study</td><td>~1.20x&ndash;1.25x, up to ~80% LTV</td></tr>
+            <tr><td>HUD-FHA 223(f) / 221(d)(4)</td><td>HUD MAP forms 92273 / 92274 / 92264</td><td>1.11x&ndash;1.18x post-MIP</td></tr>
+            <tr><td>Life-company</td><td>NCHMA baseline on stabilized collateral</td><td>1.30x&ndash;1.50x, lower leverage</td></tr>
+            <tr><td>CMBS conduit</td><td>NCHMA or rating-agency-aligned study</td><td>1.25x&ndash;1.40x</td></tr>
+            <tr><td>Conventional bank construction</td><td>Pre-lease and absorption analysis</td><td>1.20x&ndash;1.40x</td></tr>
+            <tr><td>USDA Section 538 (rural)</td><td>Restricted-rent market study</td><td>1.15x, up to 40-year, up to 90% guarantee</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Sources: CBRE Q4 2025 underwriting survey; HUD MAP Guide; USDA Rural Development Section 538 term sheets. See sources 6, 18, 20.</p>
+      </div>
+
+      <div class="prose" style="margin-top:36px">
+        <p>
+          One eligibility trap is worth stating plainly, because borrowers hit it constantly: pure
+          investment apartments are generally not SBA-eligible. Both the 7(a) and 504 programs
+          require owner-occupancy, at least 51 percent of the space for existing buildings and 60
+          percent for new construction, so a passive apartment building does not
+          qualify.<sup class="fn"><a href="#s19">19</a></sup> Apartments fit SBA only as an
+          owner-occupied or mixed-use structure, for example a ground-floor business the owner
+          occupies with a minority of rental units above. Standard market-rate multifamily therefore
+          routes through the agency, HUD-FHA, life-company, CMBS, conventional bank, or USDA rural
+          channels above, which is precisely why the apartment financing landscape looks nothing like
+          owner-occupied commercial real estate.
+        </p>
+      </div>
+
+      <ul class="routing" aria-label="Multifamily routing by project type">
+        <li><span class="r-if">Stabilized market-rate acquisition or refinance</span><span class="r-then">Agency (Fannie DUS or Freddie Optigo) with an NCHMA market study, or HUD 223(f).</span></li>
+        <li><span class="r-if">Ground-up market-rate construction</span><span class="r-then">Conventional bank construction with pre-lease and absorption analysis, takeout to agency or HUD 221(d)(4).</span></li>
+        <li><span class="r-if">Affordable or LIHTC development</span><span class="r-then">Agency mission-driven or HUD-FHA, with an NCHMA study meeting the state HFA market-study manual.</span></li>
+        <li><span class="r-if">Rural workforce or affordable housing</span><span class="r-then">USDA Section 538 (guaranteed, rents at or below 115% AMI) or Section 515 preservation.</span></li>
+        <li><span class="r-if">Owner-occupied or mixed-use with a minority of units</span><span class="r-then">SBA 7(a) or 504, only where the business meets the 51% or 60% occupancy test.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ STUDY TYPES / TERMINOLOGY AUTHORITY ============ -->
+  <section class="section" id="study-types" aria-labelledby="h-types">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Study Types</span>
+        <h2 id="h-types">Market study, feasibility study, appraisal: three questions.</h2>
+        <p class="lede">
+          These three documents answer different questions and are not substitutes. Lenders and
+          borrowers conflate them constantly; agency and HUD reviewers do not.
+        </p>
+      </div>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>What each document answers, and the standard that governs it.</caption>
+          <thead><tr><th scope="col">Document</th><th scope="col">Question answered</th><th scope="col">Governing standard</th></tr></thead>
+          <tbody>
+            <tr><td>Appraisal</td><td>What is it worth? Present-value opinion supporting collateral and LTV.</td><td>USPAP</td></tr>
+            <tr><td>Market study</td><td>Will it lease? Demand, supply, comparables, and absorption, without the site-specific financial model.</td><td>NCHMA Model Content Standards</td></tr>
+            <tr><td>Feasibility study</td><td>Will it lease and cover its debt? The market study plus the pro forma, coverage, and viability conclusion.</td><td>NCHMA plus lender underwriting</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="prose" style="margin-top:36px">
+        <p>
+          The methodology framework for the market study is the National Council of Housing Market
+          Analysts Model Content Standards, updated to Version 3.1 in September
+          2025.<sup class="fn"><a href="#s17">17</a></sup> NCHMA specifies the analytical structure,
+          primary market area definition, demographics and employment, demand and capture or
+          penetration rates, and absorption, and it requires field verification of comparable
+          properties rather than desktop estimates. NCHMA standards govern LIHTC allocations, agency
+          lending, and conventional underwriting alike.
+        </p>
+        <p>
+          For FHA-insured transactions the deliverable is form-driven. HUD-92273 documents the
+          rent-comparability adjustment grid, HUD-92274 builds the operating-expense projection, and
+          HUD-92264 aggregates income and expense into a capitalized value, with a jurisdictional
+          exception that values the property for its intended multifamily use rather than highest and
+          best use.<sup class="fn"><a href="#s18">18</a></sup> The forms are mandatory for Section
+          223(f) acquisition and refinance and Section 221(d)(4) new construction, and appraisal
+          exhibits generally must be dated within 120 days of pre-application. A study prepared to
+          NCHMA narrative standards alone does not satisfy MAP review without the form set completed.
+        </p>
+      </div>
+
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Multifamily sub-segments, each with a distinct study scope</p>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/multifamily/garden-style/">Garden-style multifamily</a></li>
+        <li><a href="/asset-classes/multifamily/mid-and-high-rise/">Mid- and high-rise</a></li>
+        <li><a href="/asset-classes/multifamily/build-to-rent/">Build-to-rent (BTR)</a></li>
+        <li><a href="/asset-classes/multifamily/workforce-housing/">Workforce housing</a></li>
+        <li><a href="/asset-classes/multifamily/lihtc/">LIHTC and affordable</a></li>
+        <li><a href="/asset-classes/multifamily/student-housing/">Student housing</a></li>
+        <li><a href="/asset-classes/multifamily/manufactured-housing/">Manufactured housing communities</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section-alt" id="faq" aria-labelledby="h-faq">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Multifamily Questions</span>
+        <h2 id="h-faq">Multifamily feasibility and market-study questions.</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>What is the difference between a multifamily market study and a feasibility study?</summary>
+          <p>In multifamily lending the two terms are not interchangeable, though the analytical work overlaps. Agency and HUD reviewers require a market study, meaning a demand and supply analysis (rent comparables, demand drivers, pipeline, absorption) that informs the lender's own underwriting. A feasibility study adds the site-specific financial model, debt-service coverage, and a viability conclusion on top of that market study. The market-study convention traces to the Fannie Mae and Freddie Mac seller-servicer structure, where the lender bears underwriting responsibility.</p>
+        </details>
+        <details>
+          <summary>What are NCHMA Model Content Standards?</summary>
+          <p>The National Council of Housing Market Analysts Model Content Standards are the recognized methodology framework for multifamily market studies, updated to Version 3.1 in September 2025. They specify content, terminology, and analytical depth across the study, including primary market area definition, employment and demographics, demand and capture or penetration rates, and absorption, with field verification of comparable properties required. NCHMA standards govern LIHTC allocations, agency lending, and conventional underwriting.</p>
+        </details>
+        <details>
+          <summary>What HUD forms are required for FHA-insured multifamily?</summary>
+          <p>HUD-92273 (Estimate of Market Rent by Comparison) documents the rent-comparability adjustment grid; HUD-92274 (Operating Expense Analysis) builds the per-unit expense projection; and HUD-92264 (Multifamily Summary Appraisal Report) aggregates income and expense into a capitalized value. The forms are mandatory and form-driven for FHA-insured deals under Section 223(f) acquisition or refinance and Section 221(d)(4) new construction, and appraisal exhibits must generally be dated within 120 days of pre-application.</p>
+        </details>
+        <details>
+          <summary>Can multifamily be financed with an SBA loan?</summary>
+          <p>Generally no. Pure investment apartments are SBA-ineligible because both the 7(a) and 504 programs require owner-occupancy, at least 51 percent of the space for existing buildings and 60 percent for new construction. Apartments qualify only as an owner-occupied or mixed-use structure, for example a ground-floor business the owner occupies with a minority of rental units above meeting the occupancy test. Standard market-rate multifamily routes through agency, HUD-FHA, life-company, CMBS, conventional bank, or USDA rural channels instead.</p>
+        </details>
+        <details>
+          <summary>Which apartment markets are oversupplied right now?</summary>
+          <p>As of 2026, oversupply is concentrated in the Sun Belt and Mountain West, with Austin posting the steepest rent decline nationally near negative 4.7 percent, alongside Phoenix, San Antonio, Tampa, Denver, Charlotte, Nashville, Orlando, and Raleigh-Durham. Gateway and Midwest markets are tightening, with New York, Minneapolis, Chicago, and San Francisco showing positive asking-rent growth. The national delivery pipeline is falling sharply, so most oversupplied metros are expected to inflect through 2026 and 2027.</p>
+        </details>
+        <details>
+          <summary>Why does the multifamily takeout loan often come in below the LTV ceiling?</summary>
+          <p>In a higher-rate environment the permanent agency loan is sized by debt-service coverage rather than loan-to-value. When the debt constant rises, the loan amount that satisfies a 1.25x coverage minimum on stabilized net operating income can fall well below the 80 percent LTV ceiling, leaving a funding gap against construction cost that equity must fill. This DSCR-constrained takeout is the dominant execution risk on newly built lease-up assets, which is why absorption and effective-rent accuracy matter more than headline value.</p>
+        </details>
+        <details>
+          <summary>How is absorption forecast in a multifamily market study?</summary>
+          <p>Absorption is derived across four layers: demand drivers (employment, household formation, migration, income by tier) establish annual rental demand at the subject's rent point; the supply pipeline establishes the competitive constraint, including units delivering into the lease-up window; capture-rate analysis allocates demand against the subject and competing supply; and the resulting monthly lease-up schedule, commonly 12 to 25 units per month for stabilized product, sizes the working-capital and interest reserve. Lease-up under six months signals strong demand; beyond eighteen months signals oversupply or mispricing.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BY STATE ============ -->
+  <section class="section" id="by-state" aria-labelledby="h-state">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">By Market</span>
+        <h2 id="h-state">Multifamily feasibility studies by state.</h2>
+        <p class="lede">
+          Apartment demand and supply are local. Explore the state markets where absorption, the
+          delivery pipeline, and the regulatory layer determine whether a project pencils.
+        </p>
+      </div>
+      <ul class="link-cols">
+        <li><a href="/states/texas/">Multifamily Feasibility Studies in Texas</a></li>
+        <li><a href="/states/florida/">Multifamily Feasibility Studies in Florida</a></li>
+        <li><a href="/states/california/">Multifamily Feasibility Studies in California</a></li>
+        <li><a href="/states/north-carolina/">Multifamily Feasibility Studies in North Carolina</a></li>
+        <li><a href="/states/georgia/">Multifamily Feasibility Studies in Georgia</a></li>
+        <li><a href="/states/new-york/">Multifamily Feasibility Studies in New York</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting an apartment project? Start with the market read.</h2>
+      <p>
+        A methodology briefing walks through the analytical framework, the deliverable your capital
+        source requires, and the current supply and absorption data for your metro and submarket.
+      </p>
+      <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+    </div>
+  </section>
+
+  <!-- ============ SOURCES ============ -->
+  <section class="section section-alt" id="sources" aria-labelledby="h-sources">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Sources</span>
+        <h2 id="h-sources">Data sources and dates.</h2>
+        <p class="lede">Every figure on this page traces to a named authority. Real-estate readings are point-in-time and vendor-dependent; vacancy figures differ by basis and rent figures by type, as noted.</p>
+      </div>
+      <ol class="sources">
+        <li id="s1">NAHB, Eye on Housing (July 2025), citing the U.S. Census Bureau Survey of Construction: 2024 multifamily completions, highest since 1986.</li>
+        <li id="s2">RealPage Market Analytics, 4Q 2025 Update and 2025&ndash;2026 commentary: completions, starts, net absorption, occupancy, and concessions.</li>
+        <li id="s3">Yardi Matrix, Winter 2026 outlook (via Multifamily Dive and CRE Daily): completions, rent growth, and per-unit pricing.</li>
+        <li id="s4">Freddie Mac Multifamily Outlook (2025 and 2026): rent growth and vacancy baseline.</li>
+        <li id="s5">National Apartment Association and John Burns Research, 2026 Apartment Outlook: national absorption forecast.</li>
+        <li id="s6">CBRE, Q4 2025 Multifamily Underwriting Survey and 2025 investment-volume data: cap rates, coverage conventions, and transaction volume.</li>
+        <li id="s7">CoStar, via Matthews Market Reports (Q1 2026) and CoStar releases (November 2025): overall vacancy and asking-rent growth by metro.</li>
+        <li id="s8">NAHB (December 2025): national rental vacancy reading.</li>
+        <li id="s9">Federal Housing Finance Agency (November 24, 2025): 2026 multifamily loan purchase caps, $88 billion per Enterprise.</li>
+        <li id="s10">Apartment List, national and metro rent reports (March and June 2026).</li>
+        <li id="s11">MMG Real Estate Advisors, 2026 metro forecasts (CoStar-sourced): metro deliveries, occupancy, and effective rent.</li>
+        <li id="s12">Northmarq, Q1 2026 metro apartment reports: deliveries, vacancy, and absorption.</li>
+        <li id="s13">Matthews Real Estate Investment Services, Q1 2026 multifamily reports (CoStar data): metro overall vacancy and pipeline.</li>
+        <li id="s14">Marcus &amp; Millichap and Zillow, 2026 metro data: forecasts and asking-rent readings.</li>
+        <li id="s15">MMCG database (Q1 2026): metro vacancy and rent-change estimates (proprietary single-provider; treated as one estimate among several).</li>
+        <li id="s16">PwC and Urban Land Institute, Emerging Trends in Real Estate 2026: construction-starts decline and the supply divergence.</li>
+        <li id="s17">National Council of Housing Market Analysts, Model Content Standards Version 3.1 (September 2025), via NH&amp;RA and Affordable Housing Finance.</li>
+        <li id="s18">U.S. Department of Housing and Urban Development, MAP Guide and forms HUD-92273, HUD-92274, and HUD-92264 (HUD.gov).</li>
+        <li id="s19">U.S. Small Business Administration owner-occupancy requirements (SBA Form 2234(C); OCC SBA 504 teleseminar responses).</li>
+        <li id="s20">USDA Rural Development, Section 538 and Section 515 program terms (USDA RD; Lument; VHFA; Freddie Mac Section 538 term sheet).</li>
+        <li id="s21">Congress.gov and CRS (RS22389); Novogradac (July 2025): 2026 LIHTC changes under the One Big Beautiful Bill Act.</li>
+        <li id="s22">NAA Income/Expense IQ (2024 dataset) and IREM Income/Expense Analysis: operating-expense and property-tax benchmarks. (NAA Income/Expense IQ was discontinued December 31, 2025.)</li>
+        <li id="s23">NCHMA Demand and Capture Rate Methodologies; CohnReznick LIHTC market-study guidance; Georgia DCA 2026 Market Study Manual.</li>
+        <li id="s24">LendingTree via Axios (February 2026), Bankrate (2025), and Realtor.com (June 2025): rent-versus-own comparisons across the largest metros.</li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Asset Classes</h4>
+        <ul>
+          <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
+          <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
+          <li><a href="/asset-classes/limited-service-hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/">View all asset classes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/inquiries/">Inquiries</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  var wrap=document.querySelector('.has-mega');
+  if(!wrap) return;
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+})();
+</script>
+</body>
+</html>
