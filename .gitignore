@@ -4,3 +4,6 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+
+# Source packages (not part of the site)
+*.zip
