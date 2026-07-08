@@ -12,3 +12,8 @@ Thumbs.db
 # Ignore every root-level .md (research/deep-search dumps) except the README.
 /*.md
 !/README.md
+
+# Draft page uploads — integrated into the site at their canonical paths,
+# not served raw from the repo root.
+/preview-*.html
+/index_[0-9]*.html
