@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name", footer -->
+<title>Minnesota Feasibility Studies | SBA, USDA &amp; EB-5 Analysis</title>
+<meta name="description" content="Independent, lender-grade Minnesota feasibility studies: a metro-by-metro oversupply monitor, the funding-routing map by SBA lender and CDC, and where Minnesota studies fail review.">
+<link rel="canonical" href="https://feasibility-study-company.com/states/minnesota/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company ,  Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Minnesota Feasibility Studies | Feasibility Study Company">
+<meta property="og:description" content="A standing, sourced read on where Minnesota markets are oversupplied, how deals get funded by lender and CDC, and where Minnesota feasibility studies fail review.">
+<meta property="og:url" content="https://feasibility-study-company.com/states/minnesota/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Minnesota Feasibility Studies | Feasibility Study Company">
+<meta name="twitter:description" content="A metro-by-metro Minnesota oversupply monitor, the funding-routing map, and the Minnesota-specific review failures &mdash; the two healthcare moratoria and St. Paul rent control &mdash; that sink feasibility studies.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://feasibility-study-company.com/states/minnesota/#service",
+      "name": "Minnesota Feasibility Studies",
+      "serviceType": "Feasibility study consulting",
+      "provider": { "@id": "https://feasibility-study-company.com/#org" },
+      "areaServed": { "@type": "State", "name": "Minnesota" },
+      "description": "Independent, lender-grade feasibility analysis in Minnesota for SBA 7(a) and 504, USDA Rural Development, EB-5, and conventional capital."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/states/minnesota/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Markets", "item": "https://feasibility-study-company.com/states/" },
+        { "@type": "ListItem", "position": 3, "name": "Minnesota", "item": "https://feasibility-study-company.com/states/minnesota/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://feasibility-study-company.com/states/minnesota/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Does Minnesota require a feasibility study for an SBA loan?", "acceptedAnswer": { "@type": "Answer", "text": "Under SBA SOP 50 10 8, a feasibility study is discretionary rather than universally mandated, and lenders commonly require one for special-purpose properties and startup or ground-up projects that lack operating history. Minnesota carries a heavy concentration of special-purpose, healthcare, and medtech collateral, so feasibility analysis is frequently expected on Minnesota SBA credits." } },
+        { "@type": "Question", "name": "Does Minnesota have a Certificate of Need law?", "acceptedAnswer": { "@type": "Answer", "text": "Minnesota is a non-CON state for ambulatory surgery centers, imaging, and most outpatient facilities, which face market-driven supply. But it retains two distinctive supply-control moratoria competitors routinely miss: a nursing-home bed moratorium under Minn. Stat. section 144A.071 (enacted 1983-84, one of the strictest in the nation, with new beds available only through legislatively funded exception rounds under 144A.073), and a hospital construction moratorium under Minn. Stat. section 144.551 (new hospitals and beds barred unless the legislature enacts a specific exception; 35 exceptions since 1984). Assisted living is market-driven and moved to formal licensure under chapter 144G effective August 1, 2021. Anyone who says Minnesota has no CON so healthcare supply is unregulated is wrong on both counts." } },
+        { "@type": "Question", "name": "Which Minnesota real estate markets are oversupplied right now?", "acceptedAnswer": { "@type": "Answer", "text": "As of Q4 2025, downtown Minneapolis office is oversupplied at 23.4 percent CBD vacancy, and the Twin Cities apartment market is digesting a roughly 26,000-unit 2022-24 wave, though metro vacancy compressed to a three-year low of 6.5 percent, the biggest improvement of the 50 largest U.S. markets. Rochester runs undersupplied on Mayo-anchored demand, premium western suburbs like Eden Prairie and Edina are balanced, and Twin Cities industrial is tight near 6.0 percent vacancy, about 35 percent below the national average." } },
+        { "@type": "Question", "name": "How does St. Paul rent control affect feasibility?", "acceptedAnswer": { "@type": "Answer", "text": "St. Paul voters passed one of the nation's strictest rent caps in November 2021, 3 percent per year with no new-construction exemption and no vacancy decontrol initially. New rental permitting collapsed: St. Paul builders pulled permits for just 404 housing units in 2024, down about 80 percent from the 2,077 permitted in 2020. The city rolled it back repeatedly, and a May 7, 2025 amendment permanently exempted all housing built after 2004. Underwriting St. Paul multifamily without pricing this regulatory trajectory is the classic Minnesota-metro failure mode." } },
+        { "@type": "Question", "name": "Who funds SBA and USDA loans in Minnesota?", "acceptedAnswer": { "@type": "Answer", "text": "The SBA Minnesota District Office in Minneapolis serves all 87 counties. SBA 504 credits route through statewide Certified Development Companies such as Amplio Economic Development Corporation (formerly SPEDCO) and Twin Cities Metro CDC, while the most active 7(a) lenders by Minnesota dollar volume in CY2025 were U.S. Bank, Old National Bank (the Bremer successor), and Huntington National Bank. USDA Business and Industry, Community Facilities, and REAP credits route through the Minnesota Rural Development state office in St. Paul, and roughly 96 percent of Minnesota land area is USDA-eligible rural territory." } },
+        { "@type": "Question", "name": "How is a Minnesota feasibility study different from a national one?", "acceptedAnswer": { "@type": "Answer", "text": "Minnesota is too internally divergent for statewide assumptions. The diversified, Fortune 500 Twin Cities, Mayo-anchored Rochester, the Lake Superior port at Duluth, the Iron Range, and the agricultural farm belt have distinct demand curves, and the same asset class reads oppositely across them. A defensible Minnesota study is built metro-by-metro against the current supply pipeline, the regional funding channel, and Minnesota-specific factors most studies miss: the two healthcare moratoria on nursing beds and hospitals, St. Paul rent control, the 2025 data-center incentive rewrite, and the nation's fourth-least-competitive tax environment." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+<a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem" aria-current="page">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="/inquiries/">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Minnesota &middot; Market Intelligence</p>
+      <h1>Minnesota Feasibility Studies</h1>
+      <p class="hero-sub">
+        An independent, lender-grade feasibility practice for Minnesota across SBA 7(a) and 504, USDA
+        Rural Development, EB-5, and conventional capital. This page is our standing, sourced read on
+        where Minnesota markets are oversupplied, how deals actually get funded by lender and CDC, and
+        where Minnesota feasibility studies fail review.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+        <a class="btn btn-outline" href="#monitor">Jump to the oversupply monitor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/states/">Markets</a></li>
+        <li aria-current="page">Minnesota</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ STAT BAND ============ -->
+  <section class="stat-band" aria-label="Minnesota at a glance">
+    <div class="frame">
+      <div class="stat-grid">
+        <div class="stat">
+          <div class="stat-num">6.5<span>%</span></div>
+          <div class="stat-label">Minneapolis apartment vacancy, a three-year low &mdash; the biggest improvement of the 50 largest US markets<sup class="fn"><a href="#s3">3</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">$5<span>B</span></div>
+          <div class="stat-label">Mayo Clinic's Rochester transformation, the largest investment in state history<sup class="fn"><a href="#s12">12</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">17</div>
+          <div class="stat-label">Minnesota-headquartered Fortune 500 companies, 2025<sup class="fn"><a href="#s2">2</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">~96<span>%</span></div>
+          <div class="stat-label">Minnesota land area that is USDA-eligible rural territory<sup class="fn"><a href="#s23">23</a></sup></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THESIS ============ -->
+  <section class="section" id="thesis" aria-labelledby="h-thesis">
+    <div class="frame split">
+      <div>
+        <span class="eyebrow">The Minnesota Thesis</span>
+        <h2 id="h-thesis">A statewide Minnesota number is indefensible.</h2>
+        <div class="prose" style="margin-top:22px">
+          <p>
+            Minnesota rewards feasibility work and punishes shortcuts. The state splits into at least
+            seven non-fungible demand economies: the corporate, diversified Twin Cities, which
+            generates the bulk of state output and hosts 17 Fortune 500 headquarters &mdash; the
+            highest concentration of Fortune-class headquarters per capita in the
+            nation;<sup class="fn"><a href="#s2">2</a></sup> the Mayo Clinic and Destination Medical
+            Center economy in Rochester; the Duluth and Lake Superior port; the regional and college
+            markets of St. Cloud, Mankato, and Moorhead; the Iron Range mining belt; the agricultural
+            and food-processing south and west; and the Northwoods lakes economy. The decisive fact
+            for underwriting is that the same asset class reads oppositely across these markets.
+          </p>
+          <p>
+            Multifamily is the clearest proof. Downtown Minneapolis apartments carried elevated
+            vacancy digesting a roughly 26,000-unit 2022&ndash;24 supply wave, even as premium western
+            suburbs such as Eden Prairie and Edina ran near 94 percent occupancy and led the metro on
+            rent growth above 5 percent, and Rochester demand is structurally underpinned by
+            Mayo.<sup class="fn"><a href="#s4">4</a></sup><sup class="fn"><a href="#s5">5</a></sup>
+            A single Minnesota capture rate applied across these submarkets mis-underwrites nearly
+            every deal.
+          </p>
+          <p>
+            Minnesota is also a high-tax, slow-growth, cold-climate state. It grew just 2.4 percent
+            from 2020 to 2024, to 5,842,388 residents, with growth concentrated in the Twin Cities
+            collar counties and Rochester while parts of the Iron Range run
+            flat-to-declining;<sup class="fn"><a href="#s1">1</a></sup> yet roughly 96 percent of the
+            land area qualifies as USDA-eligible rural
+            territory.<sup class="fn"><a href="#s23">23</a></sup> What follows is organized as a working
+            desk: a live oversupply monitor, a funding-routing map, the review failures that sink
+            Minnesota studies, the regulatory edges that decide outcomes &mdash; the two healthcare
+            moratoria, St. Paul rent control, and the 2025 data-center rewrite &mdash; and a per-metro
+            demand fingerprint. Every figure is dated and attributed in the
+            <a href="#sources">sources</a> below.
+          </p>
+        </div>
+      </div>
+      <aside class="panel" aria-label="Programs covered in Minnesota">
+        <h3>Programs, in Minnesota</h3>
+        <ul>
+          <li>SBA 7(a) &amp; 504 <span>Minneapolis district, 87 counties</span></li>
+          <li>USDA Rural Development <span>St. Paul state office</span></li>
+          <li>EB-5 <span>rural &amp; high-unemployment TEAs</span></li>
+          <li>Conventional &amp; institutional <span>CMBS, construction, JV equity</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ OVERSUPPLY MONITOR ============ -->
+  <section class="section section-alt" id="monitor" aria-labelledby="h-monitor">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">The Oversupply &amp; Pipeline Monitor</span>
+        <h2 id="h-monitor">Where Minnesota markets stand, metro by metro.</h2>
+        <p class="lede">
+          A supply-pressure read for each metro and asset class, refreshed each quarter from named
+          primary sources. A dash means we hold no current tracked reading, not that the market is
+          balanced. Metro reads are Q4 2025 unless noted; data current to Q2 2026.
+        </p>
+      </div>
+
+      <div class="monitor-wrap">
+        <table class="monitor">
+          <caption class="table-source" style="text-align:left;margin-bottom:12px">Supply pressure: <span class="pill pill-over">Oversupplied</span> <span class="pill pill-bal">Balanced</span> <span class="pill pill-tight">Undersupplied</span> <span class="pill pill-soft">Digesting / softening</span></caption>
+          <thead>
+            <tr>
+              <th scope="col">Metro</th>
+              <th scope="col">Multifamily</th>
+              <th scope="col">Self-Storage</th>
+              <th scope="col">Industrial</th>
+              <th scope="col">Office</th>
+              <th scope="col">Hotel Pipeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Minneapolis&ndash;St. Paul</td>
+              <td><span class="pill pill-soft">Digesting</span><span class="cell-note">6.5% vac., 3-yr low</span></td>
+              <td><span class="pill pill-soft">No read</span><span class="cell-note">climate-controlled; verify</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">6.0% vac., ~35% below US</span></td>
+              <td><span class="pill pill-over">Oversupplied</span><span class="cell-note">23.4% CBD vac., Q3 2025</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">MOA / convention / corporate</span></td>
+            </tr>
+            <tr>
+              <td>Rochester</td>
+              <td><span class="pill pill-tight">Undersupplied</span><span class="cell-note">Mayo / DMC-anchored</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-tight">Undersupplied</span><span class="cell-note">DMC biotech lab space</span></td>
+              <td><span class="pill pill-tight">Undersupplied</span><span class="cell-note">Mayo-anchored, healthier</span></td>
+              <td><span class="pill pill-tight">Undersupplied</span><span class="cell-note">6,000+ rms; medical tourism</span></td>
+            </tr>
+            <tr>
+              <td>Duluth</td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">tight, older stock</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">port; steel-cyclical</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-bal">Seasonal</span><span class="cell-note">Canal Park / Lake Superior</span></td>
+            </tr>
+            <tr>
+              <td>St. Cloud / Mankato / Moorhead</td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">regional / college-driven</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+            </tr>
+            <tr>
+              <td>Iron Range / Brainerd lakes</td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">thin; flat growth</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">taconite; steel-cyclical</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-bal">Seasonal</span><span class="cell-note">cabin-country demand</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="table-source">Readings compiled from sources 3&ndash;14 below. Self-storage per-capita and street-rate figures for Minnesota metros were not verified this cycle and are shown as no read pending a StorageCafe/Yardi pull. Vendor vacancy estimates for the same metro can differ; each figure is attributed at its point of use.</p>
+      </div>
+
+      <div class="prose" style="margin-top:44px">
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin-bottom:10px">Multifamily: the Twin Cities is digesting a record wave</h3>
+        <p>
+          The Twin Cities absorbed one of the nation's largest recent supply waves &mdash; roughly
+          26,000 apartments over 2022&ndash;24, peaking at a record 9,995 deliveries in 2022 &mdash;
+          and is now digesting it faster than any major US metro.<sup class="fn"><a href="#s4">4</a></sup>
+          Per CoStar, Minneapolis vacancy compressed 190 basis points from an all-time-high 8.4 percent
+          in Q1 2024 to a three-year low of 6.5 percent by late 2025, "the most substantial among the
+          nation's 50 largest multifamily markets by inventory" and well below the 8.2 percent US
+          average.<sup class="fn"><a href="#s3">3</a></sup> Starts then plunged 69 percent in 2024 to
+          2,443 units, far below the ten-year average of 7,808, and 2025 completions were projected to
+          drop 58 percent.<sup class="fn"><a href="#s5">5</a></sup> Submarket divergence is stark: MMG
+          forecast Q4 2025 stabilized occupancy at 92.1 percent downtown Minneapolis and 91.8 percent
+          downtown St. Paul against 95.3 percent in Highland/Mac-Groveland and 95.8 percent in
+          Northeast Minneapolis, with Eden Prairie and Edina leading on rent growth above 5
+          percent.<sup class="fn"><a href="#s4">4</a></sup><sup class="fn"><a href="#s5">5</a></sup>
+          Vendors diverge and must be reconciled before delivery: Marquette Advisors put metro vacancy
+          at 5.0 percent in Q4 2024, Yardi Matrix at 95.0 percent stabilized occupancy in March 2025,
+          and Finance &amp; Commerce reported vacancy at 7.03 percent.<sup class="fn"><a href="#s6">6</a></sup>
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Industrial: Medical Alley and the food-processing base, not a Sun Belt box</h3>
+        <p>
+          Minneapolis&ndash;St. Paul is the 13th-largest US industrial market at 303.8 million square
+          feet across 3,383 buildings.<sup class="fn"><a href="#s7">7</a></sup> Vacancy rose to 6.0
+          percent overall in Q4 2025 from about 4 percent mid-year, but remains roughly 35 percent
+          below the 9.3 percent national average and among the five tightest major markets; the
+          heaviest lease-up sits in the South Central and Southwest submarkets (Eden Prairie corridor
+          at 8.2 percent) while the Northwest, at Rogers and Otsego, and Northeast run near 4.6 to 4.7
+          percent.<sup class="fn"><a href="#s7">7</a></sup> Colliers reported Q2 2025 net absorption of
+          1.05 million square feet, asking rents steady at $9.43 triple-net, and sublease availability
+          at a cycle-high 4.3 million square feet.<sup class="fn"><a href="#s8">8</a></sup> The demand
+          base is specialized and durable: the Twin Cities anchors the world's number-one medtech
+          cluster &mdash; Medtronic in Fridley, Boston Scientific with roughly 7,000 Minnesota
+          employees in Arden Hills and Maple Grove, and 500-plus device companies &mdash; alongside a
+          food complex of Cargill, General Mills, Hormel, and Land O'Lakes. Boston Scientific listed
+          its 24-acre Minnetonka campus for sale, ceasing operations there by June 2026, a datapoint
+          underwriters must not misread as cluster decline.<sup class="fn"><a href="#s9">9</a></sup>
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Office: downtown Minneapolis distress and the conversion play</h3>
+        <p>
+          The Minneapolis CBD carries one of the more challenged post-2020 profiles among US
+          downtowns. Colliers put CBD office vacancy at 23.4 percent by the end of Q3 2025, downtown
+          St. Paul at 29 percent, and suburbs at 11.5 percent, with the metro holding roughly 20
+          million square feet of vacant space, including more than 9 million downtown.<sup class="fn"><a href="#s10">10</a></sup>
+          Distress is concrete: the Forum towers, 634,000 square feet, sold for $6.5 million, a
+          discount of more than 90 percent to the roughly $74 million 2019
+          price.<sup class="fn"><a href="#s10">10</a></sup> The metro did post its first positive
+          quarterly absorption since Q1 2022 in early 2025, driven by return-to-office mandates from
+          General Mills, 3M, Ameriprise, UnitedHealth, and Target, and Minneapolis passed a September
+          2024 ordinance streamlining office-to-residential conversions and pausing inclusionary-zoning
+          requirements for five years, though conversions run near $600,000 per unit against $250,000
+          to $350,000 for new construction.<sup class="fn"><a href="#s10">10</a></sup><sup class="fn"><a href="#s11">11</a></sup>
+          The signal is flight-to-quality: older commodity CBD product is oversupplied while Class A
+          holds.
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Hotels: Rochester's Mayo medical-tourism engine</h3>
+        <p>
+          Rochester's hotel market is a distinctive, weather-hedged demand stream. The city holds
+          6,000-plus rooms near Mayo, many connected via skyway and underground concourse, serving
+          patients and families arriving from around the world, and Mayo's $5 billion "Bold. Forward.
+          Unbound." expansion with the Destination Medical Center initiative drives ongoing hotel
+          investment.<sup class="fn"><a href="#s12">12</a></sup><sup class="fn"><a href="#s13">13</a></sup>
+          Twin Cities lodging draws on the Minneapolis Convention Center, Mall of America, U.S. Bank
+          Stadium, and Fortune 500 corporate travel, while Duluth and the Brainerd lakes run seasonal
+          Lake Superior and cabin-country demand. Current Rochester and Twin Cities RevPAR from STR or
+          CoStar was not verified this cycle and should be pulled before it drives a pro forma.
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Data centers and senior housing: the fast-moving themes</h3>
+        <p>
+          The data-center wave is the fastest-moving new theme. Meta is building an $800 million,
+          715,000-square-foot AI data center in Rosemount, announced March 2024 and slated operational
+          in 2026, powered by Xcel Energy, and has kept buying adjacent land, signaling a likely second
+          facility; Minnesota counted 42 data centers as of 2025, though Amazon suspended a Becker
+          project citing regulatory uncertainty.<sup class="fn"><a href="#s14">14</a></sup> The 2025
+          legislature rewrote the incentive, repealing the electricity sales-tax exemption while
+          extending the equipment exemption from 20 to 35 years, so power availability and the new
+          incentive structure are now the binding constraints.<sup class="fn"><a href="#s15">15</a></sup>
+          In senior housing, the divide is regulatory: skilled-nursing beds are moratorium-capped and
+          run structurally undersupplied, while assisted living is market-driven and reads
+          balanced.<sup class="fn"><a href="#s16">16</a></sup>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FUNDING ROUTING MAP ============ -->
+  <section class="section" id="funding" aria-labelledby="h-funding">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">The Funding-Routing Map</span>
+        <h2 id="h-funding">How a Minnesota deal actually gets funded.</h2>
+        <p class="lede">
+          Feasibility work exists to satisfy a specific reviewer. Knowing which lender, CDC, and agency
+          fund your asset in your region is half the battle. This is the routing most feasibility pages
+          never publish.
+        </p>
+      </div>
+
+      <div class="data-table-wrap">
+        <div class="data-table-title">Most active SBA 7(a) lenders in Minnesota</div>
+        <table class="data">
+          <caption>Minnesota booked roughly $686.8 million across 1,584 SBA 7(a) loans through 141 lenders in CY2025; figures are directional, from a repackaging of SBA loan-level data.<sup class="fn"><a href="#s21">21</a></sup></caption>
+          <thead><tr><th scope="col">Lender</th><th scope="col">Minnesota 7(a) volume / loans, CY2025</th></tr></thead>
+          <tbody>
+            <tr><td>U.S. Bank (HQ Minneapolis)</td><td>$67.9M / 257 loans</td></tr>
+            <tr><td>Old National Bank (Bremer successor)</td><td>$56.7M / 77 loans</td></tr>
+            <tr><td>Huntington National Bank</td><td>$34.8M / 167 loans</td></tr>
+            <tr><td>Platinum Bank</td><td>$31.4M / 37 loans</td></tr>
+            <tr><td>Falcon National Bank</td><td>$26.8M / 46 loans</td></tr>
+            <tr><td>Frandsen Bank &amp; Trust</td><td>$23.6M / 46 loans</td></tr>
+            <tr><td>Live Oak Banking Company (national #1)</td><td>$18.3M / 15 loans</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="prose" style="margin-top:36px">
+        <p>
+          The SBA Minnesota District Office in Minneapolis serves all 87 Minnesota
+          counties.<sup class="fn"><a href="#s20">20</a></sup> On the 504 side, the state is served by
+          statewide Certified Development Companies including Amplio Economic Development Corporation
+          &mdash; the former SPEDCO, out of Arden Hills, which reports more than 1,100 loans totaling
+          over $500 million since 1981 &mdash; alongside Twin Cities Metro CDC in Minneapolis,
+          Prairieland Economic Development Corporation, and the Minnesota Business Finance Corporation;
+          competing claims to be the largest are self-reported and unresolved without the SBA data
+          file.<sup class="fn"><a href="#s22">22</a></sup> On the 7(a) side, Minneapolis-headquartered
+          U.S. Bank and Old National Bank, the successor to Bremer whose acquisition completed in 2025,
+          lead by Minnesota dollar volume, with the national leader Live Oak Bank active in
+          special-purpose credits.<sup class="fn"><a href="#s21">21</a></sup> For rural credits, USDA
+          Business and Industry, Community Facilities, and REAP loans route through the Minnesota Rural
+          Development state office at 375 Jackson Street in St. Paul; roughly 96.3 percent of Minnesota
+          land area is USDA-eligible, only the Twin Cities, Rochester, and Duluth urban cores are
+          excluded, and the state's deep corn, soybean, hog, turkey, sugar-beet, and dairy base makes
+          agency activity deep across the farm belt.<sup class="fn"><a href="#s23">23</a></sup> The
+          decisive new tool is the July 4, 2026 decoupling of the 7(a) and 504 caps to $10 million
+          combined, the highest in agency history.<sup class="fn"><a href="#s24">24</a></sup>
+        </p>
+      </div>
+
+      <ul class="routing" aria-label="Funding routing by asset and region">
+        <li><span class="r-if">Multifamily, industrial, or office in the Twin Cities corporate core</span><span class="r-then">Conventional or CMBS, or SBA 504 via Amplio or Twin Cities Metro CDC; 7(a) via U.S. Bank, Old National, Huntington, or Frandsen.</span></li>
+        <li><span class="r-if">A hotel or medtech/lab facility in Rochester</span><span class="r-then">Conventional plus DMC coordination; SBA where owner-occupied; underwrite Mayo-anchored demand as the spine.</span></li>
+        <li><span class="r-if">Anything in greater or rural Minnesota (farm belt, Northwoods, Iron Range)</span><span class="r-then">USDA Rural Development in St. Paul for B&amp;I, Community Facilities, or REAP, layered with SBA 504 statewide via Amplio and a community bank.</span></li>
+        <li><span class="r-if">Manufacturing, especially medtech or food processing (NAICS 31&ndash;33)</span><span class="r-then">Exploit the FY2026 SBA manufacturing carve-outs &mdash; fee waivers and the 90% Made-in-America guarantee &mdash; paired with 504.</span></li>
+        <li><span class="r-if">A project outside the roughly 3.7% urban-ineligible footprint</span><span class="r-then">Default to a USDA-eligible analysis before assuming conventional-only financing.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ COMMON REVIEW FAILURES ============ -->
+  <section class="section section-alt" id="failures" aria-labelledby="h-failures">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Common Review Failures</span>
+        <h2 id="h-failures">How Minnesota feasibility studies fail review.</h2>
+        <p class="lede">
+          Each failure below is tied to a real Minnesota number. These are the recurring reasons a
+          Minnesota study loses credibility with a lender or agency, engineered out of our deliverables
+          before they ship.
+        </p>
+      </div>
+      <ol class="failures">
+        <li>
+          <div>
+            <h3>Statewide-average error</h3>
+            <p>Blending the diversified Twin Cities, Mayo-anchored Rochester, port-city Duluth, the Iron Range, and rural farm counties into one Minnesota assumption produces indefensible demand and rent projections; population and growth diverge sharply across them.<sup class="fn"><a href="#s1">1</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Oversupply blindness</h3>
+            <p>Underwriting 2021-era rent growth into the 2022&ndash;24 wave was the classic error: the metro delivered roughly 26,000 units, peaking at 9,995 in 2022, and downtown stabilized occupancy was forecast near 92 percent against 95-plus percent in supply-starved inner-ring and suburban submarkets.<sup class="fn"><a href="#s4">4</a></sup><sup class="fn"><a href="#s5">5</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Rent-control and regulatory-uncertainty misread</h3>
+            <p>St. Paul's November 2021 3-percent cap collapsed new permitting to just 404 units in 2024, down about 80 percent from the 2,077 permitted in 2020, before repeated rollbacks culminating in the May 2025 exemption of all post-2004 housing. Underwriting St. Paul multifamily without pricing this trajectory is the signature Minnesota-metro failure mode.<sup class="fn"><a href="#s18">18</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Downtown Minneapolis office and urban distress</h3>
+            <p>Underwriting the CBD on pre-2020 assumptions ignores 23.4 percent office vacancy in Q3 2025, the Forum towers selling at a more-than-90-percent discount to their 2019 price, and conversions that run near $600,000 per unit.<sup class="fn"><a href="#s10">10</a></sup><sup class="fn"><a href="#s11">11</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>High-tax and high-cost environment</h3>
+            <p>Minnesota's top individual rate is 9.85 percent, rising to 10.85 percent with the 1-percent net-investment-income surtax, and its corporate rate is 9.8 percent, both among the nation's highest; the Tax Foundation ranks the state 44th on its 2026 competitiveness index, and it also levies an estate tax. National net-operating-income assumptions understate the drag.<sup class="fn"><a href="#s19">19</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Cold-climate construction and seasonality misprice</h3>
+            <p>Minnesota's climate compresses the building season, pushes Twin Cities construction costs toward record levels, and imposes specific envelope and mechanical requirements; a pro forma built on national construction timing and cost is not defensible &mdash; though the cold is a data-center siting advantage.<sup class="fn"><a href="#s5">5</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Slow-growth demographic overreach</h3>
+            <p>Minnesota grew just 2.4 percent from 2020 to 2024. Growth concentrates in the Twin Cities collar counties &mdash; Wright up 9.4 percent, Carver up 6.8 percent &mdash; while the Iron Range and some rural counties run flat-to-declining, so a statewide growth rate overstates outstate absorption directly.<sup class="fn"><a href="#s1">1</a></sup></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ REGULATORY EDGE ============ -->
+  <section class="section" id="regulatory" aria-labelledby="h-reg">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Regulatory Edges</span>
+        <h2 id="h-reg">The Minnesota rules that decide feasibility outcomes.</h2>
+        <p class="lede">
+          Four regulatory realities separate a Minnesota study that survives review from one that does
+          not. The first is the one competitors most often state wrong &mdash; in both directions.
+        </p>
+      </div>
+      <div class="prose">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin-bottom:8px">Non-CON, but two moratoria: nursing beds and hospital construction</h3>
+        <p>
+          Minnesota does not operate a general Certificate of Need program. Ambulatory surgery centers,
+          imaging and major medical equipment, and most outpatient facilities are market-driven, so
+          oversupply risk there is elevated and the feasibility study must carry the full demand
+          burden. But two distinctive moratoria that competitors routinely miss control healthcare
+          supply. First, the nursing-home bed moratorium under Minn. Stat. &sect;144A.071, enacted in
+          1983&ndash;84 and one of the oldest and strictest in the nation, effectively caps
+          certified beds; new beds enter only through legislatively funded "moratorium exception"
+          rounds under &sect;144A.073, and the April 10, 2024 round approved just seven facilities.
+          Skilled-nursing supply therefore carries very low oversupply risk &mdash; the single most
+          important fact for Minnesota skilled-nursing feasibility.<sup class="fn"><a href="#s16">16</a></sup>
+          Second, the hospital construction moratorium under Minn. Stat. &sect;144.551 bars new
+          hospitals and any increase in beds unless the legislature enacts a specific exception; 35
+          exceptions have been enacted since 1984, governed by a &sect;144.552 public-interest review.
+          Assisted living is different: market-driven, and moved to formal licensure under Minn. Stat.
+          chapter 144G effective August 1, 2021.<sup class="fn"><a href="#s17">17</a></sup> Anyone who
+          says Minnesota has no CON, so healthcare supply is unregulated, is wrong on both counts.
+        </p>
+
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin:26px 0 8px">St. Paul rent control: the signature Minnesota-metro risk</h3>
+        <p>
+          St. Paul voters passed one of the nation's strictest rent caps in November 2021 &mdash; 3
+          percent per year, with no new-construction exemption and no vacancy decontrol initially, in
+          effect May 1, 2022. New rental permitting collapsed: St. Paul builders pulled permits for
+          just 404 housing units in 2024, down about 80 percent from the 2,077 units permitted in 2020
+          and 80 percent below the prior three-year average, and certificate-of-occupancy rental units
+          fell to 293 in 2024.<sup class="fn"><a href="#s18">18</a></sup> The city then rolled the
+          policy back repeatedly &mdash; September 2022 amendments exempted new construction for 20
+          years, and a May 7, 2025 amendment permanently exempted all housing built after 2004,
+          leaving roughly 90 percent of the rental stock still under the 3-percent cap. Minneapolis
+          passed an enabling charter amendment in 2021 but never implemented an ordinance. Underwriting
+          Twin Cities multifamily, especially in St. Paul, without pricing this trajectory is a direct
+          path to rejection.<sup class="fn"><a href="#s18">18</a></sup>
+        </p>
+
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin:26px 0 8px">The 2025 data-center rewrite and the 2040 clean-energy law</h3>
+        <p>
+          The 2025 data-center law, effective mid-2025, repealed the sales-tax exemption on
+          electricity, extended the equipment and software exemption from 20 to 35 years, created a
+          qualified large-scale data-center class for projects of $250 million or more, added
+          prevailing-wage and green-building requirements, and authorized the Public Utilities
+          Commission to define a "very large customer" class so costs are not shifted to other
+          ratepayers; the equipment exemption alone is projected to cost $133 million in FY2027, rising
+          to $219 million by FY2029.<sup class="fn"><a href="#s15">15</a></sup> Minnesota's 2023
+          law requiring 100-percent carbon-free electricity by 2040, and Xcel Energy's dominance, shape
+          large-load power planning &mdash; Amazon suspended a Becker data center citing regulatory
+          uncertainty.<sup class="fn"><a href="#s14">14</a></sup> For any power-intensive project,
+          interconnection, the post-2025 incentive structure, and clean-energy load planning are
+          first-order feasibility variables.
+        </p>
+
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin:26px 0 8px">Tailwinds in the sponsor's favor</h3>
+        <p>
+          Three recent changes cut the other way. The SBA doubled its combined 7(a)-plus-504 ceiling
+          to $10 million effective July 4, 2026, materially enlarging bankable deal
+          size;<sup class="fn"><a href="#s24">24</a></sup> FY2026 manufacturing carve-outs add fee
+          waivers and a 90-percent Made-in-America 7(a) guarantee, a direct fit for the medtech and
+          food-processing base;<sup class="fn"><a href="#s24">24</a></sup> and the data-center
+          equipment exemption, now extended to 35 years, pairs with Minnesota's cold-climate cooling
+          advantage.<sup class="fn"><a href="#s15">15</a></sup>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ METRO DIVERGENCE ============ -->
+  <section class="section section-alt" id="metros" aria-labelledby="h-metros">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Metro Divergence</span>
+        <h2 id="h-metros">Minnesota markets, distinct demand fingerprints.</h2>
+        <p class="lede">
+          Each metro carries its own economic base and its own supply position. These are the units of
+          analysis for a Minnesota study, and each anchors a dedicated market page.
+        </p>
+      </div>
+      <div class="metro-grid">
+        <div class="metro">
+          <div class="metro-tag">Corporate HQ &amp; diversified</div>
+          <h3><a href="/states/minnesota/minneapolis-st-paul/">Minneapolis&ndash;St. Paul</a></h3>
+          <p>Finance, healthcare, medtech, retail, food, and insurance across a metro of roughly 3.5 million that generates the bulk of state output and hosts 17 Fortune 500 headquarters. Multifamily is digesting in the core and balanced in the suburbs, downtown office is oversupplied, and industrial is tight.<sup class="fn"><a href="#s2">2</a></sup><sup class="fn"><a href="#s3">3</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Mayo &amp; medical tourism</div>
+          <h3><a href="/states/minnesota/rochester/">Rochester</a></h3>
+          <p>Mayo Clinic, the Destination Medical Center, medtech and biotech, and global medical tourism anchor a metro of 230,742, up 1.95 percent since 2020. Mayo's $5 billion transformation makes multifamily, hotels, and lab space structurally demand-anchored and undersupplied.<sup class="fn"><a href="#s12">12</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Port &amp; Lake Superior</div>
+          <h3><a href="/states/minnesota/duluth/">Duluth</a></h3>
+          <p>The Port of Duluth-Superior, the largest Great Lakes port by tonnage, plus iron-ore gateway logistics, healthcare, and tourism across a metro of 281,603. Housing stock is older and tight, industrial is specialized and steel-cyclical, and lodging is seasonal.</p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Regional hub &amp; college</div>
+          <h3><a href="/states/minnesota/st-cloud/">St. Cloud</a></h3>
+          <p>A regional hub of roughly 200,000 with a college anchor and a manufacturing base. Demand is steadier and less cyclical, with episodic student-oriented supply; multifamily reads balanced.</p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">College &amp; Fargo orbit</div>
+          <h3><a href="/states/minnesota/mankato/">Mankato &amp; Moorhead</a></h3>
+          <p>Mankato pairs a college and regional healthcare and retail across a metro of 104,248, while Moorhead sits in the Fargo-Moorhead cross-border economy on an agricultural base. Both read balanced and are built on primary local research.</p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Mining belt</div>
+          <h3><a href="/states/minnesota/iron-range/">Iron Range</a></h3>
+          <p>Taconite mining and processing anchor the Mesabi Range at Hibbing, Virginia, and Eveleth, with two contested copper-nickel projects, NewRange and Twin Metals, unresolved in litigation and permitting. Growth is flat-to-challenged; mining-dependent demand is not underwritten as committed.<sup class="fn"><a href="#s25">25</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Lakes &amp; tourism</div>
+          <h3><a href="/states/minnesota/brainerd/">Brainerd Lakes</a></h3>
+          <p>Cabin country and Northwoods lakes tourism drive a seasonal demand curve across Crow Wing County. Hotels, resorts, and seasonal retail must be underwritten on monthly, not annual, occupancy.</p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Data-center corridor</div>
+          <h3><a href="/states/minnesota/rosemount/">Rosemount &amp; the south metro</a></h3>
+          <p>Meta's $800 million, 715,000-square-foot AI data center at UMore Park, slated operational in 2026 and powered by Xcel Energy, anchors an emerging large-load corridor where power availability and the post-2025 incentive structure are the binding constraints.<sup class="fn"><a href="#s14">14</a></sup></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ASSET + MINNESOTA LINKS ============ -->
+  <section class="section" id="assets" aria-labelledby="h-assets">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">By Asset Class</span>
+        <h2 id="h-assets">Minnesota feasibility studies by asset class.</h2>
+        <p class="lede">
+          Each asset class carries its own Minnesota demand drivers, from Mayo medical tourism to the
+          medtech and food-processing base to Northwoods lakes seasonality. Explore the analytical
+          approach by property type.
+        </p>
+      </div>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/limited-service-hotel/">Hotel Feasibility Studies in Minnesota</a></li>
+        <li><a href="/asset-classes/assisted-living-and-memory-care/">Assisted Living Feasibility Studies</a></li>
+        <li><a href="/asset-classes/multifamily/">Multifamily Feasibility Studies in Minnesota</a></li>
+        <li><a href="/asset-classes/industrial-and-warehouse/">Industrial &amp; Warehouse Feasibility Studies</a></li>
+        <li><a href="/asset-classes/self-storage/">Self-Storage Feasibility Studies in Minnesota</a></li>
+        <li><a href="/asset-classes/cold-storage/">Cold Storage Feasibility Studies in Minnesota</a></li>
+        <li><a href="/asset-classes/gas-station-and-c-store/">Gas Station &amp; C-Store Feasibility Studies</a></li>
+        <li><a href="/asset-classes/express-car-wash/">Express Car Wash Feasibility Studies</a></li>
+        <li><a href="/asset-classes/rv-park-and-campground/">RV Park Feasibility Studies in Minnesota</a></li>
+        <li><a href="/asset-classes/event-and-wedding-venue/">Event &amp; Wedding Venue Feasibility Studies</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section-alt" id="faq" aria-labelledby="h-faq">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Minnesota Questions</span>
+        <h2 id="h-faq">Minnesota feasibility study questions.</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Does Minnesota require a feasibility study for an SBA loan?</summary>
+          <p>Under SBA SOP 50 10 8, a feasibility study is discretionary rather than universally mandated, and lenders commonly require one for special-purpose properties and startup or ground-up projects that lack operating history. Minnesota carries a heavy concentration of special-purpose, healthcare, and medtech collateral, so feasibility analysis is frequently expected on Minnesota SBA credits.</p>
+        </details>
+        <details>
+          <summary>Does Minnesota have a Certificate of Need law?</summary>
+          <p>Minnesota is a non-CON state for ambulatory surgery centers, imaging, and most outpatient facilities, which face market-driven supply. But it retains two moratoria competitors routinely miss: a nursing-home bed moratorium under Minn. Stat. &sect;144A.071 (enacted 1983&ndash;84, one of the strictest in the nation, with new beds only through exception rounds under &sect;144A.073) and a hospital construction moratorium under Minn. Stat. &sect;144.551 (35 legislative exceptions since 1984). Assisted living is market-driven and moved to licensure under chapter 144G effective August 1, 2021.</p>
+        </details>
+        <details>
+          <summary>Which Minnesota real estate markets are oversupplied right now?</summary>
+          <p>As of Q4 2025, downtown Minneapolis office is oversupplied at 23.4 percent CBD vacancy, and the Twin Cities apartment market is digesting a roughly 26,000-unit 2022&ndash;24 wave, though metro vacancy compressed to a three-year low of 6.5 percent, the biggest improvement of the 50 largest US markets. Rochester runs undersupplied on Mayo-anchored demand, premium western suburbs like Eden Prairie and Edina are balanced, and Twin Cities industrial is tight near 6.0 percent, about 35 percent below the national average.</p>
+        </details>
+        <details>
+          <summary>How does St. Paul rent control affect feasibility?</summary>
+          <p>St. Paul voters passed one of the nation's strictest rent caps in November 2021, 3 percent per year with no new-construction exemption and no vacancy decontrol initially. New rental permitting collapsed to just 404 housing units in 2024, down about 80 percent from the 2,077 permitted in 2020. The city rolled it back repeatedly, and a May 7, 2025 amendment permanently exempted all housing built after 2004. Underwriting St. Paul multifamily without pricing this trajectory is the classic Minnesota-metro failure mode.</p>
+        </details>
+        <details>
+          <summary>Who funds SBA and USDA loans in Minnesota?</summary>
+          <p>The SBA Minnesota District Office in Minneapolis serves all 87 counties. 504 credits route through statewide CDCs such as Amplio Economic Development Corporation (formerly SPEDCO) and Twin Cities Metro CDC, while the most active 7(a) lenders by Minnesota dollar volume in CY2025 were U.S. Bank, Old National Bank (the Bremer successor), and Huntington National Bank. USDA Business and Industry, Community Facilities, and REAP loans route through the Minnesota Rural Development state office in St. Paul, and roughly 96 percent of Minnesota land is USDA-eligible.</p>
+        </details>
+        <details>
+          <summary>How is a Minnesota feasibility study different from a national one?</summary>
+          <p>Minnesota is too internally divergent for statewide assumptions; the diversified, Fortune 500 Twin Cities, Mayo-anchored Rochester, the Lake Superior port at Duluth, the Iron Range, and the agricultural farm belt have distinct demand curves, and the same asset class reads oppositely across them. A defensible Minnesota study is built metro-by-metro against the current supply pipeline, the regional funding channel, and Minnesota-specific factors most studies miss: the two healthcare moratoria on nursing beds and hospitals, St. Paul rent control, the 2025 data-center incentive rewrite, and the high-tax environment.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting a Minnesota project? Start with the market read.</h2>
+      <p>
+        A methodology briefing walks through the analytical framework, the deliverable composition,
+        and the current Minnesota market data for your metro and asset class &mdash; including the two
+        healthcare moratoria, St. Paul rent control, and the data-center factors that decide Minnesota
+        outcomes.
+      </p>
+      <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+    </div>
+  </section>
+
+  <!-- ============ SOURCES ============ -->
+  <section class="section" id="sources" aria-labelledby="h-sources">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Sources</span>
+        <h2 id="h-sources">Data sources and dates.</h2>
+        <p class="lede">Every figure on this page traces to a named authority. Real-estate readings are point-in-time and vendor-dependent; where vendors disagree, the range is shown and each is attributed at its point of use.</p>
+      </div>
+      <ol class="sources">
+        <li id="s1">Minnesota State Demographic Center, population 5,842,388 as of 2024 and 2020&ndash;24 county growth (released July 2025).</li>
+        <li id="s2">Axios Twin Cities citing Fortress Financial Group, Fortune 500 headquarters concentration (July 2025); Fortune 500 2025 list (released June 2025).</li>
+        <li id="s3">CoStar, Minneapolis multifamily vacancy compression (September 25, 2025).</li>
+        <li id="s4">Marquette Advisors, Twin Cities Apartment Trends (Q4 2024), via J.P. Morgan / Chase (2025); record 2022 deliveries via Star Tribune.</li>
+        <li id="s5">MMG Real Estate Advisors, 2025 Twin Cities Multifamily Forecast (starts, completions, and submarket stabilized-occupancy projections).</li>
+        <li id="s6">Yardi Matrix, Twin Cities stabilized occupancy (March 2025); Finance &amp; Commerce, metro vacancy (April 2025) &mdash; vendor definitional differences noted.</li>
+        <li id="s7">WareCRE / Forte, Minneapolis&ndash;St. Paul industrial market size, vacancy, and submarkets (H1 2025 and Q4 2025).</li>
+        <li id="s8">Colliers, Twin Cities industrial (Q2 2025); CBRE, Twin Cities industrial (Q1 2025).</li>
+        <li id="s9">Medical Alley Association and Greater MSP medtech-cluster data; Newmark, Boston Scientific Minnetonka campus listing (2025).</li>
+        <li id="s10">Colliers, Twin Cities office vacancy (Q3 2025); JLL and Newmark office absorption and vacant-inventory data (2025); Star Tribune, Forum towers sale (2025).</li>
+        <li id="s11">City of Minneapolis, office-to-residential conversion ordinance (September 2024); Axios Twin Cities, conversion-cost estimate (2024).</li>
+        <li id="s12">Mayo Clinic, "Bold. Forward. Unbound." announcement (November 28, 2023); Post Bulletin (2023); Destination Medical Center Corporation (2013 legislative authorization).</li>
+        <li id="s13">Mayo Clinic and Experience Rochester, Rochester lodging room counts (2025). Rochester and Twin Cities RevPAR from STR / CoStar unverified this cycle; pull before publishing.</li>
+        <li id="s14">Meta, Xcel Energy, and Office of Gov. Walz, Rosemount data center (announced March 2024, operational 2026); Data Center Dynamics, adjacent-land purchases (2025); Minnesota Reformer, state data-center count and Becker suspension (June 2025).</li>
+        <li id="s15">Minnesota House Research and Minnesota Department of Revenue, 2025 data-center law (HF16 / Chapter 13, effective mid-2025); Jones Walker LLP summary; equipment-exemption cost projections ($133M FY2027, $219M FY2029).</li>
+        <li id="s16">Minn. Stat. &sect;144A.071 and &sect;144A.073, nursing-home bed moratorium; Minnesota Department of Health, moratorium-exception round (April 10, 2024).</li>
+        <li id="s17">Minn. Stat. &sect;144.551 and &sect;144.552; Minnesota House Research Department, "Minnesota's Hospital Construction Moratorium" (January 2021); Minn. Stat. chapter 144G, assisted-living licensure (effective August 1, 2021).</li>
+        <li id="s18">St. Paul rent-stabilization ordinance (November 2021; effective May 1, 2022; amended 2022, 2023, and May 7, 2025); HUD permit data via MinnPost, Minnesota Reformer (May 8, 2025) and Axios Twin Cities (May 6, 2025); St. Paul Department of Planning &amp; Economic Development via KSTP.</li>
+        <li id="s19">Tax Foundation, 2026 State Tax Competitiveness Index (Minnesota 44th); Minnesota Department of Revenue, individual (9.85%, 10.85% with surtax), corporate (9.8%), and estate tax rates (2025&ndash;2026).</li>
+        <li id="s20">U.S. Small Business Administration, Minnesota District Office (Minneapolis), 87-county coverage (2026).</li>
+        <li id="s21">GoSBA repackaging of SBA 7(a) loan-level data (CY2025), Minnesota lender activity ($686.8M / 1,584 loans / 141 lenders); 2023 Coleman Report / Lumos data (directional, verify against data.sba.gov).</li>
+        <li id="s22">Amplio Economic Development Corporation (formerly SPEDCO) and Twin Cities Metro CDC public disclosures; "largest" claims self-reported and flagged.</li>
+        <li id="s23">USDA Rural Development, Minnesota state office, 375 Jackson Street, St. Paul (updated May 2025); land-eligibility summary (~96.3% eligible) via USDAProperties.</li>
+        <li id="s24">SBA Policy Notice 5000-879058 (dated May 18, 2026; effective July 4, 2026), combined 7(a)-plus-504 cap of $10 million; FY2026 manufacturing carve-outs (fee waivers, 90% Made-in-America guarantee); NAGGL summary.</li>
+        <li id="s25">Minnesota DNR, NorthMet / NewRange permit-to-mine contested-case stay (to August 14, 2025); Twin Metals federal mineral-lease cancellation; FAST-41 "Transparency" designation (2025).</li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="/infrastructure/">Infrastructure</a></li>
+          <li><a href="/inquiries/">Inquiries</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Markets</h4>
+        <ul>
+          <li><a href="/states/texas/">Texas</a></li>
+          <li><a href="/states/california/">California</a></li>
+          <li><a href="/states/florida/">Florida</a></li>
+          <li><a href="/states/">View all markets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name", footer -->
+<title>Indiana Feasibility Studies | SBA, USDA &amp; EB-5 Analysis</title>
+<meta name="description" content="Independent, lender-grade Indiana feasibility studies: a metro-by-metro oversupply monitor, the funding-routing map by program, and where Indiana studies fail review.">
+<link rel="canonical" href="https://feasibility-study-company.com/states/indiana/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company ,  Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Indiana Feasibility Studies | Feasibility Study Company">
+<meta property="og:description" content="A standing, sourced read on where Indiana markets are oversupplied, how deals get funded by region, and where Indiana feasibility studies fail review.">
+<meta property="og:url" content="https://feasibility-study-company.com/states/indiana/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Indiana Feasibility Studies | Feasibility Study Company">
+<meta name="twitter:description" content="A metro-by-metro Indiana oversupply monitor, the funding-routing map, and the Indiana-specific review failures — CON, water, data-center power, and manufacturing cyclicality — that sink feasibility studies.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://feasibility-study-company.com/states/indiana/#service",
+      "name": "Indiana Feasibility Studies",
+      "serviceType": "Feasibility study consulting",
+      "provider": { "@id": "https://feasibility-study-company.com/#org" },
+      "areaServed": { "@type": "State", "name": "Indiana" },
+      "description": "Independent, lender-grade feasibility analysis in Indiana for SBA 7(a) and 504, USDA Rural Development, EB-5, and conventional capital."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://feasibility-study-company.com/states/indiana/#webpage",
+      "url": "https://feasibility-study-company.com/states/indiana/",
+      "name": "Indiana Feasibility Studies | SBA, USDA & EB-5 Analysis",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "about": { "@id": "https://feasibility-study-company.com/states/indiana/#service" },
+      "breadcrumb": { "@id": "https://feasibility-study-company.com/states/indiana/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/states/indiana/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Markets", "item": "https://feasibility-study-company.com/states/" },
+        { "@type": "ListItem", "position": 3, "name": "Indiana", "item": "https://feasibility-study-company.com/states/indiana/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://feasibility-study-company.com/states/indiana/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Does Indiana require a feasibility study for an SBA loan?", "acceptedAnswer": { "@type": "Answer", "text": "Under SBA SOP 50 10 8, a feasibility study is discretionary rather than universally mandated, and lenders commonly require one for special-purpose properties and startup or ground-up projects that lack operating history. Indiana carries heavy concentrations of special-purpose and manufacturing collateral, from hotels and RV and manufactured-housing plants to senior housing and industrial, so feasibility analysis is frequently expected on Indiana SBA credits." } },
+        { "@type": "Question", "name": "Does Indiana have a Certificate of Need law?", "acceptedAnswer": { "@type": "Answer", "text": "Indiana phased out its general Certificate of Need program by 2019 and does not require CON for hospitals, ambulatory surgery centers, imaging, or most facilities, which are market-driven with elevated oversupply risk. It retained a narrow CON for new nursing facilities and comprehensive-care beds under IC 16-29-7, effective July 1, 2019 and administered by the Indiana Department of Health, with a single annual review cycle each July. Skilled nursing is therefore supply-capped while assisted living and memory care are market-driven; claims that Indiana has full CON, or none at all, are both wrong." } },
+        { "@type": "Question", "name": "Which Indiana real estate markets are oversupplied right now?", "acceptedAnswer": { "@type": "Answer", "text": "As of Q1 2026 the picture is one of digestion rather than broad oversupply. Metro Indianapolis multifamily absorbed a record 2022 to 2025 wave with occupancy near 94 percent and vacancy still falling, and industrial vacancy fell to 6.9 percent; the pockets to watch are the Indianapolis CBD office market at 20 to 24 percent vacancy and Elkhart industrial, which is digesting a 13.9 percent year-over-year drop in RV shipments. Submarket dispersion is extreme, with Indianapolis industrial running 13.4 percent vacancy in the East against 2.2 percent in the Northwest." } },
+        { "@type": "Question", "name": "How do Indiana's data centers and rising electricity costs affect feasibility?", "acceptedAnswer": { "@type": "Answer", "text": "A data-center recruitment wave, including AWS's 11 billion dollar Project Rainier plus 15 billion dollars more, Google in Fort Wayne, and Meta in Jeffersonville, is a demand tailwind for industrial and construction but has strained the grid. Average residential electric bills rose 17.5 percent in the year to July 2025, and NIPSCO's rose 26.7 percent, so national utility-cost assumptions understate Indiana operating expense. A defensible pro forma prices power from current Indiana utility tariffs and accounts for the community-opposition and rate-case risk now shaping the market." } },
+        { "@type": "Question", "name": "Who funds SBA and USDA loans in Indiana?", "acceptedAnswer": { "@type": "Answer", "text": "A single SBA Indiana District Office in Indianapolis covers all 92 counties. On the 504 side, the Indiana Statewide Certified Development Corporation is dominant, providing about 51 percent of the state's 504 dollars in fiscal 2023, with Premier Capital, the Greater Northwest Indiana CDC, and the Regional Development Company also active; on the 7(a) side, Live Oak Bank leads nationally alongside Indiana-heavy lenders such as First Merchants, Old National, and Centier. USDA Business and Industry, Community Facilities, and REAP loans route through the Indianapolis state office and four area offices, with an estimated 90 percent of the state USDA-eligible." } },
+        { "@type": "Question", "name": "How is an Indiana feasibility study different from a national one?", "acceptedAnswer": { "@type": "Answer", "text": "Indiana is too internally divergent for statewide assumptions; the same asset class digests a supply wave in one metro while tightening in another, as multifamily shows with Indianapolis holding near 94 percent occupancy against declining college and legacy-industrial metros. A defensible Indiana study is built metro-by-metro against the current supply pipeline, the SBA and USDA funding channel, and the Indiana-specific factors most studies miss: the split Certificate-of-Need line, the data-center power and ratepayer strain, the LEAP water constraint, and the auto, EV-battery, and RV manufacturing cycles." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+<a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="/inquiries/">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Indiana &middot; Market Intelligence</p>
+      <h1>Indiana Feasibility Studies</h1>
+      <p class="hero-sub">
+        An independent, lender-grade feasibility practice for Indiana across SBA 7(a) and 504, USDA
+        Rural Development, EB-5, and conventional capital. This page is our standing, sourced read on
+        where Indiana markets are oversupplied, how deals actually get funded by region, and where
+        Indiana feasibility studies fail review.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+        <a class="btn btn-outline" href="#monitor">Jump to the oversupply monitor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/states/">Markets</a></li>
+        <li aria-current="page">Indiana</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ STAT BAND ============ -->
+  <section class="stat-band" aria-label="Indiana at a glance">
+    <div class="frame">
+      <div class="stat-grid">
+        <div class="stat">
+          <div class="stat-num">60<span>%</span></div>
+          <div class="stat-label">of Indiana's 2024 net population growth was in metro Indianapolis<sup class="fn"><a href="#s1">1</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">$18<span>B+</span></div>
+          <div class="stat-label">Eli Lilly's announced LEAP campus investment by May 2026<sup class="fn"><a href="#s14">14</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">88<span>%</span></div>
+          <div class="stat-label">of all U.S. and Canadian RVs are built in Indiana<sup class="fn"><a href="#s20">20</a></sup></div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">17.5<span>%</span></div>
+          <div class="stat-label">one-year jump in average residential electric bills to July 2025<sup class="fn"><a href="#s18">18</a></sup></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THESIS ============ -->
+  <section class="section" id="thesis" aria-labelledby="h-thesis">
+    <div class="frame split">
+      <div>
+        <span class="eyebrow">The Indiana Thesis</span>
+        <h2 id="h-thesis">A statewide Indiana number is indefensible.</h2>
+        <div class="prose" style="margin-top:22px">
+          <p>
+            Indiana rewards feasibility work and punishes shortcuts. Its submarkets are diverging
+            structurally, not cyclically, and the decisive fact for underwriting is that the same
+            asset class is simultaneously digesting a supply wave in one metro and tightening in
+            another. The clearest proof is demographic: the eleven-county
+            Indianapolis&ndash;Carmel&ndash;Greenwood metro added 26,661 residents in 2024 &mdash;
+            roughly 60 percent of the entire state's net growth &mdash; and now holds about 2.17
+            million people, 31 percent of Indiana, while the Michigan City&ndash;LaPorte and
+            Bloomington metros each <em>lost</em> population, about 0.2 percent, in the same year
+            (IBRC/U.S. Census Bureau, March 2025).<sup class="fn"><a href="#s1">1</a></sup> Boone
+            County, home to the LEAP district, grew 3.4 percent in 2024 and 2.6 percent in 2025, the
+            fastest in the state, even as legacy-industrial and small-manufacturing markets stagnated.
+            A single statewide capture rate applied across these markets misprices nearly every deal.
+          </p>
+          <p>
+            The state is also unevenly settled. Indiana reached 6.92 million residents in 2024, its
+            largest one-year gain since 2008, but the growth is overwhelmingly concentrated in central
+            Indiana, which the IBRC projects will rise toward 35 percent of the state's
+            population by 2050,<sup class="fn"><a href="#s2">2</a></sup> while the vast agricultural north and rural south &mdash; an estimated 90 percent
+            of the land area &mdash; remain USDA-eligible
+            territory.<sup class="fn"><a href="#s1">1</a></sup><sup class="fn"><a href="#s24">24</a></sup>
+            Indianapolis is not Elkhart; Bloomington is not Kokomo; neither resembles the Northwest
+            Indiana steel Region. We underwrite Indiana metro-by-metro, against the current pipeline,
+            the regional funding channel, and the Indiana-specific factors most studies miss.
+          </p>
+          <p>
+            What follows is organized as a working desk: a live oversupply monitor, a funding-routing
+            map, the review failures that sink Indiana studies, the regulatory edges that decide
+            outcomes &mdash; the split Certificate-of-Need line, the data-center power and ratepayer
+            strain, and the LEAP water constraint &mdash; and a per-metro demand fingerprint. Every
+            figure is dated and attributed in the <a href="#sources">sources</a> below.
+          </p>
+        </div>
+      </div>
+      <aside class="panel" aria-label="Programs covered in Indiana">
+        <h3>Programs, in Indiana</h3>
+        <ul>
+          <li>SBA 7(a) &amp; 504 <span>1 district office, 5 CDCs</span></li>
+          <li>USDA Rural Development <span>Indianapolis state office</span></li>
+          <li>EB-5 <span>rural &amp; high-unemployment TEAs</span></li>
+          <li>Conventional &amp; institutional <span>CMBS, construction, JV equity</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ OVERSUPPLY MONITOR ============ -->
+  <section class="section section-alt" id="monitor" aria-labelledby="h-monitor">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">The Oversupply &amp; Pipeline Monitor</span>
+        <h2 id="h-monitor">Where Indiana markets stand, metro by metro.</h2>
+        <p class="lede">
+          A supply-pressure read for each metro and asset class, refreshed each quarter from named
+          primary sources. A dash means we hold no current tracked reading, not that the market is
+          balanced. Metro reads are Q1 2026 unless noted; data current to Q2 2026.
+        </p>
+      </div>
+
+      <div class="monitor-wrap">
+        <table class="monitor">
+          <caption class="table-source" style="text-align:left;margin-bottom:12px">Supply pressure: <span class="pill pill-over">Oversupplied</span> <span class="pill pill-bal">Balanced</span> <span class="pill pill-tight">Undersupplied</span> <span class="pill pill-soft">Digesting / softening</span></caption>
+          <thead>
+            <tr>
+              <th scope="col">Metro / Region</th>
+              <th scope="col">Multifamily</th>
+              <th scope="col">Self-Storage</th>
+              <th scope="col">Industrial</th>
+              <th scope="col">Office</th>
+              <th scope="col">Hotel Pipeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Indianapolis (Marion + collar)</td>
+              <td><span class="pill pill-soft">Digesting</span><span class="cell-note">94.0% occ.; +7.9 pt in 2025</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">7.0 sf/capita</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">6.9% vac., digested</span></td>
+              <td><span class="pill pill-over">Oversupplied</span><span class="cell-note">CBD 20&ndash;24% vac.</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">800-room Signia opens 2026</span></td>
+            </tr>
+            <tr>
+              <td>Hamilton / Boone / Hendricks collar</td>
+              <td><span class="pill pill-soft">Digesting</span><span class="cell-note">Carmel &gt;&frac12; 2026 deliveries</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-tight">Undersupplied</span><span class="cell-note">LEAP/collar demand</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">North/Carmel flight-to-quality</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+            </tr>
+            <tr>
+              <td>Fort Wayne</td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">+4,164 residents 2024</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">Google data center</span></td>
+            </tr>
+            <tr>
+              <td>NW Indiana (the Region)</td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">Chicago-orbit</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">Steel + logistics growth</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+            </tr>
+            <tr>
+              <td>Bloomington / West Lafayette</td>
+              <td><span class="pill pill-tight">Undersupplied</span><span class="cell-note">Student-driven</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-soft">Event/seasonal</span></td>
+            </tr>
+            <tr>
+              <td>Elkhart</td>
+              <td><span class="pill pill-bal">Balanced</span><span class="cell-note">Tracks RV cycle</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-soft">Digesting</span><span class="cell-note">RV &minus;13.9% YoY</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+            </tr>
+            <tr>
+              <td>Evansville / South Bend / Kokomo</td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+              <td><span class="pill pill-soft">No read</span></td>
+              <td><span class="pill pill-bal">Balanced</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="table-source">Readings compiled from sources 3&ndash;13 below. Vendor vacancy estimates for the same metro can differ; each figure is attributed at its point of use. Secondary metros without granular quarterly vendor coverage are marked "No read."</p>
+      </div>
+
+      <div class="prose" style="margin-top:44px">
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin-bottom:10px">Multifamily: Indianapolis digested a record wave, and demand held</h3>
+        <p>
+          Metro Indianapolis absorbed a heavy 2022&ndash;2025 supply wave, yet demand held:
+          Indianapolis ranked <em>first</em> in Arbor Realty Trust's Spring 2026 multifamily
+          opportunity matrix, built with Chandan Economics, driven by a 7.9-percentage-point rise in
+          the occupancy rate in 2025 and thirty consecutive months of above-average rent
+          performance.<sup class="fn"><a href="#s3">3</a></sup> Yardi Matrix reported average asking
+          rents of $1,307 with occupancy at 94.0 percent, just below the 94.7 percent U.S.
+          average.<sup class="fn"><a href="#s4">4</a></sup> Marcus &amp; Millichap projects 2,100 new
+          units in 2026, inventory growth slowing to 1.1 percent, vacancy falling a third straight
+          year to 4.2 percent, and effective rent rising 2.1 percent to
+          $1,355.<sup class="fn"><a href="#s5">5</a></sup> The pipeline is contracting hard &mdash;
+          multifamily starts fell about 65 percent year over year in 2025, and Yardi projects a 60
+          percent drop in 2026 deliveries versus 2024.<sup class="fn"><a href="#s6">6</a></sup> The
+          suburban story matters most: Carmel will comprise more than half the metro's 2026
+          deliveries, and the classic failure is underwriting the prior decade's 5.6 percent rent
+          growth into suburban deals now running about 2.1
+          percent.<sup class="fn"><a href="#s5">5</a></sup>
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Self-storage: balanced, with a rising delivery ratio to watch</h3>
+        <p>
+          Indianapolis offers about 7.0 square feet of storage per capita, at or just below the
+          roughly 7.0-to-7.8-square-foot national benchmark, across 126 facilities and about 8.04
+          million square feet; the average 10-by-10 non-climate unit runs $85 a month, up 3.7 percent
+          year over year against a $120 national average (StorageCafe/Yardi Matrix, November
+          2025).<sup class="fn"><a href="#s12">12</a></sup> Projected 2025 deliveries of 170,035
+          square feet represent a 153 percent jump over 2024 but only about 2 percent of inventory,
+          and Indianapolis was newly added to Yardi Matrix's top-30 storage markets in October
+          2025.<sup class="fn"><a href="#s12">12</a></sup> The read is balanced, with the elevated
+          2025&ndash;2026 delivery ratio the figure to watch in specific submarkets.
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Industrial: the Crossroads asset, successfully digested</h3>
+        <p>
+          Industrial is the state's marquee story &mdash; Indiana is the Crossroads of America &mdash;
+          and Indianapolis is both the crown jewel and the classic oversupply-blindness trap. Overall
+          vacancy fell to 6.9 percent in Q1 2026 with 4.9 million square feet absorbed (CBRE), while
+          Q4 2025 alone recorded 7.2 million square feet of absorption, the strongest single quarter
+          since Q3 2021, and full-year 2025 absorption of 13.1 million square feet surpassed the prior
+          two years combined (JLL, February
+          2026).<sup class="fn"><a href="#s7">7</a></sup><sup class="fn"><a href="#s8">8</a></sup> New
+          deliveries collapsed to 3.5 million square feet in 2025, the lowest since 2016, and about 90
+          percent of the 3.7-million-square-foot pipeline is
+          preleased.<sup class="fn"><a href="#s8">8</a></sup> Submarket dispersion is extreme &mdash;
+          the East submarket carries 13.4 percent vacancy against the Northwest's 2.2 percent &mdash;
+          so a single metro-wide vacancy is indefensible; vendor estimates for Q3 2025 ran from 9.0
+          percent (Cushman &amp; Wakefield) to 10.3 percent (Avison Young), and the range should be
+          cited.<sup class="fn"><a href="#s7">7</a></sup><sup class="fn"><a href="#s9">9</a></sup><sup class="fn"><a href="#s10">10</a></sup>
+          The demand engines are real but long-dated: Eli Lilly's LEAP campus in Boone County, the
+          Kokomo StarPlus Energy battery gigafactories, and the Elkhart RV cluster &mdash; which
+          builds 88 percent of all U.S. and Canadian RVs but saw shipments fall 13.9 percent year over
+          year in March 2026 &mdash; each carry distinct timing and cyclicality
+          risk.<sup class="fn"><a href="#s14">14</a></sup><sup class="fn"><a href="#s19">19</a></sup><sup class="fn"><a href="#s20">20</a></sup>
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Office: a pronounced CBD-versus-suburban split</h3>
+        <p>
+          Indianapolis office shows pronounced bifurcation. Overall vacancy sits near 21.5 to 21.9
+          percent, but that masks the divide: downtown/CBD vacancy runs 20 to 24 percent while the
+          North/Carmel suburban corridor sees positive absorption and tightening availability on
+          flight-to-quality demand, with asking rents holding stable at $21.50 to $21.73 a square foot
+          (TenantBase, Q1 2026, citing JLL Q4 2025).<sup class="fn"><a href="#s11">11</a></sup> The
+          signal is the same flight-to-quality seen nationally: prime suburban assets tighten while
+          commodity-grade CBD product stays soft.
+        </p>
+
+        <h3 style="font-size:20px;font-weight:700;letter-spacing:-.01em;margin:28px 0 10px">Hotels: a convention-and-motorsports cycle with 2026 supply</h3>
+        <p>
+          Indianapolis is a major convention, sports, and motorsports market &mdash; the Indianapolis
+          500, the Indiana Convention Center, NCAA headquarters and frequent Final Four hosting, the
+          Colts and Pacers, and Gen Con. The metro outperformed the U.S. in 2024 on occupancy, ADR,
+          and RevPAR, boosted by the NBA All-Star Game, the Eras Tour, and the U.S. Olympic Swimming
+          Trials, then saw a modest 2025 correction absent those events (Hotel Management, June 2025,
+          citing CBRE and HVS).<sup class="fn"><a href="#s13">13</a></sup> Two 2026 supply events
+          shape the read: a 143,500-square-foot convention-center expansion and a new 800-room Signia
+          by Hilton, both a demand driver and an occupancy dilutant on delivery, against Final Fours
+          scheduled for 2026, 2028, and 2029.<sup class="fn"><a href="#s13">13</a></sup> National
+          RevPAR is projected up 2.9 percent in 2026 after a rare 2025 dip (PwC, May 2026); metro-level
+          RevPAR should be confirmed against STR or CoStar actuals before it drives a pro forma.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FUNDING ROUTING MAP ============ -->
+  <section class="section" id="funding" aria-labelledby="h-funding">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">The Funding-Routing Map</span>
+        <h2 id="h-funding">How an Indiana deal actually gets funded.</h2>
+        <p class="lede">
+          Feasibility work exists to satisfy a specific reviewer. Knowing which office and channel
+          funds your asset is half the battle. This is the routing most feasibility pages never
+          publish.
+        </p>
+      </div>
+
+      <div class="data-table-wrap">
+        <div class="data-table-title">SBA and USDA offices in Indiana</div>
+        <table class="data">
+          <caption>One SBA district office and the USDA state office cover all 92 counties.<sup class="fn"><a href="#s22">22</a></sup></caption>
+          <thead><tr><th scope="col">Office</th><th scope="col">Coverage</th></tr></thead>
+          <tbody>
+            <tr><td>SBA Indiana District Office (Indianapolis)</td><td>All 92 counties; approved 1,289 combined 7(a) and 504 loans in FY2023, supporting $728M+ in total financing</td></tr>
+            <tr><td>USDA Rural Development, Indiana State Office (Indianapolis)</td><td>Statewide via four area offices &mdash; Knox, Columbia City, Jasper, and North Vernon</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="prose" style="margin-top:36px">
+        <p>
+          On the 504 side, Indiana is served by five SBA-certified Certified Development Companies,
+          led decisively by the Indiana Statewide Certified Development Corporation, managed by
+          Cambridge Capital Management, which provided $47.5 million in FY2023 &mdash; a record and
+          roughly 51 percent of all dollars loaned by the state's five 504 lenders &mdash; with
+          Premier Capital Corporation, the Greater Northwest Indiana CDC, and the Regional Development
+          Company also active (Indiana Chamber, 2023).<sup class="fn"><a href="#s23">23</a></sup> On
+          the 7(a) side, national leader Live Oak Bank is active in the state alongside Indiana-heavy
+          lenders including First Merchants Bank, Old National Bank, Lake City Bank, Centier Bank,
+          German American, Horizon Bank, 1st Source Bank, First Internet Bank, and the large regionals
+          Huntington, PNC, and Fifth Third; exact FY2024&ndash;FY2025 dollar rankings should be pulled
+          from SBA loan-level data.<sup class="fn"><a href="#s22">22</a></sup><sup class="fn"><a href="#s23">23</a></sup>
+          For rural credits, USDA Business and Industry, Community Facilities, and REAP loans route
+          through the Indianapolis state office and its four area offices, with an estimated 90 percent
+          of Indiana land area USDA-eligible.<sup class="fn"><a href="#s24">24</a></sup> The decisive
+          new tool is the July 4, 2026 decoupling of the 7(a) and 504 caps to $10 million combined,
+          the highest in agency history.<sup class="fn"><a href="#s29">29</a></sup>
+        </p>
+      </div>
+
+      <ul class="routing" aria-label="Funding routing by asset and region">
+        <li><span class="r-if">Industrial or logistics in metro Indianapolis (Marion plus collar)</span><span class="r-then">Conventional or CMBS, or SBA 504 via the Indiana Statewide CDC paired with a First Merchants, Old National, or Huntington 7(a); after July 4, 2026, stack up to $5M of 7(a) and $5M of 504.</span></li>
+        <li><span class="r-if">A project in Northwest Indiana / the Region</span><span class="r-then">Centier Bank, a Northwest Indiana specialist, with the Greater Northwest Indiana CDC; underwrite to Chicago-orbit comparables, not statewide.</span></li>
+        <li><span class="r-if">Manufacturing &mdash; auto and EV, RV, or orthopedics (NAICS 31&ndash;33)</span><span class="r-then">7(a) with FY2026 Made-in-America fee waivers, sunset September 30, 2026, and a $5.5M 504 project limit for manufacturers.</span></li>
+        <li><span class="r-if">A rural or agricultural project in the central and northern farm belt or rural south (about 90% of Indiana land)</span><span class="r-then">USDA Rural Development B&amp;I, Community Facilities, or REAP via the relevant area office, paired with a community bank &mdash; German American in the south, 1st Source in the north-central.</span></li>
+        <li><span class="r-if">A skilled-nursing or comprehensive-care facility</span><span class="r-then">Gate the deal on an IC 16-29-7 Certificate of Need approval before financing; assisted living and memory care need no CON.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ COMMON REVIEW FAILURES ============ -->
+  <section class="section section-alt" id="failures" aria-labelledby="h-failures">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Common Review Failures</span>
+        <h2 id="h-failures">How Indiana feasibility studies fail review.</h2>
+        <p class="lede">
+          Each failure below is tied to a real Indiana number. These are the recurring reasons an
+          Indiana study loses credibility with a lender or agency, engineered out of our deliverables
+          before they ship.
+        </p>
+      </div>
+      <ol class="failures">
+        <li>
+          <div>
+            <h3>Statewide-average error</h3>
+            <p>Blending booming Indianapolis&ndash;Hamilton&ndash;Boone&ndash;Hendricks growth &mdash; Boone up 3.4 percent in 2024 &mdash; with the Bloomington and Michigan City metros, each down about 0.2 percent the same year, produces a meaningless Indiana average. Every study must lead with a metro demand fingerprint.<sup class="fn"><a href="#s1">1</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Oversupply blindness &mdash; the signature Indianapolis failure</h3>
+            <p>Metro Indianapolis multifamily, especially the northern suburbs, and industrial absorbed a heavy 2022&ndash;2025 wave. Rent growth normalized from a prior-decade 5.6 percent average to about 2.1 percent projected for 2026. Underwriting 2021-era rent growth and absorption into suburban Indianapolis deals is the classic mistake, even though demand ultimately held.<sup class="fn"><a href="#s4">4</a></sup><sup class="fn"><a href="#s5">5</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Megaproject-timing and absorption error</h3>
+            <p>LEAP (Lilly now more than $18 billion), the data centers (AWS $11 billion plus $15 billion, Google about $2 billion, Meta $800 million), and the Kokomo battery plants generate real demand on long, uncertain timelines. Lilly's API plant opens 2027, and the Stellantis&ndash;Samsung SDI joint venture faces a possible exit. Sizing workforce housing, retail, or supplier absorption to peak projected employment before it materializes is the dominant megaproject risk.<sup class="fn"><a href="#s14">14</a></sup><sup class="fn"><a href="#s16">16</a></sup><sup class="fn"><a href="#s19">19</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Water-constraint blindness</h3>
+            <p>The proposed 35-mile, up-to-100-million-gallon-a-day Wabash pipeline to Boone County is effectively dead &mdash; a state senator said "We've killed that" &mdash; and the pivot to Citizens Energy supplying up to 25 MGD to Lebanon by 2031 is itself drawing Eagle Creek Reservoir pushback. Water availability for data centers, pharma, and chip fabs is now an underwriting-material Indiana constraint.<sup class="fn"><a href="#s15">15</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Manufacturing and RV cyclicality</h3>
+            <p>The EV transition (a Stellantis JV exit risk after more than &euro;22 billion / $26.5 billion in write-downs), the RV cycle (shipments down 13.9 percent year over year in March 2026, with Elkhart County unemployment historically spiking to 18.8 percent in 2009), and the steel cycle create concentration risk that must be stress-tested in any Elkhart, Kokomo, or Northwest Indiana deal.<sup class="fn"><a href="#s19">19</a></sup><sup class="fn"><a href="#s20">20</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Power-cost and ratepayer error</h3>
+            <p>The data-center recruitment wave is straining the grid: average residential electric bills rose 17.5 percent &mdash; more than $28 a month &mdash; in the twelve months to July 1, 2025, the sharpest jump since at least 2005, with NIPSCO bills up 26.7 percent. Modeling flat utility costs, or ignoring the community-opposition risk that ousted the state utility-commission chairman, understates operating expense.<sup class="fn"><a href="#s18">18</a></sup></p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h3>Property-tax and SB 1 misread</h3>
+            <p>Indiana's circuit-breaker caps are 1, 2, and 3 percent of assessed value, and Senate Enrolled Act 1 (2025) freezes local operating levies and phases the homestead deduction toward zero, cutting property-tax bills. But the same law authorizes new and higher local income taxes to offset the lost revenue &mdash; a shift that can raise employer and occupancy costs even as property-tax bills fall, and must be modeled on both sides.<sup class="fn"><a href="#s27">27</a></sup></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ REGULATORY EDGE ============ -->
+  <section class="section" id="regulatory" aria-labelledby="h-reg">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Regulatory Edges</span>
+        <h2 id="h-reg">The Indiana rules that decide feasibility outcomes.</h2>
+        <p class="lede">
+          Several regulatory realities separate an Indiana study that survives review from one that
+          does not. The first is the one competitors most often state wrong &mdash; in both
+          directions.
+        </p>
+      </div>
+      <div class="prose">
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin-bottom:8px">Certificate of Need: repealed generally, retained for nursing beds</h3>
+        <p>
+          Indiana phased out its general Certificate of Need program through the 1990s, completing the
+          wind-down by 2019, and does not require CON for hospitals, hospital beds, ambulatory surgery
+          centers, imaging, or most health facilities &mdash; as of 2020 Indiana regulated the fewest
+          services of any CON jurisdiction (NCSL; Institute for Justice; Health Management
+          Associates).<sup class="fn"><a href="#s25">25</a></sup> For those categories supply is
+          market-driven, oversupply risk is elevated, and the feasibility study carries the full
+          demand burden. But Indiana retained a narrow CON specifically for new nursing facilities and
+          comprehensive-care beds, effective July 1, 2019 under Senate Enrolled Act 190 (2018),
+          codified at IC 16-29-7 and administered by the Indiana Department of Health; it runs a single
+          annual review cycle each July, charges a $5,000 fee, and generally permits movement of
+          existing beds rather than net-new supply.<sup class="fn"><a href="#s26">26</a></sup> The
+          feasibility line is sharp: skilled nursing and comprehensive care are supply-capped, so a CON
+          becomes a gating deliverable, while assisted living and memory care are market-driven with
+          normal oversupply risk. Competitors who say Indiana has full CON, or none at all, are both
+          wrong.
+        </p>
+
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin:26px 0 8px">The data-center wave and the power-cost strain</h3>
+        <p>
+          Indiana became one of the hottest U.S. data-center markets in 2024&ndash;2026, drawn by
+          available land, Chicago proximity, and the Data Center Gross Retail and Use Tax Exemption,
+          which waives sales and use tax on eligible equipment and the electricity it
+          consumes.<sup class="fn"><a href="#s30">30</a></sup> AWS's $11 billion Project Rainier near
+          New Carlisle went operational in October 2025 at 2.2 gigawatts, with an additional $15
+          billion committed for Northern Indiana campuses adding 2.4 gigawatts; Google is building an
+          about $2 billion campus in Fort Wayne, Meta committed $800 million in Jeffersonville, and
+          CoreWeave took 180 megawatts in
+          Hammond.<sup class="fn"><a href="#s16">16</a></sup><sup class="fn"><a href="#s17">17</a></sup>
+          The cost is borne by ratepayers: average residential electric bills rose 17.5 percent in the
+          year to July 2025, NIPSCO's by 26.7 percent, the governor ousted the utility-commission
+          chairman, and utilities have created structures such as NIPSCO's "GenCo" to shield
+          residential customers.<sup class="fn"><a href="#s18">18</a></sup> For feasibility, the wave
+          is a demand tailwind for industrial and construction but a live cost and community-opposition
+          risk.
+        </p>
+
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin:26px 0 8px">LEAP, Eli Lilly, and the new water constraint</h3>
+        <p>
+          Eli Lilly's cumulative announced investment at its Lebanon LEAP campus in Boone County passed
+          $18 billion by May 2026; the first facility opened May 6, 2026, and the API plant &mdash;
+          billed as the largest in U.S. history &mdash; opens in 2027 (Indiana Capital Chronicle;
+          WFYI).<sup class="fn"><a href="#s14">14</a></sup> The demand is real but long-dated, and its
+          defining constraint is water. The IEDC's proposed 35-mile pipeline to draw up to 100 million
+          gallons a day from the Wabash River aquifer is effectively shelved, and the pivot to Citizens
+          Energy supplying up to 25 MGD to Lebanon by 2031 from surface water is itself generating
+          Eagle Creek Reservoir opposition; the Indiana Finance Authority's 2025 studies found the
+          region "rapidly approaching a crossroads in water
+          management."<sup class="fn"><a href="#s15">15</a></sup> Any large water-using project &mdash;
+          data center, pharma, or chip fab &mdash; must now treat water availability as an underwriting
+          variable.
+        </p>
+
+        <h3 style="font-size:19px;font-weight:700;letter-spacing:-.01em;margin:26px 0 8px">Tailwinds in the sponsor's favor</h3>
+        <p>
+          Several recent changes cut the sponsor's way. Senate Enrolled Act 1 (2025) is projected to
+          save taxpayers about $1.4 billion over three years and raises the business personal-property
+          exemption toward $2 million while removing the 30 percent depreciation floor on new
+          equipment.<sup class="fn"><a href="#s27">27</a></sup> Indiana's flat individual income tax is
+          2.95 percent for 2026, falling to 2.90 percent in 2027, and the state ranks tenth on the Tax
+          Foundation's 2026 competitiveness index, the highest in the
+          Midwest.<sup class="fn"><a href="#s28">28</a></sup> And the SBA raised its combined
+          7(a)-plus-504 ceiling to $10 million effective July 4, 2026, with FY2026 manufacturing fee
+          waivers running through September 30, materially enlarging bankable deal size for Indiana's
+          manufacturing base.<sup class="fn"><a href="#s29">29</a></sup>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ METRO DIVERGENCE ============ -->
+  <section class="section section-alt" id="metros" aria-labelledby="h-metros">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Metro Divergence</span>
+        <h2 id="h-metros">Indiana markets, distinct demand fingerprints.</h2>
+        <p class="lede">
+          Each metro carries its own economic base and its own supply position. These are the units of
+          analysis for an Indiana study, and each anchors a dedicated market page.
+        </p>
+      </div>
+      <div class="metro-grid">
+        <div class="metro">
+          <div class="metro-tag">Logistics, insurance &amp; life science</div>
+          <h3><a href="/states/indiana/indianapolis/">Indianapolis&ndash;Carmel&ndash;Greenwood</a></h3>
+          <p>Logistics, insurance, life science and pharma (Eli Lilly), and advanced manufacturing across an eleven-county metro of about 2.17 million. The metro added 26,661 residents in 2024, roughly 60 percent of the state's growth. Multifamily is digesting a record wave with occupancy rising, industrial is successfully digested, and office is sharply bifurcated between a soft CBD and a tightening Carmel corridor.<sup class="fn"><a href="#s1">1</a></sup><sup class="fn"><a href="#s7">7</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Wealthy suburbs &amp; the LEAP district</div>
+          <h3><a href="/states/indiana/carmel/">Hamilton, Boone &amp; Hendricks collar</a></h3>
+          <p>The state's growth engine: Hamilton County led Indiana with +7,116 residents in 2024, and Boone County &mdash; home to the LEAP advanced-manufacturing district and Eli Lilly's $18-billion-plus campus &mdash; grew fastest at 3.4 percent. Carmel alone will comprise more than half the metro's 2026 multifamily deliveries, so capture-rate and megaproject-timing discipline decide these deals.<sup class="fn"><a href="#s1">1</a></sup><sup class="fn"><a href="#s5">5</a></sup><sup class="fn"><a href="#s14">14</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Diversified manufacturing &amp; data</div>
+          <h3><a href="/states/indiana/fort-wayne/">Fort Wayne</a></h3>
+          <p>Diversified manufacturing, insurance, and a growing Google data-center presence anchor Allen County, which added 4,164 residents in 2024. Fort Wayne is an affordable, balanced-to-tight multifamily market; precise Q1/Q2 2026 vendor metrics should be pulled before publication.<sup class="fn"><a href="#s1">1</a></sup><sup class="fn"><a href="#s17">17</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Steel, logistics &amp; Chicago orbit</div>
+          <h3><a href="/states/indiana/northwest-indiana/">Northwest Indiana / the Region</a></h3>
+          <p>Lake and Porter counties sit inside the Chicago MSA, anchored by Gary and Burns Harbor steel and the Port of Indiana, now supplemented by Chicago-spillover logistics. Legacy-industrial contraction and logistics growth run side by side, so comparables must be chosen within-region, not statewide.<sup class="fn"><a href="#s1">1</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">University-driven &amp; tight</div>
+          <h3><a href="/states/indiana/bloomington/">Bloomington &amp; West Lafayette</a></h3>
+          <p>Indiana University and Purdue drive structurally tight, student-segment housing, even though the Bloomington metro posted a 0.2 percent population decline in 2024 while Tippecanoe County was among the state's fastest-growing. Cook Medical, Subaru, and a Purdue-led semiconductor push diversify the base.<sup class="fn"><a href="#s1">1</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">RV manufacturing &amp; Notre Dame</div>
+          <h3><a href="/states/indiana/elkhart/">Elkhart &amp; South Bend</a></h3>
+          <p>Elkhart County builds 88 percent of all U.S. and Canadian RVs, a highly cyclical base &mdash; shipments fell 13.9 percent year over year in March 2026 &mdash; while South Bend adds Notre Dame and the nearby AWS Project Rainier campus. Rental demand tracks the RV cycle, the canonical Indiana concentration warning.<sup class="fn"><a href="#s20">20</a></sup><sup class="fn"><a href="#s16">16</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Auto &amp; EV battery</div>
+          <h3><a href="/states/indiana/kokomo/">Kokomo &amp; Lafayette</a></h3>
+          <p>Kokomo hosts the Stellantis&ndash;Samsung SDI StarPlus Energy battery gigafactories, and the corridor adds GM, Subaru, and Toyota. The EV-slowdown risk is live: Stellantis is exploring exiting the joint venture after more than $26 billion in write-downs, so any workforce-driven absorption must be stress-tested.<sup class="fn"><a href="#s19">19</a></sup></p>
+        </div>
+        <div class="metro">
+          <div class="metro-tag">Orthopedics &amp; specialized mfg</div>
+          <h3><a href="/states/indiana/warsaw/">Warsaw, Columbus &amp; Evansville</a></h3>
+          <p>Warsaw is the "Orthopedics Capital of the World," home to Zimmer Biomet and DePuy Synthes and roughly a third of the global $32.5-billion orthopedic-device sector, employing about 13,000; Columbus anchors Cummins diesel and Evansville anchors Southwest Indiana healthcare and manufacturing. Steadier, cluster-driven demand with thinner metro-level vendor data.<sup class="fn"><a href="#s21">21</a></sup></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ASSET + INDIANA LINKS ============ -->
+  <section class="section" id="assets" aria-labelledby="h-assets">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">By Asset Class</span>
+        <h2 id="h-assets">Indiana feasibility studies by asset class.</h2>
+        <p class="lede">
+          Each asset class carries its own Indiana demand drivers, from the Crossroads logistics
+          engine to the Elkhart RV cycle to the data-center power dynamic. Explore the analytical
+          approach by property type.
+        </p>
+      </div>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/industrial-and-warehouse/">Industrial &amp; Warehouse Feasibility Studies</a></li>
+        <li><a href="/asset-classes/multifamily/">Multifamily Feasibility Studies in Indiana</a></li>
+        <li><a href="/asset-classes/self-storage/">Self-Storage Feasibility Studies in Indiana</a></li>
+        <li><a href="/asset-classes/hotel/">Hotel Feasibility Studies in Indiana</a></li>
+        <li><a href="/asset-classes/assisted-living-and-memory-care/">Assisted Living Feasibility Studies</a></li>
+        <li><a href="/asset-classes/rv-park-and-campground/">RV Park Feasibility Studies in Indiana</a></li>
+        <li><a href="/asset-classes/rv-and-boat-storage/">RV &amp; Boat Storage Feasibility Studies</a></li>
+        <li><a href="/asset-classes/gas-station-and-c-store/">Gas Station &amp; C-Store Feasibility Studies</a></li>
+        <li><a href="/asset-classes/express-car-wash/">Express Car Wash Feasibility Studies</a></li>
+        <li><a href="/asset-classes/truck-stop-and-travel-center/">Truck Stop &amp; Travel Center Feasibility Studies</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section-alt" id="faq" aria-labelledby="h-faq">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Indiana Questions</span>
+        <h2 id="h-faq">Indiana feasibility study questions.</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Does Indiana require a feasibility study for an SBA loan?</summary>
+          <p>Under SBA SOP 50 10 8, a feasibility study is discretionary rather than universally mandated, and lenders commonly require one for special-purpose properties and startup or ground-up projects that lack operating history. Indiana carries heavy concentrations of special-purpose and manufacturing collateral, from hotels and RV and manufactured-housing plants to senior housing and industrial, so feasibility analysis is frequently expected on Indiana SBA credits.</p>
+        </details>
+        <details>
+          <summary>Does Indiana have a Certificate of Need law?</summary>
+          <p>Indiana phased out its general Certificate of Need program by 2019 and does not require CON for hospitals, ambulatory surgery centers, imaging, or most facilities, which are market-driven with elevated oversupply risk. It retained a narrow CON for new nursing facilities and comprehensive-care beds under IC 16-29-7, effective July 1, 2019 and administered by the Indiana Department of Health, with a single annual review cycle each July. Skilled nursing is therefore supply-capped while assisted living and memory care are market-driven; claims that Indiana has full CON, or none at all, are both wrong.</p>
+        </details>
+        <details>
+          <summary>Which Indiana real estate markets are oversupplied right now?</summary>
+          <p>As of Q1 2026 the picture is one of digestion rather than broad oversupply. Metro Indianapolis multifamily absorbed a record 2022&ndash;2025 wave with occupancy near 94 percent and vacancy still falling, and industrial vacancy fell to 6.9 percent; the pockets to watch are the Indianapolis CBD office market at 20 to 24 percent vacancy and Elkhart industrial, which is digesting a 13.9 percent year-over-year drop in RV shipments. Submarket dispersion is extreme, with Indianapolis industrial running 13.4 percent vacancy in the East against 2.2 percent in the Northwest.</p>
+        </details>
+        <details>
+          <summary>How do Indiana's data centers and rising electricity costs affect feasibility?</summary>
+          <p>A data-center recruitment wave, including AWS's $11 billion Project Rainier plus $15 billion more, Google in Fort Wayne, and Meta in Jeffersonville, is a demand tailwind for industrial and construction but has strained the grid. Average residential electric bills rose 17.5 percent in the year to July 2025, and NIPSCO's rose 26.7 percent, so national utility-cost assumptions understate Indiana operating expense. A defensible pro forma prices power from current Indiana utility tariffs and accounts for the community-opposition and rate-case risk now shaping the market.</p>
+        </details>
+        <details>
+          <summary>Who funds SBA and USDA loans in Indiana?</summary>
+          <p>A single SBA Indiana District Office in Indianapolis covers all 92 counties. On the 504 side, the Indiana Statewide Certified Development Corporation is dominant, providing about 51 percent of the state's 504 dollars in fiscal 2023, with Premier Capital, the Greater Northwest Indiana CDC, and the Regional Development Company also active; on the 7(a) side, Live Oak Bank leads nationally alongside Indiana-heavy lenders such as First Merchants, Old National, and Centier. USDA Business and Industry, Community Facilities, and REAP loans route through the Indianapolis state office and four area offices, with an estimated 90 percent of the state USDA-eligible.</p>
+        </details>
+        <details>
+          <summary>How is an Indiana feasibility study different from a national one?</summary>
+          <p>Indiana is too internally divergent for statewide assumptions; the same asset class digests a supply wave in one metro while tightening in another, as multifamily shows with Indianapolis holding near 94 percent occupancy against declining college and legacy-industrial metros. A defensible Indiana study is built metro-by-metro against the current supply pipeline, the SBA and USDA funding channel, and the Indiana-specific factors most studies miss: the split Certificate-of-Need line, the data-center power and ratepayer strain, the LEAP water constraint, and the auto, EV-battery, and RV manufacturing cycles.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting an Indiana project? Start with the market read.</h2>
+      <p>
+        A methodology briefing walks through the analytical framework, the deliverable composition,
+        and the current Indiana market data for your metro and asset class &mdash; including the
+        Certificate-of-Need, data-center power, and water factors that decide Indiana outcomes.
+      </p>
+      <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+    </div>
+  </section>
+
+  <!-- ============ SOURCES ============ -->
+  <section class="section" id="sources" aria-labelledby="h-sources">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Sources</span>
+        <h2 id="h-sources">Data sources and dates.</h2>
+        <p class="lede">Every figure on this page traces to a named authority. Real-estate readings are point-in-time and vendor-dependent; where vendors disagree, the range is shown and each is attributed at its point of use.</p>
+      </div>
+      <ol class="sources">
+        <li id="s1">U.S. Census Bureau and Indiana Business Research Center (IBRC), Vintage 2024 population estimates and 2024&ndash;2025 county and metro population change (March 2025 and 2026 releases).</li>
+        <li id="s2">Indiana Business Research Center, Indiana population projections 2020&ndash;2050 and central-Indiana growth analysis (2025&ndash;2026).</li>
+        <li id="s3">Arbor Realty Trust with Chandan Economics, Top Markets for Multifamily Investment Opportunity Matrix (Spring 2026).</li>
+        <li id="s4">Yardi Matrix, Indianapolis multifamily report (April 2026; trailing-three-month rent data through August 2025, occupancy through July 2025).</li>
+        <li id="s5">Marcus &amp; Millichap, 2026 Indianapolis multifamily forecast.</li>
+        <li id="s6">Walker &amp; Dunlop and Yardi Matrix, national and Indianapolis multifamily supply outlook (January 2026).</li>
+        <li id="s7">CBRE, Indianapolis industrial Figures (Q1 2026).</li>
+        <li id="s8">JLL, Indianapolis industrial market report (February 2026, full-year 2025 and Q4 2025 data).</li>
+        <li id="s9">Cushman &amp; Wakefield, U.S. and Indianapolis industrial reports (Q1 2026; Q3 2025 vacancy estimate).</li>
+        <li id="s10">Avison Young and Colliers, Indianapolis industrial vacancy estimates (Q3 2025).</li>
+        <li id="s11">TenantBase, Indianapolis office and industrial market summary (Q1 2026, citing JLL Q4 2025).</li>
+        <li id="s12">StorageCafe and Yardi Matrix, Indianapolis self-storage report (November 2025); Multi-Housing News (October 2025).</li>
+        <li id="s13">Hotel Management, Indianapolis lodging performance (June 2025, citing CBRE and HVS); PwC US Hospitality Directions (May 2026).</li>
+        <li id="s14">Eli Lilly LEAP campus investment: Indiana Capital Chronicle and WFYI (May 6&ndash;7, 2026).</li>
+        <li id="s15">LEAP water plan: WTHR / 13 Investigates (2024); Purdue Exponent (2025); Indiana Capital Chronicle (February 24, 2025); WTHR (February 10, 2026); Indiana Finance Authority Stantec/Jacobs water studies (January 2025).</li>
+        <li id="s16">Amazon Web Services Indiana data centers: Amazon (2025); CNBC (October 29, 2025); DataCenter.news.</li>
+        <li id="s17">Google "Project Zodiac" in Fort Wayne and Meta in Jeffersonville: Blackridge Research (2025); CoreWeave, Hammond (June 2025).</li>
+        <li id="s18">Citizens Action Coalition, analysis of IURC data on residential electric bills (2025); Utility Dive, NIPSCO "GenCo" framework (November 25, 2025).</li>
+        <li id="s19">StarPlus Energy (Stellantis and Samsung SDI), Kokomo: Manufacturing Dive (DOE ATVM loan, December 18, 2024); Bloomberg via electrive and Detroit News (February 2026).</li>
+        <li id="s20">RV Industry Association (RVIA), 2025 RV Industry Profile and shipment data; Elkhart Truth and Forbes (June 17, 2026); Area Development (Elkhart 2009 unemployment).</li>
+        <li id="s21">BioCrossroads and OrthoWorx, Warsaw orthopedic-device cluster profile.</li>
+        <li id="s22">U.S. Small Business Administration, Indiana District Office FY2023 lending summary (SBA.gov).</li>
+        <li id="s23">Indiana Statewide Certified Development Corporation / Cambridge Capital Management; Indiana Chamber of Commerce (2023); SBA 504 CDC data via data.sba.gov.</li>
+        <li id="s24">USDA Rural Development, Indiana State Office and four area offices (rd.usda.gov, 2026); USDAProperties.com land-eligibility estimate (indicative, non-official).</li>
+        <li id="s25">National Conference of State Legislatures, "Certificate of Need State Laws" (2025); Institute for Justice (2020); Health Management Associates / DC Health brief (2024).</li>
+        <li id="s26">Indiana Department of Health, nursing-facility Certificate of Need under IC 16-29-7 (Senate Enrolled Act 190, 2018; effective July 1, 2019; 410 IAC 40) and Bed Need Analysis (July 1, 2026).</li>
+        <li id="s27">Indiana Senate Enrolled Act 1 (2025) property-tax reform: LegiScan; Katz Sapper &amp; Miller; Indiana Senate Republicans (2025); Tax Foundation circuit-breaker cap summary.</li>
+        <li id="s28">Indiana Department of Revenue, individual income-tax rate of 2.95% for 2026 (2.90% for 2027) and SB 451 (2025); Tax Foundation 2026 State Tax Competitiveness Index.</li>
+        <li id="s29">SBA Policy Notice 5000-879058 (announced May 18, 2026; effective July 4, 2026), combined 7(a)-plus-504 cap of $10 million, with FY2026 manufacturing fee waivers sunsetting September 30, 2026; NAGGL and Capital Source Group (2026).</li>
+        <li id="s30">Indiana Data Center Gross Retail and Use Tax Exemption; Indiana Economic Development Corporation (IEDC); Data Center Frontier; Blackridge Research (2025&ndash;2026).</li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="/infrastructure/">Infrastructure</a></li>
+          <li><a href="/inquiries/">Inquiries</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Markets</h4>
+        <ul>
+          <li><a href="/states/texas/">Texas</a></li>
+          <li><a href="/states/california/">California</a></li>
+          <li><a href="/states/florida/">Florida</a></li>
+          <li><a href="/states/">View all markets</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+</body>
+</html>
