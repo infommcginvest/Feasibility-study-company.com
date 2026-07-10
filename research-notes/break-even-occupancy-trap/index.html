@@ -3,27 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name", footer -->
-<title>Feasibility Study Requirements by Loan Program | SBA, USDA</title>
-<meta name="description" content="Independent feasibility and market studies across the programs that finance commercial real estate: SBA, USDA, EB-5, and conventional and agency lending.">
-<link rel="canonical" href="https://feasibility-study-company.com/practice-areas/">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>The Break-Even Occupancy Trap | Feasibility Study Company</title>
+<meta name="description" content="A multifamily deal can clear a 1.25x DSCR at 95% occupancy and still run negative cash flow. The break-even occupancy trap, its closed-form math, and how to underwrite around it.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/break-even-occupancy-trap/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#111114">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="Feasibility Study Company">
-<meta property="og:title" content="Practice Areas | Feasibility Study Company">
-<meta property="og:description" content="Feasibility and market studies across SBA, USDA, EB-5, and conventional and agency financing. The program determines the deliverable.">
-<meta property="og:url" content="https://feasibility-study-company.com/practice-areas/">
+<meta property="og:title" content="The Break-Even Occupancy Trap: Why 1.25x DSCR Is Not the Whole Test">
+<meta property="og:description" content="How a multifamily deal clears DSCR and still cannot cash-flow: the occupancy cushion, its closed-form link to DSCR, and how rising expenses push break-even toward stabilized occupancy.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/break-even-occupancy-trap/">
 <meta property="og:image" content="https://feasibility-study-company.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-10">
+<meta property="article:modified_time" content="2026-07-10">
+<meta property="article:section" content="Research">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Practice Areas | Feasibility Study Company">
-<meta name="twitter:description" content="Feasibility and market studies across SBA, USDA, EB-5, and conventional financing.">
+<meta name="twitter:title" content="The Break-Even Occupancy Trap">
+<meta name="twitter:description" content="Why a multifamily deal can clear 1.25x DSCR at 95% and still run negative cash flow, and how to underwrite around it.">
 <meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -747,6 +750,30 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 .qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
 .qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
 
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
 </style>
 <script type="application/ld+json">
 {
@@ -760,47 +787,33 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       "logo": "https://feasibility-study-company.com/og.png"
     },
     {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/break-even-occupancy-trap/#article",
+      "headline": "The Break-Even Occupancy Trap: Why a Deal Can Clear DSCR and Still Not Cash-Flow",
+      "description": "Why a multifamily deal can clear a 1.25x stabilized DSCR at 95% occupancy and still run negative cash flow: the occupancy cushion, its closed-form link to DSCR, how rising expenses lift break-even occupancy, and how to underwrite around the trap.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/break-even-occupancy-trap/",
+      "about": [
+        { "@type": "Thing", "name": "Break-even occupancy" },
+        { "@type": "Thing", "name": "Debt service coverage ratio" },
+        { "@type": "Thing", "name": "Multifamily underwriting" },
+        { "@type": "Thing", "name": "Operating expense ratio" }
+      ]
+    },
+    {
       "@type": "BreadcrumbList",
-      "@id": "https://feasibility-study-company.com/practice-areas/#breadcrumb",
+      "@id": "https://feasibility-study-company.com/research-notes/break-even-occupancy-trap/#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Practice Areas", "item": "https://feasibility-study-company.com/practice-areas/" }
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://feasibility-study-company.com/practice-areas/#programs",
-      "name": "Feasibility study practice areas by financing program",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "SBA 7(a) and 504", "description": "Feasibility studies for owner-occupied and special-purpose commercial real estate under SBA SOP 50 10 8.", "url": "https://feasibility-study-company.com/practice-areas/sba-7a-504/" },
-        { "@type": "ListItem", "position": 2, "name": "USDA Rural Development", "description": "Feasibility studies for B&I, Community Facilities, and REAP under 7 CFR Part 5001.", "url": "https://feasibility-study-company.com/practice-areas/usda-rural-development/" },
-        { "@type": "ListItem", "position": 3, "name": "EB-5", "description": "Economic impact and job-creation analysis for EB-5 immigrant investor projects.", "url": "https://feasibility-study-company.com/practice-areas/eb-5/" },
-        { "@type": "ListItem", "position": 4, "name": "Conventional and Institutional", "description": "Market studies for agency, HUD-FHA, life-company, CMBS, and bank construction lending.", "url": "https://feasibility-study-company.com/practice-areas/conventional-institutional/" }
-      ]
-    },
-    {
-      "@type": "DefinedTermSet",
-      "@id": "https://feasibility-study-company.com/practice-areas/#glossary",
-      "name": "Financing-program glossary",
-      "hasDefinedTerm": [
-        { "@type": "DefinedTerm", "name": "SOP 50 10 8", "description": "The SBA Standard Operating Procedure governing 7(a) and 504 lending, effective June 1, 2025.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "Special-purpose property", "description": "A property whose design limits it to a single use, carrying heightened SBA underwriting scrutiny and a feasibility expectation.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "Owner-occupancy (51 / 60)", "description": "The SBA requirement that the business occupy at least 51 percent of an existing building or 60 percent of new construction.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "7 CFR Part 5001", "description": "The USDA OneRD regulation defining a feasibility study around five components and requiring one for guaranteed loans over $1M to a new entity.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "Section 538", "description": "The USDA Guaranteed Rural Rental Housing program, with rents restricted at or below 115 percent of AMI and terms up to 40 years.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "EB-5 job creation", "description": "The requirement that each EB-5 investor create at least ten full-time jobs, full-time being at least 35 hours per week.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "Targeted Employment Area (TEA)", "description": "A rural or high-unemployment area in which the reduced EB-5 investment threshold applies, under the Reform and Integrity Act of 2022.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" },
-        { "@type": "DefinedTerm", "name": "Market study", "description": "The demand and supply analysis conventional and agency lenders require, as distinct from a feasibility study, governed for multifamily by NCHMA Model Content Standards.", "inDefinedTermSet": "https://feasibility-study-company.com/practice-areas/#glossary" }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://feasibility-study-company.com/practice-areas/#faq",
-      "mainEntity": [
-        { "@type": "Question", "name": "Which financing programs require a feasibility study?", "acceptedAnswer": { "@type": "Answer", "text": "SBA expects a feasibility study for special-purpose properties and startup or ground-up projects under SOP 50 10 8. USDA requires one for guaranteed loans over one million dollars to a new entity or new business under 7 CFR Part 5001. EB-5 requires an economic impact analysis to document job creation. Conventional and agency lenders require a market study when the deal carries risk the underwriter cannot resolve from the rent roll alone, such as construction or lease-up." } },
-        { "@type": "Question", "name": "How does the feasibility study differ by program?", "acceptedAnswer": { "@type": "Answer", "text": "The program determines the deliverable and the standard it is built to. SBA and USDA studies follow their respective SOP and regulation and are keyed to eligibility. EB-5 requires a job-creation methodology accepted by USCIS. Conventional and agency lending follows NCHMA Model Content Standards and, for FHA, the HUD MAP form set, and typically calls the deliverable a market study rather than a feasibility study. The underlying analytical work overlaps, but the framing and required components differ." } },
-        { "@type": "Question", "name": "Can one study satisfy more than one program?", "acceptedAnswer": { "@type": "Answer", "text": "The core analysis of demand, supply, absorption, and financial performance is common across programs, but the deliverable must be structured to the specific reviewer. A study built for an SBA credit is not automatically formatted for a HUD MAP submission or an EB-5 filing. The practice scopes each engagement to the program that will review it so the deliverable meets that authority's requirements without rework." } },
-        { "@type": "Question", "name": "Is a feasibility study the same as a business plan?", "acceptedAnswer": { "@type": "Answer", "text": "No. A business plan is the sponsor's own strategy and projection document, and it carries the sponsor's interest in the outcome. A feasibility study is prepared by an independent third party and reaches a conclusion the sponsor does not control. This is why SBA and USDA credits call for an independent study rather than relying on the business plan alone, and why the two are not interchangeable in review." } }
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "The Break-Even Occupancy Trap", "item": "https://feasibility-study-company.com/research-notes/break-even-occupancy-trap/" }
       ]
     }
   ]
@@ -822,7 +835,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       </a>
     </div>
     <nav class="site-nav" aria-label="Primary">
-      <a href="/practice-areas/" aria-current="page">Practice Areas</a>
+      <a href="/practice-areas/">Practice Areas</a>
       <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
       <div class="has-mega">
         <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
@@ -859,7 +872,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         </div>
       </div>
       <a href="/analytical-framework/">Framework</a>
-      <a href="/research-notes/">Research</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
       <a href="/the-practice/">About</a>
       <a href="/states/" class="mobile-markets">Markets</a>
       <div class="has-mega">
@@ -907,20 +920,18 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
 <main id="main">
 
-  <!-- ============ HERO ============ -->
-  <section class="hero">
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
     <div class="frame">
-      <p class="hero-eyebrow">Practice Areas</p>
-      <h1>Feasibility studies, by financing program.</h1>
-      <p class="hero-sub">
-        The program that finances a project determines what a defensible study must contain. The
-        practice prepares feasibility and market studies across the four channels that fund commercial
-        real estate: SBA, USDA, EB-5, and conventional and agency lending. Each is built to the
-        standard that will review it.
+      <p class="hero-eyebrow">Research Note &middot; Methodology</p>
+      <h1>The Break-Even Occupancy Trap: Why a Deal Can Clear DSCR and Still Not Cash-Flow</h1>
+      <p class="article-deck">
+        A 1.25x stabilized coverage ratio is the number a credit committee trusts most. It is also the
+        number that hides how little occupancy a deal can afford to lose before cash flow turns negative.
       </p>
-      <div class="hero-actions">
-        <a class="btn" href="#contact">Request a methodology briefing</a>
-        <a class="btn btn-outline" href="#programs">Compare the programs</a>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
       </div>
     </div>
   </section>
@@ -930,298 +941,517 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     <div class="frame">
       <ol>
         <li><a href="/">Home</a></li>
-        <li aria-current="page">Practice Areas</li>
+        <li><a href="/research-notes/">Research Notes</a></li>
+        <li aria-current="page">The Break-Even Occupancy Trap</li>
       </ol>
     </div>
   </nav>
 
-  <!-- ============ ANSWER CAPSULE ============ -->
-  <section class="section" id="overview" aria-labelledby="h-ov">
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
     <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">The Short Answer</span>
-        <h2 id="h-ov">One method, four programs.</h2>
-      </div>
-      <div class="capsule">
-        <p>
-          A feasibility study answers whether a project will generate the demand and cash flow to
-          succeed and to service its debt. What changes from program to program is not the analysis
-          but the framing: the eligibility test, the required components, and the reviewing authority.
-          The practice builds each study to the program that will judge it.
-        </p>
-      </div>
-      <div class="prose">
-        <p>
-          SBA and USDA impose their requirements by regulation, and a study is keyed to eligibility as
-          much as to viability. EB-5 requires a defensible job-creation methodology that USCIS will
-          accept. Conventional and agency lenders operate differently again: no rule mandates a study,
-          so they require a market study when the deal carries risk an underwriter cannot resolve from
-          the rent roll alone. The four sections below set out when each program calls for a study, and
-          each opens into a dedicated practice page. The
-          <a href="/analytical-framework/">analytical framework</a> that underlies all four is the same.
-        </p>
-      </div>
-    </div>
-  </section>
 
-  <!-- ============ COMPARISON TABLE ============ -->
-  <section class="section section-alt" id="programs" aria-labelledby="h-prog">
-    <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">Program Comparison</span>
-        <h2 id="h-prog">When each program calls for a study.</h2>
-        <p class="lede">
-          The four financing channels, the borrowers they serve, the event that triggers a study, and
-          the standard the deliverable is built to.
-        </p>
-      </div>
-      <div class="qa-set">
-        <div class="qa">
-          <h3>Does an SBA loan require a feasibility study?</h3>
-          <p>Not automatically. Under 13 CFR 120.160(b), SBA may require a feasibility study, and one is expected in practice for special-purpose properties and for startup or ground-up projects that have no operating history to underwrite. On a straightforward acquisition of an established business in standard-use real estate, a study is often not required.</p>
-        </div>
-        <div class="qa">
-          <h3>When does USDA require a feasibility study?</h3>
-          <p>USDA requires a feasibility study, prepared by an independent qualified consultant, for guaranteed loans greater than one million dollars to a new entity or a new business, under 7 CFR Part 5001. The study must address the five components named in the regulation: economic, market, technical, financial, and management feasibility.</p>
-        </div>
-        <div class="qa">
-          <h3>How many jobs does EB-5 require?</h3>
-          <p>Each EB-5 investor must create at least ten full-time jobs, where full-time means a position requiring a minimum of 35 working hours per week. A regional-center investment may satisfy up to 90 percent of that requirement with indirect jobs quantified through an input-output economic model; a direct investment must create the positions directly.</p>
-        </div>
-      </div>
+      <p class="article-lead">
+        Every stabilized multifamily loan is sized to a coverage test the sponsor treats as the finish
+        line: a debt-service coverage ratio of 1.25x at a stabilized occupancy of 93 to 95 percent. Clear
+        it and the deal is financeable. The trouble is that the test is silent on the one question that
+        decides whether the deal survives its own operating years, which is how much occupancy it can
+        afford to lose before it stops covering its mortgage. A property can pass 1.25x on paper and still
+        sit only a point or two above the occupancy at which cash flow goes negative. That gap, invisible
+        to a DSCR-only underwrite, is the break-even occupancy trap.
+      </p>
+
+      <p>
+        The trap is not exotic. It is the predictable result of two ordinary conditions colliding: an
+        expense structure that keeps rising and a market that has stopped filling to the old assumptions.
+        This piece sets out the mechanics precisely, derives the closed-form link between the coverage
+        ratio and the break-even point, works a full 200-unit example with three sensitivity tables, and
+        shows why the current environment has pushed break-even occupancy toward stabilized occupancy for
+        a wide band of otherwise-financeable deals. The purpose is to make the hidden number visible before
+        the market does it for you.
+      </p>
+
+      <h2>Two tests on one income stream</h2>
+
+      <p>
+        Break-even occupancy and the stabilized-DSCR test are two lenses on the same income stream, and the
+        difference between them is the whole point. The stabilized-DSCR test asks a question <em>at</em> an
+        occupancy point: at an assumed stabilized occupancy, say 95 percent, does net operating income cover
+        annual debt service by the required margin of 1.25x or more? Break-even occupancy asks a question in
+        the other direction. It <em>solves for</em> the occupancy at which cash flow after debt service hits
+        zero, the point at which DSCR equals exactly 1.0x. The first is a test at a point; the second is a
+        solve for a point.
+      </p>
+      <p>
+        The distance between the two is what matters, and it has a name: the occupancy cushion, the number
+        of occupancy points between the stabilized assumption and the break-even floor. A deal underwritten
+        to exactly 1.25x at 95 percent necessarily has a break-even occupancy below 95 percent. But
+        <em>how far</em> below is governed entirely by the expense ratio and the debt load, and that gap is
+        precisely what a DSCR-only underwrite never surfaces. Thin and marginal deals hide their fragility
+        in that gap. Report the coverage ratio alone and the fragility stays hidden until a routine
+        occupancy dip exposes it.
+      </p>
+
+      <h2>The income statement every ratio hangs on</h2>
+
+      <p>
+        The four ratios that matter all hang off one income-statement chain, so it is worth stating the
+        spine before naming the ratios. Gross potential rent, sometimes called potential gross income, is
+        the rent the property would collect at 100 percent occupancy at market, plus, under the
+        potential-gross-income convention, other income from parking, pet fees, laundry, and the like.
+        Effective gross income is potential gross income minus vacancy and credit loss, plus other income.
+        Operating expenses are taxes, insurance, utilities, payroll, repairs and maintenance, management,
+        administration, and marketing; they deliberately exclude debt service, capital expenditure, and
+        depreciation. Net operating income is effective gross income minus operating expenses. Annual debt
+        service is principal plus interest for the year. Cash flow after debt service is net operating
+        income minus annual debt service, and it is the number that actually reaches the sponsor.
+      </p>
+      <p>
+        Four ratios read that chain. The <strong>debt-service coverage ratio</strong> is net operating
+        income divided by annual debt service; the agency and stabilized floor is commonly 1.25x, and at
+        1.0x the property exactly covers its debt service. The <strong>break-even ratio</strong> is
+        operating expenses plus annual debt service, divided by gross operating income, expressed as a
+        percentage. It travels under three names for a single number, being also called the break-even
+        occupancy and, in lender parlance, the default ratio (Janover, PropertyMetrics, Wall Street Prep,
+        and CommercialRealEstate.loans all use these interchangeably). A worked instance: operating expenses
+        of $200,000 plus annual debt service of $300,000, divided by gross operating income of $600,000,
+        gives 83.3 percent. <strong>Break-even occupancy</strong> proper is operating expenses plus annual
+        debt service minus other income, divided by potential gross income; it is the occupancy percentage
+        required to break even (A.CRE, Wall Street Prep, Commercial Real Estate Loans). At that occupancy,
+        effective gross income equals operating expenses plus debt service and, as Wall Street Prep puts it,
+        "for properties at breakeven occupancy, their debt service coverage ratio (DSCR) will be precisely
+        1.0x." The fourth pair completes the bridge: <strong>debt yield</strong> is net operating income
+        divided by loan, and the <strong>mortgage constant</strong> is annual debt service divided by loan.
+        The constant is the mechanism through which the interest rate and amortization term translate into
+        annual debt service, and therefore the mechanism through which rates move break-even.
+      </p>
+      <p>
+        Lenders read the break-even ratio against working thresholds, and the bands are worth having in
+        front of the committee.
+      </p>
+
       <div class="data-table-wrap">
         <table class="data">
-          <caption>Feasibility and market study requirements by financing program.</caption>
-          <thead><tr><th scope="col">Program</th><th scope="col">Who it serves</th><th scope="col">When a study is needed</th><th scope="col">Governing standard</th></tr></thead>
+          <caption>How lenders read the break-even (default) ratio.</caption>
+          <thead><tr><th scope="col">Break-even ratio</th><th scope="col">Lender reading</th></tr></thead>
           <tbody>
-            <tr><td>SBA 7(a) &amp; 504</td><td>Small businesses acquiring or building owner-occupied property</td><td>Special-purpose property; startup or ground-up projects</td><td>SBA SOP 50 10 8</td></tr>
-            <tr><td>USDA Rural Development</td><td>Rural businesses and community facilities</td><td>Guaranteed loans over $1M to a new entity or new business</td><td>7 CFR Part 5001</td></tr>
-            <tr><td>EB-5</td><td>Immigrant investor projects creating jobs</td><td>To document required job creation for the petition</td><td>USCIS Policy Manual; RIA 2022</td></tr>
-            <tr><td>Conventional &amp; Institutional</td><td>Agency, HUD-FHA, life-company, CMBS, bank borrowers</td><td>Construction, lease-up, repositioning, or story assets</td><td>NCHMA; HUD MAP Guide</td></tr>
+            <tr><td>Below 70%</td><td>Conservative</td></tr>
+            <tr><td>70&ndash;80%</td><td>Preferred</td></tr>
+            <tr><td>80&ndash;85%</td><td>Elevated</td></tr>
+            <tr><td>Above 85%</td><td>High risk / flagged</td></tr>
           </tbody>
         </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ THE FOUR PROGRAMS ============ -->
-  <section class="section" id="detail" aria-labelledby="h-detail">
-    <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">The Four Programs</span>
-        <h2 id="h-detail">Where each applies.</h2>
+        <p class="table-source">Working bands per Janover. Commercial Real Estate Loans and HUD.loans note lenders "typically prefer a break-even ratio of 85% or less" to leave cushion if expenses rise or occupancy falls; FNRP cites a normal commercial range of 60&ndash;80% and caution above 90%.</p>
       </div>
 
-      <div class="method-chain">
-        <div class="method-step">
-          <div>
-            <h3><a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504</a></h3>
-            <p>
-              The SBA programs finance owner-occupied commercial real estate for small businesses,
-              with 7(a) covering a broad range of uses and 504 structured for fixed-asset acquisition
-              and construction. SBA does not mandate a feasibility study on every deal; under 13 CFR
-              120.160(b) the agency may require one, and in practice a study is expected for
-              special-purpose properties, whose design restricts them to a single use, and for startup
-              or ground-up projects with no operating history to underwrite. Owner-occupancy thresholds
-              apply: 51 percent of the space for existing buildings and 60 percent for new construction.
-            </p>
-            <a class="method-more" href="/practice-areas/sba-7a-504/">SBA feasibility studies &rarr;</a>
-          </div>
-        </div>
-        <div class="method-step">
-          <div>
-            <h3><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></h3>
-            <p>
-              USDA's OneRD guaranteed programs, Business and Industry, Community Facilities, and the
-              Rural Energy for America Program, finance projects in eligible rural areas. The
-              regulation requires a feasibility study for guaranteed loans over one million dollars to
-              a new entity or new business, and defines the study around five components: economic,
-              market, technical, financial, and management feasibility. Rural population tests and
-              program-specific eligibility govern which projects qualify.
-            </p>
-            <a class="method-more" href="/practice-areas/usda-rural-development/">USDA feasibility studies &rarr;</a>
-          </div>
-        </div>
-        <div class="method-step">
-          <div>
-            <h3><a href="/practice-areas/eb-5/">EB-5</a></h3>
-            <p>
-              The EB-5 immigrant investor program requires that a project create a threshold number of
-              jobs per investor, and the petition must document that job creation with an economic
-              impact analysis. The analysis relies on accepted input-output methodologies and must
-              rest on economically and statistically valid and transparent forecasting tools. Minimum
-              investment is set by the Reform and Integrity Act of 2022, with a lower threshold in
-              targeted employment areas.
-            </p>
-            <a class="method-more" href="/practice-areas/eb-5/">EB-5 economic analysis &rarr;</a>
-          </div>
-        </div>
-        <div class="method-step">
-          <div>
-            <h3><a href="/practice-areas/conventional-institutional/">Conventional and Institutional</a></h3>
-            <p>
-              Conventional and agency lending, through Fannie Mae and Freddie Mac, HUD-FHA, life
-              companies, CMBS conduits, and bank construction lenders, finances the largest share of
-              commercial real estate. No regulation mandates a feasibility study here; instead, lenders
-              require a market study when the deal carries risk the rent roll cannot resolve:
-              construction, lease-up, repositioning, or a story asset. The loan is sized by coverage,
-              so the study's conclusions drive the credit.
-            </p>
-            <a class="method-more" href="/practice-areas/conventional-institutional/">Conventional market studies &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <h2>The closed-form link between DSCR and break-even</h2>
 
-  <!-- ============ WHICH PROGRAM ============ -->
-  <section class="section section-alt" id="routing" aria-labelledby="h-route">
-    <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">Which Program Applies</span>
-        <h2 id="h-route">Matching the project to the program.</h2>
-        <p class="lede">
-          A single project can sometimes route more than one way. The program follows the borrower, the
-          property, and the capital source.
-        </p>
-      </div>
-      <ul class="routing" aria-label="Program routing by project type">
-        <li><span class="r-if">Owner-occupied business acquiring or building its own premises</span><span class="r-then">SBA 7(a) or 504, subject to the 51 percent or 60 percent occupancy test.</span></li>
-        <li><span class="r-if">Business or community facility in an eligible rural area</span><span class="r-then">USDA Rural Development (B&amp;I, Community Facilities, or REAP).</span></li>
-        <li><span class="r-if">Project raising capital from immigrant investors</span><span class="r-then">EB-5, with an economic impact analysis documenting job creation.</span></li>
-        <li><span class="r-if">Investment property financed by an agency, bank, or institution</span><span class="r-then">Conventional or institutional, with a market study scoped to the capital source.</span></li>
-        <li><span class="r-if">Rural affordable multifamily</span><span class="r-then">USDA Section 538, often layered with conventional or agency structures.</span></li>
-      </ul>
-    </div>
-  </section>
+      <p>
+        The relationship between the coverage ratio and break-even occupancy is not a matter of intuition;
+        it is a clean equation, and deriving it is the analytical centerpiece of the whole problem. Treat
+        operating expenses as fixed with respect to modest occupancy swings, which is realistic for
+        multifamily: taxes, insurance, payroll, and service contracts dominate the expense line and do not
+        fall when a few units go vacant. Then net operating income at any occupancy is gross potential rent
+        times occupancy, plus other income, minus operating expenses. At the stabilized point, the coverage
+        ratio is stabilized net operating income divided by annual debt service. Break-even is the occupancy
+        at which net operating income equals annual debt service. Subtract the two conditions, divide through
+        by gross potential rent, and the result falls out cleanly.
+      </p>
 
-  <!-- ============ INSTRUMENTS COMPARISON ============ -->
-  <section class="section" id="instruments" aria-labelledby="h-inst">
-    <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">Which Instrument</span>
-        <h2 id="h-inst">Feasibility study, market study, business plan, appraisal.</h2>
-        <p class="lede">
-          Four documents are routinely confused, and a lender that asks for one will not accept
-          another in its place. Each answers a different question and is prepared to a different
-          standard.
-        </p>
-      </div>
       <div class="capsule">
         <p>
-          A feasibility study asks whether a project will work and service its debt. A market study
-          analyzes demand and supply to inform underwriting. A business plan is the sponsor's own
-          strategy document. An appraisal is an independent opinion of value. They are not
-          interchangeable, and only the first two are the practice's work.
+          Occupancy cushion = stabilized occupancy &minus; break-even occupancy = (net operating income
+          margin on gross potential rent) &times; (1 &minus; 1 &divide; DSCR). At a 1.25x coverage ratio the
+          second term is fixed at 0.20, so the entire cushion equals one-fifth of the property's
+          NOI-to-rent margin.
         </p>
       </div>
+
+      <p>
+        Read the equation as a product of two factors. The cushion is the net operating income margin on
+        gross potential rent, multiplied by a coverage factor of one minus the reciprocal of the coverage
+        ratio. At 1.25x that coverage factor is one minus 0.8, or 0.20. So the cushion is always exactly 20
+        percent of the margin between net operating income and gross potential rent. If the margin is fat,
+        because expenses are low and leverage is modest, 20 percent of a big number is a comfortable cushion.
+        If the margin is thin, because a high expense ratio or a heavy debt load has consumed the income, 20
+        percent of a small number is a razor, and the property must stay nearly full to avoid negative cash
+        flow even though it nominally cleared 1.25x. This is the exact reason a 1.25x stabilized DSCR does
+        not guarantee a comfortable break-even. The coverage test fixes the coverage factor at 0.20; the
+        expense structure and the leverage set the margin. When both work against the deal, break-even
+        creeps up toward stabilized occupancy, and the cushion collapses.
+      </p>
+
+      <h2>A worked base case</h2>
+
+      <p>
+        Numbers make the mechanism concrete. Consider a 200-unit stabilized multifamily property with gross
+        potential rent of $3,600,000, which is $1,500 per unit per month at full occupancy, and $200,000 of
+        other income held independent of occupancy. Underwriting vacancy is 5 percent, so stabilized
+        occupancy is 95 percent. The operating expense ratio is 45 percent of effective gross income, a
+        mid-range figure consistent with the roughly 44 percent that NCREIF reports for apartments.
+        Financing is a 6.0 percent rate on a 30-year amortization, which produces a mortgage constant of
+        about 7.19 percent, and the loan is sized to 1.25x DSCR at 95 percent occupancy.
+      </p>
+
+      <div class="workbox">
+        <h4>Base case &mdash; 200-unit stabilized multifamily</h4>
+        <dl>
+          <dt>Gross potential rent (100% occupied)</dt><dd>$3,600,000</dd>
+          <dt>Other income (occupancy-independent)</dt><dd>$200,000</dd>
+          <dt>Effective gross income at 95%</dt><dd>$3,620,000</dd>
+          <dt>Operating expenses (45% of EGI, held fixed)</dt><dd>$1,629,000</dd>
+          <dt>Net operating income at 95%</dt><dd>$1,991,000</dd>
+          <dt>Maximum annual debt service at 1.25x</dt><dd>$1,592,800</dd>
+          <dt>Implied loan (ADS &divide; 7.19% constant)</dt><dd>&asymp; $22.14M</dd>
+          <dt>Break-even occupancy</dt><dd>83.9%</dd>
+          <dt>Occupancy cushion</dt><dd>11.1 points</dd>
+        </dl>
+        <p class="formula">Break-even occupancy = (<em>operating expenses + annual debt service &minus; other income</em>) &divide; gross potential rent</p>
+        <p class="wb-note">Illustrative and internally consistent. The $22.14M loan is roughly 58% LTV against a value of about $37.9M at a 5.25% cap rate &mdash; a coverage-constrained loan, not an LTV-constrained one. Rents, expense ratios, and rates must be re-verified against the specific submarket.</p>
+      </div>
+
+      <p>
+        The break-even solve is (1,629,000 plus 1,592,800 minus 200,000) divided by 3,600,000, which is
+        3,021,800 over 3,600,000, or 83.9 percent. The occupancy cushion is 95 percent minus 83.9 percent,
+        or 11.1 points. The closed-form equation cross-checks it exactly: the net operating income margin on
+        gross potential rent is 1,991,000 over 3,600,000, which is 0.553, and 0.553 times the 0.20 coverage
+        factor is 11.1 points. This base case is healthy. An 11-point cushion means occupancy can fall to
+        about 84 percent before cash flow turns negative, comfortably below any normal-market trough. The
+        rest of the analysis is a study of what happens to that cushion when the inputs move.
+      </p>
+
+      <h2>How the expense ratio moves break-even</h2>
+
+      <p>
+        Hold the rate and the debt service constant, so annual debt service stays at $1,592,800, and vary
+        only the operating expense ratio. Operating expenses are recomputed off the 95 percent effective
+        gross income and then held fixed for the break-even solve. The break-even occupancy moves sharply.
+      </p>
+
       <div class="data-table-wrap">
         <table class="data">
-          <caption>The four instruments compared: the question each answers, who prepares it, and the standard it follows.</caption>
-          <thead><tr><th scope="col">Instrument</th><th scope="col">Question it answers</th><th scope="col">Prepared by</th><th scope="col">Standard</th></tr></thead>
+          <caption>Table 1. Expense ratio moves break-even (debt service held at $1,592,800; loan sized to 1.25x at 95%).</caption>
+          <thead><tr><th scope="col">Operating expense ratio</th><th scope="col">Operating expenses</th><th scope="col">Break-even occupancy</th><th scope="col">Cushion vs. 95%</th></tr></thead>
           <tbody>
-            <tr><td>Feasibility study</td><td>Will the project succeed and service its debt?</td><td>Independent third-party analyst</td><td>SBA SOP; USDA 7 CFR 5001</td></tr>
-            <tr><td>Market study</td><td>What is the demand, supply, and achievable rent?</td><td>Independent third-party analyst</td><td>NCHMA; HUD MAP</td></tr>
-            <tr><td>Business plan</td><td>What is the sponsor's strategy and projection?</td><td>The borrower or sponsor</td><td>No external standard</td></tr>
-            <tr><td>Appraisal</td><td>What is the property worth?</td><td>Licensed appraiser</td><td>USPAP</td></tr>
+            <tr><td>35%</td><td>$1,267,000</td><td>73.9%</td><td>21.1 pts</td></tr>
+            <tr><td>45% (base)</td><td>$1,629,000</td><td>83.9%</td><td>11.1 pts</td></tr>
+            <tr><td>55%</td><td>$1,991,000</td><td>94.0%</td><td>1.0 pt</td></tr>
           </tbody>
         </table>
+        <p class="table-source">Illustrative; operating expenses recomputed off the 95% EGI, then held fixed for the break-even solve.</p>
       </div>
-      <div class="prose" style="margin-top:30px">
+
+      <p>
+        A higher expense ratio raises break-even occupancy because more of each rent dollar is consumed by
+        operating costs before the mortgage is paid. At a 55 percent ratio the deal still "passes 1.25x at
+        95 percent," yet it cannot tolerate even a one-point occupancy dip. There is a further nuance that
+        deepens the effect. Because taxes, insurance, and much of payroll are genuinely fixed and do not
+        fall when occupancy falls, the larger the fixed share of expenses, the higher the operating
+        leverage, what FNRP and Wall Street Prep describe as the degree of operating leverage. High
+        operating leverage does two things at once: it lifts break-even and it makes net operating income
+        swing more violently with each point of occupancy. A high-expense deal is therefore fragile in both
+        directions, sitting closer to break-even and moving away from it faster when the market softens.
+      </p>
+
+      <h2>How leverage moves break-even</h2>
+
+      <p>
+        Now hold the rate at 6 percent and the expense ratio at 45 percent, and let the borrower push
+        leverage above the coverage-constrained level. Here the loan is set by loan-to-value first, with
+        annual debt service and the resulting coverage ratio falling out of that choice rather than driving
+        it.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Table 2. Leverage moves break-even (6% rate, 45% expense ratio; loan set by LTV).</caption>
+          <thead><tr><th scope="col">Loan-to-value</th><th scope="col">Loan</th><th scope="col">Annual debt service</th><th scope="col">DSCR at 95%</th><th scope="col">Break-even occupancy</th></tr></thead>
+          <tbody>
+            <tr><td>60%</td><td>$22.75M</td><td>$1,636,000</td><td>1.22x</td><td>85.2%</td></tr>
+            <tr><td>65%</td><td>$24.65M</td><td>$1,773,000</td><td>1.12x</td><td>89.0%</td></tr>
+            <tr><td>70%</td><td>$26.55M</td><td>$1,910,000</td><td>1.04x</td><td>92.8%</td></tr>
+            <tr><td>75%</td><td>$28.44M</td><td>$2,046,000</td><td>0.97x</td><td>96.5% (fails)</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Illustrative; loan sized by LTV, with ADS and DSCR derived from the resulting loan at a 7.19% constant.</p>
+      </div>
+
+      <p>
+        Higher leverage raises annual debt service, which raises break-even occupancy. The lesson connects
+        directly back to the coverage floor. The 1.25x DSCR requirement caps the loan at roughly $22.1
+        million, about 58 percent LTV in this case, which is exactly why the DSCR floor is also a break-even
+        control. It forces the loan down until annual debt service is low enough that break-even sits well
+        under stabilized occupancy. When a deal is sized right at the 1.25x floor, its break-even is then
+        pinned by the resulting debt service and the expense structure, not by the borrower's appetite for
+        proceeds. Push past that floor toward 70 or 75 percent LTV and break-even climbs into the low 90s or
+        fails outright. The coverage floor is doing quiet protective work that a loan-to-value target
+        undoes.
+      </p>
+
+      <h2>How interest rates move break-even</h2>
+
+      <p>
+        The third lever is the rate itself. When a borrower needs a fixed loan amount, say to hit a purchase
+        price or to refinance a maturing balance, a rising rate raises the mortgage constant and therefore
+        annual debt service on that fixed loan. Hold the loan at $22.14 million and the expense ratio at 45
+        percent, and vary the rate.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Table 3. Interest rate moves break-even (fixed $22.14M loan, 45% expense ratio).</caption>
+          <thead><tr><th scope="col">Rate</th><th scope="col">Mortgage constant</th><th scope="col">Annual debt service</th><th scope="col">Break-even occupancy</th></tr></thead>
+          <tbody>
+            <tr><td>5%</td><td>6.44%</td><td>$1,426,000</td><td>79.3%</td></tr>
+            <tr><td>6%</td><td>7.19%</td><td>$1,592,000</td><td>83.9%</td></tr>
+            <tr><td>7%</td><td>7.98%</td><td>$1,767,000</td><td>88.8%</td></tr>
+            <tr><td>8%</td><td>8.81%</td><td>$1,950,000</td><td>93.8%</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Illustrative; mortgage constant on a 30-year amortization at each rate, applied to a fixed $22.14M loan.</p>
+      </div>
+
+      <p>
+        In the current higher-rate environment, rates reach break-even through two channels at once, which
+        is the double squeeze. If the loan is coverage-constrained, sized to 1.25x, a higher rate shrinks the
+        loan; break-even stays pinned by the DSCR floor and the expense ratio, but the sponsor walks away
+        with far less in proceeds. If the sponsor instead needs a fixed loan amount, a higher rate raises
+        annual debt service directly and pushes break-even up as the table shows, from 79.3 percent at 5
+        percent to 93.8 percent at 8 percent. Either way the thin deal gets squeezed, with smaller proceeds,
+        or a higher break-even, or both. It is worth being explicit that the derivation is rate-invariant:
+        the mechanics hold at any rate, and only the specific dollar figures move with the 10-year Treasury
+        and SOFR. As of mid-2026 the Fed funds rate sits at 3.75 to 4.00 percent after a single October 2025
+        cut held through the second quarter, the 10-year Treasury is near 4.3 percent, and agency multifamily
+        prices tightest of any commercial real estate type at roughly 5.5 to 6.0 percent for stabilized
+        deals, against CMBS near 6.5 percent and bridge debt at 8 to 9.5 percent. The FHFA raised the 2026
+        agency purchase caps to $88 billion each, $176 billion in total, a 20.5 percent increase, so agency
+        capacity is not the binding constraint; the break-even math is.
+      </p>
+
+      <h2>The trap, assembled</h2>
+
+      <p>
+        Put the three levers together at the corner the 2025 and 2026 markets actually produce, and the trap
+        springs. Take the base 200-unit deal but stress it to a 52 percent expense ratio, the kind of level
+        an insurance renewal stacked on a tax reassessment can create, and finance it with a
+        coverage-constrained loan at 7 percent. Break-even occupancy lands around 90 to 91 percent. Now
+        overlay the market the property actually operates in, where many metros are running stabilized
+        occupancy of only about 90 to 93 percent with normal volatility.
+      </p>
+
+      <div class="capsule">
         <p>
-          The distinctions matter in review. A feasibility study is not an appraisal, and it is not
-          an appraisal review under USPAP Standards 3 and 4; it reaches a viability conclusion, not
-          an opinion of value. A business plan, however detailed, is the sponsor's own document and
-          carries the sponsor's interest, which is why an SBA or USDA credit calls for an independent
-          study rather than the plan alone. Where a program calls for more than one instrument, the
-          practice scopes each to the authority that will review it. The
-          <a href="/analytical-framework/">analytical framework</a> sets out how the feasibility and
-          market analysis is built.
+          At a 52 percent expense ratio and a coverage-constrained loan at 7 percent, break-even occupancy
+          lands near 90 to 91 percent, inside the band where many metros already operate. A routine
+          three-point occupancy dip, from 93 percent to 90 percent, pushes the property at or below
+          break-even into negative cash flow, even though it was underwritten to hit 1.25x at 95 percent
+          stabilized. The deal cleared the DSCR test on paper and still cannot reliably cover its mortgage.
+          That is the trap.
         </p>
       </div>
-    </div>
-  </section>
 
-  <!-- ============ GLOSSARY ============ -->
-  <section class="section section-alt" id="glossary" aria-labelledby="h-gloss">
-    <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">Program Glossary</span>
-        <h2 id="h-gloss">The program terms, defined.</h2>
-        <p class="lede">The vocabulary that recurs across the four financing programs, stated precisely.</p>
-      </div>
-      <dl class="glossary">
-        <div>
-          <dt>SOP 50 10 8</dt>
-          <dd>The SBA Standard Operating Procedure governing 7(a) and 504 lending, effective June 1, 2025, which sets out when a feasibility study and a special-purpose going-concern appraisal are expected.</dd>
-        </div>
-        <div>
-          <dt>Special-purpose property</dt>
-          <dd>A property whose design limits it to a single use, such as a hotel, car wash, or gas station. SBA identifies these as carrying heightened underwriting scrutiny and a feasibility expectation.</dd>
-        </div>
-        <div>
-          <dt>Owner-occupancy (51 / 60)</dt>
-          <dd>The SBA requirement that the borrowing business occupy at least 51 percent of an existing building, or 60 percent of new construction, for the property to be eligible.</dd>
-        </div>
-        <div>
-          <dt>7 CFR Part 5001</dt>
-          <dd>The USDA OneRD regulation defining a feasibility study around five components, economic, market, technical, financial, and management, and requiring one for guaranteed loans over one million dollars to a new entity.</dd>
-        </div>
-        <div>
-          <dt>Section 538</dt>
-          <dd>The USDA Guaranteed Rural Rental Housing program: rents restricted at or below 115 percent of area median income, terms up to 40 years, guarantees up to 90 percent, in rural areas of 35,000 or fewer population.</dd>
-        </div>
-        <div>
-          <dt>EB-5 job creation</dt>
-          <dd>The requirement that each EB-5 investor create at least ten full-time jobs, with full-time defined as a position requiring a minimum of 35 working hours per week.</dd>
-        </div>
-        <div>
-          <dt>Targeted Employment Area (TEA)</dt>
-          <dd>A rural area or an area of high unemployment in which the reduced EB-5 investment threshold applies, set by the Reform and Integrity Act of 2022.</dd>
-        </div>
-        <div>
-          <dt>Market study</dt>
-          <dd>The demand and supply analysis conventional and agency lenders require, as distinct from a feasibility study that reaches an independent viability opinion. Governed for multifamily by NCHMA Model Content Standards.</dd>
-        </div>
-      </dl>
-    </div>
-  </section>
+      <p>
+        Nothing in that scenario is a stress test in the usual sense. No recession is assumed, no rent
+        collapse, no wave of move-outs. It is an ordinary three-point wobble in occupancy landing on a deal
+        whose break-even was quietly lifted by expenses and leverage until it sat inside the range of normal
+        market volatility. The DSCR-only underwrite reported 1.25x and moved on. The occupancy cushion, had
+        it been reported, would have read one to two points, and the fragility would have been legible at
+        origination.
+      </p>
 
-  <!-- ============ FAQ ============ -->
-  <section class="section" id="faq" aria-labelledby="h-faq">
-    <div class="frame">
-      <div class="section-head">
-        <span class="eyebrow">Program Questions</span>
-        <h2 id="h-faq">Practice-area questions.</h2>
+      <h2>Why the trap is deeper in 2026</h2>
+
+      <p>
+        Two forces have converged to make the trap more common now than at any point in the last decade:
+        expenses are structurally higher, and the market is structurally softer. The expense side is the
+        mechanism that lifts break-even. Property insurance has risen more than 120 percent since 2019, a
+        figure Yardi Matrix put at the center of its National Multifamily Report in July 2025, noting that
+        "insurance costs, which increased more than 120% since 2019, played a critical role in the rise of
+        expenses." Corroborating reads point the same direction: CBRE has insurance up 132 percent since
+        December 2019, the Federal Reserve estimates roughly 77 percent real growth per unit from 2019 to
+        2024, and the NAA's Premium Pulse tracks a 55 percent rise from 2021 to 2024, to $777 per unit. At
+        the institutional level, New York Life Real Estate Investors reported in the AFIRE Summit Journal
+        ("OpEx Rising: The Other Side of NOI," March 2024) that the NCREIF apartment operating-expense ratio
+        rose from 42.5 percent pre-COVID to 44.1 percent as of the second quarter of 2023, having briefly
+        touched about 48 percent during the COVID rent disruption, with insurance the fastest-rising line
+        over the window.
+      </p>
+      <p>
+        The pace of the increase has been steep and only recently cooled. Yardi Matrix recorded total
+        operating expenses rising 8.7 percent in 2022, 9.3 percent in the trailing year to June 2023, and
+        7.1 percent in the trailing year to January 2024, reaching $8,950 per unit, with insurance up 27.7
+        percent year over year and leading every line. Growth has since decelerated sharply, with market-rate
+        expenses per unit up just 1.3 percent in the first half of 2025, but that deceleration sits on a
+        permanently higher base. Property taxes, the single largest expense line at about 26 percent of
+        operating expenses per the NAA, add their own year-one shock where reassessment-on-sale applies, as
+        in Texas, New Jersey, and Illinois. The NAA frames the cumulative squeeze memorably: on 2024 data,
+        89 cents of every rent dollar is consumed by expenses, with the mortgage taking roughly 44 cents and
+        taxes about 10, leaving thin margins that leave little room for a break-even that keeps climbing.
+      </p>
+      <p>
+        The market side of the trap is the softness that break-even is now colliding with. National apartment
+        occupancy was 94.7 percent in June 2025 per Yardi Matrix, "unchanged in four months and down just
+        0.1% over the year," easing to about 94.6 percent by November. Apartment List's national vacancy
+        index hit a record 7.2 percent in November 2025, the highest since the index began in 2017, as CNBC
+        reported on December 2, 2025, after peaks of 7.3 percent in February 2025 and again in January 2026;
+        the Census rental vacancy rate was 7.3 percent in the first quarter of 2026. The driver is supply:
+        more than 600,000 multifamily units delivered in 2024, the most in a single year since 1986, per
+        Apartment List. Crucially, stabilized vacancy excluding lease-up has stayed elevated in the mid-6
+        percent range through 2025, which is why pro-forma assumptions of a quick snap-back to 95 percent
+        may be too optimistic in certain metros, where properties might operate at 90 to 93 percent occupancy
+        for an extended period.
+      </p>
+      <p>
+        The distress data confirm that the trap is not theoretical. Office CMBS delinquency reached an
+        all-time high of 12.34 percent in January 2026, per Trepp via Multi-Housing News, with multifamily
+        delinquency also rising to fresh peaks near 6.9 to 7.15 percent. A JPMorgan CMBS analysis, reported
+        through CREFC and Trepp, found that 2022-vintage deals were underwritten with operating expenses at
+        roughly 32 percent of revenue against a realistic norm of 38 to 40 percent, which is precisely the
+        expense-ratio underestimate that lowers modeled break-even and hides the trap at origination. Trepp's
+        Parkmerced example makes the endpoint vivid: 83 percent occupancy drove DSCR to 0.47x, far below
+        break-even. Underwrite expenses too low and the break-even you report is a fiction; the market then
+        supplies the true number.
+      </p>
+
+      <h2>Lease-up, the interest reserve, and the years the reserve does not cover</h2>
+
+      <p>
+        There is a version of below-break-even operation that is expected and funded, and it is worth
+        separating it cleanly from the trap. During lease-up, a property is by definition below break-even
+        occupancy: DSCR is under 1.0x and cash flow is negative. That is exactly why the interest reserve
+        exists. It funds monthly debt service until the property reaches break-even DSCR of 1.0x, at which
+        point reserve disbursements stop and the property's own cash flow services the loan (PeerSense,
+        A.CRE). Underwriters size the reserve off the lease-up curve plus a two-to-three-month cushion beyond
+        the projected break-even month. Fannie Mae's Near-Stabilization execution formalizes the same logic,
+        allowing 75 percent physical occupancy at rate lock, with twelve months of interest-only, sized to
+        1.25x on stabilized net operating income.
+      </p>
+      <p>
+        Here is the bridge, and it is where the two ideas connect. The interest reserve solves the temporary
+        below-break-even problem of lease-up. But if the stabilized break-even occupancy is dangerously
+        high, the trap described above, then the deal is fragile even after the reserve burns off and
+        lease-up completes, because now there is no reserve left to catch a routine occupancy dip. A reserve
+        that is sized only to the lease-up curve, without regard to whether the post-stabilization break-even
+        is survivable, protects the wrong years. It carries the property to a stabilized state that itself
+        cannot absorb ordinary volatility. Sizing the reserve and testing the stabilized cushion are two
+        separate exercises, and a study that does only the first has left the more dangerous risk
+        unexamined.
+      </p>
+
+      <h2>Underwriting around the trap</h2>
+
+      <p>
+        The remedy is procedural, and it starts with what appears on the memo. Report all four numbers on
+        every credit memo and feasibility study, not just the coverage ratio: stabilized DSCR, break-even
+        occupancy, the occupancy cushion, and debt yield. The cushion, the simple difference between
+        stabilized and break-even occupancy, is the single most decision-relevant number the DSCR-only test
+        hides. Then benchmark break-even not against the pro-forma 95 percent but against the submarket's
+        realistic sustained occupancy and its history, pulling the submarket's historical mean occupancy, its
+        standard deviation, and its trough or 10th-percentile occupancy in the last downturn.
+      </p>
+      <p>
+        That benchmark supports a hard flag. If break-even occupancy exceeds the submarket's trough or
+        10th-percentile historical occupancy, classify the deal high-risk regardless of a passing 1.25x
+        test. On the cushion itself, a workable convention treats a cushion under about 5 points as a red
+        flag, 5 to 10 points as marginal, and more than 10 points as healthy; the base case above, at 11.1
+        points, clears comfortably. Stress the expense side explicitly rather than trusting a market-blind
+        ratio: re-run break-even at the operating expense ratio plus 300 to 500 basis points, because an
+        insurance renewal plus a tax reassessment can move the ratio that much in a single year, as Capstone
+        has documented, and confirm break-even still clears the trough. Underwrite operating expenses
+        bottom-up by line item; a blanket 40 percent applied without regard to the submarket is how the
+        2022-vintage underestimate happened.
+      </p>
+      <p>
+        When the cushion comes back thin, the diagnosis points to specific levers. Lower the leverage, which
+        the DSCR floor already does and which is worth leaning into; extend the amortization to cut the
+        constant; buy down the rate; or grow other income. Each of these either lowers annual debt service or
+        raises the net operating income margin, and each therefore widens the cushion through the same
+        closed-form equation. For lease-up and construction specifically, size the interest reserve to the
+        stabilized break-even plus a market-softness buffer, and separately test that the post-stabilization
+        break-even is survivable, because the reserve does not protect the stabilized years.
+      </p>
+      <p>
+        Three caveats keep the analysis honest. Break-even occupancy is not static: it rises every year as
+        expenses grow faster than rents, as they have since 2019, so a deal that clears today can drift into
+        the trap without any change in occupancy at all, a point LoopNet has made plainly. The fixed-versus-
+        variable split matters to the solve: holding operating expenses fixed, as the tables here do, is
+        realistic for modest multifamily swings and is the conservative choice, but if a meaningful share of
+        expense is genuinely variable, the true break-even is slightly lower than shown, and the assumption
+        should be stated. And occupancy itself conflates two things: concessions and credit loss reduce
+        economic occupancy below physical occupancy, so underwrite to economic occupancy and respect Fannie
+        Mae's minimum 5 percent economic vacancy floor. A deal that passes 1.25x on physical occupancy can
+        fail it on economic occupancy, which is one more way the coverage test flatters a thin deal.
+      </p>
+      <p>
+        None of this makes the coverage ratio wrong. It makes it incomplete. A 1.25x stabilized DSCR fixes
+        the coverage factor and nothing else; the expense structure and the leverage set the margin, and the
+        margin is where the fragility lives. Report the cushion alongside the ratio, benchmark it against the
+        submarket's real occupancy history, and stress the expense side, and the trap stops being a hidden
+        risk and becomes a number on the page. That is the difference between a deal that looks financeable
+        and a deal that can actually carry itself through the years no reserve is standing by to cover.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Formula definitions and the three names for the break-even ratio draw on calculator and
+          practitioner sources, treated as reliable for formulas and convention ranges but not as primary
+          market data: Janover, PropertyMetrics, Wall Street Prep, CommercialRealEstate.loans, A.CRE,
+          HUD.loans, FNRP, PeerSense, and LoopNet. Operating-expense-ratio benchmarks: NCREIF apartment
+          ratio of 42.5 percent pre-COVID rising to 44.1 percent as of Q2 2023 (peaking near 48 percent
+          during COVID), per New York Life Real Estate Investors in the AFIRE Summit Journal, "OpEx Rising:
+          The Other Side of NOI," March 2024; rule-of-thumb ranges of 35&ndash;50 percent from CoreCast,
+          Dwellsy, HelloData, and MRI, with 1920s Northeast mid-rise above 60 percent per Capstone; the NAA
+          "dollar of rent" framing (89 cents of every dollar consumed; mortgage about 44 cents, taxes about
+          10) on 2024 data, and property taxes at roughly 26 percent of operating expenses per the NAA.
+          Agency and CMBS conventions: Freddie Mac Multifamily PC Program Overview (as of March 31, 2026),
+          citing stabilized occupancy of 90 percent-plus, conventional fixed-rate minimum DSCR 1.25x and
+          maximum LTV 80 percent, select 10-year-plus fixed at 70 percent LTV to 1.20x for repeat sponsors,
+          floating-rate minimum 1.15x, and SBL scaling 1.20x to 1.40x; Fannie Mae conventional 1.25x with a
+          minimum 5 percent economic vacancy assumption and a Near-Stabilization execution allowing 75
+          percent physical occupancy at rate lock; HUD 221(d)(4) as low as 1.18x for market-rate; and CMBS
+          conduit debt yield of 7 percent or more, LTV at or below 75 percent, trailing-12 (not pro-forma)
+          NOI, 90 percent-plus occupancy for stabilized eligibility, and DSCR computed on amortizing debt
+          service even for interest-only loans (per SEC 424B5 CMBS prospectuses). Expense growth: property
+          insurance up more than 120 percent since 2019 per Yardi Matrix (National Multifamily Report, July
+          2025); corroborated by CBRE (+132 percent since December 2019), the Federal Reserve (about 77
+          percent real per-unit, 2019&ndash;2024), and the NAA Premium Pulse (+55 percent 2021&ndash;2024, to
+          $777 per unit); total operating expenses up 8.7 percent in 2022, 9.3 percent (TTM June 2023), and
+          7.1 percent (TTM January 2024, to $8,950 per unit) with insurance +27.7 percent year over year,
+          decelerating to +1.3 percent in H1 2025, all per Yardi Matrix. Occupancy and supply: national
+          apartment occupancy 94.7 percent in June 2025 (Yardi Matrix), softening to about 94.6 percent by
+          November; Apartment List national vacancy index at a record 7.2 percent in November 2025 (CNBC,
+          December 2, 2025), with peaks of 7.3 percent in February 2025 and January 2026, and Census rental
+          vacancy of 7.3 percent in Q1 2026; more than 600,000 multifamily units delivered in 2024, the most
+          since 1986 (Apartment List); stabilized vacancy in the mid-6 percent range through 2025 (MMCG).
+          Distress: office CMBS delinquency at an all-time-high 12.34 percent in January 2026, with
+          multifamily near 6.9&ndash;7.15 percent (Trepp via Multi-Housing News); 2022-vintage underwriting
+          at roughly 32 percent expense-to-revenue versus a 38&ndash;40 percent norm (JPMorgan via
+          CREFC/Trepp); and the Trepp Parkmerced example, where 83 percent occupancy drove DSCR to 0.47x.
+          Rate figures are mid-2026 snapshots (Fed funds 3.75&ndash;4.00 percent after an October 2025 cut;
+          10-year Treasury near 4.3 percent; agency 5.5&ndash;6.0 percent, CMBS about 6.5 percent, bridge
+          8&ndash;9.5 percent; FHFA 2026 agency caps of $88 billion each, $176 billion total, up 20.5
+          percent) and move daily; the derivation is rate-invariant, the specific dollar figures are not. The
+          200-unit example, the three sensitivity tables, and the mortgage constants are illustrative,
+          internally consistent, and reproducible; rents, expense ratios, and rates should be re-verified
+          against the specific submarket, and NCREIF/NYLREI, the agency guides, Yardi Matrix, CBRE, the
+          Federal Reserve, and Trepp should be treated as the primary sources over calculator-site
+          conventions.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
       </div>
-      <div class="faq-list">
-        <details>
-          <summary>Which financing programs require a feasibility study?</summary>
-          <p>SBA expects a feasibility study for special-purpose properties and startup or ground-up projects under SOP 50 10 8. USDA requires one for guaranteed loans over one million dollars to a new entity or new business under 7 CFR Part 5001. EB-5 requires an economic impact analysis to document job creation. Conventional and agency lenders require a market study when the deal carries risk the underwriter cannot resolve from the rent roll alone, such as construction or lease-up.</p>
-        </details>
-        <details>
-          <summary>How does the feasibility study differ by program?</summary>
-          <p>The program determines the deliverable and the standard it is built to. SBA and USDA studies follow their respective SOP and regulation and are keyed to eligibility. EB-5 requires a job-creation methodology accepted by USCIS. Conventional and agency lending follows NCHMA Model Content Standards and, for FHA, the HUD MAP form set, and typically calls the deliverable a market study rather than a feasibility study. The underlying analytical work overlaps, but the framing and required components differ.</p>
-        </details>
-        <details>
-          <summary>Can one study satisfy more than one program?</summary>
-          <p>The core analysis of demand, supply, absorption, and financial performance is common across programs, but the deliverable must be structured to the specific reviewer. A study built for an SBA credit is not automatically formatted for a HUD MAP submission or an EB-5 filing. The practice scopes each engagement to the program that will review it so the deliverable meets that authority's requirements without rework.</p>
-        </details>
-        <details>
-          <summary>Is a feasibility study the same as a business plan?</summary>
-          <p>No. A business plan is the sponsor's own strategy and projection document, and it carries the sponsor's interest in the outcome. A feasibility study is prepared by an independent third party and reaches a conclusion the sponsor does not control. This is why SBA and USDA credits call for an independent study rather than relying on the business plan alone, and why the two are not interchangeable in review.</p>
-        </details>
-      </div>
+
     </div>
-  </section>
+  </article>
 
   <!-- ============ CTA ============ -->
   <section class="cta-band" aria-labelledby="h-cta">
     <div class="frame">
-      <h2 id="h-cta">Not sure which program fits?</h2>
+      <h2 id="h-cta">Underwriting a thin deal?</h2>
       <p>
-        Tell us about the borrower, the property, and the capital source. We will identify the program,
-        the deliverable it requires, and how the practice would approach it.
+        Our multifamily feasibility and market studies report the numbers a DSCR-only underwrite hides,
+        break-even occupancy, the occupancy cushion, and debt yield, benchmarked against the submarket's
+        real occupancy history and stress-tested on the expense side.
       </p>
       <a class="btn" href="#contact">Request a methodology briefing</a>
     </div>
