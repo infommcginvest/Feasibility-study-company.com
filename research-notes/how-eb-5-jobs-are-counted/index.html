@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>How EB-5 Jobs Are Actually Counted | Feasibility Study Company</title>
+<meta name="description" content="In an EB-5 Regional Center petition, most counted jobs are modeled, not hired. How the input-output multiplier turns a documented dollar of spend into a job, and how USCIS tests the inputs.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/how-eb-5-jobs-are-counted/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="How EB-5 Jobs Are Actually Counted: The Multiplier, Not the Payroll">
+<meta property="og:description" content="Most jobs credited in a Regional Center EB-5 petition are produced by an input-output model, not hired by the project. How the count works, and how USCIS scrutinizes it.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/how-eb-5-jobs-are-counted/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-10">
+<meta property="article:modified_time" content="2026-07-10">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How EB-5 Jobs Are Actually Counted">
+<meta name="twitter:description" content="In a Regional Center petition, most counted jobs are modeled through an input-output multiplier, not hired. Here is how the count actually works.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/how-eb-5-jobs-are-counted/#article",
+      "headline": "How EB-5 Jobs Are Actually Counted: The Multiplier, Not the Payroll",
+      "description": "In an EB-5 Regional Center petition, most counted jobs are produced by an economic input-output model rather than hired by the project. How the multiplier turns documented spending into jobs, and how USCIS tests the inputs.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/how-eb-5-jobs-are-counted/",
+      "about": [
+        { "@type": "Thing", "name": "EB-5 Immigrant Investor Program" },
+        { "@type": "Thing", "name": "Economic input-output modeling" },
+        { "@type": "Thing", "name": "RIMS II multipliers" },
+        { "@type": "Thing", "name": "EB-5 job creation estimation" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/how-eb-5-jobs-are-counted/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "How EB-5 Jobs Are Counted", "item": "https://feasibility-study-company.com/research-notes/how-eb-5-jobs-are-counted/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; EB-5</p>
+      <h1>How EB-5 Jobs Are Actually Counted: The Multiplier, Not the Payroll</h1>
+      <p class="article-deck">
+        In a Regional Center petition, most of the jobs an investor is credited with were never hired by
+        the project. They come out of an economic model &mdash; and USCIS scrutinizes its inputs as hard as
+        its outputs.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+        <span>17 minute read</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a></li>
+        <li aria-current="page">How EB-5 Jobs Are Counted</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        There is a fact about EB-5 that surprises almost everyone outside the field the first time they
+        meet it. In a Regional Center project, the number of jobs credited to an investor has very little
+        to do with how many people the project puts on a payroll. The great majority of the jobs are
+        produced by an economic model, derived from a documented dollar of spending run through a regional
+        multiplier. Understand that one mechanic, and the entire architecture of an EB-5 job count &mdash;
+        why it works, where it breaks, and what a reviewer is actually testing &mdash; comes into focus.
+      </p>
+
+      <p>
+        This is a piece about how that count is built, and about the discipline that separates a defensible
+        job study from an indefensible one. The through-line is causation. Every rule USCIS enforces, from
+        the retired tenant-occupancy methodology to the post-2022 project-application regime, traces back
+        to a single question the agency asks of every counted job: can you show that the EB-5 investment,
+        and not something else, is what created it? The model is the engine. The audit trail from a verified
+        dollar of spend to a counted job is the product.
+      </p>
+
+      <h2>The ten-job rule, and the jobs you never see</h2>
+
+      <p>
+        The requirement itself is simple to state. Each EB-5 investor must create or preserve at least ten
+        full-time jobs &mdash; positions of thirty-five or more hours per week &mdash; for qualifying U.S.
+        workers, meaning U.S. citizens, lawful permanent residents, or other work-authorized immigrants.
+        The investor and immediate family do not count toward the ten, and neither do nonimmigrant workers
+        such as H-1B holders. What is not simple, and what does most of the analytical work, is the question
+        of which jobs the program will let you count.
+      </p>
+      <p>
+        The answer depends entirely on how the investment is structured. In a standalone, or direct,
+        investment, only the direct W-2 jobs at the new commercial enterprise (the NCE) count; indirect and
+        induced jobs are not recognized at all. In a Regional Center investment, direct, indirect, and
+        induced jobs all count. That single distinction is the central advantage of the Regional Center
+        program, and it is the reason economic modeling matters to EB-5 in the first place. The statute
+        underpinning it, INA 203(b)(5)(E)(iv), directs that DHS &ldquo;shall permit aliens &hellip; to
+        satisfy only up to 90 percent of the requirement &hellip; with jobs that are estimated to be created
+        indirectly,&rdquo; while providing that &ldquo;an employee of the new commercial enterprise or
+        job-creating entity may be considered to hold a job that has been directly created.&rdquo; For
+        petitions filed on or after May 14, 2022, in other words, as much as ninety percent of an investor&rsquo;s
+        job-creation burden can be met with indirect jobs, provided at least one job per investor is direct.
+      </p>
+      <p>
+        USCIS defines the three categories precisely in its Policy Manual (Volume 6, Part G, Chapter 2).
+        Direct jobs establish an employer-employee relationship between the NCE, or the job-creating entity,
+        and the persons it employs. Indirect jobs are held outside the NCE but created as a result of it
+        &mdash; the employees of the producers of the materials, equipment, and services the project buys,
+        the supply chain. Induced jobs are a subset of indirect effects, created when direct and indirect
+        employees spend their earnings on consumer goods and services in the broader economy. In nearly
+        every Regional Center project, indirect and induced jobs together are the majority of the count, and
+        they are the jobs no one at the project will ever meet.
+      </p>
+
+      <div class="capsule">
+        <p>
+          The counterintuitive core of EB-5: &ldquo;jobs counted&rdquo; is not &ldquo;people hired by the
+          project.&rdquo; The input-output multiplier is the engine, and the indirect and induced jobs it
+          estimates &mdash; the supply chain and the re-spending it sets off &mdash; typically make up the
+          bulk of what an investor is credited with.
+        </p>
+      </div>
+
+      <h2>Legal &ldquo;direct&rdquo; is not economic &ldquo;direct&rdquo;</h2>
+
+      <p>
+        Before going near a model, an analyst has to hold two vocabularies apart, because they use the same
+        words to mean different things, and USCIS adjudicator training flags the confusion explicitly. There
+        is &ldquo;legally direct&rdquo; and &ldquo;legally indirect,&rdquo; the EB-5 statutory sense, and
+        there is &ldquo;economically direct&rdquo; and &ldquo;economically indirect,&rdquo; the input-output
+        modeling sense. They do not line up.
+      </p>
+      <p>
+        The clearest illustration is construction labor. On-site construction workers employed by a general
+        contractor are, in the EB-5 legal sense, indirect jobs &mdash; because those workers are not
+        employed by the NCE &mdash; even though a layperson watching them pour concrete would call them as
+        direct as jobs get. The input-output multiplier is precisely the tool that captures these effects,
+        the ones that are indirect in the legal sense, and it is why the counted majority of an EB-5 project
+        can be jobs that, to the naked eye, look like the most direct work on the site. Getting this
+        distinction wrong is one of the fastest ways to misclassify a job type in a study, which is itself a
+        documented trigger for USCIS scrutiny.
+      </p>
+
+      <h2>Inside the input-output model</h2>
+
+      <p>
+        An input-output model is a matrix representation of the inter-industry transactions in a regional
+        economy. It traces how an initial expenditure &mdash; what economists call a final-demand shock, and
+        what EB-5 calls the direct effect &mdash; ripples outward to generate indirect effects along the
+        supply chain and induced effects as wages are re-spent. The Bureau of Economic Analysis, which
+        publishes the most widely used of these systems, describes its multipliers as providing &ldquo;a
+        measure of the effects of local demand shocks on total gross output, value added, earnings, and
+        employment.&rdquo; A dollar goes in; a set of economy-wide effects, including a number of jobs, comes
+        out.
+      </p>
+      <p>
+        There is a technical distinction worth naming because EB-5 depends on it. A Type I multiplier
+        captures interindustry effects only &mdash; direct plus indirect. A Type II multiplier adds the
+        household-spending, or induced, effects on top. Because the Regional Center program lets a project
+        count induced jobs, EB-5 work uses Type II multipliers. Three modeling systems dominate the field,
+        and USCIS accepts all of them.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>The three input-output systems USCIS accepts under the &ldquo;reasonable methodology&rdquo; standard.</caption>
+          <thead><tr><th scope="col">System</th><th scope="col">Producer and type</th><th scope="col">In EB-5 practice</th></tr></thead>
+          <tbody>
+            <tr><td>RIMS II</td><td>U.S. Bureau of Economic Analysis (Dept. of Commerce); static, multiplier-based, inexpensive</td><td>Historically the &ldquo;gold standard,&rdquo; because it is a government product whose multipliers USCIS economists can independently test. Uses a single national-average household spending pattern and the location-quotient method, which tends to overstate regional multipliers; job counts run higher than IMPLAN&rsquo;s.</td></tr>
+            <tr><td>IMPLAN</td><td>Proprietary, originally MIG, Inc.; social accounting matrix</td><td>More granular, with hundreds of sectors, nine household income classes weighted by local demographics, and gravity-model trade flows. Favored for complex projects needing sector customization; tends to estimate fewer jobs than RIMS II.</td></tr>
+            <tr><td>REMI</td><td>Regional Economic Models, Inc.; dynamic, econometric</td><td>Layers econometric technique onto input-output; the most sophisticated and expensive of the three, and the least common in EB-5.</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Model characteristics per BEA RIMS II documentation and EB-5 economist commentary. Relative job-count tendencies are practitioner observations and vary by sector and region, not fixed rules.</p>
+      </div>
+
+      <p>
+        USCIS accepts more than one model because the regulation tells it to. Rather than mandating a system,
+        8 CFR 204.6 permits &ldquo;reasonable methodologies &hellip; including multiplier tables, feasibility
+        studies &hellip; and other economically or statistically valid forecasting devices.&rdquo; Some
+        practitioners nonetheless prefer RIMS II for a specific reason: it is the only one of the three whose
+        multipliers a USCIS economist can independently reproduce and test, because BEA publishes them, while
+        the others rest on proprietary derivatives. When an adjudicator can check your arithmetic against a
+        government source, there is less room for argument.
+      </p>
+
+      <h2>Two employment multipliers that get confused</h2>
+
+      <p>
+        RIMS II provides, in BEA&rsquo;s description, &ldquo;final-demand multipliers for output, earnings,
+        employment, and value added; and direct-effect multipliers for earnings and employment&rdquo; &mdash;
+        six types in all. Two of them are employment multipliers, and confusing the two is one of the more
+        consequential errors in an EB-5 study.
+      </p>
+      <p>
+        The final-demand employment multiplier is the total number of jobs generated per one million dollars
+        of spending delivered to final demand. In BEA&rsquo;s words, &ldquo;each column entry indicates the
+        change in employment in each row industry that results from a $1 million change in final demand.&rdquo;
+        This is the multiplier applied to construction expenditure inputs, and it is the source of the
+        familiar &ldquo;ten to fifteen jobs per million dollars&rdquo; convention. The direct-effect
+        employment multiplier is a different animal: it is the total number of jobs generated per one direct
+        job, a jobs-per-job ratio. BEA defines it as indicating &ldquo;the total change in employment in the
+        region that results from a change of one job.&rdquo; You reach for it when you are starting from a
+        known direct job count rather than a dollar figure.
+      </p>
+      <p>
+        The reason to get the pairing right is that the two roads are supposed to arrive at the same place.
+        BEA&rsquo;s own user handbook demonstrates the reconciliation with a sports-facility construction
+        example for the Kansas City economic area, and it is an ideal teaching device provided one caveat is
+        respected.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Two roads to one total: BEA&rsquo;s sports-facility construction example (Kansas City MO-KS, 1987 benchmark data).</caption>
+          <thead><tr><th scope="col">Method</th><th scope="col">Input</th><th scope="col">Multiplier</th><th scope="col">Total jobs</th></tr></thead>
+          <tbody>
+            <tr><td>Final-demand employment</td><td>$111.5M construction spend</td><td>34.5 jobs / $1M</td><td>~3,848</td></tr>
+            <tr><td>Direct-effect employment</td><td>1,601 direct construction jobs</td><td>2.4031 jobs / job</td><td>~3,847</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">BEA, <em>Regional Multipliers: A User Handbook for the Regional Input-Output Modeling System (RIMS II)</em>, 3rd ed., March 1997. The two methods reconcile to within rounding. Critical caveat: the 34.5 jobs/$M figure is in 1987 dollars. Construction-cost inflation is exactly why the modern current-dollar convention is only about 10 to 15 jobs per $1 million; 34.5 must never be presented as a present-day multiplier. BEA gives a parallel food-products-machinery example for the same region, where a final-demand employment multiplier of 24.3332 and a direct-effect multiplier of 2.601 turn 1,000 new industry jobs into 2,601 total.</p>
+      </div>
+
+      <h2>The modeling choices that move the number</h2>
+
+      <p>
+        A model does not hand back a single inevitable answer. The job count is highly sensitive to a handful
+        of choices the modeler makes, and each of them is a place a reviewer will look. The first is industry
+        and sector selection, done on the NAICS classification. Historically RIMS II carried a single
+        &ldquo;Construction&rdquo; industry, code 230000; the updated data disaggregated construction into
+        several sub-industries. Choosing the right sector for each cost category matters, and soft costs in
+        particular should be routed to their own specific multiplier categories rather than bundled into
+        general construction &mdash; a point USCIS made explicitly in its June 2012 EB-5 economic
+        methodologies question-and-answer guidance.
+      </p>
+      <p>
+        The second choice is geography, the definition of the county or metropolitan area used as the region.
+        As a rule the multiplier rises as the region grows, because a larger economy captures more of its own
+        supply chain and re-spending locally rather than leaking it elsewhere. BEA&rsquo;s handbook makes the
+        point with hard numbers: for the Kansas City area, the construction final-demand output multiplier is
+        2.3270, but for Jackson County alone it is 1.8723. A dollar spent on construction in Manhattan carries
+        a different indirect impact than the same dollar spent in rural Nebraska, and the region you draw is
+        part of what determines the count. The third choice is the input type itself &mdash; construction
+        expenditures for construction jobs, revenues or operating expenditures for operational jobs, and
+        construction employment or job-years where a direct-effect approach is used.
+      </p>
+      <p>
+        Underneath all of this sits a discipline that is easy to neglect: dollar-year indexing. Inputs have
+        to be expressed in the same dollar-year as the multipliers. The RIMS II regional base year has run
+        around 2015, and the national benchmark tables update on years ending in two and seven; as BEA
+        explains, &ldquo;the annual RIMS II multipliers use current-year regional data in combination with
+        the most-recent-year national benchmark input-output tables, so the 2019 RIMS II multipliers use 2019
+        regional data with 2012 national benchmark data.&rdquo; Expenditures must be inflated or deflated to
+        match. Skip the step and the arithmetic silently drifts.
+      </p>
+
+      <h2>Construction, job-years, and the 24-month line</h2>
+
+      <p>
+        Construction generates EB-5 jobs in two distinct ways, and keeping them separate is essential.
+        Construction expenditures, run through the model, always produce indirect and induced jobs, and those
+        are available to a Regional Center project regardless of how long the building takes. Direct
+        construction jobs &mdash; the on-site building jobs themselves &mdash; are different: they may be
+        counted as permanent only if the construction activity lasts two years, twenty-four months, or more.
+      </p>
+      <p>
+        The rule flows from the definition of a qualifying job. Employment that is intermittent, temporary,
+        seasonal, or transient does not qualify as permanent and full-time; but jobs expected to last at
+        least two years are generally not treated as temporary. So construction lasting twenty-four months or
+        longer can yield countable direct construction jobs, while construction under twenty-four months
+        generally yields only the indirect and induced jobs derived from the expenditure inputs. The Reform
+        and Integrity Act layered statutory limits on top for petitions filed on or after May 15, 2022. For
+        construction activity lasting less than two years, indirect jobs from that activity may satisfy only
+        up to 75 percent of the job-creation requirement &mdash; the Congressional Research Service, in report
+        IF13040, states it plainly: &ldquo;Indirect jobs created by construction activity lasting less than
+        two years may satisfy 75% of the job creation requirement.&rdquo; And for direct-job purposes, the
+        count is prorated, multiplying the total number of such jobs by the fraction of the two-year period
+        the construction actually lasts.
+      </p>
+      <p>
+        This is where the job-years concept enters, and where a nuance trips up newcomers. Construction
+        employment is conventionally measured in job-years &mdash; one job held for one year is one job-year,
+        and multiple job-years aggregate. But in EB-5 practice, construction jobs are not counted by
+        multiplying a headcount by duration. The model converts construction expenditures directly into a
+        final job figure. As the advisory firm EB5AN puts it, &ldquo;these job creation figures are given as
+        final values; they are not multiplied by project duration (i.e., job-years).&rdquo; The job-years idea
+        matters far more for the twenty-four-month direct-job qualification test than for the
+        expenditure-based count. And the stakes of that test are real. EB5AN&rsquo;s own illustration is
+        blunt: &ldquo;Construction projects that last only 23 months &hellip; result in far fewer EB-5
+        eligible jobs than those that last 24 months. In such cases, one month may mean the difference between
+        subscribing 5 EB-5 investors and 20 EB-5 investors.&rdquo;
+      </p>
+
+      <h2>A worked example: from a dollar of spend to an investor slot</h2>
+
+      <p>
+        Assemble the pieces on a clean, deliberately simplified case. Take a fifty-million-dollar
+        hard-construction-cost expenditure on a mixed-use hotel project in a defined metropolitan area, with
+        construction lasting twenty-four months or more so that direct construction jobs qualify. Map the
+        hard costs to the appropriate construction NAICS sector for the project&rsquo;s county or metro,
+        index the dollars to the multiplier&rsquo;s base year, and apply the final-demand employment
+        multiplier.
+      </p>
+
+      <div class="workbox">
+        <h4>Construction spend to investor capacity (illustrative)</h4>
+        <dl>
+          <dt>Documented hard construction cost</dt><dd>$50,000,000</dd>
+          <dt>Final-demand employment multiplier</dt><dd>12 jobs / $1M</dd>
+          <dt>Total construction jobs estimated</dt><dd>600</dd>
+          <dt>Jobs required per EB-5 investor</dt><dd>10</dd>
+          <dt>Investor capacity at the minimum</dt><dd>60</dd>
+        </dl>
+        <div class="formula">$50M &times; 12 jobs/$M = 600 jobs &nbsp;&rarr;&nbsp; 600 &divide; 10 = <em>60 investors</em></div>
+        <p class="wb-note">Illustrative only. The 12 jobs/$M multiplier is a placeholder inside the market-convention range of 10&ndash;15, confirmed by named EB-5 economist firms; on a live report it must be pulled from the actual RIMS II or IMPLAN run for the specific sector and region.</p>
+      </div>
+
+      <p>
+        Of that six-hundred-job total, a model would split the result into its direct, indirect, and induced
+        components &mdash; on the order of, very roughly, forty percent direct, thirty percent indirect, and
+        the remainder induced, though the exact shares are model output and vary by region, sector, and
+        project. The EB-5 point is not the split; it is that indirect and induced together are the majority,
+        and that the Regional Center structure is what lets the project count them. Divide the qualifying
+        total by ten and you have investor capacity: six hundred jobs supports sixty investors at the bare
+        minimum.
+      </p>
+      <p>
+        No prudent project subscribes to the minimum. The gap between the jobs a project needs and the jobs
+        it is projected to create is the cushion, and it is the project&rsquo;s only protection against cost
+        underruns and schedule slippage. As the advisory firm LCR frames it, &ldquo;if a project needs
+        exactly 500 jobs to support 50 investors, that leaves very little room for error &hellip; if the
+        project is projected to create 700 or 800 jobs, the margin &mdash; the cushion &mdash; is
+        stronger.&rdquo; A project that needs to support fifty investors, and therefore five hundred jobs,
+        wants to be modeling six hundred to eight hundred, not five hundred and one.
+      </p>
+      <p>
+        Construction is only half of many projects. Where the asset has an operating business &mdash; a
+        hotel, an assisted-living facility, a retail center &mdash; stabilized annual operating revenues, or
+        operating expenditures, are run through the model&rsquo;s operating sector to produce recurring
+        direct, indirect, and induced operational jobs. Construction jobs are one-time; operational jobs
+        recur, and both count. Since the Reform and Integrity Act capped short-construction indirect jobs at
+        seventy-five percent, post-2022 projects increasingly favor an operational or revenue component
+        precisely because it generates genuine direct jobs and reduces reliance on the capped
+        construction-indirect bucket.
+      </p>
+
+      <h2>What the count looked like in the field</h2>
+
+      <p>
+        The mechanics are easier to trust against real projects, provided each figure is read for what it is
+        &mdash; an as-reported or estimated project number, not an independently audited count. The
+        capital-stack logic is clean, and the law firm Holland &amp; Knight has illustrated it with a
+        sixty-million-dollar hotel expected to generate roughly 1,500 qualifying jobs. At about 12.5 jobs per
+        million dollars, that is 150 investors&rsquo; worth of capacity, since 1,500 divided by ten is 150.
+        Flip the same project around: had it generated only 150 jobs, no more than about 7.5 million dollars
+        of EB-5 capital could responsibly have been used. Job creation, not appetite, sets the ceiling on how
+        much EB-5 money a deal can absorb.
+      </p>
+      <p>
+        Two anchor cases come from a 2014 report by the Initiative for a Competitive Inner City and Harvard,
+        <em>Increasing Economic Opportunity in Distressed Urban Communities with EB-5</em>, by Zeuli and Hull
+        (June 2014). The NYLO Dallas South Side Hotel was a 76-room property costing about 19.8 million
+        dollars, of which 5.5 million came from eleven EB-5 investors, who together needed 110 jobs. In the
+        report&rsquo;s words, &ldquo;the project created a total of 161 jobs, including 35-40 jobs at
+        competitive wages in the hotel and the indirect and induced jobs from the construction phase&rdquo;
+        &mdash; comfortably past the 110 required, though the report publishes no separate indirect-versus-
+        induced breakdown. The University of Miami Life Science &amp; Technology Park, whose job estimate was
+        prepared by the Jacob France Institute at the University of Baltimore, ran larger: a roughly
+        107-million-dollar first phase, with 20 million dollars of EB-5 capital from forty investors needing
+        400 jobs, estimated to produce &ldquo;over 1,200 jobs at an average salary of $34,000 during the
+        construction phase and over 1,500 jobs (including the multiplier effect) at an average salary of
+        $50,000 after the building becomes operational.&rdquo; In both, the construction and operational
+        multiplier effects, not the on-site payroll, carry the count.
+      </p>
+
+      <h2>The &ldquo;reasonable methodology&rdquo; standard, and garbage in</h2>
+
+      <p>
+        None of this modeling is worth anything to an adjudicator unless it is defensible, and the standard
+        for defensibility is written into the regulation. 8 CFR 204.6(m)(3) requires that a Regional Center
+        proposal be supported by &ldquo;economically or statistically valid forecasting tools, including, but
+        not limited to, feasibility studies, analyses of foreign and domestic markets &hellip; and/or
+        multiplier tables,&rdquo; and 8 CFR 204.6(j)(4)(iii) provides that indirect job creation may be shown
+        &ldquo;by reasonable methodologies.&rdquo; The Policy Manual carries the standard forward: a project
+        application &ldquo;may rely on economically and statistically valid methodologies,&rdquo; and the
+        I-956F must include &ldquo;a credible economic analysis regarding estimated job creation that is based
+        upon economically and statistically valid and transparent methodologies&rdquo; (Volume 6, Part G,
+        Chapter 5).
+      </p>
+      <p>
+        The economic report does not stand alone. It supports the comprehensive business plan required by
+        <em>Matter of Ho</em> (22 I&amp;N Dec. 206, Assoc. Comm. 1998), which held that the plan must be
+        &ldquo;comprehensive, detailed, and credible,&rdquo; detailed enough to support reasonable inferences
+        about job creation and going well beyond &ldquo;mere conclusory assertions.&rdquo; It also lives
+        under <em>Matter of Izummi</em> (22 I&amp;N Dec. 169, Assoc. Comm. 1998), the at-risk-capital and
+        material-change precedent, which holds among other things that the full amount of capital must be made
+        available to the businesses most closely responsible for job creation, and that eligibility must be
+        established at the time of filing.
+      </p>
+      <p>
+        Here is the analytical hook, and the reason a job study is a professional product rather than a
+        formality: USCIS reviews the reasonableness of the inputs and the methodology, not merely the model
+        output. An accepted model fed unrealistic expenditure or revenue assumptions produces an indefensible
+        count. Garbage in, garbage out. Where the model&rsquo;s inputs reflect direct jobs at the NCE or
+        job-creating entity, USCIS requires the petitioner to demonstrate that the direct-jobs input is itself
+        reasonable, with I-9s, payroll records, or the business plan. And the agency&rsquo;s own materials
+        name the recurring triggers: overly optimistic multipliers, misclassification of job types, inadequate
+        linkage between the EB-5 capital and the job creation, and reliance on outdated or national data where
+        local and regional inputs were called for. Every one of those is an input problem, not an output
+        problem, which is exactly the point.
+      </p>
+
+      <h2>The cautionary tale: tenant occupancy and the causation boundary</h2>
+
+      <p>
+        The clearest proof that USCIS enforces a causation boundary on modeling is a methodology it retired.
+        Tenant-occupancy modeling credited an EB-5 project &mdash; typically the developer of commercial,
+        retail, or office space &mdash; with the indirect and induced jobs of the future tenants who would
+        one day occupy that space. In effect, it counted the jobs of businesses that would lease space in a
+        building EB-5 capital had helped construct.
+      </p>
+      <p>
+        The arc of its rise and fall is worth tracing, because the dates mark the boundary. USCIS issued a
+        &ldquo;Tenant Occupancy&rdquo; notice on February 17, 2012, and began sending requests for evidence
+        on pending Regional Center applications and exemplar petitions using the model. In May 2012, in
+        guidance numbered GM-602-0001, and again on December 20, 2012, the agency issued operational guidance
+        defining criteria for crediting tenant jobs, offering two routes to establish causation: mapping a
+        specific amount of direct, imputed, or subsidized investment to new jobs, or a &ldquo;facilitation-
+        based&rdquo; approach that demonstrated the project removed a significant market constraint, an excess
+        of demand or a supply bottleneck, that would draw a specified number of tenant jobs into the space.
+        From 2013 onward USCIS tightened its RFE template around three questions: would there be tenants to
+        occupy the space; would the tenant jobs be genuinely new rather than merely relocated; and were the
+        estimates built on a reasonable, transparent methodology. Many petitioners simply abandoned their
+        tenant-job claims. In November 2016 the agency consolidated the tenant-occupancy guidance into the
+        Policy Manual, and then, on May 15, 2018, in Policy Alert PA-2018-03, it rescinded the methodology
+        outright, effective immediately, with comments accepted until May 29, 2018.
+      </p>
+      <p>
+        The stated rationale is the whole lesson. The tenant-occupancy methodologies, USCIS concluded,
+        &ldquo;result in a connection or nexus between the investment and jobs that is too tenuous&rdquo; and
+        &ldquo;do not provide reasonable predictions of indirect job creation.&rdquo; On the facilitation-
+        based route in particular, the agency decided that letting petitioners avoid establishing an equity
+        or direct financial connection between the EB-5 capital and the prospective tenants&rsquo; employees
+        had been ill-advised, &ldquo;because a direct financial connection between the EB-5 capital investment
+        and the job creation is necessary to determine a sufficient nexus.&rdquo; Reliance on a supply
+        constraint or excess demand alone did not establish a causal link. The EB-5 practitioner Suzanne
+        Lazicki has quoted the economic critique at the heart of a 2012 USCIS RFE, which observed that tenant
+        jobs &ldquo;would be more appropriately attributed to the tenants themselves and not to the
+        development itself &hellip; Because the demand for labor precedes the decision about where to house
+        that labor as a general economic principle.&rdquo; The deeper problem was job-shifting: tenant jobs
+        might be merely relocated from elsewhere in the same market rather than genuinely new, failing the
+        net-new, but-for test of causation.
+      </p>
+      <p>
+        The story has a coda that keeps the boundary in view. Under the Reform and Integrity Act, as of May
+        14, 2022, Congress reopened a narrow door: Regional Center petitioners may again include jobs
+        attributed to prospective tenants, but only if the number is determined by an economically and
+        statistically valid methodology and the jobs are not existing jobs that have merely been relocated.
+        A guardrailed revival, in other words, that leaves the causation and net-new principles exactly where
+        USCIS put them. Tenant occupancy is the cautionary tale because it defines the outer edge of
+        defensible methodology: the further a counted job drifts from documented direct expenditure, the less
+        defensible it becomes. A rigorous report stays close to verifiable direct spending and its immediate
+        multiplier effects.
+      </p>
+
+      <h2>The post-RIA world: methodology on trial first</h2>
+
+      <p>
+        The Reform and Integrity Act, enacted March 15, 2022 and effective May 14, 2022 for the codified
+        program, changed not just the rules but the order in which they are tested, and it raised the stakes
+        on the job study accordingly. The Regional Center now files Form I-956F, the project application that
+        replaced the pre-RIA I-924 exemplar, and USCIS reviews it &mdash; the business plan, the offering,
+        and the economic methodology &mdash; at the project level before any investor&rsquo;s I-526E petition
+        can be approved. The economics are examined up front, once, for the whole project. As CanAm&rsquo;s
+        general counsel Walter Gindin has put it, &ldquo;USCIS will focus on the credibility of the business
+        plan and the credibility of the economic impact analysis,&rdquo; and, crucially, &ldquo;the budget
+        and the schedule will tie into the jobs.&rdquo; A disconnect between the job study, the construction
+        budget, and the construction schedule is now a direct path to a request for evidence or a denial.
+      </p>
+      <p>
+        Around that review sits the Act&rsquo;s integrity apparatus: an EB-5 Integrity Fund financed by
+        annual fees of 20,000 dollars for regional centers with more than twenty investors and 10,000 dollars
+        for those with twenty or fewer, along with audits and site visits. And because the I-956F must clear
+        review before any I-526E can be approved, deficient projects are filtered earlier in the process. The
+        effect on outcomes is visible in the approval data. Citing IIUSA&rsquo;s Director of Policy Research
+        and Data Analytics, Lee Li, CanAm Enterprises reported in February 2026 that post-RIA I-526E approval
+        rates for Regional Center investors ran above ninety percent in 2025, against roughly twenty-five
+        percent for standalone I-526 investors. &ldquo;For 2025, we have a big spike in approvals,&rdquo; Li
+        observed; &ldquo;the approval rate is still over 90%, which I think is very high.&rdquo; That gap is
+        the clearest single measure of what project-level methodological vetting is worth. The Regional Center
+        program itself is currently authorized through September 30, 2027, which is the horizon against which
+        all of this is being underwritten.
+      </p>
+
+      <h2>What a defensible count looks like</h2>
+
+      <p>
+        Strip the subject to its essentials and a defensible EB-5 job count has four properties, each of which
+        a skeptical reviewer can check. It rests on an accepted input-output model &mdash; RIMS II, IMPLAN,
+        or REMI &mdash; rather than a bespoke device. It is fed realistic, documented expenditure and revenue
+        inputs, tied precisely to the construction contract, the budget, and the pro forma, because the model
+        is only as good as what goes into it. It uses the correct geographic and industry selections, indexed
+        to the right dollar-year. And it stays causally close to the direct spending, never straying so far
+        from a verifiable dollar that the nexus between the investment and the job becomes, in the agency&rsquo;s
+        word, tenuous. The 2018 tenant-occupancy retirement is the proof that USCIS enforces that last
+        principle, and the post-RIA I-956F regime is the proof that it now enforces it before an investor ever
+        files.
+      </p>
+      <p>
+        For the analyst and the issuer, the lesson is that economic-impact modeling is a rigorous analytical
+        discipline, not a rubber stamp. The multiplier is a powerful engine, and in a Regional Center project
+        it will do most of the hiring on paper. But the number it produces is defensible only to the extent
+        the inputs behind it are documented and the causation is clean. The deliverable is not the job count.
+        It is the audit trail from a verified dollar of spend to a counted job &mdash; the record that answers,
+        line by line, the one question USCIS always asks: what makes you say this investment created that job?
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          The statutory and regulatory framework is drawn from INA 203(b)(5), including subparagraph
+          (E)(iv); 8 CFR 204.6, including 204.6(m)(3) and 204.6(j)(4)(iii); the USCIS Policy Manual, Volume
+          6, Part G (Immigrant Investors), Chapters 2 and 5; USCIS Policy Alert PA-2018-03 (May 15, 2018); the
+          2012 tenant-occupancy notice and operational guidance (GM-602-0001, February and December 2012); the
+          June 2012 EB-5 economic methodologies question-and-answer guidance; and the precedent decisions
+          <em>Matter of Ho</em> (22 I&amp;N Dec. 206) and <em>Matter of Izummi</em> (22 I&amp;N Dec. 169),
+          both Assoc. Comm. 1998. The 75 percent short-construction figure is from Congressional Research
+          Service report IF13040. Model mechanics, multiplier definitions, the regional and sector multiplier
+          figures, and the sports-facility and food-products-machinery examples are from the Bureau of
+          Economic Analysis, including <em>Regional Multipliers: A User Handbook for the Regional Input-Output
+          Modeling System (RIMS II)</em> (3rd ed., March 1997) and the RIMS II glossary. Practitioner
+          conventions and case studies &mdash; the 10-to-15 jobs-per-million range, the cushion concept, the
+          23-versus-24-month illustration, and the post-RIA approval data &mdash; are secondary sources,
+          attributed in text to EB5AN, LCR, Holland &amp; Knight, CanAm Enterprises (quoting general counsel
+          Walter Gindin and, via IIUSA&rsquo;s Lee Li, February 2026 approval figures), the practitioner
+          Suzanne Lazicki, and the ICIC/Harvard report <em>Increasing Economic Opportunity in Distressed Urban
+          Communities with EB-5</em> (Zeuli &amp; Hull, June 2014), whose NYLO Dallas and University of Miami
+          figures were estimated (the latter by the Jacob France Institute, University of Baltimore) rather
+          than independently audited. All multiplier values in the worked example &mdash; the 12 jobs per
+          million dollars and the direct/indirect/induced split &mdash; are illustrative and must be replaced
+          with the actual model run for a specific region and sector before publication; BEA&rsquo;s 34.5
+          jobs-per-million construction figure is 1987-vintage and is not a current multiplier. Policy is
+          time-sensitive and reflects the post-RIA framework (RIA enacted March 15, 2022, effective May 14,
+          2022; Regional Center program authorized through September 30, 2027).
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Filing a Regional Center project?</h2>
+      <p>
+        Our EB-5 economic impact analyses and feasibility studies build the job count the way this piece
+        describes: accepted input-output models, documented expenditure and revenue inputs tied to the budget
+        and schedule, and an audit trail from every verified dollar of spend to a counted job.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>

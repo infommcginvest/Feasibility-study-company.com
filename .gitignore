@@ -17,3 +17,7 @@ Thumbs.db
 # not served raw from the repo root.
 /preview-*.html
 /index_[0-9]*.html
+
+# Local helpers (not part of the site)
+/normalize_nav.py
+/.ghtoken

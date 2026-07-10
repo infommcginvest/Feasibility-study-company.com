@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>Why Feasibility Studies Fail Lender Review | Feasibility Study Company</title>
+<meta name="description" content="A taxonomy of why lenders reject feasibility studies, tracing each failure to the specific rule it violates: SBA SOP 50 10 8, USDA 7 CFR Part 5001, USPAP Standards Rule 1-3, and the debt-service-coverage floor.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/why-feasibility-studies-fail-review/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Why Feasibility Studies Fail Lender Review: A Taxonomy of Rejection">
+<meta property="og:description" content="A rejected feasibility study rarely reflects a bad business idea. It fails to answer the questions the governing regime — SBA, USDA, or USPAP — requires. Here is the taxonomy of rejection.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/why-feasibility-studies-fail-review/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-10">
+<meta property="article:modified_time" content="2026-07-10">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Feasibility Studies Fail Lender Review">
+<meta name="twitter:description" content="A taxonomy of rejection: the specific rule behind each failure, from SBA SOP 50 10 8 to USDA 7 CFR Part 5001 to the DSCR floor.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/why-feasibility-studies-fail-review/#article",
+      "headline": "Why Feasibility Studies Fail Lender Review: A Taxonomy of Rejection",
+      "description": "A taxonomy of why lenders reject feasibility studies, mapping each failure mode to the specific rule it violates: SBA SOP 50 10 8, USDA 7 CFR Part 5001, USPAP Standards Rule 1-3, and the debt-service-coverage floor.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/why-feasibility-studies-fail-review/",
+      "about": [
+        { "@type": "Thing", "name": "Feasibility study lender review" },
+        { "@type": "Thing", "name": "SBA SOP 50 10 8" },
+        { "@type": "Thing", "name": "USDA 7 CFR Part 5001" },
+        { "@type": "Thing", "name": "Debt service coverage ratio" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/why-feasibility-studies-fail-review/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "Why Feasibility Studies Fail Review", "item": "https://feasibility-study-company.com/research-notes/why-feasibility-studies-fail-review/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; Methodology</p>
+      <h1>Why Feasibility Studies Fail Lender Review: A Taxonomy of Rejection</h1>
+      <p class="article-deck">
+        A rejected feasibility study is rarely a rejected business idea. It is a document that fails to
+        answer the questions its governing regime — SBA SOP 50 10 8, USDA 7 CFR Part 5001, or USPAP —
+        requires it to answer. Here is the taxonomy, and the specific rule behind each failure.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+        <span>18 minute read</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a></li>
+        <li aria-current="page">Why Feasibility Studies Fail Review</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        A feasibility study fails lender review when it is built to sell a deal rather than to evaluate
+        one. Regulated lending files are not read once and filed. They are read by underwriters, by credit
+        committees, by agency reviewers and bank examiners, and — if the loan later defaults — by counsel
+        and the SBA Office of Inspector General. Every one of those readers is checking the document
+        against an external standard, and when the study cannot be reconciled to that standard, rejection
+        is not bad luck. It is the rational outcome.
+      </p>
+
+      <p>
+        The reassuring part, for a sponsor, is that the failure is almost never the business idea. It is
+        that the document does not answer the questions the governing regime requires it to answer — and
+        those questions are knowable in advance. Nearly every rejection traces to a specific rule: a
+        provision of SBA's <a href="/practice-areas/sba-7a-504/">SOP 50 10 8</a>, a section of USDA's
+        7 CFR Part 5001, or an appraisal and underwriting convention such as USPAP Standards Rule 1-3 or
+        the debt-service-coverage floor. What follows is a taxonomy — each failure mode, what it looks
+        like in a returned report, and the rule it violates.
+      </p>
+
+      <h2>The three standards every study is graded against</h2>
+
+      <p>
+        Before cataloguing the failures, separate the standards a reviewer applies, because confusing them
+        is itself a source of failure. They fall into three tiers, and a report that treats a soft
+        convention as optional, or a hard requirement as a convention, has misread the assignment before
+        the first number is run.
+      </p>
+      <p>
+        The first tier is the hard regulatory requirement — the codified must-haves in SBA's SOP 50 10 8
+        and USDA's 7 CFR Part 5001. For the loans they govern, these are binding, and a study that omits
+        what they require is deficient on its face. The second tier is appraisal and analytical standards:
+        the Uniform Standards of Professional Appraisal Practice (USPAP), particularly Standards Rule 1-3
+        on market and highest-and-best-use analysis; the Appraisal Institute's market-analysis framework;
+        and asset-specific conventions such as STR's competitive-set rules for hotels and NCHMA's Model
+        Content Standards for multifamily. These are not federal statutes, but for the loans and asset
+        classes they govern they function as binding. The third tier is softer underwriting convention:
+        DSCR floors, expense-ratio benchmarks, reserve sizing, and the general expectation of conservatism
+        a credit committee applies as a matter of prudence.
+      </p>
+      <p>
+        Conventional lenders operate under supervisory guidance rather than a codified feasibility mandate,
+        but construction lenders, CMBS conduits, and life-insurance lenders routinely require independent
+        demand and financial analysis for hospitality, healthcare, and other capital-intensive projects.
+        USDA's own §5001.202 credit-evaluation standard — requiring analysis against "industry standards
+        (such as Dun &amp; Bradstreet or the Risk Management Association)" and documentation of any
+        projection "deviating from historical financial performance" — is a fair proxy for what any
+        <a href="/practice-areas/conventional-institutional/">conventional or institutional</a> credit
+        committee expects.
+      </p>
+
+      <h2>SBA 7(a) and 504: a discretionary rule, a non-negotiable expectation</h2>
+
+      <p>
+        The governing edition of SBA's operating procedure is SOP 50 10 8, effective June 1, 2025, which
+        replaced SOP 50 10 7.1 and carries a technical update effective March 1, 2026. It is the operative
+        manual through mid-2026. Read literally, its feasibility hook is discretionary: the SBA <em>may</em>
+        require a study, and it sits in the rulebook beside appraisals and surveys as a tool the lender can
+        invoke rather than a universal mandate. In practice, the discretion is narrow. Lenders and SBA
+        quality reviewers expect a study wherever projections, not operating history, carry the credit —
+        startups, ground-up construction or major expansion, complete changes of ownership, and, above all,
+        special-purpose property.
+      </p>
+      <p>
+        The SOP defines special-purpose property as "a limited market property with a unique physical
+        design, special construction materials, or a layout that restricts its utility to the specific use
+        for which it was built," and its examples read like a list of the busiest independent-feasibility
+        asset classes: <a href="/asset-classes/hotel/">hotels</a>,
+        <a href="/asset-classes/express-car-wash/">car washes</a>,
+        <a href="/asset-classes/gas-station-and-c-store/">gas stations</a>, and
+        <a href="/asset-classes/assisted-living-and-memory-care/">assisted-living facilities</a> among
+        them. For special-purpose property, SBA treats the appraisal and the feasibility study as separate
+        deliverables answering separate tests — the appraisal supporting the collateral test, the
+        feasibility study the cash-flow test.
+      </p>
+      <p>
+        Where a going concern is involved, the SOP requires the appraisal be performed by a Certified
+        General Real Property Appraiser who has completed no fewer than four going-concern appraisals of
+        equivalent special-use property within the last 36 months, with value allocated separately to
+        land, building, equipment, and intangible assets. On repayment, a standard 7(a) loan must show a
+        DSCR of at least 1.15x, with operating cash flow defined as EBITDA; 7(a) small loans of $350,000
+        or less must clear 1.10x under the March 1, 2026 update; and a global cash-flow analysis is
+        required wherever affiliates are involved. Miss any of these and the credit is not merely weak. It
+        is non-conforming.
+      </p>
+
+      <h2>USDA's 7 CFR Part 5001: the most explicit mandate in federal lending</h2>
+
+      <p>
+        If SBA's requirement is discretionary, <a href="/practice-areas/usda-rural-development/">USDA's</a>
+        is the opposite — the most explicit and quotable feasibility mandate in federal lending. 7 CFR
+        Part 5001, the codified home of the OneRD Guaranteed Loan Initiative, took effect October 1, 2020,
+        consolidating six legacy regimes, including the old Business and Industry (B&amp;I) rules at 7 CFR
+        Part 4279 Subpart B. That consolidation matters, because most online guidance about "B&amp;I
+        feasibility requirements" still cites regulations that no longer govern current origination.
+        Section 5001.3 defines a feasibility study as "a report including an opinion or finding conducted by
+        an independent qualified consultant(s) evaluating the economic, market, technical, financial, and
+        management feasibility of the proposed project or operation in terms of its expectation for success
+        as outlined in appendix A to subpart D of this part."
+      </p>
+      <p>
+        The trigger is mechanical, not judgmental. Under 7 CFR 5001.306(a)(3)(i), a feasibility study by an
+        independent qualified consultant acceptable to the Agency is mandatory for any B&amp;I guaranteed
+        loan greater than $1,000,000 to a <em>new business</em> — itself a regulatory term of art, defined
+        in §5001.3 as a business in operation less than one full year, or one operating at least a year but
+        not yet at full operational capacity or stable operations. For loans of $1,000,000 or less, the
+        Agency may require a study under §5001.304(a)(4)/(ii) where the lender's own analysis cannot
+        establish technical feasibility, market feasibility, or economic viability, or where the project
+        significantly affects an existing borrower's historic cash flow. Community Facilities financing
+        splits under §5001.304 into a lighter financial feasibility analysis — available under three safe
+        harbors, including loans of $25 million or less to existing facilities — and a heavier financial
+        feasibility study with examination opinion, prepared to AICPA attestation standards by a consultant
+        carrying professional liability insurance. For REAP, §5001.307 scales the technical report to
+        project cost and reserves a full study for cases the lender or Agency deems necessary.
+      </p>
+      <p>
+        The analytical spine of every USDA study is the set of five components codified in Appendix A to
+        Subpart D, and they are worth stating in the regulation's own words, because reviewers check for
+        them by name. The <strong>economic</strong> component requires a "cost benefit analysis" weighing
+        the "minimum amount of inputs (labor, infrastructure, utilities, renewable resources, feedstocks)
+        to operate successfully," contracts, environmental risks, and the "overall economic impact of
+        project including new markets created and economic development." The <strong>market</strong>
+        component requires "analysis of the current and future market potential, competition, sales or
+        service estimations including current and prospective buyers or users." The
+        <strong>technical</strong> component requires "analyzing the reliability of the technology to be
+        used and/or the analysis of the delivery of goods or services, including transportation, business
+        location, and the need for technology, materials, and labor." The <strong>financial</strong>
+        component requires "analysis of the operation to achieve sufficient income, credit, and cashflow to
+        financially sustain the project over the long term and meet all debt obligations," and explicitly
+        names "sensitivity analysis" and "peer industry comparison" among its factors. The
+        <strong>management</strong> component requires "analysis of the legal structure of the business or
+        operation; ownership, board and management analysis." The appendix also requires an executive
+        summary, a consultant's recommendation, and a statement of the author's qualifications. All five
+        are mandatory; a study omitting any one is facially incomplete.
+      </p>
+
+      <h2>Why the reviewer is reading harder than before</h2>
+
+      <p>
+        None of this scrutiny is theoretical, and it has intensified. USDA's own approval data shows the
+        share of B&amp;I applications receiving approval falling from 89.1 percent in FY2021 to 52.7 percent
+        in FY2023 — the most recent year for which throughput data has been published, as reported by MMCG
+        Invest drawing on Office of the Comptroller of the Currency figures. Nearly half of applications now
+        fail, and the study is the first document a reviewer attacks.
+      </p>
+      <p>
+        The portfolio behind that tightening explains it. On February 20, 2026, USDA RBCS Administrator J.R.
+        Claeys sent an open letter to more than 775 OneRD lenders disclosing an active guaranteed balance in
+        excess of twelve billion dollars, delinquent loans in excess of one billion, and roughly $300
+        million in repurchases and losses over the prior twelve months — and reminding lenders of the
+        Agency's removal authority under 7 CFR 5001.132. When an agency is absorbing losses at that scale,
+        it reads the feasibility study the way a claims adjuster reads an application: looking for the reason
+        to say no. A study written to survive that reading is a different document from one written to close
+        a deal.
+      </p>
+
+      <h2>Market and demand failures: the most common and most fatal</h2>
+
+      <p>
+        The single most common failure category, and the most fatal, is unsupported market demand. It shows
+        up as demand assumptions with no evidentiary floor; weak or absent trade-area delineation; a primary
+        market area defined by radius when it should be drive-time, or defaulted to a county or place
+        boundary; national averages standing in for local data; competitive supply mishandled or omitted;
+        and capture or penetration rates asserted rather than derived.
+      </p>
+      <div class="capsule">
+        <p>
+          Demand can be estimated generously and defended with a citation. Supply is a matter of fact — the
+          competitors exist or they do not — and a reviewer who knows the submarket can falsify a soft
+          supply analysis in a single phone call. That is why the supply section is attacked hardest.
+        </p>
+      </div>
+      <p>
+        The rules this violates are specific. For USDA, market feasibility is one of the five codified
+        Appendix A components, so a study that asserts demand without a supply collision fails on the
+        regulation's own terms. For any appraisal-adjacent study, USPAP Standards Rule 1-3(a) requires the
+        analyst, in a market-value context, to "identify and analyze the effect on use and value of &hellip;
+        economic supply and demand &hellip; and market area trends," and its comment is blunt: "an appraiser
+        must avoid making an unsupported assumption or premise about market area trends." The Appraisal
+        Institute's six-step market-analysis process — property productivity, market delineation, demand
+        analysis, competitive supply analysis, residual demand, and capture analysis — is the recognized
+        method, and skipping the supply and residual-demand steps is a methodology failure, not a shortcut.
+      </p>
+      <p>
+        The asset-specific conventions are just as concrete. For <a href="/asset-classes/hotel/">hotels</a>,
+        the STR competitive-set guidelines, effective January 1, 2017, require a minimum of four properties
+        excluding the subject, at least three of them unaffiliated, representing at least two unaffiliated
+        companies, with no single brand exceeding 50 percent and no single company exceeding 70 percent of
+        participating room supply; a compset that violates those ratios is not defensible. For
+        <a href="/asset-classes/multifamily/">multifamily</a> and LIHTC, NCHMA's Model Content Standards,
+        updated September 2025, govern capture- and penetration-rate methodology — treating a capture rate
+        below ten percent as generally acceptable and up to fifteen percent acceptable in documented
+        fast-growth markets, and requiring capture to be run by AMI band and bedroom count rather than in
+        aggregate.
+      </p>
+
+      <h2>Financial projections and the DSCR floor</h2>
+
+      <p>
+        The second category is aggressive financial projection: a revenue ramp or absorption assumption that
+        outruns the evidence, expense ratios inconsistent with industry benchmarks, break-even and
+        sensitivity analysis missing, and — the recurring offender — a model that books stabilized
+        performance from day one and ignores the ramp. The mechanics of deriving a defensible ramp are the
+        subject of a companion note on <a href="/research-notes/absorption-forensics/">absorption
+        forensics</a>.
+      </p>
+      <p>
+        The hardest number in the file is the DSCR floor, and it is where most financial rejections happen.
+        Under SOP 50 10 8, the SBA requires a minimum projected DSCR of 1.15x — 1.10x for 7(a) small loans
+        under the March 1, 2026 update — while most SBA lenders target 1.25x internally and the most
+        conservative require 1.50x. Conventional floors are tiered rather than singular. Freddie Mac's
+        Optigo Small Balance Loan program, for instance, ranges from a 1.20x minimum in top markets to 1.50x
+        for full-term interest-only financing in very small markets. For conventional multifamily agency
+        debt, both GSEs sit at 1.25x: Freddie Mac's Multi PC Program Overview, as of March 31, 2026, states
+        that "for fixed-rate Conventional Loans, the debt-service coverage ratio (DSCR) must be at least
+        1.25x for the first mortgage," and Fannie Mae's Standard DUS product carries "a minimum 1.25x DSCR
+        requirement."
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Minimum DSCR by program — the floor a projection must clear in every year, not on average.</caption>
+          <thead><tr><th scope="col">Program</th><th scope="col">Minimum DSCR</th><th scope="col">Note</th></tr></thead>
+          <tbody>
+            <tr><td>SBA 7(a) / 504 (SOP 50 10 8)</td><td>1.15x</td><td>Operating cash flow defined as EBITDA</td></tr>
+            <tr><td>SBA 7(a) small loan (&le; $350,000)</td><td>1.10x</td><td>Effective March 1, 2026</td></tr>
+            <tr><td>Fannie Mae Standard DUS</td><td>1.25x</td><td>Conventional multifamily agency debt</td></tr>
+            <tr><td>Freddie Mac Multi PC (fixed-rate)</td><td>1.25x</td><td>First mortgage, as of March 31, 2026</td></tr>
+            <tr><td>Freddie Mac Optigo Small Balance</td><td>1.20x&ndash;1.50x</td><td>Tiered by market; 1.50x for full-term IO in very small markets</td></tr>
+            <tr><td>Internal / conservative targets</td><td>1.25x&ndash;1.50x</td><td>Underwriting convention, not codified</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Sources: SBA SOP 50 10 8; Fannie Mae Standard DUS; Freddie Mac Multi PC Program Overview (Mar 31, 2026) and Optigo Small Balance Loan tiering. Internal targets vary by institution, asset class, and market tier.</p>
+      </div>
+
+      <p>
+        A conclusion of feasibility that rests on a DSCR dipping below the lender's floor in any projection
+        year — even one — will be returned. USDA reinforces the point from another direction: §5001.202
+        requires that "financial projections deviating from historical financial performance must be
+        substantiated and documented" and that any increase to revenues and margins "be reasonable and
+        substantiated," and Appendix A lists sensitivity analysis as a required financial factor, so its
+        absence is a codified deficiency rather than a stylistic one. The most common structural trick in
+        this category is annual averaging that hides a sub-1.0x quarter; lenders who pull quarterly
+        statements re-cast the model to the worst quarter, and a study that averages its way over the floor
+        is inviting exactly that recast.
+      </p>
+
+      <h2>Independence, and the "study" that is really a business plan</h2>
+
+      <p>
+        The third category is independence and qualification: a preparer who is not independent, lacks
+        asset-class credentials, or carries a conflict of interest — or a "study" that is really the
+        borrower's own projections or business plan under a new cover. USDA is again the most explicit.
+        Section 5001.3 requires an "independent qualified consultant(s)," and §5001.306(a)(3)(i) requires
+        the B&amp;I preparer be "acceptable to the Agency." A consultant who also brokers, develops, or
+        arranges financing for the same project is not independent.
+      </p>
+      <p>
+        The key distinction, often misunderstood, is that independence attaches to the absence of a stake in
+        the outcome, not to who pays the fee: a borrower-paid study is perfectly acceptable so long as the
+        compensation does not depend on the conclusion or on loan approval. For SBA special-purpose
+        going-concern appraisals, SOP 50 10 8 requires independence from the loan-production and approval
+        functions and prohibits using a valuation prepared for the borrower or seller. And USPAP's Ethics
+        Rule — which reaches market studies performed as "other" valuation services under Advisory Opinion
+        21 — prohibits the analyst from advocating a party's cause. A business plan is an advocacy document
+        written by the borrower to raise capital; it cannot substitute for an independently prepared
+        feasibility analysis, and a reviewer recognizes the difference immediately.
+      </p>
+
+      <h2>Data, sourcing, and methodology</h2>
+
+      <p>
+        Two related categories account for a large share of returns that have nothing to do with the
+        strength of the market: stale or unsourced data, and opaque methodology. On data, the failures are
+        familiar — outdated Census or industry figures, national averages standing in for a rural
+        submarket, no primary research, no citations. USDA §5001.202 requires comparison against current
+        industry standards such as the Risk Management Association's Annual Statement Studies or Dun &amp;
+        Bradstreet, and USPAP Standards Rule 1-1(b)&ndash;(c) prohibits substantial errors of omission or
+        commission and careless or negligent analysis. In thin-data rural markets, reviewers do not expect
+        national data; they expect creative but documented sourcing — ACS five-year estimates, USDA Economic
+        Research Service data, state economic-development reports, and genuine primary research — precisely
+        because national averages cannot describe a rural submarket. An unsourced claim reads as a report
+        designed to validate a conclusion rather than to test one.
+      </p>
+      <p>
+        On methodology, the failure is the black box: a conclusion the reader cannot reproduce. USPAP
+        Standards Rule 1-1(a) requires the analyst to "correctly employ those recognized methods and
+        techniques necessary to produce credible results," and the Appraisal Institute's six-step process is
+        the recognized method for market analysis — a conclusion that cannot be traced through demand,
+        supply, residual demand, and capture is not reproducible. A study can present an abundance of
+        accurate data and still fail the credibility test if it never demonstrates the data's relevance or
+        draws a conclusion from it. Our own <a href="/analytical-framework/">analytical framework</a> is
+        built to make every conclusion traceable back through those steps.
+      </p>
+
+      <h2>Scope and presentation: the avoidable returns</h2>
+
+      <p>
+        The last two categories are the most avoidable, which is what makes them the most frustrating when
+        they trigger a return. Scope failures occur when a study, however competent, does not answer the
+        specific questions the program requires. For USDA, all five Appendix A components are mandatory, so a
+        study that omits management feasibility or economic impact is incomplete regardless of how thorough
+        its market section is. For SBA special-purpose property, the analysis must align with the SOP's
+        separate cash-flow test. The standard a conventional lender applies differs from an SBA lender's,
+        which differs again from a USDA transaction or an institutional investor's, and a study that is
+        technically sound but built for the wrong audience can be returned simply for leaving the actual
+        credit decision unanswered.
+      </p>
+      <p>
+        Presentation and completeness failures are the quiet killers: internal inconsistencies, math errors,
+        conclusions the body does not support, missing certifications. A net-profit figure in the P&amp;L
+        that does not tie to the cash-flow statement is one of the most common reasons a credit officer
+        returns a report, because officers are trained to cross-check figures and a single inconsistency
+        undermines confidence in every number in the file. USDA Appendix A requires a statement of the
+        author's qualifications and a consultant's recommendation, and their absence is a codified gap; USPAP
+        Standards Rule 2-3 makes a signed certification an integral part of the report. None of these defects
+        reflects a weak project. All of them get a study returned.
+      </p>
+
+      <h2>The three studies people conflate</h2>
+
+      <p>
+        A surprising share of scope failures come down to a vocabulary problem: conflating a market study, a
+        marketability study, and a feasibility study, which are three different instruments. A market study,
+        in the Appraisal Institute's Dictionary of Real Estate Appraisal, is "the study of the supply and
+        demand in a specific area for a specific type of property" — macro conditions. A marketability study
+        is site- and property-specific and follows the six-step process to the subject's own capture. A
+        feasibility study is a cost-benefit comparison — "a comparison of the cost versus the value of a
+        project" — that asks the forward question the appraisal does not: given this market, this
+        competition, and this cost structure, will the project generate the cash flow to service the loan
+        through the ramp and at stabilization?
+      </p>
+      <p>
+        The practical consequence is that an appraisal is a present-value opinion supporting the collateral
+        test, while a feasibility study supports the cash-flow test, and the federal frameworks do not permit
+        one to substitute for the other — many loans require both. Delivering a market study when the program
+        requires a feasibility study is a scope failure that guarantees a return, no matter how good the
+        market study is.
+      </p>
+
+      <h2>Highest and best use, the hidden test</h2>
+
+      <p>
+        One appraisal doctrine sits underneath the whole exercise and quietly fails studies that ignore it.
+        The Appraisal Institute defines highest and best use as "the reasonably probable and legal use of
+        vacant land or an improved property that is physically possible, appropriately supported, financially
+        feasible, and that results in the highest value," tested against four criteria: legally permissible,
+        physically possible, financially feasible, and maximally productive.
+      </p>
+      <p>
+        The third criterion is the trap. Financial feasibility — generally, a use whose net present value
+        exceeds zero — cannot be established without a supply-and-demand analysis, which is precisely what a
+        feasibility study exists to provide. A study that ignores the highest-and-best-use framework can fail
+        an appraisal-informed review because the "financially feasible" prong is exactly the question the
+        study was commissioned to answer, and USPAP Standards Rule 1-3(b) requires the analyst to "develop an
+        opinion of the highest and best use of the real estate" whenever the assignment involves market
+        value. A feasibility conclusion that cannot be squared with highest and best use has an unresolved
+        contradiction at its center.
+      </p>
+
+      <h2>Writing a study that survives the review</h2>
+
+      <p>
+        The remedy for all seven categories is structural, not cosmetic, and it runs in four stages. Before
+        commissioning, identify the governing regime first, because the regime dictates required scope,
+        preparer credentials, and whether a study is even mandatory. A USDA B&amp;I loan over $1,000,000 to a
+        new business requires a full five-component study, not an optional one; an SBA special-purpose credit
+        needs an analysis aligned to the cash-flow test; a conventional deal answers to its lender's
+        underwriting file. Confirm at this stage that the preparer is genuinely independent — no brokerage,
+        development, or financing interest in the project — and demonstrably competent in the asset class.
+      </p>
+      <p>
+        During preparation, insist on the things reviewers check: a drive-time-validated primary market area;
+        a competitive set built to the applicable standard, STR for hotels and NCHMA for multifamily; a
+        forward supply pipeline that includes shadow supply; capture and penetration framed by segment;
+        ramp-year modeling on as-is expense ratios with a sized operating reserve, commonly twelve to
+        eighteen months of debt service for ground-up construction; and a sensitivity analysis that states
+        what the project must clear, not what the analyst hopes it will. Every material claim carries a named,
+        dated source.
+      </p>
+      <p>
+        Before submission, run the file against the review the lender will run. Does the projected DSCR clear
+        the floor in every year, including the worst quarter? Are all five USDA components present? Do the
+        P&amp;L, balance sheet, and cash flow reconcile? Is the methodology stated and reproducible? Are the
+        certification and qualifications statements attached? If the projected DSCR falls below 1.15x for
+        SBA, or the lender's stated conventional floor in any year, the deal is restructured — more equity,
+        longer amortization, a smaller loan — not re-argued. And on revision, treat a return as a scope
+        conversation, not an editing pass: map each reviewer comment to the specific provision it implicates
+        and remediate at that level. A study is not finished when the analyst is satisfied. It is finished
+        when the reviewer accepts it — and the surest way there is to write, from the first page, the
+        document the reviewer was going to demand anyway.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Regulatory requirements are cited to SBA SOP 50 10 8 (effective June 1, 2025; technical update
+          March 1, 2026) and USDA's 7 CFR Part 5001 (effective October 1, 2020), including §§5001.3,
+          5001.132, 5001.202, 5001.304, 5001.306, and 5001.307, and the five feasibility components in
+          Appendix A to Subpart D. Appraisal and analytical standards are cited to USPAP Standards Rules 1-1,
+          1-3, and 2-3, the USPAP Ethics Rule and Advisory Opinion 21, the Appraisal Institute's
+          market-analysis framework and Dictionary of Real Estate Appraisal, the STR competitive-set
+          guidelines (effective January 1, 2017), and NCHMA's Model Content Standards (updated September
+          2025). DSCR figures are drawn from SOP 50 10 8, Fannie Mae's Standard DUS, and Freddie Mac's Multi
+          PC Program Overview (as of March 31, 2026) and Optigo Small Balance Loan tiering. USDA B&amp;I
+          approval rates (89.1 percent in FY2021 to 52.7 percent in FY2023) reflect Office of the Comptroller
+          of the Currency throughput data as reported by MMCG Invest; the February 20, 2026 portfolio
+          disclosure — an active guaranteed balance above $12 billion, delinquencies above $1 billion, and
+          roughly $300 million in repurchases and losses — is from USDA RBCS Administrator J.R. Claeys's open
+          letter to OneRD lenders.
+        </p>
+        <p>
+          Two caveats. The SBA feasibility "requirement" is discretionary in the codified text; the
+          consistent expectation for special-purpose property and projection-driven credits is real, but
+          specific requirements should be confirmed against the actual SOP 50 10 8 text. DSCR floors above
+          the SBA minimum (1.25x, 1.50x) are lender-specific conventions, not codified rules, and vary by
+          institution, asset class, and market tier. USDA program architecture is intricate: Part 5001 governs
+          <em>guaranteed</em> loans, while CF direct loans (Part 1942), CF grants (Part 3570), and REAP grants
+          (Part 4280 Subpart B) sit under separate regimes with different feasibility rules; confirm which
+          regime applies before relying on any threshold cited here. Approval-rate and portfolio figures
+          should be read as directional context, not audited statistics.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Is your study built for the reviewer?</h2>
+      <p>
+        We prepare feasibility studies to the governing regime from the first page — SBA SOP 50 10 8,
+        USDA 7 CFR Part 5001, or the conventional lender's own credit file — sourced, stress-tested
+        against the DSCR floor, and signed by an independent, asset-class-competent third party.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>The Coverage-Constrained Takeout | Feasibility Study Company</title>
+<meta name="description" content="At today's permanent rates, a 1.25x DSCR floor sizes a smaller loan than a 75% LTV ceiling, so the takeout sizes to coverage, not value, opening an equity gap low-rate pro formas never modeled.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/coverage-constrained-takeout/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="The Coverage-Constrained Takeout: When the Loan Sizes to Coverage, Not Value">
+<meta property="og:description" content="At 6.5-7%+ takeout rates, a 1.25x coverage floor sizes a smaller loan than a 75% LTV ceiling. How the coverage-constrained takeout opens an equity gap, and why it hits low-cap assets hardest.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/coverage-constrained-takeout/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-10">
+<meta property="article:modified_time" content="2026-07-10">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Coverage-Constrained Takeout: Coverage, Not Value">
+<meta name="twitter:description" content="Why the permanent loan now sizes to coverage, not value, and where the equity gap opens widest.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/coverage-constrained-takeout/#article",
+      "headline": "The Coverage-Constrained Takeout: When the Permanent Loan Sizes to Coverage, Not Value",
+      "description": "At today's permanent rates a 1.25x DSCR floor sizes a smaller loan than a 75% LTV ceiling, so the takeout sizes to coverage, not value, opening a developer equity gap that low-rate-era pro formas never modeled and that lands largest on low-cap-rate assets.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/coverage-constrained-takeout/",
+      "about": [
+        { "@type": "Thing", "name": "Coverage-constrained loan sizing" },
+        { "@type": "Thing", "name": "Debt service coverage ratio" },
+        { "@type": "Thing", "name": "Debt yield underwriting" },
+        { "@type": "Thing", "name": "Construction loan takeout" },
+        { "@type": "Thing", "name": "Mezzanine and preferred equity" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/coverage-constrained-takeout/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "The Coverage-Constrained Takeout", "item": "https://feasibility-study-company.com/research-notes/coverage-constrained-takeout/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/the-practice/">About</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; Capital Markets</p>
+      <h1>The Coverage-Constrained Takeout: When the Permanent Loan Sizes to Coverage, Not Value</h1>
+      <p class="article-deck">
+        At today's permanent rates, a 1.25x coverage floor sizes a smaller loan than a 75 percent
+        loan-to-value ceiling. The takeout now sizes to coverage, not value, and the equity gap lands
+        hardest on exactly the low-cap-rate assets underwriters treat as safest.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+        <span>17 minute read</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a></li>
+        <li aria-current="page">The Coverage-Constrained Takeout</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        The permanent loan that retires a construction facility used to size to value. A lender took the
+        stabilized net operating income, capitalized it into a value, and lent 70 to 75 percent of that
+        number. For the whole low-rate decade, that loan-to-value ceiling was almost always the binding
+        constraint, and the pro forma was built on it: the sponsor modeled the LTV loan, sized the equity
+        to the balance, and moved on. At today's rates, that model is quietly wrong. A 1.25x coverage
+        floor now sizes a smaller loan than the LTV ceiling would allow, so the takeout sizes to coverage,
+        not value, and the difference is real equity the sponsor never budgeted for.
+      </p>
+
+      <p>
+        This is not a small technical footnote to a financing plan. It is the mechanism reshaping the
+        capital stack of every ground-up deal underwritten before rates moved, and it behaves in a way
+        that inverts the usual intuition about which assets are most exposed. What follows is the
+        arithmetic of the coverage-constrained takeout, the point at which it takes over from value, the
+        asset classes it hits first, and the discipline a 2026 feasibility study has to adopt so the
+        equity gap is on the page before the lender finds it.
+      </p>
+
+      <h2>The three lenses a takeout lender sizes through</h2>
+
+      <p>
+        Every takeout lender sizes a loan through three lenses at once and funds the smallest of the
+        three. The first is coverage. Debt service coverage is net operating income divided by annual debt
+        service, and the lender sets a floor, commonly 1.25x. Rearranged, the largest loan coverage will
+        support equals net operating income divided by the product of the coverage floor and the debt
+        constant, where the debt constant is the annualized debt service per dollar borrowed. The second
+        is value. The maximum loan by loan-to-value is stabilized value times the LTV ceiling, and because
+        value is net operating income divided by the cap rate, that loan equals net operating income over
+        the cap rate, times the LTV. Unlike the coverage loan, it does not move with the coupon; it moves
+        with the cap rate and the value. The third is debt yield: net operating income divided by the loan
+        amount, a rate- and amortization-proof figure the lender floors at, say, 9 or 10 percent. The
+        lender computes all three and lends the least. Whichever produces the fewest proceeds is the
+        binding constraint.
+      </p>
+      <p>
+        The three lenses are linked by an identity worth holding onto: the debt yield of a
+        coverage-constrained loan is exactly the coverage floor times the debt constant. At a 1.25x floor
+        and a 7.73 percent constant, that is 1.25 &times; 0.0773 = 9.66 percent. When the coverage floor
+        and the debt constant multiply to a number above the lender's debt-yield floor, coverage is doing
+        the binding; when they fall below it, debt yield takes over. That single identity is why, on
+        high-cap-rate assets, the debt-yield floor is the constraint that actually bites, a point we
+        return to below.
+      </p>
+
+      <h2>Why flat income now supports a smaller loan</h2>
+
+      <p>
+        The mechanism that rewired the math is the debt constant. For a fully amortizing loan paid
+        monthly, the annual constant is 12 &times; [ (i / 12) &divide; (1 &minus; (1 + i / 12)<sup>&minus;n</sup>) ],
+        where i is the annual note rate and n is the number of monthly payments &mdash; 300 on a 25-year
+        amortization, 360 on a 30-year. The constant rises with the rate, and it is the reason a lender's
+        coverage loan shrinks even when net operating income has not moved a single dollar.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>The debt-constant ladder: annualized debt service per dollar borrowed, by note rate and amortization.</caption>
+          <thead><tr><th scope="col">Note rate</th><th scope="col">25-yr am (n=300)</th><th scope="col">30-yr am (n=360)</th></tr></thead>
+          <tbody>
+            <tr><td>5.0%</td><td>7.02%</td><td>6.44%</td></tr>
+            <tr><td>5.5%</td><td>7.37%</td><td>6.81%</td></tr>
+            <tr><td>6.0%</td><td>7.73%</td><td>7.19%</td></tr>
+            <tr><td>6.5%</td><td>8.10%</td><td>7.58%</td></tr>
+            <tr><td>7.0%</td><td>8.48%</td><td>7.98%</td></tr>
+            <tr><td>7.5%</td><td>8.87%</td><td>8.39%</td></tr>
+            <tr><td>8.0%</td><td>9.26%</td><td>8.81%</td></tr>
+            <tr><td>8.5%</td><td>9.66%</td><td>9.23%</td></tr>
+            <tr><td>9.0%</td><td>10.07%</td><td>9.66%</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Computed from the monthly-amortization constant formula. Compare any deal's projected takeout constant against the crossover thresholds below.</p>
+      </div>
+
+      <p>
+        Read the ladder against recent history. A pandemic-era coupon near 4 percent carried a 25-year
+        constant of roughly 6.3 percent; a 7 percent takeout carries a constant of 8.48 percent. That is
+        an increase of roughly 35 percent in debt service per dollar borrowed, on flat income. A property
+        whose net operating income comes in at exactly what the low-rate pro forma projected still
+        supports about 35 percent less coverage-based debt, purely because each borrowed dollar now costs
+        more to service. That single fact is the engine of the rewired math.
+      </p>
+
+      <h2>The crossover between value and coverage</h2>
+
+      <p>
+        There is a clean way to know, for any given deal, which lens binds. Set the value loan equal to
+        the coverage loan and solve. The equation (NOI &divide; cap) &times; LTV = NOI &divide; (DSCR &times; constant)
+        reduces to a single threshold: the crossover constant equals the cap rate divided by the product
+        of the LTV and the coverage floor. If the actual debt constant sits above that crossover, coverage
+        binds and the loan is smaller than value would allow. If it sits below, value still binds. To read
+        the crossover as a rate rather than a constant, find the note rate whose constant equals it on the
+        relevant amortization ladder.
+      </p>
+      <p>
+        The implication is the analytical heart of this piece: the crossover constant rises with the cap
+        rate. A high cap rate produces a high crossover, so coverage does not bind until rates are very
+        high and value stays the constraint. A low cap rate produces a low crossover, so coverage binds
+        even at modest rates. Low-cap-rate property, in other words, hits the coverage wall first &mdash;
+        the opposite of where most underwriters instinctively look for rate stress.
+      </p>
+
+      <div class="article-note">
+        <h3>A note on interest-only structures</h3>
+        <p>
+          The crossover analysis assumes a fully amortizing takeout. An interest-only period lowers the
+          effective debt constant and enlarges the coverage loan, but the agencies and most balance-sheet
+          lenders underwrite interest-only debt to an amortizing-equivalent coverage test. Model the
+          amortizing constant regardless of the payment structure the loan documents actually carry, or
+          the coverage loan will size larger on paper than it will fund in practice.
+        </p>
+      </div>
+
+      <h2>A worked example: the gap that was never in the model</h2>
+
+      <p>
+        Put numbers on it. Take a stabilized net operating income of $1,000,000 and a 6.0 percent cap
+        rate, for a value of $16,666,667. A 75 percent LTV ceiling supports a $12,500,000 loan. Apply a
+        1.25x coverage floor on a 25-year amortization. The crossover constant is 0.06 &divide; (0.75 &times; 1.25)
+        = 6.40 percent, and every constant on the 25-year ladder, starting at 7.02 percent for a 5 percent
+        rate, sits above it. This deal is coverage-constrained across the entire current rate ladder.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Coverage loan versus LTV loan across the rate ladder: $1,000,000 NOI, 6% cap, 75% LTV, 1.25x DSCR, 25-year amortization.</caption>
+          <thead><tr><th scope="col">Note rate</th><th scope="col">Constant (25-yr)</th><th scope="col">Coverage loan</th><th scope="col">LTV loan</th><th scope="col">Funding gap (extra equity)</th></tr></thead>
+          <tbody>
+            <tr><td>5.0%</td><td>7.02%</td><td>$11,403,000</td><td>$12,500,000</td><td>$1,097,000</td></tr>
+            <tr><td>5.5%</td><td>7.37%</td><td>$10,854,000</td><td>$12,500,000</td><td>$1,646,000</td></tr>
+            <tr><td>6.0%</td><td>7.73%</td><td>$10,347,000</td><td>$12,500,000</td><td>$2,153,000</td></tr>
+            <tr><td>6.5%</td><td>8.10%</td><td>$9,873,000</td><td>$12,500,000</td><td>$2,627,000</td></tr>
+            <tr><td>7.0%</td><td>8.48%</td><td>$9,433,000</td><td>$12,500,000</td><td>$3,067,000</td></tr>
+            <tr><td>7.5%</td><td>8.87%</td><td>$9,022,000</td><td>$12,500,000</td><td>$3,478,000</td></tr>
+            <tr><td>8.0%</td><td>9.26%</td><td>$8,638,000</td><td>$12,500,000</td><td>$3,862,000</td></tr>
+            <tr><td>8.5%</td><td>9.66%</td><td>$8,279,000</td><td>$12,500,000</td><td>$4,221,000</td></tr>
+            <tr><td>9.0%</td><td>10.07%</td><td>$7,944,000</td><td>$12,500,000</td><td>$4,556,000</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Illustrative. Coverage loan = NOI &divide; (1.25 &times; constant); LTV loan = (NOI &divide; 0.06) &times; 0.75. Live deals should use the subject's own cap rate, loan terms, and lender conventions.</p>
+      </div>
+
+      <p>
+        At a 7 percent takeout, the coverage-supported loan is $9,433,000, which is 25 percent below the
+        $12,500,000 the LTV ceiling would allow. The developer has to fund the $3,067,000 difference in
+        equity, a gap a low-rate-era pro forma, which assumed the 75 percent loan would fund, would never
+        have flagged. And the gap widens with every increment of rate: a full point higher, at 8 percent,
+        the required extra equity is $3,862,000, and the coverage loan is barely two-thirds of the value
+        loan.
+      </p>
+
+      <h2>The reversal: low cap rates take the hardest hit</h2>
+
+      <p>
+        This is where the conventional intuition inverts. The instinct is that high-cap, higher-risk
+        assets, the hotels and older office, are the ones squeezed hardest by the coverage constraint. The
+        algebra says the opposite. Hold LTV at 75 percent and the coverage floor at 1.25x, and the
+        crossover constant tracks the cap rate directly: a 5.5 percent cap yields a 5.87 percent crossover,
+        below a 5 percent rate on either ladder; a 6.5 percent cap yields 6.93 percent, about a 5 percent
+        rate on a 30-year schedule; a 7.0 percent cap yields 7.47 percent, near a 5.7 percent rate on a
+        25-year; an 8.0 percent cap yields 8.53 percent, near a 7.1 percent rate. The higher the cap rate,
+        the further rates have to climb before coverage binds at all.
+      </p>
+      <p>
+        Quantify it on a common $1,000,000 of net operating income. Multifamily at a 5.5 percent cap, 75
+        percent LTV, 1.25x coverage, and a roughly 6 percent constant on a 30-year amortization
+        capitalizes to $18.18 million of value and a $13.64 million LTV loan, but a coverage loan of only
+        about $10.35 million, a gap of roughly $3.29 million, 24 percent below the value loan. A hotel at
+        an 8.5 percent cap, 65 percent LTV, 1.45x coverage, and a 9.26 percent constant at an 8 percent
+        rate capitalizes to $11.76 million of value and a $7.65 million LTV loan, against a coverage loan
+        of about $7.45 million, a gap of just $0.20 million, or 2.6 percent. And because the hotel's 10 to
+        11 percent debt-yield floor caps its loan near $9.1 to $10.0 million, that floor never binds
+        either; the high cap rate has already shrunk the value loan so far that LTV and coverage
+        effectively co-bind. The coverage-driven equity gap is roughly an order of magnitude larger for
+        low-cap multifamily than for high-cap hotel.
+      </p>
+
+      <div class="capsule">
+        <p>
+          Coverage binds first where cap rates are lowest. It is the combination of a low cap rate, which
+          keeps the value loan large, and a rate-inflated debt constant, which pulls the coverage loan
+          beneath it, that opens the widest gap &mdash; so the safest-looking assets, the bond-like
+          multifamily and industrial, are the ones the coverage constraint squeezes hardest.
+        </p>
+      </div>
+
+      <h2>An asset-class map of the binding constraint</h2>
+
+      <p>
+        Generalize the pattern across property types, drawing cap rates from the CBRE H2 2025 U.S. Cap
+        Rate Survey, CRED iQ's CMBS data, Matthews, and Cushman &amp; Wakefield, and loan terms from the
+        Freddie Mac and Fannie Mae multifamily guides, the PeerSense and Janover CMBS references, and
+        Select Commercial.
+      </p>
+      <p>
+        The current readings anchor the map. CBRE's H2 2025 survey, published in February 2026, found the
+        all-property cap rate holding steady and believed to be at its cyclical peak, with 2025
+        transaction volume up about 19 percent and debt becoming more available at higher LTVs.
+        Multifamily sits around 5.6 to 5.9 percent; apartment transactions averaged 5.7 percent across
+        2025, the longest such plateau in 25 years. CRED iQ's CMBS deals in early 2025 show office at 7.4
+        percent, multifamily 5.9, retail 6.7, industrial 6.4, self-storage 6.2, and hotel 7.3. Cushman
+        &amp; Wakefield and Matthews put first-quarter 2026 hotels near 8.2 percent on average, from 6.48
+        percent for luxury metro product to 8.60 for flagged economy, and office single-tenant NNN at 7.9
+        percent, Class A at 7.6, Class B at 8.0, and Class C between 8.7 and 9.4. Senior housing averaged
+        about 6.8 percent in mid-2025, with assisted living near 7 percent and memory care near 9.6, which
+        PGIM notes prices roughly 150 basis points wide of apartments.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Where the binding constraint sits by asset class, at 2025&ndash;2026 conventions. Crossover constant computed at each class's representative cap rate, LTV, and DSCR.</caption>
+          <thead><tr><th scope="col">Class</th><th scope="col">Stabilized cap rate</th><th scope="col">Perm LTV ceiling</th><th scope="col">DSCR floor</th><th scope="col">Debt-yield floor</th><th scope="col">Typical am</th><th scope="col">Crossover constant</th><th scope="col">Binding constraint now</th></tr></thead>
+          <tbody>
+            <tr><td>Multifamily (agency)</td><td>~5.5&ndash;5.9%</td><td>70&ndash;75% (agency to 80%)</td><td>1.25x</td><td>8&ndash;9%</td><td>30-yr</td><td>~5.9%</td><td>Coverage (largest gap)</td></tr>
+            <tr><td>Industrial / logistics</td><td>~6.0&ndash;6.5%</td><td>65&ndash;75%</td><td>1.25x</td><td>8&ndash;9%</td><td>25&ndash;30-yr</td><td>~6.9%</td><td>Coverage</td></tr>
+            <tr><td>Self-storage</td><td>~6.0&ndash;6.5%</td><td>65&ndash;70%</td><td>1.25&ndash;1.30x</td><td>~9%</td><td>25&ndash;30-yr</td><td>~6.9%</td><td>Coverage</td></tr>
+            <tr><td>Retail (neighborhood / grocery / NNN)</td><td>~6.5&ndash;7.0% (NNN low-mid 5s)</td><td>65&ndash;70%</td><td>1.25&ndash;1.40x (NNN to 1.05&ndash;1.10x)</td><td>8&ndash;10%</td><td>25&ndash;30-yr</td><td>~7.6%</td><td>Coverage or LTV (tenant-dependent)</td></tr>
+            <tr><td>Office</td><td>~7.6&ndash;9.0%+ (B/C higher)</td><td>55&ndash;65%</td><td>1.30&ndash;1.45x</td><td>10&ndash;12%</td><td>25&ndash;30-yr</td><td>~9.9%</td><td>Debt yield / LTV</td></tr>
+            <tr><td>Hotel / hospitality</td><td>~8.0&ndash;9.0%+ (economy ~10.5%)</td><td>55&ndash;65%</td><td>1.40&ndash;1.50x</td><td>10&ndash;12%</td><td>20&ndash;25-yr</td><td>~9.8%</td><td>LTV / debt yield</td></tr>
+            <tr><td>Senior housing / assisted living</td><td>~6.0&ndash;7.5% (memory care ~9.6%)</td><td>70&ndash;75% (HUD 232 to 80&ndash;85%)</td><td>1.30&ndash;1.45x (HUD 232 1.45x)</td><td>10&ndash;12% (CMBS)</td><td>30&ndash;40-yr (HUD 35&ndash;40)</td><td>~6.9%</td><td>Coverage (mitigated by long am)</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Cap rates from CBRE H2 2025, CRED iQ, Matthews, and Cushman &amp; Wakefield; loan terms from the Freddie Mac and Fannie Mae multifamily guides, PeerSense, Janover, and Select Commercial. Conventions blend survey data with lender/advisory ranges; verify with a named lender before relying on them.</p>
+      </div>
+
+      <p>
+        The pattern is unambiguous. Multifamily, industrial, and self-storage carry crossover constants
+        around 5.9 to 6.9 percent, below every point on the current constant ladder, so they are firmly
+        coverage-constrained and carry the largest equity gaps. Agency multifamily is the sharpest case: a
+        roughly 5.5 to 5.9 percent cap and a 1.25x floor, with Freddie Mac at 1.20x on select 10-year
+        fixed-rate debt and 1.15x on floating debt tested at the capped rate. Office and hotels sit at the
+        other end, with crossover constants near 9.8 to 9.9 percent, close to the top of the ladder, and
+        10 to 12 percent debt-yield floors that typically bind first; their high cap rates have already
+        shrunk the value loan, so coverage rarely gets the chance to bind. Retail lands in between,
+        coverage- or LTV-bound depending on the tenant, with credit-tenant NNN leases sizing to floors as
+        low as 1.05 to 1.10x. Senior housing would sit with the coverage-bound low-cap classes on its
+        roughly 6.0 to 7.5 percent cap, except that HUD 232's 35- to 40-year amortization lowers the debt
+        constant and softens the bind, even at a 1.45x floor. The rule the map draws is simple: coverage
+        binds first where cap rates are low; value and debt yield bind first where cap rates are high.
+      </p>
+
+      <h2>The rate shock behind the arithmetic</h2>
+
+      <p>
+        None of this would matter if rates had not moved. They have. As of early July 2026 the 10-year
+        Treasury sits around 4.38 percent on June 26 and 4.48 percent on July 7, with an end-June weekly
+        average near 4.44 percent per Advisor Perspectives, down from a peak near 4.8 percent in January
+        2025 and about 4.5 percent in July 2025. One-month Term SOFR and 30-day average SOFR both run
+        about 4.14 percent, per Pensford in early July 2026. The Federal Open Market Committee has held
+        the funds rate at 3.50 to 3.75 percent; its April 29, 2026 decision was the fourth consecutive
+        hold, on an unusually divided 8-to-4 vote, and the lowest level since November 2022. Permanent
+        commercial mortgage rates, per Select Commercial on July 9, 2026, start around 5.57 percent for
+        multifamily and 6.48 percent for CMBS, with PeerSense putting CMBS spreads over the roughly 4.31
+        percent 10-year Treasury at 190 to 215 basis points for multifamily, 200 to 225 for commercial,
+        320 to 345 for hotel, and 200 to 225 for self-storage. Construction loans, which float, average
+        about 8.4 percent in 2026 per Buildermuse, priced at SOFR plus a spread or prime plus 1.00 to 1.50
+        percent at community banks, with private and bridge capital at 9.75 to 12 percent.
+      </p>
+      <p>
+        Measured against the trough, the move is violent. The 10-year Treasury bottomed at a record 0.55
+        percent in August 2020; multifamily cap rates bottomed near 4.2 percent in late 2021; pandemic-era
+        commercial coupons ran 3 to 4 percent. New commercial originations now average about 6.24 percent
+        against roughly 4.76 percent on the debt they are refinancing, per CRE Daily, a 150 basis-point
+        refinancing shock against maturing loans and a 300-plus basis-point shock against the 2020&ndash;21
+        trough in which many construction deals were first conceived.
+      </p>
+
+      <h2>The hedging squeeze on floating-rate construction debt</h2>
+
+      <p>
+        Because construction loans float, the borrower typically has to buy an interest-rate cap, and the
+        cost of that protection exploded alongside the rate move &mdash; compounding the takeout problem by
+        eroding the net operating income available for debt service during the construction and bridge
+        period and by front-loading a large cash outlay just as the equity gap opens. The scale is easiest
+        to see through the CRE CLO market. CRED iQ, via Commercial Observer on March 27, 2023, analyzed
+        interest-rate-cap agreements on nearly 700 floating-rate loans securitized in commercial real
+        estate collateralized loan obligations, covering more than $30 billion in aggregate notional
+        balance. The price moves underneath that figure were extreme. CRED iQ cited a $337.5 million
+        agreement expiring in February 2024 at a 4 percent strike that would have cost approximately
+        $780,000 a year earlier and had risen to $3.5 million by mid-March 2023, a 348 percent
+        year-over-year increase. On a more typical deal, Chatham Financial's Matt Moore told Commercial
+        Observer that a two-year cap on a $25 million loan at a 4 percent strike had risen to $569,000,
+        from $97,000 a year earlier. Chatham, the largest independent commercial-real-estate derivatives
+        advisor, places more than 6,000 caps a year and is a fair gauge of a market in which floating-rate
+        debt is roughly one-third of all commercial real estate debt, per the Mortgage Bankers Association.
+      </p>
+
+      <div class="article-note">
+        <h3>On the $176 billion figure</h3>
+        <p>
+          A widely cited $176 billion is sometimes attached to interest-rate caps. It is not a rate-cap
+          number. It is the FHFA's 2026 multifamily loan-purchase cap &mdash; $88 billion each for Fannie
+          Mae and Freddie Mac, $176 billion combined, up 20.5 percent from $73 billion each ($146 billion)
+          in 2025, per the FHFA's November 24, 2025 release. That is a GSE lending-capacity ceiling, and a
+          meaningful source of takeout liquidity for multifamily, but it has nothing to do with hedging
+          notional. The defensible rate-cap datapoint is CRED iQ's roughly $30 billion, and only for the
+          CRE CLO slice of the market.
+        </p>
+      </div>
+
+      <h2>The maturity wall and the construction-to-perm gap</h2>
+
+      <p>
+        The coverage constraint is arriving into a refinancing environment already under strain. The
+        Mortgage Bankers Association's February 2026 read has about $875 billion of commercial and
+        multifamily debt, 17 percent of roughly $5.0 trillion outstanding, maturing in 2026, down 9
+        percent from about $957 billion in 2025, with another $652 billion in 2027. S&amp;P Global Market
+        Intelligence, on a broader definition, counts about $998 billion maturing in 2025, $1.148 trillion
+        in 2026, and $1.257 trillion in 2027 &mdash; cumulatively well over $1.5 trillion across the three
+        years. The cushion that carried the market this far is thinning: only about 50 to 55 percent of
+        2025 maturities are estimated to have actually paid off, the rest rolled forward, and lenders have
+        signaled that the extend-and-pretend practice is largely over. Industry estimates put the
+        resulting refinancing shortfall at $300 to $500 billion, per C2R Capital.
+      </p>
+      <p>
+        Office is the epicenter. About $148 billion matures in 2026, and per Morningstar DBRS in January
+        2026, more than half of the roughly $100 billion in securitized commercial mortgages coming due
+        this year are unlikely to pay off at maturity, against payoff rates that topped 80 percent in 2023
+        and ran about 75 percent in 2024 and 2025. Trepp reported office CMBS delinquency rising 103 basis
+        points to an all-time high of 12.34 percent in January 2026, past the prior peak of 11.76 percent
+        in October, with overall CMBS delinquency up 17 basis points to 7.47 percent; first-quarter 2025
+        distressed volume reached $116 billion, up 31 percent year over year.
+      </p>
+      <p>
+        For a ground-up deal, the same dynamic plays out at takeout. Construction loans size to cost, and
+        loan-to-cost ceilings have tightened, to roughly 60 to 65 percent for multifamily and 55 to 60
+        percent for commercial, down from 70 to 75 and 65 to 70, at floating rates. When the
+        coverage-constrained permanent loan comes in smaller than the outstanding construction balance,
+        the developer faces a takeout gap that has to be filled with fresh equity or subordinate capital:
+        the construction-loan analogue of the refinancing wall.
+      </p>
+
+      <h2>Filling the gap: mezzanine and preferred equity</h2>
+
+      <p>
+        When the coverage loan lands below both the LTV ceiling and the outstanding construction balance,
+        the capital stack has to be rebuilt from the middle. As of mid-2026, mezzanine debt prices all-in
+        around 11 to 16 percent, with construction mezzanine at 15 to 20 percent and higher; preferred
+        equity runs about 12 to 18 percent, or 11 to 16 for more common structures. Senior debt stays near
+        60 to 65 percent of value or cost, and mezzanine or preferred capital lifts the combined stack to
+        roughly 75 to 80 percent on stabilized assets and 85 to 90 percent of cost in development, but
+        never to 100 percent, and total leverage above about 85 percent of cost generally exceeds what
+        either product will support. Private credit is now the dominant provider of this gap capital. One
+        structural detail governs relative pricing: mezzanine prices about 100 to 200 basis points inside
+        comparable preferred equity, because a UCC Article 9 foreclosure on the pledged equity clears in
+        30 to 60 days while preferred equity's contractual remedies can take 6 to 18 months or more.
+      </p>
+
+      <h2>Underwriting to a stressed takeout, not going-in value</h2>
+
+      <p>
+        The conventions are tightening in the same direction the math points. Office CMBS debt-yield
+        minimums have risen from a historical 8 to 9 percent to 10 to 12 percent today, and office LTV
+        ceilings have fallen from 70 to 75 percent to 55 to 65, per Janover and PeerSense; CBRE reported
+        debt yields surging 90 basis points to 10.3 percent in the first quarter of 2025. Trepp notes that
+        2026 underwriting recalibrates the debt-service test to current coupons and rejects future
+        rent-growth assumptions. Debt yield &mdash; net operating income over loan amount, immune to the
+        rate and amortization games that can flatter a coverage calculation &mdash; is increasingly the
+        quiet binding constraint on high-cap-rate assets, precisely where coverage does not reach.
+      </p>
+      <p>
+        For the analyst, the discipline follows directly. A pro forma underwritten in the low-rate era
+        assumed the LTV ceiling would bind at going-in value; a rigorous 2026 feasibility study has to
+        model the coverage-constrained takeout explicitly. Run the coverage loan at the projected takeout
+        rate and amortization &mdash; the amortizing constant, whatever the actual payment structure &mdash;
+        and set it beside both the LTV loan and the outstanding construction balance. Quantify the equity
+        gap, and price the mezzanine or preferred capital required to fill it. For low-cap assets
+        (multifamily, industrial, self-storage) the coverage test is now the decisive sizing constraint;
+        for high-cap assets (office, hotel) the debt-yield floor has to be modeled alongside LTV. The
+        firm's differentiator is running all three lenses &mdash; LTV, coverage, and debt yield &mdash; at
+        stressed takeout rates, not the LTV loan at going-in value.
+      </p>
+      <p>
+        One caution belongs on every such model. The rate levels above are mid-2026 readings, the FOMC's
+        last decision split 8 to 4, and markets price one or two possible cuts before year-end 2026. A
+        forward takeout rate is a scenario, not a fact, and the coverage loan should be sized across a band
+        of them rather than a single point. That is the whole purpose of testing the takeout before the
+        lender does: to know where the equity gap opens, and how large it grows, while there is still time
+        to fund it.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Rate, Treasury, and SOFR levels are mid-2026 readings drawn from Advisor Perspectives, Pensford,
+          Select Commercial, PeerSense, Buildermuse, and CRE Daily; the FOMC decision and hold history are
+          from the Federal Reserve. Cap-rate figures combine the CBRE H2 2025 U.S. Cap Rate Survey, CRED
+          iQ, Cushman &amp; Wakefield, Matthews, PGIM, and CBRE/SLF Investments with market-convention
+          ranges from lender and advisory references (PeerSense, Janover, Select Commercial); verify exact
+          conventions with a named lender before relying on them. Loan-term, DSCR, and debt-yield
+          conventions draw on the Freddie Mac and Fannie Mae multifamily guides, Janover/PeerSense, Trepp,
+          and CBRE. Maturity and distress data are from the Mortgage Bankers Association (February 2026),
+          S&amp;P Global Market Intelligence, Morningstar DBRS (January 2026), Trepp, and C2R Capital.
+          Interest-rate-cap figures are from CRED iQ and Chatham Financial via Commercial Observer (March
+          2023). The $176 billion multifamily figure is the FHFA's 2026 loan-purchase cap (November 24,
+          2025 release), a GSE lending-capacity ceiling and not an interest-rate-cap notional. The
+          crossover analysis assumes a fully amortizing takeout; interest-only periods change the effective
+          constant, and the amortizing-equivalent constant should be modeled regardless of payment
+          structure. The worked examples and the debt-constant, sensitivity, and asset-class tables are
+          illustrative, constructed to demonstrate the mechanics; loan terms, cap rates, breakeven points,
+          and reserve figures on any live engagement should be drawn from the subject's own capital and
+          expense stack.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting a takeout in this rate environment?</h2>
+      <p>
+        Our feasibility and market studies size the permanent loan the way this piece describes &mdash;
+        coverage, value, and debt yield, run at stressed takeout rates against the outstanding
+        construction balance, with the equity gap and its cost quantified before the lender finds them.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>
