@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>Franchise vs. Non-Franchise in Lender Underwriting | Feasibility Study Company</title>
+<meta name="description" content="How lenders underwrite franchise versus independent businesses in 2026: the reinstated SBA Franchise Directory, the Franchisor Certification deadline, brand-level default data, and category-by-category credit implications.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/franchise-vs-non-franchise/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Franchise or Independent? Underwriting the Brand, Not the Binary">
+<meta property="og:description" content="For a lender the franchise-versus-independent choice is a question of regulatory eligibility, brand-level default risk, and recoverable collateral. The category label answers none of the three.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/franchise-vs-non-franchise/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-11">
+<meta property="article:modified_time" content="2026-07-11">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Franchise vs. Independent in Lender Underwriting">
+<meta name="twitter:description" content="Why brand-level default history and SBA eligibility, not the franchise label, drive the credit decision in 2026.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/franchise-vs-non-franchise/#article",
+      "headline": "Franchise or Independent? Underwriting the Brand, Not the Binary",
+      "description": "How lenders underwrite franchise versus independent businesses in 2026: the reinstated SBA Franchise Directory, the Franchisor Certification deadline, brand-level default data, and category-by-category credit implications.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/franchise-vs-non-franchise/",
+      "about": [
+        { "@type": "Thing", "name": "Franchise vs. independent underwriting" },
+        { "@type": "Thing", "name": "SBA Franchise Directory" },
+        { "@type": "Thing", "name": "Franchise loan default risk" },
+        { "@type": "Thing", "name": "Feasibility study methodology" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/franchise-vs-non-franchise/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "Franchise vs. Independent", "item": "https://feasibility-study-company.com/research-notes/franchise-vs-non-franchise/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/quick-service-restaurant/" role="menuitem">Quick-Service Restaurant</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/laundromat/" role="menuitem">Laundromat</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; Methodology</p>
+      <h1>Franchise or Independent? Underwriting the Brand, Not the Binary</h1>
+      <p class="article-deck">
+        For an owner, franchise versus independent is a return-on-investment choice; for a lender it is a
+        question of regulatory eligibility, brand-level default risk, and recoverable collateral. The
+        category label answers none of the three.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+        <span>18 minute read</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a></li>
+        <li aria-current="page">Franchise vs. Independent</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        A sponsor buying a franchise sees a brand, a playbook, and what looks like a lower chance of
+        failure. A lender looks at the same file and sees three different questions. Is the concept even
+        eligible for the program under the federal rule that governs franchise financing? What does the
+        specific brand's loan history say about the odds of repayment? And if the business fails, what can
+        actually be recovered once franchisor consents, transfer restrictions, and reinvestment mandates
+        are accounted for? The franchise-versus-independent decision is not one question with a category
+        answer. It is three, and the label on the door settles none of them.
+      </p>
+
+      <p>
+        Most of the commentary a borrower encounters is written for the borrower: which model delivers the
+        best cash-on-cash return, which builds the most wealth, which is easiest to run. That framing is
+        useful to a buyer and close to useless to a credit committee, because it never engages the
+        variables an underwriter is paid to test, default experience, debt-service-coverage stress,
+        collateral liquidation, going-concern value, and the mismatch between a franchise term and a loan
+        term. This note reframes the question the way a lender has to answer it, and it starts where the
+        available commentary most often goes wrong: the regulation.
+      </p>
+
+      <h2>Why &ldquo;franchise vs. independent&rdquo; is the wrong question for a credit file</h2>
+
+      <p>
+        The instinct to treat franchising as a portfolio-wide risk reducer is where a study loses a
+        reviewer. The claim that franchises are inherently safer than independents is a marketing
+        proposition, not an underwriting finding, and the loan data do not support it as a category rule.
+        What the data support instead is dispersion: within the franchise universe, the gap between the
+        best-underwritten brands and the worst is far larger than the gap between franchising and
+        independence as such. A brand-level and franchisor-financial-health analysis beats any
+        &ldquo;franchise vs. independent&rdquo; average every time.
+      </p>
+
+      <div class="capsule">
+        <p>
+          The decision-relevant variables are the specific brand's default history and the franchisor's
+          financial health, not the abstract franchise-versus-independent binary. Underwrite the brand,
+          not the category.
+        </p>
+      </div>
+
+      <p>
+        Two consequences follow. First, an owner-ROI verdict (&ldquo;the franchise wins on wealth
+        creation&rdquo;) has to be re-expressed as an underwriting implication before it belongs in a
+        credit memo: coverage sensitivity, collateral or going-concern value, term matching, and the effect
+        of transfer restrictions on recovery. Second, the franchise question is, above all else in the
+        current environment, a regulatory one, because whether a brand is financeable at all under the
+        federal small-business programs turns on a directory and a certification regime that changed twice
+        in two years. That is the piece the borrower-facing guides routinely miss, and it is where a
+        lender-grade analysis has to begin.
+      </p>
+
+      <h2>The regulatory frame most guides get wrong: the SBA Directory, discontinued and reinstated</h2>
+
+      <p>
+        On May 11, 2023, the U.S. Small Business Administration announced it would no longer support or
+        maintain the SBA Franchise Directory. Elimination took effect with SOP 50 10 7, effective August
+        1, 2023, and eligibility determination shifted onto lenders under what the agency later described
+        as a &ldquo;do what you do&rdquo; philosophy. For roughly two years, in other words, there was no
+        central list, and any commentary that describes the Directory as a stable, always-available
+        resource is either dated to before that change or unaware of it.
+      </p>
+
+      <p>
+        Then the SBA reversed course. Following what the agency and industry counsel attributed to a rise
+        in defaults and documentation problems, <strong>SOP 50 10 8, effective June 1, 2025, reinstated the
+        Franchise Directory.</strong> The SBA framed the move as &ldquo;restoring 7(a) underwriting
+        criteria&hellip; reinstituting the SBA Franchise Directory with streamlined procedures&hellip; and
+        eliminating the &lsquo;do what you do&rsquo; philosophy.&rdquo; The operative rule for 2026 is
+        simple and unforgiving: if a brand meets the FTC definition of a franchise under 16 CFR &sect; 436,
+        it <em>must</em> appear on the Directory to qualify for franchisee SBA financing.
+      </p>
+
+      <p>
+        For a feasibility analyst or a CDC, this is not trivia. A study that assumes the 2023 elimination
+        still governs, or that treats Directory listing as a nice-to-have rather than a gating eligibility
+        test, is working from a superseded rulebook, and that is the kind of error that costs a study its
+        credibility in the first ten minutes of review.
+      </p>
+
+      <h2>The Franchisor Certification and the June 30, 2026 recertification cliff</h2>
+
+      <p>
+        Reinstatement came with a new mechanism. Under SOP 50 10 8, franchisors and distributors now sign a
+        one-time <strong>Franchisor Certification</strong> that replaces the old per-loan SBA Addendum. The
+        certification requires the franchisor to certify that its agreements with any SBA-loan franchisee
+        will comply with SBA eligibility requirements, which renders certain conflicting franchise-agreement
+        provisions unenforceable for the life of the loan. It is a structural shift: eligibility is now
+        established once at the brand level rather than negotiated deal by deal.
+      </p>
+
+      <p>
+        There is a deadline attached, and it is the single most important date on the calendar for a
+        franchise credit in 2026. Brands listed as of May 2023 were initially given until <strong>July 31,
+        2025</strong> to execute the new certification, with interim procedures under SBA Information Notice
+        5000-866746 permitting continued use of the existing addendum in the meantime. That deadline was
+        subsequently <strong>extended to June 30, 2026.</strong> Effective June 30, 2026, any brand that has
+        not completed and executed the new certification is removed from the Directory, loses its
+        &ldquo;grandfathered&rdquo; status, and would have to pass a full eligibility review to be
+        reinstated. The scale is large: per the franchising research firm FRANdata, &ldquo;an estimated
+        8,000 franchisors will be expected to submit new certifications.&rdquo; A brand that is Directory-listed
+        today but has not recertified is a delisting risk an underwriter should surface, not assume away.
+      </p>
+
+      <p>
+        The paperwork lineage matters for older files. SBA Form 2462, the &ldquo;SBA Addendum to Franchise
+        Agreement,&rdquo; is the standard, non-negotiable set of overrides addressing four affiliation
+        problem areas: transfers and rights of first refusal, forced asset sales, employee control, and a
+        conflict-resolution clause. SBA Form 2464 was the older negotiated-addendum vehicle, with
+        &ldquo;SBA Negotiated Addendum&rdquo; versions developed off 2015&ndash;2016 agreements. Under SOP
+        50 10 8, the Franchisor Certification largely supersedes the per-deal addendum for listed brands;
+        during the interim window, lenders used either the SBA Form 2462 Addendum or the SBA Negotiated
+        Addendum as the Directory listing's notes directed.
+      </p>
+
+      <h2>Affiliation, &ldquo;excessive control,&rdquo; and what a lender still has to read</h2>
+
+      <p>
+        Underneath the directory mechanics sits the reason the whole regime exists: affiliation. Under 13
+        CFR &sect; 121.103, &ldquo;Concerns and entities are affiliates of each other when one controls or
+        has the power to control the other&hellip; It does not matter whether control is exercised, so long
+        as the power to control exists.&rdquo; Affiliation can arise through common ownership, common
+        management, or excessive restrictions on the sale of the franchise interest, and if a franchisor is
+        deemed an affiliate, the franchisee may blow the size standard and lose eligibility outright.
+      </p>
+
+      <p>
+        The provisions that have historically triggered affiliation are worth naming, because a feasibility
+        analyst who spots them early saves a deal weeks of rework: a right of first refusal on
+        <em>partial</em> transfers; transfer consent that can be unreasonably withheld (a &ldquo;sole
+        discretion&rdquo; or &ldquo;business judgment&rdquo; standard is unacceptable, and the language must
+        instead read that &ldquo;consent will not be unreasonably withheld or delayed&rdquo;); franchisor
+        control over hiring and firing; franchisor-controlled receipts or bank accounts; forced
+        asset-purchase options at termination; and deed restrictions recorded against the franchisee's real
+        estate. The governing test is whether the franchisee retains &ldquo;the right to profit from its
+        efforts and bear the risk of loss commensurate with ownership.&rdquo; Notably, SOP 50 10 8 formally
+        eliminated &ldquo;control&rdquo; as a standalone test for affiliation in 7(a) and 504 loans, which
+        streamlines the analysis without removing the underlying transfer-restriction concerns.
+      </p>
+
+      <p>
+        The documentation burden shifted too. The SBA now states that retaining and reviewing the
+        franchisor's Franchise Disclosure Document (FDD), &ldquo;while prudent, is no longer required.&rdquo;
+        What lenders <em>must</em> retain is evidence of the brand's Directory approval at loan approval and
+        a copy of the fully executed franchise documents (including any required addendum) <em>before
+        initial disbursement for 7(a) or before debenture funding for 504.</em> If a lender concludes an
+        agreement does not meet the FTC franchise definition, it must document that analysis in its credit
+        memo and file. And one inclusion is easy to miss: for SBA purposes, all agreements governed by the
+        Petroleum Marketing Practices Act (PMPA), the jobber and fuel-supply agreements behind branded
+        gas, are counted within the franchise definition, which pulls gas-station and travel-center deals
+        squarely into the Directory regime.
+      </p>
+
+      <h2>The July 4, 2026 combined cap changes the stacking math</h2>
+
+      <p>
+        A second regulatory change reshapes how capital-intensive franchise deals get financed. SBA Policy
+        Notice 5000-879058, dated May 18, 2026 and effective July 4, 2026, decouples the 7(a) and 504
+        programs. A borrower, including its affiliates, can now carry up to <strong>$5 million in 7(a) plus
+        up to $5 million in 504, for a combined $10 million</strong> in SBA-backed financing, doubling the
+        prior $5 million combined ceiling. SBA Administrator Kelly Loeffler framed the change as helping
+        &ldquo;capital-intensive small businesses&rdquo; pair long-term real-estate and equipment financing
+        with working capital.
+      </p>
+
+      <p>
+        The mechanics reward sequencing: to maximize total capacity, the 7(a) loan is generally taken
+        first. The practical relevance is concentrated in exactly the flagged, capital-heavy categories that
+        dominate franchise lending, hotels, childcare centers with owned real estate, convenience stores,
+        and car washes, where a sponsor may want term debt against the business and a separate mortgage
+        against the dirt. Stacking those is materially easier under the new cap, and a study that models the
+        capital structure should reflect it.
+      </p>
+
+      <h2>What the default data actually says (and it is not &ldquo;franchises are safer&rdquo;)</h2>
+
+      <p>
+        Here is the analytical center of gravity, and the part that owner-facing guides omit entirely. The
+        peer-reviewed literature does not support the claim that franchising reduces failure risk. Timothy
+        Bates, in &ldquo;A comparison of franchise and independent small business survival rates&rdquo;
+        (<em>Small Business Economics</em> 7:377&ndash;388, 1995), found that although franchise operations
+        were &ldquo;larger scale, better capitalized young firms, the independent business startups are
+        found to be more profitable and their survival prospects are better than those of franchises.&rdquo;
+        His companion study (<em>Journal of Small Business Management</em> 33(2):26&ndash;36, 1995) analyzed
+        roughly 20,000 firms from U.S. Census data and found that &ldquo;young franchise startups exhibit
+        both higher rates of firm discontinuance and lower mean profitability than cohort independent
+        business startups.&rdquo; The underlying Census working paper (WP-97-05) quantified it: &ldquo;by
+        late 1991, 34.7 percent of the franchisees and 28.0 percent of the nonfranchised young firms active
+        in 1987 had discontinued.&rdquo; Bates (1998, <em>Journal of Business Venturing</em>
+        13:113&ndash;130) concluded that purchasing a franchise &ldquo;is unlikely to reduce the risks
+        facing a new business start-up.&rdquo;
+      </p>
+
+      <p>
+        More recent work refines the picture without reversing it. As summarized in Michael et al.,
+        &ldquo;Investing in entrepreneurs: The case of franchising&rdquo; (<em>Managerial and Decision
+        Economics</em>, 2022): &ldquo;Bates (1995a) and Bates (1995b) found that franchises were, in some
+        industries, more risky and never less risky than independents&hellip; Lafontaine et al. (2019) found
+        that franchises had a small advantage in surviving over the first 3 years of operation, but further
+        survival was unaffected.&rdquo; The 2022 study uses SBA-guaranteed loan default as its outcome
+        variable and tests, pointedly, the hypothesis that franchisees are <em>more</em> likely to default
+        than independents. The generous reading of the modern evidence is a modest early-survival edge that
+        fades; the honest reading for underwriting is that &ldquo;franchise&rdquo; is not a risk discount.
+      </p>
+
+      <p>
+        The government's own audit reinforces the point at scale. GAO-13-759 (September 10, 2013) reported
+        that &ldquo;from fiscal years 2003 to 2012, SBA guaranteed franchise loans under its 7(a) program
+        totaling around $10.6 billion. SBA made guarantee payments on approximately 28 percent of these
+        franchise loans, representing about $1.5 billion,&rdquo; across 32,323 loans. In a loan-agent-fraud
+        case study of a single franchise system, the GAO found that &ldquo;of the total population of 170
+        loans, 74 loans defaulted, 55 of which (74 percent) originated from four lenders&rdquo;, those four
+        lenders ran a 63 percent default rate against 23 percent at the other fifty. Origination quality,
+        not the franchise label, drove the losses.
+      </p>
+
+      <p>
+        Which brings the argument to its practical conclusion: brand dispersion is the real story. SBA
+        FY2020&ndash;2023 7(a) data (analyzed by Fit Small Business, July 2024) show the twenty most-funded
+        brands averaging a 0.21 percent default rate, with The UPS Store near 0 percent, Subway around 0.82
+        percent, and Anytime Fitness around 1.40 percent (the highest rate, and the largest total charge-off
+        count, in that top-twenty group). By contrast, a <em>Wall Street Journal</em> investigation of
+        2004&ndash;2013 chains with 100 or more SBA loans found roughly 20 percent of those loans charged
+        off, with troubled systems far higher, Quiznos in the 25&ndash;30 percent-plus range and Planet
+        Beach above 40 percent. A hundredfold gap between the best and worst franchise systems is not a
+        category you can underwrite on average.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>SBA 7(a) default experience varies far more by brand than by franchise status (illustrative, mixed vintages).</caption>
+          <thead><tr><th scope="col">System</th><th scope="col">Reported SBA default experience</th><th scope="col">Source &amp; vintage</th></tr></thead>
+          <tbody>
+            <tr><td>20 most-funded brands (average)</td><td>~0.21%</td><td>SBA FY2020&ndash;2023, via Fit Small Business (2024)</td></tr>
+            <tr><td>The UPS Store</td><td>~0%</td><td>SBA FY2020&ndash;2023</td></tr>
+            <tr><td>Subway</td><td>~0.82%</td><td>SBA FY2020&ndash;2023</td></tr>
+            <tr><td>Anytime Fitness</td><td>~1.40% (largest total charge-off count in the top 20)</td><td>SBA FY2020&ndash;2023</td></tr>
+            <tr><td>Troubled chains, 2004&ndash;2013</td><td>~20% charged off</td><td>Wall Street Journal investigation</td></tr>
+            <tr><td>Quiznos</td><td>~25&ndash;30%+</td><td>Wall Street Journal investigation</td></tr>
+            <tr><td>Planet Beach</td><td>&gt;40%</td><td>Wall Street Journal investigation</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Default-rate methodology varies widely, resolved-only versus full-book denominators, count- versus dollar-weighting, and cohort maturity all move the figure, so young cohorts such as FY2020&ndash;2023 (which exclude still-performing loans) are not a lifetime measure and are not directly comparable to seasoned ones. Figures are ranges, not precise measurements.</p>
+      </div>
+
+      <p>
+        A word on precision. Overall 7(a) portfolio default runs roughly 5 percent on a five-year basis to
+        something like 10&ndash;16 percent lifetime on a count basis, with the franchise aggregate modestly
+        above the all-industry average in most datasets but the best-funded established brands far below it,
+        in the 0.2&ndash;4 percent range. Many franchise default figures in circulation originate in
+        marketing or law-firm blog posts and are internally inconsistent; the defensible anchors are
+        GAO-13-759, the Bates&ndash;Lafontaine&ndash;Michael peer-reviewed line, and SBA-sourced brand data,
+        each presented as a range with its method caveat attached.
+      </p>
+
+      <h2>Reading the FDD the way an underwriter should</h2>
+
+      <p>
+        Even though the SBA no longer requires FDD review, the disclosure document remains the single best
+        primary source on a brand, and a feasibility analyst should treat it as evidence rather than
+        marketing. The FTC Franchise Rule (16 CFR &sect; 436) mandates 23 disclosure items. Two of them do
+        most of the underwriting work.
+      </p>
+
+      <p>
+        Item 19, the Financial Performance Representation, is <em>optional</em>, and roughly a third of
+        franchisors omit it entirely, in which case the franchisor's sales team is legally barred from
+        making any earnings claim at all. When Item 19 is present, it frequently discloses only gross sales,
+        or only a top-quartile subset, which flatters the typical unit. Item 20, the schedule of outlet
+        openings, closures, transfers, and terminations across three years, is the more honest window into
+        system health. The disciplined move is to compute closure-to-opening ratios from Item 20 and to
+        cross-check the Item 19 sample size against the Item 20 unit count, so that a rosy average built on
+        a handful of flagship stores is exposed as such.
+      </p>
+
+      <div class="capsule">
+        <p>
+          A feasibility study should test the FDD Item 19 numbers against the subject's specific market,
+          pull the Item 20 closure and transfer trend, and check the brand's SBA default history, rather
+          than importing a franchisor average as if it were a forecast.
+        </p>
+      </div>
+
+      <h2>Category by category, through a lender's lens</h2>
+
+      <p>
+        With the regulatory and risk frame established, the category question becomes tractable, provided
+        every verdict is translated into an underwriting implication rather than an owner's preference. The
+        table below states the franchise lean for the categories that dominate franchise lending, and the
+        decisive credit variable in each. The prose that follows unpacks the deals where the variable does
+        the most work.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Franchise lean and the decisive underwriting variable, by asset class (lender lens).</caption>
+          <thead><tr><th scope="col">Asset class</th><th scope="col">Where a brand helps the credit</th><th scope="col">Decisive underwriting variable</th><th scope="col">Typical lean</th></tr></thead>
+          <tbody>
+            <tr><td>Hotel &amp; lodging</td><td>Reservation system, loyalty demand, RevPAR index, exit liquidity</td><td>PIP obligations, FF&amp;E reserve, franchise-term vs. loan-term match</td><td>Flag usually helps</td></tr>
+            <tr><td>Quick-service restaurant</td><td>Brand pull, lender familiarity</td><td>AUV-to-investment ratio, royalty and ad-fund drag</td><td>Franchise</td></tr>
+            <tr><td>Full-service restaurant</td><td>Modest; concept-dependent</td><td>Operator depth, concept durability</td><td>Toss-up</td></tr>
+            <tr><td>Fitness &amp; recreation</td><td>Limited</td><td>Presales, occupancy cost, membership churn</td><td>Underwrite strictly either way</td></tr>
+            <tr><td>Car wash</td><td>Systems and ramp support for first-time operators</td><td>Site quality, membership capture, royalty drag</td><td>Either; brand aids newcomers</td></tr>
+            <tr><td>Gas station &amp; c-store</td><td>Fuel-brand recognition, card acceptance</td><td>PMPA terms, UST/environmental, inside-sales mix</td><td>Case-by-case</td></tr>
+            <tr><td>Childcare &amp; early education</td><td>Parent trust, curriculum, licensing support</td><td>Enrollment ramp, capex, staffing wage inflation</td><td>Franchise often helps</td></tr>
+            <tr><td>Urgent care &amp; medical</td><td>Brand, clinical protocols</td><td>CPOM structure (MSO/PC), state licensing</td><td>Franchise, with CPOM review</td></tr>
+            <tr><td>Senior &amp; home care</td><td>Compliance, recruiting, referral networks</td><td>Caregiver recruitment and retention, licensing</td><td>Franchise often helps</td></tr>
+            <tr><td>Self-storage</td><td>Little</td><td>Real-estate collateral, submarket saturation</td><td>Independent usually</td></tr>
+            <tr><td>Automotive services</td><td>Vendor networks, recurring demand</td><td>Brand default dispersion (independents can outperform)</td><td>Either</td></tr>
+            <tr><td>Restoration &amp; disaster recovery</td><td>Insurance relationships, national accounts</td><td>Response capacity, receivables cycle</td><td>Franchise</td></tr>
+            <tr><td>Event center &amp; glamping</td><td>Little</td><td>Location, design, review reputation</td><td>Independent (borrow franchise discipline)</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">The &ldquo;lean&rdquo; is a starting filter, not a credit decision; every deal resolves on the specific brand's default history and the subject's own cash flow and collateral.</p>
+      </div>
+
+      <p>
+        <strong>Hotels and lodging</strong> are where the franchise flag most clearly improves
+        financeability, through the reservation system, loyalty demand, the RevPAR index, and exit
+        liquidity. National flags (Marriott, Hilton, IHG, Hyatt, Wyndham, Choice) draw the best terms; soft
+        brands and regional flags sit in the middle; independents get the most conservative underwriting.
+        The variables the owner-facing view underweights are the ones a lender lives on. Property Improvement
+        Plan (PIP) obligations are real capital: standard PIPs run $10,000&ndash;$25,000 per room, roughly
+        $940,000&ndash;$2.6 million for a select-service property and $2&ndash;$8 million for full-service,
+        with brands enforcing 6&ndash;8-year (Hilton) to 7&ndash;15-year (Choice, Wyndham) reinvestment
+        cycles inside 12&ndash;18-month completion windows; miss a deadline and the flag itself is at risk,
+        and Hilton charges a $10,000 extension fee per its FDD. FF&amp;E reserves typically run 4&ndash;5
+        percent of gross revenue and are impounded by lenders. A franchise or management term that expires
+        during the loan term introduces refinancing risk that lenders price through lower LTV and higher
+        rates, and a franchise comfort letter, confirming the flag survives foreclosure and that the
+        franchisor will approve a foreclosure purchaser, is a document the credit file should demand. Where
+        the brand is Directory-listed, SBA 7(a) and 504 can fund the PIP itself, and HVS development-cost
+        benchmarks anchor the budget.
+      </p>
+
+      <p>
+        <strong>Quick-service and fast-casual restaurants</strong> are the strongest franchise category for
+        brand pull and lender familiarity; underwrite the AUV-to-investment ratio, the combined royalty and
+        ad-fund drag, delivery-commission leakage, and drive-thru access, and treat the undercapitalized,
+        single-unit, high-rent deal with no multi-unit development plan as the highest-risk profile.
+        <strong>Full-service restaurants</strong> are more operator- and concept-dependent, and franchising
+        helps less; notably, the IFA projects full-service output growth to outpace QSR in 2026 for the
+        first time since the pandemic. <strong>Fitness centers</strong> are the category to underwrite most
+        strictly regardless of flag, weak revenue-to-investment ratios, membership churn, and saturation
+        drive high variance; Anytime Fitness carried the largest total charged-off loan count among major
+        brands in one dataset (albeit at a low ~1.40 percent rate on high volume), while mid-market 24/7
+        concepts such as Snap Fitness have seen net closures, so be strict on presales, occupancy cost, and
+        local competition.
+      </p>
+
+      <p>
+        <strong>Car washes</strong> center on the express-exterior tunnel with unlimited-membership revenue
+        and are intensely site-sensitive. Tommy's Express (2025 FDD) illustrates the economics: total
+        investment of roughly $4.98&ndash;$8.52 million, a $50,000 franchise fee, a 4 percent royalty and a
+        1 percent brand fund, and about $1.65 million average / $1.57 million median gross across 206
+        franchised units, with a notably low SBA default profile. Strong independents can out-earn by
+        avoiding the royalty drag; franchising mainly de-risks the first-time operator.
+        <strong>Gas stations and convenience stores</strong> live on a split: fuel drives traffic while
+        inside sales and foodservice drive profit (NACS 2025 data put fuel at 65.0 percent of c-store sales
+        dollars but only 38.8 percent of gross profit). PMPA governs branded-fuel termination and
+        nonrenewal (and, again, counts the agreement as a franchise for SBA). Branded supply buys
+        recognition, additives, and card acceptance at the cost of stricter contracts, image and volume
+        requirements, no pricing power, and a wholesale price typically 5&ndash;10 cents per gallon higher;
+        unbranded buys flexibility and lower cost at the price of weaker shortage-priority and brand trust.
+        Underground-storage-tank and Phase I/II environmental diligence is a first-order underwriting item,
+        not a footnote.
+      </p>
+
+      <p>
+        <strong>Childcare and early education</strong> is a category where the franchise often wins on
+        parent trust, curriculum, and licensing support. Primrose (2025 FDD) shows about $2.65 million
+        average gross revenue on a 7 percent royalty plus 2 percent brand fund; Goddard mature schools
+        average roughly $2.5 million gross with strong EBITDA. Both carry low SBA default rates (Primrose
+        ~0&ndash;1 percent, Goddard ~1.2 percent) and appear on the Directory. The credit watch-items are
+        high capex ($2&ndash;$8.6 million with real estate), a multi-year enrollment ramp, and childcare
+        wage inflation compressing margins (Primrose net margin ~3.8 percent). <strong>Urgent care and
+        medical clinics</strong> add a legal structure most guides skip: the Corporate Practice of Medicine
+        (CPOM) doctrine in many states requires an MSO/PC arrangement, and SBA lenders must review the
+        medical services agreement to confirm CPOM compliance, that both the MSO and the PC are eligible
+        operating companies, and that the business is independently owned, because a defect can jeopardize
+        the guaranty. AFC (American Family Care) runs roughly $1.3&ndash;$1.5 million per location and is
+        typically Directory-listed. <strong>Senior and home care</strong> is relatively capital-light and
+        demand-supported by aging demographics, with the franchise aiding brand, compliance, recruiting, and
+        referrals; it is fundamentally a people-management business, so caregiver recruitment and retention
+        is the core risk. Note that SOP 50 10 8 makes residential facilities that are not licensed as
+        nursing homes or assisted living, and not providing healthcare, ineligible.
+      </p>
+
+      <p>
+        <strong>Self-storage</strong> is a real-estate and management-platform play where franchising rarely
+        adds value; the independent is almost always the better underwriting story, backed by strong,
+        specialized real-estate collateral. <strong>Automotive services</strong> (oil change and repair)
+        generally benefit from franchise vendor networks and recurring demand, but the repair-and-maintenance
+        segment is the counterexample where independents sometimes outperform franchises on default (one
+        2026 vendor dataset showed 14.4 percent independent versus 20 percent franchise within NAICS 811),
+        underscoring the brand-over-binary point. <strong>Restoration and disaster recovery</strong> is one
+        of the strongest franchise cases, insurance relationships, national-account work, response systems,
+        and brand trust all matter, though the work is operationally intense and often 24/7. Finally,
+        <strong>wedding and event centers</strong> and <strong>glamping or boutique hospitality</strong> are
+        location-, design-, and review-driven, where the independent usually wins but should borrow franchise
+        discipline, standardized packages, a CRM, and operating checklists.
+      </p>
+
+      <h2>USDA and conventional: the collateral view</h2>
+
+      <p>
+        The SBA lens is not the only one. USDA's Business &amp; Industry (B&amp;I) program, governed by the
+        consolidated 7 CFR Part 5001 (the &ldquo;OneRD&rdquo; framework, effective October 1, 2020),
+        guarantees loans up to $25 million (and $40 million in select cases), currently covering 80 percent
+        of each loan, for borrowers in a rural area (a community of 50,000 or fewer). B&amp;I has no
+        &ldquo;credit elsewhere&rdquo; test analogous to 7(a). For franchised operations not on a registry,
+        the program requires a legal review of the applicant's franchise agreement and franchisor disclosure
+        statement, and an independent feasibility study is required in certain cases under 7 CFR 4279.161.
+        Equity expectations typically run from 10 percent (existing business) to 20 percent (new business)
+        tangible balance-sheet equity, and B&amp;I can be combined with SBA financing on the same project.
+      </p>
+
+      <p>
+        The conventional lens sharpens the collateral question that runs beneath every franchise credit.
+        Franchise, and many independent, service businesses lack hard collateral, so the value sits in
+        enterprise or going-concern value and transferable cash flow rather than liquidation value, as one
+        commercial banker frames it, &ldquo;the value lies in the enterprise value of selling that business
+        or that stream of cash flow to somebody else.&rdquo; That is precisely why franchise resale and
+        transfer restrictions bear directly on recovery in default: franchisor consent, rights of first
+        refusal, step-in rights, repurchase options, and collateral lease assignments all constrain what a
+        lender can realize. The disciplined file therefore separates two financings that borrowers routinely
+        conflate, financing the franchise <em>business</em> (goodwill, equipment, working capital, typically
+        7(a) or conventional term debt) from financing the franchise <em>real estate</em> (504 or
+        conventional mortgage), a separation the July 4, 2026 combined-cap change now makes easier to stack.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>How franchise status flows through each capital program.</caption>
+          <thead><tr><th scope="col">Program</th><th scope="col">How franchise status is handled</th><th scope="col">Key constraint</th></tr></thead>
+          <tbody>
+            <tr><td>SBA 7(a)</td><td>Brand must be on the reinstated Directory; Franchisor Certification (or interim addendum) required</td><td>Up to $5M; 13 CFR 121.103 affiliation; executed franchise docs before initial disbursement</td></tr>
+            <tr><td>SBA 504</td><td>Same Directory / certification gate; real-estate and equipment focus</td><td>Up to $5M; executed docs before debenture funding</td></tr>
+            <tr><td>SBA combined (from July 4, 2026)</td><td>7(a) and 504 stackable, decoupled caps</td><td>Up to $10M combined; sequence 7(a) first</td></tr>
+            <tr><td>USDA B&amp;I</td><td>Off-registry brands need legal review of franchise agreement and disclosure statement</td><td>Rural (&le;50,000 pop.); up to $25M ($40M select); 80% guarantee; feasibility study per 7 CFR 4279.161</td></tr>
+            <tr><td>Conventional</td><td>Enterprise / going-concern value governs; transfer restrictions limit recovery</td><td>No guaranty backstop; collateral is transferable cash flow, not liquidation value</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Program mechanics current as of July 2026 and subject to SBA and USDA policy change; confirm caps, guarantee percentages, and documentation timing against the operative SOP and rule for each engagement.</p>
+      </div>
+
+      <h2>The 2026 backdrop: a growing but uneven franchise economy</h2>
+
+      <p>
+        The macro setting supports lending without excusing loose underwriting. Per the IFA's 2026
+        Franchising Economic Outlook (conducted by FRANdata and sponsored by Benetrends Financial),
+        franchise establishments grow from 832,521 to 845,000 units, an increase of 1.5 percent; employment
+        rises more than 150,000 jobs (1.8 percent) to nearly 8.9 million; output rises from $907.3 billion
+        to $921.4 billion, up 1.6 percent; and franchise GDP grows 1.8 percent, from $549.9 to $558.4
+        billion, close to 3 percent of U.S. GDP. Child services and commercial and residential services are
+        the fastest-growing lines at roughly 3.2 percent, and, for the first time since the pandemic,
+        full-service restaurants are projected to outpace QSR in output growth. The Southeast holds nearly 30
+        percent of establishments and the Southwest is the fastest-growing region. FRANdata CEO Darrell
+        Johnson summed it up: &ldquo;After a challenging operating environment in 2025, the economic outlook
+        for franchising remains strong.&rdquo;
+      </p>
+
+      <p>
+        The lending scale gives the topic its weight. Per Foley &amp; Lardner (May 2025), &ldquo;According
+        to FRANdata, approximately 20 percent of SBA loans go to franchises,&rdquo; and per
+        <em>Entrepreneur</em>, the SBA &ldquo;provides approximately $5.6 billion per year in franchise
+        loans.&rdquo; In FY2025 the SBA guaranteed 77,600 7(a) loans totaling $37 billion and 6,750 504
+        loans totaling $7.8 billion (Forbes, citing SBA). A fifth of a $37 billion program running through a
+        directory-and-certification regime that changed twice in two years is precisely the kind of moving
+        target a feasibility study is supposed to pin down.
+      </p>
+
+      <h2>What this means for the credit file</h2>
+
+      <p>
+        Four disciplines convert the franchise question from a marketing talking point into an underwriting
+        answer. First, confirm current regulatory eligibility, Directory listing, Franchisor Certification
+        status, and exposure to the June 30, 2026 recertification cliff, and date-stamp every regulatory
+        assertion, because the rules here moved twice in twenty-four months and will move again. Second,
+        underwrite the brand, not the binary: pull the specific brand's SBA default history and the
+        franchisor's financial health, and test the FDD's Item 19 numbers against the subject market while
+        reading Item 20's closure and transfer trend. Third, give every category verdict an underwriting
+        implication, coverage stress, collateral or going-concern value, franchise-term-versus-loan-term
+        match, PIP and reinvestment mandates, and the effect of transfer restrictions on recovery. Fourth,
+        match the program to the structure, 7(a), 504, USDA B&amp;I, or conventional, and use the new
+        combined cap to stack real estate and business where the deal warrants it.
+      </p>
+
+      <p>
+        The through-line is simple. The franchise label is a filter, not a verdict. It tells an underwriter
+        which rulebook applies and which questions to ask next; it does not, on its own, tell anyone whether
+        the loan will be repaid. A study that treats the label as an answer has skipped the analysis. A
+        study that treats it as the first of several questions, regulatory eligibility, brand-level default
+        risk, and recoverable collateral, has done the work a lender is actually paying for.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Regulatory framework: SBA SOP 50 10 7 (effective Aug. 1, 2023) and SOP 50 10 8 (effective June 1,
+          2025); SBA Information Notice 5000-866746; SBA Policy Notice 5000-879058 (dated May 18, 2026;
+          effective July 4, 2026); SBA Forms 2462 and 2464 and the SBA Negotiated Addendum; 13 CFR &sect;
+          121.103 (affiliation); FTC Franchise Rule, 16 CFR &sect; 436; the Petroleum Marketing Practices
+          Act (PMPA); and USDA 7 CFR Part 5001 (OneRD) and 7 CFR 4279.161. The June 30, 2026 recertification
+          deadline (originally July 31, 2025) and the FRANdata &ldquo;estimated 8,000 franchisors&rdquo;
+          figure are current as of July 2026 and subject to SBA policy change.
+        </p>
+        <p style="margin-top:14px">
+          Default and survival evidence: GAO-13-759 (Sept. 10, 2013); Timothy Bates, <em>Small Business
+          Economics</em> 7:377&ndash;388 (1995), <em>Journal of Small Business Management</em>
+          33(2):26&ndash;36 (1995), U.S. Census working paper WP-97-05, and <em>Journal of Business
+          Venturing</em> 13:113&ndash;130 (1998); Lafontaine et al. (2019); Michael et al., <em>Managerial
+          and Decision Economics</em> (2022); SBA FY2020&ndash;2023 7(a) brand data via Fit Small Business
+          (July 2024); and a <em>Wall Street Journal</em> investigation of 2004&ndash;2013 SBA franchise
+          lending. Default-rate methodology varies (resolved-only versus full-book denominators, count-
+          versus dollar-weighting, cohort maturity); figures are presented as ranges. Several brand-specific
+          rates in wider circulation originate in marketing or law-firm sources and are treated here with
+          caution.
+        </p>
+        <p style="margin-top:14px">
+          Industry and category data: IFA 2026 Franchising Economic Outlook (conducted by FRANdata, sponsored
+          by Benetrends Financial); Foley &amp; Lardner (May 2025); <em>Entrepreneur</em>; Forbes (citing
+          SBA FY2025 volumes); NACS 2025 c-store data; HVS 2025 hotel development-cost benchmarks; and 2025
+          Franchise Disclosure Documents for Tommy's Express, Primrose, and Goddard, together with AFC and
+          American Family Care location economics. Franchise Disclosure Document structure follows the FTC
+          Franchise Rule's 23 items, with Item 19 optional and Item 20 covering outlet openings, closures,
+          transfers, and terminations. FDD figures, benchmark investment ranges, and default rates are stated
+          as reported industry data and should be re-verified against the subject brand's current disclosures
+          on any live engagement.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Financing a franchised, or independent, project?</h2>
+      <p>
+        Our feasibility and market studies underwrite the brand, not the label: current SBA Directory and
+        certification status, brand-level default history, and the collateral and going-concern analysis a
+        credit committee will actually test.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>

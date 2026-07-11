@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>SBA Default Economics: Loss Rates by Industry | Feasibility Study Company</title>
+<meta name="description" content="A lender-facing reference to SBA 7(a) and 504 default and loss rates by industry (NAICS), state, loan size, and program, with every rate labeled by its measurement basis.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/sba-default-economics/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="SBA Default Economics: Loss Rates by Industry, State, and Program">
+<meta property="og:description" content="The SBA charged off 12.4% of 7(a) loans by count but lost only 4.0% by dollar since 1992. A reference to default and loss rates by industry, state, loan size, and program.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/sba-default-economics/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-11">
+<meta property="article:modified_time" content="2026-07-11">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SBA Default Economics: Loss Rates by Industry">
+<meta name="twitter:description" content="SBA default and loss rates by industry, state, loan size, and program, with the measurement basis behind every number.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/sba-default-economics/#article",
+      "headline": "SBA Default Economics: Loss Rates by Industry, State, and Program",
+      "description": "A lender-facing reference to SBA 7(a) and 504 default and loss rates by industry (NAICS), state, loan size, and program, with every rate labeled by its measurement basis.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/sba-default-economics/",
+      "about": [
+        { "@type": "Thing", "name": "SBA 7(a) loan program" },
+        { "@type": "Thing", "name": "SBA 504 loan program" },
+        { "@type": "Thing", "name": "Small business loan default rate" },
+        { "@type": "Thing", "name": "Charge-off and loss given default" },
+        { "@type": "Thing", "name": "Commercial real estate underwriting" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/sba-default-economics/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "SBA Default Economics", "item": "https://feasibility-study-company.com/research-notes/sba-default-economics/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/quick-service-restaurant/" role="menuitem">Quick-Service Restaurant</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/laundromat/" role="menuitem">Laundromat</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; SBA</p>
+      <h1>SBA Default Economics: Loss Rates by Industry, and Why the Headline Number Misleads</h1>
+      <p class="article-deck">
+        Across roughly 2.1 million loans guaranteed since 1992, the SBA charged off 12.4 percent by count
+        but lost only 4.0 percent by dollar. The widest driver of the gap is not the borrower's state or
+        the loan program. It is the industry.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a></li>
+        <li aria-current="page">SBA Default Economics</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        Ask how often SBA loans default and you will get two true answers that differ by a factor of
+        three. Across roughly 2.1 million loans guaranteed since 1992, about 12.4 percent were charged off
+        when counted one loan at a time, but only about 4.0 percent of the dollars were ultimately lost.
+        Both numbers are correct. They describe the same portfolio. The gap between them is not a rounding
+        difference or a quarrel between sources; it is the single most important fact in SBA credit, and it
+        is the one most trade coverage gets wrong. This note is a reference for reading SBA default and
+        loss rates the way an underwriter should: by industry, by loan size, by program, and always with
+        the measurement basis stated out loud.
+      </p>
+
+      <h2>Two true numbers, three times apart</h2>
+
+      <p>
+        Start with the program-wide picture. Mazeka Labs, computing directly on the SBA's loan-level
+        Freedom of Information Act file as of December 31, 2025, counts 2,136,870 loans (7(a) and 504
+        combined) approved since fiscal 1992, of which 228,228 have been charged off. That is a 12.4
+        percent count-based rate. Measured against dollars, the same file yields a 4.0 percent loss rate:
+        $28.8 billion charged off against $727.0 billion approved. The average charged-off loan lost about
+        $126,000; the average loan is about $340,000; and the average SBA guarantee is about 67 percent.
+        The portfolio's status distribution is itself instructive: 58.9 percent paid in full, 16.6 percent
+        active, 12.8 percent cancelled, 10.7 percent charged off, and 1.1 percent committed.
+      </p>
+      <p>
+        The count and dollar figures diverge for one structural reason, and it is the same reason that
+        governs almost everything that follows: larger loans default far less often than smaller ones.
+        Because a charged-off loan is on average smaller than a performing loan, counting defaults one at a
+        time overweights the small loans that fail most, while weighting by dollars pulls the rate down
+        toward the behavior of the large, better-collateralized credits that dominate the balance
+        outstanding. Neither view is wrong. They answer different questions. Count-based rates describe how
+        often a loan of a given type goes bad; dollar-weighted rates describe how much capital is actually
+        lost. A lender sizing reserves cares about the second; a borrower or broker asking "will my loan
+        survive" is closer to the first.
+      </p>
+
+      <div class="capsule">
+        <p>
+          There is no single SBA default rate. There is a count-based rate (about 12.4 percent
+          program-to-date), a resolved-loan rate (about 15.8 percent), and a dollar-weighted loss rate
+          (about 4.0 percent). Each is legitimate; conflating them is the most common error in the
+          category.
+        </p>
+      </div>
+
+      <p>
+        A third framing matters because it is the one that produces the scariest-looking headline. If you
+        restrict the denominator to resolved loans only, that is, loans that have either paid in full or
+        charged off, and exclude everything still active, cancelled, or exempt, the rate rises. PeerSense,
+        computing on that resolved basis across more than 1,283,073 resolved 7(a) loans matched to 899
+        lenders, reports an average default rate of about 15.8 percent. That is not a contradiction of the
+        12.4 percent figure; it is arithmetic. Stripping still-performing loans out of the base necessarily
+        lifts the rate. Feasibility-grade writing presents all three framings, count-based on disbursed
+        loans, resolved-basis, and dollar-weighted, and labels each one. A number without a stated basis is
+        not an answer.
+      </p>
+
+      <h2>Industry is the widest axis of risk</h2>
+
+      <p>
+        Once the measurement basis is fixed, the question becomes what actually moves the rate, and the
+        answer is unambiguous: industry, identified by NAICS code, is the dominant axis. In the most
+        citable public NAICS-level table, sbalenders.com's analysis of the 7(a) FOIA file for fiscal 1995
+        through 2024, the dollar charge-off rate ranges from about 1.6 percent for Veterinary Services to
+        37.4 percent for Shellfish Fishing. That spread, from under 2 percent to over 37 percent, is far
+        wider than anything the state or the program dimension produces. If you know only one attribute of
+        an SBA loan and want to predict its loss, know the industry.
+      </p>
+      <p>
+        The table below carries the categories a commercial-real-estate lender or feasibility analyst is
+        most likely to underwrite, shown on both bases so the divergence is visible. Note how the count
+        rate runs well above the dollar rate for the real-estate-secured categories: hotels charge off 4.6
+        percent of loans but only 1.8 percent of dollars, because the loans that fail are the smaller ones.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>SBA 7(a) charge-off by industry (NAICS), count-based versus dollar-weighted, FY1995 to FY2024.</caption>
+          <thead><tr><th scope="col">Industry (NAICS)</th><th scope="col">Count charge-off</th><th scope="col">Dollar charge-off</th><th scope="col">Total approved</th></tr></thead>
+          <tbody>
+            <tr><td>Shellfish Fishing</td><td>~37.7%</td><td>37.4%</td><td>$284M</td></tr>
+            <tr><td>Limited-Service Restaurants</td><td>~14.0%</td><td>6.6%</td><td>$19.6B</td></tr>
+            <tr><td>Full-Service Restaurants</td><td>~13.1%</td><td>5.9%</td><td>$31.1B</td></tr>
+            <tr><td>Gasoline Stations with Convenience Stores</td><td>~10.0%</td><td>3.5%</td><td>$17.7B</td></tr>
+            <tr><td>Car Washes</td><td>~10.0%</td><td>3.2%</td><td>$8.7B</td></tr>
+            <tr><td>Child Day Care Services</td><td>~8.4%</td><td>2.1%</td><td>$13.8B</td></tr>
+            <tr><td>Hotels (except Casino) and Motels</td><td>~4.6%</td><td>1.8%</td><td>$44.2B</td></tr>
+            <tr><td>Veterinary Services</td><td>~3.2%</td><td>1.6%</td><td>$9.2B</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Dollar charge-off is charge-off dollars divided by total loan dollars; count charge-off is charged-off loans divided by total loans in the category (computed from the reported loan counts). Source: sbalenders.com analysis of SBA 7(a) FOIA data, FY1995 to FY2024. The Shellfish Fishing rate rests on just 767 loans, and two lenders account for 62 percent of its charge-offs; treat small-count extremes as unstable.</p>
+      </div>
+
+      <p>
+        The high end of the same table, outside the CRE categories, is populated by concept-driven retail
+        and specialty trades: Commercial Lithographic Printing at 11.2 percent, Gift, Novelty, and Souvenir
+        Stores at 10.6 percent, All Other Specialty Food Stores at 9.5 percent, Drycleaning and Laundry
+        Services (except coin-operated) at 9.1 percent, Residential Remodelers at 8.6 percent, New
+        Single-Family Housing Construction at 8.0 percent, Snack and Nonalcoholic Beverage Bars and
+        Sporting Goods Stores both at 7.4 percent, Furniture Stores at 7.2 percent, and Offices of
+        Chiropractors at 6.9 percent. The middle band holds much of the rest of the CRE roster: Fitness and
+        Recreational Sports Centers at 5.4 percent ($8.2 billion lent), Drinking Places at 5.1 percent,
+        Convenience Stores at 4.5 percent, Beer, Wine, and Liquor Stores at 3.2 percent, Home Health Care
+        Services at 3.0 percent, Offices of Physicians at 2.8 percent, and Pharmacies and Drug Stores at 2.7
+        percent. Professional and medical uses cluster low: Offices of Dentists at 1.9 percent ($16.4
+        billion lent) sit just above hotels and veterinary services at the floor.
+      </p>
+
+      <h2>Why the biggest lending category loses the least</h2>
+
+      <p>
+        The most counterintuitive line in the table is the one a feasibility firm should internalize
+        first. Hotels and motels are the single largest SBA lending category by dollars, $44.2 billion
+        across 25,447 loans, and they carry one of the lowest dollar charge-off rates in the entire file,
+        1.8 percent. That is not because hotels are a safe business. It is because SBA hotel loans are
+        large, real-estate-secured credits, and larger loans default at dramatically lower rates than
+        small ones. Loan size is the second axis of SBA default risk, and within any given industry it is
+        nearly as powerful as the industry choice itself.
+      </p>
+
+      <div class="capsule">
+        <p>
+          Loan size is the hidden variable behind the count-versus-dollar gap. In Accommodation and Food
+          Services, loans under $150,000 default at 16.4 percent, but loans of $5 million and up default at
+          1.0 percent. In Retail Trade the same split runs 20.3 percent versus 1.0 percent; in Health Care,
+          8.9 percent versus 0.3 percent.
+        </p>
+      </div>
+
+      <p>
+        Those figures, from Mazeka Labs' industry-by-loan-size heatmap on a count basis, hold within every
+        sector: small loans fail many times more often than large loans of the same type. The practical
+        consequence is that any honest by-industry table needs loan size as a column, or at least as a
+        caveat, because an industry-average rate blends a high-risk small-loan tail with a low-risk
+        large-loan core. A borrower financing a $6 million hotel and a borrower financing a $120,000
+        franchise unit in the same NAICS code face very different odds, and the blended industry rate
+        flatters the first while frightening the second. This is precisely why the dollar-weighted view,
+        which the large loans dominate, sits so far below the count view.
+      </p>
+      <p>
+        Franchise structure is a related, softer modifier. PeerSense and the reinstated SBA Franchise
+        Directory both indicate that franchised concepts generally default less than independents within
+        the same NAICS code, though the magnitude varies by brand and only about 40 percent of brands
+        disclose Item 19 financial-performance representations, which limits how far the generalization can
+        be pushed.
+      </p>
+
+      <h2>What the sectors say</h2>
+
+      <p>
+        Zooming out from four-digit NAICS codes to two-digit sectors confirms the ordering. Wilary Winn's
+        April 2024 white paper, computed on the 7(a) FOIA file as of December 31, 2023 (1,786,705 loans,
+        $517.5 billion in gross approvals), measures cumulative gross charge-off as a percent of gross
+        approvals by sector. The three best performers are Management of Companies and Enterprises (below
+        1.5 percent cumulative), Utilities (2.42 percent at year-end 2023), and Finance and Insurance
+        (declining from a 5.55 percent peak in 2011). The three worst are Retail Trade (which peaked at
+        6.37 percent in 2016), Construction (which peaked at 6.87 percent in 2015 and stood at 5.10 percent
+        in 2023), and Information (5.68 percent in 2012, 4.73 percent in 2023). Construction and retail sit
+        at the top of the risk table at every level of aggregation, which is consistent with the
+        four-digit result that remodelers and specialty retail concepts default heavily.
+      </p>
+      <p>
+        Directional single-number ranges circulate too, and they are useful only if labeled as such.
+        Crestmont Capital, for instance, offers directional industry guidance placing restaurants at 12 to
+        15 percent and healthcare under 1 percent, explicitly as guidance rather than measured rates.
+        Headline single figures also travel widely through consumer-finance coverage such as NerdWallet and
+        LendingTree. All of these can orient a first conversation, but none substitutes for a rate computed
+        on a stated basis over a defined cohort, which is the standard this reference is built to.
+      </p>
+
+      <h2>State rankings, and why they move</h2>
+
+      <p>
+        Geography matters less than industry, and it matters in a way that is easy to misread. On a
+        lifetime count basis, Mazeka Labs (FOIA as of December 31, 2025) ranks the highest-default states
+        as Florida, Nevada, Georgia, Alabama, and a cluster of Southern and lower-Midwest states, and the
+        lowest as a set of sparsely populated Mountain and Northern New England states.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>SBA 7(a) count-based default rate by state, highest and lowest, program-to-date.</caption>
+          <thead><tr><th scope="col">Highest-default states</th><th scope="col">Rate</th><th scope="col">Lowest-default states</th><th scope="col">Rate</th></tr></thead>
+          <tbody>
+            <tr><td>Florida</td><td>16.9%</td><td>Montana</td><td>6.7%</td></tr>
+            <tr><td>Nevada</td><td>16.4%</td><td>Alaska</td><td>7.1%</td></tr>
+            <tr><td>Georgia</td><td>15.4%</td><td>North Dakota</td><td>7.3%</td></tr>
+            <tr><td>Alabama</td><td>15.1%</td><td>Wyoming</td><td>7.8%</td></tr>
+            <tr><td>Tennessee</td><td>15.0%</td><td>South Dakota</td><td>7.9%</td></tr>
+            <tr><td>West Virginia</td><td>15.0%</td><td>Maine</td><td>8.1%</td></tr>
+            <tr><td>Illinois</td><td>15.0%</td><td>Vermont</td><td>8.2%</td></tr>
+            <tr><td>Arkansas</td><td>14.9%</td><td>New Hampshire</td><td>8.8%</td></tr>
+            <tr><td>Louisiana</td><td>14.4%</td><td>Massachusetts</td><td>8.9%</td></tr>
+            <tr><td>New York</td><td>14.2%</td><td>Nebraska</td><td>9.1%</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Adjusted count-based default rate. Source: Mazeka Labs analysis of SBA FOIA data as of December 31, 2025.</p>
+      </div>
+
+      <p>
+        The ranking is not stable across measurement choices, and that instability is the point. A separate
+        GoSBA analysis of fiscal 2020 through 2025 7(a) FOIA data, measuring charge-offs on recent cohorts
+        only and on a dollar basis, produces a nearly different list: Hawaii and New York highest at 2.4
+        percent and Nevada at 2.0 percent, with Alaska (0.2 percent), Puerto Rico (0.3 percent), and Maine
+        (0.4 percent) lowest. Florida, the leader on the lifetime count list, does not top the recent-cohort
+        dollar list at all. The two rankings disagree because one is lifetime and count-based while the
+        other is recent-cohort and dollar-based, which is exactly the methodological lesson: state rankings
+        shift with the measurement window and basis, and should never be quoted without both. Where state
+        concentration is real, it is largely a proxy for industry mix, hospitality- and tourism-heavy
+        states rank worse, and for cost-of-living pressure on operating margins, not evidence that a
+        state line itself causes default.
+      </p>
+
+      <h2>504 versus 7(a): a structural difference in risk</h2>
+
+      <p>
+        The program dimension is narrower than industry but structurally the clearest. The 504 program
+        defaults and loses materially less than 7(a), and the reasons are built into the product rather
+        than into the borrower pool alone. A 504 loan is real-estate-collateralized, owner-occupied,
+        fixed-rate CDC-debenture financing; a 7(a) loan is frequently working capital, acquisition
+        goodwill, or equipment, secured by weaker collateral. The structural comparison, and its realized
+        loss consequences, is summarized below.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>504 versus 7(a): structure and realized loss.</caption>
+          <thead><tr><th scope="col">Dimension</th><th scope="col">7(a)</th><th scope="col">504</th></tr></thead>
+          <tbody>
+            <tr><td>Typical collateral</td><td>Working capital, goodwill, equipment</td><td>Real estate and long-life fixed assets</td></tr>
+            <tr><td>Capital structure</td><td>Up to 90% SBA guarantee on the loan</td><td>~50% bank first / 40% CDC debenture / 10% equity</td></tr>
+            <tr><td>Owner-occupancy</td><td>51%+ for owner-occupied real estate</td><td>51%+ occupancy required</td></tr>
+            <tr><td>Rate and term</td><td>Usually variable (prime plus spread)</td><td>10, 20, or 25-year fixed via debenture</td></tr>
+            <tr><td>Net charge-off, normal conditions</td><td>~2% to 4%</td><td>~0.8% to 1.5%</td></tr>
+            <tr><td>Recovery on default</td><td>~30% to 50%</td><td>~50% to 70%</td></tr>
+            <tr><td>Average loan size</td><td>~$480,000</td><td>Over $1.2 million</td></tr>
+            <tr><td>FY2025 volume</td><td>~77,600 loans / ~$37 billion</td><td>6,750 loans / $7.8 billion</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Equity rises to 15 percent for special-use property or businesses under two years, and to 20 percent when both apply. Net charge-off and recovery ranges are industry characterizations (recovery per Crestmont Capital), not the SBA's official rate-as-a-percent-of-UPB tables, which are published but not machine-accessible. Volumes per the SBA FY2025 activity report and the September 30, 2025 release.</p>
+      </div>
+
+      <p>
+        Each row does work. The 504 project's roughly 50 percent bank first mortgage, 40 percent
+        CDC debenture (100 percent SBA-guaranteed), and 10 percent borrower equity align incentives and
+        put real estate under the loan; the mandatory owner-occupancy test (51 percent or more of the
+        financed property) does the same. The fixed-rate debenture insulated 504 borrowers from the
+        post-2022 rate shock that variable-rate 7(a) borrowers absorbed directly. And 504 borrowers skew
+        more established, with tangible net worth under $20 million and average net income under $6.5
+        million. Industry commentary, not the official UPB-rate tables, puts 504 net charge-off near 0.8 to
+        1.5 percent against 7(a) near 2 to 4 percent in normal conditions, and Crestmont estimates 504
+        recovery at 50 to 70 percent versus 30 to 50 percent for 7(a), consistent with the collateral
+        difference.
+      </p>
+      <p>
+        Scale frames the comparison. Per the SBA's fiscal 2025 activity report and its September 30, 2025
+        press release, the agency guaranteed 84,400 combined 7(a) and 504 loans for $44.8 billion in fiscal
+        2025, of which 6,750 were 504 loans for $7.8 billion and roughly 77,600 (some industry counts, such
+        as Coleman and EBIT Community, cite 78,078) were 7(a) loans for about $37 billion; combined dollar
+        volume of about $45.1 billion set a program record. Fiscal 2024's comparatives were 70,242 7(a)
+        loans for $31.1 billion. The average 7(a) loan runs about $480,000 and the average 504 loan more
+        than $1.2 million, a size difference that, by itself, predicts part of 504's lower loss.
+      </p>
+
+      <h2>Frequency versus severity: recovery and who bears the loss</h2>
+
+      <p>
+        A charge-off is not a total loss, and a default is not a charge-off. The 4.0 percent dollar rate is
+        best understood as probability of default times loss given default times exposure, blended across
+        the portfolio, and the machinery between default and final loss is where the guarantee structure
+        does its work. On a 7(a) default, once the borrower is 60 or more days into an uncured default and
+        business personal property has been liquidated, the lender may demand the SBA honor its guarantee.
+        The SBA then pays the guaranteed portion, 75 percent for loans over $150,000, 85 percent for loans
+        of $150,000 or less, and 90 percent for export loans and the new Made in America manufacturing
+        guarantee. Charge-off is a separate, later accounting action; the remaining balance is referred to
+        Treasury for cross-servicing and offset, including wage garnishment and tax-refund offset, and
+        post-charge-off recovery continues for years. Because the FOIA file reports gross charge-off, not
+        net of recovery, it overstates ultimate loss.
+      </p>
+      <p>
+        The distribution of that loss is the part lenders and CFOs actually price. The lender retains the
+        unguaranteed 15 to 25 percent of the loan and bears first loss on that slice; the SBA, funded by
+        borrower and lender guarantee fees under the program's zero-subsidy mandate, bears the guaranteed
+        portion. About half of guaranteed portions are sold into the secondary market via SBA Form 1086,
+        which converts the SBA's conditional guarantee to the lender into an unconditional guarantee to the
+        investor, while the lender keeps servicing and the unguaranteed piece. Borrowers still owe the
+        deficiency after the SBA pays the lender, though an Offer in Compromise can settle it for less.
+      </p>
+      <p>
+        The zero-subsidy design is worth stating plainly, because it is the backdrop to the policy story
+        below. For fiscal 2026 the estimated credit-subsidy rate for 7(a), 504, and SBIC is 0 percent, by
+        statutory design, against 18.75 percent for disaster loans and 9.37 percent for microloan
+        intermediaries. A negative subsidy means the program is built to generate budgetary net income
+        rather than to cost taxpayers, which is exactly why the fiscal 2024 shortfall registered as an
+        alarm.
+      </p>
+
+      <h2>Cohorts, and why recent vintages look safe</h2>
+
+      <p>
+        Any point-in-time default rate hides a vintage story, and reading SBA data without the seasoning
+        curve is the fastest way to reach a wrong conclusion. Grouping loans by approval cohort makes the
+        pattern obvious.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>7(a) count-based default rate by approval cohort.</caption>
+          <thead><tr><th scope="col">Approval cohort</th><th scope="col">Count default rate</th><th scope="col">Note</th></tr></thead>
+          <tbody>
+            <tr><td>2000 to 2007</td><td>23.0%</td><td>Fully seasoned; spans the financial crisis</td></tr>
+            <tr><td>2008 to 2012</td><td>13.8%</td><td>Post-crisis workout era</td></tr>
+            <tr><td>2013 to 2019</td><td>6.3%</td><td>Benign credit conditions</td></tr>
+            <tr><td>2020 to present</td><td>1.5%</td><td>Right-censored; peak defaults fall in years 2 to 5</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Source: Mazeka Labs analysis of SBA FOIA data. Median time to default is 4.1 years (49.3 months) and the average is 4.8 years, so the most recent cohort's low rate reflects loan age, not credit quality, and will rise as the vintage seasons.</p>
+      </div>
+
+      <p>
+        The 1.5 percent figure for 2020-and-later loans is not evidence of better lending. It is
+        right-censoring: those loans are simply too young to have defaulted yet, because peak default
+        occurs in years two through five, with a median time to default of 4.1 years. Never present a
+        recent-cohort rate without that caveat. The seasoned cohorts show what a full loss curve looks
+        like: the 2000 to 2007 vintage, which ran headlong into the financial crisis, ultimately defaulted
+        at 23.0 percent by count. Gross 7(a) charge-offs from that era peaked at $2.04 billion in 2010,
+        dipped to $0.68 billion in 2013, then spiked again to $2.06 billion in 2015 as lagged distress
+        worked through, and some 2007 and 2008 origination segments showed 15 to 20 percent default by
+        2012.
+      </p>
+      <p>
+        Two more distortions sit in the recent data. The COVID era masked distress from both directions:
+        Section 1112 of the CARES Act had the SBA pay principal, interest, and fees for six months (later
+        extended, capped at $9,000 a month) on existing 7(a), 504, and microloans, funded by $17 billion
+        plus $3.5 billion in appropriations, while separate, forgivable PPP lending and automatic
+        deferments further suppressed 2020 and 2021 default signals. Then the rate environment reversed:
+        prime peaked at 8.00 percent in September 2024 before easing to 6.75 percent by December 2025, and
+        variable-rate 7(a) borrowers saw debt service climb sharply while fixed-rate 504 borrowers were
+        insulated. Any current read of the file has to net these effects out rather than take the raw
+        recent rates at face value.
+      </p>
+
+      <h2>The FY2024 reset and the July 2026 decoupling</h2>
+
+      <p>
+        The policy environment as of July 2026 is the most consequential in five years, and it bears
+        directly on which cohorts a lender should watch. After a stretch of loosened underwriting and
+        waived fees, the 7(a) program deteriorated visibly in fiscal 2024. Per the SBA's fiscal 2024 Annual
+        7(a) Risk Analysis Report (cited by Tax Guard in August 2025), the 7(a) default rate rose to 3.7
+        percent in 2024, the highest since 2012, with early-default outcomes at their worst since March
+        2020. American Banker reports SBA guaranty purchases of defaulted loans climbing from $733 million
+        in fiscal 2022 to $1.1 billion in fiscal 2023 and $1.6 billion in fiscal 2024, the highest since
+        the pandemic. The program posted about $397 million in negative cash flow in fiscal 2024, described
+        by the SBA's March 27, 2025 press release as its first negative cash flow in over a decade and by
+        its April 22, 2025 release as the first in 13 years, and the agency projected that more than $460
+        million in upfront lender fees went uncollected from 2022 to 2024.
+      </p>
+      <p>
+        The causal narrative the SBA attaches to that deterioration, that a "Do What You Do" posture
+        loosened underwriting and waived fees, originates substantially in agency communications under the
+        current administration and is politically framed; the $397 million deficit and the 3.7 percent
+        default rate are presented here as reported, while the causal claim is attributed rather than
+        asserted. One program within the portfolio ran hotter than the rest: Community Advantage exhibited a
+        default rate above 7 percent, more than double the portfolio average, with several participating
+        lenders generating early problem-loan rates above 30 percent, which prompted a May 2025 moratorium
+        on new Community Advantage lenders.
+      </p>
+      <p>
+        Two structural responses frame the vintages to come. First, SOP 50 10 8, effective June 1, 2025,
+        re-tightened underwriting, so post-June-2025 cohorts should, if history holds, perform better than
+        the 2023 and 2024 vintages that are now the ones to watch. Second, and pointing the other way on
+        exposure, the July 4, 2026 decoupling (SBA News Release 26-52 and Policy Notice 5000-879058,
+        announced May 18, 2026 by Administrator Kelly Loeffler) raised the combined 7(a)-plus-504 ceiling to
+        $10 million, allowing up to $5 million in 7(a) plus up to $5 million in 504, the highest cap in
+        agency history. Shifts of this kind have historically flipped cohort default performance, which is
+        the strongest argument for tracking new vintages against the seasoning curve rather than trusting a
+        portfolio-wide average.
+      </p>
+
+      <h2>How to read an SBA default rate correctly</h2>
+
+      <p>
+        The underlying evidence is public and computable, which is what makes disciplined reading possible
+        and sloppy citation inexcusable. The SBA's Office of Capital Access publishes the 7(a) and 504
+        loan-level FOIA files at data.sba.gov, four 7(a) files by decade and two 504 files by 20-year
+        blocks, updated quarterly and accompanied by a data dictionary, covering Credit Reform Act loans
+        (those approved on or after October 1, 1991) forward, some 2.1 million records in all. The fields
+        that matter for default analysis include the program, gross and SBA-guaranteed approval amounts,
+        approval and first-disbursement dates, term, NAICS code and description, franchise code, borrower
+        and project state and county, business type, loan status, charge-off date, and gross charge-off
+        amount. As of July 2026 the SBA began, for the first time, disclosing delinquencies, guaranty
+        purchases, and liquidations at the individual 7(a) loan level (per the Coleman Report), a material
+        expansion of what can be computed directly.
+      </p>
+      <p>
+        Correct computation means stating, every time, whether a rate is count-based on disbursed loans,
+        count-based on resolved loans only, or dollar-weighted, and whether it is a cross-sectional
+        snapshot or a cohort tracked by approval fiscal year to maturity. Cohort-based, dollar-weighted
+        rates on fully seasoned vintages are the gold standard for feasibility work. The known limitations
+        should be disclosed rather than hidden: recent cohorts under-count eventual defaults through
+        right-censoring; roughly 202,825 records lack a NAICS code and about 236,519 lack a NAICS
+        description in one widely used extract, with older records worse; interest rate and
+        first-disbursement date are missing on large shares of the file; the choice to include or exclude
+        cancelled and committed loans moves the denominator; and gross charge-off overstates ultimate loss
+        because it is not net of recovery.
+      </p>
+      <p>
+        One authoritative gap remains, and honesty about it is part of the credibility. The SBA's official
+        "Loan Program Performance" report, 11 tables updated quarterly, most recently as of June 30, 2025
+        and published September 15, 2025, contains the exact charge-off, purchase, and recovery rates as a
+        percent of unpaid principal balance by program. Those are the definitive official figures, but they
+        are distributed as robots-blocked PDFs and a ZIP archive that automated tools cannot read, so
+        program-level rates in circulation, including several cited here, rely on third-party FOIA
+        computations and industry commentary until the official tables are transcribed directly. And the
+        third-party totals differ by scope, not error: Mazeka counts 2,136,870 loans (7(a) and 504, fiscal
+        1992 forward); Wilary Winn counts 1,786,705 (7(a) only, through year-end 2023); PeerSense matches
+        about 2.1 million loans to 899 lenders. Always cite the as-of date and the scope.
+      </p>
+
+      <h2>What this means for underwriting</h2>
+
+      <p>
+        For a lender or a feasibility analyst, the reference collapses to a short discipline. Lead every
+        rate with its basis, count, resolved, or dollar, and its window, because the same portfolio
+        supports a 4 percent story and a 16 percent story and the difference is entirely in the framing.
+        Underwrite the industry first and the loan size second, since those two axes span the full range
+        from under 2 percent to over 37 percent, far more than geography or program. Treat 504 as
+        structurally safer than 7(a) for the concrete reasons, real estate, owner-occupancy, fixed rate,
+        larger loans, rather than as a matter of taste. And read every rate against the cohort clock and
+        the current policy inflection: the 2023 and 2024 vintages carry the fiscal 2024 stress, the
+        post-SOP-50-10-8 cohorts should improve, and the July 2026 decoupling has pushed the ceiling to a
+        record $10 million, which will reshape the exposure of the vintages now being written.
+      </p>
+      <p>
+        None of this is exotic. It is the difference between quoting a number and understanding one. A
+        study that states its basis, names its source and as-of date, underwrites industry and size before
+        geography, and reads the cohort in the context of the policy moment has said something a credit
+        officer can rely on. A single figure without any of that, the 12 percent that is really 4 percent,
+        or the 4 percent that is really 16 percent, has said almost nothing at all.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Program-wide counts, the count-versus-dollar split, state rankings, and the cohort series are
+          computed from the SBA loan-level FOIA files (data.sba.gov) by Mazeka Labs (7(a) and 504;
+          2,136,870 loans; as of December 31, 2025) and PeerSense (resolved-basis; more than 1,283,073
+          resolved 7(a) loans matched to 899 lenders). The by-industry NAICS table is from sbalenders.com's
+          FY1995 to FY2024 FOIA analysis. Sector-level figures are from Wilary Winn's April 2024 white
+          paper (7(a) FOIA as of December 31, 2023; 1,786,705 loans; $517.5 billion gross approvals).
+          Recent-cohort state figures are from GoSBA (FY2020 to FY2025). Recovery and directional industry
+          ranges are from Crestmont Capital; headline single-number rates circulate via NerdWallet and
+          LendingTree. Loss-trajectory and guaranty-purchase figures are from American Banker and the
+          Coleman Report; fiscal 2024 default and early-default figures are from the SBA FY2024 Annual 7(a)
+          Risk Analysis Report (via Tax Guard, August 2025). Program totals and the negative-cash-flow
+          figure are from SBA press releases (March 27, April 22, and September 30, 2025) and the FY2025
+          activity report. The July 4, 2026 decoupling is SBA News Release 26-52 and Policy Notice
+          5000-879058, announced May 18, 2026.
+        </p>
+        <p style="margin-top:14px">
+          Notes on method: count-based, resolved-basis, and dollar-weighted rates are distinct and are
+          labeled throughout; third-party totals differ by scope and as-of date, not by error. Recent-cohort
+          rates (2020 and later) understate eventual defaults because of right-censoring, and COVID-era
+          programs (CARES Act Section 1112 subsidies, deferments, and the separate PPP) distort 2020 to 2022
+          performance and should not be blended into 7(a) or 504 default statistics. Extreme small-count
+          NAICS rates, such as Shellfish Fishing at 37.4 percent (driven by two lenders accounting for 62
+          percent of its charge-offs), are unstable. The SBA's official charge-off, purchase, and recovery
+          rates as a percent of UPB (the quarterly Loan Program Performance report, most recently as of June
+          30, 2025) are authoritative but distributed in a format that is not machine-accessible; program-level
+          rates here therefore rely on third-party FOIA computations and industry commentary. The "Do What
+          You Do" account of the fiscal 2024 deterioration originates substantially in SBA communications and
+          is presented as reported rather than asserted.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting an SBA credit?</h2>
+      <p>
+        Our feasibility and market studies read default risk the way this piece describes: by industry and
+        loan size, on the right measurement basis, and against the current cohort and policy backdrop.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>

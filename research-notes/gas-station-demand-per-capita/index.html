@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>Gas Station Demand Per Capita | Feasibility Study Company</title>
+<meta name="description" content="Per-capita fuel demand varies roughly threefold by state and is slowly declining, while convenience-store profit has shifted to foodservice. How to underwrite a gas station to inside sales, not gallons.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/gas-station-demand-per-capita/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Gas Station Demand Per Capita: Why a Site's Gallons No Longer Set Its Value">
+<meta property="og:description" content="Per-capita fuel demand varies ~3x by state and is slowly declining, while c-store profit has shifted to foodservice. Underwriting a modern site to inside sales, not gallons.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/gas-station-demand-per-capita/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-11">
+<meta property="article:modified_time" content="2026-07-11">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gas Station Demand Per Capita">
+<meta name="twitter:description" content="Per-capita fuel demand varies ~3x by state and is slowly declining, while c-store profit has shifted to foodservice. Underwrite to inside sales, not gallons.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/gas-station-demand-per-capita/#article",
+      "headline": "Gas Station Demand Per Capita: Why a Site's Gallons No Longer Set Its Value",
+      "description": "Per-capita fuel demand varies roughly threefold by state and is slowly declining, while convenience-store profit has shifted to foodservice. How to underwrite a gas station to inside sales and foodservice, not gallons.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/gas-station-demand-per-capita/",
+      "about": [
+        { "@type": "Thing", "name": "Convenience store feasibility" },
+        { "@type": "Thing", "name": "Per-capita fuel demand" },
+        { "@type": "Thing", "name": "Gas station foodservice revenue" },
+        { "@type": "Thing", "name": "Fuel retail saturation analysis" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/gas-station-demand-per-capita/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "Gas Station Demand", "item": "https://feasibility-study-company.com/research-notes/gas-station-demand-per-capita/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/quick-service-restaurant/" role="menuitem">Quick-Service Restaurant</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/laundromat/" role="menuitem">Laundromat</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; Gas Station</p>
+      <h1>Gas Station Demand Per Capita: Why a Site's Gallons No Longer Set Its Value</h1>
+      <p class="article-deck">
+        Per-capita fuel demand varies roughly threefold across the states and is slowly declining
+        everywhere, while the profit has moved inside the store. Underwriting a modern site means
+        reading foodservice and local saturation, not just the pump.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a></li>
+        <li aria-current="page">Gas Station Demand</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        A gas station is the rare commercial asset whose name has drifted away from its economics. The
+        pumps out front still move most of the revenue and most of the traffic, but they no longer produce
+        most of the profit, and the gallons they sell are flat-to-declining and structurally thin-margin.
+        The margin has moved inside the store, and above all into foodservice. Per the NACS State of the
+        Industry data, fuel accounted for 65.0 percent of industry sales dollars in 2025 but only 38.8
+        percent of gross-profit dollars; inside the store, foodservice was 28.5 percent of inside sales
+        but 38.9 percent of inside gross profit. Underwrite a modern fueling site to its gallons and you
+        are underwriting the wrong line.
+      </p>
+
+      <p>
+        There is a second reason gallons make a poor foundation: they are distributed across the map
+        unevenly enough to defeat any national rule of thumb. Per-capita fuel demand varies by roughly
+        threefold, from the rural Plains and Mountain West to the dense Northeast, and station density
+        inversely mirrors it, so saturation is never a national question and always a local one. This note
+        walks the two problems a lender faces when a gas-station or convenience-store deal crosses the
+        desk, how much fuel a market actually demands and where the defensible revenue really sits, and
+        how to underwrite both the way a skeptical credit committee will read them.
+      </p>
+
+      <h2>The number the name promises, and the number that pays</h2>
+
+      <p>
+        Start with the split that reorders everything downstream. In 2025, total U.S. convenience-industry
+        sales reached $817.5 billion, of which fuel was $476.3 billion, 65.0 percent of the sales dollars.
+        On profit, that ranking inverts. Fuel delivered only 38.8 percent of gross-profit dollars; the
+        inside of the store delivered the majority. Fuel is a low-margin, high-volatility traffic driver:
+        Casey's runs a fuel margin around 12 percent against roughly 59 percent for prepared food and
+        dispensed beverages, and Murphy USA, a deliberately fuel-forward operator, earned 30.7 cents per
+        gallon of total fuel contribution in fiscal 2025 on 4.85 billion retail gallons while holding
+        merchandise unit margins of 20.2 percent. Gallons buy the traffic. The store earns its money after
+        the customer is out of the car.
+      </p>
+
+      <div class="capsule">
+        <p>
+          The defensible modern site underwrites to inside sales and foodservice, not gallons. Fuel is the
+          traffic-generation line and the thin-margin line at once; the credit question is whether the
+          store behind the pumps can convert that traffic into high-margin occasions.
+        </p>
+      </div>
+
+      <h2>The national frame: one convenience store per 2,257 residents</h2>
+
+      <p>
+        The U.S. convenience-store universe totaled 151,975 stores as of December 31, 2025, down 0.2
+        percent year over year, of which 122,620 sold fuel, the most fuel-selling sites in eight years, per
+        the NACS/NIQ TDLinx 2026 count. Against a Census-estimated population of roughly 343 million, that
+        is one convenience store for every 2,257 residents. The channel is central to fuel retailing: the
+        convenience format sells an estimated 80 percent of the fuel purchased in the United States, and
+        80.7 percent of all c-stores sell fuel. Counts differ by definition, however. A separate
+        site-level map from Orbital, cross-referenced against NACS, EIA and Census County Business
+        Patterns, puts the number of NAICS 447-type fueling sites lower, at roughly 145,158, so the first
+        discipline in any saturation analysis is to fix the definition before benchmarking against it.
+      </p>
+
+      <p>
+        The revenue picture behind those counts is one of divergence. Fuel sales fell 5.4 percent in 2025,
+        to $476.3 billion from $501.9 billion in 2024, but the decline was a price story rather than a
+        volume story: the average pump price was $3.11 a gallon against $3.30 the prior year, while gallons
+        sold actually rose 0.5 percent. Inside sales, foodservice plus merchandise, reached a record
+        $341.2 billion, the twenty-third consecutive year inside sales have increased. IBISWorld, defining
+        the narrower "gas stations with convenience stores" industry, pegs it at $553.2 billion in 2025, up
+        0.7 percent. The through-line is consistent: dollar sales are growing, fuel dollars are shrinking on
+        price, and the growth is inside.
+      </p>
+
+      <h2>Per-capita fuel demand varies roughly threefold</h2>
+
+      <p>
+        How much fuel a market demands is a function of how far its residents drive, and that varies far
+        more than most site models assume. EIA's State Energy Data System makes the spread plain. In the
+        2018 SEDS data, Wyoming and North Dakota each consumed about 552 gallons of motor gasoline per
+        capita, against a U.S. average of 422, roughly 284 in New York and just 164 in the District of
+        Columbia. The 2023 SEDS Table F10 data holds the same shape: Texas consumed 14.6 billion gallons
+        of transportation gasoline, California about 12.5 billion and Florida about 8.9 billion,
+        population-driven totals, but on a per-capita basis the sparsely populated Plains and Mountain
+        states remain far above the coasts. EIA attributes the low-consumption states, the District of
+        Columbia, New York, Rhode Island and Illinois, to density, transit access and walkability, and the
+        high-consumption states, Wyoming, the Dakotas and Montana, to low density, long driving distances
+        and the highest vehicle-miles per capita in the country.
+      </p>
+
+      <p>
+        The mileage data tracks the fuel data. FHWA Highway Statistics for 2023 put Wyoming residents at
+        just under 16,300 miles driven per capita, the most in the nation, followed by Alabama, Mississippi
+        and New Mexico, with the lowest in New York, Rhode Island, Hawaii and Washington at roughly 6,100
+        to 7,600 miles. On companion figures the spread runs from about 16,849 miles in Wyoming to 5,133 in
+        the District of Columbia, a 3.3-times gap, and vehicles per capita follow the same axis, Montana
+        around 2.07 and Wyoming around 1.52 against dense coastal states well below 1.0. All of this sits
+        on top of a national trend that is gently downward: U.S. motor-gasoline consumption averaged 8.9
+        million barrels a day in 2025, 1 percent below 2024 and 4 percent below pre-pandemic 2019, and the
+        EIA Short-Term Energy Outlook of April 2026 forecasts continued declines through 2027 as fleet fuel
+        economy improves.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Illustrative state fuel ratios: the feasibility-relevant spread.</caption>
+          <thead><tr><th scope="col">State</th><th scope="col">Total gasoline (2023, M gal)</th><th scope="col">Approx. gallons per capita</th><th scope="col">VMT per capita (2023)</th><th scope="col">Station density note</th></tr></thead>
+          <tbody>
+            <tr><td>Wyoming</td><td>~306</td><td>~540+</td><td>~16,300 (highest)</td><td>High per-capita density (rural)</td></tr>
+            <tr><td>North Dakota</td><td>~399</td><td>~535+</td><td>High</td><td>High per-capita density (rural)</td></tr>
+            <tr><td>Texas</td><td>14,580</td><td>~475</td><td>Near U.S. average</td><td>16,504 stores (most); ~52/100k</td></tr>
+            <tr><td>California</td><td>~12,470</td><td>~340</td><td>Below average</td><td>Lowest large-state density (~30/100k)</td></tr>
+            <tr><td>Florida</td><td>~8,940</td><td>~420</td><td>Near average</td><td>9,730 stores; ~42/100k</td></tr>
+            <tr><td>New York</td><td>~4,980</td><td>~265&ndash;285</td><td>~6,000 (near lowest)</td><td>~40/100k</td></tr>
+            <tr><td>Mississippi</td><td>~1,640</td><td>High</td><td>2nd-highest VMT</td><td>Highest per-capita density (rural)</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Total transportation gasoline from EIA SEDS Table F10 (2023), converted at 42 gallons per barrel; per-capita figures computed against Census population and cross-checked to EIA's own per-capita statements. Illustrative and directional.</p>
+      </div>
+
+      <h2>Density inversely mirrors demand, so saturation is local</h2>
+
+      <p>
+        The states that burn the most fuel per resident also tend to have the most stations per resident,
+        which is exactly why high per-capita gallons do not, by themselves, signal an open market.
+        Orbital's per-100,000-resident figures, covering the highest-count states and cross-referenced to
+        NACS, EIA and Census NAICS 447 as of April 2026, show the highest-density large states are Indiana
+        at about 57 stations per 100,000 residents (roughly one per 1,754 people) and Tennessee at about
+        56, with Texas and Ohio near 52, while the lowest is California at about 30 per 100,000 (roughly
+        one per 3,333), followed by New Jersey near 37 and New York near 40. Orbital's own summary is the
+        point a site model has to absorb: "per capita, the picture flips: thinly populated states with long
+        road networks have far more stations per resident than the coasts." Rural fuel penetration confirms
+        the density, historically at least 95 percent of the c-stores in Kansas, Iowa, Wyoming, North
+        Dakota and Nebraska also sell fuel, and at the far end Alaska carries the fewest total stores of any
+        state, 185.
+      </p>
+
+      <div class="capsule">
+        <p>
+          Because per-capita fuel demand varies roughly threefold and station density inversely mirrors
+          it, saturation is a trade-area question, never a national one. A high-gallon rural market can be
+          saturated per capita, and a low-gallon metro can be underserved in a specific corridor.
+        </p>
+      </div>
+
+      <p>
+        The feasibility read follows directly. Rural high-consumption states offer strong per-site gallons
+        but thin, slow-growing populations and high existing station density per capita, so a new site
+        competes for a fixed pool of trips. Dense coastal metros offer enormous traffic volumes but low
+        per-capita fuel demand, high real-estate costs, and transit substitution. The most defensible
+        fuel-volume markets are the fast-growing Sun Belt corridors that combine above-average driving,
+        car-first culture and population inflows, Texas, Florida, Georgia, the Carolinas and Tennessee. In
+        every case the saturation test should be run at the trade-area level, using EIA SEDS per-capita
+        gallons, FHWA vehicle-miles per capita, and Census County Business Patterns NAICS 447 establishment
+        counts divided by population, not national averages.
+      </p>
+
+      <h2>Where the money is made: inside sales and foodservice</h2>
+
+      <p>
+        If gallons are the wrong line to underwrite, foodservice is increasingly the right one. Foodservice
+        reached 28.5 percent of inside sales and 38.9 percent of inside gross profit in 2025, up from just
+        11.9 percent of inside sales in 2005, a two-decade shift in where a store's profit originates.
+        Within foodservice, prepared food is now 73.9 percent of sales, up from 66.4 percent in 2021,
+        evidence that the category's growth is in made-to-order meals rather than commodity coffee and
+        fountain drinks. Packaged beverages are the second-largest inside category at 18.7 percent of
+        sales, and foodservice and packaged beverages together delivered about 60.8 percent of inside
+        profit dollars in 2024. For a lender, the inside gross-profit mix is the single most informative
+        page of a convenience-store pro forma.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>The inside-store profit engine (NACS, 2025 unless noted).</caption>
+          <thead><tr><th scope="col">Metric</th><th scope="col">Share</th></tr></thead>
+          <tbody>
+            <tr><td>Foodservice, share of inside sales</td><td>28.5%</td></tr>
+            <tr><td>Foodservice, share of inside gross profit</td><td>38.9%</td></tr>
+            <tr><td>Prepared food, share of foodservice sales (66.4% in 2021)</td><td>73.9%</td></tr>
+            <tr><td>Packaged beverages, share of inside sales</td><td>18.7%</td></tr>
+            <tr><td>Foodservice + packaged beverages, share of inside profit (2024)</td><td>~60.8%</td></tr>
+            <tr><td>Foodservice, share of inside sales in 2005 (for contrast)</td><td>11.9%</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">NACS State of the Industry, 2025; 2024 and 2005 figures as noted.</p>
+      </div>
+
+      <h2>Traffic under pressure even as dollars grow</h2>
+
+      <p>
+        The dollar growth masks a softening in visits that a careful underwriter should not. The average
+        c-store recorded 45,160 transactions a month, about 1,484 a day, in 2025, down 2.7 percent year
+        over year; traffic is under pressure even as sales dollars rise. Direct store operating expenses
+        climbed 4.2 percent, the slowest increase since the pandemic, and the industry paid a record $21.3
+        billion in credit- and debit-card fees. The average store employs 19.9 people at a $15.04 average
+        hourly wage. The merchandise mix is quietly reshaping: cigarettes are the only top-ten category in
+        structural decline, while alternative snacks, jerky, seeds and nuts, grew 7.9 percent in 2025, a
+        shift partly attributed to rising use of GLP-1 medications, alongside gains in packaged beverages
+        and alternative nicotine.
+      </p>
+
+      <p>
+        The ownership structure explains why execution quality varies so widely from site to site.
+        Sixty-three percent of stores, 95,672 of them, are owned by companies operating ten or fewer units,
+        roughly 60 percent are single-store operators, and only 22 chains exceed 400 units; companies with
+        500 or more stores hold 22.2 percent of the total, or 33,810 stores. A fragmented field means a
+        new, professionally run, foodservice-forward site often competes against under-capitalized
+        independents, an opportunity, and where those independents are entrenched on price, a constraint.
+      </p>
+
+      <h2>The convergence with quick-service is now a two-way war</h2>
+
+      <p>
+        The competitive frame for a modern site is no longer other gas stations; it is the entire
+        <a href="/asset-classes/quick-service-restaurant/">quick-service restaurant</a> sector. Technomic
+        forecasts that c-store prepared-food-and-beverage spending will reach $27 billion, up 42 percent
+        from 2015, and c-store foodservice grew about 5 percent in 2024, a projected 5.7 percent in 2025,
+        against roughly 4.1 percent for QSRs, so the channel is taking share. A Technomic analysis in the
+        third quarter of 2025 found that 15 percent of c-store visits are "lost QSR occasions," visits that
+        a decade ago would have gone to a restaurant. Consumer perception has flipped with the numbers:
+        InTouch Insight's 2025 Convenience Store Trends Report found that 72 percent of consumers now regard
+        c-stores as a viable alternative to quick-service restaurants, up from 56 percent in 2024 and 45
+        percent in 2023. And dunnhumby's Retailer Preference Index, QSR Edition, ranked Buc-ee's the
+        number-one QSR in the country, with Kwik Trip also in the top five alongside In-N-Out, Raising
+        Cane's and Chick-fil-A.
+      </p>
+
+      <h2>Why the foodservice leaders win</h2>
+
+      <p>
+        The best-in-class operators demonstrate what a foodservice-forward format is worth. Casey's General
+        Stores is the fifth-largest pizza chain in the United States and reported $15.94 billion in revenue
+        in fiscal 2025, the year ended April 30, 2025, with net income of $546.5 million across 2,904
+        stores in 20 states, having built or acquired a record 270 stores during the year, per its SEC
+        annual report. Sheetz generates estimated foodservice average-unit volumes above $1 million per
+        store, with foodservice estimated at roughly 58 percent of revenue; Wawa derives more than 65
+        percent of its revenue from foodservice. QuikTrip, at about $19.6 billion in revenue, and Wawa, at
+        about $18.8 billion, rank among the largest private companies in the country. Their structural
+        advantage is repeatable: they convert existing fuel and convenience traffic into meal occasions,
+        spread fixed costs, rent, utilities and labor, across a whole store rather than a standalone
+        restaurant, offer format variety across dayparts, and let a customer bundle fuel, food and grocery
+        in a single stop.
+      </p>
+
+      <p>
+        That advantage is why the competitive set has to be read carefully. Fifty-seven percent of c-store
+        operators name QSRs as primary competitors, and an equal 57 percent name other c-stores, so
+        surrounding standalone QSR density is both a threat and a demand signal, it validates a
+        foodservice-viable trade area while raising the executional bar. Independents, two-thirds of the
+        field, increasingly plug in turnkey brands such as Krispy Krunchy Chicken and Hunt Brothers Pizza
+        to compete with the chains' proprietary programs, and the chains are buying their way in from the
+        other direction: RaceTrac's $556 million acquisition of Potbelly, with its 445 sites across 32
+        states, in 2025 is a c-store operator acquiring restaurant-grade food outright. The lending
+        implication is blunt. A foodservice-forward format is now the primary determinant of revenue
+        defensibility and the deepest competitive moat, and a fuel-only "cokes-and-smokes" site faces
+        declining fuel volume and rising food competition at the same time, a structurally weak
+        underwriting profile. The foodservice program itself, kitchen, commissary support, daypart coverage
+        and brand, deserves the scrutiny once reserved for the fuel contract.
+      </p>
+
+      <h2>Where development capital is concentrating</h2>
+
+      <p>
+        New development is following population into the Sun Belt. Texas leads the nation with 16,504
+        c-stores, up 88 in 2025 and more than 4,000 ahead of second-place California, and Dallas&ndash;Fort
+        Worth leads the country in retail construction, with roughly 7.2 million square feet under way in
+        the second half of 2025, per Colliers. Buc-ee's is expanding from its Texas base into Arizona,
+        Arkansas, Kansas, Louisiana, Nebraska, North Carolina, Ohio and Wisconsin between 2026 and 2028,
+        with <a href="/asset-classes/truck-stop-and-travel-center/">travel centers</a> of roughly 70,000 to
+        76,000 square feet and 100 to 120-plus fueling positions; Casey's is pushing into Texas, Alabama and
+        Florida; Sheetz has crossed 800 stores toward a 1,000-store goal, entering Michigan and Wawa's home
+        Philadelphia market; and Wawa plans more than 80 North Carolina stores over a decade. New builds
+        skew larger-format and foodservice-heavy, with kitchens driving per-store capital cost; Casey's
+        cites acquisition and upgrade costs upward of $1 million per store.
+      </p>
+
+      <p>
+        Consolidation is the other half of the capital story, though 2025 was a measured year. M&amp;A
+        activity fell 23 to 36 percent year over year by various Capstone Partners measures, strategic
+        buyers accounted for roughly 89 to 93 percent of deal volume, and most deals involved chains of 50
+        or fewer stores (74.1 percent of 2024 deals). The headline moves were still large: Sunoco's $9.1
+        billion acquisition of Parkland; Couche-Tard's $1.57 billion purchase of GetGo, with FTC-mandated
+        divestitures such as 35 stores to Majors Management; FEMSA's U.S. entry with OXXO; and Casey's
+        $1.15 billion CEFCO/Fikes deal. Couche-Tard withdrew its bid for 7-Eleven parent Seven &amp; i in
+        July 2025, after which Seven &amp; i reaffirmed a North American 7-Eleven IPO and plans for 1,300
+        new stores by 2030. The drivers are structural: an aging base of baby-boomer owners without
+        successors, rising labor and technology costs squeezing small operators, private-equity interest in
+        a fragmented field, and, new in 2025, 100 percent first-year bonus depreciation for qualified
+        convenience-store property placed in service after January 19, 2025, under the One Big Beautiful
+        Bill, a material tailwind for both acquisitions and new builds.
+      </p>
+
+      <h2>The EV question and the shape of long-term fuel demand</h2>
+
+      <p>
+        The one genuinely long-dated risk in a fuel-site underwriting is electrification, and here the
+        recent evidence argues for future-proofing rather than deterrence. National gasoline consumption is
+        already declining on a volume basis, 8.9 million barrels a day in 2025, down 1 percent year over
+        year and 4 percent below 2019, and the EIA forecasts continued declines through 2027, but driven
+        primarily by fuel-economy gains, not by EVs. EV-adoption forecasts, meanwhile, have been cut
+        sharply: Enverus revised its estimate of U.S. EV fleet penetration in 2035 to 8.1 percent, down
+        from 20 percent, and in 2030 to 4.5 percent, down from 12 percent, after the September 2025
+        expiration of the federal $7,500 new- and $4,000 used-EV tax credits pushed the
+        internal-combustion-displacement inflection out to 2028 through 2033. The IEA still projects EVs
+        displacing about 5 million barrels a day of global oil demand by 2030. The practical read: fuel
+        volume is a slow-declining, not collapsing, revenue line for the next decade.
+      </p>
+
+      <p>
+        Charging behavior reinforces the prepare-do-not-panic posture. Chargers sited near c-stores
+        averaged 182 charging sessions a month in the fourth quarter of 2025, lagging grocery and
+        restaurants, though c-store charging usage grew faster than those channels, up 8.7 percent over
+        fifteen months, and about 95 percent of fuel retailers already offer or plan to offer EV charging.
+        The bull case is dwell time: an EV driver lingers 15 to 45 minutes, a high-value window for
+        in-store conversion precisely where the margin now lives. The underwriting conclusion is to model
+        declining per-gallon volume, prioritize inside and foodservice revenue, and preserve optionality
+        for EV charging and multi-fuel formats, reserving electrical capacity and site layout for DC fast
+        charging even where it will not be built on day one.
+      </p>
+
+      <h2>Underwriting a modern site</h2>
+
+      <p>
+        Pulling the threads together yields a short, testable underwriting posture. Underwrite to inside
+        sales and foodservice, not gallons: treat fuel as a traffic-generation and thin-margin line, about
+        12 percent margin and near 30 cents a gallon, and require a credible foodservice program, kitchen,
+        daypart coverage, and a proprietary or turnkey brand, as the core of revenue defensibility,
+        benchmarking inside gross profit against the NACS split, foodservice at 38.9 percent of inside gross
+        profit and foodservice and packaged beverages together near 61 percent. Localize the saturation
+        test, because per-capita fuel demand varies roughly threefold and density inversely mirrors it, by
+        evaluating at the trade-area level rather than against national norms. Prioritize the Sun Belt
+        growth corridors, Texas, Florida, Georgia, the Carolinas and Tennessee, while stress-testing for the
+        competitive new supply that Buc-ee's, Casey's, Wawa and Sheetz are adding, which can cannibalize a
+        trade area. Model fuel volume declining on the order of 1 to 2 percent a year and require
+        inside-sales growth to more than offset it. And factor in the 2025 bonus-depreciation tailwind,
+        which materially improves after-tax returns on both new builds and acquisitions.
+      </p>
+
+      <p>
+        Three signals would change that posture. A reacceleration of EV penetration back toward the earlier
+        12-to-20-percent-by-2030 forecasts, for instance on reinstated federal incentives, would materially
+        worsen the long-term fuel-volume case. Sustained inside-transaction declines beyond the 2.7 percent
+        recorded in 2025 would signal demand erosion outrunning dollar growth. And a trade area where NAICS
+        447 density per capita materially exceeds state and national norms should trigger a saturation flag
+        on its own. Absent those, the shape of a defensible gas-station underwriting in 2026 is clear: the
+        pumps bring the cars, the store keeps the margin, and the study that gets it right reads the trade
+        area one corridor at a time.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Industry sales, margin, foodservice, transaction, and store-count figures are drawn from the NACS
+          State of the Industry data and the NACS/NIQ TDLinx 2026 count; the narrower industry-size figure
+          is from IBISWorld. Fuel-consumption and per-capita gasoline figures are from the U.S. Energy
+          Information Administration (State Energy Data System, Table F10, and the April 2026 Short-Term
+          Energy Outlook); vehicle-miles and vehicles-per-capita figures from FHWA Highway Statistics
+          (2023). Station-density-per-capita figures are Orbital estimates cross-referenced to NACS, EIA and
+          Census County Business Patterns (NAICS 447). Operator and foodservice figures reference Casey's
+          General Stores' SEC annual report (fiscal year ended April 30, 2025), Murphy USA disclosures, and
+          trade-press and Forbes estimates for Sheetz, Wawa and QuikTrip. Convergence and consumer-perception
+          data are from Technomic, InTouch Insight and dunnhumby; M&amp;A figures from Capstone Partners; EV
+          and long-term fuel-demand figures from Enverus, the IEA and the EIA.
+        </p>
+        <p>
+          A note on the numbers. NACS State of the Industry data is self-reported (submissions from
+          retailers representing more than 35,000 stores plus the CSX database) and anonymized, the industry
+          standard but not an audited census. Store and site counts differ by definition and source (NACS
+          counts 151,975 convenience stores and 122,620 fuel-selling; Orbital counts about 145,158 fueling
+          sites; Census NAICS 447 uses a different establishment definition), so the definition should be
+          reconciled before any per-capita benchmark is trusted. The illustrative state fuel-ratio table
+          combines 2023 SEDS total-consumption data with computed per-capita figures and EIA's earlier
+          (2018) per-capita statements; treat the per-capita gallons as directional and pull current-year
+          SEDS Table F10 with matching Census population for a lender-grade calculation. Orbital's
+          per-100,000-resident figures cover only the highest-count states and are rounded vendor estimates.
+          Private-company revenue and foodservice-share figures for Sheetz, Wawa, QuikTrip and Buc-ee's are
+          trade-press and Forbes estimates, not audited disclosures. EV and fuel-demand figures are
+          forecasts and carry policy risk, as the sharp 2025&ndash;2026 downward revisions to EV-adoption
+          estimates illustrate.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting a fuel-and-foodservice site?</h2>
+      <p>
+        Our <a href="/asset-classes/gas-station-and-c-store/">gas station and convenience-store feasibility
+        studies</a> underwrite to inside sales and foodservice, localize the saturation test to the trade
+        area, and stress-test fuel volume and competitive supply the way this piece describes.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>C-Store Franchises as a Franchise Category | Feasibility Study Company</title>
+<meta name="description" content="How to underwrite a convenience-store franchise as a category: the gross-profit-split model, the inside-versus-fuel margin engine, going-concern value, and the underground-storage-tank gate.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/c-store-franchise-category/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Underwriting the C-Store Franchise: A Going Concern, Not a Gas Station">
+<meta property="og:description" content="A convenience-store franchise is a going-concern retail business, not passive real estate. How lenders should read the gross-profit split, the foodservice margin engine, and the UST gate.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/c-store-franchise-category/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-11">
+<meta property="article:modified_time" content="2026-07-11">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Underwriting the C-Store Franchise">
+<meta name="twitter:description" content="A c-store franchise is a going concern, not a gas station: the gross-profit split, the foodservice margin engine, going-concern value, and the UST gate.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/c-store-franchise-category/#article",
+      "headline": "Underwriting the C-Store Franchise: Why It Is a Going Concern, Not a Gas Station",
+      "description": "How to underwrite a convenience-store franchise as a category: the gross-profit-split model, the inside-versus-fuel margin engine, going-concern value, and the underground-storage-tank gate.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/c-store-franchise-category/",
+      "about": [
+        { "@type": "Thing", "name": "Convenience-store franchise" },
+        { "@type": "Thing", "name": "Gas station and c-store feasibility" },
+        { "@type": "Thing", "name": "SBA 7(a) and 504 lending" },
+        { "@type": "Thing", "name": "Going-concern valuation" },
+        { "@type": "Thing", "name": "Underground storage tank environmental risk" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/c-store-franchise-category/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "C-Store Franchises", "item": "https://feasibility-study-company.com/research-notes/c-store-franchise-category/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/quick-service-restaurant/" role="menuitem">Quick-Service Restaurant</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/laundromat/" role="menuitem">Laundromat</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/the-practice/">About</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; Gas Station</p>
+      <h1>Underwriting the C-Store Franchise: A Going Concern, Not a Gas Station</h1>
+      <p class="article-deck">
+        A convenience-store franchise is a going-concern retail business, not passive real estate, and its
+        profit lives inside the store rather than at the pump. Underwrite it like a sales-royalty restaurant
+        and you will misjudge the franchisee's take-home, the margin mix, and the liability buried under the
+        forecourt.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research Notes</a></li>
+        <li aria-current="page">C-Store Franchises</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        A convenience-store franchise is one of the most misread assets that crosses a credit desk. It
+        arrives looking like real estate &mdash; a corner, a canopy, a row of dispensers &mdash; and it is
+        underwritten, too often, like a quick-service restaurant, with a royalty modeled as a flat
+        percentage of sales. Both readings are wrong. A c-store franchise is a going-concern retail
+        operating business whose value lives in cash flow, not in the dirt, and whose dominant franchise
+        model does not charge a sales royalty at all. Get those two facts wrong at the top of the file and
+        every number below them inherits the error.
+      </p>
+
+      <p>
+        This note treats the convenience-store franchise as a category, distinct from the
+        fuel-and-convenience real estate it usually sits on. The distinction matters because the profit, the
+        risk, and the value are not where the building is. They are inside the store, in a
+        merchandise-and-foodservice engine that has now set a 23rd consecutive annual sales record; in a
+        franchise structure that splits gross profit rather than skimming sales; and, where fuel is present,
+        in a tank field beneath the forecourt that can carry more liability than the business is worth. What
+        follows is how a lender should read each of those layers, and where feasibility forecasts in this
+        category most often fail review.
+      </p>
+
+      <h2>A category the size of a small economy</h2>
+
+      <p>
+        The US convenience-store universe totaled 151,975 stores as of December 31, 2025, a slight decline
+        of 280 units, or 0.2 percent, even as the number of stores selling fuel rose by 768 to 122,620
+        &mdash; 80.7 percent of all c-stores, and the highest fuel-selling count in eight years (NACS/NIQ
+        TDLinx Convenience Industry Store Count, January 2026). That works out to roughly one convenience
+        store for every 2,257 people. Total industry sales reached $817.5 billion in 2025, of which fuel
+        accounted for $476.3 billion, or 65.0 percent of sales dollars, and inside sales &mdash; merchandise
+        plus foodservice &mdash; accounted for $341.2 billion (NACS State of the Industry Report of 2025
+        Data, released April 15, 2026). The prior year's comparable totals, cited in Yesway's 2025 SEC
+        registration, were $837.4 billion overall, $501.9 billion in fuel, and $335.5 billion inside.
+      </p>
+
+      <p>
+        The structural fact a lender has to internalize is fragmentation. As of February 2025, 60 percent of
+        the 152,255 c-stores then counted were single-store operators, and 95,672 stores &mdash; 63 percent
+        of the total &mdash; belonged to companies running ten or fewer units; operators with 500-plus
+        stores held just 22.2 percent of the count (NACS press release via Capstone Partners, 2025; NACS/NIQ
+        TDLinx). The franchise is the mechanism that lets a single-store entrant operate under a national
+        brand and supply chain, which is precisely why c-store franchises appear in
+        <a href="/practice-areas/sba-7a-504/">SBA lending</a> far out of proportion to their share of the
+        store base.
+      </p>
+
+      <p>
+        Geography concentrates the growth. Texas leads the country with 16,504 stores and added the most in
+        2025, up 88, while New York contracted hardest at 143 fewer stores, followed by Massachusetts at 77
+        and New Jersey at 61 (NACS/NIQ TDLinx, January 2026). Regional brand strength is equally uneven
+        &mdash; Wawa across the Mid-Atlantic and Florida, Sheetz in the Mid-Atlantic, Casey's throughout the
+        Midwest, QuikTrip and RaceTrac across the South, and ampm/ARCO on the West Coast &mdash; and it
+        shapes both the competitive set and the exit.
+      </p>
+
+      <h2>The gross-profit split: why a c-store franchise is not a QSR</h2>
+
+      <p>
+        7-Eleven is the dominant franchisor in the category, operating, franchising, or licensing more than
+        13,000 stores across the US and Canada (CSP Daily News, 2026) and ranking first on the NACS Top 100
+        with 12,414 US stores &mdash; 8.2 percent of all US c-stores &mdash; as of the 2025 count (NACS
+        Magazine, March 2025). Its model is structurally unlike a
+        <a href="/asset-classes/quick-service-restaurant/">restaurant franchise</a>, and the difference is
+        the single most important thing to get right in the pro forma.
+      </p>
+
+      <p>
+        In the 7-Eleven model, the franchisor typically owns or leases the land and building, supplies the
+        store equipment, finances the opening inventory, and pays for the property lease, building
+        maintenance, and utilities; the franchisee supplies labor and day-to-day operation (7-Eleven Single
+        Unit page; Crestmont Capital, 2025). Because the franchisor carries the capital-heavy assets, it
+        does not charge a percentage-of-sales royalty. Instead it takes a continuing share of merchandise
+        gross profit &mdash; the &ldquo;7-Eleven Charge.&rdquo; Per the company's own SEC filings, that share
+        historically ran between 50 and 58 percent and was &ldquo;approximately 52 percent&rdquo; under the
+        standard agreement (7-Eleven Form S-3/A, FY2000; Form 10-K, FY2002), moving toward roughly a 50/50
+        split in most agreements after 2004 (Form 10-K, FY2003). On gasoline, the franchisee historically
+        received the greater of one cent per gallon or 25 percent of gasoline gross profit (7-Eleven SEC
+        filings, FY2000&ndash;FY2002).
+      </p>
+
+      <div class="capsule">
+        <p>
+          Model a gross-profit-split franchise as a sales-royalty QSR and every downstream number inherits
+          the error: the franchisee's take-home, the coverage ratio, and the loan sizing. The franchisee's
+          net is roughly its 50 percent share of merchandise gross profit, less controllable operating
+          costs &mdash; not sales, less a royalty.
+        </p>
+      </div>
+
+      <p>
+        The practical consequence is that a 7-Eleven operator's take-home is roughly its 50 percent share of
+        merchandise gross profit, less the controllable costs it does bear &mdash; labor, supplies, shrink,
+        and any charged-back utilities. An illustrative third-party example makes the scale concrete: a
+        Phoenix store doing $1.8 million in gross sales at a 32 percent margin generates $576,000 of gross
+        profit; the operator's half is $288,000, and after labor, utilities, and miscellaneous costs the
+        owner clears on the order of $168,000 (FundBizPro, 2025; single-source, illustrative). The same
+        source shows a $950,000-sales store yielding roughly $72,000 before the operator's own labor &mdash;
+        &ldquo;a job with capital at risk.&rdquo; The lesson for underwriting is to demand site-specific
+        gross-profit data rather than brand averages.
+      </p>
+
+      <p>
+        On fees and disclosure, treat the public numbers with care. 7-Eleven's own site puts the initial
+        franchise fee &mdash; location-dependent and tied to the store's gross profit &mdash; in a range
+        from $100,000 to $1,000,000 (7-Eleven Single Unit page, 2025). Third-party aggregators cite widely
+        conflicting total-investment ranges; a common figure is $141,650 to $1,370,850
+        (Entrepreneur/GlobalFranchiseHub, 2025), but these should be read as directional only, with the
+        current Franchise Disclosure Document's Items 5 and 7 governing. 7-Eleven publishes an Item 19
+        financial performance representation, but reliable average gross-profit or average-store-sales
+        figures are not reproduced in free public sources and could not be independently verified here; the
+        gross-profit-split percentage is the SEC-documented data point to rely on. A franchisee-advocacy
+        body, the National Coalition of Associations of 7-Eleven Franchisees, has argued the franchisor can
+        take back as much as 59 cents of every gross-profit dollar (NCASEF via BusinessWire, December 2020);
+        as an advocacy source it should be weighed against the SEC-documented 50-to-58 percent range.
+      </p>
+
+      <h2>The other models: ampm, Circle K, and the fuel dealer</h2>
+
+      <p>
+        Not every branded c-store follows the 7-Eleven structure, and the model determines how the
+        franchisee's economics &mdash; and the lender's collateral &mdash; actually work.
+      </p>
+
+      <p>
+        ampm, launched with ARCO in 1978 and now under BP, runs more than 900 US locations, concentrated on
+        the West Coast, on a conventional royalty. It charges roughly 4 to 6 percent of gross sales plus a 1
+        to 2 percent marketing contribution (Vetted Biz, 2025), an initial franchise fee reported at $40,000
+        to $70,000, and a total investment of roughly $1.85 million to $7.76 million (FranchiseHelp;
+        TopFranchise). Some directories cite an 11 to 14 percent royalty (SharpSheets, 2025), a divergence
+        that probably reflects different fee bundles and should be reconciled against the current FDD.
+        Because the model is petroleum-integrated and typically a ground-up build, it is materially more
+        capital-intensive up front than acquiring an existing 7-Eleven.
+      </p>
+
+      <p>
+        Circle K, whose parent Alimentation Couche-Tard is the largest company-operated c-store operator in
+        the US with more than 7,300 US stores (Couche-Tard corporate site, 2026), is overwhelmingly
+        company-operated. Franchised units are a modest minority &mdash; older Couche-Tard 40-F filings show
+        hundreds, not thousands &mdash; though the company has been adding US franchising capacity, including
+        a Briad Group agreement to roughly double its New York State presence (C-Store Dive, 2024). For
+        underwriting, a Circle K &ldquo;franchise&rdquo; is far less standardized than a 7-Eleven and must be
+        read agreement by agreement.
+      </p>
+
+      <p>
+        A large share of branded stores are neither of these: they are independent dealer sites operating
+        under fuel-supply agreements with the major-oil brands &mdash; Shell, ExxonMobil, Chevron, BP,
+        Valero &mdash; frequently intermediated by jobbers and distributors. These relationships fall under
+        the Petroleum Marketing Practices Act, and, critically for lenders, SOP 50 10 8 treats PMPA jobber
+        and fuel-supply agreements as &ldquo;franchises&rdquo; for SBA eligibility (Starfield &amp; Smith,
+        June 2025). Supply agreements commonly run multiyear terms &mdash; CrossAmerica's book carried a
+        weighted-average remaining term of about 4.9 years at year-end 2021 (CrossAmerica 10-K), and Susser
+        Holdings historically wrote three-year initial terms (Susser Holdings 10-Ks) &mdash; and branding
+        rebates may be clawed back on early rebranding, which constrains exit optionality.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Franchise models in the c-store category, and how each one is paid.</caption>
+          <thead><tr><th scope="col">Model</th><th scope="col">Continuing fee basis</th><th scope="col">Who supplies capital assets</th><th scope="col">Underwriting note</th></tr></thead>
+          <tbody>
+            <tr><td>7-Eleven (gross-profit split)</td><td>~50&ndash;58% of merchandise gross profit (&ldquo;~52%&rdquo; standard; ~50/50 post-2004)</td><td>Franchisor: land, building, equipment, inventory financing</td><td>Model net on gross profit, not sales; absentee ownership prohibited</td></tr>
+            <tr><td>ampm / BP-ARCO (sales royalty)</td><td>~4&ndash;6% of gross sales + 1&ndash;2% marketing</td><td>Franchisee; petroleum-integrated ground-up build</td><td>Capital-intensive; reconcile royalty bundle to the FDD</td></tr>
+            <tr><td>Circle K (company-operated / limited franchise)</td><td>Agreement-specific</td><td>Varies; largely company-operated</td><td>Nonstandard; read agreement by agreement</td></tr>
+            <tr><td>Fuel-branded dealer / jobber (PMPA)</td><td>Fuel-supply margin and branding rebates</td><td>Dealer owns or leases the site; brand supplies fuel</td><td>PMPA counts as a &ldquo;franchise&rdquo; for SBA; watch rebate clawback</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Sources: 7-Eleven SEC filings (FY2000&ndash;FY2003) and Single Unit page; Vetted Biz, FranchiseHelp, TopFranchise, SharpSheets (2025); Couche-Tard corporate site and 40-F filings; Starfield &amp; Smith (June 2025); CrossAmerica 10-K. Bases differ by model and are not comparable.</p>
+      </div>
+
+      <h2>Inside the box, foodservice is the engine</h2>
+
+      <p>
+        Strip fuel out of the picture and the convenience store reveals what it has quietly become: a food
+        business. Inside sales set a 23rd consecutive annual record in 2025 at $341.2 billion, up 1.7
+        percent, and within that total foodservice has moved from a sideline to the profit center.
+        Foodservice was 28.5 percent of in-store sales but 38.9 percent of inside gross-margin dollars in
+        2025 &mdash; up nearly seventeen points from 11.9 percent of in-store sales in 2005 (NACS SOI, April
+        2026). Prepared food is 73.9 percent of foodservice sales and carries an average gross margin of
+        56.6 percent (NACS SOI 2025 Data, cited in the Cumberland Farms/Arko Form F-1, 2026).
+      </p>
+
+      <p>
+        The rest of the merchandise set fills in the picture. Packaged beverages are the No. 2 category at
+        18.7 percent of in-store sales, historically at gross margins above 43 percent. Nicotine &mdash;
+        cigarettes plus other tobacco products &mdash; still drives about 27.9 percent of in-store
+        merchandise transactions (NACS, 2025) but is in structural decline, and the margin math is
+        unfavorable: cigarettes carry a roughly 13.5 percent gross margin against about 29 percent for other
+        tobacco products (MMCG citing NACS 2024). Beer runs near 11 percent of sales historically, and
+        alternative snacks grew 7.9 percent in 2025, a jump partly attributed to GLP-1-driven protein demand
+        (NACS, April 2026). Blended in-store gross margin, foodservice included, sits near 37 percent on
+        NACS-presentation-derived figures, well above the 30 to 32 percent merchandise-only margins reported
+        by public comparables such as ARKO, whose same-store merchandise margin was about 31.7 percent in
+        2023 (ARKO 10-K) &mdash; a reminder never to compare a blended margin to a merchandise-only one.
+      </p>
+
+      <div class="capsule">
+        <p>
+          The single-store franchisee rarely reproduces company-operated foodservice economics. Wawa draws
+          more than 65 percent of revenue from foodservice and Sheetz 58 percent (xMap, 2025), but those
+          margins rest on commissaries, labor models, and throughput a lone operator does not have.
+        </p>
+      </div>
+
+      <p>
+        The company-operated leaders set the benchmark and, in doing so, mark its limits. More than 65
+        percent of Wawa's revenue now comes from foodservice, and foodservice is 58 percent of Sheetz
+        revenue (xMap, 2025); Casey's &mdash; a top-five US pizza chain by store count &mdash; guides to a 41
+        to 42 percent inside margin for fiscal 2026 (CSP Daily News, 2025). But Wawa, Sheetz, QuikTrip,
+        Casey's, Kwik Trip, Maverik/Kum &amp; Go, and RaceTrac are company-operated, not franchised. Their
+        unit economics are not directly reproducible by a single-store franchisee lacking the same
+        commissary, supply chain, and brand, which is why a pro forma that imports Wawa-style foodservice
+        margins onto a lone franchise site should be discounted.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>The convenience store's profit is inside the box, not at the pump (2025).</caption>
+          <thead><tr><th scope="col">Segment</th><th scope="col">Share of sales dollars</th><th scope="col">Share of gross-profit dollars</th><th scope="col">Note</th></tr></thead>
+          <tbody>
+            <tr><td>Fuel</td><td>65.0%</td><td>38.8% (of total)</td><td>High volume, thin and volatile margin</td></tr>
+            <tr><td>Inside (merchandise + foodservice)</td><td>~35% ($341.2B)</td><td>61.2% (of total)</td><td>The profit center</td></tr>
+            <tr><td>&mdash; of which foodservice</td><td>28.5% of in-store sales</td><td>38.9% of inside GP dollars</td><td>Prepared food at 56.6% gross margin</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">NACS State of the Industry Report of 2025 Data (April 2026). Fuel and inside shares are of total industry gross profit; the foodservice share is of inside gross-margin dollars. Do not compare figures across bases.</p>
+      </div>
+
+      <h2>Fuel is the traffic, not the profit</h2>
+
+      <p>
+        Fuel's role in the model is to bring cars to the corner, not to make money on the gallon.
+        Convenience stores sell roughly 80 percent of the fuel bought in the US, and for a fuel-selling site
+        the forecourt's strategic value is conversion &mdash; turning a fill-up into a higher-margin trip
+        inside. But as a profit source, fuel is high-revenue, low-margin, and volatile: 65.0 percent of
+        sales dollars in 2025 but only 38.8 percent of gross-profit dollars (NACS SOI, April 2026). The
+        average US retail fuel margin was 35.7 cents per gallon in the OPIS Retail Fuel Watch week of
+        January 30, 2025 (NACS, February 2025), and Couche-Tard reported US fuel gross margin just over 47
+        cents per gallon (Paytronix, 2025) &mdash; but net profit after distribution, card fees, and
+        operating costs is only a few cents. Arko's leadership called fuel-margin volatility &ldquo;the
+        single greatest factor in the volatility of earnings of the business&rdquo; (C-Store Dive, 2025).
+      </p>
+
+      <p>
+        Two forces pull on fuel volume over the underwriting horizon. Fuel sales themselves fell 5.4 percent
+        in 2025, to $476.3 billion, as the average pump price dropped 5.9 percent to $3.11 per gallon even
+        though gallons edged up 0.5 percent (NACS SOI, April 2026). Longer term, improving fuel efficiency
+        and EV adoption point to flat-to-declining fuel transactions, which is why NACS urges operators to
+        grow inside sales and why a forward-looking feasibility model should haircut fuel volume rather than
+        extrapolate it. The EV-transition exposure is the through-line connecting the c-store franchise to
+        the underlying
+        <a href="/asset-classes/gas-station-and-c-store/">gas-station real estate</a>, and it argues for
+        flexible sites that can add charging.
+      </p>
+
+      <h2>Consolidation on top, a long tail underneath</h2>
+
+      <p>
+        The category is institutionalizing at the top even as it stays fragmented at the bottom. 7-Eleven's
+        parent built the largest operator in North America through acquisition: about 1,030 Sunoco stores
+        for roughly $3.3 billion in 2018 &mdash; a deal that also created a fifteen-year, roughly
+        two-billion-gallon-a-year Sunoco fuel-supply agreement &mdash; and about 3,800 Speedway stores for
+        roughly $21 billion in 2021 (Energy Transfer and CrossAmerica SEC filings; Supermarket News, 2021).
+      </p>
+
+      <p>
+        The most-watched deal of the cycle did not close. Alimentation Couche-Tard, the owner of Circle K,
+        pursued Seven &amp; i Holdings in a combination that would have created a roughly 20,000-store global
+        giant, raising its offer to &yen;2,600 per share &mdash; about $45.8 to $47 billion, up from an
+        initial $38.5 billion in August 2024 &mdash; before withdrawing on July 16, 2025, citing &ldquo;no
+        sincere or constructive engagement from 7&amp;i&rdquo; and &ldquo;a calculated campaign of
+        obfuscation and delay&rdquo; (Couche-Tard release; Reuters, CNBC, CNN, Forbes, July 16&ndash;17,
+        2025). Seven &amp; i shares fell about 9 percent on the news, and the company is pursuing a
+        standalone plan including a North American IPO and buybacks. Elsewhere in the cycle, Casey's acquired
+        about 200 CEFCO stores, FEMSA's OXXO entered via Delek's DK stores, and Sunoco agreed to buy Parkland
+        for $10.1 billion &mdash; 0.5 times EV/revenue and 8.4 times EV/EBITDA &mdash; in May 2025 (Capstone
+        Partners, 2025).
+      </p>
+
+      <p>
+        Underneath the megadeals, the deal flow is small and getting smaller. Convenience-store M&amp;A
+        averaged just over 10 times EV/EBITDA in 2025, down from nearly 12 times in 2024, and the median
+        acquired store count fell to eight &mdash; from thirteen in 2024 and fifteen in 2021 &mdash; across
+        27 deals in the year to September 18, 2025 (Capstone Partners via C-Store Dive, November 2025). With
+        roughly 60 percent of stores still single-unit operators, the roll-up runway is long.
+      </p>
+
+      <p>
+        Consolidation is running alongside a category shift. Tobacco, long a gross-profit mainstay, is
+        receding: 7-Eleven reported cigarette sales down 26 percent since 2019 &mdash; an 80-year low
+        &mdash; when CEO Joe DePinto announced the closure of 444 underperforming North American stores,
+        about 3 percent of the chain's 13,000-plus locations, on the October 11, 2024 earnings call (NPR,
+        CSP, CBS, October 2024). Closure exposure of that kind is itself an underwriting variable: 7-Eleven
+        franchise agreements run about fifteen years, and franchisor-driven store rationalization affects
+        the durability of any single site.
+      </p>
+
+      <h2>Two assets, two valuations</h2>
+
+      <p>
+        A convenience-store deal can be two entirely different assets wearing the same address, and
+        conflating them is a common valuation error. The operating business is a going concern; the real
+        estate under a net lease is not.
+      </p>
+
+      <p>
+        As a going concern, a c-store business trades on cash flow. Platform and chain M&amp;A has averaged
+        just over 10 times EV/EBITDA in 2025 (Capstone Partners via C-Store Dive, November 2025), with
+        private-equity roll-ups such as GPM/ARKO and MAPCO paying roughly 5.0 to 7.0 times EBITDA
+        (yourexitvalue.com, 2025). Single-store and small-operator deals price far lower &mdash; commonly
+        about 2.0 to 3.5 times seller's discretionary earnings or 3.5 to 5.5 times EBITDA; Peak Business
+        Valuation cites about 3.67 to 4.38 times EBITDA and 2.21 to 3.30 times SDE, and BizBuySell's 2025
+        average earnings multiple was 2.82 times, up 22 percent year over year. A store-only rule of thumb
+        runs about 2.5 to 4.0 times store EBITDA, with a full station at roughly 4.0 to 7.0 times
+        (DealStream, 2025).
+      </p>
+
+      <p>
+        The net-leased asset is a different instrument, valued on the tenant's or guarantor's credit and the
+        lease term rather than on the operating business. Single-tenant net-lease c-store and gas assets
+        with fuel have averaged about a 5.29 percent cap rate, versus 6.40 percent without fuel (B+E). The
+        Boulder Group's Q1 2026 Net Lease Tenant Profiles put Wawa at 4.90 to 5.20 percent, 7-Eleven at 5.00
+        to 5.40 percent, and Circle K at 5.35 to 5.65 percent on fifteen-year terms (Boulder Group via
+        Barchart, March 2026). A lender underwriting the real estate should hold the deal to those brand
+        bands and confirm whether the lease is guaranteed by the corporate parent or only by the franchisee.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Going-concern multiples and net-lease cap rates are different bases and are not interchangeable.</caption>
+          <thead><tr><th scope="col">Basis</th><th scope="col">Typical range</th><th scope="col">Source</th></tr></thead>
+          <tbody>
+            <tr><td>Platform / chain M&amp;A (going concern)</td><td>~10x EV/EBITDA (2025); ~12x (2024)</td><td>Capstone Partners via C-Store Dive, Nov 2025</td></tr>
+            <tr><td>PE roll-up (going concern)</td><td>~5.0&ndash;7.0x EBITDA</td><td>yourexitvalue.com, 2025</td></tr>
+            <tr><td>Single-store (going concern)</td><td>~2.0&ndash;3.5x SDE / ~3.5&ndash;5.5x EBITDA; BizBuySell avg 2.82x</td><td>Peak Business Valuation; BizBuySell; DealStream, 2025</td></tr>
+            <tr><td>Net-lease with fuel (real estate)</td><td>~5.29% cap</td><td>B+E</td></tr>
+            <tr><td>Net-lease without fuel (real estate)</td><td>~6.40% cap</td><td>B+E</td></tr>
+            <tr><td>Net-lease by brand, 15-yr (real estate)</td><td>Wawa 4.90&ndash;5.20%; 7-Eleven 5.00&ndash;5.40%; Circle K 5.35&ndash;5.65%</td><td>Boulder Group via Barchart, Mar 2026</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Do not apply a net-lease cap rate to an operating business or an EBITDA multiple to a net-leased fee. For a change-of-ownership loan, the going-concern appraisal must allocate value among real property, FF&amp;E and fuel infrastructure, and franchise/business intangible.</p>
+      </div>
+
+      <h2>Where the feasibility forecast fails</h2>
+
+      <p>
+        Most c-store feasibility forecasts that fail lender or SBA review fail in a handful of predictable
+        places, and nearly all of them trace back to the two errors at the top of this note: treating the
+        store like passive real estate, and treating the franchise like a sales-royalty restaurant.
+      </p>
+
+      <p>
+        The most common defects are these. Ramp assumptions that credit a new or acquired store with mature
+        inside sales and mature fuel gallons on day one, rather than a documented ramp curve built from
+        site-specific comps. Franchise-economics mis-modeling that computes a royalty as a percentage of
+        sales for a gross-profit-split brand &mdash; the error that most reliably overstates take-home.
+        Margin-mix errors that lean on fuel revenue, 65 percent of sales but under 39 percent of gross
+        profit, instead of inside gross profit, or that import company-operated foodservice margins without
+        the commissary and labor model behind them. And a cluster of site- and market-level risks: intense
+        site dependence, where a weak corner does not recover; local saturation as chains, dollar stores,
+        and QSRs erode inside sales; tobacco decline and age-restricted-product regulation that can move unit
+        economics by 10 to 20 margin points in some states (MMCG, 2025); and franchisor risk spanning term,
+        renewal, transfer rules, and closure exposure.
+      </p>
+
+      <p>
+        The P&amp;L those forecasts feed is thin, and getting thinner. Direct store operating expenses
+        &mdash; wages, card fees, utilities, maintenance, and shrink &mdash; reached just under $166 billion
+        in 2025, growing 4.2 percent, the slowest pace since the pandemic, while card fees hit a record
+        $21.3 billion (NACS SOI 2025 Data). Wages and benefits per store climbed from roughly $80,000 a
+        month in 2021 to about $104,000 in 2025, and total operating expenses are up 23.3 percent since 2021
+        (NACS Magazine, June 2026). The industry supports 2.75 million jobs at 19.9 employees per store, at
+        an average hourly wage of $15.04 (NACS SOI, April 2026). Most striking, NACS reported that profit
+        per in-store basket turned negative in 2025 &mdash; each in-store transaction lost roughly seven
+        cents &mdash; with fuel margin carrying store-level profitability (NACS Magazine, June 2026). Precise
+        pretax profit per store and DSOE as a share of gross profit sit behind the paid SOI report and could
+        not be independently confirmed here.
+      </p>
+
+      <p>
+        For sizing, the working-capital cycle deserves its own line. Fuel is a large, price-volatile draw on
+        working capital, and card fees are now a record cost, so debt should be sized to a stressed
+        debt-service coverage ratio rather than a stabilized one. A DSCR below roughly 1.25 times on
+        stressed cash flow, or a model that relies on year-one mature volumes, is a resize-or-decline
+        signal.
+      </p>
+
+      <h2>The tank underneath: the environmental gate</h2>
+
+      <p>
+        A fuel-and-convenience facility is real estate plus fuel infrastructure plus fixtures. A
+        representative new BP-branded build &mdash; eight fueling positions and a 3,024-square-foot store on
+        5.4 acres &mdash; was modeled at about $6.07 million, with hard construction, canopy, and
+        underground tanks the cost-heavy line items; a small non-fuel fit-out is far cheaper, on the order
+        of $50 to $100 per square foot (MMCG Invest, 2025; Toast). But the same tank field that drives the
+        build cost is the most underestimated risk on the file &mdash; and, where a c-store sells fuel, the
+        environmental review is a gate that can override otherwise-strong credit, because contamination and
+        remediation liability can exceed the going-concern value of the business.
+      </p>
+
+      <div class="capsule">
+        <p>
+          Where fuel is present, Phase I and very often Phase II environmental assessments are effectively
+          mandatory, and unresolved contamination can override otherwise-strong credit. Remediation
+          liability can exceed the going-concern value of the business itself.
+        </p>
+      </div>
+
+      <p>
+        The scale of the exposure is national. The EPA regulates roughly 534,000 to 542,000 active petroleum
+        underground storage tanks, and leaking tanks threaten groundwater that supplies drinking water for
+        about half of Americans; 583,313 UST releases had been confirmed as of March 2026 (EPA). Diligence
+        is neither optional nor cheap: a Phase I Environmental Site Assessment under ASTM E1527-21 runs about
+        $2,500 to $6,000 per parcel, and a Phase II with soil and groundwater sampling can push total
+        due-diligence costs above $50,000 (Innowave Studio; CT Acquisitions; Mill Creek Environmental,
+        2025&ndash;2026). Leaking-underground-storage-tank trust funds and seller indemnities are common
+        mitigants, but the underwriting posture should be that any fuel site operating more than five years,
+        or showing any recognized environmental condition, warrants a Phase II. The feasibility or appraisal
+        author does not perform the assessment; a qualified environmental professional does.
+      </p>
+
+      <h2>The program map</h2>
+
+      <p>
+        Because the c-store franchise is a going concern with real estate and equipment attached, it draws
+        on several financing programs at once, each with its own reading of the asset.
+      </p>
+
+      <p>
+        SBA 7(a) and 504 are the most common route, and 7-Eleven in particular is a frequent SBA use.
+        Eligibility turns on an owner-operated going concern &mdash; absentee ownership is disfavored by the
+        SBA and prohibited by 7-Eleven &mdash; and 504 real estate carries owner-occupancy thresholds of 51
+        percent for existing buildings and 60 percent for new construction. Under SOP 50 10 8, effective
+        June 1, 2025, the SBA reinstated the Franchise Directory: the brand must be listed for streamlined
+        eligibility, and franchisors listed as of May 2023 had until July 31, 2025 to execute the new SBA
+        Franchisor Certification or be removed (Starfield &amp; Smith; Taft; Baker McKenzie; Congress.gov,
+        2025). PMPA fuel-supply and jobber agreements count as franchises for this purpose. The same SOP
+        tightened underwriting broadly &mdash; collateral now required at $50,000-plus, down from $500,000; a
+        10 percent equity injection for startups and changes of ownership; a minimum credit score of 165;
+        and tax-transcript verification (Congress.gov; Phillips Lytle, 2025). A change-of-ownership deal
+        requires a business valuation and a going-concern appraisal that allocates value across real estate,
+        equipment, fuel infrastructure, and franchise goodwill.
+      </p>
+
+      <p>
+        For rural sites, <a href="/practice-areas/usda-rural-development/">USDA Business &amp; Industry</a>
+        lending reaches communities of 50,000 or fewer people and can fund real estate, equipment, working
+        capital, acquisition, and job-creating refinancing up to $25 million with National Office approval,
+        though with far fewer active lenders than 7(a) (Celtic Bank; Capital Bank; USDA RD, 2025).
+        Conventional and specialty petroleum lenders finance fuel-supply-linked deals and larger platforms,
+        often with fuel working-capital lines, and single-tenant net-lease and CMBS capital finances the
+        real estate on tenant credit and lease term. Across all of them, the SBA environmental requirement
+        is the binding constraint on fuel sites: a Phase I is standard and a Phase II is very often required
+        given the tanks.
+      </p>
+
+      <p>
+        On the appraisal itself, a c-store franchise is valued as going-concern or business-enterprise value
+        &mdash; real estate plus FF&amp;E and fuel infrastructure plus business and franchise intangible,
+        developed through the income approach on cash flow or an EBITDA multiple, with the tank field
+        standing as both a real-property component and a liability. A single-tenant net-leased c-store is the
+        different asset described above and must not be valued as if it were the operating business.
+      </p>
+
+      <h2>Underwriting the category, in stages</h2>
+
+      <p>
+        Pulling the threads together, a disciplined read of a c-store franchise moves through a fixed
+        sequence of gates. Each has a threshold that changes the call, and the sequence matters: a brand
+        that is not on the SBA Franchise Directory, or a fuel site with unresolved contamination, ends the
+        analysis before the cash-flow model is even worth building.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>A staged read of a convenience-store franchise, with the threshold that changes the call at each gate.</caption>
+          <thead><tr><th scope="col">Stage</th><th scope="col">What it tests</th><th scope="col">Change-the-call threshold</th></tr></thead>
+          <tbody>
+            <tr><td>1. Franchise structure &amp; directory</td><td>Brand on the reinstated SBA Franchise Directory; PMPA agreement captured; model classified</td><td>Brand not listed (or certification lapsed after July 31, 2025) &rarr; SBA-ineligible absent full agreement review</td></tr>
+            <tr><td>2. Franchise economics</td><td>7-Eleven net modeled as ~50% of merchandise gross profit less controllable costs, not a sales royalty</td><td>Pro forma computes a percentage-of-sales royalty for a gross-profit-split brand &rarr; reject and rebuild</td></tr>
+            <tr><td>3. Margin mix &amp; foodservice</td><td>Fuel gross profit separated from inside; fuel margin and volume stressed</td><td>&gt;55&ndash;60% of store-level gross profit from fuel &rarr; require a &plusmn;10 cents/gallon sensitivity; company-operated foodservice margins without a commissary &rarr; discount</td></tr>
+            <tr><td>4. Ramp &amp; DSCR</td><td>Documented ramp with site comps; debt sized to a stressed DSCR</td><td>DSCR below ~1.25x on stressed cash flow, or reliance on year-1 mature volumes &rarr; resize or decline</td></tr>
+            <tr><td>5. UST / environmental (key)</td><td>Current Phase I (ASTM E1527-21); Phase II for any fuel site &gt;5 years or with a REC</td><td>Unresolved contamination, aged single-wall tanks, or remediation beyond indemnity/LUST coverage &rarr; do not close until cured</td></tr>
+            <tr><td>6. Valuation &amp; exit</td><td>Going-concern appraisal allocating real property, FF&amp;E/fuel infrastructure, and franchise intangible; net-lease priced to brand cap bands</td><td>Single-store priced above ~4.0&ndash;5.5x EBITDA (or ~3.0&ndash;3.5x SDE) &rarr; scrutinize</td></tr>
+            <tr><td>7. Operator &amp; working capital</td><td>Retail/multi-store experience, 24/7 staffing, fuel working-capital line, tobacco sensitivity</td><td>First-time absentee operator on a foodservice-forward or high-fuel-volume site &rarr; require experienced management or decline</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Thresholds are underwriting conventions offered for illustration, not program rules; SBA figures follow SOP 50 10 8 (effective June 1, 2025). Environmental scope must be set by a qualified professional.</p>
+      </div>
+
+      <p>
+        None of these gates is exotic, and that is the point. A convenience-store franchise rewards the
+        lender who reads it for what it is &mdash; a thin-margin, going-concern retail business whose profit
+        has migrated inside the store, whose franchise economics turn on a gross-profit split rather than a
+        royalty, and whose fuel island carries a liability that can dwarf the enterprise. Underwrite those
+        three facts honestly and the category is bankable. Miss them, and the file that looked like real
+        estate becomes a workout.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Store counts, sales, and margin figures are drawn from the NACS State of the Industry Report of
+          2025 Data (released April 15, 2026), the NACS/NIQ TDLinx Convenience Industry Store Count (January
+          2026), NACS Magazine (March 2025 and June 2026), and NACS press materials via Capstone Partners
+          (2025). Franchise economics for 7-Eleven are from the company's SEC filings (Form S-3/A FY2000;
+          Form 10-K FY2002 and FY2003; filings FY2000&ndash;FY2003) and its Single Unit page, with context
+          from Crestmont Capital (2025); the 59-cent figure is from the National Coalition of Associations of
+          7-Eleven Franchisees via BusinessWire (December 2020) and is an advocacy source. Fee and investment
+          ranges are from Entrepreneur/GlobalFranchiseHub (2025); the illustrative single-store examples are
+          from FundBizPro (2025). ampm, Circle K, and dealer-model details are from Vetted Biz, FranchiseHelp,
+          TopFranchise, and SharpSheets (2025), the Couche-Tard corporate site and 40-F filings, C-Store Dive
+          (2024), Starfield &amp; Smith (June 2025), and the CrossAmerica and Susser Holdings 10-Ks.
+          Foodservice and margin data are from NACS (2025 data) and the Cumberland Farms/Arko Form F-1
+          (2026), with company-operated benchmarks from xMap (2025) and CSP Daily News (2025) and
+          merchandise-margin context from the ARKO 10-K. Fuel-margin figures are from OPIS Retail Fuel Watch
+          via NACS (February 2025), Paytronix (2025), and C-Store Dive (2025). M&amp;A benchmarks are from
+          Capstone Partners via C-Store Dive (November 2025), Energy Transfer and CrossAmerica SEC filings,
+          Supermarket News (2021), and the Couche-Tard release as reported by Reuters, CNBC, CNN, and Forbes
+          (July 2025); tobacco and store-closure figures are from NPR, CSP, and CBS (October 2024). Valuation
+          ranges are from Peak Business Valuation, BizBuySell, yourexitvalue.com, and DealStream (2025), with
+          net-lease cap rates from B+E and the Boulder Group via Barchart (March 2026). Environmental figures
+          are from the EPA and from Innowave Studio, CT Acquisitions, and Mill Creek Environmental
+          (2025&ndash;2026), with Phase I work under ASTM E1527-21. Program authority is SBA SOP 50 10 8
+          (effective June 1, 2025), with commentary from Taft, Baker McKenzie, Phillips Lytle, and
+          Congress.gov (2025), and USDA B&amp;I context from Celtic Bank, Capital Bank, and USDA RD (2025).
+          Development-cost and category context draw on MMCG Invest (2025), Toast, the Yesway SEC
+          registration (2025), and IBISWorld and CSP's Top 202. Figures are labeled by basis &mdash; by brand
+          and model, gross-profit-split versus sales-royalty, with-fuel versus without-fuel, franchised
+          versus company-operated, going-concern versus net-lease &mdash; and figures on different bases are
+          not comparable. Worked examples and thresholds are illustrative; the current FDD and the subject's
+          own data govern any live engagement. This is research content, not investment, legal, or tax
+          advice, and contains no offer of financing.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting a c-store or fuel deal?</h2>
+      <p>
+        Our convenience-store and gas-station feasibility and going-concern studies model the franchise
+        economics, the inside-versus-fuel margin mix, and the environmental gate the way this piece
+        describes &mdash; built to SBA, USDA, and conventional review standards.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>

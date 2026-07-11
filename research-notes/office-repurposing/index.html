@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- REBRAND SWAP POINTS: <title>, meta, og, .wordmark, schema "name"/"author"/"publisher", footer -->
+<title>Office Building Repurposing: A Lender-Grade Field Guide | Feasibility Study Company</title>
+<meta name="description" content="A lender-grade field guide to office repurposing: underwriting adaptive reuse, office-to-housing conversions, and the repositioning of obsolete assets, from geometry and basis through incentives to highest-and-best-use.">
+<link rel="canonical" href="https://feasibility-study-company.com/research-notes/office-repurposing/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#111114">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="application/rss+xml" title="Feasibility Study Company, Research Notes" href="/feed.xml">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Feasibility Study Company">
+<meta property="og:title" content="Office Repurposing: A Field Guide to the Conversions That Actually Pencil">
+<meta property="og:description" content="Vacancy is at record highs and the conversion pipeline has nearly quadrupled since 2022, yet only about 25% of buildings are suitable and roughly 5% proceed. How a lender underwrites office repurposing, one asset at a time.">
+<meta property="og:url" content="https://feasibility-study-company.com/research-notes/office-repurposing/">
+<meta property="og:image" content="https://feasibility-study-company.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-07-11">
+<meta property="article:modified_time" content="2026-07-11">
+<meta property="article:section" content="Research">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Office Repurposing: A Lender-Grade Field Guide">
+<meta name="twitter:description" content="Only about 25% of offices are suitable for conversion and roughly 5% proceed. How a lender separates the deals that pencil from the ones that never should.">
+<meta name="twitter:image" content="https://feasibility-study-company.com/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   White-dominant, single grotesque family, huge type, crimson accent
+   used sparingly, hairline rules, borderless cards, arrow links,
+   black footer.
+   ===================================================================== */
+
+:root {
+  --ink: #111114;
+  --grey: #5B5F66;
+  --grey-light: #F5F5F4;
+  --line: #E3E2DF;
+  --line-dark: #111114;
+  --red: #C8102E;
+  --red-deep: #A50D25;
+  --white: #FFFFFF;
+
+  --sans: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --frame: 1240px;
+  --prose: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.frame { max-width: var(--frame); margin: 0 auto; padding: 0 32px; }
+
+a { color: var(--ink); text-decoration: none; }
+a:hover { color: var(--red); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--white); padding: 10px 16px; z-index: 200; }
+.skip-link:focus { left: 0; }
+
+/* ---------- buttons: JLL-style, sentence case, squared ---------- */
+.btn {
+  display: inline-block;
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 14px 28px;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid var(--red);
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: var(--red-deep); border-color: var(--red-deep); color: var(--white); }
+.btn-outline { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.btn-outline-dark { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-outline-dark:hover { background: var(--ink); color: var(--white); }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
+.wordmark a { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.wordmark a:hover { color: var(--ink); }
+.mark {
+  width: 40px; height: 40px; flex: none;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 800; font-size: 21px;
+  display: flex; align-items: center; justify-content: center;
+}
+.wordmark-text { line-height: 1.15; }
+.wordmark-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.01em; display: block; }
+.wordmark-tag { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--grey); display: block; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a {
+  font-size: 15px; font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { color: var(--ink); border-bottom-color: var(--red); }
+.site-nav .btn { padding: 11px 22px; border-bottom: 1px solid var(--red); }
+.site-nav .btn:hover { color: var(--white); border-bottom-color: var(--red-deep); }
+
+/* ---------- hero: white editorial, huge type ---------- */
+.hero {
+  background: var(--white);
+  color: var(--ink);
+  padding: 108px 0 84px;
+}
+.hero-eyebrow {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(42px, 6.6vw, 78px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  max-width: 13.5em;
+}
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 96px; height: 6px;
+  background: var(--red);
+  margin-top: 34px;
+}
+.hero-sub {
+  font-size: 19px; line-height: 1.6;
+  color: var(--grey);
+  max-width: 44em;
+  margin-top: 30px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+
+/* ---------- stat band: editorial rows ---------- */
+.stat-band { background: var(--white); padding: 10px 0 64px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
+.stat-num {
+  font-weight: 800;
+  font-size: clamp(40px, 4.4vw, 60px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.stat-num span { color: var(--red); }
+.stat-label {
+  font-size: 13.5px; font-weight: 500;
+  letter-spacing: 0.02em; text-transform: none;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+/* ---------- anchor bar ---------- */
+.anchor-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.anchor-row { display: flex; flex-wrap: wrap; gap: 36px; padding: 16px 0; }
+.anchor-row a {
+  font-size: 14px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--ink);
+}
+.anchor-row a:hover { color: var(--red); }
+
+/* ---------- sections ---------- */
+.section { padding: 96px 0; }
+.section-alt { background: var(--grey-light); }
+.eyebrow {
+  font-size: 13.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--red);
+  display: block;
+  margin-bottom: 16px;
+}
+.section h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  max-width: 18em;
+}
+.section .lede { max-width: var(--prose); color: var(--grey); margin-top: 18px; font-size: 17.5px; }
+.section-head { margin-bottom: 52px; }
+.section-head .btn, .section-head .btn-outline-dark { margin-top: 28px; }
+
+/* ---------- cards: borderless, hairline top rule, arrow links ---------- */
+.card-grid { display: grid; gap: 44px 36px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line-dark);
+  display: flex; flex-direction: column;
+  transition: none;
+}
+.card:hover { box-shadow: none; transform: none; }
+.card:hover .card-body h3 a, .card:hover .card-body h3 { color: var(--red); }
+.card-top {
+  background: transparent;
+  color: var(--ink);
+  padding: 18px 0 0;
+  border-bottom: 0;
+}
+.card-cat {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--grey);
+}
+.card-cite { font-size: 13px; color: var(--grey); margin-top: 4px; }
+.card-body { padding: 14px 0 0; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 {
+  font-weight: 700; font-size: 22px; line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 10px;
+  transition: color .12s ease;
+}
+.card-body h3 a { color: inherit; }
+.card-body p { font-size: 15px; color: var(--grey); flex: 1; }
+.card-link {
+  font-size: 14.5px; font-weight: 600;
+  letter-spacing: 0; text-transform: none;
+  color: var(--red);
+  margin-top: 18px;
+}
+.card-meta {
+  font-size: 12.5px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  margin-top: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* ---------- split practice block ---------- */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 72px; align-items: start; }
+.split .prose p { margin-bottom: 1.1em; color: var(--ink); }
+.split .prose a { color: var(--red); }
+.split .prose a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: 38px 38px 32px;
+  border-top: 4px solid var(--red);
+  border-bottom: 0;
+}
+.panel h3 {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: #B9BDC4;
+  margin-bottom: 20px;
+}
+.panel ul { list-style: none; }
+.panel li {
+  font-weight: 600; font-size: 16px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  display: flex; justify-content: space-between; gap: 14px;
+}
+.panel li:last-child { border-bottom: 0; }
+.panel li span { font-weight: 400; font-size: 13px; color: #B9BDC4; }
+
+/* ---------- link directory ---------- */
+.link-cols { columns: 4; column-gap: 44px; list-style: none; }
+.link-cols li { break-inside: avoid; margin-bottom: 14px; }
+.link-cols a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.link-cols a:hover { color: var(--red); text-decoration: underline; text-underline-offset: 3px; }
+.state-row { display: flex; flex-wrap: wrap; gap: 14px 34px; list-style: none; }
+.state-row a {
+  font-size: 15px; font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+.state-row a:hover { color: var(--red); }
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 880px; }
+.faq-list details { border-bottom: 1px solid var(--line); }
+.faq-list details:first-child { border-top: 1px solid var(--line-dark); }
+.faq-list summary {
+  cursor: pointer; list-style: none;
+  display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  padding: 24px 4px;
+  font-weight: 700; font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; font-size: 26px; font-weight: 400; color: var(--red); flex: none; }
+.faq-list details[open] summary::after { content: "\2212"; }
+.faq-list details p { padding: 0 4px 26px; color: var(--grey); max-width: 46em; }
+.faq-list details a { color: var(--red); }
+
+/* ---------- CTA band: black, red button ---------- */
+.cta-band {
+  background: var(--ink);
+  color: var(--white);
+  padding: 92px 0;
+  text-align: left;
+}
+.cta-band h2 {
+  font-weight: 800;
+  font-size: clamp(30px, 4.4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  max-width: 18em;
+  margin: 0 0 18px;
+}
+.cta-band p { color: #B9BDC4; max-width: 44em; margin: 0 0 36px; font-size: 17px; }
+
+/* ---------- footer: black ---------- */
+.site-footer { background: #0B0B0D; color: #A7ABB2; padding: 66px 0 46px; font-size: 14px; }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+.footer-brand .mark { margin-bottom: 18px; }
+.footer-brand p { font-size: 13.5px; max-width: 26em; }
+.footer-col h4 {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a { color: #A7ABB2; }
+.footer-col a:hover { color: var(--white); }
+.footer-legal {
+  border-top: 1px solid rgba(255,255,255,.14);
+  padding-top: 22px;
+  font-size: 12.5px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+}
+
+/* ---------- prose ---------- */
+.prose { max-width: var(--prose); }
+.prose p { margin-bottom: 1.15em; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .split { grid-template-columns: 1fr; gap: 44px; }
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+  .site-nav { gap: 22px; }
+  .link-cols { columns: 3; }
+}
+@media (max-width: 680px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+  .hero { padding: 72px 0 60px; }
+  .section { padding: 68px 0; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav a:not(.btn) { display: none; }
+  .header-row { height: 68px; }
+  .link-cols { columns: 2; }
+}
+
+/* ---------- engagement ledger (recent completed analyses) ---------- */
+.ledger { list-style: none; border-top: 1px solid var(--line-dark); }
+.ledger li { border-bottom: 1px solid var(--line); }
+.ledger a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 28px;
+  padding: 22px 4px;
+  align-items: baseline;
+}
+.ledger a:hover { color: var(--ink); }
+.ledger a:hover .ledger-asset { color: var(--red); }
+.ledger-asset { font-weight: 700; font-size: 18px; letter-spacing: -0.01em; color: var(--ink); transition: color .12s ease; }
+.ledger-loc { font-size: 14px; color: var(--grey); font-weight: 500; }
+.ledger-meta {
+  grid-column: 2; grid-row: 1 / span 2;
+  text-align: right;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.ledger-verdict { color: #2E7D32; }
+@media (max-width: 620px) {
+  .ledger a { grid-template-columns: 1fr; }
+  .ledger-meta { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin-top: 4px; }
+}
+
+/* ---------- independence charter ---------- */
+.charter {
+  border-left: 4px solid var(--red);
+  background: var(--grey-light);
+  padding: 30px 36px;
+  margin-top: 48px;
+  max-width: 880px;
+}
+.charter-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  display: block; margin-bottom: 10px;
+}
+.charter p {
+  font-size: 17px; font-weight: 500; line-height: 1.55;
+  color: var(--ink);
+}
+
+/* ---------- methodology & standards evidence block ---------- */
+.method-chain { counter-reset: step; margin-top: 8px; }
+.method-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.method-step:first-child { border-top: 1px solid var(--line-dark); }
+.method-step::before {
+  counter-increment: step;
+  content: counter(step, decimal-leading-zero);
+  font-weight: 800; font-size: 20px;
+  color: var(--red);
+  letter-spacing: -0.02em;
+}
+.method-step h3 { font-weight: 700; font-size: 19px; letter-spacing: -0.01em; margin-bottom: 8px; color: var(--ink); }
+.method-step p { font-size: 15px; color: var(--grey); }
+.method-step cite {
+  display: block; margin-top: 8px;
+  font-style: normal; font-size: 13px; font-weight: 500;
+  color: var(--ink);
+  border-left: 2px solid var(--red); padding-left: 12px;
+}
+
+/* ---------- data tables (snippet-ready) ---------- */
+.data-table-wrap { margin: 44px 0 0; overflow-x: auto; }
+.data-table-title { font-weight: 700; font-size: 16px; margin-bottom: 14px; letter-spacing: -0.01em; }
+table.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 14.5px;
+  background: var(--white);
+}
+table.data caption {
+  text-align: left; font-size: 13px; color: var(--grey);
+  padding-bottom: 10px;
+}
+table.data th, table.data td {
+  text-align: left; padding: 13px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.data thead th {
+  background: var(--ink); color: var(--white);
+  font-weight: 600; font-size: 12.5px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  border-bottom: 0;
+}
+table.data tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.data td:first-child { font-weight: 600; color: var(--ink); }
+.table-source {
+  font-size: 12px; color: var(--grey); margin-top: 10px;
+  font-style: italic;
+}
+
+/* ---------- FAQ grouping ---------- */
+.faq-group-label {
+  font-size: 12.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  margin: 40px 0 4px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-dark);
+}
+.faq-group-label:first-of-type { margin-top: 0; }
+
+/* ---------- case study cards (feed-ready) ---------- */
+.case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.case {
+  border: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  background: var(--white);
+}
+.case-head {
+  background: var(--ink); color: var(--white);
+  padding: 20px 22px 18px;
+  border-bottom: 3px solid var(--red);
+}
+.case-prog { font-size: 11.5px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B9BDC4; }
+.case-value { font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin-top: 6px; }
+.case-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+.case-asset { font-weight: 700; font-size: 17px; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 6px; }
+.case-loc { font-size: 14px; color: var(--grey); }
+.case-desc { font-size: 14px; color: var(--grey); margin-top: 12px; flex: 1; }
+.case-foot {
+  margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.case-status { color: var(--red); }
+/* placeholder shimmer state for empty feed slots */
+.case.is-placeholder .case-head { background: #E9E8E5; border-bottom-color: var(--line); }
+.case.is-placeholder .case-prog { color: var(--grey); }
+.case.is-placeholder .case-value { color: #B4B2AD; }
+@media (max-width: 900px) { .case-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .case-grid { grid-template-columns: 1fr; } }
+
+/* ---------- markets mega-panel ---------- */
+.has-mega { position: relative; }
+.mega-trigger {
+  font-size: 15px; font-weight: 500;
+  color: var(--ink);
+  background: none; border: 0; cursor: pointer;
+  padding: 0 0 2px; margin: 0;
+  border-bottom: 2px solid transparent;
+  font-family: inherit;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.mega-trigger:hover, .has-mega:hover .mega-trigger,
+.mega-trigger[aria-expanded="true"] { border-bottom-color: var(--red); color: var(--ink); }
+.mega-trigger::after {
+  content: ""; width: 7px; height: 7px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .15s ease;
+}
+.mega-trigger[aria-expanded="true"]::after { transform: rotate(-135deg) translateY(-1px); }
+
+.mega-panel {
+  position: absolute; top: calc(100% + 18px); right: 0;
+  width: 640px; max-width: calc(100vw - 48px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 44px rgba(17,17,20,.14);
+  padding: 32px 36px 30px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+  z-index: 120;
+}
+.has-mega:hover .mega-panel,
+.mega-panel:focus-within,
+.mega-panel.is-open { opacity: 1; visibility: visible; transform: translateY(0); }
+
+.mega-col h5 {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--red);
+  padding-bottom: 12px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-dark);
+}
+.mega-list { list-style: none; columns: 2; column-gap: 24px; }
+.mega-col.metros .mega-list { columns: 1; }
+.mega-list li { break-inside: avoid; }
+.mega-list a {
+  display: block; padding: 7px 0;
+  font-size: 14.5px; font-weight: 500; color: var(--ink);
+}
+.mega-list a:hover { color: var(--red); }
+.mega-foot {
+  grid-column: 1 / -1;
+  margin-top: 14px; padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.mega-foot a { font-size: 14px; font-weight: 600; color: var(--red); }
+.mega-foot span { font-size: 13px; color: var(--grey); }
+
+@media (max-width: 900px) {
+  /* on small screens the panel becomes a plain link (JS closes it); hide mega, show simple link */
+  .has-mega { display: none; }
+}
+
+/* mobile-only Markets link (desktop uses the mega-panel) */
+.mobile-markets { display: none; }
+@media (max-width: 900px) { .mobile-markets { display: inline; } }
+
+/* =====================================================================
+   STATE PAGE COMPONENTS (reused across all state pages)
+   ===================================================================== */
+
+/* breadcrumb */
+.breadcrumb { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--grey); }
+.breadcrumb li::after { content: "/"; margin-left: 8px; color: var(--grey); opacity: .5; }
+.breadcrumb li:last-child::after { content: ""; }
+.breadcrumb a { color: var(--grey); }
+.breadcrumb a:hover { color: var(--red); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* footnote refs + sources list */
+sup.fn { font-size: 11px; line-height: 0; }
+sup.fn a { color: var(--red); font-weight: 600; padding: 0 1px; }
+ol.sources { max-width: 860px; font-size: 13px; color: var(--grey); padding-left: 26px; }
+ol.sources li { margin-bottom: 9px; line-height: 1.5; scroll-margin-top: 90px; padding-left: 4px; }
+ol.sources li:target { background: #FBEAEC; }
+ol.sources a { color: var(--red); word-break: break-word; }
+
+/* supply-pressure pills */
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap; }
+.pill-over  { background: #FBEAEC; color: #A50D25; }
+.pill-soft  { background: #ECEBE7; color: #565B62; }
+.pill-bal   { background: #F4EEDC; color: #7E5E15; }
+.pill-tight { background: #E7F0E9; color: #2E6B34; }
+
+/* monitor matrix */
+.monitor-wrap { margin: 34px 0 0; overflow-x: auto; }
+table.monitor { min-width: 760px; width: 100%; border-collapse: collapse; font-size: 14px; }
+table.monitor thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; padding: 12px 14px; text-align: left; }
+table.monitor td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.monitor tbody tr:last-child td { border-bottom: 1px solid var(--line-dark); }
+table.monitor td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.cell-note { display: block; font-size: 12px; color: var(--grey); margin-top: 4px; }
+
+/* funding routing decision list */
+ul.routing { list-style: none; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ul.routing li { display: grid; grid-template-columns: 1fr 1.1fr; gap: 6px 30px; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+ul.routing .r-if { font-weight: 700; color: var(--ink); font-size: 15px; }
+ul.routing .r-then { color: var(--grey); font-size: 14.5px; }
+@media (max-width: 620px) { ul.routing li { grid-template-columns: 1fr; } }
+
+/* metro fingerprint grid */
+.metro-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line-dark); margin-top: 8px; }
+.metro { padding: 26px 0; border-bottom: 1px solid var(--line); }
+.metro:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 32px; }
+.metro:nth-child(even) { padding-left: 32px; }
+.metro-tag { font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.metro h3 { font-size: 19px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 8px; }
+.metro h3 a { color: var(--ink); }
+.metro h3 a:hover { color: var(--red); }
+.metro p { font-size: 14.5px; color: var(--grey); }
+@media (max-width: 680px) {
+  .metro-grid { grid-template-columns: 1fr; }
+  .metro:nth-child(odd) { border-right: 0; padding-right: 0; }
+  .metro:nth-child(even) { padding-left: 0; }
+}
+
+/* numbered failure list */
+ol.failures { list-style: none; counter-reset: fail; border-top: 1px solid var(--line-dark); margin-top: 8px; }
+ol.failures li { counter-increment: fail; display: grid; grid-template-columns: 44px 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+ol.failures li::before { content: counter(fail, decimal-leading-zero); font-weight: 800; font-size: 18px; color: var(--red); letter-spacing: -.02em; }
+ol.failures h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 6px; color: var(--ink); }
+ol.failures p { font-size: 14.5px; color: var(--grey); }
+
+/* framework pillar: layer links on the method chain */
+.method-step h3 a { color: var(--ink); }
+.method-step h3 a:hover { color: var(--red); }
+.method-more { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 600; letter-spacing: .02em; color: var(--red); }
+.method-more:hover { color: var(--ink); }
+
+/* ---------- answer capsule (snippet-first) ---------- */
+.capsule { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; margin: 0 0 10px; max-width: 840px; }
+.capsule p { font-size: 18px; font-weight: 500; line-height: 1.55; color: var(--ink); }
+
+/* ---------- worked example / formula box ---------- */
+.workbox { border: 1px solid var(--line); background: var(--grey-light); padding: 26px 30px; margin: 28px 0 0; max-width: 840px; }
+.workbox h4 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+.workbox dl { display: grid; grid-template-columns: 1fr auto; gap: 9px 24px; margin: 0; }
+.workbox dt { font-size: 14.5px; color: var(--grey); }
+.workbox dd { font-size: 14.5px; font-weight: 600; color: var(--ink); text-align: right; margin: 0; }
+.workbox .formula { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-dark); font-size: 15px; font-weight: 600; color: var(--ink); }
+.workbox .formula em { font-style: normal; color: var(--red); }
+.workbox .wb-note { margin-top: 12px; font-size: 13px; color: var(--grey); font-style: italic; }
+
+/* ---------- glossary (defined terms) ---------- */
+dl.glossary { border-top: 1px solid var(--line-dark); max-width: 860px; margin: 8px 0 0; }
+dl.glossary div { padding: 18px 0; border-bottom: 1px solid var(--line); }
+dl.glossary dt { font-weight: 700; font-size: 16px; color: var(--ink); margin-bottom: 5px; letter-spacing: -.01em; }
+dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margin: 0; }
+
+/* reviewed/updated line */
+.reviewed { font-size: 13px; color: var(--grey); margin-top: 18px; }
+.reviewed strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- contact band ---------- */
+.contact-band { background: #fff; border-top: 1px solid var(--line-dark); padding: 72px 0; }
+.contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: start; }
+.contact-intro h2 { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.12; margin: 14px 0 16px; color: var(--ink); }
+.contact-intro p { font-size: 15px; line-height: 1.6; color: var(--grey); max-width: 44ch; }
+.contact-alt { margin-top: 18px; font-size: 14px; }
+.contact-alt a { color: var(--red); font-weight: 600; }
+.contact-nda { margin-top: 8px; font-size: 14px; }
+.contact-nda a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line-dark); }
+.contact-nda a:hover { color: var(--red); }
+.contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; color: var(--ink); margin-bottom: 16px; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; border: 1px solid var(--line-dark); border-radius: 0; box-sizing: border-box; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: -1px; border-color: var(--red); }
+.contact-form textarea { resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.cf-status.ok { color: #0a7d3f; }
+.cf-status.err { color: var(--red); }
+@media (max-width: 820px){ .contact-grid { grid-template-columns: 1fr; gap: 36px; } .cf-row { grid-template-columns: 1fr; } }
+
+/* ---------- about page: do / do-not columns ---------- */
+.do-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line-dark); margin-top: 8px; }
+.do-cols > div { padding: 30px 32px; }
+.do-cols > div:first-child { border-right: 1px solid var(--line-dark); }
+.do-cols h3 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px; }
+.do-cols h3.do-yes { color: #0a7d3f; }
+.do-cols h3.do-no { color: var(--red); }
+.do-cols ul { list-style: none; margin: 0; padding: 0; }
+.do-cols li { font-size: 15px; line-height: 1.5; color: var(--ink); padding: 10px 0 10px 26px; position: relative; border-top: 1px solid var(--line); }
+.do-cols li:first-child { border-top: 0; }
+.do-cols li::before { position: absolute; left: 0; top: 10px; font-weight: 700; }
+.do-cols .do-yes-list li::before { content: "+"; color: #0a7d3f; }
+.do-cols .do-no-list li::before { content: "\00d7"; color: var(--red); }
+@media (max-width: 820px){ .do-cols { grid-template-columns: 1fr; } .do-cols > div:first-child { border-right: 0; border-bottom: 1px solid var(--line-dark); } }
+
+/* ---------- about page: standards list ---------- */
+ol.standards-list { list-style: none; counter-reset: st; margin: 8px 0 0; padding: 0; max-width: 860px; }
+ol.standards-list li { counter-increment: st; position: relative; padding: 20px 0 20px 52px; border-bottom: 1px solid var(--line); }
+ol.standards-list li::before { content: counter(st, decimal-leading-zero); position: absolute; left: 0; top: 20px; font-size: 13px; font-weight: 700; color: var(--red); font-variant-numeric: tabular-nums; }
+ol.standards-list h3 { font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 4px; }
+ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); margin: 0; }
+
+/* ---------- Q&A answer-capsule set (featured-snippet / AI-Overview targets) ---------- */
+.qa-set { display: grid; gap: 0; border: 1px solid var(--line-dark); margin-bottom: 8px; }
+.qa { padding: 24px 28px; border-top: 1px solid var(--line); }
+.qa:first-child { border-top: 0; }
+.qa h3 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); margin-bottom: 8px; }
+.qa p { font-size: 15px; line-height: 1.6; color: var(--grey); margin: 0; max-width: 78ch; }
+
+/* ---------- long-form research article ---------- */
+.article-hero { padding: 88px 0 44px; }
+.article-hero .hero-eyebrow { margin-bottom: 22px; }
+.article-hero h1 { font-weight: 800; font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -.03em; max-width: 20ch; }
+.article-hero h1::after { content: ""; display: block; width: 84px; height: 5px; background: var(--red); margin-top: 28px; }
+.article-deck { font-size: 20px; line-height: 1.55; color: var(--grey); max-width: 42em; margin-top: 26px; font-weight: 500; }
+.article-meta { margin-top: 26px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--grey); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.article-meta span { position: relative; }
+.article-meta span + span::before { content: "\00b7"; position: absolute; left: -11px; color: var(--line-dark); }
+
+.article-body { padding: 20px 0 40px; }
+.article-body .frame { max-width: 760px; }
+.article-body h2 { font-weight: 800; font-size: clamp(23px, 2.6vw, 30px); line-height: 1.16; letter-spacing: -.02em; color: var(--ink); margin: 54px 0 18px; scroll-margin-top: 96px; }
+.article-body h2:first-of-type { margin-top: 8px; }
+.article-body p { font-size: 17.5px; line-height: 1.72; color: var(--ink); margin-bottom: 1.25em; }
+.article-body .article-lead { font-size: 20px; line-height: 1.62; font-weight: 500; color: var(--ink); margin-bottom: 1.3em; }
+.article-body .capsule { margin: 30px 0; }
+.article-body .capsule p { font-size: 18px; font-weight: 500; color: var(--ink); margin: 0; }
+.article-body .data-table-wrap { margin: 34px 0 8px; }
+.article-body .table-source { font-size: 12px; color: var(--grey); margin-top: 10px; font-style: italic; }
+.article-note { border-top: 1px solid var(--line-dark); margin-top: 40px; padding-top: 22px; }
+.article-note h3 { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+.article-note p { font-size: 13.5px; line-height: 1.6; color: var(--grey); margin: 0; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://feasibility-study-company.com/#org",
+      "name": "Feasibility Study Company",
+      "url": "https://feasibility-study-company.com/",
+      "logo": "https://feasibility-study-company.com/og.png"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://feasibility-study-company.com/research-notes/office-repurposing/#article",
+      "headline": "Office Repurposing: A Field Guide to the Conversions That Actually Pencil",
+      "description": "A lender-grade field guide to office repurposing: underwriting adaptive reuse, office-to-housing conversions, and the repositioning of obsolete assets, from geometry and basis through incentives to highest-and-best-use.",
+      "articleSection": "Research",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "publisher": { "@id": "https://feasibility-study-company.com/#org" },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
+      "image": "https://feasibility-study-company.com/og.png",
+      "mainEntityOfPage": "https://feasibility-study-company.com/research-notes/office-repurposing/",
+      "about": [
+        { "@type": "Thing", "name": "Office-to-residential conversion" },
+        { "@type": "Thing", "name": "Commercial real estate adaptive reuse" },
+        { "@type": "Thing", "name": "Office repositioning and obsolescence" },
+        { "@type": "Thing", "name": "Highest and best use analysis" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://feasibility-study-company.com/research-notes/office-repurposing/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://feasibility-study-company.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Research Notes", "item": "https://feasibility-study-company.com/research-notes/" },
+        { "@type": "ListItem", "position": 3, "name": "Office Repurposing", "item": "https://feasibility-study-company.com/research-notes/office-repurposing/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="frame header-row">
+    <div class="wordmark">
+      <a href="/">
+        <span class="mark" aria-hidden="true">F</span>
+        <span class="wordmark-text">
+          <span class="wordmark-name">Feasibility Study Company</span>
+          <span class="wordmark-tag">Independent Feasibility Analysis</span>
+        </span>
+      </a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/practice-areas/">Practice Areas</a>
+      <a href="/asset-classes/" class="mobile-markets">Asset Classes</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-assets" aria-haspopup="true">Asset Classes</button>
+        <div class="mega-panel" id="mega-assets" role="menu" aria-label="Asset Classes" style="left:0;right:auto;width:460px;">
+          <div class="mega-col">
+            <h5>Published Studies</h5>
+            <ul class="mega-list" style="columns:2;">
+              <li><a href="/asset-classes/multifamily/" role="menuitem">Multifamily</a></li>
+              <li><a href="/asset-classes/assisted-living-and-memory-care/" role="menuitem">Assisted Living &amp; Memory Care</a></li>
+              <li><a href="/asset-classes/hotel/" role="menuitem">Hotel &amp; Hospitality</a></li>
+              <li><a href="/asset-classes/retail/" role="menuitem">Retail</a></li>
+              <li><a href="/asset-classes/restaurant/" role="menuitem">Restaurant &amp; Foodservice</a></li>
+              <li><a href="/asset-classes/quick-service-restaurant/" role="menuitem">Quick-Service Restaurant</a></li>
+              <li><a href="/asset-classes/gas-station-and-c-store/" role="menuitem">Gas Station &amp; C-Store</a></li>
+              <li><a href="/asset-classes/express-car-wash/" role="menuitem">Car Wash</a></li>
+              <li><a href="/asset-classes/truck-stop-and-travel-center/" role="menuitem">Truck Stop &amp; Travel Center</a></li>
+              <li><a href="/asset-classes/self-storage/" role="menuitem">Self-Storage</a></li>
+              <li><a href="/asset-classes/rv-and-boat-storage/" role="menuitem">RV &amp; Boat Storage</a></li>
+              <li><a href="/asset-classes/rv-park-and-campground/" role="menuitem">RV Park &amp; Campground</a></li>
+              <li><a href="/asset-classes/glamping/" role="menuitem">Glamping</a></li>
+              <li><a href="/asset-classes/auto-service-and-collision/" role="menuitem">Auto Service &amp; Collision</a></li>
+              <li><a href="/asset-classes/coffee-shop/" role="menuitem">Coffee Shop &amp; Cafe</a></li>
+              <li><a href="/asset-classes/medical-office-and-asc/" role="menuitem">Medical Office &amp; ASC</a></li>
+              <li><a href="/asset-classes/childcare-and-daycare/" role="menuitem">Childcare &amp; Daycare</a></li>
+              <li><a href="/asset-classes/fitness-and-recreation/" role="menuitem">Fitness &amp; Recreation</a></li>
+              <li><a href="/asset-classes/funeral-home/" role="menuitem">Funeral Home</a></li>
+              <li><a href="/asset-classes/laundromat/" role="menuitem">Laundromat</a></li>
+              <li><a href="/asset-classes/marina/" role="menuitem">Marina &amp; Boat Harbor</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/asset-classes/">View all asset classes &rarr;</a>
+            <span>Each asset class analyzed to its own demand mechanics.</span>
+          </div>
+        </div>
+      </div>
+      <a href="/analytical-framework/">Framework</a>
+      <a href="/research-notes/" aria-current="page">Research</a>
+      <a href="/states/" class="mobile-markets">Markets</a>
+      <div class="has-mega">
+        <button class="mega-trigger" aria-expanded="false" aria-controls="mega-markets" aria-haspopup="true">Markets</button>
+        <div class="mega-panel" id="mega-markets" role="menu" aria-label="Markets">
+          <div class="mega-col states">
+            <h5>By State</h5>
+            <ul class="mega-list">
+              <li><a href="/states/california/" role="menuitem">California</a></li>
+              <li><a href="/states/texas/" role="menuitem">Texas</a></li>
+              <li><a href="/states/florida/" role="menuitem">Florida</a></li>
+              <li><a href="/states/new-york/" role="menuitem">New York</a></li>
+              <li><a href="/states/north-carolina/" role="menuitem">North Carolina</a></li>
+              <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
+              <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
+              <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
+              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
+              <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
+              <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
+              <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
+            </ul>
+          </div>
+          <div class="mega-col metros">
+            <h5>Major Metros</h5>
+            <ul class="mega-list">
+              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
+              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
+              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
+              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
+              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
+              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
+              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+            </ul>
+          </div>
+          <div class="mega-foot">
+            <a href="/states/">View all markets &rarr;</a>
+            <span>Feasibility studies prepared nationwide.</span>
+          </div>
+        </div>
+      </div>
+      <a class="btn" href="#contact">Inquiries</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ARTICLE HERO ============ -->
+  <section class="hero article-hero">
+    <div class="frame">
+      <p class="hero-eyebrow">Research Note &middot; Office</p>
+      <h1>Office Repurposing: A Field Guide to the Conversions That Actually Pencil</h1>
+      <p class="article-deck">
+        Vacancy sits at record highs and the office-to-apartment pipeline has nearly quadrupled since 2022,
+        yet only about a quarter of buildings are physically suitable and roughly one in twenty proceeds.
+        This is how a lender separates the conversions that clear from the ones that never should.
+      </p>
+      <div class="article-meta">
+        <span>Feasibility Study Company</span>
+        <span>July 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BREADCRUMB ============ -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="frame">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/research-notes/">Research</a>
+      <a href="/the-practice/">About</a></li>
+        <li aria-current="page">Office Repurposing</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARTICLE BODY ============ -->
+  <article class="article-body">
+    <div class="frame">
+
+      <p class="article-lead">
+        The headline is impossible to miss. Office vacancy is at or near the highest level ever recorded,
+        more than a billion square feet of stock is sliding toward obsolescence, and a wall of maturing
+        debt is about to force much of it onto the market. From a distance it reads as one obvious trade:
+        buy distressed office cheaply, convert it to housing, and solve two problems at once. Up close, the
+        trade almost never looks like the headline. When Gensler screened more than 1,300 buildings across
+        130 North American cities, only about 25 percent were suitable candidates for residential
+        conversion, and only around 5 percent actually move forward.
+      </p>
+
+      <p>
+        The vacancy number tells a lender that a problem exists. It says nothing about whether a specific
+        building should be converted, repositioned, or demolished. That judgment is a feasibility question,
+        and it is answered one asset at a time. This note walks the decision the way an independent analyst
+        underwrites it for a credit committee: the market condition that creates the opportunity, the
+        geometry and basis tests that most buildings fail, the incentives that close a marginal gap, the
+        alternative uses when housing does not pencil, and the highest-and-best-use discipline that ties it
+        together.
+      </p>
+
+      <h2>A distress cycle that is structural, not cyclical</h2>
+
+      <p>
+        Start with the condition of the asset class, because it is both the reason the opportunity exists
+        and the reason most of it is a trap. National office vacancy pushed to record highs through 2025.
+        Moody's Analytics logged the highest national vacancy on record in the second quarter of 2025; CRE
+        Daily, citing Moody's, put the mid-2025 figure at 20.6 percent. CBRE's first-quarter 2026 report
+        has the overall rate ticking down ten basis points to 18.6 percent, with prime vacancy falling
+        eighty basis points to 12.7 percent. Cushman &amp; Wakefield's first-quarter 2026 MarketBeat shows
+        national vacancy essentially flat over the year, up just five basis points since the first quarter
+        of 2025, with Class A vacancy down thirty basis points. The figures differ by source and method,
+        and a lender should hold the spread rather than fixate on a single number; what they agree on is
+        direction and altitude &mdash; vacancy near a record, and no longer rising much.
+      </p>
+
+      <p>
+        Beneath the headline is a bifurcation that matters more than the average. A flight to quality has
+        split the market: trophy and Class A space is tightening while Class B and C bleeds. Kastle's A+
+        buildings reached 78.8 percent weekly occupancy in the week of December 8, 2025, against 56.3
+        percent across all buildings &mdash; a post-pandemic record &mdash; and on the peak Tuesday, A+
+        occupancy hit 95.5 percent. Roughly 60 percent of office inventory is Class B by Gensler's count,
+        and the bottom ten percent or so of buildings are, in Cushman &amp; Wakefield's words, highly
+        challenged and likely obsolete. That mid-2025 Cushman outlook projected a vacancy peak of 21.6
+        percent in the second half of the year. The distress, in other words, is not evenly distributed; it
+        is concentrated in exactly the buildings a conversion play would target.
+      </p>
+
+      <p>
+        The demand side explains why this is structural rather than a passing dislocation. Kastle's
+        Back-to-Work Barometer averaged 56.3 percent weekly in that December 2025 week, a post-pandemic
+        high, with a 66.0 percent Tuesday peak and Monday and Friday running about half the mid-week
+        number &mdash; the durable barbell of hybrid work. Gallup finds 53 percent of remote-capable
+        employees working hybrid, 27 percent fully remote, and 20 percent fully on-site. Moody's estimates
+        that office workers now need about 14 percent less space than before the pandemic. Less space per
+        worker, permanently, means a slice of the stock is not coming back to office use at any price.
+      </p>
+
+      <p>
+        That is why the supply overhang is best read as obsolescence rather than vacancy. Cushman &amp;
+        Wakefield's "Obsolescence Equals Opportunity" study (Corbett, Thorpe, and Smith, February 2023)
+        estimated 1.1 billion square feet of vacant office by 2030, of which roughly 330 million square
+        feet is excess vacancy, and projected that more than a quarter of the country's 5.56 billion square
+        feet of stock &mdash; about 1.4 billion square feet &mdash; will be considered obsolete and in need
+        of reimagining. For the first time since CBRE began tracking in 1988, 2025 was the year inventory
+        removals, demolitions and conversions, outpaced new completions. The gateway extremes show how far
+        it can run: San Francisco ended 2025 at 32.8 percent office vacancy, down from a 36.9 percent peak
+        in the third quarter of 2024; Los Angeles at 25.1 percent; Washington, DC around 20.4 percent for
+        the District, with CBRE's broader measure above 22 percent, dragged further by federal downsizing
+        that shed 850,000 square feet in the capital through the first half of the year. Leasing is
+        stabilizing at the top &mdash; four-quarter rolling net absorption topped 5.2 million square feet in
+        the first quarter of 2026, the best post-pandemic reading, even as the quarter itself printed
+        negative at minus 4.0 million square feet, and downtown prime vacancy of 14.5 percent has converged
+        with suburban prime of 13.6 percent as of the third quarter of 2025 &mdash; and national sublease
+        inventory eased 13.6 percent year over year to 101 million square feet in the first quarter of 2026.
+      </p>
+
+      <h2>The maturity wall is doing part of the underwriting</h2>
+
+      <p>
+        None of this would reach a conversion desk without the second force: debt coming due against
+        collateral worth far less than the loan. Office CMBS delinquency set an all-time record in January
+        2026, rising 103 basis points to 12.34 percent &mdash; the highest since Trepp began tracking in
+        2000, past the prior 11.76 percent peak of October 2025 &mdash; before easing 114 basis points to
+        11.20 percent in February 2026. The special-servicing rate stood at 10.91 percent in January. The
+        maturities behind those numbers are large and poorly covered: hard CMBS maturities for 2026 total
+        $76.6 billion, or $146.2 billion including extension-eligible floating-rate paper, and 36 percent
+        sit on loans with a debt yield of 8 percent or below. Morningstar DBRS reported in January 2026
+        that more than half of the roughly $100 billion in securitized commercial mortgages coming due in
+        2026 are unlikely to pay off at maturity; CMBS payoff rates have fallen from above 80 percent in
+        2023 to about 75 percent in 2024 and 2025, with close to $25 billion already past maturity without
+        resolution. Yardi's Doug Ressler counts more than $213 billion of office loans coming due by the
+        end of 2026.
+      </p>
+
+      <p>
+        The debt is under water because values have reset violently. Green Street's Commercial Property
+        Price Index had office down 37 percent from its spring 2022 peak as of late 2024. MSCI's RCA index
+        showed central-business-district office values down a cumulative 40 percent or so from the
+        first-quarter 2022 peak, with liquidity-adjusted losses of 40 to 46 percent for CBD assets &mdash;
+        the average CBD building that sold for $408 per square foot in early 2022 was realistically worth
+        $221 to $245 &mdash; and cited a 52 percent decline from peak for older, subprime assets. By Yardi
+        Matrix's count, 46 percent of offices sold between January and July 2025 traded at a discount,
+        against 20 percent in 2021. This is the mechanism that makes conversion possible: distress forces
+        product to market, and the reset basis is the raw material every conversion pro forma needs.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>The office basis reset, by source: how far values have fallen from the Q1 2022 peak.</caption>
+          <thead><tr><th scope="col">Source / measure</th><th scope="col">Decline from peak</th><th scope="col">Note</th></tr></thead>
+          <tbody>
+            <tr><td>Green Street CPPI</td><td>~37%</td><td>Office, as of late 2024</td></tr>
+            <tr><td>MSCI RCA CPPI (CBD)</td><td>~40% (40&ndash;46% liquidity-adjusted)</td><td>Average CBD from $408 to $221&ndash;$245/SF</td></tr>
+            <tr><td>MSCI (older / subprime CBD)</td><td>~52%</td><td>Deepest declines</td></tr>
+            <tr><td>Yardi Matrix (share trading at a discount)</td><td>46% of sales, Jan&ndash;Jul 2025</td><td>Up from 20% in 2021</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Sources: Green Street, MSCI Real Capital Analytics, Yardi Matrix. Figures vary by index construction and asset selection.</p>
+      </div>
+
+      <h2>Feasibility is a geometry problem first</h2>
+
+      <p>
+        With a distressed building in hand, the first question is not what it could become but whether its
+        bones will allow it to become anything at all. Physical suitability is decided by a short list of
+        unforgiving geometry: floor-plate depth, the distance from window to core, floor-to-floor height,
+        and whether the windows can be made to open. A residential unit needs light and air within a
+        reasonable distance of an exterior wall; a deep floor plate wrapped around a large central core
+        leaves a dead zone that no layout can rescue. Gensler's Conversions+ scorecard weighs roughly 150
+        building attributes, and a building scoring in the 70s to 80s out of 100 is considered eligible.
+        The archetypal candidate &mdash; the Goldilocks building &mdash; is pre-1990 and often 1970s
+        vintage, with smaller floor plates, a reasonable window-to-core distance, about twelve feet
+        floor-to-floor (which yields a luxurious eleven-foot residential ceiling), and a desirable location.
+      </p>
+
+      <div class="capsule">
+        <p>
+          Of more than 1,300 buildings Gensler screened across 130 North American cities, only about 25
+          percent were suitable candidates, and only roughly 5 percent proceed. The gap between physical
+          viability and financial feasibility is where most conversion theses quietly die.
+        </p>
+      </div>
+
+      <p>
+        The screens agree that most buildings fail this test, and they disagree only on how many. Gensler's
+        is the generous read at 25 percent. A 2023 NBER working paper from NYU and Columbia authors,
+        "Converting Brown Offices to Green Apartments," estimated only 11 percent of office properties
+        nationwide are physically suitable. CommercialEdge's Conversion Feasibility Index lands in between,
+        at 14.8 percent. The practical upshot is the same across all three: the supply of convertible
+        buildings is a small fraction of the supply of vacant ones, and the vacancy headline is not a proxy
+        for opportunity. It is why Gensler's Steven Paynter argues for partial conversions &mdash; keeping
+        some office and adding residential or other uses &mdash; for the roughly 75 percent of buildings
+        unsuitable for full residential conversion, rather than forcing a whole-building answer onto a
+        building that cannot support it.
+      </p>
+
+      <p>
+        Where the geometry does work, the reward is real. Paynter calls conversion an unprecedented
+        opportunity to add housing quickly, sustainably, and at a cost about 30 percent below new
+        construction, with construction timelines running roughly 50 percent shorter than ground-up.
+        California has tried to convert that speed into entitlement certainty: AB 1490 (2023) caps review
+        of office-to-residential projects of 150 units or fewer at 60 days. But the 30-percent-cheaper
+        claim applies only to suitable candidates. On the wrong building, none of it holds.
+      </p>
+
+      <h2>And a basis problem second</h2>
+
+      <p>
+        A building can clear the geometry screen and still fail on price, because the second gate is
+        financial, and it is the one that stops most deals that make it past the first. Conversion is not
+        cheap. CBRE puts the cost at roughly $100 to $500 or more per square foot, against about $320 for
+        new office construction. Real projects bracket that range: Vanbarton's Pearl House at 160 Water
+        Street ran total development costs of $650,000 to $750,000 per unit with hard costs of $325 to $350
+        per square foot, which the sponsor pegged at $100 to $200 per square foot below a comparable new
+        build; Slate's Toronto conversions penciled at C$250 to C$350 per square foot against C$380 for new,
+        with window-wall replacement alone consuming about 15 percent of the hard-cost budget. A 2023 SPUR
+        and ULI San Francisco study put conversions at $472,000 to $633,000 per unit before seismic
+        upgrades, and Turner Construction, cited by Brookings, put new residential at $325 to $375 per
+        square foot. The wide range is not imprecision; it is the reality that cost is a function of the
+        specific building.
+      </p>
+
+      <p>
+        Against those costs, the required basis is brutal, and a single figure frames the whole exercise.
+      </p>
+
+      <div class="capsule">
+        <p>
+          Goldman Sachs (February 26, 2024) found that converting a "nonviable" office at the average
+          current price produces a loss of $164 per square foot; office prices would have to fall by that
+          much &mdash; to roughly $154 per square foot, or about 50 percent &mdash; for conversion cost to
+          be covered by the discounted stream of future revenue.
+        </p>
+      </div>
+
+      <p>
+        Goldman defined nonviable narrowly &mdash; a suburban or CBD building, built before 1990, not
+        renovated since 2000, with vacancy above 30 percent &mdash; but that describes a large share of the
+        distressed stock now trading. The transaction data confirms the depth required. New York City's
+        Comptroller found post-pandemic offices selling for rental conversion at $276 per square foot, 45
+        percent below their pre-2020 level, while condo conversions traded at $591 per square foot, roughly
+        twice the rental figure. The practitioner rule of thumb, from Turner and NAIOP Oregon, compresses
+        it to a sentence: if a Class C renovation runs $225 or more per square foot, the developer has to
+        buy the building for under $100 per square foot for the arithmetic to work. Which is why so few
+        deals pencil at ask, and why forced sellers are a precondition, not a bonus.
+      </p>
+
+      <h2>The return the deal has to clear</h2>
+
+      <p>
+        Basis and cost only tell a lender whether the deal can be built. Whether it should be financed
+        turns on the return on that cost relative to the risk. Brookings modeled conversions across six
+        cities and concluded that a conversion generally needs a return on cost at least 100 basis points
+        above the residential cap rate on an untrended basis &mdash; for instance, an 8.3 percent return on
+        cost against a 7.3 percent cap &mdash; to justify the execution risk. That sits inside the broader
+        development-spread convention: Realty Capital Analytics cites 150 to 300 basis points of yield on
+        cost over the exit cap rate for development generally, with office-conversion risk belonging at the
+        wider 250-to-350-plus end. For orientation on where residential exits are priced, CBRE's
+        first-half 2025 multifamily underwriting had core assets going in at a 4.75 percent cap, exiting at
+        4.96 percent, with a 7.70 percent unlevered IRR target, and value-add going in at 5.20 percent with
+        a 9.58 percent unlevered IRR.
+      </p>
+
+      <p>
+        The cautionary case is what happens when weak rents strangle the return. The Railway Exchange
+        building in St. Louis penciled at only a 2.71 percent return on cost &mdash; downtown rents of
+        $2.19 per square foot against 22 percent vacancy &mdash; a project that only historic tax credits,
+        worth about 45 percent of construction cost or roughly $135 per square foot equivalent, could
+        rescue. No published yield-on-cost benchmark exists specifically for office-to-residential
+        conversion from a single named institutional source; the 150-to-350-basis-point band is a general
+        real estate spread applied to conversion risk, and it should be treated as a convention, not a
+        measured figure.
+      </p>
+
+      <h2>Incentives are gap financing, not a reason to build</h2>
+
+      <p>
+        The recurring reason a marginal conversion crosses the line is public money, and a lender should
+        understand exactly what role it is playing: incentives are gap financing that can close a
+        10-to-30-percent feasibility gap on an otherwise-sound deal, and nothing more. They cannot fix bad
+        geometry, and a deal that pencils only because of a subsidy is a deal that fails the moment the
+        subsidy slips.
+      </p>
+
+      <p>
+        The federal menu is broad. The White House's "Commercial to Residential Conversions" guidebook
+        (October 27, 2023) catalogued more than 20 federal programs across six agencies. The Department of
+        Transportation's TIFIA and RRIF programs offer more than $35 billion &mdash; TIFIA alone carries
+        $70 billion of lending capacity &mdash; in below-market lending for transit-oriented development
+        including conversions, with the total federal share capped at 80 percent of project cost and
+        roughly 12 months from final letter of interest to financial close. HUD's Community Development
+        Block Grant program, with $10 billion allocated, can fund acquisition, rehabilitation, and
+        conversion. The federal Historic Tax Credit provides a 20 percent credit on qualified rehabilitation
+        expenditures for certified historic income-producing structures, claimed over five years since the
+        2017 change that repealed the former 10 percent credit; it has rehabilitated more than 40,000
+        buildings and produced over 150,000 affordable units since 1976, and it combines with LIHTC, though
+        it reduces LIHTC eligible basis. Opportunity Zone capital can layer on where a historic property
+        sits within a Qualified Opportunity Zone. Pending, not yet law, is the bipartisan Revitalizing
+        Downtowns and Main Streets Act (introduced July 12, 2024), which would create a 20 percent
+        conversion credit for buildings at least 20 years old that set aside 20 percent of units as
+        affordable.
+      </p>
+
+      <p>
+        For the owner-occupied and business-operating portions of a mixed-use repositioning &mdash;
+        ground-floor commercial, or an owner-operated hospitality or medical component within a converted
+        asset &mdash; the SBA programs are in play, and their reach just widened. SBA Policy Notice
+        5000-879058, dated May 18, 2026 and effective July 4, 2026, decouples the 7(a) and 504 programs and
+        doubles the combined borrower cap from $5 million to $10 million (up to $5 million in 7(a) plus up
+        to $5 million in 504), a change announced by Administrator Kelly Loeffler; 504 finances long-term
+        fixed assets and real estate while 7(a) covers working capital, and the fiscal-2026 manufacturing
+        fee waivers sunset September 30, 2026. The caveat matters: SBA credit is oriented to owner-occupied
+        and small-business use, not speculative multifamily conversion, so its applicability is limited to
+        the owner-occupied or business-operating share of a repositioning.
+      </p>
+
+      <p>
+        Below the federal layer, the decisive money is local, and it varies enough that program selection
+        is itself an underwriting input.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Selected local and regional conversion incentives, and the affordability they require.</caption>
+          <thead><tr><th scope="col">Program</th><th scope="col">Benefit</th><th scope="col">Affordability / key terms</th></tr></thead>
+          <tbody>
+            <tr><td>New York 467-m</td><td>Property-tax exemption up to 35 years</td><td>25% income-restricted (5% at 40% AMI, average 80% AMI or lower); construction to commence Jan 1, 2023&ndash;June 30, 2031, complete by Dec 31, 2039; conversions of 6+ units</td></tr>
+            <tr><td>Washington, DC &mdash; Housing in Downtown</td><td>20-year property-tax abatement</td><td>10% of units at 60% MFI or 18% at 80% MFI; annual caps ramp to $41M in FY2028</td></tr>
+            <tr><td>Chicago &mdash; LaSalle Street Reimagined</td><td>TIF ($151.2M committed) plus HTC, LIHTC, and bonds</td><td>30% affordable at 60% AMI</td></tr>
+            <tr><td>Boston &mdash; Downtown Residential Conversion</td><td>Tax abatement up to ~75% for up to 29 years</td><td>20% affordable; 2% transfer tax if sold within 5 years; deadline extended to Dec 2025</td></tr>
+            <tr><td>Los Angeles &mdash; Citywide Adaptive Reuse Ordinance</td><td>By-right / streamlined approval</td><td>Buildings 15+ years old; no minimum unit sizes</td></tr>
+            <tr><td>San Francisco &mdash; Adaptive Reuse (Ord. 159-23) + Prop C</td><td>Transfer-tax waiver plus fee waivers ($70K&ndash;$90K/unit)</td><td>Approval before Jan 1, 2030; up to 33% added building volume</td></tr>
+            <tr><td>Calgary (North American benchmark)</td><td>Grant of C$75/SF (~25&ndash;30% of cost), capped C$15M/project</td><td>Cash on completion; goal to remove 6M SF of vacant office by 2031</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Sources: program documents as cited in text. Caps, deadlines, and affordability terms change; confirm current terms at underwriting.</p>
+      </div>
+
+      <p>
+        The detail behind those rows is what a study has to verify. New York's RPTL 467-m pairs with the
+        485-x program (which replaced 421-a and drew 2,603 units across 118 buildings in its first ten
+        months) and the City of Yes zoning reforms of December 2024; the city estimates conversions could
+        produce 20,000 homes for 40,000 residents over a decade, against a post-COVID pipeline of about
+        17,400 units across 44 buildings, and its Office Conversion Accelerator is worth an estimated $300
+        to $500 per square foot in abatement value. Washington's Housing in Downtown abatement ramps its
+        annual cap from $2.5 million each in fiscal 2024 through 2026 to $6.8 million in fiscal 2027 and $41
+        million in fiscal 2028; its first three projects (October 2024) carried 754 units with at least 92
+        affordable, and by September 2025 eight funded projects were expected to produce 1,745 units, with
+        roughly a dozen conversions in the downtown pipeline, alongside a separate "Office to Anything"
+        program launched in 2025 offering a 15-year tax freeze. Chicago's LaSalle Street Reimagined,
+        announced in September 2022, aims to convert about 1.6 million square feet into more than 1,400
+        mixed-income units (430-plus affordable at 60 percent AMI); Mayor Johnson committed $151.2 million
+        in TIF in April 2025 toward roughly 1,000 homes, and the first project, 79 West Monroe ($64.2
+        million, 117 residences, $28 million TIF, $7.8 million HTC), broke ground in March 2025 in a market
+        where office traded near $67 per square foot and 200 South Wacker sold for $68 million, down about
+        70 percent from its $214.5 million price in 2013. Boston's incentive, financed with an added $15
+        million in state funding, had drawn only 11 applications as of September 2024. California's
+        ministerial path &mdash; AB 2011 (2022), refined by AB 2243 (2024) to remove density limits for
+        conversions, with AB 2097 waiving parking minimums near transit and AB 529 directing code reforms
+        due December 31, 2025 &mdash; produced just eight AB 2011 approvals statewide in 2024 and none
+        under SB 6. Los Angeles builds on a 1999 Adaptive Reuse Ordinance that created more than 12,000
+        downtown units, expanded citywide by an ordinance adopted in December 2024 and February 2025. San
+        Francisco's program sits under Mayor Breed's 30x30 plan (5 million square feet to 5,000 units by
+        2030); Proposition C, passed March 5, 2024, waives the city's 6 percent transfer tax over $25
+        million on a first transfer (a revenue impact the Controller estimated at $34 million to $150
+        million over 30 years), a March 2025 ordinance waived inclusionary and impact fees on up to 7
+        million square feet, and a new Downtown Revitalization Financing District (AB 2488, effective
+        February 12, 2026) allows tax-increment reinvestment for up to 30 years across 50 properties with
+        capacity for more than 4,000 units &mdash; though the active pipeline stayed thin, with the Warfield
+        at 988 Market and Humboldt Bank at 785 Market among the few approved. Calgary, the North American
+        benchmark, has approved 11 or more projects for 1,490 homes and 226 hotel rooms, including the
+        Cornerstone, an 80,000-square-foot fully vacant building that Astra Group converted into 112 units.
+      </p>
+
+      <h2>Office-to-everything: reuse beyond housing</h2>
+
+      <p>
+        Residential is the headline use, but it is not the only one, and on many buildings it is not the
+        best one. The strongest current demand driver is data centers: office parks offer power, highway
+        and population proximity, and reinforced structures, and a vacant office bought at a discount can
+        be turned from a liability into income-producing digital infrastructure &mdash; subject to the real
+        hurdles of multi-hundred-megawatt power, 50-to-100-kilowatt-per-rack cooling, and rezoning. The
+        cautionary tale runs the other way. Life-sciences conversion, the darling of 2021 and 2022, has
+        overcorrected into oversupply: JLL reports lab vacancy surging from 6.6 percent in 2022 to about 27
+        percent in 2025, with Boston and Cambridge at 18 to 19 percent, the San Francisco Bay Area above 22
+        percent, and San Diego at 15 percent. Newly delivered lab space from 2022 to 2024 is roughly 48
+        percent empty, office-to-lab conversions ran an expensive $675 to $1,200 per square foot in Boston,
+        and some sponsors are now backtracking to office; the Burlington BioCenter, an office-to-lab
+        conversion, resold for a third of its 2022 price of $103 million. JLL projects 18.7 million of the
+        61 million square feet of available lab space &mdash; about 30 percent &mdash; will change use by
+        2030. The lesson for a lender is specific: a speculative single-use conversion into an oversupplied
+        sector carries acute exit risk.
+      </p>
+
+      <p>
+        The remaining paths are narrower but real: industrial and last-mile (a 1980s Ventura County office
+        converted to Amazon last-mile use and sold at a profit), medical office, hotel, self-storage (which
+        tolerates the deep floor plates and poor window lines that kill residential), education, and, when
+        nothing else pencils, demolition and land redevelopment. Institutional capital expects the shift to
+        be broad: the AFIRE International Investor Survey (Fall 2023 Pulse Report) found 90 percent of
+        institutional investors expected to convert many U.S. office assets to residential and other uses
+        within five years. And conversion is not the only answer to obsolescence. With prime vacancy
+        approaching pre-pandemic levels and almost no new supply being built, upgrading a competitive Class
+        B building to Class A &mdash; amenities, spec suites &mdash; is itself a live repositioning play, as
+        spillover demand begins to reach the next tier down while prime availability dwindles.
+      </p>
+
+      <h2>Where the conversions actually are</h2>
+
+      <p>
+        The activity is concentrated, and the pattern rewards study. The office-to-apartment pipeline
+        tracked by RentCafe and Yardi Matrix has climbed from 23,100 units in 2022 to 45,200 in 2023,
+        55,300 in 2024, 70,700 in 2025, and a record 90,300 in early 2026 &mdash; up 28 percent year over
+        year and nearly four times the 2022 total &mdash; now about 47 percent of all adaptive-reuse
+        projects within a total adaptive-reuse pipeline of roughly 181,000 units.
+      </p>
+
+      <div class="data-table-wrap">
+        <table class="data">
+          <caption>Office-to-apartment conversion pipeline, units (RentCafe / Yardi Matrix).</caption>
+          <thead><tr><th scope="col">Year</th><th scope="col">Units in pipeline</th><th scope="col">Note</th></tr></thead>
+          <tbody>
+            <tr><td>2022</td><td>23,100</td><td>Baseline</td></tr>
+            <tr><td>2023</td><td>45,200</td><td>&mdash;</td></tr>
+            <tr><td>2024</td><td>55,300</td><td>~5,889 office-conversion units actually delivered</td></tr>
+            <tr><td>2025</td><td>70,700</td><td>&mdash;</td></tr>
+            <tr><td>Early 2026</td><td>90,300</td><td>+28% YoY; ~4x the 2022 total; ~47% of adaptive reuse</td></tr>
+          </tbody>
+        </table>
+        <p class="table-source">Source: RentCafe / Yardi Matrix, Office-to-Apartment Conversion report, March 27, 2026. A pipeline counts proposed, planned, and under-construction units &mdash; not deliveries.</p>
+      </div>
+
+      <p>
+        The distinction between a pipeline and deliveries is the caveat that keeps the numbers honest.
+        Completed adaptive-reuse apartments ran 12,765 in 2022, 16,513 in 2023, and about 24,700 in 2024;
+        of the 2024 total, office conversions delivered only about 5,889 units, with hotels leading at more
+        than 9,100. CBRE counted 94 conversion projects (13.1 million square feet) completed in 2024 and
+        about 68 (12.8 million square feet) expected in 2025, with 23.3 million square feet of office being
+        converted or demolished as of June 2025, and seven of every ten converted apartments delivered in
+        2024 came from Class A buildings. The pipeline is large; the delivered volume is a fraction of it.
+      </p>
+
+      <p>
+        Geographically, early-2026 office-to-apartment pipelines cluster in New York (about 16,358 units),
+        Washington, DC (about 8,479), and Chicago (about 4,360), followed by Los Angeles, Dallas, and
+        Cleveland (ninth, about 1,771); Chicago overtook Manhattan as the top metro for total adaptive-reuse
+        deliveries in 2024 at 880 units, and Charlotte, Omaha, Jacksonville, and Boston each more than
+        doubled their pipelines, up 107 to 160 percent year over year.
+      </p>
+
+      <p>
+        The marquee projects are in Lower Manhattan. 25 Water Street, a 1.1-million-square-foot 1969 office
+        rebuilt with ten stories added, opened as 1,320 units in April 2025 &mdash; the largest U.S.
+        office-to-residential conversion by unit count, the first to use 467-m, with 330 affordable units
+        awarded by lottery and rents from $932 studios to $3,286 three-bedrooms. Pfizer's former
+        headquarters at 219-229 East 42nd Street will bring 1,463 or more units and become the largest New
+        York conversion on completion. Vanbarton's Pearl House at 160 Water Street delivered 588 units; 55
+        Broad Street, once Goldman Sachs's headquarters, is being recapitalized into 571 units by RXR,
+        Silverstein, and Metro Loft in a $500 million deal; and the Flatiron Building is being turned into
+        38 luxury condominiums by Brodsky and Sorgente, with a projected sellout above $380 million, unit
+        pricing from $11 million to $50 million, and a first contract signed in late 2025. Together, 25
+        Water, 55 Broad, 77 Water, 160 Water, 111 Wall, and 1 Wall add up to roughly 5,000 new homes in the
+        Financial District alone.
+      </p>
+
+      <p>
+        The capital behind all this is opportunistic and increasingly active. Distressed office trades
+        topped 200 in 2025, roughly double 2023, with foreclosure and bankruptcy trades exceeding $5
+        billion and some Chicago towers changing hands under $30 per square foot; Yellowstone bought 1740
+        Broadway for $185 million, a decade after Blackstone paid $600 million for it. Office investment
+        volume rose about 40 percent in the first three quarters of 2025 to $37.6 billion across roughly
+        1,930 assets, by Yardi's count. Private and opportunistic capital leads &mdash; Cottonwood Group
+        closed a $1 billion special-situations fund in August 2025, and Blackstone deployed roughly $4
+        billion into offices in 2025, concentrated in gateway and quality assets.
+      </p>
+
+      <h2>The risks a lender underwrites against</h2>
+
+      <p>
+        For all the momentum, the risks that sink conversions are consistent, and every one belongs in the
+        credit memo. The basis and financing gap is the primary killer: sellers resist the write-downs
+        conversions require, construction lending is tight and equity-heavy, and many deals need incentive
+        gap financing to clear a 250-to-350-plus-basis-point yield hurdle. Geometry cannot be fixed by
+        policy &mdash; deep floor plates, poor window lines, rigid cores, and low floor-to-floor heights
+        make a building uneconomic regardless of subsidy. Code and zoning add cost through residential
+        light-and-air requirements, egress, seismic upgrades in California, life-safety, and energy rules
+        such as New York's Local Law 97. Older stock hides environmental and structural surprises &mdash;
+        asbestos and hazardous materials, missing original drawings, concealed conditions &mdash; and while
+        Phase I environmental and hazardous-materials testing is performed by licensed specialists rather
+        than the feasibility analyst, the cost and schedule risk still belongs in the model. Former office
+        districts often lack the ground-floor retail, services, and residential amenities that make a
+        neighborhood livable, so a live-work conversion depends on district activation the sponsor does not
+        fully control. And carry is unforgiving: entitlement and construction carry, condominium absorption
+        and presale risk, and single-use bets into oversupplied sectors all extend the window during which
+        a half-finished asset earns nothing.
+      </p>
+
+      <h2>Underwriting the decision as highest-and-best-use</h2>
+
+      <p>
+        The through-line is that a conversion is not a thesis about office; it is a highest-and-best-use
+        decision about one building, and it should be underwritten in that order. Basis comes first, use
+        second: do not credit the existing improvements with positive value, run a residual land-and-building
+        analysis, and require the acquisition price to sit below supportable residual &mdash; for weak-rent
+        downtowns, a Class C renovation at $225-plus per square foot typically requires a sub-$100-per-square-foot
+        purchase to clear, and the trigger to proceed is an acquisition basis that produces a stabilized
+        untrended return on cost at least 100 basis points above the residential exit cap. Score the
+        geometry before spending on design: run a rapid physical-suitability screen of floor-plate depth,
+        window-to-core distance, floor-to-floor height, window operability, and core and riser layout, and
+        if the building scores below roughly 70 out of 100 on a Gensler-style scorecard, pivot early to
+        partial conversion, an alternative use, or demolition. Build the incentive stack into the base case
+        rather than the upside, map the applicable federal and local programs at underwriting, and watch the
+        deadlines &mdash; 467-m construction must commence by June 30, 2031, San Francisco's Proposition C
+        approval must be secured before January 1, 2030, and DC's Housing in Downtown cap ramps to $41
+        million in fiscal 2028.
+      </p>
+
+      <p>
+        Match the use to demand and exit liquidity &mdash; residential where rents and the housing shortage
+        support it, data centers as the strongest non-residential demand but only with power, cooling, and
+        rezoning underwritten, and no speculative single-use bet into an oversupplied sector without an
+        anchor tenant. Then stress-test for the reset environment: model a 10 percent cost overrun, a 5
+        percent rent decline, a 100-basis-point exit-cap move, and an extended lease-up or sellout, and
+        require presale thresholds on condominiums. The benchmarks that would change the call are worth
+        naming in advance &mdash; office CMBS delinquency breaking sustainably above 12.5 percent would
+        force more product to market at a lower basis, letting more deals pencil, while a sustained fall in
+        prime vacancy toward pre-pandemic levels would tilt the answer from conversion toward repositioning.
+        Underneath it all sits a genuine demand tailwind: estimates of the U.S. housing shortage range from
+        1.5 million units (NAHB) to 3.7 million (Freddie Mac, third quarter 2024), 4.5 million (Zillow), 5.5
+        million (NAR), and as many as 7.1 million affordable rental units (NLIHC), with Fannie Mae pegging
+        the affordable shortfall at 4.4 million in the top 75 markets.
+      </p>
+
+      <p>
+        The discipline, in the end, is the same one that governs any feasibility question. The vacancy
+        headline and the maturity wall describe an opportunity; they do not underwrite a building. A
+        conversion earns capital only when the geometry clears, the basis resets far enough, the return
+        sits above the risk-adjusted hurdle on its own before any subsidy, and the downside has been carried
+        all the way through. Compare apartments, condominiums, mixed-use, hotel, medical, industrial and
+        data-center, repositioned office, and demolition side by side, with independent market, technical,
+        and financial analysis, and let the building tell you what it should become. That is what separates
+        a conversion that pencils from a headline that does not.
+      </p>
+
+      <div class="article-note">
+        <h3>Sources and notes</h3>
+        <p>
+          Market, vacancy, absorption, and value figures are drawn from CBRE, Cushman &amp; Wakefield
+          (including "Obsolescence Equals Opportunity," Corbett, Thorpe &amp; Smith, February 2023), Moody's
+          Analytics, CRE Daily, Kastle Systems, Gallup, Green Street, and MSCI Real Capital Analytics.
+          Distress and maturity data are from Trepp (office CMBS delinquency of 12.34 percent in January
+          2026), Morningstar DBRS, and Yardi Matrix. Conversion feasibility, cost, and return figures are
+          from Gensler's Conversions+ analysis (more than 1,300 buildings across 130 cities; Steven
+          Paynter), the 2023 NBER working paper "Converting Brown Offices to Green Apartments" (NYU and
+          Columbia authors), CommercialEdge's Conversion Feasibility Index, Goldman Sachs (February 26,
+          2024), Brookings, Realty Capital Analytics, Vanbarton, Slate, SPUR and ULI San Francisco, Turner
+          Construction, NAIOP Oregon, and the New York City Comptroller. Incentive terms are from the White
+          House "Commercial to Residential Conversions" guidebook (October 27, 2023), the U.S. Department of
+          Transportation (TIFIA and RRIF), HUD, the federal Historic Tax Credit program, SBA Policy Notice
+          5000-879058, and the named state and municipal programs (New York 467-m and 485-x, Washington DC
+          Housing in Downtown, Chicago LaSalle Street Reimagined, Boston, California AB 2011, AB 2243, AB
+          2097, AB 529, and AB 2488, Los Angeles Adaptive Reuse Ordinance, San Francisco Ordinance 159-23
+          and Proposition C, and Calgary). Pipeline and delivery counts are from RentCafe and Yardi Matrix
+          (Office-to-Apartment Conversion report, March 27, 2026); alternative-use data from JLL and the
+          AFIRE International Investor Survey (Fall 2023 Pulse Report); housing-shortage estimates from
+          Freddie Mac, NAHB, Zillow, NAR, NLIHC, and Fannie Mae.
+        </p>
+        <p>
+          Caveats: vacancy figures vary by source and methodology (direct versus total, district versus
+          metro, and brokerage differences), and we flag the spread rather than assert a single number.
+          Pipeline figures count units at various stages and carry large year-to-year carryover &mdash; a
+          pipeline is not deliveries, and only about 5,889 office-conversion units actually delivered in
+          2024. Cost and per-unit figures are project- and market-specific, and the $100&ndash;$500+/SF
+          range is wide by design; the "30 percent cheaper than new" figure applies only to suitable
+          candidates. Several federal proposals (the Revitalizing Downtowns and Main Streets Act) and
+          California's AB 529 code reforms are pending, not enacted, and program caps and deadlines change.
+          No published yield-on-cost benchmark exists specifically for office-to-residential conversions
+          from a single named institutional source; the 150-to-350-basis-point development spread is a
+          general benchmark applied to conversion risk. This is market commentary, not investment, legal,
+          tax, or engineering advice; site-specific feasibility supersedes national averages.
+        </p>
+        <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" aria-labelledby="h-cta">
+    <div class="frame">
+      <h2 id="h-cta">Underwriting a conversion?</h2>
+      <p>
+        Our office-repositioning and adaptive-reuse feasibility studies underwrite basis before use, score
+        the geometry before the design spend, and carry the incentive stack and the downside case through a
+        side-by-side highest-and-best-use analysis.
+      </p>
+      <a class="btn" href="#contact">Request a methodology briefing</a>
+    </div>
+  </section>
+
+</main>
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" id="contact" aria-labelledby="h-contact">
+  <div class="frame">
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <span class="eyebrow">Inquiries</span>
+        <h2 id="h-contact">Request a methodology briefing.</h2>
+        <p>
+          Tell us about the project and the capital source. We respond with the analytical framework,
+          the deliverable your program requires, and next steps. Your details are used only to respond
+          to your inquiry.
+        </p>
+        <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
+        <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
+      </div>
+      <form class="contact-form" id="fsc-contact-form" novalidate>
+        <div class="cf-row">
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        </div>
+        <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+        <label>Project type
+          <select name="project_type">
+            <option value="">Select...</option>
+            <option>SBA 7(a) or 504</option>
+            <option>USDA Rural Development</option>
+            <option>EB-5</option>
+            <option>Conventional or institutional</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+        <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn">Send inquiry</button>
+        <p class="cf-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="frame">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="mark" aria-hidden="true">F</span>
+        <p>Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <ul>
+          <li><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></li>
+          <li><a href="/practice-areas/usda-rural-development/">USDA Rural Development</a></li>
+          <li><a href="/practice-areas/eb-5/">EB-5</a></li>
+          <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/analytical-framework/">Methodology</a></li>
+          <li><a href="/asset-classes/">Asset Classes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/research-notes/">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="/the-practice/">The Practice</a></li>
+          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Feasibility Study Company. All rights reserved.</span>
+      <span>Independent third-party analysis. Not a lender, broker, or investment advisor.</span>
+    </div>
+  </div>
+</footer>
+
+<script id="mega-markets-script">
+(function(){
+  document.querySelectorAll('.has-mega').forEach(function(wrap){
+  var btn=wrap.querySelector('.mega-trigger'), panel=wrap.querySelector('.mega-panel');
+  if(!btn||!panel) return;
+  function open(){panel.classList.add('is-open');btn.setAttribute('aria-expanded','true');}
+  function close(){panel.classList.remove('is-open');btn.setAttribute('aria-expanded','false');}
+  btn.addEventListener('click',function(e){e.stopPropagation();panel.classList.contains('is-open')?close():open();});
+  document.addEventListener('click',function(e){if(!wrap.contains(e.target))close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+  wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
+  });
+})();
+</script>
+<script id="fsc-contact-script">
+(function(){
+  var f=document.getElementById('fsc-contact-form');
+  if(!f) return;
+  var s=f.querySelector('.cf-status');
+  var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...';
+    var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
+    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+      if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
+      else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
+    }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })
+    .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+</body>
+</html>
