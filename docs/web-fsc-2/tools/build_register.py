@@ -33,6 +33,7 @@ URL = {
  'ecfr910': 'https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-H/section-120.910',
  'ecfr921': 'https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-H/section-120.921',
  'h15': 'https://www.federalreserve.gov/releases/h15/',
+ 'sbarel': 'https://legacy.sba.gov/article/2026/07/07/small-businesses-now-eligible-10-million-sba-financing',
  'soppage': 'https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs',
 }
 FILES = {
@@ -43,6 +44,7 @@ FILES = {
  'fr20080': 'FR-2026-20080.txt', 'fr19072': 'FR-2025-19072.txt',
  'ecfr160': 'eCFR-13-CFR-120.160.txt', 'ecfr131': 'eCFR-13-CFR-120.131.txt', 'ecfr861': 'eCFR-13-CFR-120.861.txt',
  'ecfr910': 'eCFR-13-CFR-120.910.txt', 'ecfr921': 'eCFR-13-CFR-120.921.txt',
+ 'h15': 'FRB-H15-2026-10-09.txt', 'soppage': 'SBA-SOP-50-10-document-page.txt', 'sbarel': 'SBA-release-2026-07-07-10-million.txt',
 }
 TEXT = {k: open(os.path.join(PRIM, v), encoding='utf-8').read() for k, v in FILES.items()}
 LINES = {k: v.split('\n') for k, v in TEXT.items()}
@@ -146,7 +148,7 @@ add('R05', 'Applicability trigger on and after October 1, 2026', 'TU notice (IN 
 add('R06', 'Superseded edition', 'SOP 50 10 8, effective June 1, 2025, replaced SOP 50 10 7.1', 'SOP 50 10 8', 'VERIFIED', 'sop8', needle='SOP Version This Replaces: 50 10 7.1', section='Cover and SOP Summary', paragraph='SOP Summary', page='p. 2')
 add('R07', 'Primary file and redline', 'The .docx on the SBA document page (1,071,898 bytes; sha256 279c7eee...63dde, see HASHES.txt). No redline is posted on the SOP page or on the IN 5000-882227 page; the only attachment there is the notice PDF. A paragraph-level diff of SOP 8 against 8.1 TU was generated instead (primary/REDLINE-GENERATED-8-to-8.1TU.diff).',
     'SOP 8 .docx (1,171,942 bytes; sha256 bf5cae03...17ac1)', 'NOT_IN_TEXT', 'sop81', url=URL['soppage'], section='SBA document page', paragraph='Variations of this document', page='n/a',
-    q='Version 8.1 with Technical Updates | Effective: October 1, 2026 | File size: 1072KB | Download .docx', note='The fact sheet says SBA posted a redline; the SBA pages fetched on 2026-10-10 carry none. The cross-check in Phase 0.5 ran against the generated diff.')
+    q=norm(TEXT['soppage'])[norm(TEXT['soppage']).find('Version 8.1 with Technical Updates'):norm(TEXT['soppage']).find('Version 8.1 with Technical Updates')+140], note='Saved extract primary/SBA-SOP-50-10-document-page.txt. The fact sheet says SBA posted a redline; the SBA pages fetched on 2026-10-10 carry none. The cross-check in Phase 0.5 ran against the generated diff.')
 
 # ---------------------------------------------------------------- Appendix 15: change of ownership
 add('R08', 'Change-of-ownership categories', 'Four categories: Initial Acquisition (default), Business Expansion, Owner Buyout (Existing and Partial Change), ESOP & Cooperative. Initial Acquisition = a new majority or largest owner who was not previously an owner, or who has been employed by the acquired business for fewer than 24 months. Owner Buyout: individuals not employed for at least 24 months may acquire less than 50% and may not become the largest shareholder; otherwise Initial Acquisition credit standards apply.',
@@ -175,7 +177,7 @@ add('R13', 'Initial Acquisition equity injection', '10% of total project cost; "
 rows[-1]['verbatim_quote'] = 'Initial Acquisition: 10%. ' + rows[-1]['verbatim_quote']
 add('R14', 'Business Expansion, Owner Buyout, ESOP & Cooperative equity', '10% (Owner Buyout measured on the purchase price); for Business Expansion and Owner Buyout the lender may reduce or eliminate it with sufficient liquidity and working capital and no negative net worth at the last fiscal year-end; ESOP controlling-interest loans are exempt',
     'Partner buyouts: no stated injection; complete change 10 percent', 'VERIFIED', 'sop81', needle='For both Business Expansions and Owner Buyouts, the Lender may reduce or eliminate')
-rows[-1]['verbatim_quote'] = 'Business Expansion, Owner Buyouts, and ESOP & Cooperatives: 10% ' + rows[-1]['verbatim_quote'] + ' ' + quote('sop81', 'the Applicant’s balance sheet must not have a negative net worth')[1]
+rows[-1]['verbatim_quote'] = 'Business Expansion, Owner Buyouts, and ESOP & Cooperatives: 10% ' + rows[-1]['verbatim_quote'] + ' ' + quote('sop81', 'the Applicant’s balance sheet must not have a negative net worth')[1] + ' ' + quote('sop81', 'Loans for the purpose of purchasing a controlling interest (at least 51 percent) in the employer for purposes of an ESOP are not subject')[1]
 add('R15', 'Limited equity sources: half cap', 'Standby debt (full standby), seller debt on full standby and non-controlling minority equity investors (under 20%, no control), "whether individually or in the aggregate, may provide no more than half of the required Equity Injection"',
     'Seller debt on full standby may not exceed half of the required injection', 'VERIFIED', 'sop81', needle='may provide no more than half of the required Equity Injection',
     v8cite=c8('Seller debt may not be considered as part of the equity injection unless it is on full standby'))
@@ -262,6 +264,8 @@ add('R38', 'Combined 7(a) plus 504 limit', 'A borrower\'s outstanding 7(a) balan
     'Not stated; 7(a) balances were counted against the 504 limit in practice', 'VERIFIED', 'pn879058', pdf='does not reduce the maximum loan amount available under the 504 loan program', section='SBA Policy Notice 5000-879058', paragraph='Purpose paragraph',
     note='The $10 million figure is the sum SBA itself states in its July 7, 2026 release; the notice text gives the two $5,000,000 limits and the sequencing rule (7(a) first). Also SOP 8.1 Section C Ch. 1 D.1.b, extract line 3408.')
 rows[-1]['verbatim_quote'] += ' ' + pdfquote('pn879058', 'a lender may first approve a 7(a) loan followed with a 504 transaction approved by the CDC second')[0]
+rel = norm(TEXT['sbarel']); k = rel.find('$10 million')
+add('R38a', 'SBA release stating the combined $10 million figure', 'see R38', 'n/a', 'VERIFIED', 'sbarel', q=rel[max(0, k - 400):k + 300], section='SBA news release, July 7, 2026', paragraph='Small Businesses Now Eligible for $10 Million in SBA Financing', page='n/a (web)')
 add('R39', 'Personal financial statement age', 'Owner financial statements (SBA Form 413 or equivalent) signed and dated within 90 days of submission to SBA (7(a) Appendix 20 and 504 Chapter 1); business financial statements within 120 days', '120 days', 'VERIFIED', 'sop81',
     needle='signed and dated within 90 days of submission to SBA. Business financial statements must be dated within 120 days', v8cite=c8('signed and dated within 120 days of submission to SBA, for all owners of 20% or more'))
 add('R40', 'Trust guaranty threshold', 'When one or more trusts own, in the aggregate, 20% or more of the applicant, each trust gives an unlimited full guaranty, the trustee executes it, and the Trustor also personally guarantees; all donors to the trust are Trustors for eligibility', '20% or more (same threshold)', 'VERIFIED', 'sop81',
@@ -285,10 +289,10 @@ add('R44', 'Limited or Special Purpose Property: definition and SBA\'s example l
 rows[-1]['verbatim_quote'] += ' | LIST (extract lines 3480-3506): ' + ' '.join(sp81)
 
 # ---------------------------------------------------------------- rates and fees
-add('R45', 'Prime rate', '7.00% (Federal Reserve H.15, release of October 9, 2026: bank prime loan 7.00 on each day October 2-8, 2026)', 'n/a', 'VERIFIED', 'h15', url=URL['h15'], q='Bank prime loan 7.00 7.00 7.00 7.00 7.00 (columns 2026 Oct 2, Oct 5, Oct 6, Oct 7, Oct 8); Release date: October 9, 2026', section='H.15 Selected Interest Rates', paragraph='Bank prime loan', page='n/a (web)',
+add('R45', 'Prime rate', '7.00% (Federal Reserve H.15, release of October 9, 2026: bank prime loan 7.00 on each day October 2-8, 2026)', 'n/a', 'VERIFIED', 'h15', url=URL['h15'], q=norm(TEXT['h15'])[norm(TEXT['h15']).find('Release date'):norm(TEXT['h15']).find('Release date')+60] + ' ... ' + norm(TEXT['h15'])[norm(TEXT['h15']).find('Bank prime loan'):norm(TEXT['h15']).find('Bank prime loan')+60], section='H.15 Selected Interest Rates', paragraph='Bank prime loan', page='n/a (web)',
     note='The fact sheet\'s "from September 17, 2026" start date was not verified from H.15 and is not published.')
 fr20 = norm(TEXT['fr20080'])
-add('R46', 'SBA Optional Peg Rate, October to December 2026 (Q1 FY2027)', '5.00 percent', 'Prior quarter 4.75 percent (not verified here)', 'VERIFIED', 'fr20080', q=fr20[fr20.find('The Small Business Administration publishes'):fr20.find('October-December quarter of FY 2027.') + 36], section='91 FR 62585', paragraph='Interest Rates notice', page='p. 62585')
+add('R46', 'SBA Optional Peg Rate, October to December 2026 (Q1 FY2027)', '5.00 percent', 'n/a (the prior quarter rate is not in any primary file opened here)', 'VERIFIED', 'fr20080', q=fr20[fr20.find('The Small Business Administration publishes'):fr20.find('October-December quarter of FY 2027.') + 36], section='91 FR 62585', paragraph='Interest Rates notice', page='p. 62585')
 add('R47', '504 Third Party Lender maximum interest rate', '6% over the New York Prime rate (or the State maximum if lower)', 'Same rule (13 CFR 120.921(b))', 'VERIFIED', 'fr20080', q=fr20[fr20.find('Pursuant to 13 CFR 120.921(b)'):fr20.find('laws of the given State.') + 24], section='91 FR 62585', paragraph='Interest Rates notice', page='p. 62585')
 add('R48', '504 debenture rate (October 2026 sale)', 'Not published: CDC pricing releases are not a primary source under constraint 1', 'n/a', 'NOT_IN_TEXT', 'sop81', url='', q='(no primary text)', section='n/a', paragraph='n/a', page='n/a', note='Fact sheet carried about 6.97% from CDC releases. Dropped.')
 add('R49', 'FY2027 7(a) upfront (guaranty) fee schedule', 'Loans approved October 1, 2026 through September 30, 2027, maturity over 12 months: 2% of the guaranteed portion for $150,000 or less; 3% for $150,001 to $700,000; 3.5% up to $1,000,000 of guaranteed portion plus 3.75% above $1,000,000 for $700,001 to $5,000,000; 0.25% for maturities of 12 months or less. Annual service fee 0.55% of the outstanding guaranteed balance.',
@@ -310,6 +314,8 @@ add('R56', 'Interest-only acquisition debt in the DSC test', 'Additional acquisi
 add('R57', '504 refinance without job creation: employee cap', 'Where a refinancing project does not meet the job or economic development objectives, the 504 loan may not exceed the number of employees multiplied by $95,000', 'Employees multiplied by $90,000', 'VERIFIED', 'sop81', needle='the 504 loan may not exceed the product obtained by multiplying the number of employees of the Borrower by $95,000',
     span=('Notwithstanding 13 CFR § 120.860', 'by $95,000.'), v8cite=c8('multiplying the number of employees of the Borrower by $90,000', span=('Notwithstanding 13 CFR § 120.860', 'by $90,000.')))
 add('R58', 'Personal guaranty threshold (regulation)', 'Holders of at least a 20 percent ownership interest generally must guarantee the loan', 'Same', 'VERIFIED', 'ecfr160', q=norm(TEXT['ecfr160'][TEXT['ecfr160'].find('( a ) Personal guarantees'):TEXT['ecfr160'].find('( b ) Appraisals')]), section='13 CFR 120.160', paragraph='(a) Personal guarantees', page='n/a (eCFR, current to 2026-10-07)')
+add('R59', 'Collateral threshold for small loans', '7(a) Small and SBA Express loans of $50,000 or less need no collateral; above $50,000 the lender applies the Appendix 19 requirements (Express lenders may use their own policies for similarly sized loans)', 'Same thresholds', 'VERIFIED', 'sop81', needle='For 7(a) Small Loans of $50,000 or less, collateral is not required')
+rows[-1]['verbatim_quote'] += ' ' + quote('sop81', 'For SBA Express Loans greater than $50,000, the Lender must follow the General Requirements')[1]
 
 with open(OUT, 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, fieldnames=['id', 'rule', 'value_8_1', 'value_8', 'status', 'section', 'paragraph', 'page', 'verbatim_quote', 'primary_url', 'checked_on', 'resolution_note', 'value_8_cite'])
