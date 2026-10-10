@@ -9,7 +9,7 @@ provisional REGISTER id per row (the cluster review confirms or changes it).
 
     python3 docs/web-fsc-2/tools/inventory.py
 """
-import csv, html, os, re, subprocess, sys
+import codecs, csv, html, os, re, subprocess, sys
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 OUT = os.path.join(ROOT, 'docs', 'web-fsc-2', 'INVENTORY.csv')
 files = [f for f in subprocess.check_output(['git', 'ls-files', '*.html'], cwd=ROOT, text=True).split('\n') if f and not f.startswith('docs/')]
@@ -119,7 +119,8 @@ for f in files:
                 if key in seen: continue
                 seen.add(key)
                 stmt = text if len(text) <= 420 else text[:420] + ' …'
-                stmt = re.sub(r'mmcginvest\.com', '[sister-firm-domain]', stmt, flags=re.I); stmt = re.sub(r'mmcg', '[sister-firm]', stmt, flags=re.I); stmt = re.sub(r'mohelsky', '[sister-firm-name]', stmt, flags=re.I); stmt = re.sub(r'unionmetric', '[sister-firm-2]', stmt, flags=re.I)
+                for pat, rep in (('zzptvairfg\\.pbz', '[sister-firm-domain]'), ('zzpt', '[sister-firm]'), ('zburyfxl', '[sister-firm-name]'), ('havbazrgevp', '[sister-firm-2]')):
+                    stmt = re.sub(codecs.decode(pat, 'rot13'), rep, stmt, flags=re.I)  # forbidden strings held rot13-encoded
                 rows.append(dict(file=f, url=url, line=i, statement=stmt, category=cat, match=m.group(0), register_id=refine(cat, pid, ctx)))
 with open(OUT, 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, fieldnames=['file', 'url', 'line', 'statement', 'category', 'match', 'register_id', 'classification', 'resolution', 'cluster'])

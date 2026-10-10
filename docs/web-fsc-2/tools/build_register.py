@@ -318,6 +318,16 @@ add('R59', 'Collateral threshold for small loans', '7(a) Small and SBA Express l
 rows[-1]['verbatim_quote'] += ' ' + quote('sop81', 'For SBA Express Loans greater than $50,000, the Lender must follow the General Requirements')[1]
 add('R60', 'Special Purpose Property business valuation: allocation and appraiser qualification', 'The valuation must allocate separate values to land, building, equipment and intangible assets; the Certified General Real Property Appraiser must have completed at least four going-concern appraisals of equivalent special use property within the last 36 months, under current USPAP', 'Same requirements (SOP 8 Section B Ch. 1 Credit Standards)', 'VERIFIED', 'sop81', needle='The business valuation must allocate separate values to the individual components of the transaction')
 rows[-1]['verbatim_quote'] += ' ' + quote('sop81', 'must have completed no less than four going concern appraisals of equivalent special use property')[1]
+add('R61', '7(a) Small and SBA Express maximum loan amounts', '7(a) Small loans are loans of $350,000 or less (Standard 7(a) is above $350,000); SBA Express loans may not exceed $500,000', 'Same', 'VERIFIED', 'sop81', needle='7(a) Small Loans may only be increased up to $350,000')
+rows[-1]['verbatim_quote'] = 'Chapter 1: Standard 7(a) Loans (Loans greater than $350,000) ... ' + rows[-1]['verbatim_quote']
+rows[-1]['resolution_note'] = 'Also stated in PN 5000-876777 (primary/SBA-Notice-5000-876777.txt, p. 2 of 5).'
+# quote extensions after the gate 10 verifier
+for r in rows:
+    if r['id'] == 'R08': r['verbatim_quote'] += ' ' + quote('sop81', 'Business Expansion: A change of ownership transaction in which an existing operating business purchases another')[1] + ' ' + quote('sop81', 'An existing small business that has been operating for at least two full fiscal years')[1] + ' ' + quote('sop81', 'An Employee Stock Ownership Plan (ESOP) or equivalent trust is purchasing a controlling interest (51% or more)', span=('An Employee Stock', 'employer small business.'))[1]
+    if r['id'] == 'R30': r['verbatim_quote'] += ' ' + quote('sop81', 'If the projections show repayment in Year 2 but not in Year 1')[1]
+    if r['id'] == 'R33': r['verbatim_quote'] += ' ' + quote('sop81', 'Generally, equipment, fixtures, or furniture loans should not exceed 10 years', span=('Generally, equipment', 'supports the term.'))[1]
+    if r['id'] == 'R49': r['verbatim_quote'] += ' ' + pdfquote('in881797', 'Lenders may not pass the Lender')[0]
+    if r['id'] == 'R38': r['verbatim_quote'] += ' ' + pdfquote('pn879058', 'PUBLICATION: May 18, 2026')[0]
 
 with open(OUT, 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, fieldnames=['id', 'rule', 'value_8_1', 'value_8', 'status', 'section', 'paragraph', 'page', 'verbatim_quote', 'primary_url', 'checked_on', 'resolution_note', 'value_8_cite'])

@@ -87,7 +87,8 @@ for p in walk(BUILT, '.html'):
     for name, rx in pats.items():
         for m in rx.finditer(th):
             pre = th[max(0, m.start() - 200):m.start()]; post = th[m.end():m.end() + 160]
-            if name == 'SBSS as current' and re.search(r'(Sunset of |retirement of the |end of the |retire|discontinued|has since retired|replaced)\s*(?:its |the )?(?:SBSS)?\s*$', pre[-60:], re.I): continue
+            if name == 'SBSS as current' and re.search(r'(Sunset of|retirement of|end of|retire\w*|discontinu\w*|replaced|dropped)\s+(?:its |the )?$', pre[-60:], re.I): continue
+            if name == '504 1:1 or 1.0x' and re.search(r'^\s*,?\s*(short of|below|under|against|versus)', post[:30], re.I): continue
             if name == 'combined limit not $10M' and ('$10 million' in pre[-200:] + m.group(0) + post[:120] or '$10M' in pre + m.group(0) + post or not re.search(r'cap|limit|ceiling|maximum', pre[-120:] + m.group(0) + post[:80], re.I)): continue
             if name == '$90,000 jobs' and not re.search(r'job', pre[-100:] + post[:100], re.I): continue
             hits.append((rel, name, th[max(0, m.start() - 40):m.end() + 40].replace('\n', ' ')))

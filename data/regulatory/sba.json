@@ -15,108 +15,472 @@
     "supersedes": "SOP 50 10 8",
     "supersedes_effective": "2025-06-01",
     "document_url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs",
-    "register": ["R01", "R02", "R03", "R04", "R05", "R06"]
+    "register": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ]
   },
   "dscr": {
-    "coo_initial_acquisition": {"value": "1.25x", "ratio": "1.25:1", "register": "R09"},
-    "coo_business_expansion": {"value": "1.15x", "ratio": "1.15:1", "register": "R09"},
-    "coo_owner_buyout": {"value": "1.25x", "ratio": "1.25:1", "register": "R09"},
-    "coo_esop_cooperative": {"value": "1.25x", "ratio": "1.25:1", "register": "R09"},
-    "coo_basis": {"value": "historical EBITDA over total post-transaction debt service, on the last fiscal year-end or the average of the last two", "register": "R10"},
-    "coo_projections": {"value": "projections are reviewed but cannot meet the floor, except an owner-occupied Special Purpose Property acquisition whose price the appraised value fully supports, where the floor may be met on projections within two years", "register": "R11"},
-    "coo_projection_years": {"value": "2", "register": "R11"},
-    "standard_7a": {"value": "1.15x", "ratio": "1.15:1", "register": "R28"},
-    "standard_7a_basis": {"value": "historical and/or projected, with 1:1 global coverage; start-ups reach 1.15x within two years", "register": "R28"},
-    "small_7a": {"value": "1.10x", "ratio": "1.10:1", "register": "R27"},
-    "small_7a_basis": {"value": "historical or projected, plus the two most recent months of business bank statements; projections must reach 1.10x within one year; does not apply to changes of ownership", "register": "R27"},
-    "sba_504": {"value": "1.15x", "ratio": "1.15:1", "register": "R30"},
-    "sba_504_basis": {"value": "historical EBITDA over combined post-transaction debt service, last fiscal year-end or two-year average; projections analysed only where history falls short", "register": "R30"},
-    "global": {"value": "1:1", "register": "R28"}
+    "coo_initial_acquisition": {
+      "value": "1.25x",
+      "ratio": "1.25:1",
+      "register": "R09"
+    },
+    "coo_business_expansion": {
+      "value": "1.15x",
+      "ratio": "1.15:1",
+      "register": "R09"
+    },
+    "coo_owner_buyout": {
+      "value": "1.25x",
+      "ratio": "1.25:1",
+      "register": "R09"
+    },
+    "coo_esop_cooperative": {
+      "value": "1.25x",
+      "ratio": "1.25:1",
+      "register": "R09"
+    },
+    "coo_basis": {
+      "value": "historical EBITDA over total post-transaction debt service, on the last fiscal year-end or the average of the last two",
+      "register": "R10"
+    },
+    "coo_projections": {
+      "value": "projections are reviewed but cannot meet the floor, except an owner-occupied Special Purpose Property acquisition whose price the appraised value fully supports, where the floor may be met on projections within two years",
+      "register": "R11"
+    },
+    "coo_projection_years": {
+      "value": "2",
+      "register": "R11"
+    },
+    "standard_7a": {
+      "value": "1.15x",
+      "ratio": "1.15:1",
+      "register": "R28"
+    },
+    "standard_7a_basis": {
+      "value": "historical and/or projected, with 1:1 global coverage; start-ups reach 1.15x within two years",
+      "register": "R28"
+    },
+    "small_7a": {
+      "value": "1.10x",
+      "ratio": "1.10:1",
+      "register": "R27"
+    },
+    "small_7a_basis": {
+      "value": "historical or projected, plus the two most recent months of business bank statements; projections must reach 1.10x within one year; does not apply to changes of ownership",
+      "register": "R27"
+    },
+    "sba_504": {
+      "value": "1.15x",
+      "ratio": "1.15:1",
+      "register": "R30"
+    },
+    "sba_504_basis": {
+      "value": "historical EBITDA over combined post-transaction debt service, last fiscal year-end or two-year average; projections analysed only where history falls short",
+      "register": "R30"
+    },
+    "global": {
+      "value": "1:1",
+      "register": "R28"
+    }
   },
   "equity": {
-    "coo_initial_acquisition": {"value": "10%", "note": "of total project cost; cannot be reduced or eliminated", "register": "R13"},
-    "coo_other": {"value": "10%", "note": "Business Expansion, Owner Buyout (on the purchase price) and ESOP & Cooperative; a lender may reduce or waive it for Business Expansion and Owner Buyout with adequate liquidity and no negative net worth", "register": "R14"},
-    "limited_sources_cap": {"value": "half", "note": "seller debt on full standby, other full-standby debt and non-controlling minority investors (under 20%) together may supply no more than half of the required injection", "register": "R15"},
-    "not_equity": {"value": "education, advisory and Agent fees", "register": "R16"},
-    "counts_as_equity": {"value": "out-of-pocket cost of the business valuation and QoE", "register": "R16"},
-    "startup_7a": {"value": "10%", "note": "of total project cost for a Start-Up Business (one year or less of revenue)", "register": "R29"},
-    "sba_504_standard": {"value": "10%", "register": "R31"},
-    "sba_504_new_or_special": {"value": "15%", "note": "New Business (two years or less) or Limited or Special Purpose Property", "register": "R31"},
-    "sba_504_new_and_special": {"value": "20%", "register": "R31"},
-    "seller_note_refinance_months": {"value": "36", "register": "R17"},
-    "seller_consultant_months": {"value": "24", "register": "R19"},
-    "earnouts": {"value": "seller earnouts prohibited; buyer rebates must pay down the 7(a) loan; purchase-agreement working-capital true-ups are not rebates", "register": "R18"},
-    "debt_cap": {"value": "total acquisition debt, including seller debt not on full standby, is capped at the business valuation; any excess must be equity", "register": "R20"}
+    "coo_initial_acquisition": {
+      "value": "10%",
+      "note": "of total project cost; cannot be reduced or eliminated",
+      "register": "R13"
+    },
+    "coo_other": {
+      "value": "10%",
+      "note": "Business Expansion, Owner Buyout (on the purchase price) and ESOP & Cooperative; a lender may reduce or waive it for Business Expansion and Owner Buyout with adequate liquidity and no negative net worth",
+      "register": "R14"
+    },
+    "limited_sources_cap": {
+      "value": "half",
+      "note": "seller debt on full standby, other full-standby debt and non-controlling minority investors (under 20%) together may supply no more than half of the required injection",
+      "register": "R15"
+    },
+    "not_equity": {
+      "value": "education, advisory and Agent fees",
+      "register": "R16"
+    },
+    "counts_as_equity": {
+      "value": "out-of-pocket cost of the business valuation and QoE",
+      "register": "R16"
+    },
+    "startup_7a": {
+      "value": "10%",
+      "note": "of total project cost for a Start-Up Business (one year or less of revenue)",
+      "register": "R29"
+    },
+    "sba_504_standard": {
+      "value": "10%",
+      "register": "R31"
+    },
+    "sba_504_new_or_special": {
+      "value": "15%",
+      "note": "New Business (two years or less) or Limited or Special Purpose Property",
+      "register": "R31"
+    },
+    "sba_504_new_and_special": {
+      "value": "20%",
+      "register": "R31"
+    },
+    "seller_note_refinance_months": {
+      "value": "36",
+      "register": "R17"
+    },
+    "seller_consultant_months": {
+      "value": "24",
+      "register": "R19"
+    },
+    "earnouts": {
+      "value": "seller earnouts prohibited; buyer rebates must pay down the 7(a) loan; purchase-agreement working-capital true-ups are not rebates",
+      "register": "R18"
+    },
+    "debt_cap": {
+      "value": "total acquisition debt, including seller debt not on full standby, is capped at the business valuation; any excess must be equity",
+      "register": "R20"
+    },
+    "sba_504_split": {
+      "value": "Third Party Lender 50%, debenture 40%, borrower 10%; debenture 35% at a 15% contribution and 30% at 20%",
+      "register": "R31"
+    }
   },
   "valuation": {
-    "internal_valuation_max": {"value": "$350,000", "note": "Business Purchase Price at or below which the lender may value the business itself, unless buyer and seller are closely related", "register": "R21"},
-    "business_purchase_price": {"value": "the purchase-agreement price less the appraised value of owner-occupied commercial real estate", "register": "R22"},
-    "qoe_threshold": {"value": "$3 million", "note": "Business Purchase Price, Initial Acquisition and Business Expansion only; measured before equity, seller debt or other financing", "register": "R23"},
-    "qoe_exempt": {"value": "Owner Buyout, ESOP & Cooperative, and any acquisition of an owner-occupied Special Purpose Property", "register": "R23"},
-    "qoe_cash_proof": {"value": "trailing twelve months plus the last two fiscal years", "register": "R24"},
-    "qoe_buyer_ordered": {"value": "usable when one of the lender's approved vendors reviews it and the review is in the file; never a report prepared by or for the seller", "register": "R24"},
-    "special_purpose_definition": {"value": "a limited-market property with a unique physical design, special construction materials, or a layout that restricts its utility to the use for which it was built", "register": "R44"},
-    "special_purpose_list": {"value": ["Amusement parks", "Bowling alleys", "Car wash businesses", "Cemeteries", "Cold storage facilities where more than 50% of total square footage is equipped for refrigeration", "Dormitories", "Farms, including livestock and dairy facilities", "Funeral homes with crematoriums", "Gas stations", "Golf courses", "Hospitals, surgery centers, urgent care centers, and other health or medical facilities", "Hotels, motels, and other lodging facilities", "Marinas", "Mines", "Nursing homes, including assisted living facilities", "Oil wells", "Quarries, including gravel pits", "Railroads", "Sanitary landfills", "Service centers (e.g., oil and lube, brake, or transmission centers) with pits and in-ground lifts", "Sports arenas", "Swimming pools", "Tennis clubs", "Theaters and auditoriums", "Wineries"], "note": "SBA's example list in the 504 chapter; not all-inclusive. Self-storage, restaurants, day care and dealerships are not on it; Appendix 15 names storage units and hotels as examples of special purpose acquisitions where the real estate fully secures the loan.", "register": "R44"}
+    "internal_valuation_max": {
+      "value": "$350,000",
+      "note": "Business Purchase Price at or below which the lender may value the business itself, unless buyer and seller are closely related",
+      "register": "R21"
+    },
+    "business_purchase_price": {
+      "value": "the purchase-agreement price less the appraised value of owner-occupied commercial real estate",
+      "register": "R22"
+    },
+    "qoe_threshold": {
+      "value": "$3 million",
+      "note": "Business Purchase Price, Initial Acquisition and Business Expansion only; measured before equity, seller debt or other financing",
+      "register": "R23"
+    },
+    "qoe_exempt": {
+      "value": "Owner Buyout, ESOP & Cooperative, and any acquisition of an owner-occupied Special Purpose Property",
+      "register": "R23"
+    },
+    "qoe_cash_proof": {
+      "value": "trailing twelve months plus the last two fiscal years",
+      "register": "R24"
+    },
+    "qoe_buyer_ordered": {
+      "value": "usable when one of the lender's approved vendors reviews it and the review is in the file; never a report prepared by or for the seller",
+      "register": "R24"
+    },
+    "special_purpose_definition": {
+      "value": "a limited-market property with a unique physical design, special construction materials, or a layout that restricts its utility to the use for which it was built",
+      "register": "R44"
+    },
+    "special_purpose_list": {
+      "value": [
+        "Amusement parks",
+        "Bowling alleys",
+        "Car wash businesses",
+        "Cemeteries",
+        "Cold storage facilities where more than 50% of total square footage is equipped for refrigeration",
+        "Dormitories",
+        "Farms, including livestock and dairy facilities",
+        "Funeral homes with crematoriums",
+        "Gas stations",
+        "Golf courses",
+        "Hospitals, surgery centers, urgent care centers, and other health or medical facilities",
+        "Hotels, motels, and other lodging facilities",
+        "Marinas",
+        "Mines",
+        "Nursing homes, including assisted living facilities",
+        "Oil wells",
+        "Quarries, including gravel pits",
+        "Railroads",
+        "Sanitary landfills",
+        "Service centers (e.g., oil and lube, brake, or transmission centers) with pits and in-ground lifts",
+        "Sports arenas",
+        "Swimming pools",
+        "Tennis clubs",
+        "Theaters and auditoriums",
+        "Wineries"
+      ],
+      "note": "SBA's example list in the 504 chapter; not all-inclusive. Self-storage, restaurants, day care and dealerships are not on it; Appendix 15 names storage units and hotels as examples of special purpose acquisitions where the real estate fully secures the loan.",
+      "register": "R44"
+    }
   },
   "terms": {
-    "coo_amortization_years": {"value": "10", "note": "business portion of a change-of-ownership loan; real estate may be a separate loan or blended, with only the real estate portion above 10 years", "register": "R25"},
-    "coo_special_purpose_max_years": {"value": "25", "note": "whole loan, when 85% or more of the use of total project costs is real estate and the owner-occupied Special Purpose Property is integral to the business", "register": "R25"},
-    "coo_special_purpose_threshold": {"value": "85%", "note": "of the use of total project costs, not of value", "register": "R25"},
-    "mixed_purpose_7a": {"value": "blended maturity, or up to 25 years when 51% or more of proceeds are real estate; not available for changes of ownership", "register": "R33"},
-    "real_estate_max_years": {"value": "25", "register": "R33"},
-    "sba_504_maturities": {"value": "10, 20 or 25 years", "note": "25-year maximum for real estate, 10-year minimum for machinery and equipment; with both, the maturity follows the asset category that is the majority of loan proceeds", "register": "R34"},
-    "sba_504_third_party_min_term": {"value": "7 years for a 10-year debenture, 10 years for a 20- or 25-year debenture", "note": "the Technical Updates removed the August prohibition on the bank loan amortizing beyond the debenture term", "register": "R35"},
-    "sba_504_asset_life_years": {"value": "10", "register": "R36"},
-    "pfs_age_days": {"value": "90", "register": "R39"},
-    "trust_guaranty_threshold": {"value": "20%", "register": "R40"},
-    "transient_test": {"value": "more than 50% of the prior year's revenue from transients who stay 30 days or less at a time; a start-up shows it in projections", "register": "R42"}
+    "coo_amortization_years": {
+      "value": "10",
+      "note": "business portion of a change-of-ownership loan; real estate may be a separate loan or blended, with only the real estate portion above 10 years",
+      "register": "R25"
+    },
+    "coo_special_purpose_max_years": {
+      "value": "25",
+      "note": "whole loan, when 85% or more of the use of total project costs is real estate and the owner-occupied Special Purpose Property is integral to the business",
+      "register": "R25"
+    },
+    "coo_special_purpose_threshold": {
+      "value": "85%",
+      "note": "of the use of total project costs, not of value",
+      "register": "R25"
+    },
+    "mixed_purpose_7a": {
+      "value": "blended maturity, or up to 25 years when 51% or more of proceeds are real estate; not available for changes of ownership",
+      "register": "R33"
+    },
+    "real_estate_max_years": {
+      "value": "25",
+      "register": "R33"
+    },
+    "sba_504_maturities": {
+      "value": "10, 20 or 25 years",
+      "note": "25-year maximum for real estate, 10-year minimum for machinery and equipment; with both, the maturity follows the asset category that is the majority of loan proceeds",
+      "register": "R34"
+    },
+    "sba_504_third_party_min_term": {
+      "value": "7 years for a 10-year debenture, 10 years for a 20- or 25-year debenture",
+      "note": "the Technical Updates removed the August prohibition on the bank loan amortizing beyond the debenture term",
+      "register": "R35"
+    },
+    "sba_504_asset_life_years": {
+      "value": "10",
+      "register": "R36"
+    },
+    "pfs_age_days": {
+      "value": "90",
+      "register": "R39"
+    },
+    "trust_guaranty_threshold": {
+      "value": "20%",
+      "register": "R40"
+    },
+    "transient_test": {
+      "value": "more than 50% of the prior year's revenue from transients who stay 30 days or less at a time; a start-up shows it in projections",
+      "register": "R42"
+    }
   },
   "limits": {
-    "max_7a": {"value": "$5 million", "register": "R38"},
-    "max_504": {"value": "$5 million", "note": "aggregate gross debentures; $5.5 million per project for small manufacturers and energy public policy projects", "register": "R38"},
-    "max_504_manufacturer": {"value": "$5.5 million", "register": "R38"},
-    "combined": {"value": "$10 million", "note": "when the 7(a) loan is approved first and the 504 loan second; Policy Notice 5000-879058, effective July 4, 2026", "register": "R38"},
-    "combined_effective": {"value": "2026-07-04", "register": "R38"},
-    "combined_notice": {"value": "5000-879058", "register": "R38"},
-    "small_7a_max": {"value": "$350,000", "register": "R26"},
-    "express_max": {"value": "$500,000", "register": "R27"}
+    "max_7a": {
+      "value": "$5 million",
+      "register": "R38"
+    },
+    "max_504": {
+      "value": "$5 million",
+      "note": "aggregate gross debentures; $5.5 million per project for small manufacturers and energy public policy projects",
+      "register": "R38"
+    },
+    "max_504_manufacturer": {
+      "value": "$5.5 million",
+      "register": "R38"
+    },
+    "combined": {
+      "value": "$10 million",
+      "note": "when the 7(a) loan is approved first and the 504 loan second; Policy Notice 5000-879058, effective July 4, 2026",
+      "register": "R38"
+    },
+    "combined_effective": {
+      "value": "2026-07-04",
+      "register": "R38"
+    },
+    "combined_notice": {
+      "value": "5000-879058",
+      "register": "R38"
+    },
+    "small_7a_max": {
+      "value": "$350,000",
+      "register": "R61"
+    },
+    "express_max": {
+      "value": "$500,000",
+      "register": "R61"
+    }
   },
   "jobs_504": {
-    "per_job": {"value": "$95,000", "register": "R37"},
-    "per_job_manufacturer_energy": {"value": "$150,000", "register": "R37"},
-    "source": {"value": "Federal Register 2025-19072 (90 FR 47117), 504 loans approved on or after October 1, 2025", "register": "R37"}
+    "per_job": {
+      "value": "$95,000",
+      "register": "R37"
+    },
+    "per_job_manufacturer_energy": {
+      "value": "$150,000",
+      "register": "R37"
+    },
+    "source": {
+      "value": "Federal Register 2025-19072 (90 FR 47117), 504 loans approved on or after October 1, 2025",
+      "register": "R37"
+    }
   },
   "rates": {
-    "prime": {"value": "7.00%", "as_of": "2026-10-09", "source": "Federal Reserve H.15, release of October 9, 2026", "register": "R45"},
-    "peg": {"value": "5.00%", "quarter": "October to December 2026 (Q1 FY2027)", "source": "Federal Register 2026-20080 (91 FR 62585), October 1, 2026", "register": "R46"},
-    "peg_prior": {"value": "4.75%", "note": "prior quarter, as reported in the fact sheet; not verified from a primary notice and not rendered on any page", "register": ""},
-    "tpl_504_max_spread": {"value": "6% over New York Prime", "register": "R47"},
-    "spreads_7a": {"value": [["$50,000 or less", "base rate + 6.5%"], ["$50,001 to $250,000", "base rate + 6.0%"], ["$250,001 to $350,000", "base rate + 4.5%"], ["$350,001 and over", "base rate + 3.0%"]], "register": "R54"}
+    "prime": {
+      "value": "7.00%",
+      "as_of": "2026-10-09",
+      "source": "Federal Reserve H.15, release of October 9, 2026",
+      "register": "R45"
+    },
+    "peg": {
+      "value": "5.00%",
+      "quarter": "October to December 2026 (Q1 FY2027)",
+      "source": "Federal Register 2026-20080 (91 FR 62585), October 1, 2026",
+      "register": "R46"
+    },
+    "peg_prior": {
+      "value": "4.75%",
+      "note": "prior quarter, as reported in the fact sheet; not verified from a primary notice and not rendered on any page",
+      "register": ""
+    },
+    "tpl_504_max_spread": {
+      "value": "6% over New York Prime",
+      "register": "R47"
+    },
+    "spreads_7a": {
+      "value": [
+        [
+          "$50,000 or less",
+          "base rate + 6.5%"
+        ],
+        [
+          "$50,001 to $250,000",
+          "base rate + 6.0%"
+        ],
+        [
+          "$250,001 to $350,000",
+          "base rate + 4.5%"
+        ],
+        [
+          "$350,001 and over",
+          "base rate + 3.0%"
+        ]
+      ],
+      "register": "R54"
+    }
   },
   "fees_fy2027": {
     "fiscal_year": "FY2027",
-    "window": {"value": "loans approved October 1, 2026 through September 30, 2027", "register": "R52"},
-    "upfront_7a": {"value": [["$150,000 or less", "2% of the guaranteed portion"], ["$150,001 to $700,000", "3% of the guaranteed portion"], ["$700,001 to $5,000,000", "3.5% of the guaranteed portion up to $1,000,000, plus 3.75% above $1,000,000"], ["maturity of 12 months or less", "0.25% of the guaranteed portion"]], "register": "R49"},
-    "annual_7a": {"value": "0.55%", "note": "of the outstanding guaranteed balance, paid by the lender", "register": "R49"},
-    "waiver_7a": {"value": "0%", "note": "upfront fee on loans of $700,000 or less to manufacturers (NAICS 31-33), the listed food supply chain codes, and businesses in a rural area", "register": "R50"},
-    "waiver_7a_max_loan": {"value": "$700,000", "register": "R50"},
-    "waiver_categories": {"value": ["manufacturers (NAICS sectors 31 to 33)", "food supply chain (NAICS 1111, 1112, 1113, 1121, 1122, 1123, 1124, 1125, 1129, 1141, 1151, 1152, 423820, 4244, 4245, 424910, 445110, 484220 and 484230 limited to refrigerated and frozen trucking, farm products, grain and livestock, 493120, 493130)", "businesses located in a rural area"], "register": "R50"},
-    "rural_definition": {"value": "a county that the U.S. Census Bureau has defined as at least 30 percent rural", "register": "R53"},
-    "upfront_504": {"value": "0.50%", "register": "R51"},
-    "annual_504": {"value": "0.203%", "register": "R51"},
-    "annual_504_refi": {"value": "0.204%", "note": "504 Debt Refinance without Expansion", "register": "R51"},
-    "waiver_504": {"value": "both 504 fees waived for the same three categories, including 504 refinance loans", "register": "R51"},
+    "window": {
+      "value": "loans approved October 1, 2026 through September 30, 2027",
+      "register": "R52"
+    },
+    "upfront_7a": {
+      "value": [
+        [
+          "$150,000 or less",
+          "2% of the guaranteed portion"
+        ],
+        [
+          "$150,001 to $700,000",
+          "3% of the guaranteed portion"
+        ],
+        [
+          "$700,001 to $5,000,000",
+          "3.5% of the guaranteed portion up to $1,000,000, plus 3.75% above $1,000,000"
+        ],
+        [
+          "maturity of 12 months or less",
+          "0.25% of the guaranteed portion"
+        ]
+      ],
+      "register": "R49"
+    },
+    "annual_7a": {
+      "value": "0.55%",
+      "note": "of the outstanding guaranteed balance, paid by the lender",
+      "register": "R49"
+    },
+    "waiver_7a": {
+      "value": "0%",
+      "note": "upfront fee on loans of $700,000 or less to manufacturers (NAICS 31-33), the listed food supply chain codes, and businesses in a rural area",
+      "register": "R50"
+    },
+    "waiver_7a_max_loan": {
+      "value": "$700,000",
+      "register": "R50"
+    },
+    "waiver_categories": {
+      "value": [
+        "manufacturers (NAICS sectors 31 to 33)",
+        "food supply chain (NAICS 1111, 1112, 1113, 1121, 1122, 1123, 1124, 1125, 1129, 1141, 1151, 1152, 423820, 4244, 4245, 424910, 445110, 484220 and 484230 limited to refrigerated and frozen trucking, farm products, grain and livestock, 493120, 493130)",
+        "businesses located in a rural area"
+      ],
+      "register": "R50"
+    },
+    "rural_definition": {
+      "value": "a county that the U.S. Census Bureau has defined as at least 30 percent rural",
+      "register": "R53"
+    },
+    "upfront_504": {
+      "value": "0.50%",
+      "register": "R51"
+    },
+    "annual_504": {
+      "value": "0.203%",
+      "register": "R51"
+    },
+    "annual_504_refi": {
+      "value": "0.204%",
+      "note": "504 Debt Refinance without Expansion",
+      "register": "R51"
+    },
+    "waiver_504": {
+      "value": "both 504 fees waived for the same three categories, including 504 refinance loans",
+      "register": "R51"
+    },
     "notice_7a": "5000-881797",
     "notice_504": "5000-881796"
   },
   "regulation": {
-    "feasibility_study": {"value": "13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study", "register": "R43"},
-    "occupancy_existing": {"value": "51%", "register": "R32"},
-    "occupancy_new": {"value": "60%", "register": "R32"},
-    "guaranty_threshold": {"value": "20%", "register": "R58"}
+    "feasibility_study": {
+      "value": "13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study",
+      "register": "R43"
+    },
+    "occupancy_existing": {
+      "value": "51%",
+      "register": "R32"
+    },
+    "occupancy_new": {
+      "value": "60%",
+      "register": "R32"
+    },
+    "guaranty_threshold": {
+      "value": "20%",
+      "register": "R58"
+    }
   },
   "history": {
-    "sop8": {"name": "SOP 50 10 8", "effective": "2025-06-01", "coo_dscr": "1.15x, projections allowed", "coo_equity": "10%, seller standby debt up to half", "coo_amortization": "blended, or 25 years when 51% or more of proceeds were real estate", "internal_valuation_max": "$250,000 of the amount financed net of real estate and equipment", "qoe": "not required", "small_7a_standard": "FICO SBSS score of at least 165", "sba_504_dscr": "1:1", "jobs_504": "$90,000 per job; $140,000 small manufacturers and energy", "pfs_age_days": "120", "seller_note_refinance_months": "24", "seller_consultant_months": "12", "sba_504_maturity_mixed": "majority of loan proceeds (same wording)", "special_purpose_list": "same 26-item list", "register_note": "value_8 column of REGISTER.csv"},
-    "august_8_1": {"name": "SOP 50 10 8.1 as issued August 14, 2026 (never in force)", "source": "IN 5000-882227's list of principal changes is the only primary record of the August wording", "small_express_coo": "not permitted", "internal_valuation": "no internal valuation option", "trust_guaranty": "guaranty required at any trust ownership percentage", "special_purpose_amortization": "10-year cap with no special purpose exemption", "qoe_buyer_ordered": "no provision for a buyer-commissioned report", "true_ups": "not distinguished from rebates", "mixed_purpose_7a": "51% real-estate option read as removed", "tpl_term": "bank loan could not amortize beyond the debenture term"}
+    "sop8": {
+      "name": "SOP 50 10 8",
+      "effective": "2025-06-01",
+      "coo_dscr": "1.15x, projections allowed",
+      "coo_equity": "10%, seller standby debt up to half",
+      "coo_amortization": "blended, or 25 years when 51% or more of proceeds were real estate",
+      "internal_valuation_max": "$250,000 of the amount financed net of real estate and equipment",
+      "qoe": "not required",
+      "small_7a_standard": "FICO SBSS score of at least 165",
+      "sba_504_dscr": "1:1",
+      "jobs_504": "$90,000 per job; $140,000 small manufacturers and energy",
+      "pfs_age_days": "120",
+      "seller_note_refinance_months": "24",
+      "seller_consultant_months": "12",
+      "sba_504_maturity_mixed": "majority of loan proceeds (same wording)",
+      "special_purpose_list": "same 26-item list",
+      "register_note": "value_8 column of REGISTER.csv"
+    },
+    "august_8_1": {
+      "name": "SOP 50 10 8.1 as issued August 14, 2026 (never in force)",
+      "source": "IN 5000-882227's list of principal changes is the only primary record of the August wording",
+      "small_express_coo": "not permitted",
+      "internal_valuation": "no internal valuation option",
+      "trust_guaranty": "a different threshold, per SBA's notice; the August figure is in no primary document",
+      "special_purpose_amortization": "10-year cap with no special purpose exemption",
+      "qoe_buyer_ordered": "no provision for a buyer-commissioned report",
+      "true_ups": "not distinguished from rebates",
+      "mixed_purpose_7a": "no primary record of a different August wording; the notice restates the rule",
+      "tpl_term": "bank loan could not amortize beyond the debenture term"
+    }
   }
 }
