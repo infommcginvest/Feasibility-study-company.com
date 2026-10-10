@@ -13,10 +13,12 @@ import html
 import json
 import os
 import re
+import subprocess
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 INPUT = os.path.join(ROOT, "docs", "web-fsc-1", "input")
 SITE = "https://feasibility-study-company.com"
+BASE_COMMIT = "d456950"  # default-branch head this lane was cut from
 
 CASES = [
     ("rv-park-ossipee-new-hampshire-usda", "New Hampshire", "USDA B&I"),
@@ -42,8 +44,9 @@ a.cite { color: var(--red); white-space: nowrap; }
 table.data td { min-width: 7em; }
 .related { max-width: 860px; margin-top: 40px; font-size: 15px; line-height: 1.7; }
 @media (max-width: 680px) {
-  table.data { font-size: 13.5px; }
-  table.data th, table.data td { padding: 10px 12px; }
+  table.data { font-size: 13px; }
+  table.data th, table.data td { padding: 9px 8px; min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+  table.data thead th { font-size: 11px; letter-spacing: 0.02em; }
 }
 </style>"""
 
@@ -393,8 +396,8 @@ COUNT_KEYS = ["asset-classes", "states", "cases", None]
 
 def build_about():
     path = os.path.join(ROOT, "the-practice", "index.html")
-    with open(path, encoding="utf-8") as fh:
-        shell = fh.read()
+    # always start from the pre-lane page so a rerun never converts a converted page
+    shell = subprocess.check_output(["git", "-C", ROOT, "show", BASE_COMMIT + ":the-practice/index.html"]).decode("utf-8")
     with open(os.path.join(INPUT, "about", "about.md"), encoding="utf-8") as fh:
         meta, body = front_matter(fh.read())
     links = ABOUT_LINKS

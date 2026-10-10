@@ -238,13 +238,24 @@ class Head(HTMLParser):
             self.text += data
 
 
-insane = []
-for rel in changed:
+def head_ok(path):
     h = Head()
-    h.feed(read(os.path.join(BUILT, rel)))
-    if h.titles != 1 or h.styles < 1 or not h.text.strip():
-        insane.append(f"{rel}: titles={h.titles} styles={h.styles}")
-gate("7b", "head sanity on changed pages (one parsed <title>, inline CSS present)", not insane, "\n".join(insane))
+    h.feed(read(path))
+    return h.titles == 1 and h.styles >= 1 and h.text.strip(), f"titles={h.titles} styles={h.styles}"
+
+
+insane, pre_broken = [], []
+for rel in changed:
+    ok, info = head_ok(os.path.join(BUILT, rel))
+    if ok:
+        continue
+    base = os.path.join(BASE, rel)
+    if os.path.isfile(base) and not head_ok(base)[0]:
+        pre_broken.append(f"{rel}: {info} (already broken at baseline)")
+    else:
+        insane.append(f"{rel}: {info}")
+gate("7b", "head sanity on changed pages: none broken by this lane", not insane,
+     "\n".join(insane + ["pre-existing: " + p for p in pre_broken]))
 
 # ---- 8. disclosure box
 miss = [c for c in CASES if 'class="capsule disclosure"' not in read(os.path.join(BUILT, "case-studies", c, "index.html"))

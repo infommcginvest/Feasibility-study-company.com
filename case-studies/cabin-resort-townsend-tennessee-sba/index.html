@@ -761,8 +761,9 @@ a.cite { color: var(--red); white-space: nowrap; }
 table.data td { min-width: 7em; }
 .related { max-width: 860px; margin-top: 40px; font-size: 15px; line-height: 1.7; }
 @media (max-width: 680px) {
-  table.data { font-size: 13.5px; }
-  table.data th, table.data td { padding: 10px 12px; }
+  table.data { font-size: 13px; }
+  table.data th, table.data td { padding: 9px 8px; min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+  table.data thead th { font-size: 11px; letter-spacing: 0.02em; }
 }
 </style>
 </head>
