@@ -1,0 +1,130 @@
+
+=== Gate 1: page count = baseline + 4: GREEN
+baseline 155, built 159, added ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html']
+
+=== Gate 2: text fidelity (differences listed for DECISIONS.md): GREEN
+-- case-studies/rv-park-ossipee-new-hampshire-usda/index.html: 2499 input words, 2578 built words, 5 difference(s)
+   insert  input: ''
+           built: 'Case Study · New Hampshire · RV Park and Campground · USDA B&I'
+   insert  input: ''
+           built: 'Market analysis by Mark Otava · Published October 10, 2026 · Data as of October 2026'
+   insert  input: ''
+           built: 'Home Case Studies RV Park and Campground Ossipee NH'
+   replace input: 'briefing.'
+           built: 'briefing'
+   insert  input: ''
+           built: 'Mark Otava Principal, Market Research, Feasibility Study Company The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.'
+-- case-studies/cabin-resort-townsend-tennessee-sba/index.html: 2411 input words, 2489 built words, 5 difference(s)
+   insert  input: ''
+           built: 'Case Study · Tennessee · Glamping and Cabin Resorts · SBA 504'
+   insert  input: ''
+           built: 'Market analysis by Mark Otava · Published October 10, 2026 · Data as of October 2026'
+   insert  input: ''
+           built: 'Home Case Studies Glamping and Cabin Resorts Townsend TN'
+   replace input: 'briefing.'
+           built: 'briefing'
+   insert  input: ''
+           built: 'Mark Otava Principal, Market Research, Feasibility Study Company The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.'
+-- case-studies/glamping-oak-hill-west-virginia-usda/index.html: 2300 input words, 2374 built words, 5 difference(s)
+   insert  input: ''
+           built: 'Case Study · West Virginia · Glamping · USDA B&I'
+   insert  input: ''
+           built: 'Market analysis by Mark Otava · Published October 10, 2026 · Data as of October 2026'
+   insert  input: ''
+           built: 'Home Case Studies Glamping Oak Hill WV'
+   replace input: 'briefing.'
+           built: 'briefing'
+   insert  input: ''
+           built: 'Mark Otava Principal, Market Research, Feasibility Study Company The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.'
+-- case-studies/dry-stack-cape-coral-florida-sba/index.html: 2489 input words, 2562 built words, 5 difference(s)
+   insert  input: ''
+           built: 'Case Study · Florida · Marina · SBA 504'
+   insert  input: ''
+           built: 'Market analysis by Mark Otava · Published October 10, 2026 · Data as of October 2026'
+   insert  input: ''
+           built: 'Home Case Studies Marina Cape Coral FL'
+   replace input: 'briefing.'
+           built: 'briefing'
+   insert  input: ''
+           built: 'Mark Otava Principal, Market Research, Feasibility Study Company The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.'
+-- the-practice/index.html: 1549 input words, 1511 built words, 11 difference(s)
+   insert  input: ''
+           built: 'The Practice'
+   delete  input: '·'
+           built: ''
+   delete  input: '·'
+           built: ''
+   insert  input: ''
+           built: 'Home The Practice'
+   delete  input: '32 64 4'
+           built: ''
+   insert  input: ''
+           built: '32'
+   insert  input: ''
+           built: '64'
+   insert  input: ''
+           built: '4'
+   delete  input: 'Credential Issuing body Verify [VERIFY BEFORE PUBLISHING: Ph.D., field, institution, year, dissertation title] [University] [ProQuest or repository link] [VERIFY BEFORE PUBLISHING: MAI, year designated] Appraisal Institute [Find an Appraiser directory link] [VERIFY BEFORE PUBLISHING: CCIM, year desi'
+           built: ''
+   replace input: 'briefing.'
+           built: 'briefing'
+   insert  input: ''
+           built: 'Mark Otava Principal, Market Research, Feasibility Study Company The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.'
+
+=== Gate 3: credentials grep returns nothing: GREEN
+
+=== Gate 4: placeholders absent from built output: RED
+docs/web-fsc-1/GATES.txt
+docs/web-fsc-1/CLOSE.md
+docs/web-fsc-1/DECISIONS.md
+docs/web-fsc-1/tools/convert.py
+docs/web-fsc-1/tools/gates.py
+docs/web-fsc-1/input/WEB-FSC-1-CHARTER.md
+docs/web-fsc-1/input/README.md
+docs/web-fsc-1/input/about/about.md
+docs/web-fsc-1/input/case-studies/cabin-resort-townsend-tennessee-sba.md
+docs/web-fsc-1/input/case-studies/dry-stack-cape-coral-florida-sba.md
+docs/web-fsc-1/input/case-studies/rv-park-ossipee-new-hampshire-usda.md
+docs/web-fsc-1/input/case-studies/glamping-oak-hill-west-virginia-usda.md
+docs/web-fsc-1/input/byline/byline-spec.md
+
+=== Gate 5: names grep across changed files and built output returns nothing: RED
+files with hits in built output: 42; at baseline: 42; hits ADDED by this lane: 0
+
+pre-existing files: asset-classes/assisted-living-and-memory-care/index.html, asset-classes/coffee-shop/index.html, asset-classes/express-car-wash/index.html, asset-classes/fitness-and-recreation/index.html, asset-classes/gas-station-and-c-store/index.html, asset-classes/glamping/index.html, asset-classes/hotel/index.html, asset-classes/multifamily/index.html, asset-classes/retail/index.html, asset-classes/rv-and-boat-storage/index.html, asset-classes/rv-park-and-campground/index.html, asset-classes/self-storage/index.html, asset-classes/truck-stop-and-travel-center/index.html, asset-classes/urgent-care/index.html, case-studies/assisted-living-arizona-hud/index.html, case-studies/assisted-living-florida-hud/index.html, case-studies/assisted-living-hawaii-hud/index.html, case-studies/assisted-living-north-carolina-hud/index.html, case-studies/assisted-living-texas-hud/index.html, case-studies/fitness-new-hampshire-sba/index.html, case-studies/glamping-utah-usda/index.html, case-studies/hotel-georgia-sba/index.html, case-studies/hotel-south-carolina-sba/index.html, case-studies/hotel-texas-sba/index.html, case-studies/retail-nevada-conventional/index.html, case-studies/rv-boat-storage-arizona-sba/index.html, case-studies/rv-boat-storage-california-sba/index.html, case-studies/rv-boat-storage-florida-sba/index.html, case-studies/rv-boat-storage-texas-sba/index.html, case-studies/rv-park-arizona-usda/index.html, case-studies/rv-park-maine-usda/index.html, case-studies/rv-park-texas-usda/index.html, case-studies/self-storage-arizona-sba/index.html, case-studies/self-storage-indiana-sba/index.html, research-notes/break-even-occupancy-trap/index.html, research-notes/c-store-franchise-category/index.html, research-notes/effective-rent-vs-asking-rent/index.html, research-notes/sba-feasibility-myth/index.html, research-notes/trade-area-is-the-study/index.html, research-notes/underserved-gas-station-markets/index.html, research-notes/why-feasibility-studies-fail-review/index.html, states/washington/index.html
+
+=== Gate 6: zero new broken internal links: GREEN
+broken targets at baseline: 482; built: 482; NEW broken targets: 0
+
+pre-existing broken targets also linked from the new or replaced pages (house header/footer):
+  /asset-classes/limited-service-hotel/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html']
+  /inquiries/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html']
+  /published-analyses/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/california/los-angeles/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/florida/miami/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/georgia/atlanta/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/north-carolina/charlotte/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/ohio/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/texas/austin/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/texas/dallas-fort-worth/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+  /states/texas/houston/ <- ['case-studies/cabin-resort-townsend-tennessee-sba/index.html', 'case-studies/dry-stack-cape-coral-florida-sba/index.html', 'case-studies/glamping-oak-hill-west-virginia-usda/index.html', 'case-studies/rv-park-ossipee-new-hampshire-usda/index.html', 'the-practice/index.html']
+
+=== Gate 7: JSON-LD parses on changed pages; cases carry Article, BreadcrumbList, author @id: GREEN
+changed pages checked: 150
+
+
+=== Gate 7b: head sanity on changed pages: none broken by this lane: GREEN
+pre-existing: case-studies/truck-stop-oklahoma-sba/index.html: titles=0 styles=1 (already broken at baseline)
+
+=== Gate 8: disclosure box on all four cases: GREEN
+
+=== SUMMARY
+Gate 1: GREEN  page count = baseline + 4
+Gate 2: GREEN  text fidelity (differences listed for DECISIONS.md)
+Gate 3: GREEN  credentials grep returns nothing
+Gate 4: RED  placeholders absent from built output
+Gate 5: RED  names grep across changed files and built output returns nothing
+Gate 6: GREEN  zero new broken internal links
+Gate 7: GREEN  JSON-LD parses on changed pages; cases carry Article, BreadcrumbList, author @id
+Gate 7b: GREEN  head sanity on changed pages: none broken by this lane
+Gate 8: GREEN  disclosure box on all four cases
