@@ -252,7 +252,8 @@ def set_head(shell, meta, url, og_type=None):
     title = html.escape(meta["title"], quote=False)
     desc = html.escape(meta["meta_description"], quote=True)
     t_attr = html.escape(meta["title"], quote=True)
-    s = re.sub(r"<title>.*?</title>", lambda m: f"<title>{title}</title>", shell, count=1, flags=re.S)
+    s, n = re.subn(r"^<title>.*?</title>$", lambda m: f"<title>{title}</title>", shell, count=1, flags=re.M)
+    assert n == 1, "title"
     reps = [
         (r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{desc}">'),
         (r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{url}">'),
