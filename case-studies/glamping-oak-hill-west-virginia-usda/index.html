@@ -762,7 +762,8 @@ table.data td { min-width: 7em; }
 .related { max-width: 860px; margin-top: 40px; font-size: 15px; line-height: 1.7; }
 @media (max-width: 680px) {
   table.data { font-size: 13px; }
-  table.data th, table.data td { padding: 9px 8px; min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+  table.data th, table.data td { padding: 9px 8px; min-width: 0; }
+  table.data td:first-child { min-width: 8.5em; }
   table.data thead th { font-size: 11px; letter-spacing: 0.02em; }
 }
 </style>
