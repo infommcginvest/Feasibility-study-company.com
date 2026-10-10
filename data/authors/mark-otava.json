@@ -1,0 +1,14 @@
+{
+  "id": "mark-otava",
+  "name": "Mark Otava",
+  "role": "Principal, Market Research",
+  "profile_url": "/the-practice/#who-stands-behind-the-research",
+  "person_id": "https://feasibility-study-company.com/#mark-otava",
+  "bio_short": "",
+  "credentials": [
+    { "abbr": "Ph.D.", "name": "", "issuer": "", "verify_url": "" },
+    { "abbr": "MAI",   "name": "MAI designation", "issuer": "Appraisal Institute", "verify_url": "" },
+    { "abbr": "CCIM",  "name": "CCIM designation", "issuer": "CCIM Institute", "verify_url": "" }
+  ],
+  "same_as": []
+}
