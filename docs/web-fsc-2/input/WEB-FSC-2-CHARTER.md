@@ -141,7 +141,7 @@ The main session reviews every cluster report, applies or rejects each change an
    List every allowed hit inside a historical wrapper.
 4. **Data file.** Every value on the SBA hub, in the new note and in the stat blocks renders from `sba.json`. Change the peg rate in a throwaway local build, confirm the pages change, then revert without committing.
 5. **Case math.** Every recomputation script reruns, and its output matches the published tables.
-6. **Names and sources.** `grep -riE "mmcg|mohelsky|unionmetric"` returns nothing across changed files and built output. No link to [sister-firm-domain] anywhere.
+6. **Names and sources.** `grep -riE "<the four forbidden strings of constraint 2, as one case-insensitive alternation>"` returns nothing across changed files and built output. No link to [sister-firm-domain] anywhere.
 7. **Credentials.** `grep -riE "otava,? *(ph\.?d|ccim|mai)"` across source and built output returns nothing.
 8. **Links and schema.** Zero new broken internal links. JSON-LD parses on every changed page. The new note carries Article, BreadcrumbList and the author `@id`.
 9. **Look.** Screenshot the SBA hub, the new note, the myth note and three changed asset pages at desktop and mobile widths into `docs/web-fsc-2/look/`. Fix table overflow.
