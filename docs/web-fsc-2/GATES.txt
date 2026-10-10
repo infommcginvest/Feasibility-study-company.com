@@ -1,0 +1,72 @@
+
+=== Gate 1: page count = baseline + 1: GREEN
+baseline 159 built 160 added ['research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/index.html']
+
+=== Gate 2: coverage: inventory classified; markers trace to verified rows: GREEN
+inventory rows 4022, unclassified 0, unknown ids 0, untraceable markers 0 []
+
+=== Gate 3: stale-claim grep outside historical wrappers: GREEN
+hits 0
+
+allowed inside historical wrappers: 33
+  ('research-notes/c-store-franchise-category/index.html', 'SBSS as current', '2025).</span> SBA has since retired its SBSS credit-score screen, effective March 1,')
+  ('research-notes/sba-default-economics/index.html', 'SOP 50 10 8 as current', 'an data-historical="SOP 50 10 8">First, SOP 50 10 8, effective June 1, 2025, re-tightened underwriting, so post-Jun')
+  ('research-notes/sba-default-economics/index.html', 'combined limit not $10M', 'dministrator Kelly Loeffler) raised the combined 7(a)-plus-504 ceiling to         $10 million, allowing up to $5 million in 7(a) plus up to $5 million in 504 wh')
+  ('research-notes/why-feasibility-studies-fail-review/index.html', 'SOP 50 10 8 as current', 'ced <span data-historical="SOP 50 10 8">SOP 50 10 8 (effective June 1, 2025)</span> and governs  applications recei')
+  ('research-notes/franchise-vs-non-franchise/index.html', 'SOP 50 10 8 as current', 'ong><span data-historical="SOP 50 10 8">SOP 50 10 8, effective June 1, 2025, reinstated the Franchise Directory.</s')
+  ('research-notes/franchise-vs-non-franchise/index.html', 'SOP 50 10 8 as current', ' SOP edition effective Aug. 1, 2023 and SOP 50 10 8 (effective June 1, 2025)</span>; SBA Information Notice 5000-86')
+  ('research-notes/franchise-vs-non-franchise/index.html', 'combined limit not $10M', '         up to $5 million in 504, for a combined $10 million</strong> in SBA-backed financing when the 7(a) loan is approved first, doubling the         prior $5 million combined ceiling. SBA Administrator Kel')
+  ('research-notes/sba-feasibility-myth/index.html', 'SOP 50 10 8 as current', 'ing <span data-historical="SOP 50 10 8">SOP 50 10 8 (effective June 1, 2025)</span>; <span data-historical="earlier')
+  ('research-notes/sba-feasibility-myth/index.html', '50 10 7', 'ry 1, 2018), 50 10 6 (October 1, 2020), 50 10 7 (August 1, 2023), 50 10 7.1 (November 1')
+  ('research-notes/sba-feasibility-myth/index.html', '50 10 7', 'ber 1, 2020), 50 10 7 (August 1, 2023), 50 10 7.1 (November 15, 2023), 50 10 8 (June 1,')
+  ('research-notes/sba-feasibility-myth/index.html', '50 10 7', 'ry 1, 2018), 50 10 6 (October 1, 2020), 50 10 7 (August 1, 2023), and 50 10 7.1 (Novemb')
+  ('research-notes/sba-feasibility-myth/index.html', '50 10 7', '1, 2020), 50 10 7 (August 1, 2023), and 50 10 7.1 (November 15, 2023)</span>. Related n')
+  ('research-notes/sba-feasibility-myth/index.html', 'SBSS as current', 'ing the March 1, 2026 retirement of the SBSS credit score for 7(a) Small loans (Proc')
+  ('practice-areas/sba-7a-504/index.html', 'SOP 50 10 8 as current', '<span data-historical="SOP 50 10 8">SBA SOP 50 10 8, effective June 1, 2025 (superseded)</span>, for the historical')
+  ('practice-areas/sba-7a-504/index.html', 'SBSS as current', '(a) Small credit standard</td><td> FICO SBSS score of at least 165 </td><td>Unchange')
+  ('practice-areas/sba-7a-504/index.html', 'SBSS as current', 'rocedural Notice 5000-876777, Sunset of SBSS Score, effective March 1, 2026.</li>   ')
+  ('practice-areas/sba-7a-504/index.html', '504 1:1 or 1.0x', 'tatements</td></tr>             <tr><td>504 coverage</td><td> 1:1 </td><td>Historical floor introduced</t')
+  ('practice-areas/sba-7a-504/index.html', '$90,000 jobs', '>             <tr><td>504 jobs</td><td> $90,000 per job; $140,000 small manufacturers a')
+  ('practice-areas/sba-7a-504/index.html', '$250,000 valuation', "></tr>             <tr><td>Lender's own business valuation</td><td> $250,000 of the amount financed net of real esta")
+  ('asset-classes/quick-service-restaurant/index.html', 'SOP 50 10 8 as current', '10 8">Law-firm summaries of the earlier SOP 50 10 8 (effective June 1, 2025), via Starfield &amp; Smith, Taft Law, ')
+  ('asset-classes/private-school/index.html', '$90,000 jobs', '          with New Jersey examples near $90,000 and, at the high-disability end,       ')
+  ('asset-classes/private-school/index.html', '$90,000 jobs', '100,000+, with New Jersey examples near $90,000 and, at the high-disability end, $160,7')
+  ('asset-classes/rv-park-and-campground/index.html', 'SOP 50 10 8 as current', 'ier <span data-historical="SOP 50 10 8">SOP 50 10 8 (effective June 1, 2025)</span>, discussed by SBA504Blog, FundM')
+  ('asset-classes/behavioral-health/index.html', 'SBSS as current', 'st be reserved for. SBA has retired the SBSS credit-score screen for 7(a) Small loan')
+  ('asset-classes/behavioral-health/index.html', 'SBSS as current', 'st be reserved for. SBA has retired the SBSS credit-score screen for 7(a) Small loan')
+  ('case-studies/qsr-arkansas-sba/index.html', 'SBSS as current', 'longer applies because SBA discontinued SBSS effective March 1, 2026.<sup class="fn"')
+  ('case-studies/qsr-arkansas-sba/index.html', 'SBSS as current', 'longer applies because SBA discontinued SBSS scoring effective March 1, 2026.</li>  ')
+  ('case-studies/qsr-georgia-sba/index.html', 'SBSS as current', 'longer applies because SBA discontinued SBSS scoring effective March 1, 2026.</li>  ')
+  ('case-studies/cabin-resort-townsend-tennessee-sba/index.html', '504 1:1 or 1.0x', 'cabin, $332,135, is the gap. A standard 504 structure needs top-quartile performance just to clear 1.0x, short of the  1.15x  historical floor ')
+  ('states/mississippi/index.html', 'combined limit not $10M', ' effective July 4, 2026); NAGGL (2026): combined 7(a)-plus-504 cap of $10 million (individual caps $5 million / $5 million, $5.5 million for small manufacturers),')
+  ('states/indiana/index.html', 'combined limit not $10M', '/td><td>All 92 counties; approved 1,289 combined 7(a) and 504 loans in FY2023, supporting $728M+ in total financing</td></tr>          ')
+  ('states/new-jersey/index.html', 'combined limit not $10M', 'e borrowers up           to $10 million combined (with the 7(a) approved first) &mdash; $5 million 7(a) plus $5 million 504, or $5.5 million 504 for           manufacturers and ene')
+  ('states/new-jersey/index.html', 'combined limit not $10M', 'ng the 7(a) and 504 caps to $10 million combined (with the 7(a) approved first) ($5.5 million 504 for manufacturers and energy); NAGG')
+
+=== Gate 4: data file renders (regulatory.py --check; hub stat block and note carry markers): GREEN
+0 page(s) out of date; hub markers 131, note markers 63, stat markers True
+
+=== Gate 6: names: none in changed files; no sister-domain link anywhere: GREEN
+changed files with names []; built changed pages []; sister-domain links anywhere []
+  (pre-existing pages with the abbreviation, not changed by this lane: 11)
+
+=== Gate 7: credentials never typed next to the name: GREEN
+[]
+
+=== Gate 8: no new broken internal links; JSON-LD parses; note carries Article, BreadcrumbList, author @id: GREEN
+broken targets baseline 482 built 480 new []; ld errors []; note schema True
+
+RESULT: ALL GREEN
+
+=== Gate 5: case math: GREEN (by hand)
+python3 -I docs/web-fsc-2/clusters/recompute-veterinary-michigan-sba.py -> debt service 550k -> 647k; DSCR Y2 1.30 -> 1.10, Y3 1.50 -> 1.27 vs the 1.25:1 floor; the published table carries 647k, 1.10, 1.27 and the "thin headroom" verdict.
+python3 -I docs/web-fsc-2/clusters/recompute-marina-maryland-sba.py -> projected 1.10 / 1.30 / 1.45 match the table; 504 floor 1.15x (R30) governs as financed; tables unchanged.
+
+=== Gate 9: look: GREEN (by hand)
+docs/web-fsc-2/look/: hub, new note, myth note, gas station, hotel and marina at 1440 px and at 390 px (iframe harness). No page-level horizontal scroll at 390 px; the wide comparison tables scroll inside .data-table-wrap as house tables do. Hub and note recaptured after the verifier fixes.
+
+=== Gate 10: verifier: GREEN after fixes
+docs/web-fsc-2/VERIFIER.md: 0 BLOCKER, 7 MAJOR, all fixed in commit 36c465c (ESOP equity wording, August trust column no longer states a figure, TPL rate State-maximum clause, new-construction lease-up conditions, consultant scope and extensions, "can count" for due diligence costs, Form 413 sentence removed); the unmapped statements now trace to R08, R11a, R30, R31, R33, R38, R49 and the new R61.
+
+=== Deploy
+Draft: deploy 6aca50850f1f57b286c9f7c1 (checked: 10 URLs). Production: deploy 6aca50cac15d911dc73c09ca at 2026-10-10 ~16:50 UTC from `git archive a91093f`. Production checks: hub, new note, myth note and five changed pages HTTP 200 with "SOP 50 10 8.1"; /docs/* 404; sitemap lists the new note.
