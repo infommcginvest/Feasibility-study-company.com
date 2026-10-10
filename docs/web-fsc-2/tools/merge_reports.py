@@ -21,9 +21,14 @@ for X in 'ABCDEF':
         if not line.startswith('|'): continue
         cells = [c.strip() for c in line.strip().strip('|').split('|')]
         if len(cells) < 5 or not re.match(r'^\d+$', cells[1]): continue
+        if cells[2].upper().replace(' ', '_') not in CLASSES and len(cells) >= 6 and cells[3].upper().replace(' ', '_') in CLASSES:
+            cells = [cells[0], cells[1]] + cells[3:]
         f, ln, cls, rid, res = cells[0].strip('`'), cells[1], cells[2].upper().replace(' ', '_'), cells[3].strip('`'), ' | '.join(cells[4:])
         if cls not in CLASSES: continue
         rows = by.get((f, ln))
+        if not rows:
+            for cand in (f, f.rstrip('/') + '/index.html', f'asset-classes/{f}/index.html', f'case-studies/{f}/index.html', f'case-studies/{f}-sba/index.html', f'asset-classes/{f.replace("asset-classes/","")}/index.html'.replace('//','/'), f'states/{f}/index.html', f'research-notes/{f}/index.html'):
+                if (cand, ln) in by: f = cand; rows = by[(cand, ln)]; break
         if not rows: unmatched.append((X, f, ln)); continue
         i = used[(f, ln)]; used[(f, ln)] += 1
         targets = [rows[i]] if i < len(rows) else []
