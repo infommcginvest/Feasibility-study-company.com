@@ -733,7 +733,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
       "description": "Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.",
       "areaServed": { "@type": "Country", "name": "United States" },
       "knowsAbout": [
-        "SBA SOP 50 10 8",
+        "SBA SOP 50 10 8.1",
         "SBA 7(a) feasibility studies",
         "SBA 504 feasibility studies",
         "USDA 7 CFR Part 5001",
@@ -819,12 +819,12 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
         {
           "@type": "Question",
           "name": "When is a feasibility study required for an SBA loan?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Under SOP 50 10 8, effective June 1, 2025, the SBA’s feasibility-study requirement is discretionary: the lender or agency may require one, and it sits alongside appraisals as a tool the lender can invoke. In practice, feasibility analysis is expected for special-purpose properties and for startup or ground-up projects that lack operating history." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Under 13 CFR 120.160(b), the SBA’s feasibility-study requirement is discretionary: the lender or agency may require one, and it sits alongside appraisals as a tool the lender can invoke. In practice, feasibility analysis is expected for special-purpose properties and for startup or ground-up projects that lack operating history." }
         },
         {
           "@type": "Question",
           "name": "What is a special-purpose property under SBA rules?",
-          "acceptedAnswer": { "@type": "Answer", "text": "A special-purpose property has a unique physical design or layout that restricts its utility to the use for which it was built. SOP 50 10 8 provides a non-exhaustive list including hotels and motels, gas stations, car washes, bowling alleys, golf courses, marinas, nursing homes, wineries, and cold-storage facilities where more than 50 percent of square footage is refrigerated. These carry higher equity-injection requirements and heightened underwriting scrutiny." }
+          "acceptedAnswer": { "@type": "Answer", "text": "A special-purpose property has a unique physical design or layout that restricts its utility to the use for which it was built. SOP 50 10 8.1 provides a non-exhaustive list including hotels and motels, gas stations, car washes, bowling alleys, golf courses, marinas, nursing homes, wineries, and cold-storage facilities where more than 50 percent of square footage is refrigerated. On a 504 loan they carry a 15 percent borrower contribution (20 percent for a new business as well), against 10 percent for a standard project, and heightened underwriting scrutiny." }
         },
         {
           "@type": "Question",
@@ -1154,13 +1154,13 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
             <tr><th scope="col">Program</th><th scope="col">Governing rule</th><th scope="col">Feasibility trigger</th><th scope="col">Coverage convention</th></tr>
           </thead>
           <tbody>
-            <tr><td>SBA 7(a) &amp; 504</td><td>SOP 50 10 8 (eff. June 1, 2025)</td><td>Discretionary; expected for special-purpose and startup projects</td><td>Lenders commonly 1.15x&ndash;1.25x</td></tr>
+            <tr><td>SBA 7(a) &amp; 504</td><td><!--sba:sop.name-->SOP 50 10 8.1 with Technical Policy Updates<!--/sba:sop.name--> (eff. <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->)</td><td>Discretionary; expected for special-purpose and startup projects</td><td>Lenders commonly 1.15x&ndash;1.25x</td></tr>
             <tr><td>USDA OneRD (B&amp;I, CF, REAP)</td><td>7 CFR Part 5001</td><td>Required for guaranteed loans &gt; $1M to a new entity or new activity (&sect;5001.303)</td><td>Program-dependent</td></tr>
             <tr><td>EB-5</td><td>RIA 2022; 8 CFR 204.6</td><td>Dual deliverable: feasibility analysis + I-956F economic impact report</td><td>Not coverage-based</td></tr>
             <tr><td>Conventional / institutional</td><td>Lender &amp; investor credit policy</td><td>Set by credit committee; standard for construction and ground-up</td><td>Commonly ~1.20x+</td></tr>
           </tbody>
         </table>
-        <p class="table-source">Sources: SBA SOP 50 10 8; 7 CFR Part 5001 &sect;&sect;5001.3, 5001.303; EB-5 Reform and Integrity Act of 2022; USCIS Policy Manual Vol. 6 Part G. Coverage figures are market conventions, not codified minimums.</p>
+        <p class="table-source">Sources: SBA <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short-->; 7 CFR Part 5001 &sect;&sect;5001.3, 5001.303; EB-5 Reform and Integrity Act of 2022; USCIS Policy Manual Vol. 6 Part G. Coverage figures are market conventions, not codified minimums.</p>
       </div>
 
       <!-- DATA TABLE 2: DSCR stress illustration -->
@@ -1236,7 +1236,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
       <aside class="panel" aria-label="Standards applied">
         <h3>Standards We Build To</h3>
         <ul>
-          <li>SBA SOP 50 10 8 <span>eff. June 1, 2025</span></li>
+          <li>SBA <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--> <span>eff. <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective--></span></li>
           <li>7 CFR Part 5001 <span>USDA OneRD</span></li>
           <li>USCIS Policy Manual <span>Vol. 6, Part G</span></li>
           <li>USPAP Standard 4 <span>analysis discipline</span></li>
@@ -1261,7 +1261,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
         <article class="card">
           <div class="card-top">
             <div class="card-cat">SBA Lending</div>
-            <div class="card-cite">SOP 50 10 8 &middot; effective June 1, 2025</div>
+            <div class="card-cite"><!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--> &middot; effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective--></div>
           </div>
           <div class="card-body">
             <h3><a href="/practice-areas/sba-7a-504/">SBA 7(a) &amp; 504</a></h3>
@@ -1665,11 +1665,11 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
         <p class="faq-group-label">SBA requirements</p>
         <details>
           <summary>When is a feasibility study required for an SBA loan?</summary>
-          <p>Under SOP 50 10 8, effective June 1, 2025, the SBA&rsquo;s feasibility-study requirement is discretionary: the lender or agency may require one, and it sits alongside appraisals as a tool the lender can invoke. In practice, feasibility analysis is expected for special-purpose properties and for startup or ground-up projects that lack operating history.</p>
+          <p>Under 13 CFR 120.160(b), the SBA&rsquo;s feasibility-study requirement is discretionary: the lender or agency may require one, and it sits alongside appraisals as a tool the lender can invoke. In practice, feasibility analysis is expected for special-purpose properties and for startup or ground-up projects that lack operating history.</p>
         </details>
         <details>
           <summary>What is a special-purpose property under SBA rules?</summary>
-          <p>A special-purpose property has a unique physical design or layout that restricts its utility to the use for which it was built. SOP 50 10 8 provides a non-exhaustive list including hotels and motels, gas stations, car washes, bowling alleys, golf courses, marinas, nursing homes, wineries, and cold-storage facilities where more than 50 percent of square footage is refrigerated. These carry higher equity-injection requirements and heightened underwriting scrutiny.</p>
+          <p>A special-purpose property has a unique physical design or layout that restricts its utility to the use for which it was built. <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--> provides a non-exhaustive list including hotels and motels, gas stations, car washes, bowling alleys, golf courses, marinas, nursing homes, wineries, and cold-storage facilities where more than 50 percent of square footage is refrigerated. On a 504 loan they carry a <!--sba:equity.sba_504_new_or_special-->15%<!--/sba:equity.sba_504_new_or_special--> borrower contribution (<!--sba:equity.sba_504_new_and_special-->20%<!--/sba:equity.sba_504_new_and_special--> for a new business as well), against <!--sba:equity.sba_504_standard-->10%<!--/sba:equity.sba_504_standard--> for a standard project, and heightened underwriting scrutiny.</p>
         </details>
 
         <p class="faq-group-label">USDA requirements</p>
