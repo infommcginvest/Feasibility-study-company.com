@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/self-storage-indiana-sba/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Indiana &middot; Self-Storage &middot; SBA 504</p>
-      <h1>Self-Storage Feasibility Study, Indiana &mdash; An SBA 504 Worked Case</h1>
+      <h1>Self-Storage Feasibility Study, Indiana &mdash; An SBA 504 Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new-build
         climate-controlled self-storage facility underwritten to an SBA 504 credit, from trade-area
@@ -1360,7 +1372,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s10">U.S. Census Bureau and the firm's Indiana market analysis: Indianapolis-metro population and household growth; metro multifamily occupancy near 94% with vacancy still falling and industrial vacancy at 6.9% (Q1 2026), a metro digesting supply rather than broadly oversupplied; Indiana storage supply is market-driven, with no Certificate-of-Need gate for storage.</li>
         <li id="s11">Indiana utility and economic data (firm's Indiana analysis): average residential electric bills +17.5% in the year to July 2025 and NIPSCO +26.7%, amid a data-center recruitment wave (AWS's $11 billion Project Rainier plus $15 billion more, Google in Fort Wayne, Meta in Jeffersonville) straining the grid, so national utility-cost assumptions understate a climate-controlled facility's power expense.</li>
         <li id="s12">U.S. Small Business Administration Indiana District Office (Indianapolis, covering all 92 counties) and the Indiana Statewide Certified Development Corporation (~51% of the state's 504 dollars in fiscal 2023, with Premier Capital, the Greater Northwest Indiana CDC, and the Regional Development Company also active); USDA Business &amp; Industry eligibility for owner-operated self-storage since the December 10, 2021 final rule (86 FR 70356, amending 7 CFR 5001.115), in rural areas of 50,000 population or fewer.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

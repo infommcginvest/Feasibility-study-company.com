@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/rv-park-maine-usda/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Maine &middot; RV Park &amp; Campground &middot; USDA B&amp;I</p>
-      <h1>RV Park &amp; Campground Feasibility Study, Maine &mdash; A USDA B&amp;I Worked Case</h1>
+      <h1>RV Park &amp; Campground Feasibility Study, Maine &mdash; A USDA B&amp;I Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new-build
         RV resort with cabins underwritten to a USDA Business &amp; Industry guaranteed loan, from
@@ -1361,7 +1373,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s13">USDA Rural Development, Maine State Office, Bangor (2026): roughly 99 percent of Maine's land area is USDA-eligible rural territory, with only Portland, Bangor, and Lewiston outside; Northern Border Regional Commission Catalyst Program (up to $50 million across a 13-county Maine service area), Finance Authority of Maine (FAME), and Coastal Enterprises Inc. (CEI) as distinctive rural and mission channels.</li>
         <li id="s14">Freddie Mac and Fannie Mae manufactured-housing-community loan program terms (via Multifamily.loans and CommercialRealEstate.loans, 2025): the RV-resort exclusion ("No RV resorts or broken condominiums allowed"), which routes pure transient RV resorts toward SBA, USDA, conventional bank, CMBS, or debt-fund capital.</li>
         <li id="s15">SDRetirementPlans (2026, citing RVIA and industry data): outperformance of parks within a 30-to-60-minute drive of a major attraction on both occupancy and rate, and remote-work and drive-market demand drivers.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

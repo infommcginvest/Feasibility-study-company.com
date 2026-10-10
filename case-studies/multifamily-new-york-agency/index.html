@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/multifamily-new-york-agency/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; New York &middot; Multifamily &middot; Agency / Conventional</p>
-      <h1>Multifamily Feasibility Study, New York &mdash; An Agency / Conventional Worked Case</h1>
+      <h1>Multifamily Feasibility Study, New York &mdash; An Agency / Conventional Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new-build
         market-rate apartment project underwritten to a conventional bank construction loan and a
@@ -1362,7 +1374,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s10">New York City Local Law 97 (Climate Mobilization Act) decarbonization penalties and the 485-x construction-wage floors (up to $72.45 per hour in Manhattan Zone A, indexed 2.5% annually), as compiled in the firm's New York market analysis; absent a tax abatement, property taxes can consume roughly 30% of rental income.</li>
         <li id="s11">Multifamily per-unit economics as compiled in the firm's Multifamily analysis: existing product trading near $208,000 per unit against all-in development of $300,000 per unit or more in high-cost submarkets; multifamily operating expenses running 38 to 55 percent of revenue depending on tax basis, insurance, and management.</li>
         <li id="s12">National Apartment Association and John Burns Research and Consulting, 2026 Apartment Outlook: renting is cheaper than owning on a monthly-cost basis in all 50 of the 50 largest U.S. metros, sustaining renter demand among households priced out of for-sale housing.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

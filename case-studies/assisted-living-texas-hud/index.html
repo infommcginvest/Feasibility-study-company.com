@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/assisted-living-texas-hud/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Texas &middot; Assisted Living &amp; Memory Care &middot; HUD 232</p>
-      <h1>Assisted Living Feasibility Study, Texas &mdash; A HUD 232 Worked Case</h1>
+      <h1>Assisted Living Feasibility Study, Texas &mdash; A HUD 232 Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and senior housing feasibility consultant
         team analyzed a new-build assisted living and memory care community underwritten to a HUD Section
@@ -1348,7 +1360,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s10">ASHA / State of Seniors Housing and The Weitz Company construction-cost briefs (early 2026): total development cost ~$317,400 per unit ($333 per square foot); assisted living construction $280&ndash;$452 per square foot by tier.</li>
         <li id="s11">CBRE, 17th U.S. Senior Housing &amp; Care Investor Survey (late October 2025) and JLL, 2026 Seniors Housing &amp; Care Investor Survey (March 12, 2026): average Q4 2025 cap rate ~6.2 percent, transaction volume the highest since 2015; Appraisal Institute going-concern / business-enterprise-value method allocating value among real estate, FF&amp;E, and intangible value.</li>
         <li id="s12">U.S. Census Bureau, Vintage 2024 Population Estimates (Texas ~31.3 million as of July 1, 2024; Houston metro added 198,000+ residents in 2023&ndash;24; exurban Texas cities among the fastest-growing nationally); Texas Comptroller of Public Accounts (2nd-largest U.S. economy, ~$2.9 trillion GDP; 90%+ of Texans in metropolitan counties; no state personal income tax); National Conference of State Legislatures on Certificate of Need and Texas HHSC 26 TAC 554.2322 (no general CON law, but a Medicaid nursing-facility bed cap; HHSC may de-allocate beds below 70 percent occupancy).</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 </main>

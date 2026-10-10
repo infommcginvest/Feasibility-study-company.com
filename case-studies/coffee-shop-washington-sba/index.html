@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/coffee-shop-washington-sba/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Washington &middot; Coffee Shop &middot; SBA 7(a)</p>
-      <h1>Coffee Shop Feasibility Study, Washington &mdash; An SBA 7(a) Worked Case</h1>
+      <h1>Coffee Shop Feasibility Study, Washington &mdash; An SBA 7(a) Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new
         double-drive-thru specialty coffee project underwritten to an SBA 7(a) credit, from
@@ -1363,7 +1375,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s10">U.S. Small Business Administration, Seattle District Office directory (2026): serves all of Washington except four southwest counties (Portland District); offices in Seattle and Spokane; Washington-active 7(a) Preferred Lenders include WaFd, Columbia, and Banner, with 504 credits routing through Evergreen Business Capital (Puget Sound) and the Northwest Business Development Association (Eastern Washington); combined 7(a)-plus-504 cap raised to $10 million effective July 4, 2026 (SBA Policy Notice / News Release 26-52).</li>
         <li id="s11">Holland &amp; Knight, RSM, and Kiplinger (2025), with USGS and the Washington Department of Natural Resources: Washington levies no personal income tax but a Business &amp; Occupation gross-receipts tax and a combined sales tax of 7.7%&ndash;10.35%; and Cascadia Subduction Zone and Seattle Fault seismic-design provisions are a material ground-up cost and underwriting factor priced per project rather than assumed away.</li>
         <li id="s12">U.S. Small Business Administration SOP 50 10 8 (reinstated Franchise Directory) and the Scooter's Coffee FDD, with the GoSBA 2025 SBA FOIA analysis: a franchised coffee brand must be listed on the SBA Franchise Directory before franchise loan proceeds can be disbursed, franchise fee loads such as Scooter's 6% royalty plus a 2% brand fund compress owner earnings, and roughly 10% of SBA loans go to franchises &mdash; the franchised-versus-independent divide underwritten here as an independent operator with no FDD Item 19 data to lean on.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

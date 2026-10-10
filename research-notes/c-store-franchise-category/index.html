@@ -794,7 +794,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       "articleSection": "Research",
       "inLanguage": "en-US",
       "isPartOf": { "@id": "https://feasibility-study-company.com/#org" },
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "datePublished": "2026-07-11",
       "dateModified": "2026-07-11",
@@ -820,7 +820,19 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -933,7 +945,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   <section class="hero article-hero">
     <div class="frame">
       <p class="hero-eyebrow">Research Note &middot; Gas Station</p>
-      <h1>Underwriting the C-Store Franchise: A Going Concern, Not a Gas Station</h1>
+      <h1>Underwriting the C-Store Franchise: A Going Concern, Not a Gas Station</h1><!--fsc:byline-article {"published": "2026-07-11"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-11">July 11, 2026</time></p><!--/fsc:byline-article-->
       <p class="article-deck">
         A convenience-store franchise is a going-concern retail business, not passive real estate, and its
         profit lives inside the store rather than at the pump. Underwrite it like a sales-royalty restaurant
@@ -1499,7 +1511,11 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> July 2026.</p>
       </div>
 
-    </div>
+    <!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature--></div>
   </article>
 
   <!-- ============ CTA ============ -->

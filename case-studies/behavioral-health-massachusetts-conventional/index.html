@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/behavioral-health-massachusetts-conventional/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Massachusetts &middot; Behavioral Health &amp; SUD &middot; Conventional</p>
-      <h1>Behavioral Health Feasibility Study, Massachusetts &mdash; A Conventional Worked Case</h1>
+      <h1>Behavioral Health Feasibility Study, Massachusetts &mdash; A Conventional Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new,
         ground-up residential behavioral health and substance-use-disorder (SUD) treatment facility
@@ -1400,7 +1412,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s13">Massachusetts Department of Public Health, Determination of Need Program; M.G.L. c. 111 &sect;25C and 105 CMR 100.000; DPH DoN bulletin, &ldquo;Expenditure Minimums for Applying for a DoN 2025-26&rdquo; (memo dated November 18, 2025; hospital Substantial Capital Expenditure threshold $27,668,903.99, effective October 1, 2025 through September 30, 2026); 105 CMR 100.210 (Community Health Initiative contribution generally at least 5 percent of approved project cost).</li>
         <li id="s14">U.S. Census Bureau, Vintage 2024 and Vintage 2025 Population Estimates (Massachusetts 7,136,171 as of July 1, 2024; approximately 7.15 million by mid-2025, with net international migration falling from about 78,000 to roughly 40,000 and continued domestic out-migration), used to build the PMA catchment; Massachusetts carries among the highest electricity rates in the continental United States, elevating operating expense above national assumptions.</li>
         <li id="s15">CBRE, Q4 2025 Multifamily Underwriting Survey and lender coverage conventions; conventional and agency lenders size a loan to the most restrictive of loan-to-value, debt-service coverage, and debt yield, with bank construction coverage conventions of roughly 1.20x to 1.40x on a cost basis and a takeout test; in a higher-rate environment coverage binds before leverage.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

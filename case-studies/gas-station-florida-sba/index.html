@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/gas-station-florida-sba/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Florida &middot; Gas Station &amp; C-Store &middot; SBA 7(a)</p>
-      <h1>Gas Station Feasibility Study, Florida &mdash; An SBA 7(a) Worked Case</h1>
+      <h1>Gas Station Feasibility Study, Florida &mdash; An SBA 7(a) Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and feasibility consultant team analyzed
         a new-build fuel-and-convenience project underwritten to an SBA 7(a) credit, from trade-area
@@ -1328,7 +1340,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s13">Insurance Business America (citing a 2026 LendingTree analysis), Insurify 2026 home-insurance data, and MoneyGeek Florida hurricane-deductible analysis (2026): Florida property insurance runs roughly 2.8 times the U.S. average with premiums up 49.5% from 2020 to 2025; commercial named-storm deductibles of 2 to 10 percent of insured value modeled as first-dollar risk; the market stabilized after SB 2-A (signed December 16, 2022) but has not cheapened.</li>
         <li id="s14">USDA Rural Development, Florida and U.S. Virgin Islands state office, Gainesville (current 2026); USDA land-eligibility summary: roughly 73% of Florida land area qualifies as USDA-eligible rural territory.</li>
         <li id="s15">SBA fiscal 2025 lender data (Live Oak Bank press release, October 6, 2025; Coleman Report fiscal 2025 rankings): Live Oak Bank the number-one national SBA 7(a) lender by dollar volume in fiscal 2025; Florida 504 credits routed through statewide Certified Development Companies including Florida First Capital Finance Corporation and the Florida Business Development Corporation.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

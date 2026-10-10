@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/multifamily-arizona-agency/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Arizona &middot; Multifamily &middot; Agency / Conventional</p>
-      <h1>Multifamily Feasibility Study, Arizona &mdash; An Agency / Conventional Worked Case</h1>
+      <h1>Multifamily Feasibility Study, Arizona &mdash; An Agency / Conventional Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and apartment feasibility consultant team
         analyzed a new market-rate community underwritten to a conventional bank construction loan and a
@@ -1412,7 +1424,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s14">Arizona Department of Water Resources, Phoenix AMA groundwater model (June 2023): approximately 4.86 million acre-foot 100-year shortfall and a pause on new groundwater-reliant Assured Water Supply determinations under the 1980 Groundwater Management Act; Designation and Certificate of Assured Water Supply framework.</li>
         <li id="s15">TSMC press release, remarks of CEO C.C. Wei (March 4, 2025): total planned Arizona investment of $165 billion, the largest foreign direct investment in U.S. history; JLL, North American Data Center Report &mdash; Midyear 2025: metro Phoenix #2 for planned development.</li>
         <li id="s16">Yardi Matrix, Winter 2026 outlook (via Multifamily Dive and CRE Daily): per-unit apartment trade pricing near $208,000, below the cost to build in high-cost submarkets where all-in development runs $300,000 per unit or more &mdash; the development-margin context for merchant construction.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

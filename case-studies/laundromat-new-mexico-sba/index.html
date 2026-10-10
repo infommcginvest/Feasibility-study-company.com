@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/laundromat-new-mexico-sba/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; New Mexico &middot; Laundromat &middot; SBA 7(a)</p>
-      <h1>Laundromat Feasibility Study, New Mexico &mdash; An SBA 7(a) Worked Case</h1>
+      <h1>Laundromat Feasibility Study, New Mexico &mdash; An SBA 7(a) Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new-build
         attended self-service laundromat underwritten to an SBA 7(a) credit, from trade-area renter
@@ -1344,7 +1356,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s11">ProjectionHub analysis of SBA loan data and the firm's New Mexico market analysis: Live Oak Banking Company leading laundromat-acquisition lending nationally; New Mexico served by a single SBA district office in Albuquerque, with Western Commerce Bank of Carlsbad the leading New Mexico-headquartered 7(a) lender; USDA Rural Development Business &amp; Industry financing for towns of 50,000 or fewer.</li>
         <li id="s12">U.S. Census Bureau, Vintage 2024 Population Estimates, and New Mexico state data as compiled in the firm's New Mexico market analysis: ~2.1 million residents (July 2024), projected to peak near 2.14 million around 2035; Albuquerque multifamily comparatively balanced at ~94.7% occupancy; New Mexico a full non-Certificate-of-Need state, so retail supply is market-set rather than permit-gated.</li>
         <li id="s13">U.S. Environmental Protection Agency, TSCA perchloroethylene (PERC) risk-management rule (effective January 17, 2025): PERC banned in dry cleaning and phased out through December 19, 2034; only about 14% of surveyed stores offer dry cleaning, so a pure wash-and-dry store is low-risk, but the tail liability is severe; a lender requires a Phase I ESA (and a Phase II where any dry-clean history exists), which the feasibility author references but does not perform.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

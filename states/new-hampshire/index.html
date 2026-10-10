@@ -711,7 +711,34 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--><!--fsc:author-ld {"url": "https://feasibility-study-company.com/states/new-hampshire/"}--><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://feasibility-study-company.com/states/new-hampshire/#webpage",
+  "url": "https://feasibility-study-company.com/states/new-hampshire/",
+  "author": {
+    "@type": "Person",
+    "@id": "https://feasibility-study-company.com/#mark-otava",
+    "name": "Mark Otava"
+  },
+  "publisher": {
+    "@id": "https://feasibility-study-company.com/#org"
+  }
+}
+</script><!--/fsc:author-ld--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -1339,6 +1366,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
     </div>
   </section>
 
+  <!-- ============ WORKED CASES ============ -->
+  <section class="section section-alt" id="worked-cases" aria-labelledby="h-worked-cases">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Worked Case</span>
+        <h2 id="h-worked-cases">New Hampshire worked case.</h2>
+      </div>
+      <ul class="link-cols">
+        <li><a href="/case-studies/rv-park-ossipee-new-hampshire-usda/">RV Park Feasibility Study, Ossipee NH: USDA B&amp;I Worked Case</a></li>
+      </ul>
+    </div>
+  </section>
+
   <!-- ============ FAQ ============ -->
   <section class="section section-alt" id="faq" aria-labelledby="h-faq">
     <div class="frame">
@@ -1395,7 +1435,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <h2 id="h-sources">Data sources and dates.</h2>
         <p class="lede">Every figure on this page traces to a named authority. Real-estate readings are point-in-time and vendor-dependent; each is attributed at its point of use.</p>
       </div>
-      <ol class="sources">
+      <!--fsc:line-state {"updated": "2026-07-12"}--><p class="byline byline-reviewed">Market data reviewed by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Updated <time datetime="2026-07-12">July 12, 2026</time></p><!--/fsc:line-state--><ol class="sources">
         <li id="s1">UNH Carsey School of Public Policy and U.S. Census Bureau, New Hampshire population estimates (population as of July 1, 2024; released March 2025), including county change and net-migration data.</li>
         <li id="s2">Tax Foundation, state-and-local tax burden and property-tax reliance analysis (2026); 59.5 percent property-tax reliance and 1.50 percent effective rate on owner-occupied housing.</li>
         <li id="s3">ATTOM, property-tax rates by state (2025); New Hampshire ranked sixth by effective rate at 1.29 percent.</li>

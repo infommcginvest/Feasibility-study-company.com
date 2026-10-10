@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/truck-stop-georgia-sba/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Georgia &middot; Truck Stop &amp; Travel Center &middot; SBA 504</p>
-      <h1>Truck Stop Feasibility Study, Georgia &mdash; An SBA 504 Worked Case</h1>
+      <h1>Truck Stop Feasibility Study, Georgia &mdash; An SBA 504 Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and travel center feasibility consultant
         team analyzed a new-build interstate truck stop and travel center underwritten to an SBA 504
@@ -1364,7 +1376,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s14">National Hurricane Center / FOX5 Atlanta, Hurricane Helene Georgia impact (September 2024): Augusta/Richmond County damage over $500 million and roughly 1.3 million power outages on an inland wind track; Partners Real Estate reported a 35% Atlanta-portfolio insurance-premium increase (2024), evidencing an inland-catastrophe and insurance overlay for Georgia deals.</li>
         <li id="s15">ASTM E1527-21 and SBA environmental policy (SOP 50 10 8): a travel center's large-diameter, high-throughput diesel underground-storage-tank system creates a materially larger environmental footprint than a retail gas station, requiring a Phase I and, where warranted, a Phase II Environmental Site Assessment; the feasibility author references but does not perform the ESA, which is a separate Environmental Professional's engagement.</li>
         <li id="s16">Heavy-truck electrification horizon (2024&ndash;2025 industry data): fewer than 100 megawatt-scale public charging stations exist nationally and only about 1,700 electric trucks were sold in the United States in 2024, so diesel demand persists near-to-medium term but carries genuine long-horizon stranded-asset risk on a 20-to-30-year loan, addressed through amortization, reserves, and reversion assumptions.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/multifamily-north-carolina-agency/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; North Carolina &middot; Multifamily &middot; Agency / Conventional</p>
-      <h1>Multifamily Feasibility Study, North Carolina &mdash; An Agency / Conventional Worked Case</h1>
+      <h1>Multifamily Feasibility Study, North Carolina &mdash; An Agency / Conventional Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and apartment feasibility consultant team
         analyzed a new-build, market-rate apartment community underwritten to a conventional bank
@@ -1366,7 +1378,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s15">North Carolina Department of Insurance, homeowners rate settlement (January 17, 2025) and dwelling-policy settlement (April 22, 2026): property-insurance costs rising statewide and to be stress-tested in net operating income.</li>
         <li id="s16">Tax Foundation (2026) and NC Office of State Budget and Management (May 2026): corporate income-tax phase-out (2.0 percent effective January 1, 2026, on a path to zero by 2030) and a flat personal income-tax rate of 3.99 percent for 2026; North Carolina Certificate of Need applies to healthcare, not market-rate multifamily.</li>
         <li id="s17">NAA Income/Expense IQ (2024 dataset) and IREM Income/Expense Analysis: multifamily operating expenses commonly 38 to 55 percent of revenue, with property taxes reassessed to the buyer's or completed-project basis rather than the historical bill.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/grocery-store-mississippi-usda/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Mississippi &middot; Grocery &amp; Supermarket &middot; USDA B&amp;I</p>
-      <h1>Grocery Store Feasibility Study, Mississippi &mdash; A USDA B&amp;I Worked Case</h1>
+      <h1>Grocery Store Feasibility Study, Mississippi &mdash; A USDA B&amp;I Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and supermarket feasibility consultant team
         analyzed a new-build, full-service grocery underwritten to a USDA Business and Industry (B&amp;I)
@@ -1376,7 +1388,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s14">Build Up Mississippi Act (H.B. 1, signed March 27, 2025); Tax Foundation and Mississippi Department of Revenue: individual income tax 4.4% (2025) stepping down toward elimination, and the state grocery sales tax cut from 7% to 5% effective July 1, 2025.</li>
         <li id="s15">USDA Rural Development, Mississippi state office, Jackson (2026), State Director Dane Maxwell, with area offices in Brookhaven, Hattiesburg, Batesville, and Starkville &mdash; the in-state channel administering B&amp;I guaranteed lending.</li>
         <li id="s16">UCLA Anderson / University of Toronto and University of Florida / IFAS (2025) on dollar-store impact (roughly one grocery closure per three dollar stores within a two-mile radius, with 4&ndash;7.4% declines in fresh-produce purchases in affected neighborhoods); K-State Rural Grocery Initiative on rural store loss (Kansas lost 105 rural grocery stores from 2008 to 2018). Contested; presented as competitive context.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

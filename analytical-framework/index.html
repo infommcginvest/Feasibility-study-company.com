@@ -725,7 +725,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
       "headline": "Feasibility Study Methodology: How a Study Is Built",
       "description": "The ten-layer analytical method behind an institutional feasibility study, with worked examples and the primary-source standards it is measured against.",
       "mainEntityOfPage": { "@id": "https://feasibility-study-company.com/analytical-framework/#webpage" },
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "datePublished": "2026-05-01",
       "dateModified": "2026-07-08",
@@ -790,7 +790,19 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -903,7 +915,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Analytical Framework</p>
-      <h1>Feasibility Study Methodology</h1>
+      <h1>Feasibility Study Methodology</h1><!--fsc:byline-framework--><p class="byline">Written by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p><!--/fsc:byline-framework-->
       <p class="hero-sub">
         How an institutional feasibility study is built, layer by layer, from market area definition
         through coverage and stress testing, and the primary-source standards it is measured against.
@@ -1482,7 +1494,11 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
         <li id="s4">U.S. Department of Housing and Urban Development, MAP Guide and forms HUD-92273, HUD-92274, and HUD-92264, with the 120-day exhibit-currency rule.</li>
         <li id="s5">Uniform Standards of Professional Appraisal Practice, 2024 Edition, The Appraisal Foundation; appraisal review is governed by Standards 3 and 4.</li>
         <li id="s6">U.S. Citizenship and Immigration Services, Policy Manual, Volume 6, Part G (EB-5); EB-5 Reform and Integrity Act of 2022, with the first threshold inflation adjustment effective January 1, 2027.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
       <p class="reviewed"><strong>Reviewed and updated:</strong> July 2026. This page is re-reviewed quarterly and whenever a cited standard changes.</p>
     </div>
   </section>

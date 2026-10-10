@@ -165,7 +165,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-o
 
 /* ---------- stat band: editorial rows ---------- */
 .stat-band { background: var(--white); padding: 10px 0 64px; }
-.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.stat-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 40px; }
 .stat { border-top: 2px solid var(--ink); padding: 22px 0 0; }
 .stat-num {
   font-weight: 800;
@@ -886,7 +886,34 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--><!--fsc:author-ld {"url": "https://feasibility-study-company.com/"}--><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://feasibility-study-company.com/#webpage",
+  "url": "https://feasibility-study-company.com/",
+  "author": {
+    "@type": "Person",
+    "@id": "https://feasibility-study-company.com/#mark-otava",
+    "name": "Mark Otava"
+  },
+  "publisher": {
+    "@id": "https://feasibility-study-company.com/#org"
+  }
+}
+</script><!--/fsc:author-ld--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -1017,7 +1044,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
           pressure, and a study that cannot support its conclusion is not delivered with one.
         </p>
       </div>
-    </div>
+    <!--fsc:line-home--><p class="byline">Research directed by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p><!--/fsc:line-home--></div>
   </section>
 
   <!-- ============ STAT BAND (coverage, not deal history) ============ -->
@@ -1029,16 +1056,20 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
           <div class="stat-label">Program Regimes Covered</div>
         </div>
         <div class="stat">
-          <div class="stat-num">25</div>
+          <div class="stat-num"><!--fsc:count:asset-classes-->28<!--/fsc:count:asset-classes--></div>
           <div class="stat-label">Asset Classes in Practice</div>
         </div>
         <div class="stat">
-          <div class="stat-num">12</div>
+          <div class="stat-num"><!--fsc:count:states-->32<!--/fsc:count:states--></div>
           <div class="stat-label">State Practice Profiles</div>
         </div>
         <div class="stat">
           <div class="stat-num">10</div>
           <div class="stat-label">Analytical Framework Layers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><!--fsc:count:cases-->64<!--/fsc:count:cases--></div>
+          <div class="stat-label">Worked Cases Published</div>
         </div>
       </div>
     </div>

@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/rv-park-pennsylvania-usda/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Pennsylvania &middot; RV Park &amp; Campground &middot; USDA B&amp;I</p>
-      <h1>RV Park &amp; Campground Feasibility Study, Pennsylvania &mdash; A USDA B&amp;I Worked Case</h1>
+      <h1>RV Park &amp; Campground Feasibility Study, Pennsylvania &mdash; A USDA B&amp;I Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and feasibility consultant team analyzed a
         new-build RV resort and campground underwritten to a USDA Business &amp; Industry (B&amp;I)
@@ -1361,7 +1373,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s10">USDA Business and Industry program under the OneRD rule (7 CFR Part 5001): guarantees up to 80% of loans up to $25 million ($40 million in select cases) in communities of 50,000 or fewer, with a feasibility study required for loans over $1 million and a NEPA environmental review; tangible-balance-sheet equity expected on ground-up, single-purpose projects.</li>
         <li id="s11">7 CFR Part 5001, defining a USDA feasibility study prepared by an independent qualified consultant and its five required components &mdash; economic, market, technical, financial, and management feasibility &mdash; and the over-$1-million-to-a-new-entity threshold.</li>
         <li id="s12">Outdoor-hospitality demand-driver evidence: parks within a 30-to-60-minute drive of a major attraction consistently outperform remote locations on occupancy and rate; the demand-driver test requiring quantified attraction visitation, corridor traffic counts, event calendars, and feeder-market proximity rather than asserted demand.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

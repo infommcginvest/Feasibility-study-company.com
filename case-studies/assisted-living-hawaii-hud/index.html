@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/assisted-living-hawaii-hud/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Hawaii &middot; Assisted Living &amp; Memory Care &middot; HUD 232</p>
-      <h1>Assisted Living Feasibility Study, Hawaii &mdash; A HUD 232 Worked Case</h1>
+      <h1>Assisted Living Feasibility Study, Hawaii &mdash; A HUD 232 Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and senior housing feasibility consultant
         team analyzed a ground-up assisted living and memory care community underwritten to a HUD-FHA
@@ -1358,7 +1370,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s14">Clearhouse Lending, Hawaii construction-cost analysis (2025); Grassroot Institute of Hawaii, "Quantifying the Cost of the Jones Act to Hawaii," John Dunham &amp; Associates (2020): Hawaii construction costs roughly 30 to 50 percent or more above the mainland; State Land Use Commission four-district regime under HRS Chapter 205, with entitlement timelines of a decade or more outside the Urban district.</li>
         <li id="s15">Hawaii Department of Taxation, General Excise Tax on gross rental and service receipts at 4.5 percent (HRS &sect;237); Hawaii Prepaid Health Care Act, HRS Chapter 393 (employer health-insurance mandate at 20+ hours per week); Hawaii Department of Labor and Industrial Relations minimum-wage schedule ($16 on January 1, 2026).</li>
         <li id="s16">Hawaii State Census office and DBEDT, Vintage 2025 population estimates (released January 27, 2026): 1,432,820 residents as of July 1, 2025, a net loss of 2,132; U.S. Energy Information Administration via Electric Choice, residential electricity 46.62 cents per kWh (April 2026); Hawaii among the nation's highest life expectancy with a rapidly aging population.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 

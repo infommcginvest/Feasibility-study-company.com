@@ -697,7 +697,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
       "datePublished": "2026-07-13",
       "dateModified": "2026-07-13",
       "image": "https://feasibility-study-company.com/og.png",
-      "author": { "@id": "https://feasibility-study-company.com/#org" },
+      "author": { "@type": "Person", "@id": "https://feasibility-study-company.com/#mark-otava", "name": "Mark Otava" },
       "publisher": { "@id": "https://feasibility-study-company.com/#org" },
       "mainEntityOfPage": "https://feasibility-study-company.com/case-studies/self-storage-arizona-sba/"
     },
@@ -713,7 +713,19 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   ]
 }
 </script>
-</head>
+<!--fsc:style--><style>
+.byline { font-size: 14px; line-height: 1.6; color: var(--grey); margin-top: 26px; }
+.byline a { color: var(--ink); font-weight: 600; border-bottom: 1px solid var(--line); }
+.byline a:hover { color: var(--red); border-bottom-color: var(--red); }
+.byline-reviewed { margin: 0 0 22px; }
+.signature { border-top: 2px solid var(--ink); margin-top: 56px; padding-top: 22px; max-width: var(--prose); }
+.signature p { margin: 0; }
+.signature__name { font-weight: 700; font-size: 17px; }
+.signature__name a { color: var(--ink); }
+.signature__name a:hover { color: var(--red); }
+.signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
+.signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
+</style><!--/fsc:style--></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -826,7 +838,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   <section class="hero">
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Arizona &middot; Self-Storage &middot; SBA 504</p>
-      <h1>Self-Storage Feasibility Study, Arizona &mdash; An SBA 504 Worked Case</h1>
+      <h1>Self-Storage Feasibility Study, Arizona &mdash; An SBA 504 Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a new-build,
         climate-controlled self-storage facility underwritten to an SBA 504 credit, from
@@ -1359,7 +1371,11 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <li id="s14">Arizona Department of Revenue and Arizona Commerce Authority: 2.5% flat personal income tax (Proposition 132), the lowest flat rate in the country; 4.9% corporate rate; business personal-property exemption rising to $500,000 in 2026; National Conference of State Legislatures on Arizona as a non-Certificate-of-Need state.</li>
         <li id="s15">U.S. Small Business Administration, Arizona District Office directory (Phoenix, with Tucson and Show Low branches); TMC Financing (&ldquo;Arizona SBA 504 Lender of the Year&rdquo;; 155 Arizona 504 loans / $543M over a two-year window) and Arizona Capital Source (rebranded Business Development Finance Corporation); sbalenderdata.com computed from the SBA 7(a) FOIA dataset (Arizona 7,055 loans / $4.37B, FY2020&ndash;Q1 FY2026; Live Oak Banking Company leads by dollar volume).</li>
         <li id="s16">StorageCafe, Migration Trends report (November 2024, analyzing U.S. Census county-to-county data 2013&ndash;2022): more than 630,000 California-to-Arizona movers over the period; moving is the single largest self-storage demand driver, making in-migration a primary lease-up catalyst.</li>
-      </ol>
+      </ol><!--fsc:signature--><aside class="signature" aria-label="Signed by">
+  <p class="signature__name"><a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a></p>
+  <p class="signature__role">Principal, Market Research, Feasibility Study Company</p>
+  <p class="signature__note">The market conclusion on this page is signed by the principal. Every figure is sourced and dated in the list above. Worked cases are representative examples built from public data, not client engagements.</p>
+</aside><!--/fsc:signature-->
     </div>
   </section>
 </main>
