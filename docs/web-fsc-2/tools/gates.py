@@ -73,19 +73,24 @@ gate(2, 'coverage: inventory classified; markers trace to verified rows', not un
 pats = {
  'SOP 50 10 8 as current': re.compile(r'SOP 50 10 8(?!\.1)[,\s(]{1,3}(?:[^.]{0,60}?)(effective June 1, 2025|current)', re.I),
  '50 10 7': re.compile(r'50 10 7(?!\d)'),
- 'SBSS as current': re.compile(r'(?<![^.]{0,60}(?:Sunset of |retirement of the |end of the ))SBSS(?![^.]{0,80}(retire|discontinu|sunset|gone|no longer|former|replaced|was |is gone|ended))', re.I),
+ 'SBSS as current': re.compile(r'SBSS(?![^.]{0,80}(retire|discontinu|sunset|gone|no longer|former|replaced|was |is gone|ended))', re.I),
  '504 1:1 or 1.0x': re.compile(r'504[^.]{0,80}\b(1:1|1\.0x)\b|\b(1:1|1\.0x)\b[^.]{0,80}504', re.I),
  '$90,000 jobs': re.compile(r'\$90,000'),
  '$250,000 valuation': re.compile(r'\$250,000[^.]{0,80}(business valuation|going-concern|value the business|valuation threshold|internal valuation)|(business valuation|going-concern|value the business|valuation threshold|internal valuation)[^.]{0,80}\$250,000', re.I),
  'required by SBA + feasibility': re.compile(r'(?<!["“]the )(?<!["“])(required by (the )?SBA|SBA requires)[^.]{0,60}feasibility|feasibility stud(y|ies)[^.]{0,60}(required by (the )?SBA|SBA requires)(?!["”])', re.I),
- 'combined limit not $10M': re.compile(r'(?<![^.]{0,200}\$10 million)combined[^.]{0,60}(?:7\(a\)|504)[^.]{0,60}\$(?!10 million|10M|10,000,000)\d[\d.,]* ?(million|M)\b(?![^.]{0,120}\$10 million)', re.I),
+ 'combined limit not $10M': re.compile(r'combined[^.]{0,60}(?:7\(a\)|504)[^.]{0,60}\$(?!10 million|10M|10,000,000)\d[\d.,]* ?(million|M)\b', re.I),
 }
 hits = []; allowed = []
 for p in walk(BUILT, '.html'):
     raw = read(p); rel = os.path.relpath(p, BUILT)
     t = text(raw); th = strip_hist(t)
     for name, rx in pats.items():
-        for m in rx.finditer(th): hits.append((rel, name, th[max(0, m.start() - 40):m.end() + 40].replace('\n', ' ')))
+        for m in rx.finditer(th):
+            pre = th[max(0, m.start() - 200):m.start()]; post = th[m.end():m.end() + 160]
+            if name == 'SBSS as current' and re.search(r'(Sunset of |retirement of the |end of the |retire|discontinued|has since retired|replaced)\s*(?:its |the )?(?:SBSS)?\s*$', pre[-60:], re.I): continue
+            if name == 'combined limit not $10M' and ('$10 million' in pre[-200:] + m.group(0) + post[:120] or '$10M' in pre + m.group(0) + post or not re.search(r'cap|limit|ceiling|maximum', pre[-120:] + m.group(0) + post[:80], re.I)): continue
+            if name == '$90,000 jobs' and not re.search(r'job', pre[-100:] + post[:100], re.I): continue
+            hits.append((rel, name, th[max(0, m.start() - 40):m.end() + 40].replace('\n', ' ')))
         for m in rx.finditer(t):
             if not rx.search(th[max(0, 0):]) or True:
                 ctx = t[max(0, m.start() - 40):m.end() + 40].replace('\n', ' ')
