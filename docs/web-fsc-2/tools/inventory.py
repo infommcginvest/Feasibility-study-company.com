@@ -119,6 +119,7 @@ for f in files:
                 if key in seen: continue
                 seen.add(key)
                 stmt = text if len(text) <= 420 else text[:420] + ' …'
+                stmt = re.sub(r'mmcginvest\.com', '[sister-firm-domain]', stmt, flags=re.I); stmt = re.sub(r'mmcg', '[sister-firm]', stmt, flags=re.I); stmt = re.sub(r'mohelsky', '[sister-firm-name]', stmt, flags=re.I); stmt = re.sub(r'unionmetric', '[sister-firm-2]', stmt, flags=re.I)
                 rows.append(dict(file=f, url=url, line=i, statement=stmt, category=cat, match=m.group(0), register_id=refine(cat, pid, ctx)))
 with open(OUT, 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, fieldnames=['file', 'url', 'line', 'statement', 'category', 'match', 'register_id', 'classification', 'resolution', 'cluster'])
