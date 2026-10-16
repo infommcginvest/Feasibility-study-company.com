@@ -7,10 +7,11 @@ feasibility study, and a word of compulsion, without "may require" or a negation
 import html
 import re
 
-SENT = re.compile(r"[^.!?]*[.!?]")
-COMPEL = re.compile(r"\b(requires?|required|mandatory|mandates?|mandated|triggers?|compulsory|must (?:obtain|commission|order|have))\b", re.I)
+SENT = re.compile(r"(?:[^.!?]|(?<=\d)\.(?=\d))+[.!?]")   # a period between digits (8.1, 120.160) does not end a sentence
+COMPEL = re.compile(r"\b(requires?|required|requiring|requirements?|mandatory|mandates?|mandated|triggers?|compulsory|necessary|must (?:obtain|commission|order|have))\b", re.I)
 OK = re.compile(r"may require|does not|doesn't|do not|no rule|not (?:a )?(?:mandatory|required)|\bnever\b|isn't|is not|\boptional\b|"
-                r"at (?:its|the lender's|their) discretion|\bmyth\b|lender[s']* (?:may|often|routinely|usually|typically) (?:ask|require|want)", re.I)
+                r"at (?:its|the lender's|their) discretion|\bmyth\b|rather than (?:universally )?mandated|"
+                r"lender[s']* (?:may|often|commonly|routinely|usually|typically) (?:ask|require|want)", re.I)
 
 
 def text_of(h):

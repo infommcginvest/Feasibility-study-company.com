@@ -353,7 +353,12 @@ def check(urls, pages, cache, show_figs=False, show_overlap=0):
             if u != url:
                 for k in nums:
                     elsewhere.add(k)
-        uniq = {n: raw for n, (raw, key) in figs.items() if not elsewhere.has(key)}
+        # a figure counts once per page: a rounded or rescaled restatement on the same page (14,469,300 and 14.47 M) is the same figure
+        uniq, own = {}, NumberIndex()
+        for n, (raw, key) in figs.items():
+            if not elsewhere.has(key) and not own.has(key):
+                uniq[n] = raw
+            own.add(key)
         rec["figures_sourced"] = len(figs)
         rec["figures_unique"] = len(uniq)
         if show_figs:

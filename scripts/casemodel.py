@@ -1186,9 +1186,14 @@ def process_returns(check):
                     problems.append(f"returns {slug}: stale region {name}")
             return f"<!--case:{slug}.{name}-->{new}<!--/case:{slug}.{name}-->"
         out = REGION.sub(sub, text)
-        bare = re.sub(r"<!--case:[^>]*-->.*?<!--/case:[^>]*-->", " ", re.sub(r"<(script|style)\b.*?</\1>", " ", text, flags=re.S), flags=re.S)
-        bare = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", bare))
-        for m in re.finditer(r"\d+(?:\.\d+)?\s?(?:%|percent)[^.]{0,60}\bIRR\b|\bIRR\b[^.]{0,60}?\d+(?:\.\d+)?\s?(?:%|percent)", bare):
+        # every place a reader or a search engine can read an IRR: body text outside the computed regions, meta content, JSON-LD
+        noregion = re.sub(r"<!--case:[^>]*-->.*?<!--/case:[^>]*-->", " ", text, flags=re.S)
+        meta = " ".join(re.findall(r'<meta\b[^>]*\bcontent="([^"]*)"', noregion))
+        ld = " ".join(re.findall(r'<script type="application/ld\+json">(.*?)</script>', noregion, flags=re.S))
+        body = re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)\b.*?</\1>", " ", noregion, flags=re.S))
+        bare = re.sub(r"\s+", " ", " ".join([body, meta, ld]))
+        irr_words = r"(?:\bIRR\b|internal rate of return|levered (?:equity )?return|equity return)"
+        for m in re.finditer(r"\d+(?:\.\d+)?\s?(?:%|percent)[^.]{0,60}" + irr_words + r"|" + irr_words + r"[^.]{0,60}?\d+(?:\.\d+)?\s?(?:%|percent)", bare, re.I):
             problems.append(f"returns {slug}: an IRR figure stated outside the computed regions: ...{m.group(0)[:90]}...")
         if not seen:
             problems.append(f"returns {slug}: the page has no case:{slug}.v.irr_pct region")
