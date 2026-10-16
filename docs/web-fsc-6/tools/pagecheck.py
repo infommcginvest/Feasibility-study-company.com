@@ -26,7 +26,10 @@ from bs4 import BeautifulSoup
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-TEXAS_METROS = ["houston", "dallas-fort-worth", "austin", "san-antonio", "mcallen", "el-paso", "lubbock", "corpus-christi"]
+TEXAS_METROS_ALL = ["houston", "dallas-fort-worth", "austin", "san-antonio", "mcallen", "el-paso", "lubbock", "corpus-christi"]
+# Gate 5 folds: a metro under 25 unique own-geography figures becomes a section of the Texas page (DECISIONS D16)
+FOLDED_METROS = ["mcallen", "el-paso", "lubbock", "corpus-christi"]
+TEXAS_METROS = [m for m in TEXAS_METROS_ALL if m not in FOLDED_METROS]
 GAS_SUBTYPES = ["branded-fuel", "unbranded-independent", "convenience-no-fuel", "foodservice-qsr", "interstate-highway", "ev-charging"]
 CASES = ["gas-station-texas-sba", "gas-station-florida-sba", "gas-station-alabama-sba", "gas-station-georgia-sba",
          "gas-station-versailles-ohio-sba", "truck-stop-texas-sba", "hotel-texas-sba", "rv-park-texas-usda",
@@ -123,8 +126,13 @@ def shingles(text, n=8):
 
 
 def norm(fig):
-    f = fig.lower().replace(" ", "").replace("percent", "%")
-    return f.rstrip(".,")
+    """One spelling per figure: $12.5 billion, $12.5 B and $12.5b are the same figure."""
+    f = fig.lower().replace(" ", "").replace("\u00a0", "").replace("percent", "%")
+    f = f.rstrip(".,")
+    for word, short in (("trillion", "t"), ("billion", "b"), ("million", "m"), ("thousand", "k")):
+        if f.endswith(word):
+            f = f[: -len(word)] + short
+    return f
 
 
 def all_numbers(text):
