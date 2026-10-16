@@ -72,6 +72,7 @@ UNITS = (r"acres?|sites?|keys|rooms|units|beds|residents|people|jobs|employees|w
 FIG = re.compile(r"(?<![\w.$])(\$\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|thousand|trillion|[mbkt]\b))?"
                  r"|\d[\d,]*(?:\.\d+)?\s?(?:%|percent\b|x\b)"
                  r"|\d[\d,]*(?:\.\d+)?\s(?:million|billion|trillion)\b"
+                 r"|\d[\d,]*\.\d+\s?[MB]\b"
                  r"|\d{1,3}(?:,\d{3})+(?:\.\d+)?"
                  r"|\d+\.\d+"
                  r"|\d{2,}(?=\s(?:" + UNITS + r")\b))", re.I)

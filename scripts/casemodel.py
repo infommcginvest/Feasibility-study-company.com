@@ -856,7 +856,7 @@ class Renderer:
         p = self.c.program
         if p == "sba_7a":
             if t1.get("rate_basis") == "prime_plus_max":
-                notes.append(f"Rate: Prime of {self.c.sba.val('rates.prime')} {self.rule_cite('prime')} plus the maximum spread SBA allows for this loan size {self.rule_cite('sop')}; a lender may price lower.")
+                notes.append(f"Rate: Prime of {self.c.sba.val('rates.prime')} {self.rule_cite('prime')} plus the maximum variable-rate spread SBA allows for this loan size {self.rule_cite('sop')}, held for the full term; a fixed-rate loan has its own, separate maximum, and a lender may price lower.")
             else:
                 notes.append("Rate: " + self.input_basis("rate_7a") + ".")
             notes.append(f"Guaranty: {fmt_pct(self.run['vals']['sba_guaranty_pct'], 0)} of the loan, " + self.input_basis("sba_guaranty_pct") + ".")
@@ -1186,6 +1186,10 @@ def process_returns(check):
                     problems.append(f"returns {slug}: stale region {name}")
             return f"<!--case:{slug}.{name}-->{new}<!--/case:{slug}.{name}-->"
         out = REGION.sub(sub, text)
+        bare = re.sub(r"<!--case:[^>]*-->.*?<!--/case:[^>]*-->", " ", re.sub(r"<(script|style)\b.*?</\1>", " ", text, flags=re.S), flags=re.S)
+        bare = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", bare))
+        for m in re.finditer(r"\d+(?:\.\d+)?\s?(?:%|percent)[^.]{0,60}\bIRR\b|\bIRR\b[^.]{0,60}?\d+(?:\.\d+)?\s?(?:%|percent)", bare):
+            problems.append(f"returns {slug}: an IRR figure stated outside the computed regions: ...{m.group(0)[:90]}...")
         if not seen:
             problems.append(f"returns {slug}: the page has no case:{slug}.v.irr_pct region")
         if changed and not check:

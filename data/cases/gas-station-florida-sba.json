@@ -25,7 +25,7 @@
       "value": 700000,
       "fmt": "$",
       "label": "Land, about 2 acres of US 27 frontage south of SR 60",
-      "assumption": "No vacant commercial land price on US 27 turned up in the research, and the acreage and price records for the one listed fuel property on the corridor conflict with each other; the study carries $350,000 an acre as a placeholder and makes an appraisal the first lender condition."
+      "assumption": "No vacant commercial land price on US 27 turned up in the research; the study carries $350,000 an acre as a placeholder that cites no sale or listing, and makes an appraisal the first lender condition."
     },
     "store_sf": {
       "value": 3400,
@@ -67,7 +67,7 @@
       "value": 420000,
       "fmt": "$",
       "label": "Site work, stormwater, wastewater, paving and signage",
-      "assumption": "Allowance; it includes an onsite wastewater system because central sewer along this stretch of US 27 is not confirmed (the corridor's one listed fuel property shows septic) and Florida stormwater retention."
+      "assumption": "Allowance; it includes an onsite wastewater system, the conservative case while central sewer along US 27 south of SR 60 is not confirmed, and Florida stormwater retention."
     },
     "contingency_pct": {
       "value": 0.05,
@@ -514,7 +514,7 @@
     ],
     [
       "Loan structure",
-      "Single 7(a) term loan over 25 years, priced at Prime plus the largest spread SBA permits"
+      "Single 7(a) term loan over 25 years, priced at Prime plus the maximum variable-rate spread SBA permits"
     ],
     [
       "Equity",

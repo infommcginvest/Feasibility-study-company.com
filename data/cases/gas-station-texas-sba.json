@@ -25,13 +25,13 @@
       "value": 2.0,
       "fmt": "n1",
       "label": "Land area, acres (hypothetical pad on US 183)",
-      "assumption": "A round hypothetical pad of about two acres with US 183 frontage inside city limits, enough for a 4,200 sq ft store, six fuel islands, parking and the 50-foot front setback the entrance-corridor overlay would impose if mapped [^22]."
+      "assumption": "A round hypothetical pad of about two acres on the US 183 corridor, enough for a 4,200 sq ft store, six fuel islands, parking and the 50-foot front setback the entrance-corridor overlay would impose if mapped [^22]."
     },
     "land_psf": {
       "value": 20,
       "fmt": "$",
       "label": "Land cost per square foot of site",
-      "assumption": "The research holds no closed Lockhart land sale and not enough priced commercial land in town to build a range, so no market range sets this line. The study uses a round planning level of $20 a square foot for highway commercial land inside city limits; it is taken from no single listing, and the appraisal and an executed land contract replace it. The sensitivity table moves it 15% and 30% either way."
+      "assumption": "The research holds no closed Lockhart land sale, so no market range sets this line. The study uses a round planning level of $20 a square foot for highway commercial land on the US 183 corridor; the appraisal and an executed land contract replace it. The sensitivity table moves it 15% and 30% either way."
     },
     "store_sf": {
       "value": 4200,
@@ -449,7 +449,7 @@
   "glance": [
     [
       "Town, county and corridor",
-      "Lockhart, Caldwell County, Texas, on US 183 inside city limits; SH 142 and the SH 130 toll road meet the city to the west [^3]"
+      "Lockhart, Caldwell County, Texas, on the US 183 corridor; SH 142 and the SH 130 toll road meet the city to the west [^3]"
     ],
     [
       "Subject (hypothetical)",
@@ -465,7 +465,7 @@
     ],
     [
       "Loan structure",
-      "One 7(a) loan, 25-year term, Prime plus the maximum spread"
+      "One 7(a) loan, 25-year term, Prime plus the maximum variable-rate spread"
     ],
     [
       "Equity",

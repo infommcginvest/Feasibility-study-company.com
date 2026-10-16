@@ -31,7 +31,7 @@
       "value": 12,
       "fmt": "$",
       "label": "Land cost per square foot of site",
-      "assumption": "Set inside the range of two Seguin commercial land asks in 2026: a 4.58-acre I-10 frontage tract at $1,200,000 in October 2026 [^49] and a 1.07-acre SH 46 tract, zoned residential, at $700,000 since May 2026 [^50]. The larger frontage tract sets the low end of the range and the small pad the high end; a 1.5-acre commercial pad near I-10 sits between them. Asks are not sales, so an appraisal and an executed contract set the value."
+      "assumption": "Set inside the range of two Seguin commercial land asks in 2026: a 4.58-acre I-10 frontage tract at $1,200,000 in October 2026 [^49] and a 1.07-acre SH 46 tract, zoned residential, at $700,000 since May 2026 [^50]. The larger frontage tract sets the low end of the range and the small pad the high end; a 1.5-acre commercial pad on the SH 46 corridor sits between them. Asks are not sales, so an appraisal and an executed contract set the value."
     },
     "building_site": {
       "value": 2350000,
@@ -48,8 +48,8 @@
     "soft": {
       "value": 450000,
       "fmt": "$",
-      "label": "Design, permits, flood work and contingency",
-      "assumption": "The 2025 Tommy's Express disclosure gives soft costs of $107,563 to $582,000 [^30]. The line sits in the upper part of that range because the site's flood zone and its zoning path are not yet known, either of which can add engineering, elevation and permit work, and it carries a construction contingency."
+      "label": "Design, permits and contingency",
+      "assumption": "The 2025 Tommy's Express disclosure gives soft costs of $107,563 to $582,000 [^30]. The line sits in the upper part of that range because the site's zoning path and flood zone are not yet confirmed, either of which can add engineering, elevation and permit work, and it carries a construction contingency."
     },
     "members": {
       "value": [
@@ -178,7 +178,7 @@
     },
     {
       "key": "soft",
-      "label": "Design, permits, flood work and contingency",
+      "label": "Design, permits and contingency",
       "expr": "soft",
       "class": "real_estate",
       "basis": "assumption, see inputs"
@@ -265,11 +265,11 @@
   "glance": [
     [
       "Town, county and corridor",
-      "Seguin, Guadalupe County, Texas; SH 46 near the I-10 interchange on the San Antonio to Austin corridor [^7]"
+      "Seguin, Guadalupe County, Texas; the SH 46 corridor through the city, which crosses I-10 on the San Antonio to Austin route [^7]"
     ],
     [
       "Subject",
-      "New express tunnel car wash with free vacuums and unlimited plans on about {in_land_acres} acres of commercial land on SH 46 near I-10 (hypothetical); flood zone and zoning to be confirmed"
+      "New express tunnel car wash with free vacuums and unlimited plans on about {in_land_acres} acres of commercial land on the SH 46 corridor (hypothetical); zoning, flood zone and utilities to be confirmed"
     ],
     [
       "Program",

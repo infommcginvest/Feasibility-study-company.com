@@ -28,10 +28,10 @@
       "assumption": "Between Walden's 15 tents and the Presidio's 14 rooms [^25,27], small enough to fill midweek with one retreat group and weekends with couples."
     },
     "site_acres": {
-      "value": 12,
+      "value": 15,
       "fmt": "n",
       "label": "Site area, acres (hypothetical parcel)",
-      "assumption": "Twelve acres hold 14 cabins, a lodge, parking and the septic field on well and septic service, with room to keep cabins apart. The parcel, its jurisdiction and its utilities are hypothetical and are conditions to confirm."
+      "assumption": "Fifteen acres hold 14 cabins, a lodge, parking and the septic field on well and septic service, with room to keep cabins apart and screened from neighbors. The parcel, its jurisdiction and its utilities are hypothetical and are conditions to confirm."
     },
     "land_per_acre": {
       "value": 95000,
@@ -265,7 +265,7 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land, about 12 acres (allowance)",
+      "label": "Land, about 15 acres (allowance)",
       "expr": "site_acres * land_per_acre",
       "class": "real_estate",
       "basis": "acres x allowance per acre (assumption)"

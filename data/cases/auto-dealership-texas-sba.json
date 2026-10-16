@@ -32,7 +32,7 @@
       "value": 18.0,
       "fmt": "$2",
       "label": "Land price per sq ft",
-      "assumption": "A round assumption for I-20 frontage in Weatherford. The research holds one priced frontage tract in town and no land sales, so the model takes no single listing's ask; an appraisal sets the value."
+      "assumption": "A round planning assumption for I-20 frontage in Weatherford; no land sale was found, and an appraisal sets the value."
     },
     "bldg_sf": {
       "value": 40000,

@@ -326,6 +326,21 @@ def g7(base):
                     fig_nocite.append(f"{url} #{sid}: {left} in: {t[:110]}")
                 elif nums:
                     fig_reviewed.append(f"{url} #{sid}: {nums}")
+    # SBA mandate wording over every served page, not only the pilot (13 CFR 120.160(b): SBA may require a study)
+    import sbamandate
+    rev = [l.rstrip("\n").split("\t") for l in open(os.path.join(HERE, "sbamandate-reviewed.tsv"), encoding="utf-8")
+           if l.strip() and not l.startswith("#")]
+    mandate, mandate_reviewed = [], 0
+    for d, dirs, files in os.walk(ROOT):
+        dirs[:] = [x for x in dirs if x not in (".git", "docs", "src", "node_modules", "_bundles", "scripts", "data", "netlify")]
+        if "index.html" in files:
+            rel = os.path.relpath(os.path.join(d, "index.html"), ROOT)
+            for sent in sbamandate.flagged(read(os.path.join(d, "index.html"))):
+                if any(rel == u and sent.startswith(start) for u, start, _why in rev):
+                    mandate_reviewed += 1
+                else:
+                    mandate.append(f"{rel}: {sent[:160]}")
+    hits += [f"SBA mandate wording: {m}" for m in mandate]
     forb = []
     for d, dirs, files in os.walk(ROOT):
         dirs[:] = [x for x in dirs if x not in (".git", "docs", "node_modules", "_bundles", "_cache")]
@@ -344,6 +359,7 @@ def g7(base):
          f"\nfigure blocks without a citation {len(fig_nocite)}\n" + "\n".join("  " + x for x in fig_nocite[:40]) +
          f"\nuncited numbers reviewed as not market figures (docs/web-fsc-6/tools/nocite-reviewed.tsv): {len(fig_reviewed)}\n" +
          "\n".join("  " + x for x in fig_reviewed) +
+         f"\nSBA mandate sentences on all served pages: {len(mandate)} unreviewed, {mandate_reviewed} reviewed as correct (docs/web-fsc-6/tools/sbamandate-reviewed.tsv)"
          f"\nserved files matching the ruling 10 pattern (whole site) {len(forb)}: {forb[:20]}\n"
          f"lane commits whose author or committer matches: {len(auth_hits)}")
 
@@ -364,8 +380,10 @@ def g8():
 
     def flat(s):
         # URL- and entity-decoded, lowercase, punctuation-insensitive: "00-State-Route-121" = "00 State Route 121"
+        # a number stays one token (commas dropped, decimal point kept), so "600,000" never matches inside "1,600,000"
         s = html.unescape(urllib.parse.unquote(s)).lower()
-        return " " + " ".join(re.findall(r"[0-9a-z]+", s)) + " "
+        toks = re.findall(r"\d+(?:[.,]\d+)*|[a-z]+", s)
+        return " " + " ".join(t.replace(",", "") if t[0].isdigit() else t for t in toks) + " "
     street = re.compile(r"(?<![-\w])\d{2,6}\s+(?:[NSEW]\.?\s+)?(?:[A-Z][a-z]+\s){0,3}(?:St|Street|Rd|Road|Ave|Avenue|Blvd|Boulevard|Hwy|Highway|Dr|Drive|Ln|Lane|Pkwy|Parkway|Way|Ct|Court|Loop)\b\.?")
     parcel = re.compile(r"\b(parcel (?:id|number|no\.?)|APN|prop(?:erty)? id|account (?:no|number)|MLS\s*#|LoopNet ID)\b", re.I)
     for c in pc.CASES:
@@ -469,13 +487,24 @@ def g10():
                 probs.append(f"{url}: {n} dash(es)")
             if re.search(r"otava,? *(ph\.?d|ccim|mai)", h, re.I):
                 probs.append(f"{url}: credential typed next to the name")
+    served_files = 0
+    for d, dirs, files in os.walk(ROOT):
+        dirs[:] = [x for x in dirs if x not in (".git", "docs", "src", "node_modules", "_bundles") and not x.startswith(".")]
+        for f in files:
+            if f.startswith(".") or not f.endswith((".html", ".js", ".css", ".json", ".py", ".txt", ".xml", ".toml", ".md", ".svg", ".tsv", ".csv")):
+                continue
+            served_files += 1
+            rel = os.path.relpath(os.path.join(d, f), ROOT)
+            n = len(pc.DASHES.findall(read(os.path.join(d, f))))
+            if n:
+                probs.append(f"{rel}: {n} dash(es) in a served file")
     for d, _dirs, files in os.walk(os.path.join(ROOT, "src")):
         for f in files:
             h = read(os.path.join(d, f))
             if pc.DASHES.search(h):
                 probs.append(f"src/{os.path.relpath(os.path.join(d, f), os.path.join(ROOT, 'src'))}: dash in source")
     gate(10, "clean text: zero em and en dashes in any encoding; no credential beside the name", "GREEN" if not probs else "RED",
-         "\n".join("  " + x for x in probs) or "  0 dashes on 31 pages and their sources; credential grep 0")
+         "\n".join("  " + x for x in probs) or f"  0 dashes in {served_files} served files (every page, script and data file) and in src/; credential grep 0")
 
 
 def g11():

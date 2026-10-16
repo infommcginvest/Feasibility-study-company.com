@@ -60,7 +60,9 @@ CITE = re.compile(r"\[\^(\d+(?:\s*,\s*\d+)*)\]")
 CASE_SHORT = re.compile(r"\{\{case:([a-z0-9_.]+)\}\}")
 SECTION = re.compile(r"<section\s+([^>]*)>(.*?)</section>", re.S)
 ATTR = re.compile(r'([a-z][a-z0-9-]*)="([^"]*)"')
-DASHES = re.compile(r"\u2013|\u2014|&[mn]dash;|&#821[12];|&#x201[34];|%E2%80%9[34]|\\u201[34]", re.I)
+# En and em dash in any encoding. Built from code points so this served file carries no dash, literal or escaped.
+DASHES = re.compile("|".join([chr(0x2013), chr(0x2014), "&[mn]dash;", "&#821[12];", "&#x201[34];", "%E2%80%9[34]",
+                              "\\\\u201" + "[34]"]), re.I)
 FORBIDDEN = re.compile("|".join([
     "m" + "mcg", "moh" + "elsky", "union ?" + "metric", "inno" + "wave", "analytics" + r"\.loan",
     "loan analytic" + "s", "feasibility-study-consulta" + "nt", "wert-?bera" + "ter"]), re.I)

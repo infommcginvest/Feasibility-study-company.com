@@ -6,7 +6,7 @@
   "gas-station-texas-sba": "A new branded fuel and convenience store with a kitchen in Lockhart: demand supports the store, the land price limits the loan, and the 7(a) structure needs {equity_pct} equity for {dscr_y2} in Year 2.",
   "truck-stop-texas-sba": "An independent truck stop at an I-20 interchange in Terrell: freight demand is real, but at 2026 land and build costs the SBA 504 structure covers Year 2 debt service only {dscr_y2}; the market does not support this loan.",
   "hotel-texas-sba": "A new {in_keys}-key limited-service hotel on SH 71 in Bastrop, facing new extended-stay supply: the SBA 504 loan reaches {dscr_y2} in Year 2 at {equity_pct} equity, not at the program minimum.",
-  "rv-park-texas-usda": "A new RV park with cabins outside Bastrop, on workforce and leisure demand: the USDA B&I loan reaches {dscr_y3} in Year 3 at {equity_pct} equity.",
+  "rv-park-texas-usda": "A new RV park with cabins in the Bastrop area, on workforce and leisure demand: the USDA B&I loan reaches {dscr_y3} in Year 3 at {equity_pct} equity.",
   "car-wash-texas-sba": "A new express tunnel wash in Seguin, in a contested corridor: membership demand, the SBA 504 stack at {equity_pct} equity on a {tpc} project, and {dscr_y2} coverage in Year 2.",
   "rv-boat-storage-texas-sba": "RV and boat storage in Granbury, where low covered rents meet high land prices: the SBA 504 structure covers Year 2 debt service only {dscr_y2}; the market does not support this loan.",
   "auto-dealership-texas-sba": "A franchised new-vehicle store on the I-20 corridor in Weatherford: the case turns on a manufacturer's award, and the SBA 504 structure reaches {dscr_y2} in Year 2 at {equity_pct} equity.",

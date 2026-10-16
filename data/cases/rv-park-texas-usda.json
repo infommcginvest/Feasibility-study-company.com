@@ -16,7 +16,7 @@
       "value": 64,
       "fmt": "n",
       "label": "Full-hookup RV sites",
-      "assumption": "Sized to about 12 acres under the county's design rules: a 12 by 40 ft hardened pad per space, 20 ft between units, 20 ft two-way roads and 25 ft right-of-way setbacks [^3]."
+      "assumption": "Sized to about 10 acres under the county's design rules: a 12 by 40 ft hardened pad per space, 20 ft between units, 20 ft two-way roads and 25 ft right-of-way setbacks [^3]."
     },
     "monthly_sites": {
       "value": 26,
@@ -31,16 +31,16 @@
       "assumption": "A small cabin line priced against the 12 state park cabins at $110 to $200 a night [^36] and Basin's $130 poolside apartment [^20]."
     },
     "land_acres": {
-      "value": 12,
+      "value": 10,
       "fmt": "n",
       "label": "Site area, acres",
-      "assumption": "A 12-acre tract on a paved county road outside the city limits, in the SH 71 and SH 21 trade area. Hypothetical site."
+      "assumption": "A hypothetical site of about 10 acres in the SH 71 and SH 21 trade area; no particular tract is assumed. Its jurisdiction and road access are conditions to confirm; the model assumes a site outside city limits."
     },
     "land_per_acre": {
       "value": 50000,
       "fmt": "$",
       "label": "Land price per acre",
-      "assumption": "The research found no closed sale of county-road acreage suitable for an RV park. $50,000 per acre is a placeholder that the lender must replace with an appraisal."
+      "assumption": "The research holds no closed land sale and no assessed land value for the trade area. $50,000 per acre is a placeholder that the lender must replace with an appraisal."
     },
     "site_cost": {
       "value": 25000,
@@ -319,7 +319,7 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land, about 12 acres",
+      "label": "Land, about 10 acres",
       "expr": "land_acres * land_per_acre",
       "class": "real_estate",
       "basis": "acres x price per acre (assumption)"
@@ -498,7 +498,7 @@
   "glance": [
     [
       "Town, county and corridor",
-      "Unincorporated Bastrop County, Texas, about 3.5 miles outside Bastrop, in the SH 71 and SH 21 trade area [^1]"
+      "Bastrop County, Texas, in the SH 71 and SH 21 trade area around Bastrop; the site's jurisdiction is to be confirmed, and the model assumes it lies outside city limits [^1]"
     ],
     [
       "Subject",

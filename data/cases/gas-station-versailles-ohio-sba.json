@@ -31,7 +31,7 @@
       "value": 75000,
       "fmt": "$",
       "label": "Land allowance per acre",
-      "assumption": "An allowance, not a price found for any parcel. The research holds no vacant commercial land sale for the village, and the study takes no listing's ask; the one recorded nearby commercial sale, an improved 0.32-acre Main Street property sold on February 7, 2019 [^17], prices a building rather than raw land. The study sets $75,000 an acre for land in a small farming-county village and makes the appraisal the source of the real figure; land is a small share of the project, so the loan is not sensitive to it."
+      "assumption": "An allowance, not a price found for any parcel. The research holds no vacant commercial land sale for the village; the one recorded nearby commercial sale, an improved 0.32-acre Main Street property sold on February 7, 2019 [^17], prices a building rather than raw land. The study sets $75,000 an acre for land in a small farming-county village and makes the appraisal the source of the real figure; land is a small share of the project, so the loan is not sensitive to it."
     },
     "store_sf": {
       "value": 3000,
@@ -121,7 +121,7 @@
       ],
       "fmt": "n",
       "label": "Fuel gallons sold per day",
-      "assumption": "Reaches a little over half of the roughly 4,000 gallons NACS gives as a typical store's daily volume [^32]: three stations already serve a village of 2,715 [^1] and its township, and no traffic count for SR 121 or SR 47 was found."
+      "assumption": "Reaches a little over half of the roughly 4,000 gallons NACS gives as a typical store's daily volume [^32]: three stations already serve a village of 2,715 [^1] and its township, and no traffic count for any of the village's state routes was found."
     },
     "fuel_margin": {
       "value": 0.38,
@@ -471,7 +471,7 @@
     ],
     [
       "Loan structure",
-      "A single 25-year 7(a) loan at Prime plus SBA's top spread for its size"
+      "A single 25-year 7(a) loan at Prime plus the maximum variable-rate spread for its size"
     ],
     [
       "Equity",
