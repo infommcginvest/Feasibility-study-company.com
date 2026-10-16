@@ -1,4 +1,4 @@
-# Feasibility Study Company — Website
+# Feasibility Study Company: Website
 
 Static marketing site for Feasibility Study Company, an independent feasibility and
 market-study practice serving lenders and investors (SBA, USDA, EB-5, HUD-FHA, and
@@ -35,7 +35,7 @@ branded `404.html` until those pages ship. Add each page to `sitemap.xml` as it 
 ## Deployment
 
 Hosted on **Netlify**, deployed from this repository. Every push to the default
-branch triggers an automatic deploy. No build step — the repository root is served
+branch triggers an automatic deploy. No build step: the repository root is served
 as static assets, and `netlify/functions/` is deployed as serverless functions.
 
 - Build command: *(none)*

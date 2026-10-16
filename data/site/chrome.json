@@ -1,0 +1,149 @@
+{
+  "_about": "The one source for the site header, the Asset Classes and Markets mega panels, the footer and the panel script. scripts/chrome.py renders it into <!--chrome:header--> and <!--chrome:footer--> regions on every served page. Labels are plain text (the script escapes them). A link whose page does not exist renders as a pending link to its fallback, or is omitted when hide_until_live is true. When a page ships (for example /states/ohio/), nothing here needs to change: rerun scripts/chrome.py and the link turns on by itself. To add a link, add an item and rerun.",
+  "wordmark": {
+    "href": "/",
+    "mark": "F",
+    "name": "Feasibility Study Company",
+    "tag": "Independent Feasibility Analysis"
+  },
+  "nav": [
+    {"label": "Practice Areas", "href": "/practice-areas/", "current_prefix": "/practice-areas/"},
+    {"label": "Asset Classes", "href": "/asset-classes/", "class": "mobile-markets"},
+    {"mega": "assets"},
+    {"label": "Framework", "href": "/analytical-framework/", "current_prefix": "/analytical-framework/"},
+    {"label": "Research", "href": "/research-notes/", "current_prefix": "/research-notes/"},
+    {"label": "About", "href": "/the-practice/", "current_prefix": "/the-practice/"},
+    {"label": "Markets", "href": "/states/", "class": "mobile-markets"},
+    {"mega": "markets"},
+    {"label": "Inquiries", "href": "/#contact", "class": "btn"}
+  ],
+  "mega": {
+    "assets": {
+      "trigger": "Asset Classes",
+      "id": "mega-assets",
+      "style": "left:0;right:auto;width:460px;",
+      "cols": [
+        {
+          "class": "",
+          "title": "Published Studies",
+          "list_style": "columns:2;",
+          "items": [
+            {"label": "Multifamily", "href": "/asset-classes/multifamily/"},
+            {"label": "Assisted Living & Memory Care", "href": "/asset-classes/assisted-living-and-memory-care/"},
+            {"label": "Hotel & Hospitality", "href": "/asset-classes/hotel/"},
+            {"label": "Retail", "href": "/asset-classes/retail/"},
+            {"label": "Restaurant & Foodservice", "href": "/asset-classes/restaurant/"},
+            {"label": "Quick-Service Restaurant", "href": "/asset-classes/quick-service-restaurant/"},
+            {"label": "Gas Station & C-Store", "href": "/asset-classes/gas-station-and-c-store/"},
+            {"label": "Car Wash", "href": "/asset-classes/express-car-wash/"},
+            {"label": "Truck Stop & Travel Center", "href": "/asset-classes/truck-stop-and-travel-center/"},
+            {"label": "Self-Storage", "href": "/asset-classes/self-storage/"},
+            {"label": "RV & Boat Storage", "href": "/asset-classes/rv-and-boat-storage/"},
+            {"label": "RV Park & Campground", "href": "/asset-classes/rv-park-and-campground/"},
+            {"label": "Glamping", "href": "/asset-classes/glamping/"},
+            {"label": "Auto Service & Collision", "href": "/asset-classes/auto-service-and-collision/"},
+            {"label": "Coffee Shop & Cafe", "href": "/asset-classes/coffee-shop/"},
+            {"label": "Medical Office & ASC", "href": "/asset-classes/medical-office-and-asc/"},
+            {"label": "Childcare & Daycare", "href": "/asset-classes/childcare-and-daycare/"},
+            {"label": "Fitness & Recreation", "href": "/asset-classes/fitness-and-recreation/"},
+            {"label": "Funeral Home", "href": "/asset-classes/funeral-home/"},
+            {"label": "Laundromat", "href": "/asset-classes/laundromat/"},
+            {"label": "Veterinary Practice", "href": "/asset-classes/veterinary-practice/"},
+            {"label": "Pet Boarding & Daycare", "href": "/asset-classes/pet-boarding-and-daycare/"},
+            {"label": "Urgent Care & Freestanding ED", "href": "/asset-classes/urgent-care/"},
+            {"label": "Grocery & Supermarket", "href": "/asset-classes/grocery-store/"},
+            {"label": "Auto Dealership", "href": "/asset-classes/auto-dealership/"},
+            {"label": "Private K-12 School", "href": "/asset-classes/private-school/"},
+            {"label": "Behavioral Health & SUD", "href": "/asset-classes/behavioral-health/"},
+            {"label": "Marina & Boat Harbor", "href": "/asset-classes/marina/"}
+          ]
+        }
+      ],
+      "foot": {"label": "View all asset classes →", "href": "/asset-classes/", "note": "Each asset class analyzed to its own demand mechanics."}
+    },
+    "markets": {
+      "trigger": "Markets",
+      "id": "mega-markets",
+      "style": "",
+      "cols": [
+        {
+          "class": "states",
+          "title": "By State",
+          "list_style": "",
+          "items": [
+            {"label": "California", "href": "/states/california/"},
+            {"label": "Texas", "href": "/states/texas/"},
+            {"label": "Florida", "href": "/states/florida/"},
+            {"label": "New York", "href": "/states/new-york/"},
+            {"label": "North Carolina", "href": "/states/north-carolina/"},
+            {"label": "Georgia", "href": "/states/georgia/"},
+            {"label": "Illinois", "href": "/states/illinois/"},
+            {"label": "Pennsylvania", "href": "/states/pennsylvania/"},
+            {"label": "Ohio", "href": "/states/ohio/", "hide_until_live": true},
+            {"label": "Michigan", "href": "/states/michigan/"},
+            {"label": "Iowa", "href": "/states/iowa/"},
+            {"label": "Minnesota", "href": "/states/minnesota/"}
+          ]
+        },
+        {
+          "class": "metros",
+          "title": "Major Metros",
+          "list_style": "",
+          "items": [
+            {"label": "Houston", "href": "/states/texas/houston/", "fallback": "/states/texas/#metros"},
+            {"label": "Dallas-Fort Worth", "href": "/states/texas/dallas-fort-worth/", "fallback": "/states/texas/#metros"},
+            {"label": "Austin", "href": "/states/texas/austin/", "fallback": "/states/texas/#metros"},
+            {"label": "Los Angeles", "href": "/states/california/los-angeles/", "fallback": "/states/california/#metros"},
+            {"label": "Miami", "href": "/states/florida/miami/", "fallback": "/states/florida/#metros"},
+            {"label": "Atlanta", "href": "/states/georgia/atlanta/", "fallback": "/states/georgia/#metros"},
+            {"label": "Charlotte", "href": "/states/north-carolina/charlotte/", "fallback": "/states/north-carolina/#metros"}
+          ]
+        }
+      ],
+      "foot": {"label": "View all markets →", "href": "/states/", "note": "Feasibility studies prepared nationwide."}
+    }
+  },
+  "footer": {
+    "brand": "Independent feasibility analysis for SBA, USDA, EB-5, and conventional capital, built to institutional review standards.",
+    "cols": [
+      {
+        "title": "Practice",
+        "items": [
+          {"label": "SBA 7(a) & 504", "href": "/practice-areas/sba-7a-504/"},
+          {"label": "USDA Rural Development", "href": "/practice-areas/usda-rural-development/"},
+          {"label": "EB-5", "href": "/practice-areas/eb-5/"},
+          {"label": "Conventional & Institutional", "href": "/practice-areas/conventional-institutional/"}
+        ]
+      },
+      {
+        "title": "Asset Classes",
+        "items": [
+          {"label": "Multifamily", "href": "/asset-classes/multifamily/"},
+          {"label": "Self-Storage", "href": "/asset-classes/self-storage/"},
+          {"label": "Hotel", "href": "/asset-classes/hotel/"},
+          {"label": "View all asset classes", "href": "/asset-classes/"}
+        ]
+      },
+      {
+        "title": "Firm",
+        "items": [
+          {"label": "The Practice", "href": "/the-practice/"},
+          {"label": "Worked Cases", "href": "/case-studies/"},
+          {"label": "Research Notes", "href": "/research-notes/"},
+          {"label": "Markets", "href": "/states/"},
+          {"label": "Inquiries", "href": "/#contact"},
+          {"label": "NDA Generator", "href": "/tools/nda/"},
+          {"group": [
+            {"label": "Terms", "href": "/terms/"},
+            {"label": "Privacy", "href": "/privacy/"},
+            {"label": "Accessibility", "href": "/accessibility/"}
+          ]}
+        ]
+      }
+    ],
+    "legal": [
+      "© 2026 Feasibility Study Company. All rights reserved.",
+      "Independent third-party analysis. Not a lender, broker, or investment advisor."
+    ]
+  }
+}
