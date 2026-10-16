@@ -1,4 +1,4 @@
-WEB-FSC-5 gates at HEAD b975d133572abeb475be7b5daf7be9f22617b356
+WEB-FSC-5 gates at HEAD e5ce35c60ead5ebaca6084f3513420dcaf05ec8c
 runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, so the commit that holds GATES.txt is one record-only commit after the HEAD above.
 
 === GATE 1: no served file changed
