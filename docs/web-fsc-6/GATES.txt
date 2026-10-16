@@ -1,4 +1,4 @@
-WEB-FSC-6 gates, run 2026-10-16T16:34:25 at HEAD f3ef7cbe3cc51d193d4d51f64e6420d356b92b54 (worktree may carry uncommitted changes: False)
+WEB-FSC-6 gates, run 2026-10-16T16:49:39 at HEAD 40a49dad9c2b6e29df848bf72404aa4b1d4efba1 (worktree may carry uncommitted changes: False)
 command: python3 docs/web-fsc-6/tools/gates.py --out docs/web-fsc-6/GATES.txt
 
 === Gate 1: 31 pages accounted for: 14 at existing URLs, 17 new, of which gate 5 folds some into the Texas page; one <title>; JSON-LD with BreadcrumbList and author @id: GREEN
@@ -10,7 +10,7 @@ build.py --check rc=0: 23 page(s) checked, 0 out of date or failing
 casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
 mutation 1 (Texas source text): --check rc=1 (want 1), after revert rc=0 (want 0)
 mutation 2 (assisted-living-texas-hud input site_acres x1.1): --check rc=1 (want 1; assisted-living-texas-hud: stale region v.tpc), tables moved=True, after revert rc=0 (want 0)
-mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000gn/T/fsc6-mut-bxfulf22), removed afterwards; nothing committed
+mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000gn/T/fsc6-mut-5x47c1xp), removed afterwards; nothing committed
 
 === Gate 3: unique figures: at least 25 dated, sourced figures per page that appear on no other page: GREEN
   /asset-classes/gas-station-and-c-store/                        81
@@ -25,13 +25,13 @@ mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000g
   /case-studies/gas-station-texas-sba/                           38
   /case-studies/gas-station-versailles-ohio-sba/                 34
   /case-studies/hotel-texas-sba/                                 40
-  /case-studies/lodging-retreat-johnson-city-texas-sba/          43
+  /case-studies/lodging-retreat-johnson-city-texas-sba/          42
   /case-studies/meat-processing-texas-usda/                      30
   /case-studies/rv-boat-storage-texas-sba/                       36
   /case-studies/rv-park-texas-usda/                              30
   /case-studies/travel-center-hankamer-texas-usda/               32
   /case-studies/truck-stop-texas-sba/                            37
-  /states/texas/                                                 72
+  /states/texas/                                                 71
   /states/texas/austin/                                          37
   /states/texas/dallas-fort-worth/                               34
   /states/texas/houston/                                         35
@@ -78,7 +78,7 @@ folded into /states/texas/ as sections: ['mcallen', 'el-paso', 'lubbock', 'corpu
   gas-station-versailles-ohio-sba            sba_7a   words  5077  equity  50.9% (tier 10%)  test DSCR 1.152 (floor 1.15)  loan 1,481,677
   truck-stop-texas-sba                       sba_504  words  5354  equity  20.0% (tier 20%)  NEGATIVE DETERMINATION  test DSCR 0.723 (floor 1.15)  loan 12,756,094  debenture 4,783,535
   hotel-texas-sba                            sba_504  words  5912  equity  39.1% (tier 20%)  test DSCR 1.152 (floor 1.15)  loan 8,457,529  debenture 1,513,745
-  rv-park-texas-usda                         usda_bi  words  5416  equity  28.7% (tier 25%)  test DSCR 1.250 (floor 1.25)  loan 2,719,820
+  rv-park-texas-usda                         usda_bi  words  5415  equity  28.7% (tier 25%)  test DSCR 1.250 (floor 1.25)  loan 2,719,820
   car-wash-texas-sba                         sba_504  words  5263  equity  20.0% (tier 20%)  test DSCR 1.349 (floor 1.15)  loan 4,273,675  debenture 1,602,628
   rv-boat-storage-texas-sba                  sba_504  words  4837  equity  15.0% (tier 15%)  NEGATIVE DETERMINATION  test DSCR 0.044 (floor 1.15)  loan 2,656,649  debenture 1,093,914
   auto-dealership-texas-sba                  sba_504  words  5777  equity  20.8% (tier 15%)  test DSCR 1.150 (floor 1.15)  loan 13,570,492  debenture 5,000,000
@@ -116,7 +116,7 @@ uncited numbers reviewed as not market figures (docs/web-fsc-6/tools/nocite-revi
   /case-studies/meat-processing-texas-usda/ #sensitivity: ['10%', '7.5%', '7.5%']
   /case-studies/travel-center-hankamer-texas-usda/ #pro-forma: ['1.00x']
   /case-studies/travel-center-hankamer-texas-usda/ #sensitivity: ['20%', '10%']
-SBA mandate sentences on all served pages: 0 unreviewed, 10 reviewed as correct (docs/web-fsc-6/tools/sbamandate-reviewed.tsv)
+SBA mandate sentences on all served pages: 0 unreviewed, 12 reviewed as correct (docs/web-fsc-6/tools/sbamandate-reviewed.tsv)
 served files matching the ruling 10 pattern (whole site) 0: []
 lane commits whose author or committer matches: 0
 
