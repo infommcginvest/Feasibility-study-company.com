@@ -355,7 +355,8 @@ def render(front, body, cfg, old=None):
     page_css = ""
     if kind == "case":
         page_css = "<style>" + read(os.path.join(PART, "case-components.css")) + "</style>"
-    author_ld = "" if kind == "case" else marker("fsc", "author-ld", {"url": url})
+    # byline.py keeps the page's one date in the author-ld region too (date_modified mirrors the visible line)
+    author_ld = "" if kind == "case" else marker("fsc", "author-ld", {"date_modified": updated, "url": url})
     values = {
         "title": esc(front["title"]),
         "description": esc(front["description"]),
