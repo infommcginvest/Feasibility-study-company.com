@@ -28,28 +28,33 @@ What does not: the bank loan and its debt service, every NOI line, the unlevered
 Cash on cash. The page publishes no cash-on-cash figure (the sentence names the concept without a number), so none is
 written on the page. It is computed below for the log: stabilized (NOI - debt service) / equity.
 
-IRR: LEFT AS PUBLISHED, NOT RECOMPUTED. The page does not state enough to compute its ~16%: no exit value, no selling cost,
-no NOI path after Year 3. The brief's remedy is to calibrate exactly one unstated assumption (the exit cap rate) so the BEFORE
-structure reproduces 16%. It was tried (informational printout below, labelled REJECTED) and it fails:
-  * equity in at t0; years 1 to 10 NOI minus combined debt service, floored at zero in a year where NOI is below debt service
-    (the page says the financed lease-up reserve bridges the opening shortfall); NOI $444k / $567k / $713k, flat at $713k from
-    Year 4; exit in Year 10 at Year 3 NOI / cap rate, less the bank and debenture balances outstanding; IRR = largest real root;
-  * the cap rate that makes BEFORE give 16.00% is 21.03% (sale price $3.39M, 0.58x project cost, BELOW the $4.22M loan balance,
-    net exit proceeds -$0.83M). That does not fill a gap in the page, it contradicts what the page states: dedicated-storage
-    cap rates of 6.0 to 8.5%, a 12% unlevered yield on cost, and an exit "disciplined against replacement cost" (value capped
-    at about 1.15x cost, which would give a BEFORE IRR of 28.5% to 30.8%). With a worthless exit (equity gets nothing) the
-    page's own cash flows already give a BEFORE IRR of 22.31%;
-  * so the published 16% cannot be derived from the page in either structure, and a restated figure would inherit a contradiction.
-Under the charter's rule (a fix that needs facts the page does not give: leave the original and log it) every IRR figure on the
-page (tile, meta description, Open Graph, JSON-LD description, Outcome prose, verdict) stays exactly as published, ~16%.
-Owner item (sensitivities, informational only): the rejected calibration would give AFTER 11.45% (12.44% if equity pays the
-Year 1 shortfall; 11.04% to 11.87% over the 15.5% to 16.5% band "about 16 percent" covers). The direction is down: more equity
-and less debt lowers a levered IRR, so the published 16% sits beside a 15% structure without having been recomputed for it.
+IRR: RECOMPUTED FROM THE PAGE'S OWN EXIT RULE. The page gives no exit value or cap rate, but it states the rule: "the exit is
+disciplined against replacement cost, flagging any income value more than about 15 percent above the cost to rebuild, which
+caps terminal value". Stabilized NOI (about $713,000, a 12 percent yield on the $5.80M cost) capitalized at the 6.0 to 8.5
+percent cap rates the page cites is far above 1.15x cost, so the cap binds and the terminal value is 1.15 x the cost to rebuild.
+Assumptions, every one stated here:
+  * cost to rebuild = the $5.80M project cost (the only cost the page gives; land is included), so terminal value = 1.15 x
+    $5.80M = $6.67M (EXIT_MULT, REPLACEMENT_COST);
+  * selling costs: the page says the result is "net of ... selling costs" but gives no rate, so SELLING_COST = 0 is used. The
+    figure is therefore the page's rule with zero selling costs; 3% / 5% / 6% give AFTER 24.54% / 24.21% / 24.05%;
+  * net exit proceeds in Year 10 = terminal value less selling costs less the bank and debenture balances outstanding after
+    120 monthly payments (BEFORE $4.22M, AFTER $4.00M);
+  * equity in at t0 (BEFORE $0.58M, AFTER $0.87M); years 1 to 10 the equity receives NOI minus combined debt service, floored at
+    zero in a year where NOI is below debt service because the page says the financed lease-up reserve bridges the opening
+    shortfall; NOI is the table's $444k / $567k / $713k and is held flat at $713k from Year 4 ("holding rents to a
+    conservative through-cycle path"); 10-year hold, annual end-of-year flows; IRR = largest real root of the NPV equation.
+Result: BEFORE (50/40/10) 30.84%, AFTER (50/35/15) 25.01%, so the page says about 25 percent (tile, meta description, Open Graph
+description, JSON-LD description, Outcome prose, verdict). The published "about 16 percent" is NOT what the page's own exit rule
+gives for its own structure (30.84%), so it was wrong before this recompute as well as stale. Sensitivities (AFTER): terminal
+value at 1.00x cost 22.79% (BEFORE 28.51%); the Year 1 shortfall paid by equity instead of the reserve 24.59%; cost to rebuild
+taken as the project cost less the $1.35M land, 20.67%. An earlier attempt calibrated the exit cap rate to reproduce 16% and
+needed a 21.03% cap (a sale below the loan balance, negative net proceeds), which contradicts the cap rates the page cites;
+it was dropped in favor of the page's stated rule.
 
 Modes:
   python3 rv-boat-storage-florida-sba.py            print BEFORE/AFTER and the reproduction test
   python3 rv-boat-storage-florida-sba.py --check    [--page PATH] read the page; exit 1 listing every mismatch, 0 when every AFTER
-                                                    figure above appears on the page in its own format and rounding (the IRR is expected exactly as published, ~16%),
+                                                    figure above appears on the page in its own format and rounding (the IRR included),
                                                     no stale BEFORE figure remains, and no sentence states 10% as this
                                                     project's equity or as the 504 minimum for it.
 Check text is the page with comments (including sba: markers) and footnote markers removed, inline tags removed,
@@ -78,7 +83,10 @@ STACK_AFTER = {'bank': 0.50, 'deb': 0.35, 'eq': 0.15}    # 13 CFR 120.910, New B
 NOI = [444_000, 567_000, 713_000]               # Outcome, "Debt-service coverage ramp": Year 1, 2, 3 NOI
 OCC = [58, 74, 93]                              # same table, economic occupancy %
 HOLD = 10                                       # stat tile / Outcome prose: 10-year hold
-IRR_PUBLISHED = 16                              # stat tile: ~16 % levered equity IRR; left as published (see docstring)
+IRR_PUBLISHED = 16                              # stat tile BEFORE: ~16 % levered equity IRR (not what the page's own exit rule gives)
+EXIT_MULT = 1.15                                # Outcome prose: income value flagged "more than about 15 percent above the cost to rebuild"
+REPLACEMENT_COST = TOTAL_COST                   # the page gives no rebuild cost; the $5.80M project cost is taken (land included)
+SELLING_COST = 0.0                              # page: "net of ... selling costs", no rate given; zero is used (see docstring)
 # Year 3 revenue build (Outcome, "Stabilized revenue & NOI build")
 RENT = [(320, 195), (120, 115), (60, 325)]      # spaces x $/month: covered, open, enclosed
 VACANCY, ANCILLARY, OPEX = 80_400, 63_000, 418_000
@@ -156,24 +164,17 @@ def equity_cfs(m, net_exit, reserve=True):
     return cfs
 
 
-def calibrate_exit(before, target=IRR_PUBLISHED / 100, reserve=True):
-    """Solve the net sale price (Year 3 NOI / exit cap rate) at which the BEFORE structure gives `target`; apply it to AFTER."""
-    after = model(STACK_AFTER)
-    lo, hi = 3.0e6, 2.0e7
-    for _ in range(200):
-        v = (lo + hi) / 2
-        r = irr(equity_cfs(before, v - before['bal10'], reserve))
-        if r is not None and r > target:
-            hi = v
-        else:
-            lo = v
-    r_b = irr(equity_cfs(before, v - before['bal10'], reserve))
-    r_a = irr(equity_cfs(after, v - after['bal10'], reserve))
-    return {'price': v, 'cap': NOI[2] / v, 'irr_before': int(rnd(r_b * 100)), 'irr_after': int(rnd(r_a * 100)),
-            'irr_after_exact': r_a}
+def net_exit(m, mult=EXIT_MULT, sell=SELLING_COST, cost=REPLACEMENT_COST):
+    """Year 10 net proceeds to the equity: terminal value (mult x cost to rebuild) less selling costs less both loan balances."""
+    return mult * cost * (1 - sell) - m['bal10']
 
 
-IRR_PAGE = IRR_PUBLISHED   # the IRR the page carries after the recompute: unchanged, not restated
+def page_irr(m, **kw):
+    reserve = kw.pop('reserve', True)
+    return irr(equity_cfs(m, net_exit(m, **kw), reserve))
+
+
+IRR_PAGE = int(rnd(page_irr(model(STACK_AFTER)) * 100))   # the IRR the page carries after the recompute (rounded, %)
 
 
 def fk(x):
@@ -254,26 +255,20 @@ def report():
     for name, x, y in rows:
         print(f"  {name:{w}s}  {x:>22s}  ->  {y:>22s}")
 
-    print('\nIRR: LEFT AS PUBLISHED (~16%), NOT RECOMPUTED. The page does not give an exit; the calibration below is REJECTED')
-    print('  because it contradicts the cap rates the page itself cites (informational printout only; nothing here is written to the page).')
-    cal = calibrate_exit(b)
-    for tag, m in (('BEFORE', b), ('AFTER ', a)):
-        r = irr(equity_cfs(m, cal['price'] - m['bal10']))
-        print(f"  REJECTED calibration {tag}: IRR {r * 100:5.2f}%  (equity {fM(m['eq'])}, net exit proceeds {(cal['price'] - m['bal10']) / 1e6:+.2f}M "
-              f"= sale price {cal['price'] / 1e6:.2f}M less balances {m['bal10'] / 1e6:.2f}M)")
-    print(f"  Rejected: exit cap rate {cal['cap'] * 100:.2f}% on Year 3 NOI ({cal['price'] / TOTAL_COST:.2f}x project cost, below the loan balance, "
-          f"negative net proceeds) against the 6.0-8.5% cap rates the page cites.")
-    for tag, m in (('BEFORE', b), ('AFTER ', a)):
-        print(f"  Page-consistent exits {tag}: worthless exit {irr(equity_cfs(m, 0.0)) * 100:5.2f}% | sale at 1.00x cost "
-              f"{irr(equity_cfs(m, TOTAL_COST - m['bal10'])) * 100:5.2f}% | at 1.15x cost {irr(equity_cfs(m, 1.15 * TOTAL_COST - m['bal10'])) * 100:5.2f}%"
-              + (f"   (far above the published {IRR_PUBLISHED}%)" if tag == 'BEFORE' else ''))
-    alt = calibrate_exit(b, reserve=False)
-    print(f"  Owner item, sensitivities of the rejected calibration to AFTER: {cal['irr_after_exact'] * 100:.2f}% (reserve bridges Year 1); "
-          f"{alt['irr_after_exact'] * 100:.2f}% (equity pays Year 1 shortfall)")
-    for target in (0.155, 0.165):
-        t = calibrate_exit(b, target=target)
-        print(f"  Owner item, BEFORE calibrated to {target * 100:.1f}%: AFTER {t['irr_after_exact'] * 100:.2f}%")
-    print(f"  Direction: more equity and less debt lowers a levered IRR; the page's ~{IRR_PUBLISHED}% was not recomputed for the 15% structure.")
+    print("\nIRR (page's exit rule: terminal value 1.15 x cost to rebuild, cost to rebuild = $5.80M, selling cost 0%, both loan balances repaid)")
+    ib, ia = page_irr(b), page_irr(a)
+    print(f"  BEFORE: {ib * 100:5.2f}%  (equity {fM(b['eq'])}, net exit {fM(net_exit(b))} = {EXIT_MULT}x{fM(REPLACEMENT_COST)} less balances {fM(b['bal10'])})"
+          f"   published ~{IRR_PUBLISHED}% is not what the rule gives")
+    print(f"  AFTER : {ia * 100:5.2f}%  (equity {fM(a['eq'])}, net exit {fM(net_exit(a))} = {EXIT_MULT}x{fM(REPLACEMENT_COST)} less balances {fM(a['bal10'])})"
+          f"   page: about {IRR_PAGE} percent")
+    print('  Sensitivities, AFTER (BEFORE in brackets):')
+    print(f"    terminal value 1.00x cost: {page_irr(a, mult=1.0) * 100:.2f}% ({page_irr(b, mult=1.0) * 100:.2f}%)")
+    for sc in (0.03, 0.05, 0.06):
+        print(f"    selling cost {sc * 100:.0f}%: {page_irr(a, sell=sc) * 100:.2f}% ({page_irr(b, sell=sc) * 100:.2f}%)")
+    print(f"    Year 1 shortfall paid by equity instead of the reserve: {page_irr(a, reserve=False) * 100:.2f}% ({page_irr(b, reserve=False) * 100:.2f}%)")
+    print(f"    cost to rebuild = project cost less $1.35M land: {page_irr(a, cost=TOTAL_COST - 1_350_000) * 100:.2f}% ({page_irr(b, cost=TOTAL_COST - 1_350_000) * 100:.2f}%)")
+    print(f"    worthless exit (equity gets nothing): {irr(equity_cfs(a, 0.0)) * 100:.2f}% ({irr(equity_cfs(b, 0.0)) * 100:.2f}%)")
+    print('  Note: calibrating the exit cap rate to reproduce 16% needed a 21.03% cap (sale below the loan balance); rejected, it contradicts the page.')
     return 0
 
 
@@ -372,7 +367,7 @@ STALE = [
     r'\$492', r'492,000', r'\$188k', r'\$2\.32', r'\$0\.58', r'\$5\.22', r'50/40/10', r'canonical',
     r'debenture \(40%\)', r'40% CDC', r'\b64 percent', r'10 percent equity', r'~10% equity injection',
     r'injection holds at', r'rather than escalating',
-    r'(?:≈|~)\s?11\s?%', r'about 11 percent',   # the rejected calibration must not reach the page
+    r'(?:≈|~)\s?16\s?%', r'about 16 percent',   # the published IRR (false by the page's own exit rule)
 ]
 EQUITY_WORDS = re.compile(r'equity|injection|contribution|borrower|down payment|escalat|minimum|requirement', re.I)
 SAFE_WORDS = re.compile(r'start-up|startup|standard', re.I)
@@ -403,6 +398,13 @@ def check(page=PAGE):
             win = t[max(0, m.start() - 70):m.end() + 70]
             if EQUITY_WORDS.search(win) and not SAFE_WORDS.search(win):
                 errs.append(f"10% stated as equity/minimum ({src}): ...{win}...")
+    # every IRR statement on the page (and in the head texts) must carry the recomputed value
+    irr_pat = re.compile(r'(?:[≈~]\s?(\d+(?:\.\d+)?)\s?%\s*(?:Illustrative )?levered equity IRR)|(?:IRR of about (\d+(?:\.\d+)?) percent)', re.I)
+    for src, t in [('page', text)] + list(heads.items()):
+        for m in irr_pat.finditer(t):
+            val = m.group(1) or m.group(2)
+            if val != str(IRR_PAGE):
+                errs.append(f"IRR statement ({src}) says {val}, expected {IRR_PAGE}: ...{t[max(0, m.start() - 30):m.end() + 30]}...")
     # source 14 exists and is cited
     if len(re.findall(r'<li id="s14">', raw)) != 1:
         errs.append('source list: expected exactly one <li id="s14">')
@@ -413,7 +415,7 @@ def check(page=PAGE):
         for e in errs:
             print('  - ' + e)
         return 1
-    print(f"CHECK OK: {len(expected(a))} AFTER snippets present, no stale BEFORE figure, no 10% equity/minimum statement")
+    print(f"CHECK OK: {len(expected(a))} AFTER snippets present (IRR {IRR_PAGE}% included), no stale BEFORE figure, no 10% equity/minimum statement")
     return 0
 
 

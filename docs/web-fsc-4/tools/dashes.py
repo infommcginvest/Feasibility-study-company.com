@@ -26,8 +26,8 @@ import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-EM = r"(?:—|&mdash;|&#8212;|&#x2014;|&#X2014;)"
-EN = r"(?:–|&ndash;|&#8211;|&#x2013;|&#X2013;)"
+EM = r"(?:—|&mdash;|&#8212;|&#x2014;|&#X2014;|\\u2014)"  # the last one: a JSON escape
+EN = r"(?:–|&ndash;|&#8211;|&#x2013;|&#X2013;|\\u2013)"
 DASH = re.compile(r"([ \t]*\n?[ \t]*)(" + EM + "|" + EN + r")([ \t]*\n?[ \t]*)")
 SERVED_EXT = (".html", ".xml", ".css", ".js", ".json", ".md", ".txt", ".svg", ".py", ".toml")
 SKIP_TOP = {"docs", "src", "node_modules", "_bundles"}

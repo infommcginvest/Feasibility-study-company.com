@@ -27,22 +27,25 @@ DOLLAR FORMAT. At 15% the debenture is $2.135M and the equity $0.915M exactly; a
 they would round to $2.14M and $0.92M, which sum to $6.11M against a $6.10M total. The page already uses three
 decimals where needed ($0.089M, $1.116M), so the two split lines are printed to three decimals and the table foots.
 
-IRR (levered equity, 10-year hold). The page's tile says about 16% (illustrative). THE PAGE'S STATED ASSUMPTIONS DO NOT
-REPRODUCE IT. With the stated assumptions (equity $0.61M; Y1 shortfall paid from the funded lease-up and interest
-reserve, so Y1 distribution is zero; Y2 onward NOI less debt service; NOI untrended after Y3; sale at the end of Y10 at
-a 7.5% cap on $750k = $10.0M gross, less the loan balances left after 120 payments, less selling costs) the BEFORE
-IRR is about 36%, not 16%. No single unstated assumption in a defensible range closes the gap: the present value at 16%
-of the BEFORE operating distributions alone (about $0.81M) already exceeds the $0.61M of equity, so the IRR exceeds 16%
-for ANY non-negative exit equity, whatever the selling cost. The only single assumption that reproduces 16% is an
-exit cap near 18%, which contradicts the page's own 7.5% and its stated 6.0 to 8.5% range, so it is rejected. The
-published 16% therefore cannot be recomputed from the page, and the IRR figures are HELD at the published value (the
-fix needs facts the page does not give, so the original is left and reported). The model-implied IRRs are printed
-below for the record only; they are NOT written to the page and --check does not require them. Cash-on-cash is not
-published on the page; it is printed for the log only.
+IRR (levered equity, 10-year hold). The page's stated exit determines the figure, so the IRR is recomputed, not held.
+Stated on the page: 10-year hold; stabilized NOI untrended after Year 3 ($750k); sale at a normalized exit rate of about
+7.5%, a gross value near $10.0M; net of selling costs and the outstanding 504 balance; blended with the graded lease-up
+(Y1 shortfall paid from the funded lease-up and interest reserve, so the Y1 distribution is zero; Y2 onward NOI less debt
+service). Not stated on the page: the selling cost. ONE ASSUMPTION IS ADDED: selling costs of 3% of the gross value
+(SELL = 0.03), the single unstated input, chosen in the middle of the 0% to 5% band. Equity is the page's own (BEFORE
+$0.61M, AFTER $0.915M) and the exit nets the loan balances left after 120 monthly payments. Result at 3%: BEFORE 35.8%,
+AFTER 29.8%. Sensitivity: AFTER is 30.2% at 0%, 29.9% at 2%, 29.8% at 3%, 29.5% at 5% (29.48%, which is 29 as an
+integer; 0%, 2% and 3% round to 30), so the whole 0% to 5% band lies between 29.5% and 30.2% and the page states it as
+"near 30 percent" in the prose and as 30% (the figure at 3%) in the tile and descriptions. The page previously published about 16% (BEFORE structure), which its own stated
+exit cannot produce: the present value at 16% of the BEFORE operating distributions alone (about $0.81M) already exceeds
+the $0.61M of equity, so the IRR exceeds 16% for ANY non-negative exit equity, and only an exit cap above 17%, against the
+page's own 7.5% and 6.0 to 8.5% range, would give 16%. That earlier figure was false by the page's own derivation and is
+replaced. Cash-on-cash is not published on the page; it is printed for the log only.
 
 USAGE
   python3 docs/web-fsc-4/recompute/rv-boat-storage-california-sba.py            print BEFORE / AFTER and the IRR analysis
   python3 docs/web-fsc-4/recompute/rv-boat-storage-california-sba.py --check    exit 1 listing every mismatch with the page
+                                                                                  (including any remaining 16% IRR)
   (--page PATH reads another copy of the page, used to test the check)
 """
 import html
@@ -75,7 +78,8 @@ NOI = [466e3, 595e3, 750e3]                     # "Debt-service coverage ramp" t
 OCC = [62, 78, 92]                              # same table, average occupancy
 EXIT_CAP = 0.075                                # financing prose: normalized exit rate around 7.5 percent
 HOLD = 10                                       # stat tile and prose: 10-year hold
-IRR_ON_PAGE = 16                                # published, ~16% (tile, prose, capsule, meta); HELD, see docstring
+SELL = 0.03                                     # selling cost, NOT stated on the page: the one added assumption (docstring)
+PUBLISHED_IRR_BEFORE = 16                       # what the page said before this fix; false by its own stated exit
 
 BEFORE = {'bank': 0.50, 'deb': 0.40, 'eq': 0.10}    # as published
 AFTER = {'bank': 0.50, 'deb': 0.35, 'eq': 0.15}     # 13 CFR 120.910 New Business tier
@@ -136,7 +140,7 @@ def irr(cfs):
     return (lo + hi) / 2
 
 
-def equity_cashflows(fig, exit_cap=EXIT_CAP, sell=0.0):
+def equity_cashflows(fig, exit_cap=EXIT_CAP, sell=SELL):
     noi = NOI + [NOI[-1]] * (HOLD - len(NOI))             # untrended after Year 3
     cfs = [-fig['eq']]
     for t, n in enumerate(noi, start=1):
@@ -163,6 +167,11 @@ def solve(fn, lo, hi, target):
         else:
             lo, flo = mid, fm
     return (lo + hi) / 2
+
+
+def page_irr():
+    """AFTER levered equity IRR on the stated exit at SELL, as the integer percent the page prints."""
+    return int(rhu(100 * irr(equity_cashflows(figures(AFTER))), 0))
 
 
 # ---------------------------------------------------------------- page formats
@@ -308,7 +317,8 @@ def run_check(page_path):
     # stat tiles
     need('stat tile financing share', '%s%% SBA 504 financing (50%% bank + 35%% CDC/SBA debenture)' % e['ltc'])
     need('stat tile DSCR', '%sx Stabilized DSCR (Year 3)' % e['dscr'][2])
-    need('stat tile IRR (held)', '\u2248%d%% Illustrative levered equity IRR, %d-year hold' % (IRR_ON_PAGE, HOLD))
+    irr_pct = page_irr()
+    need('stat tile IRR', '\u2248%d%% Illustrative levered equity IRR, %d-year hold' % (irr_pct, HOLD))
     # capital structure table
     need('table bank', 'Bank first mortgage (50%%) %s' % e['bank_m'])
     need('table debenture', 'CDC / SBA 504 debenture (35%%) %s' % e['deb_m'])
@@ -332,13 +342,15 @@ def run_check(page_path):
     need('prose stabilized coverage', 'The stabilized %sx coverage' % e['dscr'][2])
     need('prose Year 1 coverage', 'Year 1 posts %sx' % e['dscr'][0])
     need('verdict capsule', '%sx DSCR across a graded lease-up' % e['dscr'][2])
+    need('verdict capsule IRR', '~%d%% illustrative levered equity IRR' % page_irr())
+    need('prose IRR', 'levered equity IRR lands near %d percent over a 10-year hold' % page_irr())
     # head: meta, og, JSON-LD (attributes are not visible text)
     mv = meta_values(src)
     for key in ('description', 'og:description'):
         if '%sx' % e['dscr'][2] not in mv[key]:
             bad.append('MISSING  %s: %sx' % (key, e['dscr'][2]))
-        if '~%d%%' % IRR_ON_PAGE not in mv[key]:
-            bad.append('MISSING  %s: held IRR ~%d%%' % (key, IRR_ON_PAGE))
+        if '~%d%%' % irr_pct not in mv[key]:
+            bad.append('MISSING  %s: IRR ~%d%%' % (key, irr_pct))
     ld_blocks = jsonld_blocks(src)
     article = None
     for b in ld_blocks:
@@ -356,8 +368,8 @@ def run_check(page_path):
         desc = norm(article.get('description', ''))
         if '%sx' % e['dscr'][2] not in desc:
             bad.append('MISSING  JSON-LD Article.description: %sx' % e['dscr'][2])
-        if '~%d%%' % IRR_ON_PAGE not in desc:
-            bad.append('MISSING  JSON-LD Article.description: held IRR ~%d%%' % IRR_ON_PAGE)
+        if '~%d%%' % irr_pct not in desc:
+            bad.append('MISSING  JSON-LD Article.description: IRR ~%d%%' % irr_pct)
     # stale published figures (BEFORE structure and its dependants)
     old = {
         'old debt service $517k': '$517k', 'old debt service $517,000': '$517,000',
@@ -378,6 +390,14 @@ def run_check(page_path):
             forbid_re(label + ' in ' + key, pat, mv[key])
         if article is not None:
             forbid_re(label + ' in JSON-LD description', pat, norm(article.get('description', '')))
+    # the earlier ~16% IRR (and 'mid-teens') must not survive anywhere: visible text, meta, og, JSON-LD
+    irr16 = r'(?<![\d.])%d(?:\.0)? ?(?:%%|percent)' % PUBLISHED_IRR_BEFORE
+    forbid_re('old IRR %d%% in the text' % PUBLISHED_IRR_BEFORE, irr16)
+    forbid('old IRR wording', 'mid-teens')
+    for key in ('description', 'og:description'):
+        forbid_re('old IRR %d%% in %s' % (PUBLISHED_IRR_BEFORE, key), irr16, mv[key])
+    if article is not None:
+        forbid_re('old IRR %d%% in JSON-LD description' % PUBLISHED_IRR_BEFORE, irr16, norm(article.get('description', '')))
     # tier statements: 15% New Business tier cited to 13 CFR 120.910, with its source entry and footnote
     if not re.search(r'equity injection is 15(?:%| percent), the 504 minimum for a New Business', vis):
         bad.append('MISSING  tier sentence: "equity injection is 15%/15 percent, the 504 minimum for a New Business"')
@@ -445,29 +465,25 @@ def report():
     print('\nPage-format AFTER figures the check requires:', json.dumps(expected(a), ensure_ascii=False))
 
     # ---- IRR analysis
-    print('\nIRR (levered equity, 10-year hold, exit at a %.1f%% cap on $%dk = $%.2fM gross); model-implied, NOT on the page'
-          % (EXIT_CAP * 100, NOI[2] / 1e3, NOI[2] / EXIT_CAP / 1e6))
+    print('\nIRR (levered equity, %d-year hold, exit at a %.1f%% cap on $%dk = $%.2fM gross, net of selling costs and the 504 balance)'
+          % (HOLD, EXIT_CAP * 100, NOI[2] / 1e3, NOI[2] / EXIT_CAP / 1e6))
     print('  selling cost (unstated) :  0%     2%     3%     5%    10%    30%')
     for name, fig in (('BEFORE', b), ('AFTER ', a)):
         print('  %s IRR           ' % name + '  '.join('%5.1f%%' % (100 * irr(equity_cashflows(fig, sell=s)))
                                                        for s in (0, .02, .03, .05, .10, .30)))
-    ops = equity_cashflows(b)
+    band = [100 * irr(equity_cashflows(a, sell=x / 100.0)) for x in range(0, 6)]
+    print('  page figure: selling cost %d%% (added assumption): BEFORE %.1f%%, AFTER %.1f%% -> tile/descriptions %d%%, prose "near %d percent"'
+          % (round(SELL * 100), 100 * irr(equity_cashflows(b)), 100 * irr(equity_cashflows(a)), page_irr(), page_irr()))
+    print('  AFTER across selling costs 0%% to 5%%: %.1f%% to %.1f%% (all "near %d")' % (min(band), max(band), page_irr()))
+    # why the earlier published ~16% was dropped
+    ops = equity_cashflows(b, sell=0.0)
     ops[-1] -= NOI[-1] / EXIT_CAP - b['bal10']          # strip the exit equity, keep the operating distributions
     pv_ops = sum(c / 1.16 ** i for i, c in enumerate(ops) if i)
-    print('  PV at 16%% of BEFORE operating distributions alone: $%.3fM  vs equity $%.3fM -> IRR > 16%% for any exit equity >= 0'
-          % (pv_ops / 1e6, b['eq'] / 1e6))
-    sell_fit = solve(lambda s: irr(equity_cashflows(b, sell=s)), 0.0, 0.5, IRR_ON_PAGE / 100)
-    cap_fit = solve(lambda c: irr(equity_cashflows(b, exit_cap=c)), 0.05, 0.40, IRR_ON_PAGE / 100)
-    print('  calibrate selling cost in [0%%, 50%%] to the published %d%%:' % IRR_ON_PAGE,
-          'NO SOLUTION' if sell_fit is None else '%.1f%%' % (100 * sell_fit))
-    if cap_fit is None:
-        print('  calibrate exit cap to the published %d%%: NO SOLUTION' % IRR_ON_PAGE)
-    else:
-        a_irr = irr(equity_cashflows(a, exit_cap=cap_fit))
-        print('  calibrate exit cap to the published %d%%: %.1f%% (page says 7.5%%, range 6.0 to 8.5%%) -> REJECTED; AFTER at that cap %.1f%%'
-              % (IRR_ON_PAGE, 100 * cap_fit, 100 * a_irr))
-    print('  => the published ~%d%% is not reproducible from the page; IRR tile and prose HELD at ~%d%% (open item).'
-          % (IRR_ON_PAGE, IRR_ON_PAGE))
+    print('  earlier published ~%d%% (BEFORE): PV at 16%% of BEFORE operating distributions alone $%.3fM > equity $%.3fM, so IRR > 16%% for any exit equity >= 0'
+          % (PUBLISHED_IRR_BEFORE, pv_ops / 1e6, b['eq'] / 1e6))
+    cap_fit = solve(lambda c: irr(equity_cashflows(b, exit_cap=c)), 0.05, 0.40, PUBLISHED_IRR_BEFORE / 100.0)
+    print('  only an exit cap of %s would give %d%% (page says 7.5%%, range 6.0 to 8.5%%): the old figure is replaced'
+          % ('none' if cap_fit is None else '%.1f%%' % (100 * cap_fit), PUBLISHED_IRR_BEFORE))
     return 0
 
 

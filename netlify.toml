@@ -5,6 +5,12 @@
 [build]
   publish = "."
   functions = "netlify/functions"
+  # Lane records (docs/) and page sources (src/) are never published. Netlify
+  # matches file paths without regard to case, so the /docs/* 404 rule below
+  # alone still served /Docs/... and /DOCS/.... A build from git drops both
+  # folders first; a CLI deploy publishes a tree made with
+  #   git archive <ref> | tar -x -C <dir> --exclude=docs --exclude=src
+  command = "rm -rf docs src"
 
 [build.environment]
   NODE_VERSION = "20"

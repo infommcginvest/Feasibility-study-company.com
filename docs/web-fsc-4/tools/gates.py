@@ -25,7 +25,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
 # The ruling 10 set, bracketed so this served file never matches itself.
 NAMES = re.compile(r"m[m]cg|moh[e]lsky|union ?[m]etric|inno[w]ave|analytics[.]loan|loan analytic[s]|feasibility-study-consulta[n]t|wert-?bera[t]er", re.I)
 CREDS = re.compile(r"otava,? *(ph\.?d|ccim|mai)", re.I)
-EMEN = re.compile(r"—|–|&mdash;|&ndash;|&#8212;|&#8211;|&#x2014;|&#x2013;", re.I)
+EMEN = re.compile(r"—|–|&mdash;|&ndash;|&#8212;|&#8211;|&#x2014;|&#x2013;|\\u201[34]", re.I)
 RECOMPUTED = ["rv-boat-storage-arizona-sba", "rv-boat-storage-california-sba", "rv-boat-storage-florida-sba",
               "medical-office-north-carolina-sba"]
 RESULTS = []
@@ -211,10 +211,23 @@ def main(argv):
             nsw += 1
             if words(html.unescape(a)) != words(html.unescape(b)):
                 fid_bad.append(f)
-    gate(7, "Dashes", rc == 0 and not fid_bad and bool(sweep),
+    # fidelity, the repairs after freeze 1 (cross-sentence pairs): words identical from freeze 1 to HEAD
+    sys.path.insert(0, D)
+    import fix_crosspairs
+    rep_bad, nrep = [], 0
+    for f in sorted({f for f, n in fix_crosspairs.FIX}):
+        if "rv-boat-storage-california-sba" in f:
+            continue   # its IRR sentences changed by recompute in the same span; checked by its script
+        a = subprocess.run(["git", "-C", REPO, "show", f"5e25e47:{f}"], capture_output=True).stdout.decode("utf-8")
+        b = open(os.path.join(head, f), encoding="utf-8").read()
+        nrep += 1
+        if words(html.unescape(a)) != words(html.unescape(b)):
+            rep_bad.append(f)
+    gate(7, "Dashes", rc == 0 and not fid_bad and bool(sweep) and not rep_bad,
          [f"dashes.py check -> exit {rc}: " + out.splitlines()[-1],
           f"dashes left on held WEB-FSC-6 pages (theirs): {held_dashes}",
-          f"fidelity, sweep commit {sweep[-1][:8] if sweep else '?'}: {nsw} served files, every word (text, attributes, JSON-LD) identical before and after: {'yes' if not fid_bad else 'NO ' + str(fid_bad)}"])
+          f"fidelity, sweep commit {sweep[-1][:8] if sweep else '?'}: {nsw} served files, every word (text, attributes, JSON-LD) identical before and after: {'yes' if not fid_bad else 'NO ' + str(fid_bad)}",
+          f"fidelity, cross-sentence pair repairs after freeze 1: {nrep} pages, words identical from 5e25e47: {'yes' if not rep_bad else 'NO ' + str(rep_bad)}"])
 
     # 8 names
     hits, held_hits, links_out = [], [], []

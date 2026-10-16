@@ -56,7 +56,7 @@ MAX_RELATED = 6
 MAX_TERMS = 15
 REGION_RX = re.compile(r"[ \t]*<!--mesh:([a-z0-9-]+)(?: \{.*?\})?-->.*?<!--/mesh:\1-->\n\n", re.S)
 TERM_RX = re.compile(r'<a href="[^"]*" data-fsc-term="[^"]*">(.*?)</a>', re.S)
-EM = re.compile("\\s*(?:\u2014|\u2013)\\s*")
+EM = re.compile(r"\s*(?:" + chr(0x2014) + "|" + chr(0x2013) + r")\s*")  # an em or en dash, spelled by code point
 
 
 def load(path):
