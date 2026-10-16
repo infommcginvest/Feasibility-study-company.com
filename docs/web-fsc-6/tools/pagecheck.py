@@ -30,7 +30,12 @@ TEXAS_METROS_ALL = ["houston", "dallas-fort-worth", "austin", "san-antonio", "mc
 # Gate 5 folds: a metro under 25 unique own-geography figures becomes a section of the Texas page (DECISIONS D16)
 FOLDED_METROS = ["mcallen", "el-paso", "lubbock", "corpus-christi"]
 TEXAS_METROS = [m for m in TEXAS_METROS_ALL if m not in FOLDED_METROS]
-GAS_SUBTYPES = ["branded-fuel", "unbranded-independent", "convenience-no-fuel", "foodservice-qsr", "interstate-highway", "ev-charging"]
+GAS_SUBTYPES_ALL = ["branded-fuel", "unbranded-independent", "convenience-no-fuel", "foodservice-qsr", "interstate-highway", "ev-charging"]
+FOLDED_SUBTYPES = ["branded-fuel", "unbranded-independent", "convenience-no-fuel", "foodservice-qsr"]
+GAS_SUBTYPES = [x for x in GAS_SUBTYPES_ALL if x not in FOLDED_SUBTYPES]
+# every folded page: (its URL, the parent it folded into, the anchor it carries there)
+FOLDED = ([(f"/states/texas/{m}/", "/states/texas/", m) for m in FOLDED_METROS] +
+          [(f"/asset-classes/gas-station-and-c-store/{x}/", "/asset-classes/gas-station-and-c-store/", x) for x in FOLDED_SUBTYPES])
 CASES = ["gas-station-texas-sba", "gas-station-florida-sba", "gas-station-alabama-sba", "gas-station-georgia-sba",
          "gas-station-versailles-ohio-sba", "truck-stop-texas-sba", "hotel-texas-sba", "rv-park-texas-usda",
          "car-wash-texas-sba", "rv-boat-storage-texas-sba", "auto-dealership-texas-sba", "assisted-living-texas-hud",

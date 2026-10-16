@@ -112,15 +112,15 @@ def g1(base):
         if "https://feasibility-study-company.com/#mark-otava" not in ids:
             probs.append(f"{url}: no author @id")
     want_existing = {u for u in pc.PILOT if u not in NEW}
-    folded = [f"/states/texas/{m}/" for m in pc.FOLDED_METROS]
+    folded = [u for u, _parent, _anchor in pc.FOLDED]
     stray = [u for u in folded if os.path.exists(served(u)) or os.path.exists(os.path.join(ROOT, "src/pages", u.strip("/") + ".html"))]
-    tx = read(served("/states/texas/")) if os.path.exists(served("/states/texas/")) else ""
-    no_section = [u for u in folded if f'id="{u.strip("/").split("/")[-1]}"' not in tx]
+    no_section = [u for u, parent, anchor in pc.FOLDED
+                  if not os.path.exists(served(parent)) or f'id="{anchor}"' not in read(served(parent))]
     ok = (not probs and len(existing) == 14 and len(new) == 17 - len(folded) and set(existing) == want_existing
           and not stray and not no_section)
     gate(1, "31 pages accounted for: 14 at existing URLs, 17 new, of which gate 5 folds some into the Texas page; one <title>; JSON-LD with BreadcrumbList and author @id",
-         "GREEN" if ok else "RED", f"built {len(existing) + len(new)}/31; existing URLs {len(existing)}; new {len(new)}; folded into /states/texas/ by gate 5: {len(folded)} {folded}\n"
-         f"folded pages still on disk: {stray}; folded metros without a Texas section: {no_section}\n" +
+         "GREEN" if ok else "RED", f"built {len(existing) + len(new)}/31; existing URLs {len(existing)}; new {len(new)}; folded into their parent page (gate 5 and the hard constraint): {len(folded)} {folded}\n"
+         f"folded pages still on disk: {stray}; folded pages without an anchor in their parent: {no_section}\n" +
          "\n".join("  " + x for x in probs[:40]))
 
 
