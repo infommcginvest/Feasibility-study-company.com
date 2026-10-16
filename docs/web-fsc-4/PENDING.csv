@@ -1,0 +1,1643 @@
+anchor_text,page,real_target,fallback,class,region
+Houston,/404.html,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/404.html,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/404.html,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/404.html,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/404.html,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/404.html,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/404.html,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+published deliverable architecture,/,/infrastructure/deliverable-architecture/,(span),retired-infrastructure,
+distinction between the two documents,/,/analytical-framework/market-study-vs-feasibility-study/,/analytical-framework/#study-types,framework,
+Demand Before Design,/,/analytical-framework/demand-modeling/,/analytical-framework/#layers,framework,
+The Projection Regime,/,/analytical-framework/financial-projection-architecture/,/analytical-framework/#layers,framework,
+"Review Failures, Catalogued",/,/analytical-framework/common-review-failures/,/analytical-framework/#rejected,framework,
+Limited-Service Hotel Feasibility Studies,/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Select-Service Hotel Feasibility Studies,/,/asset-classes/select-service-hotel/,/asset-classes/hotel/,hub,
+Extended-Stay Hotel Feasibility Studies,/,/asset-classes/extended-stay-hotel/,/asset-classes/hotel/,hub,
+Boutique & Resort Feasibility Studies,/,/asset-classes/boutique-and-resort/,(span),hub,
+Skilled Nursing Feasibility Studies,/,/asset-classes/skilled-nursing/,(span),hub,
+Independent Living & CCRC Feasibility Studies,/,/asset-classes/independent-living-and-ccrc/,(span),hub,
+Build-to-Rent Feasibility Studies,/,/asset-classes/build-to-rent/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Industrial & Warehouse Feasibility Studies,/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies,/,/asset-classes/cold-storage/,(span),hub,
+Mixed-Use Feasibility Studies,/,/asset-classes/mixed-use/,(span),hub,
+Brewery & Distillery Feasibility Studies,/,/asset-classes/brewery-and-distillery/,(span),hub,
+Ohio,/,/states/ohio/,(span),state,
+Los Angeles,/,/states/california/los-angeles/,/states/california/#metros,metro,
+Houston,/,/states/texas/houston/,/states/texas/#metros,metro,
+Dallas-Fort Worth,/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,
+Austin,/,/states/texas/austin/,/states/texas/#metros,metro,
+Miami,/,/states/florida/miami/,/states/florida/#metros,metro,
+Atlanta,/,/states/georgia/atlanta/,/states/georgia/#metros,metro,
+Charlotte,/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,
+Chicago,/,/states/illinois/chicago/,/states/illinois/#metros,metro,
+Columbus,/,/states/ohio/columbus/,(span),metro,
+analytical framework,/,/analytical-framework/common-review-failures/,/analytical-framework/#rejected,framework,
+Houston,/accessibility/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/accessibility/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/accessibility/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/accessibility/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/accessibility/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/accessibility/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/accessibility/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/analytical-framework/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/analytical-framework/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/analytical-framework/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/analytical-framework/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/analytical-framework/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/analytical-framework/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/analytical-framework/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Market Area Definition,/analytical-framework/,/analytical-framework/market-area-definition/,(span),framework,
+How the market area is defined →,/analytical-framework/,/analytical-framework/market-area-definition/,(span),framework,
+Demand Isolation,/analytical-framework/,/analytical-framework/demand-analysis/,(span),framework,
+How demand is isolated →,/analytical-framework/,/analytical-framework/demand-analysis/,(span),framework,
+Supply and Competitive Analysis,/analytical-framework/,/analytical-framework/supply-and-competition/,(span),framework,
+How supply is analyzed →,/analytical-framework/,/analytical-framework/supply-and-competition/,(span),framework,
+Absorption and Lease-Up,/analytical-framework/,/analytical-framework/absorption-and-lease-up/,(span),framework,
+How absorption is forecast →,/analytical-framework/,/analytical-framework/absorption-and-lease-up/,(span),framework,
+Revenue Construction,/analytical-framework/,/analytical-framework/revenue-and-rent/,(span),framework,
+How revenue is built →,/analytical-framework/,/analytical-framework/revenue-and-rent/,(span),framework,
+Operating Expense Rationalization,/analytical-framework/,/analytical-framework/operating-expenses/,(span),framework,
+How expenses are rationalized →,/analytical-framework/,/analytical-framework/operating-expenses/,(span),framework,
+Coverage and Stress Testing,/analytical-framework/,/analytical-framework/coverage-and-stress-testing/,(span),framework,
+How coverage sizes a loan →,/analytical-framework/,/analytical-framework/coverage-and-stress-testing/,(span),framework,
+Regulatory Alignment,/analytical-framework/,/analytical-framework/regulatory-alignment/,(span),framework,
+How alignment works →,/analytical-framework/,/analytical-framework/regulatory-alignment/,(span),framework,
+Independence and Evidence,/analytical-framework/,/analytical-framework/independence-and-evidence/,(span),framework,
+How independence is established →,/analytical-framework/,/analytical-framework/independence-and-evidence/,(span),framework,
+Common Review Failures,/analytical-framework/,/analytical-framework/common-review-failures/,(span),framework,
+The failure taxonomy →,/analytical-framework/,/analytical-framework/common-review-failures/,(span),framework,
+The regulatory alignment layer,/analytical-framework/,/analytical-framework/regulatory-alignment/,(span),framework,
+Common Review Failures,/analytical-framework/,/analytical-framework/common-review-failures/,(span),framework,
+Houston,/asset-classes/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Limited-Service Hotel Feasibility Studies,/asset-classes/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Select-Service Hotel Feasibility Studies,/asset-classes/,/asset-classes/select-service-hotel/,/asset-classes/hotel/,hub,
+Extended-Stay Hotel Feasibility Studies,/asset-classes/,/asset-classes/extended-stay-hotel/,/asset-classes/hotel/,hub,
+Boutique & Resort Feasibility Studies,/asset-classes/,/asset-classes/boutique-and-resort/,(span),hub,
+Skilled Nursing Feasibility Studies,/asset-classes/,/asset-classes/skilled-nursing/,(span),hub,
+Independent Living & CCRC Feasibility Studies,/asset-classes/,/asset-classes/independent-living-and-ccrc/,(span),hub,
+Build-to-Rent Feasibility Studies,/asset-classes/,/asset-classes/build-to-rent/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/asset-classes/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Industrial & Warehouse Feasibility Studies,/asset-classes/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies,/asset-classes/,/asset-classes/cold-storage/,(span),hub,
+Mixed-Use Feasibility Studies,/asset-classes/,/asset-classes/mixed-use/,(span),hub,
+Brewery & Distillery Feasibility Studies,/asset-classes/,/asset-classes/brewery-and-distillery/,(span),hub,
+Houston,/asset-classes/assisted-living-and-memory-care/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/assisted-living-and-memory-care/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/assisted-living-and-memory-care/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/assisted-living-and-memory-care/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/assisted-living-and-memory-care/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/assisted-living-and-memory-care/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/assisted-living-and-memory-care/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Assisted living,/asset-classes/assisted-living-and-memory-care/,/asset-classes/assisted-living-and-memory-care/assisted-living/,(span),subtype,
+Memory care,/asset-classes/assisted-living-and-memory-care/,/asset-classes/assisted-living-and-memory-care/memory-care/,(span),subtype,
+Independent living,/asset-classes/assisted-living-and-memory-care/,/asset-classes/independent-living-and-ccrc/,(span),hub,
+Active adult (55+),/asset-classes/assisted-living-and-memory-care/,/asset-classes/active-adult/,(span),hub,
+Skilled nursing,/asset-classes/assisted-living-and-memory-care/,/asset-classes/skilled-nursing/,(span),hub,
+CCRC / life plan communities,/asset-classes/assisted-living-and-memory-care/,/asset-classes/ccrc-life-plan-communities/,(span),hub,
+Board-and-care / residential care,/asset-classes/assisted-living-and-memory-care/,/asset-classes/board-and-care/,(span),hub,
+Assisted Living Feasibility Studies in Ohio,/asset-classes/assisted-living-and-memory-care/,/states/ohio/,(span),state,
+Houston,/asset-classes/auto-dealership/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/auto-dealership/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/auto-dealership/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/auto-dealership/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/auto-dealership/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/auto-dealership/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/auto-dealership/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Franchised new-car (import & luxury),/asset-classes/auto-dealership/,/asset-classes/auto-dealership/franchised-new-car-import-luxury/,(span),subtype,
+Franchised new-car (domestic),/asset-classes/auto-dealership/,/asset-classes/auto-dealership/franchised-new-car-domestic/,(span),subtype,
+Challenged-brand franchises,/asset-classes/auto-dealership/,/asset-classes/auto-dealership/challenged-brand-franchises/,(span),subtype,
+Independent used-car dealers,/asset-classes/auto-dealership/,/asset-classes/auto-dealership/independent-used-car/,(span),subtype,
+Buy-here-pay-here (BHPH),/asset-classes/auto-dealership/,/asset-classes/auto-dealership/buy-here-pay-here/,(span),subtype,
+Powersports & motorcycle,/asset-classes/auto-dealership/,/asset-classes/auto-dealership/powersports-and-motorcycle/,(span),subtype,
+RV & marine,/asset-classes/auto-dealership/,/asset-classes/auto-dealership/rv-and-marine/,(span),subtype,
+Heavy-truck & commercial,/asset-classes/auto-dealership/,/asset-classes/auto-dealership/heavy-truck-and-commercial/,(span),subtype,
+Houston,/asset-classes/auto-service-and-collision/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/auto-service-and-collision/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/auto-service-and-collision/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/auto-service-and-collision/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/auto-service-and-collision/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/auto-service-and-collision/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/auto-service-and-collision/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+General automotive repair,/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/general-repair/,(span),subtype,
+Collision & body shops,/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/collision-body/,(span),subtype,
+Quick-lube & oil change,/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/quick-lube/,(span),subtype,
+Tire retail & service,/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/tire-and-service/,(span),subtype,
+Dealership fixed operations,/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/dealership-fixed-ops/,(span),subtype,
+Franchised quick-service brands,/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/franchised-service/,(span),subtype,
+"Specialty (transmission, glass, muffler)",/asset-classes/auto-service-and-collision/,/asset-classes/auto-service-and-collision/specialty/,(span),subtype,
+Houston,/asset-classes/behavioral-health/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/behavioral-health/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/behavioral-health/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/behavioral-health/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/behavioral-health/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/behavioral-health/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/behavioral-health/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Residential & inpatient,/asset-classes/behavioral-health/,/asset-classes/behavioral-health/residential-and-inpatient/,(span),subtype,
+PHP & IOP,/asset-classes/behavioral-health/,/asset-classes/behavioral-health/php-and-iop/,(span),subtype,
+Opioid treatment (OTP),/asset-classes/behavioral-health/,/asset-classes/behavioral-health/opioid-treatment-otp/,(span),subtype,
+Office-based buprenorphine (OBOT),/asset-classes/behavioral-health/,/asset-classes/behavioral-health/office-based-obot/,(span),subtype,
+Outpatient & CCBHC,/asset-classes/behavioral-health/,/asset-classes/behavioral-health/outpatient-and-ccbhc/,(span),subtype,
+Psychiatric hospital,/asset-classes/behavioral-health/,/asset-classes/behavioral-health/psychiatric-hospital/,(span),subtype,
+Sober living & recovery residences,/asset-classes/behavioral-health/,/asset-classes/behavioral-health/sober-living-and-recovery-residences/,(span),subtype,
+Behavioral Health Feasibility Studies in Ohio,/asset-classes/behavioral-health/,/states/ohio/,(span),state,
+Houston,/asset-classes/childcare-and-daycare/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/childcare-and-daycare/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/childcare-and-daycare/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/childcare-and-daycare/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/childcare-and-daycare/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/childcare-and-daycare/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/childcare-and-daycare/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Franchised & branded chains,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/franchised-branded/,(span),subtype,
+Independent single-site centers,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/independent-single-site/,(span),subtype,
+Corporate & employer-sponsored,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/employer-sponsored/,(span),subtype,
+Montessori & preschool,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/montessori-preschool/,(span),subtype,
+Faith-based & church-affiliated,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/faith-based/,(span),subtype,
+Home-based & family child care,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/family-child-care/,(span),subtype,
+Head Start & publicly funded,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/head-start/,(span),subtype,
+Net-lease (STNL) childcare real estate,/asset-classes/childcare-and-daycare/,/asset-classes/childcare-and-daycare/net-lease-stnl/,(span),subtype,
+Houston,/asset-classes/coffee-shop/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/coffee-shop/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/coffee-shop/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/coffee-shop/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/coffee-shop/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/coffee-shop/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/coffee-shop/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Franchised & branded drive-thru,/asset-classes/coffee-shop/,/asset-classes/coffee-shop/franchised-drive-thru/,(span),subtype,
+Independent & third-wave cafes,/asset-classes/coffee-shop/,/asset-classes/coffee-shop/independent-cafe/,(span),subtype,
+Drive-thru-only & kiosk,/asset-classes/coffee-shop/,/asset-classes/coffee-shop/drive-thru-kiosk/,(span),subtype,
+Coffee-shop-with-food & cafe-bakery,/asset-classes/coffee-shop/,/asset-classes/coffee-shop/cafe-bakery/,(span),subtype,
+Roaster-retailer & wholesale,/asset-classes/coffee-shop/,/asset-classes/coffee-shop/roaster-retailer/,(span),subtype,
+Net-leased coffee (STNL) pads,/asset-classes/coffee-shop/,/asset-classes/coffee-shop/net-lease/,(span),subtype,
+Houston,/asset-classes/express-car-wash/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/express-car-wash/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/express-car-wash/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/express-car-wash/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/express-car-wash/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/express-car-wash/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/express-car-wash/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Express exterior / tunnel,/asset-classes/express-car-wash/,/asset-classes/express-car-wash/express-exterior/,(span),subtype,
+Flex-service (express plus interior),/asset-classes/express-car-wash/,/asset-classes/express-car-wash/flex-service/,(span),subtype,
+Full-service,/asset-classes/express-car-wash/,/asset-classes/express-car-wash/full-service/,(span),subtype,
+In-bay automatic,/asset-classes/express-car-wash/,/asset-classes/express-car-wash/in-bay-automatic/,(span),subtype,
+Self-service / wand,/asset-classes/express-car-wash/,/asset-classes/express-car-wash/self-service/,(span),subtype,
+Full-service-to-express conversion,/asset-classes/express-car-wash/,/asset-classes/express-car-wash/conversion/,(span),subtype,
+Car Wash Feasibility Studies in Ohio,/asset-classes/express-car-wash/,/states/ohio/,(span),state,
+Houston,/asset-classes/fitness-and-recreation/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/fitness-and-recreation/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/fitness-and-recreation/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/fitness-and-recreation/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/fitness-and-recreation/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/fitness-and-recreation/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/fitness-and-recreation/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+HVLP & budget gyms,/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/hvlp-budget-gyms/,(span),subtype,
+Boutique fitness studios,/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/boutique-studios/,(span),subtype,
+24-hour & key-card gyms,/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/24-hour-gyms/,(span),subtype,
+Full-service health clubs,/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/full-service-health-clubs/,(span),subtype,
+Premium & luxury lifestyle clubs,/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/premium-luxury-clubs/,(span),subtype,
+"Specialty (CrossFit, climbing, martial arts)",/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/specialty-fitness/,(span),subtype,
+Single-tenant net-lease fitness (STNL),/asset-classes/fitness-and-recreation/,/asset-classes/fitness-and-recreation/net-lease-fitness/,(span),subtype,
+Houston,/asset-classes/funeral-home/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/funeral-home/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/funeral-home/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/funeral-home/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/funeral-home/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/funeral-home/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/funeral-home/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Traditional funeral homes,/asset-classes/funeral-home/,/asset-classes/funeral-home/traditional/,(span),subtype,
+Direct-cremation providers,/asset-classes/funeral-home/,/asset-classes/funeral-home/direct-cremation/,(span),subtype,
+Standalone crematory,/asset-classes/funeral-home/,/asset-classes/funeral-home/crematory/,(span),subtype,
+Cemeteries & memorial parks,/asset-classes/funeral-home/,/asset-classes/funeral-home/cemetery/,(span),subtype,
+Combination (funeral home + cemetery),/asset-classes/funeral-home/,/asset-classes/funeral-home/combination/,(span),subtype,
+Preneed & trust portfolios,/asset-classes/funeral-home/,/asset-classes/funeral-home/preneed/,(span),subtype,
+Independent vs. consolidator platforms,/asset-classes/funeral-home/,/asset-classes/funeral-home/consolidation/,(span),subtype,
+Houston,/asset-classes/glamping/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/glamping/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/glamping/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/glamping/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/glamping/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/glamping/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/glamping/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Safari & bell tents,/asset-classes/glamping/,/asset-classes/glamping/safari-bell-tents/,(span),subtype,
+Yurts,/asset-classes/glamping/,/asset-classes/glamping/yurts/,(span),subtype,
+Geodesic domes,/asset-classes/glamping/,/asset-classes/glamping/geodesic-domes/,(span),subtype,
+Treehouses,/asset-classes/glamping/,/asset-classes/glamping/treehouses/,(span),subtype,
+"Cabins, tiny homes & A-frames",/asset-classes/glamping/,/asset-classes/glamping/cabins-tiny-homes/,(span),subtype,
+Airstreams & vintage trailers,/asset-classes/glamping/,/asset-classes/glamping/airstreams-trailers/,(span),subtype,
+Container & modular units,/asset-classes/glamping/,/asset-classes/glamping/container-units/,(span),subtype,
+Unique & experiential stays,/asset-classes/glamping/,/asset-classes/glamping/unique-experiential/,(span),subtype,
+Houston,/asset-classes/grocery-store/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/grocery-store/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/grocery-store/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/grocery-store/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/grocery-store/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/grocery-store/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/grocery-store/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Independent full-line supermarkets,/asset-classes/grocery-store/,/asset-classes/grocery-store/independent-supermarket/,(span),subtype,
+Cooperative & voluntary-group affiliated,/asset-classes/grocery-store/,/asset-classes/grocery-store/cooperative-affiliated/,(span),subtype,
+Ethnic & specialty markets,/asset-classes/grocery-store/,/asset-classes/grocery-store/ethnic-and-specialty/,(span),subtype,
+"Natural, organic & premium",/asset-classes/grocery-store/,/asset-classes/grocery-store/natural-and-organic/,(span),subtype,
+Discount & limited-assortment,/asset-classes/grocery-store/,/asset-classes/grocery-store/discount-limited-assortment/,(span),subtype,
+Rural & community-owned grocery,/asset-classes/grocery-store/,/asset-classes/grocery-store/rural-and-community-owned/,(span),subtype,
+Grocery-anchored retail real estate,/asset-classes/grocery-store/,/asset-classes/retail/grocery-anchored/,/asset-classes/retail/#thesis,subtype,
+Houston,/asset-classes/hotel/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/hotel/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/hotel/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/hotel/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/hotel/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/hotel/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/hotel/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Limited-service hotels,/asset-classes/hotel/,/asset-classes/hotel/limited-service/,(span),subtype,
+Select-service hotels,/asset-classes/hotel/,/asset-classes/hotel/select-service/,(span),subtype,
+Full-service hotels,/asset-classes/hotel/,/asset-classes/hotel/full-service/,(span),subtype,
+Extended-stay,/asset-classes/hotel/,/asset-classes/hotel/extended-stay/,(span),subtype,
+Upper-upscale & luxury,/asset-classes/hotel/,/asset-classes/hotel/upper-upscale-and-luxury/,(span),subtype,
+Boutique & independent,/asset-classes/hotel/,/asset-classes/hotel/boutique-and-independent/,(span),subtype,
+Resort & destination,/asset-classes/hotel/,/asset-classes/hotel/resort/,(span),subtype,
+Houston,/asset-classes/laundromat/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/laundromat/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/laundromat/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/laundromat/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/laundromat/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/laundromat/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/laundromat/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Unattended coin-op laundromats,/asset-classes/laundromat/,/asset-classes/laundromat/unattended-coin-op/,(span),subtype,
+Attended wash-dry-fold & full-service,/asset-classes/laundromat/,/asset-classes/laundromat/wash-dry-fold/,(span),subtype,
+Card- & app-operated (modern) stores,/asset-classes/laundromat/,/asset-classes/laundromat/card-and-app-operated/,(span),subtype,
+Route & multi-store operators,/asset-classes/laundromat/,/asset-classes/laundromat/route-and-multi-store/,(span),subtype,
+Franchised laundromats,/asset-classes/laundromat/,/asset-classes/laundromat/franchised/,(span),subtype,
+Laundromat-anchored strip retail (owned),/asset-classes/laundromat/,/asset-classes/laundromat/laundromat-anchored-retail/,(span),subtype,
+Rural & USDA-eligible laundromats,/asset-classes/laundromat/,/asset-classes/laundromat/rural-usda/,(span),subtype,
+Houston,/asset-classes/marina/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/marina/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/marina/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/marina/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/marina/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/marina/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/marina/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Full-service marinas,/asset-classes/marina/,/asset-classes/marina/full-service/,(span),subtype,
+Dry-stack & rack storage,/asset-classes/marina/,/asset-classes/marina/dry-stack-storage/,(span),subtype,
+Boatyard & service marinas,/asset-classes/marina/,/asset-classes/marina/boatyard-service/,(span),subtype,
+Dockominium & bare-slip marinas,/asset-classes/marina/,/asset-classes/marina/dockominium/,(span),subtype,
+Resort & destination marinas,/asset-classes/marina/,/asset-classes/marina/resort-destination/,(span),subtype,
+Inland lake & reservoir marinas,/asset-classes/marina/,/asset-classes/marina/inland-lake-reservoir/,(span),subtype,
+Municipal & yacht-club harbors,/asset-classes/marina/,/asset-classes/marina/municipal-yacht-club/,(span),subtype,
+Houston,/asset-classes/medical-office-and-asc/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/medical-office-and-asc/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/medical-office-and-asc/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/medical-office-and-asc/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/medical-office-and-asc/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/medical-office-and-asc/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/medical-office-and-asc/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Medical office buildings (MOB),/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/medical-office-building/,(span),subtype,
+Ambulatory surgery centers (ASC),/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/ambulatory-surgery-center/,(span),subtype,
+Dental practices & DSO platforms,/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/dental-practice/,(span),subtype,
+Veterinary hospitals & practices,/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/veterinary/,(span),subtype,
+Physician & specialty practices,/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/physician-practice/,(span),subtype,
+Urgent care & clinics,/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/urgent-care/,(span),subtype,
+Dialysis & single-tenant net-lease medical,/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/dialysis-net-lease/,(span),subtype,
+Imaging & outpatient diagnostic,/asset-classes/medical-office-and-asc/,/asset-classes/medical-office-and-asc/imaging-diagnostic/,(span),subtype,
+Houston,/asset-classes/multifamily/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/multifamily/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/multifamily/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/multifamily/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/multifamily/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/multifamily/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/multifamily/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Garden-style multifamily,/asset-classes/multifamily/,/asset-classes/multifamily/garden-style/,(span),subtype,
+Mid- and high-rise,/asset-classes/multifamily/,/asset-classes/multifamily/mid-and-high-rise/,(span),subtype,
+Build-to-rent (BTR),/asset-classes/multifamily/,/asset-classes/multifamily/build-to-rent/,(span),subtype,
+Workforce housing,/asset-classes/multifamily/,/asset-classes/multifamily/workforce-housing/,(span),subtype,
+LIHTC and affordable,/asset-classes/multifamily/,/asset-classes/multifamily/lihtc/,(span),subtype,
+Student housing,/asset-classes/multifamily/,/asset-classes/multifamily/student-housing/,(span),subtype,
+Manufactured housing communities,/asset-classes/multifamily/,/asset-classes/multifamily/manufactured-housing/,(span),subtype,
+Houston,/asset-classes/pet-boarding-and-daycare/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/pet-boarding-and-daycare/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/pet-boarding-and-daycare/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/pet-boarding-and-daycare/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/pet-boarding-and-daycare/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/pet-boarding-and-daycare/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/pet-boarding-and-daycare/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Boarding kennels & pet resorts,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/boarding-kennels-and-resorts/,(span),subtype,
+Doggy daycare,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/doggy-daycare/,(span),subtype,
+Pet grooming & mobile grooming,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/grooming/,(span),subtype,
+Integrated full-service facilities,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/integrated-facilities/,(span),subtype,
+Dog training,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/dog-training/,(span),subtype,
+Franchised pet-care brands,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/franchised-pet-care/,(span),subtype,
+Change-of-ownership & acquisition,/asset-classes/pet-boarding-and-daycare/,/asset-classes/pet-boarding-and-daycare/change-of-ownership/,(span),subtype,
+Houston,/asset-classes/private-school/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/private-school/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/private-school/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/private-school/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/private-school/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/private-school/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/private-school/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Independent & NAIS day schools,/asset-classes/private-school/,/asset-classes/private-school/independent-nais/,(span),subtype,
+Catholic & parochial,/asset-classes/private-school/,/asset-classes/private-school/catholic-parochial/,(span),subtype,
+Christian & faith-based,/asset-classes/private-school/,/asset-classes/private-school/christian-faith-based/,(span),subtype,
+Montessori & Waldorf,/asset-classes/private-school/,/asset-classes/private-school/montessori-waldorf/,(span),subtype,
+Boarding schools,/asset-classes/private-school/,/asset-classes/private-school/boarding/,(span),subtype,
+Therapeutic & special education,/asset-classes/private-school/,/asset-classes/private-school/therapeutic-special-education/,(span),subtype,
+Microschools,/asset-classes/private-school/,/asset-classes/private-school/microschools/,(span),subtype,
+Private-School Feasibility Studies in Ohio,/asset-classes/private-school/,/states/ohio/,(span),state,
+Houston,/asset-classes/quick-service-restaurant/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/quick-service-restaurant/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/quick-service-restaurant/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/quick-service-restaurant/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/quick-service-restaurant/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/quick-service-restaurant/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/quick-service-restaurant/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Burger QSR,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/burger/,(span),subtype,
+Chicken QSR,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/chicken/,(span),subtype,
+Pizza & delivery QSR,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/pizza/,(span),subtype,
+Sandwich & sub shops,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/sandwich-and-subs/,(span),subtype,
+Mexican QSR,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/mexican/,(span),subtype,
+Coffee & beverage QSR,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/coffee-and-beverage/,(span),subtype,
+Multi-unit & platform operators,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/multi-unit-platform/,(span),subtype,
+Houston,/asset-classes/restaurant/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/restaurant/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/restaurant/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/restaurant/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/restaurant/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/restaurant/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/restaurant/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Full-service restaurants (FSR),/asset-classes/restaurant/,/asset-classes/restaurant/full-service/,(span),subtype,
+Quick-service restaurants (QSR),/asset-classes/restaurant/,/asset-classes/restaurant/quick-service/,(span),subtype,
+Fast-casual,/asset-classes/restaurant/,/asset-classes/restaurant/fast-casual/,(span),subtype,
+Franchised concepts,/asset-classes/restaurant/,/asset-classes/restaurant/franchised/,(span),subtype,
+Independent restaurants,/asset-classes/restaurant/,/asset-classes/restaurant/independent/,(span),subtype,
+Ghost kitchens & virtual brands,/asset-classes/restaurant/,/asset-classes/restaurant/ghost-kitchens/,(span),subtype,
+Single-tenant net-lease QSR,/asset-classes/restaurant/,/asset-classes/restaurant/stnl-qsr/,(span),subtype,
+Houston,/asset-classes/retail/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/retail/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/retail/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/retail/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/retail/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/retail/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/retail/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Neighborhood & strip centers,/asset-classes/retail/,/asset-classes/retail/neighborhood-strip/,(span),subtype,
+Grocery-anchored centers,/asset-classes/retail/,/asset-classes/retail/grocery-anchored/,(span),subtype,
+Community & power centers,/asset-classes/retail/,/asset-classes/retail/power-center/,(span),subtype,
+Lifestyle centers,/asset-classes/retail/,/asset-classes/retail/lifestyle-center/,(span),subtype,
+Regional malls & outlet centers,/asset-classes/retail/,/asset-classes/retail/malls/,(span),subtype,
+Single-tenant net-lease (STNL),/asset-classes/retail/,/asset-classes/retail/single-tenant-net-lease/,(span),subtype,
+Owner-occupied & mixed-use retail,/asset-classes/retail/,/asset-classes/retail/owner-occupied/,(span),subtype,
+Houston,/asset-classes/rv-and-boat-storage/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/rv-and-boat-storage/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/rv-and-boat-storage/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/rv-and-boat-storage/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/rv-and-boat-storage/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/rv-and-boat-storage/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/rv-and-boat-storage/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Open & uncovered lot,/asset-classes/rv-and-boat-storage/,/asset-classes/rv-and-boat-storage/open-lot/,(span),subtype,
+Covered canopy,/asset-classes/rv-and-boat-storage/,/asset-classes/rv-and-boat-storage/covered-canopy/,(span),subtype,
+Enclosed drive-up,/asset-classes/rv-and-boat-storage/,/asset-classes/rv-and-boat-storage/enclosed-drive-up/,(span),subtype,
+Climate-controlled & luxury condo,/asset-classes/rv-and-boat-storage/,/asset-classes/rv-and-boat-storage/climate-controlled/,(span),subtype,
+Boat & dry-stack,/asset-classes/rv-and-boat-storage/,/asset-classes/rv-and-boat-storage/boat-dry-stack/,(span),subtype,
+RV & Boat Storage Feasibility Studies in Ohio,/asset-classes/rv-and-boat-storage/,/states/ohio/,(span),state,
+Houston,/asset-classes/rv-park-and-campground/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/rv-park-and-campground/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/rv-park-and-campground/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/rv-park-and-campground/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/rv-park-and-campground/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/rv-park-and-campground/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/rv-park-and-campground/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Transient RV resorts,/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/transient-rv-resort/,(span),subtype,
+Annual & seasonal (snowbird) parks,/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/annual-seasonal-park/,(span),subtype,
+Destination RV resorts,/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/destination-resort/,(span),subtype,
+Glamping resorts,/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/glamping/,(span),subtype,
+Campgrounds & tent sites,/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/campground/,(span),subtype,
+"Franchise-affiliated (KOA, Jellystone)",/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/franchise-affiliated/,(span),subtype,
+Workforce & extended-stay RV,/asset-classes/rv-park-and-campground/,/asset-classes/rv-park-and-campground/workforce-extended-stay/,(span),subtype,
+Houston,/asset-classes/self-storage/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/self-storage/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/self-storage/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/self-storage/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/self-storage/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/self-storage/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/self-storage/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Drive-up & single-story storage,/asset-classes/self-storage/,/asset-classes/self-storage/drive-up/,(span),subtype,
+Climate-controlled multi-story,/asset-classes/self-storage/,/asset-classes/self-storage/climate-controlled/,(span),subtype,
+Conversion & adaptive-reuse storage,/asset-classes/self-storage/,/asset-classes/self-storage/conversion/,(span),subtype,
+Boat & RV storage,/asset-classes/self-storage/,/asset-classes/self-storage/boat-rv/,(span),subtype,
+Portable & container storage,/asset-classes/self-storage/,/asset-classes/self-storage/portable-container/,(span),subtype,
+Third-party-managed facilities,/asset-classes/self-storage/,/asset-classes/self-storage/third-party-managed/,(span),subtype,
+Class B value-add acquisitions,/asset-classes/self-storage/,/asset-classes/self-storage/value-add/,(span),subtype,
+Houston,/asset-classes/truck-stop-and-travel-center/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/truck-stop-and-travel-center/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/truck-stop-and-travel-center/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/truck-stop-and-travel-center/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/truck-stop-and-travel-center/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/truck-stop-and-travel-center/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/truck-stop-and-travel-center/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Interstate travel centers (full-service),/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/interstate-travel-center/,(span),subtype,
+Independent & single-site truck stops,/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/independent-truck-stop/,(span),subtype,
+Fuel-only & fleet-fueling sites,/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/fuel-only-fleet-fueling/,(span),subtype,
+Truck service & maintenance centers,/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/truck-service-maintenance/,(span),subtype,
+Truck parking & reservable-stall facilities,/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/truck-parking/,(span),subtype,
+Travel-center foodservice & QSR pads,/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/foodservice-qsr/,(span),subtype,
+Net-leased (STNL) chain travel centers,/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/net-lease-stnl/,(span),subtype,
+Truck stops with gaming (LA / IL),/asset-classes/truck-stop-and-travel-center/,/asset-classes/truck-stop-and-travel-center/gaming-truck-stop/,(span),subtype,
+Truck Stop Feasibility Studies in Ohio,/asset-classes/truck-stop-and-travel-center/,/states/ohio/,(span),state,
+Houston,/asset-classes/urgent-care/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/urgent-care/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/urgent-care/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/urgent-care/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/urgent-care/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/urgent-care/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/urgent-care/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Independent & physician-owned,/asset-classes/urgent-care/,/asset-classes/urgent-care/independent-physician-owned/,(span),subtype,
+Health-system-owned & JV,/asset-classes/urgent-care/,/asset-classes/urgent-care/health-system-jv/,(span),subtype,
+Franchised & corporate platform,/asset-classes/urgent-care/,/asset-classes/urgent-care/franchised-platform/,(span),subtype,
+Occupational medicine,/asset-classes/urgent-care/,/asset-classes/urgent-care/occupational-medicine/,(span),subtype,
+Freestanding emergency departments,/asset-classes/urgent-care/,/asset-classes/urgent-care/freestanding-ed/,(span),subtype,
+Rural Health Clinic (RHC),/asset-classes/urgent-care/,/asset-classes/urgent-care/rural-health-clinic/,(span),subtype,
+Pediatric urgent care,/asset-classes/urgent-care/,/asset-classes/urgent-care/pediatric/,(span),subtype,
+Houston,/asset-classes/veterinary-practice/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/asset-classes/veterinary-practice/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/asset-classes/veterinary-practice/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/asset-classes/veterinary-practice/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/asset-classes/veterinary-practice/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/asset-classes/veterinary-practice/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/asset-classes/veterinary-practice/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+General-practice companion-animal,/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/general-practice/,(span),subtype,
+Specialty & emergency (ER),/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/specialty-and-emergency/,(span),subtype,
+Mixed-animal & equine,/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/mixed-animal-and-equine/,(span),subtype,
+Food-animal & production,/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/food-animal/,(span),subtype,
+Mobile & house-call,/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/mobile-and-house-call/,(span),subtype,
+Corporate-group & platform,/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/corporate-and-platform/,(span),subtype,
+Referral & diagnostic imaging,/asset-classes/veterinary-practice/,/asset-classes/veterinary-practice/referral-and-diagnostic-imaging/,(span),subtype,
+Houston,/case-studies/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/assisted-living-arizona-hud/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/assisted-living-arizona-hud/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/assisted-living-arizona-hud/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/assisted-living-arizona-hud/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/assisted-living-arizona-hud/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/assisted-living-arizona-hud/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/assisted-living-arizona-hud/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/assisted-living-california-hud/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/assisted-living-california-hud/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/assisted-living-california-hud/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/assisted-living-california-hud/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/assisted-living-california-hud/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/assisted-living-california-hud/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/assisted-living-california-hud/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/assisted-living-florida-hud/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/assisted-living-florida-hud/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/assisted-living-florida-hud/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/assisted-living-florida-hud/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/assisted-living-florida-hud/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/assisted-living-florida-hud/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/assisted-living-florida-hud/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/assisted-living-hawaii-hud/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/assisted-living-hawaii-hud/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/assisted-living-hawaii-hud/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/assisted-living-hawaii-hud/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/assisted-living-hawaii-hud/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/assisted-living-hawaii-hud/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/assisted-living-hawaii-hud/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/assisted-living-north-carolina-hud/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/assisted-living-north-carolina-hud/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/assisted-living-north-carolina-hud/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/assisted-living-north-carolina-hud/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/assisted-living-north-carolina-hud/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/assisted-living-north-carolina-hud/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/assisted-living-north-carolina-hud/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/auto-service-new-jersey-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/auto-service-new-jersey-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/auto-service-new-jersey-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/auto-service-new-jersey-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/auto-service-new-jersey-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/auto-service-new-jersey-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/auto-service-new-jersey-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/behavioral-health-massachusetts-conventional/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/behavioral-health-massachusetts-conventional/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/behavioral-health-massachusetts-conventional/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/behavioral-health-massachusetts-conventional/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/behavioral-health-massachusetts-conventional/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/behavioral-health-massachusetts-conventional/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/behavioral-health-massachusetts-conventional/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/cabin-resort-townsend-tennessee-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/childcare-illinois-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/childcare-illinois-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/childcare-illinois-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/childcare-illinois-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/childcare-illinois-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/childcare-illinois-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/childcare-illinois-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/childcare-iowa-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/childcare-iowa-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/childcare-iowa-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/childcare-iowa-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/childcare-iowa-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/childcare-iowa-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/childcare-iowa-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/coffee-shop-washington-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/coffee-shop-washington-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/coffee-shop-washington-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/coffee-shop-washington-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/coffee-shop-washington-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/coffee-shop-washington-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/coffee-shop-washington-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/dry-stack-cape-coral-florida-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/dry-stack-cape-coral-florida-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/dry-stack-cape-coral-florida-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/dry-stack-cape-coral-florida-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/dry-stack-cape-coral-florida-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/dry-stack-cape-coral-florida-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/dry-stack-cape-coral-florida-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/fitness-minnesota-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/fitness-minnesota-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/fitness-minnesota-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/fitness-minnesota-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/fitness-minnesota-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/fitness-minnesota-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/fitness-minnesota-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/fitness-new-hampshire-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/fitness-new-hampshire-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/fitness-new-hampshire-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/fitness-new-hampshire-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/fitness-new-hampshire-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/fitness-new-hampshire-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/fitness-new-hampshire-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/funeral-home-wisconsin-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/funeral-home-wisconsin-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/funeral-home-wisconsin-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/funeral-home-wisconsin-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/funeral-home-wisconsin-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/funeral-home-wisconsin-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/funeral-home-wisconsin-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/glamping-oak-hill-west-virginia-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/glamping-utah-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/glamping-utah-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/glamping-utah-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/glamping-utah-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/glamping-utah-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/glamping-utah-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/glamping-utah-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/grocery-store-mississippi-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/grocery-store-mississippi-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/grocery-store-mississippi-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/grocery-store-mississippi-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/grocery-store-mississippi-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/grocery-store-mississippi-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/grocery-store-mississippi-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/hotel-florida-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/hotel-florida-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/hotel-florida-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/hotel-florida-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/hotel-florida-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/hotel-florida-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/hotel-florida-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/hotel-georgia-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/hotel-georgia-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/hotel-georgia-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/hotel-georgia-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/hotel-georgia-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/hotel-georgia-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/hotel-georgia-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/hotel-nevada-eb5/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/hotel-nevada-eb5/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/hotel-nevada-eb5/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/hotel-nevada-eb5/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/hotel-nevada-eb5/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/hotel-nevada-eb5/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/hotel-nevada-eb5/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/hotel-south-carolina-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/hotel-south-carolina-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/hotel-south-carolina-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/hotel-south-carolina-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/hotel-south-carolina-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/hotel-south-carolina-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/hotel-south-carolina-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/laundromat-new-mexico-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/laundromat-new-mexico-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/laundromat-new-mexico-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/laundromat-new-mexico-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/laundromat-new-mexico-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/laundromat-new-mexico-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/laundromat-new-mexico-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/marina-maryland-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/marina-maryland-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/marina-maryland-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/marina-maryland-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/marina-maryland-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/marina-maryland-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/marina-maryland-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/meat-processing-georgia-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/meat-processing-georgia-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/meat-processing-georgia-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/meat-processing-georgia-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/meat-processing-georgia-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/meat-processing-georgia-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/meat-processing-georgia-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/meat-processing-north-carolina-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/meat-processing-north-carolina-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/meat-processing-north-carolina-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/meat-processing-north-carolina-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/meat-processing-north-carolina-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/meat-processing-north-carolina-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/meat-processing-north-carolina-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/medical-office-north-carolina-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/medical-office-north-carolina-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/medical-office-north-carolina-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/medical-office-north-carolina-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/medical-office-north-carolina-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/medical-office-north-carolina-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/medical-office-north-carolina-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/multifamily-arizona-agency/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/multifamily-arizona-agency/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/multifamily-arizona-agency/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/multifamily-arizona-agency/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/multifamily-arizona-agency/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/multifamily-arizona-agency/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/multifamily-arizona-agency/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/multifamily-florida-agency/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/multifamily-florida-agency/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/multifamily-florida-agency/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/multifamily-florida-agency/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/multifamily-florida-agency/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/multifamily-florida-agency/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/multifamily-florida-agency/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/multifamily-georgia-agency/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/multifamily-georgia-agency/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/multifamily-georgia-agency/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/multifamily-georgia-agency/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/multifamily-georgia-agency/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/multifamily-georgia-agency/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/multifamily-georgia-agency/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/multifamily-new-york-agency/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/multifamily-new-york-agency/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/multifamily-new-york-agency/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/multifamily-new-york-agency/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/multifamily-new-york-agency/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/multifamily-new-york-agency/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/multifamily-new-york-agency/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/multifamily-north-carolina-agency/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/multifamily-north-carolina-agency/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/multifamily-north-carolina-agency/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/multifamily-north-carolina-agency/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/multifamily-north-carolina-agency/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/multifamily-north-carolina-agency/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/multifamily-north-carolina-agency/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/multifamily-texas-agency/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/multifamily-texas-agency/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/multifamily-texas-agency/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/multifamily-texas-agency/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/multifamily-texas-agency/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/multifamily-texas-agency/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/multifamily-texas-agency/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/pet-boarding-oregon-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/pet-boarding-oregon-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/pet-boarding-oregon-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/pet-boarding-oregon-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/pet-boarding-oregon-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/pet-boarding-oregon-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/pet-boarding-oregon-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/private-school-connecticut-conventional/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/private-school-connecticut-conventional/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/private-school-connecticut-conventional/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/private-school-connecticut-conventional/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/private-school-connecticut-conventional/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/private-school-connecticut-conventional/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/private-school-connecticut-conventional/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/qsr-arkansas-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/qsr-arkansas-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/qsr-arkansas-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/qsr-arkansas-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/qsr-arkansas-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/qsr-arkansas-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/qsr-arkansas-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/qsr-georgia-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/qsr-georgia-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/qsr-georgia-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/qsr-georgia-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/qsr-georgia-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/qsr-georgia-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/qsr-georgia-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/restaurant-missouri-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/restaurant-missouri-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/restaurant-missouri-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/restaurant-missouri-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/restaurant-missouri-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/restaurant-missouri-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/restaurant-missouri-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/retail-nevada-conventional/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/retail-nevada-conventional/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/retail-nevada-conventional/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/retail-nevada-conventional/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/retail-nevada-conventional/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/retail-nevada-conventional/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/retail-nevada-conventional/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-boat-storage-arizona-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-boat-storage-arizona-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-boat-storage-arizona-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-boat-storage-arizona-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-boat-storage-arizona-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-boat-storage-arizona-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-boat-storage-arizona-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-boat-storage-california-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-boat-storage-california-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-boat-storage-california-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-boat-storage-california-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-boat-storage-california-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-boat-storage-california-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-boat-storage-california-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-boat-storage-florida-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-boat-storage-florida-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-boat-storage-florida-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-boat-storage-florida-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-boat-storage-florida-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-boat-storage-florida-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-boat-storage-florida-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-park-arizona-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-park-arizona-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-park-arizona-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-park-arizona-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-park-arizona-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-park-arizona-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-park-arizona-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-park-maine-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-park-maine-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-park-maine-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-park-maine-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-park-maine-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-park-maine-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-park-maine-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-park-ossipee-new-hampshire-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/rv-park-pennsylvania-usda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/rv-park-pennsylvania-usda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/rv-park-pennsylvania-usda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/rv-park-pennsylvania-usda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/rv-park-pennsylvania-usda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/rv-park-pennsylvania-usda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/rv-park-pennsylvania-usda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/self-storage-arizona-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/self-storage-arizona-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/self-storage-arizona-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/self-storage-arizona-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/self-storage-arizona-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/self-storage-arizona-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/self-storage-arizona-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/self-storage-indiana-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/self-storage-indiana-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/self-storage-indiana-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/self-storage-indiana-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/self-storage-indiana-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/self-storage-indiana-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/self-storage-indiana-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/truck-stop-georgia-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/truck-stop-georgia-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/truck-stop-georgia-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/truck-stop-georgia-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/truck-stop-georgia-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/truck-stop-georgia-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/truck-stop-georgia-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/truck-stop-oklahoma-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/truck-stop-oklahoma-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/truck-stop-oklahoma-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/truck-stop-oklahoma-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/truck-stop-oklahoma-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/truck-stop-oklahoma-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/truck-stop-oklahoma-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/urgent-care-florida-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/urgent-care-florida-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/urgent-care-florida-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/urgent-care-florida-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/urgent-care-florida-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/urgent-care-florida-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/urgent-care-florida-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/case-studies/veterinary-michigan-sba/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/case-studies/veterinary-michigan-sba/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/case-studies/veterinary-michigan-sba/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/case-studies/veterinary-michigan-sba/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/case-studies/veterinary-michigan-sba/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/case-studies/veterinary-michigan-sba/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/case-studies/veterinary-michigan-sba/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/practice-areas/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/practice-areas/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/practice-areas/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/practice-areas/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/practice-areas/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/practice-areas/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/practice-areas/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/practice-areas/conventional-institutional/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/practice-areas/conventional-institutional/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/practice-areas/conventional-institutional/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/practice-areas/conventional-institutional/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/practice-areas/conventional-institutional/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/practice-areas/conventional-institutional/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/practice-areas/conventional-institutional/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+coverage and stress-testing layer,/practice-areas/conventional-institutional/,/analytical-framework/coverage-and-stress-testing/,/analytical-framework/#coverage,framework,
+review-failure taxonomy,/practice-areas/conventional-institutional/,/analytical-framework/common-review-failures/,/analytical-framework/#rejected,framework,
+Hotel Feasibility Studies,/practice-areas/conventional-institutional/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial Feasibility Studies,/practice-areas/conventional-institutional/,/asset-classes/industrial/,(span),hub,
+Houston,/practice-areas/eb-5/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/practice-areas/eb-5/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/practice-areas/eb-5/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/practice-areas/eb-5/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/practice-areas/eb-5/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/practice-areas/eb-5/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/practice-areas/eb-5/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+review-failure taxonomy,/practice-areas/eb-5/,/analytical-framework/common-review-failures/,/analytical-framework/#rejected,framework,
+Houston,/practice-areas/sba-7a-504/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/practice-areas/sba-7a-504/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/practice-areas/sba-7a-504/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/practice-areas/sba-7a-504/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/practice-areas/sba-7a-504/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/practice-areas/sba-7a-504/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/practice-areas/sba-7a-504/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/practice-areas/usda-rural-development/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/practice-areas/usda-rural-development/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/practice-areas/usda-rural-development/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/practice-areas/usda-rural-development/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/practice-areas/usda-rural-development/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/practice-areas/usda-rural-development/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/practice-areas/usda-rural-development/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Rural Manufacturing Feasibility Studies,/practice-areas/usda-rural-development/,/asset-classes/industrial/,(span),hub,
+review-failure taxonomy,/practice-areas/usda-rural-development/,/analytical-framework/common-review-failures/,/analytical-framework/#rejected,framework,
+Houston,/privacy/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/privacy/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/privacy/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/privacy/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/privacy/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/privacy/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/privacy/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/absorption-forensics/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/absorption-forensics/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/absorption-forensics/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/absorption-forensics/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/absorption-forensics/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/absorption-forensics/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/absorption-forensics/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/break-even-occupancy-trap/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/break-even-occupancy-trap/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/break-even-occupancy-trap/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/break-even-occupancy-trap/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/break-even-occupancy-trap/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/break-even-occupancy-trap/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/break-even-occupancy-trap/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/c-store-franchise-category/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/c-store-franchise-category/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/c-store-franchise-category/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/c-store-franchise-category/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/c-store-franchise-category/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/c-store-franchise-category/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/c-store-franchise-category/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/coverage-constrained-takeout/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/coverage-constrained-takeout/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/coverage-constrained-takeout/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/coverage-constrained-takeout/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/coverage-constrained-takeout/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/coverage-constrained-takeout/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/coverage-constrained-takeout/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/effective-rent-vs-asking-rent/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/effective-rent-vs-asking-rent/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/effective-rent-vs-asking-rent/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/effective-rent-vs-asking-rent/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/effective-rent-vs-asking-rent/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/effective-rent-vs-asking-rent/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/effective-rent-vs-asking-rent/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/five-usda-components-applied/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/five-usda-components-applied/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/five-usda-components-applied/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/five-usda-components-applied/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/five-usda-components-applied/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/five-usda-components-applied/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/five-usda-components-applied/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/franchise-vs-non-franchise/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/franchise-vs-non-franchise/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/franchise-vs-non-franchise/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/franchise-vs-non-franchise/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/franchise-vs-non-franchise/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/franchise-vs-non-franchise/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/franchise-vs-non-franchise/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/gas-station-demand-per-capita/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/gas-station-demand-per-capita/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/gas-station-demand-per-capita/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/gas-station-demand-per-capita/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/gas-station-demand-per-capita/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/gas-station-demand-per-capita/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/gas-station-demand-per-capita/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/hospitality-str-report/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/hospitality-str-report/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/hospitality-str-report/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/hospitality-str-report/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/hospitality-str-report/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/hospitality-str-report/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/hospitality-str-report/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/how-eb-5-jobs-are-counted/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/how-eb-5-jobs-are-counted/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/how-eb-5-jobs-are-counted/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/how-eb-5-jobs-are-counted/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/how-eb-5-jobs-are-counted/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/how-eb-5-jobs-are-counted/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/how-eb-5-jobs-are-counted/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/office-repurposing/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/office-repurposing/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/office-repurposing/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/office-repurposing/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/office-repurposing/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/office-repurposing/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/office-repurposing/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/sba-default-economics/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/sba-default-economics/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/sba-default-economics/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/sba-default-economics/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/sba-default-economics/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/sba-default-economics/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/sba-default-economics/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/sba-feasibility-myth/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/sba-feasibility-myth/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/sba-feasibility-myth/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/sba-feasibility-myth/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/sba-feasibility-myth/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/sba-feasibility-myth/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/sba-feasibility-myth/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/special-purpose-property-risk/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/special-purpose-property-risk/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/special-purpose-property-risk/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/special-purpose-property-risk/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/special-purpose-property-risk/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/special-purpose-property-risk/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/special-purpose-property-risk/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/trade-area-is-the-study/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/trade-area-is-the-study/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/trade-area-is-the-study/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/trade-area-is-the-study/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/trade-area-is-the-study/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/trade-area-is-the-study/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/trade-area-is-the-study/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/underserved-gas-station-markets/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/underserved-gas-station-markets/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/underserved-gas-station-markets/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/underserved-gas-station-markets/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/underserved-gas-station-markets/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/underserved-gas-station-markets/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/underserved-gas-station-markets/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/usda-rd-deadline-calendar/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/usda-rd-deadline-calendar/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/usda-rd-deadline-calendar/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/usda-rd-deadline-calendar/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/usda-rd-deadline-calendar/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/usda-rd-deadline-calendar/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/usda-rd-deadline-calendar/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/research-notes/why-feasibility-studies-fail-review/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/research-notes/why-feasibility-studies-fail-review/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/research-notes/why-feasibility-studies-fail-review/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/research-notes/why-feasibility-studies-fail-review/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/research-notes/why-feasibility-studies-fail-review/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/research-notes/why-feasibility-studies-fail-review/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/research-notes/why-feasibility-studies-fail-review/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/states/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Ohio,/states/,/states/ohio/,(span),state,
+Los Angeles,/states/,/states/california/los-angeles/,/states/california/#metros,metro,
+Houston,/states/,/states/texas/houston/,/states/texas/#metros,metro,
+Dallas-Fort Worth,/states/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,
+Austin,/states/,/states/texas/austin/,/states/texas/#metros,metro,
+Miami,/states/,/states/florida/miami/,/states/florida/#metros,metro,
+Atlanta,/states/,/states/georgia/atlanta/,/states/georgia/#metros,metro,
+Charlotte,/states/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,
+Chicago,/states/,/states/illinois/chicago/,/states/illinois/#metros,metro,
+Columbus,/states/,/states/ohio/columbus/,(span),metro,
+Houston,/states/alabama/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/alabama/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/alabama/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/alabama/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/alabama/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/alabama/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/alabama/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Huntsville,/states/alabama/,/states/alabama/huntsville/,(span),metro,
+Birmingham-Hoover,/states/alabama/,/states/alabama/birmingham/,(span),metro,
+Mobile,/states/alabama/,/states/alabama/mobile/,(span),metro,
+Montgomery,/states/alabama/,/states/alabama/montgomery/,(span),metro,
+Tuscaloosa,/states/alabama/,/states/alabama/tuscaloosa/,(span),metro,
+Baldwin / Gulf Shores,/states/alabama/,/states/alabama/gulf-shores/,(span),metro,
+Auburn-Opelika,/states/alabama/,/states/alabama/auburn/,(span),metro,
+Rural Black Belt,/states/alabama/,/states/alabama/black-belt/,(span),metro,
+Hotel Feasibility Studies in Alabama,/states/alabama/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/alabama/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Alabama,/states/alabama/,/asset-classes/cold-storage/,(span),hub,
+Houston,/states/arizona/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/arizona/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/arizona/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/arizona/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/arizona/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/arizona/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/arizona/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Phoenix-Mesa-Chandler,/states/arizona/,/states/arizona/phoenix/,(span),metro,
+Tucson,/states/arizona/,/states/arizona/tucson/,(span),metro,
+Pinal County / Casa Grande,/states/arizona/,/states/arizona/pinal-county/,(span),metro,
+Scottsdale / Paradise Valley,/states/arizona/,/states/arizona/scottsdale/,(span),metro,
+Flagstaff / Sedona,/states/arizona/,/states/arizona/flagstaff/,(span),metro,
+Yuma,/states/arizona/,/states/arizona/yuma/,(span),metro,
+Prescott / Lake Havasu,/states/arizona/,/states/arizona/prescott/,(span),metro,
+Tribal & rural counties,/states/arizona/,/states/arizona/rural/,(span),metro,
+Industrial & Warehouse Feasibility Studies in Arizona,/states/arizona/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Arizona,/states/arizona/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/arizona/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/arkansas/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/arkansas/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/arkansas/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/arkansas/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/arkansas/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/arkansas/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/arkansas/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Northwest Arkansas,/states/arkansas/,/states/arkansas/northwest-arkansas/,(span),metro,
+Little Rock-North Little Rock-Conway,/states/arkansas/,/states/arkansas/little-rock/,(span),metro,
+Fort Smith / River Valley,/states/arkansas/,/states/arkansas/fort-smith/,(span),metro,
+Jonesboro,/states/arkansas/,/states/arkansas/jonesboro/,(span),metro,
+Mississippi County,/states/arkansas/,/states/arkansas/mississippi-county/,(span),metro,
+Hot Springs,/states/arkansas/,/states/arkansas/hot-springs/,(span),metro,
+Pine Bluff / Delta,/states/arkansas/,/states/arkansas/pine-bluff/,(span),metro,
+South Arkansas,/states/arkansas/,/states/arkansas/south-arkansas/,(span),metro,
+Hotel Feasibility Studies in Arkansas,/states/arkansas/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/arkansas/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Arkansas,/states/arkansas/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/arkansas/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/california/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/california/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/california/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/california/,/states/california/los-angeles/,(span),metro,chrome:header
+Miami,/states/california/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/california/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/california/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+San Francisco Bay Area,/states/california/,/states/california/san-francisco/,(span),metro,
+Los Angeles,/states/california/,/states/california/los-angeles/,(span),metro,
+Inland Empire (Riverside-San Bernardino),/states/california/,/states/california/inland-empire/,(span),metro,
+San Diego,/states/california/,/states/california/san-diego/,(span),metro,
+Orange County,/states/california/,/states/california/orange-county/,(span),metro,
+Sacramento,/states/california/,/states/california/sacramento/,(span),metro,
+Central Valley (Fresno / Bakersfield),/states/california/,/states/california/central-valley/,(span),metro,
+Silicon Valley / San Jose,/states/california/,/states/california/silicon-valley/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/california/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in California,/states/california/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in California,/states/california/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/california/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/connecticut/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/connecticut/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/connecticut/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/connecticut/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/connecticut/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/connecticut/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/connecticut/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Fairfield County: Bridgeport-Stamford-Norwalk,/states/connecticut/,/states/connecticut/fairfield-county/,(span),metro,
+Greater Hartford: Capitol Region,/states/connecticut/,/states/connecticut/hartford/,(span),metro,
+New Haven: South Central,/states/connecticut/,/states/connecticut/new-haven/,(span),metro,
+Southeastern CT: Norwich-New London,/states/connecticut/,/states/connecticut/new-london/,(span),metro,
+Waterbury / Naugatuck Valley,/states/connecticut/,/states/connecticut/waterbury/,(span),metro,
+Litchfield Hills / Northwest Hills,/states/connecticut/,/states/connecticut/litchfield-hills/,(span),metro,
+Quiet Corner / Northeastern,/states/connecticut/,/states/connecticut/quiet-corner/,(span),metro,
+Greater Bridgeport,/states/connecticut/,/states/connecticut/bridgeport/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/connecticut/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Connecticut,/states/connecticut/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Connecticut,/states/connecticut/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/connecticut/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/florida/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/florida/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/florida/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/florida/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/florida/,/states/florida/miami/,(span),metro,chrome:header
+Atlanta,/states/florida/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/florida/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Miami-Fort Lauderdale-West Palm Beach,/states/florida/,/states/florida/miami/,(span),metro,
+Tampa-St. Petersburg-Clearwater,/states/florida/,/states/florida/tampa/,(span),metro,
+Orlando-Kissimmee-Sanford,/states/florida/,/states/florida/orlando/,(span),metro,
+Jacksonville,/states/florida/,/states/florida/jacksonville/,(span),metro,
+Lakeland-Winter Haven,/states/florida/,/states/florida/lakeland/,(span),metro,
+Cape Coral-Fort Myers / Sarasota,/states/florida/,/states/florida/fort-myers/,(span),metro,
+The Villages / Ocala,/states/florida/,/states/florida/the-villages/,(span),metro,
+Pensacola / Tallahassee / Gainesville,/states/florida/,/states/florida/gainesville/,(span),metro,
+Hotel Feasibility Studies in Florida,/states/florida/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/florida/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Florida,/states/florida/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/florida/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/georgia/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/georgia/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/georgia/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/georgia/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/georgia/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/georgia/,/states/georgia/atlanta/,(span),metro,chrome:header
+Charlotte,/states/georgia/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Atlanta,/states/georgia/,/states/georgia/atlanta/,(span),metro,
+Savannah,/states/georgia/,/states/georgia/savannah/,(span),metro,
+Augusta,/states/georgia/,/states/georgia/augusta/,(span),metro,
+Columbus,/states/georgia/,/states/georgia/columbus/,(span),metro,
+Macon,/states/georgia/,/states/georgia/macon/,(span),metro,
+Athens,/states/georgia/,/states/georgia/athens/,(span),metro,
+Albany / South Georgia,/states/georgia/,/states/georgia/albany/,(span),metro,
+Valdosta / Warner Robins,/states/georgia/,/states/georgia/valdosta/,(span),metro,
+Industrial & Warehouse Feasibility Studies in Georgia,/states/georgia/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Georgia,/states/georgia/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Georgia,/states/georgia/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/georgia/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/hawaii/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/hawaii/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/hawaii/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/hawaii/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/hawaii/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/hawaii/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/hawaii/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Honolulu / Oahu,/states/hawaii/,/states/hawaii/oahu/,(span),metro,
+Kapolei / Ewa,/states/hawaii/,/states/hawaii/kapolei/,(span),metro,
+Maui County,/states/hawaii/,/states/hawaii/maui/,(span),metro,
+West Maui / Lahaina,/states/hawaii/,/states/hawaii/lahaina/,(span),metro,
+Hawaii Island (Big Island),/states/hawaii/,/states/hawaii/hawaii-island/,(span),metro,
+Kauai,/states/hawaii/,/states/hawaii/kauai/,(span),metro,
+Hotel Feasibility Studies in Hawaii,/states/hawaii/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/hawaii/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Houston,/states/illinois/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/illinois/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/illinois/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/illinois/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/illinois/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/illinois/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/illinois/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Chicago,/states/illinois/,/states/illinois/chicago/,(span),metro,
+Rockford,/states/illinois/,/states/illinois/rockford/,(span),metro,
+Peoria,/states/illinois/,/states/illinois/peoria/,(span),metro,
+Springfield,/states/illinois/,/states/illinois/springfield/,(span),metro,
+Champaign-Urbana,/states/illinois/,/states/illinois/champaign-urbana/,(span),metro,
+Bloomington-Normal,/states/illinois/,/states/illinois/bloomington-normal/,(span),metro,
+Quad Cities,/states/illinois/,/states/illinois/quad-cities/,(span),metro,
+Metro East,/states/illinois/,/states/illinois/metro-east/,(span),metro,
+Industrial & Warehouse Feasibility Studies in Illinois,/states/illinois/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Illinois,/states/illinois/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Illinois,/states/illinois/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/illinois/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/indiana/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/indiana/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/indiana/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/indiana/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/indiana/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/indiana/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/indiana/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Indianapolis-Carmel-Greenwood,/states/indiana/,/states/indiana/indianapolis/,(span),metro,
+"Hamilton, Boone & Hendricks collar",/states/indiana/,/states/indiana/carmel/,(span),metro,
+Fort Wayne,/states/indiana/,/states/indiana/fort-wayne/,(span),metro,
+Northwest Indiana / the Region,/states/indiana/,/states/indiana/northwest-indiana/,(span),metro,
+Bloomington & West Lafayette,/states/indiana/,/states/indiana/bloomington/,(span),metro,
+Elkhart & South Bend,/states/indiana/,/states/indiana/elkhart/,(span),metro,
+Kokomo & Lafayette,/states/indiana/,/states/indiana/kokomo/,(span),metro,
+"Warsaw, Columbus & Evansville",/states/indiana/,/states/indiana/warsaw/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/indiana/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Houston,/states/iowa/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/iowa/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/iowa/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/iowa/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/iowa/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/iowa/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/iowa/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Des Moines-West Des Moines,/states/iowa/,/states/iowa/des-moines/,(span),metro,
+Cedar Rapids,/states/iowa/,/states/iowa/cedar-rapids/,(span),metro,
+Iowa City,/states/iowa/,/states/iowa/iowa-city/,(span),metro,
+Quad Cities,/states/iowa/,/states/iowa/quad-cities/,(span),metro,
+Waterloo-Cedar Falls,/states/iowa/,/states/iowa/waterloo-cedar-falls/,(span),metro,
+Sioux City,/states/iowa/,/states/iowa/sioux-city/,(span),metro,
+Council Bluffs,/states/iowa/,/states/iowa/council-bluffs/,(span),metro,
+Ames / Dubuque,/states/iowa/,/states/iowa/ames/,(span),metro,
+Industrial & Warehouse Feasibility Studies in Iowa,/states/iowa/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Iowa,/states/iowa/,/asset-classes/cold-storage/,(span),hub,
+Hotel Feasibility Studies in Iowa,/states/iowa/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Houston,/states/maine/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/maine/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/maine/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/maine/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/maine/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/maine/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/maine/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Greater Portland,/states/maine/,/states/maine/portland/,(span),metro,
+York County,/states/maine/,/states/maine/york-county/,(span),metro,
+Bangor (Penobscot),/states/maine/,/states/maine/bangor/,(span),metro,
+Lewiston-Auburn,/states/maine/,/states/maine/lewiston-auburn/,(span),metro,
+Midcoast (Knox & Lincoln),/states/maine/,/states/maine/midcoast/,(span),metro,
+Bar Harbor / Downeast,/states/maine/,/states/maine/bar-harbor/,(span),metro,
+Bath (Sagadahoc),/states/maine/,/states/maine/bath/,(span),metro,
+Aroostook / The County,/states/maine/,/states/maine/aroostook/,(span),metro,
+Hotel Feasibility Studies in Maine,/states/maine/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/maine/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Houston,/states/maryland/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/maryland/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/maryland/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/maryland/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/maryland/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/maryland/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/maryland/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Montgomery County (Bethesda / Rockville / Gaithersburg),/states/maryland/,/states/maryland/montgomery-county/,(span),metro,
+Prince George's County,/states/maryland/,/states/maryland/prince-georges-county/,(span),metro,
+Baltimore City,/states/maryland/,/states/maryland/baltimore/,(span),metro,
+"Baltimore County, Anne Arundel & Howard",/states/maryland/,/states/maryland/bwi-corridor/,(span),metro,
+Frederick County,/states/maryland/,/states/maryland/frederick/,(span),metro,
+Eastern Shore (Salisbury / Ocean City),/states/maryland/,/states/maryland/eastern-shore/,(span),metro,
+Western Maryland (Hagerstown / Cumberland),/states/maryland/,/states/maryland/western-maryland/,(span),metro,
+Southern Maryland (Charles / Calvert / St. Mary's),/states/maryland/,/states/maryland/southern-maryland/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/maryland/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Maryland,/states/maryland/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies (Delmarva),/states/maryland/,/asset-classes/cold-storage/,(span),hub,
+Houston,/states/massachusetts/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/massachusetts/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/massachusetts/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/massachusetts/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/massachusetts/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/massachusetts/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/massachusetts/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Greater Boston,/states/massachusetts/,/states/massachusetts/boston/,(span),metro,
+Cambridge & Kendall Square,/states/massachusetts/,/states/massachusetts/cambridge/,(span),metro,
+Worcester & the I-495 Belt,/states/massachusetts/,/states/massachusetts/worcester/,(span),metro,
+Springfield & the Pioneer Valley,/states/massachusetts/,/states/massachusetts/springfield/,(span),metro,
+Merrimack Valley: Lowell & Lawrence,/states/massachusetts/,/states/massachusetts/lowell/,(span),metro,
+New Bedford & Fall River,/states/massachusetts/,/states/massachusetts/new-bedford/,(span),metro,
+Berkshires & Western Massachusetts,/states/massachusetts/,/states/massachusetts/berkshires/,(span),metro,
+Cape Cod & the Islands,/states/massachusetts/,/states/massachusetts/cape-cod/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/massachusetts/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Massachusetts,/states/massachusetts/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Massachusetts,/states/massachusetts/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/massachusetts/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/michigan/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/michigan/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/michigan/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/michigan/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/michigan/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/michigan/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/michigan/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Detroit-Warren-Dearborn,/states/michigan/,/states/michigan/detroit/,(span),metro,
+Grand Rapids / West Michigan,/states/michigan/,/states/michigan/grand-rapids/,(span),metro,
+Ann Arbor,/states/michigan/,/states/michigan/ann-arbor/,(span),metro,
+Lansing-East Lansing,/states/michigan/,/states/michigan/lansing/,(span),metro,
+Kalamazoo,/states/michigan/,/states/michigan/kalamazoo/,(span),metro,
+Flint / Saginaw,/states/michigan/,/states/michigan/flint/,(span),metro,
+Traverse City / Northern Michigan,/states/michigan/,/states/michigan/traverse-city/,(span),metro,
+Upper Peninsula (Marquette),/states/michigan/,/states/michigan/upper-peninsula/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/michigan/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Michigan,/states/michigan/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Michigan,/states/michigan/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/michigan/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/minnesota/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/minnesota/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/minnesota/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/minnesota/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/minnesota/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/minnesota/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/minnesota/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Minneapolis-St. Paul,/states/minnesota/,/states/minnesota/minneapolis-st-paul/,(span),metro,
+Rochester,/states/minnesota/,/states/minnesota/rochester/,(span),metro,
+Duluth,/states/minnesota/,/states/minnesota/duluth/,(span),metro,
+St. Cloud,/states/minnesota/,/states/minnesota/st-cloud/,(span),metro,
+Mankato & Moorhead,/states/minnesota/,/states/minnesota/mankato/,(span),metro,
+Iron Range,/states/minnesota/,/states/minnesota/iron-range/,(span),metro,
+Brainerd Lakes,/states/minnesota/,/states/minnesota/brainerd/,(span),metro,
+Rosemount & the south metro,/states/minnesota/,/states/minnesota/rosemount/,(span),metro,
+Hotel Feasibility Studies in Minnesota,/states/minnesota/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/minnesota/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Minnesota,/states/minnesota/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/minnesota/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/mississippi/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/mississippi/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/mississippi/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/mississippi/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/mississippi/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/mississippi/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/mississippi/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Jackson Metro (Madison / Rankin / Hinds),/states/mississippi/,/states/mississippi/jackson/,(span),metro,
+DeSoto County / North Mississippi,/states/mississippi/,/states/mississippi/desoto-county/,(span),metro,
+Gulf Coast (Gulfport-Biloxi / Pascagoula),/states/mississippi/,/states/mississippi/gulf-coast/,(span),metro,
+Golden Triangle (Columbus / Starkville),/states/mississippi/,/states/mississippi/golden-triangle/,(span),metro,
+Tupelo / Northeast Mississippi,/states/mississippi/,/states/mississippi/tupelo/,(span),metro,
+Oxford / Lafayette County,/states/mississippi/,/states/mississippi/oxford/,(span),metro,
+The Delta,/states/mississippi/,/states/mississippi/delta/,(span),metro,
+Hattiesburg / Pine Belt & Meridian,/states/mississippi/,/states/mississippi/hattiesburg/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/mississippi/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Mississippi,/states/mississippi/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Mississippi,/states/mississippi/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/mississippi/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/missouri/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/missouri/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/missouri/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/missouri/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/missouri/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/missouri/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/missouri/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Kansas City,/states/missouri/,/states/missouri/kansas-city/,(span),metro,
+St. Louis,/states/missouri/,/states/missouri/st-louis/,(span),metro,
+Springfield,/states/missouri/,/states/missouri/springfield/,(span),metro,
+Columbia,/states/missouri/,/states/missouri/columbia/,(span),metro,
+St. Joseph,/states/missouri/,/states/missouri/st-joseph/,(span),metro,
+Branson / Lake of the Ozarks,/states/missouri/,/states/missouri/branson/,(span),metro,
+Jefferson City / Cape Girardeau / Joplin,/states/missouri/,/states/missouri/jefferson-city/,(span),metro,
+St. Louis 39 North / Cortex,/states/missouri/,/states/missouri/st-louis/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/missouri/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Missouri,/states/missouri/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Missouri,/states/missouri/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/missouri/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/nevada/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/nevada/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/nevada/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/nevada/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/nevada/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/nevada/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/nevada/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Las Vegas-Henderson-Paradise,/states/nevada/,/states/nevada/las-vegas/,(span),metro,
+Reno-Sparks,/states/nevada/,/states/nevada/reno/,(span),metro,
+Carson City,/states/nevada/,/states/nevada/carson-city/,(span),metro,
+Lyon County (Fernley / Dayton),/states/nevada/,/states/nevada/fernley/,(span),metro,
+Elko,/states/nevada/,/states/nevada/elko/,(span),metro,
+Humboldt County (Winnemucca),/states/nevada/,/states/nevada/winnemucca/,(span),metro,
+Lake Tahoe (Nevada side),/states/nevada/,/states/nevada/lake-tahoe/,(span),metro,
+Laughlin,/states/nevada/,/states/nevada/laughlin/,(span),metro,
+Hotel Feasibility Studies in Nevada,/states/nevada/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/nevada/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Nevada,/states/nevada/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/nevada/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/new-hampshire/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/new-hampshire/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/new-hampshire/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/new-hampshire/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/new-hampshire/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/new-hampshire/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/new-hampshire/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Manchester,/states/new-hampshire/,/states/new-hampshire/manchester/,(span),metro,
+Nashua,/states/new-hampshire/,/states/new-hampshire/nashua/,(span),metro,
+Portsmouth & the Seacoast,/states/new-hampshire/,/states/new-hampshire/portsmouth/,(span),metro,
+Salem & the border belt,/states/new-hampshire/,/states/new-hampshire/salem/,(span),metro,
+Lebanon-Hanover / Upper Valley,/states/new-hampshire/,/states/new-hampshire/upper-valley/,(span),metro,
+Concord,/states/new-hampshire/,/states/new-hampshire/concord/,(span),metro,
+Lakes Region & White Mountains,/states/new-hampshire/,/states/new-hampshire/lakes-and-mountains/,(span),metro,
+North Country / Berlin,/states/new-hampshire/,/states/new-hampshire/north-country/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/new-hampshire/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Houston,/states/new-jersey/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/new-jersey/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/new-jersey/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/new-jersey/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/new-jersey/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/new-jersey/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/new-jersey/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Jersey City & the Gold Coast,/states/new-jersey/,/states/new-jersey/jersey-city/,(span),metro,
+Newark & Essex County,/states/new-jersey/,/states/new-jersey/newark/,(span),metro,
+Bergen County,/states/new-jersey/,/states/new-jersey/bergen-county/,(span),metro,
+"Morris, Passaic & Union",/states/new-jersey/,/states/new-jersey/morris-county/,(span),metro,
+Central Jersey: Middlesex & Exit 8A,/states/new-jersey/,/states/new-jersey/middlesex-county/,(span),metro,
+Monmouth & Ocean / the Shore,/states/new-jersey/,/states/new-jersey/monmouth-ocean/,(span),metro,
+Camden & South Jersey,/states/new-jersey/,/states/new-jersey/camden/,(span),metro,
+Atlantic City & Cape May,/states/new-jersey/,/states/new-jersey/atlantic-city/,(span),metro,
+Industrial & Warehouse Feasibility Studies in New Jersey,/states/new-jersey/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in New Jersey,/states/new-jersey/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in New Jersey,/states/new-jersey/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/new-jersey/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/new-mexico/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/new-mexico/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/new-mexico/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/new-mexico/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/new-mexico/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/new-mexico/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/new-mexico/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Albuquerque metro,/states/new-mexico/,/states/new-mexico/albuquerque/,(span),metro,
+Santa Fe,/states/new-mexico/,/states/new-mexico/santa-fe/,(span),metro,
+Los Alamos / Northern NM,/states/new-mexico/,/states/new-mexico/los-alamos/,(span),metro,
+Permian Basin / Hobbs & Carlsbad,/states/new-mexico/,/states/new-mexico/permian-basin/,(span),metro,
+Las Cruces / Doña Ana,/states/new-mexico/,/states/new-mexico/las-cruces/,(span),metro,
+Rio Rancho,/states/new-mexico/,/states/new-mexico/rio-rancho/,(span),metro,
+Farmington / San Juan,/states/new-mexico/,/states/new-mexico/farmington/,(span),metro,
+Spaceport & Truth or Consequences,/states/new-mexico/,/states/new-mexico/truth-or-consequences/,(span),metro,
+Hotel Feasibility Studies in New Mexico,/states/new-mexico/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Industrial & Warehouse Feasibility Studies,/states/new-mexico/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Houston,/states/new-york/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/new-york/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/new-york/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/new-york/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/new-york/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/new-york/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/new-york/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+New York City,/states/new-york/,/states/new-york/new-york-city/,(span),metro,
+Long Island,/states/new-york/,/states/new-york/long-island/,(span),metro,
+Hudson Valley / Mid-Hudson,/states/new-york/,/states/new-york/hudson-valley/,(span),metro,
+Buffalo,/states/new-york/,/states/new-york/buffalo/,(span),metro,
+Rochester,/states/new-york/,/states/new-york/rochester/,(span),metro,
+Syracuse / Central NY,/states/new-york/,/states/new-york/syracuse/,(span),metro,
+Albany / Capital Region,/states/new-york/,/states/new-york/albany/,(span),metro,
+Southern Tier / North Country,/states/new-york/,/states/new-york/binghamton/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/new-york/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in New York,/states/new-york/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in New York,/states/new-york/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/new-york/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/north-carolina/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/north-carolina/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/north-carolina/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/north-carolina/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/north-carolina/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/north-carolina/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/north-carolina/,/states/north-carolina/charlotte/,(span),metro,chrome:header
+Charlotte-Concord-Gastonia,/states/north-carolina/,/states/north-carolina/charlotte/,(span),metro,
+Raleigh-Durham-Cary (Research Triangle),/states/north-carolina/,/states/north-carolina/raleigh-durham/,(span),metro,
+Greensboro-Winston-Salem-High Point (Triad),/states/north-carolina/,/states/north-carolina/greensboro/,(span),metro,
+Wilmington,/states/north-carolina/,/states/north-carolina/wilmington/,(span),metro,
+Asheville,/states/north-carolina/,/states/north-carolina/asheville/,(span),metro,
+Fayetteville,/states/north-carolina/,/states/north-carolina/fayetteville/,(span),metro,
+Hickory,/states/north-carolina/,/states/north-carolina/hickory/,(span),metro,
+Greenville,/states/north-carolina/,/states/north-carolina/greenville/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/north-carolina/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in North Carolina,/states/north-carolina/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in North Carolina,/states/north-carolina/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/north-carolina/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/oklahoma/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/oklahoma/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/oklahoma/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/oklahoma/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/oklahoma/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/oklahoma/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/oklahoma/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Oklahoma City,/states/oklahoma/,/states/oklahoma/oklahoma-city/,(span),metro,
+Tulsa,/states/oklahoma/,/states/oklahoma/tulsa/,(span),metro,
+Norman,/states/oklahoma/,/states/oklahoma/norman/,(span),metro,
+Edmond,/states/oklahoma/,/states/oklahoma/edmond/,(span),metro,
+Stillwater,/states/oklahoma/,/states/oklahoma/stillwater/,(span),metro,
+Lawton,/states/oklahoma/,/states/oklahoma/lawton/,(span),metro,
+Pryor / Green Country,/states/oklahoma/,/states/oklahoma/pryor/,(span),metro,
+Durant / Thackerville,/states/oklahoma/,/states/oklahoma/durant/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/oklahoma/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Oklahoma,/states/oklahoma/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Oklahoma,/states/oklahoma/,/asset-classes/cold-storage/,(span),hub,
+Houston,/states/oregon/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/oregon/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/oregon/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/oregon/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/oregon/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/oregon/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/oregon/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Portland-Vancouver-Hillsboro,/states/oregon/,/states/oregon/portland/,(span),metro,
+Washington County / Hillsboro,/states/oregon/,/states/oregon/hillsboro/,(span),metro,
+Salem,/states/oregon/,/states/oregon/salem/,(span),metro,
+Eugene-Springfield,/states/oregon/,/states/oregon/eugene/,(span),metro,
+Bend-Redmond / Central Oregon,/states/oregon/,/states/oregon/bend/,(span),metro,
+Prineville / Crook County,/states/oregon/,/states/oregon/prineville/,(span),metro,
+The Oregon Coast,/states/oregon/,/states/oregon/oregon-coast/,(span),metro,
+Eastern & Southern Oregon,/states/oregon/,/states/oregon/eastern-oregon/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/oregon/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Oregon,/states/oregon/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Oregon,/states/oregon/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/oregon/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/pennsylvania/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/pennsylvania/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/pennsylvania/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/pennsylvania/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/pennsylvania/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/pennsylvania/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/pennsylvania/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Philadelphia,/states/pennsylvania/,/states/pennsylvania/philadelphia/,(span),metro,
+Pittsburgh,/states/pennsylvania/,/states/pennsylvania/pittsburgh/,(span),metro,
+Lehigh Valley,/states/pennsylvania/,/states/pennsylvania/lehigh-valley/,(span),metro,
+Harrisburg & Central PA,/states/pennsylvania/,/states/pennsylvania/harrisburg/,(span),metro,
+Scranton & Wilkes-Barre,/states/pennsylvania/,/states/pennsylvania/scranton-wilkes-barre/,(span),metro,
+Lancaster,/states/pennsylvania/,/states/pennsylvania/lancaster/,(span),metro,
+Erie,/states/pennsylvania/,/states/pennsylvania/erie/,(span),metro,
+State College,/states/pennsylvania/,/states/pennsylvania/state-college/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/pennsylvania/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in Pennsylvania,/states/pennsylvania/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in Pennsylvania,/states/pennsylvania/,/asset-classes/cold-storage/,(span),hub,
+Event & Wedding Venue Feasibility Studies,/states/pennsylvania/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/states/south-carolina/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/south-carolina/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/south-carolina/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/south-carolina/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/south-carolina/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/south-carolina/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/south-carolina/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Greenville-Anderson (Upstate),/states/south-carolina/,/states/south-carolina/greenville/,(span),metro,
+Spartanburg,/states/south-carolina/,/states/south-carolina/spartanburg/,(span),metro,
+Columbia (Midlands),/states/south-carolina/,/states/south-carolina/columbia/,(span),metro,
+Charleston-North Charleston,/states/south-carolina/,/states/south-carolina/charleston/,(span),metro,
+Myrtle Beach-Conway (Grand Strand),/states/south-carolina/,/states/south-carolina/myrtle-beach/,(span),metro,
+Hilton Head-Bluffton-Beaufort,/states/south-carolina/,/states/south-carolina/hilton-head/,(span),metro,
+Florence / Pee Dee,/states/south-carolina/,/states/south-carolina/florence/,(span),metro,
+Rural I-95 corridor,/states/south-carolina/,/states/south-carolina/i-95-corridor/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/south-carolina/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Hotel Feasibility Studies in South Carolina,/states/south-carolina/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Cold Storage Feasibility Studies in South Carolina,/states/south-carolina/,/asset-classes/cold-storage/,(span),hub,
+Houston,/states/utah/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/utah/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/utah/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/utah/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/utah/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/utah/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/utah/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Salt Lake City,/states/utah/,/states/utah/salt-lake-city/,(span),metro,
+Provo-Orem / Utah County,/states/utah/,/states/utah/provo-orem/,(span),metro,
+Ogden-Clearfield,/states/utah/,/states/utah/ogden/,(span),metro,
+St. George / Washington County,/states/utah/,/states/utah/st-george/,(span),metro,
+Park City / Summit County,/states/utah/,/states/utah/park-city/,(span),metro,
+Logan / Cache County,/states/utah/,/states/utah/logan/,(span),metro,
+Uinta Basin,/states/utah/,/states/utah/uinta-basin/,(span),metro,
+Mighty 5 gateways,/states/utah/,/states/utah/moab/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/utah/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Houston,/states/washington/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/washington/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/washington/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/washington/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/washington/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/washington/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/washington/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Seattle-Tacoma-Bellevue,/states/washington/,/states/washington/seattle/,(span),metro,
+Bellevue & the Eastside,/states/washington/,/states/washington/bellevue/,(span),metro,
+Everett & Snohomish County,/states/washington/,/states/washington/everett/,(span),metro,
+Spokane,/states/washington/,/states/washington/spokane/,(span),metro,
+Tri-Cities (Kennewick-Pasco-Richland),/states/washington/,/states/washington/tri-cities/,(span),metro,
+Quincy & the Columbia Basin,/states/washington/,/states/washington/columbia-basin/,(span),metro,
+Vancouver & Clark County,/states/washington/,/states/washington/vancouver/,(span),metro,
+"Yakima, Wenatchee & rural agriculture",/states/washington/,/states/washington/yakima/,(span),metro,
+Houston,/states/wisconsin/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/states/wisconsin/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/states/wisconsin/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/states/wisconsin/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/states/wisconsin/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/states/wisconsin/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/states/wisconsin/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Milwaukee metro,/states/wisconsin/,/states/wisconsin/milwaukee/,(span),metro,
+Madison / Dane County,/states/wisconsin/,/states/wisconsin/madison/,(span),metro,
+Green Bay / Fox Valley,/states/wisconsin/,/states/wisconsin/green-bay/,(span),metro,
+Kenosha / Racine,/states/wisconsin/,/states/wisconsin/kenosha-racine/,(span),metro,
+Eau Claire / La Crosse,/states/wisconsin/,/states/wisconsin/eau-claire/,(span),metro,
+Wisconsin Dells / Baraboo,/states/wisconsin/,/states/wisconsin/wisconsin-dells/,(span),metro,
+Wausau / Central & Northwoods,/states/wisconsin/,/states/wisconsin/wausau/,(span),metro,
+Industrial & Warehouse Feasibility Studies,/states/wisconsin/,/asset-classes/industrial-and-warehouse/,(span),hub,
+Cold Storage Feasibility Studies in Wisconsin,/states/wisconsin/,/asset-classes/cold-storage/,(span),hub,
+Hotel Feasibility Studies in Wisconsin,/states/wisconsin/,/asset-classes/limited-service-hotel/,/asset-classes/hotel/,hub,
+Event & Wedding Venue Feasibility Studies,/states/wisconsin/,/asset-classes/event-and-wedding-venue/,(span),hub,
+Houston,/terms/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/terms/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/terms/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/terms/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/terms/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/terms/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/terms/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/the-practice/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/the-practice/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/the-practice/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/the-practice/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/the-practice/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/the-practice/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/the-practice/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Houston,/tools/nda/,/states/texas/houston/,/states/texas/#metros,metro,chrome:header
+Dallas-Fort Worth,/tools/nda/,/states/texas/dallas-fort-worth/,/states/texas/#metros,metro,chrome:header
+Austin,/tools/nda/,/states/texas/austin/,/states/texas/#metros,metro,chrome:header
+Los Angeles,/tools/nda/,/states/california/los-angeles/,/states/california/#metros,metro,chrome:header
+Miami,/tools/nda/,/states/florida/miami/,/states/florida/#metros,metro,chrome:header
+Atlanta,/tools/nda/,/states/georgia/atlanta/,/states/georgia/#metros,metro,chrome:header
+Charlotte,/tools/nda/,/states/north-carolina/charlotte/,/states/north-carolina/#metros,metro,chrome:header
+Ohio,(every page with the Markets panel),/states/ohio/,(omitted from the panel until the page exists; data/site/chrome.json hide_until_live),state,chrome:header
