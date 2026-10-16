@@ -1,4 +1,4 @@
-WEB-FSC-6 gates, run 2026-10-16T16:49:39 at HEAD 40a49dad9c2b6e29df848bf72404aa4b1d4efba1 (worktree may carry uncommitted changes: False)
+WEB-FSC-6 gates, run 2026-10-16T16:56:45 at HEAD b1491ae292aa94a5eaeec4592394fc77c4f223cc (worktree may carry uncommitted changes: False)
 command: python3 docs/web-fsc-6/tools/gates.py --out docs/web-fsc-6/GATES.txt
 
 === Gate 1: 31 pages accounted for: 14 at existing URLs, 17 new, of which gate 5 folds some into the Texas page; one <title>; JSON-LD with BreadcrumbList and author @id: GREEN
@@ -10,7 +10,7 @@ build.py --check rc=0: 23 page(s) checked, 0 out of date or failing
 casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
 mutation 1 (Texas source text): --check rc=1 (want 1), after revert rc=0 (want 0)
 mutation 2 (assisted-living-texas-hud input site_acres x1.1): --check rc=1 (want 1; assisted-living-texas-hud: stale region v.tpc), tables moved=True, after revert rc=0 (want 0)
-mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000gn/T/fsc6-mut-5x47c1xp), removed afterwards; nothing committed
+mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000gn/T/fsc6-mut-r49rx0cj), removed afterwards; nothing committed
 
 === Gate 3: unique figures: at least 25 dated, sourced figures per page that appear on no other page: GREEN
   /asset-classes/gas-station-and-c-store/                        81
@@ -63,7 +63,7 @@ mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000g
   /states/texas/san-antonio/                                     max 0.07% (/states/texas/houston/); max vs siblings 0.07%
 
 === Gate 5: standalone metros (gates 3 and 4 on own-geography data); failures fold into the Texas page: GREEN
-WEB-FSC-5 audit not present (research figures only)
+WEB-FSC-5 audit present
 folded into /states/texas/ as sections: ['mcallen', 'el-paso', 'lubbock', 'corpus-christi']
   /states/texas/houston/                   unique 35 overlap 0.07%
   /states/texas/dallas-fort-worth/         unique 34 overlap 0.26%
@@ -152,13 +152,13 @@ inbound contextual links from distinct non-index pages (min 3):
   /states/texas/san-antonio/                                     5
 
 === Gate 10: clean text: zero em and en dashes in any encoding; no credential beside the name: GREEN
-  0 dashes in 210 served files (every page, script and data file) and in src/; credential grep 0
+  0 dashes in 214 served files (every page, script and data file; data/markets is not deployed, D40) and in src/; credential grep 0
 
 === Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
 byline.py --check rc=0: out of date: 0 page(s)
 regulatory.py --check rc=0: 0 page(s) out of date
 chrome.py --check rc=0: 0 page(s) out of date; 0 held; 169 checked; 0 problem(s)
-markets.py: NOT RUN (script absent)
+markets.py --check rc=0: 0 page(s) out of date
 
 === Gate 12: dates agree (JSON-LD dateModified, visible line, sitemap lastmod = 2026-10-16): GREEN
 
