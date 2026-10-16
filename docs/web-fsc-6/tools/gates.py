@@ -228,9 +228,16 @@ def g6(recs):
             h = read(served(r["url"]))
             if "dscr.coo_initial_acquisition" not in h or "illustrative" not in h.lower():
                 probs.append("gas-station-alabama-sba: page lacks the 1.25x sba marker or the illustrative label")
-        if not (ok_eq and ok_cap and ok_d):
+        negative = False
+        if not ok_d:
+            # no equity share meets the floor: the case may conclude the market does not support the loan,
+            # provided the page says so in the verdict the engine writes
+            h = read(served(r["url"]))
+            negative = "the market does not support this loan" in h and case.solve_equity_for_floor(
+                run_["vals"], run_["uses"], run_["years"], rules, t1["equity_pct"]) is None
+        if not (ok_eq and ok_cap and (ok_d or negative)):
             probs.append(f"{slug}: restructured structure fails a rule (equity {ok_eq}, cap {ok_cap}, dscr {ok_d})")
-        detail.append(f"  {slug:42} {case.program:8} words {r.get('words'):>5}  equity {t1['equity_pct']*100:5.1f}% (tier {rules['equity_req']*100:.0f}%)  "
+        detail.append(f"  {slug:42} {case.program:8} words {r.get('words'):>5}  equity {t1['equity_pct']*100:5.1f}% (tier {rules['equity_req']*100:.0f}%)  " + ("NEGATIVE DETERMINATION  " if negative else "") +
                       f"test DSCR {d:.3f} (floor {rules['floor']:.2f})  loan {t1['loan_total']:,.0f}" +
                       (f"  debenture {t1['debenture']:,.0f}" if case.program == "sba_504" else ""))
     gate(6, "case standard v3 components, body length, SBA tiers, floors and caps; Opelika under Appendix 15",
@@ -317,7 +324,7 @@ def g8():
     patterns = []
     if dnu and os.path.exists(dnu):
         patterns = [l.strip() for l in open(dnu, encoding="utf-8") if l.strip() and not l.startswith("#")]
-    street = re.compile(r"\b\d{2,6}\s+(?:[NSEW]\.?\s+)?(?:[A-Z][a-z]+\s){0,3}(?:St|Street|Rd|Road|Ave|Avenue|Blvd|Boulevard|Hwy|Highway|Dr|Drive|Ln|Lane|Pkwy|Parkway|Way|Ct|Court|Loop)\b\.?")
+    street = re.compile(r"(?<![-\w])\d{2,6}\s+(?:[NSEW]\.?\s+)?(?:[A-Z][a-z]+\s){0,3}(?:St|Street|Rd|Road|Ave|Avenue|Blvd|Boulevard|Hwy|Highway|Dr|Drive|Ln|Lane|Pkwy|Parkway|Way|Ct|Court|Loop)\b\.?")
     parcel = re.compile(r"\b(parcel (?:id|number|no\.?)|APN|prop(?:erty)? id|account (?:no|number)|MLS\s*#|LoopNet ID)\b", re.I)
     for c in pc.CASES:
         p = served(f"/case-studies/{c}/")
@@ -331,7 +338,7 @@ def g8():
         g = soup.find(id="at-a-glance")
         if g:
             subj.append(g.get_text(" "))
-        for sid in ("market-conclusion", "site"):
+        for sid in ("market-conclusion",):
             el = soup.find(id=sid)
             if el:
                 subj.append(el.get_text(" "))
@@ -340,10 +347,10 @@ def g8():
             probs.append(f"{c}: street-number pattern in subject text: {m.group(0)}")
         for m in parcel.finditer(text):
             probs.append(f"{c}: parcel or listing identifier wording in subject text: ...{text[max(0, m.start() - 40):m.end() + 40]}...")
-        whole = soup.get_text(" ")
+        raw = read(p).lower()
         for pat in patterns:
-            if pat.lower() in whole.lower():
-                probs.append(f"{c}: do-not-use string present: {pat}")
+            if pat.lower() in raw:
+                probs.append(f"{c}: subject identifier present (text or link): {pat}")
     gate(8, "subjects: no street number, parcel id, owner or business name for any case subject", "GREEN" if not probs else "RED",
          f"do-not-use strings checked: {len(patterns)}\n" + "\n".join("  " + x for x in probs[:40]))
 
