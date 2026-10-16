@@ -15,6 +15,1103 @@
  },
  "series": [
   {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_pop_2023",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_pop_2022",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_pop_2020",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_change_1y",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_change_3y",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_change_1y_pct",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_pep_api",
+   "id": "pep_change_3y_pct",
+   "next_release": "2026-12-31",
+   "period": "July 1, 2020 to July 1, 2023",
+   "publisher": "U.S. Census Bureau, Population Estimates Program",
+   "retrieved": "2026-10-16T12:04:31Z",
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
+   "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
+   "url": [
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
+   ],
+   "vintage": "V2023"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_pop",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_households",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_median_hh_income",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_per_capita_income",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_aggregate_income",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_pop65",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_occupied_units",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_owner_occupied",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_renter_occupied",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_median_gross_rent",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_median_home_value",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_labor_force",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_unemployed",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each December)",
+   "fetch_source": "census_acs5",
+   "id": "acs5_unemployment_rate",
+   "next_release": "2026-12-10",
+   "period": "2020-2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:09:59Z",
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs5"
+   ],
+   "vintage": "2024 5-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_pop",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_households",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_median_hh_income",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_per_capita_income",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_aggregate_income",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_pop65",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_occupied_units",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_owner_occupied",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_renter_occupied",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_median_gross_rent",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_median_home_value",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_labor_force",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_unemployed",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual (each September)",
+   "fetch_source": "census_acs1",
+   "id": "acs1_unemployment_rate",
+   "next_release": "2026-09-30",
+   "period": "2024",
+   "publisher": "U.S. Census Bureau, American Community Survey",
+   "retrieved": "2026-10-16T12:10:34Z",
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
+   "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
+   "url": [
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
+   ],
+   "vintage": "2024 1-year"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_cbp",
+   "id": "cbp_estab",
+   "next_release": "2026-06-30",
+   "period": "week of March 12, 2023",
+   "publisher": "U.S. Census Bureau, County Business Patterns",
+   "retrieved": "2026-10-16T12:57:22Z",
+   "sha256": {
+    "responses": 55,
+    "sha256_of_sorted_file_hashes": "c31db50903a80a87c74119fb39341c2b154676e5da35818d6f34aa1431f09304"
+   },
+   "status": "FETCHED",
+   "title": "2023 County Business Patterns, all industries (Census Data API cbp, NAICS2017=*)",
+   "url": [
+    "https://api.census.gov/data/2023/cbp"
+   ],
+   "vintage": "2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_cbp",
+   "id": "cbp_emp",
+   "next_release": "2026-06-30",
+   "period": "week of March 12, 2023",
+   "publisher": "U.S. Census Bureau, County Business Patterns",
+   "retrieved": "2026-10-16T12:57:22Z",
+   "sha256": {
+    "responses": 55,
+    "sha256_of_sorted_file_hashes": "c31db50903a80a87c74119fb39341c2b154676e5da35818d6f34aa1431f09304"
+   },
+   "status": "FETCHED",
+   "title": "2023 County Business Patterns, all industries (Census Data API cbp, NAICS2017=*)",
+   "url": [
+    "https://api.census.gov/data/2023/cbp"
+   ],
+   "vintage": "2023"
+  },
+  {
+   "cadence": "annual",
+   "fetch_source": "census_cbp",
+   "id": "cbp_estab_per_10k",
+   "next_release": "2026-06-30",
+   "period": "week of March 12, 2023",
+   "publisher": "U.S. Census Bureau, County Business Patterns",
+   "retrieved": "2026-10-16T12:57:22Z",
+   "sha256": {
+    "responses": 55,
+    "sha256_of_sorted_file_hashes": "c31db50903a80a87c74119fb39341c2b154676e5da35818d6f34aa1431f09304"
+   },
+   "status": "FETCHED",
+   "title": "2023 County Business Patterns, all industries (Census Data API cbp, NAICS2017=*)",
+   "url": [
+    "https://api.census.gov/data/2023/cbp"
+   ],
+   "vintage": "2023"
+  },
+  {
+   "cadence": "annual (each November)",
+   "fetch_source": "bea_cainc1_api",
+   "id": "bea_personal_income",
+   "next_release": "2026-11-15",
+   "period": "last five years published",
+   "publisher": "U.S. Bureau of Economic Analysis",
+   "retrieved": "2026-10-16T12:17:50Z",
+   "sha256": {
+    "cainc1_county_line1.json": "f529154bed79eb53da4d3b4c8d84cd1615d48ae33e0bb2a78a3e2c505a56847b",
+    "cainc1_county_line2.json": "8e9e71055f0d88f377a5e08d5f5bf430a3a01876232c4523dca44f968a8dc85a",
+    "cainc1_county_line3.json": "def1ad52fda951a1ab979f40912af87edc8bdb9ec2ad752d207b580329f42439",
+    "cainc1_msa_line1.json": "0918f608766f7c7ee69ef379d6fd59ca1a86d5f5dc9eae3a0b6a7a938336be8d",
+    "cainc1_msa_line2.json": "9da71797fd5af624a44ebc1e3fbd5992dce41fdd6ff37a6f5031d3a379259dc4",
+    "cainc1_msa_line3.json": "50aed62a7e2ce5c9f8e851b2b683c638b48505ffbcaf0f929f6feeb46e8d8556",
+    "cainc1_state_line1.json": "1961b61e467ca9ae00e162e43d0eae0d046499ee35493b2625cd272c92fe66f2",
+    "cainc1_state_line2.json": "c172e7adf961964b785869fc6518c9b791e081349b556f44cd019dda00f8dc2a",
+    "cainc1_state_line3.json": "3a47b6c537a68dbba430eb907d44ab1b4a5c412f3fa3bbe7c6f8537440e4a2e6"
+   },
+   "status": "FETCHED",
+   "title": "Regional dataset, table CAINC1, line codes 1 to 3 (BEA API GetData)",
+   "url": [
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=MSA&Year=LAST5&ResultFormat=json"
+   ],
+   "vintage": "2024"
+  },
+  {
+   "cadence": "annual (each November)",
+   "fetch_source": "bea_cainc1_api",
+   "id": "bea_population",
+   "next_release": "2026-11-15",
+   "period": "last five years published",
+   "publisher": "U.S. Bureau of Economic Analysis",
+   "retrieved": "2026-10-16T12:17:50Z",
+   "sha256": {
+    "cainc1_county_line1.json": "f529154bed79eb53da4d3b4c8d84cd1615d48ae33e0bb2a78a3e2c505a56847b",
+    "cainc1_county_line2.json": "8e9e71055f0d88f377a5e08d5f5bf430a3a01876232c4523dca44f968a8dc85a",
+    "cainc1_county_line3.json": "def1ad52fda951a1ab979f40912af87edc8bdb9ec2ad752d207b580329f42439",
+    "cainc1_msa_line1.json": "0918f608766f7c7ee69ef379d6fd59ca1a86d5f5dc9eae3a0b6a7a938336be8d",
+    "cainc1_msa_line2.json": "9da71797fd5af624a44ebc1e3fbd5992dce41fdd6ff37a6f5031d3a379259dc4",
+    "cainc1_msa_line3.json": "50aed62a7e2ce5c9f8e851b2b683c638b48505ffbcaf0f929f6feeb46e8d8556",
+    "cainc1_state_line1.json": "1961b61e467ca9ae00e162e43d0eae0d046499ee35493b2625cd272c92fe66f2",
+    "cainc1_state_line2.json": "c172e7adf961964b785869fc6518c9b791e081349b556f44cd019dda00f8dc2a",
+    "cainc1_state_line3.json": "3a47b6c537a68dbba430eb907d44ab1b4a5c412f3fa3bbe7c6f8537440e4a2e6"
+   },
+   "status": "FETCHED",
+   "title": "Regional dataset, table CAINC1, line codes 1 to 3 (BEA API GetData)",
+   "url": [
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=MSA&Year=LAST5&ResultFormat=json"
+   ],
+   "vintage": "2024"
+  },
+  {
+   "cadence": "annual (each November)",
+   "fetch_source": "bea_cainc1_api",
+   "id": "bea_per_capita_income",
+   "next_release": "2026-11-15",
+   "period": "last five years published",
+   "publisher": "U.S. Bureau of Economic Analysis",
+   "retrieved": "2026-10-16T12:17:50Z",
+   "sha256": {
+    "cainc1_county_line1.json": "f529154bed79eb53da4d3b4c8d84cd1615d48ae33e0bb2a78a3e2c505a56847b",
+    "cainc1_county_line2.json": "8e9e71055f0d88f377a5e08d5f5bf430a3a01876232c4523dca44f968a8dc85a",
+    "cainc1_county_line3.json": "def1ad52fda951a1ab979f40912af87edc8bdb9ec2ad752d207b580329f42439",
+    "cainc1_msa_line1.json": "0918f608766f7c7ee69ef379d6fd59ca1a86d5f5dc9eae3a0b6a7a938336be8d",
+    "cainc1_msa_line2.json": "9da71797fd5af624a44ebc1e3fbd5992dce41fdd6ff37a6f5031d3a379259dc4",
+    "cainc1_msa_line3.json": "50aed62a7e2ce5c9f8e851b2b683c638b48505ffbcaf0f929f6feeb46e8d8556",
+    "cainc1_state_line1.json": "1961b61e467ca9ae00e162e43d0eae0d046499ee35493b2625cd272c92fe66f2",
+    "cainc1_state_line2.json": "c172e7adf961964b785869fc6518c9b791e081349b556f44cd019dda00f8dc2a",
+    "cainc1_state_line3.json": "3a47b6c537a68dbba430eb907d44ab1b4a5c412f3fa3bbe7c6f8537440e4a2e6"
+   },
+   "status": "FETCHED",
+   "title": "Regional dataset, table CAINC1, line codes 1 to 3 (BEA API GetData)",
+   "url": [
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=MSA&Year=LAST5&ResultFormat=json"
+   ],
+   "vintage": "2024"
+  },
+  {
    "cadence": "quarterly (about one month after quarter end)",
    "definition": "Approvals net of cancellations: every loan in the FOIA files whose LoanStatus is not cancelled (CANCLD). Undisbursed loans (7(a) COMMIT, 504 NOT FUNDED) are included because they are live approvals.",
    "fetch_source": "sba_foia",
@@ -423,11 +1520,15 @@
    "next_release": "2027-05-31",
    "period": "geography in effect January 1, 2025",
    "publisher": "U.S. Census Bureau, Geography Division",
-   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
-   "retrieved": null,
+   "reason": null,
+   "requests": 1110,
+   "retrieved": "2026-10-16T12:04:07Z",
    "series": [],
-   "sha256": null,
-   "status": "NOT FETCHED",
+   "sha256": {
+    "responses": 1110,
+    "sha256_of_sorted_file_hashes": "28dcf4fb8319930778c13cc06519f082a2cba081b911bb99527428bc88764c4d"
+   },
+   "status": "FETCHED",
    "title": "2025 Geography Information (Census Data API geoinfo): states, counties, CBSAs (OMB Bulletin 23-01 delineation), places, county subdivisions",
    "url": [
     "https://api.census.gov/data/2025/geoinfo"
@@ -441,7 +1542,8 @@
    "next_release": "2027-03-31",
    "period": "July 1, 2020 to July 1, 2025",
    "publisher": "U.S. Census Bureau, Population Estimates Program",
-   "reason": "www2.census.gov robots.txt disallows /programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "reason": "held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -449,7 +1551,8 @@
    "title": "Vintage 2025 Population Estimates: Annual Estimates of the Resident Population for Counties (co-est2025-alldata.csv)",
    "url": [
     "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
-    "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/metro/totals/cbsa-est2025-alldata.csv"
+    "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/metro/totals/cbsa-est2025-alldata.csv",
+    "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv"
    ],
    "vintage": "V2025"
   },
@@ -460,14 +1563,31 @@
    "next_release": "2026-12-31",
    "period": "July 1, 2020 to July 1, 2023",
    "publisher": "U.S. Census Bureau, Population Estimates Program",
-   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
-   "retrieved": null,
-   "series": [],
-   "sha256": null,
-   "status": "NOT FETCHED",
+   "reason": null,
+   "requests": 4,
+   "retrieved": "2026-10-16T12:04:31Z",
+   "series": [
+    "pep_pop_2023",
+    "pep_pop_2022",
+    "pep_pop_2020",
+    "pep_change_1y",
+    "pep_change_3y",
+    "pep_change_1y_pct",
+    "pep_change_3y_pct"
+   ],
+   "sha256": {
+    "cbsa.json": "cbef0bd423b387a52c5378ac6bfabd6859e1ea503f1cfba07206df5d2c00bca3",
+    "county.json": "604b2afd4cbf74ce0a63916a1b55968cc6bf3b03c8a114badaaabe532c54b669",
+    "state.json": "2f7241e4172f632b691f4ae62e25f933c9169a21541ebbd413bd4109ad1f48fd",
+    "us.json": "1fa5d018aebed84b342d66a6eb3bcc81cf045a50d7d227a39cba93fcc2dc58a5"
+   },
+   "status": "FETCHED",
    "title": "Vintage 2023 Population Estimates by Age, Sex, Race, and Hispanic Origin (Census Data API pep/charv)",
    "url": [
-    "https://api.census.gov/data/2023/pep/charv"
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2023/pep/charv?get=NAME,POP,YEAR,MONTH&AGE=0000&SEX=0&HISP=0&POPGROUP=001&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED"
    ],
    "vintage": "V2023"
   },
@@ -478,11 +1598,30 @@
    "next_release": "2026-12-10",
    "period": "2020-2024",
    "publisher": "U.S. Census Bureau, American Community Survey",
-   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
-   "retrieved": null,
-   "series": [],
-   "sha256": null,
-   "status": "NOT FETCHED",
+   "reason": null,
+   "requests": 114,
+   "retrieved": "2026-10-16T12:09:59Z",
+   "series": [
+    "acs5_pop",
+    "acs5_households",
+    "acs5_median_hh_income",
+    "acs5_per_capita_income",
+    "acs5_aggregate_income",
+    "acs5_pop65",
+    "acs5_occupied_units",
+    "acs5_owner_occupied",
+    "acs5_renter_occupied",
+    "acs5_median_gross_rent",
+    "acs5_median_home_value",
+    "acs5_labor_force",
+    "acs5_unemployed",
+    "acs5_unemployment_rate"
+   ],
+   "sha256": {
+    "responses": 114,
+    "sha256_of_sorted_file_hashes": "af553d41add092f8632c2ed539d871f7afe252f84608010cb113852eb9c1ede2"
+   },
+   "status": "FETCHED",
    "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API acs/acs5)",
    "url": [
     "https://api.census.gov/data/2024/acs/acs5"
@@ -496,14 +1635,50 @@
    "next_release": "2026-09-30",
    "period": "2024",
    "publisher": "U.S. Census Bureau, American Community Survey",
-   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
-   "retrieved": null,
-   "series": [],
-   "sha256": null,
-   "status": "NOT FETCHED",
+   "reason": null,
+   "requests": 10,
+   "retrieved": "2026-10-16T12:10:34Z",
+   "series": [
+    "acs1_pop",
+    "acs1_households",
+    "acs1_median_hh_income",
+    "acs1_per_capita_income",
+    "acs1_aggregate_income",
+    "acs1_pop65",
+    "acs1_occupied_units",
+    "acs1_owner_occupied",
+    "acs1_renter_occupied",
+    "acs1_median_gross_rent",
+    "acs1_median_home_value",
+    "acs1_labor_force",
+    "acs1_unemployed",
+    "acs1_unemployment_rate"
+   ],
+   "sha256": {
+    "cbsa_a.json": "3e6d6f97f2f04f56db363fe37f4d4c19e4bfad955cfaaf51fb24fc1a935cb4ca",
+    "cbsa_b.json": "a4204ab4c08a12fb60536c672d7729f8f381e7e7509b61f9ffde3308cb445804",
+    "county_a.json": "0a035ccab273c2443e11d30d28fe7399311ce4b6b0b7485aae8d65bbdfbbd2e1",
+    "county_b.json": "080f3f6f5c6b2f3256f8491b4475a4682753bc79c71391abce0c1af27f03abe0",
+    "place_a.json": "823ba8aefe05e48ae4adbeb433be1171d072eaf58110315b3c996ba7ac3d7503",
+    "place_b.json": "225ae661e31bb4e0000065976db9b4a97f9ce9166c49295ed92f13853ca46fd6",
+    "state_a.json": "32470dd7edf1b539bf48e12b85a2c6b1c6f97e105ea4e1e877d474d1039c9cad",
+    "state_b.json": "dbbc20ca3adb2c97c6fa882426e333f472e17203714ffcdbf0dec2fe5f96a495",
+    "us_a.json": "8b64b38d8248ea8ba8fbb540119bb4f4901725e2b938d8d2bd6ef5a3af0b19b2",
+    "us_b.json": "96094d399b8f46bc0d624e2079644f0d4661b28d5188003081cc549b5e43cbee"
+   },
+   "status": "FETCHED",
    "title": "American Community Survey 1-Year Estimates, Detailed Tables, 2024 (Census Data API acs/acs1)",
    "url": [
-    "https://api.census.gov/data/2024/acs/acs1"
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E,B01003_001M,B11001_001E,B11001_001M,B19013_001E,B19013_001M,B19301_001E,B19301_001M,B19313_001E,B19313_001M,B25003_001E,B25003_001M,B25003_002E,B25003_002M,B25003_003E,B25003_003M,B25064_001E,B25064_001M,B25077_001E,B25077_001M,B23025_003E,B23025_003M,B23025_005E,B23025_005M&for=place:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=us:1&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=county:*&in=state:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&key=REDACTED",
+    "https://api.census.gov/data/2024/acs/acs1?get=NAME,B01001_020E,B01001_020M,B01001_021E,B01001_021M,B01001_022E,B01001_022M,B01001_023E,B01001_023M,B01001_024E,B01001_024M,B01001_025E,B01001_025M,B01001_044E,B01001_044M,B01001_045E,B01001_045M,B01001_046E,B01001_046M,B01001_047E,B01001_047M,B01001_048E,B01001_048M,B01001_049E,B01001_049M&for=place:*&in=state:*&key=REDACTED"
    ],
    "vintage": "2024 1-year"
   },
@@ -514,19 +1689,21 @@
    "next_release": "2027-05-31",
    "period": "2021-2025",
    "publisher": "U.S. Census Bureau, Building Permits Survey",
-   "reason": "www2.census.gov robots.txt disallows /econ/bps/County/co2025a.txt for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "reason": "held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
    "status": "NOT FETCHED",
    "title": "Building Permits Survey, annual county, CBSA and state files (co2025a.txt, cbsa2025a.txt, st2025a.txt) and 2021-2024 annual county files",
    "url": [
-    "https://www2.census.gov/econ/bps/County/co2025a.txt",
-    "https://www2.census.gov/econ/bps/State/st2025a.txt",
     "https://www2.census.gov/econ/bps/County/co2021a.txt",
     "https://www2.census.gov/econ/bps/County/co2022a.txt",
     "https://www2.census.gov/econ/bps/County/co2023a.txt",
-    "https://www2.census.gov/econ/bps/County/co2024a.txt"
+    "https://www2.census.gov/econ/bps/County/co2024a.txt",
+    "https://www2.census.gov/econ/bps/County/co2025a.txt",
+    "https://www2.census.gov/econ/bps/County/co2022aupdatednotice.txt",
+    "https://www2.census.gov/econ/bps/State/st2025a.txt"
    ],
    "vintage": "2025 annual"
   },
@@ -537,12 +1714,20 @@
    "next_release": "2026-06-30",
    "period": "week of March 12, 2023",
    "publisher": "U.S. Census Bureau, County Business Patterns",
-   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
-   "retrieved": null,
-   "series": [],
-   "sha256": null,
-   "status": "NOT FETCHED",
-   "title": "2023 County Business Patterns (Census Data API cbp)",
+   "reason": null,
+   "requests": 55,
+   "retrieved": "2026-10-16T12:57:22Z",
+   "series": [
+    "cbp_estab",
+    "cbp_emp",
+    "cbp_estab_per_10k"
+   ],
+   "sha256": {
+    "responses": 55,
+    "sha256_of_sorted_file_hashes": "c31db50903a80a87c74119fb39341c2b154676e5da35818d6f34aa1431f09304"
+   },
+   "status": "FETCHED",
+   "title": "2023 County Business Patterns, all industries (Census Data API cbp, NAICS2017=*)",
    "url": [
     "https://api.census.gov/data/2023/cbp"
    ],
@@ -555,7 +1740,8 @@
    "next_release": "2026-06-30",
    "period": "week of March 12, 2023",
    "publisher": "U.S. Census Bureau, County Business Patterns",
-   "reason": "www2.census.gov robots.txt disallows /programs-surveys/cbp/datasets/2023/cbp23co.zip for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "reason": "held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -576,7 +1762,8 @@
    "next_release": "unscheduled",
    "period": "OMB Bulletin 23-01",
    "publisher": "U.S. Census Bureau (OMB Bulletin 23-01)",
-   "reason": "www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "reason": "held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -594,16 +1781,38 @@
    "next_release": "2031-03-31",
    "period": "April 1, 2020",
    "publisher": "U.S. Census Bureau, 2020 Census",
-   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
+   "reason": null,
+   "requests": 1,
+   "retrieved": "2026-10-16T12:17:09Z",
+   "series": [],
+   "sha256": {
+    "ct_cousub_2020.json": "1741369af386b3a67216103207d9056da312c33ab9b02c3773cb3882bc1801e7"
+   },
+   "status": "FETCHED",
+   "title": "2020 Census Redistricting Data (PL 94-171), Connecticut county subdivisions under the legacy counties (Census Data API dec/pl)",
+   "url": [
+    "https://api.census.gov/data/2020/dec/pl?get=NAME,P1_001N&for=county%20subdivision:*&in=state:09%20county:*&key=REDACTED"
+   ],
+   "vintage": "2020"
+  },
+  {
+   "cadence": "one-time",
+   "fetch_source": "census_ct_crosswalk",
+   "id": "census_ct_crosswalk",
+   "next_release": "unscheduled",
+   "period": "Connecticut planning regions adopted 2022",
+   "publisher": "U.S. Census Bureau, Geography Division",
+   "reason": "held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
    "status": "NOT FETCHED",
-   "title": "2020 Census Redistricting Data (PL 94-171), Connecticut county subdivisions under the legacy counties (Census Data API dec/pl)",
+   "title": "Connecticut county to county subdivision crosswalk, legacy counties to planning regions (ct_cou_to_cousub_crosswalk.txt)",
    "url": [
-    "https://api.census.gov/data/2020/dec/pl"
+    "https://www2.census.gov/geo/docs/reference/ct_change/ct_cou_to_cousub_crosswalk.txt"
    ],
-   "vintage": "2020"
+   "vintage": "2022"
   },
   {
    "cadence": "quarterly; annual averages each September",
@@ -613,6 +1822,7 @@
    "period": "2025",
    "publisher": "U.S. Bureau of Labor Statistics, Quarterly Census of Employment and Wages",
    "reason": "data.bls.gov robots.txt disallows /cew/data/files/2025/csv/2025_annual_singlefile.zip for user-agent * (RFC 9309 group: * -> 1 rule(s))",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -631,6 +1841,7 @@
    "period": "2020-2024",
    "publisher": "U.S. Bureau of Economic Analysis",
    "reason": "apps.bea.gov robots.txt disallows /regional/zip/CAINC1.zip for user-agent * (RFC 9309 group: * -> 16 rule(s))",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -648,16 +1859,58 @@
    "next_release": "2026-11-15",
    "period": "last five years published",
    "publisher": "U.S. Bureau of Economic Analysis",
-   "reason": "BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:18Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record",
+   "reason": null,
+   "requests": 9,
+   "retrieved": "2026-10-16T12:17:50Z",
+   "series": [
+    "bea_personal_income",
+    "bea_population",
+    "bea_per_capita_income"
+   ],
+   "sha256": {
+    "cainc1_county_line1.json": "f529154bed79eb53da4d3b4c8d84cd1615d48ae33e0bb2a78a3e2c505a56847b",
+    "cainc1_county_line2.json": "8e9e71055f0d88f377a5e08d5f5bf430a3a01876232c4523dca44f968a8dc85a",
+    "cainc1_county_line3.json": "def1ad52fda951a1ab979f40912af87edc8bdb9ec2ad752d207b580329f42439",
+    "cainc1_msa_line1.json": "0918f608766f7c7ee69ef379d6fd59ca1a86d5f5dc9eae3a0b6a7a938336be8d",
+    "cainc1_msa_line2.json": "9da71797fd5af624a44ebc1e3fbd5992dce41fdd6ff37a6f5031d3a379259dc4",
+    "cainc1_msa_line3.json": "50aed62a7e2ce5c9f8e851b2b683c638b48505ffbcaf0f929f6feeb46e8d8556",
+    "cainc1_state_line1.json": "1961b61e467ca9ae00e162e43d0eae0d046499ee35493b2625cd272c92fe66f2",
+    "cainc1_state_line2.json": "c172e7adf961964b785869fc6518c9b791e081349b556f44cd019dda00f8dc2a",
+    "cainc1_state_line3.json": "3a47b6c537a68dbba430eb907d44ab1b4a5c412f3fa3bbe7c6f8537440e4a2e6"
+   },
+   "status": "FETCHED",
+   "title": "Regional dataset, table CAINC1, line codes 1 to 3 (BEA API GetData)",
+   "url": [
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=1&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=2&GeoFips=MSA&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=COUNTY&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=STATE&Year=LAST5&ResultFormat=json",
+    "https://apps.bea.gov/api/data?UserID=REDACTED&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&GeoFips=MSA&Year=LAST5&ResultFormat=json"
+   ],
+   "vintage": "2024"
+  },
+  {
+   "cadence": "quarterly; annual averages each September",
+   "fetch_source": "bls_qcew_api",
+   "id": "bls_qcew_api",
+   "next_release": "2027-09-30",
+   "period": "2025",
+   "publisher": "U.S. Bureau of Labor Statistics, Quarterly Census of Employment and Wages",
+   "reason": "api.bls.gov robots.txt disallows /publicAPI/v2/timeseries/data/ for user-agent * (RFC 9309 group: * -> 1 rule(s))",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
    "status": "NOT FETCHED",
-   "title": "Regional dataset, table CAINC1, line codes 1 to 3 (BEA API GetData)",
+   "title": "QCEW series through the BLS Public Data API v2 (api.bls.gov/publicAPI/v2/timeseries/data/)",
    "url": [
-    "https://apps.bea.gov/api/data"
+    "https://api.bls.gov/publicAPI/v2/timeseries/data/"
    ],
-   "vintage": "2024"
+   "vintage": "2025 annual"
   },
   {
    "cadence": "annual (each August/September)",
@@ -667,6 +1920,7 @@
    "period": "October 1, 2026 to September 30, 2027",
    "publisher": "U.S. Department of Housing and Urban Development, Office of Policy Development and Research",
    "reason": "www.huduser.gov: challenge (AWS WAF bot check on robots.txt)",
+   "requests": 0,
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -685,6 +1939,7 @@
    "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
    "publisher": "U.S. Small Business Administration, Office of Capital Access",
    "reason": null,
+   "requests": 7,
    "retrieved": "2026-10-16T09:37:35Z",
    "series": [
     "sba7a_loans",

@@ -52,9 +52,11 @@ RAW = os.path.join(CACHE, 'raw')
 MANIFEST = os.path.join(CACHE, 'manifest.json')
 SOURCES_JSON = os.path.join(ROOT, 'data', 'markets', 'sources.json')
 
-PRODUCT = 'FSC-MarketsRegister'
-UA = f'{PRODUCT}/1.0 (federal statistics register for feasibility-study-company.com; contact info@feasibility-study-company.com)'
-HOSTS = {'api.census.gov', 'www2.census.gov', 'data.bls.gov', 'apps.bea.gov', 'www.huduser.gov', 'data.sba.gov'}
+# The owner may set the User-Agent for a run in MARKETS_UA (the API keys are registered
+# to the owner's analytics site); the product token for robots matching follows it.
+UA = os.environ.get('MARKETS_UA') or 'FSC-MarketsRegister/1.0 (federal statistics register for feasibility-study-company.com; contact info@feasibility-study-company.com)'
+PRODUCT = UA.split('/', 1)[0].split()[0]
+HOSTS = {'api.census.gov', 'www2.census.gov', 'data.bls.gov', 'api.bls.gov', 'apps.bea.gov', 'www.huduser.gov', 'data.sba.gov'}
 TIMEOUT = 60          # seconds per socket operation
 MAX_TRIES = 4
 PAUSE = 0.5           # seconds between requests to one host
@@ -164,14 +166,26 @@ def door(host, log):
     return _DOORS[host]
 
 
+# Owner rulings that set a robots.txt bar aside, host by host. Empty: the owner's correction of
+# 16 Oct withdrew the www2.census.gov reading (D50); www2 is closed under the standing robots rule.
+ROBOTS_RULINGS = {}
+
+
+def ruled_urls():
+    return {u for s in SOURCES for u in s.get('urls', []) if urllib.parse.urlsplit(u).hostname in ROBOTS_RULINGS}
+
+
 def check_door(url, log):
     u = urllib.parse.urlsplit(url)
     if u.scheme != 'https' or u.hostname not in HOSTS:
-        raise Refused(f'host {u.hostname} is not one of the six source hosts')
+        raise Refused(f'host {u.hostname} is not one of the source hosts')
     rec, groups = door(u.hostname, log)
     if groups is None:
         raise Refused(f'{u.hostname}: {rec["verdict"]}')
     path = u.path + (('?' + u.query) if u.query else '')
+    if not robots_allows(groups, path) and u.hostname in ROBOTS_RULINGS and url in ruled_urls():
+        log.append({'host': u.hostname, 'url': url, 'checked_at': now(), 'verdict': 'robots disallows; fetched under ' + ROBOTS_RULINGS[u.hostname]})
+        return
     if not robots_allows(groups, path):
         raise Refused(f'{u.hostname} robots.txt disallows {u.path} for user-agent * (RFC 9309 group: '
                       + '; '.join(f"{','.join(a)} -> {len(r)} rule(s)" for a, r in groups if '*' in a) + ')')
@@ -180,7 +194,7 @@ def check_door(url, log):
 # ---------------------------------------------------------------- HTTP
 
 def redact(url):
-    return re.sub(r'(key|UserID|api_key)=[^&]+', r'\1=REDACTED', url)
+    return re.sub(r'(key|UserID|api_key|registrationkey)=[^&]+', r'\1=REDACTED', url, flags=re.I)
 
 
 def get(url, dest=None, log=None, expect_json=False):
@@ -277,10 +291,12 @@ def census_key():
 
 
 def census_api(path, params):
+    """Census Data API URL. Spaces go as %20 and '/' stays literal: the API answers
+    'unknown/unsupported geography hierarchy' to %2F or '+' (measured 2026-10-16)."""
     q = dict(params)
     if census_key():
         q['key'] = census_key()
-    return f'https://api.census.gov/data/{path}?' + urllib.parse.urlencode(q, safe=':,*')
+    return f'https://api.census.gov/data/{path}?' + '&'.join(f'{k}={urllib.parse.quote(str(v), safe=":,*/()")}' for k, v in q.items())
 
 
 ACS_VARS_A = ['B01003_001', 'B11001_001', 'B19013_001', 'B19301_001', 'B19313_001', 'B25003_001',
@@ -309,32 +325,42 @@ def plan_acs(src):
 
 
 def plan_cbp(src):
-    codes = src.get('_naics', [])
-    out = []
-    for code in codes:
-        for geo, params in (('us', {'for': 'us:1'}), ('state', {'for': 'state:*'}), ('county', {'for': 'county:*', 'in': 'state:*'}),
-                            ('cbsa', {'for': 'metropolitan statistical area/micropolitan statistical area:*'})):
-            out.append((census_api(src['api_path'], {'get': 'NAME,ESTAB,EMP,EMP_N,NAICS2017_LABEL', 'NAICS2017': code, **params}), f'{geo}_{code}.json'))
+    """Every industry code in one request per geography level (NAICS2017=*), so
+    parents come with their 6-digit children and absent cells can be bounded;
+    counties one state at a time. CBP 2023 in the API uses NAICS 2017 codes."""
+    get_ = 'NAME,ESTAB,EMP,EMP_N,NAICS2017'
+    p = src['api_path']
+    out = [(census_api(p, {'get': get_, 'NAICS2017': '*', 'for': 'us:1'}), 'us_all.json'),
+           (census_api(p, {'get': get_, 'NAICS2017': '*', 'for': 'state:*'}), 'state_all.json'),
+           (census_api(p, {'get': get_, 'NAICS2017': '*', 'for': 'metropolitan statistical area/micropolitan statistical area:*'}), 'cbsa_all.json')]
+    for st in src.get('_states', []):
+        out.append((census_api(p, {'get': get_, 'NAICS2017': '*', 'for': 'county:*', 'in': f'state:{st}'}), f'county_{st}.json'))
     return out
 
 
 def plan_pep(src):
-    get_ = 'NAME,POP,YEAR,MONTH,UNIVERSE,AGE,SEX,HISP'
-    return [(census_api(src['api_path'], {'get': get_, 'POPGROUP': '001', **params}), f'{geo}.json')
+    # total population only: all ages (0000), both sexes (0), all origins (0), total group (001)
+    get_ = 'NAME,POP,YEAR,MONTH'
+    return [(census_api(src['api_path'], {'get': get_, 'AGE': '0000', 'SEX': '0', 'HISP': '0', 'POPGROUP': '001', **params}), f'{geo}.json')
             for geo, params in (('us', {'for': 'us:1'}), ('state', {'for': 'state:*'}), ('county', {'for': 'county:*', 'in': 'state:*'}),
                                 ('cbsa', {'for': 'metropolitan statistical area/micropolitan statistical area:*'}))]
 
 
 def plan_geoinfo(src):
+    """Three phases (the API takes no wildcard CBSA or state in these hierarchies,
+    measured 2026-10-16): 1) states, counties, CBSAs, places; 2) per state, its
+    CBSA parts (summary level 320) and its county subdivisions; 3) per CBSA part,
+    its member counties (summary level 313, explicit CBSA and state)."""
     p = src['api_path']
     out = [(census_api(p, {'get': 'NAME,AREALAND', 'for': 'state:*'}), 'state.json'),
            (census_api(p, {'get': 'NAME,AREALAND', 'for': 'county:*', 'in': 'state:*'}), 'county.json'),
            (census_api(p, {'get': 'NAME', 'for': 'metropolitan statistical area/micropolitan statistical area:*'}), 'cbsa.json'),
            (census_api(p, {'get': 'NAME', 'for': 'place:*', 'in': 'state:*'}), 'place.json')]
-    for cb in src.get('_cbsas', []):
-        out.append((census_api(p, {'get': 'NAME', 'for': 'county:*', 'in': f'metropolitan statistical area/micropolitan statistical area:{cb} state (or part):*'}), f'cbsa_county_{cb}.json'))
     for st in src.get('_states', []):
+        out.append((census_api(p, {'get': 'NAME', 'for': 'metropolitan statistical area/micropolitan statistical area (or part):*', 'in': f'state:{st}'}), f'cbsa_parts_{st}.json'))
         out.append((census_api(p, {'get': 'NAME', 'for': 'county subdivision:*', 'in': f'state:{st} county:*'}), f'cousub_{st}.json'))
+    for cb, st in src.get('_cbsa_parts', []):
+        out.append((census_api(p, {'get': 'NAME', 'for': 'county:*', 'in': f'metropolitan statistical area/micropolitan statistical area:{cb} state (or part):{st}'}), f'cbsa_county_{cb}_{st}.json'))
     return out
 
 
@@ -386,7 +412,8 @@ SOURCES = [
     {'id': 'census_pep', 'publisher': 'U.S. Census Bureau, Population Estimates Program',
      'title': 'Vintage 2025 Population Estimates: Annual Estimates of the Resident Population for Counties (co-est2025-alldata.csv)',
      'urls': ['https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv',
-              'https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/metro/totals/cbsa-est2025-alldata.csv'],
+              'https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/metro/totals/cbsa-est2025-alldata.csv',
+              'https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv'],
      'vintage': 'V2025', 'period': 'July 1, 2020 to July 1, 2025', 'cadence': 'annual (counties each March)',
      'next_release': '2027-03-31', 'kind': 'static'},
     {'id': 'census_pep_api', 'publisher': 'U.S. Census Bureau, Population Estimates Program',
@@ -403,12 +430,12 @@ SOURCES = [
      'cadence': 'annual (each September)', 'next_release': '2026-09-30', 'kind': 'acs', 'needs': 'CENSUS_API_KEY'},
     {'id': 'census_bps', 'publisher': 'U.S. Census Bureau, Building Permits Survey',
      'title': 'Building Permits Survey, annual county, CBSA and state files (co2025a.txt, cbsa2025a.txt, st2025a.txt) and 2021-2024 annual county files',
-     'urls': ['https://www2.census.gov/econ/bps/County/co2025a.txt', 'https://www2.census.gov/econ/bps/State/st2025a.txt']
-             + [f'https://www2.census.gov/econ/bps/County/co{y}a.txt' for y in (2021, 2022, 2023, 2024)],
+     'urls': [f'https://www2.census.gov/econ/bps/County/co{y}a.txt' for y in (2021, 2022, 2023, 2024, 2025)]
+             + ['https://www2.census.gov/econ/bps/County/co2022aupdatednotice.txt', 'https://www2.census.gov/econ/bps/State/st2025a.txt'],
      'vintage': '2025 annual', 'period': '2021-2025', 'cadence': 'annual (each May) and monthly',
      'next_release': '2027-05-31', 'kind': 'static'},
     {'id': 'census_cbp', 'publisher': 'U.S. Census Bureau, County Business Patterns',
-     'title': '2023 County Business Patterns (Census Data API cbp)', 'api_path': '2023/cbp',
+     'title': '2023 County Business Patterns, all industries (Census Data API cbp, NAICS2017=*)', 'api_path': '2023/cbp',
      'vintage': '2023', 'period': 'week of March 12, 2023', 'cadence': 'annual',
      'next_release': '2026-06-30', 'kind': 'cbp', 'needs': 'CENSUS_API_KEY'},
     {'id': 'census_cbp_bulk', 'publisher': 'U.S. Census Bureau, County Business Patterns',
@@ -423,6 +450,10 @@ SOURCES = [
      'title': '2020 Census Redistricting Data (PL 94-171), Connecticut county subdivisions under the legacy counties (Census Data API dec/pl)',
      'api_path': '2020/dec/pl', 'vintage': '2020', 'period': 'April 1, 2020', 'cadence': 'decennial',
      'next_release': '2031-03-31', 'kind': 'dec_ct', 'needs': 'CENSUS_API_KEY'},
+    {'id': 'census_ct_crosswalk', 'publisher': 'U.S. Census Bureau, Geography Division',
+     'title': 'Connecticut county to county subdivision crosswalk, legacy counties to planning regions (ct_cou_to_cousub_crosswalk.txt)',
+     'urls': ['https://www2.census.gov/geo/docs/reference/ct_change/ct_cou_to_cousub_crosswalk.txt'],
+     'vintage': '2022', 'period': 'Connecticut planning regions adopted 2022', 'cadence': 'one-time', 'next_release': 'unscheduled', 'kind': 'static'},
     {'id': 'bls_qcew', 'publisher': 'U.S. Bureau of Labor Statistics, Quarterly Census of Employment and Wages',
      'title': 'QCEW annual averages, all areas, single file (2025_annual_singlefile.zip)',
      'urls': ['https://data.bls.gov/cew/data/files/2025/csv/2025_annual_singlefile.zip'],
@@ -436,6 +467,11 @@ SOURCES = [
      'title': 'Regional dataset, table CAINC1, line codes 1 to 3 (BEA API GetData)',
      'vintage': '2024', 'period': 'last five years published', 'cadence': 'annual (each November)',
      'next_release': '2026-11-15', 'kind': 'bea_api', 'needs': 'BEA_API_KEY'},
+    {'id': 'bls_qcew_api', 'publisher': 'U.S. Bureau of Labor Statistics, Quarterly Census of Employment and Wages',
+     'title': 'QCEW series through the BLS Public Data API v2 (api.bls.gov/publicAPI/v2/timeseries/data/)',
+     'urls': ['https://api.bls.gov/publicAPI/v2/timeseries/data/'],
+     'vintage': '2025 annual', 'period': '2025', 'cadence': 'quarterly; annual averages each September',
+     'next_release': '2027-09-30', 'kind': 'static'},
     {'id': 'hud_fmr', 'publisher': 'U.S. Department of Housing and Urban Development, Office of Policy Development and Research',
      'title': 'FY2027 Fair Market Rents, county-level file (FY27_FMRs.xlsx)',
      'urls': ['https://www.huduser.gov/portal/datasets/fmr/fmr2027/FY27_FMRs.xlsx'],
@@ -551,6 +587,13 @@ def plan_inputs():
     if gdir and os.path.exists(os.path.join(gdir, 'cbsa.json')):
         col = 'metropolitan statistical area/micropolitan statistical area'
         out['cbsas'] = sorted({r[col] for r in api_rows(os.path.join(gdir, 'cbsa.json'))})
+    out['cbsa_parts'] = []
+    for st in out['states']:
+        f = os.path.join(gdir, f'cbsa_parts_{st}.json') if gdir else None
+        if f and os.path.exists(f):
+            col = 'metropolitan statistical area/micropolitan statistical area (or part)'
+            out['cbsa_parts'] += [(r[col], st) for r in api_rows(f)]
+    out['cbsa_parts'].sort()
     return out
 
 
@@ -575,12 +618,12 @@ def fetch_source(src, man, log, force=False):
     try:
         files = []
         done = set()
-        # geoinfo runs in two phases: the state and CBSA lists first, then one
-        # request per CBSA (its member counties, summary level 313) and per state
-        # (its county subdivisions), planned from those lists
-        for phase in range(2 if src['kind'] == 'geoinfo' else 1):
+        # geoinfo runs in three phases, each planned from the files of the one
+        # before (see plan_geoinfo)
+        for phase in range(3 if src['kind'] == 'geoinfo' else 1):
             inputs = plan_inputs()
             src['_naics'], src['_states'], src['_cbsas'] = inputs['naics'], inputs['states'], inputs['cbsas']
+            src['_cbsa_parts'] = inputs['cbsa_parts']
             vintage, items = plan(src, log)
             if not items:
                 raise Refused('no request planned')

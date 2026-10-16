@@ -1,6 +1,424 @@
 {
  "about": "Register totals against the raw files. The raw recount is taken row by row during the read; the independent re-derivation in docs/web-fsc-5/gates/ does not import this script.",
  "all_match": true,
+ "census": {
+  "acs5_households.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 1997247,
+     "sum_of_counties": 1997247
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 270533,
+     "sum_of_counties": 270533
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 2856081,
+     "sum_of_counties": 2856081
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 1205987,
+     "sum_of_counties": 1205987
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 13548091,
+     "sum_of_counties": 13548091
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 130518362,
+   "us": 129227496
+  },
+  "acs5_pop.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 5086768,
+     "sum_of_counties": 5086768
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 735706,
+     "sum_of_counties": 735706
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 7378838,
+     "sum_of_counties": 7378838
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 3049391,
+     "sum_of_counties": 3049391
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 39287377,
+     "sum_of_counties": 39287377
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 338156808,
+   "us": 334922499
+  },
+  "acs5_pop65.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 904259,
+     "sum_of_counties": 904259
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 101694,
+     "sum_of_counties": 101694
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 1397551,
+     "sum_of_counties": 1397551
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 535977,
+     "sum_of_counties": 535977
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 6158371,
+     "sum_of_counties": 6158371
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 58391714,
+   "us": 57633628
+  },
+  "bea_personal_income.all": {
+   "largest_differences": [
+    {
+     "difference": 294647204000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "va",
+     "state_value": 681552175000,
+     "sum_of_counties": 386904971000
+    },
+    {
+     "difference": 11052598000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "hi",
+     "state_value": 102703773000,
+     "sum_of_counties": 91651175000
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 295590485000,
+     "sum_of_counties": 295590485000
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 56423146000,
+     "sum_of_counties": 56423146000
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 498903598000,
+     "sum_of_counties": 498903598000
+    }
+   ],
+   "not_explained_but_named": [
+    {
+     "difference": 11052598000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "hi",
+     "state_value": 102703773000,
+     "sum_of_counties": 91651175000
+    },
+    {
+     "difference": 294647204000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "va",
+     "state_value": 681552175000,
+     "sum_of_counties": 386904971000
+    }
+   ],
+   "states_checked": 51,
+   "states_equal_to_county_sum": 49,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 24897613000000,
+   "us": 24897613000000
+  },
+  "cbp_estab.gas-station-and-c-store": {
+   "largest_differences": [
+    {
+     "county_cells_withheld_up_to": 907,
+     "difference": 323,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 907); the state is not below its counties",
+     "state": "tx",
+     "state_value": 14635,
+     "sum_of_counties": 14312
+    },
+    {
+     "county_cells_withheld_up_to": 410,
+     "difference": 157,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 410); the state is not below its counties",
+     "state": "mo",
+     "state_value": 2937,
+     "sum_of_counties": 2780
+    },
+    {
+     "county_cells_withheld_up_to": 627,
+     "difference": 154,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 627); the state is not below its counties",
+     "state": "ks",
+     "state_value": 1126,
+     "sum_of_counties": 972
+    },
+    {
+     "county_cells_withheld_up_to": 324,
+     "difference": 150,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 324); the state is not below its counties",
+     "state": "va",
+     "state_value": 4255,
+     "sum_of_counties": 4105
+    },
+    {
+     "county_cells_withheld_up_to": 379,
+     "difference": 141,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 379); the state is not below its counties",
+     "state": "ky",
+     "state_value": 2319,
+     "sum_of_counties": 2178
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 5,
+   "states_explained_by_statewide_records": 52,
+   "sum_of_states_checked": 147278,
+   "us": 146166
+  },
+  "cbp_estab.hotel": {
+   "largest_differences": [
+    {
+     "county_cells_withheld_up_to": 210,
+     "difference": 62,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 210); the state is not below its counties",
+     "state": "tx",
+     "state_value": 5643,
+     "sum_of_counties": 5581
+    },
+    {
+     "county_cells_withheld_up_to": 184,
+     "difference": 60,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 184); the state is not below its counties",
+     "state": "ga",
+     "state_value": 2157,
+     "sum_of_counties": 2097
+    },
+    {
+     "county_cells_withheld_up_to": 168,
+     "difference": 58,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 168); the state is not below its counties",
+     "state": "ia",
+     "state_value": 729,
+     "sum_of_counties": 671
+    },
+    {
+     "county_cells_withheld_up_to": 182,
+     "difference": 47,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 182); the state is not below its counties",
+     "state": "ks",
+     "state_value": 621,
+     "sum_of_counties": 574
+    },
+    {
+     "county_cells_withheld_up_to": 182,
+     "difference": 46,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 182); the state is not below its counties",
+     "state": "mo",
+     "state_value": 1073,
+     "sum_of_counties": 1027
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 6,
+   "states_explained_by_statewide_records": 52,
+   "sum_of_states_checked": 56117,
+   "us": 55895
+  },
+  "cbp_estab.self-storage": {
+   "largest_differences": [
+    {
+     "county_cells_withheld_up_to": 367,
+     "difference": 79,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 367); the state is not below its counties",
+     "state": "tx",
+     "state_value": 2304,
+     "sum_of_counties": 2225
+    },
+    {
+     "county_cells_withheld_up_to": 245,
+     "difference": 62,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 245); the state is not below its counties",
+     "state": "va",
+     "state_value": 511,
+     "sum_of_counties": 449
+    },
+    {
+     "county_cells_withheld_up_to": 280,
+     "difference": 61,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 280); the state is not below its counties",
+     "state": "ga",
+     "state_value": 705,
+     "sum_of_counties": 644
+    },
+    {
+     "county_cells_withheld_up_to": 235,
+     "difference": 45,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 235); the state is not below its counties",
+     "state": "mo",
+     "state_value": 285,
+     "sum_of_counties": 240
+    },
+    {
+     "county_cells_withheld_up_to": 205,
+     "difference": 43,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 205); the state is not below its counties",
+     "state": "ky",
+     "state_value": 188,
+     "sum_of_counties": 145
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 4,
+   "states_explained_by_statewide_records": 52,
+   "sum_of_states_checked": 18587,
+   "us": 18564
+  },
+  "pep_pop_2023.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 5108468,
+     "sum_of_counties": 5108468
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 733406,
+     "sum_of_counties": 733406
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 7431344,
+     "sum_of_counties": 7431344
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 3067732,
+     "sum_of_counties": 3067732
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 38965193,
+     "sum_of_counties": 38965193
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 338120586,
+   "us": 334914895
+  }
+ },
+ "census_explanations": {
+  "acs5": "Each state equals the sum of its counties. The nation is smaller than the sum of the states by Puerto Rico, which ACS tabulates as a state-equivalent but not in the US total.",
+  "bea_personal_income": "BEA publishes some counties only inside combined areas (Virginia independent cities with their counties, Kalawao with Maui in Hawaii); those states exceed the sum of the counties BEA publishes on their own by the combined areas.",
+  "cbp_estab": "A state exceeds the sum of its counties by its statewide records (establishments with no fixed county, which the API does not publish at county level) plus the 6-digit cells CBP withholds at county level (bounded by each absent cell's published parent less its published children). Without the statewide records the check is that no state falls below the sum of its counties; each difference is named with the withheld bound.",
+  "pep": "Each state equals the sum of its counties, and the nation equals the sum of the states."
+ },
+ "census_note": "State against the sum of its counties for additive series. ACS and PEP tabulate counties and states from the same estimates, so they agree. CBP publishes statewide records (county code 999, establishments with no fixed county) only in the state total, so its states exceed their county sums by those records. BEA sums equal the state where every county is published on its own. The nation also counts DC and Puerto Rico where the source covers them.",
  "raw_file_properties": {
   "504": {
    "blank_naics_loans_net_of_cancellations": 18655,

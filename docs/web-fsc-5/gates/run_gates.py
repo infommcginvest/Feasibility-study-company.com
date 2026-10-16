@@ -72,14 +72,24 @@ def g2():
     markets = len(geo['markets'])
     anchor = re.compile(r'href="(?:https://feasibility-study-company\.com)?/states/([a-z0-9-]+)/([a-z0-9-]+)/?(?:#[^"]*)?"')
     site = set()
-    rc, files = sh("git ls-files -- '*.html'")
+    # the charter fixes the market list from the anchors at the cut point (1d48cc2); main has since
+    # changed its links (WEB-FSC-4 unlinked unbuilt market pages), so both counts are shown
+    CUT = '1d48cc2'
+    rc, files = sh(f"git ls-tree -r --name-only {CUT}")      # ls-tree takes no glob pathspec; filter here
     for f in files.splitlines():
-        if f.startswith(('docs/', 'netlify/')):
+        if not f.endswith('.html') or f.startswith(('docs/', 'netlify/')):
             continue
-        site |= set(anchor.findall(open(os.path.join(ROOT, f), encoding='utf-8', errors='replace').read()))
+        rc_, txt = sh(f"git show {CUT}:'{f}'")
+        site |= set(anchor.findall(txt))
+    now = set()
+    rc, files_now = sh("git ls-files -- '*.html'")
+    for f in files_now.splitlines():
+        if not f.startswith(('docs/', 'netlify/')):
+            now |= set(anchor.findall(open(os.path.join(ROOT, f), encoding='utf-8', errors='replace').read()))
     reg = {(m['state'], m['slug']) for m in geo['markets']}
-    say(f'market anchors on the site\'s pages (git ls-files *.html outside docs/ and netlify/, measured now): {len(site)}; markets in geographies.json: {markets}; '
-        f'anchors without a row: {sorted(site - reg) or "none"}; rows without an anchor: {sorted(reg - site) or "none"}')
+    say(f'market anchors at the cut point {CUT} (git show, *.html outside docs/ and netlify/): {len(site)}; markets in geographies.json: {markets}; '
+        f'anchors without a row: {sorted(site - reg) or "none"}; rows without an anchor: {sorted(reg - site) or "none"}. '
+        f'Anchors on the pages at HEAD after the merge of main: {len(now)} (WEB-FSC-4 unlinked market pages not yet built)')
     say(f'states: {len(geo["states"])}; counties: {geo["counties"]["status"]} ({len(geo["counties"]["rows"])} rows); CBSAs: {geo["cbsas"]["status"]} ({len(geo["cbsas"]["rows"])} rows)')
     missing_fields = []
     for r in src:
@@ -118,13 +128,20 @@ def g3():
     if os.path.exists(rd):
         r = jl(rd)
         say(f'independent FOIA totals by program and FY (rederive.py): {r.get("foia_totals", {}).get("summary")}')
-    src = jl(os.path.join(DATA, 'sources.json'))['sources']
-    census = [r['id'] for r in src if r['id'].startswith(('census_', 'bls_', 'bea_', 'hud_')) and r['status'] == 'FETCHED']
-    say(f'additive federal series fetched for a county-to-state-to-nation reconciliation: {census or "none"}')
     unexplained = [p for p, v in rec['states_vs_us'].items() if not v.get('explained')]
-    ok = not bad and rec['all_match'] and not unexplained
-    return ok, ('FOIA register equals the raw files by program and FY; state sums differ from us only by rows without a ProjectState; '
-                'no Census, BLS or BEA additive series was fetched, so there is no county sum to reconcile') if ok else 'mismatch'
+    census = rec.get('census', {})
+    bad_census = []
+    for k, v in census.items():
+        named = v.get('not_explained_but_named', [])
+        say(f'{k}: {v["states_checked"]} states checked, {v["states_checked"] - len(named)} equal or explained, {len(named)} named'
+            + (f': ' + '; '.join(f'{r["state"]} {r["difference"]:g} ({r["named"]})' for r in named) if named else '')
+            + f'; us {v["us"]}, sum of the states checked {v["sum_of_states_checked"]}')
+        bad_census += [f'{k} {r["state"]}' for r in named if r.get('named') in (None, 'unexplained')]
+    for k, t in rec.get('census_explanations', {}).items():
+        say(f'  {k}: {t}')
+    ok = not bad and rec['all_match'] and not unexplained and census and not bad_census
+    return ok, ('FOIA register equals the raw files by program and FY; every ACS, PEP, CBP and BEA state is equal to its county sum, '
+                'explained, or named with its measured difference' if ok else f'mismatch: FOIA {len(bad)}, unexplained {unexplained}, census {bad_census or ("none fetched" if not census else "")}')
 
 
 def g4():
@@ -171,45 +188,79 @@ def g5():
         say(f'  {r["slug"]}: fit {r["fit"]}; 2022 {",".join(r["naics2022"]) or "-"}; FOIA loans {e["foia_loans_total"]:,}; by edition set {e["foia_loans_by_edition_set"]}')
     src = {x['id']: x for x in jl(os.path.join(DATA, 'sources.json'))['sources']}
     cbp_ok = src['census_cbp']['status'] == 'FETCHED' or src['census_cbp_bulk']['status'] == 'FETCHED'
-    say(f'CBP establishment counts nationally per class: {"available" if cbp_ok else "NOT FETCHED (census_cbp: " + str(src["census_cbp"]["reason"]) + ")"}')
+    if cbp_ok:
+        us = jl(os.path.join(DATA, 'series', 'cbp_estab.json'))['values'].get('us', {})
+        zero = [r['slug'] for r in rows if not us.get(r['slug'])]
+        for r in rows:
+            say(f'  CBP 2023 national establishments, {r["slug"]}: {us.get(r["slug"])}')
+        cbp_ok = not zero
+        say(f'classes with no national CBP establishments: {zero or "none"}')
+    else:
+        say(f'CBP establishment counts nationally per class: NOT FETCHED (census_cbp: {src["census_cbp"]["reason"]})')
     ok = len(rows) == 43 and not no_fit and cbp_ok
     return ok, ('every class graded; FOIA loans reported by code and edition' + ('' if cbp_ok else '; RED because CBP was NOT FETCHED, so no class can show a non-zero national CBP count'))
 
 
 def g6():
-    p = os.path.join(ROOT, 'docs', 'web-fsc-5', 'gates', 'rederive-result.json')
-    if not os.path.exists(p):
-        return False, 'rederive-result.json absent'
-    r = jl(p)
-    say(f'sampled {r["n"]} values; matches {r["matches"]}; mismatches {r["mismatches"]}')
-    for k, v in r['by_kind'].items():
-        say(f'  {k}: {v}')
-    for x in r.get('mismatch_detail', []):
-        say(f'  MISMATCH {x}')
-    quota = r.get('quota', {})
+    """Two independent re-derivations, neither importing the pipeline: FOIA
+    (rederive.py) and the keyed Census and BEA series (rederive_census.py).
+    Quotas count across both."""
+    parts = []
+    for fn in ('rederive-result.json', 'rederive-census-result.json'):
+        p = os.path.join(ROOT, 'docs', 'web-fsc-5', 'gates', fn)
+        if os.path.exists(p):
+            parts.append((fn, jl(p)))
+        else:
+            say(f'{fn}: absent')
+    if not parts:
+        return False, 'no re-derivation result'
+    n = sum(r['n'] for _, r in parts); mism = sum(r['mismatches'] for _, r in parts)
+    quota = {}
+    for fn, r in parts:
+        say(f'{fn}: seed {r.get("seed")}, {r["n"]} values, {r["matches"]} match, {r["mismatches"]} mismatch')
+        for k, v in r['by_kind'].items():
+            say(f'  {k}: {v}')
+        for x in r.get('mismatch_detail', []):
+            say(f'  MISMATCH {x}')
+        for k, q in r.get('quota', {}).items():
+            quota.setdefault(k, {'need': q['need'], 'have': 0})['have'] += q['have']
     short = {k: v for k, v in quota.items() if v['have'] < v['need']}
-    say(f'quota: {quota}')
-    ok = r['n'] >= 40 and r['mismatches'] == 0 and not short
-    return ok, ('40+ values re-derived independently, all match, every quota met' if ok else f'mismatches {r["mismatches"]}; quotas short {short}')
+    say(f'quotas across both: {quota}')
+    ok = n >= 40 and mism == 0 and not short and len(parts) == 2
+    return ok, (f'{n} values re-derived independently, all match, every quota met' if ok else
+                f'values {n}, mismatches {mism}, quotas short {short}, result files {len(parts)}/2')
 
 
 def g7():
     bad = []
+    geo_all = jl(os.path.join(DATA, 'geographies.json'))
+    n_median_checked = [0]
     n_rates = n_sums = 0
     for f in sorted(glob.glob(os.path.join(DATA, 'series', '*.json'))):
         s = jl(f)
         agg = s.get('aggregation')
-        if agg not in ('sum', 'ratio of summed numerator and denominator'):
+        if agg not in ('sum', 'ratio of summed numerator and denominator', 'median: published areas only; never aggregated'):
             bad.append(f'{os.path.basename(f)}: aggregation {agg!r}')
-        if 'median' in (s.get('label', '') + s['id']).lower():
-            bad.append(f'{os.path.basename(f)}: a median series is aggregated')
+        if 'median' in s['id'] and not agg.startswith('median'):
+            bad.append(f'{os.path.basename(f)}: a median series is aggregated as {agg!r}')
+        if agg.startswith('median'):
+            # every market built from more than one area must hold a null with its components
+            for m in geo_all['markets']:
+                mid = f'{m["state"]}/{m["slug"]}'
+                r = m.get('resolved') or {}
+                multi = (m['composition_source'] != 'cbsa-delineation') and (len(r.get('counties') or []) + len(r.get('places') or []) > 1
+                                                                               or (m['composition_source'] == 'connecticut-two-schemes' and len(r.get('ct_planning_regions') or []) > 1))
+                c = (s['values'].get(mid) or {}).get('all')
+                n_median_checked[0] += 1 if c is not None else 0
+                if multi and c is not None and c.get('v') is not None:
+                    bad.append(f'{s["id"]} {mid}: a median for a market of several areas carries a value')
         for g, cl in s['values'].items():
             for c, cell in cl.items():
                 if isinstance(cell, dict) and 'num' in cell:
                     n_rates += 1
                     if cell['v'] is not None and abs(cell['v'] - cell['num'] / cell['den']) > 1e-6:
                         bad.append(f'{s["id"]} {g} {c}: rate {cell["v"]} != num/den')
-                elif isinstance(cell, dict) and 'by_fy' in cell:
+                elif isinstance(cell, dict) and 'fy2016_2025' in cell:
                     n_sums += 1
     # the small-sample flag follows the disbursed-loan count for both rates (attacker finding F1)
     flag_checked = 0
@@ -239,7 +290,7 @@ def g7():
             if want != got:
                 bad.append(f'{mid}: sba7a_loans {got} != sum of its county strings {want}')
     say(f'series walked: rate cells {n_rates:,} (each re-divided), additive cells {n_sums:,}; markets checked as sums of their county strings: {checked}')
-    say('no series in the register is a median (no ACS or HUD series was fetched)')
+    say(f'median cells checked for markets: {n_median_checked[0]} (a market of several areas must hold a null with its components)')
     for b in bad[:50]:
         say('  ' + b)
     return not bad, ('every aggregate is a sum or a ratio of sums; no median is aggregated' if not bad else f'{len(bad)} problem(s)')
@@ -270,12 +321,13 @@ def g8():
     html_ = open(os.path.join(fx, 'index.html'), encoding='utf-8').read()
     houston = re.findall(r'<!--mkt:texas/houston\.', html_)
     ct = re.findall(r'<!--mkt:connecticut/[a-z-]+(?::legacy|:pr)?\.', html_)
-    rc4, out4 = sh('python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html')
-    say('$ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html'); say(out4); say(f'exit {rc4}')
+    rc4, out4 = sh('python3 scripts/markets.py --pages docs/web-fsc-5/fixture/null-negative.html')
+    say('$ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/null-negative.html (a marker for a market the register holds no figure for must be refused)'); say(out4); say(f'exit {rc4}')
     say(f'fixture markers: Houston {len(houston)}, Connecticut {len(ct)}')
-    mutation_ok = rc0 == 0 and rc1 == 1 and rc2 == 0
+    mutation_ok = rc0 == 0 and rc1 == 1 and rc2 == 0 and rc4 != 0
     ok = mutation_ok and len(houston) > 0 and len(ct) > 0
-    why = 'mutation test passes (0, 1, 0)' if mutation_ok else f'mutation test failed ({rc0}, {rc1}, {rc2})'
+    why = (f'mutation test passes (0, 1, 0), the null marker is refused, and the fixture renders {len(houston)} Houston and {len(ct)} Connecticut markers'
+           if mutation_ok else f'mutation test failed ({rc0}, {rc1}, {rc2}; null refusal exit {rc4})')
     if not houston:
         why += '; RED for Houston: the register holds no Houston value (CBSA composition pending the delineation file), and the renderer refuses the Houston marker with that reason'
     return ok, why

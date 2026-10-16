@@ -14,8 +14,13 @@ What it does
      class and window predicates).
   3. Builds a second, independent route: a full (program, state, county, NAICS, FY) cube from the
      same CSVs and a census that compares EVERY value of every series (all geographies, 44 classes,
-     5 windows, 36 FYs, rates).  The sample is the formal gate; the census and the agreement between
+     the windows each series declares (all, fy2016_2025, fy2021_2025), the 36 by-FY elements of the
+     four count series, rates).  The sample is the formal gate; the census and the agreement between
      the two routes are recorded in "notes".
+  Layout read: windows from each series' own "windows" key; "by_fy" only in loans, cancelled,
+  disbursed and chgoff_n; 225 summed markets from geographies.json markets[].foia.strings (the CBSA
+  markets included); Connecticut components from foia.ct.legacy / foia.ct.pr; ":<state>" parts
+  only for markets of kind cross-state whose strings span two or more states.
   4. Computes rows / loans / volume / CHGOFF rows per program and approval FY, and every distinct
      LoanStatus per file, straight from the CSVs.
   5. Writes docs/web-fsc-5/gates/rederive-result.json.
@@ -121,17 +126,26 @@ SERIES_BASE = ["loans", "volume", "cancelled", "disbursed", "chgoff_n", "chgoff_
                "chgoff_rate", "chgoff_amt_rate"]
 PROGS = ["7a", "504"]
 RATE_SERIES = ("chgoff_rate", "chgoff_amt_rate")
-WINDOWS = ["all", "fy2016_2025", "fy2021_2025", "fy2025", "fy2026ytd"]
-WINDOW_RANGE = {"fy2016_2025": (2016, 2025), "fy2021_2025": (2021, 2025),
-                "fy2025": (2025, 2025), "fy2026ytd": (2026, 2026)}
+WINDOWS = ["all", "fy2016_2025", "fy2021_2025"]          # confirmed against every series' own "windows" key in main()
+WINDOW_RANGE = {"fy2016_2025": (2016, 2025), "fy2021_2025": (2021, 2025)}
+BY_FY_SERIES = ("loans", "cancelled", "disbursed", "chgoff_n")   # the only series that carry a by_fy array
 POOL_LO, POOL_HI = 2011, 2020
 # vector layout shared by both routes:
 #  0 rows  1 loans  2 volume(c)  3 cancelled  4 disbursed  5 chgoff_n  6 chgoff_amt(c)  7 disbursed GrossApproval(c)
 ADDITIVE_IDX = {"loans": (1, False), "volume": (2, True), "cancelled": (3, False),
                 "disbursed": (4, False), "chgoff_n": (5, False), "chgoff_amt": (6, True)}
 RATE_IDX = {"chgoff_rate": ((5, False), (4, False)), "chgoff_amt_rate": ((6, True), (7, True))}
-FLAG_SMALL = "small-denominator (<30 disbursed loans)"
 FLAG_NONE = "no-disbursed-loans-in-seasoned-cohorts"
+
+
+def expected_flag(ndisb):
+    """The rule in sources.json 'chgoff_rate': a count of disbursed loans under 30 is flagged (both rates flag on the
+    COUNT, D28); none disbursed gets its own flag and a null rate."""
+    if ndisb == 0:
+        return FLAG_NONE
+    if ndisb < 30:
+        return "small-denominator (<30 disbursed loans, %d here)" % ndisb
+    return None
 
 
 def norm_county(s):
@@ -198,20 +212,23 @@ def main():
     compositions = {}   # id -> frozenset of pairs
     geo_kind = {}       # id -> kind label
     multi_county = set()
+    summed_markets = set()
     for mid, m in markets.items():
         kind = m["kind"]
         strings = m["foia"]["strings"]
-        if m.get("ct") and m["foia"].get("ct"):
+        if m["foia"].get("ct"):
             for comp in ("legacy", "pr"):
                 cid = "%s:%s" % (mid, comp)
                 compositions[cid] = frozenset(("ct", norm_county(s)) for s in m["foia"]["ct"][comp])
                 geo_kind[cid] = "ct-component"
-            continue
+            if not strings:
+                continue
         if not strings:
             continue
         compositions[mid] = frozenset(pairs_of(strings))
         geo_kind[mid] = kind
-        if kind == "county-set" and len(set(x["string"] for x in strings)) >= 2:
+        summed_markets.add(mid)
+        if len(compositions[mid]) >= 2:
             multi_county.add(mid)
         sts = sorted(set(x["state"].strip().lower() for x in strings))
         if kind == "cross-state" and len(sts) >= 2:
@@ -231,11 +248,25 @@ def main():
             reg[sid] = json.load(open(os.path.join(DATA, "series", sid + ".json")))
     SIDS = sorted(reg)
     by_fy_years = reg[SIDS[0]]["by_fy_years"]
+    # windows are read from each series' own "windows" key (key -> prose); the range is parsed from the key name and
+    # cross-checked against the prose "approval FY2016 to FY2025"
+    win_problems = []
     for sid in SIDS:
         if reg[sid]["by_fy_years"] != by_fy_years:
             notes.append("by_fy_years differs in %s" % sid)
-        if sorted(reg[sid]["windows"]) != sorted(WINDOWS):
-            notes.append("windows keys differ in %s: %s" % (sid, sorted(reg[sid]["windows"])))
+        wk = reg[sid]["windows"]
+        if sorted(wk) != sorted(WINDOWS):
+            win_problems.append("%s windows %s" % (sid, sorted(wk)))
+        for k, prose in wk.items():
+            if k == "all":
+                continue
+            mm = re.match(r"fy(\d{4})_(\d{4})$", k)
+            pr_ = re.search(r"FY(\d{4}) to FY(\d{4})", prose)
+            if not mm or not pr_ or (int(mm.group(1)), int(mm.group(2))) != (int(pr_.group(1)), int(pr_.group(2))) \
+                    or WINDOW_RANGE.get(k) != (int(mm.group(1)), int(mm.group(2))):
+                win_problems.append("%s window %s prose %r" % (sid, k, prose))
+    if win_problems:
+        raise SystemExit("window layout differs from what this checker reads: %s" % win_problems[:6])
     FY0, FY1 = by_fy_years
     NFY = FY1 - FY0 + 1
 
@@ -266,10 +297,10 @@ def main():
 
     ADD_WINDOW_CHOICES = WINDOWS + ["by_fy", "by_fy", "by_fy"]
 
-    def draw_window(rate):
+    def draw_window(rate, has_by_fy):
         if rate:
             return "pooled_fy2011_2020"
-        w = pick(ADD_WINDOW_CHOICES)
+        w = pick(ADD_WINDOW_CHOICES if has_by_fy else WINDOWS)
         if w == "by_fy":
             return "by_fy:%d" % (FY0 + min(NFY - 1, int(u() * NFY)))
         return w
@@ -291,19 +322,21 @@ def main():
             return cell.get("den", 0) > 0 and cell.get("num", 0) > 0
         return cell != 0
 
-    STRATA = [("us", 2), ("state", 4), ("county", 3), ("multi_county", 5),
+    STRATA = [("us", 2), ("state", 4), ("county", 3), ("multi_county", 4), ("cbsa_market", 4),
               ("cross_state", 2), ("ct", 3)]
     sample_specs = []
     used = set()
     for sid in SIDS:
         base = sid.split("_", 1)[1]
         rate = base in RATE_SERIES
+        has_by_fy = base in BY_FY_SERIES
         gids = sorted(reg[sid]["values"])
         pools = {
             "us": ["us"],
             "state": [g for g in gids if geo_kind.get(g) == "state"],
             "county": [g for g in gids if geo_kind.get(g) == "county"],
-            "multi_county": [g for g in gids if g in multi_county],
+            "multi_county": [g for g in gids if g in multi_county and geo_kind.get(g) == "county-set"],
+            "cbsa_market": [g for g in gids if geo_kind.get(g) == "cbsa"],
             "cross_state": [g for g in gids if geo_kind.get(g) in ("cross-state", "cross-state-part")],
             "ct": [g for g in gids if geo_kind.get(g) == "ct-component"],
         }
@@ -318,7 +351,7 @@ def main():
                 for attempt in range(60):
                     g = pick(pool)
                     cls = draw_class()
-                    win = draw_window(rate)
+                    win = draw_window(rate, has_by_fy)
                     if (sid, g, cls, win) in used:
                         continue
                     cell = register_value(sid, g, cls, win)
@@ -675,7 +708,8 @@ def main():
         (ni, nusd), (di, dusd) = RATE_IDX[base]
         num, den = vec_val[ni], vec_val[di]
         r = {"v": (num / float(den) if den else None),
-             "num": (money(num) if nusd else num), "den": (money(den) if dusd else den)}
+             "num": (money(num) if nusd else num), "den": (money(den) if dusd else den),
+             "f": expected_flag(vec_val[4])}
         return r
 
     def cmp_rate(base, cell, mine):
@@ -697,7 +731,8 @@ def main():
                 okd = cell["den"] == mine["den"]
         except (KeyError, TypeError):
             return False
-        return okv and okn and okd
+        okf = cell.get("f") == mine["f"]
+        return okv and okn and okd and okf
 
     # --- structure checks (geo ids, nulls) ---
     first_nulls = set(reg[SIDS[0]]["nulls"])
@@ -771,14 +806,18 @@ def main():
                             census_detail.append({"series": sid, "geo": g, "class": c, "window": "pooled_fy2011_2020",
                                                   "register": cell, "rederived": mine})
                     if isinstance(cell, dict):
-                        den = cell.get("den")
+                        # independent flag check from the register itself: both rates flag on the COUNT of disbursed
+                        # loans, i.e. the 'den' of the program's chgoff_rate series at the same cell
+                        cnt_cell = reg["sba%s_chgoff_rate" % p]["values"][g][c]
                         f = cell.get("f")
-                        exp = FLAG_NONE if den == 0 else (FLAG_SMALL if (den is not None and 0 < den < 30) else None)
-                        if f != exp or ((cell.get("v") is None) != (den == 0)):
-                            flag_problems.append("%s/%s/%s den %s flag %s v %s" % (sid, g, c, den, f, cell.get("v")))
+                        exp = expected_flag(cnt_cell["den"])
+                        zero_den = (cell.get("den") == 0)
+                        if f != exp or ((cell.get("v") is None) != zero_den):
+                            flag_problems.append("%s/%s/%s den %s flag %s v %s" % (sid, g, c, cell.get("den"), f, cell.get("v")))
                     continue
-                if not isinstance(cell, dict) or sorted(cell) != sorted(WINDOWS + ["by_fy"]):
-                    shape_problems.append("%s/%s/%s: window keys %s" % (sid, g, c, sorted(cell) if isinstance(cell, dict) else cell))
+                want_keys = sorted(WINDOWS + (["by_fy"] if base in BY_FY_SERIES else []))
+                if not isinstance(cell, dict) or sorted(cell) != want_keys:
+                    shape_problems.append("%s/%s/%s: window keys %s (want %s)" % (sid, g, c, sorted(cell) if isinstance(cell, dict) else cell, want_keys))
                     continue
                 for w in WINDOWS:
                     ok, mine = cmp_add(base, cell.get(w), d[w])
@@ -788,6 +827,8 @@ def main():
                         if len(census_detail) < 60:
                             census_detail.append({"series": sid, "geo": g, "class": c, "window": w,
                                                   "register": cell.get(w), "rederived": mine})
+                if base not in BY_FY_SERIES:
+                    continue
                 byfy = cell.get("by_fy")
                 if not isinstance(byfy, list) or len(byfy) != NFY:
                     shape_problems.append("%s/%s/%s: by_fy length %s" % (sid, g, c, len(byfy) if isinstance(byfy, list) else byfy))
@@ -884,7 +925,11 @@ def main():
     # --- quotas ---
     q_ct = sum(1 for x in samples if x["geo_kind"] == "ct-component")
     q_multi = sum(1 for x in samples if x["geo"] in multi_county)
-    q_cross = sum(1 for x in samples if x["geo_kind"] in ("cross-state", "cross-state-part"))
+    cbsa_multistate = set(mid for mid in summed_markets if markets[mid]["kind"] == "cbsa"
+                          and len(set(p_[0] for p_ in compositions[mid])) >= 2)
+    q_cross_kind = sum(1 for x in samples if x["geo_kind"] in ("cross-state", "cross-state-part"))
+    q_cross_cbsa = sum(1 for x in samples if x["geo"] in cbsa_multistate)
+    q_cross = q_cross_kind + q_cross_cbsa
     q_sub_have = sum(1 for x in samples if x["geo_kind"] in ("place", "tract-set"))
 
     # --- sub-county verification ---
@@ -945,11 +990,18 @@ def main():
     notes.insert(0, "Method: sample values are re-derived by a direct per-row scan of the raw CSVs; a second route (full state/county/NAICS/FY cube) re-derives every value of all 16 series; "
                     "the two routes agree on %d of %d sampled cells. Neither route uses scripts/markets*.py or any data/markets file other than sources.json, geographies.json, naics-map.json "
                     "and the register series being checked." % (n - cube_disagree, n))
-    notes.insert(1, "Sample design: seed %d, python random.Random(seed).random() only; 16 series x [2 us, 4 state, 3 single-county, 5 multi-county county-set, 2 cross-state or part, 3 CT component]; "
-                    "class drawn 20%% 'all', 35%% exact, 25%% partial, 20%% proxy; window drawn from the 5 windows (once each) and by_fy (3 slots) for additive series, pooled FY2011-2020 for rates; "
+    notes.insert(1, "Sample design: seed %d, python random.Random(seed).random() only; 16 series x [2 us, 4 state, 3 single-county, 4 multi-county county-set, 4 cbsa-delineation market (92 of the 116 are multi-county), 2 cross-state or part, 3 CT component]; "
+                    "class drawn 20%% 'all', 35%% exact, 25%% partial, 20%% proxy; window drawn from the 3 windows (once each) and, in the four count series that have it, by_fy (3 slots) for additive series, pooled FY2011-2020 for rates; "
                     "75%% of draws required a non-zero register value (so matches are not just zero equals zero), 25%% unconstrained. Sampled non-zero register cells: %d of %d."
                     % (SEED, sum(1 for x in samples if nonzero(x["series"], x["register"])), n))
-    notes.insert(2, "CENSUS (all values of all 16 series, all geographies, 44 classes incl. all, 5 windows, 36 FYs, rates): %s compared, %d mismatches. Per series: %s."
+    n_parts = sum(1 for g in compositions if geo_kind.get(g) == "cross-state-part")
+    n_ct = sum(1 for g in compositions if geo_kind.get(g) == "ct-component")
+    notes.insert(2, "Layout read from the register and geographies.json: windows %s (read from every series' own 'windows' key and checked against its prose); by_fy arrays only in %s; "
+                    "%d summed markets from markets[].foia.strings (%s); %d Connecticut components from foia.ct.legacy / foia.ct.pr; %d cross-state state parts "
+                    "(kind cross-state only, strings spanning two or more states); %d multi-county markets by distinct (state, county) strings; %d cbsa markets span two or more states."
+                 % (WINDOWS, list(BY_FY_SERIES), len(summed_markets), dict(Counter(markets[m]["kind"] for m in summed_markets)), n_ct, n_parts, len(multi_county),
+                    sum(1 for m in summed_markets if markets[m]["kind"] == "cbsa" and len(set(p_[0] for p_ in compositions[m])) >= 2)))
+    notes.insert(3, "CENSUS (all values of all 16 series, all geographies, 44 classes incl. all, 3 windows, 36 FYs in the count series, rates): %s compared, %d mismatches. Per series: %s."
                  % (format(census_n, ","), census_bad,
                     ", ".join("%s %s/%d" % (k.replace("sba", ""), format(v[0] - v[1], ","), v[0]) for k, v in sorted(census_by_series.items()))))
     if census_detail:
@@ -957,11 +1009,11 @@ def main():
     if flag_problems:
         notes.append("Rate flag problems (%d), first 5: %s" % (len(flag_problems), flag_problems[:5]))
     else:
-        notes.append("Rate cells: every 'f' flag matches the rule (den 0 -> no-disbursed flag and v null; 0<den<30 -> small-denominator flag; else no flag).")
+        notes.append("Rate cells: every 'f' flag matches the rule on the count of disbursed loans (0 -> no-disbursed flag and v null; 0<n<30 -> 'small-denominator (<30 disbursed loans, n here)' with the right n, for the amount rate too; else no flag).")
     if shape_problems:
         notes.append("Register shape problems (%d), first 8: %s" % (len(shape_problems), shape_problems[:8]))
     else:
-        notes.append("Register shape: every valued geography carries all 44 class keys; additive cells carry exactly the 5 windows + by_fy of %d years (%d..%d); rate cells carry v/num/den(/f)." % (NFY, FY0, FY1))
+        notes.append("Register shape: every valued geography carries all 44 class keys; every additive cell carries exactly the 3 windows (all, fy2016_2025, fy2021_2025) and, in the four count series only (loans, cancelled, disbursed, chgoff_n), a by_fy array of %d years (%d..%d); volume and chgoff_amt carry no by_fy; rate cells carry v/num/den(/f)." % (NFY, FY0, FY1))
     notes.append("Dictionary status codes: 7(a) %s ; 504 %s." % (dict_codes["7a"], dict_codes["504"]))
     bad_status = dict(diag.get("status_not_in_dictionary_for_program", {}))
     bad_status = dict((k, v) for k, v in bad_status.items() if v)
@@ -999,7 +1051,8 @@ def main():
             "ct": {"need": 5, "have": q_ct},
             "multi_county": {"need": 5, "have": q_multi},
             "sub_county": {"need": 3, "have": q_sub_have, "note": sub_note},
-            "cross_state": {"need": 3, "have": q_cross},
+            "cross_state": {"need": 3, "have": q_cross, "of_which_kind_cross_state_or_part": q_cross_kind,
+                            "of_which_cbsa_market_spanning_states": q_cross_cbsa},
         },
         "mismatch_detail": mismatch_detail,
         "samples": samples,

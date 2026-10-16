@@ -87,3 +87,168 @@ Each decision was taken without stopping, as speed rule 1 asks. Owner-facing ite
 - The first fetch run's log (09:37Z, untracked) printed `GET` lines for robots-disallowed URLs before the code checked the door: the log line came first. `get()` checked the door before any request in that version too, so no request was sent. The order was fixed before freeze 1.
 
 **D33. A freeze superseded before review.** The freeze taken at `35433de` was dropped within minutes and its record deleted, because CLOSE's size figures in it were stale. The fuller composition-pending reasons (D32) had grown data/markets from 30.72 MB to 31.63 MB. No reviewer saw it. The final freeze carries the corrected figures.
+
+## The owner's 16 Oct correction: keyed fetches
+
+**D34. Keys.** The owner wrote that free Census, BLS and BEA API keys were registered on 19 Aug, and named where to look. The credentials file named in the correction exists in the owner's analytics estate. Its path is not written here, because this repo is public and gate 10 bars the sister firm's name. It defines `CENSUS_API_KEY` (40 characters), `BLS_API_KEY` (32) and `BEA_API_KEY` (36). Only the variable names and lengths were ever displayed. The configuration folder the correction names holds only a data.gov key, which the correction does not name and which was not used. The keys are loaded into the environment of the fetch run only. The fetcher sends them on the request and redacts `key=`, `UserID=` and `registrationkey=` from every recorded URL and message. No key value is in the repo, a log, a manifest or a commit.
+
+**D35. API doors, read first as the correction asks.**
+- `api.census.gov/robots.txt` has no robots groups (a 200 WAF page), so the API is open.
+- `apps.bea.gov/robots.txt` explicitly allows `/api/`, so it is open.
+- `api.bls.gov/robots.txt` is `User-agent: *` / `Disallow: /`, so the BLS API path is closed by its own host's robots. Under the correction's rule ("an API path open by robots is fine"), QCEW stays NOT FETCHED and no request, not even a key probe, went to the BLS API.
+- The new source row `bls_qcew_api` records the refusal.
+
+**D36. User agent.** The correction sets the user agent for this run. The fetcher reads it from `MARKETS_UA` at run time, and the robots product token follows it. The value is not written in this repo (gate 10). One stream per host: the fetcher is sequential, with a pause between requests.
+
+**D37. Census Data API behaviour measured on 2026-10-16.**
+- Spaces must be sent as `%20` and `/` left literal. `+` or `%2F` gets "unknown/unsupported geography hierarchy".
+- geoinfo takes no wildcard CBSA or state in the CBSA hierarchies: summary level 313 needs an explicit CBSA and state. A wildcard across all CBSAs returned 503.
+- The roster is therefore fetched in three phases: (1) states, counties, CBSAs and places; (2) per state, its CBSA parts (summary level 320) and county subdivisions; (3) per CBSA part, its member counties (summary level 313), about 1,000 requests at about 4 seconds each.
+- PEP `pep/charv` needs `AGE=0000`, `SEX=0`, `HISP=0`, `POPGROUP=001` to return totals; without them it returns thousands of rows a county.
+- An empty CBP response means no establishment in that code at that geography.
+
+**D38. "Land as in item 7".** When the correction arrived, no 16 Oct rulings list could be found, in any session transcript since 15 Oct or in the FSC repo and its worktrees. The owner's rulings of 16 October then arrived in this session (D42) and set the landing path: merge main, rerun gates 1, 10 and 11, freeze, fast-forward, push or bundle. A series NOT FETCHED for a recorded refusal does not block landing; every other gate must be green.
+
+**D39. Resolution against the federal roster** (`docs/web-fsc-5/tools/resolve_geographies.py`; all from fetched files, nothing typed):
+- SBA's USPS state codes are matched to Census state codes by the overlap of their county-name sets.
+- FOIA (state, ProjectCounty) strings join to 2025 county FIPS by normalised name. Strings of renamed or split counties and Connecticut's legacy counties stay unmatched and are listed in `geographies.json`.
+- A cbsa market takes the federal membership of its CBSA. Its code is checked against the roster and the first city of its title, and the composer's recalled list is compared, with the difference noted.
+- A composition that rests on CBSA membership but is not one CBSA (the "union of CBSAs" rows, the seven of D27, and quad-cities) becomes cbsa-union when the composer's counties equal the federal union of the CBSAs they touch, within the market's own states. Otherwise it is kept as the composer listed it, as a judgement region with `review` true and the difference written on the row.
+- mississippi/hattiesburg takes the federal Hattiesburg CBSA plus Jones and Lauderdale, which is its stated basis.
+- County names map to FIPS within the state. Places map to GEOIDs by exact name. Tract-sets stay unresolved, because tracts were not fetched.
+- Connecticut keeps its planning-region FIPS, and for the legacy scheme, the 2020 towns of each legacy county, taken from the 2020 Census.
+
+**D40. Census and BEA aggregation.**
+- A cbsa market uses the CBSA's own published figures, medians included.
+- A market of several counties, places or Connecticut towns sums its additive counts. ACS MOEs are combined as the root sum of squares, which Census gives as an approximation, and noted.
+- Per capita income for a set is aggregate income (B19313) over population (B01003), and the unemployment rate is unemployed over civilian labor force, both from the sums.
+- A median for a set is null with its component values: never averaged, never population-weighted.
+- PEP Vintage 2023 covers July 2020 to July 2023 only, so the five-year change the charter asks for cannot be built within one vintage. The series give the 1-year change and the change since July 2020, labelled as such.
+- CBP establishments per 10,000 residents use PEP's July 1, 2023 population, the same year as CBP 2023.
+- BEA single areas carry BEA's published per capita figure (line 3). A set is summed line 1 over summed line 2, and is null where a member county is published only inside a BEA combined area.
+- A place market has ACS figures only; PEP, CBP and BEA were not pulled at that grain.
+- fairfield-county (legacy) has ACS figures summed from its 2020 towns. Its PEP and CBP figures are null.
+
+**D41. Source rows for API pulls.** A source answered by more than ten responses records the API base URL, the number of responses, and the sha256 of its sorted file hashes, not one hash per response. Every response's own hash stays in the fetch manifest, which each freeze record copies.
+
+## The owner's rulings of 16 October
+
+**D42. The rulings, as applied.**
+- Item 1: www2.census.gov is fetchable for the files the plan needs, one at a time, with the descriptive User-Agent. The fetcher's `ROBOTS_RULINGS` exempts that host for exactly the URLs listed in its source plan; every other www2 path is still refused. Fetched:
+  - PEP Vintage 2025: `co-est2025-alldata.csv`, `cbsa-est2025-alldata.csv`, `NST-EST2025-ALLDATA.csv`.
+  - Building Permits Survey: county files `co2021a.txt` to `co2025a.txt`, the 2022 re-upload notice, and `st2025a.txt`.
+  - CBP 2023 complete files: `cbp23co/st/msa/us.zip`.
+  - The OMB delineation file `list1_2023.xlsx`.
+  - The Connecticut county-to-town crosswalk.
+  - Three directory listings were read to confirm the latest vintages: CBP's newest year on www2 is 2023, the delineation's is July 2023, and the PEP and BPS folders hold the 2025 files.
+- Item 2: the keys were already found (D34).
+- Item 3: Census Data API and BEA API as in D35. The BLS Public Data API stays closed: `api.bls.gov/robots.txt` is `Disallow: /` for every agent, and the item 1 robots ruling covers www2.census.gov only. QCEW is NOT FETCHED with that recorded refusal, beside HUD (bot challenge). Neither blocks landing (item 4).
+- Item 5: main had moved to `53ad912` (WEB-FSC-4). It was merged into web-fsc-5 cleanly (`e334cfb`); against main the lane still changes only its own paths.
+
+**D43. CBP comes from the complete files, not the API.** At about 7 requests a minute the 412-request API pull would have taken an hour. The complete files, which the charter prefers, hold every industry for every county, state, metro and the nation in four downloads, including the statewide records the reconciliation needs. The API pull was stopped after 180 responses; they stay in the cache unused, and the source row says so.
+
+**D44. CBP 2023 uses NAICS 2017 codes (charter trap 5, found by gate 5).** The 2023 complete files carry 447110, 447190 and 445120, not 457110, 457120 and 445131. The first build summed the NAICS 2022 lists and returned no gas-station establishments nationally, with no error. The build now counts which edition's distinctive codes a CBP file carries (54 codes only in NAICS 2017, 0 only in NAICS 2022), sums each class over that edition's list, and records the edition in the series. National gas stations and c-stores: 146,166 = 96,002 (447110) + 13,172 (447190) + 36,992 (445120).
+
+**D45. CBP withholds detailed cells below the state (charter trap 3).**
+- In Andrews County, Texas, the gasoline-station subsector shows 8 establishments, but its published 6-digit cells sum to 6. Two are withheld, not zero.
+- For every geography and class, the build takes each class code that has no 6-digit cell there, finds its nearest published parent (5, 4, 3 or 2 digits), and takes that parent's count less its published 6-digit children. If any such gap exists, the class value is written `[value, up_to]`: a lower bound with up to that many establishments withheld.
+- A published 6-digit cell is complete, so only absent codes are bounded. The renderer refuses a lower bound unless the marker sets allow_flag and the page says "at least".
+- About 62% of county class cells and 41% of CBSA cells are lower bounds, mostly in multi-code classes. The Texas markets have 0 to 8 of their 43 classes bounded, and Houston and Dallas-Fort Worth none.
+- Absent with no gap means zero, and such classes are left out of the file.
+
+**D46. Building permits.** Units authorized come from the county files' estimates with imputation (not the reported-only groups), by structure type and total, for 2025 and for 2021 to 2025.
+- A county missing from a year's file has no permit-issuing place in the BPS universe: it is null, never zero.
+- A set sums its covered counties and flags partial coverage.
+- A state's 2025 value is the published state-file row (the state file is in thousands of dollars for value; only units are used).
+- The county files switch Connecticut from legacy counties (2021 and 2022) to planning regions (2023 to 2025), so no five-year Connecticut county total is built; it is null with that reason.
+
+**D47. Census reconciliation (gate 3).** State against the sum of its counties:
+- ACS and PEP: every state is equal.
+- BEA: equal except Virginia and Hawaii, whose combined areas BEA publishes only as combinations.
+- Permits: 28 of the 30 fully covered states are equal; Michigan (135 units) and Maine (114) are named as state-file units the county file does not place.
+- CBP: the state may exceed its counties only by its statewide records plus the bound on withheld county cells. That holds in every state for gas stations and self-storage, and in 49 of 52 for hotels. California (2), Massachusetts (1) and New Jersey (1) are named residuals: every county there publishes 721110 and there is no statewide row, yet the state file counts one or two more.
+- Differences are named with their measured amounts, never forced to zero.
+
+**D48. Size.** With 225 summed markets, the first keyed build was 82 MB, against the 60 MB cap. The fixes:
+- FOIA keeps three windows (all years, FY2016-2025, FY2021-2025); a single year is the by-year element of a count series, and the dollar series carry no by-year array.
+- CBP leaves out zero classes and writes lower bounds as two-element lists; per-10,000 figures are rounded to 2 decimals.
+- Bundles hold headline values only, without CBP employment and per-10,000.
+- State parts are made only for markets of kind cross-state.
+
+Result: 55.7 MB, largest file under 5 MB. A wave that adds many markets will need the FOIA series split by program or by state.
+
+**D49. Gate 6 for the keyed data.** The FOIA check (`rederive.py`) and a new Census, CBP, permits and BEA check (`rederive_census.py`) were written by an independent subagent session against the raw files. Neither imports the pipeline.
+
+
+
+## D50. Misread of the 16 Oct rulings (owner correction, 16 Oct)
+
+**What happened.** I read the owner's rulings of 16 October as making www2.census.gov fetchable for named files. The owner then corrected that reading: www2.census.gov is CLOSED under the standing robots rule (its robots.txt bars every unnamed agent), and there is no owner exception for named files. I had already fetched 16 files from it, one at a time, between 12:17 and 12:18 UTC, and read eight www2 directory listings to find them (not saved).
+
+**What is held.** The 16 files were moved, not deleted, to `_cache/markets/held/www2/` inside the lane's worktree. That folder is gitignored, and nothing is loaded from it or published. The manifest marks each file held, with its new path and a hash re-checked after the move (all unchanged). The fetcher's www2 exemption (`ROBOTS_RULINGS`) is empty again, so a refresh refuses every www2 path. The step-zero copy of www2's robots.txt in `evidence/step0/` is the robots file itself, not a data file, and stays.
+
+| held file (under `_cache/markets/held/www2/`) | bytes | sha256 | retrieved (UTC) |
+|---|---|---|---|
+| `census_bps/2025_annual/co2021a.txt` | 372,012 | `ce2c9aa7b7c036ddbc99d6dc398ddf71e4a0ad0fc2782db883b559ca264f14b6` | 2026-10-16T12:18:02Z |
+| `census_bps/2025_annual/co2022a.txt` | 374,937 | `0a88c16861ede81b04f8785e1c626e772510f33f1de9452f7592d86d308e2b5c` | 2026-10-16T12:18:04Z |
+| `census_bps/2025_annual/co2022aupdatednotice.txt` | 190 | `bc83046236dd0647eb2b4edf7133348de67c0fd81f49b2a3dcd1b38e25df0142` | 2026-10-16T12:18:12Z |
+| `census_bps/2025_annual/co2023a.txt` | 374,707 | `fab11d759e905ff61838b8dfa41c0f2082e150cad07a20c65ddd620a007aa158` | 2026-10-16T12:18:06Z |
+| `census_bps/2025_annual/co2024a.txt` | 375,214 | `a64c2dd19be96c469763c10d637575a584ef16a6878f451bba80c847bcafc8c6` | 2026-10-16T12:18:08Z |
+| `census_bps/2025_annual/co2025a.txt` | 375,314 | `5d523b1ff172c886ee7f2bc770c82c8c5470b5aaaec5f63441a18c621c80b30e` | 2026-10-16T12:18:11Z |
+| `census_bps/2025_annual/st2025a.txt` | 10,744 | `eab29258ada8389b9f469c566eb6eb074cf128aa94c471e89f818a20a4d83afb` | 2026-10-16T12:18:14Z |
+| `census_cbp_bulk/2023/cbp23co.zip` | 12,919,520 | `e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603` | 2026-10-16T12:18:18Z |
+| `census_cbp_bulk/2023/cbp23msa.zip` | 7,070,587 | `b7c3afe15351e525bd1c1498a06018946b8f5fc9f70b87e2fc6f6df8c84800a1` | 2026-10-16T12:18:25Z |
+| `census_cbp_bulk/2023/cbp23st.zip` | 11,115,845 | `9fc306ecc4f9633092e2432c2db2acdf53798da0480e6f6beeb953d583b41ede` | 2026-10-16T12:18:22Z |
+| `census_cbp_bulk/2023/cbp23us.zip` | 750,265 | `3f9018f807f1ffd7bcbb00690f9792573bc2bc6bb4cfab9df14ca7ab3eac0862` | 2026-10-16T12:18:27Z |
+| `census_ct_crosswalk/2022/ct_cou_to_cousub_crosswalk.txt` | 22,091 | `13ad002564e30e6dcd1df112fdaa985f2cd0cdb908f7f3017cd2723db294cff8` | 2026-10-16T12:18:31Z |
+| `census_delineation/July_2023/list1_2023.xlsx` | 143,798 | `952c4b1e78acbb54e6ec9412434b7602fedacbf021736351a63c181bdb753629` | 2026-10-16T12:18:30Z |
+| `census_pep/V2025/NST-EST2025-ALLDATA.csv` | 53,555 | `92188e29cb0a67dcf95afa7d6c47359409782f086478b70ea4128eb70e223ca9` | 2026-10-16T12:17:59Z |
+| `census_pep/V2025/cbsa-est2025-alldata.csv` | 827,252 | `bf6fad83753456413d047d1acebeb434bd067eba9d6d0be62b3f737ad1301852` | 2026-10-16T12:17:58Z |
+| `census_pep/V2025/co-est2025-alldata.csv` | 2,071,735 | `4f5a499d851e2cb48fd7a5405e5a9235453a8a66933657aacd10df0e264f35d5` | 2026-10-16T12:17:55Z |
+
+**What was removed** from the register, the bundles and the code:
+- the PEP Vintage 2025 series;
+- every building-permits series;
+- the CBP series built from the complete files;
+- fairfield-county's Census figures built from the Connecticut crosswalk.
+
+The delineation file had never been used: CBSA membership came from the Census Data API roster. The readers for these files are gone from `scripts/markets_census.py`.
+
+**What replaced it**, from open sources only:
+- **Population:** Census population estimates now come from the Vintage 2023 pull through the Census Data API (keyed). Series: July 1 2023, 2022 and 2020, the 1-year change, and the change since 2020. Vintage 2023 holds no five-year span, so no five-year change is built.
+- **CBP 2023:** now through the Census Data API with every industry code in one request per level (nation, states, metros, and counties one state at a time): 55 responses, accepting what the API serves. That is NAICS 2017 codes, as D44 found in the complete files. Parents come with their children, so the withheld-cell lower bounds of D45 stand. The API publishes no county-999 statewide rows, so the CBP reconciliation now checks that no state falls below the sum of its counties, and names each difference with the withheld bound.
+- **CBSA to county:** unchanged. It was always the Census Data API geoinfo roster (OMB Bulletin 23-01 membership, part by part); the OMB bulletin and NBER's crosswalk are not on this lane's hosts, and were not needed.
+- **fairfield-county towns:** now from the 2020 Census (dec/pl, Census Data API), matched to the 2025 roster by five-digit town code (23 towns).
+- **Building permits:** no open source exists (the Census Data API carries no county permits), so permits are NOT FETCHED with that reason.
+
+**Superseded by this decision:**
+- **D42:** item 1 is withdrawn; items 2 to 5 stand.
+- **D43:** CBP now comes from the API, not the complete files. The partial per-code API pull was moved to `census_cbp/2023-superseded-per-code/` and is unused.
+- **D46:** the permits series are removed.
+- **D47:** the permits rows and the CBP statewide-record check are gone; the CBP check is replaced as above.
+- **D48:** the sizes changed; GATES.txt has the final size.
+
+**Independent check:** one round on the affected series (PEP, CBP, BEA after the collision fix below, fairfield-county ACS), as the owner asked; see GATES.txt gate 6.
+
+**History:** the commit that held the www2-built series (`7cff37f`) and the merge after it (`e334cfb`) are kept, not deleted, on a local branch `held-web-fsc-5-www2`. That branch is never pushed or bundled. Branch web-fsc-5 is rebuilt from `d2dabc6`, plus a fresh merge of main and one commit of the www2-free lane, so no www2-built file is in the history that lands.
+
+**BEA collision (found by the independent check, fixed).** BEA's state GeoFips (`SS000`) collided with two CBSA codes ending in 000: 32000 (Marion, NC) and 45000 (Susanville, CA). Those micropolitan areas carried Nevada's and South Carolina's state figures. BEA rows are now keyed by their file's level. The BEA API answered the MSA request with error 101, so no CBSA carries a BEA row of its own, and a CBSA market sums its member counties.
+
+## D51. The independent check's round on the affected series: findings and fixes (16 October)
+
+**The round** (as D50 asked, one round): seed 20261016, 797 sampled values (271 new: PEP Vintage 2023, CBP 2023, fairfield-county ACS 5-year), 765 matched, 32 did not, all in CBP. Its full sweep of the register compared 698,318 values and found 43,236 problems, all in CBP. The result is kept as `gates/rederive-census-result.round2.json`. ACS, BEA (after the D50 collision fix) and PEP matched in full, and the FOIA check, rerun on the same register, matched 352 of 352 with 0 problems in 4,416,192 values.
+
+**Finding 1, Puerto Rico metro areas (30 sampled values).** The CBP API's metro response has no row for the ten Puerto Rico CBSAs (10380, 11640, 17620, 17640, 25020, 29720, 32420, 38660, 41980, 46580). The register gave them empty class lists, which the renderer reads as zero establishments. Fixed: a geography with no row at all in its CBP response is a null with that reason, never a zero. That covers the ten CBSAs and two counties with no row (15005 Kalawao, Hawaii; 48269 King, Texas). No site market uses any of them, and the Texas state row is published.
+
+**Finding 2, sector ranges (2 sampled values; 43,206 cells in the sweep, 14,402 per CBP series across 3,315 geographies).** The API publishes the two-digit level of NAICS 31-33, 44-45 and 48-49 only as those ranges. The reader dropped the range codes, and the withheld-cell bound of D45 looked for the strings `31`, `44` and `48`, which never appear. A class code with no 3-, 4- or 5-digit parent at a geography therefore got no bound. Fixed: the reader keeps the three ranges, and the sector parent of a code in them is its range. Lower bounds do not change; some `up_to` amounts grow, and some classes that read as zero are now lower bounds of zero.
+
+**Note, no mismatch:** in `cbp_emp` and `cbp_estab_per_10k` the `up_to` of a `[value, up_to]` cell counts establishments that may be withheld, not employees or a rate. Kept that way, because the renderer prints only the lower bound. The flag text now says so, and each CBP series carries `up_to_unit: establishments`.
+
+**After the fixes:** the checker's script, unchanged (`gates/rederive_census.py`, sha256 `f764764ba797e90bde678bd200c498849d5d12026b0a1806664f41fc75c8f33d`), was run once on the rebuilt register. It finds 767 of 767 sampled values equal (the 30 Puerto Rico values are now nulls, so they are not drawn), and 0 problems in 698,030 values. Gate 6 reads that run. Following the owner's "one round, then fix and stop", no further round was sent.
+
+**Also corrected before landing (my reading, not a checker finding).** No composition changed. A diff of `geographies.json` shows only these fields moved: `basis` on 91 rows, `cbsa.verified` on 115, and `fips_verified` on 896 composer county entries.
+- 91 rows had kept the composer's basis "counties unverified pending the delineation file". They now say their membership comes from the Census Data API geoinfo roster.
+- Each recalled CBSA code and county entry carries `verified` / `fips_verified` measured against the 2025 roster.
+- The seven F2 rows no longer say only the OMB delineation file can confirm them. They name the roster check that writes their difference in `resolved.notes`.
+- The owner's review table in CLOSE-TABLES.md lists the counties the register uses, not the composer's list.
+- Gate 3's message no longer names permits.

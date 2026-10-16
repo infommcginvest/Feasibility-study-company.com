@@ -1,5 +1,5 @@
 {
- "about": "FOIA geocoding. Method project_county: the loan carries a ProjectCounty string under its ProjectState. The ZIP method (BorrZip to ZCTA to county) is not available: the ZCTA-to-county relationship file is on www2.census.gov (robots, D1). A blank ProjectCounty is reported unmatched, never dropped: it still counts in its state and in us. County strings are not yet joined to FIPS (no county roster fetched); foia-county-strings.json carries them for that join.",
+ "about": "FOIA geocoding. Method project_county: the loan carries a ProjectCounty string under its ProjectState. The ZIP method (BorrZip to ZCTA to county) is not available: the ZCTA-to-county relationship file is on www2.census.gov (robots, D1). A blank ProjectCounty is reported unmatched, never dropped: it still counts in its state and in us. County strings are joined to 2025 county FIPS by name within the state in geographies.json (foia_county_join, with every unmatched string listed); foia-county-strings.json carries the strings.",
  "by_state": [
   {
    "in_a_site_market_composition": 0,
@@ -11,7 +11,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 214,
+   "in_a_site_market_composition": 2321,
    "match_rate_project_county": 0.999361,
    "program": "504",
    "project_county_present": 3126,
@@ -20,7 +20,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 21,
+   "in_a_site_market_composition": 592,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 815,
@@ -29,7 +29,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 639,
+   "in_a_site_market_composition": 4866,
    "match_rate_project_county": 0.999796,
    "program": "504",
    "project_county_present": 4906,
@@ -38,7 +38,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 17996,
+   "in_a_site_market_composition": 41138,
    "match_rate_project_county": 0.999911,
    "program": "504",
    "project_county_present": 45022,
@@ -74,7 +74,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 147,
    "match_rate_project_county": 0.995595,
    "program": "504",
    "project_county_present": 226,
@@ -83,7 +83,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 14343,
    "match_rate_project_county": 0.99994,
    "program": "504",
    "project_county_present": 16570,
@@ -92,7 +92,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 4924,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 6164,
@@ -119,7 +119,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 1634,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 2778,
@@ -137,7 +137,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 331,
+   "in_a_site_market_composition": 8826,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 9710,
@@ -146,7 +146,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 1478,
+   "in_a_site_market_composition": 4146,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 5116,
@@ -155,7 +155,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 600,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 1819,
@@ -182,7 +182,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 2137,
+   "in_a_site_market_composition": 6144,
    "match_rate_project_county": 0.999553,
    "program": "504",
    "project_county_present": 6703,
@@ -200,7 +200,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 1240,
+   "in_a_site_market_composition": 1391,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 1573,
@@ -209,7 +209,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 513,
+   "in_a_site_market_composition": 4525,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 5416,
@@ -218,7 +218,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 501,
+   "in_a_site_market_composition": 7106,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 9176,
@@ -227,7 +227,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 2227,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 4576,
@@ -236,7 +236,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 366,
+   "in_a_site_market_composition": 454,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 567,
@@ -254,7 +254,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 3250,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 3870,
@@ -272,7 +272,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 30,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 1359,
@@ -281,7 +281,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 2013,
+   "in_a_site_market_composition": 2696,
    "match_rate_project_county": 0.999488,
    "program": "504",
    "project_county_present": 3901,
@@ -290,7 +290,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 2128,
+   "in_a_site_market_composition": 2142,
    "match_rate_project_county": 0.999587,
    "program": "504",
    "project_county_present": 2420,
@@ -299,7 +299,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 217,
+   "in_a_site_market_composition": 1202,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 1441,
@@ -308,7 +308,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 187,
+   "in_a_site_market_composition": 3590,
    "match_rate_project_county": 0.999732,
    "program": "504",
    "project_county_present": 3736,
@@ -317,7 +317,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 6068,
+   "in_a_site_market_composition": 7960,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 8527,
@@ -326,7 +326,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 1559,
    "match_rate_project_county": 0.999864,
    "program": "504",
    "project_county_present": 7349,
@@ -335,7 +335,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 64,
+   "in_a_site_market_composition": 1275,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 1726,
@@ -344,7 +344,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 760,
+   "in_a_site_market_composition": 2312,
    "match_rate_project_county": 0.999594,
    "program": "504",
    "project_county_present": 2460,
@@ -353,7 +353,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 203,
+   "in_a_site_market_composition": 2698,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 3496,
@@ -380,7 +380,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 66,
+   "in_a_site_market_composition": 1373,
    "match_rate_project_county": 0.997969,
    "program": "504",
    "project_county_present": 1474,
@@ -389,7 +389,7 @@
    "unmatched_blank_county": 3
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 58,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 1800,
@@ -407,7 +407,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 95,
+   "in_a_site_market_composition": 8439,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 10659,
@@ -416,7 +416,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 3221,
+   "in_a_site_market_composition": 7338,
    "match_rate_project_county": 0.999626,
    "program": "504",
    "project_county_present": 8019,
@@ -443,7 +443,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 86,
    "match_rate_project_county": 1.0,
    "program": "504",
    "project_county_present": 616,
@@ -452,7 +452,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 879,
+   "in_a_site_market_composition": 3495,
    "match_rate_project_county": 0.999373,
    "program": "504",
    "project_county_present": 4785,
@@ -461,7 +461,7 @@
    "unmatched_blank_county": 3
   },
   {
-   "in_a_site_market_composition": 1295,
+   "in_a_site_market_composition": 4296,
    "match_rate_project_county": 0.999659,
    "program": "504",
    "project_county_present": 5865,
@@ -506,7 +506,7 @@
    "unmatched_blank_county": 12
   },
   {
-   "in_a_site_market_composition": 1107,
+   "in_a_site_market_composition": 10529,
    "match_rate_project_county": 0.999531,
    "program": "7a",
    "project_county_present": 14918,
@@ -515,7 +515,7 @@
    "unmatched_blank_county": 7
   },
   {
-   "in_a_site_market_composition": 691,
+   "in_a_site_market_composition": 8302,
    "match_rate_project_county": 0.99881,
    "program": "7a",
    "project_county_present": 12589,
@@ -533,7 +533,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 4848,
+   "in_a_site_market_composition": 39072,
    "match_rate_project_county": 0.999414,
    "program": "7a",
    "project_county_present": 39256,
@@ -542,7 +542,7 @@
    "unmatched_blank_county": 23
   },
   {
-   "in_a_site_market_composition": 86308,
+   "in_a_site_market_composition": 229864,
    "match_rate_project_county": 0.999843,
    "program": "7a",
    "project_county_present": 254645,
@@ -578,7 +578,7 @@
    "unmatched_blank_county": 13
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 3394,
    "match_rate_project_county": 0.99688,
    "program": "7a",
    "project_county_present": 5431,
@@ -587,7 +587,7 @@
    "unmatched_blank_county": 17
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 88541,
    "match_rate_project_county": 0.999961,
    "program": "7a",
    "project_county_present": 103141,
@@ -605,7 +605,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 44521,
    "match_rate_project_county": 0.999923,
    "program": "7a",
    "project_county_present": 52101,
@@ -632,7 +632,7 @@
    "unmatched_blank_county": 9
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 10964,
    "match_rate_project_county": 0.999947,
    "program": "7a",
    "project_county_present": 18819,
@@ -650,7 +650,7 @@
    "unmatched_blank_county": 3
   },
   {
-   "in_a_site_market_composition": 2158,
+   "in_a_site_market_composition": 58607,
    "match_rate_project_county": 0.999954,
    "program": "7a",
    "project_county_present": 64896,
@@ -659,7 +659,7 @@
    "unmatched_blank_county": 3
   },
   {
-   "in_a_site_market_composition": 8196,
+   "in_a_site_market_composition": 27676,
    "match_rate_project_county": 1.0,
    "program": "7a",
    "project_county_present": 34773,
@@ -668,7 +668,7 @@
    "unmatched_blank_county": 0
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 6978,
    "match_rate_project_county": 0.999947,
    "program": "7a",
    "project_county_present": 19021,
@@ -695,7 +695,7 @@
    "unmatched_blank_county": 15
   },
   {
-   "in_a_site_market_composition": 15675,
+   "in_a_site_market_composition": 53861,
    "match_rate_project_county": 0.999417,
    "program": "7a",
    "project_county_present": 58261,
@@ -713,7 +713,7 @@
    "unmatched_blank_county": 39
   },
   {
-   "in_a_site_market_composition": 7287,
+   "in_a_site_market_composition": 9633,
    "match_rate_project_county": 0.999329,
    "program": "7a",
    "project_county_present": 11910,
@@ -731,7 +731,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 4971,
+   "in_a_site_market_composition": 50215,
    "match_rate_project_county": 0.999967,
    "program": "7a",
    "project_county_present": 60255,
@@ -740,7 +740,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 2533,
+   "in_a_site_market_composition": 40640,
    "match_rate_project_county": 0.999882,
    "program": "7a",
    "project_county_present": 50884,
@@ -749,7 +749,7 @@
    "unmatched_blank_county": 6
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 20175,
    "match_rate_project_county": 0.999947,
    "program": "7a",
    "project_county_present": 38059,
@@ -767,7 +767,7 @@
    "unmatched_blank_county": 1
   },
   {
-   "in_a_site_market_composition": 7272,
+   "in_a_site_market_composition": 9100,
    "match_rate_project_county": 0.999746,
    "program": "7a",
    "project_county_present": 15754,
@@ -785,7 +785,7 @@
    "unmatched_blank_county": 3
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 28453,
    "match_rate_project_county": 0.999943,
    "program": "7a",
    "project_county_present": 35162,
@@ -803,7 +803,7 @@
    "unmatched_blank_county": 12
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 73,
    "match_rate_project_county": 0.999844,
    "program": "7a",
    "project_county_present": 12846,
@@ -812,7 +812,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 10194,
+   "in_a_site_market_composition": 14158,
    "match_rate_project_county": 0.999324,
    "program": "7a",
    "project_county_present": 20686,
@@ -821,7 +821,7 @@
    "unmatched_blank_county": 14
   },
   {
-   "in_a_site_market_composition": 52703,
+   "in_a_site_market_composition": 52916,
    "match_rate_project_county": 0.999018,
    "program": "7a",
    "project_county_present": 61054,
@@ -830,7 +830,7 @@
    "unmatched_blank_county": 60
   },
   {
-   "in_a_site_market_composition": 2784,
+   "in_a_site_market_composition": 8691,
    "match_rate_project_county": 0.998732,
    "program": "7a",
    "project_county_present": 11030,
@@ -839,7 +839,7 @@
    "unmatched_blank_county": 14
   },
   {
-   "in_a_site_market_composition": 713,
+   "in_a_site_market_composition": 15496,
    "match_rate_project_county": 0.999137,
    "program": "7a",
    "project_county_present": 16211,
@@ -848,7 +848,7 @@
    "unmatched_blank_county": 14
   },
   {
-   "in_a_site_market_composition": 98137,
+   "in_a_site_market_composition": 120248,
    "match_rate_project_county": 0.999915,
    "program": "7a",
    "project_county_present": 129354,
@@ -857,7 +857,7 @@
    "unmatched_blank_county": 11
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 18942,
    "match_rate_project_county": 0.999955,
    "program": "7a",
    "project_county_present": 87950,
@@ -866,7 +866,7 @@
    "unmatched_blank_county": 4
   },
   {
-   "in_a_site_market_composition": 475,
+   "in_a_site_market_composition": 14231,
    "match_rate_project_county": 0.999378,
    "program": "7a",
    "project_county_present": 19289,
@@ -875,7 +875,7 @@
    "unmatched_blank_county": 12
   },
   {
-   "in_a_site_market_composition": 9259,
+   "in_a_site_market_composition": 25238,
    "match_rate_project_county": 0.999924,
    "program": "7a",
    "project_county_present": 26160,
@@ -884,7 +884,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 3034,
+   "in_a_site_market_composition": 58402,
    "match_rate_project_county": 0.999878,
    "program": "7a",
    "project_county_present": 74000,
@@ -920,7 +920,7 @@
    "unmatched_blank_county": 24
   },
   {
-   "in_a_site_market_composition": 648,
+   "in_a_site_market_composition": 14427,
    "match_rate_project_county": 0.999224,
    "program": "7a",
    "project_county_present": 15445,
@@ -929,7 +929,7 @@
    "unmatched_blank_county": 12
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 174,
    "match_rate_project_county": 0.999262,
    "program": "7a",
    "project_county_present": 6773,
@@ -956,7 +956,7 @@
    "unmatched_blank_county": 8
   },
   {
-   "in_a_site_market_composition": 2379,
+   "in_a_site_market_composition": 132212,
    "match_rate_project_county": 0.999987,
    "program": "7a",
    "project_county_present": 155329,
@@ -965,7 +965,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 13022,
+   "in_a_site_market_composition": 33049,
    "match_rate_project_county": 0.999753,
    "program": "7a",
    "project_county_present": 36413,
@@ -992,7 +992,7 @@
    "unmatched_blank_county": 2
   },
   {
-   "in_a_site_market_composition": 0,
+   "in_a_site_market_composition": 980,
    "match_rate_project_county": 0.999008,
    "program": "7a",
    "project_county_present": 9064,
@@ -1001,7 +1001,7 @@
    "unmatched_blank_county": 9
   },
   {
-   "in_a_site_market_composition": 9225,
+   "in_a_site_market_composition": 40656,
    "match_rate_project_county": 0.999647,
    "program": "7a",
    "project_county_present": 50923,
@@ -1010,7 +1010,7 @@
    "unmatched_blank_county": 18
   },
   {
-   "in_a_site_market_composition": 9287,
+   "in_a_site_market_composition": 32718,
    "match_rate_project_county": 0.99966,
    "program": "7a",
    "project_county_present": 44152,

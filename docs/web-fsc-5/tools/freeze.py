@@ -55,17 +55,25 @@ def main():
         now = sha256_file(p) if os.path.exists(p) else None
         raw.append({'path': rel, 'url': rec['url'], 'retrieved_at': rec['retrieved_at'], 'bytes': rec['bytes'],
                     'sha256_manifest': rec['sha256'], 'sha256_now': now, 'same': now == rec['sha256']})
+    # Files held under an owner ruling (D50): re-hashed where they are held, to show
+    # they are kept unchanged; never read for data.
+    held = []
+    for rel, rec in sorted((man.get('held') or {}).items()):
+        p = os.path.join(ROOT, rel)
+        now = sha256_file(p) if os.path.exists(p) else None
+        held.append({'path': rel, 'url': rec['url'], 'retrieved_at': rec['retrieved_at'], 'bytes': rec['bytes'],
+                     'sha256_manifest': rec['sha256'], 'sha256_now': now, 'same': now == rec['sha256'], 'reason': rec.get('reason')})
     data = []
     for d, _, fs in os.walk(os.path.join(ROOT, 'data', 'markets')):
         for f in sorted(fs):
             p = os.path.join(d, f)
             data.append({'path': os.path.relpath(p, ROOT), 'bytes': os.path.getsize(p), 'sha256': sha256_file(p)})
     data.sort(key=lambda x: x['path'])
-    state = {'raw': raw, 'data': data, 'sources': {k: {kk: v.get(kk) for kk in ('status', 'vintage', 'reason')} for k, v in man['sources'].items()},
+    state = {'raw': raw, 'held': held, 'data': data, 'sources': {k: {kk: v.get(kk) for kk in ('status', 'vintage', 'reason')} for k, v in man['sources'].items()},
              'doors': man.get('doors', []), 'probes': man.get('probes', [])}
     canon = json.dumps(state, sort_keys=True, separators=(',', ':')).encode()
     rec = {'head': head, 'archive_sha256': sha256_bytes(archive), 'data_manifest_sha256': sha256_bytes(canon),
-           'raw_files_all_unchanged': all(r['same'] for r in raw), **state}
+           'raw_files_all_unchanged': all(r['same'] for r in raw), 'held_files_all_unchanged': all(r['same'] for r in held), **state}
     out = os.path.join(ROOT, 'docs', 'web-fsc-5', 'freeze', f'freeze-{head[:7]}.json')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     json.dump(rec, open(out, 'w'), indent=1, sort_keys=True)
@@ -74,7 +82,7 @@ def main():
     with tarfile.open(fileobj=io.BytesIO(archive)) as t:
         t.extractall(tree)
     print(f'head {head}\narchive sha256 {rec["archive_sha256"]}\ndata manifest sha256 {rec["data_manifest_sha256"]}\n'
-          f'raw files {len(raw)} (all unchanged: {rec["raw_files_all_unchanged"]}); data files {len(data)}\nrecord {os.path.relpath(out, ROOT)}\ntree {os.path.relpath(tree, ROOT)}')
+          f'raw files {len(raw)} (all unchanged: {rec["raw_files_all_unchanged"]}); held files {len(held)} (all unchanged: {rec["held_files_all_unchanged"]}); data files {len(data)}\nrecord {os.path.relpath(out, ROOT)}\ntree {os.path.relpath(tree, ROOT)}')
 
 
 if __name__ == '__main__':

@@ -38,11 +38,13 @@ def main():
     L += ['', '## Market compositions', '', f'{len(ms)} markets; by kind: ' + ', '.join(f'{k} {v}' for k, v in sorted(Counter(m["kind"] for m in ms).items()))
           + '; by composition source: ' + ', '.join(f'{k} {v}' for k, v in sorted(Counter(m["composition_source"] for m in ms).items()))
           + f'; review rows {sum(m["review"] for m in ms)}.', '',
-          '### Review rows for the owner', '', '| market | kind | composition source | counties or places | basis | reason |', '|---|---|---|---|---|---|']
+          '### Review rows for the owner', '', '| market | kind | composition source | counties (resolved) or places | basis | reason |', '|---|---|---|---|---|---|']
     for m in ms:
         if m['review']:
             comp = m['components']
-            names = [c['name'] + ('' if c.get('state') in (None, m['state_postal']) else f' ({c["state"]})') for c in comp['counties']] or [p['name'] for p in comp['places']]
+            cname = {r['fips']: r['name'] for r in geo['counties']['rows']}
+            res = m.get('resolved') or {}   # the counties the register uses, not the composer's list
+            names = [cname.get(f, f) for f in res.get('counties') or []] or [p['name'] for p in comp['places']]
             if m.get('ct'):
                 ct = m['foia']['ct']
                 names = [f'legacy: {", ".join(ct["legacy"])}; planning regions: {", ".join(ct["pr"])}']

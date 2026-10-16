@@ -1,4 +1,4 @@
-WEB-FSC-5 gates at HEAD e5ce35c60ead5ebaca6084f3513420dcaf05ec8c
+WEB-FSC-5 gates at HEAD e334cfbad883afa776df98fdb7a50a5a18470623
 runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, so the commit that holds GATES.txt is one record-only commit after the HEAD above.
 
 === GATE 1: no served file changed
@@ -299,6 +299,58 @@ data/markets/geographies.json
 data/markets/naics-evidence.json
 data/markets/naics-map.json
 data/markets/reconciliation.json
+data/markets/series/acs1_aggregate_income.json
+data/markets/series/acs1_households.json
+data/markets/series/acs1_labor_force.json
+data/markets/series/acs1_median_gross_rent.json
+data/markets/series/acs1_median_hh_income.json
+data/markets/series/acs1_median_home_value.json
+data/markets/series/acs1_occupied_units.json
+data/markets/series/acs1_owner_occupied.json
+data/markets/series/acs1_per_capita_income.json
+data/markets/series/acs1_pop.json
+data/markets/series/acs1_pop65.json
+data/markets/series/acs1_renter_occupied.json
+data/markets/series/acs1_unemployed.json
+data/markets/series/acs1_unemployment_rate.json
+data/markets/series/acs5_aggregate_income.json
+data/markets/series/acs5_households.json
+data/markets/series/acs5_labor_force.json
+data/markets/series/acs5_median_gross_rent.json
+data/markets/series/acs5_median_hh_income.json
+data/markets/series/acs5_median_home_value.json
+data/markets/series/acs5_occupied_units.json
+data/markets/series/acs5_owner_occupied.json
+data/markets/series/acs5_per_capita_income.json
+data/markets/series/acs5_pop.json
+data/markets/series/acs5_pop65.json
+data/markets/series/acs5_renter_occupied.json
+data/markets/series/acs5_unemployed.json
+data/markets/series/acs5_unemployment_rate.json
+data/markets/series/bea_per_capita_income.json
+data/markets/series/bea_personal_income.json
+data/markets/series/bea_population.json
+data/markets/series/bps_units_1unit_2025.json
+data/markets/series/bps_units_1unit_5y.json
+data/markets/series/bps_units_2unit_2025.json
+data/markets/series/bps_units_2unit_5y.json
+data/markets/series/bps_units_3_4unit_2025.json
+data/markets/series/bps_units_3_4unit_5y.json
+data/markets/series/bps_units_5plus_2025.json
+data/markets/series/bps_units_5plus_5y.json
+data/markets/series/bps_units_total_2025.json
+data/markets/series/bps_units_total_5y.json
+data/markets/series/cbp_emp.json
+data/markets/series/cbp_estab.json
+data/markets/series/cbp_estab_per_10k.json
+data/markets/series/pep_change_1y.json
+data/markets/series/pep_change_1y_pct.json
+data/markets/series/pep_change_5y.json
+data/markets/series/pep_change_5y_pct.json
+data/markets/series/pep_pop_2020.json
+data/markets/series/pep_pop_2023.json
+data/markets/series/pep_pop_2024.json
+data/markets/series/pep_pop_2025.json
 data/markets/series/sba504_cancelled.json
 data/markets/series/sba504_chgoff_amt.json
 data/markets/series/sba504_chgoff_amt_rate.json
@@ -342,9 +394,10 @@ docs/web-fsc-5/evidence/step0/robots_headers_www.huduser.gov.txt
 docs/web-fsc-5/evidence/step0/robots_headers_www2.census.gov.txt
 docs/web-fsc-5/evidence/step0/robots_www.huduser.gov.txt
 docs/web-fsc-5/evidence/step0/robots_www2.census.gov.txt
-docs/web-fsc-5/fixture/houston-negative.html
 docs/web-fsc-5/fixture/index.html
+docs/web-fsc-5/fixture/null-negative.html
 docs/web-fsc-5/freeze/freeze-210aa6a.json
+docs/web-fsc-5/freeze/freeze-6cff8d7.json
 docs/web-fsc-5/freeze/freeze-e7cc263.json
 docs/web-fsc-5/gates/rederive-result.json
 docs/web-fsc-5/gates/rederive.py
@@ -355,43 +408,51 @@ docs/web-fsc-5/tools/close_tables.py
 docs/web-fsc-5/tools/foia_inventory.py
 docs/web-fsc-5/tools/foia_profile.py
 docs/web-fsc-5/tools/freeze.py
+docs/web-fsc-5/tools/resolve_geographies.py
 scripts/markets.py
 scripts/markets_build.py
+scripts/markets_census.py
 scripts/markets_fetch.py
 $ git status --porcelain (paths outside the lane)
 (none)
---> GATE 1 GREEN: 355 changed path(s), all inside the lane
+--> GATE 1 GREEN: 410 changed path(s), all inside the lane
 
 === GATE 2: coverage
-series files 16; series rows 16; series files without a row: none
-market anchors on the site's pages (git ls-files *.html outside docs/ and netlify/, measured now): 253; markets in geographies.json: 253; anchors without a row: none; rows without an anchor: none
-states: 60; counties: NOT FETCHED (0 rows); CBSAs: NOT FETCHED (0 rows)
-FETCHED: 1: sba_foia
-NOT FETCHED: 14: census_geoinfo, census_pep, census_pep_api, census_acs5, census_acs1, census_bps, census_cbp, census_cbp_bulk, census_delineation, census_dec2020_ct, bls_qcew, bea_cainc1, bea_cainc1_api, hud_fmr
-  census_geoinfo: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
-  census_pep: www2.census.gov robots.txt disallows /programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_pep_api: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
-  census_acs5: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
-  census_acs1: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
-  census_bps: www2.census.gov robots.txt disallows /econ/bps/County/co2025a.txt for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
-  census_cbp_bulk: www2.census.gov robots.txt disallows /programs-surveys/cbp/datasets/2023/cbp23co.zip for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_delineation: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_dec2020_ct: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
+series files 57; series rows 57; series files without a row: none
+market anchors at the cut point 1d48cc2 (git show, *.html outside docs/ and netlify/): 253; markets in geographies.json: 253; anchors without a row: none; rows without an anchor: none. Anchors on the pages at HEAD after the merge of main: 12 (WEB-FSC-4 unlinked market pages not yet built)
+states: 60; counties: FETCHED (3222 rows); CBSAs: FETCHED (935 rows)
+FETCHED: 8: census_geoinfo, census_pep_api, census_acs5, census_acs1, census_cbp, census_dec2020_ct, bea_cainc1_api, sba_foia
+NOT FETCHED: 9: census_pep, census_bps, census_cbp_bulk, census_delineation, census_ct_crosswalk, bls_qcew, bea_cainc1, bls_qcew_api, hud_fmr
+  census_pep: held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)
+  census_bps: held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)
+  census_cbp_bulk: held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)
+  census_delineation: held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)
+  census_ct_crosswalk: held: fetched on 16 Oct under a misread of the owner rulings; www2.census.gov is closed by its robots.txt (it bars every unnamed agent); the files are held under _cache/markets/held/www2/, never loaded or published (D50)
   bls_qcew: data.bls.gov robots.txt disallows /cew/data/files/2025/csv/2025_annual_singlefile.zip for user-agent * (RFC 9309 group: * -> 1 rule(s))
   bea_cainc1: apps.bea.gov robots.txt disallows /regional/zip/CAINC1.zip for user-agent * (RFC 9309 group: * -> 16 rule(s))
-  bea_cainc1_api: BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:18Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
+  bls_qcew_api: api.bls.gov robots.txt disallows /publicAPI/v2/timeseries/data/ for user-agent * (RFC 9309 group: * -> 1 rule(s))
   hud_fmr: www.huduser.gov: challenge (AWS WAF bot check on robots.txt)
 sources.json field check: every row has every field (retrieved and sha256 are empty only for NOT FETCHED rows)
---> GATE 2 RED: no county or CBSA roster: both NOT FETCHED (Census API key wall D2, www2 robots D1)
+--> GATE 2 GREEN: all geographies and source fields present
 
 === GATE 3: reconciliation
 FOIA us by program and FY: 72 cells, 0 mismatches
 FOIA 504: sum of states 196,735 vs us 196,735; difference 0 (loans with a blank ProjectState, which count in us only)
 FOIA 7a: sum of states 1,718,660 vs us 1,718,665; difference 5 (loans with a blank ProjectState, which count in us only)
 independent FOIA totals by program and FY (rederive.py): FOIA as of 2026-06-30, 6 files: 7(a) 1,961,455 rows, 1,718,665 loans net of cancellations, volume $527,243,968,642, 220,688 CHGOFF rows; 504 229,049 rows, 196,735 loans, volume $129,055,577,411, 12,169 CHGOFF rows; approval FY 1991 to 2026.
-additive federal series fetched for a county-to-state-to-nation reconciliation: none
---> GATE 3 GREEN: FOIA register equals the raw files by program and FY; state sums differ from us only by rows without a ProjectState; no Census, BLS or BEA additive series was fetched, so there is no county sum to reconcile
+acs5_households.all: 52 states checked, 52 equal or explained, 0 named; us 129227496, sum of the states checked 130518362
+acs5_pop.all: 52 states checked, 52 equal or explained, 0 named; us 334922499, sum of the states checked 338156808
+acs5_pop65.all: 52 states checked, 52 equal or explained, 0 named; us 57633628, sum of the states checked 58391714
+bea_personal_income.all: 51 states checked, 49 equal or explained, 2 named: hi 1.10526e+10 (BEA combined area: the state includes counties BEA publishes only inside a combination area); va 2.94647e+11 (BEA combined area: the state includes counties BEA publishes only inside a combination area); us 24897613000000, sum of the states checked 24897613000000
+cbp_estab.gas-station-and-c-store: 52 states checked, 52 equal or explained, 0 named; us 146166, sum of the states checked 147278
+cbp_estab.hotel: 52 states checked, 52 equal or explained, 0 named; us 55895, sum of the states checked 56117
+cbp_estab.self-storage: 52 states checked, 52 equal or explained, 0 named; us 18564, sum of the states checked 18587
+pep_pop_2023.all: 52 states checked, 52 equal or explained, 0 named; us 334914895, sum of the states checked 338120586
+  acs5: Each state equals the sum of its counties. The nation is smaller than the sum of the states by Puerto Rico, which ACS tabulates as a state-equivalent but not in the US total.
+  bea_personal_income: BEA publishes some counties only inside combined areas (Virginia independent cities with their counties, Kalawao with Maui in Hawaii); those states exceed the sum of the counties BEA publishes on their own by the combined areas.
+  cbp_estab: A state exceeds the sum of its counties by its statewide records (establishments with no fixed county, which the API does not publish at county level) plus the 6-digit cells CBP withholds at county level (bounded by each absent cell's published parent less its published children). Without the statewide records the check is that no state falls below the sum of its counties; each difference is named with the withheld bound.
+  pep: Each state equals the sum of its counties, and the nation equals the sum of the states.
+--> GATE 3 GREEN: FOIA register equals the raw files by program and FY; every Census, CBP, permits and BEA state is equal to its county sum, explained, or named with its measured difference
 
 === GATE 4: FOIA status
 504 FOIA_504_FY1991_FY2009_asof_260630.csv: CANCLD=17,845, CHGOFF=11,246, CLOSED=337, EXEMPT=3,817, PIF=77,821
@@ -451,25 +512,83 @@ classes: 43; without a fit grade: none
   active-adult: fit proxy; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
   board-and-care: fit partial; 2022 623312,623990; FOIA loans 5,204; by edition set {'1997+2002+2007+2012+2017+2022': 4230, '2002+2007+2012+2017+2022': 974}
   ccrc-life-plan-communities: fit partial; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
-CBP establishment counts nationally per class: NOT FETCHED (census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record)
---> GATE 5 RED: every class graded; FOIA loans reported by code and edition; RED because CBP was NOT FETCHED, so no class can show a non-zero national CBP count
+  CBP 2023 national establishments, assisted-living-and-memory-care: 20884
+  CBP 2023 national establishments, auto-dealership: 60963
+  CBP 2023 national establishments, auto-service-and-collision: 170015
+  CBP 2023 national establishments, behavioral-health: 86103
+  CBP 2023 national establishments, childcare-and-daycare: 82162
+  CBP 2023 national establishments, coffee-shop: 85140
+  CBP 2023 national establishments, express-car-wash: 19807
+  CBP 2023 national establishments, fitness-and-recreation: 62472
+  CBP 2023 national establishments, funeral-home: 20232
+  CBP 2023 national establishments, gas-station-and-c-store: 146166
+  CBP 2023 national establishments, glamping: 10046
+  CBP 2023 national establishments, grocery-store: 62947
+  CBP 2023 national establishments, hotel: 55895
+  CBP 2023 national establishments, laundromat: 10890
+  CBP 2023 national establishments, marina: 3739
+  CBP 2023 national establishments, medical-office-and-asc: 228108
+  CBP 2023 national establishments, multifamily: 74459
+  CBP 2023 national establishments, pet-boarding-and-daycare: 25551
+  CBP 2023 national establishments, private-school: 23201
+  CBP 2023 national establishments, quick-service-restaurant: 355228
+  CBP 2023 national establishments, restaurant: 673697
+  CBP 2023 national establishments, retail: 726694
+  CBP 2023 national establishments, rv-and-boat-storage: 24973
+  CBP 2023 national establishments, rv-park-and-campground: 5018
+  CBP 2023 national establishments, self-storage: 18564
+  CBP 2023 national establishments, truck-stop-and-travel-center: 109174
+  CBP 2023 national establishments, urgent-care: 10042
+  CBP 2023 national establishments, veterinary-practice: 34296
+  CBP 2023 national establishments, limited-service-hotel: 55895
+  CBP 2023 national establishments, select-service-hotel: 55895
+  CBP 2023 national establishments, extended-stay-hotel: 55895
+  CBP 2023 national establishments, boutique-and-resort: 60260
+  CBP 2023 national establishments, industrial-and-warehouse: 51312
+  CBP 2023 national establishments, cold-storage: 1376
+  CBP 2023 national establishments, event-and-wedding-venue: 38833
+  CBP 2023 national establishments, skilled-nursing: 18126
+  CBP 2023 national establishments, build-to-rent: 74459
+  CBP 2023 national establishments, mixed-use: 109018
+  CBP 2023 national establishments, brewery-and-distillery: 6567
+  CBP 2023 national establishments, independent-living-and-ccrc: 5639
+  CBP 2023 national establishments, active-adult: 74459
+  CBP 2023 national establishments, board-and-care: 26872
+  CBP 2023 national establishments, ccrc-life-plan-communities: 5639
+classes with no national CBP establishments: none
+--> GATE 5 GREEN: every class graded; FOIA loans reported by code and edition
 
 === GATE 6: independent re-derivation
-sampled 304 values; matches 304; mismatches 0
+rederive-result.json: seed 20261016, 352 values, 352 match, 0 mismatch
+  cbsa: 64/64
   county: 48/48
-  county-set: 80/80
-  cross-state: 18/18
-  cross-state-part: 14/14
+  county-set: 64/64
+  cross-state: 21/21
+  cross-state-part: 11/11
   ct-component: 48/48
   state: 64/64
   us: 32/32
-quota: {'ct': {'need': 5, 'have': 48}, 'multi_county': {'need': 5, 'have': 80}, 'sub_county': {'need': 3, 'have': 0, 'note': "0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them."}, 'cross_state': {'need': 3, 'have': 32}}
---> GATE 6 RED: mismatches 0; quotas short {'sub_county': {'need': 3, 'have': 0, 'note': "0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them."}}
+rederive-census-result.json: seed 20261016, 767 values, 767 match, 0 mismatch
+  cbsa: 79/79
+  cbsa-cross-state: 41/41
+  county: 85/85
+  ct-county-equivalent: 41/41
+  ct-market: 75/75
+  market-cbsa: 85/85
+  market-cbsa-cross-state: 44/44
+  market-cross-state: 54/54
+  market-multi-county: 93/93
+  market-place: 31/31
+  market-single-county: 44/44
+  state: 54/54
+  us: 41/41
+quotas across both: {'ct': {'need': 5, 'have': 123}, 'multi_county': {'need': 5, 'have': 406}, 'sub_county': {'need': 3, 'have': 31}, 'cross_state': {'need': 3, 'have': 143}, 'medians': {'need': 8, 'have': 116}}
+--> GATE 6 GREEN: 1119 values re-derived independently, all match, every quota met
 
 === GATE 7: no synthesized medians, no averaged rates
-rate cells checked for the small-sample flag on the disbursed-loan count: 29,392
-series walked: rate cells 29,392 (each re-divided), additive cells 88,176; markets checked as sums of their county strings: 88
-no series in the register is a median (no ACS or HUD series was fetched)
+rate cells checked for the small-sample flag on the disbursed-loan count: 53,856
+series walked: rate cells 69,096 (each re-divided), additive cells 161,568; markets checked as sums of their county strings: 225
+median cells checked for markets: 1311 (a market of several areas must hold a null with its components)
 --> GATE 7 GREEN: every aggregate is a sum or a ratio of sums; no median is aggregated
 
 === GATE 8: render and mutation
@@ -485,23 +604,23 @@ revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture
 0 page(s) out of date
 exit 0
 register file after revert: unchanged-vs-index
-$ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html
-texas/houston.sba7a_loans: the register holds no value here (composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *))
+$ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/null-negative.html (a marker for a market the register holds no figure for must be refused)
+hawaii/lahaina.acs5_households: the register holds no value here (composition-unresolved: tract-set: tracts were not fetched)
 exit 1
-fixture markers: Houston 0, Connecticut 2
---> GATE 8 RED: mutation test passes (0, 1, 0); RED for Houston: the register holds no Houston value (CBSA composition pending the delineation file), and the renderer refuses the Houston marker with that reason
+fixture markers: Houston 6, Connecticut 4
+--> GATE 8 GREEN: mutation test passes (0, 1, 0), the null marker is refused, and the fixture renders 6 Houston and 4 Connecticut markers
 
 === GATE 9: Texas
-  tx: specific 698, suppressed 0, standalone yes
-  texas/austin: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/corpus-christi: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/dallas-fort-worth: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/el-paso: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/houston: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/lubbock: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/mcallen: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
-  texas/san-antonio: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
---> GATE 9 GREEN: Texas and its eight markets listed; 0 of 8 standalone; every non-standalone market carries its reason
+  tx: specific 865, suppressed 0, standalone yes
+  texas/austin: specific 853, suppressed 0, standalone yes
+  texas/corpus-christi: specific 799, suppressed 0, standalone yes
+  texas/dallas-fort-worth: specific 851, suppressed 0, standalone yes
+  texas/el-paso: specific 774, suppressed 0, standalone yes
+  texas/houston: specific 855, suppressed 0, standalone yes
+  texas/lubbock: specific 785, suppressed 0, standalone yes
+  texas/mcallen: specific 788, suppressed 0, standalone yes
+  texas/san-antonio: specific 845, suppressed 0, standalone yes
+--> GATE 9 GREEN: Texas and its eight markets listed; 8 of 8 standalone; every non-standalone market carries its reason
 
 === GATE 10: names and identity
 $ grep -rniE '<pattern>' data/markets scripts/markets.py scripts/markets_build.py scripts/markets_fetch.py docs/web-fsc-5 .gitignore
@@ -511,8 +630,8 @@ Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility 
 --> GATE 10 GREEN: no match in lane files or commit identities
 
 === GATE 11: size
-data/markets total 31,631,508 bytes = 31.63 MB = 30.17 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
-largest: data/markets/series/sba7a_volume.json 1.95 MB; data/markets/series/sba504_volume.json 1.67 MB; data/markets/series/sba7a_chgoff_amt.json 1.58 MB; data/markets/series/sba504_chgoff_amt.json 1.40 MB; data/markets/series/sba7a_loans.json 1.36 MB
---> GATE 11 GREEN: 31.63 MB (30.17 MiB), largest file 1.95 MB, nothing under _cache tracked
+data/markets total 54,521,929 bytes = 54.52 MB = 52.00 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
+largest: data/markets/series/cbp_estab_per_10k.json 4.93 MB; data/markets/series/cbp_emp.json 4.66 MB; data/markets/series/cbp_estab.json 4.55 MB; data/markets/series/sba7a_loans.json 2.01 MB; data/markets/series/sba7a_disbursed.json 2.01 MB
+--> GATE 11 GREEN: 54.52 MB (52.00 MiB), largest file 4.93 MB, nothing under _cache tracked
 
-GATES GREEN 7/11: 1:G 2:R 3:G 4:G 5:R 6:R 7:G 8:R 9:G 10:G 11:G
+GATES GREEN 11/11: 1:G 2:G 3:G 4:G 5:G 6:G 7:G 8:G 9:G 10:G 11:G

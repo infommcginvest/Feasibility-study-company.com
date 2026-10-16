@@ -38,7 +38,8 @@ REVIEW_OVERRIDES = {
 # The seven cbsa-delineation-pending rows were found by attacker one (finding F2):
 # their county lists come from recalled CBSA, CSA or micropolitan membership,
 # which only the OMB delineation file can confirm.
-_CBSA_DERIVED = 'its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm'
+_CBSA_DERIVED = ('its county list came from recalled CBSA, CSA or micropolitan membership (attacker finding F2); resolve_geographies.py checks it against the '
+                 'federal membership in the Census Data API geoinfo roster and writes the difference in resolved.notes')
 SOURCE_OVERRIDES = {
     ('new-mexico', 'permian-basin'): ('judgement-region', 'the New Mexico part is the two counties the page names; the 17 Texas counties are the basin as commonly bounded, which is judgement'),
     ('michigan', 'flint'): ('cbsa-delineation-pending', _CBSA_DERIVED),
@@ -190,6 +191,19 @@ def main():
         'states': states,
         'markets': sorted(markets, key=lambda m: (m['state'], m['slug'])),
     }
+    # resolve against the federal roster when the Census files are in _cache
+    sys.path.insert(0, HERE)
+    import resolve_geographies
+    unresolved = resolve_geographies.resolve(out, inv)
+    if unresolved is not None:
+        out['about'] = ('Site markets and their compositions, resolved against the federal roster (Census geoinfo 2025, OMB Bulletin 23-01). County is the atomic unit. '
+                        'A cbsa market takes the federal membership of its CBSA; a judgement composition carries review = true, its basis and, where it touches CBSAs, '
+                        'its difference from their federal membership. State ids are USPS codes in lower case (with their Census FIPS); counties are co-<FIPS>; CBSAs are cbsa-<code>; '
+                        'market ids are <state-slug>/<market-slug>. Assembled by docs/web-fsc-5/tools/assemble_geographies.py and resolve_geographies.py.')
+        out['id_scheme'].update({'county': 'co-<5-digit FIPS>', 'cbsa': 'cbsa-<5-digit code>', 'place': 'pl-<7-digit GEOID>'})
+        print(f'resolved against the roster; markets with unresolved parts: {len(unresolved)}')
+        for mid, why in unresolved:
+            print('  ', mid, '|', '; '.join(why)[:200])
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
         f.write('\n')

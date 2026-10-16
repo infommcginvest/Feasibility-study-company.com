@@ -131,10 +131,14 @@ def lookup(name, p):
         if fit != 'exact' and p.get('fit') != fit:
             raise MarkerError(f'{name}: class {cls} has NAICS fit "{fit}"; the marker must say {{"fit": "{fit}"}} and the page must say so')
     if cls not in s['values'][geo]:
+        if s.get('absent_class_is_zero') and not ('window' in p or 'fy' in p):
+            return 0, None
         raise MarkerError(f'{name}: class {cls} is not in series {sid} for {geo}')
     cell = s['values'][geo][cls]
-    if isinstance(cell, dict) and 'by_fy' in cell:
+    if isinstance(cell, dict) and HEADLINE_WINDOW in cell:
         complete = s.get('class_complete_from_fy')
+        if 'fy' in p and 'by_fy' not in cell:
+            raise MarkerError(f'{name}: series {sid} carries no by-year values; use a window')
         if 'fy' in p:
             first, last = s['by_fy_years']
             fy = int(p['fy'])
@@ -152,9 +156,14 @@ def lookup(name, p):
             raise MarkerError(f'{name}: a class figure covering approval years before FY{complete} undercounts ({s.get("class_coverage_note", "")}); '
                               'add {"allow_flag": true} only if the page says so')
         return val, None
+    if 'window' in p or 'fy' in p:
+        raise MarkerError(f'{name}: this series has one period ({s.get("period") or s.get("label", "")}); window and fy do not apply')
+    if isinstance(cell, list):            # [lower bound, up to N withheld]: see the series' flags
+        if not p.get('allow_flag'):
+            raise MarkerError(f'{name}: a lower bound, with up to {cell[1]} more establishments withheld ({(s.get("flags") or {}).get("cbp-cells-withheld", "")[:160]}); '
+                              'add {"allow_flag": true} only if the page says "at least"')
+        return cell[0], 'cbp-cells-withheld'
     if isinstance(cell, dict):
-        if 'window' in p or 'fy' in p:
-            raise MarkerError(f'{name}: a rate covers its seasoned cohorts only ({s.get("label", "")}); window and fy do not apply')
         if cell.get('v') is None:
             raise MarkerError(f'{name}: null ({cell.get("f")})')
         if cell.get('f') and not p.get('allow_flag'):
@@ -163,7 +172,9 @@ def lookup(name, p):
     return cell, None
 
 
-FMT_BY_UNIT = {'share': ('pct', 'pct1'), 'USD': ('usd', 'usd_m'), 'loans': ('int', 'num')}
+FMT_BY_UNIT = {'share': ('pct', 'pct1'), 'USD': ('usd', 'usd_m'), 'loans': ('int', 'num'), 'people': ('int', 'num'),
+               'households': ('int', 'num'), 'housing units': ('int', 'num'), 'establishments': ('int', 'num'),
+               'employees': ('int', 'num'), 'per 10,000 residents': ('num',)}
 
 
 def check_fmt(name, unit, fmt):
@@ -175,6 +186,8 @@ def check_fmt(name, unit, fmt):
 
 
 def period_key(sid, p):
+    if not series(sid).get('windows'):
+        return ('vintage',)
     if 'rate' in sid:
         return ('rate',)
     return ('fy', str(int(p['fy']))) if 'fy' in p else ('window', p.get('window', HEADLINE_WINDOW))
@@ -221,9 +234,10 @@ def source_line(name, p):
     if src['fetch_source'] == 'sba_foia':
         prog = '7(a)' if sid.startswith('sba7a') else '504'
         title = f'{prog} FOIA loan-level data, as of {s["asof"]}'
+        period = window_label(s, p) if 'rate' not in sid else s.get('label', '')
     else:
         title = src['title']
-    period = window_label(s, p) if 'rate' not in sid else s.get('label', '')
+        period = s.get('label', '')
     return (f'{html.escape(period)}. {html.escape(src["publisher"])}, {html.escape(title)}. '
             f'<a href="{html.escape(url)}">{html.escape(url)}</a>')
 
@@ -310,10 +324,12 @@ def audit():
             if not cl:
                 continue
             for c, cell in cl.items():
-                if isinstance(cell, dict) and 'by_fy' in cell:
+                if isinstance(cell, dict) and HEADLINE_WINDOW in cell:
                     v = cell.get(HEADLINE_WINDOW)
                     if v is not None:
                         specific += 1; contributing.add(src_of.get(sid, sid))
+                elif isinstance(cell, list):
+                    specific += 1; contributing.add(src_of.get(sid, sid))
                 elif isinstance(cell, dict):
                     if cell.get('v') is not None:
                         specific += 1; contributing.add(src_of.get(sid, sid))
@@ -328,7 +344,7 @@ def audit():
                 for cid, cl in s['values'].items():
                     if cid.startswith(gid + ':'):
                         for cell in cl.values():
-                            v = cell.get(HEADLINE_WINDOW) if isinstance(cell, dict) and 'by_fy' in cell else (cell.get('v') if isinstance(cell, dict) else cell)
+                            v = cell.get(HEADLINE_WINDOW) if isinstance(cell, dict) and HEADLINE_WINDOW in cell else (cell.get('v') if isinstance(cell, dict) else (cell[0] if isinstance(cell, list) else cell))
                             components += v is not None
         reasons = sorted(set(unavailable.values()))
         standalone = specific >= 25

@@ -16,6 +16,7 @@ Outputs (data/markets/):
                            retrieval date, raw sha256, cadence, next release, status
   series/<id>.json         values keyed by geography id
   geo/<state>/<market>.json and geo/states/<id>.json   bundles per market and state
+                           (headline values only: FOIA at the FY2016-2025 window)
   foia-status-counts.json  measured status counts and the evidence behind each category
   foia-geocoding.json      FOIA match rates by state and method
   foia-county-strings.json FOIA totals by (state, ProjectCounty string), for the FIPS join
@@ -51,9 +52,10 @@ WINDOWS = {                   # id: (first FY, last FY, label)
     'all': (FY_FIRST, None, 'all approval fiscal years in the files'),
     'fy2016_2025': (2016, 2025, 'approval FY2016 to FY2025 (ten full fiscal years)'),
     'fy2021_2025': (2021, 2025, 'approval FY2021 to FY2025 (five full fiscal years)'),
-    'fy2025': (2025, 2025, 'approval FY2025 (October 2024 to September 2025)'),
-    'fy2026ytd': (2026, 2026, 'approval FY2026 to the files\' as-of date'),
 }
+# By-year arrays for the count series only; a single year of a dollar series is not
+# carried (size cap). A single year of a count series is its by_fy element.
+BY_FY_METRICS = ('loans', 'cancelled', 'disbursed', 'chgoff_n')
 HEADLINE_WINDOW = 'fy2016_2025'
 # Before FY2001 SBA left NaicsCode blank on whole industries (hotels, restaurants,
 # gas stations) while others are fully coded, so a class figure that includes
@@ -252,8 +254,11 @@ def foia_series(roll, geos, classes_all, fy_last, prog_ids):
             for c in ['all'] + classes_all:
                 cell = roll.get(g, {}).get(prog, {}).get(c, {})
                 for i, m in enumerate(METRICS):
+                    if m not in PUBLISHED:
+                        continue
                     win = {w: _num(cell.get(w, zero)[i]) for w in WINDOWS}
-                    win['by_fy'] = [_num(cell.get(y, zero)[i]) for y in fys]
+                    if m in BY_FY_METRICS:
+                        win['by_fy'] = [_num(cell.get(y, zero)[i]) for y in fys]
                     sdict[m].setdefault(g, {})[c] = win
                 num = sum(cell.get(str(y), zero)[8] for y in range(SEASONED[0], SEASONED[1] + 1))
                 den = sum(cell.get(str(y), zero)[6] for y in range(SEASONED[0], SEASONED[1] + 1))
@@ -312,7 +317,7 @@ def market_foia_plan(m, man=None):
     if src == 'connecticut-two-schemes':
         ct = comp.get('ct') or {}
         return 'ct', {'legacy': {('CT', norm_county(x)) for x in ct.get('legacy', [])}, 'pr': {('CT', norm_county(x)) for x in ct.get('pr', [])}}
-    if src not in ('single-county', 'page-named-counties', 'judgement-region'):
+    if src not in ('single-county', 'page-named-counties', 'judgement-region', 'cbsa-delineation', 'cbsa-union'):
         raise BuildError(f'{market_id(m)}: unknown composition_source {src!r}')
     keys = {(s['state'].strip().upper(), norm_county(s['string'])) for s in comp.get('strings', [])}
     if not comp.get('resolved') or not keys:
@@ -357,11 +362,13 @@ def sources_rows(man, built):
             'fetch_source': s['id'],
             'publisher': s['publisher'],
             'title': s['title'],
-            'url': [f['url'] for f in files] if files else (s.get('urls') or [f'https://api.census.gov/data/{s["api_path"]}' if s.get('api_path') else (mf.SBA_PAGE if s['kind'] == 'sba' else 'https://apps.bea.gov/api/data')]),
+            'url': ([f['url'] for f in files] if len(files) <= 10 else [re.sub(r'\?.*$', '', files[0]['url'])]) if files else (s.get('urls') or [f'https://api.census.gov/data/{s["api_path"]}' if s.get('api_path') else (mf.SBA_PAGE if s['kind'] == 'sba' else 'https://apps.bea.gov/api/data')]),
+            'requests': len(files),
             'vintage': rec.get('vintage') or s.get('vintage'),
             'period': s.get('period'),
             'retrieved': max((f['retrieved_at'] for f in files), default=None),
-            'sha256': {os.path.basename(f['path']): f['sha256'] for f in files} or None,
+            'sha256': ({os.path.basename(f['path']): f['sha256'] for f in files} if len(files) <= 10 else
+                       {'responses': len(files), 'sha256_of_sorted_file_hashes': hashlib.sha256('\n'.join(sorted(f'{os.path.basename(f["path"])} {f["sha256"]}' for f in files)).encode()).hexdigest()}) or None,
             'cadence': s['cadence'],
             'next_release': s.get('next_release'),
             'status': rec.get('status', 'NOT FETCHED'),
@@ -402,14 +409,15 @@ def build(diff=False):
 
         states = sorted({k[1] for k in agg if k[1]})
         plans = {market_id(m): market_foia_plan(m, man) for m in geo['markets']}
+        geo_kind = {market_id(m): m['kind'] for m in geo['markets']}
         member = defaultdict(list)            # (STATE, COUNTY) -> market ids
         component_ids = []
         for mid, (how, keys) in plans.items():
             if how == 'sum':
                 for k in keys:
                     member[k].append(mid)
-                if len({st for st, _ in keys}) > 1:
-                    # a cross-state market also gets one component per state part
+                if len({st for st, _ in keys}) > 1 and geo_kind.get(mid) == 'cross-state':
+                    # a market of kind cross-state also gets one component per state part
                     for st in sorted({st for st, _ in keys}):
                         cid = f'{mid}:{st.lower()}'
                         component_ids.append(cid)
@@ -464,6 +472,18 @@ def build(diff=False):
     else:
         report['foia'] = None
 
+    # keyed Census and BEA series
+    sys.path.insert(0, os.path.join(ROOT, 'scripts'))
+    import markets_census
+    cs, cstats = markets_census.build_census(geo, nmap)
+    for sid, obj in cs.items():
+        if sid.startswith('_'):
+            continue
+        jdump(obj, os.path.join(DATA, 'series', f'{sid}.json'), compact=True)
+        built[obj['source']].append(sid)
+    if cs:
+        census_reconciliation(cs, geo)
+    report['census'] = cstats
     for s in sources_rows(man, built):
         report.setdefault('sources', []).append(s)
     jdump({'about': ('sources: one row per fetch source, status FETCHED or NOT FETCHED with the reason; series lists the series files built from it. '
@@ -514,6 +534,93 @@ def series_rows(srcrows, man):
                 row['title'], row['url'], row['sha256'] = r['title'], r['url'], r['sha256']
             out.append(row)
     return out
+
+
+def census_reconciliation(cs, geo):
+    """For additive Census and BEA series: each state against the sum of its
+    counties, and the nation against the sum of the states, with the
+    difference stated (CBP: statewide records sit in no county)."""
+    st = {r['fips']: r['id'] for r in geo['states'] if r.get('fips')}
+    out = {}
+    pep_last = sorted(k for k in cs if re.fullmatch(r'pep_pop_\d{4}', k))[-1] if any(re.fullmatch(r'pep_pop_\d{4}', k) for k in cs) else None
+    checks = [('acs5_households', 'all'), ('acs5_pop', 'all'), ('acs5_pop65', 'all'), (pep_last, 'all'), ('bea_personal_income', 'all'),
+              ('cbp_estab', 'self-storage'), ('cbp_estab', 'hotel'), ('cbp_estab', 'gas-station-and-c-store')]
+    bps_last = sorted(k for k in cs if re.fullmatch(r'bps_units_total_\d{4}', k))
+    if bps_last:
+        checks.append((bps_last[-1], 'all'))
+    for sid, cls in checks:
+        if not sid or sid not in cs:
+            continue
+        vals = cs[sid]['values']
+        zero_absent = cs[sid].get('absent_class_is_zero')
+        def v(g):
+            if g not in vals:
+                return None
+            c = vals[g].get(cls, 0 if zero_absent else None)
+            return c[0] if isinstance(c, list) else (c.get('v') if isinstance(c, dict) else c)
+        rows = []
+        for fips, sid_ in sorted(st.items()):
+            sv = v(sid_)
+            cv = [v(k) for k in vals if k.startswith('co-' + fips)]
+            if sv is None or not cv or any(x is None for x in cv):
+                continue
+            row = {'state': sid_, 'state_value': sv, 'sum_of_counties': round(sum(cv), 2), 'difference': round(sv - sum(cv), 2)}
+            if sid == 'cbp_estab' and '_cbp_statewide' not in cs:
+                # the API publishes no county-999 (statewide) rows: the state may exceed its counties
+                # by its statewide records plus withheld county cells, never fall below them
+                wh = sum(vals[k][cls][1] for k in vals if k.startswith('co-' + fips) and isinstance(vals[k].get(cls), list))
+                row['county_cells_withheld_up_to'] = wh
+                row['explained'] = row['difference'] >= -0.5
+                if row['explained'] and abs(row['difference']) >= 0.5:
+                    row['named'] = ('statewide records (establishments with no fixed county, not published at county level by the API) '
+                                    f'plus withheld county cells (bounded by {wh}); the state is not below its counties')
+            if sid == 'cbp_estab' and '_cbp_statewide' in cs:
+                s999 = cs['_cbp_statewide'].get(f'{sid_}|{cls}', 0)
+                wh = sum(vals[k][cls][1] for k in vals
+                         if k.startswith('co-' + fips) and isinstance(vals[k].get(cls), list))
+                row['statewide_records_county_999'] = s999
+                row['county_cells_withheld_up_to'] = wh
+                # the state total exceeds its counties by its statewide records plus whatever the
+                # counties withhold at the 6-digit level, which is bounded by the parent gaps
+                row['explained'] = s999 - 0.5 <= row['difference'] <= s999 + wh + 0.5
+            rows.append(row)
+        for r in rows:
+            if r.get('explained') is None:
+                r['explained'] = abs(r['difference']) < 0.5
+            if not r['explained']:
+                if sid.startswith('bea'):
+                    r['named'] = 'BEA combined area: the state includes counties BEA publishes only inside a combination area'
+                elif sid.startswith('bps'):
+                    r['named'] = 'the BPS state file counts units the county file does not place in a county'
+                elif sid == 'cbp_estab' and 'statewide_records_county_999' not in r:
+                    r['named'] = 'unexplained: the state is below the sum of its counties'
+                elif sid == 'cbp_estab':
+                    r['named'] = (f'CBP residual of {r["difference"] - r["statewide_records_county_999"] - r["county_cells_withheld_up_to"]:g} beyond the statewide records and the withheld-cell bound: '
+                                  'the state file counts establishments the county file shows neither in a county nor as statewide records')
+                else:
+                    r['named'] = 'unexplained'
+        us = v('us')
+        sum_states = sum(r['state_value'] for r in rows)
+        out[f'{sid}.{cls}'] = {'states_checked': len(rows), 'states_equal_to_county_sum': sum(1 for r in rows if abs(r['difference']) < 0.5),
+                               'states_explained_by_statewide_records': sum(1 for r in rows if r.get('explained')) if sid == 'cbp_estab' else None,
+                               'largest_differences': sorted(rows, key=lambda r: -abs(r['difference']))[:5],
+                               'not_explained_but_named': [r for r in rows if not r['explained']],
+                               'us': us, 'sum_of_states_checked': round(sum_states, 2)}
+    p = os.path.join(DATA, 'reconciliation.json')
+    rec = jload(p) if os.path.exists(p) else {}
+    rec['census'] = out
+    rec['census_explanations'] = {
+        'acs5': 'Each state equals the sum of its counties. The nation is smaller than the sum of the states by Puerto Rico, which ACS tabulates as a state-equivalent but not in the US total.',
+        'pep': 'Each state equals the sum of its counties, and the nation equals the sum of the states.',
+        'bea_personal_income': 'BEA publishes some counties only inside combined areas (Virginia independent cities with their counties, Kalawao with Maui in Hawaii); those states exceed the sum of the counties BEA publishes on their own by the combined areas.',
+        'cbp_estab': ('A state exceeds the sum of its counties by its statewide records (establishments with no fixed county, which the API does not publish at county level) '
+                      'plus the 6-digit cells CBP withholds at county level (bounded by each absent cell\'s published parent less its published children). '
+                      'Without the statewide records the check is that no state falls below the sum of its counties; each difference is named with the withheld bound.'),
+    }
+    rec['census_note'] = ('State against the sum of its counties for additive series. ACS and PEP tabulate counties and states from the same estimates, so they agree. '
+                          'CBP publishes statewide records (county code 999, establishments with no fixed county) only in the state total, so its states exceed their county sums by those records. '
+                          'BEA sums equal the state where every county is published on its own. The nation also counts DC and Puerto Rico where the source covers them.')
+    jdump(rec, p)
 
 
 def foia_definitions():
@@ -590,7 +697,7 @@ def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_
         if state == 'CT':
             scheme = 'legacy_county' if county in legacy else ('blank' if not county else 'planning_region')
             ct[f'{prog}|FY{fy}'][scheme] += int(v[0])
-    jdump({'about': 'FOIA geocoding. Method project_county: the loan carries a ProjectCounty string under its ProjectState. The ZIP method (BorrZip to ZCTA to county) is not available: the ZCTA-to-county relationship file is on www2.census.gov (robots, D1). A blank ProjectCounty is reported unmatched, never dropped: it still counts in its state and in us. County strings are not yet joined to FIPS (no county roster fetched); foia-county-strings.json carries them for that join.',
+    jdump({'about': 'FOIA geocoding. Method project_county: the loan carries a ProjectCounty string under its ProjectState. The ZIP method (BorrZip to ZCTA to county) is not available: the ZCTA-to-county relationship file is on www2.census.gov (robots, D1). A blank ProjectCounty is reported unmatched, never dropped: it still counts in its state and in us. County strings are joined to 2025 county FIPS by name within the state in geographies.json (foia_county_join, with every unmatched string listed); foia-county-strings.json carries the strings.',
            'methods': {'project_county': 'ProjectState + ProjectCounty string as written by SBA', 'zip_zcta': 'NOT AVAILABLE (census relationship file not fetched)'},
            'by_state': rows,
            'connecticut_scheme_by_fy': {k: dict(v) for k, v in sorted(ct.items())}},
@@ -681,25 +788,38 @@ def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_
 
 # ---------------------------------------------------------------- bundles
 
+def headline(v):
+    """A geography's values reduced for its bundle: a windowed FOIA cell becomes
+    its headline-window value; every other cell is kept as it is."""
+    out = {}
+    for c, cv in v.items():
+        if isinstance(cv, dict) and HEADLINE_WINDOW in cv:
+            if cv[HEADLINE_WINDOW] or c == 'all':     # a class with no loans in the window is left out of the bundle
+                out[c] = cv[HEADLINE_WINDOW]
+        else:
+            out[c] = cv
+    return out
+
+
 def write_bundles(geo):
     series_dir = os.path.join(DATA, 'series')
     sfiles = sorted(f for f in os.listdir(series_dir) if f.endswith('.json')) if os.path.isdir(series_dir) else []
-    loaded = {f[:-5]: jload(os.path.join(series_dir, f)) for f in sfiles}
+    # bundles leave out series that are derivable or bulky; the series files keep them
+    loaded = {f[:-5]: jload(os.path.join(series_dir, f)) for f in sfiles if f[:-5] not in ('cbp_emp', 'cbp_estab_per_10k')}
     bdir = os.path.join(DATA, 'geo')
     want = set()
     for m in geo['markets']:
         mid = market_id(m)
-        b = {'id': mid, 'market': m, 'series': {}}
+        b = {'id': mid, 'market': m, 'series': {},
+             'note': ('Headline values only. SBA FOIA series give the FY2016-2025 window, and a class with no loans in it is left out (zero); '
+                      'CBP leaves out classes with no establishments (zero), and the bundles leave out CBP employment and establishments per 10,000 residents. The series files under data/markets/series/ hold every window, year and series.')}
         for sid, s in loaded.items():
             if mid in s['values']:
-                v = s['values'][mid]
-                b['series'][sid] = {c: {w: x for w, x in cv.items() if w != 'by_fy'} if isinstance(cv, dict) and 'by_fy' in cv else cv for c, cv in v.items()}
+                b['series'][sid] = headline(s['values'][mid])
             elif mid in s.get('nulls', {}):
                 b['series'][sid] = {'v': None, 'f': s['nulls'][mid]}
             for cid in [k for k in s['values'] if k.startswith(mid + ':')]:
-                if cid in s['values']:
-                    v = s['values'][cid]
-                    b.setdefault('components', {}).setdefault(cid, {})[sid] = {c: {w: x for w, x in cv.items() if w != 'by_fy'} if isinstance(cv, dict) and 'by_fy' in cv else cv for c, cv in v.items()}
+                b.setdefault('components', {}).setdefault(cid, {})[sid] = headline(s['values'][cid])
         p = os.path.join(bdir, m['state'], f'{m["slug"]}.json')
         jdump(b, p, compact=True)
         want.add(os.path.relpath(p, bdir))
@@ -707,11 +827,11 @@ def write_bundles(geo):
         if not st.get('site_markets'):
             continue
         sid = st['id']
-        b = {'id': sid, 'state': st, 'series': {}}
+        b = {'id': sid, 'state': st, 'series': {},
+             'note': 'Headline values only, as in the market bundles; the series files hold every window and year.'}
         for k, s in loaded.items():
             if sid in s['values']:
-                v = s['values'][sid]
-                b['series'][k] = {c: {w: x for w, x in cv.items() if w != 'by_fy'} if isinstance(cv, dict) and 'by_fy' in cv else cv for c, cv in v.items()}
+                b['series'][k] = headline(s['values'][sid])
         p = os.path.join(bdir, 'states', f'{sid}.json')
         jdump(b, p, compact=True)
         want.add(os.path.relpath(p, bdir))
@@ -735,7 +855,10 @@ def snapshot_values():
         s = jload(os.path.join(sdir, f))
         for g, cl in s['values'].items():
             for c, wv in cl.items():
-                if isinstance(wv, dict) and 'by_fy' not in wv:
+                if not isinstance(wv, dict):
+                    out[(f[:-5], g, c)] = wv
+                    continue
+                if HEADLINE_WINDOW not in wv:
                     out[(f[:-5], g, c)] = wv.get('v')
                     continue
                 for w, v in wv.items():
