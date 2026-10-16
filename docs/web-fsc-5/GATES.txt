@@ -1,4 +1,4 @@
-WEB-FSC-5 gates at HEAD 4e7cceae21fa68c9bf7da6d84d43f3933729edd9
+WEB-FSC-5 gates at HEAD cf6f9553a2f9959f66c2d517fdf461360e503e9d
 runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, so the commit that holds GATES.txt is one record-only commit after the HEAD above.
 
 === GATE 1: no served file changed
@@ -329,6 +329,19 @@ docs/web-fsc-5/compose/group2.json
 docs/web-fsc-5/compose/group3.json
 docs/web-fsc-5/compose/market_extracts.json
 docs/web-fsc-5/compose/naics-map-draft.json
+docs/web-fsc-5/evidence/step0/census_api_catalogue_extract.json
+docs/web-fsc-5/evidence/step0/robots_api.census.gov.txt
+docs/web-fsc-5/evidence/step0/robots_apps.bea.gov.txt
+docs/web-fsc-5/evidence/step0/robots_data.bls.gov.txt
+docs/web-fsc-5/evidence/step0/robots_data.sba.gov.txt
+docs/web-fsc-5/evidence/step0/robots_headers_api.census.gov.txt
+docs/web-fsc-5/evidence/step0/robots_headers_apps.bea.gov.txt
+docs/web-fsc-5/evidence/step0/robots_headers_data.bls.gov.txt
+docs/web-fsc-5/evidence/step0/robots_headers_data.sba.gov.txt
+docs/web-fsc-5/evidence/step0/robots_headers_www.huduser.gov.txt
+docs/web-fsc-5/evidence/step0/robots_headers_www2.census.gov.txt
+docs/web-fsc-5/evidence/step0/robots_www.huduser.gov.txt
+docs/web-fsc-5/evidence/step0/robots_www2.census.gov.txt
 docs/web-fsc-5/fixture/houston-negative.html
 docs/web-fsc-5/fixture/index.html
 docs/web-fsc-5/freeze/freeze-e7cc263.json
@@ -346,7 +359,7 @@ scripts/markets_build.py
 scripts/markets_fetch.py
 $ git status --porcelain (paths outside the lane)
 (none)
---> GATE 1 GREEN: 341 changed path(s), all inside the lane
+--> GATE 1 GREEN: 354 changed path(s), all inside the lane
 
 === GATE 2: coverage
 series files 16; series rows 16; series files without a row: none
@@ -470,7 +483,7 @@ exit 1
 revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html
 0 page(s) out of date
 exit 0
-register file after revert: DIFFERS
+register file after revert: unchanged-vs-index
 $ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html
 texas/houston.sba7a_loans: the register holds no value here (composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall))
 exit 1
