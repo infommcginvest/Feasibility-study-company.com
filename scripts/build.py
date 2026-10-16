@@ -78,7 +78,8 @@ def read(path):
 
 
 def esc(text):
-    return html.escape(text, quote=True)
+    """Escape a plain-text front-matter value once, whether it was written with & or &amp;."""
+    return html.escape(html.unescape(text), quote=True)
 
 
 def site_config():
