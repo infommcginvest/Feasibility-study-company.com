@@ -1,0 +1,107 @@
+{
+ "about": "Measured from the raw FOIA files on every build. _evidence counts, per status, the rows with a FirstDisbursementDate, a ChargeOffDate and a GrossChargeOffAmount above zero.",
+ "asof": "2026-06-30",
+ "counts": {
+  "504": {
+   "FOIA_504_FY1991_FY2009_asof_260630.csv": {
+    "CANCLD": 17845,
+    "CHGOFF": 11246,
+    "CLOSED": 337,
+    "EXEMPT": 3817,
+    "PIF": 77821
+   },
+   "FOIA_504_FY2010_Present_asof_260630.csv": {
+    "CANCLD": 14469,
+    "CHGOFF": 923,
+    "CLOSED": 2,
+    "EXEMPT": 57449,
+    "NOT FUNDED": 8516,
+    "PIF": 36624
+   },
+   "_evidence": {
+    "CANCLD|charge_off_amount_gt0": 0,
+    "CANCLD|charge_off_date": 0,
+    "CANCLD|first_disbursement_date": 0,
+    "CANCLD|rows": 32314,
+    "CHGOFF|charge_off_amount_gt0": 12167,
+    "CHGOFF|charge_off_date": 12169,
+    "CHGOFF|first_disbursement_date": 12165,
+    "CHGOFF|rows": 12169,
+    "CLOSED|charge_off_amount_gt0": 0,
+    "CLOSED|charge_off_date": 0,
+    "CLOSED|first_disbursement_date": 337,
+    "CLOSED|rows": 339,
+    "EXEMPT|charge_off_amount_gt0": 0,
+    "EXEMPT|charge_off_date": 0,
+    "EXEMPT|first_disbursement_date": 61266,
+    "EXEMPT|rows": 61266,
+    "NOT FUNDED|charge_off_amount_gt0": 0,
+    "NOT FUNDED|charge_off_date": 0,
+    "NOT FUNDED|first_disbursement_date": 0,
+    "NOT FUNDED|rows": 8516,
+    "PIF|charge_off_amount_gt0": 0,
+    "PIF|charge_off_date": 0,
+    "PIF|first_disbursement_date": 114295,
+    "PIF|rows": 114445
+   }
+  },
+  "7a": {
+   "FOIA_7a_FY1991_FY1999_asof_260630.csv": {
+    "CANCLD": 43666,
+    "CHGOFF": 35291,
+    "EXEMPT": 1860,
+    "P I F": 256216
+   },
+   "FOIA_7a_FY2000_FY2009_asof_260630.csv": {
+    "CANCLD": 82276,
+    "CHGOFF": 144351,
+    "EXEMPT": 3484,
+    "P I F": 460222
+   },
+   "FOIA_7a_FY2010_FY2019_asof_260630.csv": {
+    "CANCLD": 66744,
+    "CHGOFF": 34153,
+    "COMMIT": 44,
+    "EXEMPT": 50089,
+    "P I F": 394721
+   },
+   "FOIA_7a_FY2020_Present_asof_260630.csv": {
+    "CANCLD": 50104,
+    "CHGOFF": 6893,
+    "COMMIT": 21079,
+    "EXEMPT": 242061,
+    "P I F": 68201
+   },
+   "_evidence": {
+    "CANCLD|charge_off_amount_gt0": 0,
+    "CANCLD|charge_off_date": 0,
+    "CANCLD|first_disbursement_date": 0,
+    "CANCLD|rows": 242790,
+    "CHGOFF|charge_off_amount_gt0": 220508,
+    "CHGOFF|charge_off_date": 220630,
+    "CHGOFF|first_disbursement_date": 220546,
+    "CHGOFF|rows": 220688,
+    "COMMIT|charge_off_amount_gt0": 0,
+    "COMMIT|charge_off_date": 0,
+    "COMMIT|first_disbursement_date": 0,
+    "COMMIT|rows": 21123,
+    "EXEMPT|charge_off_amount_gt0": 0,
+    "EXEMPT|charge_off_date": 0,
+    "EXEMPT|first_disbursement_date": 297492,
+    "EXEMPT|rows": 297494,
+    "P I F|charge_off_amount_gt0": 0,
+    "P I F|charge_off_date": 0,
+    "P I F|first_disbursement_date": 1177709,
+    "P I F|rows": 1179360
+   }
+  }
+ },
+ "rows_by_file": {
+  "FOIA_504_FY1991_FY2009_asof_260630.csv": 111066,
+  "FOIA_504_FY2010_Present_asof_260630.csv": 117983,
+  "FOIA_7a_FY1991_FY1999_asof_260630.csv": 337033,
+  "FOIA_7a_FY2000_FY2009_asof_260630.csv": 690333,
+  "FOIA_7a_FY2010_FY2019_asof_260630.csv": 545751,
+  "FOIA_7a_FY2020_Present_asof_260630.csv": 388338
+ }
+}

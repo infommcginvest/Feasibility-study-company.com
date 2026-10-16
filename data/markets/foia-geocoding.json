@@ -1,0 +1,1324 @@
+{
+ "about": "FOIA geocoding. Method project_county: the loan carries a ProjectCounty string under its ProjectState. The ZIP method (BorrZip to ZCTA to county) is not available: the ZCTA-to-county relationship file is on www2.census.gov (robots, D1). A blank ProjectCounty is reported unmatched, never dropped: it still counts in its state and in us. County strings are not yet joined to FIPS (no county roster fetched); foia-county-strings.json carries them for that join.",
+ "by_state": [
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 524,
+   "rows": 524,
+   "state": "AK",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 214,
+   "match_rate_project_county": 0.999361,
+   "program": "504",
+   "project_county_present": 3126,
+   "rows": 3128,
+   "state": "AL",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 21,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 815,
+   "rows": 815,
+   "state": "AR",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 639,
+   "match_rate_project_county": 0.999796,
+   "program": "504",
+   "project_county_present": 4906,
+   "rows": 4907,
+   "state": "AZ",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 17996,
+   "match_rate_project_county": 0.999911,
+   "program": "504",
+   "project_county_present": 45022,
+   "rows": 45026,
+   "state": "CA",
+   "unmatched_blank_county": 4
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999853,
+   "program": "504",
+   "project_county_present": 6816,
+   "rows": 6817,
+   "state": "CO",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 1884,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 2043,
+   "rows": 2043,
+   "state": "CT",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 289,
+   "rows": 289,
+   "state": "DC",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.995595,
+   "program": "504",
+   "project_county_present": 226,
+   "rows": 227,
+   "state": "DE",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.99994,
+   "program": "504",
+   "project_county_present": 16570,
+   "rows": 16571,
+   "state": "FL",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 6164,
+   "rows": 6164,
+   "state": "GA",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.98,
+   "program": "504",
+   "project_county_present": 49,
+   "rows": 50,
+   "state": "GU",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 948,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 948,
+   "rows": 948,
+   "state": "HI",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 2778,
+   "rows": 2778,
+   "state": "IA",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999394,
+   "program": "504",
+   "project_county_present": 3300,
+   "rows": 3302,
+   "state": "ID",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 331,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 9710,
+   "rows": 9710,
+   "state": "IL",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 1478,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 5116,
+   "rows": 5116,
+   "state": "IN",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1819,
+   "rows": 1819,
+   "state": "KS",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1201,
+   "rows": 1201,
+   "state": "KY",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1273,
+   "rows": 1273,
+   "state": "LA",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 2137,
+   "match_rate_project_county": 0.999553,
+   "program": "504",
+   "project_county_present": 6703,
+   "rows": 6706,
+   "state": "MA",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 1841,
+   "match_rate_project_county": 0.998993,
+   "program": "504",
+   "project_county_present": 1984,
+   "rows": 1986,
+   "state": "MD",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 1240,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1573,
+   "rows": 1573,
+   "state": "ME",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 721,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 5416,
+   "rows": 5416,
+   "state": "MI",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 777,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 9176,
+   "rows": 9176,
+   "state": "MN",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 538,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 4576,
+   "rows": 4576,
+   "state": "MO",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 413,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 567,
+   "rows": 567,
+   "state": "MS",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1001,
+   "rows": 1001,
+   "state": "MT",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 484,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 3870,
+   "rows": 3870,
+   "state": "NC",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999396,
+   "program": "504",
+   "project_county_present": 1654,
+   "rows": 1655,
+   "state": "ND",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1359,
+   "rows": 1359,
+   "state": "NE",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 2013,
+   "match_rate_project_county": 0.999488,
+   "program": "504",
+   "project_county_present": 3901,
+   "rows": 3903,
+   "state": "NH",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 2128,
+   "match_rate_project_county": 0.999587,
+   "program": "504",
+   "project_county_present": 2420,
+   "rows": 2421,
+   "state": "NJ",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 217,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1441,
+   "rows": 1441,
+   "state": "NM",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 187,
+   "match_rate_project_county": 0.999732,
+   "program": "504",
+   "project_county_present": 3736,
+   "rows": 3737,
+   "state": "NV",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 6068,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 8527,
+   "rows": 8527,
+   "state": "NY",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999864,
+   "program": "504",
+   "project_county_present": 7349,
+   "rows": 7350,
+   "state": "OH",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 64,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1726,
+   "rows": 1726,
+   "state": "OK",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 760,
+   "match_rate_project_county": 0.999594,
+   "program": "504",
+   "project_county_present": 2460,
+   "rows": 2461,
+   "state": "OR",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 203,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 3496,
+   "rows": 3496,
+   "state": "PA",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1947,
+   "rows": 1947,
+   "state": "PR",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1315,
+   "rows": 1315,
+   "state": "RI",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 66,
+   "match_rate_project_county": 0.997969,
+   "program": "504",
+   "project_county_present": 1474,
+   "rows": 1477,
+   "state": "SC",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 1800,
+   "rows": 1800,
+   "state": "SD",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999307,
+   "program": "504",
+   "project_county_present": 1442,
+   "rows": 1443,
+   "state": "TN",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 95,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 10659,
+   "rows": 10659,
+   "state": "TX",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 3221,
+   "match_rate_project_county": 0.999626,
+   "program": "504",
+   "project_county_present": 8019,
+   "rows": 8022,
+   "state": "UT",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 4620,
+   "rows": 4620,
+   "state": "VA",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 8,
+   "rows": 8,
+   "state": "VI",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 616,
+   "rows": 616,
+   "state": "VT",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 1127,
+   "match_rate_project_county": 0.999373,
+   "program": "504",
+   "project_county_present": 4785,
+   "rows": 4788,
+   "state": "WA",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 1276,
+   "match_rate_project_county": 0.999659,
+   "program": "504",
+   "project_county_present": 5865,
+   "rows": 5867,
+   "state": "WI",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 223,
+   "rows": 223,
+   "state": "WV",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "504",
+   "project_county_present": 609,
+   "rows": 609,
+   "state": "WY",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.0,
+   "program": "7a",
+   "project_county_present": 0,
+   "rows": 5,
+   "state": "",
+   "unmatched_blank_county": 5
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.997243,
+   "program": "7a",
+   "project_county_present": 4341,
+   "rows": 4353,
+   "state": "AK",
+   "unmatched_blank_county": 12
+  },
+  {
+   "in_a_site_market_composition": 1107,
+   "match_rate_project_county": 0.999531,
+   "program": "7a",
+   "project_county_present": 14918,
+   "rows": 14925,
+   "state": "AL",
+   "unmatched_blank_county": 7
+  },
+  {
+   "in_a_site_market_composition": 691,
+   "match_rate_project_county": 0.99881,
+   "program": "7a",
+   "project_county_present": 12589,
+   "rows": 12604,
+   "state": "AR",
+   "unmatched_blank_county": 15
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.9375,
+   "program": "7a",
+   "project_county_present": 15,
+   "rows": 16,
+   "state": "AS",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 4848,
+   "match_rate_project_county": 0.999414,
+   "program": "7a",
+   "project_county_present": 39256,
+   "rows": 39279,
+   "state": "AZ",
+   "unmatched_blank_county": 23
+  },
+  {
+   "in_a_site_market_composition": 86308,
+   "match_rate_project_county": 0.999843,
+   "program": "7a",
+   "project_county_present": 254645,
+   "rows": 254685,
+   "state": "CA",
+   "unmatched_blank_county": 40
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999892,
+   "program": "7a",
+   "project_county_present": 46342,
+   "rows": 46347,
+   "state": "CO",
+   "unmatched_blank_county": 5
+  },
+  {
+   "in_a_site_market_composition": 24983,
+   "match_rate_project_county": 0.999365,
+   "program": "7a",
+   "project_county_present": 26748,
+   "rows": 26765,
+   "state": "CT",
+   "unmatched_blank_county": 17
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.996487,
+   "program": "7a",
+   "project_county_present": 3688,
+   "rows": 3701,
+   "state": "DC",
+   "unmatched_blank_county": 13
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.99688,
+   "program": "7a",
+   "project_county_present": 5431,
+   "rows": 5448,
+   "state": "DE",
+   "unmatched_blank_county": 17
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999961,
+   "program": "7a",
+   "project_county_present": 103141,
+   "rows": 103145,
+   "state": "FL",
+   "unmatched_blank_county": 4
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "7a",
+   "project_county_present": 6,
+   "rows": 6,
+   "state": "FM",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999923,
+   "program": "7a",
+   "project_county_present": 52101,
+   "rows": 52105,
+   "state": "GA",
+   "unmatched_blank_county": 4
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.978778,
+   "program": "7a",
+   "project_county_present": 1153,
+   "rows": 1178,
+   "state": "GU",
+   "unmatched_blank_county": 25
+  },
+  {
+   "in_a_site_market_composition": 7949,
+   "match_rate_project_county": 0.998869,
+   "program": "7a",
+   "project_county_present": 7949,
+   "rows": 7958,
+   "state": "HI",
+   "unmatched_blank_county": 9
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999947,
+   "program": "7a",
+   "project_county_present": 18819,
+   "rows": 18820,
+   "state": "IA",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999839,
+   "program": "7a",
+   "project_county_present": 18624,
+   "rows": 18627,
+   "state": "ID",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 2158,
+   "match_rate_project_county": 0.999954,
+   "program": "7a",
+   "project_county_present": 64896,
+   "rows": 64899,
+   "state": "IL",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 8196,
+   "match_rate_project_county": 1.0,
+   "program": "7a",
+   "project_county_present": 34773,
+   "rows": 34773,
+   "state": "IN",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999947,
+   "program": "7a",
+   "project_county_present": 19021,
+   "rows": 19022,
+   "state": "KS",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "7a",
+   "project_county_present": 16582,
+   "rows": 16582,
+   "state": "KY",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999185,
+   "program": "7a",
+   "project_county_present": 18399,
+   "rows": 18414,
+   "state": "LA",
+   "unmatched_blank_county": 15
+  },
+  {
+   "in_a_site_market_composition": 15675,
+   "match_rate_project_county": 0.999417,
+   "program": "7a",
+   "project_county_present": 58261,
+   "rows": 58295,
+   "state": "MA",
+   "unmatched_blank_county": 34
+  },
+  {
+   "in_a_site_market_composition": 27800,
+   "match_rate_project_county": 0.9987,
+   "program": "7a",
+   "project_county_present": 29964,
+   "rows": 30003,
+   "state": "MD",
+   "unmatched_blank_county": 39
+  },
+  {
+   "in_a_site_market_composition": 7287,
+   "match_rate_project_county": 0.999329,
+   "program": "7a",
+   "project_county_present": 11910,
+   "rows": 11918,
+   "state": "ME",
+   "unmatched_blank_county": 8
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.5,
+   "program": "7a",
+   "project_county_present": 2,
+   "rows": 4,
+   "state": "MH",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 7965,
+   "match_rate_project_county": 0.999967,
+   "program": "7a",
+   "project_county_present": 60255,
+   "rows": 60257,
+   "state": "MI",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 3807,
+   "match_rate_project_county": 0.999882,
+   "program": "7a",
+   "project_county_present": 50884,
+   "rows": 50890,
+   "state": "MN",
+   "unmatched_blank_county": 6
+  },
+  {
+   "in_a_site_market_composition": 4869,
+   "match_rate_project_county": 0.999947,
+   "program": "7a",
+   "project_county_present": 38059,
+   "rows": 38061,
+   "state": "MO",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.978261,
+   "program": "7a",
+   "project_county_present": 45,
+   "rows": 46,
+   "state": "MP",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 8660,
+   "match_rate_project_county": 0.999746,
+   "program": "7a",
+   "project_county_present": 15754,
+   "rows": 15758,
+   "state": "MS",
+   "unmatched_blank_county": 4
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999771,
+   "program": "7a",
+   "project_county_present": 13073,
+   "rows": 13076,
+   "state": "MT",
+   "unmatched_blank_county": 3
+  },
+  {
+   "in_a_site_market_composition": 5217,
+   "match_rate_project_county": 0.999943,
+   "program": "7a",
+   "project_county_present": 35162,
+   "rows": 35164,
+   "state": "NC",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.998461,
+   "program": "7a",
+   "project_county_present": 7787,
+   "rows": 7799,
+   "state": "ND",
+   "unmatched_blank_county": 12
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999844,
+   "program": "7a",
+   "project_county_present": 12846,
+   "rows": 12848,
+   "state": "NE",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 10194,
+   "match_rate_project_county": 0.999324,
+   "program": "7a",
+   "project_county_present": 20686,
+   "rows": 20700,
+   "state": "NH",
+   "unmatched_blank_county": 14
+  },
+  {
+   "in_a_site_market_composition": 52703,
+   "match_rate_project_county": 0.999018,
+   "program": "7a",
+   "project_county_present": 61054,
+   "rows": 61114,
+   "state": "NJ",
+   "unmatched_blank_county": 60
+  },
+  {
+   "in_a_site_market_composition": 2784,
+   "match_rate_project_county": 0.998732,
+   "program": "7a",
+   "project_county_present": 11030,
+   "rows": 11044,
+   "state": "NM",
+   "unmatched_blank_county": 14
+  },
+  {
+   "in_a_site_market_composition": 713,
+   "match_rate_project_county": 0.999137,
+   "program": "7a",
+   "project_county_present": 16211,
+   "rows": 16225,
+   "state": "NV",
+   "unmatched_blank_county": 14
+  },
+  {
+   "in_a_site_market_composition": 98137,
+   "match_rate_project_county": 0.999915,
+   "program": "7a",
+   "project_county_present": 129354,
+   "rows": 129365,
+   "state": "NY",
+   "unmatched_blank_county": 11
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999955,
+   "program": "7a",
+   "project_county_present": 87950,
+   "rows": 87954,
+   "state": "OH",
+   "unmatched_blank_county": 4
+  },
+  {
+   "in_a_site_market_composition": 475,
+   "match_rate_project_county": 0.999378,
+   "program": "7a",
+   "project_county_present": 19289,
+   "rows": 19301,
+   "state": "OK",
+   "unmatched_blank_county": 12
+  },
+  {
+   "in_a_site_market_composition": 9259,
+   "match_rate_project_county": 0.999924,
+   "program": "7a",
+   "project_county_present": 26160,
+   "rows": 26162,
+   "state": "OR",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 3034,
+   "match_rate_project_county": 0.999878,
+   "program": "7a",
+   "project_county_present": 74000,
+   "rows": 74009,
+   "state": "PA",
+   "unmatched_blank_county": 9
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999586,
+   "program": "7a",
+   "project_county_present": 21705,
+   "rows": 21714,
+   "state": "PR",
+   "unmatched_blank_county": 9
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "7a",
+   "project_county_present": 10,
+   "rows": 10,
+   "state": "PW",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.998441,
+   "program": "7a",
+   "project_county_present": 15375,
+   "rows": 15399,
+   "state": "RI",
+   "unmatched_blank_county": 24
+  },
+  {
+   "in_a_site_market_composition": 648,
+   "match_rate_project_county": 0.999224,
+   "program": "7a",
+   "project_county_present": 15445,
+   "rows": 15457,
+   "state": "SC",
+   "unmatched_blank_county": 12
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999262,
+   "program": "7a",
+   "project_county_present": 6773,
+   "rows": 6778,
+   "state": "SD",
+   "unmatched_blank_county": 5
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999756,
+   "program": "7a",
+   "project_county_present": 20526,
+   "rows": 20531,
+   "state": "TN",
+   "unmatched_blank_county": 5
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.0,
+   "program": "7a",
+   "project_county_present": 0,
+   "rows": 8,
+   "state": "TQ",
+   "unmatched_blank_county": 8
+  },
+  {
+   "in_a_site_market_composition": 2379,
+   "match_rate_project_county": 0.999987,
+   "program": "7a",
+   "project_county_present": 155329,
+   "rows": 155331,
+   "state": "TX",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 13022,
+   "match_rate_project_county": 0.999753,
+   "program": "7a",
+   "project_county_present": 36413,
+   "rows": 36422,
+   "state": "UT",
+   "unmatched_blank_county": 9
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 1.0,
+   "program": "7a",
+   "project_county_present": 29916,
+   "rows": 29916,
+   "state": "VA",
+   "unmatched_blank_county": 0
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.996435,
+   "program": "7a",
+   "project_county_present": 559,
+   "rows": 561,
+   "state": "VI",
+   "unmatched_blank_county": 2
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999008,
+   "program": "7a",
+   "project_county_present": 9064,
+   "rows": 9073,
+   "state": "VT",
+   "unmatched_blank_county": 9
+  },
+  {
+   "in_a_site_market_composition": 11289,
+   "match_rate_project_county": 0.999647,
+   "program": "7a",
+   "project_county_present": 50923,
+   "rows": 50941,
+   "state": "WA",
+   "unmatched_blank_county": 18
+  },
+  {
+   "in_a_site_market_composition": 9192,
+   "match_rate_project_county": 0.99966,
+   "program": "7a",
+   "project_county_present": 44152,
+   "rows": 44167,
+   "state": "WI",
+   "unmatched_blank_county": 15
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.999852,
+   "program": "7a",
+   "project_county_present": 6768,
+   "rows": 6769,
+   "state": "WV",
+   "unmatched_blank_county": 1
+  },
+  {
+   "in_a_site_market_composition": 0,
+   "match_rate_project_county": 0.997673,
+   "program": "7a",
+   "project_county_present": 4717,
+   "rows": 4728,
+   "state": "WY",
+   "unmatched_blank_county": 11
+  }
+ ],
+ "connecticut_scheme_by_fy": {
+  "504|FY1991": {
+   "legacy_county": 3
+  },
+  "504|FY1992": {
+   "legacy_county": 2
+  },
+  "504|FY1993": {
+   "legacy_county": 3
+  },
+  "504|FY1994": {
+   "legacy_county": 18
+  },
+  "504|FY1995": {
+   "legacy_county": 21
+  },
+  "504|FY1996": {
+   "legacy_county": 36
+  },
+  "504|FY1997": {
+   "legacy_county": 18
+  },
+  "504|FY1998": {
+   "legacy_county": 26
+  },
+  "504|FY1999": {
+   "legacy_county": 33
+  },
+  "504|FY2000": {
+   "legacy_county": 23
+  },
+  "504|FY2001": {
+   "legacy_county": 25,
+   "planning_region": 1
+  },
+  "504|FY2002": {
+   "legacy_county": 50,
+   "planning_region": 3
+  },
+  "504|FY2003": {
+   "legacy_county": 72,
+   "planning_region": 1
+  },
+  "504|FY2004": {
+   "legacy_county": 73,
+   "planning_region": 7
+  },
+  "504|FY2005": {
+   "legacy_county": 86,
+   "planning_region": 15
+  },
+  "504|FY2006": {
+   "legacy_county": 81,
+   "planning_region": 11
+  },
+  "504|FY2007": {
+   "legacy_county": 60,
+   "planning_region": 20
+  },
+  "504|FY2008": {
+   "legacy_county": 50,
+   "planning_region": 17
+  },
+  "504|FY2009": {
+   "legacy_county": 29,
+   "planning_region": 15
+  },
+  "504|FY2010": {
+   "legacy_county": 55,
+   "planning_region": 17
+  },
+  "504|FY2011": {
+   "legacy_county": 57,
+   "planning_region": 26
+  },
+  "504|FY2012": {
+   "legacy_county": 36,
+   "planning_region": 32
+  },
+  "504|FY2013": {
+   "legacy_county": 39,
+   "planning_region": 31
+  },
+  "504|FY2014": {
+   "legacy_county": 20,
+   "planning_region": 31
+  },
+  "504|FY2015": {
+   "legacy_county": 25,
+   "planning_region": 27
+  },
+  "504|FY2016": {
+   "legacy_county": 25,
+   "planning_region": 30
+  },
+  "504|FY2017": {
+   "legacy_county": 31,
+   "planning_region": 35
+  },
+  "504|FY2018": {
+   "legacy_county": 23,
+   "planning_region": 49
+  },
+  "504|FY2019": {
+   "legacy_county": 18,
+   "planning_region": 46
+  },
+  "504|FY2020": {
+   "legacy_county": 18,
+   "planning_region": 55
+  },
+  "504|FY2021": {
+   "legacy_county": 12,
+   "planning_region": 74
+  },
+  "504|FY2022": {
+   "legacy_county": 15,
+   "planning_region": 89
+  },
+  "504|FY2023": {
+   "legacy_county": 10,
+   "planning_region": 80
+  },
+  "504|FY2024": {
+   "legacy_county": 10,
+   "planning_region": 63
+  },
+  "504|FY2025": {
+   "legacy_county": 5,
+   "planning_region": 81
+  },
+  "504|FY2026": {
+   "planning_region": 79
+  },
+  "7a|FY1991": {
+   "legacy_county": 84
+  },
+  "7a|FY1992": {
+   "legacy_county": 180
+  },
+  "7a|FY1993": {
+   "legacy_county": 250
+  },
+  "7a|FY1994": {
+   "blank": 3,
+   "legacy_county": 475
+  },
+  "7a|FY1995": {
+   "blank": 3,
+   "legacy_county": 752
+  },
+  "7a|FY1996": {
+   "blank": 1,
+   "legacy_county": 844
+  },
+  "7a|FY1997": {
+   "legacy_county": 781
+  },
+  "7a|FY1998": {
+   "legacy_county": 719
+  },
+  "7a|FY1999": {
+   "blank": 2,
+   "legacy_county": 826
+  },
+  "7a|FY2000": {
+   "legacy_county": 1035,
+   "planning_region": 3
+  },
+  "7a|FY2001": {
+   "blank": 1,
+   "legacy_county": 1039,
+   "planning_region": 3
+  },
+  "7a|FY2002": {
+   "blank": 1,
+   "legacy_county": 961,
+   "planning_region": 4
+  },
+  "7a|FY2003": {
+   "blank": 2,
+   "legacy_county": 1185,
+   "planning_region": 2
+  },
+  "7a|FY2004": {
+   "legacy_county": 1210,
+   "planning_region": 5
+  },
+  "7a|FY2005": {
+   "legacy_county": 1507,
+   "planning_region": 8
+  },
+  "7a|FY2006": {
+   "blank": 1,
+   "legacy_county": 1335,
+   "planning_region": 15
+  },
+  "7a|FY2007": {
+   "blank": 1,
+   "legacy_county": 1100,
+   "planning_region": 13
+  },
+  "7a|FY2008": {
+   "blank": 2,
+   "legacy_county": 728,
+   "planning_region": 12
+  },
+  "7a|FY2009": {
+   "legacy_county": 502,
+   "planning_region": 8
+  },
+  "7a|FY2010": {
+   "legacy_county": 545,
+   "planning_region": 12
+  },
+  "7a|FY2011": {
+   "legacy_county": 599,
+   "planning_region": 13
+  },
+  "7a|FY2012": {
+   "legacy_county": 496,
+   "planning_region": 13
+  },
+  "7a|FY2013": {
+   "legacy_county": 471,
+   "planning_region": 31
+  },
+  "7a|FY2014": {
+   "legacy_county": 505,
+   "planning_region": 30
+  },
+  "7a|FY2015": {
+   "legacy_county": 573,
+   "planning_region": 74
+  },
+  "7a|FY2016": {
+   "legacy_county": 584,
+   "planning_region": 106
+  },
+  "7a|FY2017": {
+   "legacy_county": 523,
+   "planning_region": 179
+  },
+  "7a|FY2018": {
+   "legacy_county": 501,
+   "planning_region": 235
+  },
+  "7a|FY2019": {
+   "legacy_county": 402,
+   "planning_region": 258
+  },
+  "7a|FY2020": {
+   "legacy_county": 204,
+   "planning_region": 240
+  },
+  "7a|FY2021": {
+   "legacy_county": 306,
+   "planning_region": 326
+  },
+  "7a|FY2022": {
+   "legacy_county": 227,
+   "planning_region": 409
+  },
+  "7a|FY2023": {
+   "legacy_county": 183,
+   "planning_region": 561
+  },
+  "7a|FY2024": {
+   "legacy_county": 190,
+   "planning_region": 712
+  },
+  "7a|FY2025": {
+   "legacy_county": 79,
+   "planning_region": 926
+  },
+  "7a|FY2026": {
+   "legacy_county": 2,
+   "planning_region": 647
+  }
+ },
+ "methods": {
+  "project_county": "ProjectState + ProjectCounty string as written by SBA",
+  "zip_zcta": "NOT AVAILABLE (census relationship file not fetched)"
+ }
+}

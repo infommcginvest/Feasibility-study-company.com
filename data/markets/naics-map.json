@@ -1,0 +1,1831 @@
+{
+ "about": "The 43 asset classes (28 built hubs and 15 linked, unbuilt hub paths) mapped to NAICS. naics2022 is used for County Business Patterns 2023 and QCEW 2025; legacy lists the codes of earlier editions the same businesses carried. SBA FOIA loans carry codes from every edition at once (a 2022 code appears on loans approved in FY1995, and 447110 on loans approved in FY2026), so a loan belongs to a class when its NaicsCode is in any edition list. fit: exact, partial, proxy or none; scripts/markets.py refuses to print a partial or proxy class figure unless the marker states the fit, and never prints a none. Classes are not mutually exclusive (hotel and its four service-level subtypes all use 721110). FOIA loan counts by class, code and edition are measured on every build in naics-evidence.json. Drafted offline by the WEB-FSC-5 mapping subagent from the FOIA code inventory (docs/web-fsc-5/compose/foia_naics_inventory.tsv) and its knowledge of the NAICS editions: the census.gov concordance files are outside the six source hosts, so the edition lists are not checked against a concordance (DECISIONS D13).",
+ "aliases": {
+  "assisted-living": "assisted-living-and-memory-care",
+  "independent-living": "independent-living-and-ccrc",
+  "industrial": "industrial-and-warehouse"
+ },
+ "classes": [
+  {
+   "slug": "assisted-living-and-memory-care",
+   "title": "Assisted Living and Memory Care",
+   "built": true,
+   "naics2022": [
+    "623312"
+   ],
+   "legacy": {
+    "2017": [
+     "623312"
+    ],
+    "2012": [
+     "623312"
+    ],
+    "2007": [
+     "623312"
+    ],
+    "2002": [
+     "623312"
+    ],
+    "1997": [
+     "623312"
+    ]
+   },
+   "fit": "exact",
+   "reason": "623312 is the assisted living industry (homes for the elderly with personal care); memory care units operated inside nursing homes are carried in 623110.",
+   "overlaps": [
+    "board-and-care"
+   ]
+  },
+  {
+   "slug": "auto-dealership",
+   "title": "Auto Dealership",
+   "built": true,
+   "naics2022": [
+    "441110",
+    "441120"
+   ],
+   "legacy": {
+    "2017": [
+     "441110",
+     "441120"
+    ],
+    "2012": [
+     "441110",
+     "441120"
+    ],
+    "2007": [
+     "441110",
+     "441120"
+    ],
+    "2002": [
+     "441110",
+     "441120"
+    ],
+    "1997": [
+     "441110",
+     "441120"
+    ]
+   },
+   "fit": "exact",
+   "reason": "441110 and 441120 are new and used car dealers; motorcycle, RV and boat dealers sit in separate codes.",
+   "overlaps": []
+  },
+  {
+   "slug": "auto-service-and-collision",
+   "title": "Auto Service and Collision",
+   "built": true,
+   "naics2022": [
+    "811111",
+    "811114",
+    "811121",
+    "811122",
+    "811191",
+    "811198"
+   ],
+   "legacy": {
+    "2017": [
+     "811111",
+     "811112",
+     "811113",
+     "811118",
+     "811121",
+     "811122",
+     "811191",
+     "811198"
+    ],
+    "2012": [
+     "811111",
+     "811112",
+     "811113",
+     "811118",
+     "811121",
+     "811122",
+     "811191",
+     "811198"
+    ],
+    "2007": [
+     "811111",
+     "811112",
+     "811113",
+     "811118",
+     "811121",
+     "811122",
+     "811191",
+     "811198"
+    ],
+    "2002": [
+     "811111",
+     "811112",
+     "811113",
+     "811118",
+     "811121",
+     "811122",
+     "811191",
+     "811198"
+    ],
+    "1997": [
+     "811111",
+     "811112",
+     "811113",
+     "811118",
+     "811121",
+     "811122",
+     "811191",
+     "811198"
+    ]
+   },
+   "fit": "exact",
+   "reason": "These codes are mechanical, specialty, body and paint, glass, lube and other automotive repair; 2022 merged 811112, 811113 and 811118 into 811111 and 811114; car washes (811192) are a separate class.",
+   "overlaps": []
+  },
+  {
+   "slug": "behavioral-health",
+   "title": "Behavioral Health and SUD",
+   "built": true,
+   "naics2022": [
+    "621420",
+    "623220",
+    "622210",
+    "621330",
+    "621112"
+   ],
+   "legacy": {
+    "2017": [
+     "621112",
+     "621330",
+     "621420",
+     "622210",
+     "623220"
+    ],
+    "2012": [
+     "621112",
+     "621330",
+     "621420",
+     "622210",
+     "623220"
+    ],
+    "2007": [
+     "621112",
+     "621330",
+     "621420",
+     "622210",
+     "623220"
+    ],
+    "2002": [
+     "621112",
+     "621330",
+     "621420",
+     "622210",
+     "623220"
+    ],
+    "1997": [
+     "621112",
+     "621330",
+     "621420",
+     "622210",
+     "623220"
+    ]
+   },
+   "fit": "partial",
+   "reason": "Every code is mental health or substance abuse care, but no code isolates SUD treatment, IMD-eligible facilities or intensive outpatient programs, and 621330 and 621112 are practitioner offices rather than treatment facilities.",
+   "overlaps": [
+    "medical-office-and-asc"
+   ]
+  },
+  {
+   "slug": "childcare-and-daycare",
+   "title": "Childcare and Daycare",
+   "built": true,
+   "naics2022": [
+    "624410"
+   ],
+   "legacy": {
+    "2017": [
+     "624410"
+    ],
+    "2012": [
+     "624410"
+    ],
+    "2007": [
+     "624410"
+    ],
+    "2002": [
+     "624410"
+    ],
+    "1997": [
+     "624410"
+    ]
+   },
+   "fit": "exact",
+   "reason": "624410 is child day care services (centers and in-home providers); the code is the whole industry.",
+   "overlaps": []
+  },
+  {
+   "slug": "coffee-shop",
+   "title": "Coffee Shop and Cafe",
+   "built": true,
+   "naics2022": [
+    "722515"
+   ],
+   "legacy": {
+    "2017": [
+     "722515"
+    ],
+    "2012": [
+     "722515"
+    ],
+    "2007": [
+     "722213"
+    ],
+    "2002": [
+     "722213"
+    ],
+    "1997": [
+     "722213"
+    ]
+   },
+   "fit": "partial",
+   "reason": "722515 (722213 before 2012) holds coffee shops together with juice bars, ice cream, donut and other snack and nonalcoholic beverage outlets; no code isolates coffee.",
+   "overlaps": [
+    "restaurant"
+   ]
+  },
+  {
+   "slug": "express-car-wash",
+   "title": "Car Wash",
+   "built": true,
+   "naics2022": [
+    "811192"
+   ],
+   "legacy": {
+    "2017": [
+     "811192"
+    ],
+    "2012": [
+     "811192"
+    ],
+    "2007": [
+     "811192"
+    ],
+    "2002": [
+     "811192"
+    ],
+    "1997": [
+     "811192"
+    ]
+   },
+   "fit": "exact",
+   "reason": "811192 is the car wash industry; the express tunnel format cannot be split out, but the hub covers car washes as an asset type.",
+   "overlaps": []
+  },
+  {
+   "slug": "fitness-and-recreation",
+   "title": "Fitness and Recreation",
+   "built": true,
+   "naics2022": [
+    "713940"
+   ],
+   "legacy": {
+    "2017": [
+     "713940"
+    ],
+    "2012": [
+     "713940"
+    ],
+    "2007": [
+     "713940"
+    ],
+    "2002": [
+     "713940"
+    ],
+    "1997": [
+     "713940"
+    ]
+   },
+   "fit": "exact",
+   "reason": "713940 is fitness and recreational sports centers (gyms, health clubs, studios); bowling, golf and amusement codes are excluded.",
+   "overlaps": []
+  },
+  {
+   "slug": "funeral-home",
+   "title": "Funeral Home",
+   "built": true,
+   "naics2022": [
+    "812210",
+    "812220"
+   ],
+   "legacy": {
+    "2017": [
+     "812210",
+     "812220"
+    ],
+    "2012": [
+     "812210",
+     "812220"
+    ],
+    "2007": [
+     "812210",
+     "812220"
+    ],
+    "2002": [
+     "812210",
+     "812220"
+    ],
+    "1997": [
+     "812210",
+     "812220"
+    ]
+   },
+   "fit": "exact",
+   "reason": "812210 (funeral homes) and 812220 (cemeteries and crematories) are the deathcare industry.",
+   "overlaps": []
+  },
+  {
+   "slug": "gas-station-and-c-store",
+   "title": "Gas Station and C-Store",
+   "built": true,
+   "naics2022": [
+    "457110",
+    "457120",
+    "445131"
+   ],
+   "legacy": {
+    "2017": [
+     "445120",
+     "447110",
+     "447190"
+    ],
+    "2012": [
+     "445120",
+     "447110",
+     "447190"
+    ],
+    "2007": [
+     "445120",
+     "447110",
+     "447190"
+    ],
+    "2002": [
+     "445120",
+     "447110",
+     "447190"
+    ],
+    "1997": [
+     "445120",
+     "447110",
+     "447190"
+    ]
+   },
+   "fit": "exact",
+   "reason": "2022 moved gasoline stations from 447110/447190 to 457110/457120 and convenience stores from 445120 to 445131; together they are this class; truck stops with fuel fall in the same gas station codes.",
+   "overlaps": [
+    "retail",
+    "truck-stop-and-travel-center"
+   ]
+  },
+  {
+   "slug": "glamping",
+   "title": "Glamping",
+   "built": true,
+   "naics2022": [
+    "721211",
+    "721199",
+    "721214"
+   ],
+   "legacy": {
+    "2017": [
+     "721199",
+     "721211",
+     "721214"
+    ],
+    "2012": [
+     "721199",
+     "721211",
+     "721214"
+    ],
+    "2007": [
+     "721199",
+     "721211",
+     "721214"
+    ],
+    "2002": [
+     "721199",
+     "721211",
+     "721214"
+    ],
+    "1997": [
+     "721199",
+     "721211",
+     "721214"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "No code isolates glamping; the nearest industries are RV parks and campgrounds (721211), other traveler accommodation (721199) and recreational and vacation camps (721214), each holding many other lodging formats.",
+   "overlaps": [
+    "rv-park-and-campground",
+    "boutique-and-resort"
+   ]
+  },
+  {
+   "slug": "grocery-store",
+   "title": "Grocery and Supermarket",
+   "built": true,
+   "naics2022": [
+    "445110"
+   ],
+   "legacy": {
+    "2017": [
+     "445110"
+    ],
+    "2012": [
+     "445110"
+    ],
+    "2007": [
+     "445110"
+    ],
+    "2002": [
+     "445110"
+    ],
+    "1997": [
+     "445110"
+    ]
+   },
+   "fit": "exact",
+   "reason": "445110 is supermarkets and other grocery retailers (except convenience); warehouse clubs and supercenters (455211) are excluded.",
+   "overlaps": [
+    "retail"
+   ]
+  },
+  {
+   "slug": "hotel",
+   "title": "Hotel and Hospitality",
+   "built": true,
+   "naics2022": [
+    "721110"
+   ],
+   "legacy": {
+    "2017": [
+     "721110"
+    ],
+    "2012": [
+     "721110"
+    ],
+    "2007": [
+     "721110"
+    ],
+    "2002": [
+     "721110"
+    ],
+    "1997": [
+     "721110"
+    ]
+   },
+   "fit": "exact",
+   "reason": "721110 is hotels (except casino hotels) and motels; it holds every service level.",
+   "overlaps": [
+    "limited-service-hotel",
+    "select-service-hotel",
+    "extended-stay-hotel",
+    "boutique-and-resort"
+   ]
+  },
+  {
+   "slug": "laundromat",
+   "title": "Laundromat",
+   "built": true,
+   "naics2022": [
+    "812310"
+   ],
+   "legacy": {
+    "2017": [
+     "812310"
+    ],
+    "2012": [
+     "812310"
+    ],
+    "2007": [
+     "812310"
+    ],
+    "2002": [
+     "812310"
+    ],
+    "1997": [
+     "812310"
+    ]
+   },
+   "fit": "exact",
+   "reason": "812310 is coin-operated laundries and drycleaners, which is the self-service laundry industry.",
+   "overlaps": []
+  },
+  {
+   "slug": "marina",
+   "title": "Marina and Boat Harbor",
+   "built": true,
+   "naics2022": [
+    "713930"
+   ],
+   "legacy": {
+    "2017": [
+     "713930"
+    ],
+    "2012": [
+     "713930"
+    ],
+    "2007": [
+     "713930"
+    ],
+    "2002": [
+     "713930"
+    ],
+    "1997": [
+     "713930"
+    ]
+   },
+   "fit": "exact",
+   "reason": "713930 is marinas, including docking and dry-stack storage for pleasure craft.",
+   "overlaps": [
+    "rv-and-boat-storage"
+   ]
+  },
+  {
+   "slug": "medical-office-and-asc",
+   "title": "Medical Office and ASC",
+   "built": true,
+   "naics2022": [
+    "621493",
+    "621111",
+    "621112"
+   ],
+   "legacy": {
+    "2017": [
+     "621111",
+     "621112",
+     "621493"
+    ],
+    "2012": [
+     "621111",
+     "621112",
+     "621493"
+    ],
+    "2007": [
+     "621111",
+     "621112",
+     "621493"
+    ],
+    "2002": [
+     "621111",
+     "621112",
+     "621493"
+    ],
+    "1997": [
+     "621111",
+     "621112",
+     "621493"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "No code identifies medical office buildings; 621111 and 621112 are the physician-office tenants, 621493 is freestanding surgical and emergency centers (which also holds freestanding EDs), and building owners sit in 531120.",
+   "overlaps": [
+    "behavioral-health",
+    "urgent-care"
+   ]
+  },
+  {
+   "slug": "multifamily",
+   "title": "Multifamily",
+   "built": true,
+   "naics2022": [
+    "531110"
+   ],
+   "legacy": {
+    "2017": [
+     "531110"
+    ],
+    "2012": [
+     "531110"
+    ],
+    "2007": [
+     "531110"
+    ],
+    "2002": [
+     "531110"
+    ],
+    "1997": [
+     "531110"
+    ]
+   },
+   "fit": "partial",
+   "reason": "531110 is lessors of residential buildings and dwellings: apartment owners and operators, but also single-family and other residential lessors.",
+   "overlaps": [
+    "build-to-rent",
+    "mixed-use",
+    "active-adult"
+   ]
+  },
+  {
+   "slug": "pet-boarding-and-daycare",
+   "title": "Pet Boarding and Daycare",
+   "built": true,
+   "naics2022": [
+    "812910"
+   ],
+   "legacy": {
+    "2017": [
+     "812910"
+    ],
+    "2012": [
+     "812910"
+    ],
+    "2007": [
+     "812910"
+    ],
+    "2002": [
+     "812910"
+    ],
+    "1997": [
+     "812910"
+    ]
+   },
+   "fit": "exact",
+   "reason": "812910 is pet care (except veterinary) services: boarding, daycare, grooming, sitting and training.",
+   "overlaps": []
+  },
+  {
+   "slug": "private-school",
+   "title": "Private K-12 School",
+   "built": true,
+   "naics2022": [
+    "611110"
+   ],
+   "legacy": {
+    "2017": [
+     "611110"
+    ],
+    "2012": [
+     "611110"
+    ],
+    "2007": [
+     "611110"
+    ],
+    "2002": [
+     "611110"
+    ],
+    "1997": [
+     "611110"
+    ]
+   },
+   "fit": "partial",
+   "reason": "611110 is elementary and secondary schools, public and private alike; the private slice needs an ownership filter, and specialty education sits in other 6116 and 6117 codes.",
+   "overlaps": []
+  },
+  {
+   "slug": "quick-service-restaurant",
+   "title": "Quick-Service Restaurant",
+   "built": true,
+   "naics2022": [
+    "722513"
+   ],
+   "legacy": {
+    "2017": [
+     "722513"
+    ],
+    "2012": [
+     "722513"
+    ],
+    "2007": [
+     "722211"
+    ],
+    "2002": [
+     "722211"
+    ],
+    "1997": [
+     "722211"
+    ]
+   },
+   "fit": "exact",
+   "reason": "722513 (722211 before 2012) is limited-service restaurants, the NAICS equivalent of quick-service and fast-food, which also holds fast-casual and carryout outlets.",
+   "overlaps": [
+    "restaurant"
+   ]
+  },
+  {
+   "slug": "restaurant",
+   "title": "Restaurant and Foodservice",
+   "built": true,
+   "naics2022": [
+    "722511",
+    "722513",
+    "722514",
+    "722515",
+    "722310",
+    "722320",
+    "722330"
+   ],
+   "legacy": {
+    "2017": [
+     "722310",
+     "722320",
+     "722330",
+     "722511",
+     "722513",
+     "722514",
+     "722515"
+    ],
+    "2012": [
+     "722310",
+     "722320",
+     "722330",
+     "722511",
+     "722513",
+     "722514",
+     "722515"
+    ],
+    "2007": [
+     "722110",
+     "722211",
+     "722212",
+     "722213",
+     "722310",
+     "722320",
+     "722330"
+    ],
+    "2002": [
+     "722110",
+     "722211",
+     "722212",
+     "722213",
+     "722310",
+     "722320",
+     "722330"
+    ],
+    "1997": [
+     "722110",
+     "722211",
+     "722212",
+     "722213",
+     "722310",
+     "722320",
+     "722330"
+    ]
+   },
+   "fit": "exact",
+   "reason": "Restaurants and other eating places (full-service, limited-service, cafeterias and buffets, snack bars) plus special foodservice (contractors, caterers, mobile); drinking places (722410) are excluded.",
+   "overlaps": [
+    "coffee-shop",
+    "quick-service-restaurant"
+   ]
+  },
+  {
+   "slug": "retail",
+   "title": "Retail",
+   "built": true,
+   "naics2022": [
+    "444110",
+    "444120",
+    "444140",
+    "444180",
+    "444230",
+    "444240",
+    "445110",
+    "445131",
+    "445230",
+    "445240",
+    "445250",
+    "445291",
+    "445292",
+    "445298",
+    "445320",
+    "449110",
+    "449121",
+    "449122",
+    "449129",
+    "449210",
+    "455110",
+    "455211",
+    "455219",
+    "456110",
+    "456120",
+    "456130",
+    "456191",
+    "456199",
+    "458110",
+    "458210",
+    "458310",
+    "458320",
+    "459110",
+    "459120",
+    "459130",
+    "459140",
+    "459210",
+    "459310",
+    "459410",
+    "459420",
+    "459510",
+    "459910",
+    "459920",
+    "459930",
+    "459991",
+    "459999"
+   ],
+   "legacy": {
+    "2017": [
+     "442110",
+     "442210",
+     "442291",
+     "442299",
+     "443141",
+     "443142",
+     "444110",
+     "444120",
+     "444130",
+     "444190",
+     "444210",
+     "444220",
+     "445110",
+     "445120",
+     "445210",
+     "445220",
+     "445230",
+     "445291",
+     "445292",
+     "445299",
+     "445310",
+     "446110",
+     "446120",
+     "446130",
+     "446191",
+     "446199",
+     "448110",
+     "448120",
+     "448130",
+     "448140",
+     "448150",
+     "448190",
+     "448210",
+     "448310",
+     "448320",
+     "451110",
+     "451120",
+     "451130",
+     "451140",
+     "451211",
+     "451212",
+     "452210",
+     "452311",
+     "452319",
+     "453110",
+     "453210",
+     "453220",
+     "453310",
+     "453910",
+     "453920",
+     "453930",
+     "453991",
+     "453998"
+    ],
+    "2012": [
+     "442110",
+     "442210",
+     "442291",
+     "442299",
+     "443141",
+     "443142",
+     "444110",
+     "444120",
+     "444130",
+     "444190",
+     "444210",
+     "444220",
+     "445110",
+     "445120",
+     "445210",
+     "445220",
+     "445230",
+     "445291",
+     "445292",
+     "445299",
+     "445310",
+     "446110",
+     "446120",
+     "446130",
+     "446191",
+     "446199",
+     "448110",
+     "448120",
+     "448130",
+     "448140",
+     "448150",
+     "448190",
+     "448210",
+     "448310",
+     "448320",
+     "451110",
+     "451120",
+     "451130",
+     "451140",
+     "451211",
+     "451212",
+     "452111",
+     "452112",
+     "452910",
+     "452990",
+     "453110",
+     "453210",
+     "453220",
+     "453310",
+     "453910",
+     "453920",
+     "453930",
+     "453991",
+     "453998"
+    ],
+    "2007": [
+     "442110",
+     "442210",
+     "442291",
+     "442299",
+     "443111",
+     "443112",
+     "443120",
+     "443130",
+     "444110",
+     "444120",
+     "444130",
+     "444190",
+     "444210",
+     "444220",
+     "445110",
+     "445120",
+     "445210",
+     "445220",
+     "445230",
+     "445291",
+     "445292",
+     "445299",
+     "445310",
+     "446110",
+     "446120",
+     "446130",
+     "446191",
+     "446199",
+     "448110",
+     "448120",
+     "448130",
+     "448140",
+     "448150",
+     "448190",
+     "448210",
+     "448310",
+     "448320",
+     "451110",
+     "451120",
+     "451130",
+     "451140",
+     "451211",
+     "451212",
+     "451220",
+     "452111",
+     "452112",
+     "452910",
+     "452990",
+     "453110",
+     "453210",
+     "453220",
+     "453310",
+     "453910",
+     "453920",
+     "453930",
+     "453991",
+     "453998"
+    ],
+    "2002": [
+     "442110",
+     "442210",
+     "442291",
+     "442299",
+     "443111",
+     "443112",
+     "443120",
+     "443130",
+     "444110",
+     "444120",
+     "444130",
+     "444190",
+     "444210",
+     "444220",
+     "445110",
+     "445120",
+     "445210",
+     "445220",
+     "445230",
+     "445291",
+     "445292",
+     "445299",
+     "445310",
+     "446110",
+     "446120",
+     "446130",
+     "446191",
+     "446199",
+     "448110",
+     "448120",
+     "448130",
+     "448140",
+     "448150",
+     "448190",
+     "448210",
+     "448310",
+     "448320",
+     "451110",
+     "451120",
+     "451130",
+     "451140",
+     "451211",
+     "451212",
+     "451220",
+     "452110",
+     "452910",
+     "452990",
+     "453110",
+     "453210",
+     "453220",
+     "453310",
+     "453910",
+     "453920",
+     "453930",
+     "453991",
+     "453998"
+    ],
+    "1997": [
+     "442110",
+     "442210",
+     "442291",
+     "442299",
+     "443111",
+     "443112",
+     "443120",
+     "443130",
+     "444110",
+     "444120",
+     "444130",
+     "444190",
+     "444210",
+     "444220",
+     "445110",
+     "445120",
+     "445210",
+     "445220",
+     "445230",
+     "445291",
+     "445292",
+     "445299",
+     "445310",
+     "446110",
+     "446120",
+     "446130",
+     "446191",
+     "446199",
+     "448110",
+     "448120",
+     "448130",
+     "448140",
+     "448150",
+     "448190",
+     "448210",
+     "448310",
+     "448320",
+     "451110",
+     "451120",
+     "451130",
+     "451140",
+     "451211",
+     "451212",
+     "451220",
+     "452110",
+     "452910",
+     "452990",
+     "453110",
+     "453210",
+     "453220",
+     "453310",
+     "453910",
+     "453920",
+     "453930",
+     "453991",
+     "453998"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "Store-based retail trade (2022 subsectors 444, 445, 449, 455, 456, 458, 459) is the tenant universe; no code isolates retail real estate, and motor vehicle dealers, gasoline stations, fuel dealers, vending and non-store retailers are excluded.",
+   "overlaps": [
+    "gas-station-and-c-store",
+    "grocery-store"
+   ]
+  },
+  {
+   "slug": "rv-and-boat-storage",
+   "title": "RV and Boat Storage",
+   "built": true,
+   "naics2022": [
+    "531130",
+    "493190",
+    "713930"
+   ],
+   "legacy": {
+    "2017": [
+     "493190",
+     "531130",
+     "713930"
+    ],
+    "2012": [
+     "493190",
+     "531130",
+     "713930"
+    ],
+    "2007": [
+     "493190",
+     "531130",
+     "713930"
+    ],
+    "2002": [
+     "493190",
+     "531130",
+     "713930"
+    ],
+    "1997": [
+     "493190",
+     "531130",
+     "713930"
+    ]
+   },
+   "fit": "partial",
+   "reason": "Outdoor RV and boat storage is carried in self-storage lessors (531130), other warehousing and storage (493190) or marina dry-stack (713930); no code isolates it.",
+   "overlaps": [
+    "marina",
+    "self-storage"
+   ]
+  },
+  {
+   "slug": "rv-park-and-campground",
+   "title": "RV Park and Campground",
+   "built": true,
+   "naics2022": [
+    "721211"
+   ],
+   "legacy": {
+    "2017": [
+     "721211"
+    ],
+    "2012": [
+     "721211"
+    ],
+    "2007": [
+     "721211"
+    ],
+    "2002": [
+     "721211"
+    ],
+    "1997": [
+     "721211"
+    ]
+   },
+   "fit": "exact",
+   "reason": "721211 is RV parks and campgrounds.",
+   "overlaps": [
+    "glamping"
+   ]
+  },
+  {
+   "slug": "self-storage",
+   "title": "Self-Storage",
+   "built": true,
+   "naics2022": [
+    "531130"
+   ],
+   "legacy": {
+    "2017": [
+     "531130"
+    ],
+    "2012": [
+     "531130"
+    ],
+    "2007": [
+     "531130"
+    ],
+    "2002": [
+     "531130"
+    ],
+    "1997": [
+     "531130"
+    ]
+   },
+   "fit": "exact",
+   "reason": "531130 is lessors of miniwarehouses and self-storage units.",
+   "overlaps": [
+    "rv-and-boat-storage"
+   ]
+  },
+  {
+   "slug": "truck-stop-and-travel-center",
+   "title": "Truck Stop and Travel Center",
+   "built": true,
+   "naics2022": [
+    "457110",
+    "457120"
+   ],
+   "legacy": {
+    "2017": [
+     "447110",
+     "447190"
+    ],
+    "2012": [
+     "447110",
+     "447190"
+    ],
+    "2007": [
+     "447110",
+     "447190"
+    ],
+    "2002": [
+     "447110",
+     "447190"
+    ],
+    "1997": [
+     "447110",
+     "447190"
+    ]
+   },
+   "fit": "partial",
+   "reason": "Truck stops report under the gasoline station codes with all other fuel retailers; no code separates truck stops, and their restaurant and parking revenue sits in other codes.",
+   "overlaps": [
+    "gas-station-and-c-store"
+   ]
+  },
+  {
+   "slug": "urgent-care",
+   "title": "Urgent Care and Freestanding ED",
+   "built": true,
+   "naics2022": [
+    "621493"
+   ],
+   "legacy": {
+    "2017": [
+     "621493"
+    ],
+    "2012": [
+     "621493"
+    ],
+    "2007": [
+     "621493"
+    ],
+    "2002": [
+     "621493"
+    ],
+    "1997": [
+     "621493"
+    ]
+   },
+   "fit": "partial",
+   "reason": "621493 is freestanding ambulatory surgical and emergency centers, which holds urgent care and freestanding EDs together with surgery centers; some urgent care operators report under physician offices (621111).",
+   "overlaps": [
+    "medical-office-and-asc"
+   ]
+  },
+  {
+   "slug": "veterinary-practice",
+   "title": "Veterinary Practice",
+   "built": true,
+   "naics2022": [
+    "541940"
+   ],
+   "legacy": {
+    "2017": [
+     "541940"
+    ],
+    "2012": [
+     "541940"
+    ],
+    "2007": [
+     "541940"
+    ],
+    "2002": [
+     "541940"
+    ],
+    "1997": [
+     "541940"
+    ]
+   },
+   "fit": "exact",
+   "reason": "541940 is veterinary services.",
+   "overlaps": []
+  },
+  {
+   "slug": "limited-service-hotel",
+   "title": "Limited-Service Hotel",
+   "built": false,
+   "naics2022": [
+    "721110"
+   ],
+   "legacy": {
+    "2017": [
+     "721110"
+    ],
+    "2012": [
+     "721110"
+    ],
+    "2007": [
+     "721110"
+    ],
+    "2002": [
+     "721110"
+    ],
+    "1997": [
+     "721110"
+    ]
+   },
+   "fit": "partial",
+   "reason": "721110 holds every hotel service level; NAICS does not separate limited-service from other hotels and motels.",
+   "overlaps": [
+    "hotel",
+    "select-service-hotel",
+    "extended-stay-hotel",
+    "boutique-and-resort"
+   ]
+  },
+  {
+   "slug": "select-service-hotel",
+   "title": "Select-Service Hotel",
+   "built": false,
+   "naics2022": [
+    "721110"
+   ],
+   "legacy": {
+    "2017": [
+     "721110"
+    ],
+    "2012": [
+     "721110"
+    ],
+    "2007": [
+     "721110"
+    ],
+    "2002": [
+     "721110"
+    ],
+    "1997": [
+     "721110"
+    ]
+   },
+   "fit": "partial",
+   "reason": "721110 holds every hotel service level; NAICS does not separate select-service from other hotels and motels.",
+   "overlaps": [
+    "hotel",
+    "limited-service-hotel",
+    "extended-stay-hotel",
+    "boutique-and-resort"
+   ]
+  },
+  {
+   "slug": "extended-stay-hotel",
+   "title": "Extended-Stay Hotel",
+   "built": false,
+   "naics2022": [
+    "721110"
+   ],
+   "legacy": {
+    "2017": [
+     "721110"
+    ],
+    "2012": [
+     "721110"
+    ],
+    "2007": [
+     "721110"
+    ],
+    "2002": [
+     "721110"
+    ],
+    "1997": [
+     "721110"
+    ]
+   },
+   "fit": "partial",
+   "reason": "Extended-stay hotels report under 721110 with all other hotels and motels; no code splits them out.",
+   "overlaps": [
+    "hotel",
+    "limited-service-hotel",
+    "select-service-hotel",
+    "boutique-and-resort"
+   ]
+  },
+  {
+   "slug": "boutique-and-resort",
+   "title": "Boutique and Resort",
+   "built": false,
+   "naics2022": [
+    "721110",
+    "721191",
+    "721199"
+   ],
+   "legacy": {
+    "2017": [
+     "721110",
+     "721191",
+     "721199"
+    ],
+    "2012": [
+     "721110",
+     "721191",
+     "721199"
+    ],
+    "2007": [
+     "721110",
+     "721191",
+     "721199"
+    ],
+    "2002": [
+     "721110",
+     "721191",
+     "721199"
+    ],
+    "1997": [
+     "721110",
+     "721191",
+     "721199"
+    ]
+   },
+   "fit": "partial",
+   "reason": "Boutique and resort hotels are inside 721110; inns (721191) and lodges and other lodging (721199) are added as the nearest small-property codes; no code isolates the class.",
+   "overlaps": [
+    "glamping",
+    "hotel",
+    "limited-service-hotel",
+    "select-service-hotel",
+    "extended-stay-hotel"
+   ]
+  },
+  {
+   "slug": "industrial-and-warehouse",
+   "title": "Industrial and Warehouse",
+   "built": false,
+   "naics2022": [
+    "493110",
+    "531120"
+   ],
+   "legacy": {
+    "2017": [
+     "493110",
+     "531120"
+    ],
+    "2012": [
+     "493110",
+     "531120"
+    ],
+    "2007": [
+     "493110",
+     "531120"
+    ],
+    "2002": [
+     "493110",
+     "531120"
+    ],
+    "1997": [
+     "493110",
+     "531120"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "General warehousing operators (493110) and lessors of nonresidential buildings (531120, which also holds office and retail owners) are the nearest industries to industrial property; no code isolates it.",
+   "overlaps": [
+    "event-and-wedding-venue",
+    "mixed-use"
+   ]
+  },
+  {
+   "slug": "cold-storage",
+   "title": "Cold Storage",
+   "built": false,
+   "naics2022": [
+    "493120"
+   ],
+   "legacy": {
+    "2017": [
+     "493120"
+    ],
+    "2012": [
+     "493120"
+    ],
+    "2007": [
+     "493120"
+    ],
+    "2002": [
+     "493120"
+    ],
+    "1997": [
+     "493120"
+    ]
+   },
+   "fit": "exact",
+   "reason": "493120 is refrigerated warehousing and storage.",
+   "overlaps": []
+  },
+  {
+   "slug": "event-and-wedding-venue",
+   "title": "Event and Wedding Venue",
+   "built": false,
+   "naics2022": [
+    "531120",
+    "711310"
+   ],
+   "legacy": {
+    "2017": [
+     "531120",
+     "711310"
+    ],
+    "2012": [
+     "531120",
+     "711310"
+    ],
+    "2007": [
+     "531120",
+     "711310"
+    ],
+    "2002": [
+     "531120",
+     "711310"
+    ],
+    "1997": [
+     "531120",
+     "711310"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "Hall and venue rental sits in lessors of nonresidential buildings (531120) and event promoters with facilities (711310); no code isolates event and wedding venues.",
+   "overlaps": [
+    "industrial-and-warehouse",
+    "mixed-use"
+   ]
+  },
+  {
+   "slug": "skilled-nursing",
+   "title": "Skilled Nursing",
+   "built": false,
+   "naics2022": [
+    "623110"
+   ],
+   "legacy": {
+    "2017": [
+     "623110"
+    ],
+    "2012": [
+     "623110"
+    ],
+    "2007": [
+     "623110"
+    ],
+    "2002": [
+     "623110"
+    ],
+    "1997": [
+     "623110"
+    ]
+   },
+   "fit": "exact",
+   "reason": "623110 is nursing care facilities (skilled nursing facilities).",
+   "overlaps": []
+  },
+  {
+   "slug": "build-to-rent",
+   "title": "Build-to-Rent",
+   "built": false,
+   "naics2022": [
+    "531110"
+   ],
+   "legacy": {
+    "2017": [
+     "531110"
+    ],
+    "2012": [
+     "531110"
+    ],
+    "2007": [
+     "531110"
+    ],
+    "2002": [
+     "531110"
+    ],
+    "1997": [
+     "531110"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "Build-to-rent is a development and operating model, not an industry; rental operators report under lessors of residential buildings and dwellings (531110), which also holds all other residential lessors.",
+   "overlaps": [
+    "multifamily",
+    "mixed-use",
+    "active-adult"
+   ]
+  },
+  {
+   "slug": "mixed-use",
+   "title": "Mixed-Use",
+   "built": false,
+   "naics2022": [
+    "531110",
+    "531120"
+   ],
+   "legacy": {
+    "2017": [
+     "531110",
+     "531120"
+    ],
+    "2012": [
+     "531110",
+     "531120"
+    ],
+    "2007": [
+     "531110",
+     "531120"
+    ],
+    "2002": [
+     "531110",
+     "531120"
+    ],
+    "1997": [
+     "531110",
+     "531120"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "Mixed-use is a building form with no industry of its own; owners report as lessors of residential (531110) or nonresidential (531120) buildings, both much broader.",
+   "overlaps": [
+    "multifamily",
+    "industrial-and-warehouse",
+    "event-and-wedding-venue",
+    "build-to-rent",
+    "active-adult"
+   ]
+  },
+  {
+   "slug": "brewery-and-distillery",
+   "title": "Brewery and Distillery",
+   "built": false,
+   "naics2022": [
+    "312120",
+    "312140"
+   ],
+   "legacy": {
+    "2017": [
+     "312120",
+     "312140"
+    ],
+    "2012": [
+     "312120",
+     "312140"
+    ],
+    "2007": [
+     "312120",
+     "312140"
+    ],
+    "2002": [
+     "312120",
+     "312140"
+    ],
+    "1997": [
+     "312120",
+     "312140"
+    ]
+   },
+   "fit": "exact",
+   "reason": "312120 is breweries and 312140 is distilleries; taproom and tasting-room sales are carried in the same establishments when production is primary.",
+   "overlaps": []
+  },
+  {
+   "slug": "independent-living-and-ccrc",
+   "title": "Independent Living and CCRC",
+   "built": false,
+   "naics2022": [
+    "623311"
+   ],
+   "legacy": {
+    "2017": [
+     "623311"
+    ],
+    "2012": [
+     "623311"
+    ],
+    "2007": [
+     "623311"
+    ],
+    "2002": [
+     "623311"
+    ],
+    "1997": [
+     "623311"
+    ]
+   },
+   "fit": "partial",
+   "reason": "623311 isolates continuing care retirement communities; stand-alone independent living has no code and falls in residential lessors (531110) or homes for the elderly (623312).",
+   "overlaps": [
+    "ccrc-life-plan-communities"
+   ]
+  },
+  {
+   "slug": "active-adult",
+   "title": "Active Adult",
+   "built": false,
+   "naics2022": [
+    "531110"
+   ],
+   "legacy": {
+    "2017": [
+     "531110"
+    ],
+    "2012": [
+     "531110"
+    ],
+    "2007": [
+     "531110"
+    ],
+    "2002": [
+     "531110"
+    ],
+    "1997": [
+     "531110"
+    ]
+   },
+   "fit": "proxy",
+   "reason": "Age-restricted active-adult communities have no industry code; owners report as residential lessors (531110) and builders as housing builders, both far broader.",
+   "overlaps": [
+    "multifamily",
+    "build-to-rent",
+    "mixed-use"
+   ]
+  },
+  {
+   "slug": "board-and-care",
+   "title": "Board and Care",
+   "built": false,
+   "naics2022": [
+    "623312",
+    "623990"
+   ],
+   "legacy": {
+    "2017": [
+     "623312",
+     "623990"
+    ],
+    "2012": [
+     "623312",
+     "623990"
+    ],
+    "2007": [
+     "623312",
+     "623990"
+    ],
+    "2002": [
+     "623312",
+     "623990"
+    ],
+    "1997": [
+     "623312"
+    ]
+   },
+   "fit": "partial",
+   "reason": "Board and care homes sit in homes for the elderly (623312) and other residential care facilities (623990), each holding other facility types; the 1997 edition had no separate 623990.",
+   "overlaps": [
+    "assisted-living-and-memory-care"
+   ]
+  },
+  {
+   "slug": "ccrc-life-plan-communities",
+   "title": "CCRC and Life Plan Communities",
+   "built": false,
+   "naics2022": [
+    "623311"
+   ],
+   "legacy": {
+    "2017": [
+     "623311"
+    ],
+    "2012": [
+     "623311"
+    ],
+    "2007": [
+     "623311"
+    ],
+    "2002": [
+     "623311"
+    ],
+    "1997": [
+     "623311"
+    ]
+   },
+   "fit": "exact",
+   "reason": "623311 is continuing care retirement communities, the industry term for life plan communities.",
+   "overlaps": [
+    "independent-living-and-ccrc"
+   ]
+  }
+ ]
+}

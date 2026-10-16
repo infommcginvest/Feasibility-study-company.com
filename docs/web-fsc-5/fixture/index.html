@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>WEB-FSC-5 render fixture (not served)</title>
+</head>
+<body>
+<h1>Markets register render fixture</h1>
+<p>Not a site page. scripts/markets.py fills every marker below from data/markets/; gate 8 mutates one register value and expects <code>--check</code> to fail, then passes again after the revert.</p>
+
+<h2>Texas (state)</h2>
+<p>SBA 7(a) loans approved, net of cancellations, all industries: <!--mkt:tx.sba7a_loans {"fmt": "int"}-->39,456<!--/mkt:tx.sba7a_loans-->.
+<br>Source: <!--mktsrc:tx.sba7a_loans {"window": "fy2016_2025"}-->approval FY2016 to FY2025 (ten full fiscal years). U.S. Small Business Administration, Office of Capital Access, 7(a) FOIA loan-level data, as of 2026-06-30. <a href="https://data.sba.gov/dataset/7a-504-foia">https://data.sba.gov/dataset/7a-504-foia</a><!--/mktsrc:tx.sba7a_loans--></p>
+<p>In FY2024 alone: <!--mkt:tx.sba7a_loans {"fmt": "int", "fy": "2024"}-->4,650<!--/mkt:tx.sba7a_loans-->.</p>
+<p>Gas stations and c-stores (NAICS fit exact): <!--mkt:tx.sba7a_loans.gas-station-and-c-store {"fmt": "int"}-->1,247<!--/mkt:tx.sba7a_loans.gas-station-and-c-store--> loans, <!--mkt:tx.sba7a_volume.gas-station-and-c-store {"fmt": "usd_m"}-->$1,815.5 million<!--/mkt:tx.sba7a_volume.gas-station-and-c-store-->.</p>
+<p>Limited-service hotels (NAICS fit partial, so the marker states it): <!--mkt:tx.sba504_loans.limited-service-hotel {"fit": "partial", "fmt": "int"}-->152<!--/mkt:tx.sba504_loans.limited-service-hotel--> 504 loans.
+<br>Source: <!--mktsrc:tx.sba504_loans {"window": "fy2016_2025"}-->approval FY2016 to FY2025 (ten full fiscal years). U.S. Small Business Administration, Office of Capital Access, 504 FOIA loan-level data, as of 2026-06-30. <a href="https://data.sba.gov/dataset/7a-504-foia">https://data.sba.gov/dataset/7a-504-foia</a><!--/mktsrc:tx.sba504_loans--></p>
+<p>Hotel 7(a) charge-off rate, seasoned cohorts: <!--mkt:tx.sba7a_chgoff_rate.hotel {"fmt": "pct1"}-->2.8%<!--/mkt:tx.sba7a_chgoff_rate.hotel-->.
+<br>Source: <!--mktsrc:tx.sba7a_chgoff_rate-->Charge-off rate by count, seasoned cohorts FY2011 to FY2020. U.S. Small Business Administration, Office of Capital Access, 7(a) FOIA loan-level data, as of 2026-06-30. <a href="https://data.sba.gov/dataset/7a-504-foia">https://data.sba.gov/dataset/7a-504-foia</a><!--/mktsrc:tx.sba7a_chgoff_rate--></p>
+
+<h2>Connecticut: Fairfield County</h2>
+<p>SBA codes Connecticut loans in two schemes that do not nest, so the register holds no Fairfield County total. Loans coded to the legacy county: <!--mkt:connecticut/fairfield-county:legacy.sba7a_loans {"fmt": "int"}-->638<!--/mkt:connecticut/fairfield-county:legacy.sba7a_loans-->; loans coded to the planning regions the market composition names: <!--mkt:connecticut/fairfield-county:pr.sba7a_loans {"fmt": "int"}-->1,089<!--/mkt:connecticut/fairfield-county:pr.sba7a_loans-->.
+<br>Source: <!--mktsrc:connecticut/fairfield-county:legacy.sba7a_loans {"window": "fy2016_2025"}-->approval FY2016 to FY2025 (ten full fiscal years). U.S. Small Business Administration, Office of Capital Access, 7(a) FOIA loan-level data, as of 2026-06-30. <a href="https://data.sba.gov/dataset/7a-504-foia">https://data.sba.gov/dataset/7a-504-foia</a><!--/mktsrc:connecticut/fairfield-county:legacy.sba7a_loans--></p>
+
+<h2>Houston</h2>
+<p>The register holds no Houston value: Houston is a CBSA market whose member counties come from the OMB delineation file, which this lane could not fetch. houston-negative.html in this folder carries a Houston marker, and the renderer refuses it with that reason.</p>
+</body>
+</html>

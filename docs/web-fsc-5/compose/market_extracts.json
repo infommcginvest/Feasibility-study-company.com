@@ -1,0 +1,1080 @@
+{
+ "alabama": {
+  "huntsville": {
+   "title": "Huntsville",
+   "text": "Redstone, NASA Marshall, Cummings Research Park, FBI, and Space Command anchor Alabama's largest city and fastest metro growth. It is the state's growth engine and its premier oversupply-watch market at once: multifamily is oversupplied and digesting after a record delivery wave. 3 Healthcare & banking"
+  },
+  "birmingham": {
+   "title": "Birmingham\u2013Hoover",
+   "text": "The largest metro near 1.18 million, anchored by UAB, the state's largest employer at nearly 28,000 with more than $12.1 billion in economic impact, plus Regions banking. Multifamily is oversupplied at a 25-year high, and the urban core diverges sharply from the over-the-mountain suburbs. 16 7 Port & aerospace"
+  },
+  "mobile": {
+   "title": "Mobile",
+   "text": "Alabama's only saltwater port, with a 50-foot channel completed in October 2025 and a $131 million terminal expansion, plus Airbus final assembly, Austal shipbuilding, and steel. Industrial reads undersupplied and expansion-driven, offset by real coastal hurricane exposure. 12 Government & auto"
+  },
+  "montgomery": {
+   "title": "Montgomery",
+   "text": "The state capital, anchored by government, Maxwell Air Force Base, and Hyundai's Montgomery plant of about 4,200 employees. More affordable and steadier on supply; multifamily reads balanced, with metro-level Q2 2026 metrics not separately verified this cycle. 11 University & manufacturing"
+  },
+  "tuscaloosa": {
+   "title": "Tuscaloosa",
+   "text": "The University of Alabama plus the Mercedes-Benz assembly complex at Vance. A student-driven, manufacturing-supported market that reads balanced, with SEC football-weekend demand spikes; current metrics are not separately verified this cycle. Gulf Coast tourism"
+  },
+  "gulf-shores": {
+   "title": "Baldwin / Gulf Shores",
+   "text": "The fastest-growing Alabama metro near plus 3.0 percent, driven by Gulf Coast tourism, retirees, and remote workers. Record $923 million in 2025 lodging spending on 8.4 million visitors; this is a condo and short-term-rental market to underwrite on monthly, not annual, demand and to price for hurricane risk. 17 College growth"
+  },
+  "auburn": {
+   "title": "Auburn\u2013Opelika",
+   "text": "Anchored by Auburn University, the third-fastest-growing Alabama metro near 1.7 percent. A fast-growing college market that reads balanced to undersupplied, though property-level pipeline data is thinner; we build these studies with primary local research. Agriculture & USDA"
+  },
+  "black-belt": {
+   "title": "Rural Black Belt",
+   "text": "The majority-Black agricultural counties carry persistent poverty, population decline, and rural-hospital closures, with no institutional multifamily market. Heavily USDA-eligible on a poultry-led base; underwriting here demands primary local research, not metro assumptions. 25"
+  }
+ },
+ "arizona": {
+  "phoenix": {
+   "title": "Phoenix\u2013Mesa\u2013Chandler",
+   "text": "Semiconductors, data centers, logistics, finance, healthcare, and retirement across a 5,186,958-person MSA; Maricopa County alone reached 4,673,096, the fourth most-populous U.S. county. Multifamily is digesting a record cycle, industrial is anchored by TSMC and Intel, and office is the weakest major class. 1 10 University & defense"
+  },
+  "tucson": {
+   "title": "Tucson",
+   "text": "The University of Arizona, aerospace and defense, Davis-Monthan, and cross-border trade anchor a roughly one-million-person market. Tucson is the balanced counterpoint to Phoenix: multifamily tightened to 8.75 percent and office runs near 8.9 percent. 7 EV & exurban fringe"
+  },
+  "pinal-county": {
+   "title": "Pinal County / Casa Grande",
+   "text": "EV and advanced manufacturing, agriculture, and the fastest-growing exurban housing in the state, with Casa Grande up 28.5 percent since 2020. This is the water-gated fringe, where Assured Water Supply rules bear directly on greenfield feasibility. 1 19 Resort & hospitality"
+  },
+  "scottsdale": {
+   "title": "Scottsdale / Paradise Valley",
+   "text": "The resort, golf, convention, and spring-training engine, with a pronounced winter peak driven by the WM Phoenix Open and the Cactus League. Supply-heavy near-term, with about 4,200 metro rooms under construction, but the luxury corridor is resilient. 16 University & gateway tourism"
+  },
+  "flagstaff": {
+   "title": "Flagstaff / Sedona",
+   "text": "Northern Arizona University and Grand Canyon gateway tourism anchor a tight, expensive, land-constrained market. Multifamily is undersupplied and Sedona-area leisure lodging has proven durable; metro-level supply data is thinner, so we build these studies with primary local research. Agriculture & border"
+  },
+  "yuma": {
+   "title": "Yuma",
+   "text": "Winter-vegetable agriculture, the border economy, and a large winter-visitor population define a heavily USDA-eligible market. Demand is seasonal and best underwritten on monthly, not annual, occupancy. Retirement"
+  },
+  "prescott": {
+   "title": "Prescott / Lake Havasu",
+   "text": "Retirement and tourism drive Yavapai and Mohave counties. Demand is steadier and less cyclical than the Valley, but these are small, distinct submarkets that reward capture-rate discipline over statewide averages. Reservations, ag & mining"
+  },
+  "rural": {
+   "title": "Tribal & rural counties",
+   "text": "Apache, Navajo, Gila, La Paz, Cochise, Graham, and Greenlee counties span reservations, agriculture, and mining. Several are projected to lose population, financing is USDA-first, and each demands primary local research rather than a metro proxy. 2"
+  }
+ },
+ "arkansas": {
+  "northwest-arkansas": {
+   "title": "Northwest Arkansas",
+   "text": "Walmart, Tyson Foods, J.B. Hunt, and the University of Arkansas anchor the Fayetteville\u2013Springdale\u2013Rogers metro, up 2.4 percent to 622,177, the ninth-fastest-growing in the nation and the Milken Institute's top-ranked small-metro performer for 2025. 1 6 Multifamily is digesting a supply wave, storage leads the country per capita, and office runs on the vendor ecosystem. 2 Government & finance"
+  },
+  "little-rock": {
+   "title": "Little Rock\u2013North Little Rock\u2013Conway",
+   "text": "The state's largest metro at 777,607, up 0.6 percent, on government, eds-and-meds through UAMS, and finance through Stephens. Multifamily reads balanced with suburban growth in Conway and Saline County; office is softer on older, government-heavy stock. 1 Manufacturing & military"
+  },
+  "fort-smith": {
+   "title": "Fort Smith / River Valley",
+   "text": "Manufacturing and military drive the 234,140-resident metro. The Ebbing Air National Guard Base foreign F-16 and F-35 pilot-training mission, with an academic center breaking ground in May 2026, is a durable tailwind for housing, hotels, and services. 12 Agriculture & university"
+  },
+  "jonesboro": {
+   "title": "Jonesboro",
+   "text": "An agricultural and regional center of 139,440 anchored by Arkansas State University and the rice economy, home to the world's largest rice mill. Demand is steady; the market reads balanced across asset classes. 1 Land of Steel"
+  },
+  "mississippi-county": {
+   "title": "Mississippi County",
+   "text": "The top steel-producing county in the country. U.S. Steel's Big River 2 mill completed in late 2025 and a roughly $1.9 billion DRI plant was announced in Osceola, so industrial is growing while workforce housing is undersupplied. 8 Tourism & retirement"
+  },
+  "hot-springs": {
+   "title": "Hot Springs",
+   "text": "Tourism, Oaklawn racing and gaming, and retirement in Hot Springs Village anchor Garland County, the only Arkansas metro to lose population in 2025 on its older age structure. Hospitality reads balanced; retirement housing is digesting. 15 Delta & depopulation"
+  },
+  "pine-bluff": {
+   "title": "Pine Bluff / Delta",
+   "text": "Delta agriculture and the Saracen casino anchor Jefferson County, but Pine Bluff is America's fastest-shrinking city near 37,657 with a 24 percent poverty rate. Underwrite on shrinking, not growing, demand and route rural deals through USDA. 23 Smackover lithium"
+  },
+  "south-arkansas": {
+   "title": "South Arkansas",
+   "text": "Timber, energy, and the emerging Smackover lithium story across Union, Columbia, and Lafayette counties around El Dorado and Magnolia. Transformative upside, but speculative for real estate until the lithium projects reach a Final Investment Decision. 10"
+  }
+ },
+ "california": {
+  "san-francisco": {
+   "title": "San Francisco Bay Area",
+   "text": "Global AI and venture capital, biotech, and finance. San Francisco startups raised $152.5 billion in venture capital in 2025, and office is recovering as availability fell to 29.2 percent \u2014 the nation's #2 office investment target, but still structurally distressed. 3 6 Entertainment & ports"
+  },
+  "los-angeles": {
+   "title": "Los Angeles",
+   "text": "Entertainment, the San Pedro Bay ports, aerospace, and tourism across a market near 12.8 million. Los Angeles County lost about 64,000 residents in 2025 on the wildfires and out-migration; downtown office is distressed near 34 percent while the 2028 Olympics anchor the hotel upside. 1 14 27 Logistics engine"
+  },
+  "inland-empire": {
+   "title": "Inland Empire (Riverside\u2013San Bernardino)",
+   "text": "The West's logistics backbone and the second-largest U.S. industrial market at about 756.9 million square feet. Now digesting a historic supply wave: industrial vacancy 7.8 to 8.6 percent and multifamily occupancy down to 95.4 percent, powered by coastal in-migration. 9 10 Biotech & defense"
+  },
+  "san-diego": {
+   "title": "San Diego",
+   "text": "Life-science, Navy and defense, the border, and tourism across roughly 3.3 million residents. The lab-oversupply story is acute \u2014 vacancy jumped from 5.7 to 14.3 percent year over year \u2014 while hotels hold the highest occupancy in the state near 73.9 percent. 16 26 Coastal & infill industrial"
+  },
+  "orange-county": {
+   "title": "Orange County",
+   "text": "High-cost coastal housing and supply-constrained infill industrial, with availability below 3 percent at $1.75 to $2.10 triple-net. Anaheim hospitality runs near 72 percent occupancy on Disneyland demand, well above the national line. 13 26 Government & affordability"
+  },
+  "sacramento": {
+   "title": "Sacramento",
+   "text": "State government and the affordability-growth capital of California, boomed on coastal out-migration and led all counties at about plus 9,000 residents in 2025. Multifamily reads balanced and industrial is an emerging distribution alternative. 1 Agriculture & distribution"
+  },
+  "central-valley": {
+   "title": "Central Valley (Fresno / Bakersfield)",
+   "text": "The most productive U.S. agricultural region and an emerging affordable distribution alternative as the Inland Empire filled up. USDA Business & Industry and REAP are central here, and SGMA groundwater limits tie ag-industrial demand to water availability. 32 Tech & data centers"
+  },
+  "silicon-valley": {
+   "title": "Silicon Valley / San Jose",
+   "text": "Technology, data centers, and life-science. Silicon Valley led all U.S. markets with 9.7 million square feet of tech leasing in 2025, but Santa Clara data centers are power-gated \u2014 two newly built centers sit idle awaiting grid power. 5 36"
+  }
+ },
+ "connecticut": {
+  "fairfield-county": {
+   "title": "Fairfield County \u2014 Bridgeport\u2013Stamford\u2013Norwalk",
+   "text": "Greenwich hedge funds, Stamford corporate headquarters, and NYC-commuter wealth, against a distressed Bridgeport core. Stamford multifamily is digesting a record supply wave while the restrictive Gold Coast suburbs stay undersupplied, and downtown office is oversupplied but curing through residential conversion. 3 11 Insurance & aerospace"
+  },
+  "hartford": {
+   "title": "Greater Hartford \u2014 Capitol Region",
+   "text": "Insurance and financial services (Aetna, Travelers, The Hartford), the state capital, and Pratt & Whitney aerospace. Multifamily reads balanced with a downtown conversion story; industrial is balanced near 5.3 percent vacancy; office is oversupplied at 20.4 percent as the insurers consolidate. 8 9 Eds, meds & biotech"
+  },
+  "new-haven": {
+   "title": "New Haven \u2014 South Central",
+   "text": "Yale eds-and-meds plus a growing life-sciences cluster anchored on 101 College Street (525,000 square feet, opened 2024). Office reads balanced at 17.2 percent, multifamily is balanced-to-tight on biotech in-migration, and new lab supply is being absorbed. 9 19 Submarines & casinos"
+  },
+  "new-london": {
+   "title": "Southeastern CT \u2014 Norwich\u2013New London",
+   "text": "Electric Boat submarines, the Navy sub base, the Foxwoods and Mohegan Sun casino resorts, and Mystic shoreline tourism. EB plans 8,000 hires in 2026, leaving multifamily undersupplied in the corridor; the gaming market is saturated but recovering. 13 15 Distressed manufacturing"
+  },
+  "waterbury": {
+   "title": "Waterbury / Naugatuck Valley",
+   "text": "A manufacturing-legacy corridor of distressed cities carrying high mill rates and fiscal fragility. The read is structurally constrained rather than oversupplied, and the specific municipal mill rate dominates any NOI model here. 2 Affluent rural"
+  },
+  "litchfield-hills": {
+   "title": "Litchfield Hills / Northwest Hills",
+   "text": "Affluent rural, second-home demand, and USDA-eligible territory. Inventory is thin and undersupplied, and we build these studies with primary local research routed through the USDA area offices. 21 Rural & agricultural"
+  },
+  "quiet-corner": {
+   "title": "Quiet Corner / Northeastern",
+   "text": "Rural, agricultural eastern Connecticut \u2014 dairy, nursery and greenhouse, Connecticut River Valley shade tobacco, and aquaculture \u2014 and USDA-eligible. Supply data is thin; these are primary-research markets suited to USDA B&I and REAP. 21 Distressed urban core"
+  },
+  "bridgeport": {
+   "title": "Greater Bridgeport",
+   "text": "Connecticut's largest city and a distressed core with a mill rate near 54, home turf of the former People's United now inside M&T. Underwriting requires pricing fiscal fragility and the 8-30g entitlement path rather than importing a growth-market capture rate. 2 25"
+  }
+ },
+ "florida": {
+  "miami": {
+   "title": "Miami\u2013Fort Lauderdale\u2013West Palm Beach",
+   "text": "Finance, trade, tourism, and international capital across a tri-county market near 6.1 million. Miami-Dade lost 10,115 residents in 2024\u201325 and depends on international migration. Multifamily is the tightest major metro, office is undersupplied at the top end, and storage is land-constrained. 3 13 Finance & healthcare"
+  },
+  "tampa": {
+   "title": "Tampa\u2013St. Petersburg\u2013Clearwater",
+   "text": "Finance, healthcare, and logistics across roughly 3.3 million residents; Pinellas lost 11,834 in 2024\u201325. Multifamily is oversupplied and moderating, small-bay industrial is tight, and senior housing ranks among the top three occupancy markets nationally. 3 16 Tourism & tech"
+  },
+  "orlando": {
+   "title": "Orlando\u2013Kissimmee\u2013Sanford",
+   "text": "Tourism, technology, aerospace, and logistics. At about 2.94 million and adding roughly 75,969 residents, Orlando was Florida's fastest-growing metro in 2024\u201325. Multifamily is digesting a heavy pipeline, industrial is recovering, and the hotel early-planning pipeline ranks top-five nationally. 2 6 Logistics & ports"
+  },
+  "jacksonville": {
+   "title": "Jacksonville",
+   "text": "Port logistics through JAXPORT, plus finance and healthcare; the city crossed 1,009,833 residents in 2024. Jacksonville is Florida's clearest oversupply analog: the deepest multifamily overhang in the state at 12.2 percent, oversupplied storage, and the weakest office metro. 3 7 I-4 distribution"
+  },
+  "lakeland": {
+   "title": "Lakeland\u2013Winter Haven",
+   "text": "I-4 logistics and distribution. Population reached 874,790, up 2.7 percent in 2024\u201325, the fourth-highest percentage growth among Florida metros. Multifamily reads balanced, and the corridor is the natural industrial landing zone between Tampa and Orlando. 2 Retiree & Gulf coast"
+  },
+  "fort-myers": {
+   "title": "Cape Coral\u2013Fort Myers / Sarasota",
+   "text": "Retiree in-migration, construction, and tourism across high-growth Southwest Florida. Self-storage is oversupplied at 11.4 square feet per capita with falling street rates, and single-family and seasonal exposure runs high \u2014 a market to underwrite on monthly, not annual, demand. 8 9 Retiree boomtown"
+  },
+  "the-villages": {
+   "title": "The Villages / Ocala",
+   "text": "The nation's fastest-growing metro engine: Wildwood\u2013The Villages grew 4.7 percent and Ocala 3.4 percent in the 2022\u20132023 vintage. Retiree-driven demand rewards capture-rate discipline, because trailing counts overstate absorption once growth rotates elsewhere. 2 Government & universities"
+  },
+  "gainesville": {
+   "title": "Pensacola / Tallahassee / Gainesville",
+   "text": "Government, major universities, and military anchor the Panhandle and North Central Florida. Demand is steadier and less cyclical, but metro-level supply data is thinner; we build these studies with primary local research."
+  }
+ },
+ "georgia": {
+  "atlanta": {
+   "title": "Atlanta",
+   "text": "Corporate headquarters, logistics, technology, data centers, film, and finance across a 29-county market near 6.4 million, more than half the state. Multifamily is digesting toward balance, industrial is recovering on a decade-low pipeline, self-storage is the national oversupply leader, and metro Atlanta is now the second-largest U.S. data-center market. 1 11 Port & EV manufacturing"
+  },
+  "savannah": {
+   "title": "Savannah",
+   "text": "The largest single-terminal container port in North America, plus the $12.6 billion Hyundai Metaplant and a tourism economy. Industrial is digesting nearly 9.8 million square feet of 2025 speculative supply at 10.8 percent vacancy \u2014 a structural-growth story with real timing risk. 2 10 Cyber, medical & the Masters"
+  },
+  "augusta": {
+   "title": "Augusta",
+   "text": "Fort Eisenhower's cyber mission, the Wellstar MCG medical base, and the annual Masters Tournament anchor a government-and-medical economy. The Masters is a one-week RevPAR spike that must not be annualized into a stabilized pro forma. 14 Military & finance"
+  },
+  "columbus": {
+   "title": "Columbus",
+   "text": "Fort Moore, Synovus headquarters, and Aflac anchor a stable West Georgia economy. Demand is steadier and less cyclical, and metro-level supply data is thinner; we build these studies with primary local research. Logistics & medical"
+  },
+  "macon": {
+   "title": "Macon",
+   "text": "Central Georgia logistics and healthcare with Robins Air Force Base adjacency. A balanced, distribution-and-government-anchored market where trailing vendor data is thin and primary research carries the study. University-anchored"
+  },
+  "athens": {
+   "title": "Athens",
+   "text": "The University of Georgia anchors a student-driven housing market that was part of the 2022\u20132023 purpose-built boom. Demand is enrollment-linked and event-driven; underwrite against the academic calendar, not a stabilized commercial curve. Agriculture"
+  },
+  "albany": {
+   "title": "Albany / South Georgia",
+   "text": "Agriculture and food processing across a flat-to-declining base; Albany-area counties lost population over 2020\u20132024. Growth-market capture rates overstate demand here, and the USDA rural channel, not metro SBA assumptions, usually drives the financing. 1 19 Defense & agriculture"
+  },
+  "valdosta": {
+   "title": "Valdosta / Warner Robins",
+   "text": "Moody Air Force Base at Valdosta and Robins Air Force Base at Warner Robins anchor stable, defense-linked demand across South and Central Georgia, with agriculture filling the rural balance. These are steady-base markets built on primary local research."
+  }
+ },
+ "hawaii": {
+  "oahu": {
+   "title": "Honolulu / Oahu",
+   "text": "Government, finance, Waikiki tourism, and Pearl Harbor. Home to 69.1 percent of the state on industrial vacancy near 1.2 percent; growth concentrates in Kakaako transit-oriented development and the Kapolei\u2013Ewa second city. 2 10 Second city"
+  },
+  "kapolei": {
+   "title": "Kapolei / Ewa",
+   "text": "Oahu's designated growth corridor along the Skyline rail. Hoopili and Koa Ridge anchor the largest master-planned housing pipeline in the state, and industrial delivers here and at James Campbell Industrial Park. 10 Tourism & post-fire"
+  },
+  "maui": {
+   "title": "Maui County",
+   "text": "Wailea and Kaanapali resorts, a post-fire housing crisis, and the Bill 9 short-term-rental phase-out. County population fell 1.0 percent and condo prices dropped 44 percent year over year. 16 17 Fire rebuild"
+  },
+  "lahaina": {
+   "title": "West Maui / Lahaina",
+   "text": "The fire-devastated submarket, slowly rebuilding, with 634 permits issued on 473 affected parcels by mid-2026. Hotel RevPAR recovered to about $211 but remains well below 2019. 16 15 Agriculture & astronomy"
+  },
+  "hawaii-island": {
+   "title": "Hawaii Island (Big Island)",
+   "text": "Kona\u2013Kohala resorts, diversified agriculture, and Mauna Kea astronomy. The most affordable land in the state and the only growing county, but much of Puna sits in Lava Zones 1 and 2. 27 Restrictive & resort"
+  },
+  "kauai": {
+   "title": "Kauai",
+   "text": "Poipu and Princeville resorts on highly restrictive, anti-development policy. Led the counties in September 2025 hotel RevPAR at $287; undersupplied by design. 15"
+  }
+ },
+ "illinois": {
+  "chicago": {
+   "title": "Chicago",
+   "text": "Finance, corporate headquarters, logistics, and tech across a metro of roughly 9.4 million, about three-quarters of the state. Multifamily is undersupplied downtown, industrial is digesting a record cycle, and office is in record distress. 2 11 Aerospace & logistics"
+  },
+  "rockford": {
+   "title": "Rockford",
+   "text": "Aerospace, logistics, and manufacturing, with roughly 337,000 residents in a market that is declining but stabilizing. Industrial runs tighter than the metro average, and rents are up about 4.1 percent year over year. 1 6 Heavy manufacturing"
+  },
+  "peoria": {
+   "title": "Peoria",
+   "text": "Caterpillar, healthcare, and agriculture across roughly 365,000 residents in a stagnant-to-declining market. Multifamily is balanced but demand is soft, and industrial tracks Caterpillar\u2019s cycle. 1 State government"
+  },
+  "springfield": {
+   "title": "Springfield",
+   "text": "The state capital, government, and healthcare anchor roughly 207,000 residents. Balanced and slow-growth, with thin office and industrial that we build from primary local research. 1 University & tech"
+  },
+  "champaign-urbana": {
+   "title": "Champaign\u2013Urbana",
+   "text": "The University of Illinois and a growing tech base support roughly 242,000 residents at a record high. UIUC topped 60,000 enrollment in fall 2025, anchoring a very large student-housing market. 18 Insurance & EV"
+  },
+  "bloomington-normal": {
+   "title": "Bloomington\u2013Normal",
+   "text": "State Farm, Illinois State University, and the Rivian EV plant drive roughly 172,000 residents in one of the few growing downstate metros. Multifamily and industrial are tightening on Rivian supplier demand. 18 Manufacturing & ag"
+  },
+  "quad-cities": {
+   "title": "Quad Cities",
+   "text": "Manufacturing and agriculture on the Mississippi, with roughly 213,000 residents on the Illinois side of the bi-state metro. Balanced and slowly declining across most asset classes. 1 St. Louis logistics"
+  },
+  "metro-east": {
+   "title": "Metro East",
+   "text": "The Illinois side of the St. Louis metro, St. Clair and Madison counties, roughly 514,000 residents. Logistics and manufacturing, with industrial growing on St. Louis-adjacent distribution demand. 1"
+  }
+ },
+ "indiana": {
+  "indianapolis": {
+   "title": "Indianapolis\u2013Carmel\u2013Greenwood",
+   "text": "Logistics, insurance, life science and pharma (Eli Lilly), and advanced manufacturing across an eleven-county metro of about 2.17 million. The metro added 26,661 residents in 2024, roughly 60 percent of the state's growth. Multifamily is digesting a record wave with occupancy rising, industrial is successfully digested, and office is sharply bifurcated between a soft CBD and a tightening Carmel corridor. 1 7 Wealthy suburbs & the LEAP district"
+  },
+  "carmel": {
+   "title": "Hamilton, Boone & Hendricks collar",
+   "text": "The state's growth engine: Hamilton County led Indiana with +7,116 residents in 2024, and Boone County \u2014 home to the LEAP advanced-manufacturing district and Eli Lilly's $18-billion-plus campus \u2014 grew fastest at 3.4 percent. Carmel alone will comprise more than half the metro's 2026 multifamily deliveries, so capture-rate and megaproject-timing discipline decide these deals. 1 5 14 Diversified manufacturing & data"
+  },
+  "fort-wayne": {
+   "title": "Fort Wayne",
+   "text": "Diversified manufacturing, insurance, and a growing Google data-center presence anchor Allen County, which added 4,164 residents in 2024. Fort Wayne is an affordable, balanced-to-tight multifamily market; precise Q1/Q2 2026 vendor metrics should be pulled before publication. 1 17 Steel, logistics & Chicago orbit"
+  },
+  "northwest-indiana": {
+   "title": "Northwest Indiana / the Region",
+   "text": "Lake and Porter counties sit inside the Chicago MSA, anchored by Gary and Burns Harbor steel and the Port of Indiana, now supplemented by Chicago-spillover logistics. Legacy-industrial contraction and logistics growth run side by side, so comparables must be chosen within-region, not statewide. 1 University-driven & tight"
+  },
+  "bloomington": {
+   "title": "Bloomington & West Lafayette",
+   "text": "Indiana University and Purdue drive structurally tight, student-segment housing, even though the Bloomington metro posted a 0.2 percent population decline in 2024 while Tippecanoe County was among the state's fastest-growing. Cook Medical, Subaru, and a Purdue-led semiconductor push diversify the base. 1 RV manufacturing & Notre Dame"
+  },
+  "elkhart": {
+   "title": "Elkhart & South Bend",
+   "text": "Elkhart County builds 88 percent of all U.S. and Canadian RVs, a highly cyclical base \u2014 shipments fell 13.9 percent year over year in March 2026 \u2014 while South Bend adds Notre Dame and the nearby AWS Project Rainier campus. Rental demand tracks the RV cycle, the canonical Indiana concentration warning. 20 16 Auto & EV battery"
+  },
+  "kokomo": {
+   "title": "Kokomo & Lafayette",
+   "text": "Kokomo hosts the Stellantis\u2013Samsung SDI StarPlus Energy battery gigafactories, and the corridor adds GM, Subaru, and Toyota. The EV-slowdown risk is live: Stellantis is exploring exiting the joint venture after more than $26 billion in write-downs, so any workforce-driven absorption must be stress-tested. 19 Orthopedics & specialized mfg"
+  },
+  "warsaw": {
+   "title": "Warsaw, Columbus & Evansville",
+   "text": "Warsaw is the \"Orthopedics Capital of the World,\" home to Zimmer Biomet and DePuy Synthes and roughly a third of the global $32.5-billion orthopedic-device sector, employing about 13,000; Columbus anchors Cummins diesel and Evansville anchors Southwest Indiana healthcare and manufacturing. Steadier, cluster-driven demand with thinner metro-level vendor data. 21"
+  }
+ },
+ "iowa": {
+  "des-moines": {
+   "title": "Des Moines\u2013West Des Moines",
+   "text": "Insurance and financial services, government, data centers, and logistics across a six-county metro that added 13,782 residents in 2024, the fastest nominal growth in the Midwest. Multifamily and industrial are digesting a supply wave; the CBD office submarket is oversupplied. 2 3 Corn-processing & aerospace"
+  },
+  "cedar-rapids": {
+   "title": "Cedar Rapids",
+   "text": "World-scale corn-processing, Collins Aerospace avionics, and a fast-growing data-center cluster across about 280,000 residents. Multifamily is tightening as data-center construction fills units, and industrial is undersupplied on the same pull. 7 16 University & academic medicine"
+  },
+  "iowa-city": {
+   "title": "Iowa City",
+   "text": "The University of Iowa and its academic medical center anchor a market of about 180,000, up 2.7 percent over three years. Student housing is short of amenitized Class A supply, a genuine undersupply where competitors assume Big Ten-scale delivery. 6 Deere & river/casino"
+  },
+  "quad-cities": {
+   "title": "Quad Cities",
+   "text": "John Deere ag-equipment manufacturing plus a river and casino economy across a bi-state metro of about 380,000 that fell 1.3 percent over three years. Multifamily and industrial read balanced but carry the ag-equipment downcycle risk. 1 12 Deere & university"
+  },
+  "waterloo-cedar-falls": {
+   "title": "Waterloo\u2013Cedar Falls",
+   "text": "John Deere \u2014 which cut 1,075 Waterloo jobs in 2024 \u2014 and the University of Northern Iowa anchor a market of about 170,000. A manufacturing town where the commodity and farm-equipment cycle is the master variable. 12 Ag & meatpacking"
+  },
+  "sioux-city": {
+   "title": "Sioux City",
+   "text": "Agriculture and protein processing across a tri-state market near 150,000, running roughly flat. Industrial keys off meatpacking capacity and the ag-processing base; metro-level supply data is thinner and built with primary local research. 10 Data centers & casinos"
+  },
+  "council-bluffs": {
+   "title": "Council Bluffs",
+   "text": "Google's $6.8 billion data-center anchor, casinos, and integration with the growing Omaha metro. A distinct industrial and hospitality sub-economy where data-center concentration and utility load are the defining variables. 15 Universities & manufacturing"
+  },
+  "ames": {
+   "title": "Ames / Dubuque",
+   "text": "Iowa State University drives student demand in Ames, while Dubuque pairs manufacturing and a Deere presence with a river economy. Steadier, less cyclical demand, but each is underwritten on its own base rather than a statewide average. 1"
+  }
+ },
+ "maine": {
+  "portland": {
+   "title": "Greater Portland",
+   "text": "Healthcare, finance, port logistics, tourism, and tech, anchoring Cumberland County at 308,827 residents. The tightest, most expensive market, digesting 700-plus downtown units while structurally undersupplied long-term, and subject to rent control. 5 8 Boston-commuter south"
+  },
+  "york-county": {
+   "title": "York County",
+   "text": "Portsmouth Naval Shipyard in Kittery, outlet retail, and Massachusetts in-migration drive the state's second-largest county. Coastal-luxury pricing runs high, with Kennebunkport list prices routinely above $1.5 million. 5 Regional hub"
+  },
+  "bangor": {
+   "title": "Bangor (Penobscot)",
+   "text": "Northern Light Health, the University of Maine at Orono, a retail trade hub, and a casino. Multifamily vacancy fell to 1.9 percent with no properties under construction, a clean developer opportunity. 10 Second metro"
+  },
+  "lewiston-auburn": {
+   "title": "Lewiston\u2013Auburn",
+   "text": "Healthcare, manufacturing, and an immigrant-receiving economy anchor Androscoggin County. The more affordable second metro, where Auburn pushed density beyond the LD 2003 floor. 7 Coastal tourism"
+  },
+  "midcoast": {
+   "title": "Midcoast (Knox & Lincoln)",
+   "text": "Affluent coastal tourism and arts anchored by Rockland, Camden, and Boothbay. Extreme seasonality and a second-home and short-term-rental stock that consumes workforce housing define the underwriting. 5 Acadia & seasonality"
+  },
+  "bar-harbor": {
+   "title": "Bar Harbor / Downeast",
+   "text": "Hancock County tourism anchored by Acadia, which set a record 4,079,318 visits in 2025 against roughly 3,500 full-time Bar Harbor residents. The signature seasonal market, with cruise and short-term-rental caps and zero nursing homes. 17 Defense & shipbuilding"
+  },
+  "bath": {
+   "title": "Bath (Sagadahoc)",
+   "text": "Bath Iron Works anchors Sagadahoc County, building Arleigh Burke-class destroyers and needing to hire 3,500 by 2026. A demand-rich, workforce-constrained market where BIW is building its own housing. 13 Depopulating north"
+  },
+  "aroostook": {
+   "title": "Aroostook / The County",
+   "text": "Potatoes, forest products, and the ex-Loring Air Force Base define Maine's far north, the steepest-declining county at 0.47 percent in the year to July 2025. Conventional feasibility is thin; USDA and NBRC channels carry the rural deals. 2"
+  }
+ },
+ "maryland": {
+  "montgomery-county": {
+   "title": "Montgomery County (Bethesda / Rockville / Gaithersburg)",
+   "text": "NIH, the FDA, and the I-270 BioHealth corridor anchor the state's wealthiest county at 1,082,273 residents. Lab space is a landlord's market near 4 percent vacancy while conventional suburban office runs above 20 percent, and the decisive risk is NIH funding and the federal-workforce contraction. 1 5 Federal, universities & National Harbor"
+  },
+  "prince-georges-county": {
+   "title": "Prince George's County",
+   "text": "The University of Maryland, the FBI-headquarters-to-Greenbelt decision, and National Harbor's MGM and Gaylord complex anchor about 966,629 residents. Multifamily reads balanced and hospitality is convention-driven, but office is oversupplied and federal demand carries downside. 1 Eds, meds & the Port"
+  },
+  "baltimore": {
+   "title": "Baltimore City",
+   "text": "Johns Hopkins, the Port of Baltimore, and an eds-and-meds base anchor about 573,243 residents in the only major Maryland jurisdiction losing population. Multifamily is digesting conversions near 7.5 percent vacancy, industrial has turned to correction, and downtown office is distressed. 1 9 10 Cyber, defense & logistics"
+  },
+  "bwi-corridor": {
+   "title": "Baltimore County, Anne Arundel & Howard",
+   "text": "The Social Security Administration, Fort Meade and the NSA cyber cluster, BWI, and one of the nation's highest-income counties in Howard anchor a durable, defense-linked BWI corridor. Industrial is digesting along I-95 while office holds balanced on cyber demand. 1 11 Data centers & biotech manufacturing"
+  },
+  "frederick": {
+   "title": "Frederick County",
+   "text": "Between Washington and Baltimore, fast-growing Frederick County near 300,000 residents anchors the Quantum Frederick data-center campus and a biotech-manufacturing base. Multifamily is digesting growth-driven supply, and the industrial and lab-manufacturing pipelines are emerging. 1 22 Poultry, agriculture & Ocean City"
+  },
+  "eastern-shore": {
+   "title": "Eastern Shore (Salisbury / Ocean City)",
+   "text": "The Delmarva poultry industry, agriculture, and Ocean City tourism anchor a USDA-eligible rural economy. Demand is steadier and seasonal, storage and multifamily read balanced, and Ocean City hospitality must be underwritten on monthly, not annual, occupancy. 28 Logistics & mountain tourism"
+  },
+  "western-maryland": {
+   "title": "Western Maryland (Hagerstown / Cumberland)",
+   "text": "Hagerstown's I-81 and I-70 junction supports big-box logistics growth while far-western Allegany and Garrett counties lean on Deep Creek Lake tourism. Reads are broadly balanced, with logistics the growth vector and the far west flat to declining. Federal exurbs & Patuxent"
+  },
+  "southern-maryland": {
+   "title": "Southern Maryland (Charles / Calvert / St. Mary's)",
+   "text": "Patuxent River Naval Air Station and Washington-exurb growth anchor a roughly 500,000-resident region. Demand is federal-and-defense-linked and steadier than the metro core, though thinner metro-level supply data calls for primary local research. 1"
+  }
+ },
+ "massachusetts": {
+  "boston": {
+   "title": "Greater Boston",
+   "text": "Life science, eds-and-meds, technology, and finance anchor a metro of roughly 4.9 million. Multifamily is balanced with the luxury core digesting, self-storage and infill industrial are structurally short, and office is distressed outside trophy Class A. 13 15 The global lab cluster"
+  },
+  "cambridge": {
+   "title": "Cambridge & Kendall Square",
+   "text": "The world's leading life-science cluster, where Class A Kendall lab is the most sought-after on earth even as metro lab vacancy set records near 32 to 34 percent and Cambridge office ran to about 25 percent. The signature market to underwrite on current, not 2021, assumptions. 3 4 Biomanufacturing & logistics"
+  },
+  "worcester": {
+   "title": "Worcester & the I-495 Belt",
+   "text": "Eds-and-meds, biomanufacturing, and logistics. Worcester is the standout Gateway City with rents up 2.19 percent, and nearby Devens is a national biomanufacturing hub anchored by Bristol Myers Squibb and Commonwealth Fusion Systems. 14 17 Healthcare & the Five Colleges"
+  },
+  "springfield": {
+   "title": "Springfield & the Pioneer Valley",
+   "text": "Healthcare, education, and manufacturing anchor Springfield, while the Pioneer Valley runs on the Five Colleges around Amherst and Northampton. Affordable, value-add multifamily on a slower demographic curve; submarket data is thinner and built from primary local research. Manufacturing & immigration"
+  },
+  "lowell": {
+   "title": "Merrimack Valley \u2014 Lowell & Lawrence",
+   "text": "Manufacturing, healthcare, and education across Lowell and Lawrence, growing on international migration. Value-add multifamily reads balanced to undersupplied, and Lowell posted among the largest office-vacancy declines in the state in late 2025. 14 Fishing & the South Coast"
+  },
+  "new-bedford": {
+   "title": "New Bedford & Fall River",
+   "text": "Fishing, manufacturing, and healthcare anchor the South Coast, more affordable and value-add with a flatter demographic trajectory. A market to build from local data rather than statewide averages. Cultural tourism"
+  },
+  "berkshires": {
+   "title": "Berkshires & Western Massachusetts",
+   "text": "Cultural tourism \u2014 Tanglewood, MASS MoCA \u2014 and healthcare anchor a region that is losing population. USDA-eligible rural territory routes financing to the Amherst office; underwrite on seasonal, not annual, demand. Seasonal resort & second homes"
+  },
+  "cape-cod": {
+   "title": "Cape Cod & the Islands",
+   "text": "Tourism, second homes, and healthcare across Barnstable, Martha's Vineyard, and Nantucket. Year-round housing is undersupplied and cost-constrained, seasonality is extreme, and demand must be modeled monthly rather than annually."
+  }
+ },
+ "michigan": {
+  "detroit": {
+   "title": "Detroit\u2013Warren\u2013Dearborn",
+   "text": "Auto and EV, finance, health, and a genuine downtown revival across an MSA of 4,400,578; Detroit proper reached 645,705, growing three straight years. Multifamily is balanced at 94.8 percent occupancy, industrial is a divergent vendor read, and suburban office is oversupplied while downtown digests a flight-to-quality. 1 4 Furniture, med device & food"
+  },
+  "grand-rapids": {
+   "title": "Grand Rapids / West Michigan",
+   "text": "The state's growth leader on a diversified base \u2014 office furniture, medical devices, and food processing \u2014 with Kent County up 4,800 to 675,232. Multifamily is digesting a healthy pipeline at plus 3.8 percent rent growth and 5,142 units under construction; industrial and office read balanced. 2 5 University & life science"
+  },
+  "ann-arbor": {
+   "title": "Ann Arbor",
+   "text": "Growing and prosperous, anchored by the University of Michigan, a tech cluster, and life sciences. Average apartment rent near $2,021 keeps multifamily undersupplied, self-storage ranks 7th nationally for demand, and office is tight \u2014 the tightest metro in the state. 7 8 Government & universities"
+  },
+  "lansing": {
+   "title": "Lansing\u2013East Lansing",
+   "text": "State government, auto, and Michigan State University anchor stable, modest growth. Multifamily and storage read balanced, and Lansing\u2013East Lansing screens as a top-20 emerging storage market on roughly 16 percent population growth \u2014 a steadier, less cyclical demand base. 8 Pharma & advanced mfg"
+  },
+  "kalamazoo": {
+   "title": "Kalamazoo",
+   "text": "Stable and anchored by pharma \u2014 Stryker and Pfizer \u2014 and Western Michigan University. Demand fundamentals are steady across asset classes, and every monitored cell reads balanced; we build these studies with primary local research on the medical and university base. Legacy auto & manufacturing"
+  },
+  "flint": {
+   "title": "Flint / Saginaw",
+   "text": "Legacy auto and manufacturing markets in long-run population decline. Multifamily reads balanced but with weak demand fundamentals, and office carries structural oversupply. These are capture-rate discipline cases: growth-market absorption cannot be assumed in a shrinking submarket. 2 Tourism, wine & second homes"
+  },
+  "traverse-city": {
+   "title": "Traverse City / Northern Michigan",
+   "text": "A fast-growing, priced-out leisure economy of tourism, wine, and agriculture, from the Grand Traverse region to Mackinac Island. The 10-county northern region needs 30,000 more housing units by 2027; multifamily and industrial are undersupplied and hotels are seasonal and leisure-driven. 22 Tourism, timber & mining"
+  },
+  "upper-peninsula": {
+   "title": "Upper Peninsula (Marquette)",
+   "text": "A small, slowly declining economy of tourism, timber, and mining across a heavily USDA-eligible territory. Supply is thin and data is sparse, so demand is best routed through USDA Rural Development and built with primary local research rather than statewide averages. 27"
+  }
+ },
+ "minnesota": {
+  "minneapolis-st-paul": {
+   "title": "Minneapolis\u2013St. Paul",
+   "text": "Finance, healthcare, medtech, retail, food, and insurance across a metro of roughly 3.5 million that generates the bulk of state output and hosts 17 Fortune 500 headquarters. Multifamily is digesting in the core and balanced in the suburbs, downtown office is oversupplied, and industrial is tight. 2 3 Mayo & medical tourism"
+  },
+  "rochester": {
+   "title": "Rochester",
+   "text": "Mayo Clinic, the Destination Medical Center, medtech and biotech, and global medical tourism anchor a metro of 230,742, up 1.95 percent since 2020. Mayo's $5 billion transformation makes multifamily, hotels, and lab space structurally demand-anchored and undersupplied. 12 Port & Lake Superior"
+  },
+  "duluth": {
+   "title": "Duluth",
+   "text": "The Port of Duluth-Superior, the largest Great Lakes port by tonnage, plus iron-ore gateway logistics, healthcare, and tourism across a metro of 281,603. Housing stock is older and tight, industrial is specialized and steel-cyclical, and lodging is seasonal. Regional hub & college"
+  },
+  "st-cloud": {
+   "title": "St. Cloud",
+   "text": "A regional hub of roughly 200,000 with a college anchor and a manufacturing base. Demand is steadier and less cyclical, with episodic student-oriented supply; multifamily reads balanced. College & Fargo orbit"
+  },
+  "mankato": {
+   "title": "Mankato & Moorhead",
+   "text": "Mankato pairs a college and regional healthcare and retail across a metro of 104,248, while Moorhead sits in the Fargo-Moorhead cross-border economy on an agricultural base. Both read balanced and are built on primary local research. Mining belt"
+  },
+  "iron-range": {
+   "title": "Iron Range",
+   "text": "Taconite mining and processing anchor the Mesabi Range at Hibbing, Virginia, and Eveleth, with two contested copper-nickel projects, NewRange and Twin Metals, unresolved in litigation and permitting. Growth is flat-to-challenged; mining-dependent demand is not underwritten as committed. 25 Lakes & tourism"
+  },
+  "brainerd": {
+   "title": "Brainerd Lakes",
+   "text": "Cabin country and Northwoods lakes tourism drive a seasonal demand curve across Crow Wing County. Hotels, resorts, and seasonal retail must be underwritten on monthly, not annual, occupancy. Data-center corridor"
+  },
+  "rosemount": {
+   "title": "Rosemount & the south metro",
+   "text": "Meta's $800 million, 715,000-square-foot AI data center at UMore Park, slated operational in 2026 and powered by Xcel Energy, anchors an emerging large-load corridor where power availability and the post-2025 incentive structure are the binding constraints. 14"
+  }
+ },
+ "mississippi": {
+  "jackson": {
+   "title": "Jackson Metro (Madison / Rankin / Hinds)",
+   "text": "Government, the University of Mississippi Medical Center, and the affluent Madison\u2013Rankin suburbs against a distressed Hinds County core; the defining city-vs-suburb divergence, now the site of the AWS mega-campus. 1 9 Memphis logistics"
+  },
+  "desoto-county": {
+   "title": "DeSoto County / North Mississippi",
+   "text": "Memphis-suburb spillover and warehouse logistics across Southaven, Olive Branch, and Hernando; the state's fastest-growing county at about 197,000 (+6.1 percent) with an $85,297 median household income. 2 12 Gaming, tourism & shipbuilding"
+  },
+  "gulf-coast": {
+   "title": "Gulf Coast (Gulfport\u2013Biloxi / Pascagoula)",
+   "text": "Casinos, tourism, and Ingalls shipbuilding; the Coast generated $1.59 billion in gaming revenue in 2025, and Ingalls is the state's largest manufacturing employer at about 11,000. 5 8 Metals & university"
+  },
+  "golden-triangle": {
+   "title": "Golden Triangle (Columbus / Starkville)",
+   "text": "Steel Dynamics' $2.5 billion aluminum mill and Mississippi State University; workforce and support-industrial product read undersupplied against the buildout. 10 Furniture & automotive"
+  },
+  "tupelo": {
+   "title": "Tupelo / Northeast Mississippi",
+   "text": "The world's densest upholstered-furniture cluster plus Toyota's nearby Blue Springs plant; roughly 6,700 Lee County furniture workers across 100-plus companies. 14 11 University & student housing"
+  },
+  "oxford": {
+   "title": "Oxford / Lafayette County",
+   "text": "The University of Mississippi at a record 28,405 students in fall 2025; the state's clearest student-housing digestion story against a roughly 2,700-bed pipeline through 2027. 17 Row-crop ag & Tunica"
+  },
+  "delta": {
+   "title": "The Delta",
+   "text": "Row-crop agriculture, catfish, and the contracting Tunica gaming market; the poorest U.S. region since 2001, sharply depopulating, and oversupplied relative to demand across asset classes. 5 22 University & healthcare"
+  },
+  "hattiesburg": {
+   "title": "Hattiesburg / Pine Belt & Meridian",
+   "text": "The University of Southern Mississippi, healthcare, and the $10 billion Compass data center in Meridian anchor thinner but steadier South and East Mississippi markets; we build these studies with primary local research. 13"
+  }
+ },
+ "missouri": {
+  "kansas-city": {
+   "title": "Kansas City",
+   "text": "Intermodal logistics at the geographic center of the country, the world's largest animal-health corridor, manufacturing, and Panasonic-battery spillover from De Soto, Kansas. Industrial runs near 5 percent vacancy with 8.4 million square feet absorbed in 2025; multifamily is digesting a delivery wave. 2 8 Bioscience & defense"
+  },
+  "st-louis": {
+   "title": "St. Louis 39 North / Cortex",
+   "text": "A global plant-science cluster: the Donald Danforth Plant Science Center, Bayer Crop Science, the 600-acre 39 North AgTech district, and the Cortex innovation district. Durable, specialized demand for lab, flex, and R&D space \u2014 but talent-supply-constrained. 27"
+  },
+  "springfield": {
+   "title": "Springfield",
+   "text": "Southwest Missouri's affordable regional hub, anchored by O'Reilly Auto Parts, Bass Pro, Amazon, and Prime Inc., plus CoxHealth and Mercy. A growing distribution market with a North Corridor industrial pipeline roughly 65 percent pre-leased and multifamily a strong performer. 13 University & insurance"
+  },
+  "columbia": {
+   "title": "Columbia",
+   "text": "The University of Missouri anchors a stable, student-driven economy alongside healthcare and insurance. Multifamily demand is steady and less cyclical, though named-vendor metrics are thinner; we build these studies with primary local research. Animal health & food processing"
+  },
+  "st-joseph": {
+   "title": "St. Joseph",
+   "text": "A northwest anchor of the Kansas City Animal Health Corridor, led by Boehringer Ingelheim (about 1,400 workers) and food processing. The corridor accounts for roughly 56 percent of global animal-health sales and more than 22,000 direct jobs. 13 26 Tourism & resort"
+  },
+  "branson": {
+   "title": "Branson / Lake of the Ozarks",
+   "text": "A major domestic live-entertainment and theater market plus resort and second-home tourism, with a large short-term-rental base. Demand is seasonal and tourism-sensitive, and lodging must be underwritten on monthly, not annual, occupancy; named-vendor metrics are bespoke. Government & regional hubs"
+  },
+  "jefferson-city": {
+   "title": "Jefferson City / Cape Girardeau / Joplin",
+   "text": "State government and Central Bancompany in Jefferson City, regional healthcare and retail hubs in Cape Girardeau, and distribution and healthcare in Joplin \u2014 where the 2011 EF-5 tornado remains a structural-risk reference. Flat-to-slow markets built on primary local research. Ag-biotech & plant science"
+  }
+ },
+ "nevada": {
+  "las-vegas": {
+   "title": "Las Vegas\u2013Henderson\u2013Paradise",
+   "text": "Gaming, conventions, sports, and West Coast logistics across Clark County, about 73 percent of the state. Visitation fell 7.5 percent in 2025 even as gaming set records; multifamily and big-box industrial are digesting delivery waves while retail stays tight. 3 1 Advanced manufacturing"
+  },
+  "reno": {
+   "title": "Reno\u2013Sparks",
+   "text": "Tesla, the Tahoe-Reno Industrial Center, data centers, and California-overflow logistics anchor Washoe County, about 15 percent of the state. Industrial is absorbing and land-constrained, and office vacancy hit a record-low 8.4 percent in Q2 2026. 14 16 State government"
+  },
+  "carson-city": {
+   "title": "Carson City",
+   "text": "The capital economy runs on state government and Reno\u2013Carson commuter spillover into Lyon County. Demand is steadier and less cyclical, but institutional product is thin; we build these studies with primary local research. 1 I-80 distribution"
+  },
+  "fernley": {
+   "title": "Lyon County (Fernley / Dayton)",
+   "text": "The I-80 industrial and distribution corridor east of Reno, plus a fast-growing Reno\u2013Carson bedroom market. Demand tracks Northern Nevada manufacturing and warehousing rather than the Las Vegas tourism cycle. 1 Gold mining"
+  },
+  "elko": {
+   "title": "Elko",
+   "text": "The Carlin Trend gold hub and the commercial center of northeastern Nevada. Real estate demand is mine-cycle and workforce-driven; underwrite to mine life and offtake, not metro comps. 22 Lithium & ranching"
+  },
+  "winnemucca": {
+   "title": "Humboldt County (Winnemucca)",
+   "text": "Ranching and the Thacker Pass lithium project \u2014 the largest known measured lithium reserve, with peak construction near 1,800 workers by end-2026 \u2014 drive episodic, project-based CRE demand. 23 Luxury resort"
+  },
+  "lake-tahoe": {
+   "title": "Lake Tahoe (Nevada side)",
+   "text": "A luxury ski-and-summer recreation economy on the Nevada shore. Demand is highly seasonal and second-home-driven; metro-level supply data is thin and best handled qualitatively with primary research. Drive-in gaming"
+  },
+  "laughlin": {
+   "title": "Laughlin",
+   "text": "A regional drive-in gaming market on the Colorado River serving Arizona and Southern California. Demand is steadier than the Strip but smaller and sensitive to the regional economy and fuel prices."
+  }
+ },
+ "new-hampshire": {
+  "manchester": {
+   "title": "Manchester",
+   "text": "The state's largest city: healthcare, the BAE defense cluster, finance, and the three-million-square-foot Amoskeag Millyard adaptive-reuse district. Home to SNHU, whose 189,531 enrollment is 97 percent online, a student-housing mirage the naive study mistakes for demand. 14 Boston-commuter"
+  },
+  "nashua": {
+   "title": "Nashua",
+   "text": "Defense and precision manufacturing anchored by BAE's Nashua workforce of nearly 4,000, with rents carrying a Massachusetts-commuter premium. Multifamily undersupplied; self-storage underserved near new apartment supply. 11 Seacoast & aerospace"
+  },
+  "portsmouth": {
+   "title": "Portsmouth & the Seacoast",
+   "text": "Pease International Tradeport, strong dining and tourism, and the Portsmouth Naval Shipyard workforce that lives heavily in New Hampshire. Housing is expensive and constrained; office carries larger available blocks at Pease. Tax-free border retail"
+  },
+  "salem": {
+   "title": "Salem & the border belt",
+   "text": "Massachusetts and Maine shoppers cross for tax-free goods; the state-run liquor outlets generated $766.7 million in sales and $122 million for the General Fund in 2024. Large-format retail is sited for cross-border traffic, a genuinely distinctive driver. 26 Eds-and-meds"
+  },
+  "upper-valley": {
+   "title": "Lebanon\u2013Hanover / Upper Valley",
+   "text": "Dartmouth College and Dartmouth Health, the state's only academic medical center and largest private employer with more than 16,000 staff and a 396-bed hospital. The tightest housing market in the state, severely undersupplied. 15 Government & insurance"
+  },
+  "concord": {
+   "title": "Concord",
+   "text": "State government, healthcare, and insurance anchor the capital. A tight rental market and a stable public-sector employment base, distinct from the commuter economics to its south. Tourism & second homes"
+  },
+  "lakes-and-mountains": {
+   "title": "Lakes Region & White Mountains",
+   "text": "Lake Winnipesaukee, the North Conway outlets, and the ski corridor. Seasonal, second-home-distorted demand with sharp spikes such as Laconia Motorcycle Week; underwriting must model the seasonal curve, not the annual average. 12 Distressed & pivoting"
+  },
+  "north-country": {
+   "title": "North Country / Berlin",
+   "text": "The collapsed paper-mill economy of Co\u00f6s County, now pivoting to ATV and OHRV tourism around the Jericho Mountain trail network. Low-value and thin, with per-capita income well below the state line; conventional feasibility on southern-tier assumptions fails here. 15"
+  }
+ },
+ "new-jersey": {
+  "jersey-city": {
+   "title": "Jersey City & the Gold Coast",
+   "text": "Hudson County, the state's fastest-growing, commands rents $1,200 to $1,500 above Newark on superior Manhattan transit. Multifamily is digesting a luxury wave \u2014 Jersey City rents down about 10 percent year over year with 4,000-plus units due in 2026 \u2014 while self-storage is structurally undersupplied at 1.2 square feet per capita. 4 7 Government, health & port"
+  },
+  "newark": {
+   "title": "Newark & Essex County",
+   "text": "Essex County, near 857,000 residents, anchors government, health, and port-adjacent employment around Newark. Multifamily vacancy tightened 150 basis points in 2025 even as Greater Newark digests new Class A supply, and the region sits at the center of the port-driven industrial market. 2 Corporate, retail & suburban"
+  },
+  "bergen-county": {
+   "title": "Bergen County",
+   "text": "The state's most populous county, near 957,000, is corporate, retail, and suburban, with average property-tax bills of $14,443 \u2014 among the nation's highest. Multifamily reads undersupplied to balanced as the pipeline shrinks, while commodity suburban office remains oversupplied. 24 5 Office parks & the I-287 corridor"
+  },
+  "morris-county": {
+   "title": "Morris, Passaic & Union",
+   "text": "The northern suburban corridor carries the state's deepest office glut, with vacancy near 27 percent and Parsippany's premier-versus-Class A delta at 25.8 percent, but leads the state in office-to-residential conversions. Union adds port, pharma, and logistics demand. 14 13 Logistics & life science"
+  },
+  "middlesex-county": {
+   "title": "Central Jersey: Middlesex & Exit 8A",
+   "text": "The Route 1 corridor and Exit 8A form the largest single industrial submarket in the Northeast, anchored by life science and transit demand, with New Brunswick's $731 million HELIX innovation district at roughly 1.5 million square feet at buildout. Bulk industrial is digesting; multifamily reads balanced. 21 Shore, retiree & corporate"
+  },
+  "monmouth-ocean": {
+   "title": "Monmouth & Ocean / the Shore",
+   "text": "Seasonal and second-home coastal demand supported by NYC out-migration, with Netflix's Fort Monmouth studio adding 1,500 jobs on a $387 million Aspire credit and Lakewood growing roughly a third per decade. Self-storage is undersupplied; coastal deals carry full-risk flood exposure. 4 8 Philadelphia-orbit eds & meds"
+  },
+  "camden": {
+   "title": "Camden & South Jersey",
+   "text": "Camden, Burlington, and Gloucester behave with the Philadelphia metro, not New York \u2014 lower rents, fewer conversions, and less supply pressure across multifamily, industrial, and office. South Jersey logistics along exits 4 to 7 is balanced, and deals route to CBAC and USDA Rural Development. 6 Gaming & tourism"
+  },
+  "atlantic-city": {
+   "title": "Atlantic City & Cape May",
+   "text": "A unique, challenged gaming market: 2025 land-based revenue rose to about $2.89 billion, but Q1 2026 gross operating profit fell 22.9 percent on record costs as internet gaming overtook in-person win. Underwrite revenue as balanced and margins as challenged, with looming downstate-New York competition. 19 20"
+  }
+ },
+ "new-mexico": {
+  "albuquerque": {
+   "title": "Albuquerque metro",
+   "text": "Sandia, Kirtland, UNM, Intel in Rio Rancho, and Netflix film anchor a metro of roughly 978,000; Kirtland alone contributed $7.5 billion and 56,687 jobs in fiscal 2024. Multifamily is balanced and tightening at 94.7 percent occupancy; self-storage runs 7.6 square feet per capita. 2 15 7 Arts, tourism & government"
+  },
+  "santa-fe": {
+   "title": "Santa Fe",
+   "text": "The state capital, a luxury tourism market, and a LANL spillover magnet of roughly 155,000. Housing is undersupplied and luxury lodging is strong, with Plaza average daily rate near $412 and no new luxury inventory since 2012. 19 Nuclear & pit production"
+  },
+  "los-alamos": {
+   "title": "Los Alamos / Northern NM",
+   "text": "Los Alamos National Laboratory drives roughly 18,000 jobs on a $5.28 billion fiscal 2025 budget. The county is landlocked; the average home reached $524,750 and more than 65 percent of Lab staff commute in. 5 6 Oil & potash"
+  },
+  "permian-basin": {
+   "title": "Permian Basin / Hobbs & Carlsbad",
+   "text": "Lea and Eddy counties power the nation's second-largest oil state, alongside potash and Carlsbad Caverns tourism. Housing, hotels, and industrial demand are short but sharply oil-cycle-sensitive. 3 Border, university & agriculture"
+  },
+  "las-cruces": {
+   "title": "Las Cruces / Do\u00f1a Ana",
+   "text": "NMSU, border trade, agriculture, and Spaceport proximity anchor the second-largest city at 116,998, growing 1.31 percent in 2023-24. Multifamily is balanced with modest projected growth. 1 Semiconductor suburb"
+  },
+  "rio-rancho": {
+   "title": "Rio Rancho",
+   "text": "Intel's $3.5 billion Fab 9 anchors the fastest-growing Albuquerque suburb at 112,524 residents, up 1.69 percent in 2023-24. Housing is growing and tight as advanced-packaging jobs land. 14 Declining energy & Navajo Nation"
+  },
+  "farmington": {
+   "title": "Farmington / San Juan",
+   "text": "San Juan Basin gas depletion is shrinking the historic base of a metro near 120,000 that borders the Navajo Nation. Supply is softening and private-pay demand is thin in adjacent tribal counties. Commercial space"
+  },
+  "truth-or-consequences": {
+   "title": "Spaceport & Truth or Consequences",
+   "text": "Spaceport America generated roughly $240 million in economic impact and 790 jobs in 2024, with Virgin Galactic forecasting a return to regular flights in 2026 and an emerging \"Space Valley\" cluster. 28"
+  }
+ },
+ "new-york": {
+  "new-york-city": {
+   "title": "New York City",
+   "text": "Finance, technology, healthcare, tourism, and global headquarters across the five boroughs. Population reached 8,585,000 in July 2025 after a two-year rebound. Undersupplied on demand at 1.41 percent rental vacancy, but regulation-constrained and, for stabilized stock, financing-impaired. 1 3 Suburban & defense"
+  },
+  "long-island": {
+   "title": "Long Island",
+   "text": "Healthcare, defense, and logistics across Nassau and Suffolk, with suburban inflow since 2020. Industrial is undersupplied near 5.2 percent vacancy with asking rents around $33.49 a square foot. 17 Logistics & exurban"
+  },
+  "hudson-valley": {
+   "title": "Hudson Valley / Mid-Hudson",
+   "text": "Last-mile logistics, healthcare, and exurban housing. Modest population growth since 2020; industrial demand is Amazon- and last-mile-driven, and multifamily reads balanced to undersupplied. Advanced manufacturing"
+  },
+  "buffalo": {
+   "title": "Buffalo",
+   "text": "Healthcare, education, and advanced manufacturing across Erie and Niagara. Stabilizing after a long decline; self-storage is among the tightest in the state at 1.8 square feet per capita, with street rates rising. 15 Optics & photonics"
+  },
+  "rochester": {
+   "title": "Rochester",
+   "text": "Optics and photonics, healthcare, and education. Slow decline to flat population; multifamily reads balanced, and the metro has opted into Good Cause Eviction. 33 Semiconductors"
+  },
+  "syracuse": {
+   "title": "Syracuse / Central NY",
+   "text": "Micron semiconductors, education, and logistics. The Micron megafab in nearby Clay, roughly $100 billion over two decades, breaks the Upstate demographic trend and makes Central New York the state's clearest undersupplied-and-tightening story. 20 Government & nanotech"
+  },
+  "albany": {
+   "title": "Albany / Capital Region",
+   "text": "State government, education, and nanotech. Flat to modest population; multifamily reads balanced, and Albany was the first city to opt into Good Cause Eviction. 33 Legacy & agriculture"
+  },
+  "binghamton": {
+   "title": "Southern Tier / North Country",
+   "text": "Legacy manufacturing, education, and agriculture around Binghamton and the North Country. Long-term population decline makes capture-rate discipline decisive; supply reads soft to balanced. 4"
+  }
+ },
+ "north-carolina": {
+  "charlotte": {
+   "title": "Charlotte\u2013Concord\u2013Gastonia",
+   "text": "Banking and fintech (the nation's second-largest center), plus industrial and logistics along I-77 and I-85. About 2.939 million residents, up 54,122 in a year. Multifamily is digesting a record delivery cycle toward balanced, and office carries genuine distress near 24 percent. 1 3 Tech & life science"
+  },
+  "raleigh-durham": {
+   "title": "Raleigh\u2013Durham\u2013Cary (Research Triangle)",
+   "text": "Tech, the number-one US biomanufacturing cluster, and three research universities. About 1.596 million residents, up 2.4 percent. Multifamily is digesting its largest-ever wave while speculative lab corrects and purpose-built biomanufacturing stays tight. 1 16 Manufacturing & Toyota"
+  },
+  "greensboro": {
+   "title": "Greensboro\u2013Winston-Salem\u2013High Point (Triad)",
+   "text": "Manufacturing and logistics, now anchored by Toyota's $13.9 billion battery plant in Randolph County plus the FedEx hub at PTI. About 1.7 million residents. Multifamily reads balanced and industrial is filling in around the megaproject. 13 Coastal & port"
+  },
+  "wilmington": {
+   "title": "Wilmington",
+   "text": "Coastal growth, the port, and Live Oak Bank. About 492,772 residents and up 2.6 percent, among the fastest-growing US metros. Multifamily reads balanced on genuine in-migration, and coastal insurance is the swing variable. 1 Tourism & post-disaster"
+  },
+  "asheville": {
+   "title": "Asheville",
+   "text": "Tourism and healthcare in the western mountains. Roughly 475,000 residents, flat to declining after Hurricane Helene. Housing is undersupplied on fundamentals, but demand is complicated by displacement and hotels lean on recovery rather than leisure. 20 22 Military"
+  },
+  "fayetteville": {
+   "title": "Fayetteville",
+   "text": "Fort Bragg / Fort Liberty anchors a steady military economy of roughly 530,000. Multifamily reads balanced, but self-storage runs heavy near 11 square feet per capita, an oversupply watch that annual demand alone will understate. 8 Manufacturing & furniture"
+  },
+  "hickory": {
+   "title": "Hickory",
+   "text": "Manufacturing and furniture across roughly 365,000 residents in a slower-growth Piedmont market. Steady demand rewards capture-rate discipline; we build these studies with primary local research where vendor coverage thins. University & healthcare"
+  },
+  "greenville": {
+   "title": "Greenville",
+   "text": "East Carolina University and regional healthcare anchor roughly 180,000 residents in the eastern coastal plain \u2014 a steadier, university-driven demand base than the surrounding rural and agricultural counties."
+  }
+ },
+ "ohio": {
+  "columbus": {
+   "title": "Columbus",
+   "text": "(no state page; linked from index.html)"
+  }
+ },
+ "oklahoma": {
+  "oklahoma-city": {
+   "title": "Oklahoma City",
+   "text": "State government, energy headquarters \u2014 Devon, Expand, Continental \u2014 Tinker Air Force Base, aerospace, and fintech across a metro near 1.5 million. Multifamily is digesting with permits down 60 percent; office is oversupplied; the arena and MAPS pipeline strengthen hospitality. Edmond and Canadian County lead deliveries. 1 8 Energy legacy & MRO"
+  },
+  "tulsa": {
+   "title": "Tulsa",
+   "text": "Energy-legacy headquarters, American Airlines' world-largest aircraft MRO, aerospace, and Tulsa Remote across a metro near 1.05 million. Multifamily reads balanced and tightening at 95.9 percent occupancy; office is oversupplied in older product; Broken Arrow, Owasso, Jenks, and Bixby are the fast-growing suburbs. 3 4 University"
+  },
+  "norman": {
+   "title": "Norman",
+   "text": "The University of Oklahoma anchors student-influenced housing demand and Sooners football event peaks. Part of the Oklahoma City metro, with its own capture-rate mechanics that a statewide average will misread; Riverwind casino adds a gaming-hospitality layer. Affluent suburb"
+  },
+  "edmond": {
+   "title": "Edmond",
+   "text": "The high-income Oklahoma City suburb in Logan County that draws the greatest share of 2026 multifamily deliveries and the strongest rent growth in the metro \u2014 a submarket where demand can absorb supply the urban core cannot. 2 University & data centers"
+  },
+  "stillwater": {
+   "title": "Stillwater",
+   "text": "Oklahoma State University plus a new Google data-center campus with a first phase due in 2027. Population grew about 300 in 2024; specialized industrial and utility-load demand runs ahead of supply, a distinct fingerprint from the metros. 10 Military"
+  },
+  "lawton": {
+   "title": "Lawton",
+   "text": "Fort Sill anchors a military-dependent economy near 125,000. The city lost roughly 400 to 600 residents in 2024, making it a soft, base-driven market to underwrite on installation demand rather than regional growth. 1 Data centers & river port"
+  },
+  "pryor": {
+   "title": "Pryor / Green Country",
+   "text": "The MidAmerica Industrial Park \u2014 9,000 acres, 80-plus companies, and Google's second-largest data center in the world \u2014 plus the Tulsa Port of Catoosa on the McClellan\u2013Kerr navigation system. An industrial and logistics engine underwritten on power, water, and freight, not rooftops. 10 Tribal gaming corridor"
+  },
+  "durant": {
+   "title": "Durant / Thackerville",
+   "text": "The tribal-gaming corridor an hour north of Dallas\u2013Fort Worth: WinStar World Casino, the world's largest by gaming floor, and the Choctaw resort in Durant, home also to REI Oklahoma. Hospitality demand here is DFW-driven, not local, and must be underwritten as such. 12"
+  }
+ },
+ "oregon": {
+  "portland": {
+   "title": "Portland\u2013Vancouver\u2013Hillsboro",
+   "text": "Semiconductors (Intel and the Silicon Forest), athletic apparel (Nike, Adidas, Columbia), health care, and port logistics across a metro near 2.54 million. Multifamily is digesting toward balanced while downtown office is one of the nation's most distressed markets. 2 3 Silicon Forest"
+  },
+  "hillsboro": {
+   "title": "Washington County / Hillsboro",
+   "text": "Intel's D1X fab and a planned $36 billion campus anchor the state's fastest-adding metro county \u2014 but Intel cut more than 3,100 Oregon jobs in 2025 and its headcount fell toward 18,000. Balanced today, concentration-fragile in any underwrite. 10 11 State government & agriculture"
+  },
+  "salem": {
+   "title": "Salem",
+   "text": "State government and Willamette Valley agriculture anchor the capital metro near 440,000. Demand is steadier and less cyclical, and multifamily reads balanced \u2014 a government-anchored counterweight to Portland's tech volatility. 1 University & health care"
+  },
+  "eugene": {
+   "title": "Eugene\u2013Springfield",
+   "text": "The University of Oregon and health care anchor a metro near 390,000. Multifamily is student-influenced and reads balanced; underwrite student housing by enrollment and by campus, not on a metro average. 1 Amenity migration"
+  },
+  "bend": {
+   "title": "Bend\u2013Redmond / Central Oregon",
+   "text": "The state's growth engine: Deschutes County reached 213,072 and led Oregon this decade, up 14,811 since 2020. A record roughly 1,000-unit 2025 apartment wave pushed vacancy above 10 percent, and lodging is strong but steeply seasonal. 1 6 Data centers"
+  },
+  "prineville": {
+   "title": "Prineville / Crook County",
+   "text": "Meta and Apple hyperscale campuses span roughly 5.3 million square feet and 483 megawatts in the Bend-Prineville market, providing about 600 permanent jobs and lifting Crook County to the state's second-highest average wage \u2014 a specialized, power-and-water-constrained underwrite. 13 14 Tourism & retirement"
+  },
+  "oregon-coast": {
+   "title": "The Oregon Coast",
+   "text": "Tourism, retirement, and fishing across Clatsop, Lincoln, Tillamook, Coos, and Curry counties. Drive-to leisure lodging runs on thin supply, rental stock is small and illiquid, and most of the coast is USDA-eligible \u2014 a market to underwrite on monthly, not annual, demand. 22 Timber, agriculture & Greater Idaho"
+  },
+  "eastern-oregon": {
+   "title": "Eastern & Southern Oregon",
+   "text": "Timber legacy, agriculture, and cattle anchor a declining, thinly settled region carrying \"Greater Idaho\" secession sentiment, with the Medford / Rogue Valley the largest submarket. Metro-level supply data is thinner; we build these studies with primary local research. 1"
+  }
+ },
+ "pennsylvania": {
+  "philadelphia": {
+   "title": "Philadelphia",
+   "text": "Eds-and-meds, pharma and cell-and-gene therapy, finance, and logistics. The largest metro, with collar counties growing even as Philadelphia County lost 29,878 residents. Multifamily is balanced past its supply peak; Center City office is oversupplied and lab space is digesting. 2 10 Robotics & gas"
+  },
+  "pittsburgh": {
+   "title": "Pittsburgh",
+   "text": "Post-steel eds-and-meds, robotics and AI, and Marcellus and Utica gas and petrochemicals. Allegheny County lost 18,769 residents from 2020 to 2024 and is stabilizing. Multifamily is balanced-to-undersupplied; the CBD office market is oversupplied near 24 percent. 7 11 Warehouse & logistics"
+  },
+  "lehigh-valley": {
+   "title": "Lehigh Valley",
+   "text": "Allentown, Bethlehem, and Easton along the I-78/I-81 corridor: warehouse, logistics, and manufacturing, with genuine in-migration. Industrial is digesting a record cycle at 7.4 percent vacancy after touching 8.73 percent. 4 Distribution & government"
+  },
+  "harrisburg": {
+   "title": "Harrisburg & Central PA",
+   "text": "Logistics, state government, and distribution, with Cumberland County up 6.2 percent. The corridor's industrial bright spot at 6.7 percent vacancy, though still absorbing record new supply. 4 5 Legacy industry & logistics"
+  },
+  "scranton-wilkes-barre": {
+   "title": "Scranton & Wilkes-Barre",
+   "text": "Logistics, healthcare, and legacy industry across Northeastern Pennsylvania. A flat-to-soft population, yet the anchor divergence case: industrial rents rose 16 percent year over year even as the adjacent Lehigh Valley cooled. 5 Agriculture & manufacturing"
+  },
+  "lancaster": {
+   "title": "Lancaster",
+   "text": "Agriculture, manufacturing, and tourism in one of the state's genuinely growing markets, up more than 10,000 residents. A distinct demand base that a Philadelphia or Harrisburg average would misread. 2 Manufacturing & insurance"
+  },
+  "erie": {
+   "title": "Erie",
+   "text": "Manufacturing, healthcare, and insurance on the lake. A shrinking, older market where absorption is thin and capture-rate discipline governs; we build these studies with primary local research. University"
+  },
+  "state-college": {
+   "title": "State College",
+   "text": "A pocket market dominated by Penn State: multifamily demand tracks enrollment and pre-leasing rather than metro averages, and student housing is analyzed university-by-university, not statewide."
+  }
+ },
+ "south-carolina": {
+  "greenville": {
+   "title": "Greenville\u2013Anderson (Upstate)",
+   "text": "The I-85 corridor anchored by the BMW supplier ecosystem, Michelin's North American headquarters, and Clemson, with roughly a million-plus combined residents. Multifamily reads balanced-to-digesting with a pipeline under a year of supply, and industrial is tightening toward shortage. 7 BMW & logistics"
+  },
+  "spartanburg": {
+   "title": "Spartanburg",
+   "text": "BMW's Plant Spartanburg, logistics, and the Inland Port. Population grew 3 percent to 380,857 in 2024\u201325, the third-fastest among U.S. metros, supporting absorption as the town digests more than 20 million square feet of recent big-box industrial deliveries. 1 6 Government & EV"
+  },
+  "columbia": {
+   "title": "Columbia (Midlands)",
+   "text": "Government, the University of South Carolina, and healthcare, now supercharged by the Scout Motors EV plant in Blythewood. The steadiest multifamily market in the state, with downtown occupancy at 94.3 percent, and a natural rural-USDA gateway. 3 14 Port, aerospace & tourism"
+  },
+  "charleston": {
+   "title": "Charleston\u2013North Charleston",
+   "text": "The Port of Charleston, Boeing's 787 campus, Volvo and Mercedes-Benz Vans, tourism, and the military; Berkeley County grew 3.3 percent to 274,666. Multifamily is digesting and improving, self-storage is oversupplied, hotels are strong, and coastal flood exposure is a live line item. 2 28 Tourism & retiree"
+  },
+  "myrtle-beach": {
+   "title": "Myrtle Beach\u2013Conway (Grand Strand)",
+   "text": "Tourism and retiree in-migration. Horry County grew 3.2 percent to 427,551, the second-fastest U.S. metro, even against a negative birth rate. Multifamily is demand-led and balanced, while hotels softened in 2025, a market to underwrite on monthly, not annual, demand. 1 17 Resort & retirement"
+  },
+  "hilton-head": {
+   "title": "Hilton Head\u2013Bluffton\u2013Beaufort",
+   "text": "Resort and retirement demand along the southern coast. Beaufort is fast-growing and Jasper was the fastest-growing county in the nation in 2025, up 6 percent to 38,533. Multifamily reads undersupplied and retiree-constrained; metro-level vendor data is thinner and built with primary research. 1 Agriculture & healthcare"
+  },
+  "florence": {
+   "title": "Florence / Pee Dee",
+   "text": "Agriculture, a regional healthcare hub, and the Envision AESC battery-cell plant. Growth is slower here, and the Pee Dee is a natural landing zone for USDA Business and Industry and Community Facilities credits rather than metro-priced conventional capital. Rural & persistent-poverty"
+  },
+  "i-95-corridor": {
+   "title": "Rural I-95 corridor",
+   "text": "The I-95 \"Corridor of Shame,\" the Pee Dee, and inland agricultural counties carry persistent poverty, stagnant or declining population, and, historically, eight counties without a hospital. A distinct rural economy that we underwrite with primary local research, never on metro assumptions. 28"
+  }
+ },
+ "texas": {
+  "houston": {
+   "title": "Houston",
+   "text": "Energy, petrochemicals, the nation's largest medical center, and port logistics. Added more than 198,000 residents in 2023\u201324. Multifamily is comparatively balanced; self-storage leads 2026 deliveries. 1 Diversified"
+  },
+  "dallas-fort-worth": {
+   "title": "Dallas\u2013Fort Worth",
+   "text": "Corporate headquarters, finance, logistics, and tech. Fort Worth crossed 1,008,106 residents to overtake Austin as the state's fourth-largest city. Multifamily and office both oversupplied; industrial absorption leads the nation. 1 15 Tech"
+  },
+  "austin": {
+   "title": "Austin",
+   "text": "Semiconductors, software, state government, and the university. The clearest oversupply story in the country: rents fell for ten consecutive quarters and office vacancy is among the highest nationally. 5 Military & healthcare"
+  },
+  "san-antonio": {
+   "title": "San Antonio",
+   "text": "Joint Base San Antonio, the South Texas Medical Center, manufacturing, and tourism. Highest multifamily vacancy of any major US market for three years running, now stabilizing. 8 Border & Winter Texan"
+  },
+  "mcallen": {
+   "title": "McAllen / Rio Grande Valley",
+   "text": "Border trade, Winter Texan tourism, and agriculture. Demand is seasonal and attrition-prone; storage in nearby Corpus Christi runs near 15 square feet per capita. 18 Border manufacturing"
+  },
+  "el-paso": {
+   "title": "El Paso",
+   "text": "Cross-border manufacturing, Fort Bliss, and logistics. A distinct border economy where current supply data is thinner; we build these studies with primary local research. Agriculture & university"
+  },
+  "lubbock": {
+   "title": "Lubbock",
+   "text": "Agriculture and Texas Tech University. The extreme self-storage case at 17.3 square feet per capita, more than double the national average, with rates falling. 10 Coastal & energy"
+  },
+  "corpus-christi": {
+   "title": "Corpus Christi",
+   "text": "Port, energy export, and coastal tourism. A first-tier windstorm county where TWIA exposure and storage oversupply both bear directly on feasibility. 25"
+  }
+ },
+ "utah": {
+  "salt-lake-city": {
+   "title": "Salt Lake City",
+   "text": "Tech, finance, logistics, and government; the Delta hub and 2034 Winter Olympics host. Multifamily and industrial are digesting a record delivery wave, and office is sharply bifurcated between new and legacy product. 3 13 Southern Silicon Slopes"
+  },
+  "provo-orem": {
+   "title": "Provo\u2013Orem / Utah County",
+   "text": "The tech-and-BYU corridor at Lehi and \u201cthe Point,\u201d the fastest-growing county in the state, adding 15,914 residents in 2025. Digesting the multifamily wave with the strongest long-run demand fundamentals in Utah. 1 Aerospace & defense"
+  },
+  "ogden": {
+   "title": "Ogden\u2013Clearfield",
+   "text": "Hill Air Force Base \u2014 the state's largest employer \u2014 plus the Northrop Grumman Sentinel program and logistics; more affordable. Industrial is the tightest submarket in the metro at 3.1 percent vacancy. 11 5 Retirement & amenity"
+  },
+  "st-george": {
+   "title": "St. George / Washington County",
+   "text": "Retirement migration, tourism, and healthcare; the 8th-fastest-growing U.S. metro in 2024\u201325 at 2.5 percent. Where Utah's senior-housing demand concentrates; watch multifamily supply against the growth rate. 2 Ski-resort luxury"
+  },
+  "park-city": {
+   "title": "Park City / Summit County",
+   "text": "World-class ski-resort luxury, land- and entitlement-constrained. Absorbing Deer Valley's East Village expansion and a new Four Seasons even as the Sundance Film Festival departs for Colorado from 2027. 14 15 University & agriculture"
+  },
+  "logan": {
+   "title": "Logan / Cache County",
+   "text": "Utah State University and agriculture. A steady, university-anchored market with balanced multifamily supply and deep student-housing demand around the flagship campus. 1 Energy"
+  },
+  "uinta-basin": {
+   "title": "Uinta Basin",
+   "text": "Eastern Utah's oil and gas economy, heavily USDA-eligible rural territory routed through the Vernal field office. Supply data is thinner here; we build these studies with primary local research. Parks gateways"
+  },
+  "moab": {
+   "title": "Mighty 5 gateways",
+   "text": "Agriculture and national-parks tourism around Zion, Bryce Canyon, Arches, Canyonlands, and Capitol Reef. Lodging is highly seasonal and gateway-town constrained; USDA programs route through Cedar City and Richfield."
+  }
+ },
+ "washington": {
+  "seattle": {
+   "title": "Seattle\u2013Tacoma\u2013Bellevue",
+   "text": "Big tech (Amazon, Microsoft, and an AI-leasing surge), Boeing aerospace, cloud, the Northwest Seaport Alliance, and a top-10 life-science hub across a metro near 4.0 million. Multifamily is digesting a 2021\u20132025 wave near 7.1 percent, downtown office is the nation's most distressed at 36.5 percent, and self-storage is undersupplied. 2 6 AI leasing & the Eastside"
+  },
+  "bellevue": {
+   "title": "Bellevue & the Eastside",
+   "text": "The recovery engine of Puget Sound office: OpenAI, Uber, and Anthropic expansions drove Eastside gross rents to $48.50 per square foot, up 9.1 percent, even as the Bellevue CBD held 25.4 percent vacancy. Multifamily runs a balanced 6.6 percent near $2,571. 6 7 9 Boeing & aerospace"
+  },
+  "everett": {
+   "title": "Everett & Snohomish County",
+   "text": "The world's largest Boeing concentration anchors Snohomish, where aerospace is 12.6 percent of employment. The October 2024 restructuring (~17,000 layoffs) and 767 freighter wind-down make this the state's clearest single-industry risk; multifamily is the region's tightest at 6.1 percent. 2 21 Inland Northwest"
+  },
+  "spokane": {
+   "title": "Spokane",
+   "text": "Healthcare, higher education, distribution, and manufacturing anchor the Inland Northwest. Spokane is the counter-cycle multifamily market: vacancy improved to 7.47 percent in Q2 2026 from a 9.2 percent peak as construction fell to 784 units, and owners have begun raising rents again. 5 Agriculture & Hanford"
+  },
+  "tri-cities": {
+   "title": "Tri-Cities (Kennewick\u2013Pasco\u2013Richland)",
+   "text": "Agriculture, the Hanford site, and food processing drive a steady Eastern Washington growth market that is heavily USDA-eligible. Vendor metro vacancy is thin here, so we build these studies on primary local research rather than a Puget Sound proxy. 28 Data centers & hydropower"
+  },
+  "columbia-basin": {
+   "title": "Quincy & the Columbia Basin",
+   "text": "A major, established U.S. data-center cluster on cheap Columbia River hydropower: Microsoft, Sabey, Vantage, and others. Grant County PUD's large-load queue of 2,897 megawatts against a ~1,050-megawatt peak means the binding constraint is power, not real estate \u2014 and the rural sales-tax exemption is under repeal pressure. 16 18 Portland-metro orbit"
+  },
+  "vancouver": {
+   "title": "Vancouver & Clark County",
+   "text": "Southwest Washington in the Portland metro orbit; the city reached about 202,600 residents in 2024. It routes to the SBA Portland District Office rather than Seattle, and its housing market tracks Oregon as much as Washington. 1 26 Orchards & USDA territory"
+  },
+  "yakima": {
+   "title": "Yakima, Wenatchee & rural agriculture",
+   "text": "Orchards, hops, wine, and the nation's leading apple crop (~67 percent of U.S. output, $1.99 billion in 2023) anchor Central Washington. This is core USDA Business & Industry and REAP territory, where a rural feasibility study is a funding prerequisite. 28"
+  }
+ },
+ "wisconsin": {
+  "milwaukee": {
+   "title": "Milwaukee metro",
+   "text": "Finance and insurance (Northwestern Mutual), healthcare, machinery, and water technology across a metro near 1.57 million, with a deep urban-versus-WOW-county split. Milwaukee County lost 15,280 residents while the affluent suburbs stayed tight; multifamily is forecast to tighten and downtown office is bifurcating. 1 5 Government, university & tech"
+  },
+  "madison": {
+   "title": "Madison / Dane County",
+   "text": "State government, UW\u2013Madison, Epic Systems, Exact Sciences, and biotech drive the fastest-growing metro in the state, up 28,868 residents since 2020. The demand engine is intact, but a 5,837-unit pipeline pushed vacancy to a seven-year high, so capture-rate discipline is decisive. 1 3 Manufacturing & dairy processing"
+  },
+  "green-bay": {
+   "title": "Green Bay / Fox Valley",
+   "text": "Paper, food and dairy processing, insurance, and manufacturing anchor Appleton, Oshkosh, Neenah, and Green Bay. The paper corridor is in secular decline while dairy processing books a $1.13 billion capacity pipeline; hospitality is Packers-and-event-driven and multifamily reads affordable and steady. 15 Logistics & data centers"
+  },
+  "kenosha-racine": {
+   "title": "Kenosha / Racine",
+   "text": "The Chicago-orbit I-94 corridor is Wisconsin's premier bulk-distribution hub and the home of the Foxconn-to-Microsoft data-center pivot. Big-box industrial is oversupplied above 11 percent vacancy, while multifamily demand tracks the industrial and data-center employment base. 7 10 Healthcare & western Wisconsin"
+  },
+  "eau-claire": {
+   "title": "Eau Claire / La Crosse",
+   "text": "Healthcare (Mayo Clinic Health System, Gundersen), education, retail, and logistics anchor the western tier, with Kwik Trip expanding distribution. Eau Claire County was among the fastest-growing in the state, but institutional supply data is thinner; we build these studies with primary local research. 1 Waterpark tourism"
+  },
+  "wisconsin-dells": {
+   "title": "Wisconsin Dells / Baraboo",
+   "text": "\"The Waterpark Capital of the World\" drew more than 5 million visitors and a $2.05 billion economic impact in 2024. Demand is strong, seasonal, and capital-intensive, and new purpose-built resort supply \u2014 the first in two decades \u2014 is now being tested against it. 16 Agriculture & USDA territory"
+  },
+  "wausau": {
+   "title": "Wausau / Central & Northwoods",
+   "text": "Central Wisconsin manufacturing, the dairy and cranberry belt, and the Northwoods tourism economy make up the state's heavily USDA-eligible rural remainder. Agriculture contributes $116.3 billion a year, and rural energy and food-processing deals route to USDA Rural Development. 2"
+  }
+ }
+}

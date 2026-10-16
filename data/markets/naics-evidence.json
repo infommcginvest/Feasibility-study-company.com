@@ -1,0 +1,4156 @@
+{
+ "about": "FOIA loans (all statuses) by asset class, NAICS code and the NAICS editions the map lists the code under. A code can sit in several editions; foia_loans_by_edition_set groups by that set. Loans with a blank NaicsCode belong to no class.",
+ "blank_naics_loans": {
+  "504": 21922,
+  "7a": 203850
+ },
+ "classes": {
+  "active-adult": {
+   "codes_in_map": [
+    "531110"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "531110": {
+     "504": {
+      "fy_max": 2023,
+      "fy_min": 1997,
+      "loans_all_statuses": 34
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 706
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 740
+   },
+   "foia_loans_total": 740
+  },
+  "assisted-living-and-memory-care": {
+   "codes_in_map": [
+    "623312"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "623312": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 960
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 3270
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 4230
+   },
+   "foia_loans_total": 4230
+  },
+  "auto-dealership": {
+   "codes_in_map": [
+    "441110",
+    "441120"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "441110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1323
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 2382
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "441120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1442
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 7123
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 12270
+   },
+   "foia_loans_total": 12270
+  },
+  "auto-service-and-collision": {
+   "codes_in_map": [
+    "811111",
+    "811112",
+    "811113",
+    "811114",
+    "811118",
+    "811121",
+    "811122",
+    "811191",
+    "811198"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "811111": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 4485
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 31564
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "811112": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 1991,
+      "loans_all_statuses": 154
+     },
+     "7a": {
+      "fy_max": 2023,
+      "fy_min": 1991,
+      "loans_all_statuses": 1312
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "811113": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 1993,
+      "loans_all_statuses": 115
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 1735
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "811114": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 24
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2021,
+      "loans_all_statuses": 301
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "811118": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 322
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 3191
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "811121": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 2395
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 12038
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "811122": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 137
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1436
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "811191": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 373
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 2117
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "811198": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 360
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 3777
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017": 6829,
+    "1997+2002+2007+2012+2017+2022": 58682,
+    "2022": 325
+   },
+   "foia_loans_total": 65836
+  },
+  "behavioral-health": {
+   "codes_in_map": [
+    "621112",
+    "621330",
+    "621420",
+    "622210",
+    "623220"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "621112": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 419
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 2074
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "621330": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 858
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 4050
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "621420": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 192
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 997
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "622210": {
+     "504": {
+      "fy_max": 2017,
+      "fy_min": 1995,
+      "loans_all_statuses": 27
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 130
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "623220": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 179
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 512
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 9438
+   },
+   "foia_loans_total": 9438
+  },
+  "board-and-care": {
+   "codes_in_map": [
+    "623312",
+    "623990"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "623312": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 960
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 3270
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "623990": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 133
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 841
+     },
+     "editions": [
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 4230,
+    "2002+2007+2012+2017+2022": 974
+   },
+   "foia_loans_total": 5204
+  },
+  "boutique-and-resort": {
+   "codes_in_map": [
+    "721110",
+    "721191",
+    "721199"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "721110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 10210
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1996,
+      "loans_all_statuses": 21097
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "721191": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2000,
+      "loans_all_statuses": 575
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1997,
+      "loans_all_statuses": 1424
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "721199": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 97
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 521
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 33924
+   },
+   "foia_loans_total": 33924
+  },
+  "brewery-and-distillery": {
+   "codes_in_map": [
+    "312120",
+    "312140"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "312120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 742
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 3837
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "312140": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2008,
+      "loans_all_statuses": 113
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 686
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 5378
+   },
+   "foia_loans_total": 5378
+  },
+  "build-to-rent": {
+   "codes_in_map": [
+    "531110"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "531110": {
+     "504": {
+      "fy_max": 2023,
+      "fy_min": 1997,
+      "loans_all_statuses": 34
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 706
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 740
+   },
+   "foia_loans_total": 740
+  },
+  "ccrc-life-plan-communities": {
+   "codes_in_map": [
+    "623311"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "623311": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2001,
+      "loans_all_statuses": 406
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 550
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 956
+   },
+   "foia_loans_total": 956
+  },
+  "childcare-and-daycare": {
+   "codes_in_map": [
+    "624410"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "624410": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 5456
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 24693
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 30149
+   },
+   "foia_loans_total": 30149
+  },
+  "coffee-shop": {
+   "codes_in_map": [
+    "722213",
+    "722515"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "722213": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 2001,
+      "loans_all_statuses": 171
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 2001,
+      "loans_all_statuses": 6249
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "722515": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2003,
+      "loans_all_statuses": 430
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 9277
+     },
+     "editions": [
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007": 6420,
+    "2012+2017+2022": 9707
+   },
+   "foia_loans_total": 16127
+  },
+  "cold-storage": {
+   "codes_in_map": [
+    "493120"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "493120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 118
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 169
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 287
+   },
+   "foia_loans_total": 287
+  },
+  "event-and-wedding-venue": {
+   "codes_in_map": [
+    "531120",
+    "711310"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "531120": {
+     "504": {
+      "fy_max": 2024,
+      "fy_min": 2001,
+      "loans_all_statuses": 338
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 4129
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "711310": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 211
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 1190
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 5868
+   },
+   "foia_loans_total": 5868
+  },
+  "express-car-wash": {
+   "codes_in_map": [
+    "811192"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "811192": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 3195
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 9846
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 13041
+   },
+   "foia_loans_total": 13041
+  },
+  "extended-stay-hotel": {
+   "codes_in_map": [
+    "721110"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "721110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 10210
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1996,
+      "loans_all_statuses": 21097
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 31307
+   },
+   "foia_loans_total": 31307
+  },
+  "fitness-and-recreation": {
+   "codes_in_map": [
+    "713940"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "713940": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 2312
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 24100
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 26412
+   },
+   "foia_loans_total": 26412
+  },
+  "funeral-home": {
+   "codes_in_map": [
+    "812210",
+    "812220"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "812210": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1997,
+      "loans_all_statuses": 844
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1996,
+      "loans_all_statuses": 3975
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "812220": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2001,
+      "loans_all_statuses": 47
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 386
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 5252
+   },
+   "foia_loans_total": 5252
+  },
+  "gas-station-and-c-store": {
+   "codes_in_map": [
+    "445120",
+    "445131",
+    "447110",
+    "447190",
+    "457110",
+    "457120"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "445120": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 576
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1995,
+      "loans_all_statuses": 9601
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "445131": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 60
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2017,
+      "loans_all_statuses": 1053
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "447110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 3320
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 18930
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "447190": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1998,
+      "loans_all_statuses": 213
+     },
+     "7a": {
+      "fy_max": 2023,
+      "fy_min": 1998,
+      "loans_all_statuses": 1955
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "457110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 405
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1995,
+      "loans_all_statuses": 2409
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "457120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 9
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 69
+     },
+     "editions": [
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017": 34595,
+    "2022": 4005
+   },
+   "foia_loans_total": 38600
+  },
+  "glamping": {
+   "codes_in_map": [
+    "721199",
+    "721211",
+    "721214"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "721199": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 97
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 521
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "721211": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 528
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1851
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "721214": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1993,
+      "loans_all_statuses": 143
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 562
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 3702
+   },
+   "foia_loans_total": 3702
+  },
+  "grocery-store": {
+   "codes_in_map": [
+    "445110"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "445110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 1614
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1997,
+      "loans_all_statuses": 13508
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 15122
+   },
+   "foia_loans_total": 15122
+  },
+  "hotel": {
+   "codes_in_map": [
+    "721110"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "721110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 10210
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1996,
+      "loans_all_statuses": 21097
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 31307
+   },
+   "foia_loans_total": 31307
+  },
+  "independent-living-and-ccrc": {
+   "codes_in_map": [
+    "623311"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "623311": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2001,
+      "loans_all_statuses": 406
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 550
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 956
+   },
+   "foia_loans_total": 956
+  },
+  "industrial-and-warehouse": {
+   "codes_in_map": [
+    "493110",
+    "531120"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "493110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 362
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 906
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "531120": {
+     "504": {
+      "fy_max": 2024,
+      "fy_min": 2001,
+      "loans_all_statuses": 338
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 4129
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 5735
+   },
+   "foia_loans_total": 5735
+  },
+  "laundromat": {
+   "codes_in_map": [
+    "812310"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "812310": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1993,
+      "loans_all_statuses": 590
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 8042
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 8632
+   },
+   "foia_loans_total": 8632
+  },
+  "limited-service-hotel": {
+   "codes_in_map": [
+    "721110"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "721110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 10210
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1996,
+      "loans_all_statuses": 21097
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 31307
+   },
+   "foia_loans_total": 31307
+  },
+  "marina": {
+   "codes_in_map": [
+    "713930"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "713930": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 274
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1077
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 1351
+   },
+   "foia_loans_total": 1351
+  },
+  "medical-office-and-asc": {
+   "codes_in_map": [
+    "621111",
+    "621112",
+    "621493"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "621111": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 5895
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1995,
+      "loans_all_statuses": 20359
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "621112": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 419
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 2074
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "621493": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 99
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 744
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 29590
+   },
+   "foia_loans_total": 29590
+  },
+  "mixed-use": {
+   "codes_in_map": [
+    "531110",
+    "531120"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "531110": {
+     "504": {
+      "fy_max": 2023,
+      "fy_min": 1997,
+      "loans_all_statuses": 34
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 706
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "531120": {
+     "504": {
+      "fy_max": 2024,
+      "fy_min": 2001,
+      "loans_all_statuses": 338
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 4129
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 5207
+   },
+   "foia_loans_total": 5207
+  },
+  "multifamily": {
+   "codes_in_map": [
+    "531110"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "531110": {
+     "504": {
+      "fy_max": 2023,
+      "fy_min": 1997,
+      "loans_all_statuses": 34
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 706
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 740
+   },
+   "foia_loans_total": 740
+  },
+  "pet-boarding-and-daycare": {
+   "codes_in_map": [
+    "812910"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "812910": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2000,
+      "loans_all_statuses": 901
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 7705
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 8606
+   },
+   "foia_loans_total": 8606
+  },
+  "private-school": {
+   "codes_in_map": [
+    "611110"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "611110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1994,
+      "loans_all_statuses": 676
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1460
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 2136
+   },
+   "foia_loans_total": 2136
+  },
+  "quick-service-restaurant": {
+   "codes_in_map": [
+    "722211",
+    "722513"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "722211": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 2001,
+      "loans_all_statuses": 1984
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 31884
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "722513": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2000,
+      "loans_all_statuses": 2355
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1993,
+      "loans_all_statuses": 26953
+     },
+     "editions": [
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007": 33868,
+    "2012+2017+2022": 29308
+   },
+   "foia_loans_total": 63176
+  },
+  "restaurant": {
+   "codes_in_map": [
+    "722110",
+    "722211",
+    "722212",
+    "722213",
+    "722310",
+    "722320",
+    "722330",
+    "722511",
+    "722513",
+    "722514",
+    "722515"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "722110": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 1998,
+      "loans_all_statuses": 5528
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 44644
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "722211": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 2001,
+      "loans_all_statuses": 1984
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 31884
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "722212": {
+     "504": {
+      "fy_max": 2012,
+      "fy_min": 2001,
+      "loans_all_statuses": 19
+     },
+     "7a": {
+      "fy_max": 2013,
+      "fy_min": 2001,
+      "loans_all_statuses": 532
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "722213": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 2001,
+      "loans_all_statuses": 171
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 2001,
+      "loans_all_statuses": 6249
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "722310": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 225
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1997,
+      "loans_all_statuses": 2151
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "722320": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 620
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 5227
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "722330": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2002,
+      "loans_all_statuses": 33
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 3203
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "722511": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2000,
+      "loans_all_statuses": 4913
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 38924
+     },
+     "editions": [
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "722513": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2000,
+      "loans_all_statuses": 2355
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1993,
+      "loans_all_statuses": 26953
+     },
+     "editions": [
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "722514": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2012,
+      "loans_all_statuses": 22
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 341
+     },
+     "editions": [
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "722515": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2003,
+      "loans_all_statuses": 430
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 9277
+     },
+     "editions": [
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007": 91011,
+    "1997+2002+2007+2012+2017+2022": 11459,
+    "2012+2017+2022": 83215
+   },
+   "foia_loans_total": 185685
+  },
+  "retail": {
+   "codes_in_map": [
+    "442110",
+    "442210",
+    "442291",
+    "442299",
+    "443111",
+    "443112",
+    "443120",
+    "443130",
+    "443141",
+    "443142",
+    "444110",
+    "444120",
+    "444130",
+    "444140",
+    "444180",
+    "444190",
+    "444210",
+    "444220",
+    "444230",
+    "444240",
+    "445110",
+    "445120",
+    "445131",
+    "445210",
+    "445220",
+    "445230",
+    "445240",
+    "445250",
+    "445291",
+    "445292",
+    "445298",
+    "445299",
+    "445310",
+    "445320",
+    "446110",
+    "446120",
+    "446130",
+    "446191",
+    "446199",
+    "448110",
+    "448120",
+    "448130",
+    "448140",
+    "448150",
+    "448190",
+    "448210",
+    "448310",
+    "448320",
+    "449110",
+    "449121",
+    "449122",
+    "449129",
+    "449210",
+    "451110",
+    "451120",
+    "451130",
+    "451140",
+    "451211",
+    "451212",
+    "451220",
+    "452110",
+    "452111",
+    "452112",
+    "452210",
+    "452311",
+    "452319",
+    "452910",
+    "452990",
+    "453110",
+    "453210",
+    "453220",
+    "453310",
+    "453910",
+    "453920",
+    "453930",
+    "453991",
+    "453998",
+    "455110",
+    "455211",
+    "455219",
+    "456110",
+    "456120",
+    "456130",
+    "456191",
+    "456199",
+    "458110",
+    "458210",
+    "458310",
+    "458320",
+    "459110",
+    "459120",
+    "459130",
+    "459140",
+    "459210",
+    "459310",
+    "459410",
+    "459420",
+    "459510",
+    "459910",
+    "459920",
+    "459930",
+    "459991",
+    "459999"
+   ],
+   "fit": "proxy",
+   "foia_by_code": {
+    "442110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1998,
+      "loans_all_statuses": 999
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1998,
+      "loans_all_statuses": 5223
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "442210": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 672
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 3873
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "442291": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 40
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 2001,
+      "loans_all_statuses": 838
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "442299": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 281
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 3058
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "443111": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 1991,
+      "loans_all_statuses": 243
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 1551
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "443112": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 1998,
+      "loans_all_statuses": 167
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1999,
+      "loans_all_statuses": 2375
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "443120": {
+     "504": {
+      "fy_max": 2012,
+      "fy_min": 1991,
+      "loans_all_statuses": 231
+     },
+     "7a": {
+      "fy_max": 2023,
+      "fy_min": 1991,
+      "loans_all_statuses": 3113
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "443130": {
+     "504": {
+      "fy_max": 2013,
+      "fy_min": 1992,
+      "loans_all_statuses": 26
+     },
+     "7a": {
+      "fy_max": 2013,
+      "fy_min": 1991,
+      "loans_all_statuses": 414
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "443141": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2013,
+      "loans_all_statuses": 51
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 2006,
+      "loans_all_statuses": 294
+     },
+     "editions": [
+      "2012",
+      "2017"
+     ]
+    },
+    "443142": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2010,
+      "loans_all_statuses": 92
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 2005,
+      "loans_all_statuses": 909
+     },
+     "editions": [
+      "2012",
+      "2017"
+     ]
+    },
+    "444110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 135
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 654
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "444120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 78
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 648
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "444130": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 714
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 6004
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "444140": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2009,
+      "loans_all_statuses": 67
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 502
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "444180": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 110
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2013,
+      "loans_all_statuses": 517
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "444190": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 661
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1999,
+      "loans_all_statuses": 3761
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "444210": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 171
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 2001,
+      "loans_all_statuses": 698
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "444220": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1999,
+      "loans_all_statuses": 260
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1998,
+      "loans_all_statuses": 2459
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "444230": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 21
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 149
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "444240": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 44
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2021,
+      "loans_all_statuses": 324
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "445110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 1614
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1997,
+      "loans_all_statuses": 13508
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "445120": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 576
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1995,
+      "loans_all_statuses": 9601
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "445131": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 60
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2017,
+      "loans_all_statuses": 1053
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "445210": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1999,
+      "loans_all_statuses": 197
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1998,
+      "loans_all_statuses": 1887
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "445220": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 2004,
+      "loans_all_statuses": 17
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 2001,
+      "loans_all_statuses": 562
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "445230": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 66
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1038
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "445240": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 32
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 262
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "445250": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 7
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 75
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "445291": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2002,
+      "loans_all_statuses": 131
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 3281
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "445292": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 40
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 1201
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "445298": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 65
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 696
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "445299": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1995,
+      "loans_all_statuses": 290
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 6299
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "445310": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 629
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 16881
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "445320": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 136
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2019,
+      "loans_all_statuses": 2624
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "446110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 460
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 7711
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "446120": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 110
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 3606
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "446130": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2000,
+      "loans_all_statuses": 33
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1998,
+      "loans_all_statuses": 1052
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "446191": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 39
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 2001,
+      "loans_all_statuses": 1942
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "446199": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 95
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 1935
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1999,
+      "loans_all_statuses": 49
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1998,
+      "loans_all_statuses": 1078
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448120": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 205
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 5853
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448130": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 1993,
+      "loans_all_statuses": 17
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 1754
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448140": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 127
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 3483
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448150": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 72
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 2194
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448190": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 207
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1998,
+      "loans_all_statuses": 4200
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448210": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 85
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 2822
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448310": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1992,
+      "loans_all_statuses": 308
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 5544
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "448320": {
+     "504": {
+      "fy_max": 2020,
+      "fy_min": 1994,
+      "loans_all_statuses": 11
+     },
+     "7a": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 304
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "449110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 91
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2019,
+      "loans_all_statuses": 551
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "449121": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 41
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2016,
+      "loans_all_statuses": 304
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "449122": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 8
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 285
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "449129": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 47
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 378
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "449210": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 50
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2017,
+      "loans_all_statuses": 524
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "451110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 802
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 10233
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "451120": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 138
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 3516
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "451130": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1992,
+      "loans_all_statuses": 55
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 1612
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "451140": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 183
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 1897
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "451211": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 85
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 2169
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "451212": {
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 206
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "451220": {
+     "504": {
+      "fy_max": 2010,
+      "fy_min": 1992,
+      "loans_all_statuses": 16
+     },
+     "7a": {
+      "fy_max": 2011,
+      "fy_min": 1991,
+      "loans_all_statuses": 872
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007"
+     ]
+    },
+    "452110": {
+     "504": {
+      "fy_max": 2004,
+      "fy_min": 1992,
+      "loans_all_statuses": 17
+     },
+     "7a": {
+      "fy_max": 2011,
+      "fy_min": 1991,
+      "loans_all_statuses": 190
+     },
+     "editions": [
+      "1997",
+      "2002"
+     ]
+    },
+    "452111": {
+     "504": {
+      "fy_max": 2015,
+      "fy_min": 2006,
+      "loans_all_statuses": 5
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 2003,
+      "loans_all_statuses": 395
+     },
+     "editions": [
+      "2007",
+      "2012"
+     ]
+    },
+    "452112": {
+     "504": {
+      "fy_max": 2012,
+      "fy_min": 2004,
+      "loans_all_statuses": 2
+     },
+     "7a": {
+      "fy_max": 2020,
+      "fy_min": 2003,
+      "loans_all_statuses": 152
+     },
+     "editions": [
+      "2007",
+      "2012"
+     ]
+    },
+    "452210": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 2021,
+      "loans_all_statuses": 2
+     },
+     "7a": {
+      "fy_max": 2022,
+      "fy_min": 2013,
+      "loans_all_statuses": 18
+     },
+     "editions": [
+      "2017"
+     ]
+    },
+    "452311": {
+     "504": {
+      "fy_max": 2020,
+      "fy_min": 2020,
+      "loans_all_statuses": 1
+     },
+     "7a": {
+      "fy_max": 2021,
+      "fy_min": 2017,
+      "loans_all_statuses": 6
+     },
+     "editions": [
+      "2017"
+     ]
+    },
+    "452319": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2018,
+      "loans_all_statuses": 16
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 2007,
+      "loans_all_statuses": 266
+     },
+     "editions": [
+      "2017"
+     ]
+    },
+    "452910": {
+     "504": {
+      "fy_max": 2016,
+      "fy_min": 2001,
+      "loans_all_statuses": 11
+     },
+     "7a": {
+      "fy_max": 2017,
+      "fy_min": 2001,
+      "loans_all_statuses": 213
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012"
+     ]
+    },
+    "452990": {
+     "504": {
+      "fy_max": 2017,
+      "fy_min": 1991,
+      "loans_all_statuses": 222
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 4097
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012"
+     ]
+    },
+    "453110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 268
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 5621
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453210": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 1991,
+      "loans_all_statuses": 156
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 2178
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453220": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 265
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1991,
+      "loans_all_statuses": 8617
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453310": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1998,
+      "loans_all_statuses": 258
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 1998,
+      "loans_all_statuses": 2214
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453910": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 128
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 2700
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453920": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 106
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 1195
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453930": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1993,
+      "loans_all_statuses": 35
+     },
+     "7a": {
+      "fy_max": 2022,
+      "fy_min": 1991,
+      "loans_all_statuses": 286
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453991": {
+     "504": {
+      "fy_max": 2021,
+      "fy_min": 1997,
+      "loans_all_statuses": 49
+     },
+     "7a": {
+      "fy_max": 2024,
+      "fy_min": 1991,
+      "loans_all_statuses": 1548
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "453998": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1999,
+      "loans_all_statuses": 654
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 10880
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "455110": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2022,
+      "loans_all_statuses": 28
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 84
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "455211": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2024,
+      "loans_all_statuses": 3
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2024,
+      "loans_all_statuses": 17
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "455219": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2021,
+      "loans_all_statuses": 121
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2005,
+      "loans_all_statuses": 1238
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "456110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 54
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2021,
+      "loans_all_statuses": 1123
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "456120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 28
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 757
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "456130": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2022,
+      "loans_all_statuses": 4
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 103
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "456191": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2022,
+      "loans_all_statuses": 13
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 318
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "456199": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 17
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 354
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "458110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 140
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2017,
+      "loans_all_statuses": 2238
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "458210": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 11
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 237
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "458310": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 48
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 541
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "458320": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2025,
+      "loans_all_statuses": 2
+     },
+     "7a": {
+      "fy_max": 2025,
+      "fy_min": 2022,
+      "loans_all_statuses": 18
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 72
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2021,
+      "loans_all_statuses": 1004
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 36
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2018,
+      "loans_all_statuses": 663
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459130": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 10
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 152
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459140": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 20
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 160
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459210": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 12
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 242
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459310": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 33
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 493
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459410": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 10
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 95
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459420": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 40
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 504
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459510": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 40
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2015,
+      "loans_all_statuses": 428
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459910": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2022,
+      "loans_all_statuses": 18
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2000,
+      "loans_all_statuses": 538
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459920": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2022,
+      "loans_all_statuses": 17
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2021,
+      "loans_all_statuses": 136
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459930": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2025,
+      "loans_all_statuses": 3
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 24
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459991": {
+     "504": {
+      "fy_max": 2025,
+      "fy_min": 2022,
+      "loans_all_statuses": 3
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 235
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "459999": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 98
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2012,
+      "loans_all_statuses": 1438
+     },
+     "editions": [
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002": 207,
+    "1997+2002+2007": 9008,
+    "1997+2002+2007+2012": 4543,
+    "1997+2002+2007+2012+2017": 170001,
+    "1997+2002+2007+2012+2017+2022": 22394,
+    "2007+2012": 554,
+    "2012+2017": 1346,
+    "2017": 309,
+    "2022": 23044
+   },
+   "foia_loans_total": 231406
+  },
+  "rv-and-boat-storage": {
+   "codes_in_map": [
+    "493190",
+    "531130",
+    "713930"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "493190": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 83
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1999,
+      "loans_all_statuses": 322
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "531130": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2004,
+      "loans_all_statuses": 1354
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 2279
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    },
+    "713930": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1992,
+      "loans_all_statuses": 274
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1077
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 5389
+   },
+   "foia_loans_total": 5389
+  },
+  "rv-park-and-campground": {
+   "codes_in_map": [
+    "721211"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "721211": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 528
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 1851
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 2379
+   },
+   "foia_loans_total": 2379
+  },
+  "select-service-hotel": {
+   "codes_in_map": [
+    "721110"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "721110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 10210
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1996,
+      "loans_all_statuses": 21097
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 31307
+   },
+   "foia_loans_total": 31307
+  },
+  "self-storage": {
+   "codes_in_map": [
+    "531130"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "531130": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2004,
+      "loans_all_statuses": 1354
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 2279
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 3633
+   },
+   "foia_loans_total": 3633
+  },
+  "skilled-nursing": {
+   "codes_in_map": [
+    "623110"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "623110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 683
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1997,
+      "loans_all_statuses": 1455
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 2138
+   },
+   "foia_loans_total": 2138
+  },
+  "truck-stop-and-travel-center": {
+   "codes_in_map": [
+    "447110",
+    "447190",
+    "457110",
+    "457120"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "447110": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 2001,
+      "loans_all_statuses": 3320
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1998,
+      "loans_all_statuses": 18930
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "447190": {
+     "504": {
+      "fy_max": 2022,
+      "fy_min": 1998,
+      "loans_all_statuses": 213
+     },
+     "7a": {
+      "fy_max": 2023,
+      "fy_min": 1998,
+      "loans_all_statuses": 1955
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017"
+     ]
+    },
+    "457110": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 405
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1995,
+      "loans_all_statuses": 2409
+     },
+     "editions": [
+      "2022"
+     ]
+    },
+    "457120": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 9
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2022,
+      "loans_all_statuses": 69
+     },
+     "editions": [
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017": 24418,
+    "2022": 2892
+   },
+   "foia_loans_total": 27310
+  },
+  "urgent-care": {
+   "codes_in_map": [
+    "621493"
+   ],
+   "fit": "partial",
+   "foia_by_code": {
+    "621493": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 99
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 2001,
+      "loans_all_statuses": 744
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 843
+   },
+   "foia_loans_total": 843
+  },
+  "veterinary-practice": {
+   "codes_in_map": [
+    "541940"
+   ],
+   "fit": "exact",
+   "foia_by_code": {
+    "541940": {
+     "504": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 2325
+     },
+     "7a": {
+      "fy_max": 2026,
+      "fy_min": 1991,
+      "loans_all_statuses": 12700
+     },
+     "editions": [
+      "1997",
+      "2002",
+      "2007",
+      "2012",
+      "2017",
+      "2022"
+     ]
+    }
+   },
+   "foia_loans_by_edition_set": {
+    "1997+2002+2007+2012+2017+2022": 15025
+   },
+   "foia_loans_total": 15025
+  }
+ },
+ "codes_in_no_class": 2520
+}

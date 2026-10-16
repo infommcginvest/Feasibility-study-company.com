@@ -1,0 +1,94 @@
+{
+  "about": "Every distinct LoanStatus value in the SBA 7(a) and 504 FOIA files, classified. scripts/markets_build.py fails on any value not listed here, and writes the measured counts per program, file and status (with the FirstDisbursementDate, ChargeOffDate and GrossChargeOffAmount evidence behind each category) to data/markets/foia-status-counts.json. Definitions are quoted from SBA's 7(a) and 504 FOIA data dictionary (7a_504_foia_data_dictionary.xlsx, as of 30 June 2026).",
+  "categories": {
+    "paid_in_full": {
+      "disbursed": true,
+      "charged_off": false,
+      "cancelled": false
+    },
+    "charged_off": {
+      "disbursed": true,
+      "charged_off": true,
+      "cancelled": false
+    },
+    "active_exempt": {
+      "disbursed": true,
+      "charged_off": false,
+      "cancelled": false
+    },
+    "closed_other": {
+      "disbursed": true,
+      "charged_off": false,
+      "cancelled": false
+    },
+    "undisbursed": {
+      "disbursed": false,
+      "charged_off": false,
+      "cancelled": false
+    },
+    "cancelled": {
+      "disbursed": false,
+      "charged_off": false,
+      "cancelled": true
+    }
+  },
+  "programs": {
+    "7a": {
+      "P I F": {
+        "category": "paid_in_full",
+        "dictionary": "PIF = Paid In Full",
+        "note": "The files write the code with spaces ('P I F'); the dictionary writes 'PIF'. Both are listed."
+      },
+      "PIF": {
+        "category": "paid_in_full",
+        "dictionary": "PIF = Paid In Full",
+        "note": "Dictionary spelling; not present in the 2026-06-30 7(a) files."
+      },
+      "CHGOFF": {
+        "category": "charged_off",
+        "dictionary": "CHGOFF = Charged Off"
+      },
+      "EXEMPT": {
+        "category": "active_exempt",
+        "dictionary": "EXEMPT = The status of loans that have been disbursed but have not been cancelled, paid in full, or charged off are exempt from disclosure under FOIA Exemption 4"
+      },
+      "CANCLD": {
+        "category": "cancelled",
+        "dictionary": "CANCLD = Cancelled"
+      },
+      "COMMIT": {
+        "category": "undisbursed",
+        "dictionary": "COMMIT = Undisbursed"
+      }
+    },
+    "504": {
+      "PIF": {
+        "category": "paid_in_full",
+        "dictionary": "PIF = Paid In Full"
+      },
+      "CHGOFF": {
+        "category": "charged_off",
+        "dictionary": "CHGOFF = Charged Off"
+      },
+      "EXEMPT": {
+        "category": "active_exempt",
+        "dictionary": "EXEMPT = The status of loans that have been disbursed but have not been cancelled, paid in full, or charged off are exempt from disclosure under FOIA Exemption 4"
+      },
+      "CANCLD": {
+        "category": "cancelled",
+        "dictionary": "CANCLD = Cancelled"
+      },
+      "NOT FUNDED": {
+        "category": "undisbursed",
+        "dictionary": "NOT FUNDED = Undisbursed",
+        "note": "No NOT FUNDED row carries a FirstDisbursementDate (see foia-status-counts.json)."
+      },
+      "CLOSED": {
+        "category": "closed_other",
+        "dictionary": "CLOSED = Loan that was closed for any reason other than Cancelled, Paid In Full, or Charged Off. This status is no longer in use.",
+        "note": "Classified as disbursed because the as-of-2026-06-30 file carries a FirstDisbursementDate on almost every CLOSED row (see foia-status-counts.json)."
+      }
+    }
+  },
+  "charge_off_split_check": "The charter warns that SBA split the charged-off status into more than one code in a 2026 release. The as-of-2026-06-30 files carry exactly one charged-off code, CHGOFF, in both programs, and no other status value has a ChargeOffDate or a positive GrossChargeOffAmount. The build re-checks this on every run: a row with a ChargeOffDate or a positive GrossChargeOffAmount under a status whose category is not charged_off fails the build."
+}
