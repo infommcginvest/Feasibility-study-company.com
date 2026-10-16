@@ -70,7 +70,16 @@ def g2():
     rowless = [f for f in files if f not in {r['id'] for r in sj['series']}]
     say(f'series files {len(files)}; series rows {len(sj["series"])}; series files without a row: {rowless or "none"}')
     markets = len(geo['markets'])
-    say(f'markets in geographies.json: {markets} (site anchors: 253)')
+    anchor = re.compile(r'href="(?:https://feasibility-study-company\.com)?/states/([a-z0-9-]+)/([a-z0-9-]+)/?(?:#[^"]*)?"')
+    site = set()
+    rc, files = sh("git ls-files -- '*.html'")
+    for f in files.splitlines():
+        if f.startswith(('docs/', 'netlify/')):
+            continue
+        site |= set(anchor.findall(open(os.path.join(ROOT, f), encoding='utf-8', errors='replace').read()))
+    reg = {(m['state'], m['slug']) for m in geo['markets']}
+    say(f'market anchors on the site\'s pages (git ls-files *.html outside docs/ and netlify/, measured now): {len(site)}; markets in geographies.json: {markets}; '
+        f'anchors without a row: {sorted(site - reg) or "none"}; rows without an anchor: {sorted(reg - site) or "none"}')
     say(f'states: {len(geo["states"])}; counties: {geo["counties"]["status"]} ({len(geo["counties"]["rows"])} rows); CBSAs: {geo["cbsas"]["status"]} ({len(geo["cbsas"]["rows"])} rows)')
     missing_fields = []
     for r in src:
@@ -88,7 +97,7 @@ def g2():
         if r['status'] != 'FETCHED':
             say(f'  {r["id"]}: {r.get("reason")}')
     say('sources.json field check: ' + ('every row has every field (retrieved and sha256 are empty only for NOT FETCHED rows)' if not missing_fields else '; '.join(missing_fields)))
-    ok = markets == 253 and not missing_fields and not rowless and geo['counties']['rows'] and geo['cbsas']['rows']
+    ok = markets == 253 and site == reg and not missing_fields and not rowless and geo['counties']['rows'] and geo['cbsas']['rows']
     why = []
     if markets != 253:
         why.append(f'{markets}/253 markets')
@@ -202,6 +211,20 @@ def g7():
                         bad.append(f'{s["id"]} {g} {c}: rate {cell["v"]} != num/den')
                 elif isinstance(cell, dict) and 'by_fy' in cell:
                     n_sums += 1
+    # the small-sample flag follows the disbursed-loan count for both rates (attacker finding F1)
+    flag_checked = 0
+    for prog in ('sba7a', 'sba504'):
+        cnt = jl(os.path.join(DATA, 'series', f'{prog}_chgoff_rate.json'))['values']
+        amt = jl(os.path.join(DATA, 'series', f'{prog}_chgoff_amt_rate.json'))['values']
+        for g, cl in cnt.items():
+            for c, cell in cl.items():
+                a = amt[g][c]
+                small = 0 < cell['den'] < 30
+                for which, x in (('count', cell), ('amount', a)):
+                    flag_checked += 1
+                    if small != str(x.get('f', '')).startswith('small-denominator'):
+                        bad.append(f'{prog} {g} {c}: {which} rate flag {x.get("f")!r} but {cell["den"]} disbursed loans')
+    say(f'rate cells checked for the small-sample flag on the disbursed-loan count: {flag_checked:,}')
     # every market value equals the sum of its component county strings (class all, all years)
     geo = jl(os.path.join(DATA, 'geographies.json'))
     cs = jl(os.path.join(DATA, 'foia-county-strings.json'))['values']
@@ -287,18 +310,21 @@ def g11():
             p = os.path.join(d, f)
             sz = os.path.getsize(p)
             total += sz
-            if sz > 25 * 1024 * 1024:
+            if sz > 25e6:
                 big.append((os.path.relpath(p, ROOT), sz))
     rc, out = sh('git ls-files _cache _bundles')
-    say(f'data/markets total {total / 1048576:.2f} MB; files over 25 MB: {big or "none"}; tracked under _cache or _bundles: {out or "none"}')
+    say(f'data/markets total {total:,} bytes = {total / 1e6:.2f} MB = {total / 1048576:.2f} MiB; files over 25 MB: {big or "none"}; tracked under _cache or _bundles: {out or "none"}')
     largest = sorted(((os.path.getsize(os.path.join(d, f)), os.path.relpath(os.path.join(d, f), ROOT)) for d, _, fs in os.walk(DATA) for f in fs), reverse=True)[:5]
-    say('largest: ' + '; '.join(f'{p} {s / 1048576:.2f} MB' for s, p in largest))
-    return total < 60 * 1048576 and not big and not out, f'{total / 1048576:.2f} MB, none over 25 MB, nothing under _cache tracked'
+    say('largest: ' + '; '.join(f'{p} {s / 1e6:.2f} MB' for s, p in largest))
+    return total < 60e6 and not big and not out, f'{total / 1e6:.2f} MB ({total / 1048576:.2f} MiB), largest file {largest[0][0] / 1e6:.2f} MB, nothing under _cache tracked'
 
 
 def main():
     rc, head = sh('git rev-parse HEAD')
     say(f'WEB-FSC-5 gates at HEAD {head}')
+    say('runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; '
+        'the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, '
+        'so the commit that holds GATES.txt is one record-only commit after the HEAD above.')
     results = [gate(1, 'no served file changed', g1), gate(2, 'coverage', g2), gate(3, 'reconciliation', g3),
                gate(4, 'FOIA status', g4), gate(5, 'NAICS', g5), gate(6, 'independent re-derivation', g6),
                gate(7, 'no synthesized medians, no averaged rates', g7), gate(8, 'render and mutation', g8),

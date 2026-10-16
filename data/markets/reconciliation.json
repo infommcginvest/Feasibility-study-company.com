@@ -1,6 +1,28 @@
 {
  "about": "Register totals against the raw files. The raw recount is taken row by row during the read; the independent re-derivation in docs/web-fsc-5/gates/ does not import this script.",
  "all_match": true,
+ "raw_file_properties": {
+  "504": {
+   "blank_naics_loans_net_of_cancellations": 18655,
+   "blank_naics_rows": 21922,
+   "chgoff_rows_with_zero_amount": 2,
+   "chgoff_rows_without_chargeoff_date": 0,
+   "exact_duplicate_rows": 69,
+   "exact_duplicate_rows_not_cancelled": 3,
+   "exact_duplicate_rows_not_cancelled_gross_approval": 777000.0
+  },
+  "7a": {
+   "blank_naics_loans_net_of_cancellations": 176915,
+   "blank_naics_rows": 203850,
+   "chgoff_rows_with_zero_amount": 180,
+   "chgoff_rows_without_chargeoff_date": 58,
+   "exact_duplicate_rows": 1918,
+   "exact_duplicate_rows_not_cancelled": 531,
+   "exact_duplicate_rows_not_cancelled_gross_approval": 250499334.0,
+   "negative_gross_approval_rows": 1.0
+  }
+ },
+ "raw_file_properties_note": "Measured on every build and counted as SBA publishes them, never repaired: exact_duplicate_rows are rows identical in every field to an earlier row of the same file. The files carry no loan identifier (LocationID is the lender), so a twin loan cannot be told from a listing error, and the register counts every row. A negative GrossApproval and a charged-off row with no amount or no date are likewise kept as published.",
  "states_vs_us": {
   "504": {
    "difference": 0,

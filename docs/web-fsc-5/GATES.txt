@@ -1,4 +1,5 @@
-WEB-FSC-5 gates at HEAD 8dd83fa6254dd889c00657ac940846d9ed42dc19
+WEB-FSC-5 gates at HEAD 4e7cceae21fa68c9bf7da6d84d43f3933729edd9
+runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, so the commit that holds GATES.txt is one record-only commit after the HEAD above.
 
 === GATE 1: no served file changed
 $ git diff --name-only main...HEAD
@@ -330,6 +331,7 @@ docs/web-fsc-5/compose/market_extracts.json
 docs/web-fsc-5/compose/naics-map-draft.json
 docs/web-fsc-5/fixture/houston-negative.html
 docs/web-fsc-5/fixture/index.html
+docs/web-fsc-5/freeze/freeze-e7cc263.json
 docs/web-fsc-5/gates/rederive-result.json
 docs/web-fsc-5/gates/rederive.py
 docs/web-fsc-5/gates/run_gates.py
@@ -344,27 +346,27 @@ scripts/markets_build.py
 scripts/markets_fetch.py
 $ git status --porcelain (paths outside the lane)
 (none)
---> GATE 1 GREEN: 340 changed path(s), all inside the lane
+--> GATE 1 GREEN: 341 changed path(s), all inside the lane
 
 === GATE 2: coverage
 series files 16; series rows 16; series files without a row: none
-markets in geographies.json: 253 (site anchors: 253)
+market anchors on the site's pages (git ls-files *.html outside docs/ and netlify/, measured now): 253; markets in geographies.json: 253; anchors without a row: none; rows without an anchor: none
 states: 60; counties: NOT FETCHED (0 rows); CBSAs: NOT FETCHED (0 rows)
 FETCHED: 1: sba_foia
-NOT FETCHED: 14: census_pep, census_pep_api, census_acs5, census_acs1, census_bps, census_cbp, census_cbp_bulk, census_geoinfo, census_delineation, census_dec2020_ct, bls_qcew, bea_cainc1, bea_cainc1_api, hud_fmr
+NOT FETCHED: 14: census_geoinfo, census_pep, census_pep_api, census_acs5, census_acs1, census_bps, census_cbp, census_cbp_bulk, census_delineation, census_dec2020_ct, bls_qcew, bea_cainc1, bea_cainc1_api, hud_fmr
+  census_geoinfo: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
   census_pep: www2.census.gov robots.txt disallows /programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_pep_api: CENSUS_API_KEY is not set; the census_pep_api endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
-  census_acs5: CENSUS_API_KEY is not set; the census_acs5 endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
-  census_acs1: CENSUS_API_KEY is not set; the census_acs1 endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_pep_api: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
+  census_acs5: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
+  census_acs1: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
   census_bps: www2.census.gov robots.txt disallows /econ/bps/County/co2025a.txt for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_cbp: CENSUS_API_KEY is not set; the census_cbp endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
   census_cbp_bulk: www2.census.gov robots.txt disallows /programs-surveys/cbp/datasets/2023/cbp23co.zip for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_geoinfo: CENSUS_API_KEY is not set; the census_geoinfo endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
   census_delineation: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_dec2020_ct: CENSUS_API_KEY is not set; the census_dec2020_ct endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_dec2020_ct: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
   bls_qcew: data.bls.gov robots.txt disallows /cew/data/files/2025/csv/2025_annual_singlefile.zip for user-agent * (RFC 9309 group: * -> 1 rule(s))
   bea_cainc1: apps.bea.gov robots.txt disallows /regional/zip/CAINC1.zip for user-agent * (RFC 9309 group: * -> 16 rule(s))
-  bea_cainc1_api: BEA_API_KEY is not set; the bea_cainc1_api endpoint requires a key (BEA API: GetData requires a registered UserID)
+  bea_cainc1_api: BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:37Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); see probes in the manifest
   hud_fmr: www.huduser.gov: challenge (AWS WAF bot check on robots.txt)
 sources.json field check: every row has every field (retrieved and sha256 are empty only for NOT FETCHED rows)
 --> GATE 2 RED: no county or CBSA roster: both NOT FETCHED (Census API key wall D2, www2 robots D1)
@@ -392,14 +394,14 @@ additive federal series fetched for a county-to-state-to-nation reconciliation: 
 
 === GATE 5: NAICS
 classes: 43; without a fit grade: none
-  assisted-living-and-memory-care: fit exact; 2022 623312; FOIA loans 4,230; by edition set {'1997+2002+2007+2012+2017+2022': 4230}
-  auto-dealership: fit exact; 2022 441110,441120; FOIA loans 12,270; by edition set {'1997+2002+2007+2012+2017+2022': 12270}
-  auto-service-and-collision: fit exact; 2022 811111,811114,811121,811122,811191,811198; FOIA loans 65,836; by edition set {'1997+2002+2007+2012+2017': 6829, '1997+2002+2007+2012+2017+2022': 58682, '2022': 325}
+  assisted-living-and-memory-care: fit partial; 2022 623312; FOIA loans 4,230; by edition set {'1997+2002+2007+2012+2017+2022': 4230}
+  auto-dealership: fit partial; 2022 441110,441120,441210,441222,441227; FOIA loans 19,579; by edition set {'1997+2002+2007': 2987, '1997+2002+2007+2012+2017+2022': 15527, '2012+2017': 743, '2022': 322}
+  auto-service-and-collision: fit exact; 2022 811111,811114,811121,811122,811191,811198,441340; FOIA loans 68,392; by edition set {'1997+2002+2007+2012+2017': 9060, '1997+2002+2007+2012+2017+2022': 58682, '2022': 650}
   behavioral-health: fit partial; 2022 621420,623220,622210,621330,621112; FOIA loans 9,438; by edition set {'1997+2002+2007+2012+2017+2022': 9438}
   childcare-and-daycare: fit exact; 2022 624410; FOIA loans 30,149; by edition set {'1997+2002+2007+2012+2017+2022': 30149}
   coffee-shop: fit partial; 2022 722515; FOIA loans 16,127; by edition set {'1997+2002+2007': 6420, '2012+2017+2022': 9707}
   express-car-wash: fit exact; 2022 811192; FOIA loans 13,041; by edition set {'1997+2002+2007+2012+2017+2022': 13041}
-  fitness-and-recreation: fit exact; 2022 713940; FOIA loans 26,412; by edition set {'1997+2002+2007+2012+2017+2022': 26412}
+  fitness-and-recreation: fit partial; 2022 713940,611620; FOIA loans 32,177; by edition set {'1997+2002+2007+2012+2017+2022': 32177}
   funeral-home: fit exact; 2022 812210,812220; FOIA loans 5,252; by edition set {'1997+2002+2007+2012+2017+2022': 5252}
   gas-station-and-c-store: fit exact; 2022 457110,457120,445131; FOIA loans 38,600; by edition set {'1997+2002+2007+2012+2017': 34595, '2022': 4005}
   glamping: fit proxy; 2022 721211,721199,721214; FOIA loans 3,702; by edition set {'1997+2002+2007+2012+2017+2022': 3702}
@@ -411,7 +413,7 @@ classes: 43; without a fit grade: none
   multifamily: fit partial; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
   pet-boarding-and-daycare: fit exact; 2022 812910; FOIA loans 8,606; by edition set {'1997+2002+2007+2012+2017+2022': 8606}
   private-school: fit partial; 2022 611110; FOIA loans 2,136; by edition set {'1997+2002+2007+2012+2017+2022': 2136}
-  quick-service-restaurant: fit exact; 2022 722513; FOIA loans 63,176; by edition set {'1997+2002+2007': 33868, '2012+2017+2022': 29308}
+  quick-service-restaurant: fit exact; 2022 722513,722515; FOIA loans 79,303; by edition set {'1997+2002+2007': 40288, '2012+2017+2022': 39015}
   restaurant: fit exact; 2022 722511,722513,722514,722515,722310,722320,722330; FOIA loans 185,685; by edition set {'1997+2002+2007': 91011, '1997+2002+2007+2012+2017+2022': 11459, '2012+2017+2022': 83215}
   retail: fit proxy; 2022 444110,444120,444140,444180,444230,444240,445110,445131,445230,445240,445250,445291,445292,445298,445320,449110,449121,449122,449129,449210,455110,455211,455219,456110,456120,456130,456191,456199,458110,458210,458310,458320,459110,459120,459130,459140,459210,459310,459410,459420,459510,459910,459920,459930,459991,459999; FOIA loans 231,406; by edition set {'1997+2002': 207, '1997+2002+2007': 9008, '1997+2002+2007+2012': 4543, '1997+2002+2007+2012+2017': 170001, '1997+2002+2007+2012+2017+2022': 22394, '2007+2012': 554, '2012+2017': 1346, '2017': 309, '2022': 23044}
   rv-and-boat-storage: fit partial; 2022 531130,493190,713930; FOIA loans 5,389; by edition set {'1997+2002+2007+2012+2017+2022': 5389}
@@ -434,16 +436,16 @@ classes: 43; without a fit grade: none
   independent-living-and-ccrc: fit partial; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
   active-adult: fit proxy; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
   board-and-care: fit partial; 2022 623312,623990; FOIA loans 5,204; by edition set {'1997+2002+2007+2012+2017+2022': 4230, '2002+2007+2012+2017+2022': 974}
-  ccrc-life-plan-communities: fit exact; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
-CBP establishment counts nationally per class: NOT FETCHED (census_cbp: CENSUS_API_KEY is not set; the census_cbp endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1))
+  ccrc-life-plan-communities: fit partial; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
+CBP establishment counts nationally per class: NOT FETCHED (census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest)
 --> GATE 5 RED: every class graded; FOIA loans reported by code and edition; RED because CBP was NOT FETCHED, so no class can show a non-zero national CBP count
 
 === GATE 6: independent re-derivation
 sampled 304 values; matches 304; mismatches 0
   county: 48/48
   county-set: 80/80
-  cross-state: 19/19
-  cross-state-part: 13/13
+  cross-state: 18/18
+  cross-state-part: 14/14
   ct-component: 48/48
   state: 64/64
   us: 32/32
@@ -451,7 +453,8 @@ quota: {'ct': {'need': 5, 'have': 48}, 'multi_county': {'need': 5, 'have': 80}, 
 --> GATE 6 RED: mismatches 0; quotas short {'sub_county': {'need': 3, 'have': 0, 'note': "0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them."}}
 
 === GATE 7: no synthesized medians, no averaged rates
-series walked: rate cells 30,624 (each re-divided), additive cells 91,872; markets checked as sums of their county strings: 95
+rate cells checked for the small-sample flag on the disbursed-loan count: 29,392
+series walked: rate cells 29,392 (each re-divided), additive cells 88,176; markets checked as sums of their county strings: 88
 no series in the register is a median (no ACS or HUD series was fetched)
 --> GATE 7 GREEN: every aggregate is a sum or a ratio of sums; no median is aggregated
 
@@ -467,7 +470,7 @@ exit 1
 revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html
 0 page(s) out of date
 exit 0
-register file after revert: unchanged-vs-index
+register file after revert: DIFFERS
 $ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html
 texas/houston.sba7a_loans: the register holds no value here (composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall))
 exit 1
@@ -494,8 +497,8 @@ Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility 
 --> GATE 10 GREEN: no match in lane files or commit identities
 
 === GATE 11: size
-data/markets total 29.63 MB; files over 25 MB: none; tracked under _cache or _bundles: none
-largest: data/markets/series/sba7a_volume.json 1.89 MB; data/markets/series/sba504_volume.json 1.62 MB; data/markets/series/sba7a_chgoff_amt.json 1.54 MB; data/markets/series/sba504_chgoff_amt.json 1.36 MB; data/markets/series/sba7a_loans.json 1.32 MB
---> GATE 11 GREEN: 29.63 MB, none over 25 MB, nothing under _cache tracked
+data/markets total 30,719,886 bytes = 30.72 MB = 29.30 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
+largest: data/markets/series/sba7a_volume.json 1.92 MB; data/markets/series/sba504_volume.json 1.65 MB; data/markets/series/sba7a_chgoff_amt.json 1.56 MB; data/markets/series/sba504_chgoff_amt.json 1.38 MB; data/markets/series/sba7a_loans.json 1.33 MB
+--> GATE 11 GREEN: 30.72 MB (29.30 MiB), largest file 1.92 MB, nothing under _cache tracked
 
 GATES GREEN 7/11: 1:G 2:R 3:G 4:G 5:R 6:R 7:G 8:R 9:G 10:G 11:G

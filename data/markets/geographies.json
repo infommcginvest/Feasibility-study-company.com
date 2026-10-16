@@ -512,7 +512,8 @@
    "name": null,
    "site_page": false,
    "site_markets": false,
-   "fips": null
+   "fips": null,
+   "note": "ProjectState as SBA writes it; TQ is not a USPS state or territory code. Kept as published."
   },
   {
    "id": "va",
@@ -3117,7 +3118,7 @@
       }
      ],
      "fit_planning": "exact: heading names Naugatuck Valley, the Naugatuck Valley Planning Region",
-     "fit_legacy": "approximate: Naugatuck Valley spans mostly New Haven County, with a few Litchfield County towns and Shelton from Fairfield County",
+     "fit_legacy": "approximate: Naugatuck Valley spans mostly New Haven County, with a few Litchfield County towns and Shelton from Fairfield County; Bristol (Hartford County) and Plymouth (Litchfield County) are Naugatuck Valley towns; Hartford County is not in the legacy composition (attacker finding F7)",
      "basis_planning": "heading names Naugatuck Valley (planning region 09140)",
      "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
     },
@@ -8114,7 +8115,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "MI",
@@ -8130,9 +8131,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded",
-   "reason": "Heading names two metros (Flint CBSA 22420 is Genesee, Saginaw CBSA 40980 is Saginaw); neither alone is the market.",
+   "reason": "Heading names two metros (Flint CBSA 22420 is Genesee, Saginaw CBSA 40980 is Saginaw); neither alone is the market.; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm",
    "review": true
   },
   {
@@ -8840,7 +8841,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "MN",
@@ -8860,9 +8861,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded",
-   "reason": "Mankato CBSA counties (Blue Earth, Nicollet) plus Clay County for Moorhead, which belongs to the Fargo-Moorhead CBSA whose North Dakota side (Cass County) is not included.",
+   "reason": "Mankato CBSA counties (Blue Earth, Nicollet) plus Clay County for Moorhead, which belongs to the Fargo-Moorhead CBSA whose North Dakota side (Cass County) is not included.; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm",
    "review": true
   },
   {
@@ -9660,7 +9661,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "MS",
@@ -9688,9 +9689,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded",
-   "reason": "Hattiesburg CBSA counties plus Jones (Laurel, Pine Belt) and Lauderdale (Meridian); the Pine Belt has no federal definition.",
+   "reason": "Hattiesburg CBSA counties plus Jones (Laurel, Pine Belt) and Lauderdale (Meridian); the Pine Belt has no federal definition.; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm; attacker one also reads the Hattiesburg MSA as including Covington County, which the recalled list omits (finding F3)",
    "review": true
   },
   {
@@ -9903,7 +9904,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "MO",
@@ -9931,9 +9932,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded",
-   "reason": "Branson micropolitan counties (Taney, Stone) plus Lake of the Ozarks counties (Camden, Miller, Morgan).",
+   "reason": "Branson micropolitan counties (Taney, Stone) plus Lake of the Ozarks counties (Camden, Miller, Morgan).; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm",
    "review": true
   },
   {
@@ -10055,7 +10056,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "MO",
@@ -10095,9 +10096,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded",
-   "reason": "Missouri counties of the three anchor metros (Jefferson City, Cape Girardeau, Joplin); Alexander County, Illinois (Cape Girardeau CBSA) is left out.",
+   "reason": "Missouri counties of the three anchor metros (Jefferson City, Cape Girardeau, Joplin); Alexander County, Illinois (Cape Girardeau CBSA) is left out.; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm",
    "review": true
   },
   {
@@ -12119,9 +12120,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "page-named-counties",
+   "composition_source": "judgement-region",
    "basis": "New Mexico part is the counties the state page names",
-   "reason": "Page names Lea and Eddy (NM part); most of the basin is in Texas, and the Texas list is a core set as commonly cited. Page content is NM only.",
+   "reason": "Page names Lea and Eddy (NM part); most of the basin is in Texas, and the Texas list is a core set as commonly cited. Page content is NM only.; composition_source set to judgement-region: the New Mexico part is the two counties the page names; the 17 Texas counties are the basin as commonly bounded, which is judgement",
    "review": true
   },
   {
@@ -13396,7 +13397,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "NC",
@@ -13444,9 +13445,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded; heading matches the Greensboro-Winston-Salem-High Point combined statistical area; counties unverified",
-   "reason": "Heading names the Triad CSA rather than one CBSA; the quoted 1.7 million fits the CSA (Greensboro-High Point, Winston-Salem, Burlington and Mount Airy areas).",
+   "reason": "Heading names the Triad CSA rather than one CBSA; the quoted 1.7 million fits the CSA (Greensboro-High Point, Winston-Salem, Burlington and Mount Airy areas).; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm",
    "review": true
   },
   {
@@ -17820,7 +17821,7 @@
     "tract_note": null
    },
    "foia": {
-    "resolved": true,
+    "resolved": false,
     "strings": [
      {
       "state": "WA",
@@ -17840,9 +17841,9 @@
     "missing": []
    },
    "ct": false,
-   "composition_source": "judgement-region",
+   "composition_source": "cbsa-delineation-pending",
    "basis": "region as commonly bounded (no federal definition); counties are a judgement",
-   "reason": "Heading names Yakima and Wenatchee (Yakima County and the Chelan-Douglas CBSA); 'rural agriculture' names no further counties.",
+   "reason": "Heading names Yakima and Wenatchee (Yakima County and the Chelan-Douglas CBSA); 'rural agriculture' names no further counties.; composition_source set to cbsa-delineation-pending: its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm",
    "review": true
   },
   {
@@ -18230,8 +18231,8 @@
      },
      {
       "state": "WI",
-      "name": "Price County",
-      "fips": "55099",
+      "name": "Juneau County",
+      "fips": "55057",
       "fips_verified": false,
       "role": "member"
      },
@@ -18288,7 +18289,7 @@
      },
      {
       "state": "WI",
-      "string": "PRICE"
+      "string": "JUNEAU"
      },
      {
       "state": "WI",
@@ -18306,7 +18307,7 @@
    "ct": false,
    "composition_source": "judgement-region",
    "basis": "region as commonly bounded (no federal definition); counties are a judgement",
-   "reason": "Heading names Wausau, Central and the Northwoods with no counties; composed as the ten-county north central Wisconsin planning region.",
+   "reason": "Heading names Wausau, Central and the Northwoods with no counties; composed as the ten-county north central Wisconsin planning region.; CORRECTED: the row claims the ten-county North Central Wisconsin planning region, which has Juneau County, not Price County (attacker finding F4); corrected to match the stated basis",
    "review": true
   },
   {

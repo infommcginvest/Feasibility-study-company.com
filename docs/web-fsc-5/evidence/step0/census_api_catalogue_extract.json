@@ -1,0 +1,1500 @@
+{
+ "about": "Extract of https://api.census.gov/data.json fetched at step zero, 2026-10-16 ~09:30 UTC (the 5.2 MB catalogue itself is not kept). Every dataset whose path starts pep, cbp, acs/acs1, acs/acs5, geoinfo, dec/pl or timeseries/eits/resconst, and every title mentioning permits or building. No county Building Permits Survey dataset is listed; the latest listed vintages are acs5 2024, acs1 2024, cbp 2023, pep/charv 2023, geoinfo 2025.",
+ "total_datasets": 1811,
+ "rows": [
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2005,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2019-08-27 12:50:06.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2006,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2019-08-27 10:47:47.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2007,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2019-08-27 10:05:20.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2008,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2019-08-27 07:30:33.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2009,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2019-08-26 10:52:39.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2010,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2011,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2012,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2013,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2014,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-07-05 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2015,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2021-03-24 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2016,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-07-05 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2017,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2018-09-06 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2018,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2019-06-25 15:57:36.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2019,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2020-04-03 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2021,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2022-04-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2022,
+   "title": "American Community Survey: 1-Year Estimates: Detailed Tables 1-Year",
+   "modified": "2023-04-24 14:51:53.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2023,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2024-04-24 06:11:27.0"
+  },
+  {
+   "dataset": "acs/acs1",
+   "vintage": 2024,
+   "title": "ACS 1-Year Detailed Tables",
+   "modified": "2025-02-27 18:54:51.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2009,
+   "title": "American Community Survey: 5-Year Estimates: Detailed Tables 5-Year",
+   "modified": "2019-08-27 13:11:18.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2010,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2011,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2012,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2013,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2014,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-04 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2015,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-05 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2016,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-07-05 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2017,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2018-08-21 07:11:43.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2018,
+   "title": "American Community Survey: 5-Year Estimates: Detailed Tables 5-Year",
+   "modified": "2019-10-22 16:28:02.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2019,
+   "title": "American Community Survey: 5-Year Estimates: Detailed Tables 5-Year",
+   "modified": "2020-04-03 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2020,
+   "title": "American Community Survey: 5-Year Estimates: Detailed Tables 5-Year",
+   "modified": "2021-07-13 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: Detailed Tables 5-Year",
+   "modified": "2022-08-08 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2022,
+   "title": "American Community Survey: 5-Year Estimates: Detailed Tables 5-Year",
+   "modified": "2023-09-05 12:01:39.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2023,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2024-09-06 17:27:47.0"
+  },
+  {
+   "dataset": "acs/acs5",
+   "vintage": 2024,
+   "title": "ACS 5-Year Detailed Tables",
+   "modified": "2025-09-02 17:33:50.0"
+  },
+  {
+   "dataset": "acs/acs5/aian",
+   "vintage": 2010,
+   "title": "American Community Survey: 5-Year Estimates: American Indian and Alaska Native Detailed Tables 5-Year",
+   "modified": "2019-10-24 07:18:57.0"
+  },
+  {
+   "dataset": "acs/acs5/aian",
+   "vintage": 2015,
+   "title": "ACS 5-Year AIAN Detailed Tables",
+   "modified": "2020-02-13 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/aian",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: American Indian and Alaska Native Detailed Tables 5-Year",
+   "modified": "2022-11-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/aianprofile",
+   "vintage": 2010,
+   "title": "American Community Survey: 5-Year Estimates: American Indian and Alaska Native Data Profiles 5-Year",
+   "modified": "2019-10-24 06:46:02.0"
+  },
+  {
+   "dataset": "acs/acs5/aianprofile",
+   "vintage": 2015,
+   "title": "American Community Survey: 5-Year Estimates: American Indian and Alaska Native Data Profiles 5-Year",
+   "modified": "2020-02-11 08:52:59.0"
+  },
+  {
+   "dataset": "acs/acs5/aianprofile",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: American Indian and Alaska Native Data Profiles 5-Year",
+   "modified": "2022-11-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2015,
+   "title": "ACS 5-Year Comparison Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2016,
+   "title": "ACS 5-Year Comparison Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2017,
+   "title": "ACS 5-Year Comparison Profiles",
+   "modified": "2018-10-19 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2018,
+   "title": "American Community Survey: 5-Year Estimates: Comparison Profiles 5-Year",
+   "modified": "2019-10-22 14:54:09.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2019,
+   "title": "American Community Survey: 5-Year Estimates: Comparison Profiles 5-Year",
+   "modified": "2020-04-03 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2020,
+   "title": "American Community Survey: 5-Year Estimates: Comparison Profiles 5-Year",
+   "modified": "2021-07-13 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: Comparison Profiles 5-Year",
+   "modified": "2022-08-08 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2022,
+   "title": "American Community Survey: 5-Year Estimates: Comparison Profiles 5-Year",
+   "modified": "2023-09-05 12:01:31.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2023,
+   "title": "ACS 5-Year Comparison Profiles",
+   "modified": "2024-09-06 17:27:40.0"
+  },
+  {
+   "dataset": "acs/acs5/cprofile",
+   "vintage": 2024,
+   "title": "ACS 5-Year Comparison Profiles",
+   "modified": "2025-09-02 17:33:43.0"
+  },
+  {
+   "dataset": "acs/acs5/eeo",
+   "vintage": 2018,
+   "title": "American Community Survey: 5-Year Estimates: Equal Employment Opportunity 5-Year",
+   "modified": "2021-07-28 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2009,
+   "title": "American Community Survey: 5-Year Estimates: Data Profiles 5-Year",
+   "modified": "2019-08-29 10:36:01.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2010,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2011,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2012,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2013,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2014,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2015,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2016,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2017,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2018-10-19 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2018,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2019-10-22 16:22:18.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2019,
+   "title": "American Community Survey: 5-Year Estimates: Data Profiles 5-Year",
+   "modified": "2020-04-03 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2020,
+   "title": "American Community Survey: 5-Year Estimates: Data Profiles 5-Year",
+   "modified": "2021-07-13 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: Data Profiles 5-Year",
+   "modified": "2022-08-08 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2022,
+   "title": "American Community Survey: 5-Year Estimates: Data Profiles 5-Year",
+   "modified": "2023-09-05 12:01:42.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2023,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2024-09-06 17:27:50.0"
+  },
+  {
+   "dataset": "acs/acs5/profile",
+   "vintage": 2024,
+   "title": "ACS 5-Year Data Profiles",
+   "modified": "2025-09-02 17:33:54.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2009,
+   "title": "2005-2009 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:05:34.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2010,
+   "title": "2006-2010 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:05:59.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2011,
+   "title": "2007-2011 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:03.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2012,
+   "title": "2008-2012 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:08.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2013,
+   "title": "2009-2013 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:18.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2014,
+   "title": "2010-2014 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:23.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2015,
+   "title": "2011-2015 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:27.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2016,
+   "title": "2012-2016 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:31.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2017,
+   "title": "2013-2017 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-11-25 11:06:35.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2018,
+   "title": "2014-2018 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2019-12-19 11:03:12.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2019,
+   "title": "ACS 5-Year PUMS",
+   "modified": "2020-11-24 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2020,
+   "title": "2020 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2022-01-31 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2021,
+   "title": "2021 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2022-10-28 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2022,
+   "title": "2022 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2023-10-30 08:46:21.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2023,
+   "title": "2023 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2024-10-29 10:45:52.0"
+  },
+  {
+   "dataset": "acs/acs5/pums",
+   "vintage": 2024,
+   "title": "2024 American Community Survey: 5-Year Estimates - Public Use Microdata Sample",
+   "modified": "2025-12-23 15:02:39.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2009,
+   "title": "2005-2009 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:42:53.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2010,
+   "title": "2006-2010 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:42:59.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2011,
+   "title": "2007-2011 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:03.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2012,
+   "title": "2008-2012 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:08.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2013,
+   "title": "2009-2013 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:12.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2014,
+   "title": "2010-2014 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:15.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2015,
+   "title": "2011-2015 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:19.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2016,
+   "title": "2012-2016 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:23.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2017,
+   "title": "2013-2017 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-11-25 11:43:27.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2018,
+   "title": "2014-2018 American Community Survey: 5-Year Estimates - Puerto Rico Public Use Microdata Sample",
+   "modified": "2019-12-19 11:03:04.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2019,
+   "title": "ACS 5-Year PUMS Puerto Rico",
+   "modified": "2020-11-24 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2020,
+   "title": "2020 American Community Survey: 5-Year Estimates - Public Use Microdata Sample Puerto Rico",
+   "modified": "2022-01-31 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2021,
+   "title": "2021 American Community Survey: 5-Year Estimates - Public Use Microdata Sample Puerto Rico",
+   "modified": "2022-10-28 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2022,
+   "title": "2022 American Community Survey: 5-Year Estimates - Public Use Microdata Sample Puerto Rico",
+   "modified": "2023-10-30 08:46:17.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2023,
+   "title": "2023 American Community Survey: 5-Year Estimates - Public Use Microdata Sample Puerto Rico",
+   "modified": "2024-10-29 10:45:49.0"
+  },
+  {
+   "dataset": "acs/acs5/pumspr",
+   "vintage": 2024,
+   "title": "2024 American Community Survey: 5-Year Estimates - Public Use Microdata Sample Puerto Rico",
+   "modified": "2025-12-23 15:02:35.0"
+  },
+  {
+   "dataset": "acs/acs5/spt",
+   "vintage": 2010,
+   "title": "American Community Survey: 5-Year Estimates: Selected Population Detailed Tables 5-Year",
+   "modified": "2019-10-11 14:16:00.0"
+  },
+  {
+   "dataset": "acs/acs5/spt",
+   "vintage": 2015,
+   "title": "American Community Survey: 5-Year Estimates: Selected Population Detailed Tables 5-Year",
+   "modified": "2020-02-18 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/spt",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: Selected Population Detailed Tables 5-Year",
+   "modified": "2022-11-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/sptprofile",
+   "vintage": 2010,
+   "title": "American Community Survey: 5-Year Estimates: Selected Population Data Profiles 5-Year",
+   "modified": "2019-10-09 13:54:45.0"
+  },
+  {
+   "dataset": "acs/acs5/sptprofile",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: Selected Population Data Profiles 5-Year",
+   "modified": "2022-11-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2010,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-09-18 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2011,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-07-05 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2012,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2013,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2014,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2015,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2016,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-06-29 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2017,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2018-10-19 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2018,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2019-10-22 15:36:29.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2019,
+   "title": "American Community Survey: 5-Year Estimates: Subject Tables 5-Year",
+   "modified": "2020-04-03 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2020,
+   "title": "American Community Survey: 5-Year Estimates: Subject Tables 5-Year",
+   "modified": "2021-07-13 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2021,
+   "title": "American Community Survey: 5-Year Estimates: Subject Tables 5-Year",
+   "modified": "2022-08-08 00:00:00.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2022,
+   "title": "American Community Survey: 5-Year Estimates: Subject Tables 5-Year",
+   "modified": "2023-09-05 12:01:35.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2023,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2024-09-06 17:27:43.0"
+  },
+  {
+   "dataset": "acs/acs5/subject",
+   "vintage": 2024,
+   "title": "ACS 5-Year Subject Tables",
+   "modified": "2025-09-02 17:33:47.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1986,
+   "title": "1986 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1987,
+   "title": "1987 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1988,
+   "title": "1988 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1989,
+   "title": "1989 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1990,
+   "title": "1990 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1991,
+   "title": "1991 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1992,
+   "title": "1992 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1993,
+   "title": "1993 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1994,
+   "title": "1994 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1995,
+   "title": "1995 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1996,
+   "title": "1996 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1997,
+   "title": "1997 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1998,
+   "title": "1998 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 1999,
+   "title": "1999 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2000,
+   "title": "2000 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2001,
+   "title": "2001 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2002,
+   "title": "2002 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2003,
+   "title": "2003 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2004,
+   "title": "2004 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2005,
+   "title": "2005 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2006,
+   "title": "2006 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2007,
+   "title": "2007 County Business Patterns: Business Patterns",
+   "modified": "2019-02-13"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2008,
+   "title": "2008 County Business Patterns: Business Patterns",
+   "modified": "2017-02-22"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2009,
+   "title": "2009 County Business Patterns: Business Patterns",
+   "modified": "2017-02-22"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2010,
+   "title": "2010 County Business Patterns: Business Patterns",
+   "modified": "2017-02-22"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2011,
+   "title": "2011 County Business Patterns: Business Patterns",
+   "modified": "2017-02-22"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2012,
+   "title": "Annual Economic Surveys: Business Patterns: County Business Patterns",
+   "modified": "2018-04-20 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2013,
+   "title": "2013 County Business Patterns",
+   "modified": "2018-04-20 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2014,
+   "title": "2014 County Business Patterns",
+   "modified": "2018-04-20 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2015,
+   "title": "2015 County Business Patterns",
+   "modified": "2018-04-20 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2016,
+   "title": "2016 County Business Patterns",
+   "modified": "2018-04-20 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2017,
+   "title": "Annual Economic Surveys: Business Patterns: County Business Patterns",
+   "modified": "2019-11-07 14:49:23.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2018,
+   "title": "Economic Surveys: Business Patterns: County Business Patterns",
+   "modified": "2020-05-07 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2019,
+   "title": "Economic Surveys: Business Patterns: County Business Patterns",
+   "modified": "2021-01-21 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2020,
+   "title": "Economic Surveys: Business Patterns: County Business Patterns",
+   "modified": "2022-01-05 00:00:00.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2021,
+   "title": "Economic Surveys: Business Patterns: County Business Patterns",
+   "modified": "2023-01-25 12:34:43.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2022,
+   "title": "2022 County Business Patterns",
+   "modified": "2024-02-28 15:13:01.0"
+  },
+  {
+   "dataset": "cbp",
+   "vintage": 2023,
+   "title": "2023 County Business Patterns",
+   "modified": "2025-03-06 18:54:14.0"
+  },
+  {
+   "dataset": "dec/pl",
+   "vintage": 2000,
+   "title": "Decennial Census: Redistricting Data (PL 94-171)",
+   "modified": "2020-03-17 00:00:00.0"
+  },
+  {
+   "dataset": "dec/pl",
+   "vintage": 2010,
+   "title": "Decennial Census: Redistricting Data (PL 94-171)",
+   "modified": "2019-07-18 08:36:06.0"
+  },
+  {
+   "dataset": "dec/pl",
+   "vintage": 2020,
+   "title": "Decennial Census: Redistricting Data (PL 94-171)",
+   "modified": "2020-05-28 00:00:00.0"
+  },
+  {
+   "dataset": "dec/plnat",
+   "vintage": 2010,
+   "title": "Decennial Census: National Redistricting Data",
+   "modified": "2020-02-27 00:00:00.0"
+  },
+  {
+   "dataset": "geoinfo",
+   "vintage": 2020,
+   "title": "2020 Geography Information",
+   "modified": "2025-06-17 08:43:55.0"
+  },
+  {
+   "dataset": "geoinfo",
+   "vintage": 2021,
+   "title": "2021 Geography Information",
+   "modified": "2025-08-25 15:33:52.0"
+  },
+  {
+   "dataset": "geoinfo",
+   "vintage": 2022,
+   "title": "2022 Geography Information",
+   "modified": "2025-09-17 10:06:10.0"
+  },
+  {
+   "dataset": "geoinfo",
+   "vintage": 2023,
+   "title": "2023 Geography Information",
+   "modified": "2024-05-06 17:07:32.0"
+  },
+  {
+   "dataset": "geoinfo",
+   "vintage": 2024,
+   "title": "2024 Geography Information",
+   "modified": "2026-01-13 09:35:02.0"
+  },
+  {
+   "dataset": "geoinfo",
+   "vintage": 2025,
+   "title": "2025 Geography Information",
+   "modified": "2026-05-27 16:17:10.0"
+  },
+  {
+   "dataset": "pep/agesex",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: National Annual Resident Population Estimates by Single Year of Age and Sex",
+   "modified": "2015-11-17"
+  },
+  {
+   "dataset": "pep/agespecial5",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: National, State, County Annual Resident Population Estimates by Age Groups, Sex, 5 Races, and Hispanic Origin",
+   "modified": "2015-11-17"
+  },
+  {
+   "dataset": "pep/agespecial6",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: National, State, County Annual Resident Population Estimates by Age Groups, Sex, 6 Races, and Hispanic Origin",
+   "modified": "2015-11-17"
+  },
+  {
+   "dataset": "pep/agespecialpr",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: Puerto Rico Commonwealth and Municipios Annual Resident Population Estimates by Age Groups and Sex",
+   "modified": "2015-11-17"
+  },
+  {
+   "dataset": "pep/charage",
+   "vintage": 2015,
+   "title": "Vintage 2015 Population Estimates: Characteristics by Single Year of Age",
+   "modified": "2016-06-23"
+  },
+  {
+   "dataset": "pep/charage",
+   "vintage": 2016,
+   "title": "Vintage 2016 Population Estimates: Characteristics by Single Year of Age",
+   "modified": "2017-06-22"
+  },
+  {
+   "dataset": "pep/charage",
+   "vintage": 2017,
+   "title": "Vintage 2017 Population Estimates: Characteristics by Single Year of Age",
+   "modified": "2018-06-21"
+  },
+  {
+   "dataset": "pep/charage",
+   "vintage": 2018,
+   "title": "Vintage 2018 Population Estimates: Characteristics by Single Year of Age",
+   "modified": "2019-03-13 00:00:00.0"
+  },
+  {
+   "dataset": "pep/charage",
+   "vintage": 2019,
+   "title": "Population Estimates: Estimates by Age, Sex, Race, and Hispanic Origin",
+   "modified": "2020-03-17 00:00:00.0"
+  },
+  {
+   "dataset": "pep/charagegroups",
+   "vintage": 2015,
+   "title": "Vintage 2015 Population Estimates: Demographic Characteristics Estimates by Age Groups",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/charagegroups",
+   "vintage": 2016,
+   "title": "Vintage 2016 Population Estimates: Demographic Characteristics Estimates by Age Groups",
+   "modified": "2017-06-22"
+  },
+  {
+   "dataset": "pep/charagegroups",
+   "vintage": 2017,
+   "title": "Vintage 2017 Population Estimates: Demographic Characteristics Estimates by Age Groups",
+   "modified": "2018-06-21"
+  },
+  {
+   "dataset": "pep/charagegroups",
+   "vintage": 2018,
+   "title": "Vintage 2018 Population Estimates: Demographic Characteristics Estimates by Age Groups",
+   "modified": "2018-12-10 00:00:00.0"
+  },
+  {
+   "dataset": "pep/charagegroups",
+   "vintage": 2019,
+   "title": "Population Estimates: Estimates by Age Group, Sex, Race, and Hispanic Origin",
+   "modified": "2019-12-17 13:14:09.0"
+  },
+  {
+   "dataset": "pep/charv",
+   "vintage": 2023,
+   "title": "Population Estimates by Age, Sex, Race, and Hispanic Origin",
+   "modified": "2025-03-04 17:06:52.0"
+  },
+  {
+   "dataset": "pep/cochar5",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: County Population Estimates by 5 Year Age Groups, Sex, 5 Races, and Hispanic Origin",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/cochar5",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: County Population Estimates by 5 Year Age Groups, Sex, 5 Races, and Hispanic Origin",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/cochar6",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: County Population Estimates by 5 Year Age Groups, Sex, 6 Races, and Hispanic Origin",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/cochar6",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: County Population Estimates by 5 Year Age Groups, Sex, 6 Races, and Hispanic Origin",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/components",
+   "vintage": 2015,
+   "title": "Vintage 2015 Population Estimates: Components of Change Estimates",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/components",
+   "vintage": 2016,
+   "title": "Vintage 2016 Population Estimates: Components of Change Estimates",
+   "modified": "2017-03-23"
+  },
+  {
+   "dataset": "pep/components",
+   "vintage": 2017,
+   "title": "Vintage 2017 Population Estimates: Components of Change Estimates",
+   "modified": "2018-03-22"
+  },
+  {
+   "dataset": "pep/components",
+   "vintage": 2018,
+   "title": "Vintage 2018 Population Estimates: Components of Change Estimates",
+   "modified": "2018-12-10 00:00:00.0"
+  },
+  {
+   "dataset": "pep/components",
+   "vintage": 2019,
+   "title": "Population Estimates: Census Bureau Version: Components of Change Estimates",
+   "modified": "2019-12-17 13:14:02.0"
+  },
+  {
+   "dataset": "pep/cty",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: County Total Population and Components of Change",
+   "modified": "2014-04-01"
+  },
+  {
+   "dataset": "pep/cty",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: County Total Population and Components of Change",
+   "modified": "2015-03-12"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2016-04-21"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2016-04-21"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2015,
+   "title": "Vintage 2015 Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2016-05-19"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2016,
+   "title": "Vintage 2016 Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2017-05-25"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2017,
+   "title": "Vintage 2017 Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2018-05-24"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2018,
+   "title": "Vintage 2018 Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2019-05-23 16:55:50.0"
+  },
+  {
+   "dataset": "pep/housing",
+   "vintage": 2019,
+   "title": "Population Estimates: Housing Unit Estimates for US, States, and Counties",
+   "modified": "2020-01-27 12:40:11.0"
+  },
+  {
+   "dataset": "pep/int_charage",
+   "vintage": 2000,
+   "title": "2000 Population Estimates - 2000-2010 Intercensal Estimates: Characteristics by Single Year of Age",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/int_charagegroups",
+   "vintage": 1990,
+   "title": "1990 Population Estimates - 1990-2000 Intercensal Estimates: County Estimates by 5 Year Age Groups, Race by Sex, and Hispanic Origin",
+   "modified": "2016-09-13"
+  },
+  {
+   "dataset": "pep/int_charagegroups",
+   "vintage": 2000,
+   "title": "2000 Population Estimates - 2000-2010 Intercensal Estimates: Characteristics by Age Groups",
+   "modified": "2016-09-13"
+  },
+  {
+   "dataset": "pep/int_housingunits",
+   "vintage": 2000,
+   "title": "2000 Population Estimates - 2000-2010 Intercensal Estimates: Housing Units",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/int_natcivpop",
+   "vintage": 1990,
+   "title": "1990 Population Estimates - 1990-2000 Intercensal Estimates: United States Civilian Population Estimates by Age and Sex",
+   "modified": "2016-09-13"
+  },
+  {
+   "dataset": "pep/int_natmonthly",
+   "vintage": 2000,
+   "title": "2000 Population Estimates - 2000-2010 Intercensal Estimates: National Monthly Population Estimates",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/int_natresafo",
+   "vintage": 1990,
+   "title": "1990 Population Estimates - 1990-2000 Intercensal Estimates: United States Resident plus Armed Forces Overseas Population Estimates by Age and Sex",
+   "modified": "2016-09-13"
+  },
+  {
+   "dataset": "pep/int_natrespop",
+   "vintage": 1990,
+   "title": "1990 Population Estimates - 1990-2000 Intercensal Estimates: United States Resident Population Estimates by Age and Sex",
+   "modified": "2016-09-13"
+  },
+  {
+   "dataset": "pep/int_population",
+   "vintage": 2000,
+   "title": "2000 Population Estimates - 2000-2010 Intercensal Estimates: Population",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/monthlynatchar5",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: National Monthly Population Estimates by Single Year of Age , Sex, 5 Races, Hispanic Origin, and Universe",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/monthlynatchar5",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: National Monthly Population Estimates by Single Year of Age , Sex, 5 Races, Hispanic Origin, and Universe",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/monthlynatchar6",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: National Monthly Population Estimates by Single Year of Age, Sex, 6 Races, Hispanic Origin, and Universe",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/monthlynatchar6",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: National Monthly Population Estimates by Single Year of Age, Sex, 6 Races, Hispanic Origin, and Universe",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/natmonthly",
+   "vintage": 2015,
+   "title": "Vintage 2015 Population Estimates: National Monthly Population Estimates",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/natmonthly",
+   "vintage": 2016,
+   "title": "Vintage 2016 Population Estimates: National Monthly Population Estimates",
+   "modified": "2017-03-17"
+  },
+  {
+   "dataset": "pep/natmonthly",
+   "vintage": 2017,
+   "title": "Vintage 2017 Population Estimates: National Monthly Population Estimates",
+   "modified": "2018-06-21"
+  },
+  {
+   "dataset": "pep/natmonthly",
+   "vintage": 2018,
+   "title": "Vintage 2018 Population Estimates: National Monthly Population Estimates",
+   "modified": "2018-12-10 00:00:00.0"
+  },
+  {
+   "dataset": "pep/natmonthly",
+   "vintage": 2019,
+   "title": "Population Estimates: National Monthly Population Estimates",
+   "modified": "2019-12-17 13:13:54.0"
+  },
+  {
+   "dataset": "pep/natmonthly",
+   "vintage": 2021,
+   "title": "Population Estimates: National Monthly Population",
+   "modified": "2021-10-13 00:00:00.0"
+  },
+  {
+   "dataset": "pep/natstprc",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: US, State, and PR Total Population and Components of Change",
+   "modified": "2014-03-14"
+  },
+  {
+   "dataset": "pep/natstprc",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: US, State, and PR Total Population and Components of Change",
+   "modified": "2014-12-15"
+  },
+  {
+   "dataset": "pep/natstprc18",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: US, State, and PR Population Age 18+",
+   "modified": "2014-03-14"
+  },
+  {
+   "dataset": "pep/natstprc18",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: US, State, and PR Population Age 18+",
+   "modified": "2014-12-15"
+  },
+  {
+   "dataset": "pep/population",
+   "vintage": 2015,
+   "title": "Vintage 2015 Population Estimates: Population Estimates",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/population",
+   "vintage": 2016,
+   "title": "Vintage 2016 Population Estimates: Population Estimates",
+   "modified": "2017-05-25"
+  },
+  {
+   "dataset": "pep/population",
+   "vintage": 2017,
+   "title": "Vintage 2017 Population Estimates: Population Estimates",
+   "modified": "2018-05-24"
+  },
+  {
+   "dataset": "pep/population",
+   "vintage": 2018,
+   "title": "Vintage 2018 Population Estimates: Population Estimates",
+   "modified": "2018-12-10 00:00:00.0"
+  },
+  {
+   "dataset": "pep/population",
+   "vintage": 2019,
+   "title": "Population Estimates: Population Estimates",
+   "modified": "2019-12-17 13:13:16.0"
+  },
+  {
+   "dataset": "pep/population",
+   "vintage": 2021,
+   "title": "Population Estimates: Population Estimates",
+   "modified": "2021-10-13 00:00:00.0"
+  },
+  {
+   "dataset": "pep/prcagesex",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: Puerto Rico Commonwealth Estimates by Single Year of Age and Sex",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/prcagesex",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: Puerto Rico Commonwealth Estimates by Single Year of Age and Sex",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/prm",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: Puerto Rico Municipios Total Population",
+   "modified": "2014-03-28"
+  },
+  {
+   "dataset": "pep/prm",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: Puerto Rico Municipios Total Population",
+   "modified": "2015-03-12"
+  },
+  {
+   "dataset": "pep/prmagesex",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: Puerto Rico Municipios Estimates by 5-Year Age Groups and Sex",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/prmagesex",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: Puerto Rico Municipios Estimates by 5-Year Age Groups and Sex",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/projagegroups",
+   "vintage": 2014,
+   "title": "2014 National Population Projections: Projected Population by Age Groups, Sex, Race, and Hispanic Origin for the United States",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/projbirths",
+   "vintage": 2014,
+   "title": "2014 National Population Projections: Projected Births by Sex, Race, and Hispanic Origin for the United States",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/projdeaths",
+   "vintage": 2014,
+   "title": "2014 National Population Projections: Projected Deaths by Single Year of Age, Sex, Race, and Hispanic Origin for the United States",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/projnat",
+   "vintage": 2014,
+   "title": "2014 National Population Projections: Projected Population by Single Year of Age, Sex, Race, Hispanic Origin, and Nativity for the United States",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/projnim",
+   "vintage": 2014,
+   "title": "2014 National Population Projections: Projected Net International Migration by Single Year of Age, Sex, Race, and Hispanic Origin for the United States",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/projpop",
+   "vintage": 2014,
+   "title": "2014 National Population Projections: Projected Population by Single Year of Age, Sex, Race, and Hispanic Origin for the United States",
+   "modified": "2016-12-21"
+  },
+  {
+   "dataset": "pep/stchar5",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: State Population Estimates by Single Year of Age, Sex, 5 Races, and Hispanic Origin",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/stchar5",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: State Population Estimates by Single Year of Age, Sex, 5 Races, and Hispanic Origin",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/stchar6",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: State Population Estimates by Single Year of Age, Sex, 6 Races, and Hispanic Origin",
+   "modified": "2014-10-22"
+  },
+  {
+   "dataset": "pep/stchar6",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: State Population Estimates by Single Year of Age, Sex, 6 Races, and Hispanic Origin",
+   "modified": "2015-06-09"
+  },
+  {
+   "dataset": "pep/subcty",
+   "vintage": 2013,
+   "title": "Vintage 2013 Population Estimates: Subcounty Population Places and MCDs",
+   "modified": "2014-08-20"
+  },
+  {
+   "dataset": "pep/subcty",
+   "vintage": 2014,
+   "title": "Vintage 2014 Population Estimates: Subcounty Population Places and MCDs",
+   "modified": "2015-05-11"
+  },
+  {
+   "dataset": "timeseries/eits/resconst",
+   "vintage": null,
+   "title": "Time Series Economic Indicators Time Series -: New Residential Construction",
+   "modified": "2017-02-23"
+  }
+ ]
+}

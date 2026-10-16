@@ -16,11 +16,15 @@ Optional JSON params:
   {"fy": "2024"}              one approval fiscal year instead of a window
   {"fit": "partial" | "proxy"}  required when the class's NAICS fit is not exact,
                                 so a proxy is never printed as if it were exact
-  {"allow_flag": true}        print a value that carries a flag (e.g. a small denominator)
+  {"allow_flag": true}        print a value that carries a flag (a small denominator, or a class
+                              figure that includes approval years before FY2001)
+  {"scheme_fit": "approximate"}  required for a Connecticut component whose county
+                              composition only approximates the market
 
 The matching source line is its own marker and renders the period, publisher,
 title and URL of the series, so value + source line give the site's four-part
-citation:
+citation. A source line must cite a period that a value marker for the same geography
+and series on the page shows, and is refused for a geography the register holds no value for:
 
     <!--mktsrc:texas/houston.sba7a_loans {"window": "fy2016_2025"}-->...<!--/mktsrc:texas/houston.sba7a_loans-->
 
@@ -85,6 +89,23 @@ def class_fit(slug):
     return _naics[slug]['fit']
 
 
+_geo = None
+
+
+def ct_scheme_fit(geo):
+    """'exact' or 'approximate' for a Connecticut component id (<market>:legacy|pr)."""
+    global _geo
+    if _geo is None:
+        with open(os.path.join(DATA, 'geographies.json'), encoding='utf-8') as f:
+            _geo = {f'{m["state"]}/{m["slug"]}': m for m in json.load(f)['markets']}
+    mid, part = geo.rsplit(':', 1)
+    m = _geo.get(mid)
+    if not m or not (m['components'].get('ct')) or part not in ('legacy', 'pr'):
+        return None
+    txt = m['components']['ct'].get('fit_legacy' if part == 'legacy' else 'fit_planning') or ''
+    return 'exact' if txt.lower().startswith('exact') else 'approximate'
+
+
 def split(name):
     geo, rest = name.split('.', 1)
     parts = rest.split('.')
@@ -98,6 +119,11 @@ def lookup(name, p):
         raise MarkerError(f'{name}: the register holds no value here ({s["nulls"][geo]})')
     if geo not in s['values']:
         raise MarkerError(f'{name}: geography {geo} is not in series {sid}')
+    if ':' in geo:
+        sf = ct_scheme_fit(geo)
+        if sf == 'approximate' and p.get('scheme_fit') != 'approximate':
+            raise MarkerError(f'{name}: this Connecticut component\'s county composition only approximates the market; '
+                              'the marker must say {"scheme_fit": "approximate"} and the page must say so')
     if cls != 'all':
         fit = class_fit(cls)
         if fit == 'none':
@@ -108,25 +134,48 @@ def lookup(name, p):
         raise MarkerError(f'{name}: class {cls} is not in series {sid} for {geo}')
     cell = s['values'][geo][cls]
     if isinstance(cell, dict) and 'by_fy' in cell:
+        complete = s.get('class_complete_from_fy')
         if 'fy' in p:
             first, last = s['by_fy_years']
             fy = int(p['fy'])
             if not first <= fy <= last:
                 raise MarkerError(f'{name}: FY{fy} is outside {first} to {last}')
+            early = cls != 'all' and complete and fy < complete
             val = cell['by_fy'][fy - first]
         else:
             w = p.get('window', HEADLINE_WINDOW)
             if w not in cell:
                 raise MarkerError(f'{name}: window {w} is not in series {sid}')
+            early = cls != 'all' and complete and w == 'all'
             val = cell[w]
+        if early and not p.get('allow_flag'):
+            raise MarkerError(f'{name}: a class figure covering approval years before FY{complete} undercounts ({s.get("class_coverage_note", "")}); '
+                              'add {"allow_flag": true} only if the page says so')
         return val, None
     if isinstance(cell, dict):
+        if 'window' in p or 'fy' in p:
+            raise MarkerError(f'{name}: a rate covers its seasoned cohorts only ({s.get("label", "")}); window and fy do not apply')
         if cell.get('v') is None:
             raise MarkerError(f'{name}: null ({cell.get("f")})')
         if cell.get('f') and not p.get('allow_flag'):
             raise MarkerError(f'{name}: value carries a flag ({cell["f"]}); add {{"allow_flag": true}} only if the page states it')
         return cell['v'], cell.get('f')
     return cell, None
+
+
+def check_fmt(name, unit, fmt):
+    if unit == 'share' and fmt not in ('pct', 'pct1', None):
+        raise MarkerError(f'{name}: a share prints as pct or pct1, not {fmt}')
+    if unit != 'share' and fmt in ('pct', 'pct1'):
+        raise MarkerError(f'{name}: {unit} is not a share; pct does not apply')
+    if unit == 'USD' and fmt == 'int':
+        raise MarkerError(f'{name}: a dollar amount prints as usd or usd_m')
+
+
+def period_key(sid, p):
+    if 'rate' in sid:
+        return ('rate',)
+    return ('fy', str(int(p['fy']))) if 'fy' in p else ('window', p.get('window', HEADLINE_WINDOW))
 
 
 def fmt_value(v, fmt):
@@ -157,6 +206,10 @@ def window_label(s, p):
 def source_line(name, p):
     geo, sid = name.split('.', 1)
     s = series(sid)
+    if geo in s.get('nulls', {}):
+        raise MarkerError(f'{name}: no source line for a geography the register holds no value for ({s["nulls"][geo]})')
+    if geo not in s['values']:
+        raise MarkerError(f'{name}: geography {geo} is not in series {sid}')
     src = next((r for r in sources().get('series', []) if r['id'] == sid), None)
     if not src:
         raise MarkerError(f'{name}: sources.json has no series row {sid}')
@@ -174,9 +227,22 @@ def source_line(name, p):
 
 
 def process(text):
+    # every source line must cite a period some value marker on the page uses
+    shown = set()
+    for m in BLOCK.finditer(text):
+        p = json.loads(m.group(2)) if m.group(2) else {}
+        geo, sid, _cls = split(m.group(1))
+        shown.add((geo, sid, period_key(sid, p)))
+    for m in SRC.finditer(text):
+        p = json.loads(m.group(2)) if m.group(2) else {}
+        geo, sid = m.group(1).split('.', 1)
+        if (geo, sid, period_key(sid, p)) not in shown:
+            raise MarkerError(f'mktsrc:{m.group(1)} cites {period_key(sid, p)}, which no value marker for {geo}.{sid} on this page shows')
+
     def sub(m):
         name, params = m.group(1), m.group(2)
         p = json.loads(params) if params else {}
+        check_fmt(name, series(split(name)[1]).get('unit'), p.get('fmt'))
         val, _flag = lookup(name, p)
         head = f'<!--mkt:{name}' + (' ' + json.dumps(p, sort_keys=True) if p else '') + '-->'
         return f'{head}{html.escape(fmt_value(val, p.get("fmt")))}<!--/mkt:{name}-->'

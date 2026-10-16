@@ -424,9 +424,8 @@ def main():
                     diag["malformed_row"][fname] += 1
                     continue
                 h = hash(tuple(row))
-                if h in seen_hash:
-                    diag["exact_duplicate_row"][prog] += 1
-                else:
+                is_dup = h in seen_hash
+                if not is_dup:
                     seen_hash.add(h)
                 total_rows[prog] += 1
                 if squash(row[iP]) != ("7A" if prog == "7a" else "504"):
@@ -484,6 +483,16 @@ def main():
                 c_vol = ga if loans else 0
                 c_chgamt = gc if chg else 0
                 c_den = ga if disb else 0
+                if is_dup:
+                    diag["exact_duplicate_row_all_statuses"][prog] += 1
+                    if loans:
+                        diag["exact_duplicate_row_not_cancelled"][prog] += 1
+                        diag["exact_duplicate_row_not_cancelled_GrossApproval_dollars"][prog] += ga // 100
+                rc = row[iCT]
+                if rc.strip() != " ".join(rc.split()):
+                    diag["ProjectCounty_with_extra_whitespace"][prog] += 1
+                if rc != rc.upper():
+                    diag["ProjectCounty_not_upper_case"][prog] += 1
                 # totals
                 t = tot[(prog, fy)]
                 t[0] += 1

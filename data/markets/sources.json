@@ -2,11 +2,12 @@
  "about": "sources: one row per fetch source, status FETCHED or NOT FETCHED with the reason; series lists the series files built from it. series: one row per series file with the citation fields of the exact raw files behind it (publisher, title, URL, vintage, period, retrieval date, sha256, cadence, next release). The SBA FOIA definitions, including the seasoned charge-off cohorts, are in definitions.",
  "definitions": {
   "approved": "Every approval row in the files, including loans later cancelled.",
+  "cancelled": "Loans with status CANCLD (cancelled; never disbursed). They are out of loans, volume and every charge-off denominator, and are reported so the exclusion can be seen.",
   "chgoff_amt": "Sum of GrossChargeOffAmount over CHGOFF loans (7(a): guaranteed and unguaranteed portion; 504: SBA/CDC balance).",
   "chgoff_amt_rate": "Same cohorts: sum of GrossChargeOffAmount / sum of GrossApproval of disbursed loans.",
   "chgoff_n": "Loans with status CHGOFF, by approval fiscal year (a cohort count, not charge-offs dated in that year).",
   "chgoff_rate": "Seasoned cohorts only: approval FY2011 to FY2020 pooled, each at least five full fiscal years old at the as-of date. Rate = sum of charged-off loans / sum of disbursed loans over those cohorts. Cancelled and undisbursed loans never enter the denominator. A denominator under 30 is flagged.",
-  "class": "A loan belongs to every class whose NAICS code list (any edition, see naics-map.json) contains its NaicsCode. Loans with a blank NaicsCode belong to no class but count in \"all\".",
+  "class": "A loan belongs to every class whose NAICS code list (any edition, see naics-map.json) contains its NaicsCode. Loans with a blank NaicsCode belong to no class but count in \"all\". Before FY2001 the blanks fall on whole industries, so class figures for those years, and for the window \"all\", undercount and are refused by the renderer unless flagged.",
   "disbursed": "Loans with a disbursed status: paid in full, charged off, active (EXEMPT), and 504 CLOSED. The denominator of the charge-off rate.",
   "geography": "us = every row in the files (all states and territories). A state is the loan's ProjectState. A site market sums the loans whose (ProjectState, ProjectCounty) strings are listed in its composition (geographies.json).",
   "loans": "Approvals net of cancellations: every loan in the FOIA files whose LoanStatus is not cancelled (CANCLD). Undisbursed loans (7(a) COMMIT, 504 NOT FUNDED) are included because they are live approvals.",
@@ -67,7 +68,7 @@
   },
   {
    "cadence": "quarterly (about one month after quarter end)",
-   "definition": null,
+   "definition": "Loans with status CANCLD (cancelled; never disbursed). They are out of loans, volume and every charge-off denominator, and are reported so the exclusion can be seen.",
    "fetch_source": "sba_foia",
    "id": "sba7a_cancelled",
    "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
@@ -176,7 +177,7 @@
    "id": "sba7a_chgoff_rate",
    "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
    "next_release": "2026-10-31",
-   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "period": "approval cohorts FY2011 to FY2020 pooled, loan status as of 2026-06-30",
    "publisher": "U.S. Small Business Administration, Office of Capital Access",
    "retrieved": "2026-10-16T09:37:35Z",
    "sha256": {
@@ -202,7 +203,7 @@
    "id": "sba7a_chgoff_amt_rate",
    "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
    "next_release": "2026-10-31",
-   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "period": "approval cohorts FY2011 to FY2020 pooled, loan status as of 2026-06-30",
    "publisher": "U.S. Small Business Administration, Office of Capital Access",
    "retrieved": "2026-10-16T09:37:35Z",
    "sha256": {
@@ -271,7 +272,7 @@
   },
   {
    "cadence": "quarterly (about one month after quarter end)",
-   "definition": null,
+   "definition": "Loans with status CANCLD (cancelled; never disbursed). They are out of loans, volume and every charge-off denominator, and are reported so the exclusion can be seen.",
    "fetch_source": "sba_foia",
    "id": "sba504_cancelled",
    "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
@@ -372,7 +373,7 @@
    "id": "sba504_chgoff_rate",
    "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
    "next_release": "2026-10-31",
-   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "period": "approval cohorts FY2011 to FY2020 pooled, loan status as of 2026-06-30",
    "publisher": "U.S. Small Business Administration, Office of Capital Access",
    "retrieved": "2026-10-16T09:37:35Z",
    "sha256": {
@@ -396,7 +397,7 @@
    "id": "sba504_chgoff_amt_rate",
    "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
    "next_release": "2026-10-31",
-   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "period": "approval cohorts FY2011 to FY2020 pooled, loan status as of 2026-06-30",
    "publisher": "U.S. Small Business Administration, Office of Capital Access",
    "retrieved": "2026-10-16T09:37:35Z",
    "sha256": {
@@ -415,6 +416,24 @@
   }
  ],
  "sources": [
+  {
+   "cadence": "annual",
+   "fetch_source": "census_geoinfo",
+   "id": "census_geoinfo",
+   "next_release": "2027-05-31",
+   "period": "geography in effect January 1, 2025",
+   "publisher": "U.S. Census Bureau, Geography Division",
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "retrieved": null,
+   "series": [],
+   "sha256": null,
+   "status": "NOT FETCHED",
+   "title": "2025 Geography Information (Census Data API geoinfo): states, counties, CBSAs (OMB Bulletin 23-01 delineation), places, county subdivisions",
+   "url": [
+    "https://api.census.gov/data/2025/geoinfo"
+   ],
+   "vintage": "2025"
+  },
   {
    "cadence": "annual (counties each March)",
    "fetch_source": "census_pep",
@@ -441,7 +460,7 @@
    "next_release": "2026-12-31",
    "period": "July 1, 2020 to July 1, 2023",
    "publisher": "U.S. Census Bureau, Population Estimates Program",
-   "reason": "CENSUS_API_KEY is not set; the census_pep_api endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)",
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -459,7 +478,7 @@
    "next_release": "2026-12-10",
    "period": "2020-2024",
    "publisher": "U.S. Census Bureau, American Community Survey",
-   "reason": "CENSUS_API_KEY is not set; the census_acs5 endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)",
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -477,7 +496,7 @@
    "next_release": "2026-09-30",
    "period": "2024",
    "publisher": "U.S. Census Bureau, American Community Survey",
-   "reason": "CENSUS_API_KEY is not set; the census_acs1 endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)",
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -518,7 +537,7 @@
    "next_release": "2026-06-30",
    "period": "week of March 12, 2023",
    "publisher": "U.S. Census Bureau, County Business Patterns",
-   "reason": "CENSUS_API_KEY is not set; the census_cbp endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)",
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -551,24 +570,6 @@
    "vintage": "2023"
   },
   {
-   "cadence": "annual",
-   "fetch_source": "census_geoinfo",
-   "id": "census_geoinfo",
-   "next_release": "2027-05-31",
-   "period": "geography in effect January 1, 2025",
-   "publisher": "U.S. Census Bureau, Geography Division",
-   "reason": "CENSUS_API_KEY is not set; the census_geoinfo endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)",
-   "retrieved": null,
-   "series": [],
-   "sha256": null,
-   "status": "NOT FETCHED",
-   "title": "2025 Geography Information (Census Data API geoinfo): states, counties, CBSAs (OMB Bulletin 23-01 delineation), places, county subdivisions",
-   "url": [
-    "https://api.census.gov/data/2025/geoinfo"
-   ],
-   "vintage": "2025"
-  },
-  {
    "cadence": "irregular (OMB bulletins)",
    "fetch_source": "census_delineation",
    "id": "census_delineation",
@@ -593,7 +594,7 @@
    "next_release": "2031-03-31",
    "period": "April 1, 2020",
    "publisher": "U.S. Census Bureau, 2020 Census",
-   "reason": "CENSUS_API_KEY is not set; the census_dec2020_ct endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)",
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
    "retrieved": null,
    "series": [],
    "sha256": null,
@@ -647,7 +648,7 @@
    "next_release": "2026-11-15",
    "period": "last five years published",
    "publisher": "U.S. Bureau of Economic Analysis",
-   "reason": "BEA_API_KEY is not set; the bea_cainc1_api endpoint requires a key (BEA API: GetData requires a registered UserID)",
+   "reason": "BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:37Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); see probes in the manifest",
    "retrieved": null,
    "series": [],
    "sha256": null,

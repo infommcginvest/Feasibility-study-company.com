@@ -142,6 +142,8 @@ def door(host, log):
         _DOORS[host] = (rec, None); log.append(rec); return _DOORS[host]
     rec['bytes'] = len(body)
     rec['sha256'] = hashlib.sha256(body).hexdigest()
+    if len(body) <= 20000:
+        rec['body'] = body.decode('utf-8', 'replace')    # retained as evidence for the verdict
     st = rec['status']
     if hdr.get('x-amzn-waf-action') or (st == 202 and not body):
         rec['verdict'] = 'challenge (AWS WAF bot check on robots.txt)'
@@ -377,6 +379,10 @@ def discover_sba(log):
 
 
 SOURCES = [
+    {'id': 'census_geoinfo', 'publisher': 'U.S. Census Bureau, Geography Division',
+     'title': '2025 Geography Information (Census Data API geoinfo): states, counties, CBSAs (OMB Bulletin 23-01 delineation), places, county subdivisions',
+     'api_path': '2025/geoinfo', 'vintage': '2025', 'period': 'geography in effect January 1, 2025',
+     'cadence': 'annual', 'next_release': '2027-05-31', 'kind': 'geoinfo', 'needs': 'CENSUS_API_KEY'},
     {'id': 'census_pep', 'publisher': 'U.S. Census Bureau, Population Estimates Program',
      'title': 'Vintage 2025 Population Estimates: Annual Estimates of the Resident Population for Counties (co-est2025-alldata.csv)',
      'urls': ['https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv',
@@ -409,10 +415,6 @@ SOURCES = [
      'title': '2023 County Business Patterns, complete county, state, metro and U.S. files (cbp23co.zip, cbp23st.zip, cbp23msa.zip, cbp23us.zip)',
      'urls': [f'https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23{g}.zip' for g in ('co', 'st', 'msa', 'us')],
      'vintage': '2023', 'period': 'week of March 12, 2023', 'cadence': 'annual', 'next_release': '2026-06-30', 'kind': 'static'},
-    {'id': 'census_geoinfo', 'publisher': 'U.S. Census Bureau, Geography Division',
-     'title': '2025 Geography Information (Census Data API geoinfo): states, counties, CBSAs (OMB Bulletin 23-01 delineation), places, county subdivisions',
-     'api_path': '2025/geoinfo', 'vintage': '2025', 'period': 'geography in effect January 1, 2025',
-     'cadence': 'annual', 'next_release': '2027-05-31', 'kind': 'geoinfo', 'needs': 'CENSUS_API_KEY'},
     {'id': 'census_delineation', 'publisher': 'U.S. Census Bureau (OMB Bulletin 23-01)',
      'title': 'Core based statistical areas (CBSAs), metropolitan divisions, and combined statistical areas (CSAs), July 2023 (list1_2023.xlsx)',
      'urls': ['https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx'],
@@ -445,12 +447,64 @@ SOURCES = [
 ]
 
 
+PROBES = {}
+PROBE_URLS = {
+    # the smallest data request each API serves; sent once per run without a key
+    'CENSUS_API_KEY': 'https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110',
+    'BEA_API_KEY': 'https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON',
+}
+
+
+def key_open(name, log):
+    """True when the API can be used: the key is set, or a keyless request,
+    sent once per run and recorded in PROBES, returned data. Never assumed."""
+    if os.environ.get(name):
+        return True
+    if name in PROBES:
+        return PROBES[name]['open']
+    url = PROBE_URLS[name]
+    rec = {'key': name, 'url': url, 'observed_at': now()}
+    try:
+        check_door(url, log)
+        req = urllib.request.Request(url, headers={'User-Agent': UA})
+        opener = urllib.request.build_opener(_NoFollow)
+        try:
+            with opener.open(req, timeout=TIMEOUT) as r:
+                status, hdr, body = r.status, {k.lower(): v for k, v in r.headers.items()}, r.read(4096)
+        except urllib.error.HTTPError as e:
+            status, hdr, body = e.code, {k.lower(): v for k, v in (e.headers or {}).items()}, (e.read(4096) if hasattr(e, 'read') else b'')
+        text = body.decode('utf-8', 'replace')
+        rec.update(http_status=status, location=hdr.get('location'), x_datawebapi_keyerror=hdr.get('x-datawebapi-keyerror'),
+                   content_type=hdr.get('content-type'), body_start=text[:300])
+        if name == 'CENSUS_API_KEY':
+            rec['open'] = status == 200 and text.lstrip().startswith('[')
+        else:
+            rec['open'] = status == 200 and text.lstrip().startswith('{') and '"error"' not in text.lower()
+        rec['body_bytes'] = len(body)
+    except Refused as e:
+        rec.update(open=False, refused=str(e))
+    except Exception as e:
+        rec.update(open=False, error=str(e)[:200])
+    PROBES[name] = rec
+    return rec['open']
+
+
+class _NoFollow(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
 def plan(src, log):
     k = src['kind']
-    if src.get('needs') and not os.environ.get(src['needs']):
-        raise Refused(f'{src["needs"]} is not set; the {src["id"]} endpoint requires a key '
-                      + ('(Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)'
-                         if src['needs'] == 'CENSUS_API_KEY' else '(BEA API: GetData requires a registered UserID)'))
+    if src.get('needs') and not key_open(src['needs'], log):
+        pr = PROBES.get(src['needs'], {})
+        seen = (f'HTTP {pr.get("http_status")}' + (f', Location {pr["location"]}' if pr.get('location') else '')
+                + (f', X-DataWebAPI-KeyError {pr["x_datawebapi_keyerror"]}' if pr.get('x_datawebapi_keyerror') else '')
+                + (f', body starts {pr["body_start"][:120]!r}' if pr.get('body_start') and not pr.get('location') else '')
+                + (', empty body' if pr.get('body_bytes') == 0 else '')
+                + (f'; {pr["refused"]}' if pr.get('refused') else ''))
+        raise Refused(f'{src["needs"]} is not set, and a keyless request observed at {pr.get("observed_at")} was refused '
+                      f'({pr.get("url")} -> {seen}); see probes in the manifest')
     if k == 'static':
         return src['vintage'], plan_static(src)
     if k == 'acs':
@@ -472,17 +526,28 @@ def plan(src, log):
     raise ValueError(k)
 
 
+def api_rows(path):
+    """A Census Data API response (a JSON array whose first row is the header) as dicts."""
+    rows = json.load(open(path))
+    return [dict(zip(rows[0], r)) for r in rows[1:]]
+
+
 def plan_inputs():
-    """Parameters the API plans need from the committed register: the NAICS
-    codes of the 43 classes, the CBSAs and states the site markets touch."""
+    """Parameters the API plans need: the NAICS 2022 codes of the 43 classes
+    (naics-map.json), and every state and every CBSA code, read from the
+    first-phase geoinfo files (state.json, cbsa.json) once they are fetched."""
     out = {'naics': [], 'cbsas': [], 'states': []}
     nm = os.path.join(ROOT, 'data', 'markets', 'naics-map.json')
     if os.path.exists(nm):
         m = json.load(open(nm))
         out['naics'] = sorted({c for row in m['classes'] for c in row['naics2022']})
-    st = os.path.join(ROOT, 'data', 'markets', 'state-codes.json')
-    if os.path.exists(st):
-        out['states'] = sorted(r['fips'] for r in json.load(open(st))['states'] if r.get('fips'))
+    g = next((x for x in SOURCES if x['id'] == 'census_geoinfo'), None)
+    gdir = os.path.join(RAW, 'census_geoinfo', re.sub(r'[^A-Za-z0-9_.-]', '_', g['vintage'])) if g else None
+    if gdir and os.path.exists(os.path.join(gdir, 'state.json')):
+        out['states'] = sorted({r['state'] for r in api_rows(os.path.join(gdir, 'state.json'))})
+    if gdir and os.path.exists(os.path.join(gdir, 'cbsa.json')):
+        col = 'metropolitan statistical area/micropolitan statistical area'
+        out['cbsas'] = sorted({r[col] for r in api_rows(os.path.join(gdir, 'cbsa.json'))})
     return out
 
 
@@ -503,27 +568,22 @@ def save_manifest(m):
 
 def fetch_source(src, man, log, force=False):
     sid = src['id']
-    inputs = plan_inputs()
-    src['_naics'], src['_states'], src['_cbsas'] = inputs['naics'], inputs['states'], inputs['cbsas']
     rec = {'id': sid, 'attempted_at': now()}
     try:
-        vintage, items = plan(src, log)
-        if not items:
-            raise Refused('no request planned (key not set)')
-        rec['vintage'] = vintage
         files = []
-        for url, rel in items:
-            dest = os.path.join(RAW, sid, re.sub(r'[^A-Za-z0-9_.-]', '_', vintage), rel)
-            key = os.path.relpath(dest, ROOT)
-            if not force and key in man['files'] and os.path.exists(dest) and man['files'][key]['sha256'] == sha256(dest):
-                files.append(key); continue
-            check_door(url, log)
-            print(f'  GET {redact(url)}', flush=True)
-            frec = get(url, dest, log)
-            frec['source'] = sid
-            man['files'][key] = frec
-            files.append(key)
-            save_manifest(man)
+        done = set()
+        # geoinfo runs in two phases: the state and CBSA lists first, then one
+        # request per CBSA (its member counties, summary level 313) and per state
+        # (its county subdivisions), planned from those lists
+        for phase in range(2 if src['kind'] == 'geoinfo' else 1):
+            inputs = plan_inputs()
+            src['_naics'], src['_states'], src['_cbsas'] = inputs['naics'], inputs['states'], inputs['cbsas']
+            vintage, items = plan(src, log)
+            if not items:
+                raise Refused('no request planned')
+            rec['vintage'] = vintage
+            files += fetch_items(sid, vintage, [(u, r) for u, r in items if r not in done], man, log, force)
+            done |= {r for _, r in items}
         rec.update(status='FETCHED', files=files)
     except Refused as e:
         rec.update(status='NOT FETCHED', reason=str(e))
@@ -532,6 +592,23 @@ def fetch_source(src, man, log, force=False):
     man['sources'][sid] = rec
     print(f'{sid}: {rec["status"]}' + (f' ({rec.get("reason")})' if rec.get('reason') else f' ({len(rec["files"])} file(s), vintage {rec["vintage"]})'), flush=True)
     return rec
+
+
+def fetch_items(sid, vintage, items, man, log, force):
+    files = []
+    for url, rel in items:
+        dest = os.path.join(RAW, sid, re.sub(r'[^A-Za-z0-9_.-]', '_', vintage), rel)
+        key = os.path.relpath(dest, ROOT)
+        if not force and key in man['files'] and os.path.exists(dest) and man['files'][key]['sha256'] == sha256(dest):
+            files.append(key); continue
+        check_door(url, log)
+        print(f'  GET {redact(url)}', flush=True)
+        frec = get(url, dest, log)
+        frec['source'] = sid
+        man['files'][key] = frec
+        files.append(key)
+        save_manifest(man)
+    return files
 
 
 def main(argv):
@@ -559,6 +636,10 @@ def main(argv):
     for s in targets:
         fetch_source(s, man, log, force='--refresh' in argv)
     man['doors'] = log or man.get('doors', [])
+    if PROBES:
+        merged = {r['key']: r for r in man.get('probes', [])}
+        merged.update(PROBES)
+        man['probes'] = [merged[k] for k in sorted(merged)]
     man['run_at'] = now()
     save_manifest(man)
     if '--refresh' in argv:

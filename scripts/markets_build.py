@@ -55,6 +55,10 @@ WINDOWS = {                   # id: (first FY, last FY, label)
     'fy2026ytd': (2026, 2026, 'approval FY2026 to the files\' as-of date'),
 }
 HEADLINE_WINDOW = 'fy2016_2025'
+# Before FY2001 SBA left NaicsCode blank on whole industries (hotels, restaurants,
+# gas stations) while others are fully coded, so a class figure that includes
+# those years undercounts; scripts/markets.py refuses one unless the page says so.
+CLASS_COMPLETE_FROM_FY = 2001
 SMALL_DENOMINATOR = 30
 
 
@@ -126,6 +130,8 @@ def read_foia(files, smap, nidx):
     code_tally = defaultdict(lambda: [0, 9999, 0, 0.0])          # (program, code) -> n, fy_min, fy_max, volume
     raw_totals = defaultdict(lambda: [0, 0.0, 0, 0.0])            # (program, fy) -> rows, gross, cancelled rows, cancelled gross
     county_blank = defaultdict(int)
+    props = defaultdict(lambda: defaultdict(float))            # program -> measured properties of the raw files
+    blank_fy = defaultdict(int)                                 # (program, FY) -> rows with a blank NaicsCode
     unknown = []
     rows_by_file = {}
     for path in files:
@@ -133,9 +139,13 @@ def read_foia(files, smap, nidx):
         prog = m.group(1)
         pmap = smap['programs'][prog]
         n = 0
+        seen = set()
         with open(path, newline='', encoding='utf-8', errors='strict') as fh:
             for row in csv.DictReader(fh):
                 n += 1
+                h = hash(tuple(row.values()))
+                dup = h in seen
+                seen.add(h)
                 st = row['LoanStatus']
                 if st not in pmap:
                     unknown.append((os.path.basename(path), st))
@@ -163,6 +173,10 @@ def read_foia(files, smap, nidx):
                     county_blank[(prog, state)] += 1
                 code = (row['NaicsCode'] or '').strip()
                 classes = nidx.get(code, ())
+                if not code:
+                    props[prog]['blank_naics_rows'] += 1
+                    props[prog]['blank_naics_loans_net_of_cancellations'] += not cinfo['cancelled']
+                    blank_fy[(prog, fy)] += 1
                 t = code_tally[(prog, code)]
                 t[0] += 1; t[1] = min(t[1], fy); t[2] = max(t[2], fy); t[3] += gross
                 rt = raw_totals[(prog, fy)]
@@ -179,11 +193,21 @@ def read_foia(files, smap, nidx):
                         a[3] += 1
                 if cinfo['charged_off']:
                     a[8] += 1; a[9] += coamt
+                    props[prog]['chgoff_rows_with_zero_amount'] += coamt == 0
+                    props[prog]['chgoff_rows_without_chargeoff_date'] += not codate
+                if dup:
+                    props[prog]['exact_duplicate_rows'] += 1
+                    if not cinfo['cancelled']:
+                        props[prog]['exact_duplicate_rows_not_cancelled'] += 1
+                        props[prog]['exact_duplicate_rows_not_cancelled_gross_approval'] += gross
+                if gross < 0:
+                    props[prog]['negative_gross_approval_rows'] += 1
         rows_by_file[os.path.basename(path)] = n
     if unknown:
         seen = sorted(set(unknown))
         raise BuildError(f'unclassified LoanStatus value(s): {seen}. Classify every value in foia-status-map.json.')
-    return agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file
+    props['_blank_naics_by_fy'] = blank_fy
+    return agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file, props
 
 
 def windows_of(fy):
@@ -235,8 +259,8 @@ def foia_series(roll, geos, classes_all, fy_last, prog_ids):
                 den = sum(cell.get(str(y), zero)[6] for y in range(SEASONED[0], SEASONED[1] + 1))
                 numa = sum(cell.get(str(y), zero)[9] for y in range(SEASONED[0], SEASONED[1] + 1))
                 dena = sum(cell.get(str(y), zero)[7] for y in range(SEASONED[0], SEASONED[1] + 1))
-                rate_n.setdefault(g, {})[c] = _rate(num, den)
-                rate_a.setdefault(g, {})[c] = _rate(numa, dena)
+                rate_n.setdefault(g, {})[c] = _rate(num, den, den)
+                rate_a.setdefault(g, {})[c] = _rate(numa, dena, den)    # small-sample flag on the loan count, not dollars
         for m in PUBLISHED:
             series[f'{p}_{m}'] = sdict[m]
         series[f'{p}_chgoff_rate'] = rate_n
@@ -248,12 +272,14 @@ def _num(x):
     return int(x) if float(x).is_integer() else round(x, 2)
 
 
-def _rate(num, den):
+def _rate(num, den, loans):
+    """num/den over the seasoned cohorts; `loans` is the disbursed-loan count behind
+    the denominator, which decides the small-sample flag for both rates."""
     if den == 0:
         return {'v': None, 'num': _num(num), 'den': _num(den), 'f': 'no-disbursed-loans-in-seasoned-cohorts'}
     v = {'v': round(num / den, 6), 'num': _num(num), 'den': _num(den)}
-    if den < SMALL_DENOMINATOR:
-        v['f'] = f'small-denominator (<{SMALL_DENOMINATOR} disbursed loans)'
+    if loans < SMALL_DENOMINATOR:
+        v['f'] = f'small-denominator (<{SMALL_DENOMINATOR} disbursed loans, {int(loans)} here)'
     return v
 
 
@@ -362,7 +388,7 @@ def build(diff=False):
         asof = asof[0]
         asof_date = dt.date(2000 + int(asof[:2]), int(asof[2:4]), int(asof[4:]))
         fy_last = asof_date.year + (1 if asof_date.month >= 10 else 0)
-        agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file = read_foia(files, smap, nidx)
+        agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file, props = read_foia(files, smap, nidx)
 
         states = sorted({k[1] for k in agg if k[1]})
         plans = {market_id(m): market_foia_plan(m) for m in geo['markets']}
@@ -411,11 +437,15 @@ def build(diff=False):
                    'windows': {w: lab for w, (_, _, lab) in WINDOWS.items()},
                    'by_fy_years': [FY_FIRST, fy_last], 'asof': asof_date.isoformat(),
                    'classes_note': 'Classes are not mutually exclusive (a loan coded 721110 counts under every hotel class); never sum across classes. "all" is every loan.',
+                   'class_complete_from_fy': CLASS_COMPLETE_FROM_FY,
+                   'class_coverage_note': (f'Before FY{CLASS_COMPLETE_FROM_FY} SBA left NaicsCode blank on whole industries (hotels, restaurants and gas stations are close to zero in FY1991 to FY1997), '
+                                           'so a class figure for the window "all" or for an approval year before ' + str(CLASS_COMPLETE_FROM_FY) + ' undercounts. scripts/markets.py refuses one unless the marker sets allow_flag and the page says so. '
+                                           '"all" (every loan) and the windows from FY2016 are unaffected.'),
                    'values': values, 'nulls': nulls}
             jdump(out, os.path.join(DATA, 'series', f'{sid}.json'), compact=True)
             built['sba_foia'].append(sid)
         report['foia'] = foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file,
-                                      roll, plans, nmap, geo, fy_last, asof_date)
+                                      roll, plans, nmap, geo, fy_last, asof_date, props)
     else:
         report['foia'] = None
 
@@ -453,6 +483,8 @@ def series_rows(srcrows, man):
         for sid in r.get('series') or []:
             row = {k: r[k] for k in ('publisher', 'vintage', 'period', 'retrieved', 'cadence', 'next_release', 'status')}
             row['id'] = sid
+            if 'rate' in sid and r['id'] == 'sba_foia':
+                row['period'] = f'approval cohorts FY{SEASONED[0]} to FY{SEASONED[1]} pooled, loan status as of {r["vintage"]}'
             row['fetch_source'] = r['id']
             if r['id'] == 'sba_foia':
                 prog = '7a' if sid.startswith('sba7a') else '504'
@@ -474,12 +506,14 @@ def foia_definitions():
         'loans': 'Approvals net of cancellations: every loan in the FOIA files whose LoanStatus is not cancelled (CANCLD). Undisbursed loans (7(a) COMMIT, 504 NOT FUNDED) are included because they are live approvals.',
         'volume': 'Sum of GrossApproval over the same loans. 7(a): total loan amount; 504: SBA/CDC (debenture) loan amount, not the whole project.',
         'approved': 'Every approval row in the files, including loans later cancelled.',
+        'cancelled': 'Loans with status CANCLD (cancelled; never disbursed). They are out of loans, volume and every charge-off denominator, and are reported so the exclusion can be seen.',
         'disbursed': 'Loans with a disbursed status: paid in full, charged off, active (EXEMPT), and 504 CLOSED. The denominator of the charge-off rate.',
         'chgoff_n': 'Loans with status CHGOFF, by approval fiscal year (a cohort count, not charge-offs dated in that year).',
         'chgoff_amt': 'Sum of GrossChargeOffAmount over CHGOFF loans (7(a): guaranteed and unguaranteed portion; 504: SBA/CDC balance).',
         'chgoff_rate': f'Seasoned cohorts only: approval FY{SEASONED[0]} to FY{SEASONED[1]} pooled, each at least five full fiscal years old at the as-of date. Rate = sum of charged-off loans / sum of disbursed loans over those cohorts. Cancelled and undisbursed loans never enter the denominator. A denominator under {SMALL_DENOMINATOR} is flagged.',
         'chgoff_amt_rate': f'Same cohorts: sum of GrossChargeOffAmount / sum of GrossApproval of disbursed loans.',
-        'class': 'A loan belongs to every class whose NAICS code list (any edition, see naics-map.json) contains its NaicsCode. Loans with a blank NaicsCode belong to no class but count in "all".',
+        'class': ('A loan belongs to every class whose NAICS code list (any edition, see naics-map.json) contains its NaicsCode. Loans with a blank NaicsCode belong to no class but count in "all". '
+                  f'Before FY{CLASS_COMPLETE_FROM_FY} the blanks fall on whole industries, so class figures for those years, and for the window "all", undercount and are refused by the renderer unless flagged.'),
         'geography': 'us = every row in the files (all states and territories). A state is the loan\'s ProjectState. A site market sums the loans whose (ProjectState, ProjectCounty) strings are listed in its composition (geographies.json).',
     }
 
@@ -502,7 +536,7 @@ def foia_meta(asof, fy_last):
     return {k: {'unit': u, 'label': lab, 'aggregation': 'ratio of summed numerator and denominator' if 'rate' in k else 'sum'} for k, (u, lab) in t.items()}
 
 
-def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file, roll, plans, nmap, geo, fy_last, asof):
+def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file, roll, plans, nmap, geo, fy_last, asof, props):
     # status counts with evidence
     sc = {}
     for prog, files in status_counts.items():
@@ -581,10 +615,16 @@ def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_
         ev[slug] = {'fit': row.get('fit'), 'codes_in_map': codes, 'foia_by_code': by_code,
                     'foia_loans_by_edition_set': dict(by_edition),
                     'foia_loans_total': sum(v.get('7a', {}).get('loans_all_statuses', 0) + v.get('504', {}).get('loans_all_statuses', 0) for v in by_code.values())}
-    unmapped = sorted(((p, c), t[0]) for (p, c), t in code_tally.items() if c and not any(c in r for r in [set(x['codes_in_map']) for x in ev.values()]))
-    blank = {p: code_tally[(p, '')][0] for p in ('7a', '504') if (p, '') in code_tally}
-    jdump({'about': 'FOIA loans (all statuses) by asset class, NAICS code and the NAICS editions the map lists the code under. A code can sit in several editions; foia_loans_by_edition_set groups by that set. Loans with a blank NaicsCode belong to no class.',
-           'classes': ev, 'blank_naics_loans': blank, 'codes_in_no_class': len(unmapped)},
+    mapped = set().union(*[set(x['codes_in_map']) for x in ev.values()])
+    in_no_class = sorted({c for (p, c) in code_tally if c and c not in mapped})
+    blank_fy = props.pop('_blank_naics_by_fy', {})
+    blank = {p: {'rows_all_statuses': int(props[p]['blank_naics_rows']), 'loans_net_of_cancellations': int(props[p]['blank_naics_loans_net_of_cancellations']),
+                 'rows_by_fy': {str(fy): n for (pp, fy), n in sorted(blank_fy.items()) if pp == p}} for p in ('7a', '504')}
+    jdump({'about': ('FOIA loans (all statuses) by asset class, NAICS code and the NAICS editions the map lists the code under. A code can sit in several editions; '
+                     'foia_loans_by_edition_set groups by that set. Loans with a blank NaicsCode belong to no class. Before FY'
+                     + str(CLASS_COMPLETE_FROM_FY) + ' SBA left the code blank on whole industries (see blank_naics.rows_by_fy), so class figures that include those years undercount.'),
+           'classes': ev, 'blank_naics': blank, 'class_figures_complete_from_fy': CLASS_COMPLETE_FROM_FY,
+           'distinct_codes_in_no_class': len(in_no_class)},
           os.path.join(DATA, 'naics-evidence.json'))
 
     # reconciliation: us by FY against the raw recount kept during the read
@@ -611,8 +651,13 @@ def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_
                               'loans_with_blank_project_state': blank_state[prog],
                               'explained_by': 'loans with a blank ProjectState, which count in us only',
                               'explained': us_n - v[0] == blank_state[prog]}
+    raw_props = {p: {k: (round(v, 2) if 'approval' in k else int(v)) for k, v in sorted(d.items())} for p, d in sorted(props.items()) if not p.startswith('_')}
     jdump({'about': 'Register totals against the raw files. The raw recount is taken row by row during the read; the independent re-derivation in docs/web-fsc-5/gates/ does not import this script.',
-           'us_by_program_fy': rec, 'states_vs_us': states_vs_us, 'all_match': all(r['match'] for r in rec)},
+           'us_by_program_fy': rec, 'states_vs_us': states_vs_us, 'all_match': all(r['match'] for r in rec),
+           'raw_file_properties': raw_props,
+           'raw_file_properties_note': ('Measured on every build and counted as SBA publishes them, never repaired: exact_duplicate_rows are rows identical in every field to an earlier row of the same file. '
+                                        'The files carry no loan identifier (LocationID is the lender), so a twin loan cannot be told from a listing error, and the register counts every row. '
+                                        'A negative GrossApproval and a charged-off row with no amount or no date are likewise kept as published.')},
           os.path.join(DATA, 'reconciliation.json'))
     if not all(r['match'] for r in rec) or not all(v['explained'] for v in states_vs_us.values()):
         raise BuildError('FOIA reconciliation failed: see data/markets/reconciliation.json')

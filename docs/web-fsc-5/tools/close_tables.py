@@ -54,7 +54,8 @@ def main():
     for r in nm['classes']:
         e = ev['classes'][r['slug']]
         L.append(f'| {r["slug"]} | {r["fit"]} | {", ".join(r["naics2022"]) if len(r["naics2022"]) <= 8 else str(len(r["naics2022"])) + " codes"} | {e["foia_loans_total"]:,} | {"; ".join(f"{k}: {v:,}" for k, v in e["foia_loans_by_edition_set"].items())} |')
-    L.append(f'\nLoans with a blank NaicsCode (in "all", in no class): ' + ', '.join(f'{p} {n:,}' for p, n in ev['blank_naics_loans'].items()))
+    L.append('\nRows with a blank NaicsCode (in "all", in no class): ' + '; '.join(f'{p} {v["rows_all_statuses"]:,} rows, {v["loans_net_of_cancellations"]:,} net of cancellations' for p, v in ev['blank_naics'].items())
+             + f'. Class figures are complete from FY{ev["class_figures_complete_from_fy"]}: before that, the blanks fall on whole industries. Distinct NAICS codes on loans that sit in no class: {ev["distinct_codes_in_no_class"]:,}.')
 
     sm = jl('foia-status-map.json')
     sc = jl('foia-status-counts.json')

@@ -30,8 +30,8 @@
      "623312"
     ]
    },
-   "fit": "exact",
-   "reason": "623312 is the assisted living industry (homes for the elderly with personal care); memory care units operated inside nursing homes are carried in 623110.",
+   "fit": "partial",
+   "reason": "623312 is the assisted living industry (homes for the elderly with personal care); memory care units operated inside nursing homes are carried in 623110. Regraded partial after attacker finding A2-6: 623312 also holds board-and-care homes for the elderly, and memory care inside nursing facilities sits in 623110.",
    "overlaps": [
     "board-and-care"
    ]
@@ -42,32 +42,53 @@
    "built": true,
    "naics2022": [
     "441110",
-    "441120"
+    "441120",
+    "441210",
+    "441222",
+    "441227"
    ],
    "legacy": {
     "2017": [
      "441110",
-     "441120"
+     "441120",
+     "441210",
+     "441222",
+     "441228"
     ],
     "2012": [
      "441110",
-     "441120"
+     "441120",
+     "441210",
+     "441222",
+     "441228"
     ],
     "2007": [
      "441110",
-     "441120"
+     "441120",
+     "441210",
+     "441221",
+     "441222",
+     "441229"
     ],
     "2002": [
      "441110",
-     "441120"
+     "441120",
+     "441210",
+     "441221",
+     "441222",
+     "441229"
     ],
     "1997": [
      "441110",
-     "441120"
+     "441120",
+     "441210",
+     "441221",
+     "441222",
+     "441229"
     ]
    },
-   "fit": "exact",
-   "reason": "441110 and 441120 are new and used car dealers; motorcycle, RV and boat dealers sit in separate codes.",
+   "fit": "partial",
+   "reason": "441110 and 441120 are new and used car dealers; motorcycle, RV and boat dealers sit in separate codes. Added after attacker finding A2-3: the hub covers powersports, RV and marine dealers (441210 RV, 441222 boat, and the motorcycle and other-vehicle chain 441221/441229 (to 2007), 441228 (2012-2017), 441227 (2022)). Graded partial because heavy-truck dealers sit in 423110 with all motor vehicle wholesalers, which is excluded.",
    "overlaps": []
   },
   {
@@ -80,7 +101,8 @@
     "811121",
     "811122",
     "811191",
-    "811198"
+    "811198",
+    "441340"
    ],
    "legacy": {
     "2017": [
@@ -91,7 +113,8 @@
      "811121",
      "811122",
      "811191",
-     "811198"
+     "811198",
+     "441320"
     ],
     "2012": [
      "811111",
@@ -101,7 +124,8 @@
      "811121",
      "811122",
      "811191",
-     "811198"
+     "811198",
+     "441320"
     ],
     "2007": [
      "811111",
@@ -111,7 +135,8 @@
      "811121",
      "811122",
      "811191",
-     "811198"
+     "811198",
+     "441320"
     ],
     "2002": [
      "811111",
@@ -121,7 +146,8 @@
      "811121",
      "811122",
      "811191",
-     "811198"
+     "811198",
+     "441320"
     ],
     "1997": [
      "811111",
@@ -131,11 +157,12 @@
      "811121",
      "811122",
      "811191",
-     "811198"
+     "811198",
+     "441320"
     ]
    },
    "fit": "exact",
-   "reason": "These codes are mechanical, specialty, body and paint, glass, lube and other automotive repair; 2022 merged 811112, 811113 and 811118 into 811111 and 811114; car washes (811192) are a separate class.",
+   "reason": "These codes are mechanical, specialty, body and paint, glass, lube and other automotive repair; 2022 merged 811112, 811113 and 811118 into 811111 and 811114; car washes (811192) are a separate class. Tire dealers added after attacker finding A2-4 (441320 to 2017, 441340 in 2022), because the hub covers tire retail and service.",
    "overlaps": []
   },
   {
@@ -283,27 +310,33 @@
    "title": "Fitness and Recreation",
    "built": true,
    "naics2022": [
-    "713940"
+    "713940",
+    "611620"
    ],
    "legacy": {
     "2017": [
-     "713940"
+     "713940",
+     "611620"
     ],
     "2012": [
-     "713940"
+     "713940",
+     "611620"
     ],
     "2007": [
-     "713940"
+     "713940",
+     "611620"
     ],
     "2002": [
-     "713940"
+     "713940",
+     "611620"
     ],
     "1997": [
-     "713940"
+     "713940",
+     "611620"
     ]
    },
-   "fit": "exact",
-   "reason": "713940 is fitness and recreational sports centers (gyms, health clubs, studios); bowling, golf and amusement codes are excluded.",
+   "fit": "partial",
+   "reason": "713940 is fitness and recreational sports centers (gyms, health clubs, studios); bowling, golf and amusement codes are excluded. Sports and recreation instruction (611620) added after attacker finding A2-7, because the hub covers martial-arts studios; 611620 also holds golf, ski and swimming instruction, so the grade is partial.",
    "overlaps": []
   },
   {
@@ -683,27 +716,33 @@
    "title": "Quick-Service Restaurant",
    "built": true,
    "naics2022": [
-    "722513"
+    "722513",
+    "722515"
    ],
    "legacy": {
     "2017": [
-     "722513"
+     "722513",
+     "722515"
     ],
     "2012": [
-     "722513"
+     "722513",
+     "722515"
     ],
     "2007": [
-     "722211"
+     "722211",
+     "722213"
     ],
     "2002": [
-     "722211"
+     "722211",
+     "722213"
     ],
     "1997": [
-     "722211"
+     "722211",
+     "722213"
     ]
    },
    "fit": "exact",
-   "reason": "722513 (722211 before 2012) is limited-service restaurants, the NAICS equivalent of quick-service and fast-food, which also holds fast-casual and carryout outlets.",
+   "reason": "722513 (722211 before 2012) is limited-service restaurants, the NAICS equivalent of quick-service and fast-food, which also holds fast-casual and carryout outlets. Snack and nonalcoholic beverage bars added after attacker finding A2-5 (722213 to 2007, 722515 from 2012), because the hub covers coffee and beverage quick service; this overlaps coffee-shop.",
    "overlaps": [
     "restaurant"
    ]
@@ -1821,8 +1860,8 @@
      "623311"
     ]
    },
-   "fit": "exact",
-   "reason": "623311 is continuing care retirement communities, the industry term for life plan communities.",
+   "fit": "partial",
+   "reason": "623311 is continuing care retirement communities, the industry term for life plan communities. Regraded partial after attacker finding A2-6: 623311 counts the community as one establishment that includes its assisted living and nursing care.",
    "overlaps": [
     "independent-living-and-ccrc"
    ]

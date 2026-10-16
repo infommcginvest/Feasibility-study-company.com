@@ -34,6 +34,30 @@ REVIEW_OVERRIDES = {
     ('oregon', 'hillsboro'): 'the charter reads hillsboro as a city inside a larger CBSA; composed as Washington County because the page heading names the county',
 }
 
+# composition_source set by hand where the basis text misleads the rule below.
+# The seven cbsa-delineation-pending rows were found by attacker one (finding F2):
+# their county lists come from recalled CBSA, CSA or micropolitan membership,
+# which only the OMB delineation file can confirm.
+_CBSA_DERIVED = 'its county list comes from recalled CBSA, CSA or micropolitan membership (attacker finding F2), which only the OMB delineation file can confirm'
+SOURCE_OVERRIDES = {
+    ('new-mexico', 'permian-basin'): ('judgement-region', 'the New Mexico part is the two counties the page names; the 17 Texas counties are the basin as commonly bounded, which is judgement'),
+    ('michigan', 'flint'): ('cbsa-delineation-pending', _CBSA_DERIVED),
+    ('minnesota', 'mankato'): ('cbsa-delineation-pending', _CBSA_DERIVED),
+    ('mississippi', 'hattiesburg'): ('cbsa-delineation-pending', _CBSA_DERIVED + '; attacker one also reads the Hattiesburg MSA as including Covington County, which the recalled list omits (finding F3)'),
+    ('missouri', 'branson'): ('cbsa-delineation-pending', _CBSA_DERIVED),
+    ('missouri', 'jefferson-city'): ('cbsa-delineation-pending', _CBSA_DERIVED),
+    ('north-carolina', 'greensboro'): ('cbsa-delineation-pending', _CBSA_DERIVED),
+    ('washington', 'yakima'): ('cbsa-delineation-pending', _CBSA_DERIVED),
+}
+# Component corrections where a row's county list contradicts its own stated basis.
+COMPONENT_OVERRIDES = {
+    ('wisconsin', 'wausau'): {'replace': {('WI', 'PRICE'): ('WI', 'JUNEAU', 'Juneau County', '55057')},
+                              'note': 'the row claims the ten-county North Central Wisconsin planning region, which has Juneau County, not Price County (attacker finding F4); corrected to match the stated basis'},
+}
+CT_FIT_NOTES = {
+    ('connecticut', 'waterbury'): ('fit_legacy', 'Bristol (Hartford County) and Plymouth (Litchfield County) are Naugatuck Valley towns; Hartford County is not in the legacy composition (attacker finding F7)'),
+}
+
 KINDS = {'cbsa', 'county', 'county-set', 'place', 'tract-set', 'cross-state'}
 CT_LEGACY = {'FAIRFIELD', 'HARTFORD', 'LITCHFIELD', 'MIDDLESEX', 'NEW HAVEN', 'NEW LONDON', 'TOLLAND', 'WINDHAM'}
 
@@ -62,6 +86,20 @@ def main():
         if r['kind'] not in KINDS:
             problems.append(f'{key}: bad kind {r["kind"]}')
         st = r['state_postal']
+        if key in COMPONENT_OVERRIDES:
+            ov = COMPONENT_OVERRIDES[key]
+            for (ost, ostr), (nst, nstr, nname, nfips) in ov['replace'].items():
+                for c in r.get('foia_county_strings') or []:
+                    if c.get('state', st) == ost and ostr in c.get('strings', []):
+                        c['strings'] = [nstr if x == ostr else x for x in c['strings']]
+                        c['county'] = nname
+                for c in r.get('counties') or []:
+                    if c.get('state') == ost and c['name'].upper().startswith(ostr):
+                        c.update(name=nname, fips=nfips, fips_verified=False)
+            r['reason'] = (r.get('reason') or '') + '; CORRECTED: ' + ov['note']
+        if key in CT_FIT_NOTES and r.get('ct'):
+            fld, note = CT_FIT_NOTES[key]
+            r['ct'][fld] = r['ct'].get(fld, '') + '; ' + note
         strings, missing = [], []
         for c in r.get('foia_county_strings') or []:
             cst = c.get('state', st)
@@ -102,6 +140,9 @@ def main():
             source = 'page-named-counties'
         else:
             source = 'judgement-region'
+        if key in SOURCE_OVERRIDES:
+            source = SOURCE_OVERRIDES[key][0]
+            r['reason'] = (r.get('reason') or '') + '; composition_source set to ' + source + ': ' + SOURCE_OVERRIDES[key][1]
         resolved = source in ('single-county', 'page-named-counties', 'judgement-region') and bool(strings)
         markets.append({
             'state': r['state'], 'slug': r['slug'], 'state_postal': st, 'page_title': r.get('page_title'),
@@ -133,7 +174,10 @@ def main():
                        'site_page': os.path.exists(os.path.join(ROOT, 'states', slug, 'index.html')), 'site_markets': True, 'fips': None})
     for pc in foia_states:
         if pc and pc not in postal.values():
-            states.append({'id': pc.lower(), 'postal': pc, 'slug': None, 'name': None, 'site_page': False, 'site_markets': False, 'fips': None})
+            st = {'id': pc.lower(), 'postal': pc, 'slug': None, 'name': None, 'site_page': False, 'site_markets': False, 'fips': None}
+            if pc == 'TQ':
+                st['note'] = 'ProjectState as SBA writes it; TQ is not a USPS state or territory code. Kept as published.'
+            states.append(st)
     out = {
         'about': ('Site markets and their compositions. County is the atomic unit. A CBSA market takes its member counties from the OMB delineation file; '
                   'a judgement composition carries review = true and its basis. State ids are USPS codes in lower case; market ids are <state-slug>/<market-slug>. '
