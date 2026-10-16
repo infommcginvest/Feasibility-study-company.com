@@ -1,4 +1,4 @@
-# Netlify configuration — Feasibility Study Company
+# Netlify configuration - Feasibility Study Company
 # Static site (no build step) served from the repository root, plus one
 # serverless function that handles the contact form.
 
