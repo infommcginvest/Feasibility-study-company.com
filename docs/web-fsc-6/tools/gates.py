@@ -490,6 +490,8 @@ def g10():
     served_files = 0
     for d, dirs, files in os.walk(ROOT):
         dirs[:] = [x for x in dirs if x not in (".git", "docs", "src", "node_modules", "_bundles") and not x.startswith(".")]
+        if os.path.relpath(d, ROOT) == "data":
+            dirs[:] = [x for x in dirs if x != "markets"]   # D40: the register is build input and is never deployed
         for f in files:
             if f.startswith(".") or not f.endswith((".html", ".js", ".css", ".json", ".py", ".txt", ".xml", ".toml", ".md", ".svg", ".tsv", ".csv")):
                 continue
@@ -504,7 +506,7 @@ def g10():
             if pc.DASHES.search(h):
                 probs.append(f"src/{os.path.relpath(os.path.join(d, f), os.path.join(ROOT, 'src'))}: dash in source")
     gate(10, "clean text: zero em and en dashes in any encoding; no credential beside the name", "GREEN" if not probs else "RED",
-         "\n".join("  " + x for x in probs) or f"  0 dashes in {served_files} served files (every page, script and data file) and in src/; credential grep 0")
+         "\n".join("  " + x for x in probs) or f"  0 dashes in {served_files} served files (every page, script and data file; data/markets is not deployed, D40) and in src/; credential grep 0")
 
 
 def g11():
