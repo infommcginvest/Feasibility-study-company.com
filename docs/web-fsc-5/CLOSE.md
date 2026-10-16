@@ -122,7 +122,9 @@ It found no regression: a sweep of 87,120 additive cells against its own raw rec
 
 ## Land and push
 
-Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. A bundle of it is written to `<repo>/_bundles/` and clone-tested after the final freeze, and the closing records-only commit adds its name and the clone test.
+Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. Not pushed: the charter pushes only as part of landing, and earlier FSC lanes found this checkout has no credentials for origin.
+
+Bundle: `<repo>/_bundles/web-fsc-5-6cff8d7.bundle` (27,571,617 bytes, sha256 `fdcc004e8dd2cce46d47f1788146a21f04cff1fb8cd60d3643872fafd4a82c3c`). It holds branch `web-fsc-5` at `758dd2f` (the final freeze plus its record) with complete history, and `git bundle verify` passes. Clone test: `git clone -b web-fsc-5` from the bundle gives HEAD `758dd2f`; inside the clone, `python3 -I scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html` exits 0, `geographies.json` holds 253 markets, and `data/markets/series/` holds 16 files. The commit after `758dd2f` adds only this paragraph and is not in the bundle. The `_bundles/` folder is untracked in the main checkout, whose branch lacks this lane's `.gitignore` line.
 
 ## For the next lanes
 
