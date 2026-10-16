@@ -36,6 +36,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CASES = os.path.join(ROOT, "data", "cases")
 SBA_FILE = os.path.join(ROOT, "data", "regulatory", "sba.json")
 CARDS = os.path.join(ROOT, "src", "case-cards.json")
+RETURNS = os.path.join(ROOT, "data", "returns")
 INDEX = os.path.join(ROOT, "case-studies", "index.html")
 REGION = re.compile(r"<!--case:([a-z0-9-]+)\.([a-z0-9_.]+)-->(.*?)<!--/case:\1\.\2-->", re.S)
 CITE = re.compile(r"\[\^(\d+(?:\s*,\s*\d+)*)\]")
@@ -1103,6 +1104,96 @@ def process_index(cases, check):
     return problems, changed
 
 
+# ------------------------------------------------------------------ returns on hand-built case pages
+
+def balance(principal, rate, years, months):
+    """Loan balance after a number of level monthly payments."""
+    r = rate / 12.0
+    pmt = payment(principal, rate, years) / 12.0
+    if r == 0:
+        return principal - pmt * months
+    return principal * (1 + r) ** months - pmt * ((1 + r) ** months - 1) / r
+
+
+def irr(cfs):
+    f = lambda r: sum(c / (1 + r) ** i for i, c in enumerate(cfs))
+    lo, hi = -0.95, 10.0
+    if f(lo) * f(hi) > 0:
+        raise ModelError("IRR has no root in range")
+    for _ in range(300):
+        mid = (lo + hi) / 2
+        if f(lo) * f(mid) <= 0:
+            hi = mid
+        else:
+            lo = mid
+    return (lo + hi) / 2
+
+
+def levered_irr(spec):
+    """Levered equity IRR: hold the stabilized NOI, sell at the exit cap less selling costs, repay both balances."""
+    v = {k: x["value"] for k, x in spec["inputs"].items()}
+    cost = v["cost"]
+    bank, deb, eq = cost * v["bank_pct"], cost * v["debenture_pct"], cost * v["equity_pct"]
+    if abs(v["bank_pct"] + v["debenture_pct"] + v["equity_pct"] - 1) > 1e-9:
+        raise ModelError(f"{spec['slug']}: capital stack does not sum to 100%")
+    ds = payment(bank, v["bank_rate"], v["bank_years"]) + payment(deb, v["debenture_rate"], v["debenture_years"])
+    hold = int(v["hold_years"])
+    noi = list(v["noi"]) + [v["noi"][-1]] * (hold - len(v["noi"]))
+    cfs = [-eq]
+    for t, n in enumerate(noi, start=1):
+        d = n - ds
+        if t == 1 and spec.get("year1_shortfall_from_reserve"):
+            d = max(d, 0.0)
+        cfs.append(d)
+    bal = balance(bank, v["bank_rate"], v["bank_years"], 12 * hold) + balance(deb, v["debenture_rate"], v["debenture_years"], 12 * hold)
+    cfs[-1] += v["noi"][-1] / v["exit_cap"] * (1 - v["selling_cost"]) - bal
+    return {"irr": irr(cfs), "values": {
+        "irr_pct": f"{round(irr(cfs) * 100):.0f}",
+        "exit_cap_pct": f"{v['exit_cap'] * 100:.1f}".rstrip("0").rstrip("."),
+        "selling_pct": f"{v['selling_cost'] * 100:.1f}".rstrip("0").rstrip("."),
+        "hold_years": str(hold)}}
+
+
+def process_returns(check):
+    problems, written = [], []
+    if not os.path.isdir(RETURNS):
+        return problems, written
+    for f in sorted(x for x in os.listdir(RETURNS) if x.endswith(".json")):
+        spec = json.load(open(os.path.join(RETURNS, f), encoding="utf-8"))
+        slug = spec["slug"]
+        path = os.path.join(ROOT, spec["page"].strip("/"), "index.html")
+        try:
+            vals = levered_irr(spec)["values"]
+        except (ModelError, KeyError, ValueError, ZeroDivisionError) as exc:
+            problems.append(f"returns {slug}: {type(exc).__name__}: {exc}")
+            continue
+        text = open(path, encoding="utf-8").read()
+        seen, changed = 0, False
+
+        def sub(m):
+            nonlocal seen, changed
+            if m.group(1) != slug:
+                return m.group(0)
+            name = m.group(2)
+            if not name.startswith("v.") or name[2:] not in vals:
+                problems.append(f"returns {slug}: unknown region {name}")
+                return m.group(0)
+            seen += 1
+            new = vals[name[2:]]
+            if m.group(3) != new:
+                changed = True
+                if check:
+                    problems.append(f"returns {slug}: stale region {name}")
+            return f"<!--case:{slug}.{name}-->{new}<!--/case:{slug}.{name}-->"
+        out = REGION.sub(sub, text)
+        if not seen:
+            problems.append(f"returns {slug}: the page has no case:{slug}.v.irr_pct region")
+        if changed and not check:
+            open(path, "w", encoding="utf-8").write(out)
+            written.append(f"returns {slug}")
+    return problems, written
+
+
 def dump(case, rnd):
     r = rnd.run
     clean = lambda t: {k: v for k, v in t.items() if k != "tranches"} | {"tranches": t["tranches"]}
@@ -1151,6 +1242,9 @@ def main(argv):
             print(p)
         return 1 if problems else 0
     if not args.only:
+        pr, wr = process_returns(args.check)
+        problems += pr
+        written += wr
         try:
             pr, changed = process_index(cases, args.check)
             problems += pr

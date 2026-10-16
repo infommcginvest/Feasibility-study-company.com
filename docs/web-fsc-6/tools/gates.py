@@ -40,8 +40,9 @@ NEW = {"/states/texas/" + m + "/" for m in pc.TEXAS_METROS} | {"/asset-classes/g
     "/case-studies/gas-station-versailles-ohio-sba/", "/case-studies/travel-center-hankamer-texas-usda/",
     "/case-studies/lodging-retreat-johnson-city-texas-sba/"}
 LOOK = ["/states/texas/", "/states/texas/houston/", "/states/texas/austin/", "/asset-classes/gas-station-and-c-store/",
-        "/asset-classes/gas-station-and-c-store/branded-fuel/", "/asset-classes/gas-station-and-c-store/ev-charging/",
-        "/case-studies/gas-station-alabama-sba/", "/case-studies/car-wash-texas-sba/", "/case-studies/assisted-living-texas-hud/"]
+        "/asset-classes/gas-station-and-c-store/interstate-highway/", "/asset-classes/gas-station-and-c-store/ev-charging/",
+        "/case-studies/gas-station-alabama-sba/", "/case-studies/car-wash-texas-sba/", "/case-studies/assisted-living-texas-hud/",
+        "/case-studies/truck-stop-texas-sba/", "/case-studies/", "/case-studies/rv-boat-storage-arizona-sba/"]
 
 results = []
 lines = []

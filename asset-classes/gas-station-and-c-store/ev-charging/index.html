@@ -819,7 +819,8 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   },
   "publisher": {
     "@id": "https://feasibility-study-company.com/#org"
-  }
+  },
+  "dateModified": "2026-10-16"
 }
 </script><!--/fsc:author-ld--><style>
 /* WEB-FSC-6 factory components, shared by every page built from src/ */
@@ -926,7 +927,7 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
         </div>
       </div>
       <a href="/analytical-framework/">Framework</a>
-<a href="/research-notes/">Research</a>
+      <a href="/research-notes/">Research</a>
       <a href="/the-practice/">About</a>
       <a href="/states/" class="mobile-markets">Markets</a>
       <div class="has-mega">
@@ -954,10 +955,10 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
               <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
               <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas-Fort Worth</a></li>
               <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
-              <li><a href="/states/california/#metros" data-fsc-pending="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
-              <li><a href="/states/florida/#metros" data-fsc-pending="/states/florida/miami/" role="menuitem">Miami</a></li>
-              <li><a href="/states/georgia/#metros" data-fsc-pending="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
-              <li><a href="/states/north-carolina/#metros" data-fsc-pending="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+              <li><a href="/states/california/#metros" role="menuitem" data-fsc-pending="/states/california/los-angeles/">Los Angeles</a></li>
+              <li><a href="/states/florida/#metros" role="menuitem" data-fsc-pending="/states/florida/miami/">Miami</a></li>
+              <li><a href="/states/georgia/#metros" role="menuitem" data-fsc-pending="/states/georgia/atlanta/">Atlanta</a></li>
+              <li><a href="/states/north-carolina/#metros" role="menuitem" data-fsc-pending="/states/north-carolina/charlotte/">Charlotte</a></li>
             </ul>
           </div>
           <div class="mega-foot">
@@ -966,7 +967,7 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
           </div>
         </div>
       </div>
-      <a class="btn" href="/#contact">Inquiries</a>
+      <a href="/#contact" class="btn">Inquiries</a>
     </nav>
   </div>
 </header><!--/chrome:header-->
@@ -1031,7 +1032,7 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
         <p class="lede">The observed market price sits above the modeled breakeven. Utilization decides whether the gap reaches the bottom line.</p>
       </div>
 <div class="prose">
-<p>This page covers public DC fast charging at fuel stations, convenience stores and travel centers, which is where the research found almost all of its evidence. Other alternative fuels (compressed and liquefied natural gas, propane, E85 and hydrogen) appear in the federal station counts by state, updated October 6, 2026 <sup class="fn"><a href="#s20">20</a></sup>, but the research extracted no figures for them, and a study for one of those fuels would start from that state table and the fuel supplier's contract.</p>
+<p>This page covers public DC fast charging at fuel stations, convenience stores and <a href="/asset-classes/truck-stop-and-travel-center/" data-fsc-term="hub-truck-stop">travel centers</a>, which is where the research found almost all of its evidence. Other alternative fuels (compressed and liquefied natural gas, propane, E85 and hydrogen) appear in the federal station counts by state, updated October 6, 2026 <sup class="fn"><a href="#s20">20</a></sup>, but the research extracted no figures for them, and a study for one of those fuels would start from that state table and the fuel supplier's contract.</p>
 <p>A fast charger earns money when a car is plugged in. Its revenue is sessions multiplied by energy per session multiplied by price, less the electricity bill, demand charges, network fees and maintenance. Two dated sources bracket the economics. Peer-reviewed work by NREL authors modeled a corridor fast-charging breakeven price of $0.42 per kWh as a 20-year average <sup class="fn"><a href="#s1">1</a></sup>. Paren's market data for the first quarter of 2026 show an average price of $0.53 per kWh, stable on the year, with 200 to 220 sessions per port a month and utilization of 15.6%, down from 16.2% a year earlier <sup class="fn"><a href="#s2">2</a></sup>.</p>
 <p>The two figures are on different bases: one is a modeled lifetime average for a corridor station, the other an observed national average price in one quarter. Read together, they say that the going price clears the modeled breakeven, and that the margin depends on keeping utilization where the market already is. A station at half the national utilization does not earn half the profit; with fixed demand charges and network fees, it may earn none. The research found no published revenue per port and no energy per session, so a study cannot multiply its way to revenue from national figures. It has to use session and energy data from comparable stations near the subject.</p>
 </div>
@@ -1100,7 +1101,7 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
 </div>
 <div class="prose">
 <p>The NREL authors' figures show equipment cost rising from $84,300 per port at 150 kW to $141,900 at 350 kW, and installation from $69,900 to $90,800 <sup class="fn"><a href="#s1">1</a></sup>. A site host choosing power is choosing between a lower capital cost and the ability to serve newer vehicles faster, which affects how many sessions a port can deliver in a busy hour. The study should state the charger model and power, the number of ports and the vendor's quote, and should show those against the published per-port figures.</p>
-<p>What the research could not price is the electrical service. It found no published utility load, transformer or interconnection cost for fuel-site chargers, and no demand-charge benchmark across utilities. It does hold one municipal demand tariff, which shows the structure a lender should ask about. The City of Lockhart, Texas, which sells its own electricity, bills general service demand customers a fixed $33.42 a month, $0.03773 per kWh on the first 20,000 kWh and $5.75 per kW of demand above 40 kW, and adds its purchased power cost to every kWh <sup class="fn"><a href="#s24">24</a></sup>. Under a charge like that, the bill follows the station's peak draw as well as the kWh it sells, so a slow month with a few full-power sessions can still carry a large demand line. Energy prices also differ by state: EIA data compiled by the University of Wisconsin put industrial power at 8.54 cents per kWh in Wisconsin in 2024, against 6.80 cents in Iowa <sup class="fn"><a href="#s25">25</a></sup>. Those are industrial averages, not the commercial tariff a fuel site pays, so they set scale only. Service, interconnection and demand costs depend on the utility, the existing service at the site and the tariff the station will pay, and on some sites they decide the project. A lender should require the utility's written service commitment, the interconnection cost estimate and the applicable commercial tariff before relying on any revenue line.</p>
+<p>What the research could not price is the electrical service. It found no published utility load, transformer or interconnection cost for fuel-site chargers, and no demand-charge benchmark across utilities. It does hold one municipal demand tariff, which shows the structure a lender should ask about. The City of Lockhart, <a href="/states/texas/" data-fsc-term="state-texas">Texas</a>, which sells its own electricity, bills general service demand customers a fixed $33.42 a month, $0.03773 per kWh on the first 20,000 kWh and $5.75 per kW of demand above 40 kW, and adds its purchased power cost to every kWh <sup class="fn"><a href="#s24">24</a></sup>. Under a charge like that, the bill follows the station's peak draw as well as the kWh it sells, so a slow month with a few full-power sessions can still carry a large demand line. Energy prices also differ by state: EIA data compiled by the University of <a href="/states/wisconsin/" data-fsc-term="state-wisconsin">Wisconsin</a> put industrial power at 8.54 cents per kWh in Wisconsin in 2024, against 6.80 cents in <a href="/states/iowa/" data-fsc-term="state-iowa">Iowa</a> <sup class="fn"><a href="#s25">25</a></sup>. Those are industrial averages, not the commercial tariff a fuel site pays, so they set scale only. Service, interconnection and demand costs depend on the utility, the existing service at the site and the tariff the station will pay, and on some sites they decide the project. A lender should require the utility's written service commitment, the interconnection cost estimate and the applicable commercial tariff before relying on any revenue line.</p>
 </div>
     </div>
   </section>
@@ -1115,8 +1116,8 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
       </div>
 <div class="prose">
 <p>The National Electric Vehicle Infrastructure program carries $5 billion through FY2026, of which $4.2 billion had been made available since FY2022, and $885 million was apportioned for FY2026 <sup class="fn"><a href="#s8">8</a></sup>. Its history is uneven. By February 6, 2025, $527 million had been obligated, and on February 10, 57 NEVI stations were open in 15 states <sup class="fn"><a href="#s9">9</a></sup>. That day, FHWA paused the program; revised interim final guidance followed on August 11, 2025 <sup class="fn"><a href="#s8">8</a></sup>, states resubmitted their deployment plans under it <sup class="fn"><a href="#s13">13</a></sup>, FY2026 funds became available in October 2025, and a court entered final judgment in January 2026 <sup class="fn"><a href="#s8">8</a></sup>. The Consolidated Appropriations Act, 2026 moved some unobligated NEVI funds elsewhere, and the separate Charging and Fueling Infrastructure program remained paused when CRS reported <sup class="fn"><a href="#s8">8</a></sup>. By late 2025, at least 384 ports paid for by NEVI had been built <sup class="fn"><a href="#s10">10</a></sup>.</p>
-<p>The guidance sets the station a grant will pay for: at least four network-connected DC fast ports, each able to deliver up to 150 kW at the same time, available around the clock <sup class="fn"><a href="#s12">12</a></sup>, with a federal share of 80% <sup class="fn"><a href="#s11">11</a></sup>. State awards show what that buys at fuel sites. Maryland's first NEVI station opened on November 12, 2025 at a Pilot/Flying J on I-95 in Elkton, with 8 ports and a $450,000 Round 1 award <sup class="fn"><a href="#s16">16</a></sup>; a Pilot travel center on I-68 in Grantsville opened on October 21, 2025 with 4 ports and $475,000 <sup class="fn"><a href="#s17">17</a></sup>. Maryland's third round, announced August 18, 2026, made five conditional awards for 24 fast-charging ports at gas stations and convenience stores, a hotel and a commercial plaza, with approximately $3.7 million of federal money against about $918,000 of private funds, and the stations are expected to open by late 2028 <sup class="fn"><a href="#s14">14</a></sup>. Illinois has made $67.2 million of conditional awards over three rounds for 91 stations with 489 ports <sup class="fn"><a href="#s15">15</a></sup>. Its first station built under the program, a Phillips 66 fuel stop at Casey near I-70, cut its ribbon on July 22, 2026 with four DC fast ports and a NEVI grant of $854,641 <sup class="fn"><a href="#s15">15</a></sup>. The three opened stations named here share a pattern: four to eight ports added to an operating fuel stop, so the store, not the chargers, carries the site.</p>
-<p>Large operators are building on the same funds. Love's 2026 plan includes 100 NEVI EV stalls <sup class="fn"><a href="#s18">18</a></sup>, and in Hillsborough County, Florida, a project for six electric truck charging stations at an I-4 facility would use $24.7 million of NEVI funds, with construction expected in 2027 after a board vote on October 14, 2026 <sup class="fn"><a href="#s19">19</a></sup>. Pilot, building with General Motors, reported EV charging at about 245 locations in fiscal 2025, under a plan for up to 2,000 stalls at up to 500 sites <sup class="fn"><a href="#s23">23</a></sup>. A network of that size can carry slow chargers at quiet exits while the busy ones pay; a single-site host cannot. For a single-site borrower, the grant is a third source of funds in the sources and uses. The study should show the award letter, the match the host must fund, the date the money is paid and the operating commitments that come with it, and the coverage test should still pass if the award is delayed.</p>
+<p>The guidance sets the station a grant will pay for: at least four network-connected DC fast ports, each able to deliver up to 150 kW at the same time, available around the clock <sup class="fn"><a href="#s12">12</a></sup>, with a federal share of 80% <sup class="fn"><a href="#s11">11</a></sup>. State awards show what that buys at fuel sites. <a href="/states/maryland/" data-fsc-term="state-maryland">Maryland</a>'s first NEVI station opened on November 12, 2025 at a Pilot/Flying J on I-95 in Elkton, with 8 ports and a $450,000 Round 1 award <sup class="fn"><a href="#s16">16</a></sup>; a Pilot travel center on I-68 in Grantsville opened on October 21, 2025 with 4 ports and $475,000 <sup class="fn"><a href="#s17">17</a></sup>. Maryland's third round, announced August 18, 2026, made five conditional awards for 24 fast-charging ports at gas stations and convenience stores, a <a href="/asset-classes/hotel/" data-fsc-term="hub-hotel">hotel</a> and a commercial plaza, with approximately $3.7 million of federal money against about $918,000 of private funds, and the stations are expected to open by late 2028 <sup class="fn"><a href="#s14">14</a></sup>. <a href="/states/illinois/" data-fsc-term="state-illinois">Illinois</a> has made $67.2 million of conditional awards over three rounds for 91 stations with 489 ports <sup class="fn"><a href="#s15">15</a></sup>. Its first station built under the program, a Phillips 66 fuel stop at Casey near I-70, cut its ribbon on July 22, 2026 with four DC fast ports and a NEVI grant of $854,641 <sup class="fn"><a href="#s15">15</a></sup>. The three opened stations named here share a pattern: four to eight ports added to an operating fuel stop, so the store, not the chargers, carries the site.</p>
+<p>Large operators are building on the same funds. Love's 2026 plan includes 100 NEVI EV stalls <sup class="fn"><a href="#s18">18</a></sup>, and in Hillsborough County, <a href="/states/florida/" data-fsc-term="state-florida">Florida</a>, a project for six electric truck charging stations at an I-4 facility would use $24.7 million of NEVI funds, with construction expected in 2027 after a board vote on October 14, 2026 <sup class="fn"><a href="#s19">19</a></sup>. Pilot, building with General Motors, reported EV charging at about 245 locations in fiscal 2025, under a plan for up to 2,000 stalls at up to 500 sites <sup class="fn"><a href="#s23">23</a></sup>. A network of that size can carry slow chargers at quiet exits while the busy ones pay; a single-site host cannot. For a single-site borrower, the grant is a third source of funds in the sources and uses. The study should show the award letter, the match the host must fund, the date the money is paid and the operating commitments that come with it, and the coverage test should still pass if the award is delayed.</p>
 </div>
     </div>
   </section>
@@ -1130,7 +1131,7 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
         <p class="lede">The research found no SBA, USDA or bank underwriting rule specific to EV charging. The loan is underwritten on the whole site.</p>
       </div>
 <div class="prose">
-<p>Chargers on a fuel site sit on property SBA lists as a gas station, a special purpose property <sup class="fn"><a href="#s21">21</a></sup>, so the 504 contribution follows the site: <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value-->, or <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value--> for a new business <sup class="fn"><a href="#s21">21</a></sup>. A new site under 7(a) must reach <!--sba:dscr.standard_7a.value-->1.15x<!--/sba:dscr.standard_7a.value--> coverage within two years <sup class="fn"><a href="#s21">21</a></sup>. Beyond those site rules, the research found no SBA, USDA or bank guidance on charging equipment, no named lender to charging projects and no performance data. Nothing in the rules makes a study compulsory, for chargers or anything else: <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> <sup class="fn"><a href="#s22">22</a></sup>. For the program side, see <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 financing</a>.</p>
+<p>Chargers on a fuel site sit on property SBA lists as a gas station, a <a href="/research-notes/special-purpose-property-risk/" data-fsc-term="special-purpose">special purpose property</a> <sup class="fn"><a href="#s21">21</a></sup>, so the 504 contribution follows the site: <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value-->, or <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value--> for a new business <sup class="fn"><a href="#s21">21</a></sup>. A new site under 7(a) must reach <!--sba:dscr.standard_7a.value-->1.15x<!--/sba:dscr.standard_7a.value--> coverage within two years <sup class="fn"><a href="#s21">21</a></sup>. Beyond those site rules, the research found no SBA, USDA or bank guidance on charging equipment, no named lender to charging projects and no performance data. Nothing in the rules makes a study compulsory, for chargers or anything else: <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> <sup class="fn"><a href="#s22">22</a></sup>. For the program side, see <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 financing</a>.</p>
 <p>In practice, a lender financing a site with chargers asks the study to do three things. Show the store and fuel business carrying debt service with the chargers at low utilization, so the loan does not depend on the newest revenue line. Put the grant in the sources and uses with its payment timing and its clawback or operating conditions. And document the electrical service, because a charger that cannot draw its rated power cannot earn its projected revenue. Where those three are missing, the chargers should be presented as an option the borrower funds after the core loan closes, not as part of the base case.</p>
 </div>
     </div>
@@ -1270,20 +1271,24 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
         </ul>
       </div>
       <div class="footer-col">
+        <h4>Asset Classes</h4>
+        <ul>
+          <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
+          <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
+          <li><a href="/asset-classes/hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/">View all asset classes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
         <h4>Firm</h4>
         <ul>
           <li><a href="/the-practice/">The Practice</a></li>
           <li><a href="/case-studies/">Worked Cases</a></li>
+          <li><a href="/research-notes/">Research Notes</a></li>
+          <li><a href="/states/">Markets</a></li>
           <li><a href="/#contact">Inquiries</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Markets</h4>
-        <ul>
-          <li><a href="/states/texas/">Texas</a></li>
-          <li><a href="/states/california/">California</a></li>
-          <li><a href="/states/florida/">Florida</a></li>
-          <li><a href="/states/">View all markets</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+          <li><a href="/terms/">Terms</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/accessibility/">Accessibility</a></li>
         </ul>
       </div>
     </div>

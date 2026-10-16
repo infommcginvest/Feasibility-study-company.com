@@ -1,20 +1,5 @@
 {
   "_about": "Pages another lane owns while it rebuilds them. chrome.py, mesh.py and links.py neither rewrite nor check these pages while they are listed. WEB-FSC-6 owns this set. Whichever of WEB-FSC-4 and WEB-FSC-6 lands second empties the list, then runs chrome.py, mesh.py, links.py --relink and sitemap.py over the whole tree and reruns the gates.",
   "lane": "WEB-FSC-6",
-  "pages": [
-    "states/texas/*",
-    "asset-classes/gas-station-and-c-store/*",
-    "case-studies/gas-station-alabama-sba/*",
-    "case-studies/gas-station-florida-sba/*",
-    "case-studies/gas-station-georgia-sba/*",
-    "case-studies/gas-station-texas-sba/*",
-    "case-studies/truck-stop-texas-sba/*",
-    "case-studies/hotel-texas-sba/*",
-    "case-studies/rv-park-texas-usda/*",
-    "case-studies/car-wash-texas-sba/*",
-    "case-studies/rv-boat-storage-texas-sba/*",
-    "case-studies/auto-dealership-texas-sba/*",
-    "case-studies/assisted-living-texas-hud/*",
-    "case-studies/meat-processing-texas-usda/*"
-  ]
+  "pages": []
 }

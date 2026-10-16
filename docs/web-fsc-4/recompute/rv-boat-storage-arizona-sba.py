@@ -484,7 +484,8 @@ def check():
         need('tile 3 number %sx' % ex['dscr'][2], nums[2] == ex['dscr'][2] + 'x')
         need('tile 1 number $5.00M', nums[0] == '$5.00M')
         # Owner ruling of 2026-10-16 (WEB-FSC-6 D27): the IRR now uses the exit at the cap rate the page cites,
-        # recomputed by docs/web-fsc-6/recompute/rv-boat-storage-arizona-sba-irr.py, which also checks every IRR place.
+        # computed by scripts/casemodel.py from data/returns/rv-boat-storage-arizona-sba.json (casemodel.py --check fails on any
+        # other figure); docs/web-fsc-6/recompute/rv-boat-storage-arizona-sba-irr.py is an independent cross-check.
         need('tile 4 number ≈28% (owner ruling 2026-10-16, exit at the cited 8.5% cap)', nums[3].replace(' ', '') == '≈28%')
 
     # ---- capital structure table, DSCR table

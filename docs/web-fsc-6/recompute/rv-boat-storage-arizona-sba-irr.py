@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """RV and boat storage Arizona (SBA 504): levered equity IRR at the exit cap rate the page cites.
 
+An independent cross-check. The page's figures are rendered by scripts/casemodel.py from data/returns/rv-boat-storage-arizona-sba.json
+(the case's own inputs); this script recomputes the same IRR separately and --check confirms the page states it.
+
 Page: case-studies/rv-boat-storage-arizona-sba/index.html   (owner ruling of October 16, 2026, carried by WEB-FSC-6)
 
 THE RULING. The IRR uses the exit at the cap rate the page itself cites, the method WEB-FSC-4 used for California and
@@ -86,7 +89,7 @@ def published():
 def main(argv):
     m = model()
     if "--check" in argv:
-        text = open(PAGE, encoding="utf-8").read()
+        text = re.sub(r"<!--.*?-->", "", open(PAGE, encoding="utf-8").read(), flags=re.S)
         want = published()
         found = re.findall(r"(?:&asymp;|~|near |about )(\d+)(?:<span>%</span>|%| percent)(?=[^<]{0,40}(?:IRR|levered|over a 10-year))", text)
         found += re.findall(r'stat-num">&asymp;(\d+)<span>%</span></div>\s*<div class="stat-label">Illustrative levered', text)

@@ -31,3 +31,10 @@
 /case-studies/travel-center-hankamer-texas-usda/	pro-forma	1.00x	Coverage below 1.00x	the cash break-even coverage, a definition not a market figure
 /case-studies/travel-center-hankamer-texas-usda/	sensitivity	20%	by up to 20% each way	describes the adjacent matrix's labelled steps
 /case-studies/travel-center-hankamer-texas-usda/	sensitivity	10%	a 10% shortfall on either axis	reads the axes of the adjacent matrix
+/case-studies/gas-station-texas-sba/	sensitivity	15%	Columns move the land cost 15% and 30%	refers to the sensitivity matrix steps on the land assumption
+/case-studies/gas-station-texas-sba/	sensitivity	30%	Columns move the land cost 15% and 30%	refers to the sensitivity matrix steps on the land assumption
+/case-studies/gas-station-texas-sba/	sensitivity	15%	Land 30% under the assumption	reads the sensitivity matrix steps on the land assumption
+/case-studies/gas-station-texas-sba/	sensitivity	30%	Land 30% under the assumption	reads the sensitivity matrix steps on the land assumption
+/case-studies/gas-station-texas-sba/	risks	15%	land 15% and 30% above the assumption	points to the sensitivity matrix steps on the land assumption
+/case-studies/gas-station-texas-sba/	risks	30%	land 15% and 30% above the assumption	points to the sensitivity matrix steps on the land assumption
+/case-studies/gas-station-texas-sba/	faq	$20	an assumed $20 a square foot	the case's land assumption restated in the FAQ; the inputs table labels it an assumption (FAQ text also feeds JSON-LD, which cannot carry a model region)

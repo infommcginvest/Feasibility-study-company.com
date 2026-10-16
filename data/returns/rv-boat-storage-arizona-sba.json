@@ -1,0 +1,20 @@
+{
+  "_about": "Levered equity IRR for a hand-built WEB-FSC-4 case page, computed by scripts/casemodel.py from the case's own inputs (owner ruling of October 16, 2026: the exit at the cap rate the page cites, the method WEB-FSC-4 used for California and Florida). casemodel.py fills the page's case:<slug>.v.* regions; --check fails when the page states anything else. Each input names where the page states it, or why it is an assumption.",
+  "slug": "rv-boat-storage-arizona-sba",
+  "page": "/case-studies/rv-boat-storage-arizona-sba/",
+  "inputs": {
+    "cost": {"value": 5000000, "basis": "page: project cost table, total $5.00M"},
+    "bank_pct": {"value": 0.50, "basis": "page: capital structure, bank first mortgage (50%)"},
+    "debenture_pct": {"value": 0.35, "basis": "page: capital structure, CDC / SBA 504 debenture (35%), the New Business tier of 13 CFR 120.910 (page source 20)"},
+    "equity_pct": {"value": 0.15, "basis": "page: capital structure, borrower equity injection (15%)"},
+    "bank_rate": {"value": 0.095, "basis": "page: bank rate ~9.5%"},
+    "bank_years": {"value": 25, "basis": "page: 25-year amortization"},
+    "debenture_rate": {"value": 0.065, "basis": "page: debenture ~6.5% fixed"},
+    "debenture_years": {"value": 25, "basis": "page: 25-year"},
+    "noi": {"value": [382000, 488000, 615000], "basis": "page: debt-service coverage ramp, NOI Years 1 to 3; stabilized NOI held flat after Year 3 (the page's modest growth is not quantified)"},
+    "hold_years": {"value": 10, "basis": "page: 10-year hold"},
+    "exit_cap": {"value": 0.085, "basis": "assumption: the wide end of the 6.0 to 8.5% range the page cites for dedicated RV and boat storage (page source 18), consistent with its conservative exit"},
+    "selling_cost": {"value": 0.03, "basis": "assumption: the page states none; 3% of the gross sale, as WEB-FSC-4 used for California"}
+  },
+  "year1_shortfall_from_reserve": true
+}
