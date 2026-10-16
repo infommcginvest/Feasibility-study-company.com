@@ -1,0 +1,247 @@
+WEB-FSC-6 gates, run 2026-10-16T13:09:29 at HEAD d19d6fbf59bd5a78dcfb9a3c753dfe86115a39b7 (worktree may carry uncommitted changes: True)
+command: python3 docs/web-fsc-6/tools/gates.py --out docs/web-fsc-6/GATES.txt
+
+=== Gate 1: 31 pages accounted for: 14 at existing URLs, 17 new, of which gate 5 folds some into the Texas page; one <title>; JSON-LD with BreadcrumbList and author @id: GREEN
+built 23/31; existing URLs 14; new 9; folded into their parent page (gate 5 and the hard constraint): 8 ['/states/texas/mcallen/', '/states/texas/el-paso/', '/states/texas/lubbock/', '/states/texas/corpus-christi/', '/asset-classes/gas-station-and-c-store/branded-fuel/', '/asset-classes/gas-station-and-c-store/unbranded-independent/', '/asset-classes/gas-station-and-c-store/convenience-no-fuel/', '/asset-classes/gas-station-and-c-store/foodservice-qsr/']
+folded pages still on disk: []; folded pages without an anchor in their parent: []
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0; mutation tests: GREEN
+build.py --check rc=0: 23 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+mutation 1 (Texas source text): --check rc=1 (want 1), after revert rc=0 (want 0)
+mutation 2 (assisted-living-texas-hud input site_acres x1.1): --check rc=1 (want 1; assisted-living-texas-hud: stale region v.tpc), tables moved=True, after revert rc=0 (want 0)
+mutations ran in a temporary copy (/var/folders/2w/rnnwx9191b5bsj233c8_q8g40000gn/T/fsc6-mut-qecxglxy), removed afterwards; nothing committed
+
+=== Gate 3: unique figures: at least 25 dated, sourced figures per page that appear on no other page: GREEN
+  /asset-classes/gas-station-and-c-store/                        90
+  /asset-classes/gas-station-and-c-store/ev-charging/            27
+  /asset-classes/gas-station-and-c-store/interstate-highway/     29
+  /case-studies/assisted-living-texas-hud/                       50
+  /case-studies/auto-dealership-texas-sba/                       50
+  /case-studies/car-wash-texas-sba/                              61
+  /case-studies/gas-station-alabama-sba/                         33
+  /case-studies/gas-station-florida-sba/                         44
+  /case-studies/gas-station-georgia-sba/                         47
+  /case-studies/gas-station-texas-sba/                           42
+  /case-studies/gas-station-versailles-ohio-sba/                 37
+  /case-studies/hotel-texas-sba/                                 29
+  /case-studies/lodging-retreat-johnson-city-texas-sba/          46
+  /case-studies/meat-processing-texas-usda/                      38
+  /case-studies/rv-boat-storage-texas-sba/                       38
+  /case-studies/rv-park-texas-usda/                              29
+  /case-studies/travel-center-hankamer-texas-usda/               32
+  /case-studies/truck-stop-texas-sba/                            37
+  /states/texas/                                                 88
+  /states/texas/austin/                                          31
+  /states/texas/dallas-fort-worth/                               36
+  /states/texas/houston/                                         40
+  /states/texas/san-antonio/                                     30
+
+=== Gate 4: overlap under 15% against every sibling and every other page (8-word shingles): GREEN
+  /asset-classes/gas-station-and-c-store/                        max 2.87% (/practice-areas/sba-7a-504/); max vs siblings 0.0%
+  /asset-classes/gas-station-and-c-store/ev-charging/            max 0.35% (/asset-classes/gas-station-and-c-store/interstate-highway/); max vs siblings 0.35%
+  /asset-classes/gas-station-and-c-store/interstate-highway/     max 0.35% (/asset-classes/gas-station-and-c-store/ev-charging/); max vs siblings 0.35%
+  /case-studies/assisted-living-texas-hud/                       max 1.88% (/case-studies/meat-processing-texas-usda/); max vs siblings 1.88%
+  /case-studies/auto-dealership-texas-sba/                       max 2.6% (/case-studies/car-wash-texas-sba/); max vs siblings 2.6%
+  /case-studies/car-wash-texas-sba/                              max 3.98% (/case-studies/rv-boat-storage-texas-sba/); max vs siblings 3.98%
+  /case-studies/gas-station-alabama-sba/                         max 2.06% (/practice-areas/sba-7a-504/); max vs siblings 1.93%
+  /case-studies/gas-station-florida-sba/                         max 2.51% (/case-studies/gas-station-versailles-ohio-sba/); max vs siblings 2.51%
+  /case-studies/gas-station-georgia-sba/                         max 2.29% (/case-studies/gas-station-texas-sba/); max vs siblings 2.29%
+  /case-studies/gas-station-texas-sba/                           max 2.4% (/case-studies/gas-station-versailles-ohio-sba/); max vs siblings 2.4%
+  /case-studies/gas-station-versailles-ohio-sba/                 max 2.51% (/case-studies/gas-station-florida-sba/); max vs siblings 2.51%
+  /case-studies/hotel-texas-sba/                                 max 3.77% (/case-studies/lodging-retreat-johnson-city-texas-sba/); max vs siblings 3.77%
+  /case-studies/lodging-retreat-johnson-city-texas-sba/          max 3.77% (/case-studies/hotel-texas-sba/); max vs siblings 3.77%
+  /case-studies/meat-processing-texas-usda/                      max 2.3% (/case-studies/travel-center-hankamer-texas-usda/); max vs siblings 2.3%
+  /case-studies/rv-boat-storage-texas-sba/                       max 3.98% (/case-studies/car-wash-texas-sba/); max vs siblings 3.98%
+  /case-studies/rv-park-texas-usda/                              max 3.31% (/case-studies/lodging-retreat-johnson-city-texas-sba/); max vs siblings 3.31%
+  /case-studies/travel-center-hankamer-texas-usda/               max 2.31% (/case-studies/rv-park-texas-usda/); max vs siblings 2.31%
+  /case-studies/truck-stop-texas-sba/                            max 2.36% (/case-studies/rv-boat-storage-texas-sba/); max vs siblings 2.36%
+  /states/texas/                                                 max 0.74% (/asset-classes/gas-station-and-c-store/); max vs siblings 0.0%
+  /states/texas/austin/                                          max 0.05% (/case-studies/hotel-texas-sba/); max vs siblings 0.0%
+  /states/texas/dallas-fort-worth/                               max 0.28% (/asset-classes/gas-station-and-c-store/ev-charging/); max vs siblings 0.02%
+  /states/texas/houston/                                         max 0.04% (/case-studies/travel-center-hankamer-texas-usda/); max vs siblings 0.02%
+  /states/texas/san-antonio/                                     max 0.07% (/case-studies/assisted-living-texas-hud/); max vs siblings 0.0%
+
+=== Gate 5: standalone metros (gates 3 and 4 on own-geography data); failures fold into the Texas page: GREEN
+WEB-FSC-5 audit not present (research figures only)
+folded into /states/texas/ as sections: ['mcallen', 'el-paso', 'lubbock', 'corpus-christi']
+  /states/texas/houston/                   unique 40 overlap 0.04%
+  /states/texas/dallas-fort-worth/         unique 36 overlap 0.28%
+  /states/texas/austin/                    unique 31 overlap 0.05%
+  /states/texas/san-antonio/               unique 30 overlap 0.07%
+
+=== Gate 6: case standard v3 components, body length, SBA tiers, floors and caps; Opelika under Appendix 15: GREEN
+  gas-station-texas-sba                      sba_7a   words  5620  equity  54.4% (tier 10%)  test DSCR 1.152 (floor 1.15)  loan 2,619,988
+  gas-station-florida-sba                    sba_7a   words  4908  equity  76.7% (tier 10%)  test DSCR 1.154 (floor 1.15)  loan 946,620
+  gas-station-alabama-sba                    sba_7a   words  5425  equity  13.1% (tier 10%)  test DSCR 1.251 (floor 1.25)  loan 1,311,696
+  gas-station-georgia-sba                    sba_7a   words  5466  equity  53.4% (tier 10%)  test DSCR 1.151 (floor 1.15)  loan 2,314,787
+  gas-station-versailles-ohio-sba            sba_7a   words  4827  equity  50.3% (tier 10%)  test DSCR 1.152 (floor 1.15)  loan 1,484,918
+  truck-stop-texas-sba                       sba_504  words  5339  equity  20.0% (tier 20%)  NEGATIVE DETERMINATION  test DSCR 0.692 (floor 1.15)  loan 13,332,959  debenture 4,999,860
+  hotel-texas-sba                            sba_504  words  5431  equity  41.0% (tier 20%)  test DSCR 1.152 (floor 1.15)  loan 8,384,124  debenture 1,278,934
+  rv-park-texas-usda                         usda_bi  words  5150  equity  30.6% (tier 25%)  test DSCR 1.251 (floor 1.25)  loan 2,708,520
+  car-wash-texas-sba                         sba_504  words  5138  equity  20.0% (tier 20%)  test DSCR 1.206 (floor 1.15)  loan 4,686,197  debenture 1,757,324
+  rv-boat-storage-texas-sba                  sba_504  words  4773  equity  15.0% (tier 15%)  NEGATIVE DETERMINATION  test DSCR 0.014 (floor 1.15)  loan 2,996,394  debenture 1,233,809
+  auto-dealership-texas-sba                  sba_504  words  5730  equity  20.4% (tier 15%)  test DSCR 1.151 (floor 1.15)  loan 13,985,767  debenture 5,000,000
+  assisted-living-texas-hud                  hud_232  words  5234  equity  51.4% (tier 10%)  test DSCR 1.451 (floor 1.45)  loan 15,756,900
+  meat-processing-texas-usda                 usda_bi  words  5170  equity  28.4% (tier 20%)  test DSCR 1.250 (floor 1.25)  loan 10,293,780
+  travel-center-hankamer-texas-usda          usda_bi  words  5119  equity  42.4% (tier 20%)  test DSCR 1.252 (floor 1.25)  loan 5,256,668
+  lodging-retreat-johnson-city-texas-sba     sba_7a   words  5001  equity  55.9% (tier 10%)  test DSCR 1.152 (floor 1.15)  loan 2,022,216
+
+=== Gate 7: sources: four parts; ruling 10 pattern absent from served files and lane commit authors; stale-claim grep zero: RED
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+uncited numbers reviewed as not market figures (docs/web-fsc-6/tools/nocite-reviewed.tsv): 23
+  /states/texas/houston/ #economy: ['$50 million']
+  /states/texas/austin/ #economy: ['$50 million']
+  /case-studies/gas-station-texas-sba/ #at-a-glance: ['1.5']
+  /case-studies/gas-station-texas-sba/ #competitors: ['10%', '20%']
+  /case-studies/gas-station-texas-sba/ #sensitivity: ['20%', '40%']
+  /case-studies/gas-station-texas-sba/ #sensitivity: ['10%']
+  /case-studies/gas-station-florida-sba/ #sensitivity: ['20%']
+  /case-studies/gas-station-florida-sba/ #sensitivity: ['10%']
+  /case-studies/gas-station-alabama-sba/ #sensitivity: ['40']
+  /case-studies/gas-station-versailles-ohio-sba/ #sensitivity: ['20%', '10%', '10%']
+  /case-studies/truck-stop-texas-sba/ #pro-forma: ['1.00x']
+  /case-studies/truck-stop-texas-sba/ #lender-conditions: ['504']
+  /case-studies/hotel-texas-sba/ #sensitivity: ['7.5%', '5%']
+  /case-studies/rv-park-texas-usda/ #site: ['3.5']
+  /case-studies/rv-park-texas-usda/ #sensitivity: ['15%', '20%']
+  /case-studies/car-wash-texas-sba/ #sensitivity: ['20%', '15%']
+  /case-studies/rv-boat-storage-texas-sba/ #site: ['2.7']
+  /case-studies/rv-boat-storage-texas-sba/ #sensitivity: ['20%', '20%', '20%']
+  /case-studies/auto-dealership-texas-sba/ #sensitivity: ['10%', '1.00x', '10%']
+  /case-studies/assisted-living-texas-hud/ #sensitivity: ['1.00x']
+  /case-studies/meat-processing-texas-usda/ #sensitivity: ['10%', '7.5%', '7.5%']
+  /case-studies/travel-center-hankamer-texas-usda/ #pro-forma: ['1.00x']
+  /case-studies/travel-center-hankamer-texas-usda/ #sensitivity: ['20%', '10%']
+served files matching the ruling 10 pattern (whole site) 23: ['research-notes/effective-rent-vs-asking-rent/index.html', 'research-notes/c-store-franchise-category/index.html', 'research-notes/underserved-gas-station-markets/index.html', 'research-notes/break-even-occupancy-trap/index.html', 'research-notes/sba-feasibility-myth/index.html', 'asset-classes/glamping/index.html', 'asset-classes/multifamily/index.html', 'asset-classes/rv-park-and-campground/index.html', 'asset-classes/express-car-wash/index.html', 'asset-classes/self-storage/index.html', 'asset-classes/rv-and-boat-storage/index.html', 'case-studies/rv-boat-storage-california-sba/index.html', 'case-studies/assisted-living-florida-hud/index.html', 'case-studies/rv-park-arizona-usda/index.html', 'case-studies/rv-park-maine-usda/index.html', 'case-studies/rv-boat-storage-arizona-sba/index.html', 'case-studies/self-storage-indiana-sba/index.html', 'case-studies/rv-boat-storage-florida-sba/index.html', 'case-studies/assisted-living-north-carolina-hud/index.html', 'case-studies/self-storage-arizona-sba/index.html']
+lane commits whose author or committer matches: 0
+
+=== Gate 8: subjects: no street number, parcel id, owner or business name for any case subject: GREEN
+do-not-use strings checked: 81
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links; required edges: PENDING
+links.py: NOT RUN (script absent until WEB-FSC-4 lands)
+mesh.py: NOT RUN (script absent until WEB-FSC-4 lands)
+inbound contextual links from distinct non-index pages (min 3):
+  /asset-classes/gas-station-and-c-store/                        38
+  /asset-classes/gas-station-and-c-store/ev-charging/            3
+  /asset-classes/gas-station-and-c-store/interstate-highway/     5
+  /case-studies/assisted-living-texas-hud/                       3
+  /case-studies/auto-dealership-texas-sba/                       4
+  /case-studies/car-wash-texas-sba/                              5
+  /case-studies/gas-station-alabama-sba/                         6
+  /case-studies/gas-station-florida-sba/                         3
+  /case-studies/gas-station-georgia-sba/                         8
+  /case-studies/gas-station-texas-sba/                           7
+  /case-studies/gas-station-versailles-ohio-sba/                 4
+  /case-studies/hotel-texas-sba/                                 7
+  /case-studies/lodging-retreat-johnson-city-texas-sba/          4
+  /case-studies/meat-processing-texas-usda/                      4
+  /case-studies/rv-boat-storage-texas-sba/                       3
+  /case-studies/rv-park-texas-usda/                              6
+  /case-studies/travel-center-hankamer-texas-usda/               7
+  /case-studies/truck-stop-texas-sba/                            7
+  /states/texas/                                                 45
+  /states/texas/austin/                                          9
+  /states/texas/dallas-fort-worth/                               7
+  /states/texas/houston/                                         5
+  /states/texas/san-antonio/                                     5
+
+=== Gate 10: clean text: zero em and en dashes in any encoding; no credential beside the name: GREEN
+  0 dashes on 31 pages and their sources; credential grep 0
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: RED
+byline.py --check rc=1:   the-practice/index.html
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py: NOT RUN (script absent)
+markets.py: NOT RUN (script absent)
+
+=== Gate 12: dates agree (JSON-LD dateModified, visible line, sitemap lastmod = 2026-10-16): RED
+  /states/texas/: sitemap lastmod 2026-10-10
+  /states/texas/houston/: sitemap lastmod None
+  /states/texas/dallas-fort-worth/: sitemap lastmod None
+  /states/texas/austin/: sitemap lastmod None
+  /states/texas/san-antonio/: sitemap lastmod None
+  /asset-classes/gas-station-and-c-store/: sitemap lastmod 2026-10-10
+  /asset-classes/gas-station-and-c-store/interstate-highway/: sitemap lastmod None
+  /asset-classes/gas-station-and-c-store/ev-charging/: sitemap lastmod None
+  /case-studies/gas-station-texas-sba/: no visible Updated line (published {'2026-07-12'})
+  /case-studies/gas-station-texas-sba/: sitemap lastmod 2026-10-10
+  /case-studies/gas-station-florida-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/gas-station-florida-sba/: sitemap lastmod 2026-10-10
+  /case-studies/gas-station-alabama-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/gas-station-alabama-sba/: sitemap lastmod 2026-10-10
+  /case-studies/gas-station-georgia-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/gas-station-georgia-sba/: sitemap lastmod 2026-10-10
+  /case-studies/gas-station-versailles-ohio-sba/: sitemap lastmod None
+  /case-studies/truck-stop-texas-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/truck-stop-texas-sba/: sitemap lastmod 2026-10-10
+  /case-studies/hotel-texas-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/hotel-texas-sba/: sitemap lastmod 2026-10-10
+  /case-studies/rv-park-texas-usda/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/rv-park-texas-usda/: sitemap lastmod 2026-10-10
+  /case-studies/car-wash-texas-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/car-wash-texas-sba/: sitemap lastmod 2026-10-10
+  /case-studies/rv-boat-storage-texas-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/rv-boat-storage-texas-sba/: sitemap lastmod 2026-10-10
+  /case-studies/auto-dealership-texas-sba/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/auto-dealership-texas-sba/: sitemap lastmod 2026-10-10
+  /case-studies/assisted-living-texas-hud/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/assisted-living-texas-hud/: sitemap lastmod 2026-10-10
+  /case-studies/meat-processing-texas-usda/: no visible Updated line (published {'2026-07-13'})
+  /case-studies/meat-processing-texas-usda/: sitemap lastmod 2026-10-10
+  /case-studies/travel-center-hankamer-texas-usda/: sitemap lastmod None
+  /case-studies/lodging-retreat-johnson-city-texas-sba/: sitemap lastmod None
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+  states_texas-desktop-1440.png                                          scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  states_texas-mobile-390.png                                            scrollWidth 390 / 390 overflow False inner-scroll tables 7
+  states_texas_houston-desktop-1440.png                                  scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  states_texas_houston-mobile-390.png                                    scrollWidth 390 / 390 overflow False inner-scroll tables 1
+  states_texas_austin-desktop-1440.png                                   scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  states_texas_austin-mobile-390.png                                     scrollWidth 390 / 390 overflow False inner-scroll tables 1
+  asset-classes_gas-station-and-c-store-desktop-1440.png                 scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  asset-classes_gas-station-and-c-store-mobile-390.png                   scrollWidth 390 / 390 overflow False inner-scroll tables 3
+  asset-classes_gas-station-and-c-store_branded-fuel-desktop-1440.png    scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  asset-classes_gas-station-and-c-store_branded-fuel-mobile-390.png      scrollWidth 980 / 980 overflow False inner-scroll tables 0
+  asset-classes_gas-station-and-c-store_ev-charging-desktop-1440.png     scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  asset-classes_gas-station-and-c-store_ev-charging-mobile-390.png       scrollWidth 390 / 390 overflow False inner-scroll tables 1
+  case-studies_gas-station-alabama-sba-desktop-1440.png                  scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  case-studies_gas-station-alabama-sba-mobile-390.png                    scrollWidth 390 / 390 overflow False inner-scroll tables 13
+  case-studies_car-wash-texas-sba-desktop-1440.png                       scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  case-studies_car-wash-texas-sba-mobile-390.png                         scrollWidth 390 / 390 overflow False inner-scroll tables 11
+  case-studies_assisted-living-texas-hud-desktop-1440.png                scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  case-studies_assisted-living-texas-hud-mobile-390.png                  scrollWidth 390 / 390 overflow False inner-scroll tables 12
+
+=== Gate 14: index all: index, follow and in the sitemap with lastmod: RED
+  /states/texas/houston/: not in sitemap
+  /states/texas/dallas-fort-worth/: not in sitemap
+  /states/texas/austin/: not in sitemap
+  /states/texas/san-antonio/: not in sitemap
+  /asset-classes/gas-station-and-c-store/interstate-highway/: not in sitemap
+  /asset-classes/gas-station-and-c-store/ev-charging/: not in sitemap
+  /case-studies/gas-station-versailles-ohio-sba/: not in sitemap
+  /case-studies/travel-center-hankamer-texas-usda/: not in sitemap
+  /case-studies/lodging-retreat-johnson-city-texas-sba/: not in sitemap
+
+SUMMARY
+  gate  1: GREEN    31 pages accounted for: 14 at existing URLs, 17 new, of which gate 5 folds some into the Texas page; one <title>; JSON-LD with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0; mutation tests
+  gate  3: GREEN    unique figures: at least 25 dated, sourced figures per page that appear on no other page
+  gate  4: GREEN    overlap under 15% against every sibling and every other page (8-word shingles)
+  gate  5: GREEN    standalone metros (gates 3 and 4 on own-geography data); failures fold into the Texas page
+  gate  6: GREEN    case standard v3 components, body length, SBA tiers, floors and caps; Opelika under Appendix 15
+  gate  7: RED      sources: four parts; ruling 10 pattern absent from served files and lane commit authors; stale-claim grep zero
+  gate  8: GREEN    subjects: no street number, parcel id, owner or business name for any case subject
+  gate  9: PENDING  links: links.py and mesh.py --check; 3+ inbound contextual links; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding; no credential beside the name
+  gate 11: RED      markers: byline, regulatory, chrome and markets --check
+  gate 12: RED      dates agree (JSON-LD dateModified, visible line, sitemap lastmod = 2026-10-16)
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: RED      index all: index, follow and in the sitemap with lastmod
+  green 9/14
