@@ -289,14 +289,24 @@ def market_id(m):
     return f'{m["state"]}/{m["slug"]}'
 
 
-def market_foia_plan(m):
+def delineation_status(man):
+    """Why no CBSA delineation is at hand, read from the manifest, not assumed."""
+    parts = []
+    for sid in ('census_geoinfo', 'census_delineation'):
+        rec = man.get('sources', {}).get(sid, {})
+        why = re.sub(r' observed at \S+', '', rec['reason'].split(' (')[0]) if rec.get('reason') else ''
+        parts.append(f'{sid} {rec.get("status", "not attempted")}' + (f': {why}' if why else ''))
+    return '; '.join(parts)
+
+
+def market_foia_plan(m, man=None):
     """How a market gets FOIA values: ('sum', {(STATE, COUNTY)}), ('ct', schemes)
     or ('null', flag). Driven by the row's composition_source (geographies.json)."""
     src = m.get('composition_source')
     comp = m.get('foia') or {}
     if src == 'cbsa-delineation-pending':
-        return 'null', ('composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB '
-                        'delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)')
+        return 'null', ('composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from '
+                        f'the OMB delineation; this build has none ({delineation_status(man or {})})')
     if src == 'sub-county':
         return 'null', 'not-published-at-this-grain: the SBA FOIA files carry a project county, not a place or tract'
     if src == 'connecticut-two-schemes':
@@ -391,7 +401,7 @@ def build(diff=False):
         agg, status_counts, code_tally, raw_totals, county_blank, rows_by_file, props = read_foia(files, smap, nidx)
 
         states = sorted({k[1] for k in agg if k[1]})
-        plans = {market_id(m): market_foia_plan(m) for m in geo['markets']}
+        plans = {market_id(m): market_foia_plan(m, man) for m in geo['markets']}
         member = defaultdict(list)            # (STATE, COUNTY) -> market ids
         component_ids = []
         for mid, (how, keys) in plans.items():
@@ -422,6 +432,9 @@ def build(diff=False):
             return out
 
         roll = rollup(agg, geo_of, fy_last, classes_all)
+        bfy = props.get('_blank_naics_by_fy', {})
+        late_gaps = [f'{"7(a)" if p == "7a" else "504"} FY{fy} {100 * n / raw_totals[(p, fy)][0]:.1f}%' for (p, fy), n in sorted(bfy.items())
+                     if fy >= CLASS_COMPLETE_FROM_FY and raw_totals[(p, fy)][0] and n / raw_totals[(p, fy)][0] > 0.01]
         geo_ids = ['us'] + [s.lower() for s in states] + [mid for mid, (how, _) in plans.items() if how == 'sum'] + component_ids
         series = foia_series(roll, geo_ids, classes_all, fy_last, ('7a', '504'))
         nulls = {mid: flag for mid, (how, flag) in plans.items() if how == 'null'}
@@ -440,7 +453,9 @@ def build(diff=False):
                    'class_complete_from_fy': CLASS_COMPLETE_FROM_FY,
                    'class_coverage_note': (f'Before FY{CLASS_COMPLETE_FROM_FY} SBA left NaicsCode blank on whole industries (hotels, restaurants and gas stations are close to zero in FY1991 to FY1997), '
                                            'so a class figure for the window "all" or for an approval year before ' + str(CLASS_COMPLETE_FROM_FY) + ' undercounts. scripts/markets.py refuses one unless the marker sets allow_flag and the page says so. '
-                                           '"all" (every loan) and the windows from FY2016 are unaffected.'),
+                                           '"all" (every loan) and the windows from FY2016 are unaffected.'
+                                           + (' From FY' + str(CLASS_COMPLETE_FROM_FY) + ' on, blank codes stay under 1% of rows except in '
+                                              + ', '.join(late_gaps) + ', where by-year class values undercount by about that share.' if late_gaps else '')),
                    'values': values, 'nulls': nulls}
             jdump(out, os.path.join(DATA, 'series', f'{sid}.json'), compact=True)
             built['sba_foia'].append(sid)
@@ -651,7 +666,7 @@ def foia_reports(agg, status_counts, code_tally, raw_totals, county_blank, rows_
                               'loans_with_blank_project_state': blank_state[prog],
                               'explained_by': 'loans with a blank ProjectState, which count in us only',
                               'explained': us_n - v[0] == blank_state[prog]}
-    raw_props = {p: {k: (round(v, 2) if 'approval' in k else int(v)) for k, v in sorted(d.items())} for p, d in sorted(props.items()) if not p.startswith('_')}
+    raw_props = {p: {k: (round(v, 2) if k.endswith('gross_approval') else int(v)) for k, v in sorted(d.items())} for p, d in sorted(props.items()) if not p.startswith('_')}
     jdump({'about': 'Register totals against the raw files. The raw recount is taken row by row during the read; the independent re-derivation in docs/web-fsc-5/gates/ does not import this script.',
            'us_by_program_fy': rec, 'states_vs_us': states_vs_us, 'all_match': all(r['match'] for r in rec),
            'raw_file_properties': raw_props,

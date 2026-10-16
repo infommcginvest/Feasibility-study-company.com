@@ -1,6 +1,6 @@
 # WEB-FSC-5 close
 
-Lane: the markets data pipeline for feasibility-study-company.com (wave 1). Branch `web-fsc-5`, worktree `~/Downloads/wt-web-fsc-5`, cut from local `main` at `1d48cc2` (= `origin/main`; step zero in STEP0.md). No served page changed. Records: DECISIONS.md (D1 to D31), STEP0.md, GATES.txt, CLOSE-TABLES.md (the tables below in full, generated from the register by `docs/web-fsc-5/tools/close_tables.py`), evidence/step0/, freeze/.
+Lane: the markets data pipeline for feasibility-study-company.com (wave 1). Branch `web-fsc-5`, worktree `~/Downloads/wt-web-fsc-5`, cut from local `main` at `1d48cc2` (= `origin/main`; step zero in STEP0.md). No served page changed. Records: DECISIONS.md (D1 to D32), STEP0.md, GATES.txt, CLOSE-TABLES.md (the tables below in full, generated from the register by `docs/web-fsc-5/tools/close_tables.py`), evidence/step0/, freeze/.
 
 ## The outcome in one paragraph
 
@@ -15,7 +15,7 @@ So the register holds the SBA 7(a) and 504 FOIA series in full: every approval F
 
 ## Gates: 7 of 11 green
 
-Green: 1 (no served file), 3 (reconciliation), 4 (FOIA status), 7 (no synthesized medians or averaged rates; every one of 29,392 rate cells flags a small sample on its loan count), 9 (Texas, with the reason stated for each market), 10 (names and identity), 11 (size: 30.72 MB, i.e. 29.30 MiB; largest file 1.92 MB).
+Green: 1 (no served file), 3 (reconciliation), 4 (FOIA status), 7 (no synthesized medians or averaged rates; across all 29,392 rate cells the small-sample flag is set exactly when 1 to 29 loans were disbursed, a zero denominator gives a null with its own flag, and 30 or more carries no flag), 9 (Texas, with the reason stated for each market), 10 (names and identity), 11 (size: 30.72 MB, i.e. 29.30 MiB; largest file 1.92 MB).
 
 Red, each for a reason this lane cannot fix:
 
@@ -105,13 +105,22 @@ Texas (state `tx`) holds 698 values specific to it. None of the eight Texas mark
   - A2-8 (minor): the negative approval. Kept as published and disclosed (D24).
   - A2-9 (minor): labels. Fixed.
 
-Every finding was reproduced from the raw files or the row text before it was acted on (DECISIONS D23 to D31). Of 16 attacker findings, 15 are fixed, and 1 (A2-8) is resolved by disclosure. The fixes change values, so freeze 2 follows, and all eleven gates and the independent re-derivation were rerun on it.
+Every finding was reproduced from the raw files or the row text before it was acted on (DECISIONS D23 to D31). Of 16 attacker findings, 15 are fixed, and 1 (A2-8) is resolved by disclosure. The fixes change values, so the lane froze again, and all eleven gates and the independent re-derivation were rerun on the new freeze.
 
-**Freeze 2** is the commit that holds this file together with its gate record. Its record, `freeze/freeze-<sha>.json`, is written after it. The closing records-only commit copies the freeze-2 hashes and the focused re-check of the fixes into this file. That commit changes no data, script or gate file, only this file and the freeze record.
+**Freeze 2** (`210aa6a`, archive sha256 `44c4157c…`, data manifest sha256 `2fb6f1d6…`; `freeze/freeze-210aa6a.json`) went to a re-check verifier (Sonnet). It reproduced all 12 resolutions:
+- the recorded probes, and the planned CBSA-membership pulls (tested offline with HTTP blocked);
+- the robots evidence and disclosures;
+- F1 on all 29,392 rate cells (26,224 recomputed from raw);
+- F2, F4, the renderer guards (39 test pages), the pre-FY2001 flag, and the NAICS revisions (re-derived from raw);
+- the raw-file properties, and every changed CLOSE figure.
+
+It found no regression: a sweep of 87,120 additive cells against its own raw recount showed 0 mismatches, and the only changed values are the ones the fixes explain. Its 10 minor points are fixed or disclosed for freeze 3 (D32).
+
+**Freeze 3** is the commit that holds this file together with its gate record. Its record, `freeze/freeze-<sha>.json`, now also carries the manifest's door and probe records, and is written after it. The closing records-only commit copies the freeze-3 hashes and the bundle into this file; it changes no data, script or gate file.
 
 ## Land and push
 
-Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. A bundle of it is written to `<repo>/_bundles/` and clone-tested after freeze 2, and the closing records-only commit adds its name and the clone test.
+Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. A bundle of it is written to `<repo>/_bundles/` and clone-tested after freeze 3, and the closing records-only commit adds its name and the clone test.
 
 ## For the next lanes
 

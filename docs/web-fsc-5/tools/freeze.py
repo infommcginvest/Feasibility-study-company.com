@@ -61,7 +61,8 @@ def main():
             p = os.path.join(d, f)
             data.append({'path': os.path.relpath(p, ROOT), 'bytes': os.path.getsize(p), 'sha256': sha256_file(p)})
     data.sort(key=lambda x: x['path'])
-    state = {'raw': raw, 'data': data, 'sources': {k: {kk: v.get(kk) for kk in ('status', 'vintage', 'reason')} for k, v in man['sources'].items()}}
+    state = {'raw': raw, 'data': data, 'sources': {k: {kk: v.get(kk) for kk in ('status', 'vintage', 'reason')} for k, v in man['sources'].items()},
+             'doors': man.get('doors', []), 'probes': man.get('probes', [])}
     canon = json.dumps(state, sort_keys=True, separators=(',', ':')).encode()
     rec = {'head': head, 'archive_sha256': sha256_bytes(archive), 'data_manifest_sha256': sha256_bytes(canon),
            'raw_files_all_unchanged': all(r['same'] for r in raw), **state}

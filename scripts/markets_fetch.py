@@ -498,13 +498,16 @@ def plan(src, log):
     k = src['kind']
     if src.get('needs') and not key_open(src['needs'], log):
         pr = PROBES.get(src['needs'], {})
+        if pr.get('error'):
+            raise Refused(f'{src["needs"]} is not set, and the keyless probe at {pr.get("observed_at")} failed with a network error '
+                          f'({pr["error"]}); no key-wall observation was made this run')
         seen = (f'HTTP {pr.get("http_status")}' + (f', Location {pr["location"]}' if pr.get('location') else '')
                 + (f', X-DataWebAPI-KeyError {pr["x_datawebapi_keyerror"]}' if pr.get('x_datawebapi_keyerror') else '')
                 + (f', body starts {pr["body_start"][:120]!r}' if pr.get('body_start') and not pr.get('location') else '')
                 + (', empty body' if pr.get('body_bytes') == 0 else '')
                 + (f'; {pr["refused"]}' if pr.get('refused') else ''))
         raise Refused(f'{src["needs"]} is not set, and a keyless request observed at {pr.get("observed_at")} was refused '
-                      f'({pr.get("url")} -> {seen}); see probes in the manifest')
+                      f'({pr.get("url")} -> {seen}); the probe is recorded under probes in the fetch manifest and copied into each freeze record')
     if k == 'static':
         return src['vintage'], plan_static(src)
     if k == 'acs':

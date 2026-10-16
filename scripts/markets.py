@@ -163,13 +163,15 @@ def lookup(name, p):
     return cell, None
 
 
+FMT_BY_UNIT = {'share': ('pct', 'pct1'), 'USD': ('usd', 'usd_m'), 'loans': ('int', 'num')}
+
+
 def check_fmt(name, unit, fmt):
-    if unit == 'share' and fmt not in ('pct', 'pct1', None):
-        raise MarkerError(f'{name}: a share prints as pct or pct1, not {fmt}')
-    if unit != 'share' and fmt in ('pct', 'pct1'):
-        raise MarkerError(f'{name}: {unit} is not a share; pct does not apply')
-    if unit == 'USD' and fmt == 'int':
-        raise MarkerError(f'{name}: a dollar amount prints as usd or usd_m')
+    """A share prints as pct or pct1, a dollar amount as usd or usd_m, a count as
+    int or num; a marker must name its fmt."""
+    allowed = FMT_BY_UNIT.get(unit)
+    if allowed and fmt not in allowed:
+        raise MarkerError(f'{name}: a {unit} value prints with fmt {" or ".join(allowed)}, not {fmt!r}')
 
 
 def period_key(sid, p):
