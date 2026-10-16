@@ -31,6 +31,20 @@
   status = 404
   force = true
 
+# A second line for the two common capitalisations (Netlify's own file matching
+# ignores case; these rules do not). docs/ and src/ are not deployed at all.
+[[redirects]]
+  from = "/Docs/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/DOCS/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
 # Sources and templates under /src are never served (WEB-FSC-6 keeps page
 # sources there), the same way /docs is not.
 [[redirects]]

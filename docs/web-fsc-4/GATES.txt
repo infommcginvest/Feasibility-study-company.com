@@ -1,4 +1,190 @@
 WEB-FSC-4 GATES
+
+Freeze 2 (final): 9896628866f26d591afec42c0c8b5b8f5df419e3 | git archive sha256 1b513fe087c8a1f2d2e6893a1c30cc02d39e7e28de57ee4f274bb0c1fac34717
+Draft deploy of freeze 2: 6ad20281fa0eff51c6dc288e (https://6ad20281fa0eff51c6dc288e--splendid-cannoli-80c225.netlify.app), published from git archive 9896628 with docs/ and src/ excluded
+
+## Offline gates 1, 2, 4-12, 14 (command: TMPDIR=<scratch> python3 docs/web-fsc-4/tools/gates.py 9896628 1d48cc2)
+
+gates on HEAD = 9896628866f26d591afec42c0c8b5b8f5df419e3, base 1d48cc2, trees under <scratch>/wfsc4-gates-7795nabc
+
+== Gate 1: Pages: GREEN
+   served HTML pages: 160 (base 160; must be 160)
+   pages without exactly one <title> outside comments: none
+   JSON-LD blocks that do not parse: none
+
+== Gate 2: Links: GREEN
+   python3 scripts/links.py --check -> exit 0
+   pending anchors by class: {"framework": 31, "hub": 131, "metro": 1285, "retired-infrastructure": 1, "state": 8, "subtype": 185}
+   0 problem(s) over 146 checked pages (14 held, data/site/hold.json)
+   broken internal anchors at base: 2720
+   broken anchors left on held WEB-FSC-6 pages (theirs to fix): 215
+
+== Gate 4: Mesh: GREEN
+   child-to-parent and note-topic edges: 237; missing reverse edge: none
+   exempt (parent is a held WEB-FSC-6 page, closed when it lands): 19
+   pages under 3 contextual inbound links (distinct non-index pages, inside <main>, no breadcrumb, no chrome): none
+     hub       n= 28  min   1 ->   4   median   5.0 ->  14.0
+     state     n= 32  min   1 ->   3   median   1.0 ->   8.0
+     case      n= 64  min   0 ->   3   median   0.0 ->   6.0
+     note      n= 19  min   0 ->   8   median   0.0 ->  33.0
+     practice  n=  4  min   1 ->   9   median  15.5 ->  58.0
+     framework n=  1  min   3 ->   4   median   3.0 ->   4.0
+   pages with a generated link set: 133; identical sets: none
+
+== Gate 5: Chrome: GREEN
+   python3 scripts/chrome.py --check -> exit 0
+   0 page(s) out of date; 14 held; 146 checked; 0 problem(s)
+
+== Gate 6: Case math: GREEN
+   rv-boat-storage-arizona-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+   rv-boat-storage-california-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+   rv-boat-storage-florida-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+   medical-office-north-carolina-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+
+== Gate 7: Dashes: GREEN
+   dashes.py check -> exit 0: 0 dash(es) left in served files outside data/site/hold.json
+   dashes left on held WEB-FSC-6 pages (theirs): 652
+   fidelity, sweep commit c21b055b: 150 served files, every word (text, attributes, JSON-LD) identical before and after: yes
+   fidelity, cross-sentence pair repairs after freeze 1: 24 pages, words identical from 5e25e47: yes
+
+== Gate 8: Names: GREEN
+   served files outside the hold carrying a ruling-10 name: none
+   held WEB-FSC-6 pages still carrying one (theirs): ['asset-classes/gas-station-and-c-store/index.html', 'case-studies/rv-boat-storage-texas-sba/index.html', 'case-studies/rv-park-texas-usda/index.html', 'case-studies/assisted-living-texas-hud/index.html']
+   links to a sister domain: none
+   this lane's commits (1d48cc2..HEAD) with a name in author, committer or message: none
+
+== Gate 9: Credentials: GREEN
+   grep -riE "otava,? *(ph\.?d|ccim|mai)" over the worktree and the built tree: nothing
+
+== Gate 10: Disclosure: GREEN
+   disclosure.py --check -> exit 0: 0 page(s) out of date; 0 misplaced
+   cases outside the hold with the box directly under the H1 and byline: 52
+
+== Gate 11: Dates: GREEN
+   indexable pages where JSON-LD dateModified, the visible line and sitemap lastmod disagree: none
+   pages whose own date moved: /case-studies/medical-office-north-carolina-sba/: 2026-10-10 -> 2026-10-16; /case-studies/rv-boat-storage-arizona-sba/: 2026-10-10 -> 2026-10-16; /case-studies/rv-boat-storage-california-sba/: 2026-10-10 -> 2026-10-16; /case-studies/rv-boat-storage-florida-sba/: 2026-10-10 -> 2026-10-16
+   moved list equals the four recomputed cases: yes
+   sitemap lastmod corrected to the page's own (unmoved) date: 31
+     /asset-classes/multifamily/: 2026-10-10 -> 2026-07-12
+     /case-studies/assisted-living-florida-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/assisted-living-hawaii-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/assisted-living-north-carolina-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/assisted-living-texas-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/behavioral-health-massachusetts-conventional/: 2026-10-10 -> 2026-07-13
+     /case-studies/grocery-store-mississippi-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/hotel-nevada-eb5/: 2026-10-10 -> 2026-07-13
+     /case-studies/meat-processing-georgia-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/meat-processing-north-carolina-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/meat-processing-texas-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-arizona-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-florida-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-georgia-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-north-carolina-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-texas-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/rv-park-arizona-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/rv-park-maine-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/rv-park-texas-usda/: 2026-10-10 -> 2026-07-13
+     /practice-areas/conventional-institutional/: 2026-10-10 -> 2026-07-12
+     /practice-areas/eb-5/: 2026-10-10 -> 2026-07-12
+     /practice-areas/usda-rural-development/: 2026-10-10 -> 2026-07-12
+     /research-notes/absorption-forensics/: 2026-10-10 -> 2026-07-10
+     /research-notes/break-even-occupancy-trap/: 2026-10-10 -> 2026-07-10
+     /research-notes/coverage-constrained-takeout/: 2026-10-10 -> 2026-07-10
+     /research-notes/effective-rent-vs-asking-rent/: 2026-10-10 -> 2026-07-10
+     /research-notes/five-usda-components-applied/: 2026-10-10 -> 2026-07-10
+     /research-notes/gas-station-demand-per-capita/: 2026-10-10 -> 2026-07-11
+     /research-notes/how-eb-5-jobs-are-counted/: 2026-10-10 -> 2026-07-10
+     /research-notes/underserved-gas-station-markets/: 2026-10-10 -> 2026-07-11
+     /research-notes/usda-rd-deadline-calendar/: 2026-10-10 -> 2026-07-11
+
+== Gate 12: Markers: GREEN
+   python3 scripts/byline.py --check -> exit 0: out of date: 0 page(s)
+   python3 scripts/regulatory.py --check -> exit 0: 0 page(s) out of date
+   python3 scripts/mesh.py --check -> exit 0: 0 page(s) out of date; 14 held; 855 term link(s) on 132 page(s)
+   python3 scripts/links.py --check -> exit 0: 0 problem(s) over 146 checked pages (14 held, data/site/hold.json)
+   python3 scripts/chrome.py --check -> exit 0: 0 page(s) out of date; 14 held; 146 checked; 0 problem(s)
+   python3 scripts/sitemap.py --check -> exit 0: sitemap.xml up to date
+
+== Gate 14: Index all (offline): GREEN
+   indexable pages without index, follow or missing from the sitemap: none
+   sitemap URLs: 158; IndexNow key file at the root: ['db7ea828330340f8994ca82a16c48c8b.txt']
+   indexnow.py --since 1d48cc2 --dry-run -> exit 0, 145 URL(s)
+
+SUMMARY: G1=G G2=G G4=G G5=G G6=G G7=G G8=G G9=G G10=G G11=G G12=G G14=G
+
+## Gates 3, 14 (served) and 15 on the freeze 2 draft (curl -sS -m 20 -o /dev/null -w '%{http_code} %{redirect_url}' <draft><path>)
+
+draft of freeze 2: https://6ad20281fa0eff51c6dc288e--splendid-cannoli-80c225.netlify.app (deploy 6ad20281fa0eff51c6dc288e), published from git archive 9896628 minus docs/ and src/
+/asset-classes/car-wash/                         301 /asset-classes/express-car-wash/
+/asset-classes/car-wash/self-serve/              301 /asset-classes/express-car-wash/
+/asset-classes/gas-station/                      301 /asset-classes/gas-station-and-c-store/
+/asset-classes/gas-station/x/                    301 /asset-classes/gas-station-and-c-store/
+/asset-classes/assisted-living/                  301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/assisted-living/x/                301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/independent-living/               301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/independent-living/x/             301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/industrial/                       404 
+/docs/web-fsc-4/DECISIONS.md                     404 
+/Docs/web-fsc-4/DECISIONS.md                     404 
+/DOCS/web-fsc-4/DECISIONS.md                     404 
+/dOcS/web-fsc-4/input/WEB-FSC-4-CHARTER.md       404 
+/docs%2Fweb-fsc-4%2FDECISIONS.md                 404 
+/DOCS/web-fsc-2/INVENTORY.csv                    404 
+/docs/web-fsc-4/CLOSE.md                         404 
+/src/anything                                    404 
+/SRC/anything                                    404 
+/src/                                            404 
+/db7ea828330340f8994ca82a16c48c8b.txt            200 
+/api/contact                                     405 
+/sitemap.xml                                     200 
+/case-studies/                                   200 
+/case-studies/rv-boat-storage-california-sba/    200 
+key file body: db7ea828330340f8994ca82a16c48c8b
+GET /api/contact body: {"ok":false,"error":"Method not allowed."}
+case index DSCRs:    2 1.52&times; DSCR.;   1 1.52&times; stabilized DSCR.;   1 1.57&times; global DSCR.;
+escaped dashes on the served index: 0
+
+## Gate 13: look
+
+Screenshots (playwright-core 1.62.1 driving /Applications/Google Chrome.app, headless; desktop 1440x900 and mobile 390x844, viewport plus the named section) in docs/web-fsc-4/look/, taken on the first draft (6ad1f828b3c382330cfe5707):
+  hawaii-desktop-section.png
+  hawaii-desktop.png
+  hawaii-mobile-section.png
+  hawaii-mobile.png
+  hub-mesh-marina-desktop-section.png
+  hub-mesh-marina-desktop.png
+  hub-mesh-marina-mobile-section.png
+  hub-mesh-marina-mobile.png
+  markets-panel-desktop.png
+  markets-panel-mobile.png
+  note-trade-area-desktop-section.png
+  note-trade-area-desktop.png
+  note-trade-area-mobile-section.png
+  note-trade-area-mobile.png
+  older-case-disclosure-hotel-florida-desktop-section.png
+  older-case-disclosure-hotel-florida-desktop.png
+  older-case-disclosure-hotel-florida-mobile-section.png
+  older-case-disclosure-hotel-florida-mobile.png
+  practice-area-mesh-sba-desktop-section.png
+  practice-area-mesh-sba-desktop.png
+  practice-area-mesh-sba-mobile-section.png
+  practice-area-mesh-sba-mobile.png
+  recomputed-medical-office-nc-desktop-section.png
+  recomputed-medical-office-nc-desktop.png
+  recomputed-medical-office-nc-mobile-section.png
+  recomputed-medical-office-nc-mobile.png
+  truck-stop-oklahoma-desktop-section.png
+  truck-stop-oklahoma-desktop.png
+  truck-stop-oklahoma-mobile-section.png
+  truck-stop-oklahoma-mobile.png
+The Markets panel opened by a click on its trigger on the desktop homepage: is-open and visible. At 390px the site's CSS replaces the panel with the plain Markets link.
+
+Page-level horizontal scroll at 390px (documentElement.scrollWidth > clientWidth), every served page of the freeze 2 draft:
+{"checked":160,"overflow":[]}
+
+--------------------------------------------------------------------------------
+FREEZE 1 RECORD (superseded by freeze 2; kept for the history of the findings)
+--------------------------------------------------------------------------------
 Freeze 1: 5e25e4783ca950b7274de9a0287245da221b72bc | git archive sha256 3bb6da2a5ba4c05687de51c8a19d15d29972d7ad474ca54b6f77b1c6faff71f6
 Draft deploy of freeze 1: 6ad1f9a4bba14c3fdb9fa372 (https://6ad1f9a4bba14c3fdb9fa372--splendid-cannoli-80c225.netlify.app)
 
