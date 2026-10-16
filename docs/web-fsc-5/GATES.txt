@@ -1,4 +1,4 @@
-WEB-FSC-5 gates at HEAD cf6f9553a2f9959f66c2d517fdf461360e503e9d
+WEB-FSC-5 gates at HEAD b975d133572abeb475be7b5daf7be9f22617b356
 runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, so the commit that holds GATES.txt is one record-only commit after the HEAD above.
 
 === GATE 1: no served file changed
@@ -344,6 +344,7 @@ docs/web-fsc-5/evidence/step0/robots_www.huduser.gov.txt
 docs/web-fsc-5/evidence/step0/robots_www2.census.gov.txt
 docs/web-fsc-5/fixture/houston-negative.html
 docs/web-fsc-5/fixture/index.html
+docs/web-fsc-5/freeze/freeze-210aa6a.json
 docs/web-fsc-5/freeze/freeze-e7cc263.json
 docs/web-fsc-5/gates/rederive-result.json
 docs/web-fsc-5/gates/rederive.py
@@ -359,7 +360,7 @@ scripts/markets_build.py
 scripts/markets_fetch.py
 $ git status --porcelain (paths outside the lane)
 (none)
---> GATE 1 GREEN: 354 changed path(s), all inside the lane
+--> GATE 1 GREEN: 355 changed path(s), all inside the lane
 
 === GATE 2: coverage
 series files 16; series rows 16; series files without a row: none
@@ -367,19 +368,19 @@ market anchors on the site's pages (git ls-files *.html outside docs/ and netlif
 states: 60; counties: NOT FETCHED (0 rows); CBSAs: NOT FETCHED (0 rows)
 FETCHED: 1: sba_foia
 NOT FETCHED: 14: census_geoinfo, census_pep, census_pep_api, census_acs5, census_acs1, census_bps, census_cbp, census_cbp_bulk, census_delineation, census_dec2020_ct, bls_qcew, bea_cainc1, bea_cainc1_api, hud_fmr
-  census_geoinfo: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
+  census_geoinfo: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
   census_pep: www2.census.gov robots.txt disallows /programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_pep_api: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
-  census_acs5: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
-  census_acs1: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
+  census_pep_api: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
+  census_acs5: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
+  census_acs1: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
   census_bps: www2.census.gov robots.txt disallows /econ/bps/County/co2025a.txt for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
+  census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
   census_cbp_bulk: www2.census.gov robots.txt disallows /programs-surveys/cbp/datasets/2023/cbp23co.zip for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
   census_delineation: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
-  census_dec2020_ct: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest
+  census_dec2020_ct: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
   bls_qcew: data.bls.gov robots.txt disallows /cew/data/files/2025/csv/2025_annual_singlefile.zip for user-agent * (RFC 9309 group: * -> 1 rule(s))
   bea_cainc1: apps.bea.gov robots.txt disallows /regional/zip/CAINC1.zip for user-agent * (RFC 9309 group: * -> 16 rule(s))
-  bea_cainc1_api: BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:37Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); see probes in the manifest
+  bea_cainc1_api: BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:18Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record
   hud_fmr: www.huduser.gov: challenge (AWS WAF bot check on robots.txt)
 sources.json field check: every row has every field (retrieved and sha256 are empty only for NOT FETCHED rows)
 --> GATE 2 RED: no county or CBSA roster: both NOT FETCHED (Census API key wall D2, www2 robots D1)
@@ -450,7 +451,7 @@ classes: 43; without a fit grade: none
   active-adult: fit proxy; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
   board-and-care: fit partial; 2022 623312,623990; FOIA loans 5,204; by edition set {'1997+2002+2007+2012+2017+2022': 4230, '2002+2007+2012+2017+2022': 974}
   ccrc-life-plan-communities: fit partial; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
-CBP establishment counts nationally per class: NOT FETCHED (census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest)
+CBP establishment counts nationally per class: NOT FETCHED (census_cbp: CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T11:03:15Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); the probe is recorded under probes in the fetch manifest and copied into each freeze record)
 --> GATE 5 RED: every class graded; FOIA loans reported by code and edition; RED because CBP was NOT FETCHED, so no class can show a non-zero national CBP count
 
 === GATE 6: independent re-derivation
@@ -485,21 +486,21 @@ revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture
 exit 0
 register file after revert: unchanged-vs-index
 $ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html
-texas/houston.sba7a_loans: the register holds no value here (composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall))
+texas/houston.sba7a_loans: the register holds no value here (composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *))
 exit 1
 fixture markers: Houston 0, Connecticut 2
 --> GATE 8 RED: mutation test passes (0, 1, 0); RED for Houston: the register holds no Houston value (CBSA composition pending the delineation file), and the renderer refuses the Houston marker with that reason
 
 === GATE 9: Texas
   tx: specific 698, suppressed 0, standalone yes
-  texas/austin: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/corpus-christi: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/dallas-fort-worth: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/el-paso: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/houston: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/lubbock: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/mcallen: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
-  texas/san-antonio: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/austin: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/corpus-christi: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/dallas-fort-worth: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/el-paso: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/houston: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/lubbock: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/mcallen: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
+  texas/san-antonio: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA, CSA or micropolitan membership, which must come from the OMB delineation; this build has none (census_geoinfo NOT FETCHED: CENSUS_API_KEY is not set, and a keyless request was refused; census_delineation NOT FETCHED: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent *)
 --> GATE 9 GREEN: Texas and its eight markets listed; 0 of 8 standalone; every non-standalone market carries its reason
 
 === GATE 10: names and identity
@@ -510,8 +511,8 @@ Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility 
 --> GATE 10 GREEN: no match in lane files or commit identities
 
 === GATE 11: size
-data/markets total 30,719,886 bytes = 30.72 MB = 29.30 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
-largest: data/markets/series/sba7a_volume.json 1.92 MB; data/markets/series/sba504_volume.json 1.65 MB; data/markets/series/sba7a_chgoff_amt.json 1.56 MB; data/markets/series/sba504_chgoff_amt.json 1.38 MB; data/markets/series/sba7a_loans.json 1.33 MB
---> GATE 11 GREEN: 30.72 MB (29.30 MiB), largest file 1.92 MB, nothing under _cache tracked
+data/markets total 31,631,508 bytes = 31.63 MB = 30.17 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
+largest: data/markets/series/sba7a_volume.json 1.95 MB; data/markets/series/sba504_volume.json 1.67 MB; data/markets/series/sba7a_chgoff_amt.json 1.58 MB; data/markets/series/sba504_chgoff_amt.json 1.40 MB; data/markets/series/sba7a_loans.json 1.36 MB
+--> GATE 11 GREEN: 31.63 MB (30.17 MiB), largest file 1.95 MB, nothing under _cache tracked
 
 GATES GREEN 7/11: 1:G 2:R 3:G 4:G 5:R 6:R 7:G 8:R 9:G 10:G 11:G
