@@ -228,9 +228,9 @@
       "assumption": "25 years, matching the debenture; the bank may require a shorter term."
     },
     "debenture_rate": {
-      "value": 0.0695,
+      "value": 0.0697,
       "fmt": "%2",
-      "label": "504 debenture rate, all-in",
+      "label": "504 debenture effective rate, 25-year",
       "source": [
         54
       ]
@@ -436,7 +436,7 @@
     ],
     [
       "Break-even",
-      "Year 3 covers debt service until diesel falls to {breakeven_value} gallons ({cushion_pct} below plan)"
+      "Year 3 covers debt service only at {breakeven_value} diesel gallons, {breakeven_pct} of the plan; the plan itself leaves debt service uncovered"
     ],
     [
       "Market conclusion",
@@ -444,7 +444,7 @@
     ],
     [
       "Determination",
-      "As proposed ({equity_proposed_pct} equity): fails the equity tier, the debenture limit and 1.15x. As restructured ({equity_pct} equity): meets all three"
+      "As proposed ({equity_proposed_pct} equity): fails the equity tier, the debenture limit and 1.15x. As restructured ({equity_pct} equity): meets the equity tier and the debenture limit but still fails 1.15x at {dscr_y2}; the market does not support this loan"
     ]
   ]
 }

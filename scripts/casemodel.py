@@ -261,6 +261,8 @@ class Case:
 
     # -- inputs
     def check_inputs(self):
+        if self.program != "hud_232" and any("per_loan" in u for u in self.spec["uses"]):
+            raise ModelError(f"{self.slug}: per_loan uses are supported for hud_232 only")
         for name, inp in self.spec["inputs"].items():
             if not re.match(r"^[a-z][a-z0-9_]*$", name):
                 raise ModelError(f"{self.slug}: bad input name {name}")
@@ -286,6 +288,8 @@ class Case:
     def uses(self, vals):
         out = []
         for u in self.spec["uses"]:
+            if "per_loan" in u:
+                continue  # sized on the loan actually made; see finance()
             amt = evaluate(u["expr"], dict(vals, y=0), f"{self.slug} use {u['key']}")
             out.append({"key": u["key"], "label": u["label"], "amount": amt, "class": u.get("class", "other"),
                         "basis": u.get("basis", "")})
@@ -416,7 +420,7 @@ class Case:
                                           "amount": amt, "rate": rate, "years": yrs, "rule_path": path,
                                           "ds": payment(amt, rate, yrs)})
             t["rate_basis"] = rate_basis
-            t["fees"].append({"label": "SBA upfront guaranty fee (financed)", "amount": fee, "rule_path": "fees_fy2027.upfront_7a"})
+            t["fees"].append({"label": "SBA upfront guaranty fee (added to project cost)", "amount": fee, "rule_path": "fees_fy2027.upfront_7a"})
             t["loan_total"] = loan
             t["cap_amount"] = loan
         elif p == "sba_504":
@@ -448,7 +452,7 @@ class Case:
             t["tranches"].append({"label": "SBA 504 debenture", "lender": "CDC (SBA-guaranteed debenture)", "amount": deb,
                                   "rate": vals["debenture_rate"], "years": int(vals["debenture_years"]), "rule_path": "terms.sba_504_maturities",
                                   "ds": payment(deb, vals["debenture_rate"], int(vals["debenture_years"]))})
-            t["fees"].append({"label": "SBA 504 upfront fee on the debenture (financed)", "amount": fee, "rule_path": "fees_fy2027.upfront_504"})
+            t["fees"].append({"label": "SBA 504 upfront fee on the debenture (added to project cost)", "amount": fee, "rule_path": "fees_fy2027.upfront_504"})
             t["loan_total"] = tpl + deb
             t["debenture"] = deb
             t["tpl"] = tpl
@@ -470,20 +474,25 @@ class Case:
             t["tranches"].append({"label": "USDA B&I guaranteed loan", "lender": "Bank ({:.0f}% USDA guarantee)".format(g * 100),
                                   "amount": loan, "rate": vals["bi_rate"], "years": yrs, "rule_path": None,
                                   "ds": payment(loan, vals["bi_rate"], yrs)})
-            t["fees"].append({"label": "USDA guarantee fee (financed)", "amount": fee, "rule_path": None})
+            t["fees"].append({"label": "USDA guarantee fee (added to project cost)", "amount": fee, "rule_path": None})
             t["loan_total"] = loan
             t["cap_amount"] = loan
         elif p == "hud_232":
             fee = vals.get("hud_upfront_fees", 0.0)
-            tpc = base + fee
-            loan = tpc * (1 - equity_pct)
+            # uses marked per_loan are a share of the loan made: loan = (1 - e) * (base + fee + k * loan)
+            per = [(u, evaluate(u["per_loan"], dict(vals, y=0), f"{self.slug} use {u['key']}")) for u in self.spec["uses"] if "per_loan" in u]
+            k = sum(x for _, x in per)
+            loan = (1 - equity_pct) * (base + fee) / (1 - (1 - equity_pct) * k)
+            tpc = base + fee + k * loan
+            for u, x in per:
+                t["fees"].append({"label": u["label"], "amount": x * loan, "rule_path": None, "basis": u.get("basis", "")})
             yrs = int(vals["hud_amort_years"])
             ds = payment(loan, vals["hud_rate"], yrs) + loan * vals["hud_mip_annual"]
             t["tranches"].append({"label": "HUD 232 insured mortgage", "lender": "HUD-approved lender (FHA-insured)",
                                   "amount": loan, "rate": vals["hud_rate"], "years": yrs, "rule_path": None, "ds": ds,
                                   "mip": vals["hud_mip_annual"]})
             if fee:
-                t["fees"].append({"label": "HUD financing and MIP fees (financed)", "amount": fee, "rule_path": None})
+                t["fees"].append({"label": "HUD financing and MIP fees (added to project cost)", "amount": fee, "rule_path": None})
             t["loan_total"] = loan
             t["cap_amount"] = loan
         t["tpc"] = tpc
@@ -695,6 +704,12 @@ class Renderer:
             d1, e = c.historical_dscr(t1["ds"])
             d0, _ = c.historical_dscr(t0["ds"])
             v.update({"hist_ebitda": fmt_money(e), "hist_dscr": fmt_x(d1), "hist_dscr_proposed": fmt_x(d0)})
+        if "hud_max_ltv" in r["vals"]:
+            ltv = r["vals"]["hud_max_ltv"]
+            v["value_needed"] = fmt_money(t1["loan_total"] / ltv)
+            v["value_needed_pct"] = fmt_pct(t1["loan_total"] / ltv / t1["tpc"])
+            v["value_needed_proposed"] = fmt_money(t0["loan_total"] / ltv)
+            v["value_needed_pct_proposed"] = fmt_pct(t0["loan_total"] / ltv / t0["tpc"])
         units = c.spec.get("units")
         if units:
             v["tpc_per_unit"] = fmt_money(t1["tpc"] / units["count"])
@@ -722,7 +737,26 @@ class Renderer:
             out += f'\n      <p class="table-source">{foot}</p>'
         return out
 
+    def check_glance(self):
+        """The glance rows are typed text; refuse any that contradict the computed tests or the break-even."""
+        passes = all(x["ok"] for x in self.run["res_tests"])
+        det = " ".join(t for l, t in self.c.spec["glance"] if l.lower().startswith("determination"))
+        if not det:
+            raise ModelError(f"{self.c.slug}: glance has no Determination row")
+        says_pass = re.search(r"\bmeets (all|every|it\b)", det, re.I) or re.search(r"(^|[.;] *)Meets:", det)
+        says_fail = re.search(r"does not support|still fails", det, re.I)
+        if not passes and (says_pass or not says_fail):
+            raise ModelError(f"{self.c.slug}: the restructured structure fails a test but the glance Determination does not say so")
+        if passes and says_fail:
+            raise ModelError(f"{self.c.slug}: the restructured structure passes but the glance Determination says it fails")
+        m = self.be["m_breakeven"]
+        if m is None or m > 1:
+            for label, text in self.c.spec["glance"]:
+                if re.search(r"\{cushion_pct\}|cushion|below (the )?(plan|underwritten)|covered down to|\bmargin\b", text, re.I):
+                    raise ModelError(f"{self.c.slug}: glance row '{label}' reads as a cushion, but break-even is above plan or not reached")
+
     def t_glance(self):
+        self.check_glance()
         rows = []
         for label, text in self.c.spec["glance"]:
             filled = re.sub(r"\{([a-z0-9_]+)\}", lambda m: self.values[m.group(1)], text)
@@ -766,7 +800,10 @@ class Renderer:
             rows.append([esc(u["label"]), basis, fmt_money(u["amount"]), fmt_pct(u["amount"] / t1["tpc"])])
         for f in t1["fees"]:
             if f["amount"] or f["rule_path"]:
-                basis = self.rule_cite("fees") if f["rule_path"] else self.rule_cite("program")
+                if "basis" in f:
+                    basis = self.cites(esc(f["basis"])) if f["basis"] else ""
+                else:
+                    basis = self.rule_cite("fees") if f["rule_path"] else self.rule_cite("program")
                 rows.append([esc(f["label"]), basis, fmt_money(f["amount"]), fmt_pct(f["amount"] / t1["tpc"])])
         rows.append({"cls": "total", "cells": ["Total project cost", "", fmt_money(t1["tpc"]), "100.0%"]})
         return self.table(["Use of funds", "Basis", "Amount", "Share"], rows, "data num wide")
@@ -1000,6 +1037,9 @@ def process(case, check):
     text = open(path, encoding="utf-8").read()
     rnd = Renderer(case, nsources(text))
     problems, changed = [], False
+    m_be = rnd.be["m_breakeven"]
+    if (m_be is None or m_be > 1) and f"<!--case:{case.slug}.v.cushion_pct-->" in text:
+        problems.append(f"{case.slug}: the page shows a break-even cushion, but break-even is above plan or not reached")
 
     def sub(m):
         nonlocal changed

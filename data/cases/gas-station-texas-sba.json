@@ -455,7 +455,7 @@
     ],
     [
       "Total project cost",
-      "{tpc_proposed} as proposed; {tpc} as restructured (the financed guaranty fee moves with the loan)"
+      "{tpc_proposed} as proposed; {tpc} as restructured (the guaranty fee, added to project cost, moves with the loan)"
     ],
     [
       "Loan structure",

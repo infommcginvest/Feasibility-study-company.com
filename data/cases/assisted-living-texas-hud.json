@@ -1,406 +1,417 @@
 {
- "slug": "assisted-living-texas-hud",
- "page": "/case-studies/assisted-living-texas-hud/",
- "program": "hud_232",
- "rule_sources": {
-  "program": 34
- },
- "stabilized_year": 3,
- "dscr_test_year": 3,
- "units": {
-  "label": "unit",
-  "count": 83
- },
- "inputs": {
-  "site_acres": {
-   "value": 4.4,
-   "fmt": "n1",
-   "label": "Site, acres",
-   "source": [
-    44
-   ]
+  "slug": "assisted-living-texas-hud",
+  "page": "/case-studies/assisted-living-texas-hud/",
+  "program": "hud_232",
+  "rule_sources": {
+    "program": 34
   },
-  "land_per_acre": {
-   "value": 311000,
-   "fmt": "$",
-   "label": "Land price per acre, Boerne ETJ near I-10",
-   "assumption": "Set at about the 2026 asking-price level for ETJ land near I-10 in Boerne. The listing is not cited so that no real parcel is identified; it sits between the cited asks for a 2.56-acre I-10 lot and a 45.4-acre tract [^5,6]. An appraisal sets the value."
+  "stabilized_year": 3,
+  "dscr_test_year": 3,
+  "units": {
+    "label": "unit",
+    "count": 83
   },
-  "bldg_sf": {
-   "value": 75350,
-   "fmt": "n",
-   "label": "Building, sq ft (median AL/MC community)",
-   "source": [
-    44
-   ]
+  "inputs": {
+    "site_acres": {
+      "value": 4.4,
+      "fmt": "n1",
+      "label": "Site, acres",
+      "source": [
+        44
+      ]
+    },
+    "land_per_acre": {
+      "value": 311000,
+      "fmt": "$",
+      "label": "Land price per acre, Boerne ETJ near I-10",
+      "assumption": "Set at about the 2026 asking-price level for ETJ land near I-10 in Boerne. The listing is not cited so that no real parcel is identified; it sits between the cited asks for a 2.56-acre I-10 lot and a 45.4-acre tract [^5,6]. An appraisal sets the value."
+    },
+    "bldg_sf": {
+      "value": 75350,
+      "fmt": "n",
+      "label": "Building, sq ft (median AL/MC community)",
+      "source": [
+        44
+      ]
+    },
+    "hard_psf": {
+      "value": 262.75,
+      "fmt": "$2",
+      "label": "Hard cost per sq ft",
+      "source": [
+        45
+      ]
+    },
+    "soft_psf": {
+      "value": 58.75,
+      "fmt": "$2",
+      "label": "Soft cost per sq ft",
+      "source": [
+        45
+      ]
+    },
+    "ffe_pu": {
+      "value": 11900,
+      "fmt": "$",
+      "label": "Furniture, fixtures and equipment per unit",
+      "source": [
+        45
+      ]
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "The research has no San Antonio cost index; Weitz's 2026 mid-level AL range of $281 to $358 per sq ft (city index 100, excluding sitework) sits above the CBRE hard cost [^46], so a contingency is carried until HUD's cost review."
+    },
+    "build_months": {
+      "value": 24,
+      "fmt": "n",
+      "label": "Groundbreaking to opening, months",
+      "source": [
+        47
+      ]
+    },
+    "draw_factor": {
+      "value": 0.5,
+      "fmt": "%",
+      "label": "Average share of the loan outstanding during the build",
+      "assumption": "Loan draws rise from zero to the full loan, so about half is outstanding on average."
+    },
+    "fee_pct": {
+      "value": 0.025,
+      "fmt": "%",
+      "label": "HUD application, inspection, lender, legal and title fees, share of the loan",
+      "assumption": "The research gives a 0.3% application fee [^58] but no inspection, placement or legal fees for Section 232; 2.5% of the loan is a placeholder for the lender's fee schedule."
+    },
+    "wc_pct": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Working capital escrow, share of the loan",
+      "source": [
+        34,
+        59
+      ]
+    },
+    "odr": {
+      "value": 1600000,
+      "fmt": "$",
+      "label": "Initial operating deficit escrow",
+      "assumption": "HUD sizes this escrow on Form HUD-91128-ORCF from the lease-up cash flows [^43]; the research gives no amount. The placeholder covers most of the Year 1 shortfall in this model and is replaced by the lender's calculation."
+    },
+    "al_units": {
+      "value": 59,
+      "fmt": "n",
+      "label": "Assisted living units",
+      "assumption": "The median AL/MC community has 83 units [^44]; the mix follows a recent 63 AL and 26 MC proposal and Franklin Park's own AL-heavy mix [^9]."
+    },
+    "mc_units": {
+      "value": 24,
+      "fmt": "n",
+      "label": "Memory care units",
+      "assumption": "About 29% of the 83 units, a secured wing; Franklin Park holds 38 Alzheimer beds among 96 licensed [^9]."
+    },
+    "al_rate": {
+      "value": 5700,
+      "fmt": "$",
+      "label": "Assisted living monthly rate with care, Year 1",
+      "assumption": "No operator posts rates. Local quotes run $3,930 to $6,430 at Franklin Park [^10] and $4,534 for a one-bedroom in Fair Oaks Ranch [^24]; the South Central regional average fee with care was $5,658 in FY2024 [^44]. A new building prices near the top of the local range."
+    },
+    "mc_rate": {
+      "value": 7500,
+      "fmt": "$",
+      "label": "Memory care monthly rate with care, Year 1",
+      "assumption": "Local memory care quotes run from $5,160 [^20] to $6,027 for a one-bedroom in Fair Oaks Ranch [^24]; the South Central regional memory care fee was $7,298 in FY2024 [^44]. A new secured wing prices above the older local stock."
+    },
+    "rate_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual rate increase",
+      "assumption": "Below the 5.3% in-place assisted living rate growth NIC MAP reported for June 2026 [^49], because a lease-up community discounts to fill."
+    },
+    "occ": {
+      "value": [
+        0.32,
+        0.72,
+        0.88,
+        0.88,
+        0.88
+      ],
+      "fmt": "%",
+      "label": "Average occupancy",
+      "assumption": "Lease-up follows an S-curve, with stabilization by years 3 to 4 in NIC's analysis [^50]. Stabilized occupancy of 88% sits below the 89.1% national assisted living rate for 3Q 2026 [^48] and above the 86.6% median for AL/MC communities in FY2024 [^44]."
+    },
+    "occ_stab": {
+      "value": 0.88,
+      "fmt": "%",
+      "label": "Stabilized occupancy used to size fixed costs",
+      "assumption": "Same as the stabilized occupancy above."
+    },
+    "core_ratio": {
+      "value": 0.62,
+      "fmt": "%",
+      "label": "Operating cost excluding management fee, property tax and reserves, share of revenue",
+      "assumption": "Labor alone ran 47.2% of revenue at the median AL/MC community in FY2024, and total operating expense 77.7% including the management fee [^44]. The model holds 62% for labor, food, utilities, insurance, marketing and administration."
+    },
+    "core_floor_share": {
+      "value": 0.7,
+      "fmt": "%",
+      "label": "Share of stabilized operating cost carried during lease-up",
+      "assumption": "A licensed community must staff and run the building before it fills; 70% of the stabilized cost is the floor."
+    },
+    "mgmt_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Management fee, share of revenue",
+      "source": [
+        44
+      ]
+    },
+    "tax_rate": {
+      "value": 0.013929,
+      "fmt": "%2",
+      "label": "Combined ETJ property tax rate (county, Boerne ISD, Cow Creek GCD), tax year 2025",
+      "source": [
+        27
+      ]
+    },
+    "reserve_pu": {
+      "value": 400,
+      "fmt": "$",
+      "label": "Replacement reserve per unit per year",
+      "assumption": "HUD sets the reserve for replacement in its firm commitment; the research has no figure."
+    },
+    "hud_max_ltc": {
+      "value": 0.9,
+      "fmt": "%",
+      "label": "Maximum loan to cost, Section 232 new construction (secondary)",
+      "source": [
+        34,
+        58
+      ]
+    },
+    "hud_max_ltv": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "Maximum loan to value, for-profit borrower, Section 232 new construction (secondary)",
+      "source": [
+        34,
+        58
+      ]
+    },
+    "hud_dscr_floor": {
+      "value": 1.45,
+      "fmt": "x",
+      "label": "Minimum DSCR, Section 232 new construction (secondary)",
+      "source": [
+        34,
+        59
+      ]
+    },
+    "hud_rate": {
+      "value": 0.06,
+      "fmt": "%2",
+      "label": "Note rate, fixed",
+      "assumption": "The research has no dated Section 232 rate. The 10-year Treasury was 4.23% on March 11, 2026 [^60]; the model uses 6.00% fixed, set at rate lock"
+    },
+    "hud_mip_annual": {
+      "value": 0.0077,
+      "fmt": "%2",
+      "label": "Annual mortgage insurance premium, Section 232 new construction without tax credits",
+      "source": [
+        64
+      ]
+    },
+    "hud_amort_years": {
+      "value": 40,
+      "fmt": "yr",
+      "label": "Amortization after construction (secondary)",
+      "source": [
+        58
+      ]
+    }
   },
-  "hard_psf": {
-   "value": 262.75,
-   "fmt": "$2",
-   "label": "Hard cost per sq ft",
-   "source": [
-    45
-   ]
-  },
-  "soft_psf": {
-   "value": 58.75,
-   "fmt": "$2",
-   "label": "Soft cost per sq ft",
-   "source": [
-    45
-   ]
-  },
-  "ffe_pu": {
-   "value": 11900,
-   "fmt": "$",
-   "label": "Furniture, fixtures and equipment per unit",
-   "source": [
-    45
-   ]
-  },
-  "contingency_pct": {
-   "value": 0.05,
-   "fmt": "%",
-   "label": "Hard-cost contingency",
-   "assumption": "The research has no San Antonio cost index; Weitz's 2026 mid-level AL range of $281 to $358 per sq ft (city index 100, excluding sitework) sits above the CBRE hard cost [^46], so a contingency is carried until HUD's cost review."
-  },
-  "build_months": {
-   "value": 24,
-   "fmt": "n",
-   "label": "Groundbreaking to opening, months",
-   "source": [
-    47
-   ]
-  },
-  "draw_factor": {
-   "value": 0.5,
-   "fmt": "%",
-   "label": "Average share of construction cost outstanding during the build",
-   "assumption": "Draws rise from zero to the full budget, so about half is outstanding on average."
-  },
-  "fee_pct": {
-   "value": 0.025,
-   "fmt": "%",
-   "label": "HUD application, inspection, lender, legal and title fees, share of the loan",
-   "assumption": "The research gives a 0.3% application fee [^58] but no inspection, placement or legal fees for Section 232; 2.5% of the loan is a placeholder for the lender's fee schedule."
-  },
-  "wc_pct": {
-   "value": 0.04,
-   "fmt": "%",
-   "label": "Working capital escrow, share of the loan",
-   "source": [
-    34,
-    59
-   ]
-  },
-  "odr": {
-   "value": 1600000,
-   "fmt": "$",
-   "label": "Initial operating deficit escrow",
-   "assumption": "HUD sizes this escrow on Form HUD-91128-ORCF from the lease-up cash flows [^43]; the research gives no amount. The placeholder covers most of the Year 1 shortfall in this model and is replaced by the lender's calculation."
-  },
-  "al_units": {
-   "value": 59,
-   "fmt": "n",
-   "label": "Assisted living units",
-   "assumption": "The median AL/MC community has 83 units [^44]; the mix follows a recent 63 AL and 26 MC proposal and Franklin Park's own AL-heavy mix [^9]."
-  },
-  "mc_units": {
-   "value": 24,
-   "fmt": "n",
-   "label": "Memory care units",
-   "assumption": "About 29% of the 83 units, a secured wing; Franklin Park holds 38 Alzheimer beds among 96 licensed [^9]."
-  },
-  "al_rate": {
-   "value": 5700,
-   "fmt": "$",
-   "label": "Assisted living monthly rate with care, Year 1",
-   "assumption": "No operator posts rates. Local quotes run $3,930 to $6,430 at Franklin Park [^10] and $4,534 for a one-bedroom in Fair Oaks Ranch [^24]; the South Central regional average fee with care was $5,658 in FY2024 [^44]. A new building prices near the top of the local range."
-  },
-  "mc_rate": {
-   "value": 7500,
-   "fmt": "$",
-   "label": "Memory care monthly rate with care, Year 1",
-   "assumption": "Local memory care quotes run from $5,160 [^20] to $6,027 for a one-bedroom in Fair Oaks Ranch [^24]; the South Central regional memory care fee was $7,298 in FY2024 [^44]. A new secured wing prices above the older local stock."
-  },
-  "rate_growth": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Annual rate increase",
-   "assumption": "Below the 5.3% in-place assisted living rate growth NIC MAP reported for June 2026 [^49], because a lease-up community discounts to fill."
-  },
-  "occ": {
-   "value": [
-    0.32,
-    0.72,
-    0.88,
-    0.88,
-    0.88
-   ],
-   "fmt": "%",
-   "label": "Average occupancy",
-   "assumption": "Lease-up follows an S-curve, with stabilization by years 3 to 4 in NIC's analysis [^50]. Stabilized occupancy of 88% sits below the 89.1% national assisted living rate for 3Q 2026 [^48] and above the 86.6% median for AL/MC communities in FY2024 [^44]."
-  },
-  "occ_stab": {
-   "value": 0.88,
-   "fmt": "%",
-   "label": "Stabilized occupancy used to size fixed costs",
-   "assumption": "Same as the stabilized occupancy above."
-  },
-  "core_ratio": {
-   "value": 0.62,
-   "fmt": "%",
-   "label": "Operating cost excluding management fee, property tax and reserves, share of revenue",
-   "assumption": "Labor alone ran 47.2% of revenue at the median AL/MC community in FY2024, and total operating expense 77.7% including the management fee [^44]. The model holds 62% for labor, food, utilities, insurance, marketing and administration."
-  },
-  "core_floor_share": {
-   "value": 0.7,
-   "fmt": "%",
-   "label": "Share of stabilized operating cost carried during lease-up",
-   "assumption": "A licensed community must staff and run the building before it fills; 70% of the stabilized cost is the floor."
-  },
-  "mgmt_pct": {
-   "value": 0.05,
-   "fmt": "%",
-   "label": "Management fee, share of revenue",
-   "source": [
-    44
-   ]
-  },
-  "tax_rate": {
-   "value": 0.013929,
-   "fmt": "%2",
-   "label": "Combined ETJ property tax rate (county, Boerne ISD, Cow Creek GCD), tax year 2025",
-   "source": [
-    27
-   ]
-  },
-  "reserve_pu": {
-   "value": 400,
-   "fmt": "$",
-   "label": "Replacement reserve per unit per year",
-   "assumption": "HUD sets the reserve for replacement in its firm commitment; the research has no figure."
-  },
-  "hud_max_ltc": {
-   "value": 0.9,
-   "fmt": "%",
-   "label": "Maximum loan to cost, Section 232 new construction (secondary)",
-   "source": [
-    34,
-    58
-   ]
-  },
-  "hud_dscr_floor": {
-   "value": 1.45,
-   "fmt": "x",
-   "label": "Minimum DSCR, Section 232 new construction (secondary)",
-   "source": [
-    34,
-    59
-   ]
-  },
-  "hud_rate": {
-   "value": 0.06,
-   "fmt": "%2",
-   "label": "Note rate, fixed",
-   "assumption": "The research has no dated Section 232 rate. The 10-year Treasury was 4.23% on March 11, 2026 [^60]; the model uses 6.00% fixed, set at rate lock"
-  },
-  "hud_mip_annual": {
-   "value": 0.0025,
-   "fmt": "%2",
-   "label": "Annual mortgage insurance premium",
-   "assumption": "HUD set 0.25% for all FHA multifamily insurance programs from late 2025 [^36]; whether that rate covers Section 232 healthcare loans is not confirmed in the research"
-  },
-  "hud_amort_years": {
-   "value": 40,
-   "fmt": "yr",
-   "label": "Amortization after construction (secondary)",
-   "source": [
-    58
-   ]
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land",
-   "expr": "site_acres * land_per_acre",
-   "class": "real_estate",
-   "basis": "assumption; site size [^44]"
-  },
-  {
-   "key": "hard",
-   "label": "Hard construction cost",
-   "expr": "bldg_sf * hard_psf",
-   "class": "real_estate",
-   "basis": "[^45]"
-  },
-  {
-   "key": "contingency",
-   "label": "Hard-cost contingency",
-   "expr": "bldg_sf * hard_psf * contingency_pct",
-   "class": "real_estate",
-   "basis": "assumption"
-  },
-  {
-   "key": "soft",
-   "label": "Soft costs (design, permits, licensing, developer costs)",
-   "expr": "bldg_sf * soft_psf",
-   "class": "real_estate",
-   "basis": "[^45]"
-  },
-  {
-   "key": "ffe",
-   "label": "Furniture, fixtures and equipment",
-   "expr": "(al_units + mc_units) * ffe_pu",
-   "class": "equipment",
-   "basis": "[^45]"
-  },
-  {
-   "key": "interim",
-   "label": "Construction-period interest and MIP",
-   "expr": "(bldg_sf * (hard_psf * (1 + contingency_pct) + soft_psf) + (al_units + mc_units) * ffe_pu) * draw_factor * (hud_rate + hud_mip_annual) * build_months / 12",
-   "class": "real_estate",
-   "basis": "[^47] build period"
-  },
-  {
-   "key": "fees",
-   "label": "HUD, lender, legal and title fees",
-   "expr": "fee_pct * hud_max_ltc * (site_acres * land_per_acre + bldg_sf * (hard_psf * (1 + contingency_pct) + soft_psf) + (al_units + mc_units) * ffe_pu)",
-   "class": "other",
-   "basis": "assumption"
-  },
-  {
-   "key": "wc",
-   "label": "Working capital escrow",
-   "expr": "wc_pct * hud_max_ltc * (site_acres * land_per_acre + bldg_sf * (hard_psf * (1 + contingency_pct) + soft_psf) + (al_units + mc_units) * ffe_pu)",
-   "class": "working_capital",
-   "basis": "[^34]"
-  },
-  {
-   "key": "odr",
-   "label": "Initial operating deficit escrow",
-   "expr": "odr",
-   "class": "working_capital",
-   "basis": "assumption"
-  }
- ],
- "revenue": [
-  {
-   "key": "al",
-   "label": "Assisted living",
-   "expr": "al_units * al_rate * 12 * occ * (1 + rate_growth) ** y",
-   "basis": "units x rate x occupancy"
-  },
-  {
-   "key": "mc",
-   "label": "Memory care",
-   "expr": "mc_units * mc_rate * 12 * occ * (1 + rate_growth) ** y",
-   "basis": "units x rate x occupancy"
-  }
- ],
- "opex": [
-  {
-   "key": "core",
-   "label": "Labor, food, utilities, insurance, marketing and administration",
-   "expr": "max(core_floor_share * core_ratio * 12 * (al_units * al_rate + mc_units * mc_rate) * occ_stab * (1 + rate_growth) ** y, core_ratio * rev_total)",
-   "basis": "[^44] benchmark"
-  },
-  {
-   "key": "mgmt",
-   "label": "Management fee",
-   "expr": "rev_total * mgmt_pct",
-   "basis": "[^44]"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(site_acres * land_per_acre + bldg_sf * hard_psf + (al_units + mc_units) * ffe_pu) * tax_rate",
-   "basis": "[^27]"
-  },
-  {
-   "key": "reserve",
-   "label": "Replacement reserve",
-   "expr": "(al_units + mc_units) * reserve_pu",
-   "basis": "assumption"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.1,
-  "note": "the sponsor proposes the maximum 90% loan to cost, leaving 10% equity"
- },
- "breakeven": {
-  "input": "occ",
-  "label": "occupancy"
- },
- "sensitivity": {
-  "rows": {
-   "input": "occ",
-   "label": "Occupancy",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.05,
-    0.1
-   ]
-  },
-  "cols": {
-   "input": "al_rate",
-   "label": "Assisted living rate",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.075,
-    0.15
-   ]
-  }
- },
- "glance": [
-  [
-   "Location",
-   "Boerne, Kendall County, Texas, in the San Antonio metro, in the city's extraterritorial jurisdiction near the I-10 corridor [^1]"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land",
+      "expr": "site_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "assumption; site size [^44]"
+    },
+    {
+      "key": "hard",
+      "label": "Hard construction cost",
+      "expr": "bldg_sf * hard_psf",
+      "class": "real_estate",
+      "basis": "[^45]"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "bldg_sf * hard_psf * contingency_pct",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "soft",
+      "label": "Soft costs (design, permits, licensing, developer costs)",
+      "expr": "bldg_sf * soft_psf",
+      "class": "real_estate",
+      "basis": "[^45]"
+    },
+    {
+      "key": "ffe",
+      "label": "Furniture, fixtures and equipment",
+      "expr": "(al_units + mc_units) * ffe_pu",
+      "class": "equipment",
+      "basis": "[^45]"
+    },
+    {
+      "key": "interim",
+      "label": "Construction-period interest and MIP",
+      "class": "real_estate",
+      "basis": "[^47] build period; on the average loan balance",
+      "per_loan": "draw_factor * (hud_rate + hud_mip_annual) * build_months / 12"
+    },
+    {
+      "key": "fees",
+      "label": "HUD, lender, legal and title fees",
+      "class": "other",
+      "basis": "assumption",
+      "per_loan": "fee_pct"
+    },
+    {
+      "key": "wc",
+      "label": "Working capital escrow",
+      "class": "working_capital",
+      "basis": "[^34]",
+      "per_loan": "wc_pct"
+    },
+    {
+      "key": "odr",
+      "label": "Initial operating deficit escrow",
+      "expr": "odr",
+      "class": "working_capital",
+      "basis": "assumption"
+    }
   ],
-  [
-   "Subject",
-   "Hypothetical new-construction community: {in_al_units} assisted living and {in_mc_units} memory care units, {in_bldg_sf} sq ft on {in_site_acres} acres"
+  "revenue": [
+    {
+      "key": "al",
+      "label": "Assisted living",
+      "expr": "al_units * al_rate * 12 * occ * (1 + rate_growth) ** y",
+      "basis": "units x rate x occupancy"
+    },
+    {
+      "key": "mc",
+      "label": "Memory care",
+      "expr": "mc_units * mc_rate * 12 * occ * (1 + rate_growth) ** y",
+      "basis": "units x rate x occupancy"
+    }
   ],
-  [
-   "Program",
-   "HUD Section 232 new construction, FHA-insured; sizing terms from lender and broker summaries (secondary) [^34,58]"
+  "opex": [
+    {
+      "key": "core",
+      "label": "Labor, food, utilities, insurance, marketing and administration",
+      "expr": "max(core_floor_share * core_ratio * 12 * (al_units * al_rate + mc_units * mc_rate) * occ_stab * (1 + rate_growth) ** y, core_ratio * rev_total)",
+      "basis": "[^44] benchmark"
+    },
+    {
+      "key": "mgmt",
+      "label": "Management fee",
+      "expr": "rev_total * mgmt_pct",
+      "basis": "[^44]"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(site_acres * land_per_acre + bldg_sf * hard_psf + (al_units + mc_units) * ffe_pu) * tax_rate",
+      "basis": "[^27]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(al_units + mc_units) * reserve_pu",
+      "basis": "assumption"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc}, or {tpc_per_unit} a unit"
-  ],
-  [
-   "Loan structure",
-   "Insured loan {loan_total} at {in_hud_rate} plus {in_hud_mip_annual} premium, {in_hud_amort_years}; annual debt service {ds}"
-  ],
-  [
-   "Equity",
-   "{equity_pct} ({equity}), against {equity_proposed_pct} proposed"
-  ],
-  [
-   "DSCR in the test year",
-   "{dscr_y3} in Year 3 (proposed loan: {dscr_y3_proposed}); {dscr_y2} in Year 2"
-  ],
-  [
-   "Break-even",
-   "{breakeven_value} average occupancy in Year 3, a {cushion_pct} cushion"
-  ],
-  [
-   "Market conclusion",
-   "Strong, older, high-equity demand and thin supply; local rates are too low for a 90% new-construction loan"
-  ],
-  [
-   "Determination as proposed",
-   "Fails: a 90% loan to cost ({loan_total_proposed}) covers stabilized debt service {dscr_y3_proposed}, below the {floor} floor"
-  ],
-  [
-   "Determination as restructured",
-   "Meets: insured loan cut to {loan_total} and equity raised to {equity_pct}; coverage {dscr_y3} in Year 3, with the operating deficit escrow carrying the lease-up"
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes the maximum 90% loan to cost, leaving 10% equity"
+  },
+  "breakeven": {
+    "input": "occ",
+    "label": "occupancy"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "occ",
+      "label": "Occupancy",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.05,
+        0.1
+      ]
+    },
+    "cols": {
+      "input": "al_rate",
+      "label": "Assisted living rate",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Location",
+      "Boerne, Kendall County, Texas, in the San Antonio metro, in the city's extraterritorial jurisdiction near the I-10 corridor [^1]"
+    ],
+    [
+      "Subject",
+      "Hypothetical new-construction community: {in_al_units} assisted living and {in_mc_units} memory care units, {in_bldg_sf} sq ft on {in_site_acres} acres"
+    ],
+    [
+      "Program",
+      "HUD Section 232 new construction, FHA-insured; sizing terms from lender and broker summaries (secondary) [^34,58]"
+    ],
+    [
+      "Total project cost",
+      "{tpc}, or {tpc_per_unit} a unit"
+    ],
+    [
+      "Loan structure",
+      "Insured loan {loan_total} at {in_hud_rate} plus {in_hud_mip_annual} premium, {in_hud_amort_years}; annual debt service {ds}"
+    ],
+    [
+      "Equity",
+      "{equity_pct} ({equity}), against {equity_proposed_pct} proposed"
+    ],
+    [
+      "DSCR in the test year",
+      "{dscr_y3} in Year 3 (proposed loan: {dscr_y3_proposed}); {dscr_y2} in Year 2"
+    ],
+    [
+      "Break-even",
+      "{breakeven_value} average occupancy in Year 3, a {cushion_pct} cushion"
+    ],
+    [
+      "Market conclusion",
+      "Strong, older, high-equity demand and thin supply; local rates are too low for a {in_hud_max_ltc} new-construction loan"
+    ],
+    [
+      "Determination as proposed",
+      "Fails: a {in_hud_max_ltc} loan to cost ({loan_total_proposed}) covers stabilized debt service {dscr_y3_proposed}, below the {floor} floor"
+    ],
+    [
+      "Determination as restructured",
+      "Meets: insured loan cut to {loan_total} and equity raised to {equity_pct}; coverage {dscr_y3} in Year 3, with the operating deficit escrow carrying the lease-up; the 75% value test needs an appraisal of at least {value_needed}"
+    ]
   ]
- ]
 }

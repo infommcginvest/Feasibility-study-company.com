@@ -255,9 +255,9 @@
       "assumption": "Matches the 25-year debenture; the bank may set a shorter maturity with the same amortization."
     },
     "debenture_rate": {
-      "value": 0.058,
+      "value": 0.0697,
       "fmt": "%2",
-      "label": "SBA 504 debenture rate, 25-year",
+      "label": "SBA 504 debenture effective rate, 25-year",
       "source": [
         37
       ]
@@ -490,7 +490,7 @@
     ],
     [
       "Determination as restructured",
-      "Meets: equity raised to {equity_pct}, debenture held at {debenture} with the bank first lien at {tpl}, Year 2 coverage {dscr_y2}; a Year 1 reserve and the floorplan line are conditions"
+      "Meets: equity raised to {equity_pct}, which brings the debenture down to {debenture}, under the program limit, with the bank first lien at {tpl}; Year 2 coverage {dscr_y2}; a Year 1 reserve and the floorplan line are conditions"
     ]
   ]
 }
