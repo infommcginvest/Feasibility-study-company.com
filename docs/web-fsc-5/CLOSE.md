@@ -130,11 +130,32 @@ The final freeze is the commit that holds this file together with its gate recor
 - the hash of every raw file and every data file;
 - the 16 held www2 files, re-hashed where they are held to show they are unchanged.
 
-{{FREEZE_RECORD}}
+**Final freeze record:**
+- head `5b6c9f6358931d2a1fb58ffd06313a4685f2fb56`;
+- archive sha256 `c6a4c14f3a3d1517fcf998ea60a8205a8134b2d73aa81e069bc9c6968b29d2e3`, reproduced with `git archive 5b6c9f6 | shasum -a 256`;
+- data manifest sha256 `8e5937bf0fc7d8d7e5670946d2d251b03b204ab15e413c914d462cb46c9a3934`.
+
+All 1,490 raw files are unchanged since retrieval, and the 16 held files are unchanged where they are held. 353 data files are hashed. See `freeze/freeze-5b6c9f6.json`. The gates were run at `d82ece5`: 11 of 11 green. The commit after it adds only GATES.txt and this file.
 
 ## Land and push
 
-{{LAND_RECORD}}
+**Landed.** `git push . HEAD:main` from the worktree fast-forwarded local `main` `53ad912..5b6c9f6`; no other lane had landed since WEB-FSC-4. The records-only commit that holds this paragraph was fast-forwarded onto `main` after it. No served file changed (gate 1), and nothing was deployed.
+
+**History.** Branch `web-fsc-5` is:
+- `d2dabc6` (the first close);
+- `4a95fb0`, a merge of main at `53ad912`;
+- `d82ece5`, the lane commit;
+- `5b6c9f6`, the gate record;
+- this records-only commit.
+
+The two commits that held the www2-built series (`7cff37f` and its merge `e334cfb`) sit only on the local branch `held-web-fsc-5-www2`. They are never pushed or bundled, and are ancestors of neither `main` nor `web-fsc-5` (D50).
+
+**Push.** `git push origin main web-fsc-5`, with prompts disabled, failed for credentials: `fatal: could not read Username for 'https://github.com': terminal prompts disabled`. No credential was looked for, and `origin/main` is still `1d48cc2`.
+- WEB-FSC-4 recorded that Netlify builds GitHub `main` on every push.
+- This `main` carries WEB-FSC-4 and changes no served file.
+- To publish, from the repository with the owner's credentials: `git push origin main web-fsc-5`, a fast-forward from `1d48cc2`.
+
+**Bundle.** `main` and `web-fsc-5` at the commit that holds this paragraph go to `_bundles/web-fsc-5-<that sha>.bundle` in the repository root. The sha, size, sha256 and clone test are in the close reply. The held branch is not in the bundle.
 
 ## For the next lanes
 
