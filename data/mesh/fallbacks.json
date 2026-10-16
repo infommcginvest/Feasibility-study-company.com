@@ -1,0 +1,50 @@
+{
+  "_about": "Read by scripts/links.py and scripts/chrome.py. 'rewrites' are permanent: a link to the key path now points at the value (the old path is retired or is a 301 alias in netlify.toml). 'rewrite_self' is what a rewrite becomes when its target is the page the link sits on: a pending span to the listed real target. 'targets' gives the truthful fallback for a promised page that is not built yet; an empty string means no truthful fallback exists and the anchor becomes a pending span. Targets not listed fall back by class: a metro to its state page's #metros, a subtype to its hub. A fallback that would be the page itself becomes a span.",
+  "rewrites": {
+    "/inquiries/": "/#contact",
+    "/asset-classes/assisted-living/": "/asset-classes/assisted-living-and-memory-care/",
+    "/asset-classes/independent-living/": "/asset-classes/assisted-living-and-memory-care/",
+    "/asset-classes/car-wash/": "/asset-classes/express-car-wash/",
+    "/asset-classes/gas-station/": "/asset-classes/gas-station-and-c-store/",
+    "/published-analyses/": "/case-studies/"
+  },
+  "rewrite_self": {
+    "/asset-classes/independent-living/": "/asset-classes/independent-living-and-ccrc/"
+  },
+  "targets": {
+    "/asset-classes/limited-service-hotel/": "/asset-classes/hotel/",
+    "/asset-classes/select-service-hotel/": "/asset-classes/hotel/",
+    "/asset-classes/extended-stay-hotel/": "/asset-classes/hotel/",
+    "/asset-classes/boutique-and-resort/": "",
+    "/asset-classes/active-adult/": "",
+    "/asset-classes/board-and-care/": "",
+    "/asset-classes/brewery-and-distillery/": "",
+    "/asset-classes/build-to-rent/": "",
+    "/asset-classes/ccrc-life-plan-communities/": "",
+    "/asset-classes/cold-storage/": "",
+    "/asset-classes/event-and-wedding-venue/": "",
+    "/asset-classes/independent-living-and-ccrc/": "",
+    "/asset-classes/industrial-and-warehouse/": "",
+    "/asset-classes/industrial/": "",
+    "/asset-classes/mixed-use/": "",
+    "/asset-classes/skilled-nursing/": "",
+    "/asset-classes/retail/grocery-anchored/": "/asset-classes/retail/#thesis",
+    "/states/ohio/": "",
+    "/infrastructure/": "",
+    "/infrastructure/deliverable-architecture/": "",
+    "/analytical-framework/market-area-definition/": "/analytical-framework/#layers",
+    "/analytical-framework/demand-analysis/": "/analytical-framework/#layers",
+    "/analytical-framework/demand-modeling/": "/analytical-framework/#layers",
+    "/analytical-framework/supply-and-competition/": "/analytical-framework/#layers",
+    "/analytical-framework/absorption-and-lease-up/": "/analytical-framework/#layers",
+    "/analytical-framework/revenue-and-rent/": "/analytical-framework/#layers",
+    "/analytical-framework/operating-expenses/": "/analytical-framework/#layers",
+    "/analytical-framework/financial-projection-architecture/": "/analytical-framework/#layers",
+    "/analytical-framework/coverage-and-stress-testing/": "/analytical-framework/#coverage",
+    "/analytical-framework/regulatory-alignment/": "/analytical-framework/#standards",
+    "/analytical-framework/independence-and-evidence/": "/analytical-framework/#independence",
+    "/analytical-framework/common-review-failures/": "/analytical-framework/#rejected",
+    "/analytical-framework/market-study-vs-feasibility-study/": "/analytical-framework/#study-types"
+  },
+  "subtype_sections": {}
+}

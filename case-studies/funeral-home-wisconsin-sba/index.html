@@ -725,11 +725,15 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
 .signature__name a:hover { color: var(--red); }
 .signature__role { color: var(--grey); font-size: 14px; margin-top: 2px; }
 .signature__note { color: var(--grey); font-size: 14px; margin-top: 12px; line-height: 1.6; }
-</style><!--/fsc:style--></head>
+</style><!--/fsc:style--><style>
+/* WEB-FSC-4 disclosure box */
+.hero .disclosure { margin-top: 30px; }
+</style>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
+<!--chrome:header--><header class="site-header">
   <div class="frame header-row">
     <div class="wordmark">
       <a href="/">
@@ -786,7 +790,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         </div>
       </div>
       <a href="/analytical-framework/">Framework</a>
-<a href="/research-notes/">Research</a>
+      <a href="/research-notes/">Research</a>
       <a href="/the-practice/">About</a>
       <a href="/states/" class="mobile-markets">Markets</a>
       <div class="has-mega">
@@ -803,7 +807,6 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
               <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
               <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
               <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
-              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
               <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
               <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
               <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
@@ -812,13 +815,13 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
           <div class="mega-col metros">
             <h5>Major Metros</h5>
             <ul class="mega-list">
-              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
-              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
-              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
-              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
-              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
-              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
-              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/houston/">Houston</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/dallas-fort-worth/">Dallas-Fort Worth</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/austin/">Austin</a></li>
+              <li><a href="/states/california/#metros" role="menuitem" data-fsc-pending="/states/california/los-angeles/">Los Angeles</a></li>
+              <li><a href="/states/florida/#metros" role="menuitem" data-fsc-pending="/states/florida/miami/">Miami</a></li>
+              <li><a href="/states/georgia/#metros" role="menuitem" data-fsc-pending="/states/georgia/atlanta/">Atlanta</a></li>
+              <li><a href="/states/north-carolina/#metros" role="menuitem" data-fsc-pending="/states/north-carolina/charlotte/">Charlotte</a></li>
             </ul>
           </div>
           <div class="mega-foot">
@@ -827,10 +830,10 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
           </div>
         </div>
       </div>
-      <a class="btn" href="/inquiries/">Inquiries</a>
+      <a href="/#contact" class="btn">Inquiries</a>
     </nav>
   </div>
-</header>
+</header><!--/chrome:header-->
 
 <main id="main">
 
@@ -839,6 +842,9 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
     <div class="frame">
       <p class="hero-eyebrow">Case Study &middot; Wisconsin &middot; Funeral Home &amp; Crematory &middot; SBA 7(a)</p>
       <h1>Funeral Home Feasibility Study, Wisconsin &mdash; An SBA 7(a) Worked Case</h1><!--fsc:byline-article {"published": "2026-07-13"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-13">July 13, 2026</time></p><!--/fsc:byline-article-->
+      <div class="capsule disclosure">
+        <p><strong>Representative worked example.</strong> The site, sponsor and project are hypothetical. The market evidence comes from the public sources listed below, with their dates. This page shows how the market analysis is built and how it sets the loan. It is not a client engagement.</p>
+      </div>
       <p class="hero-sub">
         This is how our independent feasibility study company and consultant team analyzed a ground-up
         funeral home and on-site crematory underwritten to an SBA 7(a) credit, from service-area death
@@ -847,7 +853,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         &mdash; set in a growing county-seat community in Wisconsin.
       </p>
       <div class="hero-actions">
-        <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+        <a class="btn" href="/#contact">Request a methodology briefing</a>
         <a class="btn btn-outline" href="#outcome">Jump to the financial outcome</a>
       </div>
     </div>
@@ -1346,7 +1352,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         briefing walks through the death-volume demand, revenue-per-call, competition, and DSCR analysis
         behind a case like this one, calibrated to your service area and disposition mix.
       </p>
-      <a class="btn" href="/inquiries/">Request a methodology briefing</a>
+      <a class="btn" href="/#contact">Request a methodology briefing</a>
     </div>
   </section>
 
@@ -1389,7 +1395,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
 
 </main>
 
-<footer class="site-footer">
+<!--chrome:footer--><footer class="site-footer">
   <div class="frame">
     <div class="footer-grid">
       <div class="footer-brand">
@@ -1410,7 +1416,7 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <ul>
           <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
           <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
-          <li><a href="/asset-classes/limited-service-hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/hotel/">Hotel</a></li>
           <li><a href="/asset-classes/">View all asset classes</a></li>
         </ul>
       </div>
@@ -1418,9 +1424,12 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
         <h4>Firm</h4>
         <ul>
           <li><a href="/the-practice/">The Practice</a></li>
-          <li><a href="/published-analyses/">Published Analyses</a></li>
+          <li><a href="/case-studies/">Worked Cases</a></li>
+          <li><a href="/research-notes/">Research Notes</a></li>
           <li><a href="/states/">Markets</a></li>
-          <li><a href="/inquiries/">Inquiries</a></li>
+          <li><a href="/#contact">Inquiries</a></li>
+          <li><a href="/tools/nda/">NDA Generator</a></li>
+          <li><a href="/terms/">Terms</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/accessibility/">Accessibility</a></li>
         </ul>
       </div>
     </div>
@@ -1430,7 +1439,6 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
     </div>
   </div>
 </footer>
-
 <script id="mega-markets-script">
 (function(){
   document.querySelectorAll('.has-mega').forEach(function(wrap){
@@ -1444,6 +1452,6 @@ ol.failures p { font-size: 14.5px; color: var(--grey); }
   wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
   });
 })();
-</script>
+</script><!--/chrome:footer-->
 </body>
 </html>

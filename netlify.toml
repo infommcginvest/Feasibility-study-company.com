@@ -24,3 +24,34 @@
   to = "/404.html"
   status = 404
   force = true
+
+# Sources and templates under /src are never served (WEB-FSC-6 keeps page
+# sources there), the same way /docs is not.
+[[redirects]]
+  from = "/src/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# Retired asset-class paths, kept alive for anything that linked to them. Each
+# alias answers 301 to the hub that now covers it. /asset-classes/industrial/
+# gets its redirect when the industrial-and-warehouse hub ships, not before.
+[[redirects]]
+  from = "/asset-classes/car-wash/*"
+  to = "/asset-classes/express-car-wash/"
+  status = 301
+
+[[redirects]]
+  from = "/asset-classes/gas-station/*"
+  to = "/asset-classes/gas-station-and-c-store/"
+  status = 301
+
+[[redirects]]
+  from = "/asset-classes/assisted-living/*"
+  to = "/asset-classes/assisted-living-and-memory-care/"
+  status = 301
+
+[[redirects]]
+  from = "/asset-classes/independent-living/*"
+  to = "/asset-classes/assisted-living-and-memory-care/"
+  status = 301
