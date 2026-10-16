@@ -21,3 +21,8 @@ Thumbs.db
 # Local helpers (not part of the site)
 /normalize_nav.py
 /.ghtoken
+
+# WEB-FSC-5 markets pipeline: raw downloads and local bundles (never committed)
+/_cache/
+/_bundles/
+__pycache__/

@@ -1,0 +1,6384 @@
+{
+ "group": 3,
+ "markets": [
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "new-york-city",
+   "page_title": "New York City",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Bronx County",
+     "fips": "36005",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Kings County",
+     "fips": "36047",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "New York County",
+     "fips": "36061",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Queens County",
+     "fips": "36081",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Richmond County",
+     "fips": "36085",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Bronx County",
+     "strings": [
+      "BRONX"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Kings County",
+     "strings": [
+      "KINGS"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "New York County",
+     "strings": [
+      "NEW YORK"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Queens County",
+     "strings": [
+      "QUEENS"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Richmond County",
+     "strings": [
+      "RICHMOND"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page names the five boroughs, which are coterminous with these five counties.",
+   "review": false
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "long-island",
+   "page_title": "Long Island",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Nassau County",
+     "fips": "36059",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Suffolk County",
+     "fips": "36103",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Nassau County",
+     "strings": [
+      "NASSAU"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Suffolk County",
+     "strings": [
+      "SUFFOLK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page text names Nassau and Suffolk.",
+   "review": false
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "hudson-valley",
+   "page_title": "Hudson Valley / Mid-Hudson",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Dutchess County",
+     "fips": "36027",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Orange County",
+     "fips": "36071",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Putnam County",
+     "fips": "36079",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Rockland County",
+     "fips": "36087",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Sullivan County",
+     "fips": "36105",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Ulster County",
+     "fips": "36111",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Westchester County",
+     "fips": "36119",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Dutchess County",
+     "strings": [
+      "DUTCHESS"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Orange County",
+     "strings": [
+      "ORANGE"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Putnam County",
+     "strings": [
+      "PUTNAM"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Rockland County",
+     "strings": [
+      "ROCKLAND"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Sullivan County",
+     "strings": [
+      "SULLIVAN"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Ulster County",
+     "strings": [
+      "ULSTER"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Westchester County",
+     "strings": [
+      "WESTCHESTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "No counties named; composed as the seven-county Mid-Hudson state planning region (Westchester and Rockland are also in the New York City CBSA).",
+   "review": true
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "buffalo",
+   "page_title": "Buffalo",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Erie County",
+     "fips": "36029",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Niagara County",
+     "fips": "36063",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Erie County",
+     "strings": [
+      "ERIE"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Niagara County",
+     "strings": [
+      "NIAGARA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page names Erie and Niagara; the same two counties as the Buffalo-Cheektowaga CBSA (15380).",
+   "review": false
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "rochester",
+   "page_title": "Rochester",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "40380",
+    "title": "Rochester, NY",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Livingston County",
+     "fips": "36051",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Monroe County",
+     "fips": "36055",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Ontario County",
+     "fips": "36069",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Orleans County",
+     "fips": "36073",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Wayne County",
+     "fips": "36117",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Yates County",
+     "fips": "36123",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Livingston County",
+     "strings": [
+      "LIVINGSTON"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Monroe County",
+     "strings": [
+      "MONROE"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Ontario County",
+     "strings": [
+      "ONTARIO"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Orleans County",
+     "strings": [
+      "ORLEANS"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Wayne County",
+     "strings": [
+      "WAYNE"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Yates County",
+     "strings": [
+      "YATES"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 40380 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Rochester metro; six-county delineation as recalled.",
+   "review": false
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "syracuse",
+   "page_title": "Syracuse / Central NY",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "45060",
+    "title": "Syracuse, NY",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Madison County",
+     "fips": "36053",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Onondaga County",
+     "fips": "36067",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Oswego County",
+     "fips": "36075",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Onondaga County",
+     "strings": [
+      "ONONDAGA"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Oswego County",
+     "strings": [
+      "OSWEGO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 45060 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading adds Central NY to Syracuse; the CBSA is the nearest federal geography and the Clay semiconductor site is in Onondaga.",
+   "review": true
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "albany",
+   "page_title": "Albany / Capital Region",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "10580",
+    "title": "Albany-Schenectady-Troy, NY",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Albany County",
+     "fips": "36001",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Rensselaer County",
+     "fips": "36083",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Saratoga County",
+     "fips": "36091",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Schenectady County",
+     "fips": "36093",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Schoharie County",
+     "fips": "36095",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Albany County",
+     "strings": [
+      "ALBANY"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Rensselaer County",
+     "strings": [
+      "RENSSELAER"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Saratoga County",
+     "strings": [
+      "SARATOGA"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Schenectady County",
+     "strings": [
+      "SCHENECTADY"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Schoharie County",
+     "strings": [
+      "SCHOHARIE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 10580 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading adds Capital Region, which is commonly drawn wider (Warren, Washington, Greene, Columbia, Fulton, Montgomery); CBSA used as the core.",
+   "review": true
+  },
+  {
+   "state": "new-york",
+   "state_postal": "NY",
+   "slug": "binghamton",
+   "page_title": "Southern Tier / North Country",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NY",
+     "name": "Broome County",
+     "fips": "36007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Chemung County",
+     "fips": "36015",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Chenango County",
+     "fips": "36017",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Delaware County",
+     "fips": "36025",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Schuyler County",
+     "fips": "36097",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Steuben County",
+     "fips": "36101",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Tioga County",
+     "fips": "36107",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Tompkins County",
+     "fips": "36109",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Clinton County",
+     "fips": "36019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Essex County",
+     "fips": "36031",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Franklin County",
+     "fips": "36033",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Hamilton County",
+     "fips": "36041",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Jefferson County",
+     "fips": "36045",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "Lewis County",
+     "fips": "36049",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NY",
+     "name": "St. Lawrence County",
+     "fips": "36089",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NY",
+     "county": "Broome County",
+     "strings": [
+      "BROOME"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Chemung County",
+     "strings": [
+      "CHEMUNG"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Chenango County",
+     "strings": [
+      "CHENANGO"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Delaware County",
+     "strings": [
+      "DELAWARE"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Schuyler County",
+     "strings": [
+      "SCHUYLER"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Steuben County",
+     "strings": [
+      "STEUBEN"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Tioga County",
+     "strings": [
+      "TIOGA"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Tompkins County",
+     "strings": [
+      "TOMPKINS"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Clinton County",
+     "strings": [
+      "CLINTON"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Essex County",
+     "strings": [
+      "ESSEX"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Franklin County",
+     "strings": [
+      "FRANKLIN"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Hamilton County",
+     "strings": [
+      "HAMILTON"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Jefferson County",
+     "strings": [
+      "JEFFERSON"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "Lewis County",
+     "strings": [
+      "LEWIS"
+     ]
+    },
+    {
+     "state": "NY",
+     "county": "St. Lawrence County",
+     "strings": [
+      "SAINT LAWRENCE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Heading names Southern Tier and North Country; composed as the eight-county Southern Tier and seven-county North Country state planning regions.",
+   "review": true
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "charlotte",
+   "page_title": "Charlotte–Concord–Gastonia",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "16740",
+    "title": "Charlotte-Concord-Gastonia, NC-SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Anson County",
+     "fips": "37007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Cabarrus County",
+     "fips": "37025",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Gaston County",
+     "fips": "37071",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Iredell County",
+     "fips": "37097",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Lincoln County",
+     "fips": "37109",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Mecklenburg County",
+     "fips": "37119",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Rowan County",
+     "fips": "37159",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Union County",
+     "fips": "37179",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Chester County",
+     "fips": "45023",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Lancaster County",
+     "fips": "45057",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "York County",
+     "fips": "45091",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Anson County",
+     "strings": [
+      "ANSON"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Cabarrus County",
+     "strings": [
+      "CABARRUS"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Gaston County",
+     "strings": [
+      "GASTON"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Iredell County",
+     "strings": [
+      "IREDELL"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Lincoln County",
+     "strings": [
+      "LINCOLN"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Mecklenburg County",
+     "strings": [
+      "MECKLENBURG"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Rowan County",
+     "strings": [
+      "ROWAN"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Chester County",
+     "strings": [
+      "CHESTER"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Lancaster County",
+     "strings": [
+      "LANCASTER"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "York County",
+     "strings": [
+      "YORK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 16740 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading equals the CBSA title; the CBSA spans NC and SC (NC: Anson, Cabarrus, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Union; SC: Chester, Lancaster, York), so the page-state part is the eight NC counties.",
+   "review": true
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "raleigh-durham",
+   "page_title": "Raleigh–Durham–Cary (Research Triangle)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Franklin County",
+     "fips": "37069",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Johnston County",
+     "fips": "37101",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Wake County",
+     "fips": "37183",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Chatham County",
+     "fips": "37037",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Durham County",
+     "fips": "37063",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Orange County",
+     "fips": "37135",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Person County",
+     "fips": "37145",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Franklin County",
+     "strings": [
+      "FRANKLIN"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Johnston County",
+     "strings": [
+      "JOHNSTON"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Wake County",
+     "strings": [
+      "WAKE"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Chatham County",
+     "strings": [
+      "CHATHAM"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Durham County",
+     "strings": [
+      "DURHAM"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Orange County",
+     "strings": [
+      "ORANGE"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Person County",
+     "strings": [
+      "PERSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded; union of Raleigh-Cary (39580) and Durham-Chapel Hill (20500) CBSAs; counties unverified",
+   "reason": "Heading names Raleigh, Durham and Cary (Research Triangle), which spans two CBSAs; the quoted 1.596 million may fit Raleigh-Cary alone.",
+   "review": true
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "greensboro",
+   "page_title": "Greensboro–Winston-Salem–High Point (Triad)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Alamance County",
+     "fips": "37001",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Davidson County",
+     "fips": "37057",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Davie County",
+     "fips": "37059",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Forsyth County",
+     "fips": "37067",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Guilford County",
+     "fips": "37081",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Randolph County",
+     "fips": "37151",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Rockingham County",
+     "fips": "37157",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Stokes County",
+     "fips": "37169",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Surry County",
+     "fips": "37171",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Yadkin County",
+     "fips": "37197",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Alamance County",
+     "strings": [
+      "ALAMANCE"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Davidson County",
+     "strings": [
+      "DAVIDSON"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Davie County",
+     "strings": [
+      "DAVIE"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Forsyth County",
+     "strings": [
+      "FORSYTH"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Guilford County",
+     "strings": [
+      "GUILFORD"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Randolph County",
+     "strings": [
+      "RANDOLPH"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Rockingham County",
+     "strings": [
+      "ROCKINGHAM"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Stokes County",
+     "strings": [
+      "STOKES"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Surry County",
+     "strings": [
+      "SURRY"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Yadkin County",
+     "strings": [
+      "YADKIN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded; heading matches the Greensboro-Winston-Salem-High Point combined statistical area; counties unverified",
+   "reason": "Heading names the Triad CSA rather than one CBSA; the quoted 1.7 million fits the CSA (Greensboro-High Point, Winston-Salem, Burlington and Mount Airy areas).",
+   "review": true
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "wilmington",
+   "page_title": "Wilmington",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "48900",
+    "title": "Wilmington, NC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Brunswick County",
+     "fips": "37019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "New Hanover County",
+     "fips": "37129",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Pender County",
+     "fips": "37141",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Brunswick County",
+     "strings": [
+      "BRUNSWICK"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "New Hanover County",
+     "strings": [
+      "NEW HANOVER"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Pender County",
+     "strings": [
+      "PENDER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 48900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Wilmington metro; three-county delineation (Brunswick included, consistent with the page's 492,772).",
+   "review": false
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "asheville",
+   "page_title": "Asheville",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "11700",
+    "title": "Asheville, NC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Buncombe County",
+     "fips": "37021",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Haywood County",
+     "fips": "37087",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Henderson County",
+     "fips": "37089",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Madison County",
+     "fips": "37115",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Buncombe County",
+     "strings": [
+      "BUNCOMBE"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Haywood County",
+     "strings": [
+      "HAYWOOD"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Henderson County",
+     "strings": [
+      "HENDERSON"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 11700 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Asheville metro.",
+   "review": false
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "fayetteville",
+   "page_title": "Fayetteville",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "22180",
+    "title": "Fayetteville, NC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Cumberland County",
+     "fips": "37051",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Harnett County",
+     "fips": "37085",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Hoke County",
+     "fips": "37093",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Cumberland County",
+     "strings": [
+      "CUMBERLAND"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Harnett County",
+     "strings": [
+      "HARNETT"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Hoke County",
+     "strings": [
+      "HOKE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 22180 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Fayetteville metro (Harnett's membership is from recall).",
+   "review": false
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "hickory",
+   "page_title": "Hickory",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "25860",
+    "title": "Hickory-Lenoir-Morganton, NC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Alexander County",
+     "fips": "37003",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Burke County",
+     "fips": "37023",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Caldwell County",
+     "fips": "37027",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NC",
+     "name": "Catawba County",
+     "fips": "37035",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Alexander County",
+     "strings": [
+      "ALEXANDER"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Burke County",
+     "strings": [
+      "BURKE"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Caldwell County",
+     "strings": [
+      "CALDWELL"
+     ]
+    },
+    {
+     "state": "NC",
+     "county": "Catawba County",
+     "strings": [
+      "CATAWBA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 25860 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is Hickory, the first principal city of Hickory-Lenoir-Morganton.",
+   "review": false
+  },
+  {
+   "state": "north-carolina",
+   "state_postal": "NC",
+   "slug": "greenville",
+   "page_title": "Greenville",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "24780",
+    "title": "Greenville, NC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NC",
+     "name": "Pitt County",
+     "fips": "37147",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NC",
+     "county": "Pitt County",
+     "strings": [
+      "PITT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 24780 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Greenville (NC) metro, which is Pitt County.",
+   "review": false
+  },
+  {
+   "state": "ohio",
+   "state_postal": "OH",
+   "slug": "columbus",
+   "page_title": "Columbus",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "18140",
+    "title": "Columbus, OH",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OH",
+     "name": "Delaware County",
+     "fips": "39041",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Fairfield County",
+     "fips": "39045",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Franklin County",
+     "fips": "39049",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Hocking County",
+     "fips": "39073",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Licking County",
+     "fips": "39089",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Madison County",
+     "fips": "39097",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Morrow County",
+     "fips": "39117",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Perry County",
+     "fips": "39127",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Pickaway County",
+     "fips": "39129",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OH",
+     "name": "Union County",
+     "fips": "39159",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OH",
+     "county": "Delaware County",
+     "strings": [
+      "DELAWARE"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Fairfield County",
+     "strings": [
+      "FAIRFIELD"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Franklin County",
+     "strings": [
+      "FRANKLIN"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Hocking County",
+     "strings": [
+      "HOCKING"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Licking County",
+     "strings": [
+      "LICKING"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Morrow County",
+     "strings": [
+      "MORROW"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Perry County",
+     "strings": [
+      "PERRY"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Pickaway County",
+     "strings": [
+      "PICKAWAY"
+     ]
+    },
+    {
+     "state": "OH",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 18140 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "No state page; heading Columbus taken as the Columbus (OH) metro.",
+   "review": false
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "oklahoma-city",
+   "page_title": "Oklahoma City",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "36420",
+    "title": "Oklahoma City, OK",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Canadian County",
+     "fips": "40017",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Cleveland County",
+     "fips": "40027",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Grady County",
+     "fips": "40051",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Lincoln County",
+     "fips": "40081",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Logan County",
+     "fips": "40083",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "McClain County",
+     "fips": "40087",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Oklahoma County",
+     "fips": "40109",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OK",
+     "county": "Canadian County",
+     "strings": [
+      "CANADIAN"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Cleveland County",
+     "strings": [
+      "CLEVELAND"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Grady County",
+     "strings": [
+      "GRADY"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Lincoln County",
+     "strings": [
+      "LINCOLN"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Logan County",
+     "strings": [
+      "LOGAN"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "McClain County",
+     "strings": [
+      "MCCLAIN"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Oklahoma County",
+     "strings": [
+      "OKLAHOMA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 36420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Oklahoma City metro; page text names Canadian County and Edmond, both inside.",
+   "review": false
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "tulsa",
+   "page_title": "Tulsa",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "46140",
+    "title": "Tulsa, OK",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Creek County",
+     "fips": "40037",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Okmulgee County",
+     "fips": "40111",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Osage County",
+     "fips": "40113",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Pawnee County",
+     "fips": "40117",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Rogers County",
+     "fips": "40131",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Tulsa County",
+     "fips": "40143",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Wagoner County",
+     "fips": "40145",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OK",
+     "county": "Creek County",
+     "strings": [
+      "CREEK"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Okmulgee County",
+     "strings": [
+      "OKMULGEE"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Osage County",
+     "strings": [
+      "OSAGE"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Pawnee County",
+     "strings": [
+      "PAWNEE"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Rogers County",
+     "strings": [
+      "ROGERS"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Tulsa County",
+     "strings": [
+      "TULSA"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Wagoner County",
+     "strings": [
+      "WAGONER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 46140 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Tulsa metro; suburbs named on the page are inside.",
+   "review": false
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "norman",
+   "page_title": "Norman",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Cleveland County",
+     "fips": "40027",
+     "fips_verified": false,
+     "role": "containing"
+    }
+   ],
+   "places": [
+    {
+     "state": "OK",
+     "name": "Norman city",
+     "geoid": "4052500",
+     "geoid_verified": false,
+     "counties": [
+      "Cleveland County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "OK",
+     "county": "Cleveland County",
+     "strings": [
+      "CLEVELAND"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "place the state page names; containing county from Census place-to-county relationship, unverified",
+   "reason": "Single city inside the Oklahoma City CBSA; FOIA has no sub-county field so Cleveland County is the containing county only.",
+   "review": false
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "edmond",
+   "page_title": "Edmond",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Oklahoma County",
+     "fips": "40109",
+     "fips_verified": false,
+     "role": "containing"
+    },
+    {
+     "state": "OK",
+     "name": "Logan County",
+     "fips": "40083",
+     "fips_verified": false,
+     "role": "containing"
+    }
+   ],
+   "places": [
+    {
+     "state": "OK",
+     "name": "Edmond city",
+     "geoid": "4023200",
+     "geoid_verified": false,
+     "counties": [
+      "Oklahoma County",
+      "Logan County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "OK",
+     "county": "Oklahoma County",
+     "strings": [
+      "OKLAHOMA"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Logan County",
+     "strings": [
+      "LOGAN"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "place the state page names; containing counties from Census place-to-county relationship, unverified",
+   "reason": "Page says Logan County but the city lies mainly in Oklahoma County; containing counties need the place-to-county file.",
+   "review": true
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "stillwater",
+   "page_title": "Stillwater",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "44660",
+    "title": "Stillwater, OK",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Payne County",
+     "fips": "40119",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OK",
+     "county": "Payne County",
+     "strings": [
+      "PAYNE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 44660 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is Stillwater, a micropolitan area equal to Payne County; page figures read city-scale.",
+   "review": true
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "lawton",
+   "page_title": "Lawton",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "30020",
+    "title": "Lawton, OK",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Comanche County",
+     "fips": "40031",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OK",
+     "county": "Comanche County",
+     "strings": [
+      "COMANCHE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 30020 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Lawton metro (Comanche County); the quoted 125,000 is metro scale.",
+   "review": false
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "pryor",
+   "page_title": "Pryor / Green Country",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Mayes County",
+     "fips": "40097",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OK",
+     "name": "Rogers County",
+     "fips": "40131",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OK",
+     "county": "Mayes County",
+     "strings": [
+      "MAYES"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Rogers County",
+     "strings": [
+      "ROGERS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Industrial park at Pryor is in Mayes County and the river port at Catoosa is in Rogers County; Green Country as a whole is far wider and left out.",
+   "review": true
+  },
+  {
+   "state": "oklahoma",
+   "state_postal": "OK",
+   "slug": "durant",
+   "page_title": "Durant / Thackerville",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OK",
+     "name": "Bryan County",
+     "fips": "40013",
+     "fips_verified": false,
+     "role": "containing"
+    },
+    {
+     "state": "OK",
+     "name": "Love County",
+     "fips": "40085",
+     "fips_verified": false,
+     "role": "containing"
+    }
+   ],
+   "places": [
+    {
+     "state": "OK",
+     "name": "Durant city",
+     "geoid": null,
+     "geoid_verified": false,
+     "counties": [
+      "Bryan County"
+     ],
+     "cousub": null
+    },
+    {
+     "state": "OK",
+     "name": "Thackerville town",
+     "geoid": null,
+     "geoid_verified": false,
+     "counties": [
+      "Love County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "OK",
+     "county": "Bryan County",
+     "strings": [
+      "BRYAN"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Love County",
+     "strings": [
+      "LOVE"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "places the state page names; containing counties from Census place-to-county relationship, unverified",
+   "reason": "Page names Durant and Thackerville; market reach is the gaming corridor, so place choice rests on judgement.",
+   "review": true
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "portland",
+   "page_title": "Portland–Vancouver–Hillsboro",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "38900",
+    "title": "Portland-Vancouver-Hillsboro, OR-WA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Clackamas County",
+     "fips": "41005",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Columbia County",
+     "fips": "41009",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Multnomah County",
+     "fips": "41051",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Washington County",
+     "fips": "41067",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Yamhill County",
+     "fips": "41071",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Clark County",
+     "fips": "53011",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Skamania County",
+     "fips": "53059",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Clackamas County",
+     "strings": [
+      "CLACKAMAS"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Columbia County",
+     "strings": [
+      "COLUMBIA"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Multnomah County",
+     "strings": [
+      "MULTNOMAH"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Yamhill County",
+     "strings": [
+      "YAMHILL"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Clark County",
+     "strings": [
+      "CLARK"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Skamania County",
+     "strings": [
+      "SKAMANIA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 38900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading equals the CBSA title; the CBSA spans OR and WA (WA part: Clark, Skamania), and Clark also forms the Washington page's Vancouver market.",
+   "review": true
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "hillsboro",
+   "page_title": "Washington County / Hillsboro",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Washington County",
+     "fips": "41067",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Washington County; Hillsboro is a city inside it.",
+   "review": false
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "salem",
+   "page_title": "Salem",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41420",
+    "title": "Salem, OR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Marion County",
+     "fips": "41047",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Polk County",
+     "fips": "41053",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Marion County",
+     "strings": [
+      "MARION"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Polk County",
+     "strings": [
+      "POLK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 41420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Salem metro.",
+   "review": false
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "eugene",
+   "page_title": "Eugene–Springfield",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "21660",
+    "title": "Eugene-Springfield, OR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Lane County",
+     "fips": "41039",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Lane County",
+     "strings": [
+      "LANE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 21660 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading equals the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "bend",
+   "page_title": "Bend–Redmond / Central Oregon",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "13460",
+    "title": "Bend, OR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Deschutes County",
+     "fips": "41017",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Deschutes County",
+     "strings": [
+      "DESCHUTES"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 13460 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading adds Central Oregon, commonly Deschutes, Crook and Jefferson; page figures are Deschutes and Crook has its own market, so the CBSA is used.",
+   "review": true
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "prineville",
+   "page_title": "Prineville / Crook County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Crook County",
+     "fips": "41013",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Crook County",
+     "strings": [
+      "CROOK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Crook County.",
+   "review": false
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "oregon-coast",
+   "page_title": "The Oregon Coast",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Clatsop County",
+     "fips": "41007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Lincoln County",
+     "fips": "41041",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Tillamook County",
+     "fips": "41057",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Coos County",
+     "fips": "41011",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Curry County",
+     "fips": "41015",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Clatsop County",
+     "strings": [
+      "CLATSOP"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Lincoln County",
+     "strings": [
+      "LINCOLN"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Tillamook County",
+     "strings": [
+      "TILLAMOOK"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Coos County",
+     "strings": [
+      "COOS"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Curry County",
+     "strings": [
+      "CURRY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page text names the five coastal counties.",
+   "review": false
+  },
+  {
+   "state": "oregon",
+   "state_postal": "OR",
+   "slug": "eastern-oregon",
+   "page_title": "Eastern & Southern Oregon",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "OR",
+     "name": "Baker County",
+     "fips": "41001",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Gilliam County",
+     "fips": "41021",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Grant County",
+     "fips": "41023",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Harney County",
+     "fips": "41025",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Malheur County",
+     "fips": "41045",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Morrow County",
+     "fips": "41049",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Sherman County",
+     "fips": "41055",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Umatilla County",
+     "fips": "41059",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Union County",
+     "fips": "41061",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Wallowa County",
+     "fips": "41063",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Wasco County",
+     "fips": "41065",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Wheeler County",
+     "fips": "41069",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Douglas County",
+     "fips": "41019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Jackson County",
+     "fips": "41029",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Josephine County",
+     "fips": "41033",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Klamath County",
+     "fips": "41035",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "OR",
+     "name": "Lake County",
+     "fips": "41037",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "OR",
+     "county": "Baker County",
+     "strings": [
+      "BAKER"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Gilliam County",
+     "strings": [
+      "GILLIAM"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Grant County",
+     "strings": [
+      "GRANT"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Harney County",
+     "strings": [
+      "HARNEY"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Malheur County",
+     "strings": [
+      "MALHEUR"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Morrow County",
+     "strings": [
+      "MORROW"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Sherman County",
+     "strings": [
+      "SHERMAN"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Umatilla County",
+     "strings": [
+      "UMATILLA"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Wallowa County",
+     "strings": [
+      "WALLOWA"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Wasco County",
+     "strings": [
+      "WASCO"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Wheeler County",
+     "strings": [
+      "WHEELER"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Douglas County",
+     "strings": [
+      "DOUGLAS"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Jackson County",
+     "strings": [
+      "JACKSON"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Josephine County",
+     "strings": [
+      "JOSEPHINE"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Klamath County",
+     "strings": [
+      "KLAMATH"
+     ]
+    },
+    {
+     "state": "OR",
+     "county": "Lake County",
+     "strings": [
+      "LAKE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Heading names Eastern and Southern Oregon with no counties; composed as twelve eastern counties plus Douglas, Jackson, Josephine, Klamath and Lake, leaving out the Bend, Prineville and Coast markets' counties.",
+   "review": true
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "philadelphia",
+   "page_title": "Philadelphia",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "37980",
+    "title": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Bucks County",
+     "fips": "42017",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Chester County",
+     "fips": "42029",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Delaware County",
+     "fips": "42045",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Montgomery County",
+     "fips": "42091",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Philadelphia County",
+     "fips": "42101",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NJ",
+     "name": "Burlington County",
+     "fips": "34005",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NJ",
+     "name": "Camden County",
+     "fips": "34007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NJ",
+     "name": "Gloucester County",
+     "fips": "34015",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "NJ",
+     "name": "Salem County",
+     "fips": "34033",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "DE",
+     "name": "New Castle County",
+     "fips": "10003",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "MD",
+     "name": "Cecil County",
+     "fips": "24015",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Bucks County",
+     "strings": [
+      "BUCKS"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Chester County",
+     "strings": [
+      "CHESTER"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Delaware County",
+     "strings": [
+      "DELAWARE"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Montgomery County",
+     "strings": [
+      "MONTGOMERY"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Philadelphia County",
+     "strings": [
+      "PHILADELPHIA"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Burlington County",
+     "strings": [
+      "BURLINGTON"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Camden County",
+     "strings": [
+      "CAMDEN"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Gloucester County",
+     "strings": [
+      "GLOUCESTER"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Salem County",
+     "strings": [
+      "SALEM"
+     ]
+    },
+    {
+     "state": "DE",
+     "county": "New Castle County",
+     "strings": [
+      "NEW CASTLE"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Cecil County",
+     "strings": [
+      "CECIL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 37980 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the largest metro; the CBSA spans PA, NJ, DE and MD, and the page-state part is the five PA counties.",
+   "review": true
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "pittsburgh",
+   "page_title": "Pittsburgh",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "38300",
+    "title": "Pittsburgh, PA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Allegheny County",
+     "fips": "42003",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Armstrong County",
+     "fips": "42005",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Beaver County",
+     "fips": "42007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Butler County",
+     "fips": "42019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Fayette County",
+     "fips": "42051",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Washington County",
+     "fips": "42125",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Westmoreland County",
+     "fips": "42129",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Allegheny County",
+     "strings": [
+      "ALLEGHENY"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Armstrong County",
+     "strings": [
+      "ARMSTRONG"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Beaver County",
+     "strings": [
+      "BEAVER"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Butler County",
+     "strings": [
+      "BUTLER"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Fayette County",
+     "strings": [
+      "FAYETTE"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Westmoreland County",
+     "strings": [
+      "WESTMORELAND"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 38300 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Pittsburgh metro.",
+   "review": false
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "lehigh-valley",
+   "page_title": "Lehigh Valley",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Lehigh County",
+     "fips": "42077",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Northampton County",
+     "fips": "42095",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Lehigh County",
+     "strings": [
+      "LEHIGH"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Northampton County",
+     "strings": [
+      "NORTHAMPTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded; page names Allentown, Bethlehem and Easton, which lie in these two counties",
+   "reason": "The Allentown-Bethlehem-Easton CBSA (10900) also takes in Carbon County and Warren County NJ; the page cities sit in Lehigh and Northampton.",
+   "review": true
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "harrisburg",
+   "page_title": "Harrisburg & Central PA",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "25420",
+    "title": "Harrisburg-Carlisle, PA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Cumberland County",
+     "fips": "42041",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Dauphin County",
+     "fips": "42043",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Perry County",
+     "fips": "42099",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Cumberland County",
+     "strings": [
+      "CUMBERLAND"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Dauphin County",
+     "strings": [
+      "DAUPHIN"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Perry County",
+     "strings": [
+      "PERRY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 25420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading adds Central PA to Harrisburg, which is wider than the CBSA; Cumberland County is named on the page.",
+   "review": true
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "scranton-wilkes-barre",
+   "page_title": "Scranton & Wilkes-Barre",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "42540",
+    "title": "Scranton--Wilkes-Barre, PA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Lackawanna County",
+     "fips": "42069",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Luzerne County",
+     "fips": "42079",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "PA",
+     "name": "Wyoming County",
+     "fips": "42131",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Lackawanna County",
+     "strings": [
+      "LACKAWANNA"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Luzerne County",
+     "strings": [
+      "LUZERNE"
+     ]
+    },
+    {
+     "state": "PA",
+     "county": "Wyoming County",
+     "strings": [
+      "WYOMING"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 42540 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the two cities of the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "lancaster",
+   "page_title": "Lancaster",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "29540",
+    "title": "Lancaster, PA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Lancaster County",
+     "fips": "42071",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Lancaster County",
+     "strings": [
+      "LANCASTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 29540 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Lancaster metro, one county.",
+   "review": false
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "erie",
+   "page_title": "Erie",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "21500",
+    "title": "Erie, PA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Erie County",
+     "fips": "42049",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Erie County",
+     "strings": [
+      "ERIE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 21500 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Erie metro, one county.",
+   "review": false
+  },
+  {
+   "state": "pennsylvania",
+   "state_postal": "PA",
+   "slug": "state-college",
+   "page_title": "State College",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "44300",
+    "title": "State College, PA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "PA",
+     "name": "Centre County",
+     "fips": "42027",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "PA",
+     "county": "Centre County",
+     "strings": [
+      "CENTRE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 44300 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Page calls it a pocket market around the university, smaller than the Centre County CBSA, which is the nearest federal geography.",
+   "review": true
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "greenville",
+   "page_title": "Greenville–Anderson (Upstate)",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "24860",
+    "title": "Greenville-Anderson, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Anderson County",
+     "fips": "45007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Greenville County",
+     "fips": "45045",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Laurens County",
+     "fips": "45059",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Pickens County",
+     "fips": "45077",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Anderson County",
+     "strings": [
+      "ANDERSON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Greenville County",
+     "strings": [
+      "GREENVILLE"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Laurens County",
+     "strings": [
+      "LAURENS"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Pickens County",
+     "strings": [
+      "PICKENS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 24860 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Greenville-Anderson metro; Upstate is a nickname and Spartanburg has its own market.",
+   "review": false
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "spartanburg",
+   "page_title": "Spartanburg",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "43900",
+    "title": "Spartanburg, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Spartanburg County",
+     "fips": "45083",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Union County",
+     "fips": "45087",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Spartanburg County",
+     "strings": [
+      "SPARTANBURG"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 43900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Spartanburg metro (Union County's membership is from recall).",
+   "review": false
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "columbia",
+   "page_title": "Columbia (Midlands)",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "17900",
+    "title": "Columbia, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Calhoun County",
+     "fips": "45017",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Fairfield County",
+     "fips": "45039",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Kershaw County",
+     "fips": "45055",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Lexington County",
+     "fips": "45063",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Richland County",
+     "fips": "45079",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Saluda County",
+     "fips": "45081",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Calhoun County",
+     "strings": [
+      "CALHOUN"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Fairfield County",
+     "strings": [
+      "FAIRFIELD"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Kershaw County",
+     "strings": [
+      "KERSHAW"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Lexington County",
+     "strings": [
+      "LEXINGTON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Richland County",
+     "strings": [
+      "RICHLAND"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Saluda County",
+     "strings": [
+      "SALUDA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 17900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Columbia (Midlands) metro.",
+   "review": false
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "charleston",
+   "page_title": "Charleston–North Charleston",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "16700",
+    "title": "Charleston-North Charleston, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Berkeley County",
+     "fips": "45015",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Charleston County",
+     "fips": "45019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Dorchester County",
+     "fips": "45035",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Berkeley County",
+     "strings": [
+      "BERKELEY"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Charleston County",
+     "strings": [
+      "CHARLESTON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Dorchester County",
+     "strings": [
+      "DORCHESTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 16700 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading equals the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "myrtle-beach",
+   "page_title": "Myrtle Beach–Conway (Grand Strand)",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "34820",
+    "title": "Myrtle Beach-Conway-North Myrtle Beach, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Horry County",
+     "fips": "45051",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Horry County",
+     "strings": [
+      "HORRY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 34820 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Myrtle Beach metro; the page quotes Horry County alone, so Brunswick NC is taken as part of Wilmington.",
+   "review": false
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "hilton-head",
+   "page_title": "Hilton Head–Bluffton–Beaufort",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "25940",
+    "title": "Hilton Head Island-Bluffton-Beaufort, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Beaufort County",
+     "fips": "45013",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Jasper County",
+     "fips": "45053",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Beaufort County",
+     "strings": [
+      "BEAUFORT"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Jasper County",
+     "strings": [
+      "JASPER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 25940 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names Hilton Head, Bluffton and Beaufort, and the text names Beaufort and Jasper; CBSA title wording is from recall.",
+   "review": false
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "florence",
+   "page_title": "Florence / Pee Dee",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "22500",
+    "title": "Florence, SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Darlington County",
+     "fips": "45031",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Florence County",
+     "fips": "45041",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Darlington County",
+     "strings": [
+      "DARLINGTON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Florence County",
+     "strings": [
+      "FLORENCE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 22500 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading adds the Pee Dee region, which is commonly drawn much wider than the Florence CBSA.",
+   "review": true
+  },
+  {
+   "state": "south-carolina",
+   "state_postal": "SC",
+   "slug": "i-95-corridor",
+   "page_title": "Rural I-95 corridor",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "SC",
+     "name": "Allendale County",
+     "fips": "45005",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Bamberg County",
+     "fips": "45009",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Clarendon County",
+     "fips": "45027",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Colleton County",
+     "fips": "45029",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Dillon County",
+     "fips": "45033",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Hampton County",
+     "fips": "45049",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Lee County",
+     "fips": "45061",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Marion County",
+     "fips": "45067",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Marlboro County",
+     "fips": "45069",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Orangeburg County",
+     "fips": "45075",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "SC",
+     "name": "Williamsburg County",
+     "fips": "45089",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "SC",
+     "county": "Allendale County",
+     "strings": [
+      "ALLENDALE"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Bamberg County",
+     "strings": [
+      "BAMBERG"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Clarendon County",
+     "strings": [
+      "CLARENDON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Colleton County",
+     "strings": [
+      "COLLETON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Dillon County",
+     "strings": [
+      "DILLON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Hampton County",
+     "strings": [
+      "HAMPTON"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Lee County",
+     "strings": [
+      "LEE"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Marion County",
+     "strings": [
+      "MARION"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Marlboro County",
+     "strings": [
+      "MARLBORO"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Orangeburg County",
+     "strings": [
+      "ORANGEBURG"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Williamsburg County",
+     "strings": [
+      "WILLIAMSBURG"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "No counties named; composed as the rural counties on or beside I-95, leaving out those inside other SC markets' CBSAs (Jasper, Calhoun, Florence, Darlington).",
+   "review": true
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "austin",
+   "page_title": "Austin",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "12420",
+    "title": "Austin-Round Rock-San Marcos, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Bastrop County",
+     "fips": "48021",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Caldwell County",
+     "fips": "48055",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Hays County",
+     "fips": "48209",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Travis County",
+     "fips": "48453",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Williamson County",
+     "fips": "48491",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Bastrop County",
+     "strings": [
+      "BASTROP"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Caldwell County",
+     "strings": [
+      "CALDWELL"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Hays County",
+     "strings": [
+      "HAYS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Travis County",
+     "strings": [
+      "TRAVIS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Williamson County",
+     "strings": [
+      "WILLIAMSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 12420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Austin metro.",
+   "review": false
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "corpus-christi",
+   "page_title": "Corpus Christi",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "18580",
+    "title": "Corpus Christi, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Aransas County",
+     "fips": "48007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Nueces County",
+     "fips": "48355",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "San Patricio County",
+     "fips": "48409",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Aransas County",
+     "strings": [
+      "ARANSAS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Nueces County",
+     "strings": [
+      "NUECES"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "San Patricio County",
+     "strings": [
+      "SAN PATRICIO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 18580 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Corpus Christi metro.",
+   "review": false
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "dallas-fort-worth",
+   "page_title": "Dallas–Fort Worth",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "19100",
+    "title": "Dallas-Fort Worth-Arlington, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Collin County",
+     "fips": "48085",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Dallas County",
+     "fips": "48113",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Denton County",
+     "fips": "48121",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Ellis County",
+     "fips": "48139",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Hunt County",
+     "fips": "48231",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Johnson County",
+     "fips": "48251",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Kaufman County",
+     "fips": "48257",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Parker County",
+     "fips": "48367",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Rockwall County",
+     "fips": "48397",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Tarrant County",
+     "fips": "48439",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Wise County",
+     "fips": "48497",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Collin County",
+     "strings": [
+      "COLLIN"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Dallas County",
+     "strings": [
+      "DALLAS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Denton County",
+     "strings": [
+      "DENTON"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Ellis County",
+     "strings": [
+      "ELLIS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Hunt County",
+     "strings": [
+      "HUNT"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Johnson County",
+     "strings": [
+      "JOHNSON"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Kaufman County",
+     "strings": [
+      "KAUFMAN"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Parker County",
+     "strings": [
+      "PARKER"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Rockwall County",
+     "strings": [
+      "ROCKWALL"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Tarrant County",
+     "strings": [
+      "TARRANT"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Wise County",
+     "strings": [
+      "WISE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 19100 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Dallas-Fort Worth metro (eleven counties as recalled; Hood and Somervell are not counted).",
+   "review": false
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "el-paso",
+   "page_title": "El Paso",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "21340",
+    "title": "El Paso, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "El Paso County",
+     "fips": "48141",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Hudspeth County",
+     "fips": "48229",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "El Paso County",
+     "strings": [
+      "EL PASO"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Hudspeth County",
+     "strings": [
+      "HUDSPETH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 21340 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the El Paso metro.",
+   "review": false
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "houston",
+   "page_title": "Houston",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "26420",
+    "title": "Houston-Pasadena-The Woodlands, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Austin County",
+     "fips": "48015",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Brazoria County",
+     "fips": "48039",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Chambers County",
+     "fips": "48071",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Fort Bend County",
+     "fips": "48157",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Galveston County",
+     "fips": "48167",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Harris County",
+     "fips": "48201",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Liberty County",
+     "fips": "48291",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Montgomery County",
+     "fips": "48339",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Waller County",
+     "fips": "48473",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Austin County",
+     "strings": [
+      "AUSTIN"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Brazoria County",
+     "strings": [
+      "BRAZORIA"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Chambers County",
+     "strings": [
+      "CHAMBERS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Fort Bend County",
+     "strings": [
+      "FORT BEND"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Galveston County",
+     "strings": [
+      "GALVESTON"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Harris County",
+     "strings": [
+      "HARRIS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Liberty County",
+     "strings": [
+      "LIBERTY"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Montgomery County",
+     "strings": [
+      "MONTGOMERY"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Waller County",
+     "strings": [
+      "WALLER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 26420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Houston metro (nine counties as recalled; San Jacinto membership uncertain).",
+   "review": false
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "lubbock",
+   "page_title": "Lubbock",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "31180",
+    "title": "Lubbock, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Crosby County",
+     "fips": "48107",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Lubbock County",
+     "fips": "48303",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Lynn County",
+     "fips": "48305",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Crosby County",
+     "strings": [
+      "CROSBY"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Lubbock County",
+     "strings": [
+      "LUBBOCK"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Lynn County",
+     "strings": [
+      "LYNN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 31180 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Lubbock metro.",
+   "review": false
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "mcallen",
+   "page_title": "McAllen / Rio Grande Valley",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "32580",
+    "title": "McAllen-Edinburg-Mission, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Hidalgo County",
+     "fips": "48215",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Hidalgo County",
+     "strings": [
+      "HIDALGO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 32580 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading adds Rio Grande Valley, commonly four counties (Cameron, Hidalgo, Starr, Willacy); mapped to the McAllen CBSA as instructed.",
+   "review": true
+  },
+  {
+   "state": "texas",
+   "state_postal": "TX",
+   "slug": "san-antonio",
+   "page_title": "San Antonio",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41700",
+    "title": "San Antonio-New Braunfels, TX",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "TX",
+     "name": "Atascosa County",
+     "fips": "48013",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Bandera County",
+     "fips": "48019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Bexar County",
+     "fips": "48029",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Comal County",
+     "fips": "48091",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Guadalupe County",
+     "fips": "48187",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Kendall County",
+     "fips": "48259",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Medina County",
+     "fips": "48325",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "TX",
+     "name": "Wilson County",
+     "fips": "48493",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "TX",
+     "county": "Atascosa County",
+     "strings": [
+      "ATASCOSA"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Bandera County",
+     "strings": [
+      "BANDERA"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Bexar County",
+     "strings": [
+      "BEXAR"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Comal County",
+     "strings": [
+      "COMAL"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Guadalupe County",
+     "strings": [
+      "GUADALUPE"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Kendall County",
+     "strings": [
+      "KENDALL"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Medina County",
+     "strings": [
+      "MEDINA"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Wilson County",
+     "strings": [
+      "WILSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 41700 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the San Antonio metro.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "salt-lake-city",
+   "page_title": "Salt Lake City",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41620",
+    "title": "Salt Lake City-Murray, UT",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Salt Lake County",
+     "fips": "49035",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Tooele County",
+     "fips": "49045",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Salt Lake County",
+     "strings": [
+      "SALT LAKE"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Tooele County",
+     "strings": [
+      "TOOELE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 41620 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Salt Lake City metro.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "provo-orem",
+   "page_title": "Provo–Orem / Utah County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Utah County",
+     "fips": "49049",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Utah County",
+     "strings": [
+      "UTAH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Utah County; the Provo-Orem CBSA also takes in Juab County.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "ogden",
+   "page_title": "Ogden–Clearfield",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "36260",
+    "title": "Ogden-Clearfield, UT",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Box Elder County",
+     "fips": "49003",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Davis County",
+     "fips": "49011",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Morgan County",
+     "fips": "49029",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Weber County",
+     "fips": "49057",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Box Elder County",
+     "strings": [
+      "BOX ELDER"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Davis County",
+     "strings": [
+      "DAVIS"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Morgan County",
+     "strings": [
+      "MORGAN"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Weber County",
+     "strings": [
+      "WEBER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 36260 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading equals the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "st-george",
+   "page_title": "St. George / Washington County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Washington County",
+     "fips": "49053",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Washington County, which is also the St. George CBSA.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "park-city",
+   "page_title": "Park City / Summit County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Summit County",
+     "fips": "49043",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Summit County",
+     "strings": [
+      "SUMMIT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Summit County; Park City is a place inside it.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "logan",
+   "page_title": "Logan / Cache County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Cache County",
+     "fips": "49005",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Cache County",
+     "strings": [
+      "CACHE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Cache County; the Logan CBSA also takes in Franklin County ID.",
+   "review": false
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "uinta-basin",
+   "page_title": "Uinta Basin",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Daggett County",
+     "fips": "49009",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Duchesne County",
+     "fips": "49013",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Uintah County",
+     "fips": "49047",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Daggett County",
+     "strings": [
+      "DAGGETT"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Duchesne County",
+     "strings": [
+      "DUCHESNE"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Uintah County",
+     "strings": [
+      "UINTAH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "No counties named; composed as the three counties of the Uinta Basin in eastern Utah.",
+   "review": true
+  },
+  {
+   "state": "utah",
+   "state_postal": "UT",
+   "slug": "moab",
+   "page_title": "Mighty 5 gateways",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "UT",
+     "name": "Garfield County",
+     "fips": "49017",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Grand County",
+     "fips": "49019",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Kane County",
+     "fips": "49025",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "San Juan County",
+     "fips": "49037",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "UT",
+     "name": "Wayne County",
+     "fips": "49055",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "UT",
+     "county": "Garfield County",
+     "strings": [
+      "GARFIELD"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Grand County",
+     "strings": [
+      "GRAND"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Kane County",
+     "strings": [
+      "KANE"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "San Juan County",
+     "strings": [
+      "SAN JUAN"
+     ]
+    },
+    {
+     "state": "UT",
+     "county": "Wayne County",
+     "strings": [
+      "WAYNE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Heading is a five-parks gateway region, not a single town; composed as the counties holding Bryce Canyon, Arches, Canyonlands and Capitol Reef plus Zion's Kane side, leaving Washington County to the St. George market.",
+   "review": true
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "seattle",
+   "page_title": "Seattle–Tacoma–Bellevue",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "42660",
+    "title": "Seattle-Tacoma-Bellevue, WA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "WA",
+     "name": "King County",
+     "fips": "53033",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Pierce County",
+     "fips": "53053",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Snohomish County",
+     "fips": "53061",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "King County",
+     "strings": [
+      "KING"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Pierce County",
+     "strings": [
+      "PIERCE"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Snohomish County",
+     "strings": [
+      "SNOHOMISH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 42660 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading equals the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "bellevue",
+   "page_title": "Bellevue & the Eastside",
+   "kind": "tract-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WA",
+     "name": "King County",
+     "fips": "53033",
+     "fips_verified": false,
+     "role": "containing"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "description": "Eastside of King County east of Lake Washington, centred on Bellevue, smaller than the county.",
+    "member_places": [
+     "Bellevue city",
+     "Kirkland city",
+     "Redmond city",
+     "Issaquah city",
+     "Sammamish city",
+     "Mercer Island city",
+     "Newcastle city",
+     "Medina city",
+     "Clyde Hill city",
+     "Hunts Point town",
+     "Yarrow Point town",
+     "Beaux Arts Village town"
+    ],
+    "counties": [
+     "King County"
+    ]
+   },
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "WA",
+     "county": "King County",
+     "strings": [
+      "KING"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "sub-county area named by the state page; containing county from recall, unverified",
+   "reason": "Heading is Bellevue and the Eastside, smaller than King County and more than one place; needs a place or tract definition.",
+   "review": true
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "everett",
+   "page_title": "Everett & Snohomish County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WA",
+     "name": "Snohomish County",
+     "fips": "53061",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "Snohomish County",
+     "strings": [
+      "SNOHOMISH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Snohomish County.",
+   "review": false
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "spokane",
+   "page_title": "Spokane",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "44060",
+    "title": "Spokane-Spokane Valley, WA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "WA",
+     "name": "Pend Oreille County",
+     "fips": "53051",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Spokane County",
+     "fips": "53063",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Stevens County",
+     "fips": "53065",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "Pend Oreille County",
+     "strings": [
+      "PEND OREILLE"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Spokane County",
+     "strings": [
+      "SPOKANE"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Stevens County",
+     "strings": [
+      "STEVENS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 44060 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Spokane metro.",
+   "review": false
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "tri-cities",
+   "page_title": "Tri-Cities (Kennewick–Pasco–Richland)",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "28420",
+    "title": "Kennewick-Richland, WA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "WA",
+     "name": "Benton County",
+     "fips": "53005",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Franklin County",
+     "fips": "53021",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "Benton County",
+     "strings": [
+      "BENTON"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Franklin County",
+     "strings": [
+      "FRANKLIN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 28420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names Kennewick, Pasco and Richland, the cities of the two-county Tri-Cities CBSA.",
+   "review": false
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "columbia-basin",
+   "page_title": "Quincy & the Columbia Basin",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WA",
+     "name": "Grant County",
+     "fips": "53025",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Adams County",
+     "fips": "53001",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "Grant County",
+     "strings": [
+      "GRANT"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Adams County",
+     "strings": [
+      "ADAMS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Page centres on Quincy and Grant County; composed as Grant plus Adams (Columbia Basin Project lands), leaving Franklin to the Tri-Cities market.",
+   "review": true
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "vancouver",
+   "page_title": "Vancouver & Clark County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WA",
+     "name": "Clark County",
+     "fips": "53011",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "Clark County",
+     "strings": [
+      "CLARK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Clark County, which also sits in the Portland CBSA.",
+   "review": false
+  },
+  {
+   "state": "washington",
+   "state_postal": "WA",
+   "slug": "yakima",
+   "page_title": "Yakima, Wenatchee & rural agriculture",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WA",
+     "name": "Yakima County",
+     "fips": "53077",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Chelan County",
+     "fips": "53007",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WA",
+     "name": "Douglas County",
+     "fips": "53017",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WA",
+     "county": "Yakima County",
+     "strings": [
+      "YAKIMA"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Chelan County",
+     "strings": [
+      "CHELAN"
+     ]
+    },
+    {
+     "state": "WA",
+     "county": "Douglas County",
+     "strings": [
+      "DOUGLAS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Heading names Yakima and Wenatchee (Yakima County and the Chelan-Douglas CBSA); 'rural agriculture' names no further counties.",
+   "review": true
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "milwaukee",
+   "page_title": "Milwaukee metro",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "33340",
+    "title": "Milwaukee-Waukesha, WI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Milwaukee County",
+     "fips": "55079",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Ozaukee County",
+     "fips": "55089",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Washington County",
+     "fips": "55131",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Waukesha County",
+     "fips": "55133",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WI",
+     "county": "Milwaukee County",
+     "strings": [
+      "MILWAUKEE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Ozaukee County",
+     "strings": [
+      "OZAUKEE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Waukesha County",
+     "strings": [
+      "WAUKESHA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 33340 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading is the Milwaukee metro; text refers to the WOW counties, which are inside.",
+   "review": false
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "madison",
+   "page_title": "Madison / Dane County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Dane County",
+     "fips": "55025",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WI",
+     "county": "Dane County",
+     "strings": [
+      "DANE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Dane County; the Madison CBSA also takes in Columbia, Green and Iowa.",
+   "review": false
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "green-bay",
+   "page_title": "Green Bay / Fox Valley",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Brown County",
+     "fips": "55009",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Kewaunee County",
+     "fips": "55061",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Oconto County",
+     "fips": "55083",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Calumet County",
+     "fips": "55015",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Outagamie County",
+     "fips": "55087",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Winnebago County",
+     "fips": "55139",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WI",
+     "county": "Brown County",
+     "strings": [
+      "BROWN"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Kewaunee County",
+     "strings": [
+      "KEWAUNEE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Oconto County",
+     "strings": [
+      "OCONTO"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Calumet County",
+     "strings": [
+      "CALUMET"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Outagamie County",
+     "strings": [
+      "OUTAGAMIE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Winnebago County",
+     "strings": [
+      "WINNEBAGO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded; union of the Green Bay, Appleton and Oshkosh-Neenah CBSAs; counties unverified",
+   "reason": "Heading names Green Bay and the Fox Valley, and the text names Appleton, Oshkosh, Neenah and Green Bay.",
+   "review": true
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "kenosha-racine",
+   "page_title": "Kenosha / Racine",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Kenosha County",
+     "fips": "55059",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Racine County",
+     "fips": "55101",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WI",
+     "county": "Kenosha County",
+     "strings": [
+      "KENOSHA"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Racine County",
+     "strings": [
+      "RACINE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties named by heading city names (Kenosha, Racine); not stated as counties on the page",
+   "reason": "Heading names the two cities; Kenosha County sits in the Chicago CBSA and Racine County in its own.",
+   "review": true
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "eau-claire",
+   "page_title": "Eau Claire / La Crosse",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Chippewa County",
+     "fips": "55017",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Eau Claire County",
+     "fips": "55035",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "La Crosse County",
+     "fips": "55063",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WI",
+     "county": "Chippewa County",
+     "strings": [
+      "CHIPPEWA"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Eau Claire County",
+     "strings": [
+      "EAU CLAIRE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "La Crosse County",
+     "strings": [
+      "LA CROSSE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded; heading names Eau Claire and La Crosse, whose CBSAs are Chippewa-Eau Claire and La Crosse (Houston County MN left out)",
+   "reason": "Two metros in one market and the La Crosse CBSA crosses into Minnesota, so the split rests on judgement.",
+   "review": true
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "wisconsin-dells",
+   "page_title": "Wisconsin Dells / Baraboo",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Columbia County",
+     "fips": "55021",
+     "fips_verified": false,
+     "role": "containing"
+    },
+    {
+     "state": "WI",
+     "name": "Sauk County",
+     "fips": "55111",
+     "fips_verified": false,
+     "role": "containing"
+    },
+    {
+     "state": "WI",
+     "name": "Juneau County",
+     "fips": "55057",
+     "fips_verified": false,
+     "role": "containing"
+    },
+    {
+     "state": "WI",
+     "name": "Adams County",
+     "fips": "55001",
+     "fips_verified": false,
+     "role": "containing"
+    }
+   ],
+   "places": [
+    {
+     "state": "WI",
+     "name": "Wisconsin Dells city",
+     "geoid": null,
+     "geoid_verified": false,
+     "counties": [
+      "Adams County",
+      "Columbia County",
+      "Juneau County",
+      "Sauk County"
+     ],
+     "cousub": null
+    },
+    {
+     "state": "WI",
+     "name": "Baraboo city",
+     "geoid": null,
+     "geoid_verified": false,
+     "counties": [
+      "Sauk County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "WI",
+     "county": "Columbia County",
+     "strings": [
+      "COLUMBIA"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Sauk County",
+     "strings": [
+      "SAUK"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Juneau County",
+     "strings": [
+      "JUNEAU"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Adams County",
+     "strings": [
+      "ADAMS"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "places the state page names; containing counties from Census place-to-county relationship, unverified",
+   "reason": "Heading names Wisconsin Dells and Baraboo; the Dells city spans four counties and Lake Delton is not named, so reach is ambiguous.",
+   "review": true
+  },
+  {
+   "state": "wisconsin",
+   "state_postal": "WI",
+   "slug": "wausau",
+   "page_title": "Wausau / Central & Northwoods",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "WI",
+     "name": "Adams County",
+     "fips": "55001",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Forest County",
+     "fips": "55041",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Langlade County",
+     "fips": "55067",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Lincoln County",
+     "fips": "55069",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Marathon County",
+     "fips": "55073",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Oneida County",
+     "fips": "55085",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Portage County",
+     "fips": "55097",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Price County",
+     "fips": "55099",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Vilas County",
+     "fips": "55125",
+     "fips_verified": false,
+     "role": "member"
+    },
+    {
+     "state": "WI",
+     "name": "Wood County",
+     "fips": "55141",
+     "fips_verified": false,
+     "role": "member"
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "WI",
+     "county": "Adams County",
+     "strings": [
+      "ADAMS"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Forest County",
+     "strings": [
+      "FOREST"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Langlade County",
+     "strings": [
+      "LANGLADE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Lincoln County",
+     "strings": [
+      "LINCOLN"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Marathon County",
+     "strings": [
+      "MARATHON"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Oneida County",
+     "strings": [
+      "ONEIDA"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Portage County",
+     "strings": [
+      "PORTAGE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Price County",
+     "strings": [
+      "PRICE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Vilas County",
+     "strings": [
+      "VILAS"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Wood County",
+     "strings": [
+      "WOOD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded (no federal definition); counties are a judgement",
+   "reason": "Heading names Wausau, Central and the Northwoods with no counties; composed as the ten-county north central Wisconsin planning region.",
+   "review": true
+  }
+ ]
+}

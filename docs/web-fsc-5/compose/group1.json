@@ -1,0 +1,6216 @@
+{
+ "group": 1,
+ "markets": [
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "huntsville",
+   "page_title": "Huntsville",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "26620",
+    "title": "Huntsville, AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Limestone County",
+     "fips": "01083",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Madison County",
+     "fips": "01089",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Limestone County",
+     "strings": [
+      "LIMESTONE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 26620 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Huntsville metro, one CBSA of Madison and Limestone counties.",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "birmingham",
+   "page_title": "Birmingham–Hoover",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "13820",
+    "title": "Birmingham-Hoover, AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Bibb County",
+     "fips": "01007",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Blount County",
+     "fips": "01009",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Chilton County",
+     "fips": "01021",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Jefferson County",
+     "fips": "01073",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "St. Clair County",
+     "fips": "01115",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Shelby County",
+     "fips": "01117",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Walker County",
+     "fips": "01127",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Bibb County",
+     "strings": [
+      "BIBB"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Blount County",
+     "strings": [
+      "BLOUNT"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Chilton County",
+     "strings": [
+      "CHILTON"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Jefferson County",
+     "strings": [
+      "JEFFERSON"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "St. Clair County",
+     "strings": [
+      "SAINT CLAIR"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Shelby County",
+     "strings": [
+      "SHELBY"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Walker County",
+     "strings": [
+      "WALKER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 13820 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the Birmingham-Hoover CBSA title.",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "mobile",
+   "page_title": "Mobile",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "33660",
+    "title": "Mobile, AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Mobile County",
+     "fips": "01097",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Mobile County",
+     "strings": [
+      "MOBILE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 33660 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Mobile metro, a one-county CBSA (Mobile County).",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "montgomery",
+   "page_title": "Montgomery",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "33860",
+    "title": "Montgomery, AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Autauga County",
+     "fips": "01001",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Elmore County",
+     "fips": "01051",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Lowndes County",
+     "fips": "01085",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Montgomery County",
+     "fips": "01101",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Autauga County",
+     "strings": [
+      "AUTAUGA"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Elmore County",
+     "strings": [
+      "ELMORE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Lowndes County",
+     "strings": [
+      "LOWNDES"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Montgomery County",
+     "strings": [
+      "MONTGOMERY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 33860 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Montgomery metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "tuscaloosa",
+   "page_title": "Tuscaloosa",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "46220",
+    "title": "Tuscaloosa, AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Greene County",
+     "fips": "01063",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Hale County",
+     "fips": "01065",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Tuscaloosa County",
+     "fips": "01125",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Greene County",
+     "strings": [
+      "GREENE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Hale County",
+     "strings": [
+      "HALE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Tuscaloosa County",
+     "strings": [
+      "TUSCALOOSA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 46220 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Tuscaloosa metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "gulf-shores",
+   "page_title": "Baldwin / Gulf Shores",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Baldwin County",
+     "fips": "01003",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Baldwin County",
+     "strings": [
+      "BALDWIN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Baldwin / Gulf Shores)",
+   "reason": "Baldwin County, which is also the Daphne-Fairhope-Foley CBSA; Gulf Shores is a city inside it.",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "auburn",
+   "page_title": "Auburn–Opelika",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "12220",
+    "title": "Auburn-Opelika, AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Lee County",
+     "fips": "01081",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Lee County",
+     "strings": [
+      "LEE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 12220 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the Auburn-Opelika CBSA title (Lee County).",
+   "review": false
+  },
+  {
+   "state": "alabama",
+   "state_postal": "AL",
+   "slug": "black-belt",
+   "page_title": "Rural Black Belt",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AL",
+     "name": "Bullock County",
+     "fips": "01011",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Choctaw County",
+     "fips": "01023",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Dallas County",
+     "fips": "01047",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Greene County",
+     "fips": "01063",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Hale County",
+     "fips": "01065",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Lowndes County",
+     "fips": "01085",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Macon County",
+     "fips": "01087",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Marengo County",
+     "fips": "01091",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Perry County",
+     "fips": "01105",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Pickens County",
+     "fips": "01107",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Sumter County",
+     "fips": "01119",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Wilcox County",
+     "fips": "01131",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AL",
+     "county": "Bullock County",
+     "strings": [
+      "BULLOCK"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Choctaw County",
+     "strings": [
+      "CHOCTAW"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Dallas County",
+     "strings": [
+      "DALLAS"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Greene County",
+     "strings": [
+      "GREENE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Hale County",
+     "strings": [
+      "HALE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Lowndes County",
+     "strings": [
+      "LOWNDES"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Macon County",
+     "strings": [
+      "MACON"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Marengo County",
+     "strings": [
+      "MARENGO"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Perry County",
+     "strings": [
+      "PERRY"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Pickens County",
+     "strings": [
+      "PICKENS"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Sumter County",
+     "strings": [
+      "SUMTER"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Wilcox County",
+     "strings": [
+      "WILCOX"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded: the twelve core Alabama Black Belt counties",
+   "reason": "No federal definition; core twelve majority-Black rural counties, excluding Montgomery and Russell as metro; Greene, Hale and Lowndes also sit in the Tuscaloosa and Montgomery CBSAs.",
+   "review": true
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "phoenix",
+   "page_title": "Phoenix–Mesa–Chandler",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "38060",
+    "title": "Phoenix-Mesa-Chandler, AZ",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Maricopa County",
+     "fips": "04013",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Pinal County",
+     "fips": "04021",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Maricopa County",
+     "strings": [
+      "MARICOPA"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Pinal County",
+     "strings": [
+      "PINAL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 38060 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title; the page cites the MSA and Maricopa County separately, consistent with Maricopa plus Pinal.",
+   "review": false
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "tucson",
+   "page_title": "Tucson",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "46060",
+    "title": "Tucson, AZ",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Pima County",
+     "fips": "04019",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Pima County",
+     "strings": [
+      "PIMA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 46060 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Tucson metro, a one-county CBSA (Pima County).",
+   "review": false
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "pinal-county",
+   "page_title": "Pinal County / Casa Grande",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Pinal County",
+     "fips": "04021",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Pinal County",
+     "strings": [
+      "PINAL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Pinal County / Casa Grande)",
+   "reason": "Pinal County; Casa Grande is a city inside it, and the county is also part of the Phoenix-Mesa-Chandler CBSA.",
+   "review": false
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "scottsdale",
+   "page_title": "Scottsdale / Paradise Valley",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Maricopa County",
+     "fips": "04013",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "AZ",
+     "name": "Scottsdale city",
+     "geoid": "0465000",
+     "geoid_verified": false,
+     "counties": [
+      "Maricopa County"
+     ],
+     "cousub": null
+    },
+    {
+     "state": "AZ",
+     "name": "Paradise Valley town",
+     "geoid": "0454050",
+     "geoid_verified": false,
+     "counties": [
+      "Maricopa County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Maricopa County",
+     "strings": [
+      "MARICOPA"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "Census places named by the heading, inside Maricopa County; place GEOIDs unverified",
+   "reason": "Heading names Scottsdale and Paradise Valley; the text speaks of metro room counts, so market reach is ambiguous.",
+   "review": true
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "flagstaff",
+   "page_title": "Flagstaff / Sedona",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "22380",
+    "title": "Flagstaff, AZ",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Coconino County",
+     "fips": "04005",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Coconino County",
+     "strings": [
+      "COCONINO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 22380 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Flagstaff metro is Coconino County; heading adds Sedona, which straddles Coconino and Yavapai counties.",
+   "review": true
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "yuma",
+   "page_title": "Yuma",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "49740",
+    "title": "Yuma, AZ",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Yuma County",
+     "fips": "04027",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Yuma County",
+     "strings": [
+      "YUMA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 49740 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Yuma metro, a one-county CBSA (Yuma County).",
+   "review": false
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "prescott",
+   "page_title": "Prescott / Lake Havasu",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Yavapai County",
+     "fips": "04025",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Mohave County",
+     "fips": "04015",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Yavapai County",
+     "strings": [
+      "YAVAPAI"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Mohave County",
+     "strings": [
+      "MOHAVE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page text names Yavapai and Mohave counties for Prescott / Lake Havasu.",
+   "review": false
+  },
+  {
+   "state": "arizona",
+   "state_postal": "AZ",
+   "slug": "rural",
+   "page_title": "Tribal & rural counties",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AZ",
+     "name": "Apache County",
+     "fips": "04001",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Navajo County",
+     "fips": "04017",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Gila County",
+     "fips": "04007",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "La Paz County",
+     "fips": "04012",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Cochise County",
+     "fips": "04003",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Graham County",
+     "fips": "04009",
+     "fips_verified": false
+    },
+    {
+     "state": "AZ",
+     "name": "Greenlee County",
+     "fips": "04011",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AZ",
+     "county": "Apache County",
+     "strings": [
+      "APACHE"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Navajo County",
+     "strings": [
+      "NAVAJO"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Gila County",
+     "strings": [
+      "GILA"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "La Paz County",
+     "strings": [
+      "LA PAZ"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Cochise County",
+     "strings": [
+      "COCHISE"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Graham County",
+     "strings": [
+      "GRAHAM"
+     ]
+    },
+    {
+     "state": "AZ",
+     "county": "Greenlee County",
+     "strings": [
+      "GREENLEE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page text lists these seven counties exactly.",
+   "review": false
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "northwest-arkansas",
+   "page_title": "Northwest Arkansas",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "22220",
+    "title": "Fayetteville-Springdale-Rogers, AR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Benton County",
+     "fips": "05007",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Madison County",
+     "fips": "05087",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Washington County",
+     "fips": "05143",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "McDonald County",
+     "fips": "29119",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Benton County",
+     "strings": [
+      "BENTON"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "McDonald County",
+     "strings": [
+      "MCDONALD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 22220 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Page text names the Fayetteville-Springdale-Rogers metro; McDonald County, MO is a CBSA member by my recollection, so the CBSA is multi-state.",
+   "review": true
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "little-rock",
+   "page_title": "Little Rock–North Little Rock–Conway",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "30780",
+    "title": "Little Rock-North Little Rock-Conway, AR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Faulkner County",
+     "fips": "05045",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Grant County",
+     "fips": "05053",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Lonoke County",
+     "fips": "05085",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Perry County",
+     "fips": "05105",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Pulaski County",
+     "fips": "05119",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Saline County",
+     "fips": "05125",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Faulkner County",
+     "strings": [
+      "FAULKNER"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Grant County",
+     "strings": [
+      "GRANT"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Lonoke County",
+     "strings": [
+      "LONOKE"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Perry County",
+     "strings": [
+      "PERRY"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Pulaski County",
+     "strings": [
+      "PULASKI"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Saline County",
+     "strings": [
+      "SALINE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 30780 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title; the text cites Conway (Faulkner) and Saline County.",
+   "review": false
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "fort-smith",
+   "page_title": "Fort Smith / River Valley",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "22900",
+    "title": "Fort Smith, AR-OK",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Crawford County",
+     "fips": "05033",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Franklin County",
+     "fips": "05047",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Sebastian County",
+     "fips": "05131",
+     "fips_verified": false
+    },
+    {
+     "state": "OK",
+     "name": "Le Flore County",
+     "fips": "40079",
+     "fips_verified": false
+    },
+    {
+     "state": "OK",
+     "name": "Sequoyah County",
+     "fips": "40135",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Crawford County",
+     "strings": [
+      "CRAWFORD"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Franklin County",
+     "strings": [
+      "FRANKLIN"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Sebastian County",
+     "strings": [
+      "SEBASTIAN"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Le Flore County",
+     "strings": [
+      "LE FLORE"
+     ]
+    },
+    {
+     "state": "OK",
+     "county": "Sequoyah County",
+     "strings": [
+      "SEQUOYAH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 22900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Fort Smith metro is bi-state (AR-OK); heading adds River Valley, a region wider than the metro; OK member counties to confirm.",
+   "review": true
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "jonesboro",
+   "page_title": "Jonesboro",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "27860",
+    "title": "Jonesboro, AR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Craighead County",
+     "fips": "05031",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Poinsett County",
+     "fips": "05111",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Craighead County",
+     "strings": [
+      "CRAIGHEAD"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Poinsett County",
+     "strings": [
+      "POINSETT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 27860 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Jonesboro metro, one CBSA (Craighead and Poinsett).",
+   "review": false
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "mississippi-county",
+   "page_title": "Mississippi County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Mississippi County",
+     "fips": "05093",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Mississippi County",
+     "strings": [
+      "MISSISSIPPI"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Mississippi County)",
+   "reason": "Mississippi County, Arkansas (Osceola and Blytheville); not Mississippi County, Missouri.",
+   "review": false
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "hot-springs",
+   "page_title": "Hot Springs",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "26300",
+    "title": "Hot Springs, AR",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Garland County",
+     "fips": "05051",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Garland County",
+     "strings": [
+      "GARLAND"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 26300 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Hot Springs metro; the text anchors it on Garland County.",
+   "review": false
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "pine-bluff",
+   "page_title": "Pine Bluff / Delta",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Jefferson County",
+     "fips": "05069",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Jefferson County",
+     "strings": [
+      "JEFFERSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names in the text (Jefferson County); heading also says Delta",
+   "reason": "Text anchors on Jefferson County; the Delta in the heading is an undefined wider region, and the Pine Bluff CBSA also adds Cleveland and Lincoln.",
+   "review": true
+  },
+  {
+   "state": "arkansas",
+   "state_postal": "AR",
+   "slug": "south-arkansas",
+   "page_title": "South Arkansas",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "AR",
+     "name": "Union County",
+     "fips": "05139",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Columbia County",
+     "fips": "05027",
+     "fips_verified": false
+    },
+    {
+     "state": "AR",
+     "name": "Lafayette County",
+     "fips": "05073",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "AR",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Columbia County",
+     "strings": [
+      "COLUMBIA"
+     ]
+    },
+    {
+     "state": "AR",
+     "county": "Lafayette County",
+     "strings": [
+      "LAFAYETTE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page text names Union, Columbia and Lafayette counties.",
+   "review": false
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "san-francisco",
+   "page_title": "San Francisco Bay Area",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CA",
+     "name": "Alameda County",
+     "fips": "06001",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Contra Costa County",
+     "fips": "06013",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Marin County",
+     "fips": "06041",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Napa County",
+     "fips": "06055",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "San Francisco County",
+     "fips": "06075",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "San Mateo County",
+     "fips": "06081",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Santa Clara County",
+     "fips": "06085",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Solano County",
+     "fips": "06095",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Sonoma County",
+     "fips": "06097",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "Alameda County",
+     "strings": [
+      "ALAMEDA"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Contra Costa County",
+     "strings": [
+      "CONTRA COSTA"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Marin County",
+     "strings": [
+      "MARIN"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Napa County",
+     "strings": [
+      "NAPA"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "San Francisco County",
+     "strings": [
+      "SAN FRANCISCO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "San Mateo County",
+     "strings": [
+      "SAN MATEO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Santa Clara County",
+     "strings": [
+      "SANTA CLARA"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Solano County",
+     "strings": [
+      "SOLANO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Sonoma County",
+     "strings": [
+      "SONOMA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded: the nine-county Bay Area",
+   "reason": "Heading says Bay Area, which is wider than the 5-county San Francisco-Oakland-Berkeley CBSA; Santa Clara overlaps the silicon-valley market.",
+   "review": true
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "los-angeles",
+   "page_title": "Los Angeles",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "31080",
+    "title": "Los Angeles-Long Beach-Anaheim, CA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "CA",
+     "name": "Los Angeles County",
+     "fips": "06037",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Orange County",
+     "fips": "06059",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "Los Angeles County",
+     "strings": [
+      "LOS ANGELES"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Orange County",
+     "strings": [
+      "ORANGE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 31080 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Page treats the metro as the two-county CBSA (Los Angeles plus Orange), which overlaps the separate orange-county market.",
+   "review": true
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "inland-empire",
+   "page_title": "Inland Empire (Riverside–San Bernardino)",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "40140",
+    "title": "Riverside-San Bernardino-Ontario, CA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "CA",
+     "name": "Riverside County",
+     "fips": "06065",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "San Bernardino County",
+     "fips": "06071",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "Riverside County",
+     "strings": [
+      "RIVERSIDE"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "San Bernardino County",
+     "strings": [
+      "SAN BERNARDINO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 40140 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names Riverside-San Bernardino, the Inland Empire CBSA.",
+   "review": false
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "san-diego",
+   "page_title": "San Diego",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41740",
+    "title": "San Diego-Chula Vista-Carlsbad, CA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "CA",
+     "name": "San Diego County",
+     "fips": "06073",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "San Diego County",
+     "strings": [
+      "SAN DIEGO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 41740 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the San Diego metro, a one-county CBSA.",
+   "review": false
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "orange-county",
+   "page_title": "Orange County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CA",
+     "name": "Orange County",
+     "fips": "06059",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "Orange County",
+     "strings": [
+      "ORANGE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Orange County)",
+   "reason": "Orange County; also a component of the Los Angeles-Long Beach-Anaheim CBSA.",
+   "review": false
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "sacramento",
+   "page_title": "Sacramento",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "40900",
+    "title": "Sacramento-Roseville-Folsom, CA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "CA",
+     "name": "El Dorado County",
+     "fips": "06017",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Placer County",
+     "fips": "06061",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Sacramento County",
+     "fips": "06067",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Yolo County",
+     "fips": "06113",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "El Dorado County",
+     "strings": [
+      "EL DORADO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Placer County",
+     "strings": [
+      "PLACER"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Sacramento County",
+     "strings": [
+      "SACRAMENTO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Yolo County",
+     "strings": [
+      "YOLO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 40900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Sacramento metro; the text cites county-level growth (Sacramento County), so county versus CBSA scope is ambiguous.",
+   "review": true
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "central-valley",
+   "page_title": "Central Valley (Fresno / Bakersfield)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CA",
+     "name": "San Joaquin County",
+     "fips": "06077",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Stanislaus County",
+     "fips": "06099",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Merced County",
+     "fips": "06047",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Madera County",
+     "fips": "06039",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Fresno County",
+     "fips": "06019",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Kings County",
+     "fips": "06031",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Tulare County",
+     "fips": "06107",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Kern County",
+     "fips": "06029",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "San Joaquin County",
+     "strings": [
+      "SAN JOAQUIN"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Stanislaus County",
+     "strings": [
+      "STANISLAUS"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Merced County",
+     "strings": [
+      "MERCED"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Madera County",
+     "strings": [
+      "MADERA"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Fresno County",
+     "strings": [
+      "FRESNO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Kings County",
+     "strings": [
+      "KINGS"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Tulare County",
+     "strings": [
+      "TULARE"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Kern County",
+     "strings": [
+      "KERN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded: the eight-county San Joaquin Valley",
+   "reason": "Heading names Fresno and Bakersfield; composed as the San Joaquin Valley, leaving out Sacramento Valley counties that sit in the sacramento market.",
+   "review": true
+  },
+  {
+   "state": "california",
+   "state_postal": "CA",
+   "slug": "silicon-valley",
+   "page_title": "Silicon Valley / San Jose",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41940",
+    "title": "San Jose-Sunnyvale-Santa Clara, CA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "CA",
+     "name": "San Benito County",
+     "fips": "06069",
+     "fips_verified": false
+    },
+    {
+     "state": "CA",
+     "name": "Santa Clara County",
+     "fips": "06085",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CA",
+     "county": "San Benito County",
+     "strings": [
+      "SAN BENITO"
+     ]
+    },
+    {
+     "state": "CA",
+     "county": "Santa Clara County",
+     "strings": [
+      "SANTA CLARA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 41940 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading pairs Silicon Valley (no federal definition) with San Jose; Santa Clara County is the core and also in the San Francisco Bay Area market.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "fairfield-county",
+   "page_title": "Fairfield County — Bridgeport–Stamford–Norwalk",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Fairfield County",
+     "fips": "09001",
+     "fips_verified": false,
+     "scheme": "legacy-county"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09120",
+      "name": "Greater Bridgeport Planning Region",
+      "foia": [
+       "GREATER BRIDGEPORT"
+      ]
+     },
+     {
+      "code": "09190",
+      "name": "Western Connecticut Planning Region",
+      "foia": [
+       "WESTERN CT"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09001",
+      "name": "Fairfield County",
+      "foia": [
+       "FAIRFIELD"
+      ]
+     }
+    ],
+    "fit_planning": "approximate: Fairfield County towns fall in Greater Bridgeport and Western Connecticut, except Shelton (Naugatuck Valley), and Western Connecticut also takes some Litchfield County towns",
+    "fit_legacy": "exact: the market is Fairfield County",
+    "basis_planning": "approximation from the nine planning regions; a town-level crosswalk is needed for exactness",
+    "basis_legacy": "heading names Fairfield County (legacy county 09001)"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Fairfield County",
+     "strings": [
+      "FAIRFIELD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the legacy county (Fairfield County); planning-region composition is an approximation",
+   "reason": "Legacy county is exact; the two planning regions that cover most of its towns are only an approximation.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "hartford",
+   "page_title": "Greater Hartford — Capitol Region",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Capitol Planning Region",
+     "fips": "09110",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09110",
+      "name": "Capitol Planning Region",
+      "foia": [
+       "CAPITOL"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09003",
+      "name": "Hartford County",
+      "foia": [
+       "HARTFORD"
+      ],
+      "coverage": "principal"
+     },
+     {
+      "code": "09013",
+      "name": "Tolland County",
+      "foia": [
+       "TOLLAND"
+      ],
+      "coverage": "partial"
+     }
+    ],
+    "fit_planning": "exact: heading names the Capitol Region, which is the Capitol Planning Region",
+    "fit_legacy": "approximate: the Capitol Planning Region draws mainly on Hartford and Tolland counties, and a few edge towns belong to neighbouring planning regions",
+    "basis_planning": "heading names the Capitol Region (planning region 09110)",
+    "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Capitol Planning Region",
+     "strings": [
+      "CAPITOL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; legacy Hartford plus Tolland counties approximate it; the Hartford CBSA under 23-01 may be broader.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "new-haven",
+   "page_title": "New Haven — South Central",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "South Central Connecticut Planning Region",
+     "fips": "09170",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09170",
+      "name": "South Central Connecticut Planning Region",
+      "foia": [
+       "SOUTH CENTRAL CT"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09009",
+      "name": "New Haven County",
+      "foia": [
+       "NEW HAVEN"
+      ],
+      "coverage": "principal"
+     }
+    ],
+    "fit_planning": "exact: heading names South Central, the South Central Connecticut Planning Region",
+    "fit_legacy": "approximate: South Central covers most of New Haven County but not the Naugatuck Valley towns around Waterbury",
+    "basis_planning": "heading names South Central (planning region 09170)",
+    "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "South Central Connecticut Planning Region",
+     "strings": [
+      "SOUTH CENTRAL CT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; New Haven County is a close but not exact legacy match.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "new-london",
+   "page_title": "Southeastern CT — Norwich–New London",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Southeastern Connecticut Planning Region",
+     "fips": "09180",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09180",
+      "name": "Southeastern Connecticut Planning Region",
+      "foia": [
+       "SOUTHEASTERN CT"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09011",
+      "name": "New London County",
+      "foia": [
+       "NEW LONDON"
+      ],
+      "coverage": "principal"
+     }
+    ],
+    "fit_planning": "exact: heading names Southeastern CT, the Southeastern Connecticut Planning Region",
+    "fit_legacy": "approximate: Southeastern Connecticut covers most of New London County; a few shoreline towns sit in the Lower Connecticut River Valley region",
+    "basis_planning": "heading names Southeastern CT (planning region 09180)",
+    "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Southeastern Connecticut Planning Region",
+     "strings": [
+      "SOUTHEASTERN CT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; New London County is a close but not exact legacy match.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "waterbury",
+   "page_title": "Waterbury / Naugatuck Valley",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Naugatuck Valley Planning Region",
+     "fips": "09140",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09140",
+      "name": "Naugatuck Valley Planning Region",
+      "foia": [
+       "NAUGATUCK VLY"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09009",
+      "name": "New Haven County",
+      "foia": [
+       "NEW HAVEN"
+      ],
+      "coverage": "principal"
+     },
+     {
+      "code": "09005",
+      "name": "Litchfield County",
+      "foia": [
+       "LITCHFIELD"
+      ],
+      "coverage": "partial"
+     },
+     {
+      "code": "09001",
+      "name": "Fairfield County",
+      "foia": [
+       "FAIRFIELD"
+      ],
+      "coverage": "partial"
+     }
+    ],
+    "fit_planning": "exact: heading names Naugatuck Valley, the Naugatuck Valley Planning Region",
+    "fit_legacy": "approximate: Naugatuck Valley spans mostly New Haven County, with a few Litchfield County towns and Shelton from Fairfield County",
+    "basis_planning": "heading names Naugatuck Valley (planning region 09140)",
+    "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Naugatuck Valley Planning Region",
+     "strings": [
+      "NAUGATUCK VLY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; legacy counties only roughly match, with New Haven County the main one.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "litchfield-hills",
+   "page_title": "Litchfield Hills / Northwest Hills",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Northwest Hills Planning Region",
+     "fips": "09160",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09160",
+      "name": "Northwest Hills Planning Region",
+      "foia": [
+       "NW HILLS"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09005",
+      "name": "Litchfield County",
+      "foia": [
+       "LITCHFIELD"
+      ],
+      "coverage": "principal"
+     }
+    ],
+    "fit_planning": "exact: heading names Northwest Hills, the Northwest Hills Planning Region",
+    "fit_legacy": "approximate: Northwest Hills covers most of Litchfield County, but some Litchfield towns sit in Western Connecticut and Naugatuck Valley",
+    "basis_planning": "heading names Northwest Hills (planning region 09160)",
+    "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Northwest Hills Planning Region",
+     "strings": [
+      "NW HILLS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; Litchfield County is a close but not exact legacy match.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "quiet-corner",
+   "page_title": "Quiet Corner / Northeastern",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Northeastern Connecticut Planning Region",
+     "fips": "09150",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09150",
+      "name": "Northeastern Connecticut Planning Region",
+      "foia": [
+       "NORTHEASTERN CT"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09015",
+      "name": "Windham County",
+      "foia": [
+       "WINDHAM"
+      ],
+      "coverage": "principal"
+     }
+    ],
+    "fit_planning": "exact: heading names Northeastern, the Northeastern Connecticut Planning Region",
+    "fit_legacy": "approximate: Northeastern Connecticut corresponds closely to Windham County, with edge differences",
+    "basis_planning": "heading names Northeastern (planning region 09150)",
+    "basis_legacy": "approximation from legacy counties; a town-level crosswalk is needed for exactness"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Northeastern Connecticut Planning Region",
+     "strings": [
+      "NORTHEASTERN CT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; Windham County is a close but not exact legacy match.",
+   "review": true
+  },
+  {
+   "state": "connecticut",
+   "state_postal": "CT",
+   "slug": "bridgeport",
+   "page_title": "Greater Bridgeport",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "CT",
+     "name": "Greater Bridgeport Planning Region",
+     "fips": "09120",
+     "fips_verified": false,
+     "scheme": "planning-region"
+    }
+   ],
+   "places": [],
+   "ct": {
+    "planning_regions": [
+     {
+      "code": "09120",
+      "name": "Greater Bridgeport Planning Region",
+      "foia": [
+       "GREATER BRIDGEPORT"
+      ]
+     }
+    ],
+    "legacy_counties": [
+     {
+      "code": "09001",
+      "name": "Fairfield County",
+      "foia": [
+       "FAIRFIELD"
+      ],
+      "coverage": "partial"
+     }
+    ],
+    "fit_planning": "exact: heading names Greater Bridgeport, the Greater Bridgeport Planning Region",
+    "fit_legacy": "approximate: Greater Bridgeport is only part of Fairfield County; the legacy county overstates it",
+    "basis_planning": "heading names Greater Bridgeport (planning region 09120)",
+    "basis_legacy": "approximation from legacy counties; Fairfield County is much wider than this market"
+   },
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "CT",
+     "county": "Greater Bridgeport Planning Region",
+     "strings": [
+      "GREATER BRIDGEPORT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "heading names the planning region (a county equivalent); legacy-county composition is an approximation",
+   "reason": "Planning region is exact; legacy Fairfield County is only a partial, wider stand-in.",
+   "review": true
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "miami",
+   "page_title": "Miami–Fort Lauderdale–West Palm Beach",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "33100",
+    "title": "Miami-Fort Lauderdale-West Palm Beach, FL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Broward County",
+     "fips": "12011",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Miami-Dade County",
+     "fips": "12086",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Palm Beach County",
+     "fips": "12099",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Broward County",
+     "strings": [
+      "BROWARD"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Miami-Dade County",
+     "strings": [
+      "MIAMI-DADE"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Palm Beach County",
+     "strings": [
+      "PALM BEACH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 33100 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title; the page calls it a tri-county market.",
+   "review": false
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "tampa",
+   "page_title": "Tampa–St. Petersburg–Clearwater",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "45300",
+    "title": "Tampa-St. Petersburg-Clearwater, FL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Hernando County",
+     "fips": "12053",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Hillsborough County",
+     "fips": "12057",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Pasco County",
+     "fips": "12101",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Pinellas County",
+     "fips": "12103",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Hernando County",
+     "strings": [
+      "HERNANDO"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Hillsborough County",
+     "strings": [
+      "HILLSBOROUGH"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Pasco County",
+     "strings": [
+      "PASCO"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Pinellas County",
+     "strings": [
+      "PINELLAS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 45300 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "orlando",
+   "page_title": "Orlando–Kissimmee–Sanford",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "36740",
+    "title": "Orlando-Kissimmee-Sanford, FL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Lake County",
+     "fips": "12069",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Orange County",
+     "fips": "12095",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Osceola County",
+     "fips": "12097",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Seminole County",
+     "fips": "12117",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Lake County",
+     "strings": [
+      "LAKE"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Orange County",
+     "strings": [
+      "ORANGE"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Osceola County",
+     "strings": [
+      "OSCEOLA"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Seminole County",
+     "strings": [
+      "SEMINOLE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 36740 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "jacksonville",
+   "page_title": "Jacksonville",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "27260",
+    "title": "Jacksonville, FL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Baker County",
+     "fips": "12003",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Clay County",
+     "fips": "12019",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Duval County",
+     "fips": "12031",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Nassau County",
+     "fips": "12089",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "St. Johns County",
+     "fips": "12109",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Baker County",
+     "strings": [
+      "BAKER"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Clay County",
+     "strings": [
+      "CLAY"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Duval County",
+     "strings": [
+      "DUVAL"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Nassau County",
+     "strings": [
+      "NASSAU"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "St. Johns County",
+     "strings": [
+      "SAINT JOHNS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 27260 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Jacksonville metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "lakeland",
+   "page_title": "Lakeland–Winter Haven",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "29460",
+    "title": "Lakeland-Winter Haven, FL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Polk County",
+     "fips": "12105",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Polk County",
+     "strings": [
+      "POLK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 29460 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title (Polk County).",
+   "review": false
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "fort-myers",
+   "page_title": "Cape Coral–Fort Myers / Sarasota",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Lee County",
+     "fips": "12071",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Manatee County",
+     "fips": "12081",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Sarasota County",
+     "fips": "12115",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Lee County",
+     "strings": [
+      "LEE"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Manatee County",
+     "strings": [
+      "MANATEE"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Sarasota County",
+     "strings": [
+      "SARASOTA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of two CBSAs named by the heading: Cape Coral-Fort Myers (Lee) and North Port-Bradenton-Sarasota (Manatee, Sarasota); member lists from memory, unverified",
+   "reason": "Heading joins two metros; Collier and Charlotte, also part of Southwest Florida, are not named so are left out.",
+   "review": true
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "the-villages",
+   "page_title": "The Villages / Ocala",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Sumter County",
+     "fips": "12119",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Marion County",
+     "fips": "12083",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Sumter County",
+     "strings": [
+      "SUMTER"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Marion County",
+     "strings": [
+      "MARION"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of two CBSAs named by the heading: The Villages (Sumter) and Ocala (Marion); member lists from memory, unverified",
+   "reason": "Heading joins the Wildwood-The Villages and Ocala metros, each a one-county CBSA.",
+   "review": true
+  },
+  {
+   "state": "florida",
+   "state_postal": "FL",
+   "slug": "gainesville",
+   "page_title": "Pensacola / Tallahassee / Gainesville",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "FL",
+     "name": "Escambia County",
+     "fips": "12033",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Santa Rosa County",
+     "fips": "12113",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Leon County",
+     "fips": "12073",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Gadsden County",
+     "fips": "12039",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Jefferson County",
+     "fips": "12065",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Wakulla County",
+     "fips": "12129",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Alachua County",
+     "fips": "12001",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Gilchrist County",
+     "fips": "12041",
+     "fips_verified": false
+    },
+    {
+     "state": "FL",
+     "name": "Levy County",
+     "fips": "12075",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "FL",
+     "county": "Escambia County",
+     "strings": [
+      "ESCAMBIA"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Santa Rosa County",
+     "strings": [
+      "SANTA ROSA"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Leon County",
+     "strings": [
+      "LEON"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Gadsden County",
+     "strings": [
+      "GADSDEN"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Jefferson County",
+     "strings": [
+      "JEFFERSON"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Wakulla County",
+     "strings": [
+      "WAKULLA"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Alachua County",
+     "strings": [
+      "ALACHUA"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Gilchrist County",
+     "strings": [
+      "GILCHRIST"
+     ]
+    },
+    {
+     "state": "FL",
+     "county": "Levy County",
+     "strings": [
+      "LEVY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of three CBSAs named by the heading: Pensacola, Tallahassee, Gainesville; member lists from memory, unverified (Levy membership to confirm)",
+   "reason": "Heading joins three metros while the text widens it to the Panhandle and North Central Florida; other Panhandle metros such as Okaloosa and Bay are not named.",
+   "review": true
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "atlanta",
+   "page_title": "Atlanta",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "12060",
+    "title": "Atlanta-Sandy Springs-Alpharetta, GA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Barrow County",
+     "fips": "13013",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Bartow County",
+     "fips": "13015",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Butts County",
+     "fips": "13035",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Carroll County",
+     "fips": "13045",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Cherokee County",
+     "fips": "13057",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Clayton County",
+     "fips": "13063",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Cobb County",
+     "fips": "13067",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Coweta County",
+     "fips": "13077",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Dawson County",
+     "fips": "13085",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "DeKalb County",
+     "fips": "13089",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Douglas County",
+     "fips": "13097",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Fayette County",
+     "fips": "13113",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Forsyth County",
+     "fips": "13117",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Fulton County",
+     "fips": "13121",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Gwinnett County",
+     "fips": "13135",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Haralson County",
+     "fips": "13143",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Heard County",
+     "fips": "13149",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Henry County",
+     "fips": "13151",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Jasper County",
+     "fips": "13159",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Lamar County",
+     "fips": "13171",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Meriwether County",
+     "fips": "13199",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Morgan County",
+     "fips": "13211",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Newton County",
+     "fips": "13217",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Paulding County",
+     "fips": "13223",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Pickens County",
+     "fips": "13227",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Pike County",
+     "fips": "13231",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Rockdale County",
+     "fips": "13247",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Spalding County",
+     "fips": "13255",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Walton County",
+     "fips": "13297",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Barrow County",
+     "strings": [
+      "BARROW"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Bartow County",
+     "strings": [
+      "BARTOW"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Butts County",
+     "strings": [
+      "BUTTS"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Carroll County",
+     "strings": [
+      "CARROLL"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Cherokee County",
+     "strings": [
+      "CHEROKEE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Clayton County",
+     "strings": [
+      "CLAYTON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Cobb County",
+     "strings": [
+      "COBB"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Coweta County",
+     "strings": [
+      "COWETA"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Dawson County",
+     "strings": [
+      "DAWSON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "DeKalb County",
+     "strings": [
+      "DEKALB"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Douglas County",
+     "strings": [
+      "DOUGLAS"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Fayette County",
+     "strings": [
+      "FAYETTE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Forsyth County",
+     "strings": [
+      "FORSYTH"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Fulton County",
+     "strings": [
+      "FULTON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Gwinnett County",
+     "strings": [
+      "GWINNETT"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Haralson County",
+     "strings": [
+      "HARALSON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Heard County",
+     "strings": [
+      "HEARD"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Henry County",
+     "strings": [
+      "HENRY"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Jasper County",
+     "strings": [
+      "JASPER"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Lamar County",
+     "strings": [
+      "LAMAR"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Meriwether County",
+     "strings": [
+      "MERIWETHER"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Morgan County",
+     "strings": [
+      "MORGAN"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Newton County",
+     "strings": [
+      "NEWTON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Paulding County",
+     "strings": [
+      "PAULDING"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Pickens County",
+     "strings": [
+      "PICKENS"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Pike County",
+     "strings": [
+      "PIKE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Rockdale County",
+     "strings": [
+      "ROCKDALE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Spalding County",
+     "strings": [
+      "SPALDING"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Walton County",
+     "strings": [
+      "WALTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 12060 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Page text calls it a 29-county market, matching the Atlanta CBSA.",
+   "review": false
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "savannah",
+   "page_title": "Savannah",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "42340",
+    "title": "Savannah, GA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Bryan County",
+     "fips": "13029",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Chatham County",
+     "fips": "13051",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Effingham County",
+     "fips": "13103",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Bryan County",
+     "strings": [
+      "BRYAN"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Chatham County",
+     "strings": [
+      "CHATHAM"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Effingham County",
+     "strings": [
+      "EFFINGHAM"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 42340 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Savannah metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "augusta",
+   "page_title": "Augusta",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "12260",
+    "title": "Augusta-Richmond County, GA-SC",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Burke County",
+     "fips": "13033",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Columbia County",
+     "fips": "13073",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Lincoln County",
+     "fips": "13181",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "McDuffie County",
+     "fips": "13189",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Richmond County",
+     "fips": "13245",
+     "fips_verified": false
+    },
+    {
+     "state": "SC",
+     "name": "Aiken County",
+     "fips": "45003",
+     "fips_verified": false
+    },
+    {
+     "state": "SC",
+     "name": "Edgefield County",
+     "fips": "45037",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Burke County",
+     "strings": [
+      "BURKE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Columbia County",
+     "strings": [
+      "COLUMBIA"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Lincoln County",
+     "strings": [
+      "LINCOLN"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "McDuffie County",
+     "strings": [
+      "MCDUFFIE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Richmond County",
+     "strings": [
+      "RICHMOND"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Aiken County",
+     "strings": [
+      "AIKEN"
+     ]
+    },
+    {
+     "state": "SC",
+     "county": "Edgefield County",
+     "strings": [
+      "EDGEFIELD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 12260 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Augusta metro is bi-state (GA-SC); the South Carolina counties are CBSA members outside this page state.",
+   "review": true
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "columbus",
+   "page_title": "Columbus",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "17980",
+    "title": "Columbus, GA-AL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Chattahoochee County",
+     "fips": "13053",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Harris County",
+     "fips": "13145",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Marion County",
+     "fips": "13197",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Muscogee County",
+     "fips": "13215",
+     "fips_verified": false
+    },
+    {
+     "state": "AL",
+     "name": "Russell County",
+     "fips": "01113",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Chattahoochee County",
+     "strings": [
+      "CHATTAHOOCHEE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Harris County",
+     "strings": [
+      "HARRIS"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Marion County",
+     "strings": [
+      "MARION"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Muscogee County",
+     "strings": [
+      "MUSCOGEE"
+     ]
+    },
+    {
+     "state": "AL",
+     "county": "Russell County",
+     "strings": [
+      "RUSSELL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 17980 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Columbus metro is bi-state (GA-AL); Russell County, AL is a CBSA member outside this page state.",
+   "review": true
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "macon",
+   "page_title": "Macon",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "31420",
+    "title": "Macon-Bibb County, GA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Bibb County",
+     "fips": "13021",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Crawford County",
+     "fips": "13079",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Jones County",
+     "fips": "13169",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Monroe County",
+     "fips": "13207",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Twiggs County",
+     "fips": "13289",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Bibb County",
+     "strings": [
+      "BIBB"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Crawford County",
+     "strings": [
+      "CRAWFORD"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Jones County",
+     "strings": [
+      "JONES"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Monroe County",
+     "strings": [
+      "MONROE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Twiggs County",
+     "strings": [
+      "TWIGGS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 31420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Macon metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "athens",
+   "page_title": "Athens",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "12020",
+    "title": "Athens-Clarke County, GA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Clarke County",
+     "fips": "13059",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Madison County",
+     "fips": "13195",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Oconee County",
+     "fips": "13219",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Oglethorpe County",
+     "fips": "13221",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Clarke County",
+     "strings": [
+      "CLARKE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Oconee County",
+     "strings": [
+      "OCONEE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Oglethorpe County",
+     "strings": [
+      "OGLETHORPE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 12020 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Athens metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "albany",
+   "page_title": "Albany / South Georgia",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "10500",
+    "title": "Albany, GA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Baker County",
+     "fips": "13007",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Dougherty County",
+     "fips": "13095",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Lee County",
+     "fips": "13177",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Terrell County",
+     "fips": "13273",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Worth County",
+     "fips": "13321",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Baker County",
+     "strings": [
+      "BAKER"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Dougherty County",
+     "strings": [
+      "DOUGHERTY"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Lee County",
+     "strings": [
+      "LEE"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Terrell County",
+     "strings": [
+      "TERRELL"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Worth County",
+     "strings": [
+      "WORTH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 10500 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Albany metro is the only federal piece; heading adds South Georgia, an undefined wider region, so the CBSA is the core only.",
+   "review": true
+  },
+  {
+   "state": "georgia",
+   "state_postal": "GA",
+   "slug": "valdosta",
+   "page_title": "Valdosta / Warner Robins",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "GA",
+     "name": "Brooks County",
+     "fips": "13027",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Echols County",
+     "fips": "13101",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Lanier County",
+     "fips": "13173",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Lowndes County",
+     "fips": "13185",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Houston County",
+     "fips": "13153",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Peach County",
+     "fips": "13225",
+     "fips_verified": false
+    },
+    {
+     "state": "GA",
+     "name": "Pulaski County",
+     "fips": "13235",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "GA",
+     "county": "Brooks County",
+     "strings": [
+      "BROOKS"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Lanier County",
+     "strings": [
+      "LANIER"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Lowndes County",
+     "strings": [
+      "LOWNDES"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Houston County",
+     "strings": [
+      "HOUSTON"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Peach County",
+     "strings": [
+      "PEACH"
+     ]
+    },
+    {
+     "state": "GA",
+     "county": "Pulaski County",
+     "strings": [
+      "PULASKI"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [
+    {
+     "state": "GA",
+     "county": "Echols County"
+    }
+   ],
+   "basis": "union of two CBSAs named by the heading: Valdosta (Brooks, Echols, Lanier, Lowndes) and Warner Robins (Houston, Peach, Pulaski); member lists from memory, unverified",
+   "reason": "Heading joins the Valdosta and Warner Robins metros, which are separate CBSAs.",
+   "review": true
+  },
+  {
+   "state": "hawaii",
+   "state_postal": "HI",
+   "slug": "oahu",
+   "page_title": "Honolulu / Oahu",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "HI",
+     "name": "Honolulu County",
+     "fips": "15003",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "HI",
+     "county": "Honolulu County",
+     "strings": [
+      "HONOLULU"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Honolulu / Oahu)",
+   "reason": "Honolulu County is the island of Oahu and is also the Urban Honolulu CBSA.",
+   "review": false
+  },
+  {
+   "state": "hawaii",
+   "state_postal": "HI",
+   "slug": "kapolei",
+   "page_title": "Kapolei / Ewa",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "HI",
+     "name": "Honolulu County",
+     "fips": "15003",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "HI",
+     "name": "Kapolei CDP",
+     "geoid": null,
+     "geoid_verified": false,
+     "counties": [
+      "Honolulu County"
+     ],
+     "cousub": null
+    },
+    {
+     "state": "HI",
+     "name": "Ewa Beach CDP",
+     "name_variants": [
+      "ʻEwa Beach CDP"
+     ],
+     "geoid": null,
+     "geoid_verified": false,
+     "counties": [
+      "Honolulu County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "HI",
+     "county": "Honolulu County",
+     "strings": [
+      "HONOLULU"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "Census places inside Honolulu County on Oahu; place GEOIDs not known",
+   "reason": "Kapolei / Ewa is a growth corridor, not a Census place; Kapolei and Ewa Beach CDPs are the closest places, so reach is ambiguous.",
+   "review": true
+  },
+  {
+   "state": "hawaii",
+   "state_postal": "HI",
+   "slug": "maui",
+   "page_title": "Maui County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "HI",
+     "name": "Maui County",
+     "fips": "15009",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "HI",
+     "county": "Maui County",
+     "strings": [
+      "MAUI"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Maui County)",
+   "reason": "Maui County (the Kahului-Wailuku-Lahaina CBSA).",
+   "review": false
+  },
+  {
+   "state": "hawaii",
+   "state_postal": "HI",
+   "slug": "lahaina",
+   "page_title": "West Maui / Lahaina",
+   "kind": "tract-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "HI",
+     "name": "Maui County",
+     "fips": "15009",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "HI",
+     "county": "Maui County",
+     "strings": [
+      "MAUI"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "sub-county submarket inside Maui County; no federal geography fits exactly",
+   "reason": "West Maui / Lahaina is a submarket smaller than a county, wider than the Lahaina CDP; tract list to be chosen from the Census tracts on West Maui.",
+   "review": true,
+   "tract_set_description": "Census tracts covering West Maui (the Lahaina CDP plus the Kaanapali, Napili-Honokowai and Kapalua resort areas) within Maui County"
+  },
+  {
+   "state": "hawaii",
+   "state_postal": "HI",
+   "slug": "hawaii-island",
+   "page_title": "Hawaii Island (Big Island)",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "HI",
+     "name": "Hawaii County",
+     "fips": "15001",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "HI",
+     "county": "Hawaii County",
+     "strings": [
+      "HAWAII"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Hawaii Island)",
+   "reason": "Hawaii County, the Big Island (the Hilo micropolitan area).",
+   "review": false
+  },
+  {
+   "state": "hawaii",
+   "state_postal": "HI",
+   "slug": "kauai",
+   "page_title": "Kauai",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "HI",
+     "name": "Kauai County",
+     "fips": "15007",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "HI",
+     "county": "Kauai County",
+     "strings": [
+      "KAUAI"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county the state page names (heading: Kauai)",
+   "reason": "Kauai County (includes Niihau).",
+   "review": false
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "chicago",
+   "page_title": "Chicago",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "16980",
+    "title": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Cook County",
+     "fips": "17031",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "DeKalb County",
+     "fips": "17037",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "DuPage County",
+     "fips": "17043",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Grundy County",
+     "fips": "17063",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Kane County",
+     "fips": "17089",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Kendall County",
+     "fips": "17093",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Lake County",
+     "fips": "17097",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "McHenry County",
+     "fips": "17111",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Will County",
+     "fips": "17197",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Jasper County",
+     "fips": "18073",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Lake County",
+     "fips": "18089",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Newton County",
+     "fips": "18111",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Porter County",
+     "fips": "18127",
+     "fips_verified": false
+    },
+    {
+     "state": "WI",
+     "name": "Kenosha County",
+     "fips": "55059",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Cook County",
+     "strings": [
+      "COOK"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "DeKalb County",
+     "strings": [
+      "DEKALB"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "DuPage County",
+     "strings": [
+      "DUPAGE"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Grundy County",
+     "strings": [
+      "GRUNDY"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Kane County",
+     "strings": [
+      "KANE"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Kendall County",
+     "strings": [
+      "KENDALL"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Lake County",
+     "strings": [
+      "LAKE"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "McHenry County",
+     "strings": [
+      "MCHENRY"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Will County",
+     "strings": [
+      "WILL"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Jasper County",
+     "strings": [
+      "JASPER"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Lake County",
+     "strings": [
+      "LAKE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Newton County",
+     "strings": [
+      "NEWTON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Porter County",
+     "strings": [
+      "PORTER"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Kenosha County",
+     "strings": [
+      "KENOSHA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 16980 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Page uses the full tri-state CBSA as the market; the Indiana and Wisconsin counties lie outside this page state.",
+   "review": true
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "rockford",
+   "page_title": "Rockford",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "40420",
+    "title": "Rockford, IL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Boone County",
+     "fips": "17007",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Winnebago County",
+     "fips": "17201",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Boone County",
+     "strings": [
+      "BOONE"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Winnebago County",
+     "strings": [
+      "WINNEBAGO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 40420 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Rockford metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "peoria",
+   "page_title": "Peoria",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "37900",
+    "title": "Peoria, IL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Marshall County",
+     "fips": "17123",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Peoria County",
+     "fips": "17143",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Stark County",
+     "fips": "17175",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Tazewell County",
+     "fips": "17179",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Woodford County",
+     "fips": "17203",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Marshall County",
+     "strings": [
+      "MARSHALL"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Peoria County",
+     "strings": [
+      "PEORIA"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Stark County",
+     "strings": [
+      "STARK"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Tazewell County",
+     "strings": [
+      "TAZEWELL"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Woodford County",
+     "strings": [
+      "WOODFORD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 37900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Peoria metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "springfield",
+   "page_title": "Springfield",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "44100",
+    "title": "Springfield, IL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Menard County",
+     "fips": "17129",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Sangamon County",
+     "fips": "17167",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Menard County",
+     "strings": [
+      "MENARD"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Sangamon County",
+     "strings": [
+      "SANGAMON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 44100 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Springfield metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "champaign-urbana",
+   "page_title": "Champaign–Urbana",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "16580",
+    "title": "Champaign-Urbana, IL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Champaign County",
+     "fips": "17019",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Ford County",
+     "fips": "17053",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Piatt County",
+     "fips": "17147",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Champaign County",
+     "strings": [
+      "CHAMPAIGN"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Ford County",
+     "strings": [
+      "FORD"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Piatt County",
+     "strings": [
+      "PIATT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 16580 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the Champaign-Urbana CBSA title.",
+   "review": false
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "bloomington-normal",
+   "page_title": "Bloomington–Normal",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "14010",
+    "title": "Bloomington, IL",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IL",
+     "name": "McLean County",
+     "fips": "17113",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "McLean County",
+     "strings": [
+      "MCLEAN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 14010 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Bloomington-Normal metro, a one-county CBSA (McLean County).",
+   "review": false
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "quad-cities",
+   "page_title": "Quad Cities",
+   "kind": "cross-state",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Henry County",
+     "fips": "17073",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Mercer County",
+     "fips": "17131",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Rock Island County",
+     "fips": "17161",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": {
+    "parts": [
+     {
+      "state": "IL",
+      "counties": [
+       "Henry County",
+       "Mercer County",
+       "Rock Island County"
+      ],
+      "in_market": true
+     },
+     {
+      "state": "IA",
+      "counties": [
+       "Scott County"
+      ],
+      "in_market": false
+     }
+    ],
+    "this_page_part": "IL",
+    "note": "Iowa side (Scott County) is covered by the iowa quad-cities row"
+   },
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Henry County",
+     "strings": [
+      "HENRY"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Mercer County",
+     "strings": [
+      "MERCER"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Rock Island County",
+     "strings": [
+      "ROCK ISLAND"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "Davenport-Moline-Rock Island, IA-IL CBSA 19340; this page covers the Illinois side only; counties unverified",
+   "reason": "Page text describes only the Illinois side of the bi-state metro, so this row keeps Henry, Mercer and Rock Island counties.",
+   "review": true
+  },
+  {
+   "state": "illinois",
+   "state_postal": "IL",
+   "slug": "metro-east",
+   "page_title": "Metro East",
+   "kind": "cross-state",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IL",
+     "name": "Madison County",
+     "fips": "17119",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "St. Clair County",
+     "fips": "17163",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": {
+    "parts": [
+     {
+      "state": "IL",
+      "counties": [
+       "Madison County",
+       "St. Clair County"
+      ],
+      "in_market": true
+     },
+     {
+      "state": "MO",
+      "counties": [],
+      "in_market": false,
+      "note": "Missouri side of the St. Louis CBSA (St. Louis city, St. Louis County and others) is not in this market"
+     }
+    ],
+    "this_page_part": "IL",
+    "note": "other Illinois counties of the St. Louis CBSA (Bond, Calhoun, Clinton, Jersey, Macoupin, Monroe) are not named by the page"
+   },
+   "foia_county_strings": [
+    {
+     "state": "IL",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "St. Clair County",
+     "strings": [
+      "SAINT CLAIR"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names (St. Clair and Madison); Illinois side of the St. Louis, MO-IL CBSA 41180",
+   "reason": "Page text names St. Clair and Madison counties as the Illinois side of the St. Louis metro; the Missouri side is not in this market.",
+   "review": true
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "indianapolis",
+   "page_title": "Indianapolis–Carmel–Greenwood",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "26900",
+    "title": "Indianapolis-Carmel-Greenwood, IN",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Boone County",
+     "fips": "18011",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Brown County",
+     "fips": "18013",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Hamilton County",
+     "fips": "18057",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Hancock County",
+     "fips": "18059",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Hendricks County",
+     "fips": "18063",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Johnson County",
+     "fips": "18081",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Madison County",
+     "fips": "18095",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Marion County",
+     "fips": "18097",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Morgan County",
+     "fips": "18109",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Putnam County",
+     "fips": "18133",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Shelby County",
+     "fips": "18145",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Boone County",
+     "strings": [
+      "BOONE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Brown County",
+     "strings": [
+      "BROWN"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Hamilton County",
+     "strings": [
+      "HAMILTON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Hancock County",
+     "strings": [
+      "HANCOCK"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Hendricks County",
+     "strings": [
+      "HENDRICKS"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Johnson County",
+     "strings": [
+      "JOHNSON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Marion County",
+     "strings": [
+      "MARION"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Morgan County",
+     "strings": [
+      "MORGAN"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Putnam County",
+     "strings": [
+      "PUTNAM"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Shelby County",
+     "strings": [
+      "SHELBY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 26900 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title; the text says an eleven-county metro.",
+   "review": false
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "carmel",
+   "page_title": "Hamilton, Boone & Hendricks collar",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Hamilton County",
+     "fips": "18057",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Boone County",
+     "fips": "18011",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Hendricks County",
+     "fips": "18063",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Hamilton County",
+     "strings": [
+      "HAMILTON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Boone County",
+     "strings": [
+      "BOONE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Hendricks County",
+     "strings": [
+      "HENDRICKS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Hamilton, Boone and Hendricks counties.",
+   "review": false
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "fort-wayne",
+   "page_title": "Fort Wayne",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "23060",
+    "title": "Fort Wayne, IN",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Allen County",
+     "fips": "18003",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Wells County",
+     "fips": "18179",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Whitley County",
+     "fips": "18183",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Allen County",
+     "strings": [
+      "ALLEN"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Wells County",
+     "strings": [
+      "WELLS"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Whitley County",
+     "strings": [
+      "WHITLEY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 23060 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Fort Wayne metro; the text cites Allen County, the core of the three-county CBSA.",
+   "review": false
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "northwest-indiana",
+   "page_title": "Northwest Indiana / the Region",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Lake County",
+     "fips": "18089",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Porter County",
+     "fips": "18127",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Lake County",
+     "strings": [
+      "LAKE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Porter County",
+     "strings": [
+      "PORTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Page text names Lake and Porter counties (inside the Chicago CBSA); Jasper, Newton and LaPorte are not named.",
+   "review": false
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "bloomington",
+   "page_title": "Bloomington & West Lafayette",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Monroe County",
+     "fips": "18105",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Owen County",
+     "fips": "18119",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Greene County",
+     "fips": "18055",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Tippecanoe County",
+     "fips": "18157",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Benton County",
+     "fips": "18007",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Carroll County",
+     "fips": "18015",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Monroe County",
+     "strings": [
+      "MONROE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Owen County",
+     "strings": [
+      "OWEN"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Greene County",
+     "strings": [
+      "GREENE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Tippecanoe County",
+     "strings": [
+      "TIPPECANOE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Benton County",
+     "strings": [
+      "BENTON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Carroll County",
+     "strings": [
+      "CARROLL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of two CBSAs named by the heading: Bloomington (Monroe, Owen, Greene) and Lafayette-West Lafayette (Tippecanoe, Benton, Carroll); member lists from memory, unverified",
+   "reason": "Heading joins the Bloomington and West Lafayette metros; Tippecanoe overlaps the kokomo market.",
+   "review": true
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "elkhart",
+   "page_title": "Elkhart & South Bend",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Elkhart County",
+     "fips": "18039",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "St. Joseph County",
+     "fips": "18141",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Elkhart County",
+     "strings": [
+      "ELKHART"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "St. Joseph County",
+     "strings": [
+      "ST JOSEPH"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of two CBSAs named by the heading: Elkhart-Goshen (Elkhart) and South Bend-Mishawaka (St. Joseph, IN part); member lists from memory, unverified",
+   "reason": "Heading joins Elkhart and South Bend; Cass County, MI, in the South Bend CBSA, is left out as outside this page state.",
+   "review": true
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "kokomo",
+   "page_title": "Kokomo & Lafayette",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Howard County",
+     "fips": "18067",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Tipton County",
+     "fips": "18159",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Tippecanoe County",
+     "fips": "18157",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Benton County",
+     "fips": "18007",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Carroll County",
+     "fips": "18015",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Howard County",
+     "strings": [
+      "HOWARD"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Tipton County",
+     "strings": [
+      "TIPTON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Tippecanoe County",
+     "strings": [
+      "TIPPECANOE"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Benton County",
+     "strings": [
+      "BENTON"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Carroll County",
+     "strings": [
+      "CARROLL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of two CBSAs named by the heading: Kokomo (Howard, Tipton) and Lafayette-West Lafayette (Tippecanoe, Benton, Carroll); member lists from memory, unverified",
+   "reason": "Heading joins the Kokomo and Lafayette metros; Tippecanoe overlaps the bloomington market.",
+   "review": true
+  },
+  {
+   "state": "indiana",
+   "state_postal": "IN",
+   "slug": "warsaw",
+   "page_title": "Warsaw, Columbus & Evansville",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IN",
+     "name": "Kosciusko County",
+     "fips": "18085",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Bartholomew County",
+     "fips": "18005",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Vanderburgh County",
+     "fips": "18163",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Warrick County",
+     "fips": "18173",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Posey County",
+     "fips": "18129",
+     "fips_verified": false
+    },
+    {
+     "state": "IN",
+     "name": "Gibson County",
+     "fips": "18051",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IN",
+     "county": "Kosciusko County",
+     "strings": [
+      "KOSCIUSKO"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Bartholomew County",
+     "strings": [
+      "BARTHOLOMEW"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Vanderburgh County",
+     "strings": [
+      "VANDERBURGH"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Warrick County",
+     "strings": [
+      "WARRICK"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Posey County",
+     "strings": [
+      "POSEY"
+     ]
+    },
+    {
+     "state": "IN",
+     "county": "Gibson County",
+     "strings": [
+      "GIBSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of three CBSAs named by the heading: Warsaw (Kosciusko), Columbus (Bartholomew), Evansville (IN part); member lists from memory, unverified",
+   "reason": "Heading joins three unrelated metros; Henderson and Webster counties, KY, in the Evansville CBSA are left out as outside this page state.",
+   "review": true
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "des-moines",
+   "page_title": "Des Moines–West Des Moines",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "19780",
+    "title": "Des Moines-West Des Moines, IA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Dallas County",
+     "fips": "19049",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Guthrie County",
+     "fips": "19077",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Jasper County",
+     "fips": "19099",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Madison County",
+     "fips": "19121",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Polk County",
+     "fips": "19153",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Warren County",
+     "fips": "19181",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Dallas County",
+     "strings": [
+      "DALLAS"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Guthrie County",
+     "strings": [
+      "GUTHRIE"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Jasper County",
+     "strings": [
+      "JASPER"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Polk County",
+     "strings": [
+      "POLK"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Warren County",
+     "strings": [
+      "WARREN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 19780 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title; the text says a six-county metro.",
+   "review": false
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "cedar-rapids",
+   "page_title": "Cedar Rapids",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "16300",
+    "title": "Cedar Rapids, IA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Benton County",
+     "fips": "19011",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Jones County",
+     "fips": "19105",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Linn County",
+     "fips": "19113",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Benton County",
+     "strings": [
+      "BENTON"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Jones County",
+     "strings": [
+      "JONES"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Linn County",
+     "strings": [
+      "LINN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 16300 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Cedar Rapids metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "iowa-city",
+   "page_title": "Iowa City",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "26980",
+    "title": "Iowa City, IA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Johnson County",
+     "fips": "19103",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Washington County",
+     "fips": "19183",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Johnson County",
+     "strings": [
+      "JOHNSON"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 26980 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading names the Iowa City metro, one CBSA.",
+   "review": false
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "quad-cities",
+   "page_title": "Quad Cities",
+   "kind": "cross-state",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Scott County",
+     "fips": "19163",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Henry County",
+     "fips": "17073",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Mercer County",
+     "fips": "17131",
+     "fips_verified": false
+    },
+    {
+     "state": "IL",
+     "name": "Rock Island County",
+     "fips": "17161",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": {
+    "parts": [
+     {
+      "state": "IA",
+      "counties": [
+       "Scott County"
+      ],
+      "in_market": true
+     },
+     {
+      "state": "IL",
+      "counties": [
+       "Henry County",
+       "Mercer County",
+       "Rock Island County"
+      ],
+      "in_market": true
+     }
+    ],
+    "this_page_part": "IA",
+    "note": "Iowa part is Scott County; the illinois quad-cities row keeps the Illinois side only"
+   },
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Scott County",
+     "strings": [
+      "SCOTT"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Henry County",
+     "strings": [
+      "HENRY"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Mercer County",
+     "strings": [
+      "MERCER"
+     ]
+    },
+    {
+     "state": "IL",
+     "county": "Rock Island County",
+     "strings": [
+      "ROCK ISLAND"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "Davenport-Moline-Rock Island, IA-IL CBSA 19340 (whole bi-state metro); counties unverified",
+   "reason": "Page text describes the whole bi-state metro, so this row spans all four counties; the Illinois page covers the Illinois side only.",
+   "review": true
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "waterloo-cedar-falls",
+   "page_title": "Waterloo–Cedar Falls",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "47940",
+    "title": "Waterloo-Cedar Falls, IA",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Black Hawk County",
+     "fips": "19013",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Bremer County",
+     "fips": "19017",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Grundy County",
+     "fips": "19075",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Black Hawk County",
+     "strings": [
+      "BLACK HAWK"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Bremer County",
+     "strings": [
+      "BREMER"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Grundy County",
+     "strings": [
+      "GRUNDY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 47940 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Heading matches the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "sioux-city",
+   "page_title": "Sioux City",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "43580",
+    "title": "Sioux City, IA-NE-SD",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Plymouth County",
+     "fips": "19149",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Woodbury County",
+     "fips": "19193",
+     "fips_verified": false
+    },
+    {
+     "state": "NE",
+     "name": "Dakota County",
+     "fips": "31043",
+     "fips_verified": false
+    },
+    {
+     "state": "NE",
+     "name": "Dixon County",
+     "fips": "31051",
+     "fips_verified": false
+    },
+    {
+     "state": "SD",
+     "name": "Union County",
+     "fips": "46127",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Plymouth County",
+     "strings": [
+      "PLYMOUTH"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Woodbury County",
+     "strings": [
+      "WOODBURY"
+     ]
+    },
+    {
+     "state": "NE",
+     "county": "Dakota County",
+     "strings": [
+      "DAKOTA"
+     ]
+    },
+    {
+     "state": "NE",
+     "county": "Dixon County",
+     "strings": [
+      "DIXON"
+     ]
+    },
+    {
+     "state": "SD",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "CBSA 43580 (OMB Bulletin 23-01); counties unverified pending the delineation file",
+   "reason": "Page text calls it a tri-state market, which is the Sioux City IA-NE-SD CBSA; Nebraska and South Dakota counties lie outside this page state.",
+   "review": true
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "council-bluffs",
+   "page_title": "Council Bluffs",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Pottawattamie County",
+     "fips": "19155",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "IA",
+     "name": "Council Bluffs city",
+     "geoid": "1916860",
+     "geoid_verified": false,
+     "counties": [
+      "Pottawattamie County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "IA",
+     "county": "Pottawattamie County",
+     "strings": [
+      "POTTAWATTAMIE"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "Census place named by the heading, inside Pottawattamie County; place GEOID unverified",
+   "reason": "Council Bluffs city sits in the bi-state Omaha-Council Bluffs CBSA (36540); text calls it a distinct sub-economy, so reach is ambiguous.",
+   "review": true
+  },
+  {
+   "state": "iowa",
+   "state_postal": "IA",
+   "slug": "ames",
+   "page_title": "Ames / Dubuque",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "IA",
+     "name": "Story County",
+     "fips": "19169",
+     "fips_verified": false
+    },
+    {
+     "state": "IA",
+     "name": "Dubuque County",
+     "fips": "19061",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "IA",
+     "county": "Story County",
+     "strings": [
+      "STORY"
+     ]
+    },
+    {
+     "state": "IA",
+     "county": "Dubuque County",
+     "strings": [
+      "DUBUQUE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "union of two CBSAs named by the heading: Ames (Story) and Dubuque (Dubuque); member lists from memory, unverified",
+   "reason": "Heading joins the Ames and Dubuque metros, each a one-county CBSA.",
+   "review": true
+  }
+ ]
+}

@@ -1,0 +1,5600 @@
+{
+ "group": 2,
+ "markets": [
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "portland",
+   "page_title": "Greater Portland",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Cumberland County",
+     "fips": "23005",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Cumberland County",
+     "strings": [
+      "CUMBERLAND"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county named in the page text",
+   "reason": "Text anchors the market on Cumberland County; the Portland CBSA would add Sagadahoc and York, which are separate markets here.",
+   "review": true
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "york-county",
+   "page_title": "York County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "ME",
+     "name": "York County",
+     "fips": "23031",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "York County",
+     "strings": [
+      "YORK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Heading is York County.",
+   "review": false
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "bangor",
+   "page_title": "Bangor (Penobscot)",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "12620",
+    "title": "Bangor, ME",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Penobscot County",
+     "fips": "23019",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Penobscot County",
+     "strings": [
+      "PENOBSCOT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading names Bangor (Penobscot); the Bangor metro CBSA is Penobscot County alone.",
+   "review": false
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "lewiston-auburn",
+   "page_title": "Lewiston–Auburn",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "30340",
+    "title": "Lewiston-Auburn, ME",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Androscoggin County",
+     "fips": "23001",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Androscoggin County",
+     "strings": [
+      "ANDROSCOGGIN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA name; text names Androscoggin County, the sole member.",
+   "review": false
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "midcoast",
+   "page_title": "Midcoast (Knox & Lincoln)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Knox County",
+     "fips": "23013",
+     "fips_verified": false
+    },
+    {
+     "state": "ME",
+     "name": "Lincoln County",
+     "fips": "23015",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Knox County",
+     "strings": [
+      "KNOX"
+     ]
+    },
+    {
+     "state": "ME",
+     "county": "Lincoln County",
+     "strings": [
+      "LINCOLN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Knox and Lincoln; Waldo and Sagadahoc are sometimes counted as Midcoast but the page does not.",
+   "review": false
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "bar-harbor",
+   "page_title": "Bar Harbor / Downeast",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Hancock County",
+     "fips": "23009",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Hancock County",
+     "strings": [
+      "HANCOCK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county named in the page text",
+   "reason": "Text names Hancock County; heading adds Bar Harbor town and Downeast, which is often Hancock plus Washington counties.",
+   "review": true
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "bath",
+   "page_title": "Bath (Sagadahoc)",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Sagadahoc County",
+     "fips": "23023",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Sagadahoc County",
+     "strings": [
+      "SAGADAHOC"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading and text name Sagadahoc County; Bath city lies in it and the county sits inside the Portland CBSA.",
+   "review": false
+  },
+  {
+   "state": "maine",
+   "state_postal": "ME",
+   "slug": "aroostook",
+   "page_title": "Aroostook / The County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "ME",
+     "name": "Aroostook County",
+     "fips": "23003",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "ME",
+     "county": "Aroostook County",
+     "strings": [
+      "AROOSTOOK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Heading is Aroostook County (the same county forms the Presque Isle micropolitan CBSA).",
+   "review": false
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "montgomery-county",
+   "page_title": "Montgomery County (Bethesda / Rockville / Gaithersburg)",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Montgomery County",
+     "fips": "24031",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Montgomery County",
+     "strings": [
+      "MONTGOMERY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Heading is Montgomery County; the towns in brackets lie inside it.",
+   "review": false
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "prince-georges-county",
+   "page_title": "Prince George's County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Prince George's County",
+     "fips": "24033",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Prince George's County",
+     "strings": [
+      "PRINCE GEORGES"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Heading is Prince George's County.",
+   "review": false
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "baltimore",
+   "page_title": "Baltimore City",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Baltimore city",
+     "fips": "24510",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Baltimore city",
+     "strings": [
+      "BALTIMORE CITY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Independent city (county equivalent, 24510); FOIA 'BALTIMORE CITY' is the city string, 'BALTIMORE' is Baltimore County (see bwi-corridor) and is ambiguous with the city in raw loan data.",
+   "review": false
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "bwi-corridor",
+   "page_title": "Baltimore County, Anne Arundel & Howard",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Baltimore County",
+     "fips": "24005",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Anne Arundel County",
+     "fips": "24003",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Howard County",
+     "fips": "24027",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Baltimore County",
+     "strings": [
+      "BALTIMORE"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Anne Arundel County",
+     "strings": [
+      "ANNE ARUNDEL"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Howard County",
+     "strings": [
+      "HOWARD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Baltimore County, Anne Arundel and Howard; FOIA 'BALTIMORE' is Baltimore County but may also hold some Baltimore city loans.",
+   "review": false
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "frederick",
+   "page_title": "Frederick County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Frederick County",
+     "fips": "24021",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Frederick County",
+     "strings": [
+      "FREDERICK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Heading is Frederick County.",
+   "review": false
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "eastern-shore",
+   "page_title": "Eastern Shore (Salisbury / Ocean City)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Caroline County",
+     "fips": "24011",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Cecil County",
+     "fips": "24015",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Dorchester County",
+     "fips": "24019",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Kent County",
+     "fips": "24029",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Queen Anne's County",
+     "fips": "24035",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Somerset County",
+     "fips": "24039",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Talbot County",
+     "fips": "24041",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Wicomico County",
+     "fips": "24045",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Worcester County",
+     "fips": "24047",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Caroline County",
+     "strings": [
+      "CAROLINE"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Cecil County",
+     "strings": [
+      "CECIL"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Dorchester County",
+     "strings": [
+      "DORCHESTER"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Kent County",
+     "strings": [
+      "KENT"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Queen Anne's County",
+     "strings": [
+      "QUEEN ANNES"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Somerset County",
+     "strings": [
+      "SOMERSET"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Talbot County",
+     "strings": [
+      "TALBOT"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Wicomico County",
+     "strings": [
+      "WICOMICO"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Worcester County",
+     "strings": [
+      "WORCESTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Nine Maryland counties east of the Chesapeake Bay; the heading stresses Salisbury (Wicomico) and Ocean City (Worcester), and Cecil is the most debatable member.",
+   "review": true
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "western-maryland",
+   "page_title": "Western Maryland (Hagerstown / Cumberland)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Garrett County",
+     "fips": "24023",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Allegany County",
+     "fips": "24001",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Washington County",
+     "fips": "24043",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Garrett County",
+     "strings": [
+      "GARRETT"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Allegany County",
+     "strings": [
+      "ALLEGANY"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Heading names Hagerstown (Washington County) and Cumberland (Allegany); text adds Garrett; Frederick is its own market.",
+   "review": true
+  },
+  {
+   "state": "maryland",
+   "state_postal": "MD",
+   "slug": "southern-maryland",
+   "page_title": "Southern Maryland (Charles / Calvert / St. Mary's)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MD",
+     "name": "Charles County",
+     "fips": "24017",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "Calvert County",
+     "fips": "24009",
+     "fips_verified": false
+    },
+    {
+     "state": "MD",
+     "name": "St. Mary's County",
+     "fips": "24037",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MD",
+     "county": "Charles County",
+     "strings": [
+      "CHARLES"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "Calvert County",
+     "strings": [
+      "CALVERT"
+     ]
+    },
+    {
+     "state": "MD",
+     "county": "St. Mary's County",
+     "strings": [
+      "SAINT MARYS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Charles, Calvert and St. Mary's.",
+   "review": false
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "boston",
+   "page_title": "Greater Boston",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "14460",
+    "title": "Boston-Cambridge-Newton, MA-NH",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Essex County",
+     "fips": "25009",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Middlesex County",
+     "fips": "25017",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Norfolk County",
+     "fips": "25021",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Plymouth County",
+     "fips": "25023",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Suffolk County",
+     "fips": "25025",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NH",
+     "name": "Rockingham County",
+     "fips": "33015",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NH",
+     "name": "Strafford County",
+     "fips": "33017",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MA",
+     "county": "Essex County",
+     "strings": [
+      "ESSEX"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Middlesex County",
+     "strings": [
+      "MIDDLESEX"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Norfolk County",
+     "strings": [
+      "NORFOLK"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Plymouth County",
+     "strings": [
+      "PLYMOUTH"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Suffolk County",
+     "strings": [
+      "SUFFOLK"
+     ]
+    },
+    {
+     "state": "NH",
+     "county": "Rockingham County",
+     "strings": [
+      "ROCKINGHAM"
+     ]
+    },
+    {
+     "state": "NH",
+     "county": "Strafford County",
+     "strings": [
+      "STRAFFORD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Greater Boston read as the Boston CBSA (page describes a metro of that scale); its two New Hampshire counties are outside this state.",
+   "review": false
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "cambridge",
+   "page_title": "Cambridge & Kendall Square",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Middlesex County",
+     "fips": "25017",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "MA",
+     "name": "Cambridge city",
+     "geoid": "2511000",
+     "counties": [
+      "Middlesex County"
+     ],
+     "cousub": "Cambridge city",
+     "geoid_verified": false
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "MA",
+     "county": "Middlesex County",
+     "strings": [
+      "MIDDLESEX"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Heading names Cambridge; Kendall Square is a neighbourhood inside Cambridge city.",
+   "review": false
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "worcester",
+   "page_title": "Worcester & the I-495 Belt",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Worcester County",
+     "fips": "25027",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MA",
+     "county": "Worcester County",
+     "strings": [
+      "WORCESTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Core county only; the I-495 belt in the heading spans several counties and Devens lies partly in Middlesex County.",
+   "review": true
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "springfield",
+   "page_title": "Springfield & the Pioneer Valley",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Hampden County",
+     "fips": "25013",
+     "fips_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Hampshire County",
+     "fips": "25015",
+     "fips_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Franklin County",
+     "fips": "25011",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MA",
+     "county": "Hampden County",
+     "strings": [
+      "HAMPDEN"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Hampshire County",
+     "strings": [
+      "HAMPSHIRE"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Franklin County",
+     "strings": [
+      "FRANKLIN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Pioneer Valley as commonly bounded is Hampden, Hampshire and Franklin; Berkshire has its own market.",
+   "review": true
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "lowell",
+   "page_title": "Merrimack Valley — Lowell & Lawrence",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Middlesex County",
+     "fips": "25017",
+     "fips_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Essex County",
+     "fips": "25009",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "MA",
+     "name": "Lowell city",
+     "geoid": null,
+     "counties": [
+      "Middlesex County"
+     ],
+     "cousub": "Lowell city"
+    },
+    {
+     "state": "MA",
+     "name": "Lawrence city",
+     "geoid": null,
+     "counties": [
+      "Essex County"
+     ],
+     "cousub": "Lawrence city"
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "MA",
+     "county": "Middlesex County",
+     "strings": [
+      "MIDDLESEX"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Essex County",
+     "strings": [
+      "ESSEX"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "cities named by the page heading",
+   "reason": "Heading names two cities in different counties; the wider Merrimack Valley has no federal definition and both cities sit in the Boston CBSA.",
+   "review": true
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "new-bedford",
+   "page_title": "New Bedford & Fall River",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Bristol County",
+     "fips": "25005",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "MA",
+     "name": "New Bedford city",
+     "geoid": null,
+     "counties": [
+      "Bristol County"
+     ],
+     "cousub": "New Bedford city"
+    },
+    {
+     "state": "MA",
+     "name": "Fall River city",
+     "geoid": null,
+     "counties": [
+      "Bristol County"
+     ],
+     "cousub": "Fall River city"
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "MA",
+     "county": "Bristol County",
+     "strings": [
+      "BRISTOL"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "cities named by the page heading",
+   "reason": "Heading names two cities, both in Bristol County; the text widens this to the South Coast.",
+   "review": true
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "berkshires",
+   "page_title": "Berkshires & Western Massachusetts",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Berkshire County",
+     "fips": "25003",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MA",
+     "county": "Berkshire County",
+     "strings": [
+      "BERKSHIRE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Berkshire County; the rest of Western Massachusetts overlaps the springfield market and is left there.",
+   "review": true
+  },
+  {
+   "state": "massachusetts",
+   "state_postal": "MA",
+   "slug": "cape-cod",
+   "page_title": "Cape Cod & the Islands",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MA",
+     "name": "Barnstable County",
+     "fips": "25001",
+     "fips_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Dukes County",
+     "fips": "25007",
+     "fips_verified": false
+    },
+    {
+     "state": "MA",
+     "name": "Nantucket County",
+     "fips": "25019",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MA",
+     "county": "Barnstable County",
+     "strings": [
+      "BARNSTABLE"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Dukes County",
+     "strings": [
+      "DUKES"
+     ]
+    },
+    {
+     "state": "MA",
+     "county": "Nantucket County",
+     "strings": [
+      "NANTUCKET"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Text names Barnstable, Martha's Vineyard and Nantucket; the Vineyard lies in Dukes County, which also holds the Elizabeth Islands.",
+   "review": false
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "detroit",
+   "page_title": "Detroit–Warren–Dearborn",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "19820",
+    "title": "Detroit-Warren-Dearborn, MI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Wayne County",
+     "fips": "26163",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Oakland County",
+     "fips": "26125",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Macomb County",
+     "fips": "26099",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Lapeer County",
+     "fips": "26087",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Livingston County",
+     "fips": "26093",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "St. Clair County",
+     "fips": "26147",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Wayne County",
+     "strings": [
+      "WAYNE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Oakland County",
+     "strings": [
+      "OAKLAND"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Macomb County",
+     "strings": [
+      "MACOMB"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Lapeer County",
+     "strings": [
+      "LAPEER"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Livingston County",
+     "strings": [
+      "LIVINGSTON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "St. Clair County",
+     "strings": [
+      "SAINT CLAIR"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA title.",
+   "review": false
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "grand-rapids",
+   "page_title": "Grand Rapids / West Michigan",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "24340",
+    "title": "Grand Rapids-Wyoming-Kentwood, MI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Barry County",
+     "fips": "26015",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Kent County",
+     "fips": "26081",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Montcalm County",
+     "fips": "26117",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Ottawa County",
+     "fips": "26139",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Barry County",
+     "strings": [
+      "BARRY"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Kent County",
+     "strings": [
+      "KENT"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Montcalm County",
+     "strings": [
+      "MONTCALM"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Ottawa County",
+     "strings": [
+      "OTTAWA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading adds West Michigan, which is broader than the Grand Rapids CBSA.",
+   "review": true
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "ann-arbor",
+   "page_title": "Ann Arbor",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "11460",
+    "title": "Ann Arbor, MI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Washtenaw County",
+     "fips": "26161",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Washtenaw County",
+     "strings": [
+      "WASHTENAW"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Ann Arbor CBSA is Washtenaw County alone.",
+   "review": false
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "lansing",
+   "page_title": "Lansing–East Lansing",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "29620",
+    "title": "Lansing-East Lansing, MI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Clinton County",
+     "fips": "26037",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Eaton County",
+     "fips": "26045",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Ingham County",
+     "fips": "26065",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Shiawassee County",
+     "fips": "26155",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Clinton County",
+     "strings": [
+      "CLINTON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Eaton County",
+     "strings": [
+      "EATON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Ingham County",
+     "strings": [
+      "INGHAM"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Shiawassee County",
+     "strings": [
+      "SHIAWASSEE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA name.",
+   "review": false
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "kalamazoo",
+   "page_title": "Kalamazoo",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "28020",
+    "title": "Kalamazoo-Portage, MI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Kalamazoo County",
+     "fips": "26077",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Van Buren County",
+     "fips": "26159",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Kalamazoo County",
+     "strings": [
+      "KALAMAZOO"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Van Buren County",
+     "strings": [
+      "VAN BUREN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading names Kalamazoo; CBSA membership recalled from the earlier delineation.",
+   "review": false
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "flint",
+   "page_title": "Flint / Saginaw",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Genesee County",
+     "fips": "26049",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Saginaw County",
+     "fips": "26145",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Genesee County",
+     "strings": [
+      "GENESEE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Saginaw County",
+     "strings": [
+      "SAGINAW"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Heading names two metros (Flint CBSA 22420 is Genesee, Saginaw CBSA 40980 is Saginaw); neither alone is the market.",
+   "review": true
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "traverse-city",
+   "page_title": "Traverse City / Northern Michigan",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Antrim County",
+     "fips": "26009",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Benzie County",
+     "fips": "26019",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Charlevoix County",
+     "fips": "26029",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Emmet County",
+     "fips": "26047",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Grand Traverse County",
+     "fips": "26055",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Kalkaska County",
+     "fips": "26079",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Leelanau County",
+     "fips": "26089",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Manistee County",
+     "fips": "26101",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Missaukee County",
+     "fips": "26113",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Wexford County",
+     "fips": "26165",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Antrim County",
+     "strings": [
+      "ANTRIM"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Benzie County",
+     "strings": [
+      "BENZIE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Charlevoix County",
+     "strings": [
+      "CHARLEVOIX"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Emmet County",
+     "strings": [
+      "EMMET"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Grand Traverse County",
+     "strings": [
+      "GRAND TRAVERSE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Kalkaska County",
+     "strings": [
+      "KALKASKA"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Leelanau County",
+     "strings": [
+      "LEELANAU"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Manistee County",
+     "strings": [
+      "MANISTEE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Missaukee County",
+     "strings": [
+      "MISSAUKEE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Wexford County",
+     "strings": [
+      "WEXFORD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Page cites a 10-county northwest region; composed as the ten-county northwest Lower Peninsula region, which excludes Mackinac County (Mackinac Island).",
+   "review": true
+  },
+  {
+   "state": "michigan",
+   "state_postal": "MI",
+   "slug": "upper-peninsula",
+   "page_title": "Upper Peninsula (Marquette)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MI",
+     "name": "Alger County",
+     "fips": "26003",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Baraga County",
+     "fips": "26013",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Chippewa County",
+     "fips": "26033",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Delta County",
+     "fips": "26041",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Dickinson County",
+     "fips": "26043",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Gogebic County",
+     "fips": "26053",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Houghton County",
+     "fips": "26061",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Iron County",
+     "fips": "26071",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Keweenaw County",
+     "fips": "26083",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Luce County",
+     "fips": "26095",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Mackinac County",
+     "fips": "26097",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Marquette County",
+     "fips": "26103",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Menominee County",
+     "fips": "26109",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Ontonagon County",
+     "fips": "26131",
+     "fips_verified": false
+    },
+    {
+     "state": "MI",
+     "name": "Schoolcraft County",
+     "fips": "26153",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MI",
+     "county": "Alger County",
+     "strings": [
+      "ALGER"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Baraga County",
+     "strings": [
+      "BARAGA"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Chippewa County",
+     "strings": [
+      "CHIPPEWA"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Delta County",
+     "strings": [
+      "DELTA"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Dickinson County",
+     "strings": [
+      "DICKINSON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Gogebic County",
+     "strings": [
+      "GOGEBIC"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Houghton County",
+     "strings": [
+      "HOUGHTON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Iron County",
+     "strings": [
+      "IRON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Keweenaw County",
+     "strings": [
+      "KEWEENAW"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Luce County",
+     "strings": [
+      "LUCE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Mackinac County",
+     "strings": [
+      "MACKINAC"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Marquette County",
+     "strings": [
+      "MARQUETTE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Menominee County",
+     "strings": [
+      "MENOMINEE"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Ontonagon County",
+     "strings": [
+      "ONTONAGON"
+     ]
+    },
+    {
+     "state": "MI",
+     "county": "Schoolcraft County",
+     "strings": [
+      "SCHOOLCRAFT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "All 15 Upper Peninsula counties.",
+   "review": true
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "minneapolis-st-paul",
+   "page_title": "Minneapolis–St. Paul",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "33460",
+    "title": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MN",
+     "name": "Anoka County",
+     "fips": "27003",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Carver County",
+     "fips": "27019",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Chisago County",
+     "fips": "27025",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Dakota County",
+     "fips": "27037",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Hennepin County",
+     "fips": "27053",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Isanti County",
+     "fips": "27059",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Le Sueur County",
+     "fips": "27079",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Mille Lacs County",
+     "fips": "27095",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Ramsey County",
+     "fips": "27123",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Scott County",
+     "fips": "27139",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Sherburne County",
+     "fips": "27141",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Sibley County",
+     "fips": "27143",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Washington County",
+     "fips": "27163",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Wright County",
+     "fips": "27171",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "WI",
+     "name": "Pierce County",
+     "fips": "55093",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "WI",
+     "name": "St. Croix County",
+     "fips": "55109",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "Anoka County",
+     "strings": [
+      "ANOKA"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Carver County",
+     "strings": [
+      "CARVER"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Chisago County",
+     "strings": [
+      "CHISAGO"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Dakota County",
+     "strings": [
+      "DAKOTA"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Hennepin County",
+     "strings": [
+      "HENNEPIN"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Isanti County",
+     "strings": [
+      "ISANTI"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Le Sueur County",
+     "strings": [
+      "LE SUEUR"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Mille Lacs County",
+     "strings": [
+      "MILLE LACS"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Ramsey County",
+     "strings": [
+      "RAMSEY"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Scott County",
+     "strings": [
+      "SCOTT"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Sherburne County",
+     "strings": [
+      "SHERBURNE"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Sibley County",
+     "strings": [
+      "SIBLEY"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Wright County",
+     "strings": [
+      "WRIGHT"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Pierce County",
+     "strings": [
+      "PIERCE"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "St. Croix County",
+     "strings": [
+      "SAINT CROIX"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA name; two member counties are in Wisconsin.",
+   "review": false
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "rochester",
+   "page_title": "Rochester",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "40340",
+    "title": "Rochester, MN",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MN",
+     "name": "Dodge County",
+     "fips": "27039",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Fillmore County",
+     "fips": "27045",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Olmsted County",
+     "fips": "27109",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Wabasha County",
+     "fips": "27157",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "Dodge County",
+     "strings": [
+      "DODGE"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Fillmore County",
+     "strings": [
+      "FILLMORE"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Olmsted County",
+     "strings": [
+      "OLMSTED"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Wabasha County",
+     "strings": [
+      "WABASHA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA name.",
+   "review": false
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "duluth",
+   "page_title": "Duluth",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "20260",
+    "title": "Duluth, MN-WI",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MN",
+     "name": "St. Louis County",
+     "fips": "27137",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Carlton County",
+     "fips": "27017",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "WI",
+     "name": "Douglas County",
+     "fips": "55031",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "St. Louis County",
+     "strings": [
+      "SAINT LOUIS"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Carlton County",
+     "strings": [
+      "CARLTON"
+     ]
+    },
+    {
+     "state": "WI",
+     "county": "Douglas County",
+     "strings": [
+      "DOUGLAS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA's central city; the port metro spans Duluth and Superior (Douglas County, Wisconsin).",
+   "review": false
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "st-cloud",
+   "page_title": "St. Cloud",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41060",
+    "title": "St. Cloud, MN",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MN",
+     "name": "Benton County",
+     "fips": "27009",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Stearns County",
+     "fips": "27145",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "Benton County",
+     "strings": [
+      "BENTON"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Stearns County",
+     "strings": [
+      "STEARNS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA name.",
+   "review": false
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "mankato",
+   "page_title": "Mankato & Moorhead",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MN",
+     "name": "Blue Earth County",
+     "fips": "27013",
+     "fips_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Nicollet County",
+     "fips": "27103",
+     "fips_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Clay County",
+     "fips": "27027",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "Blue Earth County",
+     "strings": [
+      "BLUE EARTH"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Nicollet County",
+     "strings": [
+      "NICOLLET"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Clay County",
+     "strings": [
+      "CLAY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Mankato CBSA counties (Blue Earth, Nicollet) plus Clay County for Moorhead, which belongs to the Fargo-Moorhead CBSA whose North Dakota side (Cass County) is not included.",
+   "review": true
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "iron-range",
+   "page_title": "Iron Range",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MN",
+     "name": "St. Louis County",
+     "fips": "27137",
+     "fips_verified": false
+    },
+    {
+     "state": "MN",
+     "name": "Itasca County",
+     "fips": "27061",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "St. Louis County",
+     "strings": [
+      "SAINT LOUIS"
+     ]
+    },
+    {
+     "state": "MN",
+     "county": "Itasca County",
+     "strings": [
+      "ITASCA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Mesabi Range lies in northern St. Louis County and Itasca County; St. Louis County also holds Duluth, so county totals overstate the Range.",
+   "review": true
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "brainerd",
+   "page_title": "Brainerd Lakes",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MN",
+     "name": "Crow Wing County",
+     "fips": "27035",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MN",
+     "county": "Crow Wing County",
+     "strings": [
+      "CROW WING"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Text names Crow Wing County; the Brainerd micropolitan CBSA also includes Cass County.",
+   "review": false
+  },
+  {
+   "state": "minnesota",
+   "state_postal": "MN",
+   "slug": "rosemount",
+   "page_title": "Rosemount & the south metro",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MN",
+     "name": "Dakota County",
+     "fips": "27037",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "MN",
+     "name": "Rosemount city",
+     "geoid": null,
+     "counties": [
+      "Dakota County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "MN",
+     "county": "Dakota County",
+     "strings": [
+      "DAKOTA"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Heading names Rosemount (Dakota County); 'the south metro' is not a federal geography.",
+   "review": true
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "jackson",
+   "page_title": "Jackson Metro (Madison / Rankin / Hinds)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Madison County",
+     "fips": "28089",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Rankin County",
+     "fips": "28121",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Hinds County",
+     "fips": "28049",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Madison County",
+     "strings": [
+      "MADISON"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Rankin County",
+     "strings": [
+      "RANKIN"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Hinds County",
+     "strings": [
+      "HINDS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Madison, Rankin and Hinds; the Jackson CBSA also takes in Copiah and Simpson, which are left out.",
+   "review": false
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "desoto-county",
+   "page_title": "DeSoto County / North Mississippi",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "DeSoto County",
+     "fips": "28033",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "DeSoto County",
+     "strings": [
+      "DESOTO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county named in the page text",
+   "reason": "Text is about DeSoto County; heading adds North Mississippi, which is far wider.",
+   "review": true
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "gulf-coast",
+   "page_title": "Gulf Coast (Gulfport–Biloxi / Pascagoula)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Hancock County",
+     "fips": "28045",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Harrison County",
+     "fips": "28047",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Jackson County",
+     "fips": "28059",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Hancock County",
+     "strings": [
+      "HANCOCK"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Harrison County",
+     "strings": [
+      "HARRISON"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Jackson County",
+     "strings": [
+      "JACKSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "The three coastal counties; the Gulfport-Biloxi and Pascagoula CBSAs add inland Stone and George counties.",
+   "review": true
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "golden-triangle",
+   "page_title": "Golden Triangle (Columbus / Starkville)",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Lowndes County",
+     "fips": "28087",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Oktibbeha County",
+     "fips": "28105",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Clay County",
+     "fips": "28025",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Lowndes County",
+     "strings": [
+      "LOWNDES"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Oktibbeha County",
+     "strings": [
+      "OKTIBBEHA"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Clay County",
+     "strings": [
+      "CLAY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Columbus (Lowndes), Starkville (Oktibbeha) and West Point (Clay) are the three points of the Golden Triangle.",
+   "review": true
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "tupelo",
+   "page_title": "Tupelo / Northeast Mississippi",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "46180",
+    "title": "Tupelo, MS",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Lee County",
+     "fips": "28081",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Itawamba County",
+     "fips": "28057",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Pontotoc County",
+     "fips": "28115",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Lee County",
+     "strings": [
+      "LEE"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Itawamba County",
+     "strings": [
+      "ITAWAMBA"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Pontotoc County",
+     "strings": [
+      "PONTOTOC"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading adds Northeast Mississippi to Tupelo; CBSA membership is uncertain (Union and Prentiss counties may belong).",
+   "review": true
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "oxford",
+   "page_title": "Oxford / Lafayette County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Lafayette County",
+     "fips": "28071",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Lafayette County",
+     "strings": [
+      "LAFAYETTE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Lafayette County (also the Oxford micropolitan CBSA).",
+   "review": false
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "delta",
+   "page_title": "The Delta",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Bolivar County",
+     "fips": "28011",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Carroll County",
+     "fips": "28015",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Coahoma County",
+     "fips": "28027",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Holmes County",
+     "fips": "28051",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Humphreys County",
+     "fips": "28053",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Issaquena County",
+     "fips": "28055",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Leflore County",
+     "fips": "28083",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Panola County",
+     "fips": "28107",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Quitman County",
+     "fips": "28119",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Sharkey County",
+     "fips": "28125",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Sunflower County",
+     "fips": "28133",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Tallahatchie County",
+     "fips": "28135",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Tate County",
+     "fips": "28137",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Tunica County",
+     "fips": "28143",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Warren County",
+     "fips": "28149",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Washington County",
+     "fips": "28151",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Yazoo County",
+     "fips": "28163",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Bolivar County",
+     "strings": [
+      "BOLIVAR"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Carroll County",
+     "strings": [
+      "CARROLL"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Coahoma County",
+     "strings": [
+      "COAHOMA"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Holmes County",
+     "strings": [
+      "HOLMES"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Humphreys County",
+     "strings": [
+      "HUMPHREYS"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Issaquena County",
+     "strings": [
+      "ISSAQUENA"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Leflore County",
+     "strings": [
+      "LEFLORE"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Panola County",
+     "strings": [
+      "PANOLA"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Quitman County",
+     "strings": [
+      "QUITMAN"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Sharkey County",
+     "strings": [
+      "SHARKEY"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Sunflower County",
+     "strings": [
+      "SUNFLOWER"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Tallahatchie County",
+     "strings": [
+      "TALLAHATCHIE"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Tate County",
+     "strings": [
+      "TATE"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Tunica County",
+     "strings": [
+      "TUNICA"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Warren County",
+     "strings": [
+      "WARREN"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Washington County",
+     "strings": [
+      "WASHINGTON"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Yazoo County",
+     "strings": [
+      "YAZOO"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "The 18-county Mississippi Delta less DeSoto, which has its own market and is growing.",
+   "review": true
+  },
+  {
+   "state": "mississippi",
+   "state_postal": "MS",
+   "slug": "hattiesburg",
+   "page_title": "Hattiesburg / Pine Belt & Meridian",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MS",
+     "name": "Forrest County",
+     "fips": "28035",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Lamar County",
+     "fips": "28073",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Perry County",
+     "fips": "28111",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Jones County",
+     "fips": "28067",
+     "fips_verified": false
+    },
+    {
+     "state": "MS",
+     "name": "Lauderdale County",
+     "fips": "28075",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MS",
+     "county": "Forrest County",
+     "strings": [
+      "FORREST"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Lamar County",
+     "strings": [
+      "LAMAR"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Perry County",
+     "strings": [
+      "PERRY"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Jones County",
+     "strings": [
+      "JONES"
+     ]
+    },
+    {
+     "state": "MS",
+     "county": "Lauderdale County",
+     "strings": [
+      "LAUDERDALE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Hattiesburg CBSA counties plus Jones (Laurel, Pine Belt) and Lauderdale (Meridian); the Pine Belt has no federal definition.",
+   "review": true
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "kansas-city",
+   "page_title": "Kansas City",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "28140",
+    "title": "Kansas City, MO-KS",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MO",
+     "name": "Bates County",
+     "fips": "29013",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Caldwell County",
+     "fips": "29025",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Cass County",
+     "fips": "29037",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Clay County",
+     "fips": "29047",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Clinton County",
+     "fips": "29049",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Jackson County",
+     "fips": "29095",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Lafayette County",
+     "fips": "29107",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Platte County",
+     "fips": "29165",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Ray County",
+     "fips": "29177",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "KS",
+     "name": "Johnson County",
+     "fips": "20091",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "KS",
+     "name": "Leavenworth County",
+     "fips": "20103",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "KS",
+     "name": "Linn County",
+     "fips": "20107",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "KS",
+     "name": "Miami County",
+     "fips": "20121",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "KS",
+     "name": "Wyandotte County",
+     "fips": "20209",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MO",
+     "county": "Bates County",
+     "strings": [
+      "BATES"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Caldwell County",
+     "strings": [
+      "CALDWELL"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Cass County",
+     "strings": [
+      "CASS"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Clay County",
+     "strings": [
+      "CLAY"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Clinton County",
+     "strings": [
+      "CLINTON"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Jackson County",
+     "strings": [
+      "JACKSON"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Lafayette County",
+     "strings": [
+      "LAFAYETTE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Platte County",
+     "strings": [
+      "PLATTE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Ray County",
+     "strings": [
+      "RAY"
+     ]
+    },
+    {
+     "state": "KS",
+     "county": "Johnson County",
+     "strings": [
+      "JOHNSON"
+     ]
+    },
+    {
+     "state": "KS",
+     "county": "Leavenworth County",
+     "strings": [
+      "LEAVENWORTH"
+     ]
+    },
+    {
+     "state": "KS",
+     "county": "Linn County",
+     "strings": [
+      "LINN"
+     ]
+    },
+    {
+     "state": "KS",
+     "county": "Miami County",
+     "strings": [
+      "MIAMI"
+     ]
+    },
+    {
+     "state": "KS",
+     "county": "Wyandotte County",
+     "strings": [
+      "WYANDOTTE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA's central city; five member counties are in Kansas.",
+   "review": false
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "st-louis",
+   "page_title": "St. Louis 39 North / Cortex",
+   "kind": "tract-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MO",
+     "name": "St. Louis County",
+     "fips": "29189",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "St. Louis city",
+     "fips": "29510",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": {
+    "description": "Cortex innovation district in St. Louis city plus the 39 North AgTech district in St. Louis County (Creve Coeur area); sub-county, no federal geography."
+   },
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "MO",
+     "county": "St. Louis County",
+     "strings": [
+      "SAINT LOUIS"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "St. Louis city",
+     "strings": [
+      "SAINT LOUIS CITY"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "districts named by the page heading",
+   "reason": "Two districts (the Cortex district in St. Louis city and the 39 North district in St. Louis County) rather than the metro; 'SAINT LOUIS' is the county string but is ambiguous with the city, and 'SAINT LOUIS CITY' is the city string.",
+   "review": true
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "springfield",
+   "page_title": "Springfield",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "44180",
+    "title": "Springfield, MO",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MO",
+     "name": "Christian County",
+     "fips": "29043",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Dallas County",
+     "fips": "29059",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Greene County",
+     "fips": "29077",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Polk County",
+     "fips": "29167",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Webster County",
+     "fips": "29225",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MO",
+     "county": "Christian County",
+     "strings": [
+      "CHRISTIAN"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Dallas County",
+     "strings": [
+      "DALLAS"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Greene County",
+     "strings": [
+      "GREENE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Polk County",
+     "strings": [
+      "POLK"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Webster County",
+     "strings": [
+      "WEBSTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA's central city.",
+   "review": false
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "columbia",
+   "page_title": "Columbia",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "17860",
+    "title": "Columbia, MO",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MO",
+     "name": "Boone County",
+     "fips": "29019",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Howard County",
+     "fips": "29089",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MO",
+     "county": "Boone County",
+     "strings": [
+      "BOONE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Howard County",
+     "strings": [
+      "HOWARD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA's central city.",
+   "review": false
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "st-joseph",
+   "page_title": "St. Joseph",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "41140",
+    "title": "St. Joseph, MO-KS",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "MO",
+     "name": "Andrew County",
+     "fips": "29003",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Buchanan County",
+     "fips": "29021",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "DeKalb County",
+     "fips": "29063",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "KS",
+     "name": "Doniphan County",
+     "fips": "20043",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MO",
+     "county": "Andrew County",
+     "strings": [
+      "ANDREW"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Buchanan County",
+     "strings": [
+      "BUCHANAN"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "DeKalb County",
+     "strings": [
+      "DEKALB"
+     ]
+    },
+    {
+     "state": "KS",
+     "county": "Doniphan County",
+     "strings": [
+      "DONIPHAN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA's central city; Doniphan County is in Kansas.",
+   "review": false
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "branson",
+   "page_title": "Branson / Lake of the Ozarks",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MO",
+     "name": "Taney County",
+     "fips": "29213",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Stone County",
+     "fips": "29209",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Camden County",
+     "fips": "29029",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Miller County",
+     "fips": "29131",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Morgan County",
+     "fips": "29141",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MO",
+     "county": "Taney County",
+     "strings": [
+      "TANEY"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Stone County",
+     "strings": [
+      "STONE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Camden County",
+     "strings": [
+      "CAMDEN"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Miller County",
+     "strings": [
+      "MILLER"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Morgan County",
+     "strings": [
+      "MORGAN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Branson micropolitan counties (Taney, Stone) plus Lake of the Ozarks counties (Camden, Miller, Morgan).",
+   "review": true
+  },
+  {
+   "state": "missouri",
+   "state_postal": "MO",
+   "slug": "jefferson-city",
+   "page_title": "Jefferson City / Cape Girardeau / Joplin",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "MO",
+     "name": "Callaway County",
+     "fips": "29027",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Cole County",
+     "fips": "29051",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Moniteau County",
+     "fips": "29135",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Osage County",
+     "fips": "29151",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Bollinger County",
+     "fips": "29017",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Cape Girardeau County",
+     "fips": "29031",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Jasper County",
+     "fips": "29097",
+     "fips_verified": false
+    },
+    {
+     "state": "MO",
+     "name": "Newton County",
+     "fips": "29145",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "MO",
+     "county": "Callaway County",
+     "strings": [
+      "CALLAWAY"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Cole County",
+     "strings": [
+      "COLE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Moniteau County",
+     "strings": [
+      "MONITEAU"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Osage County",
+     "strings": [
+      "OSAGE"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Bollinger County",
+     "strings": [
+      "BOLLINGER"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Cape Girardeau County",
+     "strings": [
+      "CAPE GIRARDEAU"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Jasper County",
+     "strings": [
+      "JASPER"
+     ]
+    },
+    {
+     "state": "MO",
+     "county": "Newton County",
+     "strings": [
+      "NEWTON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Missouri counties of the three anchor metros (Jefferson City, Cape Girardeau, Joplin); Alexander County, Illinois (Cape Girardeau CBSA) is left out.",
+   "review": true
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "las-vegas",
+   "page_title": "Las Vegas–Henderson–Paradise",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "29820",
+    "title": "Las Vegas-Henderson-North Las Vegas, NV",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Clark County",
+     "fips": "32003",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NV",
+     "county": "Clark County",
+     "strings": [
+      "CLARK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "CBSA is Clark County alone; heading uses the earlier CBSA title and the text names Clark County.",
+   "review": false
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "reno",
+   "page_title": "Reno–Sparks",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "39900",
+    "title": "Reno, NV",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Storey County",
+     "fips": "32029",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NV",
+     "name": "Washoe County",
+     "fips": "32031",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NV",
+     "county": "Storey County",
+     "strings": [
+      "STOREY"
+     ]
+    },
+    {
+     "state": "NV",
+     "county": "Washoe County",
+     "strings": [
+      "WASHOE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading matches the Reno CBSA but the text and its share figure speak only of Washoe County.",
+   "review": true
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "carson-city",
+   "page_title": "Carson City",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Carson City",
+     "fips": "32510",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NV",
+     "county": "Carson City",
+     "strings": [
+      "CARSON CITY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Independent city (county equivalent, 32510); Lyon County spillover is the fernley market.",
+   "review": false
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "fernley",
+   "page_title": "Lyon County (Fernley / Dayton)",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Lyon County",
+     "fips": "32019",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NV",
+     "county": "Lyon County",
+     "strings": [
+      "LYON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading is Lyon County.",
+   "review": false
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "elko",
+   "page_title": "Elko",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "21220",
+    "title": "Elko, NV",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Elko County",
+     "fips": "32007",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NV",
+     "name": "Eureka County",
+     "fips": "32011",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NV",
+     "county": "Elko County",
+     "strings": [
+      "ELKO"
+     ]
+    },
+    {
+     "state": "NV",
+     "county": "Eureka County",
+     "strings": [
+      "EUREKA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the CBSA's central city; text calls Elko the commercial centre of the northeast, which is wider.",
+   "review": false
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "winnemucca",
+   "page_title": "Humboldt County (Winnemucca)",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Humboldt County",
+     "fips": "32013",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NV",
+     "county": "Humboldt County",
+     "strings": [
+      "HUMBOLDT"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading is Humboldt County.",
+   "review": false
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "lake-tahoe",
+   "page_title": "Lake Tahoe (Nevada side)",
+   "kind": "tract-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Washoe County",
+     "fips": "32031",
+     "fips_verified": false
+    },
+    {
+     "state": "NV",
+     "name": "Douglas County",
+     "fips": "32005",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": {
+    "description": "Nevada side of the Lake Tahoe basin: Incline Village and Crystal Bay in Washoe County, Stateline, Zephyr Cove and Glenbrook in Douglas County; sub-county, no federal geography."
+   },
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "NV",
+     "county": "Washoe County",
+     "strings": [
+      "WASHOE"
+     ]
+    },
+    {
+     "state": "NV",
+     "county": "Douglas County",
+     "strings": [
+      "DOUGLAS"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "area named by the page heading",
+   "reason": "Nevada shore of Lake Tahoe: Incline Village-Crystal Bay (Washoe) and Stateline-Zephyr Cove (Douglas); sub-county.",
+   "review": true
+  },
+  {
+   "state": "nevada",
+   "state_postal": "NV",
+   "slug": "laughlin",
+   "page_title": "Laughlin",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NV",
+     "name": "Clark County",
+     "fips": "32003",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "NV",
+     "name": "Laughlin CDP",
+     "geoid": null,
+     "counties": [
+      "Clark County"
+     ],
+     "cousub": null
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "NV",
+     "county": "Clark County",
+     "strings": [
+      "CLARK"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Laughlin is an unincorporated CDP in Clark County; its market also draws on Mohave County, Arizona, across the river.",
+   "review": true
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "manchester",
+   "page_title": "Manchester",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Hillsborough County",
+     "fips": "33011",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "NH",
+     "name": "Manchester city",
+     "geoid": "3345140",
+     "counties": [
+      "Hillsborough County"
+     ],
+     "cousub": "Manchester city",
+     "geoid_verified": false
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "NH",
+     "county": "Hillsborough County",
+     "strings": [
+      "HILLSBOROUGH"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Heading names the city; its CBSA (Manchester-Nashua, Hillsborough County) also holds the nashua market.",
+   "review": false
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "nashua",
+   "page_title": "Nashua",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Hillsborough County",
+     "fips": "33011",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "NH",
+     "name": "Nashua city",
+     "geoid": "3351300",
+     "counties": [
+      "Hillsborough County"
+     ],
+     "cousub": "Nashua city",
+     "geoid_verified": false
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "NH",
+     "county": "Hillsborough County",
+     "strings": [
+      "HILLSBOROUGH"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Heading names the city, which lies in Hillsborough County.",
+   "review": false
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "portsmouth",
+   "page_title": "Portsmouth & the Seacoast",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Rockingham County",
+     "fips": "33015",
+     "fips_verified": false
+    },
+    {
+     "state": "NH",
+     "name": "Strafford County",
+     "fips": "33017",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NH",
+     "county": "Rockingham County",
+     "strings": [
+      "ROCKINGHAM"
+     ]
+    },
+    {
+     "state": "NH",
+     "county": "Strafford County",
+     "strings": [
+      "STRAFFORD"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Seacoast as commonly bounded is coastal Rockingham plus Strafford; whole counties overstate it (Rockingham also holds Salem and Londonderry).",
+   "review": true
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "salem",
+   "page_title": "Salem & the border belt",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Rockingham County",
+     "fips": "33015",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "NH",
+     "name": "Salem town",
+     "geoid": null,
+     "counties": [
+      "Rockingham County"
+     ],
+     "cousub": "Salem town"
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "NH",
+     "county": "Rockingham County",
+     "strings": [
+      "ROCKINGHAM"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Heading names Salem town (Rockingham County); 'the border belt' spans several southern towns.",
+   "review": true
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "upper-valley",
+   "page_title": "Lebanon–Hanover / Upper Valley",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "30100",
+    "title": "Lebanon, NH-VT",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Grafton County",
+     "fips": "33009",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NH",
+     "name": "Sullivan County",
+     "fips": "33019",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "VT",
+     "name": "Orange County",
+     "fips": "50017",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "VT",
+     "name": "Windsor County",
+     "fips": "50027",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NH",
+     "county": "Grafton County",
+     "strings": [
+      "GRAFTON"
+     ]
+    },
+    {
+     "state": "NH",
+     "county": "Sullivan County",
+     "strings": [
+      "SULLIVAN"
+     ]
+    },
+    {
+     "state": "VT",
+     "county": "Orange County",
+     "strings": [
+      "ORANGE"
+     ]
+    },
+    {
+     "state": "VT",
+     "county": "Windsor County",
+     "strings": [
+      "WINDSOR"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading is the Lebanon-Hanover Upper Valley; the CBSA crosses into Vermont, the page text is New Hampshire only.",
+   "review": true
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "concord",
+   "page_title": "Concord",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "18180",
+    "title": "Concord, NH",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Merrimack County",
+     "fips": "33013",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NH",
+     "county": "Merrimack County",
+     "strings": [
+      "MERRIMACK"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Concord micropolitan CBSA is Merrimack County alone.",
+   "review": false
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "lakes-and-mountains",
+   "page_title": "Lakes Region & White Mountains",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Belknap County",
+     "fips": "33001",
+     "fips_verified": false
+    },
+    {
+     "state": "NH",
+     "name": "Carroll County",
+     "fips": "33003",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NH",
+     "county": "Belknap County",
+     "strings": [
+      "BELKNAP"
+     ]
+    },
+    {
+     "state": "NH",
+     "county": "Carroll County",
+     "strings": [
+      "CARROLL"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Lakes Region (Belknap, Carroll) with the North Conway area; northern Grafton White Mountains left to Grafton's Upper Valley market and Coos to north-country.",
+   "review": true
+  },
+  {
+   "state": "new-hampshire",
+   "state_postal": "NH",
+   "slug": "north-country",
+   "page_title": "North Country / Berlin",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NH",
+     "name": "Coos County",
+     "fips": "33007",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NH",
+     "county": "Coos County",
+     "strings": [
+      "COOS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county named in the page text",
+   "reason": "Text names Coos County (Berlin is its principal city); North Country is sometimes drawn wider.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "jersey-city",
+   "page_title": "Jersey City & the Gold Coast",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Hudson County",
+     "fips": "34017",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Hudson County",
+     "strings": [
+      "HUDSON"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county named in the page text",
+   "reason": "Text names Hudson County; the Gold Coast is its waterfront.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "newark",
+   "page_title": "Newark & Essex County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Essex County",
+     "fips": "34013",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Essex County",
+     "strings": [
+      "ESSEX"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Essex County.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "bergen-county",
+   "page_title": "Bergen County",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Bergen County",
+     "fips": "34003",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Bergen County",
+     "strings": [
+      "BERGEN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "one county",
+   "reason": "Heading is Bergen County.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "morris-county",
+   "page_title": "Morris, Passaic & Union",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Morris County",
+     "fips": "34027",
+     "fips_verified": false
+    },
+    {
+     "state": "NJ",
+     "name": "Passaic County",
+     "fips": "34031",
+     "fips_verified": false
+    },
+    {
+     "state": "NJ",
+     "name": "Union County",
+     "fips": "34039",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Morris County",
+     "strings": [
+      "MORRIS"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Passaic County",
+     "strings": [
+      "PASSAIC"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Union County",
+     "strings": [
+      "UNION"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Morris, Passaic and Union.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "middlesex-county",
+   "page_title": "Central Jersey: Middlesex & Exit 8A",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Middlesex County",
+     "fips": "34023",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Middlesex County",
+     "strings": [
+      "MIDDLESEX"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Middlesex; Exit 8A and New Brunswick both lie in it.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "monmouth-ocean",
+   "page_title": "Monmouth & Ocean / the Shore",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Monmouth County",
+     "fips": "34025",
+     "fips_verified": false
+    },
+    {
+     "state": "NJ",
+     "name": "Ocean County",
+     "fips": "34029",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Monmouth County",
+     "strings": [
+      "MONMOUTH"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Ocean County",
+     "strings": [
+      "OCEAN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names Monmouth and Ocean.",
+   "review": false
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "camden",
+   "page_title": "Camden & South Jersey",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Camden County",
+     "fips": "34007",
+     "fips_verified": false
+    },
+    {
+     "state": "NJ",
+     "name": "Burlington County",
+     "fips": "34005",
+     "fips_verified": false
+    },
+    {
+     "state": "NJ",
+     "name": "Gloucester County",
+     "fips": "34015",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Camden County",
+     "strings": [
+      "CAMDEN"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Burlington County",
+     "strings": [
+      "BURLINGTON"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Gloucester County",
+     "strings": [
+      "GLOUCESTER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Text names Camden, Burlington and Gloucester; heading says South Jersey, which could also take in Salem and Cumberland.",
+   "review": true
+  },
+  {
+   "state": "new-jersey",
+   "state_postal": "NJ",
+   "slug": "atlantic-city",
+   "page_title": "Atlantic City & Cape May",
+   "kind": "county-set",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NJ",
+     "name": "Atlantic County",
+     "fips": "34001",
+     "fips_verified": false
+    },
+    {
+     "state": "NJ",
+     "name": "Cape May County",
+     "fips": "34009",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NJ",
+     "county": "Atlantic County",
+     "strings": [
+      "ATLANTIC"
+     ]
+    },
+    {
+     "state": "NJ",
+     "county": "Cape May County",
+     "strings": [
+      "CAPE MAY"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Heading names Atlantic City and Cape May; read as Atlantic and Cape May counties.",
+   "review": true
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "albuquerque",
+   "page_title": "Albuquerque metro",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "10740",
+    "title": "Albuquerque, NM",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Bernalillo County",
+     "fips": "35001",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NM",
+     "name": "Sandoval County",
+     "fips": "35043",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NM",
+     "name": "Torrance County",
+     "fips": "35057",
+     "fips_verified": false,
+     "membership_verified": false
+    },
+    {
+     "state": "NM",
+     "name": "Valencia County",
+     "fips": "35061",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "Bernalillo County",
+     "strings": [
+      "BERNALILLO"
+     ]
+    },
+    {
+     "state": "NM",
+     "county": "Sandoval County",
+     "strings": [
+      "SANDOVAL"
+     ]
+    },
+    {
+     "state": "NM",
+     "county": "Torrance County",
+     "strings": [
+      "TORRANCE"
+     ]
+    },
+    {
+     "state": "NM",
+     "county": "Valencia County",
+     "strings": [
+      "VALENCIA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Heading says Albuquerque metro; the page's metro figure was not reconciled to the CBSA.",
+   "review": true
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "santa-fe",
+   "page_title": "Santa Fe",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "42140",
+    "title": "Santa Fe, NM",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Santa Fe County",
+     "fips": "35049",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "Santa Fe County",
+     "strings": [
+      "SANTA FE"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Santa Fe CBSA is Santa Fe County alone.",
+   "review": false
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "los-alamos",
+   "page_title": "Los Alamos / Northern NM",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Los Alamos County",
+     "fips": "35028",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "Los Alamos County",
+     "strings": [
+      "LOS ALAMOS"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "county named in the page text",
+   "reason": "Text is about Los Alamos County; heading adds Northern NM, which is far wider.",
+   "review": true
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "permian-basin",
+   "page_title": "Permian Basin / Hobbs & Carlsbad",
+   "kind": "cross-state",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Lea County",
+     "fips": "35025",
+     "fips_verified": false
+    },
+    {
+     "state": "NM",
+     "name": "Eddy County",
+     "fips": "35015",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Andrews County",
+     "fips": "48003",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Borden County",
+     "fips": "48033",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Crane County",
+     "fips": "48103",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Dawson County",
+     "fips": "48115",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Ector County",
+     "fips": "48135",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Gaines County",
+     "fips": "48165",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Glasscock County",
+     "fips": "48173",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Howard County",
+     "fips": "48227",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Loving County",
+     "fips": "48301",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Martin County",
+     "fips": "48317",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Midland County",
+     "fips": "48329",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Pecos County",
+     "fips": "48371",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Reagan County",
+     "fips": "48383",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Reeves County",
+     "fips": "48389",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Upton County",
+     "fips": "48461",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Ward County",
+     "fips": "48475",
+     "fips_verified": false
+    },
+    {
+     "state": "TX",
+     "name": "Winkler County",
+     "fips": "48495",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": {
+    "parts": [
+     {
+      "state": "NM",
+      "counties": [
+       "Lea County",
+       "Eddy County"
+      ]
+     },
+     {
+      "state": "TX",
+      "counties": [
+       "Andrews County",
+       "Borden County",
+       "Crane County",
+       "Dawson County",
+       "Ector County",
+       "Gaines County",
+       "Glasscock County",
+       "Howard County",
+       "Loving County",
+       "Martin County",
+       "Midland County",
+       "Pecos County",
+       "Reagan County",
+       "Reeves County",
+       "Upton County",
+       "Ward County",
+       "Winkler County"
+      ]
+     }
+    ],
+    "this_page_part": "NM"
+   },
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "Lea County",
+     "strings": [
+      "LEA"
+     ]
+    },
+    {
+     "state": "NM",
+     "county": "Eddy County",
+     "strings": [
+      "EDDY"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Andrews County",
+     "strings": [
+      "ANDREWS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Borden County",
+     "strings": [
+      "BORDEN"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Crane County",
+     "strings": [
+      "CRANE"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Dawson County",
+     "strings": [
+      "DAWSON"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Ector County",
+     "strings": [
+      "ECTOR"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Gaines County",
+     "strings": [
+      "GAINES"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Glasscock County",
+     "strings": [
+      "GLASSCOCK"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Howard County",
+     "strings": [
+      "HOWARD"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Loving County",
+     "strings": [
+      "LOVING"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Martin County",
+     "strings": [
+      "MARTIN"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Midland County",
+     "strings": [
+      "MIDLAND"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Pecos County",
+     "strings": [
+      "PECOS"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Reagan County",
+     "strings": [
+      "REAGAN"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Reeves County",
+     "strings": [
+      "REEVES"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Upton County",
+     "strings": [
+      "UPTON"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Ward County",
+     "strings": [
+      "WARD"
+     ]
+    },
+    {
+     "state": "TX",
+     "county": "Winkler County",
+     "strings": [
+      "WINKLER"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "New Mexico part is the counties the state page names",
+   "reason": "Page names Lea and Eddy (NM part); most of the basin is in Texas, and the Texas list is a core set as commonly cited. Page content is NM only.",
+   "review": true
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "las-cruces",
+   "page_title": "Las Cruces / Doña Ana",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Doña Ana County",
+     "fips": "35013",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "Doña Ana County",
+     "strings": [
+      "DONA ANA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "counties the state page names",
+   "reason": "Heading names both Las Cruces and Doña Ana County (also the Las Cruces CBSA); the figure quoted in the text is for the city alone.",
+   "review": true
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "rio-rancho",
+   "page_title": "Rio Rancho",
+   "kind": "place",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Sandoval County",
+     "fips": "35043",
+     "fips_verified": false
+    },
+    {
+     "state": "NM",
+     "name": "Bernalillo County",
+     "fips": "35001",
+     "fips_verified": false
+    }
+   ],
+   "places": [
+    {
+     "state": "NM",
+     "name": "Rio Rancho city",
+     "geoid": "3563460",
+     "counties": [
+      "Sandoval County",
+      "Bernalillo County"
+     ],
+     "cousub": null,
+     "geoid_verified": false
+    }
+   ],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [],
+   "foia_containing_county_strings": [
+    {
+     "state": "NM",
+     "county": "Sandoval County",
+     "strings": [
+      "SANDOVAL"
+     ]
+    },
+    {
+     "state": "NM",
+     "county": "Bernalillo County",
+     "strings": [
+      "BERNALILLO"
+     ]
+    }
+   ],
+   "foia_missing": [],
+   "basis": "city named by the page heading",
+   "reason": "Rio Rancho city lies mostly in Sandoval County with a small part in Bernalillo County.",
+   "review": false
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "farmington",
+   "page_title": "Farmington / San Juan",
+   "kind": "cbsa",
+   "cbsa": {
+    "code": "22140",
+    "title": "Farmington, NM",
+    "verified": false
+   },
+   "counties": [
+    {
+     "state": "NM",
+     "name": "San Juan County",
+     "fips": "35045",
+     "fips_verified": false,
+     "membership_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "San Juan County",
+     "strings": [
+      "SAN JUAN"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "OMB 23-01 CBSA matching the page heading",
+   "reason": "Farmington CBSA is San Juan County alone; adjacent tribal counties are not included.",
+   "review": false
+  },
+  {
+   "state": "new-mexico",
+   "state_postal": "NM",
+   "slug": "truth-or-consequences",
+   "page_title": "Spaceport & Truth or Consequences",
+   "kind": "county",
+   "cbsa": null,
+   "counties": [
+    {
+     "state": "NM",
+     "name": "Sierra County",
+     "fips": "35051",
+     "fips_verified": false
+    }
+   ],
+   "places": [],
+   "ct": null,
+   "cross_state": null,
+   "foia_county_strings": [
+    {
+     "state": "NM",
+     "county": "Sierra County",
+     "strings": [
+      "SIERRA"
+     ]
+    }
+   ],
+   "foia_containing_county_strings": [],
+   "foia_missing": [],
+   "basis": "region as commonly bounded",
+   "reason": "Truth or Consequences is the Sierra County seat and the spaceport also lies in Sierra County.",
+   "review": true
+  }
+ ]
+}

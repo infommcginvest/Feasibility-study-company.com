@@ -1,0 +1,1256 @@
+{
+ "about": "Register totals against the raw files. The raw recount is taken row by row during the read; the independent re-derivation in docs/web-fsc-5/gates/ does not import this script.",
+ "all_match": true,
+ "census": {
+  "acs5_households.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 1997247,
+     "sum_of_counties": 1997247
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 270533,
+     "sum_of_counties": 270533
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 2856081,
+     "sum_of_counties": 2856081
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 1205987,
+     "sum_of_counties": 1205987
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 13548091,
+     "sum_of_counties": 13548091
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 130518362,
+   "us": 129227496
+  },
+  "acs5_pop.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 5086768,
+     "sum_of_counties": 5086768
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 735706,
+     "sum_of_counties": 735706
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 7378838,
+     "sum_of_counties": 7378838
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 3049391,
+     "sum_of_counties": 3049391
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 39287377,
+     "sum_of_counties": 39287377
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 338156808,
+   "us": 334922499
+  },
+  "acs5_pop65.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 904259,
+     "sum_of_counties": 904259
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 101694,
+     "sum_of_counties": 101694
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 1397551,
+     "sum_of_counties": 1397551
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 535977,
+     "sum_of_counties": 535977
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 6158371,
+     "sum_of_counties": 6158371
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 58391714,
+   "us": 57633628
+  },
+  "bea_personal_income.all": {
+   "largest_differences": [
+    {
+     "difference": 294647204000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "va",
+     "state_value": 681552175000,
+     "sum_of_counties": 386904971000
+    },
+    {
+     "difference": 11052598000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "hi",
+     "state_value": 102703773000,
+     "sum_of_counties": 91651175000
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 295590485000,
+     "sum_of_counties": 295590485000
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 56423146000,
+     "sum_of_counties": 56423146000
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 498903598000,
+     "sum_of_counties": 498903598000
+    }
+   ],
+   "not_explained_but_named": [
+    {
+     "difference": 11052598000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "hi",
+     "state_value": 102703773000,
+     "sum_of_counties": 91651175000
+    },
+    {
+     "difference": 294647204000,
+     "explained": false,
+     "named": "BEA combined area: the state includes counties BEA publishes only inside a combination area",
+     "state": "va",
+     "state_value": 681552175000,
+     "sum_of_counties": 386904971000
+    }
+   ],
+   "states_checked": 51,
+   "states_equal_to_county_sum": 49,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 24897613000000,
+   "us": 24897613000000
+  },
+  "cbp_estab.gas-station-and-c-store": {
+   "largest_differences": [
+    {
+     "county_cells_withheld_up_to": 907,
+     "difference": 323,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 907); the state is not below its counties",
+     "state": "tx",
+     "state_value": 14635,
+     "sum_of_counties": 14312
+    },
+    {
+     "county_cells_withheld_up_to": 410,
+     "difference": 157,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 410); the state is not below its counties",
+     "state": "mo",
+     "state_value": 2937,
+     "sum_of_counties": 2780
+    },
+    {
+     "county_cells_withheld_up_to": 627,
+     "difference": 154,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 627); the state is not below its counties",
+     "state": "ks",
+     "state_value": 1126,
+     "sum_of_counties": 972
+    },
+    {
+     "county_cells_withheld_up_to": 324,
+     "difference": 150,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 324); the state is not below its counties",
+     "state": "va",
+     "state_value": 4255,
+     "sum_of_counties": 4105
+    },
+    {
+     "county_cells_withheld_up_to": 379,
+     "difference": 141,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 379); the state is not below its counties",
+     "state": "ky",
+     "state_value": 2319,
+     "sum_of_counties": 2178
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 5,
+   "states_explained_by_statewide_records": 52,
+   "sum_of_states_checked": 147278,
+   "us": 146166
+  },
+  "cbp_estab.hotel": {
+   "largest_differences": [
+    {
+     "county_cells_withheld_up_to": 210,
+     "difference": 62,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 210); the state is not below its counties",
+     "state": "tx",
+     "state_value": 5643,
+     "sum_of_counties": 5581
+    },
+    {
+     "county_cells_withheld_up_to": 184,
+     "difference": 60,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 184); the state is not below its counties",
+     "state": "ga",
+     "state_value": 2157,
+     "sum_of_counties": 2097
+    },
+    {
+     "county_cells_withheld_up_to": 168,
+     "difference": 58,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 168); the state is not below its counties",
+     "state": "ia",
+     "state_value": 729,
+     "sum_of_counties": 671
+    },
+    {
+     "county_cells_withheld_up_to": 182,
+     "difference": 47,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 182); the state is not below its counties",
+     "state": "ks",
+     "state_value": 621,
+     "sum_of_counties": 574
+    },
+    {
+     "county_cells_withheld_up_to": 182,
+     "difference": 46,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 182); the state is not below its counties",
+     "state": "mo",
+     "state_value": 1073,
+     "sum_of_counties": 1027
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 6,
+   "states_explained_by_statewide_records": 52,
+   "sum_of_states_checked": 56117,
+   "us": 55895
+  },
+  "cbp_estab.self-storage": {
+   "largest_differences": [
+    {
+     "county_cells_withheld_up_to": 367,
+     "difference": 79,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 367); the state is not below its counties",
+     "state": "tx",
+     "state_value": 2304,
+     "sum_of_counties": 2225
+    },
+    {
+     "county_cells_withheld_up_to": 245,
+     "difference": 62,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 245); the state is not below its counties",
+     "state": "va",
+     "state_value": 511,
+     "sum_of_counties": 449
+    },
+    {
+     "county_cells_withheld_up_to": 280,
+     "difference": 61,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 280); the state is not below its counties",
+     "state": "ga",
+     "state_value": 705,
+     "sum_of_counties": 644
+    },
+    {
+     "county_cells_withheld_up_to": 235,
+     "difference": 45,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 235); the state is not below its counties",
+     "state": "mo",
+     "state_value": 285,
+     "sum_of_counties": 240
+    },
+    {
+     "county_cells_withheld_up_to": 205,
+     "difference": 43,
+     "explained": true,
+     "named": "statewide records (establishments with no fixed county, not published at county level by the API) plus withheld county cells (bounded by 205); the state is not below its counties",
+     "state": "ky",
+     "state_value": 188,
+     "sum_of_counties": 145
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 4,
+   "states_explained_by_statewide_records": 52,
+   "sum_of_states_checked": 18587,
+   "us": 18564
+  },
+  "pep_pop_2023.all": {
+   "largest_differences": [
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "al",
+     "state_value": 5108468,
+     "sum_of_counties": 5108468
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ak",
+     "state_value": 733406,
+     "sum_of_counties": 733406
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "az",
+     "state_value": 7431344,
+     "sum_of_counties": 7431344
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ar",
+     "state_value": 3067732,
+     "sum_of_counties": 3067732
+    },
+    {
+     "difference": 0,
+     "explained": true,
+     "state": "ca",
+     "state_value": 38965193,
+     "sum_of_counties": 38965193
+    }
+   ],
+   "not_explained_but_named": [],
+   "states_checked": 52,
+   "states_equal_to_county_sum": 52,
+   "states_explained_by_statewide_records": null,
+   "sum_of_states_checked": 338120586,
+   "us": 334914895
+  }
+ },
+ "census_explanations": {
+  "acs5": "Each state equals the sum of its counties. The nation is smaller than the sum of the states by Puerto Rico, which ACS tabulates as a state-equivalent but not in the US total.",
+  "bea_personal_income": "BEA publishes some counties only inside combined areas (Virginia independent cities with their counties, Kalawao with Maui in Hawaii); those states exceed the sum of the counties BEA publishes on their own by the combined areas.",
+  "cbp_estab": "A state exceeds the sum of its counties by its statewide records (establishments with no fixed county, which the API does not publish at county level) plus the 6-digit cells CBP withholds at county level (bounded by each absent cell's published parent less its published children). Without the statewide records the check is that no state falls below the sum of its counties; each difference is named with the withheld bound.",
+  "pep": "Each state equals the sum of its counties, and the nation equals the sum of the states."
+ },
+ "census_note": "State against the sum of its counties for additive series. ACS and PEP tabulate counties and states from the same estimates, so they agree. CBP publishes statewide records (county code 999, establishments with no fixed county) only in the state total, so its states exceed their county sums by those records. BEA sums equal the state where every county is published on its own. The nation also counts DC and Puerto Rico where the source covers them.",
+ "raw_file_properties": {
+  "504": {
+   "blank_naics_loans_net_of_cancellations": 18655,
+   "blank_naics_rows": 21922,
+   "chgoff_rows_with_zero_amount": 2,
+   "chgoff_rows_without_chargeoff_date": 0,
+   "exact_duplicate_rows": 69,
+   "exact_duplicate_rows_not_cancelled": 3,
+   "exact_duplicate_rows_not_cancelled_gross_approval": 777000.0
+  },
+  "7a": {
+   "blank_naics_loans_net_of_cancellations": 176915,
+   "blank_naics_rows": 203850,
+   "chgoff_rows_with_zero_amount": 180,
+   "chgoff_rows_without_chargeoff_date": 58,
+   "exact_duplicate_rows": 1918,
+   "exact_duplicate_rows_not_cancelled": 531,
+   "exact_duplicate_rows_not_cancelled_gross_approval": 250499334.0,
+   "negative_gross_approval_rows": 1
+  }
+ },
+ "raw_file_properties_note": "Measured on every build and counted as SBA publishes them, never repaired: exact_duplicate_rows are rows identical in every field to an earlier row of the same file. The files carry no loan identifier (LocationID is the lender), so a twin loan cannot be told from a listing error, and the register counts every row. A negative GrossApproval and a charged-off row with no amount or no date are likewise kept as published.",
+ "states_vs_us": {
+  "504": {
+   "difference": 0,
+   "explained": true,
+   "explained_by": "loans with a blank ProjectState, which count in us only",
+   "loans_with_blank_project_state": 0,
+   "sum_of_states_loans": 196735,
+   "us_loans": 196735
+  },
+  "7a": {
+   "difference": 5,
+   "explained": true,
+   "explained_by": "loans with a blank ProjectState, which count in us only",
+   "loans_with_blank_project_state": 5,
+   "sum_of_states_loans": 1718660,
+   "us_loans": 1718665
+  }
+ },
+ "us_by_program_fy": [
+  {
+   "fy": 1991,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 156,
+   "raw_gross": 438588839.0,
+   "raw_rows": 1464,
+   "register_approved": 1464,
+   "register_loans": 1308,
+   "register_volume": 388933839.0
+  },
+  {
+   "fy": 1992,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 202,
+   "raw_gross": 614085800.0,
+   "raw_rows": 1992,
+   "register_approved": 1992,
+   "register_loans": 1790,
+   "register_volume": 547061800.0
+  },
+  {
+   "fy": 1993,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 288,
+   "raw_gross": 810742608.0,
+   "raw_rows": 2477,
+   "register_approved": 2477,
+   "register_loans": 2189,
+   "register_volume": 714556608.0
+  },
+  {
+   "fy": 1994,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 474,
+   "raw_gross": 1287838563.0,
+   "raw_rows": 3771,
+   "register_approved": 3771,
+   "register_loans": 3297,
+   "register_volume": 1116835063.0
+  },
+  {
+   "fy": 1995,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 636,
+   "raw_gross": 1536151469.0,
+   "raw_rows": 4423,
+   "register_approved": 4423,
+   "register_loans": 3787,
+   "register_volume": 1303462219.0
+  },
+  {
+   "fy": 1996,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 995,
+   "raw_gross": 2474995623.0,
+   "raw_rows": 6853,
+   "register_approved": 6853,
+   "register_loans": 5858,
+   "register_volume": 2071714360.0
+  },
+  {
+   "fy": 1997,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 646,
+   "raw_gross": 1439425190.0,
+   "raw_rows": 4120,
+   "register_approved": 4120,
+   "register_loans": 3474,
+   "register_volume": 1191548990.0
+  },
+  {
+   "fy": 1998,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 818,
+   "raw_gross": 1774487462.0,
+   "raw_rows": 4918,
+   "register_approved": 4918,
+   "register_loans": 4100,
+   "register_volume": 1455078498.0
+  },
+  {
+   "fy": 1999,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1022,
+   "raw_gross": 1996661148.0,
+   "raw_rows": 5281,
+   "register_approved": 5281,
+   "register_loans": 4259,
+   "register_volume": 1582874548.0
+  },
+  {
+   "fy": 2000,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 808,
+   "raw_gross": 1817687899.0,
+   "raw_rows": 4561,
+   "register_approved": 4561,
+   "register_loans": 3753,
+   "register_volume": 1475148099.0
+  },
+  {
+   "fy": 2001,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 809,
+   "raw_gross": 2259127613.0,
+   "raw_rows": 5209,
+   "register_approved": 5209,
+   "register_loans": 4400,
+   "register_volume": 1886987743.0
+  },
+  {
+   "fy": 2002,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 885,
+   "raw_gross": 2472322320.0,
+   "raw_rows": 5479,
+   "register_approved": 5479,
+   "register_loans": 4594,
+   "register_volume": 2050092120.0
+  },
+  {
+   "fy": 2003,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1084,
+   "raw_gross": 3160147257.0,
+   "raw_rows": 6862,
+   "register_approved": 6862,
+   "register_loans": 5778,
+   "register_volume": 2654772379.0
+  },
+  {
+   "fy": 2004,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1462,
+   "raw_gross": 4001856385.0,
+   "raw_rows": 8358,
+   "register_approved": 8358,
+   "register_loans": 6896,
+   "register_volume": 3232361315.0
+  },
+  {
+   "fy": 2005,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1522,
+   "raw_gross": 5051499000.0,
+   "raw_rows": 9193,
+   "register_approved": 9193,
+   "register_loans": 7671,
+   "register_volume": 4160236000.0
+  },
+  {
+   "fy": 2006,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1618,
+   "raw_gross": 5730029000.0,
+   "raw_rows": 9944,
+   "register_approved": 9944,
+   "register_loans": 8326,
+   "register_volume": 4734926000.0
+  },
+  {
+   "fy": 2007,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1728,
+   "raw_gross": 6313856000.0,
+   "raw_rows": 10669,
+   "register_approved": 10669,
+   "register_loans": 8941,
+   "register_volume": 5209908000.0
+  },
+  {
+   "fy": 2008,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1555,
+   "raw_gross": 5289592000.0,
+   "raw_rows": 8883,
+   "register_approved": 8883,
+   "register_loans": 7328,
+   "register_volume": 4266135000.0
+  },
+  {
+   "fy": 2009,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1137,
+   "raw_gross": 3834521000.0,
+   "raw_rows": 6609,
+   "register_approved": 6609,
+   "register_loans": 5472,
+   "register_volume": 3120178000.0
+  },
+  {
+   "fy": 2010,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1191,
+   "raw_gross": 4433308000.0,
+   "raw_rows": 7833,
+   "register_approved": 7833,
+   "register_loans": 6642,
+   "register_volume": 3709727000.0
+  },
+  {
+   "fy": 2011,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1102,
+   "raw_gross": 4845119000.0,
+   "raw_rows": 7983,
+   "register_approved": 7983,
+   "register_loans": 6881,
+   "register_volume": 4075363000.0
+  },
+  {
+   "fy": 2012,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1196,
+   "raw_gross": 6711656000.0,
+   "raw_rows": 9471,
+   "register_approved": 9471,
+   "register_loans": 8275,
+   "register_volume": 5772215000.0
+  },
+  {
+   "fy": 2013,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1081,
+   "raw_gross": 5227392000.0,
+   "raw_rows": 7708,
+   "register_approved": 7708,
+   "register_loans": 6627,
+   "register_volume": 4319176000.0
+  },
+  {
+   "fy": 2014,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 868,
+   "raw_gross": 4199431000.0,
+   "raw_rows": 5885,
+   "register_approved": 5885,
+   "register_loans": 5017,
+   "register_volume": 3474725000.0
+  },
+  {
+   "fy": 2015,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 903,
+   "raw_gross": 4297938000.0,
+   "raw_rows": 5787,
+   "register_approved": 5787,
+   "register_loans": 4884,
+   "register_volume": 3519159000.0
+  },
+  {
+   "fy": 2016,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 920,
+   "raw_gross": 4740082000.0,
+   "raw_rows": 5938,
+   "register_approved": 5938,
+   "register_loans": 5018,
+   "register_volume": 3888800000.0
+  },
+  {
+   "fy": 2017,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 937,
+   "raw_gross": 5013723000.0,
+   "raw_rows": 6218,
+   "register_approved": 6218,
+   "register_loans": 5281,
+   "register_volume": 4169552000.0
+  },
+  {
+   "fy": 2018,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 869,
+   "raw_gross": 4753644000.0,
+   "raw_rows": 5874,
+   "register_approved": 5874,
+   "register_loans": 5005,
+   "register_volume": 3974793000.0
+  },
+  {
+   "fy": 2019,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 833,
+   "raw_gross": 4958552000.0,
+   "raw_rows": 6099,
+   "register_approved": 6099,
+   "register_loans": 5266,
+   "register_volume": 4241223000.0
+  },
+  {
+   "fy": 2020,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1048,
+   "raw_gross": 5826885000.0,
+   "raw_rows": 7119,
+   "register_approved": 7119,
+   "register_loans": 6071,
+   "register_volume": 4793633000.0
+  },
+  {
+   "fy": 2021,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1413,
+   "raw_gross": 8218105540.0,
+   "raw_rows": 9676,
+   "register_approved": 9676,
+   "register_loans": 8263,
+   "register_volume": 6890538540.0
+  },
+  {
+   "fy": 2022,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 1162,
+   "raw_gross": 9207996290.0,
+   "raw_rows": 9254,
+   "register_approved": 9254,
+   "register_loans": 8092,
+   "register_volume": 7950846290.0
+  },
+  {
+   "fy": 2023,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 446,
+   "raw_gross": 6419378000.0,
+   "raw_rows": 5924,
+   "register_approved": 5924,
+   "register_loans": 5478,
+   "register_volume": 5920363000.0
+  },
+  {
+   "fy": 2024,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 223,
+   "raw_gross": 6664906000.0,
+   "raw_rows": 5993,
+   "register_approved": 5993,
+   "register_loans": 5770,
+   "register_volume": 6415433000.0
+  },
+  {
+   "fy": 2025,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 232,
+   "raw_gross": 7804172000.0,
+   "raw_rows": 6762,
+   "register_approved": 6762,
+   "register_loans": 6530,
+   "register_volume": 7557423000.0
+  },
+  {
+   "fy": 2026,
+   "match": true,
+   "program": "504",
+   "raw_cancelled": 45,
+   "raw_gross": 5259430000.0,
+   "raw_rows": 4459,
+   "register_approved": 4459,
+   "register_loans": 4414,
+   "register_volume": 5219797000.0
+  },
+  {
+   "fy": 1991,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 2118,
+   "raw_gross": 4332017692.01,
+   "raw_rows": 18444,
+   "register_approved": 18444,
+   "register_loans": 16326,
+   "register_volume": 3834629259.01
+  },
+  {
+   "fy": 1992,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 2495,
+   "raw_gross": 5880429292.01,
+   "raw_rows": 23655,
+   "register_approved": 23655,
+   "register_loans": 21160,
+   "register_volume": 5238129587.01
+  },
+  {
+   "fy": 1993,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 2924,
+   "raw_gross": 6690995672.49,
+   "raw_rows": 26291,
+   "register_approved": 26291,
+   "register_loans": 23367,
+   "register_volume": 5939271828.49
+  },
+  {
+   "fy": 1994,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 3917,
+   "raw_gross": 8142444016.95,
+   "raw_rows": 36049,
+   "register_approved": 36049,
+   "register_loans": 32132,
+   "register_volume": 7197805598.95
+  },
+  {
+   "fy": 1995,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6848,
+   "raw_gross": 8253022811.64,
+   "raw_rows": 55548,
+   "register_approved": 55548,
+   "register_loans": 48700,
+   "register_volume": 7174935548.64
+  },
+  {
+   "fy": 1996,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6109,
+   "raw_gross": 7694221736.34,
+   "raw_rows": 45853,
+   "register_approved": 45853,
+   "register_loans": 39744,
+   "register_volume": 6641405967.34
+  },
+  {
+   "fy": 1997,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6465,
+   "raw_gross": 9461352612.2,
+   "raw_rows": 45288,
+   "register_approved": 45288,
+   "register_loans": 38823,
+   "register_volume": 7922967140.23
+  },
+  {
+   "fy": 1998,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6253,
+   "raw_gross": 9016799155.09,
+   "raw_rows": 42271,
+   "register_approved": 42271,
+   "register_loans": 36018,
+   "register_volume": 7692350292.76
+  },
+  {
+   "fy": 1999,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6537,
+   "raw_gross": 10146109913.11,
+   "raw_rows": 43634,
+   "register_approved": 43634,
+   "register_loans": 37097,
+   "register_volume": 8683531017.11
+  },
+  {
+   "fy": 2000,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6148,
+   "raw_gross": 10523436538.0,
+   "raw_rows": 43748,
+   "register_approved": 43748,
+   "register_loans": 37600,
+   "register_volume": 8999368959.0
+  },
+  {
+   "fy": 2001,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5635,
+   "raw_gross": 9894022393.48,
+   "raw_rows": 42958,
+   "register_approved": 42958,
+   "register_loans": 37323,
+   "register_volume": 8550459826.48
+  },
+  {
+   "fy": 2002,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6482,
+   "raw_gross": 12208026874.9,
+   "raw_rows": 51666,
+   "register_approved": 51666,
+   "register_loans": 45184,
+   "register_volume": 10567876861.9
+  },
+  {
+   "fy": 2003,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 8187,
+   "raw_gross": 11268200031.0,
+   "raw_rows": 67306,
+   "register_approved": 67306,
+   "register_loans": 59119,
+   "register_volume": 9689071159.0
+  },
+  {
+   "fy": 2004,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 9850,
+   "raw_gross": 13571560391.0,
+   "raw_rows": 81133,
+   "register_approved": 81133,
+   "register_loans": 71283,
+   "register_volume": 11770580676.0
+  },
+  {
+   "fy": 2005,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 11464,
+   "raw_gross": 15223525886.01,
+   "raw_rows": 95900,
+   "register_approved": 95900,
+   "register_loans": 84436,
+   "register_volume": 13208150176.01
+  },
+  {
+   "fy": 2006,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 10721,
+   "raw_gross": 14525100339.0,
+   "raw_rows": 97291,
+   "register_approved": 97291,
+   "register_loans": 86570,
+   "register_volume": 12751558736.0
+  },
+  {
+   "fy": 2007,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 11336,
+   "raw_gross": 14292141213.33,
+   "raw_rows": 99606,
+   "register_approved": 99606,
+   "register_loans": 88270,
+   "register_volume": 12578498065.33
+  },
+  {
+   "fy": 2008,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 7801,
+   "raw_gross": 12671235790.27,
+   "raw_rows": 69437,
+   "register_approved": 69437,
+   "register_loans": 61636,
+   "register_volume": 11102683803.27
+  },
+  {
+   "fy": 2009,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 4652,
+   "raw_gross": 9191044339.12,
+   "raw_rows": 41288,
+   "register_approved": 41288,
+   "register_loans": 36636,
+   "register_volume": 8138347278.66
+  },
+  {
+   "fy": 2010,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 7087,
+   "raw_gross": 12406048700.0,
+   "raw_rows": 47000,
+   "register_approved": 47000,
+   "register_loans": 39913,
+   "register_volume": 10185348000.0
+  },
+  {
+   "fy": 2011,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 8082,
+   "raw_gross": 19640298400.0,
+   "raw_rows": 53710,
+   "register_approved": 53710,
+   "register_loans": 45628,
+   "register_volume": 16247328300.0
+  },
+  {
+   "fy": 2012,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5487,
+   "raw_gross": 15153504000.0,
+   "raw_rows": 44376,
+   "register_approved": 44376,
+   "register_loans": 38889,
+   "register_volume": 13256492000.0
+  },
+  {
+   "fy": 2013,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5979,
+   "raw_gross": 17865672500.0,
+   "raw_rows": 46395,
+   "register_approved": 46395,
+   "register_loans": 40416,
+   "register_volume": 15492120600.0
+  },
+  {
+   "fy": 2014,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6082,
+   "raw_gross": 19190547800.0,
+   "raw_rows": 52044,
+   "register_approved": 52044,
+   "register_loans": 45962,
+   "register_volume": 16871102500.0
+  },
+  {
+   "fy": 2015,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 8040,
+   "raw_gross": 23583863400.0,
+   "raw_rows": 63461,
+   "register_approved": 63461,
+   "register_loans": 55421,
+   "register_volume": 20370589100.0
+  },
+  {
+   "fy": 2016,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 7285,
+   "raw_gross": 24128426343.0,
+   "raw_rows": 64074,
+   "register_approved": 64074,
+   "register_loans": 56789,
+   "register_volume": 21621109443.0
+  },
+  {
+   "fy": 2017,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6350,
+   "raw_gross": 25447458500.0,
+   "raw_rows": 62430,
+   "register_approved": 62430,
+   "register_loans": 56080,
+   "register_volume": 23048894700.0
+  },
+  {
+   "fy": 2018,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6131,
+   "raw_gross": 25372539100.0,
+   "raw_rows": 60354,
+   "register_approved": 60354,
+   "register_loans": 54223,
+   "register_volume": 22811146900.0
+  },
+  {
+   "fy": 2019,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6221,
+   "raw_gross": 23175811000.0,
+   "raw_rows": 51907,
+   "register_approved": 51907,
+   "register_loans": 45686,
+   "register_volume": 20552963500.0
+  },
+  {
+   "fy": 2020,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5808,
+   "raw_gross": 22549825700.0,
+   "raw_rows": 42298,
+   "register_approved": 42298,
+   "register_loans": 36490,
+   "register_volume": 19508718600.0
+  },
+  {
+   "fy": 2021,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 6496,
+   "raw_gross": 36536756800.0,
+   "raw_rows": 51856,
+   "register_approved": 51856,
+   "register_loans": 45360,
+   "register_volume": 32203041400.0
+  },
+  {
+   "fy": 2022,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5396,
+   "raw_gross": 25693805700.0,
+   "raw_rows": 47678,
+   "register_approved": 47678,
+   "register_loans": 42282,
+   "register_volume": 23269324000.0
+  },
+  {
+   "fy": 2023,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5615,
+   "raw_gross": 27515666000.0,
+   "raw_rows": 57362,
+   "register_approved": 57362,
+   "register_loans": 51747,
+   "register_volume": 24655068800.0
+  },
+  {
+   "fy": 2024,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 7624,
+   "raw_gross": 31124036200.0,
+   "raw_rows": 70242,
+   "register_approved": 70242,
+   "register_loans": 62618,
+   "register_volume": 27517974500.0
+  },
+  {
+   "fy": 2025,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 13982,
+   "raw_gross": 37287816200.0,
+   "raw_rows": 78078,
+   "register_approved": 78078,
+   "register_loans": 64096,
+   "register_volume": 32065939300.0
+  },
+  {
+   "fy": 2026,
+   "match": true,
+   "program": "7a",
+   "raw_cancelled": 5183,
+   "raw_gross": 21842233118.0,
+   "raw_rows": 40824,
+   "register_approved": 40824,
+   "register_loans": 35641,
+   "register_volume": 19885185218.0
+  }
+ ]
+}
