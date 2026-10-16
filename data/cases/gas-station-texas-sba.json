@@ -1,0 +1,485 @@
+{
+  "slug": "gas-station-texas-sba",
+  "page": "/case-studies/gas-station-texas-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 45,
+    "fees": 46,
+    "prime": 47
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "store",
+    "count": 1
+  },
+  "inputs": {
+    "land": {
+      "value": 1850000,
+      "fmt": "$",
+      "label": "Land, about 1.5 acres of CLB land with US 183 frontage",
+      "assumption": "Carried at the full asking price of the one listed comparable, a 1.52-acre CLB tract with US 183 frontage inside city limits offered at $1,850,000 in October 2026 [^16]. It is an asking price, not a sale; no closed Lockhart land sale was found, so the study takes no discount."
+    },
+    "store_sf": {
+      "value": 4200,
+      "fmt": "n",
+      "label": "Store size, square feet",
+      "assumption": "Between Yesway's 3,400 sq ft legacy store and its 5,800 sq ft new-build average [^36], large enough for a made-to-order kitchen and a few seats."
+    },
+    "building_psf": {
+      "value": 290,
+      "fmt": "$",
+      "label": "Store and canopy hard cost per square foot of store",
+      "assumption": "Inside the $150 to $350 contractor range for building and canopy [^39], in the upper half because nonresidential construction inputs rose 7.1% in the year to June 2026 [^41] and the store carries a kitchen."
+    },
+    "tanks": {
+      "value": 3,
+      "fmt": "n",
+      "label": "Underground storage tanks",
+      "assumption": "One tank each for regular, premium and diesel; a blending dispenser makes midgrade."
+    },
+    "tank_cost": {
+      "value": 220000,
+      "fmt": "$",
+      "label": "Installed cost per tank, complete with piping and monitoring",
+      "assumption": "Midpoint of the $60,000 to $380,000 a fuel-system vendor gives for a complete installed tank system, updated August 18, 2026 [^40]; the same guide puts the vessel alone at $20,000 to $80,000."
+    },
+    "dispensers": {
+      "value": 6,
+      "fmt": "n",
+      "label": "Multi-product dispensers (12 fueling positions)",
+      "assumption": "Six islands for a highway frontage; the contractor's all-in example runs 4 dispensers for 3,000 sq ft [^39] and Yesway's legacy stores average 10 [^36]."
+    },
+    "dispenser_cost": {
+      "value": 50000,
+      "fmt": "$",
+      "label": "Cost per dispenser",
+      "assumption": "Middle of the $25,000 to $75,000 per dispenser range in the same vendor's cost table [^40]; its text quotes a lower floor of $12,000, so the table is the safer reading."
+    },
+    "sitework": {
+      "value": 450000,
+      "fmt": "$",
+      "label": "Site work, paving, drainage, utility taps and signage",
+      "assumption": "No Lockhart site-work cost was found and the city does not publish commercial impact fee amounts [^28]; carried as a round allowance for a 1.5-acre pad with two drives."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "Five percent of building, tank and site costs, a common lender floor for a priced but unbid project."
+    },
+    "soft": {
+      "value": 260000,
+      "fmt": "$",
+      "label": "Design, permits, SUP process, survey, Phase I and legal",
+      "assumption": "Allowance; it includes a Phase I environmental site assessment, which gas station loans carry regardless of size [^43], and the cost of a Specific Use Permit application if the overlay is mapped."
+    },
+    "ffe": {
+      "value": 380000,
+      "fmt": "$",
+      "label": "Store fixtures, coolers, kitchen and point of sale",
+      "assumption": "Allowance for a kitchen-equipped store; no published equipment share of cost was found."
+    },
+    "fuel_inventory": {
+      "value": 150000,
+      "fmt": "$",
+      "label": "Opening fuel inventory",
+      "assumption": "Low half of the $100,000 to $300,000 initial fuel inventory range in Holiday's 2025 franchise disclosure, as relayed by a contractor [^42]."
+    },
+    "merch_inventory": {
+      "value": 140000,
+      "fmt": "$",
+      "label": "Opening merchandise and food inventory",
+      "assumption": "Allowance for a store of this size; no Lockhart figure was found."
+    },
+    "working_capital": {
+      "value": 150000,
+      "fmt": "$",
+      "label": "Pre-opening payroll, training and working capital",
+      "assumption": "About two months of the modelled payroll and fixed costs before sales settle."
+    },
+    "gallons_day": {
+      "value": [
+        3000,
+        3700,
+        4000,
+        4050,
+        4100
+      ],
+      "fmt": "n",
+      "label": "Fuel gallons sold per day",
+      "assumption": "Ramps to the national average of about 4,000 gallons a day per store [^9] by Year 3: a new 12-position store on the main highway of a city growing 26.2% since 2020 [^1] should reach the average, but 16 in-town stations hold Lockhart's existing demand, so the study does not underwrite above it."
+    },
+    "fuel_margin": {
+      "value": 0.36,
+      "fmt": "cpg",
+      "label": "Fuel gross margin per gallon",
+      "assumption": "Below the 39.7-cent 2024 national gasoline margin [^9] and well below the 35.1 to 52.6 cents listed operators earned in the second quarter of 2026, a level lifted by the 2026 supply shock [^38]; the H-E-B fuel center on US 183 [^15] anchors the low end of local prices."
+    },
+    "inside_sales": {
+      "value": [
+        1700000,
+        2000000,
+        2200000,
+        2250000,
+        2300000
+      ],
+      "fmt": "$",
+      "label": "Inside sales, merchandise and food",
+      "assumption": "Year 3 sits between Yesway's $1.7 million legacy store and its $3.1 million new-build store [^36]; the kitchen and Lockhart's barbecue traffic justify more than a legacy store, but not a new-build chain store."
+    },
+    "food_share": {
+      "value": 0.285,
+      "fmt": "%",
+      "label": "Foodservice share of inside sales",
+      "source": [
+        34
+      ]
+    },
+    "food_margin": {
+      "value": 0.5,
+      "fmt": "%",
+      "label": "Foodservice gross margin",
+      "assumption": "Below the 58.3% prepared food margin Casey's reported for the first nine months of its fiscal 2026 [^37]; an independent kitchen buys at smaller scale."
+    },
+    "merch_margin": {
+      "value": 0.32,
+      "fmt": "%",
+      "label": "Merchandise gross margin",
+      "assumption": "Below Yesway's 35.2% inside margin for 2025 [^36], which blends in its food; packaged goods alone earn less."
+    },
+    "staff_shift": {
+      "value": 2.4,
+      "fmt": "n1",
+      "label": "Staff on the floor per hour",
+      "assumption": "Slightly under Yesway's portfolio average of 2.6 employees per shift [^36], whose stores average larger."
+    },
+    "hours": {
+      "value": 24,
+      "fmt": "n",
+      "label": "Hours open per day",
+      "assumption": "Open around the clock like the two Valero stores on US 183 that list 24-hour service [^12,13]."
+    },
+    "wage": {
+      "value": 15.04,
+      "fmt": "$2",
+      "label": "Average hourly wage",
+      "source": [
+        34
+      ]
+    },
+    "burden": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Payroll taxes and benefits on wages",
+      "assumption": "Employer payroll taxes, workers' compensation and limited benefits for hourly retail staff; no Texas c-store figure was found."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and operating costs",
+      "assumption": "Near the 3.4% consumer price inflation reported for August 2026 [^38]."
+    },
+    "card_cpg": {
+      "value": 0.084,
+      "fmt": "cpg",
+      "label": "Card fees per gallon of fuel",
+      "source": [
+        35
+      ]
+    },
+    "ind_card_fees": {
+      "value": 21300000000,
+      "fmt": "$",
+      "label": "Industry card fees, 2025",
+      "source": [
+        34
+      ]
+    },
+    "ind_sales": {
+      "value": 817500000000,
+      "fmt": "$",
+      "label": "Industry total sales, 2025",
+      "source": [
+        34
+      ]
+    },
+    "utilities": {
+      "value": 78000,
+      "fmt": "$",
+      "label": "Electricity, water and gas, Year 1",
+      "assumption": "The city's General Service Demand tariff adds a purchased power cost set by Council in October 2007 whose current value the rate page does not show [^27], so the bill cannot be built from the tariff; carried as an allowance for a 24-hour store with a kitchen."
+    },
+    "repairs": {
+      "value": 70000,
+      "fmt": "$",
+      "label": "Repairs, supplies, tank testing and compliance, Year 1",
+      "assumption": "Allowance; tank and line testing is part of the environmental file a gas station loan keeps [^43]."
+    },
+    "insurance": {
+      "value": 30000,
+      "fmt": "$",
+      "label": "Property, liability and pollution insurance, Year 1",
+      "assumption": "No Caldwell County premium was found; carried as an allowance and made a lender condition."
+    },
+    "admin": {
+      "value": 36000,
+      "fmt": "$",
+      "label": "Accounting, payroll service, licenses and permits, Year 1",
+      "assumption": "Allowance; the state license list for fuel, tobacco and alcohol sales was not found in the research."
+    },
+    "tax_rate": {
+      "value": 0.019635,
+      "fmt": "%2",
+      "label": "Property tax rate: County, road, City, Lockhart ISD and two Plum Creek districts, 2025",
+      "source": [
+        30
+      ]
+    },
+    "reserve_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Replacement reserve, share of dispenser and fixture cost per year",
+      "assumption": "Funds dispenser, cooler and kitchen replacement over roughly a 20-year cycle."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        44
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 1.5 acres on US 183",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "assumption at the listed comparable's ask [^16]"
+    },
+    {
+      "key": "building",
+      "label": "Store and canopy, 4,200 sq ft",
+      "expr": "store_sf * building_psf",
+      "class": "real_estate",
+      "basis": "sq ft x cost per sq ft [^39,41]"
+    },
+    {
+      "key": "tanks",
+      "label": "Underground tanks, piping and monitoring",
+      "expr": "tanks * tank_cost",
+      "class": "real_estate",
+      "basis": "3 tanks [^40]"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, paving, utilities and signage",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(store_sf * building_psf + tanks * tank_cost + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "5% of hard costs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, SUP, Phase I, legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance [^43]"
+    },
+    {
+      "key": "dispensers",
+      "label": "Fuel dispensers",
+      "expr": "dispensers * dispenser_cost",
+      "class": "equipment",
+      "basis": "6 dispensers [^40]"
+    },
+    {
+      "key": "ffe",
+      "label": "Fixtures, coolers, kitchen, point of sale",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "inventory",
+      "label": "Opening fuel and store inventory",
+      "expr": "fuel_inventory + merch_inventory",
+      "class": "working_capital",
+      "basis": "[^42]"
+    },
+    {
+      "key": "working_capital",
+      "label": "Pre-opening costs and working capital",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "allowance"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "fuel",
+      "label": "Fuel gross profit",
+      "expr": "gallons_day * 365 * fuel_margin",
+      "basis": "gallons a day x 365 x margin [^9,38]"
+    },
+    {
+      "key": "merch",
+      "label": "Merchandise gross profit",
+      "expr": "inside_sales * (1 - food_share) * merch_margin",
+      "basis": "inside sales x non-food share x margin [^34,36]"
+    },
+    {
+      "key": "food",
+      "label": "Foodservice gross profit",
+      "expr": "inside_sales * food_share * food_margin",
+      "basis": "inside sales x food share x margin [^34,37]"
+    }
+  ],
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "labor",
+      "label": "Store payroll and burden",
+      "expr": "staff_shift * hours * 365 * wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "staff x hours x wage [^34,36]"
+    },
+    {
+      "key": "card_fuel",
+      "label": "Card fees on fuel",
+      "expr": "gallons_day * 365 * card_cpg",
+      "basis": "8.4 cents a gallon [^35]"
+    },
+    {
+      "key": "card_inside",
+      "label": "Card fees on inside sales",
+      "expr": "inside_sales * ind_card_fees / ind_sales",
+      "basis": "industry fees / industry sales [^34]"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities",
+      "expr": "utilities * (1 + inflation) ** y",
+      "basis": "allowance [^27]"
+    },
+    {
+      "key": "repairs",
+      "label": "Repairs, supplies and tank compliance",
+      "expr": "repairs * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "admin",
+      "label": "Accounting, licenses and permits",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land + store_sf * building_psf + tanks * tank_cost + sitework + dispensers * dispenser_cost + ffe) * tax_rate",
+      "basis": "cost basis x 2025 rates [^30]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(dispensers * dispenser_cost + ffe) * reserve_pct",
+      "basis": "5% of equipment"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.15,
+    "note": "the sponsor proposes the smallest round equity share that keeps the 7(a) loan under the program's size limit"
+  },
+  "breakeven": {
+    "input": "gallons_day",
+    "label": "fuel gallons a day"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "gallons_day",
+      "label": "Fuel gallons a day",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "land",
+      "label": "Land price below the ask",
+      "steps": [
+        -0.4,
+        -0.3,
+        -0.2,
+        -0.1,
+        0
+      ]
+    },
+    "year": 2
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Lockhart, Caldwell County, Texas, on US 183 inside city limits; SH 142 and the SH 130 toll road meet the city to the west [^3]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New {in_store_sf} sq ft branded convenience store with a made-to-order kitchen and {in_dispensers} multi-product dispensers on about 1.5 acres zoned CLB"
+    ],
+    [
+      "Program",
+      "SBA 7(a) start-up; gas stations are on SBA's special purpose property list [^45]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the financed guaranty fee moves with the loan)"
+    ],
+    [
+      "Loan structure",
+      "One 7(a) loan, 25-year term, Prime plus the maximum spread"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured"
+    ],
+    [
+      "Break-even",
+      "{breakeven_value} gallons a day in Year 3 covers debt service ({cushion_pct} below the underwritten volume)"
+    ],
+    [
+      "Market conclusion",
+      "Demand supports a new full-service store; the land price, not the market, limits the loan"
+    ],
+    [
+      "Determination",
+      "As proposed: {verdict_proposed} the {floor} test. As restructured: {loan_total} of 7(a) debt and {equity_pct} equity"
+    ]
+  ]
+}

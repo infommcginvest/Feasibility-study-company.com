@@ -442,6 +442,13 @@ def validate(out, front):
         raise BuildError(f"{where}: duplicate element ids {dup}")
     for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', out, re.S):
         json.loads(m.group(1))
+    sba = json.loads(read(os.path.join(ROOT, "data", "regulatory", "sba.json")))
+    for m in re.finditer(r"<!--sba:([a-z0-9_.]+)", out):
+        cur = sba
+        for part in m.group(1).split("."):
+            if not (isinstance(cur, dict) and part in cur):
+                raise BuildError(f"{where}: sba marker path {m.group(1)} is not in data/regulatory/sba.json")
+            cur = cur[part]
     left = re.search(r"\[\^\d|\{\{case:", outside)
     if left:
         raise BuildError(f"{where}: unexpanded shorthand near {outside[left.start():left.start() + 30]!r}")
