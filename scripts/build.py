@@ -14,11 +14,13 @@ through src/templates/<type>.html, wrapped in src/templates/base.html, into the 
     python3 scripts/build.py --list                 list sources, types and served paths
 
 Script-owned regions, <!--NS:NAME {params}-->...<!--/NS:NAME--> with NS in chrome, mesh,
-fsc, sba, mkt and case, belong to their own scripts (chrome.py, mesh.py, byline.py,
+fsc, sba, mkt and case, and the first-mention links mesh.py writes into prose (<a ... data-fsc-term>),
+belong to their own scripts (chrome.py, mesh.py, byline.py,
 regulatory.py, markets.py, casemodel.py), which check them. build.py writes their markers
 and params; on a page that already exists it keeps the content those scripts wrote, and on
 a new page it writes their starting content (the chrome partials, the source's sba and mkt
-text, and empty fsc, mesh and case regions). Then run, in order: chrome.py (when present),
+text, and empty fsc and case regions; mesh regions are carried over from the served page to the
+start of the CTA line, where mesh.py puts them). Then run, in order: chrome.py (when present),
 byline.py, regulatory.py, markets.py (when present), casemodel.py, mesh.py, links.py --relink.
 
 Body shorthand the renderer expands:
@@ -50,6 +52,10 @@ TYPES = ("state", "metro", "hub", "subtype", "case")
 REFERENCE = ("state", "metro", "hub", "subtype")
 OWNED = ("chrome", "mesh", "fsc", "sba", "mkt", "case")
 REGION = re.compile(r"<!--(chrome|mesh|fsc|sba|mkt|case):([a-z0-9_.:-]+)( \{.*?\})?-->(.*?)<!--/\1:\2-->", re.S)
+# scripts/mesh.py's own patterns: its regions (with their indentation and the blank line after them), which it
+# places at the start of the line holding the CTA band, and the first-mention links it writes into prose
+MESH_REGION = re.compile(r"[ \t]*<!--mesh:([a-z0-9-]+)(?: \{.*?\})?-->.*?<!--/mesh:\1-->\n\n", re.S)
+TERM_LINK = re.compile(r'<a href="[^"]*" data-fsc-term="[^"]*">(.*?)</a>', re.S)
 CITE = re.compile(r"\[\^(\d+(?:\s*,\s*\d+)*)\]")
 CASE_SHORT = re.compile(r"\{\{case:([a-z0-9_.]+)\}\}")
 SECTION = re.compile(r"<section\s+([^>]*)>(.*?)</section>", re.S)
@@ -323,11 +329,6 @@ def render(front, body, cfg, old=None):
     else:
         name = "line-state" if kind in ("state", "metro") else "line-asset"
         byline = marker("fsc", name, {"updated": updated})
-    mesh = ""
-    if old:
-        regions = [m.group(0) for m in REGION.finditer(old) if m.group(1) == "mesh"]
-        if regions:
-            mesh = "\n" + "\n".join("  " + r for r in regions) + "\n"
     hero_secondary = ""
     if front.get("hero_secondary"):
         hs = front["hero_secondary"]
@@ -342,7 +343,6 @@ def render(front, body, cfg, old=None):
         "stat_band": stat_band(front, kind),
         "body": body_html,
         "faq": faq,
-        "mesh": mesh,
         "cta_h2": cta.get("h2", "Start with the market read."),
         "cta_p": cta.get("p", ""),
         "sources_alt": " section-alt" if alt else "",
@@ -374,8 +374,24 @@ def render(front, body, cfg, old=None):
     out = string.Template(read(os.path.join(TPL, "base.html"))).substitute(values)
     if old:
         out = keep_owned(out, old)
+        out = keep_mesh(out, old)
     validate(out, front)
     return out
+
+
+def keep_mesh(fresh, old):
+    """Put the mesh regions of the served page back where scripts/mesh.py places them."""
+    regions = "".join(m.group(0) for m in MESH_REGION.finditer(old))
+    if not regions:
+        return fresh
+    i = fresh.find('<section class="cta-band"')
+    line = fresh.rfind("\n", 0, i) + 1
+    return fresh[:line] + regions + fresh[line:]
+
+
+def comparable(text):
+    """A page with every script-owned region blanked and mesh.py's first-mention links unwrapped."""
+    return blank_owned(TERM_LINK.sub(lambda m: m.group(1), text))
 
 
 def region_key_list(text):
@@ -440,7 +456,7 @@ def build_one(path, cfg, check):
     if check:
         if old is None:
             return rel, "missing"
-        if blank_owned(old) != blank_owned(out):
+        if comparable(old) != comparable(out):
             return rel, "stale"
         return rel, None
     if out != old:
