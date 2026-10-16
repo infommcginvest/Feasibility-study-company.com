@@ -25,3 +25,4 @@ Thumbs.db
 # WEB-FSC-5 markets pipeline: raw downloads and local bundles (never committed)
 /_cache/
 /_bundles/
+__pycache__/

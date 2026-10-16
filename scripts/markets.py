@@ -147,7 +147,9 @@ def fmt_value(v, fmt):
 
 def window_label(s, p):
     if 'fy' in p:
-        return f'approval FY{int(p["fy"])}'
+        fy = int(p['fy'])
+        last = (s.get('by_fy_years') or [None, None])[1]
+        return f'approval FY{fy}' + (f' to {s["asof"]} (fiscal year in progress)' if fy == last and s.get('asof') else '')
     w = p.get('window', HEADLINE_WINDOW)
     return s.get('windows', {}).get(w, s.get('label', ''))
 
@@ -155,14 +157,13 @@ def window_label(s, p):
 def source_line(name, p):
     geo, sid = name.split('.', 1)
     s = series(sid)
-    src = next((r for r in sources()['sources'] if sid in (r.get('series') or [])), None)
+    src = next((r for r in sources().get('series', []) if r['id'] == sid), None)
     if not src:
-        raise MarkerError(f'{name}: no sources.json row lists series {sid}')
+        raise MarkerError(f'{name}: sources.json has no series row {sid}')
     if src['status'] != 'FETCHED':
-        raise MarkerError(f'{name}: source {src["id"]} is {src["status"]}')
-    url = src['url'][0] if isinstance(src['url'], list) else src['url']
-    if src['id'] == 'sba_foia':
-        url = 'https://data.sba.gov/dataset/7a-504-foia'
+        raise MarkerError(f'{name}: series {sid} is {src["status"]}')
+    url = src.get('landing_page') or (src['url'][0] if isinstance(src['url'], list) else src['url'])
+    if src['fetch_source'] == 'sba_foia':
         prog = '7(a)' if sid.startswith('sba7a') else '504'
         title = f'{prog} FOIA loan-level data, as of {s["asof"]}'
     else:

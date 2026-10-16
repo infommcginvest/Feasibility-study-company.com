@@ -1,5 +1,5 @@
 {
- "about": "One row per fetch source. status FETCHED or NOT FETCHED with the reason; series lists the series files built from it. The SBA FOIA cohort definition for charge-off rates is in definitions.",
+ "about": "sources: one row per fetch source, status FETCHED or NOT FETCHED with the reason; series lists the series files built from it. series: one row per series file with the citation fields of the exact raw files behind it (publisher, title, URL, vintage, period, retrieval date, sha256, cadence, next release). The SBA FOIA definitions, including the seasoned charge-off cohorts, are in definitions.",
  "definitions": {
   "approved": "Every approval row in the files, including loans later cancelled.",
   "chgoff_amt": "Sum of GrossChargeOffAmount over CHGOFF loans (7(a): guaranteed and unguaranteed portion; 504: SBA/CDC balance).",
@@ -12,6 +12,408 @@
   "loans": "Approvals net of cancellations: every loan in the FOIA files whose LoanStatus is not cancelled (CANCLD). Undisbursed loans (7(a) COMMIT, 504 NOT FUNDED) are included because they are live approvals.",
   "volume": "Sum of GrossApproval over the same loans. 7(a): total loan amount; 504: SBA/CDC (debenture) loan amount, not the whole project."
  },
+ "series": [
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Approvals net of cancellations: every loan in the FOIA files whose LoanStatus is not cancelled (CANCLD). Undisbursed loans (7(a) COMMIT, 504 NOT FUNDED) are included because they are live approvals.",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_loans",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Sum of GrossApproval over the same loans. 7(a): total loan amount; 504: SBA/CDC (debenture) loan amount, not the whole project.",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_volume",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": null,
+   "fetch_source": "sba_foia",
+   "id": "sba7a_cancelled",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Loans with a disbursed status: paid in full, charged off, active (EXEMPT), and 504 CLOSED. The denominator of the charge-off rate.",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_disbursed",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Loans with status CHGOFF, by approval fiscal year (a cohort count, not charge-offs dated in that year).",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_chgoff_n",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Sum of GrossChargeOffAmount over CHGOFF loans (7(a): guaranteed and unguaranteed portion; 504: SBA/CDC balance).",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_chgoff_amt",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Seasoned cohorts only: approval FY2011 to FY2020 pooled, each at least five full fiscal years old at the as-of date. Rate = sum of charged-off loans / sum of disbursed loans over those cohorts. Cancelled and undisbursed loans never enter the denominator. A denominator under 30 is flagged.",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_chgoff_rate",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Same cohorts: sum of GrossChargeOffAmount / sum of GrossApproval of disbursed loans.",
+   "fetch_source": "sba_foia",
+   "id": "sba7a_chgoff_amt_rate",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "FOIA_7a_FY1991_FY1999_asof_260630.csv": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+    "FOIA_7a_FY2000_FY2009_asof_260630.csv": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "FOIA_7a_FY2010_FY2019_asof_260630.csv": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "FOIA_7a_FY2020_Present_asof_260630.csv": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe"
+   },
+   "status": "FETCHED",
+   "title": "7(a) FOIA loan-level data as of 2026-06-30 (FOIA_7a_FY1991_FY1999_asof_260630.csv, FOIA_7a_FY2000_FY2009_asof_260630.csv, FOIA_7a_FY2010_FY2019_asof_260630.csv, FOIA_7a_FY2020_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Approvals net of cancellations: every loan in the FOIA files whose LoanStatus is not cancelled (CANCLD). Undisbursed loans (7(a) COMMIT, 504 NOT FUNDED) are included because they are live approvals.",
+   "fetch_source": "sba_foia",
+   "id": "sba504_loans",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Sum of GrossApproval over the same loans. 7(a): total loan amount; 504: SBA/CDC (debenture) loan amount, not the whole project.",
+   "fetch_source": "sba_foia",
+   "id": "sba504_volume",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": null,
+   "fetch_source": "sba_foia",
+   "id": "sba504_cancelled",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Loans with a disbursed status: paid in full, charged off, active (EXEMPT), and 504 CLOSED. The denominator of the charge-off rate.",
+   "fetch_source": "sba_foia",
+   "id": "sba504_disbursed",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Loans with status CHGOFF, by approval fiscal year (a cohort count, not charge-offs dated in that year).",
+   "fetch_source": "sba_foia",
+   "id": "sba504_chgoff_n",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Sum of GrossChargeOffAmount over CHGOFF loans (7(a): guaranteed and unguaranteed portion; 504: SBA/CDC balance).",
+   "fetch_source": "sba_foia",
+   "id": "sba504_chgoff_amt",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Seasoned cohorts only: approval FY2011 to FY2020 pooled, each at least five full fiscal years old at the as-of date. Rate = sum of charged-off loans / sum of disbursed loans over those cohorts. Cancelled and undisbursed loans never enter the denominator. A denominator under 30 is flagged.",
+   "fetch_source": "sba_foia",
+   "id": "sba504_chgoff_rate",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  },
+  {
+   "cadence": "quarterly (about one month after quarter end)",
+   "definition": "Same cohorts: sum of GrossChargeOffAmount / sum of GrossApproval of disbursed loans.",
+   "fetch_source": "sba_foia",
+   "id": "sba504_chgoff_amt_rate",
+   "landing_page": "https://data.sba.gov/dataset/7a-504-foia",
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
+   "publisher": "U.S. Small Business Administration, Office of Capital Access",
+   "retrieved": "2026-10-16T09:37:35Z",
+   "sha256": {
+    "7a_504_foia_data_dictionary.xlsx": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "FOIA_504_FY1991_FY2009_asof_260630.csv": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+    "FOIA_504_FY2010_Present_asof_260630.csv": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4"
+   },
+   "status": "FETCHED",
+   "title": "504 FOIA loan-level data as of 2026-06-30 (7a_504_foia_data_dictionary.xlsx, FOIA_504_FY1991_FY2009_asof_260630.csv, FOIA_504_FY2010_Present_asof_260630.csv); data.sba.gov dataset \"7(a) & 504 FOIA\"",
+   "url": [
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+    "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+   ],
+   "vintage": "2026-06-30"
+  }
+ ],
  "sources": [
   {
    "cadence": "annual (counties each March)",
@@ -278,8 +680,8 @@
    "cadence": "quarterly (about one month after quarter end)",
    "fetch_source": "sba_foia",
    "id": "sba_foia",
-   "next_release": null,
-   "period": null,
+   "next_release": "2026-10-31",
+   "period": "approval FY1991 to FY2026, loan status as of 2026-06-30",
    "publisher": "U.S. Small Business Administration, Office of Capital Access",
    "reason": null,
    "retrieved": "2026-10-16T09:37:35Z",

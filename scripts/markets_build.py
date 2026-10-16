@@ -275,10 +275,10 @@ def market_foia_plan(m):
         return 'null', 'not-published-at-this-grain: the SBA FOIA files carry a project county, not a place or tract'
     if src == 'connecticut-two-schemes':
         ct = comp.get('ct') or {}
-        return 'ct', {'legacy': {('CT', x) for x in ct.get('legacy', [])}, 'pr': {('CT', x) for x in ct.get('pr', [])}}
+        return 'ct', {'legacy': {('CT', norm_county(x)) for x in ct.get('legacy', [])}, 'pr': {('CT', norm_county(x)) for x in ct.get('pr', [])}}
     if src not in ('single-county', 'page-named-counties', 'judgement-region'):
         raise BuildError(f'{market_id(m)}: unknown composition_source {src!r}')
-    keys = {(s['state'], s['string']) for s in comp.get('strings', [])}
+    keys = {(s['state'].strip().upper(), norm_county(s['string'])) for s in comp.get('strings', [])}
     if not comp.get('resolved') or not keys:
         return 'null', 'no-component-county-strings'
     return 'sum', keys
@@ -311,6 +311,11 @@ def sources_rows(man, built):
     for s in mf.SOURCES:
         rec = man['sources'].get(s['id'], {})
         files = [man['files'][k] for k in rec.get('files', []) if k in man['files']]
+        if s['kind'] == 'sba' and rec.get('vintage'):
+            asof = dt.date.fromisoformat(rec['vintage'])
+            fy = asof.year + (1 if asof.month >= 10 else 0)
+            s = dict(s, period=f'approval FY{FY_FIRST} to FY{fy}, loan status as of {asof.isoformat()}',
+                     next_release=sba_next_release(asof).isoformat())
         row = {
             'id': s['id'],
             'fetch_source': s['id'],
@@ -416,13 +421,52 @@ def build(diff=False):
 
     for s in sources_rows(man, built):
         report.setdefault('sources', []).append(s)
-    jdump({'about': 'One row per fetch source. status FETCHED or NOT FETCHED with the reason; series lists the series files built from it. The SBA FOIA cohort definition for charge-off rates is in definitions.',
-           'definitions': foia_definitions(), 'sources': report['sources']},
+    jdump({'about': ('sources: one row per fetch source, status FETCHED or NOT FETCHED with the reason; series lists the series files built from it. '
+                     'series: one row per series file with the citation fields of the exact raw files behind it (publisher, title, URL, vintage, period, '
+                     'retrieval date, sha256, cadence, next release). The SBA FOIA definitions, including the seasoned charge-off cohorts, are in definitions.'),
+           'definitions': foia_definitions(), 'sources': report['sources'], 'series': series_rows(report['sources'], man)},
           os.path.join(DATA, 'sources.json'))
     write_bundles(geo)
     if diff:
         print_diff(old, snapshot_values())
     return report
+
+
+def sba_next_release(asof):
+    """SBA: 'updated quarterly ... typically available one month after the
+    quarter has ended'. The next as-of date is the next quarter end; its files
+    are expected about one month later."""
+    m = asof.month + 3
+    y = asof.year + (m - 1) // 12
+    m = (m - 1) % 12 + 1
+    qend = dt.date(y, m, [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][m - 1])
+    nm = qend.month % 12 + 1
+    ny = qend.year + (1 if qend.month == 12 else 0)
+    return dt.date(ny, nm, 28) if nm == 2 else dt.date(ny, nm, 30 if nm in (4, 6, 9, 11) else 31)
+
+
+def series_rows(srcrows, man):
+    """One sources.json row per series file, carrying the citation fields of
+    the exact raw files it is built from."""
+    out = []
+    for r in srcrows:
+        for sid in r.get('series') or []:
+            row = {k: r[k] for k in ('publisher', 'vintage', 'period', 'retrieved', 'cadence', 'next_release', 'status')}
+            row['id'] = sid
+            row['fetch_source'] = r['id']
+            if r['id'] == 'sba_foia':
+                prog = '7a' if sid.startswith('sba7a') else '504'
+                files = {k: v for k, v in (r['sha256'] or {}).items() if f'_{prog}_' in k}
+                row['title'] = (f'{"7(a)" if prog == "7a" else "504"} FOIA loan-level data as of {r["vintage"]} ('
+                                + ', '.join(sorted(files)) + '); data.sba.gov dataset "7(a) & 504 FOIA"')
+                row['url'] = [u for u in r['url'] if f'_{prog}_' in u]
+                row['landing_page'] = 'https://data.sba.gov/dataset/7a-504-foia'
+                row['sha256'] = files
+                row['definition'] = foia_definitions().get(sid.split('_', 1)[1])
+            else:
+                row['title'], row['url'], row['sha256'] = r['title'], r['url'], r['sha256']
+            out.append(row)
+    return out
 
 
 def foia_definitions():

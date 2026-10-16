@@ -14786,8 +14786,8 @@
    "ct": false,
    "composition_source": "single-county",
    "basis": "counties the state page names",
-   "reason": "Heading names Washington County; Hillsboro is a city inside it.",
-   "review": false
+   "reason": "Heading names Washington County; Hillsboro is a city inside it.; REVIEW: the charter reads hillsboro as a city inside a larger CBSA; composed as Washington County because the page heading names the county",
+   "review": true
   },
   {
    "state": "oregon",
@@ -17222,8 +17222,8 @@
    "ct": false,
    "composition_source": "single-county",
    "basis": "counties the state page names",
-   "reason": "Heading names Summit County; Park City is a place inside it.",
-   "review": false
+   "reason": "Heading names Summit County; Park City is a place inside it.; REVIEW: the charter reads park-city as a town inside a larger county; composed as Summit County because the page heading names the county",
+   "review": true
   },
   {
    "state": "utah",

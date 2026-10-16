@@ -1,0 +1,494 @@
+WEB-FSC-5 gates at HEAD 9c8a902bf9087359ff952f13ee988b996770e3d2
+
+=== GATE 1: no served file changed
+$ git diff --name-only main...HEAD
+.gitignore
+data/markets/audit.csv
+data/markets/foia-county-strings.json
+data/markets/foia-geocoding.json
+data/markets/foia-status-counts.json
+data/markets/foia-status-map.json
+data/markets/geo/alabama/auburn.json
+data/markets/geo/alabama/birmingham.json
+data/markets/geo/alabama/black-belt.json
+data/markets/geo/alabama/gulf-shores.json
+data/markets/geo/alabama/huntsville.json
+data/markets/geo/alabama/mobile.json
+data/markets/geo/alabama/montgomery.json
+data/markets/geo/alabama/tuscaloosa.json
+data/markets/geo/arizona/flagstaff.json
+data/markets/geo/arizona/phoenix.json
+data/markets/geo/arizona/pinal-county.json
+data/markets/geo/arizona/prescott.json
+data/markets/geo/arizona/rural.json
+data/markets/geo/arizona/scottsdale.json
+data/markets/geo/arizona/tucson.json
+data/markets/geo/arizona/yuma.json
+data/markets/geo/arkansas/fort-smith.json
+data/markets/geo/arkansas/hot-springs.json
+data/markets/geo/arkansas/jonesboro.json
+data/markets/geo/arkansas/little-rock.json
+data/markets/geo/arkansas/mississippi-county.json
+data/markets/geo/arkansas/northwest-arkansas.json
+data/markets/geo/arkansas/pine-bluff.json
+data/markets/geo/arkansas/south-arkansas.json
+data/markets/geo/california/central-valley.json
+data/markets/geo/california/inland-empire.json
+data/markets/geo/california/los-angeles.json
+data/markets/geo/california/orange-county.json
+data/markets/geo/california/sacramento.json
+data/markets/geo/california/san-diego.json
+data/markets/geo/california/san-francisco.json
+data/markets/geo/california/silicon-valley.json
+data/markets/geo/connecticut/bridgeport.json
+data/markets/geo/connecticut/fairfield-county.json
+data/markets/geo/connecticut/hartford.json
+data/markets/geo/connecticut/litchfield-hills.json
+data/markets/geo/connecticut/new-haven.json
+data/markets/geo/connecticut/new-london.json
+data/markets/geo/connecticut/quiet-corner.json
+data/markets/geo/connecticut/waterbury.json
+data/markets/geo/florida/fort-myers.json
+data/markets/geo/florida/gainesville.json
+data/markets/geo/florida/jacksonville.json
+data/markets/geo/florida/lakeland.json
+data/markets/geo/florida/miami.json
+data/markets/geo/florida/orlando.json
+data/markets/geo/florida/tampa.json
+data/markets/geo/florida/the-villages.json
+data/markets/geo/georgia/albany.json
+data/markets/geo/georgia/athens.json
+data/markets/geo/georgia/atlanta.json
+data/markets/geo/georgia/augusta.json
+data/markets/geo/georgia/columbus.json
+data/markets/geo/georgia/macon.json
+data/markets/geo/georgia/savannah.json
+data/markets/geo/georgia/valdosta.json
+data/markets/geo/hawaii/hawaii-island.json
+data/markets/geo/hawaii/kapolei.json
+data/markets/geo/hawaii/kauai.json
+data/markets/geo/hawaii/lahaina.json
+data/markets/geo/hawaii/maui.json
+data/markets/geo/hawaii/oahu.json
+data/markets/geo/illinois/bloomington-normal.json
+data/markets/geo/illinois/champaign-urbana.json
+data/markets/geo/illinois/chicago.json
+data/markets/geo/illinois/metro-east.json
+data/markets/geo/illinois/peoria.json
+data/markets/geo/illinois/quad-cities.json
+data/markets/geo/illinois/rockford.json
+data/markets/geo/illinois/springfield.json
+data/markets/geo/indiana/bloomington.json
+data/markets/geo/indiana/carmel.json
+data/markets/geo/indiana/elkhart.json
+data/markets/geo/indiana/fort-wayne.json
+data/markets/geo/indiana/indianapolis.json
+data/markets/geo/indiana/kokomo.json
+data/markets/geo/indiana/northwest-indiana.json
+data/markets/geo/indiana/warsaw.json
+data/markets/geo/iowa/ames.json
+data/markets/geo/iowa/cedar-rapids.json
+data/markets/geo/iowa/council-bluffs.json
+data/markets/geo/iowa/des-moines.json
+data/markets/geo/iowa/iowa-city.json
+data/markets/geo/iowa/quad-cities.json
+data/markets/geo/iowa/sioux-city.json
+data/markets/geo/iowa/waterloo-cedar-falls.json
+data/markets/geo/maine/aroostook.json
+data/markets/geo/maine/bangor.json
+data/markets/geo/maine/bar-harbor.json
+data/markets/geo/maine/bath.json
+data/markets/geo/maine/lewiston-auburn.json
+data/markets/geo/maine/midcoast.json
+data/markets/geo/maine/portland.json
+data/markets/geo/maine/york-county.json
+data/markets/geo/maryland/baltimore.json
+data/markets/geo/maryland/bwi-corridor.json
+data/markets/geo/maryland/eastern-shore.json
+data/markets/geo/maryland/frederick.json
+data/markets/geo/maryland/montgomery-county.json
+data/markets/geo/maryland/prince-georges-county.json
+data/markets/geo/maryland/southern-maryland.json
+data/markets/geo/maryland/western-maryland.json
+data/markets/geo/massachusetts/berkshires.json
+data/markets/geo/massachusetts/boston.json
+data/markets/geo/massachusetts/cambridge.json
+data/markets/geo/massachusetts/cape-cod.json
+data/markets/geo/massachusetts/lowell.json
+data/markets/geo/massachusetts/new-bedford.json
+data/markets/geo/massachusetts/springfield.json
+data/markets/geo/massachusetts/worcester.json
+data/markets/geo/michigan/ann-arbor.json
+data/markets/geo/michigan/detroit.json
+data/markets/geo/michigan/flint.json
+data/markets/geo/michigan/grand-rapids.json
+data/markets/geo/michigan/kalamazoo.json
+data/markets/geo/michigan/lansing.json
+data/markets/geo/michigan/traverse-city.json
+data/markets/geo/michigan/upper-peninsula.json
+data/markets/geo/minnesota/brainerd.json
+data/markets/geo/minnesota/duluth.json
+data/markets/geo/minnesota/iron-range.json
+data/markets/geo/minnesota/mankato.json
+data/markets/geo/minnesota/minneapolis-st-paul.json
+data/markets/geo/minnesota/rochester.json
+data/markets/geo/minnesota/rosemount.json
+data/markets/geo/minnesota/st-cloud.json
+data/markets/geo/mississippi/delta.json
+data/markets/geo/mississippi/desoto-county.json
+data/markets/geo/mississippi/golden-triangle.json
+data/markets/geo/mississippi/gulf-coast.json
+data/markets/geo/mississippi/hattiesburg.json
+data/markets/geo/mississippi/jackson.json
+data/markets/geo/mississippi/oxford.json
+data/markets/geo/mississippi/tupelo.json
+data/markets/geo/missouri/branson.json
+data/markets/geo/missouri/columbia.json
+data/markets/geo/missouri/jefferson-city.json
+data/markets/geo/missouri/kansas-city.json
+data/markets/geo/missouri/springfield.json
+data/markets/geo/missouri/st-joseph.json
+data/markets/geo/missouri/st-louis.json
+data/markets/geo/nevada/carson-city.json
+data/markets/geo/nevada/elko.json
+data/markets/geo/nevada/fernley.json
+data/markets/geo/nevada/lake-tahoe.json
+data/markets/geo/nevada/las-vegas.json
+data/markets/geo/nevada/laughlin.json
+data/markets/geo/nevada/reno.json
+data/markets/geo/nevada/winnemucca.json
+data/markets/geo/new-hampshire/concord.json
+data/markets/geo/new-hampshire/lakes-and-mountains.json
+data/markets/geo/new-hampshire/manchester.json
+data/markets/geo/new-hampshire/nashua.json
+data/markets/geo/new-hampshire/north-country.json
+data/markets/geo/new-hampshire/portsmouth.json
+data/markets/geo/new-hampshire/salem.json
+data/markets/geo/new-hampshire/upper-valley.json
+data/markets/geo/new-jersey/atlantic-city.json
+data/markets/geo/new-jersey/bergen-county.json
+data/markets/geo/new-jersey/camden.json
+data/markets/geo/new-jersey/jersey-city.json
+data/markets/geo/new-jersey/middlesex-county.json
+data/markets/geo/new-jersey/monmouth-ocean.json
+data/markets/geo/new-jersey/morris-county.json
+data/markets/geo/new-jersey/newark.json
+data/markets/geo/new-mexico/albuquerque.json
+data/markets/geo/new-mexico/farmington.json
+data/markets/geo/new-mexico/las-cruces.json
+data/markets/geo/new-mexico/los-alamos.json
+data/markets/geo/new-mexico/permian-basin.json
+data/markets/geo/new-mexico/rio-rancho.json
+data/markets/geo/new-mexico/santa-fe.json
+data/markets/geo/new-mexico/truth-or-consequences.json
+data/markets/geo/new-york/albany.json
+data/markets/geo/new-york/binghamton.json
+data/markets/geo/new-york/buffalo.json
+data/markets/geo/new-york/hudson-valley.json
+data/markets/geo/new-york/long-island.json
+data/markets/geo/new-york/new-york-city.json
+data/markets/geo/new-york/rochester.json
+data/markets/geo/new-york/syracuse.json
+data/markets/geo/north-carolina/asheville.json
+data/markets/geo/north-carolina/charlotte.json
+data/markets/geo/north-carolina/fayetteville.json
+data/markets/geo/north-carolina/greensboro.json
+data/markets/geo/north-carolina/greenville.json
+data/markets/geo/north-carolina/hickory.json
+data/markets/geo/north-carolina/raleigh-durham.json
+data/markets/geo/north-carolina/wilmington.json
+data/markets/geo/ohio/columbus.json
+data/markets/geo/oklahoma/durant.json
+data/markets/geo/oklahoma/edmond.json
+data/markets/geo/oklahoma/lawton.json
+data/markets/geo/oklahoma/norman.json
+data/markets/geo/oklahoma/oklahoma-city.json
+data/markets/geo/oklahoma/pryor.json
+data/markets/geo/oklahoma/stillwater.json
+data/markets/geo/oklahoma/tulsa.json
+data/markets/geo/oregon/bend.json
+data/markets/geo/oregon/eastern-oregon.json
+data/markets/geo/oregon/eugene.json
+data/markets/geo/oregon/hillsboro.json
+data/markets/geo/oregon/oregon-coast.json
+data/markets/geo/oregon/portland.json
+data/markets/geo/oregon/prineville.json
+data/markets/geo/oregon/salem.json
+data/markets/geo/pennsylvania/erie.json
+data/markets/geo/pennsylvania/harrisburg.json
+data/markets/geo/pennsylvania/lancaster.json
+data/markets/geo/pennsylvania/lehigh-valley.json
+data/markets/geo/pennsylvania/philadelphia.json
+data/markets/geo/pennsylvania/pittsburgh.json
+data/markets/geo/pennsylvania/scranton-wilkes-barre.json
+data/markets/geo/pennsylvania/state-college.json
+data/markets/geo/south-carolina/charleston.json
+data/markets/geo/south-carolina/columbia.json
+data/markets/geo/south-carolina/florence.json
+data/markets/geo/south-carolina/greenville.json
+data/markets/geo/south-carolina/hilton-head.json
+data/markets/geo/south-carolina/i-95-corridor.json
+data/markets/geo/south-carolina/myrtle-beach.json
+data/markets/geo/south-carolina/spartanburg.json
+data/markets/geo/states/al.json
+data/markets/geo/states/ar.json
+data/markets/geo/states/az.json
+data/markets/geo/states/ca.json
+data/markets/geo/states/ct.json
+data/markets/geo/states/fl.json
+data/markets/geo/states/ga.json
+data/markets/geo/states/hi.json
+data/markets/geo/states/ia.json
+data/markets/geo/states/il.json
+data/markets/geo/states/in.json
+data/markets/geo/states/ma.json
+data/markets/geo/states/md.json
+data/markets/geo/states/me.json
+data/markets/geo/states/mi.json
+data/markets/geo/states/mn.json
+data/markets/geo/states/mo.json
+data/markets/geo/states/ms.json
+data/markets/geo/states/nc.json
+data/markets/geo/states/nh.json
+data/markets/geo/states/nj.json
+data/markets/geo/states/nm.json
+data/markets/geo/states/nv.json
+data/markets/geo/states/ny.json
+data/markets/geo/states/oh.json
+data/markets/geo/states/ok.json
+data/markets/geo/states/or.json
+data/markets/geo/states/pa.json
+data/markets/geo/states/sc.json
+data/markets/geo/states/tx.json
+data/markets/geo/states/ut.json
+data/markets/geo/states/wa.json
+data/markets/geo/states/wi.json
+data/markets/geo/texas/austin.json
+data/markets/geo/texas/corpus-christi.json
+data/markets/geo/texas/dallas-fort-worth.json
+data/markets/geo/texas/el-paso.json
+data/markets/geo/texas/houston.json
+data/markets/geo/texas/lubbock.json
+data/markets/geo/texas/mcallen.json
+data/markets/geo/texas/san-antonio.json
+data/markets/geo/utah/logan.json
+data/markets/geo/utah/moab.json
+data/markets/geo/utah/ogden.json
+data/markets/geo/utah/park-city.json
+data/markets/geo/utah/provo-orem.json
+data/markets/geo/utah/salt-lake-city.json
+data/markets/geo/utah/st-george.json
+data/markets/geo/utah/uinta-basin.json
+data/markets/geo/washington/bellevue.json
+data/markets/geo/washington/columbia-basin.json
+data/markets/geo/washington/everett.json
+data/markets/geo/washington/seattle.json
+data/markets/geo/washington/spokane.json
+data/markets/geo/washington/tri-cities.json
+data/markets/geo/washington/vancouver.json
+data/markets/geo/washington/yakima.json
+data/markets/geo/wisconsin/eau-claire.json
+data/markets/geo/wisconsin/green-bay.json
+data/markets/geo/wisconsin/kenosha-racine.json
+data/markets/geo/wisconsin/madison.json
+data/markets/geo/wisconsin/milwaukee.json
+data/markets/geo/wisconsin/wausau.json
+data/markets/geo/wisconsin/wisconsin-dells.json
+data/markets/geographies.json
+data/markets/naics-evidence.json
+data/markets/naics-map.json
+data/markets/reconciliation.json
+data/markets/series/sba504_cancelled.json
+data/markets/series/sba504_chgoff_amt.json
+data/markets/series/sba504_chgoff_amt_rate.json
+data/markets/series/sba504_chgoff_n.json
+data/markets/series/sba504_chgoff_rate.json
+data/markets/series/sba504_disbursed.json
+data/markets/series/sba504_loans.json
+data/markets/series/sba504_volume.json
+data/markets/series/sba7a_cancelled.json
+data/markets/series/sba7a_chgoff_amt.json
+data/markets/series/sba7a_chgoff_amt_rate.json
+data/markets/series/sba7a_chgoff_n.json
+data/markets/series/sba7a_chgoff_rate.json
+data/markets/series/sba7a_disbursed.json
+data/markets/series/sba7a_loans.json
+data/markets/series/sba7a_volume.json
+data/markets/sources.json
+docs/web-fsc-5/DECISIONS.md
+docs/web-fsc-5/STEP0.md
+docs/web-fsc-5/compose/classes43.json
+docs/web-fsc-5/compose/foia_county_inventory.tsv
+docs/web-fsc-5/compose/foia_naics_inventory.tsv
+docs/web-fsc-5/compose/group1.json
+docs/web-fsc-5/compose/group2.json
+docs/web-fsc-5/compose/group3.json
+docs/web-fsc-5/compose/market_extracts.json
+docs/web-fsc-5/compose/naics-map-draft.json
+docs/web-fsc-5/fixture/houston-negative.html
+docs/web-fsc-5/fixture/index.html
+docs/web-fsc-5/gates/run_gates.py
+docs/web-fsc-5/input/WEB-FSC-5-CHARTER.md
+docs/web-fsc-5/tools/assemble_geographies.py
+docs/web-fsc-5/tools/foia_inventory.py
+docs/web-fsc-5/tools/foia_profile.py
+scripts/markets.py
+scripts/markets_build.py
+scripts/markets_fetch.py
+$ git status --porcelain (paths outside the lane)
+(none)
+--> GATE 1 GREEN: 333 changed path(s), all inside the lane
+
+=== GATE 2: coverage
+series files 16; series rows 16; series files without a row: none
+markets in geographies.json: 253 (site anchors: 253)
+states: 60; counties: NOT FETCHED (0 rows); CBSAs: NOT FETCHED (0 rows)
+FETCHED: 1: sba_foia
+NOT FETCHED: 14: census_pep, census_pep_api, census_acs5, census_acs1, census_bps, census_cbp, census_cbp_bulk, census_geoinfo, census_delineation, census_dec2020_ct, bls_qcew, bea_cainc1, bea_cainc1_api, hud_fmr
+  census_pep: www2.census.gov robots.txt disallows /programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
+  census_pep_api: CENSUS_API_KEY is not set; the census_pep_api endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_acs5: CENSUS_API_KEY is not set; the census_acs5 endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_acs1: CENSUS_API_KEY is not set; the census_acs1 endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_bps: www2.census.gov robots.txt disallows /econ/bps/County/co2025a.txt for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
+  census_cbp: CENSUS_API_KEY is not set; the census_cbp endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_cbp_bulk: www2.census.gov robots.txt disallows /programs-surveys/cbp/datasets/2023/cbp23co.zip for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
+  census_geoinfo: CENSUS_API_KEY is not set; the census_geoinfo endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  census_delineation: www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))
+  census_dec2020_ct: CENSUS_API_KEY is not set; the census_dec2020_ct endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1)
+  bls_qcew: data.bls.gov robots.txt disallows /cew/data/files/2025/csv/2025_annual_singlefile.zip for user-agent * (RFC 9309 group: * -> 1 rule(s))
+  bea_cainc1: apps.bea.gov robots.txt disallows /regional/zip/CAINC1.zip for user-agent * (RFC 9309 group: * -> 16 rule(s))
+  bea_cainc1_api: BEA_API_KEY is not set; the bea_cainc1_api endpoint requires a key (BEA API: GetData requires a registered UserID)
+  hud_fmr: www.huduser.gov: challenge (AWS WAF bot check on robots.txt)
+sources.json field check: every row has every field (retrieved and sha256 are empty only for NOT FETCHED rows)
+--> GATE 2 RED: no county or CBSA roster: both NOT FETCHED (Census API key wall D2, www2 robots D1)
+
+=== GATE 3: reconciliation
+FOIA us by program and FY: 72 cells, 0 mismatches
+FOIA 504: sum of states 196,735 vs us 196,735; difference 0 (loans with a blank ProjectState, which count in us only)
+FOIA 7a: sum of states 1,718,660 vs us 1,718,665; difference 5 (loans with a blank ProjectState, which count in us only)
+independent FOIA totals by program and FY (rederive.py): FOIA as of 2026-06-30, 6 files: 7(a) 1,961,455 rows, 1,718,665 loans net of cancellations, volume $527,243,968,642, 220,688 CHGOFF rows; 504 229,049 rows, 196,735 loans, volume $129,055,577,411, 12,169 CHGOFF rows; approval FY 1991 to 2026.
+additive federal series fetched for a county-to-state-to-nation reconciliation: none
+--> GATE 3 GREEN: FOIA register equals the raw files by program and FY; state sums differ from us only by rows without a ProjectState; no Census, BLS or BEA additive series was fetched, so there is no county sum to reconcile
+
+=== GATE 4: FOIA status
+504 FOIA_504_FY1991_FY2009_asof_260630.csv: CANCLD=17,845, CHGOFF=11,246, CLOSED=337, EXEMPT=3,817, PIF=77,821
+504 FOIA_504_FY2010_Present_asof_260630.csv: CANCLD=14,469, CHGOFF=923, CLOSED=2, EXEMPT=57,449, NOT FUNDED=8,516, PIF=36,624
+7a FOIA_7a_FY1991_FY1999_asof_260630.csv: CANCLD=43,666, CHGOFF=35,291, EXEMPT=1,860, P I F=256,216
+7a FOIA_7a_FY2000_FY2009_asof_260630.csv: CANCLD=82,276, CHGOFF=144,351, EXEMPT=3,484, P I F=460,222
+7a FOIA_7a_FY2010_FY2019_asof_260630.csv: CANCLD=66,744, CHGOFF=34,153, COMMIT=44, EXEMPT=50,089, P I F=394,721
+7a FOIA_7a_FY2020_Present_asof_260630.csv: CANCLD=50,104, CHGOFF=6,893, COMMIT=21,079, EXEMPT=242,061, P I F=68,201
+7a charge-offs by approval FY (register): 1991:2073, 1992:1902, 1993:1904, 1994:3261, 1995:6127, 1996:5178, 1997:4812, 1998:4815, 1999:5219, 2000:5557, 2001:5445, 2002:6074, 2003:9102, 2004:13172, 2005:20680, 2006:27820, 2007:32439, 2008:18671, 2009:5391, 2010:3671, 2011:3146, 2012:2439, 2013:2422, 2014:2942, 2015:3797, 2016:4075, 2017:4327, 2018:4277, 2019:3057, 2020:1461, 2021:1277, 2022:1706, 2023:1735, 2024:629, 2025:85, 2026:0
+7a charge-offs by approval FY (raw, independent): 1991:2073, 1992:1902, 1993:1904, 1994:3261, 1995:6127, 1996:5178, 1997:4812, 1998:4815, 1999:5219, 2000:5557, 2001:5445, 2002:6074, 2003:9102, 2004:13172, 2005:20680, 2006:27820, 2007:32439, 2008:18671, 2009:5391, 2010:3671, 2011:3146, 2012:2439, 2013:2422, 2014:2942, 2015:3797, 2016:4075, 2017:4327, 2018:4277, 2019:3057, 2020:1461, 2021:1277, 2022:1706, 2023:1735, 2024:629, 2025:85, 2026:0
+504 charge-offs by approval FY (register): 1991:52, 1992:67, 1993:54, 1994:107, 1995:154, 1996:220, 1997:177, 1998:214, 1999:324, 2000:357, 2001:420, 2002:419, 2003:591, 2004:920, 2005:1422, 2006:1945, 2007:2146, 2008:1307, 2009:350, 2010:223, 2011:142, 2012:169, 2013:94, 2014:67, 2015:60, 2016:52, 2017:43, 2018:22, 2019:15, 2020:7, 2021:11, 2022:10, 2023:6, 2024:2, 2025:0, 2026:0
+504 charge-offs by approval FY (raw, independent): 1991:52, 1992:67, 1993:54, 1994:107, 1995:154, 1996:220, 1997:177, 1998:214, 1999:324, 2000:357, 2001:420, 2002:419, 2003:591, 2004:920, 2005:1422, 2006:1945, 2007:2146, 2008:1307, 2009:350, 2010:223, 2011:142, 2012:169, 2013:94, 2014:67, 2015:60, 2016:52, 2017:43, 2018:22, 2019:15, 2020:7, 2021:11, 2022:10, 2023:6, 2024:2, 2025:0, 2026:0
+--> GATE 4 GREEN: every status classified; charge-offs non-zero in every program and FY where the raw files have them
+
+=== GATE 5: NAICS
+classes: 43; without a fit grade: none
+  assisted-living-and-memory-care: fit exact; 2022 623312; FOIA loans 4,230; by edition set {'1997+2002+2007+2012+2017+2022': 4230}
+  auto-dealership: fit exact; 2022 441110,441120; FOIA loans 12,270; by edition set {'1997+2002+2007+2012+2017+2022': 12270}
+  auto-service-and-collision: fit exact; 2022 811111,811114,811121,811122,811191,811198; FOIA loans 65,836; by edition set {'1997+2002+2007+2012+2017': 6829, '1997+2002+2007+2012+2017+2022': 58682, '2022': 325}
+  behavioral-health: fit partial; 2022 621420,623220,622210,621330,621112; FOIA loans 9,438; by edition set {'1997+2002+2007+2012+2017+2022': 9438}
+  childcare-and-daycare: fit exact; 2022 624410; FOIA loans 30,149; by edition set {'1997+2002+2007+2012+2017+2022': 30149}
+  coffee-shop: fit partial; 2022 722515; FOIA loans 16,127; by edition set {'1997+2002+2007': 6420, '2012+2017+2022': 9707}
+  express-car-wash: fit exact; 2022 811192; FOIA loans 13,041; by edition set {'1997+2002+2007+2012+2017+2022': 13041}
+  fitness-and-recreation: fit exact; 2022 713940; FOIA loans 26,412; by edition set {'1997+2002+2007+2012+2017+2022': 26412}
+  funeral-home: fit exact; 2022 812210,812220; FOIA loans 5,252; by edition set {'1997+2002+2007+2012+2017+2022': 5252}
+  gas-station-and-c-store: fit exact; 2022 457110,457120,445131; FOIA loans 38,600; by edition set {'1997+2002+2007+2012+2017': 34595, '2022': 4005}
+  glamping: fit proxy; 2022 721211,721199,721214; FOIA loans 3,702; by edition set {'1997+2002+2007+2012+2017+2022': 3702}
+  grocery-store: fit exact; 2022 445110; FOIA loans 15,122; by edition set {'1997+2002+2007+2012+2017+2022': 15122}
+  hotel: fit exact; 2022 721110; FOIA loans 31,307; by edition set {'1997+2002+2007+2012+2017+2022': 31307}
+  laundromat: fit exact; 2022 812310; FOIA loans 8,632; by edition set {'1997+2002+2007+2012+2017+2022': 8632}
+  marina: fit exact; 2022 713930; FOIA loans 1,351; by edition set {'1997+2002+2007+2012+2017+2022': 1351}
+  medical-office-and-asc: fit proxy; 2022 621493,621111,621112; FOIA loans 29,590; by edition set {'1997+2002+2007+2012+2017+2022': 29590}
+  multifamily: fit partial; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
+  pet-boarding-and-daycare: fit exact; 2022 812910; FOIA loans 8,606; by edition set {'1997+2002+2007+2012+2017+2022': 8606}
+  private-school: fit partial; 2022 611110; FOIA loans 2,136; by edition set {'1997+2002+2007+2012+2017+2022': 2136}
+  quick-service-restaurant: fit exact; 2022 722513; FOIA loans 63,176; by edition set {'1997+2002+2007': 33868, '2012+2017+2022': 29308}
+  restaurant: fit exact; 2022 722511,722513,722514,722515,722310,722320,722330; FOIA loans 185,685; by edition set {'1997+2002+2007': 91011, '1997+2002+2007+2012+2017+2022': 11459, '2012+2017+2022': 83215}
+  retail: fit proxy; 2022 444110,444120,444140,444180,444230,444240,445110,445131,445230,445240,445250,445291,445292,445298,445320,449110,449121,449122,449129,449210,455110,455211,455219,456110,456120,456130,456191,456199,458110,458210,458310,458320,459110,459120,459130,459140,459210,459310,459410,459420,459510,459910,459920,459930,459991,459999; FOIA loans 231,406; by edition set {'1997+2002': 207, '1997+2002+2007': 9008, '1997+2002+2007+2012': 4543, '1997+2002+2007+2012+2017': 170001, '1997+2002+2007+2012+2017+2022': 22394, '2007+2012': 554, '2012+2017': 1346, '2017': 309, '2022': 23044}
+  rv-and-boat-storage: fit partial; 2022 531130,493190,713930; FOIA loans 5,389; by edition set {'1997+2002+2007+2012+2017+2022': 5389}
+  rv-park-and-campground: fit exact; 2022 721211; FOIA loans 2,379; by edition set {'1997+2002+2007+2012+2017+2022': 2379}
+  self-storage: fit exact; 2022 531130; FOIA loans 3,633; by edition set {'1997+2002+2007+2012+2017+2022': 3633}
+  truck-stop-and-travel-center: fit partial; 2022 457110,457120; FOIA loans 27,310; by edition set {'1997+2002+2007+2012+2017': 24418, '2022': 2892}
+  urgent-care: fit partial; 2022 621493; FOIA loans 843; by edition set {'1997+2002+2007+2012+2017+2022': 843}
+  veterinary-practice: fit exact; 2022 541940; FOIA loans 15,025; by edition set {'1997+2002+2007+2012+2017+2022': 15025}
+  limited-service-hotel: fit partial; 2022 721110; FOIA loans 31,307; by edition set {'1997+2002+2007+2012+2017+2022': 31307}
+  select-service-hotel: fit partial; 2022 721110; FOIA loans 31,307; by edition set {'1997+2002+2007+2012+2017+2022': 31307}
+  extended-stay-hotel: fit partial; 2022 721110; FOIA loans 31,307; by edition set {'1997+2002+2007+2012+2017+2022': 31307}
+  boutique-and-resort: fit partial; 2022 721110,721191,721199; FOIA loans 33,924; by edition set {'1997+2002+2007+2012+2017+2022': 33924}
+  industrial-and-warehouse: fit proxy; 2022 493110,531120; FOIA loans 5,735; by edition set {'1997+2002+2007+2012+2017+2022': 5735}
+  cold-storage: fit exact; 2022 493120; FOIA loans 287; by edition set {'1997+2002+2007+2012+2017+2022': 287}
+  event-and-wedding-venue: fit proxy; 2022 531120,711310; FOIA loans 5,868; by edition set {'1997+2002+2007+2012+2017+2022': 5868}
+  skilled-nursing: fit exact; 2022 623110; FOIA loans 2,138; by edition set {'1997+2002+2007+2012+2017+2022': 2138}
+  build-to-rent: fit proxy; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
+  mixed-use: fit proxy; 2022 531110,531120; FOIA loans 5,207; by edition set {'1997+2002+2007+2012+2017+2022': 5207}
+  brewery-and-distillery: fit exact; 2022 312120,312140; FOIA loans 5,378; by edition set {'1997+2002+2007+2012+2017+2022': 5378}
+  independent-living-and-ccrc: fit partial; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
+  active-adult: fit proxy; 2022 531110; FOIA loans 740; by edition set {'1997+2002+2007+2012+2017+2022': 740}
+  board-and-care: fit partial; 2022 623312,623990; FOIA loans 5,204; by edition set {'1997+2002+2007+2012+2017+2022': 4230, '2002+2007+2012+2017+2022': 974}
+  ccrc-life-plan-communities: fit exact; 2022 623311; FOIA loans 956; by edition set {'1997+2002+2007+2012+2017+2022': 956}
+CBP establishment counts nationally per class: NOT FETCHED (census_cbp: CENSUS_API_KEY is not set; the census_cbp endpoint requires a key (Census Data API: every data request redirects to missing_key.html with X-DataWebAPI-KeyError 1))
+--> GATE 5 RED: every class graded; FOIA loans reported by code and edition; RED because CBP was NOT FETCHED, so no class can show a non-zero national CBP count
+
+=== GATE 6: independent re-derivation
+sampled 304 values; matches 304; mismatches 0
+  county: 48/48
+  county-set: 80/80
+  cross-state: 19/19
+  cross-state-part: 13/13
+  ct-component: 48/48
+  state: 64/64
+  us: 32/32
+quota: {'ct': {'need': 5, 'have': 48}, 'multi_county': {'need': 5, 'have': 80}, 'sub_county': {'need': 3, 'have': 0, 'note': "0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them."}, 'cross_state': {'need': 3, 'have': 32}}
+--> GATE 6 RED: mismatches 0; quotas short {'sub_county': {'need': 3, 'have': 0, 'note': "0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them."}}
+
+=== GATE 7: no synthesized medians, no averaged rates
+series walked: rate cells 30,624 (each re-divided), additive cells 91,872; markets checked as sums of their county strings: 95
+no series in the register is a median (no ACS or HUD series was fetched)
+--> GATE 7 GREEN: every aggregate is a sum or a ratio of sums; no median is aggregated
+
+=== GATE 8: render and mutation
+$ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html
+0 page(s) out of date
+exit 0
+mutation: data/markets/series/sba7a_loans.json values.tx.all.fy2016_2025 += 1
+$ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html
+out of date: docs/web-fsc-5/fixture/index.html
+1 page(s) out of date
+exit 1
+revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html
+0 page(s) out of date
+exit 0
+register file after revert: unchanged-vs-index
+$ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html
+texas/houston.sba7a_loans: the register holds no value here (composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall))
+exit 1
+fixture markers: Houston 0, Connecticut 2
+--> GATE 8 RED: mutation test passes (0, 1, 0); RED for Houston: the register holds no Houston value (CBSA composition pending the delineation file), and the renderer refuses the Houston marker with that reason
+
+=== GATE 9: Texas
+  tx: specific 698, suppressed 0, standalone yes
+  texas/austin: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/corpus-christi: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/dallas-fort-worth: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/el-paso: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/houston: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/lubbock: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/mcallen: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+  texas/san-antonio: specific 0, suppressed 0, standalone no, reason: composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)
+--> GATE 9 GREEN: Texas and its eight markets listed; 0 of 8 standalone; every non-standalone market carries its reason
+
+=== GATE 10: names and identity
+$ grep -rniE '<pattern>' data/markets scripts/markets.py scripts/markets_build.py scripts/markets_fetch.py docs/web-fsc-5 .gitignore
+(no match)
+$ git log --format="%an <%ae> | %cn <%ce>" main..HEAD
+Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility Study Company <noreply@feasibility-study-company.com>
+--> GATE 10 GREEN: no match in lane files or commit identities
+
+=== GATE 11: size
+data/markets total 29.63 MB; files over 25 MB: none; tracked under _cache or _bundles: none
+largest: data/markets/series/sba7a_volume.json 1.89 MB; data/markets/series/sba504_volume.json 1.62 MB; data/markets/series/sba7a_chgoff_amt.json 1.54 MB; data/markets/series/sba504_chgoff_amt.json 1.36 MB; data/markets/series/sba7a_loans.json 1.32 MB
+--> GATE 11 GREEN: 29.63 MB, none over 25 MB, nothing under _cache tracked
+
+GATES GREEN 7/11: 1:G 2:R 3:G 4:G 5:R 6:R 7:G 8:R 9:G 10:G 11:G

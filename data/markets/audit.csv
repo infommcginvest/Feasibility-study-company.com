@@ -232,7 +232,7 @@ market,oklahoma/tulsa,oklahoma,tulsa,cbsa,no,0,0,0,0,15,16,no,"composition-pendi
 market,oregon/bend,oregon,bend,cbsa,yes,0,0,0,0,15,16,no,"composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)"
 market,oregon/eastern-oregon,oregon,eastern-oregon,county-set,yes,642,0,0,1,15,0,yes,
 market,oregon/eugene,oregon,eugene,cbsa,no,0,0,0,0,15,16,no,"composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)"
-market,oregon/hillsboro,oregon,hillsboro,county,no,634,0,0,1,15,0,yes,
+market,oregon/hillsboro,oregon,hillsboro,county,yes,634,0,0,1,15,0,yes,
 market,oregon/oregon-coast,oregon,oregon-coast,county-set,no,626,0,0,1,15,0,yes,
 market,oregon/portland,oregon,portland,cbsa,yes,0,0,0,0,15,16,no,"composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)"
 market,oregon/prineville,oregon,prineville,county,no,560,0,0,1,15,0,yes,
@@ -264,7 +264,7 @@ market,texas/san-antonio,texas,san-antonio,cbsa,no,0,0,0,0,15,16,no,"composition
 market,utah/logan,utah,logan,county,no,634,0,0,1,15,0,yes,
 market,utah/moab,utah,moab,county-set,yes,608,0,0,1,15,0,yes,
 market,utah/ogden,utah,ogden,cbsa,no,0,0,0,0,15,16,no,"composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)"
-market,utah/park-city,utah,park-city,county,no,608,0,0,1,15,0,yes,
+market,utah/park-city,utah,park-city,county,yes,608,0,0,1,15,0,yes,
 market,utah/provo-orem,utah,provo-orem,county,no,674,0,0,1,15,0,yes,
 market,utah/salt-lake-city,utah,salt-lake-city,cbsa,no,0,0,0,0,15,16,no,"composition-pending: the member counties of this market rest on CBSA membership, which must come from the OMB delineation file; it was NOT FETCHED (census_delineation: www2.census.gov robots.txt; census_geoinfo: Census Data API key wall)"
 market,utah/st-george,utah,st-george,county,no,638,0,0,1,15,0,yes,

@@ -1,0 +1,5505 @@
+{
+ "seed": 20261016,
+ "n": 304,
+ "matches": 304,
+ "mismatches": 0,
+ "by_kind": {
+  "county": "48/48",
+  "county-set": "80/80",
+  "cross-state": "19/19",
+  "cross-state-part": "13/13",
+  "ct-component": "48/48",
+  "state": "64/64",
+  "us": "32/32"
+ },
+ "quota": {
+  "ct": {
+   "need": 5,
+   "have": 48
+  },
+  "multi_county": {
+   "need": 5,
+   "have": 80
+  },
+  "sub_county": {
+   "need": 3,
+   "have": 0,
+   "note": "0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them."
+  },
+  "cross_state": {
+   "need": 3,
+   "have": 32
+  }
+ },
+ "mismatch_detail": [],
+ "samples": [
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "independent-living-and-ccrc",
+   "class_fit": "partial",
+   "window": "fy2021_2025",
+   "stratum": "us",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "select-service-hotel",
+   "class_fit": "partial",
+   "window": "by_fy:2018",
+   "stratum": "us",
+   "register": 39,
+   "rederived": 39,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "md",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2003",
+   "stratum": "state",
+   "register": 19,
+   "rederived": 19,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "tx",
+   "geo_kind": "state",
+   "class": "restaurant",
+   "class_fit": "exact",
+   "window": "by_fy:2018",
+   "stratum": "state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "mo",
+   "geo_kind": "state",
+   "class": "brewery-and-distillery",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "state",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "nm",
+   "geo_kind": "state",
+   "class": "limited-service-hotel",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "maine/bar-harbor",
+   "geo_kind": "county",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "fy2021_2025",
+   "stratum": "county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "new-jersey/middlesex-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "county",
+   "register": 72,
+   "rederived": 72,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "maryland/prince-georges-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "county",
+   "register": 89,
+   "rederived": 89,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "new-hampshire/lakes-and-mountains",
+   "geo_kind": "county-set",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "washington/columbia-basin",
+   "geo_kind": "county-set",
+   "class": "select-service-hotel",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "new-jersey/morris-county",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "multi_county",
+   "register": 8,
+   "rederived": 8,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "new-jersey/monmouth-ocean",
+   "geo_kind": "county-set",
+   "class": "board-and-care",
+   "class_fit": "partial",
+   "window": "by_fy:2017",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "new-jersey/camden",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "new-mexico/permian-basin:tx",
+   "geo_kind": "cross-state-part",
+   "class": "hotel",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 10,
+   "rederived": 10,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "connecticut/new-haven:legacy",
+   "geo_kind": "ct-component",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "ct",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "connecticut/quiet-corner:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1993",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_cancelled",
+   "program": "504",
+   "geo": "connecticut/bridgeport:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2001",
+   "stratum": "ct",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "quick-service-restaurant",
+   "class_fit": "exact",
+   "window": "fy2021_2025",
+   "stratum": "us",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1998",
+   "stratum": "us",
+   "register": 61909878.23,
+   "rederived": 61909878.23,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "me",
+   "geo_kind": "state",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "by_fy:1993",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "md",
+   "geo_kind": "state",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "state",
+   "register": 7222873.72,
+   "rederived": 7222873.72,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "wv",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "state",
+   "register": 7574995.99,
+   "rederived": 7574995.99,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "fl",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2005",
+   "stratum": "state",
+   "register": 75307492.73,
+   "rederived": 75307492.73,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "nevada/fernley",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "county",
+   "register": 3236026.45,
+   "rederived": 3236026.45,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "massachusetts/worcester",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 206189.48,
+   "rederived": 206189.48,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "alabama/gulf-shores",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2009",
+   "stratum": "county",
+   "register": 608539.55,
+   "rederived": 608539.55,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "utah/uinta-basin",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2013",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "minnesota/mankato",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2008",
+   "stratum": "multi_county",
+   "register": 1131254.61,
+   "rederived": 1131254.61,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "new-york/long-island",
+   "geo_kind": "county-set",
+   "class": "rv-and-boat-storage",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "missouri/branson",
+   "geo_kind": "county-set",
+   "class": "hotel",
+   "class_fit": "exact",
+   "window": "by_fy:2007",
+   "stratum": "multi_county",
+   "register": 3581968.77,
+   "rederived": 3581968.77,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "maine/midcoast",
+   "geo_kind": "county-set",
+   "class": "fitness-and-recreation",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 110984.44,
+   "rederived": 110984.44,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 624309.42,
+   "rederived": 624309.42,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "cross_state",
+   "register": 814892.04,
+   "rederived": 814892.04,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "connecticut/hartford:legacy",
+   "geo_kind": "ct-component",
+   "class": "active-adult",
+   "class_fit": "proxy",
+   "window": "by_fy:2026",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "connecticut/new-haven:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "ct",
+   "register": 10225914.56,
+   "rederived": 10225914.56,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt",
+   "program": "504",
+   "geo": "connecticut/new-london:pr",
+   "geo_kind": "ct-component",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "fy2016_2025",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "grocery-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.017766,
+    "num": 7003244.06,
+    "den": 394183000
+   },
+   "rederived": {
+    "v": 0.01776647917337886,
+    "num": 7003244.06,
+    "den": 394183000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.009475,
+    "num": 399940021.37,
+    "den": 42210122000
+   },
+   "rederived": {
+    "v": 0.009474979043415226,
+    "num": 399940021.37,
+    "den": 42210122000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "md",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.008894,
+    "num": 3253448.04,
+    "den": 365823000
+   },
+   "rederived": {
+    "v": 0.008893503251572482,
+    "num": 3253448.04,
+    "den": 365823000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "ga",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.01408,
+    "num": 16547488.89,
+    "den": 1175244000
+   },
+   "rederived": {
+    "v": 0.014080045411846391,
+    "num": 16547488.89,
+    "den": 1175244000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "de",
+   "geo_kind": "state",
+   "class": "laundromat",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 1311000
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0.0,
+    "den": 1311000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "ga",
+   "geo_kind": "state",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.075107,
+    "num": 876425.26,
+    "den": 11669000
+   },
+   "rederived": {
+    "v": 0.07510714371411432,
+    "num": 876425.26,
+    "den": 11669000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "maine/bath",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.042848,
+    "num": 194827.66,
+    "den": 4547000
+   },
+   "rederived": {
+    "v": 0.04284751704420497,
+    "num": 194827.66,
+    "den": 4547000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "utah/provo-orem",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.001943,
+    "num": 580031.45,
+    "den": 298597000
+   },
+   "rederived": {
+    "v": 0.00194252269781679,
+    "num": 580031.45,
+    "den": 298597000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "maine/bar-harbor",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.003875,
+    "num": 41989.36,
+    "den": 10837000
+   },
+   "rederived": {
+    "v": 0.003874629510011996,
+    "num": 41989.36,
+    "den": 10837000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "missouri/jefferson-city",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.03596,
+    "num": 1208378.97,
+    "den": 33603000
+   },
+   "rederived": {
+    "v": 0.03596044906704759,
+    "num": 1208378.97,
+    "den": 33603000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "new-york/binghamton",
+   "geo_kind": "county-set",
+   "class": "select-service-hotel",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.0742,
+    "num": 1751264.08,
+    "den": 23602000
+   },
+   "rederived": {
+    "v": 0.07419981696466402,
+    "num": 1751264.08,
+    "den": 23602000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "utah/uinta-basin",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.003991,
+    "num": 79606.3,
+    "den": 19948000
+   },
+   "rederived": {
+    "v": 0.003990690796069781,
+    "num": 79606.3,
+    "den": 19948000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "new-york/binghamton",
+   "geo_kind": "county-set",
+   "class": "hotel",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.0742,
+    "num": 1751264.08,
+    "den": 23602000
+   },
+   "rederived": {
+    "v": 0.07419981696466402,
+    "num": 1751264.08,
+    "den": 23602000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "missouri/jefferson-city",
+   "geo_kind": "county-set",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": null,
+    "num": 0,
+    "den": 0,
+    "f": "no-disbursed-loans-in-seasoned-cohorts"
+   },
+   "rederived": {
+    "v": null,
+    "num": 0.0,
+    "den": 0.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": null,
+    "num": 0,
+    "den": 0,
+    "f": "no-disbursed-loans-in-seasoned-cohorts"
+   },
+   "rederived": {
+    "v": null,
+    "num": 0.0,
+    "den": 0.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 0.05229,
+    "num": 2992467.93,
+    "den": 57228000
+   },
+   "rederived": {
+    "v": 0.05229027626336758,
+    "num": 2992467.93,
+    "den": 57228000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "connecticut/hartford:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.019769,
+    "num": 523662.51,
+    "den": 26489000
+   },
+   "rederived": {
+    "v": 0.019769055456982144,
+    "num": 523662.51,
+    "den": 26489000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "connecticut/waterbury:legacy",
+   "geo_kind": "ct-component",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.28028,
+    "num": 1798274.99,
+    "den": 6416000
+   },
+   "rederived": {
+    "v": 0.2802797677680798,
+    "num": 1798274.99,
+    "den": 6416000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_amt_rate",
+   "program": "504",
+   "geo": "connecticut/new-haven:legacy",
+   "geo_kind": "ct-component",
+   "class": "private-school",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": null,
+    "num": 0,
+    "den": 0,
+    "f": "no-disbursed-loans-in-seasoned-cohorts"
+   },
+   "rederived": {
+    "v": null,
+    "num": 0.0,
+    "den": 0.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "self-storage",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "us",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "us",
+   "register": 27,
+   "rederived": 27,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "wa",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2009",
+   "stratum": "state",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "az",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2015",
+   "stratum": "state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "md",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2002",
+   "stratum": "state",
+   "register": 4,
+   "rederived": 4,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "tn",
+   "geo_kind": "state",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "by_fy:2012",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "nevada/carson-city",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "county",
+   "register": 11,
+   "rederived": 11,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "alabama/gulf-shores",
+   "geo_kind": "county",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "new-jersey/bergen-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "county",
+   "register": 8,
+   "rederived": 8,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "california/san-francisco",
+   "geo_kind": "county-set",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "mississippi/hattiesburg",
+   "geo_kind": "county-set",
+   "class": "extended-stay-hotel",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "new-york/binghamton",
+   "geo_kind": "county-set",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "mississippi/delta",
+   "geo_kind": "county-set",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "fy2026ytd",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "michigan/traverse-city",
+   "geo_kind": "county-set",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "by_fy:2007",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 5,
+   "rederived": 5,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2015",
+   "stratum": "cross_state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "connecticut/fairfield-county:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "ct",
+   "register": 10,
+   "rederived": 10,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "connecticut/new-london:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "ct",
+   "register": 11,
+   "rederived": 11,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_n",
+   "program": "504",
+   "geo": "connecticut/bridgeport:legacy",
+   "geo_kind": "ct-component",
+   "class": "pet-boarding-and-daycare",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "ct",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.011507,
+    "num": 671,
+    "den": 58313
+   },
+   "rederived": {
+    "v": 0.01150686810831204,
+    "num": 671,
+    "den": 58313
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "extended-stay-hotel",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.021033,
+    "num": 57,
+    "den": 2710
+   },
+   "rederived": {
+    "v": 0.02103321033210332,
+    "num": 57,
+    "den": 2710
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "ne",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.01355,
+    "num": 5,
+    "den": 369
+   },
+   "rederived": {
+    "v": 0.013550135501355014,
+    "num": 5,
+    "den": 369
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "ia",
+   "geo_kind": "state",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.272727,
+    "num": 3,
+    "den": 11,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.2727272727272727,
+    "num": 3,
+    "den": 11
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "wa",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.005739,
+    "num": 8,
+    "den": 1394
+   },
+   "rederived": {
+    "v": 0.005738880918220947,
+    "num": 8,
+    "den": 1394
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "ok",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.023121,
+    "num": 8,
+    "den": 346
+   },
+   "rederived": {
+    "v": 0.023121387283236993,
+    "num": 8,
+    "den": 346
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "washington/everett",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.013514,
+    "num": 2,
+    "den": 148
+   },
+   "rederived": {
+    "v": 0.013513513513513514,
+    "num": 2,
+    "den": 148
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "maryland/baltimore",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.033333,
+    "num": 1,
+    "den": 30
+   },
+   "rederived": {
+    "v": 0.03333333333333333,
+    "num": 1,
+    "den": 30
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "maine/bar-harbor",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.03125,
+    "num": 1,
+    "den": 32
+   },
+   "rederived": {
+    "v": 0.03125,
+    "num": 1,
+    "den": 32
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "new-hampshire/lakes-and-mountains",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.011364,
+    "num": 1,
+    "den": 88
+   },
+   "rederived": {
+    "v": 0.011363636363636364,
+    "num": 1,
+    "den": 88
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "new-york/long-island",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.005076,
+    "num": 2,
+    "den": 394
+   },
+   "rederived": {
+    "v": 0.005076142131979695,
+    "num": 2,
+    "den": 394
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "utah/uinta-basin",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.027027,
+    "num": 1,
+    "den": 37
+   },
+   "rederived": {
+    "v": 0.02702702702702703,
+    "num": 1,
+    "den": 37
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "oregon/eastern-oregon",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.013333,
+    "num": 1,
+    "den": 75
+   },
+   "rederived": {
+    "v": 0.013333333333333334,
+    "num": 1,
+    "den": 75
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "new-york/buffalo",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.034188,
+    "num": 4,
+    "den": 117
+   },
+   "rederived": {
+    "v": 0.03418803418803419,
+    "num": 4,
+    "den": 117
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "grocery-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 1.0,
+    "num": 1,
+    "den": 1,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 1.0,
+    "num": 1,
+    "den": 1
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 0.0375,
+    "num": 3,
+    "den": 80
+   },
+   "rederived": {
+    "v": 0.0375,
+    "num": 3,
+    "den": 80
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "connecticut/litchfield-hills:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.111111,
+    "num": 1,
+    "den": 9,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.1111111111111111,
+    "num": 1,
+    "den": 9
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "connecticut/new-haven:legacy",
+   "geo_kind": "ct-component",
+   "class": "brewery-and-distillery",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.5,
+    "num": 1,
+    "den": 2,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.5,
+    "num": 1,
+    "den": 2
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_chgoff_rate",
+   "program": "504",
+   "geo": "connecticut/fairfield-county:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.018519,
+    "num": 1,
+    "den": 54
+   },
+   "rederived": {
+    "v": 0.018518518518518517,
+    "num": 1,
+    "den": 54
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "fy2016_2025",
+   "stratum": "us",
+   "register": 93,
+   "rederived": 93,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "by_fy:2022",
+   "stratum": "us",
+   "register": 44,
+   "rederived": 44,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "mi",
+   "geo_kind": "state",
+   "class": "auto-service-and-collision",
+   "class_fit": "exact",
+   "window": "by_fy:1998",
+   "stratum": "state",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "ok",
+   "geo_kind": "state",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "state",
+   "register": 10,
+   "rederived": 10,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "az",
+   "geo_kind": "state",
+   "class": "private-school",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "state",
+   "register": 22,
+   "rederived": 22,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "sd",
+   "geo_kind": "state",
+   "class": "self-storage",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "state",
+   "register": 24,
+   "rederived": 24,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "minnesota/brainerd",
+   "geo_kind": "county",
+   "class": "assisted-living-and-memory-care",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "nevada/carson-city",
+   "geo_kind": "county",
+   "class": "pet-boarding-and-daycare",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "wisconsin/madison",
+   "geo_kind": "county",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "new-hampshire/portsmouth",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2001",
+   "stratum": "multi_county",
+   "register": 49,
+   "rederived": 49,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "massachusetts/cape-cod",
+   "geo_kind": "county-set",
+   "class": "veterinary-practice",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "washington/yakima",
+   "geo_kind": "county-set",
+   "class": "independent-living-and-ccrc",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "new-jersey/monmouth-ocean",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1997",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "california/san-francisco",
+   "geo_kind": "county-set",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "fy2021_2025",
+   "stratum": "multi_county",
+   "register": 9,
+   "rederived": 9,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "cross_state",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "new-mexico/permian-basin:tx",
+   "geo_kind": "cross-state-part",
+   "class": "extended-stay-hotel",
+   "class_fit": "partial",
+   "window": "fy2021_2025",
+   "stratum": "cross_state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "connecticut/litchfield-hills:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "ct",
+   "register": 5,
+   "rederived": 5,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "connecticut/hartford:legacy",
+   "geo_kind": "ct-component",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "ct",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_disbursed",
+   "program": "504",
+   "geo": "connecticut/new-haven:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2026ytd",
+   "stratum": "ct",
+   "register": 4,
+   "rederived": 4,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "brewery-and-distillery",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "us",
+   "register": 730,
+   "rederived": 730,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "us",
+   "register": 196735,
+   "rederived": 196735,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "nc",
+   "geo_kind": "state",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "by_fy:2006",
+   "stratum": "state",
+   "register": 12,
+   "rederived": 12,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "wy",
+   "geo_kind": "state",
+   "class": "restaurant",
+   "class_fit": "exact",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "ma",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "state",
+   "register": 233,
+   "rederived": 233,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "ct",
+   "geo_kind": "state",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "state",
+   "register": 22,
+   "rederived": 22,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "california/orange-county",
+   "geo_kind": "county",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "mississippi/oxford",
+   "geo_kind": "county",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "maryland/montgomery-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2026ytd",
+   "stratum": "county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "new-jersey/camden",
+   "geo_kind": "county-set",
+   "class": "ccrc-life-plan-communities",
+   "class_fit": "exact",
+   "window": "by_fy:1996",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "michigan/flint",
+   "geo_kind": "county-set",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "multi_county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "california/central-valley",
+   "geo_kind": "county-set",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "washington/yakima",
+   "geo_kind": "county-set",
+   "class": "board-and-care",
+   "class_fit": "partial",
+   "window": "by_fy:2022",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "new-york/long-island",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2008",
+   "stratum": "multi_county",
+   "register": 63,
+   "rederived": 63,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "extended-stay-hotel",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "cross_state",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2008",
+   "stratum": "cross_state",
+   "register": 9,
+   "rederived": 9,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "connecticut/fairfield-county:pr",
+   "geo_kind": "ct-component",
+   "class": "quick-service-restaurant",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "ct",
+   "register": 6,
+   "rederived": 6,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "connecticut/bridgeport:legacy",
+   "geo_kind": "ct-component",
+   "class": "funeral-home",
+   "class_fit": "exact",
+   "window": "by_fy:2005",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_loans",
+   "program": "504",
+   "geo": "connecticut/hartford:legacy",
+   "geo_kind": "ct-component",
+   "class": "auto-service-and-collision",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "ct",
+   "register": 8,
+   "rederived": 8,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "rv-and-boat-storage",
+   "class_fit": "partial",
+   "window": "fy2021_2025",
+   "stratum": "us",
+   "register": 686896000,
+   "rederived": 686896000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "us",
+   "register": 7557423000,
+   "rederived": 7557423000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "wa",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "state",
+   "register": 674487000,
+   "rederived": 674487000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "nh",
+   "geo_kind": "state",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 246000,
+   "rederived": 246000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "ky",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "state",
+   "register": 111537000,
+   "rederived": 111537000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "tn",
+   "geo_kind": "state",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 570000,
+   "rederived": 570000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "washington/everett",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2026",
+   "stratum": "county",
+   "register": 7613000,
+   "rederived": 7613000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "mississippi/desoto-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2016",
+   "stratum": "county",
+   "register": 1579000,
+   "rederived": 1579000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "new-mexico/los-alamos",
+   "geo_kind": "county",
+   "class": "select-service-hotel",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 1458000,
+   "rederived": 1458000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "massachusetts/springfield",
+   "geo_kind": "county-set",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "by_fy:2025",
+   "stratum": "multi_county",
+   "register": 191000,
+   "rederived": 191000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "new-york/buffalo",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 12080000,
+   "rederived": 12080000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "michigan/traverse-city",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 10471000,
+   "rederived": 10471000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "new-york/new-york-city",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2015",
+   "stratum": "multi_county",
+   "register": 50210000,
+   "rederived": 50210000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "new-york/new-york-city",
+   "geo_kind": "county-set",
+   "class": "grocery-store",
+   "class_fit": "exact",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 5000000,
+   "rederived": 5000000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "cross_state",
+   "register": 45174000,
+   "rederived": 45174000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "fy2026ytd",
+   "stratum": "cross_state",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "connecticut/new-haven:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "ct",
+   "register": 58991000,
+   "rederived": 58991000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "connecticut/fairfield-county:legacy",
+   "geo_kind": "ct-component",
+   "class": "skilled-nursing",
+   "class_fit": "exact",
+   "window": "by_fy:2025",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba504_volume",
+   "program": "504",
+   "geo": "connecticut/new-london:pr",
+   "geo_kind": "ct-component",
+   "class": "board-and-care",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "ct",
+   "register": 123000,
+   "rederived": 123000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "us",
+   "register": 1395,
+   "rederived": 1395,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "assisted-living-and-memory-care",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "us",
+   "register": 227,
+   "rederived": 227,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "nm",
+   "geo_kind": "state",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "by_fy:2008",
+   "stratum": "state",
+   "register": 5,
+   "rederived": 5,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "az",
+   "geo_kind": "state",
+   "class": "multifamily",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "state",
+   "register": 4,
+   "rederived": 4,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "ks",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 28,
+   "rederived": 28,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "pa",
+   "geo_kind": "state",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "by_fy:2011",
+   "stratum": "state",
+   "register": 11,
+   "rederived": 11,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "utah/st-george",
+   "geo_kind": "county",
+   "class": "limited-service-hotel",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "hawaii/maui",
+   "geo_kind": "county",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "fy2025",
+   "stratum": "county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "hawaii/hawaii-island",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "wisconsin/kenosha-racine",
+   "geo_kind": "county-set",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "by_fy:2021",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "mississippi/jackson",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2022",
+   "stratum": "multi_county",
+   "register": 8,
+   "rederived": 8,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "missouri/jefferson-city",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 9,
+   "rederived": 9,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "new-york/buffalo",
+   "geo_kind": "county-set",
+   "class": "restaurant",
+   "class_fit": "exact",
+   "window": "by_fy:2001",
+   "stratum": "multi_county",
+   "register": 4,
+   "rederived": 4,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "california/san-francisco",
+   "geo_kind": "county-set",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 53,
+   "rederived": 53,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 313,
+   "rederived": 313,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "by_fy:2009",
+   "stratum": "cross_state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "connecticut/fairfield-county:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "ct",
+   "register": 911,
+   "rederived": 911,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "connecticut/new-london:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "ct",
+   "register": 245,
+   "rederived": 245,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_cancelled",
+   "program": "7a",
+   "geo": "connecticut/waterbury:legacy",
+   "geo_kind": "ct-component",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "ct",
+   "register": 6,
+   "rederived": 6,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "grocery-store",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "us",
+   "register": 318682082.82,
+   "rederived": 318682082.82,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "truck-stop-and-travel-center",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "us",
+   "register": 640038591.27,
+   "rederived": 640038591.27,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "ms",
+   "geo_kind": "state",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "fy2016_2025",
+   "stratum": "state",
+   "register": 26745.82,
+   "rederived": 26745.82,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "nc",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2010",
+   "stratum": "state",
+   "register": 8579517.46,
+   "rederived": 8579517.46,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "az",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "state",
+   "register": 723037917.49,
+   "rederived": 723037917.49,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "pa",
+   "geo_kind": "state",
+   "class": "cold-storage",
+   "class_fit": "exact",
+   "window": "by_fy:2019",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "utah/provo-orem",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1995",
+   "stratum": "county",
+   "register": 407321.28,
+   "rederived": 407321.28,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "utah/logan",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 4870890.48,
+   "rederived": 4870890.48,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "new-jersey/jersey-city",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1999",
+   "stratum": "county",
+   "register": 390303.12,
+   "rederived": 390303.12,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "new-hampshire/portsmouth",
+   "geo_kind": "county-set",
+   "class": "quick-service-restaurant",
+   "class_fit": "exact",
+   "window": "fy2026ytd",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "mississippi/hattiesburg",
+   "geo_kind": "county-set",
+   "class": "restaurant",
+   "class_fit": "exact",
+   "window": "by_fy:2007",
+   "stratum": "multi_county",
+   "register": 178838.05,
+   "rederived": 178838.05,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "indiana/northwest-indiana",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "multi_county",
+   "register": 850769.39,
+   "rederived": 850769.39,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "maryland/southern-maryland",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1998",
+   "stratum": "multi_county",
+   "register": 219468.54,
+   "rederived": 219468.54,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "arkansas/south-arkansas",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "multi_county",
+   "register": 276354.79,
+   "rederived": 276354.79,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 39816573.39,
+   "rederived": 39816573.39,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "skilled-nursing",
+   "class_fit": "exact",
+   "window": "fy2026ytd",
+   "stratum": "cross_state",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "connecticut/waterbury:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "ct",
+   "register": 9428533.85,
+   "rederived": 9428533.85,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "connecticut/litchfield-hills:pr",
+   "geo_kind": "ct-component",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "fy2026ytd",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt",
+   "program": "7a",
+   "geo": "connecticut/new-haven:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "ct",
+   "register": 219762.92,
+   "rederived": 219762.92,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "auto-service-and-collision",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.02149,
+    "num": 81266522.53,
+    "den": 3781647800
+   },
+   "rederived": {
+    "v": 0.021489712111741343,
+    "num": 81266522.53,
+    "den": 3781647800.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "fitness-and-recreation",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.049547,
+    "num": 143319937.4,
+    "den": 2892620800
+   },
+   "rederived": {
+    "v": 0.04954674231755507,
+    "num": 143319937.4,
+    "den": 2892620800.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "as",
+   "geo_kind": "state",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": null,
+    "num": 0,
+    "den": 0,
+    "f": "no-disbursed-loans-in-seasoned-cohorts"
+   },
+   "rederived": {
+    "v": null,
+    "num": 0.0,
+    "den": 0.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "il",
+   "geo_kind": "state",
+   "class": "hotel",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.019181,
+    "num": 8222442.47,
+    "den": 428683900
+   },
+   "rederived": {
+    "v": 0.01918066545069689,
+    "num": 8222442.47,
+    "den": 428683900.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "nj",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.027954,
+    "num": 152187824.14,
+    "den": 5444150800
+   },
+   "rederived": {
+    "v": 0.027954373368937538,
+    "num": 152187824.14,
+    "den": 5444150800.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "tx",
+   "geo_kind": "state",
+   "class": "private-school",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.003015,
+    "num": 369085.64,
+    "den": 122396600
+   },
+   "rederived": {
+    "v": 0.003015489319147754,
+    "num": 369085.64,
+    "den": 122396600.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "washington/everett",
+   "geo_kind": "county",
+   "class": "grocery-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 8282000
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0.0,
+    "den": 8282000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "maine/york-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.038341,
+    "num": 3090577.74,
+    "den": 80608600
+   },
+   "rederived": {
+    "v": 0.038340546045955395,
+    "num": 3090577.74,
+    "den": 80608600.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "utah/st-george",
+   "geo_kind": "county",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 792000
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0.0,
+    "den": 792000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "new-york/hudson-valley",
+   "geo_kind": "county-set",
+   "class": "auto-service-and-collision",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.015387,
+    "num": 239749.25,
+    "den": 15581600
+   },
+   "rederived": {
+    "v": 0.015386690070339375,
+    "num": 239749.25,
+    "den": 15581600.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "pennsylvania/lehigh-valley",
+   "geo_kind": "county-set",
+   "class": "ccrc-life-plan-communities",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.540865,
+    "num": 2379803.82,
+    "den": 4400000
+   },
+   "rederived": {
+    "v": 0.5408645045454545,
+    "num": 2379803.82,
+    "den": 4400000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "missouri/jefferson-city",
+   "geo_kind": "county-set",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.079248,
+    "num": 93441.18,
+    "den": 1179100
+   },
+   "rederived": {
+    "v": 0.07924788397930625,
+    "num": 93441.18,
+    "den": 1179100.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "maryland/southern-maryland",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.017299,
+    "num": 1398329.23,
+    "den": 80832700
+   },
+   "rederived": {
+    "v": 0.017299053848256956,
+    "num": 1398329.23,
+    "den": 80832700.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "new-york/hudson-valley",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.037769,
+    "num": 38909603.94,
+    "den": 1030193500
+   },
+   "rederived": {
+    "v": 0.037769219025357854,
+    "num": 38909603.94,
+    "den": 1030193500.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "illinois/metro-east",
+   "geo_kind": "cross-state",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 0.348398,
+    "num": 319201.95,
+    "den": 916200
+   },
+   "rederived": {
+    "v": 0.3483976751800917,
+    "num": 319201.95,
+    "den": 916200.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:tx",
+   "geo_kind": "cross-state-part",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 0.041155,
+    "num": 12014049.08,
+    "den": 291921500
+   },
+   "rederived": {
+    "v": 0.04115506764661048,
+    "num": 12014049.08,
+    "den": 291921500.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "connecticut/new-haven:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.03793,
+    "num": 9096704.86,
+    "den": 239826000
+   },
+   "rederived": {
+    "v": 0.037930436483116926,
+    "num": 9096704.86,
+    "den": 239826000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "connecticut/quiet-corner:legacy",
+   "geo_kind": "ct-component",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 710000
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0.0,
+    "den": 710000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_amt_rate",
+   "program": "7a",
+   "geo": "connecticut/litchfield-hills:legacy",
+   "geo_kind": "ct-component",
+   "class": "hotel",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 1250000
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0.0,
+    "den": 1250000.0
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "fy2025",
+   "stratum": "us",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "active-adult",
+   "class_fit": "proxy",
+   "window": "by_fy:2017",
+   "stratum": "us",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "wv",
+   "geo_kind": "state",
+   "class": "active-adult",
+   "class_fit": "proxy",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "la",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "state",
+   "register": 46,
+   "rederived": 46,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "sc",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "state",
+   "register": 260,
+   "rederived": 260,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "nh",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "state",
+   "register": 117,
+   "rederived": 117,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "oregon/hillsboro",
+   "geo_kind": "county",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "maryland/montgomery-county",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2009",
+   "stratum": "county",
+   "register": 13,
+   "rederived": 13,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "maryland/prince-georges-county",
+   "geo_kind": "county",
+   "class": "express-car-wash",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "oklahoma/pryor",
+   "geo_kind": "county-set",
+   "class": "auto-service-and-collision",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "indiana/carmel",
+   "geo_kind": "county-set",
+   "class": "private-school",
+   "class_fit": "partial",
+   "window": "by_fy:2005",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "wisconsin/kenosha-racine",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2016_2025",
+   "stratum": "multi_county",
+   "register": 27,
+   "rederived": 27,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "new-hampshire/portsmouth",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2022",
+   "stratum": "multi_county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "utah/uinta-basin",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1996",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2021_2025",
+   "stratum": "cross_state",
+   "register": 8,
+   "rederived": 8,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:tx",
+   "geo_kind": "cross-state-part",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "cross_state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "connecticut/new-london:pr",
+   "geo_kind": "ct-component",
+   "class": "mixed-use",
+   "class_fit": "proxy",
+   "window": "fy2016_2025",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "connecticut/quiet-corner:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "ct",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_n",
+   "program": "7a",
+   "geo": "connecticut/waterbury:legacy",
+   "geo_kind": "ct-component",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "fy2021_2025",
+   "stratum": "ct",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "brewery-and-distillery",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.048315,
+    "num": 129,
+    "den": 2670
+   },
+   "rederived": {
+    "v": 0.048314606741573035,
+    "num": 129,
+    "den": 2670
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "us",
+   "register": {
+    "v": 0.067176,
+    "num": 31943,
+    "den": 475514
+   },
+   "rederived": {
+    "v": 0.06717572984181328,
+    "num": 31943,
+    "den": 475514
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "ut",
+   "geo_kind": "state",
+   "class": "limited-service-hotel",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.008929,
+    "num": 1,
+    "den": 112
+   },
+   "rederived": {
+    "v": 0.008928571428571428,
+    "num": 1,
+    "den": 112
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "nh",
+   "geo_kind": "state",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.085714,
+    "num": 9,
+    "den": 105
+   },
+   "rederived": {
+    "v": 0.08571428571428572,
+    "num": 9,
+    "den": 105
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "dc",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.075916,
+    "num": 58,
+    "den": 764
+   },
+   "rederived": {
+    "v": 0.07591623036649214,
+    "num": 58,
+    "den": 764
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "de",
+   "geo_kind": "state",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "state",
+   "register": {
+    "v": 0.055215,
+    "num": 9,
+    "den": 163
+   },
+   "rederived": {
+    "v": 0.05521472392638037,
+    "num": 9,
+    "den": 163
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "new-jersey/newark",
+   "geo_kind": "county",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 8,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0,
+    "den": 8
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "hawaii/maui",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.064246,
+    "num": 23,
+    "den": 358
+   },
+   "rederived": {
+    "v": 0.06424581005586592,
+    "num": 23,
+    "den": 358
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "new-mexico/las-cruces",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "county",
+   "register": {
+    "v": 0.030488,
+    "num": 5,
+    "den": 164
+   },
+   "rederived": {
+    "v": 0.03048780487804878,
+    "num": 5,
+    "den": 164
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "california/central-valley",
+   "geo_kind": "county-set",
+   "class": "gas-station-and-c-store",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.003012,
+    "num": 1,
+    "den": 332
+   },
+   "rederived": {
+    "v": 0.0030120481927710845,
+    "num": 1,
+    "den": 332
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "california/central-valley",
+   "geo_kind": "county-set",
+   "class": "select-service-hotel",
+   "class_fit": "partial",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.011976,
+    "num": 2,
+    "den": 167
+   },
+   "rederived": {
+    "v": 0.011976047904191617,
+    "num": 2,
+    "den": 167
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "arizona/prescott",
+   "geo_kind": "county-set",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.0,
+    "num": 0,
+    "den": 73
+   },
+   "rederived": {
+    "v": 0.0,
+    "num": 0,
+    "den": 73
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "new-york/hudson-valley",
+   "geo_kind": "county-set",
+   "class": "laundromat",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.047619,
+    "num": 1,
+    "den": 21,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.047619047619047616,
+    "num": 1,
+    "den": 21
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "new-jersey/morris-county",
+   "geo_kind": "county-set",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "multi_county",
+   "register": {
+    "v": 0.026316,
+    "num": 1,
+    "den": 38
+   },
+   "rederived": {
+    "v": 0.02631578947368421,
+    "num": 1,
+    "den": 38
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:tx",
+   "geo_kind": "cross-state-part",
+   "class": "quick-service-restaurant",
+   "class_fit": "exact",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 0.333333,
+    "num": 5,
+    "den": 15,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.3333333333333333,
+    "num": 5,
+    "den": 15
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "pooled_fy2011_2020",
+   "stratum": "cross_state",
+   "register": {
+    "v": 0.071429,
+    "num": 1,
+    "den": 14,
+    "f": "small-denominator (<30 disbursed loans)"
+   },
+   "rederived": {
+    "v": 0.07142857142857142,
+    "num": 1,
+    "den": 14
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "connecticut/fairfield-county:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.047319,
+    "num": 15,
+    "den": 317
+   },
+   "rederived": {
+    "v": 0.0473186119873817,
+    "num": 15,
+    "den": 317
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "connecticut/bridgeport:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.038462,
+    "num": 4,
+    "den": 104
+   },
+   "rederived": {
+    "v": 0.038461538461538464,
+    "num": 4,
+    "den": 104
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_chgoff_rate",
+   "program": "7a",
+   "geo": "connecticut/bridgeport:legacy",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "pooled_fy2011_2020",
+   "stratum": "ct",
+   "register": {
+    "v": 0.07179,
+    "num": 71,
+    "den": 989
+   },
+   "rederived": {
+    "v": 0.0717896865520728,
+    "num": 71,
+    "den": 989
+   },
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "by_fy:2020",
+   "stratum": "us",
+   "register": 79,
+   "rederived": 79,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "us",
+   "register": 3838,
+   "rederived": 3838,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "ma",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "state",
+   "register": 1605,
+   "rederived": 1605,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "mo",
+   "geo_kind": "state",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "fy2025",
+   "stratum": "state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "ak",
+   "geo_kind": "state",
+   "class": "funeral-home",
+   "class_fit": "exact",
+   "window": "by_fy:1996",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "me",
+   "geo_kind": "state",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "state",
+   "register": 60,
+   "rederived": 60,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "oregon/hillsboro",
+   "geo_kind": "county",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "county",
+   "register": 124,
+   "rederived": 124,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "new-jersey/bergen-county",
+   "geo_kind": "county",
+   "class": "behavioral-health",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "county",
+   "register": 17,
+   "rederived": 17,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "hawaii/oahu",
+   "geo_kind": "county",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "county",
+   "register": 5,
+   "rederived": 5,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "new-jersey/atlantic-city",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2020",
+   "stratum": "multi_county",
+   "register": 42,
+   "rederived": 42,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "alabama/black-belt",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 236,
+   "rederived": 236,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "new-york/long-island",
+   "geo_kind": "county-set",
+   "class": "express-car-wash",
+   "class_fit": "exact",
+   "window": "fy2026ytd",
+   "stratum": "multi_county",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "utah/moab",
+   "geo_kind": "county-set",
+   "class": "marina",
+   "class_fit": "exact",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "utah/uinta-basin",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2019",
+   "stratum": "multi_county",
+   "register": 14,
+   "rederived": 14,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "auto-dealership",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "cross_state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "veterinary-practice",
+   "class_fit": "exact",
+   "window": "by_fy:2003",
+   "stratum": "cross_state",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "connecticut/quiet-corner:legacy",
+   "geo_kind": "ct-component",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "ct",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "connecticut/fairfield-county:legacy",
+   "geo_kind": "ct-component",
+   "class": "assisted-living-and-memory-care",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "ct",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_disbursed",
+   "program": "7a",
+   "geo": "connecticut/hartford:pr",
+   "geo_kind": "ct-component",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "all",
+   "stratum": "ct",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "us",
+   "register": 673,
+   "rederived": 673,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "us",
+   "register": 1718665,
+   "rederived": 1718665,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "nm",
+   "geo_kind": "state",
+   "class": "independent-living-and-ccrc",
+   "class_fit": "partial",
+   "window": "by_fy:2007",
+   "stratum": "state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "la",
+   "geo_kind": "state",
+   "class": "brewery-and-distillery",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "state",
+   "register": 30,
+   "rederived": 30,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "md",
+   "geo_kind": "state",
+   "class": "truck-stop-and-travel-center",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 6,
+   "rederived": 6,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "ca",
+   "geo_kind": "state",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "fy2026ytd",
+   "stratum": "state",
+   "register": 30,
+   "rederived": 30,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "utah/provo-orem",
+   "geo_kind": "county",
+   "class": "fitness-and-recreation",
+   "class_fit": "exact",
+   "window": "by_fy:2018",
+   "stratum": "county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "wisconsin/madison",
+   "geo_kind": "county",
+   "class": "laundromat",
+   "class_fit": "exact",
+   "window": "fy2025",
+   "stratum": "county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "mississippi/oxford",
+   "geo_kind": "county",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "fy2016_2025",
+   "stratum": "county",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "indiana/carmel",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2011",
+   "stratum": "multi_county",
+   "register": 200,
+   "rederived": 200,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "massachusetts/springfield",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:1992",
+   "stratum": "multi_county",
+   "register": 40,
+   "rederived": 40,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "maryland/eastern-shore",
+   "geo_kind": "county-set",
+   "class": "laundromat",
+   "class_fit": "exact",
+   "window": "by_fy:1994",
+   "stratum": "multi_county",
+   "register": 3,
+   "rederived": 3,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "maryland/eastern-shore",
+   "geo_kind": "county-set",
+   "class": "assisted-living-and-memory-care",
+   "class_fit": "exact",
+   "window": "fy2026ytd",
+   "stratum": "multi_county",
+   "register": 2,
+   "rederived": 2,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "california/san-francisco",
+   "geo_kind": "county-set",
+   "class": "event-and-wedding-venue",
+   "class_fit": "proxy",
+   "window": "fy2021_2025",
+   "stratum": "multi_county",
+   "register": 25,
+   "rederived": 25,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 3303,
+   "rederived": 3303,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:nm",
+   "geo_kind": "cross-state-part",
+   "class": "glamping",
+   "class_fit": "proxy",
+   "window": "by_fy:1998",
+   "stratum": "cross_state",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "connecticut/hartford:legacy",
+   "geo_kind": "ct-component",
+   "class": "brewery-and-distillery",
+   "class_fit": "exact",
+   "window": "by_fy:2016",
+   "stratum": "ct",
+   "register": 1,
+   "rederived": 1,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "connecticut/fairfield-county:pr",
+   "geo_kind": "ct-component",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2026ytd",
+   "stratum": "ct",
+   "register": 184,
+   "rederived": 184,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_loans",
+   "program": "7a",
+   "geo": "connecticut/hartford:pr",
+   "geo_kind": "ct-component",
+   "class": "industrial-and-warehouse",
+   "class_fit": "proxy",
+   "window": "by_fy:1998",
+   "stratum": "ct",
+   "register": 0,
+   "rederived": 0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2025",
+   "stratum": "us",
+   "register": 32065939300,
+   "rederived": 32065939300.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "us",
+   "geo_kind": "us",
+   "class": "cold-storage",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "us",
+   "register": 51548700,
+   "rederived": 51548700.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "mo",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2013",
+   "stratum": "state",
+   "register": 284454100,
+   "rederived": 284454100.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "sc",
+   "geo_kind": "state",
+   "class": "pet-boarding-and-daycare",
+   "class_fit": "exact",
+   "window": "all",
+   "stratum": "state",
+   "register": 43580400,
+   "rederived": 43580400.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "ak",
+   "geo_kind": "state",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "fy2016_2025",
+   "stratum": "state",
+   "register": 21205900,
+   "rederived": 21205900.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "ca",
+   "geo_kind": "state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2023",
+   "stratum": "state",
+   "register": 3224461100,
+   "rederived": 3224461100.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "maryland/baltimore",
+   "geo_kind": "county",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "fy2021_2025",
+   "stratum": "county",
+   "register": 787700,
+   "rederived": 787700.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "new-jersey/jersey-city",
+   "geo_kind": "county",
+   "class": "retail",
+   "class_fit": "proxy",
+   "window": "by_fy:2000",
+   "stratum": "county",
+   "register": 957000,
+   "rederived": 957000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "hawaii/kauai",
+   "geo_kind": "county",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "by_fy:2015",
+   "stratum": "county",
+   "register": 115000,
+   "rederived": 115000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "utah/moab",
+   "geo_kind": "county-set",
+   "class": "self-storage",
+   "class_fit": "exact",
+   "window": "fy2016_2025",
+   "stratum": "multi_county",
+   "register": 1715600,
+   "rederived": 1715600.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "michigan/upper-peninsula",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2026ytd",
+   "stratum": "multi_county",
+   "register": 6458500,
+   "rederived": 6458500.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "new-york/new-york-city",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "all",
+   "stratum": "multi_county",
+   "register": 8619144661,
+   "rederived": 8619144661.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "wisconsin/wausau",
+   "geo_kind": "county-set",
+   "class": "all",
+   "class_fit": "all",
+   "window": "fy2025",
+   "stratum": "multi_county",
+   "register": 20591600,
+   "rederived": 20591600.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "new-jersey/camden",
+   "geo_kind": "county-set",
+   "class": "coffee-shop",
+   "class_fit": "partial",
+   "window": "by_fy:2011",
+   "stratum": "multi_county",
+   "register": 672000,
+   "rederived": 672000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin:tx",
+   "geo_kind": "cross-state-part",
+   "class": "boutique-and-resort",
+   "class_fit": "partial",
+   "window": "all",
+   "stratum": "cross_state",
+   "register": 133261600,
+   "rederived": 133261600.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "new-mexico/permian-basin",
+   "geo_kind": "cross-state",
+   "class": "all",
+   "class_fit": "all",
+   "window": "by_fy:2000",
+   "stratum": "cross_state",
+   "register": 18185534,
+   "rederived": 18185534.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "connecticut/waterbury:legacy",
+   "geo_kind": "ct-component",
+   "class": "hotel",
+   "class_fit": "exact",
+   "window": "by_fy:2021",
+   "stratum": "ct",
+   "register": 7610000,
+   "rederived": 7610000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "connecticut/new-haven:pr",
+   "geo_kind": "ct-component",
+   "class": "grocery-store",
+   "class_fit": "exact",
+   "window": "fy2021_2025",
+   "stratum": "ct",
+   "register": 3078000,
+   "rederived": 3078000.0,
+   "match": true,
+   "cube_route_agrees": true
+  },
+  {
+   "series": "sba7a_volume",
+   "program": "7a",
+   "geo": "connecticut/waterbury:pr",
+   "geo_kind": "ct-component",
+   "class": "medical-office-and-asc",
+   "class_fit": "proxy",
+   "window": "fy2021_2025",
+   "stratum": "ct",
+   "register": 698000,
+   "rederived": 698000.0,
+   "match": true,
+   "cube_route_agrees": true
+  }
+ ],
+ "status_values": {
+  "7a": {
+   "FOIA_7a_FY1991_FY1999_asof_260630.csv": {
+    "P I F": 256216,
+    "CANCLD": 43666,
+    "CHGOFF": 35291,
+    "EXEMPT": 1860
+   },
+   "FOIA_7a_FY2000_FY2009_asof_260630.csv": {
+    "P I F": 460222,
+    "CHGOFF": 144351,
+    "CANCLD": 82276,
+    "EXEMPT": 3484
+   },
+   "FOIA_7a_FY2010_FY2019_asof_260630.csv": {
+    "P I F": 394721,
+    "CANCLD": 66744,
+    "EXEMPT": 50089,
+    "CHGOFF": 34153,
+    "COMMIT": 44
+   },
+   "FOIA_7a_FY2020_Present_asof_260630.csv": {
+    "EXEMPT": 242061,
+    "P I F": 68201,
+    "CANCLD": 50104,
+    "COMMIT": 21079,
+    "CHGOFF": 6893
+   }
+  },
+  "504": {
+   "FOIA_504_FY1991_FY2009_asof_260630.csv": {
+    "PIF": 77821,
+    "CANCLD": 17845,
+    "CHGOFF": 11246,
+    "EXEMPT": 3817,
+    "CLOSED": 337
+   },
+   "FOIA_504_FY2010_Present_asof_260630.csv": {
+    "EXEMPT": 57449,
+    "PIF": 36624,
+    "CANCLD": 14469,
+    "NOT FUNDED": 8516,
+    "CHGOFF": 923,
+    "CLOSED": 2
+   }
+  }
+ },
+ "foia_totals": {
+  "summary": "FOIA as of 2026-06-30, 6 files: 7(a) 1,961,455 rows, 1,718,665 loans net of cancellations, volume $527,243,968,642, 220,688 CHGOFF rows; 504 229,049 rows, 196,735 loans, volume $129,055,577,411, 12,169 CHGOFF rows; approval FY 1991 to 2026.",
+  "by_program_fy": {
+   "7a": {
+    "1991": {
+     "rows": 18444,
+     "loans": 16326,
+     "volume": 3834629259.01,
+     "chgoff_n": 2073
+    },
+    "1992": {
+     "rows": 23655,
+     "loans": 21160,
+     "volume": 5238129587.01,
+     "chgoff_n": 1902
+    },
+    "1993": {
+     "rows": 26291,
+     "loans": 23367,
+     "volume": 5939271828.49,
+     "chgoff_n": 1904
+    },
+    "1994": {
+     "rows": 36049,
+     "loans": 32132,
+     "volume": 7197805598.95,
+     "chgoff_n": 3261
+    },
+    "1995": {
+     "rows": 55548,
+     "loans": 48700,
+     "volume": 7174935548.64,
+     "chgoff_n": 6127
+    },
+    "1996": {
+     "rows": 45853,
+     "loans": 39744,
+     "volume": 6641405967.34,
+     "chgoff_n": 5178
+    },
+    "1997": {
+     "rows": 45288,
+     "loans": 38823,
+     "volume": 7922967140.23,
+     "chgoff_n": 4812
+    },
+    "1998": {
+     "rows": 42271,
+     "loans": 36018,
+     "volume": 7692350292.76,
+     "chgoff_n": 4815
+    },
+    "1999": {
+     "rows": 43634,
+     "loans": 37097,
+     "volume": 8683531017.11,
+     "chgoff_n": 5219
+    },
+    "2000": {
+     "rows": 43748,
+     "loans": 37600,
+     "volume": 8999368959.0,
+     "chgoff_n": 5557
+    },
+    "2001": {
+     "rows": 42958,
+     "loans": 37323,
+     "volume": 8550459826.48,
+     "chgoff_n": 5445
+    },
+    "2002": {
+     "rows": 51666,
+     "loans": 45184,
+     "volume": 10567876861.9,
+     "chgoff_n": 6074
+    },
+    "2003": {
+     "rows": 67306,
+     "loans": 59119,
+     "volume": 9689071159.0,
+     "chgoff_n": 9102
+    },
+    "2004": {
+     "rows": 81133,
+     "loans": 71283,
+     "volume": 11770580676.0,
+     "chgoff_n": 13172
+    },
+    "2005": {
+     "rows": 95900,
+     "loans": 84436,
+     "volume": 13208150176.01,
+     "chgoff_n": 20680
+    },
+    "2006": {
+     "rows": 97291,
+     "loans": 86570,
+     "volume": 12751558736.0,
+     "chgoff_n": 27820
+    },
+    "2007": {
+     "rows": 99606,
+     "loans": 88270,
+     "volume": 12578498065.33,
+     "chgoff_n": 32439
+    },
+    "2008": {
+     "rows": 69437,
+     "loans": 61636,
+     "volume": 11102683803.27,
+     "chgoff_n": 18671
+    },
+    "2009": {
+     "rows": 41288,
+     "loans": 36636,
+     "volume": 8138347278.66,
+     "chgoff_n": 5391
+    },
+    "2010": {
+     "rows": 47000,
+     "loans": 39913,
+     "volume": 10185348000.0,
+     "chgoff_n": 3671
+    },
+    "2011": {
+     "rows": 53710,
+     "loans": 45628,
+     "volume": 16247328300.0,
+     "chgoff_n": 3146
+    },
+    "2012": {
+     "rows": 44376,
+     "loans": 38889,
+     "volume": 13256492000.0,
+     "chgoff_n": 2439
+    },
+    "2013": {
+     "rows": 46395,
+     "loans": 40416,
+     "volume": 15492120600.0,
+     "chgoff_n": 2422
+    },
+    "2014": {
+     "rows": 52044,
+     "loans": 45962,
+     "volume": 16871102500.0,
+     "chgoff_n": 2942
+    },
+    "2015": {
+     "rows": 63461,
+     "loans": 55421,
+     "volume": 20370589100.0,
+     "chgoff_n": 3797
+    },
+    "2016": {
+     "rows": 64074,
+     "loans": 56789,
+     "volume": 21621109443.0,
+     "chgoff_n": 4075
+    },
+    "2017": {
+     "rows": 62430,
+     "loans": 56080,
+     "volume": 23048894700.0,
+     "chgoff_n": 4327
+    },
+    "2018": {
+     "rows": 60354,
+     "loans": 54223,
+     "volume": 22811146900.0,
+     "chgoff_n": 4277
+    },
+    "2019": {
+     "rows": 51907,
+     "loans": 45686,
+     "volume": 20552963500.0,
+     "chgoff_n": 3057
+    },
+    "2020": {
+     "rows": 42298,
+     "loans": 36490,
+     "volume": 19508718600.0,
+     "chgoff_n": 1461
+    },
+    "2021": {
+     "rows": 51856,
+     "loans": 45360,
+     "volume": 32203041400.0,
+     "chgoff_n": 1277
+    },
+    "2022": {
+     "rows": 47678,
+     "loans": 42282,
+     "volume": 23269324000.0,
+     "chgoff_n": 1706
+    },
+    "2023": {
+     "rows": 57362,
+     "loans": 51747,
+     "volume": 24655068800.0,
+     "chgoff_n": 1735
+    },
+    "2024": {
+     "rows": 70242,
+     "loans": 62618,
+     "volume": 27517974500.0,
+     "chgoff_n": 629
+    },
+    "2025": {
+     "rows": 78078,
+     "loans": 64096,
+     "volume": 32065939300.0,
+     "chgoff_n": 85
+    },
+    "2026": {
+     "rows": 40824,
+     "loans": 35641,
+     "volume": 19885185218.0,
+     "chgoff_n": 0
+    }
+   },
+   "504": {
+    "1991": {
+     "rows": 1464,
+     "loans": 1308,
+     "volume": 388933839.0,
+     "chgoff_n": 52
+    },
+    "1992": {
+     "rows": 1992,
+     "loans": 1790,
+     "volume": 547061800.0,
+     "chgoff_n": 67
+    },
+    "1993": {
+     "rows": 2477,
+     "loans": 2189,
+     "volume": 714556608.0,
+     "chgoff_n": 54
+    },
+    "1994": {
+     "rows": 3771,
+     "loans": 3297,
+     "volume": 1116835063.0,
+     "chgoff_n": 107
+    },
+    "1995": {
+     "rows": 4423,
+     "loans": 3787,
+     "volume": 1303462219.0,
+     "chgoff_n": 154
+    },
+    "1996": {
+     "rows": 6853,
+     "loans": 5858,
+     "volume": 2071714360.0,
+     "chgoff_n": 220
+    },
+    "1997": {
+     "rows": 4120,
+     "loans": 3474,
+     "volume": 1191548990.0,
+     "chgoff_n": 177
+    },
+    "1998": {
+     "rows": 4918,
+     "loans": 4100,
+     "volume": 1455078498.0,
+     "chgoff_n": 214
+    },
+    "1999": {
+     "rows": 5281,
+     "loans": 4259,
+     "volume": 1582874548.0,
+     "chgoff_n": 324
+    },
+    "2000": {
+     "rows": 4561,
+     "loans": 3753,
+     "volume": 1475148099.0,
+     "chgoff_n": 357
+    },
+    "2001": {
+     "rows": 5209,
+     "loans": 4400,
+     "volume": 1886987743.0,
+     "chgoff_n": 420
+    },
+    "2002": {
+     "rows": 5479,
+     "loans": 4594,
+     "volume": 2050092120.0,
+     "chgoff_n": 419
+    },
+    "2003": {
+     "rows": 6862,
+     "loans": 5778,
+     "volume": 2654772379.0,
+     "chgoff_n": 591
+    },
+    "2004": {
+     "rows": 8358,
+     "loans": 6896,
+     "volume": 3232361315.0,
+     "chgoff_n": 920
+    },
+    "2005": {
+     "rows": 9193,
+     "loans": 7671,
+     "volume": 4160236000.0,
+     "chgoff_n": 1422
+    },
+    "2006": {
+     "rows": 9944,
+     "loans": 8326,
+     "volume": 4734926000.0,
+     "chgoff_n": 1945
+    },
+    "2007": {
+     "rows": 10669,
+     "loans": 8941,
+     "volume": 5209908000.0,
+     "chgoff_n": 2146
+    },
+    "2008": {
+     "rows": 8883,
+     "loans": 7328,
+     "volume": 4266135000.0,
+     "chgoff_n": 1307
+    },
+    "2009": {
+     "rows": 6609,
+     "loans": 5472,
+     "volume": 3120178000.0,
+     "chgoff_n": 350
+    },
+    "2010": {
+     "rows": 7833,
+     "loans": 6642,
+     "volume": 3709727000.0,
+     "chgoff_n": 223
+    },
+    "2011": {
+     "rows": 7983,
+     "loans": 6881,
+     "volume": 4075363000.0,
+     "chgoff_n": 142
+    },
+    "2012": {
+     "rows": 9471,
+     "loans": 8275,
+     "volume": 5772215000.0,
+     "chgoff_n": 169
+    },
+    "2013": {
+     "rows": 7708,
+     "loans": 6627,
+     "volume": 4319176000.0,
+     "chgoff_n": 94
+    },
+    "2014": {
+     "rows": 5885,
+     "loans": 5017,
+     "volume": 3474725000.0,
+     "chgoff_n": 67
+    },
+    "2015": {
+     "rows": 5787,
+     "loans": 4884,
+     "volume": 3519159000.0,
+     "chgoff_n": 60
+    },
+    "2016": {
+     "rows": 5938,
+     "loans": 5018,
+     "volume": 3888800000.0,
+     "chgoff_n": 52
+    },
+    "2017": {
+     "rows": 6218,
+     "loans": 5281,
+     "volume": 4169552000.0,
+     "chgoff_n": 43
+    },
+    "2018": {
+     "rows": 5874,
+     "loans": 5005,
+     "volume": 3974793000.0,
+     "chgoff_n": 22
+    },
+    "2019": {
+     "rows": 6099,
+     "loans": 5266,
+     "volume": 4241223000.0,
+     "chgoff_n": 15
+    },
+    "2020": {
+     "rows": 7119,
+     "loans": 6071,
+     "volume": 4793633000.0,
+     "chgoff_n": 7
+    },
+    "2021": {
+     "rows": 9676,
+     "loans": 8263,
+     "volume": 6890538540.0,
+     "chgoff_n": 11
+    },
+    "2022": {
+     "rows": 9254,
+     "loans": 8092,
+     "volume": 7950846290.0,
+     "chgoff_n": 10
+    },
+    "2023": {
+     "rows": 5924,
+     "loans": 5478,
+     "volume": 5920363000.0,
+     "chgoff_n": 6
+    },
+    "2024": {
+     "rows": 5993,
+     "loans": 5770,
+     "volume": 6415433000.0,
+     "chgoff_n": 2
+    },
+    "2025": {
+     "rows": 6762,
+     "loans": 6530,
+     "volume": 7557423000.0,
+     "chgoff_n": 0
+    },
+    "2026": {
+     "rows": 4459,
+     "loans": 4414,
+     "volume": 5219797000.0,
+     "chgoff_n": 0
+    }
+   }
+  }
+ },
+ "foia_chgoff_by_program_fy": {
+  "7a": {
+   "1991": 2073,
+   "1992": 1902,
+   "1993": 1904,
+   "1994": 3261,
+   "1995": 6127,
+   "1996": 5178,
+   "1997": 4812,
+   "1998": 4815,
+   "1999": 5219,
+   "2000": 5557,
+   "2001": 5445,
+   "2002": 6074,
+   "2003": 9102,
+   "2004": 13172,
+   "2005": 20680,
+   "2006": 27820,
+   "2007": 32439,
+   "2008": 18671,
+   "2009": 5391,
+   "2010": 3671,
+   "2011": 3146,
+   "2012": 2439,
+   "2013": 2422,
+   "2014": 2942,
+   "2015": 3797,
+   "2016": 4075,
+   "2017": 4327,
+   "2018": 4277,
+   "2019": 3057,
+   "2020": 1461,
+   "2021": 1277,
+   "2022": 1706,
+   "2023": 1735,
+   "2024": 629,
+   "2025": 85,
+   "2026": 0
+  },
+  "504": {
+   "1991": 52,
+   "1992": 67,
+   "1993": 54,
+   "1994": 107,
+   "1995": 154,
+   "1996": 220,
+   "1997": 177,
+   "1998": 214,
+   "1999": 324,
+   "2000": 357,
+   "2001": 420,
+   "2002": 419,
+   "2003": 591,
+   "2004": 920,
+   "2005": 1422,
+   "2006": 1945,
+   "2007": 2146,
+   "2008": 1307,
+   "2009": 350,
+   "2010": 223,
+   "2011": 142,
+   "2012": 169,
+   "2013": 94,
+   "2014": 67,
+   "2015": 60,
+   "2016": 52,
+   "2017": 43,
+   "2018": 22,
+   "2019": 15,
+   "2020": 7,
+   "2021": 11,
+   "2022": 10,
+   "2023": 6,
+   "2024": 2,
+   "2025": 0,
+   "2026": 0
+  }
+ },
+ "notes": [
+  "Method: sample values are re-derived by a direct per-row scan of the raw CSVs; a second route (full state/county/NAICS/FY cube) re-derives every value of all 16 series; the two routes agree on 304 of 304 sampled cells. Neither route uses scripts/markets*.py or any data/markets file other than sources.json, geographies.json, naics-map.json and the register series being checked.",
+  "Sample design: seed 20261016, python random.Random(seed).random() only; 16 series x [2 us, 4 state, 3 single-county, 5 multi-county county-set, 2 cross-state or part, 3 CT component]; class drawn 20% 'all', 35% exact, 25% partial, 20% proxy; window drawn from the 5 windows (once each) and by_fy (3 slots) for additive series, pooled FY2011-2020 for rates; 75% of draws required a non-zero register value (so matches are not just zero equals zero), 25% unconstrained. Sampled non-zero register cells: 253 of 304.",
+  "CENSUS (all values of all 16 series, all geographies, 44 classes incl. all, 5 windows, 36 FYs, rates): 3,797,376 compared, 0 mismatches. Per series: 504_cancelled 313,896/313896, 504_chgoff_amt 313,896/313896, 504_chgoff_amt_rate 7,656/7656, 504_chgoff_n 313,896/313896, 504_chgoff_rate 7,656/7656, 504_disbursed 313,896/313896, 504_loans 313,896/313896, 504_volume 313,896/313896, 7a_cancelled 313,896/313896, 7a_chgoff_amt 313,896/313896, 7a_chgoff_amt_rate 7,656/7656, 7a_chgoff_n 313,896/313896, 7a_chgoff_rate 7,656/7656, 7a_disbursed 313,896/313896, 7a_loans 313,896/313896, 7a_volume 313,896/313896.",
+  "7a: us rows 1,961,455 = 1,961,450 in the 60 listed states + 5 rows with a blank or unlisted ProjectState",
+  "504: us rows 229,049 = 229,049 in the 60 listed states + 0 rows with a blank or unlisted ProjectState",
+  "Rate cells: every 'f' flag matches the rule (den 0 -> no-disbursed flag and v null; 0<den<30 -> small-denominator flag; else no flag).",
+  "Register shape: every valued geography carries all 44 class keys; additive cells carry exactly the 5 windows + by_fy of 36 years (1991..2026); rate cells carry v/num/den(/f).",
+  "Dictionary status codes: 7(a) ['CANCLD', 'CHGOFF', 'COMMIT', 'EXEMPT', 'PIF'] ; 504 ['CHGOFF', 'CANCLD', 'EXEMPT', 'NOTFUNDED', 'PIF', 'CLOSED'].",
+  "LoanStatus values outside the dictionary's list for their program: none.",
+  "Data diagnostic CHGOFF_with_zero_GrossChargeOffAmount: {'504': 2, '7a': 180}",
+  "Data diagnostic CHGOFF_without_ChargeOffDate: {'7a': 58}",
+  "Data diagnostic blank_ProjectCounty: {'504': 37, '7a': 607}",
+  "Data diagnostic blank_ProjectState: {'7a': 5}",
+  "Data diagnostic disbursed_status_without_FirstDisbursementDate: {'504': 156, '7a': 1795}",
+  "Data diagnostic exact_duplicate_row: {'504': 69, '7a': 1918}",
+  "Data diagnostic negative_GrossApproval: {'7a': 1}",
+  "Detail negative_GrossApproval: ['7a FY1995 status P I F GrossApproval -120000.0 county il/COOK']",
+  "Blank NaicsCode rows (counted in 'all', in no class): 7(a) 203,850, 504 21,922.",
+  "The registry/dictionary Program field is ' 7A' (with a leading blank) in every 7(a) file and '504' in the 504 files; program was taken from the file name and the field checked against it.",
+  "Every composition string in geographies.json matches at least one FOIA row.",
+  "Sub-county markets: 0 sub-county VALUES exist, so have=0 by design. 20 sub-county markets (16 place, 4 tract-set) were checked: none has a value in any of the 16 series and every null reason starts 'not-published-at-this-grain'. SBA's dictionary (both sheets) and all 6 CSV headers carry only these project-site geography fields: ['CongressionalDistrict', 'ProjectCounty', 'ProjectState', 'SBADistrictOffice']; none is a place, tract or sub-county field (fields matching tract/place/census/fips/geoid/lat/long/Project* other than county and state: dictionary {'7a': [], '504': []}, CSV headers none). BorrCity/BorrZip are the borrower's mailing address, not the project site, so the register is right not to substitute them.",
+  "Cross-state markets with values: ['illinois/metro-east', 'new-mexico/permian-basin']; Connecticut markets (null at market level, values only for :legacy and :pr): ['connecticut/bridgeport', 'connecticut/fairfield-county', 'connecticut/hartford', 'connecticut/litchfield-hills', 'connecticut/new-haven', 'connecticut/new-london', 'connecticut/quiet-corner', 'connecticut/waterbury'].",
+  "Register composition nulls: 158 markets in 'nulls' (composition-pending, sub-county or Connecticut split) have no value in any series, as the definitions say.",
+  "Sources definitions read from sources.json: ['approved', 'chgoff_amt', 'chgoff_amt_rate', 'chgoff_n', 'chgoff_rate', 'class', 'disbursed', 'geography', 'loans', 'volume']."
+ ]
+}

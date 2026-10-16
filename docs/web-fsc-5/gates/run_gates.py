@@ -6,8 +6,9 @@
 Each gate prints the command it ran or the check it made, the output, and
 GREEN or RED with the reason. Gate 6 (independent re-derivation) is run by
 docs/web-fsc-5/gates/rederive.py, which does not import the pipeline; this
-runner only reads its result file. Gate 8 runs the render mutation test on a
-copy of the register under _cache/, never on the committed files.
+runner only reads its result file. Gate 8 copies data/markets/series/sba7a_loans.json
+to _cache/, mutates the register file in place, runs --check, restores the file
+byte for byte from the copy, and asks git to confirm the file is unchanged.
 """
 import csv
 import glob
@@ -29,7 +30,7 @@ LOG = []
 
 def sh(cmd, cwd=ROOT, timeout=900):
     r = subprocess.run(cmd, cwd=cwd, shell=True, capture_output=True, text=True, timeout=timeout)
-    return r.returncode, (r.stdout + r.stderr).strip()
+    return r.returncode, (r.stdout + r.stderr).rstrip()
 
 
 def say(*a):
@@ -55,15 +56,19 @@ def g1():
     say('$ git diff --name-only main...HEAD'); say(out)
     bad = [p for p in out.splitlines() if p and not any(re.search(a, p) for a in ALLOWED)]
     rc2, ws = sh('git status --porcelain')
-    stray = [l for l in ws.splitlines() if l and not any(re.search(a, l[3:]) for a in ALLOWED)]
+    stray = [l for l in ws.splitlines() if l.strip() and not any(re.search(a, l[3:]) for a in ALLOWED)]
     say('$ git status --porcelain (paths outside the lane)'); say('\n'.join(stray) or '(none)')
     return (not bad and not stray), (f'{len(out.splitlines())} changed path(s), all inside the lane' if not bad and not stray else f'outside the lane: {bad + stray}')
 
 
 def g2():
     geo = jl(os.path.join(DATA, 'geographies.json'))
-    src = jl(os.path.join(DATA, 'sources.json'))['sources']
+    sj = jl(os.path.join(DATA, 'sources.json'))
+    src = sj['sources'] + sj['series']
     need = ['id', 'publisher', 'title', 'url', 'vintage', 'period', 'retrieved', 'sha256', 'cadence', 'next_release', 'status']
+    files = sorted(f[:-5] for f in os.listdir(os.path.join(DATA, 'series')) if f.endswith('.json'))
+    rowless = [f for f in files if f not in {r['id'] for r in sj['series']}]
+    say(f'series files {len(files)}; series rows {len(sj["series"])}; series files without a row: {rowless or "none"}')
     markets = len(geo['markets'])
     say(f'markets in geographies.json: {markets} (site anchors: 253)')
     say(f'states: {len(geo["states"])}; counties: {geo["counties"]["status"]} ({len(geo["counties"]["rows"])} rows); CBSAs: {geo["cbsas"]["status"]} ({len(geo["cbsas"]["rows"])} rows)')
@@ -75,15 +80,15 @@ def g2():
             elif r[k] in (None, '', [], {}) and not (r['status'] == 'NOT FETCHED' and k in ('retrieved', 'sha256')):
                 missing_fields.append(f'{r["id"]}.{k} empty')
     by = {}
-    for r in src:
+    for r in sj['sources']:
         by.setdefault(r['status'], []).append(r['id'])
     for st, ids in sorted(by.items()):
         say(f'{st}: {len(ids)}: {", ".join(ids)}')
-    for r in src:
+    for r in sj['sources']:
         if r['status'] != 'FETCHED':
             say(f'  {r["id"]}: {r.get("reason")}')
     say('sources.json field check: ' + ('every row has every field (retrieved and sha256 are empty only for NOT FETCHED rows)' if not missing_fields else '; '.join(missing_fields)))
-    ok = markets == 253 and not missing_fields and geo['counties']['rows'] and geo['cbsas']['rows']
+    ok = markets == 253 and not missing_fields and not rowless and geo['counties']['rows'] and geo['cbsas']['rows']
     why = []
     if markets != 253:
         why.append(f'{markets}/253 markets')
@@ -219,8 +224,8 @@ def g7():
 
 def g8():
     fx = os.path.join(ROOT, 'docs', 'web-fsc-5', 'fixture')
-    rc0, out0 = sh(f'python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture')
-    say('$ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture'); say(out0); say(f'exit {rc0}')
+    rc0, out0 = sh('python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html')
+    say('$ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html'); say(out0); say(f'exit {rc0}')
     # mutate a copy of one series value the fixture renders, in place, then revert from the copy
     target = os.path.join(DATA, 'series', 'sba7a_loans.json')
     keep = os.path.join(ROOT, '_cache', 'markets', 'gate8-sba7a_loans.json.orig')
@@ -229,20 +234,20 @@ def g8():
         s = jl(target)
         s['values']['tx']['all']['fy2016_2025'] += 1
         json.dump(s, open(target, 'w'), separators=(',', ':'), sort_keys=True)
-        rc1, out1 = sh(f'python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture')
+        rc1, out1 = sh('python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html')
         say('mutation: data/markets/series/sba7a_loans.json values.tx.all.fy2016_2025 += 1')
-        say('$ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture'); say(out1); say(f'exit {rc1}')
+        say('$ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html'); say(out1); say(f'exit {rc1}')
     finally:
         shutil.copyfile(keep, target)
         os.remove(keep)
-    rc2, out2 = sh(f'python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture')
-    say('revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture'); say(out2); say(f'exit {rc2}')
+    rc2, out2 = sh('python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html')
+    say('revert, then $ python3 scripts/markets.py --check --pages docs/web-fsc-5/fixture/index.html'); say(out2); say(f'exit {rc2}')
     rc3, out3 = sh('git diff --quiet -- data/markets/series/sba7a_loans.json && echo unchanged-vs-index')
     say(f'register file after revert: {out3 or "DIFFERS"}')
     html_ = open(os.path.join(fx, 'index.html'), encoding='utf-8').read()
     houston = re.findall(r'<!--mkt:texas/houston\.', html_)
     ct = re.findall(r'<!--mkt:connecticut/[a-z-]+(?::legacy|:pr)?\.', html_)
-    rc4, out4 = sh(f'python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html')
+    rc4, out4 = sh('python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html')
     say('$ python3 scripts/markets.py --pages docs/web-fsc-5/fixture/houston-negative.html'); say(out4); say(f'exit {rc4}')
     say(f'fixture markers: Houston {len(houston)}, Connecticut {len(ct)}')
     mutation_ok = rc0 == 0 and rc1 == 1 and rc2 == 0

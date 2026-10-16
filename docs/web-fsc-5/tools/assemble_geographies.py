@@ -22,6 +22,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 COMPOSE = os.path.join(ROOT, 'docs', 'web-fsc-5', 'compose')
 OUT = os.path.join(ROOT, 'data', 'markets', 'geographies.json')
+def norm(s):
+    """The build's key for a ProjectCounty string: trimmed, inner whitespace collapsed, upper case."""
+    return re.sub(r'\s+', ' ', s.strip().upper())
+
+
+# Rows whose composition departs from the charter's own reading of the slug; they
+# go to the owner whatever the composer decided.
+REVIEW_OVERRIDES = {
+    ('utah', 'park-city'): 'the charter reads park-city as a town inside a larger county; composed as Summit County because the page heading names the county',
+    ('oregon', 'hillsboro'): 'the charter reads hillsboro as a city inside a larger CBSA; composed as Washington County because the page heading names the county',
+}
+
 KINDS = {'cbsa', 'county', 'county-set', 'place', 'tract-set', 'cross-state'}
 CT_LEGACY = {'FAIRFIELD', 'HARTFORD', 'LITCHFIELD', 'MIDDLESEX', 'NEW HAVEN', 'NEW LONDON', 'TOLLAND', 'WINDHAM'}
 
@@ -56,7 +68,7 @@ def main():
             for s in c.get('strings') or []:
                 if s not in inv.get(cst, set()):
                     problems.append(f'{key}: FOIA string {cst}|{s} not in inventory')
-                strings.append({'state': cst, 'string': s})
+                strings.append({'state': cst, 'string': norm(s)})
         ct = None
         note = None
         if r.get('ct') and st != 'CT':
@@ -72,7 +84,7 @@ def main():
                 problems.append(f'{key}: Connecticut row lacks a scheme (legacy {len(leg)}, planning {len(pr)})')
             if set(leg) - CT_LEGACY or set(pr) & CT_LEGACY:
                 problems.append(f'{key}: CT strings put in the wrong scheme (legacy {leg}, planning {pr})')
-            ct = {'legacy': sorted(set(leg)), 'pr': sorted(set(pr))}
+            ct = {'legacy': sorted({norm(x) for x in leg}), 'pr': sorted({norm(x) for x in pr})}
         elif st == 'CT':
             problems.append(f'{key}: Connecticut row without a ct block')
         basis = r.get('basis') or ''
@@ -101,7 +113,9 @@ def main():
                      'missing': r.get('foia_missing') or []},
             'ct': bool(ct),
             'composition_source': source,
-            'basis': r.get('basis'), 'reason': r.get('reason'), 'review': bool(r.get('review')),
+            'basis': r.get('basis'),
+            'reason': (r.get('reason') or '') + (('; REVIEW: ' + REVIEW_OVERRIDES[key]) if key in REVIEW_OVERRIDES else ''),
+            'review': bool(r.get('review')) or key in REVIEW_OVERRIDES,
         })
     for k in sorted(want - set(seen)):
         problems.append(f'missing market {k}')
