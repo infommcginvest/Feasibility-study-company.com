@@ -142,22 +142,24 @@ def g2():
         key = next(k for k, v in spec["inputs"].items() if isinstance(v["value"], (int, float)) and v["value"] not in (0,) and not k.startswith(("sba_", "bi_", "hud_")))
         orig = spec["inputs"][key]["value"]
         spec["inputs"][key]["value"] = orig * 1.1
-        json.dump(spec, open(cp, "w"), indent=1)
+        with open(cp, "w") as fh:
+            json.dump(spec, fh, indent=1)
         m2, mo2 = run([sys.executable, "scripts/casemodel.py", "--check", "--only", spec["slug"]], cwd=tmp)
         run([sys.executable, "scripts/casemodel.py", "--only", spec["slug"]], cwd=tmp)
         after = read(served(spec["page"]).replace(ROOT, tmp))
         moved = before != after
         spec["inputs"][key]["value"] = orig
-        json.dump(spec, open(cp, "w"), indent=1)
+        with open(cp, "w") as fh:
+            json.dump(spec, fh, indent=1)
         run([sys.executable, "scripts/casemodel.py", "--only", spec["slug"]], cwd=tmp)
         m2b, _ = run([sys.executable, "scripts/casemodel.py", "--check", "--only", spec["slug"]], cwd=tmp)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
-    ok = rb == 0 and rc == 0 and m1 != 0 and m1b == 0 and m2 != 0 and moved and m2b == 0
+    ok = rb == 0 and rc == 0 and m1 != 0 and m1b == 0 and m2 != 0 and "stale region" in mo2 and moved and m2b == 0
     gate(2, "factory: build.py --check and casemodel.py --check exit 0; mutation tests", "GREEN" if ok else "RED",
          f"build.py --check rc={rb}: {ob.splitlines()[-1] if ob else ''}\ncasemodel.py --check rc={rc}: {oc.splitlines()[-1] if oc else ''}\n"
          f"mutation 1 (Texas source text): --check rc={m1} (want 1), after revert rc={m1b} (want 0)\n"
-         f"mutation 2 ({spec['slug']} input {key} x1.1): --check rc={m2} (want 1), tables moved={moved}, after revert rc={m2b} (want 0)\n"
+         f"mutation 2 ({spec['slug']} input {key} x1.1): --check rc={m2} (want 1; {mo2.splitlines()[0] if mo2 else ''}), tables moved={moved}, after revert rc={m2b} (want 0)\n"
          f"mutations ran in a temporary copy ({tmp}), removed afterwards; nothing committed")
 
 

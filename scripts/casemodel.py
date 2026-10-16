@@ -139,20 +139,29 @@ class SBA:
         return parse(self.val(path))
 
     def fee_7a(self, loan, guaranteed):
-        """Upfront guaranty fee, FY2027 schedule (fees_fy2027.upfront_7a)."""
+        """Upfront guaranty fee, FY2027 schedule (fees_fy2027.upfront_7a). A proposed loan above the
+        program limit has no tier of its own; it is charged on the top tier's terms, and the structure
+        then fails the size test and is restructured under the limit."""
+        tiers = []
         for label, text in self.val("fees_fy2027.upfront_7a"):
             if "maturity" in label:
                 continue
             nums = [float(x.replace(",", "")) for x in re.findall(r"\$([\d,]+)", label)]
             lo, hi = (0.0, nums[0]) if "or less" in label else (nums[0], nums[1])
-            if lo <= round(loan) <= hi:
-                rates = [float(x) / 100 for x in re.findall(r"(\d+(?:\.\d+)?)%", text)]
-                split = re.search(r"up to \$([\d,]+)", text)
-                if split and len(rates) == 2:
-                    cut = float(split.group(1).replace(",", ""))
-                    return rates[0] * min(guaranteed, cut) + rates[1] * max(0.0, guaranteed - cut)
-                return rates[0] * guaranteed
-        raise ModelError(f"no FY2027 7(a) fee tier for a loan of {loan:,.0f}")
+            tiers.append((lo, hi, text))
+        tiers.sort()
+        pick = next((t for t in tiers if t[0] <= round(loan) <= t[1]), None)
+        if pick is None and tiers and round(loan) > tiers[-1][1]:
+            pick = tiers[-1]
+        if pick is None:
+            raise ModelError(f"no FY2027 7(a) fee tier for a loan of {loan:,.0f}")
+        text = pick[2]
+        rates = [float(x) / 100 for x in re.findall(r"(\d+(?:\.\d+)?)%", text)]
+        split = re.search(r"up to \$([\d,]+)", text)
+        if split and len(rates) == 2:
+            cut = float(split.group(1).replace(",", ""))
+            return rates[0] * min(guaranteed, cut) + rates[1] * max(0.0, guaranteed - cut)
+        return rates[0] * guaranteed
 
     def spread_7a(self, loan):
         for label, text in self.val("rates.spreads_7a"):
