@@ -10,9 +10,9 @@
   "rural_fee_waiver": false
  },
  "rule_sources": {
-  "sop": 46,
-  "fees": 47,
-  "prime": 48
+  "sop": 44,
+  "fees": 45,
+  "prime": 46
  },
  "stabilized_year": 3,
  "dscr_test_year": 2,
@@ -25,7 +25,7 @@
    "value": 14,
    "fmt": "n",
    "label": "Guest cabins",
-   "assumption": "Between Walden's 15 tents and the Presidio's 14 rooms [^30,32], small enough to fill midweek with one retreat group and weekends with couples."
+   "assumption": "Between Walden's 15 tents and the Presidio's 14 rooms [^28,30], small enough to fill midweek with one retreat group and weekends with couples."
   },
   "site_acres": {
    "value": 10,
@@ -38,7 +38,7 @@
    "fmt": "$",
    "label": "Asking price of the 40-acre US 290 tract used as the land benchmark",
    "source": [
-    8
+    7
    ]
   },
   "tract_acres": {
@@ -46,33 +46,33 @@
    "fmt": "n",
    "label": "Acres in the benchmark tract",
    "source": [
-    8
+    7
    ]
   },
   "cabin_cost": {
    "value": 120000,
    "fmt": "$",
    "label": "Cost per cabin, built and set",
-   "assumption": "No per-cabin cost is published for the Hill Country. Census put the 2025 South average for new single-family homes at $155.62 per sq ft before land [^43], and NAHB put the 2024 West South Central custom-home median at $138 [^44]. A small cabin carries a full bath, kitchenette, deck and hot tub in a fraction of a house's floor area, so we carry $120,000 per unit."
+   "assumption": "No per-cabin cost is published for the Hill Country. Census put the 2025 South average for new single-family homes at $155.62 per sq ft before land [^41], and NAHB put the 2024 West South Central custom-home median at $138 [^42]. A small cabin carries a full bath, kitchenette, deck and hot tub in a fraction of a house's floor area, so we carry $120,000 per unit."
   },
   "lodge_cost": {
    "value": 520000,
    "fmt": "$",
    "label": "Lodge with meeting hall, prep kitchen and restrooms",
-   "assumption": "Sized to seat about 100 for a banquet, the capacity Walden markets [^31]. No published benchmark."
+   "assumption": "Sized to seat about 100 for a banquet, the capacity Walden markets [^29]. No published benchmark."
   },
   "site_work": {
    "value": 480000,
    "fmt": "$",
    "label": "Well, septic, electric extension, roads and parking",
-   "assumption": "Water and sewer service for the tract were NOT FOUND; the land listing cites groundwater in the vicinity [^9]. Allowance pending a civil engineer's estimate."
+   "assumption": "Water and sewer service for the tract were NOT FOUND; the listing the research identified mentions groundwater, implying a well and septic system (not cited, so that no real parcel is identified). Allowance pending a civil engineer's estimate."
   },
   "contingency_pct": {
    "value": 0.1,
    "fmt": "%",
    "label": "Hard-cost contingency",
    "source": [
-    45
+    43
    ]
   },
   "soft_pct": {
@@ -109,7 +109,7 @@
    ],
    "fmt": "$",
    "label": "Cabin average daily rate",
-   "assumption": "No ADR is published for the trade area. Carter Creek's lowest nightly prices for the week of October 12, 2026 ran $120 on Wednesday to $293 on Saturday, plus a $28.25 resort fee [^23,24]; Walden showed $208 a night for October 15 to 16, 2026 and $329 and up in October 2026 [^28,29]. Glamping operators reported a 2025 ADR of $338 for cabins and tiny homes [^42]. We set $265 in Year 1, rising about 3% a year."
+   "assumption": "No ADR is published for the trade area. Carter Creek's lowest nightly prices for the week of October 12, 2026 ran $120 on Wednesday to $293 on Saturday, plus a $28.25 resort fee [^21,22]; Walden showed $208 a night for October 15 to 16, 2026 and $329 and up in October 2026 [^26,27]. Glamping operators reported a 2025 ADR of $338 for cabins and tiny homes [^40]. We set $265 in Year 1, rising about 3% a year."
   },
   "occupancy": {
    "value": [
@@ -121,7 +121,7 @@
    ],
    "fmt": "%",
    "label": "Cabin occupancy",
-   "assumption": "AirDNA expects U.S. short-term rental occupancy of 57.4% in 2026 [^41]. Wine-trail demand is weekend-heavy (a Carter Creek review is titled \"Don't stay on weekdays!\" [^25]), so the ramp reaches 56% only as retreat groups fill midweek nights."
+   "assumption": "AirDNA expects U.S. short-term rental occupancy of 57.4% in 2026 [^39]. Wine-trail demand is weekend-heavy (a Carter Creek review is titled \"Don't stay on weekdays!\" [^23]), so the ramp reaches 56% only as retreat groups fill midweek nights."
   },
   "events": {
    "value": [
@@ -133,7 +133,7 @@
    ],
    "fmt": "n",
    "label": "Retreats, weddings and group events per year",
-   "assumption": "No event count, festival attendance or hotel tax series exists in the record. One event about every 11 days at stabilization, against Carter Creek's large event plant and Walden's 100-seat banquet room [^22,31]."
+   "assumption": "No event count, festival attendance or hotel tax series exists in the record. One event about every 11 days at stabilization, against Carter Creek's large event plant and Walden's 100-seat banquet room [^20,29]."
   },
   "event_fee": {
    "value": [
@@ -151,7 +151,7 @@
    "value": 0.03,
    "fmt": "%",
    "label": "Pet fees, rentals and retail, share of cabin revenue",
-   "assumption": "Carter Creek charges a pet fee of $84.75 a stay [^24]; small ancillary income."
+   "assumption": "Carter Creek charges a pet fee of $84.75 a stay [^22]; small ancillary income."
   },
   "payroll": {
    "value": 240000,
@@ -199,14 +199,14 @@
    "value": 36000,
    "fmt": "$",
    "label": "Insurance (Year 1)",
-   "assumption": "Site wind, flood and wildfire insurance conditions were NOT FOUND. The Pedernales reached its highest level since 1979 in July 2026 [^39], so the lender must replace this with a bound quote."
+   "assumption": "Site wind, flood and wildfire insurance conditions were NOT FOUND. The Pedernales reached its highest level since 1979 in July 2026 [^37], so the lender must replace this with a bound quote."
   },
   "tax_county": {
    "value": 0.00375232,
    "fmt": "%2",
    "label": "Blanco County tax rate, 2025 (per $1 of value)",
    "source": [
-    11
+    9
    ]
   },
   "tax_isd": {
@@ -214,7 +214,7 @@
    "fmt": "%2",
    "label": "Johnson City ISD tax rate, 2025",
    "source": [
-    11
+    9
    ]
   },
   "tax_esd": {
@@ -222,7 +222,7 @@
    "fmt": "%2",
    "label": "North Blanco ESD tax rate, 2025",
    "source": [
-    11
+    9
    ]
   },
   "tax_gcd": {
@@ -230,7 +230,7 @@
    "fmt": "%2",
    "label": "Blanco-Pedernales groundwater district levy, 2025",
    "source": [
-    11
+    9
    ]
   },
   "sba_guaranty_pct": {
@@ -238,14 +238,14 @@
    "fmt": "%",
    "label": "SBA guaranty share, loans of $350,001 to $5 million",
    "source": [
-    49
+    47
    ]
   },
   "rate_7a": {
    "value": 0.095,
    "fmt": "%2",
    "label": "7(a) interest rate",
-   "assumption": "Prime was 7.00% on October 9, 2026 [^48]. SBA caps the spread over Prime by loan size [^46]; 2025 7(a) loans to bed-and-breakfasts averaged 9.49% [^50]. We carry Prime plus 2.5 points. The lender sets the rate at pricing"
+   "assumption": "Prime was 7.00% on October 9, 2026 [^46]. SBA caps the spread over Prime by loan size [^44]; 2025 7(a) loans to bed-and-breakfasts averaged 9.49% [^48]. We carry Prime plus 2.5 points. The lender sets the rate at pricing"
   }
  },
  "uses": [
@@ -254,7 +254,7 @@
    "label": "Land, 10 acres with US 290 frontage",
    "expr": "site_acres * tract_ask / tract_acres",
    "class": "real_estate",
-   "basis": "acres x asking price per acre [^8]"
+   "basis": "acres x asking price per acre [^7]"
   },
   {
    "key": "cabins",
@@ -282,7 +282,7 @@
    "label": "Hard-cost contingency",
    "expr": "(cabins * cabin_cost + lodge_cost + site_work) * contingency_pct",
    "class": "real_estate",
-   "basis": "10% of hard cost [^45]"
+   "basis": "10% of hard cost [^43]"
   },
   {
    "key": "soft",
@@ -374,7 +374,7 @@
    "key": "tax",
    "label": "Property tax",
    "expr": "(site_acres * tract_ask / tract_acres + (cabins * cabin_cost + lodge_cost + site_work) * (1 + contingency_pct)) * (tax_county + tax_isd + tax_esd + tax_gcd) * 1.02 ** y",
-   "basis": "rates outside the city [^11]"
+   "basis": "rates outside the city [^9]"
   },
   {
    "key": "reserve",
@@ -418,7 +418,7 @@
  "glance": [
   [
    "Town, county and corridor",
-   "West of Johnson City, Blanco County, Texas, on the US 290 wine corridor near the US 281 junction [^11]"
+   "West of Johnson City, Blanco County, Texas, on the US 290 wine corridor near the US 281 junction [^9]"
   ],
   [
    "Subject",
@@ -450,7 +450,7 @@
   ],
   [
    "Market conclusion",
-   "A small, weekend-led trade area of 160 organized keys across four operators with no new-build pipeline [^21,26,32,30], beside a wave of luxury openings in the next ring [^32]; demand supports a small retreat, not a start-up-minimum loan at 2026 rates and land prices"
+   "A small, weekend-led trade area of 160 organized keys across four operators with no new-build pipeline [^19,24,30,28], beside a wave of luxury openings in the next ring [^30]; demand supports a small retreat, not a start-up-minimum loan at 2026 rates and land prices"
   ],
   [
    "Determination",

@@ -10,9 +10,9 @@
   "rural_fee_waiver": false
  },
  "rule_sources": {
-  "sop": 62,
-  "fees": 63,
-  "prime": 64
+  "sop": 61,
+  "fees": 62,
+  "prime": 63
  },
  "stabilized_year": 3,
  "dscr_test_year": 2,
@@ -25,34 +25,32 @@
    "value": 80,
    "fmt": "n",
    "label": "Guest rooms (keys)",
-   "assumption": "The research gives no subject program. 80 keys sits inside the 42 to 114 key range of the eight branded hotels operating in Bastrop [^34,39,24] and below the 121 keys filed for the Fairfield and Staybridge project [^21]."
+   "assumption": "The research gives no subject program. 80 keys sits inside the 42 to 114 key range of the eight branded hotels operating in Bastrop [^33,38,23] and below the 121 keys filed for the Fairfield and Staybridge project [^20]."
   },
   "site_acres": {
    "value": 3.0,
    "fmt": "n",
    "label": "Site area, acres",
-   "assumption": "A 2.5-acre hotel pad is under contract at Sendero [^23]; 3.0 acres leaves room for surface parking and detention on a highway pad."
+   "assumption": "A 2.5-acre hotel pad is under contract at Sendero [^22]; 3.0 acres leaves room for surface parking and detention on a highway pad."
   },
   "land_per_acre": {
    "value": 307994.76,
    "fmt": "$2",
-   "label": "Land price per acre (asking)",
-   "source": [
-    3
-   ]
+   "label": "Land price per acre",
+   "assumption": "2026 asking price of the SH 71 frontage corridor tract the research identified, about $308,000 an acre; the listing is not cited so that no real parcel is identified. An appraisal sets the value."
   },
   "hard_cost_per_key": {
    "value": 125000,
    "fmt": "$",
    "label": "Building and site work per key",
-   "assumption": "Owner estimates filed with TDLR put construction value at $13.0 million for the 114-suite Everhome (2023) and $10 million for the 121-key Fairfield and Staybridge (2026) [^17,21]; those filings omit FF&E and soft costs. HVS puts the 2025 limited-service median at $170,000 to $197,000 per room all-in [^49]. We carry $125,000 per key for building and site work, above the local filings, because the Turner index rose 4.8% over the trailing twelve months [^49]."
+   "assumption": "Owner estimates filed with TDLR put construction value at $13.0 million for the 114-suite Everhome (2023) and $10 million for the 121-key Fairfield and Staybridge (2026) [^16,20]; those filings omit FF&E and soft costs. HVS puts the 2025 limited-service median at $170,000 to $197,000 per room all-in [^48]. We carry $125,000 per key for building and site work, above the local filings, because the Turner index rose 4.8% over the trailing twelve months [^48]."
   },
   "contingency_pct": {
    "value": 0.1,
    "fmt": "%",
    "label": "Hard-cost contingency",
    "source": [
-    53
+    52
    ]
   },
   "soft_pct": {
@@ -65,7 +63,7 @@
    "value": 16000,
    "fmt": "$",
    "label": "FF&E per key",
-   "assumption": "HVS reports a full-service FF&E median of $36,752 per key [^60]. A limited-service room carries no restaurant, ballroom or spa package, so we carry about half."
+   "assumption": "HVS reports a full-service FF&E median of $36,752 per key [^59]. A limited-service room carries no restaurant, ballroom or spa package, so we carry about half."
   },
   "occupancy": {
    "value": [
@@ -77,7 +75,7 @@
    ],
    "fmt": "%",
    "label": "Occupancy",
-   "assumption": "No Bastrop occupancy series exists in the record. U.S. hotels ran 62.3% in 2025 [^51]. The ramp opens below that while 228 extended-stay keys from 2025 and four pipeline hotels absorb demand [^24,37,16,21], and stabilizes at 66% to 67% on SH 71 business travel, the Starlink campus and Lost Pines leisure weekends."
+   "assumption": "No Bastrop occupancy series exists in the record. U.S. hotels ran 62.3% in 2025 [^50]. The ramp opens below that while 228 extended-stay keys from 2025 and four pipeline hotels absorb demand [^23,36,15,20], and stabilizes at 66% to 67% on SH 71 business travel, the Starlink campus and Lost Pines leisure weekends."
   },
   "adr": {
    "value": [
@@ -89,7 +87,7 @@
    ],
    "fmt": "$",
    "label": "Average daily rate",
-   "assumption": "No ADR for Bastrop is published, and the aggregator prices in the research are undated asking rates, not ADR. We set $138 in Year 1, rising about 3% a year: below the 2025 U.S. ADR of $160.54 [^51] and the $156.56 select-service ADR in Apple Hospitality's Q1 2025 portfolio [^58], and above the $116.08 extended-stay average for Q4 2025 [^55]."
+   "assumption": "No ADR for Bastrop is published, and the aggregator prices in the research are undated asking rates, not ADR. We set $138 in Year 1, rising about 3% a year: below the 2025 U.S. ADR of $160.54 [^50] and the $156.56 select-service ADR in Apple Hospitality's Q1 2025 portfolio [^57], and above the $116.08 extended-stay average for Q4 2025 [^54]."
   },
   "other_rev_pct": {
    "value": 0.025,
@@ -101,7 +99,7 @@
    "value": 600000,
    "fmt": "$",
    "label": "Payroll and benefits (Year 1)",
-   "assumption": "No Bastrop hotel wage data is in the record. Non-union U.S. hotels ran labor at 33.5% of revenue in 2025 [^59], a figure weighted to full-service hotels with restaurants. We carry about 23% of stabilized revenue, held as a fixed amount growing 3% a year so that payroll does not fall when revenue falls."
+   "assumption": "No Bastrop hotel wage data is in the record. Non-union U.S. hotels ran labor at 33.5% of revenue in 2025 [^58], a figure weighted to full-service hotels with restaurants. We carry about 23% of stabilized revenue, held as a fixed amount growing 3% a year so that payroll does not fall when revenue falls."
   },
   "rooms_cost_pct": {
    "value": 0.08,
@@ -114,7 +112,7 @@
    "fmt": "%",
    "label": "Franchise royalty, marketing and reservations, share of rooms revenue",
    "source": [
-    54
+    53
    ]
   },
   "mgmt_pct": {
@@ -127,20 +125,20 @@
    "value": 0.11,
    "fmt": "%",
    "label": "Utilities, maintenance, sales and administration, share of total revenue",
-   "assumption": "Undistributed expenses for a rooms-only hotel. CBRE's 2025 sample converted 34.8% of revenue to gross operating profit across all hotel types [^50]; limited-service hotels run leaner, which this ratio reflects."
+   "assumption": "Undistributed expenses for a rooms-only hotel. CBRE's 2025 sample converted 34.8% of revenue to gross operating profit across all hotel types [^49]; limited-service hotels run leaner, which this ratio reflects."
   },
   "insurance_per_key": {
    "value": 1200,
    "fmt": "$",
    "label": "Property and liability insurance per key",
-   "assumption": "Insurance terms for the site were NOT FOUND. Bastrop County carries wildfire history (the 2011 Bastrop County Complex fire) [^67]; the lender must replace this with a bound quote."
+   "assumption": "Insurance terms for the site were NOT FOUND. Bastrop County carries wildfire history (the 2011 Bastrop County Complex fire) [^66]; the lender must replace this with a bound quote."
   },
   "tax_county": {
    "value": 0.004554,
    "fmt": "%2",
    "label": "Bastrop County tax rate, FY 2026-27 (per $1 of value)",
    "source": [
-    12
+    11
    ]
   },
   "tax_isd": {
@@ -148,14 +146,14 @@
    "fmt": "%2",
    "label": "Bastrop ISD tax rate, 2025-26",
    "source": [
-    13
+    12
    ]
   },
   "tax_city": {
    "value": 0.005,
    "fmt": "%2",
    "label": "City of Bastrop or ESD levy allowance",
-   "assumption": "The City of Bastrop's adopted 2025 rate could not be confirmed from a primary record; its tax page links only the 2024-25 ordinance [^8]. We carry a placeholder of $0.50 per $100 until the lender obtains the adopted ordinance or, outside the city, the ESD rate."
+   "assumption": "The City of Bastrop's adopted 2025 rate could not be confirmed from a primary record; its tax page links only the 2024-25 ordinance [^7]. We carry a placeholder of $0.50 per $100 until the lender obtains the adopted ordinance or, outside the city, the ESD rate."
   },
   "reserve_pct": {
    "value": 0.04,
@@ -167,20 +165,20 @@
    "value": 0.0725,
    "fmt": "%2",
    "label": "Bank first-lien rate",
-   "assumption": "Prime was 7.00% on October 9, 2026 [^64]. Broker-reported 2026 all-in rates for hotel loans run 6.35% to 7.25% [^53]; we take the top of that range for a new-build hotel with no history. The lender sets the rate at pricing"
+   "assumption": "Prime was 7.00% on October 9, 2026 [^63]. Broker-reported 2026 all-in rates for hotel loans run 6.35% to 7.25% [^52]; we take the top of that range for a new-build hotel with no history. The lender sets the rate at pricing"
   },
   "tpl_amort_years": {
    "value": 25,
    "fmt": "yr",
    "label": "Bank first-lien amortization",
-   "assumption": "Matches the 25-year debenture; the bank term must be at least 10 years for a 20- or 25-year debenture under the SOP [^62]."
+   "assumption": "Matches the 25-year debenture; the bank term must be at least 10 years for a 20- or 25-year debenture under the SOP [^61]."
   },
   "debenture_rate": {
    "value": 0.0697,
    "fmt": "%2",
    "label": "504 debenture effective rate, 25-year",
    "source": [
-    61
+    60
    ]
   },
   "debenture_years": {
@@ -188,7 +186,7 @@
    "fmt": "yr",
    "label": "504 debenture term",
    "source": [
-    62
+    61
    ]
   }
  },
@@ -198,7 +196,7 @@
    "label": "Land, hotel pad on SH 71",
    "expr": "site_acres * land_per_acre",
    "class": "real_estate",
-   "basis": "acres x asking price per acre [^3]"
+   "basis": "acres x price per acre (assumption)"
   },
   {
    "key": "building",
@@ -212,7 +210,7 @@
    "label": "Hard-cost contingency",
    "expr": "keys * hard_cost_per_key * contingency_pct",
    "class": "real_estate",
-   "basis": "10% of hard cost [^53]"
+   "basis": "10% of hard cost [^52]"
   },
   {
    "key": "soft",
@@ -261,7 +259,7 @@
    "key": "franchise",
    "label": "Franchise royalty, marketing and reservations",
    "expr": "rev_rooms * franchise_pct",
-   "basis": "share of rooms revenue [^54]"
+   "basis": "share of rooms revenue [^53]"
   },
   {
    "key": "mgmt",
@@ -285,7 +283,7 @@
    "key": "tax",
    "label": "Property tax",
    "expr": "(site_acres * land_per_acre + keys * hard_cost_per_key * (1 + contingency_pct)) * (tax_county + tax_isd + tax_city) * 1.02 ** y",
-   "basis": "100% of market value [^8] x rates [^12,13]"
+   "basis": "100% of market value [^7] x rates [^11,12]"
   },
   {
    "key": "reserve",
@@ -361,7 +359,7 @@
   ],
   [
    "Market conclusion",
-   "Demand is real and growing, but 228 new extended-stay keys opened in 2025 and four branded hotels deliver from December 2026 to July 2028 [^24,16,21]; the market supports the hotel at modest leverage, not at the 504 minimum"
+   "Demand is real and growing, but 228 new extended-stay keys opened in 2025 and four branded hotels deliver from December 2026 to July 2028 [^23,15,20]; the market supports the hotel at modest leverage, not at the 504 minimum"
   ],
   [
    "Determination",
