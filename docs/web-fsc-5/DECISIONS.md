@@ -86,3 +86,4 @@ Each decision was taken without stopping, as speed rule 1 asks. Owner-facing ite
 - CLOSE's gate-7 sentence now gives the flag split.
 - The first fetch run's log (09:37Z, untracked) printed `GET` lines for robots-disallowed URLs before the code checked the door: the log line came first. `get()` checked the door before any request in that version too, so no request was sent. The order was fixed before freeze 1.
 
+**D33. A freeze superseded before review.** The freeze taken at `35433de` was dropped within minutes and its record deleted, because CLOSE's size figures in it were stale. The fuller composition-pending reasons (D32) had grown data/markets from 30.72 MB to 31.63 MB. No reviewer saw it. The final freeze carries the corrected figures.

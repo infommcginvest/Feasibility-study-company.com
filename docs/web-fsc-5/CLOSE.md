@@ -15,7 +15,7 @@ So the register holds the SBA 7(a) and 504 FOIA series in full: every approval F
 
 ## Gates: 7 of 11 green
 
-Green: 1 (no served file), 3 (reconciliation), 4 (FOIA status), 7 (no synthesized medians or averaged rates; across all 29,392 rate cells the small-sample flag is set exactly when 1 to 29 loans were disbursed, a zero denominator gives a null with its own flag, and 30 or more carries no flag), 9 (Texas, with the reason stated for each market), 10 (names and identity), 11 (size: 30.72 MB, i.e. 29.30 MiB; largest file 1.92 MB).
+Green: 1 (no served file), 3 (reconciliation), 4 (FOIA status), 7 (no synthesized medians or averaged rates; across all 29,392 rate cells the small-sample flag is set exactly when 1 to 29 loans were disbursed, a zero denominator gives a null with its own flag, and 30 or more carries no flag), 9 (Texas, with the reason stated for each market), 10 (names and identity), 11 (size: 31.63 MB, i.e. 30.17 MiB; largest file 1.95 MB).
 
 Red, each for a reason this lane cannot fix:
 
@@ -114,13 +114,13 @@ Every finding was reproduced from the raw files or the row text before it was ac
 - F2, F4, the renderer guards (39 test pages), the pre-FY2001 flag, and the NAICS revisions (re-derived from raw);
 - the raw-file properties, and every changed CLOSE figure.
 
-It found no regression: a sweep of 87,120 additive cells against its own raw recount showed 0 mismatches, and the only changed values are the ones the fixes explain. Its 10 minor points are fixed or disclosed for freeze 3 (D32).
+It found no regression: a sweep of 87,120 additive cells against its own raw recount showed 0 mismatches, and the only changed values are the ones the fixes explain. Its 10 minor points are fixed or disclosed for the final freeze (D32).
 
-**Freeze 3** is the commit that holds this file together with its gate record. Its record, `freeze/freeze-<sha>.json`, now also carries the manifest's door and probe records, and is written after it. The closing records-only commit copies the freeze-3 hashes and the bundle into this file; it changes no data, script or gate file.
+**The final freeze** is the commit that holds this file together with its gate record. Its record, `freeze/freeze-<sha>.json`, now also carries the manifest's door and probe records, and is written after it. The closing records-only commit copies the final freeze's hashes and the bundle into this file; it changes no data, script or gate file.
 
 ## Land and push
 
-Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. A bundle of it is written to `<repo>/_bundles/` and clone-tested after freeze 3, and the closing records-only commit adds its name and the clone test.
+Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. A bundle of it is written to `<repo>/_bundles/` and clone-tested after the final freeze, and the closing records-only commit adds its name and the clone test.
 
 ## For the next lanes
 
