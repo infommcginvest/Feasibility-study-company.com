@@ -9,9 +9,9 @@
     "rural_fee_waiver": false
   },
   "rule_sources": {
-    "sop": 49,
-    "fees": 50,
-    "prime": 51
+    "sop": 48,
+    "fees": 49,
+    "prime": 50
   },
   "stabilized_year": 3,
   "dscr_test_year": 2,
@@ -42,13 +42,13 @@
       "value": 260,
       "fmt": "$",
       "label": "Store construction cost per square foot",
-      "assumption": "Above the $1,350,000 estimated construction cost filed in October 2026 for a 6,374 square foot store in Fort Wayne, which covers vertical construction only [^44]; inside a contractor's 2026 range of $150 to $350 a square foot [^43]; construction input prices rose 7.1% in the year to June 2026 [^45]."
+      "assumption": "Above the $1,350,000 estimated construction cost filed in October 2026 for a 6,374 square foot store in Fort Wayne, which covers vertical construction only [^43]; inside a contractor's 2026 range of $150 to $350 a square foot [^42]; construction input prices rose 7.1% in the year to June 2026 [^44]."
     },
     "canopy_tanks": {
       "value": 780000,
       "fmt": "$",
       "label": "Canopy, three underground tanks, piping and leak detection",
-      "assumption": "Three tanks, canopy, product lines and leak detection. No dated per-tank installed cost was found; a 2026 franchise disclosure puts a whole new store and fuel site, before land, at $3,098,500 to $9,430,500 [^46], and this line is a share of a site at the bottom of that range."
+      "assumption": "Three tanks, canopy, product lines and leak detection. No dated per-tank installed cost was found; a 2026 franchise disclosure puts a whole new store and fuel site, before land, at $3,098,500 to $9,430,500 [^45], and this line is a share of a site at the bottom of that range."
     },
     "dispensers": {
       "value": 8,
@@ -86,7 +86,7 @@
       "value": 0.08,
       "fmt": "%",
       "label": "Hard-cost contingency",
-      "assumption": "8% of site, building, canopy and tank costs, for a market where steel mill products rose 16.9% in the year to June 2026 [^45]."
+      "assumption": "8% of site, building, canopy and tank costs, for a market where steel mill products rose 16.9% in the year to June 2026 [^44]."
     },
     "construction_interest": {
       "value": 150000,
@@ -98,7 +98,7 @@
       "value": 160000,
       "fmt": "$",
       "label": "Opening fuel and merchandise inventory",
-      "assumption": "Inside the $100,000 to $300,000 initial fuel inventory a 2025 franchise disclosure lists for a new fuel site [^46], plus opening merchandise."
+      "assumption": "Inside the $100,000 to $300,000 initial fuel inventory a 2025 franchise disclosure lists for a new fuel site [^45], plus opening merchandise."
     },
     "working_capital": {
       "value": 150000,
@@ -255,7 +255,7 @@
       "fmt": "%",
       "label": "SBA guaranty share",
       "source": [
-        48
+        47
       ]
     }
   },
@@ -279,7 +279,7 @@
       "label": "Store building, 4,200 square feet",
       "expr": "building_sf * building_psf",
       "class": "real_estate",
-      "basis": "Square feet x cost [^43,44]"
+      "basis": "Square feet x cost [^42,43]"
     },
     {
       "key": "canopy",
@@ -335,7 +335,7 @@
       "label": "Opening inventory",
       "expr": "inventory",
       "class": "working_capital",
-      "basis": "Franchise disclosure range [^46]"
+      "basis": "Franchise disclosure range [^45]"
     },
     {
       "key": "working_capital",
@@ -460,7 +460,7 @@
     ],
     [
       "Program",
-      "SBA 7(a), start-up [^49]"
+      "SBA 7(a), start-up [^48]"
     ],
     [
       "Total project cost",

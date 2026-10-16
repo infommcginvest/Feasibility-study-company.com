@@ -10,9 +10,9 @@
     "rural_fee_waiver": false
   },
   "rule_sources": {
-    "sop": 56,
-    "fees": 57,
-    "prime": 58
+    "sop": 55,
+    "fees": 56,
+    "prime": 57
   },
   "stabilized_year": 3,
   "dscr_test_year": 2,
@@ -73,7 +73,7 @@
       "value": 0.08,
       "fmt": "%",
       "label": "Hard-cost contingency",
-      "assumption": "8% of site, building and fuel system costs; the diesel that drives site-work bids rose 77.8% in producer prices in a year [^53]."
+      "assumption": "8% of site, building and fuel system costs; the diesel that drives site-work bids rose 77.8% in producer prices in a year [^52]."
     },
     "construction_interest": {
       "value": 500000,
@@ -97,13 +97,13 @@
       ],
       "fmt": "n",
       "label": "Diesel gallons sold",
-      "assumption": "Year 1 matches the 2.6 million diesel gallons an independent truck stop reported in a September 2025 sale listing [^54]. Rises to about 2,100 gallons per lane per day across five lanes by Year 3 as the Airport Road and US 80 logistics projects open [^27,30]. No truck share of I-20 traffic was found."
+      "assumption": "Year 1 matches the 2.6 million diesel gallons an independent truck stop reported in a September 2025 sale listing [^53]. Rises to about 2,100 gallons per lane per day across five lanes by Year 3 as the Airport Road and US 80 logistics projects open [^27,30]. No truck share of I-20 traffic was found."
     },
     "diesel_margin": {
       "value": 0.38,
       "fmt": "cpg",
       "label": "Diesel gross margin per gallon",
-      "assumption": "Between the 35 to 40 cent five-year average fuel markup NACS reports [^46] and the 2025 average of over 40 cents [^62]; fleet-card discounts keep a truck stop's realized diesel margin below its posted spread."
+      "assumption": "Between the 35 to 40 cent five-year average fuel markup NACS reports [^46] and the 2025 average of over 40 cents [^61]; fleet-card discounts keep a truck stop's realized diesel margin below its posted spread."
     },
     "gas_gal": {
       "value": [
@@ -115,7 +115,7 @@
       ],
       "fmt": "n",
       "label": "Gasoline gallons sold",
-      "assumption": "Modest, because Buc-ee's at the same exit takes the car traffic [^10,11]; Year 1 matches the 0.8 million gasoline gallons in the same September 2025 listing [^54]."
+      "assumption": "Modest, because Buc-ee's at the same exit takes the car traffic [^10,11]; Year 1 matches the 0.8 million gasoline gallons in the same September 2025 listing [^53]."
     },
     "gas_margin": {
       "value": 0.357,
@@ -135,7 +135,7 @@
       ],
       "fmt": "$",
       "label": "Inside sales: store, food court, beverages",
-      "assumption": "Year 1 near the $2.5 million of inside sales in the September 2025 listing [^54], rising with diesel customers and the food court."
+      "assumption": "Year 1 near the $2.5 million of inside sales in the September 2025 listing [^53], rising with diesel customers and the food court."
     },
     "inside_margin": {
       "value": 0.41,
@@ -219,7 +219,7 @@
       "value": 0.0825,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "Prime from the H.15 release [^58] plus 1.25 points for a special-purpose start-up; no published 2026 lender terms for travel centers were found, the 10-year Treasury sat near 5% in September 2026 [^60], and the bank sets the rate at pricing"
+      "assumption": "Prime from the H.15 release [^57] plus 1.25 points for a special-purpose start-up; no published 2026 lender terms for travel centers were found, the 10-year Treasury sat near 5% in September 2026 [^59], and the bank sets the rate at pricing"
     },
     "tpl_amort_years": {
       "value": 25,
@@ -232,14 +232,14 @@
       "fmt": "%2",
       "label": "504 debenture rate, all-in",
       "source": [
-        55
+        54
       ]
     },
     "debenture_years": {
       "value": 25,
       "fmt": "yr",
       "label": "Debenture term",
-      "assumption": "The 25-year debenture available when real estate is the larger share of the project [^56]."
+      "assumption": "The 25-year debenture available when real estate is the larger share of the project [^55]."
     }
   },
   "uses": [
@@ -312,7 +312,7 @@
       "key": "diesel",
       "label": "Diesel gross margin",
       "expr": "diesel_gal * diesel_margin",
-      "basis": "Gallons x 38 cents [^46,62]"
+      "basis": "Gallons x 38 cents [^46,61]"
     },
     {
       "key": "gas",
@@ -324,7 +324,7 @@
       "key": "inside",
       "label": "Inside sales",
       "expr": "inside_sales",
-      "basis": "Listing benchmark [^54]"
+      "basis": "Listing benchmark [^53]"
     },
     {
       "key": "services",
@@ -416,7 +416,7 @@
     ],
     [
       "Program",
-      "SBA 504: bank first lien plus a CDC debenture; new business on special purpose property [^56]"
+      "SBA 504: bank first lien plus a CDC debenture; new business on special purpose property [^55]"
     ],
     [
       "Total project cost",

@@ -245,6 +245,19 @@ def g6(recs):
 
 
 STALE = None
+REVIEWED = []
+
+
+def reviewed(url, sid, num, text):
+    """True when this uncited number was reviewed by hand as analysis, an identifier or a hypothetical subject attribute."""
+    global REVIEWED
+    if not REVIEWED:
+        path = os.path.join(HERE, "nocite-reviewed.tsv")
+        for line in open(path, encoding="utf-8"):
+            if line.strip() and not line.startswith("#"):
+                u, sec, n, phrase, _reason = line.rstrip("\n").split("\t")
+                REVIEWED.append((u, sec, n, phrase))
+    return any(u == url and sec == sid and n == num and phrase in text for u, sec, n, phrase in REVIEWED)
 
 
 def g7(base):
@@ -258,7 +271,7 @@ def g7(base):
         "$250,000 valuation": re.compile(r"\$250,000[^.]{0,80}(business valuation|going-concern|value the business|valuation threshold|internal valuation)", re.I),
         "SBA requires + feasibility": pc.SBA_REQUIRES,
     }
-    hits, src_probs, fig_nocite = [], [], []
+    hits, src_probs, fig_nocite, fig_reviewed = [], [], [], []
     for url in pc.PILOT:
         p = served(url)
         if not os.path.exists(p):
@@ -294,10 +307,22 @@ def g7(base):
             if b.find_parent(class_="faq-list") or b.find_parent("nav") or b.find_parent(class_="hero"):
                 pass
             t = b.get_text(" ", strip=True)
+            # a table row is sourced by a table-source note directly under its table when that note cites
+            wrap = b.find_parent(class_="data-table-wrap") if b.name == "tr" else None
+            note = wrap.find_next_sibling() if wrap is not None else None
+            if note is not None and "table-source" in (note.get("class") or []) and (note.select("a.cite") or note.select("sup.fn")):
+                continue
+            # regulation, SOP and handbook numbers, exit and route numbers are identifiers, not figures
+            t = re.sub(r"(CFR|SOP 50 10|Handbook|Exit|Exits|Route|FM|US|SH|I-|section|Notice|No\.)\s*[\d.()a-z-]+", " ", t)
             if pc.FIG.search(t) and not (b.select("a.cite") or b.select("sup.fn")) and not b.find_parent("thead"):
                 nums = [m.group(1) for m in pc.FIG.finditer(t) if not pc.YEAR.match(pc.norm(m.group(1)))]
-                if nums:
-                    fig_nocite.append(f"{url}: {t[:110]}")
+                sec = b.find_parent("section")
+                sid = sec.get("id") if sec else ""
+                left = [n for n in nums if not reviewed(url, sid, n, t)]
+                if left:
+                    fig_nocite.append(f"{url} #{sid}: {left} in: {t[:110]}")
+                elif nums:
+                    fig_reviewed.append(f"{url} #{sid}: {nums}")
     forb = []
     for d, dirs, files in os.walk(ROOT):
         dirs[:] = [x for x in dirs if x not in (".git", "docs", "node_modules", "_bundles", "_cache")]
@@ -314,6 +339,8 @@ def g7(base):
          f"stale-claim hits {len(hits)}\n" + "\n".join("  " + x for x in hits[:30]) +
          f"\nsource entries lacking a part or never cited {len(src_probs)}\n" + "\n".join("  " + x for x in src_probs[:30]) +
          f"\nfigure blocks without a citation {len(fig_nocite)}\n" + "\n".join("  " + x for x in fig_nocite[:40]) +
+         f"\nuncited numbers reviewed as not market figures (docs/web-fsc-6/tools/nocite-reviewed.tsv): {len(fig_reviewed)}\n" +
+         "\n".join("  " + x for x in fig_reviewed) +
          f"\nserved files matching the ruling 10 pattern (whole site) {len(forb)}: {forb[:20]}\n"
          f"lane commits whose author or committer matches: {len(auth_hits)}")
 

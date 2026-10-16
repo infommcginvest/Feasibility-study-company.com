@@ -9,9 +9,9 @@
     "rural_fee_waiver": false
   },
   "rule_sources": {
-    "sop": 39,
-    "fees": 40,
-    "prime": 41
+    "sop": 38,
+    "fees": 39,
+    "prime": 40
   },
   "stabilized_year": 3,
   "units": {
@@ -146,7 +146,7 @@
       "fmt": "%",
       "label": "SBA guaranty share",
       "source": [
-        38
+        37
       ]
     },
     "seller_ebitda_fy2024": {
@@ -196,7 +196,7 @@
       "label": "Closing costs: appraisal, valuation, Phase I, legal",
       "expr": "closing",
       "class": "other",
-      "basis": "Due diligence for a change of ownership [^39]"
+      "basis": "Due diligence for a change of ownership [^38]"
     }
   ],
   "revenue": [
@@ -309,7 +309,7 @@
     ],
     [
       "Program",
-      "SBA 7(a), initial acquisition (change of ownership) under Appendix 15 [^39]"
+      "SBA 7(a), initial acquisition (change of ownership) under Appendix 15 [^38]"
     ],
     [
       "Total project cost",

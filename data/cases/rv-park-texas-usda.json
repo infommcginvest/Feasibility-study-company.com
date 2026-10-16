@@ -1,510 +1,540 @@
 {
- "slug": "rv-park-texas-usda",
- "page": "/case-studies/rv-park-texas-usda/",
- "program": "usda_bi",
- "rule_sources": {
-  "program": 48
- },
- "stabilized_year": 3,
- "dscr_test_year": 3,
- "units": {
-  "label": "RV site or cabin",
-  "count": 70
- },
- "inputs": {
-  "rv_sites": {
-   "value": 64,
-   "fmt": "n",
-   "label": "Full-hookup RV sites",
-   "assumption": "Sized to about 12 acres under the county's design rules: a 12 by 40 ft hardened pad per space, 20 ft between units, 20 ft two-way roads and 25 ft right-of-way setbacks [^3]."
+  "slug": "rv-park-texas-usda",
+  "page": "/case-studies/rv-park-texas-usda/",
+  "program": "usda_bi",
+  "rule_sources": {
+    "program": 47
   },
-  "monthly_sites": {
-   "value": 26,
-   "fmt": "n",
-   "label": "Sites held for monthly stays",
-   "assumption": "About 40% of the RV sites. Monthly workforce demand is the deepest in Bastrop, but USDA B&I funds resort trailer parks and campgrounds, not residential trailer parks [^51], so the plan keeps most revenue from nightly and weekly stays."
+  "stabilized_year": 3,
+  "dscr_test_year": 3,
+  "units": {
+    "label": "RV site or cabin",
+    "count": 70
   },
-  "cabins": {
-   "value": 6,
-   "fmt": "n",
-   "label": "Rental cabins",
-   "assumption": "A small cabin line priced against the 12 state park cabins at $110 to $200 a night [^37] and Basin's $130 poolside apartment [^20]."
+  "inputs": {
+    "rv_sites": {
+      "value": 64,
+      "fmt": "n",
+      "label": "Full-hookup RV sites",
+      "assumption": "Sized to about 12 acres under the county's design rules: a 12 by 40 ft hardened pad per space, 20 ft between units, 20 ft two-way roads and 25 ft right-of-way setbacks [^3]."
+    },
+    "monthly_sites": {
+      "value": 26,
+      "fmt": "n",
+      "label": "Sites held for monthly stays",
+      "assumption": "About 40% of the RV sites. Monthly workforce demand is the deepest in Bastrop, but USDA B&I funds resort trailer parks and campgrounds, not residential trailer parks [^50], so the plan keeps most revenue from nightly and weekly stays."
+    },
+    "cabins": {
+      "value": 6,
+      "fmt": "n",
+      "label": "Rental cabins",
+      "assumption": "A small cabin line priced against the 12 state park cabins at $110 to $200 a night [^36] and Basin's $130 poolside apartment [^20]."
+    },
+    "land_acres": {
+      "value": 12,
+      "fmt": "n",
+      "label": "Site area, acres",
+      "assumption": "A 12-acre tract on a paved county road outside the city limits, in the SH 71 and SH 21 trade area. Hypothetical site."
+    },
+    "land_per_acre": {
+      "value": 50000,
+      "fmt": "$",
+      "label": "Land price per acre",
+      "assumption": "The research found no closed sale of county-road acreage suitable for an RV park. $50,000 per acre is a placeholder that the lender must replace with an appraisal."
+    },
+    "site_cost": {
+      "value": 25000,
+      "fmt": "$",
+      "label": "Development cost per RV site",
+      "assumption": "ARVC's 2023 survey of new parks found 60% of respondents at $15,000 or more per full-hookup site and 20% at $30,000 or more [^58]. A Texas state filing for a 176-site resort in Wichita Falls estimated $3.5 million [^59]. Construction inputs rose 8.9% in the year to August 2026 [^60], and the county requires hardened pads, underground electric and fire-water storage [^3]."
+    },
+    "cabin_cost": {
+      "value": 85000,
+      "fmt": "$",
+      "label": "Cost per cabin, set on site",
+      "assumption": "No per-cabin cost is published. Glamping operators reported an average start-up cost of $1,511,600 in 2025 [^65]; a delivered park-model cabin with deck and hookups is carried at $85,000."
+    },
+    "amenity_building": {
+      "value": 500000,
+      "fmt": "$",
+      "label": "Office, store, bathhouse and laundry",
+      "assumption": "The county requires a service building for every 50 spaces plus one fixture set for each additional 30 [^3]. One building with office, camp store, restrooms, showers and laundry; no published cost benchmark."
+    },
+    "contingency_pct": {
+      "value": 0.1,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "10% of hard cost for a ground-up park with septic, water and electric extensions not yet designed."
+    },
+    "soft_pct": {
+      "value": 0.07,
+      "fmt": "%",
+      "label": "Soft costs, share of hard cost",
+      "assumption": "Engineering, county IDP review, OSSF design, Houston toad plan fees [^5], legal and construction interest."
+    },
+    "ffe": {
+      "value": 80000,
+      "fmt": "$",
+      "label": "Cabin furnishings, store fixtures, golf carts and software",
+      "assumption": "Working allowance; no benchmark found."
+    },
+    "working_capital": {
+      "value": 100000,
+      "fmt": "$",
+      "label": "Pre-opening and working capital",
+      "assumption": "Covers marketing, payroll and utilities in the months before the park reaches its Year 1 occupancy."
+    },
+    "monthly_rate": {
+      "value": [
+        700,
+        721,
+        743,
+        765,
+        788
+      ],
+      "fmt": "$",
+      "label": "Monthly site rent, before metered electric",
+      "assumption": "Operator-posted Bastrop monthly rents run $550 to $800 plus metered electric [^19,25,29,31,32]. $700 sits in the upper half for new 50-amp pull-through sites; rent grows about 3% a year, the growth rate Newmark's 2026 survey uses [^61]."
+    },
+    "monthly_occ": {
+      "value": [
+        0.8,
+        0.9,
+        0.93,
+        0.93,
+        0.93
+      ],
+      "fmt": "%",
+      "label": "Occupancy of monthly sites",
+      "assumption": "Basin lists 49 of its 66 spaces as seasonal [^21] and the workforce base is growing [^41]; turnover keeps a monthly section below full."
+    },
+    "nightly_rate": {
+      "value": [
+        52,
+        53.5,
+        55,
+        56.5,
+        58
+      ],
+      "fmt": "$2",
+      "label": "Blended nightly rate, transient sites",
+      "assumption": "Operator-posted nightly rates run $40 to $70, and weekly rates of $200 to $300 lower the blend [^19,24,25,29]. ARVC's 2023 median for full-hookup sites was $55 midweek and $58 on weekends [^58]."
+    },
+    "transient_occ": {
+      "value": [
+        0.45,
+        0.54,
+        0.6,
+        0.61,
+        0.62
+      ],
+      "fmt": "%",
+      "label": "Occupancy of transient sites",
+      "assumption": "ARVC's 2023 survey put full-hookup occupancy at 68% in months of operation [^58]. Transient demand is weaker in 2025 to 2026 at the listed REITs [^62,63] and on Campspot's platform [^64], so the ramp stops at 62%."
+    },
+    "cabin_adr": {
+      "value": [
+        125,
+        129,
+        133,
+        137,
+        141
+      ],
+      "fmt": "$",
+      "label": "Cabin average daily rate",
+      "assumption": "Inside the state park's $110 to $200 cabin range [^36] and below the national self-reported glamping cabin ADR of $338 [^65], because these are campground cabins, not luxury units."
+    },
+    "cabin_occ": {
+      "value": [
+        0.4,
+        0.5,
+        0.55,
+        0.56,
+        0.56
+      ],
+      "fmt": "%",
+      "label": "Cabin occupancy",
+      "assumption": "Leisure demand from Bastrop State Park, which reports that it often reaches capacity [^35], weighted to weekends and the spring, summer and fall season."
+    },
+    "other_pct": {
+      "value": 0.06,
+      "fmt": "%",
+      "label": "Store, laundry, propane and storage, share of rent",
+      "assumption": "Ancillary revenue at a small park with a camp store; no local benchmark."
+    },
+    "payroll": {
+      "value": 200000,
+      "fmt": "$",
+      "label": "Payroll and benefits (Year 1)",
+      "assumption": "A manager and about three full-time equivalents in season. ARVC's 2023 medians were 3 full-time and 2 part-time staff in the main season, $52,200 for a general manager and $15.01 an hour for general staff [^58]; carried here with growth to 2026 and payroll taxes, rising 3% a year."
+    },
+    "utilities_pct": {
+      "value": 0.1,
+      "fmt": "%",
+      "label": "Utilities paid by the park, share of revenue",
+      "assumption": "Water, septic service, common electric and nightly-site electric; monthly sites pay metered electric as the local parks require [^19,29]."
+    },
+    "rm_pct": {
+      "value": 0.06,
+      "fmt": "%",
+      "label": "Repairs, maintenance and supplies, share of revenue",
+      "assumption": "Roads, pads, pedestals, cabins and grounds."
+    },
+    "marketing_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Marketing and booking fees, share of revenue",
+      "assumption": "Online booking platforms and listing fees on nightly and cabin revenue."
+    },
+    "ga_pct": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Administration, software and professional fees, share of revenue",
+      "assumption": "Reservation software, accounting, legal and HOT filing."
+    },
+    "mgmt_pct": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Management fee, share of revenue",
+      "assumption": "The research found no management fee norm for independent parks. 4% is carried so the projection pays for management even if the owner runs the park."
+    },
+    "insurance": {
+      "value": 38000,
+      "fmt": "$",
+      "label": "Insurance (Year 1)",
+      "assumption": "Insurance terms were NOT FOUND. The 2011 fire burned 34,068 acres of the Lost Pines [^42]; the lender must replace this with a bound quote that includes wildfire."
+    },
+    "tax_county": {
+      "value": 0.004287,
+      "fmt": "%2",
+      "label": "Bastrop County tax rate, 2025 (per $1 of value)",
+      "source": [
+        10
+      ]
+    },
+    "tax_isd": {
+      "value": 0.010679,
+      "fmt": "%2",
+      "label": "Bastrop ISD tax rate, 2025-26",
+      "source": [
+        11
+      ]
+    },
+    "tax_esd": {
+      "value": 0.001,
+      "fmt": "%2",
+      "label": "Emergency services district rate, 2025",
+      "source": [
+        12,
+        13
+      ]
+    },
+    "reserve_per_pad": {
+      "value": 75,
+      "fmt": "$",
+      "label": "Replacement reserve per RV pad",
+      "source": [
+        61
+      ]
+    },
+    "bi_guarantee_pct": {
+      "value": 0.85,
+      "fmt": "%",
+      "label": "USDA guarantee, loans under $5 million",
+      "source": [
+        47
+      ]
+    },
+    "bi_fee_pct": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "USDA initial guarantee fee, share of guaranteed amount",
+      "source": [
+        47
+      ]
+    },
+    "bi_annual_fee": {
+      "value": 0.0055,
+      "fmt": "%2",
+      "label": "USDA annual retention fee, share of guaranteed balance",
+      "source": [
+        47
+      ]
+    },
+    "bi_rate": {
+      "value": 0.0775,
+      "fmt": "%2",
+      "label": "Interest rate",
+      "assumption": "B&I rates are negotiated between lender and borrower [^48]. Prime was 7.00% on October 9, 2026 [^66]; broker-reported 2026 RV park closings ran 6.74% to 7.16% [^67]. We carry Prime plus 0.75 points; the lender sets the rate at pricing"
+    },
+    "bi_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Amortization",
+      "assumption": "USDA allows up to 40 years or the useful life of the project or collateral [^48]. Pads, roads and pedestals do not last 40 years, so we amortize over 25"
+    },
+    "bi_equity_min_pct": {
+      "value": 0.25,
+      "fmt": "%",
+      "label": "Minimum equity",
+      "assumption": "The research reads 7 CFR 5001.105 as requiring a new business to hold at least 20% to 25% tangible balance sheet equity or 25% of project cost [^51]. We test 25% of project cost; the lender must confirm the requirement in its credit memo."
+    },
+    "bi_dscr_floor": {
+      "value": 1.25,
+      "fmt": "x",
+      "label": "Coverage floor",
+      "assumption": "USDA sets no single coverage ratio for B&I; the lender's credit policy governs. We test 1.25x in Year 3, the first stabilized year."
+    },
+    "growth_payroll": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Payroll growth per year",
+      "assumption": "Payroll grows 3% a year, a labelled allowance for wage growth; the research gives no local wage trend for this use, so the lender should test it against the operator's staffing plan."
+    },
+    "growth_insurance": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Insurance growth per year",
+      "assumption": "Insurance grows 4% a year, a labelled allowance; no quoted premium for the subject exists, so a bound quote replaces it before closing."
+    },
+    "growth_tax": {
+      "value": 0.02,
+      "fmt": "%",
+      "label": "Taxable value growth per year",
+      "assumption": "Taxable value grows 2% a year, a labelled allowance; Texas appraisal districts reappraise, and the study does not forecast the district's value."
+    },
+    "usda_fee_paydown": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Retention fee base decline per year",
+      "assumption": "The annual retention fee is charged on the outstanding guaranteed balance; the model approximates amortization by lowering the base 3% of the original balance a year, a labelled simplification."
+    },
+    "growth_reserve": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Reserve growth per year",
+      "assumption": "The per-pad reserve grows 3% a year, a labelled allowance for replacement cost inflation."
+    }
   },
-  "land_acres": {
-   "value": 12,
-   "fmt": "n",
-   "label": "Site area, acres",
-   "assumption": "A 12-acre tract on a paved county road outside the city limits, in the SH 71 and SH 21 trade area. Hypothetical site."
-  },
-  "land_per_acre": {
-   "value": 50000,
-   "fmt": "$",
-   "label": "Land price per acre",
-   "assumption": "The research found no closed sale of county-road acreage suitable for an RV park. $50,000 per acre is a placeholder that the lender must replace with an appraisal."
-  },
-  "site_cost": {
-   "value": 25000,
-   "fmt": "$",
-   "label": "Development cost per RV site",
-   "assumption": "ARVC's 2023 survey of new parks found 60% of respondents at $15,000 or more per full-hookup site and 20% at $30,000 or more [^59]. A Texas state filing for a 176-site resort in Wichita Falls estimated $3.5 million [^60]. Construction inputs rose 8.9% in the year to August 2026 [^61], and the county requires hardened pads, underground electric and fire-water storage [^3]."
-  },
-  "cabin_cost": {
-   "value": 85000,
-   "fmt": "$",
-   "label": "Cost per cabin, set on site",
-   "assumption": "No per-cabin cost is published. Glamping operators reported an average start-up cost of $1,511,600 in 2025 [^66]; a delivered park-model cabin with deck and hookups is carried at $85,000."
-  },
-  "amenity_building": {
-   "value": 500000,
-   "fmt": "$",
-   "label": "Office, store, bathhouse and laundry",
-   "assumption": "The county requires a service building for every 50 spaces plus one fixture set for each additional 30 [^3]. One building with office, camp store, restrooms, showers and laundry; no published cost benchmark."
-  },
-  "contingency_pct": {
-   "value": 0.1,
-   "fmt": "%",
-   "label": "Hard-cost contingency",
-   "assumption": "10% of hard cost for a ground-up park with septic, water and electric extensions not yet designed."
-  },
-  "soft_pct": {
-   "value": 0.07,
-   "fmt": "%",
-   "label": "Soft costs, share of hard cost",
-   "assumption": "Engineering, county IDP review, OSSF design, Houston toad plan fees [^5], legal and construction interest."
-  },
-  "ffe": {
-   "value": 80000,
-   "fmt": "$",
-   "label": "Cabin furnishings, store fixtures, golf carts and software",
-   "assumption": "Working allowance; no benchmark found."
-  },
-  "working_capital": {
-   "value": 100000,
-   "fmt": "$",
-   "label": "Pre-opening and working capital",
-   "assumption": "Covers marketing, payroll and utilities in the months before the park reaches its Year 1 occupancy."
-  },
-  "monthly_rate": {
-   "value": [
-    700,
-    721,
-    743,
-    765,
-    788
-   ],
-   "fmt": "$",
-   "label": "Monthly site rent, before metered electric",
-   "assumption": "Operator-posted Bastrop monthly rents run $550 to $800 plus metered electric [^19,26,30,32,33]. $700 sits in the upper half for new 50-amp pull-through sites; rent grows about 3% a year, the growth rate Newmark's 2026 survey uses [^62]."
-  },
-  "monthly_occ": {
-   "value": [
-    0.8,
-    0.9,
-    0.93,
-    0.93,
-    0.93
-   ],
-   "fmt": "%",
-   "label": "Occupancy of monthly sites",
-   "assumption": "Basin lists 49 of its 66 spaces as seasonal [^21] and the workforce base is growing [^42]; turnover keeps a monthly section below full."
-  },
-  "nightly_rate": {
-   "value": [
-    52,
-    53.5,
-    55,
-    56.5,
-    58
-   ],
-   "fmt": "$2",
-   "label": "Blended nightly rate, transient sites",
-   "assumption": "Operator-posted nightly rates run $40 to $70, and weekly rates of $200 to $300 lower the blend [^19,25,26,30]. ARVC's 2023 median for full-hookup sites was $55 midweek and $58 on weekends [^59]."
-  },
-  "transient_occ": {
-   "value": [
-    0.45,
-    0.54,
-    0.6,
-    0.61,
-    0.62
-   ],
-   "fmt": "%",
-   "label": "Occupancy of transient sites",
-   "assumption": "ARVC's 2023 survey put full-hookup occupancy at 68% in months of operation [^59]. Transient demand is weaker in 2025 to 2026 at the listed REITs [^63,64] and on Campspot's platform [^65], so the ramp stops at 62%."
-  },
-  "cabin_adr": {
-   "value": [
-    125,
-    129,
-    133,
-    137,
-    141
-   ],
-   "fmt": "$",
-   "label": "Cabin average daily rate",
-   "assumption": "Inside the state park's $110 to $200 cabin range [^37] and below the national self-reported glamping cabin ADR of $338 [^66], because these are campground cabins, not luxury units."
-  },
-  "cabin_occ": {
-   "value": [
-    0.4,
-    0.5,
-    0.55,
-    0.56,
-    0.56
-   ],
-   "fmt": "%",
-   "label": "Cabin occupancy",
-   "assumption": "Leisure demand from Bastrop State Park, which reports that it often reaches capacity [^36], weighted to weekends and the spring, summer and fall season."
-  },
-  "other_pct": {
-   "value": 0.06,
-   "fmt": "%",
-   "label": "Store, laundry, propane and storage, share of rent",
-   "assumption": "Ancillary revenue at a small park with a camp store; no local benchmark."
-  },
-  "payroll": {
-   "value": 200000,
-   "fmt": "$",
-   "label": "Payroll and benefits (Year 1)",
-   "assumption": "A manager and about three full-time equivalents in season. ARVC's 2023 medians were 3 full-time and 2 part-time staff in the main season, $52,200 for a general manager and $15.01 an hour for general staff [^59]; carried here with growth to 2026 and payroll taxes, rising 3% a year."
-  },
-  "utilities_pct": {
-   "value": 0.1,
-   "fmt": "%",
-   "label": "Utilities paid by the park, share of revenue",
-   "assumption": "Water, septic service, common electric and nightly-site electric; monthly sites pay metered electric as the local parks require [^19,30]."
-  },
-  "rm_pct": {
-   "value": 0.06,
-   "fmt": "%",
-   "label": "Repairs, maintenance and supplies, share of revenue",
-   "assumption": "Roads, pads, pedestals, cabins and grounds."
-  },
-  "marketing_pct": {
-   "value": 0.05,
-   "fmt": "%",
-   "label": "Marketing and booking fees, share of revenue",
-   "assumption": "Online booking platforms and listing fees on nightly and cabin revenue."
-  },
-  "ga_pct": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Administration, software and professional fees, share of revenue",
-   "assumption": "Reservation software, accounting, legal and HOT filing."
-  },
-  "mgmt_pct": {
-   "value": 0.04,
-   "fmt": "%",
-   "label": "Management fee, share of revenue",
-   "assumption": "The research found no management fee norm for independent parks. 4% is carried so the projection pays for management even if the owner runs the park."
-  },
-  "insurance": {
-   "value": 38000,
-   "fmt": "$",
-   "label": "Insurance (Year 1)",
-   "assumption": "Insurance terms were NOT FOUND. The 2011 fire burned 34,068 acres of the Lost Pines [^43]; the lender must replace this with a bound quote that includes wildfire."
-  },
-  "tax_county": {
-   "value": 0.004287,
-   "fmt": "%2",
-   "label": "Bastrop County tax rate, 2025 (per $1 of value)",
-   "source": [
-    10
-   ]
-  },
-  "tax_isd": {
-   "value": 0.010679,
-   "fmt": "%2",
-   "label": "Bastrop ISD tax rate, 2025-26",
-   "source": [
-    11
-   ]
-  },
-  "tax_esd": {
-   "value": 0.001,
-   "fmt": "%2",
-   "label": "Emergency services district rate, 2025",
-   "source": [
-    12,
-    13
-   ]
-  },
-  "reserve_per_pad": {
-   "value": 75,
-   "fmt": "$",
-   "label": "Replacement reserve per RV pad",
-   "source": [
-    62
-   ]
-  },
-  "bi_guarantee_pct": {
-   "value": 0.85,
-   "fmt": "%",
-   "label": "USDA guarantee, loans under $5 million",
-   "source": [
-    48
-   ]
-  },
-  "bi_fee_pct": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "USDA initial guarantee fee, share of guaranteed amount",
-   "source": [
-    48
-   ]
-  },
-  "bi_annual_fee": {
-   "value": 0.0055,
-   "fmt": "%2",
-   "label": "USDA annual retention fee, share of guaranteed balance",
-   "source": [
-    48
-   ]
-  },
-  "bi_rate": {
-   "value": 0.0775,
-   "fmt": "%2",
-   "label": "Interest rate",
-   "assumption": "B&I rates are negotiated between lender and borrower [^49]. Prime was 7.00% on October 9, 2026 [^67]; broker-reported 2026 RV park closings ran 6.74% to 7.16% [^68]. We carry Prime plus 0.75 points; the lender sets the rate at pricing"
-  },
-  "bi_amort_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Amortization",
-   "assumption": "USDA allows up to 40 years or the useful life of the project or collateral [^49]. Pads, roads and pedestals do not last 40 years, so we amortize over 25"
-  },
-  "bi_equity_min_pct": {
-   "value": 0.25,
-   "fmt": "%",
-   "label": "Minimum equity",
-   "assumption": "The research reads 7 CFR 5001.105 as requiring a new business to hold at least 20% to 25% tangible balance sheet equity or 25% of project cost [^52]. We test 25% of project cost; the lender must confirm the requirement in its credit memo."
-  },
-  "bi_dscr_floor": {
-   "value": 1.25,
-   "fmt": "x",
-   "label": "Coverage floor",
-   "assumption": "USDA sets no single coverage ratio for B&I; the lender's credit policy governs. We test 1.25x in Year 3, the first stabilized year."
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land, about 12 acres",
-   "expr": "land_acres * land_per_acre",
-   "class": "real_estate",
-   "basis": "acres x price per acre (assumption)"
-  },
-  {
-   "key": "sites",
-   "label": "RV site development",
-   "expr": "rv_sites * site_cost",
-   "class": "real_estate",
-   "basis": "sites x cost per site (assumption)"
-  },
-  {
-   "key": "cabins",
-   "label": "Cabins",
-   "expr": "cabins * cabin_cost",
-   "class": "real_estate",
-   "basis": "cabins x cost (assumption)"
-  },
-  {
-   "key": "amenity",
-   "label": "Office, store, bathhouse and laundry",
-   "expr": "amenity_building",
-   "class": "real_estate",
-   "basis": "assumption [^3]"
-  },
-  {
-   "key": "contingency",
-   "label": "Hard-cost contingency",
-   "expr": "(rv_sites * site_cost + cabins * cabin_cost + amenity_building) * contingency_pct",
-   "class": "real_estate",
-   "basis": "share of hard cost"
-  },
-  {
-   "key": "soft",
-   "label": "Soft costs, permits and construction interest",
-   "expr": "(rv_sites * site_cost + cabins * cabin_cost + amenity_building) * soft_pct",
-   "class": "other",
-   "basis": "share of hard cost"
-  },
-  {
-   "key": "ffe",
-   "label": "Furnishings, fixtures and equipment",
-   "expr": "ffe",
-   "class": "equipment",
-   "basis": "assumption"
-  },
-  {
-   "key": "wc",
-   "label": "Pre-opening and working capital",
-   "expr": "working_capital",
-   "class": "working_capital",
-   "basis": "assumption"
-  }
- ],
- "revenue": [
-  {
-   "key": "monthly",
-   "label": "Monthly site rent",
-   "expr": "monthly_sites * 12 * monthly_rate * monthly_occ",
-   "basis": "sites x 12 x rent x occupancy"
-  },
-  {
-   "key": "transient",
-   "label": "Nightly and weekly site rent",
-   "expr": "(rv_sites - monthly_sites) * 365 * nightly_rate * transient_occ",
-   "basis": "sites x 365 x rate x occupancy"
-  },
-  {
-   "key": "cabins",
-   "label": "Cabin rent",
-   "expr": "cabins * 365 * cabin_adr * cabin_occ",
-   "basis": "cabins x 365 x ADR x occupancy"
-  },
-  {
-   "key": "other",
-   "label": "Store, laundry, propane and storage",
-   "expr": "(rev_monthly + rev_transient + rev_cabins) * other_pct",
-   "basis": "share of rent"
-  }
- ],
- "cost_of_sales": [],
- "opex": [
-  {
-   "key": "payroll",
-   "label": "Payroll and benefits",
-   "expr": "payroll * 1.03 ** y",
-   "basis": "fixed, +3% a year [^59]"
-  },
-  {
-   "key": "utilities",
-   "label": "Utilities paid by the park",
-   "expr": "rev_total * utilities_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "rm",
-   "label": "Repairs, maintenance and supplies",
-   "expr": "rev_total * rm_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "marketing",
-   "label": "Marketing and booking fees",
-   "expr": "rev_total * marketing_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "ga",
-   "label": "Administration and professional fees",
-   "expr": "rev_total * ga_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "mgmt",
-   "label": "Management fee",
-   "expr": "rev_total * mgmt_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "insurance",
-   "label": "Insurance",
-   "expr": "insurance * 1.04 ** y",
-   "basis": "fixed, +4% a year"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(land_acres * land_per_acre + (rv_sites * site_cost + cabins * cabin_cost + amenity_building) * (1 + contingency_pct)) * (tax_county + tax_isd + tax_esd) * 1.02 ** y",
-   "basis": "100% of market value [^14] x rates [^10,11,12]"
-  },
-  {
-   "key": "usda_fee",
-   "label": "USDA annual retention fee (passed through)",
-   "expr": "tpc * (1 - bi_equity_min_pct) * bi_guarantee_pct * bi_annual_fee * (1 - 0.03 * y)",
-   "basis": "0.55% of the guaranteed balance [^48]"
-  },
-  {
-   "key": "reserve",
-   "label": "Replacement reserve",
-   "expr": "rv_sites * reserve_per_pad * 1.03 ** y",
-   "basis": "per pad [^62]"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.2,
-  "note": "the sponsor proposes a 25-year USDA-guaranteed loan for the balance"
- },
- "breakeven": {
-  "input": "transient_occ",
-  "label": "transient site occupancy"
- },
- "sensitivity": {
-  "rows": {
-   "input": "transient_occ",
-   "label": "Transient occupancy",
-   "steps": [
-    -0.2,
-    -0.1,
-    0,
-    0.1,
-    0.2
-   ]
-  },
-  "cols": {
-   "input": "monthly_rate",
-   "label": "Monthly rent",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.075,
-    0.15
-   ]
-  }
- },
- "glance": [
-  [
-   "Town, county and corridor",
-   "Unincorporated Bastrop County, Texas, about 3.5 miles outside Bastrop, in the SH 71 and SH 21 trade area [^1]"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 12 acres",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x price per acre (assumption)"
+    },
+    {
+      "key": "sites",
+      "label": "RV site development",
+      "expr": "rv_sites * site_cost",
+      "class": "real_estate",
+      "basis": "sites x cost per site (assumption)"
+    },
+    {
+      "key": "cabins",
+      "label": "Cabins",
+      "expr": "cabins * cabin_cost",
+      "class": "real_estate",
+      "basis": "cabins x cost (assumption)"
+    },
+    {
+      "key": "amenity",
+      "label": "Office, store, bathhouse and laundry",
+      "expr": "amenity_building",
+      "class": "real_estate",
+      "basis": "assumption [^3]"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(rv_sites * site_cost + cabins * cabin_cost + amenity_building) * contingency_pct",
+      "class": "real_estate",
+      "basis": "share of hard cost"
+    },
+    {
+      "key": "soft",
+      "label": "Soft costs, permits and construction interest",
+      "expr": "(rv_sites * site_cost + cabins * cabin_cost + amenity_building) * soft_pct",
+      "class": "other",
+      "basis": "share of hard cost"
+    },
+    {
+      "key": "ffe",
+      "label": "Furnishings, fixtures and equipment",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "assumption"
+    },
+    {
+      "key": "wc",
+      "label": "Pre-opening and working capital",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "assumption"
+    }
   ],
-  [
-   "Subject",
-   "A new park with {in_rv_sites} full-hookup RV sites and {in_cabins} cabins on about {in_land_acres} acres (hypothetical)"
+  "revenue": [
+    {
+      "key": "monthly",
+      "label": "Monthly site rent",
+      "expr": "monthly_sites * 12 * monthly_rate * monthly_occ",
+      "basis": "sites x 12 x rent x occupancy"
+    },
+    {
+      "key": "transient",
+      "label": "Nightly and weekly site rent",
+      "expr": "(rv_sites - monthly_sites) * 365 * nightly_rate * transient_occ",
+      "basis": "sites x 365 x rate x occupancy"
+    },
+    {
+      "key": "cabins",
+      "label": "Cabin rent",
+      "expr": "cabins * 365 * cabin_adr * cabin_occ",
+      "basis": "cabins x 365 x ADR x occupancy"
+    },
+    {
+      "key": "other",
+      "label": "Store, laundry, propane and storage",
+      "expr": "(rev_monthly + rev_transient + rev_cabins) * other_pct",
+      "basis": "share of rent"
+    }
   ],
-  [
-   "Program",
-   "USDA Business and Industry guaranteed loan, 85% guarantee under $5 million [^48]"
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Payroll and benefits",
+      "expr": "payroll * (1 + growth_payroll) ** y",
+      "basis": "fixed, [^58]"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities paid by the park",
+      "expr": "rev_total * utilities_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "rm",
+      "label": "Repairs, maintenance and supplies",
+      "expr": "rev_total * rm_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing and booking fees",
+      "expr": "rev_total * marketing_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "ga",
+      "label": "Administration and professional fees",
+      "expr": "rev_total * ga_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "mgmt",
+      "label": "Management fee",
+      "expr": "rev_total * mgmt_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + growth_insurance) ** y",
+      "basis": "fixed,"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + (rv_sites * site_cost + cabins * cabin_cost + amenity_building) * (1 + contingency_pct)) * (tax_county + tax_isd + tax_esd) * (1 + growth_tax) ** y",
+      "basis": "100% of market value [^14] x rates [^10,11,12]"
+    },
+    {
+      "key": "usda_fee",
+      "label": "USDA annual retention fee (passed through)",
+      "expr": "tpc * (1 - bi_equity_min_pct) * bi_guarantee_pct * bi_annual_fee * (1 - usda_fee_paydown * y)",
+      "basis": "0.55% of the guaranteed balance [^47]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "rv_sites * reserve_per_pad * (1 + growth_reserve) ** y",
+      "basis": "per pad [^61]"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc} ({tpc_per_unit} per RV site or cabin)"
-  ],
-  [
-   "Loan structure",
-   "One USDA-guaranteed bank loan of {loan_total} at {rate}, 25-year amortization, as restructured"
-  ],
-  [
-   "Equity",
-   "{equity_proposed_pct} proposed; {equity_pct} as restructured ({equity})"
-  ],
-  [
-   "DSCR in the test year (Year 3)",
-   "{dscr_y3_proposed} as proposed; {dscr_y3} as restructured, against a {floor} floor"
-  ],
-  [
-   "Break-even",
-   "Debt service is covered down to {breakeven_value} transient occupancy in Year 3; the floor is met down to {breakeven_floor_value}"
-  ],
-  [
-   "Market conclusion",
-   "Long-stay workforce demand is deep and leisure demand is seasonal; an approved 200-stand competitor and the USDA residential-park exclusion cap how much monthly rent the plan can lean on [^7,51]"
-  ],
-  [
-   "Determination",
-   "As proposed: fails (equity and coverage). As restructured: {equity_pct} equity, {loan_total} of debt, {dscr_y3} in Year 3"
+  "proposed": {
+    "equity_pct": 0.2,
+    "note": "the sponsor proposes a 25-year USDA-guaranteed loan for the balance"
+  },
+  "breakeven": {
+    "input": "transient_occ",
+    "label": "transient site occupancy"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "transient_occ",
+      "label": "Transient occupancy",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "monthly_rate",
+      "label": "Monthly rent",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Unincorporated Bastrop County, Texas, about 3.5 miles outside Bastrop, in the SH 71 and SH 21 trade area [^1]"
+    ],
+    [
+      "Subject",
+      "A new park with {in_rv_sites} full-hookup RV sites and {in_cabins} cabins on about {in_land_acres} acres (hypothetical)"
+    ],
+    [
+      "Program",
+      "USDA Business and Industry guaranteed loan, 85% guarantee under $5 million [^47]"
+    ],
+    [
+      "Total project cost",
+      "{tpc} ({tpc_per_unit} per RV site or cabin)"
+    ],
+    [
+      "Loan structure",
+      "One USDA-guaranteed bank loan of {loan_total} at {rate}, 25-year amortization, as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} as restructured ({equity})"
+    ],
+    [
+      "DSCR in the test year (Year 3)",
+      "{dscr_y3_proposed} as proposed; {dscr_y3} as restructured, against a {floor} floor"
+    ],
+    [
+      "Break-even",
+      "Debt service is covered down to {breakeven_value} transient occupancy in Year 3; the floor is met down to {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "Long-stay workforce demand is deep and leisure demand is seasonal; an approved 200-stand competitor and the USDA residential-park exclusion cap how much monthly rent the plan can lean on [^7,50]"
+    ],
+    [
+      "Determination",
+      "As proposed: fails (equity and coverage). As restructured: {equity_pct} equity, {loan_total} of debt, {dscr_y3} in Year 3"
+    ]
   ]
- ]
 }

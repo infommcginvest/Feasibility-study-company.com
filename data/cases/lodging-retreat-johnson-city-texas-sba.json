@@ -1,460 +1,484 @@
 {
- "slug": "lodging-retreat-johnson-city-texas-sba",
- "page": "/case-studies/lodging-retreat-johnson-city-texas-sba/",
- "program": "sba_7a",
- "sba": {
-  "purpose": "startup",
-  "business_age": "new",
-  "special_purpose": true,
-  "manufacturer": false,
-  "rural_fee_waiver": false
- },
- "rule_sources": {
-  "sop": 44,
-  "fees": 45,
-  "prime": 46
- },
- "stabilized_year": 3,
- "dscr_test_year": 2,
- "units": {
-  "label": "cabin",
-  "count": 14
- },
- "inputs": {
-  "cabins": {
-   "value": 14,
-   "fmt": "n",
-   "label": "Guest cabins",
-   "assumption": "Between Walden's 15 tents and the Presidio's 14 rooms [^28,30], small enough to fill midweek with one retreat group and weekends with couples."
+  "slug": "lodging-retreat-johnson-city-texas-sba",
+  "page": "/case-studies/lodging-retreat-johnson-city-texas-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
   },
-  "site_acres": {
-   "value": 10,
-   "fmt": "n",
-   "label": "Site area, acres",
-   "assumption": "Ten acres hold 14 cabins, a lodge, parking and the septic field on well and septic service, with room to keep cabins apart."
+  "rule_sources": {
+    "sop": 43,
+    "fees": 44,
+    "prime": 45
   },
-  "tract_ask": {
-   "value": 3995000,
-   "fmt": "$",
-   "label": "Asking price of the 40-acre US 290 tract used as the land benchmark",
-   "source": [
-    7
-   ]
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "cabin",
+    "count": 14
   },
-  "tract_acres": {
-   "value": 40,
-   "fmt": "n",
-   "label": "Acres in the benchmark tract",
-   "source": [
-    7
-   ]
+  "inputs": {
+    "cabins": {
+      "value": 14,
+      "fmt": "n",
+      "label": "Guest cabins",
+      "assumption": "Between Walden's 15 tents and the Presidio's 14 rooms [^27,29], small enough to fill midweek with one retreat group and weekends with couples."
+    },
+    "site_acres": {
+      "value": 10,
+      "fmt": "n",
+      "label": "Site area, acres",
+      "assumption": "Ten acres hold 14 cabins, a lodge, parking and the septic field on well and septic service, with room to keep cabins apart."
+    },
+    "tract_ask": {
+      "value": 3995000,
+      "fmt": "$",
+      "label": "Asking price of the 40-acre US 290 tract used as the land benchmark",
+      "source": [
+        7
+      ]
+    },
+    "tract_acres": {
+      "value": 40,
+      "fmt": "n",
+      "label": "Acres in the benchmark tract",
+      "source": [
+        7
+      ]
+    },
+    "cabin_cost": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Cost per cabin, built and set",
+      "assumption": "No per-cabin cost is published for the Hill Country. Census put the 2025 South average for new single-family homes at $155.62 per sq ft before land [^40], and NAHB put the 2024 West South Central custom-home median at $138 [^41]. A small cabin carries a full bath, kitchenette, deck and hot tub in a fraction of a house's floor area, so we carry $120,000 per unit."
+    },
+    "lodge_cost": {
+      "value": 520000,
+      "fmt": "$",
+      "label": "Lodge with meeting hall, prep kitchen and restrooms",
+      "assumption": "Sized to seat about 100 for a banquet, the capacity Walden markets [^28]. No published benchmark."
+    },
+    "site_work": {
+      "value": 480000,
+      "fmt": "$",
+      "label": "Well, septic, electric extension, roads and parking",
+      "assumption": "Water and sewer service for the tract were NOT FOUND; the listing the research identified mentions groundwater, implying a well and septic system (not cited, so that no real parcel is identified). Allowance pending a civil engineer's estimate."
+    },
+    "contingency_pct": {
+      "value": 0.1,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "source": [
+        42
+      ]
+    },
+    "soft_pct": {
+      "value": 0.08,
+      "fmt": "%",
+      "label": "Soft costs, share of hard cost",
+      "assumption": "Design, engineering, county and state permits, legal, appraisal and construction interest."
+    },
+    "ffe_per_cabin": {
+      "value": 15000,
+      "fmt": "$",
+      "label": "Furnishings per cabin",
+      "assumption": "Working allowance for furniture, linens, kitchenware and televisions."
+    },
+    "lodge_ffe": {
+      "value": 60000,
+      "fmt": "$",
+      "label": "Lodge furniture and event equipment",
+      "assumption": "Tables, chairs, audio-visual and kitchen equipment for retreat groups."
+    },
+    "working_capital": {
+      "value": 100000,
+      "fmt": "$",
+      "label": "Pre-opening and working capital",
+      "assumption": "Marketing, payroll and utilities before bookings reach the Year 1 level."
+    },
+    "adr": {
+      "value": [
+        265,
+        274,
+        283,
+        292,
+        300
+      ],
+      "fmt": "$",
+      "label": "Cabin average daily rate",
+      "assumption": "No ADR is published for the trade area. Carter Creek's lowest nightly prices for the week of October 12, 2026 ran $120 on Wednesday to $293 on Saturday, plus a $28.25 resort fee [^20,21]; Walden showed $208 a night for October 15 to 16, 2026 and $329 and up in October 2026 [^25,26]. Glamping operators reported a 2025 ADR of $338 for cabins and tiny homes [^39]. We set $265 in Year 1, rising about 3% a year."
+    },
+    "occupancy": {
+      "value": [
+        0.45,
+        0.52,
+        0.56,
+        0.57,
+        0.57
+      ],
+      "fmt": "%",
+      "label": "Cabin occupancy",
+      "assumption": "AirDNA expects U.S. short-term rental occupancy of 57.4% in 2026 [^38]. Wine-trail demand is weekend-heavy (a Carter Creek review is titled \"Don't stay on weekdays!\" [^22]), so the ramp reaches 56% only as retreat groups fill midweek nights."
+    },
+    "events": {
+      "value": [
+        18,
+        26,
+        32,
+        34,
+        34
+      ],
+      "fmt": "n",
+      "label": "Retreats, weddings and group events per year",
+      "assumption": "No event count, festival attendance or hotel tax series exists in the record. One event about every 11 days at stabilization, against Carter Creek's large event plant and Walden's 100-seat banquet room [^19,28]."
+    },
+    "event_fee": {
+      "value": [
+        6000,
+        6180,
+        6365,
+        6556,
+        6753
+      ],
+      "fmt": "$",
+      "label": "Venue and package fee per event",
+      "assumption": "Venue rental, coordination and catering margin per event; no local benchmark. Rises 3% a year."
+    },
+    "other_pct": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Pet fees, rentals and retail, share of cabin revenue",
+      "assumption": "Carter Creek charges a pet fee of $84.75 a stay [^21]; small ancillary income."
+    },
+    "payroll": {
+      "value": 240000,
+      "fmt": "$",
+      "label": "Payroll and benefits (Year 1)",
+      "assumption": "A working general manager, housekeepers, a maintenance hand and an event coordinator. No local wage data is in the record. Fixed, rising 3% a year."
+    },
+    "housekeeping_per_night": {
+      "value": 22,
+      "fmt": "$",
+      "label": "Laundry and guest supplies per occupied night",
+      "assumption": "Linen service, amenities and consumables per occupied cabin night; housekeeping labor sits in payroll. No published benchmark."
+    },
+    "commission_pct": {
+      "value": 0.1,
+      "fmt": "%",
+      "label": "Booking commissions and marketing, share of cabin revenue",
+      "assumption": "Online travel agency and platform commissions on part of the bookings, plus paid listings."
+    },
+    "event_cost_pct": {
+      "value": 0.3,
+      "fmt": "%",
+      "label": "Direct event costs, share of event revenue",
+      "assumption": "Rentals, extra staff and catering cost passed through on events."
+    },
+    "util_rm_pct": {
+      "value": 0.08,
+      "fmt": "%",
+      "label": "Utilities, repairs and grounds, share of revenue",
+      "assumption": "Electric, propane, well and septic service, hot tub service and grounds."
+    },
+    "ga_pct": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Administration, software and professional fees, share of revenue",
+      "assumption": "Reservation software, accounting, legal and HOT filing."
+    },
+    "reserve_pct": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Replacement reserve, share of revenue",
+      "assumption": "Hot tubs, decks, furnishings and roofs wear quickly on small cabins."
+    },
+    "insurance": {
+      "value": 36000,
+      "fmt": "$",
+      "label": "Insurance (Year 1)",
+      "assumption": "Site wind, flood and wildfire insurance conditions were NOT FOUND. The Pedernales reached its highest level since 1979 in July 2026 [^36], so the lender must replace this with a bound quote."
+    },
+    "tax_county": {
+      "value": 0.00375232,
+      "fmt": "%2",
+      "label": "Blanco County tax rate, 2025 (per $1 of value)",
+      "source": [
+        9
+      ]
+    },
+    "tax_isd": {
+      "value": 0.008608,
+      "fmt": "%2",
+      "label": "Johnson City ISD tax rate, 2025",
+      "source": [
+        9
+      ]
+    },
+    "tax_esd": {
+      "value": 0.001,
+      "fmt": "%2",
+      "label": "North Blanco ESD tax rate, 2025",
+      "source": [
+        9
+      ]
+    },
+    "tax_gcd": {
+      "value": 0.00016176,
+      "fmt": "%2",
+      "label": "Blanco-Pedernales groundwater district levy, 2025",
+      "source": [
+        9
+      ]
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share, loans of $350,001 to $5 million",
+      "source": [
+        46
+      ]
+    },
+    "rate_7a": {
+      "value": 0.095,
+      "fmt": "%2",
+      "label": "7(a) interest rate",
+      "assumption": "Prime was 7.00% on October 9, 2026 [^45]. SBA caps the spread over Prime by loan size [^43]; 2025 7(a) loans to bed-and-breakfasts averaged 9.49% [^47]. We carry Prime plus 2.5 points. The lender sets the rate at pricing"
+    },
+    "growth_payroll": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Payroll growth per year",
+      "assumption": "Payroll grows 3% a year, a labelled allowance for wage growth; the research gives no local wage trend for this use, so the lender should test it against the operator's staffing plan."
+    },
+    "growth_housekeeping": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Housekeeping cost growth per year",
+      "assumption": "Housekeeping cost per occupied night grows 3% a year, a labelled allowance in line with the payroll assumption."
+    },
+    "growth_insurance": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Insurance growth per year",
+      "assumption": "Insurance grows 5% a year, a labelled allowance; no quoted premium for the subject exists, so a bound quote replaces it before closing."
+    },
+    "growth_tax": {
+      "value": 0.02,
+      "fmt": "%",
+      "label": "Taxable value growth per year",
+      "assumption": "Taxable value grows 2% a year, a labelled allowance; Texas appraisal districts reappraise, and the study does not forecast the district's value."
+    }
   },
-  "cabin_cost": {
-   "value": 120000,
-   "fmt": "$",
-   "label": "Cost per cabin, built and set",
-   "assumption": "No per-cabin cost is published for the Hill Country. Census put the 2025 South average for new single-family homes at $155.62 per sq ft before land [^41], and NAHB put the 2024 West South Central custom-home median at $138 [^42]. A small cabin carries a full bath, kitchenette, deck and hot tub in a fraction of a house's floor area, so we carry $120,000 per unit."
-  },
-  "lodge_cost": {
-   "value": 520000,
-   "fmt": "$",
-   "label": "Lodge with meeting hall, prep kitchen and restrooms",
-   "assumption": "Sized to seat about 100 for a banquet, the capacity Walden markets [^29]. No published benchmark."
-  },
-  "site_work": {
-   "value": 480000,
-   "fmt": "$",
-   "label": "Well, septic, electric extension, roads and parking",
-   "assumption": "Water and sewer service for the tract were NOT FOUND; the listing the research identified mentions groundwater, implying a well and septic system (not cited, so that no real parcel is identified). Allowance pending a civil engineer's estimate."
-  },
-  "contingency_pct": {
-   "value": 0.1,
-   "fmt": "%",
-   "label": "Hard-cost contingency",
-   "source": [
-    43
-   ]
-  },
-  "soft_pct": {
-   "value": 0.08,
-   "fmt": "%",
-   "label": "Soft costs, share of hard cost",
-   "assumption": "Design, engineering, county and state permits, legal, appraisal and construction interest."
-  },
-  "ffe_per_cabin": {
-   "value": 15000,
-   "fmt": "$",
-   "label": "Furnishings per cabin",
-   "assumption": "Working allowance for furniture, linens, kitchenware and televisions."
-  },
-  "lodge_ffe": {
-   "value": 60000,
-   "fmt": "$",
-   "label": "Lodge furniture and event equipment",
-   "assumption": "Tables, chairs, audio-visual and kitchen equipment for retreat groups."
-  },
-  "working_capital": {
-   "value": 100000,
-   "fmt": "$",
-   "label": "Pre-opening and working capital",
-   "assumption": "Marketing, payroll and utilities before bookings reach the Year 1 level."
-  },
-  "adr": {
-   "value": [
-    265,
-    274,
-    283,
-    292,
-    300
-   ],
-   "fmt": "$",
-   "label": "Cabin average daily rate",
-   "assumption": "No ADR is published for the trade area. Carter Creek's lowest nightly prices for the week of October 12, 2026 ran $120 on Wednesday to $293 on Saturday, plus a $28.25 resort fee [^21,22]; Walden showed $208 a night for October 15 to 16, 2026 and $329 and up in October 2026 [^26,27]. Glamping operators reported a 2025 ADR of $338 for cabins and tiny homes [^40]. We set $265 in Year 1, rising about 3% a year."
-  },
-  "occupancy": {
-   "value": [
-    0.45,
-    0.52,
-    0.56,
-    0.57,
-    0.57
-   ],
-   "fmt": "%",
-   "label": "Cabin occupancy",
-   "assumption": "AirDNA expects U.S. short-term rental occupancy of 57.4% in 2026 [^39]. Wine-trail demand is weekend-heavy (a Carter Creek review is titled \"Don't stay on weekdays!\" [^23]), so the ramp reaches 56% only as retreat groups fill midweek nights."
-  },
-  "events": {
-   "value": [
-    18,
-    26,
-    32,
-    34,
-    34
-   ],
-   "fmt": "n",
-   "label": "Retreats, weddings and group events per year",
-   "assumption": "No event count, festival attendance or hotel tax series exists in the record. One event about every 11 days at stabilization, against Carter Creek's large event plant and Walden's 100-seat banquet room [^20,29]."
-  },
-  "event_fee": {
-   "value": [
-    6000,
-    6180,
-    6365,
-    6556,
-    6753
-   ],
-   "fmt": "$",
-   "label": "Venue and package fee per event",
-   "assumption": "Venue rental, coordination and catering margin per event; no local benchmark. Rises 3% a year."
-  },
-  "other_pct": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Pet fees, rentals and retail, share of cabin revenue",
-   "assumption": "Carter Creek charges a pet fee of $84.75 a stay [^22]; small ancillary income."
-  },
-  "payroll": {
-   "value": 240000,
-   "fmt": "$",
-   "label": "Payroll and benefits (Year 1)",
-   "assumption": "A working general manager, housekeepers, a maintenance hand and an event coordinator. No local wage data is in the record. Fixed, rising 3% a year."
-  },
-  "housekeeping_per_night": {
-   "value": 22,
-   "fmt": "$",
-   "label": "Laundry and guest supplies per occupied night",
-   "assumption": "Linen service, amenities and consumables per occupied cabin night; housekeeping labor sits in payroll. No published benchmark."
-  },
-  "commission_pct": {
-   "value": 0.1,
-   "fmt": "%",
-   "label": "Booking commissions and marketing, share of cabin revenue",
-   "assumption": "Online travel agency and platform commissions on part of the bookings, plus paid listings."
-  },
-  "event_cost_pct": {
-   "value": 0.3,
-   "fmt": "%",
-   "label": "Direct event costs, share of event revenue",
-   "assumption": "Rentals, extra staff and catering cost passed through on events."
-  },
-  "util_rm_pct": {
-   "value": 0.08,
-   "fmt": "%",
-   "label": "Utilities, repairs and grounds, share of revenue",
-   "assumption": "Electric, propane, well and septic service, hot tub service and grounds."
-  },
-  "ga_pct": {
-   "value": 0.04,
-   "fmt": "%",
-   "label": "Administration, software and professional fees, share of revenue",
-   "assumption": "Reservation software, accounting, legal and HOT filing."
-  },
-  "reserve_pct": {
-   "value": 0.04,
-   "fmt": "%",
-   "label": "Replacement reserve, share of revenue",
-   "assumption": "Hot tubs, decks, furnishings and roofs wear quickly on small cabins."
-  },
-  "insurance": {
-   "value": 36000,
-   "fmt": "$",
-   "label": "Insurance (Year 1)",
-   "assumption": "Site wind, flood and wildfire insurance conditions were NOT FOUND. The Pedernales reached its highest level since 1979 in July 2026 [^37], so the lender must replace this with a bound quote."
-  },
-  "tax_county": {
-   "value": 0.00375232,
-   "fmt": "%2",
-   "label": "Blanco County tax rate, 2025 (per $1 of value)",
-   "source": [
-    9
-   ]
-  },
-  "tax_isd": {
-   "value": 0.008608,
-   "fmt": "%2",
-   "label": "Johnson City ISD tax rate, 2025",
-   "source": [
-    9
-   ]
-  },
-  "tax_esd": {
-   "value": 0.001,
-   "fmt": "%2",
-   "label": "North Blanco ESD tax rate, 2025",
-   "source": [
-    9
-   ]
-  },
-  "tax_gcd": {
-   "value": 0.00016176,
-   "fmt": "%2",
-   "label": "Blanco-Pedernales groundwater district levy, 2025",
-   "source": [
-    9
-   ]
-  },
-  "sba_guaranty_pct": {
-   "value": 0.75,
-   "fmt": "%",
-   "label": "SBA guaranty share, loans of $350,001 to $5 million",
-   "source": [
-    47
-   ]
-  },
-  "rate_7a": {
-   "value": 0.095,
-   "fmt": "%2",
-   "label": "7(a) interest rate",
-   "assumption": "Prime was 7.00% on October 9, 2026 [^46]. SBA caps the spread over Prime by loan size [^44]; 2025 7(a) loans to bed-and-breakfasts averaged 9.49% [^48]. We carry Prime plus 2.5 points. The lender sets the rate at pricing"
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land, 10 acres with US 290 frontage",
-   "expr": "site_acres * tract_ask / tract_acres",
-   "class": "real_estate",
-   "basis": "acres x asking price per acre [^7]"
-  },
-  {
-   "key": "cabins",
-   "label": "Guest cabins",
-   "expr": "cabins * cabin_cost",
-   "class": "real_estate",
-   "basis": "cabins x cost per cabin (assumption)"
-  },
-  {
-   "key": "lodge",
-   "label": "Lodge and meeting hall",
-   "expr": "lodge_cost",
-   "class": "real_estate",
-   "basis": "assumption"
-  },
-  {
-   "key": "site",
-   "label": "Well, septic, electric, roads and parking",
-   "expr": "site_work",
-   "class": "real_estate",
-   "basis": "assumption"
-  },
-  {
-   "key": "contingency",
-   "label": "Hard-cost contingency",
-   "expr": "(cabins * cabin_cost + lodge_cost + site_work) * contingency_pct",
-   "class": "real_estate",
-   "basis": "10% of hard cost [^43]"
-  },
-  {
-   "key": "soft",
-   "label": "Soft costs and construction interest",
-   "expr": "(cabins * cabin_cost + lodge_cost + site_work) * soft_pct",
-   "class": "other",
-   "basis": "share of hard cost"
-  },
-  {
-   "key": "ffe",
-   "label": "Furniture, fixtures and equipment",
-   "expr": "cabins * ffe_per_cabin + lodge_ffe",
-   "class": "equipment",
-   "basis": "assumption"
-  },
-  {
-   "key": "wc",
-   "label": "Pre-opening and working capital",
-   "expr": "working_capital",
-   "class": "working_capital",
-   "basis": "assumption"
-  }
- ],
- "revenue": [
-  {
-   "key": "cabins",
-   "label": "Cabin revenue",
-   "expr": "cabins * 365 * occupancy * adr",
-   "basis": "cabins x 365 x occupancy x ADR"
-  },
-  {
-   "key": "events",
-   "label": "Retreat, wedding and event fees",
-   "expr": "events * event_fee",
-   "basis": "events x fee per event"
-  },
-  {
-   "key": "other",
-   "label": "Pet fees, rentals and retail",
-   "expr": "rev_cabins * other_pct",
-   "basis": "share of cabin revenue"
-  }
- ],
- "cost_of_sales": [],
- "opex": [
-  {
-   "key": "payroll",
-   "label": "Payroll and benefits",
-   "expr": "payroll * 1.03 ** y",
-   "basis": "fixed, +3% a year"
-  },
-  {
-   "key": "housekeeping",
-   "label": "Laundry and guest supplies",
-   "expr": "cabins * 365 * occupancy * housekeeping_per_night * 1.03 ** y",
-   "basis": "per occupied night"
-  },
-  {
-   "key": "commissions",
-   "label": "Booking commissions and marketing",
-   "expr": "rev_cabins * commission_pct",
-   "basis": "share of cabin revenue"
-  },
-  {
-   "key": "events",
-   "label": "Direct event costs",
-   "expr": "rev_events * event_cost_pct",
-   "basis": "share of event revenue"
-  },
-  {
-   "key": "util",
-   "label": "Utilities, repairs and grounds",
-   "expr": "rev_total * util_rm_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "ga",
-   "label": "Administration and professional fees",
-   "expr": "rev_total * ga_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "insurance",
-   "label": "Insurance",
-   "expr": "insurance * 1.05 ** y",
-   "basis": "fixed, +5% a year"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(site_acres * tract_ask / tract_acres + (cabins * cabin_cost + lodge_cost + site_work) * (1 + contingency_pct)) * (tax_county + tax_isd + tax_esd + tax_gcd) * 1.02 ** y",
-   "basis": "rates outside the city [^9]"
-  },
-  {
-   "key": "reserve",
-   "label": "Replacement reserve",
-   "expr": "rev_total * reserve_pct",
-   "basis": "share of revenue"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.1,
-  "note": "the sponsor proposes a single 25-year 7(a) loan at the start-up minimum"
- },
- "breakeven": {
-  "input": "occupancy",
-  "label": "cabin occupancy"
- },
- "sensitivity": {
-  "rows": {
-   "input": "occupancy",
-   "label": "Cabin occupancy",
-   "steps": [
-    -0.2,
-    -0.1,
-    0,
-    0.1,
-    0.2
-   ]
-  },
-  "cols": {
-   "input": "adr",
-   "label": "Cabin ADR",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.075,
-    0.15
-   ]
-  }
- },
- "glance": [
-  [
-   "Town, county and corridor",
-   "West of Johnson City, Blanco County, Texas, on the US 290 wine corridor near the US 281 junction [^9]"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, 10 acres with US 290 frontage",
+      "expr": "site_acres * tract_ask / tract_acres",
+      "class": "real_estate",
+      "basis": "acres x asking price per acre [^7]"
+    },
+    {
+      "key": "cabins",
+      "label": "Guest cabins",
+      "expr": "cabins * cabin_cost",
+      "class": "real_estate",
+      "basis": "cabins x cost per cabin (assumption)"
+    },
+    {
+      "key": "lodge",
+      "label": "Lodge and meeting hall",
+      "expr": "lodge_cost",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "site",
+      "label": "Well, septic, electric, roads and parking",
+      "expr": "site_work",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(cabins * cabin_cost + lodge_cost + site_work) * contingency_pct",
+      "class": "real_estate",
+      "basis": "10% of hard cost [^42]"
+    },
+    {
+      "key": "soft",
+      "label": "Soft costs and construction interest",
+      "expr": "(cabins * cabin_cost + lodge_cost + site_work) * soft_pct",
+      "class": "other",
+      "basis": "share of hard cost"
+    },
+    {
+      "key": "ffe",
+      "label": "Furniture, fixtures and equipment",
+      "expr": "cabins * ffe_per_cabin + lodge_ffe",
+      "class": "equipment",
+      "basis": "assumption"
+    },
+    {
+      "key": "wc",
+      "label": "Pre-opening and working capital",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "assumption"
+    }
   ],
-  [
-   "Subject",
-   "A new {in_cabins}-cabin Hill Country retreat with a lodge and meeting hall on {in_site_acres} acres (hypothetical)"
+  "revenue": [
+    {
+      "key": "cabins",
+      "label": "Cabin revenue",
+      "expr": "cabins * 365 * occupancy * adr",
+      "basis": "cabins x 365 x occupancy x ADR"
+    },
+    {
+      "key": "events",
+      "label": "Retreat, wedding and event fees",
+      "expr": "events * event_fee",
+      "basis": "events x fee per event"
+    },
+    {
+      "key": "other",
+      "label": "Pet fees, rentals and retail",
+      "expr": "rev_cabins * other_pct",
+      "basis": "share of cabin revenue"
+    }
   ],
-  [
-   "Program",
-   "SBA 7(a) start-up loan, real estate majority, 25-year term"
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Payroll and benefits",
+      "expr": "payroll * (1 + growth_payroll) ** y",
+      "basis": "fixed,"
+    },
+    {
+      "key": "housekeeping",
+      "label": "Laundry and guest supplies",
+      "expr": "cabins * 365 * occupancy * housekeeping_per_night * (1 + growth_housekeeping) ** y",
+      "basis": "per occupied night"
+    },
+    {
+      "key": "commissions",
+      "label": "Booking commissions and marketing",
+      "expr": "rev_cabins * commission_pct",
+      "basis": "share of cabin revenue"
+    },
+    {
+      "key": "events",
+      "label": "Direct event costs",
+      "expr": "rev_events * event_cost_pct",
+      "basis": "share of event revenue"
+    },
+    {
+      "key": "util",
+      "label": "Utilities, repairs and grounds",
+      "expr": "rev_total * util_rm_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "ga",
+      "label": "Administration and professional fees",
+      "expr": "rev_total * ga_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + growth_insurance) ** y",
+      "basis": "fixed"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(site_acres * tract_ask / tract_acres + (cabins * cabin_cost + lodge_cost + site_work) * (1 + contingency_pct)) * (tax_county + tax_isd + tax_esd + tax_gcd) * (1 + growth_tax) ** y",
+      "basis": "rates outside the city [^9]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "rev_total * reserve_pct",
+      "basis": "share of revenue"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc} ({tpc_per_unit} per cabin)"
-  ],
-  [
-   "Loan structure",
-   "One 7(a) loan of {loan_total} at {rate}, as restructured"
-  ],
-  [
-   "Equity",
-   "{equity_proposed_pct} proposed; {equity_pct} as restructured ({equity})"
-  ],
-  [
-   "DSCR in the test year (Year 2)",
-   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured, against a {floor} floor"
-  ],
-  [
-   "Break-even",
-   "Debt service is covered down to {breakeven_value} cabin occupancy in Year 3; the floor is met down to {breakeven_floor_value}"
-  ],
-  [
-   "Market conclusion",
-   "A small, weekend-led trade area of 160 organized keys across four operators with no new-build pipeline [^19,24,30,28], beside a wave of luxury openings in the next ring [^30]; demand supports a small retreat, not a start-up-minimum loan at 2026 rates and land prices"
-  ],
-  [
-   "Determination",
-   "As proposed: fails (coverage). As restructured: {equity_pct} equity, {loan_total} of debt, {dscr_y2} in Year 2"
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes a single 25-year 7(a) loan at the start-up minimum"
+  },
+  "breakeven": {
+    "input": "occupancy",
+    "label": "cabin occupancy"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "occupancy",
+      "label": "Cabin occupancy",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "adr",
+      "label": "Cabin ADR",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "West of Johnson City, Blanco County, Texas, on the US 290 wine corridor near the US 281 junction [^9]"
+    ],
+    [
+      "Subject",
+      "A new {in_cabins}-cabin Hill Country retreat with a lodge and meeting hall on {in_site_acres} acres (hypothetical)"
+    ],
+    [
+      "Program",
+      "SBA 7(a) start-up loan, real estate majority, 25-year term"
+    ],
+    [
+      "Total project cost",
+      "{tpc} ({tpc_per_unit} per cabin)"
+    ],
+    [
+      "Loan structure",
+      "One 7(a) loan of {loan_total} at {rate}, as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} as restructured ({equity})"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured, against a {floor} floor"
+    ],
+    [
+      "Break-even",
+      "Debt service is covered down to {breakeven_value} cabin occupancy in Year 3; the floor is met down to {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "A small, weekend-led trade area of 160 organized keys across four operators with no new-build pipeline [^18,23,29,27], beside a wave of luxury openings in the next ring [^29]; demand supports a small retreat, not a start-up-minimum loan at 2026 rates and land prices"
+    ],
+    [
+      "Determination",
+      "As proposed: fails (coverage). As restructured: {equity_pct} equity, {loan_total} of debt, {dscr_y2} in Year 2"
+    ]
   ]
- ]
 }

@@ -1,0 +1,33 @@
+# url	section	number	phrase that must still be in the block	why the number carries no citation
+/states/texas/houston/	economy	$50 million	no Houston project over $50 million	research search threshold stated as a gap, not a market figure
+/states/texas/austin/	economy	$50 million	no other project over $50 million	research search threshold stated as a gap, not a market figure
+/case-studies/gas-station-texas-sba/	at-a-glance	1.5	about 1.5 acres	attribute of the hypothetical subject site
+/case-studies/gas-station-texas-sba/	competitors	10%	a 10% or 20% volume shortfall	refers to the sensitivity matrix steps
+/case-studies/gas-station-texas-sba/	competitors	20%	a 10% or 20% volume shortfall	refers to the sensitivity matrix steps
+/case-studies/gas-station-texas-sba/	sensitivity	20%	up and down by up to 20%	describes the adjacent matrix's labelled steps
+/case-studies/gas-station-texas-sba/	sensitivity	40%	to 40% below it	describes the adjacent matrix's labelled steps
+/case-studies/gas-station-texas-sba/	sensitivity	10%	a 10% shortfall in gallons	reads a cell of the adjacent matrix
+/case-studies/gas-station-florida-sba/	sensitivity	20%	by up to 20% either way	describes the adjacent matrix's labelled steps
+/case-studies/gas-station-florida-sba/	sensitivity	10%	a 10% cut in both volume and margin	reads a cell of the adjacent matrix
+/case-studies/gas-station-alabama-sba/	sensitivity	40	stronger margin than 40 cents	reads the margin axis of the adjacent matrix
+/case-studies/gas-station-versailles-ohio-sba/	sensitivity	20%	by up to 20% in either direction	describes the adjacent matrix's labelled steps
+/case-studies/gas-station-versailles-ohio-sba/	sensitivity	10%	A 10% shortfall on either one	reads a cell of the adjacent matrix
+/case-studies/truck-stop-texas-sba/	pro-forma	1.00x	never reaches 1.00x	the cash break-even coverage, a definition not a market figure
+/case-studies/truck-stop-texas-sba/	lender-conditions	504	the 504 jobs or public policy standard	program name
+/case-studies/hotel-texas-sba/	sensitivity	7.5%	a 7.5% cut in occupancy	reads the axes of the adjacent matrix
+/case-studies/hotel-texas-sba/	sensitivity	5%	a 5% cut in rate	reads the axes of the adjacent matrix
+/case-studies/rv-park-texas-usda/	site	3.5	roughly 3.5 miles outside the city	attribute of the hypothetical subject site
+/case-studies/rv-park-texas-usda/	sensitivity	15%	A 15% cut in monthly rent	reads the axes of the adjacent matrix
+/case-studies/rv-park-texas-usda/	sensitivity	20%	a 20% fall in transient occupancy	reads the axes of the adjacent matrix
+/case-studies/car-wash-texas-sba/	sensitivity	20%	by up to 20% either way	describes the adjacent matrix's labelled steps
+/case-studies/car-wash-texas-sba/	sensitivity	15%	by up to 15%	describes the adjacent matrix's labelled steps
+/case-studies/rv-boat-storage-texas-sba/	site	2.7	2.7-acre corner parcel	attribute of the hypothetical subject site
+/case-studies/rv-boat-storage-texas-sba/	sensitivity	20%	by up to 20% each way	describes the adjacent matrix's labelled steps
+/case-studies/auto-dealership-texas-sba/	sensitivity	10%	a 10% rise in the ratio	reads the axes of the adjacent matrix
+/case-studies/auto-dealership-texas-sba/	sensitivity	1.00x	below 1.00x	the cash break-even coverage, a definition not a market figure
+/case-studies/assisted-living-texas-hud/	sensitivity	1.00x	falls below 1.00x	the cash break-even coverage, a definition not a market figure
+/case-studies/meat-processing-texas-usda/	sensitivity	10%	A 10% shortfall in utilization	reads the axes of the adjacent matrix
+/case-studies/meat-processing-texas-usda/	sensitivity	7.5%	a 7.5% lower fee	reads the axes of the adjacent matrix
+/case-studies/travel-center-hankamer-texas-usda/	pro-forma	1.00x	Coverage below 1.00x	the cash break-even coverage, a definition not a market figure
+/case-studies/travel-center-hankamer-texas-usda/	sensitivity	20%	by up to 20% each way	describes the adjacent matrix's labelled steps
+/case-studies/travel-center-hankamer-texas-usda/	sensitivity	10%	a 10% shortfall on either axis	reads the axes of the adjacent matrix
