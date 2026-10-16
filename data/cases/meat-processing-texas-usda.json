@@ -1,0 +1,547 @@
+{
+ "slug": "meat-processing-texas-usda",
+ "page": "/case-studies/meat-processing-texas-usda/",
+ "program": "usda_bi",
+ "rule_sources": {
+  "program": 44
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 3,
+ "units": {
+  "label": "plant sq ft",
+  "count": 20000
+ },
+ "inputs": {
+  "site_acres": {
+   "value": 6.0,
+   "fmt": "n1",
+   "label": "Site, acres",
+   "assumption": "Industrial lots in the park are listed from 2.02 to 17.95 acres [^5]; six acres leaves room for livestock pens, truck circulation, wastewater pretreatment and a later expansion."
+  },
+  "land_per_acre": {
+   "value": 125000,
+   "fmt": "$",
+   "label": "Land price per acre",
+   "source": [
+    8
+   ]
+  },
+  "bldg_sf": {
+   "value": 20000,
+   "fmt": "n",
+   "label": "Plant, sq ft (harvest floor, coolers, fabrication, further processing, inspector office)",
+   "assumption": "Between the small plants in state guidance and the 29,971 sq ft plant registered in Conroe in 2023 [^31]; sized for about 30 head a day of beef plus a sausage and smoked-meat room."
+  },
+  "bldg_psf": {
+   "value": 253.5785,
+   "fmt": "$2",
+   "label": "Building cost per sq ft, 2023 to 2024 Texas meat plant registration",
+   "source": [
+    31
+   ]
+  },
+  "escalation": {
+   "value": 0.1,
+   "fmt": "%",
+   "label": "Escalation from the 2023 estimate to a 2027 build",
+   "assumption": "The research has no construction cost index for the site. Construction input costs rose 8.9% in the year to August 2026 alone [^68]; 10% is an allowance pending a contractor's bid."
+  },
+  "equipment": {
+   "value": 2600000,
+   "fmt": "$",
+   "label": "Process equipment (knock box, rail, carcass coolers, fabrication, grinders, smokehouses, packaging)",
+   "assumption": "The research has no itemized equipment cost; Maine's guidance, on 2016 data, put equipment at about $50 per sq ft on top of about $350 per sq ft of building [^56]. Coolers and smokehouses push a beef and sausage plant above that ratio. Vendor quotes and the B&I technical report replace this figure."
+  },
+  "wastewater": {
+   "value": 800000,
+   "fmt": "$",
+   "label": "Wastewater pretreatment",
+   "assumption": "Wastewater capacity for slaughter at the park is NOT FOUND, and meat plant effluent is strong enough to need pretreatment before a city sewer; a placeholder until the city's industrial pretreatment requirements and an engineer's design are in."
+  },
+  "sitework": {
+   "value": 900000,
+   "fmt": "$",
+   "label": "Site work, pens, truck court, paving and utility extensions",
+   "assumption": "No site-work cost is in the research; a placeholder for a six-acre industrial pad with livestock receiving."
+  },
+  "soft_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Design, engineering, permits and inspection set-up, share of building and equipment",
+   "assumption": "No soft-cost share for meat plants is in the research."
+  },
+  "contingency_pct": {
+   "value": 0.07,
+   "fmt": "%",
+   "label": "Contingency, share of building, equipment, wastewater and site work",
+   "assumption": "Higher than a standard building contingency because process equipment and wastewater design are not yet specified."
+  },
+  "build_months": {
+   "value": 8,
+   "fmt": "n",
+   "label": "Construction period, months",
+   "source": [
+    31
+   ]
+  },
+  "draw_factor": {
+   "value": 0.5,
+   "fmt": "%",
+   "label": "Average share of construction cost outstanding during the build",
+   "assumption": "Draws rise from zero to the full budget, so about half is outstanding on average."
+  },
+  "working_cap": {
+   "value": 700000,
+   "fmt": "$",
+   "label": "Pre-opening costs and start-up working capital",
+   "assumption": "Hiring, training, the FSIS grant-of-inspection process and receivables before steady volume; no figure in the research."
+  },
+  "head_day": {
+   "value": 30,
+   "fmt": "n",
+   "label": "Beef harvest capacity, head per day",
+   "assumption": "A small plant under FSIS's HACCP size classes (10 to 499 employees) [^61]; no capacity benchmark for a small Texas plant is in the research."
+  },
+  "days": {
+   "value": 245,
+   "fmt": "n",
+   "label": "Harvest days per year",
+   "assumption": "Five days a week less holidays and maintenance shutdowns; operating days are NOT FOUND in the research."
+  },
+  "util": {
+   "value": [
+    0.35,
+    0.55,
+    0.7,
+    0.75,
+    0.78
+   ],
+   "fmt": "%",
+   "label": "Harvest utilization",
+   "assumption": "No ramp benchmark for a small plant is in the research; the only ramp figure is a large Missouri plant that started at 800 head a day toward a 2,400 head-a-day capacity [^55]. Utilization stays below 80% to leave room for seasonal swings."
+  },
+  "fee_head": {
+   "value": 1000,
+   "fmt": "$",
+   "label": "Harvest, fabrication and packaging fee per head, Year 1",
+   "assumption": "No competitor posts a processing price sheet, and the research has no kill or cut-and-wrap fee [^16]. The fee is an assumption to be replaced by a phone survey and signed customer commitments."
+  },
+  "fee_growth": {
+   "value": 0.025,
+   "fmt": "%",
+   "label": "Annual fee increase",
+   "assumption": "Modest increases; no fee history is in the research."
+  },
+  "fp_lbs": {
+   "value": [
+    250000,
+    420000,
+    550000,
+    600000,
+    640000
+   ],
+   "fmt": "n",
+   "label": "Further-processed product (sausage, smoked meats), pounds a year",
+   "assumption": "Co-packing for the Elgin sausage trade and direct-market producers; Meyer's and Southside both sell wholesale [^18,21]. No volume benchmark is in the research."
+  },
+  "fp_fee": {
+   "value": 1.4,
+   "fmt": "$2",
+   "label": "Further-processing fee per pound",
+   "assumption": "Co-packing is priced per pound or per batch, but no rate is in the research; to be replaced by quotes."
+  },
+  "supplies_pct": {
+   "value": 0.09,
+   "fmt": "%",
+   "label": "Packaging, casings, spices and supplies, share of revenue",
+   "assumption": "No cost-of-goods share for small plants is in the research."
+  },
+  "offal_head": {
+   "value": 35,
+   "fmt": "$",
+   "label": "Offal, hide and inedible disposal per head",
+   "assumption": "Rendering and offal disposal costs are NOT FOUND in the research; a placeholder per head."
+  },
+  "employees": {
+   "value": [
+    30,
+    35,
+    38,
+    40,
+    41
+   ],
+   "fmt": "n",
+   "label": "Employees (harvest, fabrication, processing, sanitation, office)",
+   "assumption": "Staffing grows with utilization; a small plant under FSIS's HACCP classes has 10 to 499 employees [^61]."
+  },
+  "payroll_3116": {
+   "value": 28400000000,
+   "fmt": "$",
+   "label": "Animal slaughtering and processing payroll, U.S. (NAICS 3116)",
+   "source": [
+    57
+   ]
+  },
+  "emp_3116": {
+   "value": 556205,
+   "fmt": "n",
+   "label": "Animal slaughtering and processing employment, U.S. (NAICS 3116)",
+   "source": [
+    57
+   ]
+  },
+  "wage_growth": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual wage growth",
+   "assumption": "No Texas or Austin wage series for meat workers is in the research."
+  },
+  "benefits": {
+   "value": 0.25,
+   "fmt": "%",
+   "label": "Payroll taxes, benefits and workers' compensation load",
+   "assumption": "Meat plants carry high workers' compensation costs; no load factor is in the research."
+  },
+  "utilities_pct": {
+   "value": 0.07,
+   "fmt": "%",
+   "label": "Electricity, gas, water and sewer surcharges, share of revenue",
+   "assumption": "Refrigeration, hot water and wastewater surcharges; utility loads are NOT FOUND in the research."
+  },
+  "repairs_pct": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Repairs and maintenance, share of building and equipment cost",
+   "assumption": "No figure in the research."
+  },
+  "insurance": {
+   "value": 160000,
+   "fmt": "$",
+   "label": "Property, liability and product recall insurance, Year 1",
+   "assumption": "Wind, flood, fire, product recall and liability insurance are NOT FOUND in the research; a placeholder until a broker quotes."
+  },
+  "ga_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Administration, sales, food safety and quality staff costs not in payroll, share of revenue",
+   "assumption": "No figure in the research."
+  },
+  "bi_guarantee_pct": {
+   "value": 0.8,
+   "fmt": "%",
+   "label": "USDA guarantee, loans of $5 million or more (FY2026)",
+   "source": [
+    44,
+    42
+   ]
+  },
+  "bi_fee_pct": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Initial guarantee fee, share of the guaranteed amount (FY2026)",
+   "source": [
+    44
+   ]
+  },
+  "bi_retention": {
+   "value": 0.0055,
+   "fmt": "%2",
+   "label": "Annual retention fee on the guaranteed balance (FY2026)",
+   "source": [
+    44
+   ]
+  },
+  "bi_rate": {
+   "value": 0.0775,
+   "fmt": "%2",
+   "label": "Interest rate, fixed",
+   "assumption": "B&I rates are negotiated between lender and borrower [^49] and the research has no rate. Prime was 7.00% on the H.15 release of October 9, 2026 [^72]; the model uses 7.75% fixed, set at closing"
+  },
+  "bi_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Amortization",
+   "assumption": "Term follows the useful life of the collateral, up to 40 years [^49]; 25 years blends a building life with process equipment that wears out sooner"
+  },
+  "bi_equity_min_pct": {
+   "value": 0.2,
+   "fmt": "%",
+   "label": "Minimum equity (lender requirement)",
+   "assumption": "No B&I equity rule is in the research. A start-up plant with no operating history is held to 20% by the lender's credit policy in this case; the lender confirms its own requirement and USDA's balance sheet test."
+  },
+  "bi_dscr_floor": {
+   "value": 1.25,
+   "fmt": "x",
+   "label": "Minimum DSCR (lender requirement)",
+   "assumption": "No B&I coverage floor is in the research; 1.25x is the lender's floor in this case, tested in Year 3 when the plant reaches stable utilization."
+  },
+  "bi_loan_cap": {
+   "value": 25000000,
+   "fmt": "$",
+   "label": "B&I maximum loan (FY2026 fee notice tiers)",
+   "source": [
+    44
+   ]
+  },
+  "reserve": {
+   "value": 1200000,
+   "fmt": "$",
+   "label": "Ramp-up operating and debt service reserve",
+   "assumption": "The plant loses money in Year 1 and does not cover debt service in Year 2 in this model; a funded reserve carries part of that gap. The sponsor's lender sets the final amount from the monthly ramp."
+  },
+  "tax_county": {
+   "value": 0.004287,
+   "fmt": "%2",
+   "label": "Bastrop County tax rate, tax year 2025 ($0.42870 per $100)",
+   "source": [
+    36
+   ]
+  },
+  "tax_city": {
+   "value": 0.006193,
+   "fmt": "%2",
+   "label": "City of Elgin tax rate, tax year 2025 ($0.619300 per $100)",
+   "source": [
+    37
+   ]
+  },
+  "tax_isd": {
+   "value": 0.012234,
+   "fmt": "%2",
+   "label": "Elgin ISD tax rate, tax year 2025 ($1.223400 per $100)",
+   "source": [
+    37
+   ]
+  },
+  "tax_acc": {
+   "value": 0.001034,
+   "fmt": "%2",
+   "label": "Austin Community College tax rate, tax year 2025 ($0.103400 per $100)",
+   "source": [
+    37
+   ]
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, industrial park lot",
+   "expr": "site_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "[^8]"
+  },
+  {
+   "key": "building",
+   "label": "Plant building, escalated",
+   "expr": "bldg_sf * bldg_psf * (1 + escalation)",
+   "class": "real_estate",
+   "basis": "[^31] plus escalation"
+  },
+  {
+   "key": "equipment",
+   "label": "Process equipment",
+   "expr": "equipment",
+   "class": "equipment",
+   "basis": "assumption"
+  },
+  {
+   "key": "wastewater",
+   "label": "Wastewater pretreatment",
+   "expr": "wastewater",
+   "class": "equipment",
+   "basis": "assumption"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, pens and truck court",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "soft",
+   "label": "Design, engineering and permits",
+   "expr": "(bldg_sf * bldg_psf * (1 + escalation) + equipment) * soft_pct",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "contingency",
+   "label": "Contingency",
+   "expr": "(bldg_sf * bldg_psf * (1 + escalation) + equipment + wastewater + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "interim",
+   "label": "Construction-period interest",
+   "expr": "(bldg_sf * bldg_psf * (1 + escalation) + equipment + wastewater + sitework) * draw_factor * bi_rate * build_months / 12",
+   "class": "real_estate",
+   "basis": "[^31] build period"
+  },
+  {
+   "key": "wc",
+   "label": "Pre-opening costs and working capital",
+   "expr": "working_cap",
+   "class": "working_capital",
+   "basis": "assumption"
+  },
+  {
+   "key": "reserve",
+   "label": "Ramp-up operating and debt service reserve",
+   "expr": "reserve",
+   "class": "working_capital",
+   "basis": "assumption"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "harvest",
+   "label": "Beef harvest, fabrication and packaging fees",
+   "expr": "head_day * days * util * fee_head * (1 + fee_growth) ** y",
+   "basis": "head x fee (assumptions)"
+  },
+  {
+   "key": "fp",
+   "label": "Further-processing (sausage and smoked meats) fees",
+   "expr": "fp_lbs * fp_fee * (1 + fee_growth) ** y",
+   "basis": "pounds x fee (assumptions)"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "supplies",
+   "label": "Packaging, casings and supplies",
+   "expr": "rev_total * supplies_pct",
+   "basis": "assumption"
+  },
+  {
+   "key": "offal",
+   "label": "Offal and inedible disposal",
+   "expr": "head_day * days * util * offal_head * (1 + fee_growth) ** y",
+   "basis": "assumption"
+  }
+ ],
+ "opex": [
+  {
+   "key": "labor",
+   "label": "Wages, at the NAICS 3116 average, plus benefits",
+   "expr": "employees * payroll_3116 / emp_3116 * (1 + wage_growth) ** (y + 3) * (1 + benefits)",
+   "basis": "[^57] average wage"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities and sewer surcharges",
+   "expr": "rev_total * utilities_pct",
+   "basis": "assumption"
+  },
+  {
+   "key": "repairs",
+   "label": "Repairs and maintenance",
+   "expr": "(bldg_sf * bldg_psf * (1 + escalation) + equipment + wastewater) * repairs_pct",
+   "basis": "assumption"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * 1.03 ** y",
+   "basis": "assumption"
+  },
+  {
+   "key": "ga",
+   "label": "Administration, sales, food safety",
+   "expr": "rev_total * ga_pct",
+   "basis": "assumption"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(site_acres * land_per_acre + bldg_sf * bldg_psf * (1 + escalation) + equipment + wastewater + sitework) * (tax_county + tax_city + tax_isd + tax_acc)",
+   "basis": "[^36,37]"
+  },
+  {
+   "key": "retention",
+   "label": "USDA annual retention fee (on a loan at minimum equity, before amortization)",
+   "expr": "tpc * (1 - bi_equity_min_pct) * bi_guarantee_pct * bi_retention",
+   "basis": "[^44]"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.2,
+  "note": "the sponsor proposes the lender's 20% minimum equity"
+ },
+ "breakeven": {
+  "input": "util",
+  "label": "harvest utilization"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "util",
+   "label": "Harvest utilization",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "fee_head",
+   "label": "Fee per head",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  }
+ },
+ "glance": [
+  [
+   "Location",
+   "Elgin, Bastrop County, Texas, on the US 290 and SH 95 corridor at the eastern edge of the Austin metro; industrial park lot just off US 290 [^1,12]"
+  ],
+  [
+   "Subject",
+   "Hypothetical USDA-inspected plant: beef harvest of up to {in_head_day} head a day, fabrication and a sausage and smoked-meat room, {in_bldg_sf} sq ft on {in_site_acres} acres"
+  ],
+  [
+   "Program",
+   "USDA Business and Industry guaranteed loan, FY2026 terms as last published; FY2027 terms not found [^44,53]"
+  ],
+  [
+   "Total project cost",
+   "{tpc}, about {tpc_per_unit} per sq ft of plant"
+  ],
+  [
+   "Loan structure",
+   "Guaranteed loan {loan_total} at {in_bi_rate}, {in_bi_amort_years}, {in_bi_guarantee_pct} USDA guarantee; annual debt service {ds}"
+  ],
+  [
+   "Equity",
+   "{equity_pct} ({equity}), against {equity_proposed_pct} proposed"
+  ],
+  [
+   "DSCR in the test year",
+   "{dscr_y3} in Year 3 (proposed loan: {dscr_y3_proposed}); {dscr_y1} in Year 1 and {dscr_y2} in Year 2, carried by the reserve"
+  ],
+  [
+   "Break-even",
+   "{breakeven_value} harvest utilization in Year 3, a {cushion_pct} cushion"
+  ],
+  [
+   "Market conclusion",
+   "Sound location, growing county and Texas cattle supply; no competitor publishes fees, so revenue must be contracted, not inferred"
+  ],
+  [
+   "Determination as proposed",
+   "Fails: {equity_proposed_pct} equity and a {loan_total_proposed} loan cover Year 3 debt service {dscr_y3_proposed}, below the {floor} floor"
+  ],
+  [
+   "Determination as restructured",
+   "Meets: equity raised to {equity_pct}, loan cut to {loan_total}, Year 3 coverage {dscr_y3}; slaughter zoning, wastewater, FY2027 terms and throughput commitments are conditions"
+  ]
+ ]
+}

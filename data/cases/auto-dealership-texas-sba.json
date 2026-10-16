@@ -1,0 +1,490 @@
+{
+ "slug": "auto-dealership-texas-sba",
+ "page": "/case-studies/auto-dealership-texas-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 56,
+  "fees": 57,
+  "prime": 58,
+  "program": 56
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "building sq ft",
+  "count": 40000
+ },
+ "inputs": {
+  "site_acres": {
+   "value": 5.0,
+   "fmt": "n1",
+   "label": "Site, acres",
+   "assumption": "A single-line mainstream store with a 40,000 sq ft building; the local competitors with a stated site sit on 14.84 to 17.586 acres [^20]. The subject is held at the low end of the range."
+  },
+  "land_psf": {
+   "value": 20.0,
+   "fmt": "$2",
+   "label": "Land price per sq ft",
+   "assumption": "Set at the 2026 asking-price level for I-20 hard-corner frontage in Weatherford. The listing is not cited so that no real parcel is identified; an appraisal sets the value."
+  },
+  "bldg_sf": {
+   "value": 40000,
+   "fmt": "n",
+   "label": "Building, sq ft (showroom, offices, parts, service)",
+   "assumption": "Smaller than every local franchised store with a known size (47,038 to 105,344 sq ft) [^20,13]; sized for one mainstream line-make. The manufacturer's facility program sets the final size."
+  },
+  "bldg_psf": {
+   "value": 201.0155,
+   "fmt": "$2",
+   "label": "Building cost per sq ft, 2021 to 2022 local dealership registration",
+   "source": [
+    13
+   ]
+  },
+  "escalation": {
+   "value": 0.15,
+   "fmt": "%",
+   "label": "Escalation from the 2021 estimate to a 2027 build",
+   "assumption": "The research has no construction cost index to carry the 2021 registry figure forward. Construction input costs rose 8.9% in the year to August 2026 alone and contractors' bid prices 3.5% in the year to June 2026 [^48,49]; 15% is an allowance, to be replaced by a general contractor's bid."
+  },
+  "sitework_per_acre": {
+   "value": 200000,
+   "fmt": "$",
+   "label": "Site work, paving, lot lighting and drainage per acre",
+   "assumption": "A dealership paves most of its site for display, customer and service parking. The research gives no site-work cost; this allowance stands until civil bids are in."
+  },
+  "equipment": {
+   "value": 900000,
+   "fmt": "$",
+   "label": "Service equipment (above-ground lifts, alignment, compressors), IT and furniture",
+   "assumption": "Lift, service-equipment and IT costs are NOT FOUND in the research. Above-ground lifts are assumed so the service department is not a service center with pits and in-ground lifts on SBA's special purpose list [^56]."
+  },
+  "ae_pct": {
+   "value": 0.07,
+   "fmt": "%",
+   "label": "Architectural and engineering fees, share of building cost",
+   "source": [
+    47
+   ]
+  },
+  "soft_other": {
+   "value": 400000,
+   "fmt": "$",
+   "label": "Permits, CUP application, survey, Phase I, appraisal, legal, title and lender fees",
+   "assumption": "Impact and connection fees and the CUP cost are NOT FOUND in the research; a placeholder pending the City of Weatherford fee schedule."
+  },
+  "contingency_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Construction contingency, share of building, site work and equipment",
+   "assumption": "Standard allowance for a ground-up build; no local figure in the research."
+  },
+  "build_months": {
+   "value": 13,
+   "fmt": "n",
+   "label": "Construction period, months",
+   "source": [
+    13
+   ]
+  },
+  "draw_factor": {
+   "value": 0.5,
+   "fmt": "%",
+   "label": "Average share of the construction budget outstanding during the build",
+   "assumption": "Draws rise from zero to the full budget over the build, so about half is outstanding on average."
+  },
+  "new_units": {
+   "value": [
+    560,
+    720,
+    820,
+    880,
+    920
+   ],
+   "fmt": "n",
+   "label": "New vehicles retailed",
+   "assumption": "The average franchised store retailed 955 new vehicles in 2025 [^39]. The research has no ramp benchmark for an open point, so the store reaches 84% of that average in Year 3 and 94% in Year 5."
+  },
+  "new_price": {
+   "value": 48205,
+   "fmt": "$",
+   "label": "Average new-vehicle retail price",
+   "source": [
+    39
+   ]
+  },
+  "new_gpu": {
+   "value": 2764,
+   "fmt": "$",
+   "label": "Front-end gross profit per new vehicle",
+   "source": [
+    44
+   ]
+  },
+  "used_share": {
+   "value": 0.318,
+   "fmt": "%",
+   "label": "Used vehicles, share of dealership sales dollars",
+   "source": [
+    39
+   ]
+  },
+  "new_share": {
+   "value": 0.549,
+   "fmt": "%",
+   "label": "New vehicles, share of dealership sales dollars",
+   "source": [
+    39
+   ]
+  },
+  "used_price": {
+   "value": 30000,
+   "fmt": "$",
+   "label": "Average used-vehicle retail price",
+   "assumption": "Not in the research. Held above the $27,528 average amount financed on a used vehicle in Q4 2025 [^39], because buyers finance less than the price."
+  },
+  "used_gpu": {
+   "value": 1634,
+   "fmt": "$",
+   "label": "Front-end gross profit per used vehicle",
+   "source": [
+    44
+   ]
+  },
+  "fi_pu": {
+   "value": 2703,
+   "fmt": "$",
+   "label": "Finance and insurance income per vehicle retailed",
+   "source": [
+    45
+   ]
+  },
+  "sp_sales_nada": {
+   "value": 9687942,
+   "fmt": "$",
+   "label": "Service and parts sales, average franchised store",
+   "source": [
+    39
+   ]
+  },
+  "sp_share": {
+   "value": [
+    0.5,
+    0.62,
+    0.72,
+    0.8,
+    0.86
+   ],
+   "fmt": "%",
+   "label": "Subject service and parts sales, share of the average store",
+   "assumption": "A new point starts with few of its brand's vehicles in operation nearby; service volume builds as units are sold. No ramp benchmark is in the research."
+  },
+  "sp_margin": {
+   "value": 0.376,
+   "fmt": "%",
+   "label": "Service and parts gross margin",
+   "assumption": "The only service and parts margin in the research is the 37.6% that America's franchised truck dealers earned in 2025 [^42]; it is used for this light-vehicle store as a proxy."
+  },
+  "sga_pct": {
+   "value": [
+    0.8,
+    0.73,
+    0.7,
+    0.69,
+    0.679
+   ],
+   "fmt": "%",
+   "label": "Selling, general and administrative expense, share of gross profit",
+   "assumption": "AutoNation's SG&A ran at 67.9% of gross profit in FY2025 [^46]. A start-up store carries its full staff and launch advertising before volume arrives, so the ratio starts higher and reaches the benchmark in Year 5."
+  },
+  "days_supply": {
+   "value": 51,
+   "fmt": "n",
+   "label": "Inventory days' supply (new and used)",
+   "source": [
+    44
+   ]
+  },
+  "fp_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Floorplan interest rate",
+   "assumption": "Floorplan terms are NOT FOUND in the research. Prime was 7.00% on the H.15 release of October 9, 2026 [^58]; the model adds 0.50% and counts no manufacturer floorplan assistance."
+  },
+  "vit_factor": {
+   "value": 0.00179,
+   "fmt": "%2",
+   "label": "Vehicle inventory tax unit factor (city, ISD and county)",
+   "source": [
+    50
+   ]
+  },
+  "tax_rate": {
+   "value": 0.01711516,
+   "fmt": "%2",
+   "label": "Combined property tax rate (city, ISD, county), tax year 2025",
+   "source": [
+    31,
+    32,
+    33
+   ]
+  },
+  "insurance": {
+   "value": 180000,
+   "fmt": "$",
+   "label": "Property, garage liability and open-lot insurance, Year 1",
+   "assumption": "Insurance conditions (wind, hail, flood, wildfire) are NOT FOUND in the research. A placeholder until a broker quote is in the file."
+  },
+  "tpl_rate": {
+   "value": 0.0725,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "The research has no bank rate. Prime was 7.00% on October 9, 2026 [^58]; the model uses 7.25% fixed. The rate is set at pricing"
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "Matches the 25-year debenture; the bank may set a shorter maturity with the same amortization."
+  },
+  "debenture_rate": {
+   "value": 0.058,
+   "fmt": "%2",
+   "label": "SBA 504 debenture rate, 25-year",
+   "source": [
+    37
+   ]
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "SBA 504 debenture term",
+   "source": [
+    56
+   ]
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, 5.0 acres at the assumed I-20 price per sq ft",
+   "expr": "site_acres * 43560 * land_psf",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "building",
+   "label": "Building, 40,000 sq ft, escalated",
+   "expr": "bldg_sf * bldg_psf * (1 + escalation)",
+   "class": "real_estate",
+   "basis": "[^13] plus escalation"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, paving and lighting",
+   "expr": "site_acres * sitework_per_acre",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "equipment",
+   "label": "Service equipment, IT and furniture",
+   "expr": "equipment",
+   "class": "equipment",
+   "basis": "assumption"
+  },
+  {
+   "key": "ae",
+   "label": "Architecture and engineering",
+   "expr": "bldg_sf * bldg_psf * (1 + escalation) * ae_pct",
+   "class": "real_estate",
+   "basis": "[^47]"
+  },
+  {
+   "key": "soft",
+   "label": "Permits, CUP, survey, Phase I, appraisal, legal",
+   "expr": "soft_other",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "contingency",
+   "label": "Contingency",
+   "expr": "(bldg_sf * bldg_psf * (1 + escalation) + site_acres * sitework_per_acre + equipment) * contingency_pct",
+   "class": "real_estate",
+   "basis": "assumption"
+  },
+  {
+   "key": "interim",
+   "label": "Construction-period interest",
+   "expr": "(bldg_sf * bldg_psf * (1 + escalation) + site_acres * sitework_per_acre + equipment) * draw_factor * tpl_rate * build_months / 12",
+   "class": "real_estate",
+   "basis": "[^13] build period"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "new",
+   "label": "New vehicle sales",
+   "expr": "new_units * new_price",
+   "basis": "units x price [^39]"
+  },
+  {
+   "key": "used",
+   "label": "Used vehicle sales",
+   "expr": "new_units * new_price * used_share / new_share",
+   "basis": "NADA sales mix [^39]"
+  },
+  {
+   "key": "fi",
+   "label": "Finance and insurance income",
+   "expr": "(new_units + new_units * new_price * used_share / new_share / used_price) * fi_pu",
+   "basis": "retail units x F&I [^45]"
+  },
+  {
+   "key": "sp",
+   "label": "Service and parts sales",
+   "expr": "sp_sales_nada * sp_share",
+   "basis": "share of NADA store [^39]"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "new",
+   "label": "Cost of new vehicles sold",
+   "expr": "rev_new - new_units * new_gpu",
+   "basis": "[^44]"
+  },
+  {
+   "key": "used",
+   "label": "Cost of used vehicles sold",
+   "expr": "rev_used - rev_used / used_price * used_gpu",
+   "basis": "[^44]"
+  },
+  {
+   "key": "sp",
+   "label": "Cost of service and parts sales",
+   "expr": "rev_sp * (1 - sp_margin)",
+   "basis": "[^42] proxy"
+  }
+ ],
+ "opex": [
+  {
+   "key": "sga",
+   "label": "Selling, general and administrative",
+   "expr": "gp_total * sga_pct",
+   "basis": "[^46] benchmark"
+  },
+  {
+   "key": "floorplan",
+   "label": "Floorplan interest",
+   "expr": "(rev_new + rev_used) * days_supply / 365 * fp_rate",
+   "basis": "[^44] days' supply"
+  },
+  {
+   "key": "vit",
+   "label": "Vehicle inventory tax",
+   "expr": "(rev_new + rev_used) * vit_factor",
+   "basis": "[^50]"
+  },
+  {
+   "key": "proptax",
+   "label": "Property tax on land, building and equipment",
+   "expr": "(site_acres * 43560 * land_psf + bldg_sf * bldg_psf * (1 + escalation) + site_acres * sitework_per_acre + equipment) * tax_rate",
+   "basis": "[^31,32,33]"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * 1.03 ** y",
+   "basis": "assumption"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor proposes the standard 10% 504 injection, which puts the debenture at 40% of cost"
+ },
+ "breakeven": {
+  "input": "new_units",
+  "label": "new vehicles retailed",
+  "year": 2
+ },
+ "sensitivity": {
+  "year": 2,
+  "rows": {
+   "input": "new_units",
+   "label": "New vehicles retailed",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "sga_pct",
+   "label": "SG&A share of gross",
+   "steps": [
+    -0.1,
+    -0.05,
+    0,
+    0.05,
+    0.1
+   ]
+  }
+ },
+ "glance": [
+  [
+   "Location",
+   "Weatherford, Parker County, Texas, on the I-20 corridor west of Fort Worth in the Dallas-Fort Worth metro [^1,2]"
+  ],
+  [
+   "Subject",
+   "Hypothetical franchised new-vehicle store for one mainstream line-make not represented on the corridor: {in_bldg_sf} sq ft building on {in_site_acres} acres, ground-up, owner-occupied"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and sponsor equity [^56]"
+  ],
+  [
+   "Total project cost",
+   "{tpc}, about {tpc_per_unit} per building sq ft including land"
+  ],
+  [
+   "Loan structure",
+   "Bank first lien {tpl} plus 504 debenture {debenture}; total debt {loan_total}, annual debt service {ds}"
+  ],
+  [
+   "Equity",
+   "{equity_pct} ({equity}), against {equity_proposed_pct} proposed"
+  ],
+  [
+   "DSCR in the test year",
+   "{dscr_y2} in Year 2 (proposed structure: {dscr_y2_proposed}); {dscr_y1} in Year 1, {dscr_y3} in Year 3"
+  ],
+  [
+   "Break-even",
+   "{breakeven_value} new vehicles in Year 2, {breakeven_pct} of the underwritten volume"
+  ],
+  [
+   "Market conclusion",
+   "Strong household growth on an auto row where every line-make checked already has a store; the case depends on a manufacturer's award that the evidence does not show"
+  ],
+  [
+   "Determination as proposed",
+   "Fails: equity below the new-business tier, debenture of {debenture_proposed} over the program limit, Year 2 coverage {dscr_y2_proposed}"
+  ],
+  [
+   "Determination as restructured",
+   "Meets: equity raised to {equity_pct}, debenture held at {debenture} with the bank first lien at {tpl}, Year 2 coverage {dscr_y2}; a Year 1 reserve and the floorplan line are conditions"
+  ]
+ ]
+}
