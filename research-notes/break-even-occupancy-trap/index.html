@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* =====================================================================
-   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   FEASIBILITY STUDY COMPANY - design system v3 (editorial / JLL language)
    White-dominant, single grotesque family, huge type, crimson accent
    used sparingly, hairline rules, borderless cards, arrow links,
    black footer.
@@ -835,7 +835,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
+<!--chrome:header--><header class="site-header">
   <div class="frame header-row">
     <div class="wordmark">
       <a href="/">
@@ -909,7 +909,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
               <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
               <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
               <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
-              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
               <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
               <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
               <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
@@ -918,13 +917,13 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <div class="mega-col metros">
             <h5>Major Metros</h5>
             <ul class="mega-list">
-              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
-              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
-              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
-              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
-              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
-              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
-              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/houston/">Houston</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/dallas-fort-worth/">Dallas-Fort Worth</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/austin/">Austin</a></li>
+              <li><a href="/states/california/#metros" role="menuitem" data-fsc-pending="/states/california/los-angeles/">Los Angeles</a></li>
+              <li><a href="/states/florida/#metros" role="menuitem" data-fsc-pending="/states/florida/miami/">Miami</a></li>
+              <li><a href="/states/georgia/#metros" role="menuitem" data-fsc-pending="/states/georgia/atlanta/">Atlanta</a></li>
+              <li><a href="/states/north-carolina/#metros" role="menuitem" data-fsc-pending="/states/north-carolina/charlotte/">Charlotte</a></li>
             </ul>
           </div>
           <div class="mega-foot">
@@ -933,10 +932,10 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           </div>
         </div>
       </div>
-      <a class="btn" href="#contact">Inquiries</a>
+      <a href="/#contact" class="btn">Inquiries</a>
     </nav>
   </div>
-</header>
+</header><!--/chrome:header-->
 
 <main id="main">
 
@@ -944,7 +943,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   <section class="hero article-hero">
     <div class="frame">
       <p class="hero-eyebrow">Research Note &middot; Methodology</p>
-      <h1>The Break-Even Occupancy Trap: Why a Deal Can Clear DSCR and Still Not Cash-Flow</h1><!--fsc:byline-article {"published": "2026-07-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-10">July 10, 2026</time></p><!--/fsc:byline-article-->
+      <h1>The Break-Even Occupancy Trap: Why a Deal Can Clear DSCR and Still Not Cash-Flow</h1><!--fsc:byline-article {"published": "2026-07-10", "updated": "2026-07-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-10">July 10, 2026</time></p><!--/fsc:byline-article-->
       <p class="article-deck">
         A 1.25x stabilized coverage ratio is the number a credit committee trusts most. It is also the
         number that hides how little occupancy a deal can afford to lose before cash flow turns negative.
@@ -972,7 +971,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     <div class="frame">
 
       <p class="article-lead">
-        Every stabilized multifamily loan is sized to a coverage test the sponsor treats as the finish
+        Every stabilized <a href="/asset-classes/multifamily/" data-fsc-term="hub-multifamily">multifamily</a> loan is sized to a coverage test the sponsor treats as the finish
         line: a debt-service coverage ratio of 1.25x at a stabilized occupancy of 93 to 95 percent. Clear
         it and the deal is financeable. The trouble is that the test is silent on the one question that
         decides whether the deal survives its own operating years, which is how much occupancy it can
@@ -1056,12 +1055,12 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <thead><tr><th scope="col">Break-even ratio</th><th scope="col">Lender reading</th></tr></thead>
           <tbody>
             <tr><td>Below 70%</td><td>Conservative</td></tr>
-            <tr><td>70&ndash;80%</td><td>Preferred</td></tr>
-            <tr><td>80&ndash;85%</td><td>Elevated</td></tr>
+            <tr><td>70-80%</td><td>Preferred</td></tr>
+            <tr><td>80-85%</td><td>Elevated</td></tr>
             <tr><td>Above 85%</td><td>High risk / flagged</td></tr>
           </tbody>
         </table>
-        <p class="table-source">Working bands per Janover. Commercial Real Estate Loans and HUD.loans note lenders "typically prefer a break-even ratio of 85% or less" to leave cushion if expenses rise or occupancy falls; FNRP cites a normal commercial range of 60&ndash;80% and caution above 90%.</p>
+        <p class="table-source">Working bands per Janover. Commercial Real Estate Loans and HUD.loans note lenders "typically prefer a break-even ratio of 85% or less" to leave cushion if expenses rise or occupancy falls; FNRP cites a normal commercial range of 60-80% and caution above 90%.</p>
       </div>
 
       <h2>The closed-form link between DSCR and break-even</h2>
@@ -1114,7 +1113,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       </p>
 
       <div class="workbox">
-        <h4>Base case &mdash; 200-unit stabilized multifamily</h4>
+        <h4>Base case: 200-unit stabilized multifamily</h4>
         <dl>
           <dt>Gross potential rent (100% occupied)</dt><dd>$3,600,000</dd>
           <dt>Other income (occupancy-independent)</dt><dd>$200,000</dd>
@@ -1127,7 +1126,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <dt>Occupancy cushion</dt><dd>11.1 points</dd>
         </dl>
         <p class="formula">Break-even occupancy = (<em>operating expenses + annual debt service &minus; other income</em>) &divide; gross potential rent</p>
-        <p class="wb-note">Illustrative and internally consistent. The $22.14M loan is roughly 58% LTV against a value of about $37.9M at a 5.25% cap rate &mdash; a coverage-constrained loan, not an LTV-constrained one. Rents, expense ratios, and rates must be re-verified against the specific submarket.</p>
+        <p class="wb-note">Illustrative and internally consistent. The $22.14M loan is roughly 58% LTV against a value of about $37.9M at a 5.25% cap rate: a coverage-constrained loan, not an LTV-constrained one. Rents, expense ratios, and rates must be re-verified against the specific submarket.</p>
       </div>
 
       <p>
@@ -1243,7 +1242,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         and SOFR. As of mid-2026 the Fed funds rate sits at 3.75 to 4.00 percent after a single October 2025
         cut held through the second quarter, the 10-year Treasury is near 4.3 percent, and agency multifamily
         prices tightest of any commercial real estate type at roughly 5.5 to 6.0 percent for stabilized
-        deals, against CMBS near 6.5 percent and bridge debt at 8 to 9.5 percent. The FHFA raised the 2026
+        deals, against <a href="/practice-areas/conventional-institutional/" data-fsc-term="conventional-pa">CMBS</a> near 6.5 percent and bridge debt at 8 to 9.5 percent. The FHFA raised the 2026
         agency purchase caps to $88 billion each, $176 billion in total, a 20.5 percent increase, so agency
         capacity is not the binding constraint; the break-even math is.
       </p>
@@ -1290,7 +1289,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         expenses." Corroborating reads point the same direction: CBRE has insurance up 132 percent since
         December 2019, the Federal Reserve estimates roughly 77 percent real growth per unit from 2019 to
         2024, and the NAA's Premium Pulse tracks a 55 percent rise from 2021 to 2024, to $777 per unit. At
-        the institutional level, New York Life Real Estate Investors reported in the AFIRE Summit Journal
+        the institutional level, <a href="/states/new-york/" data-fsc-term="state-new-york">New York</a> Life Real Estate Investors reported in the AFIRE Summit Journal
         ("OpEx Rising: The Other Side of NOI," March 2024) that the NCREIF apartment operating-expense ratio
         rose from 42.5 percent pre-COVID to 44.1 percent as of the second quarter of 2023, having briefly
         touched about 48 percent during the COVID rent disruption, with insurance the fastest-rising line
@@ -1304,7 +1303,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         expenses per unit up just 1.3 percent in the first half of 2025, but that deceleration sits on a
         permanently higher base. Property taxes, the single largest expense line at about 26 percent of
         operating expenses per the NAA, add their own year-one shock where reassessment-on-sale applies, as
-        in Texas, New Jersey, and Illinois. The NAA frames the cumulative squeeze memorably: on 2024 data,
+        in <a href="/states/texas/" data-fsc-term="state-texas">Texas</a>, <a href="/states/new-jersey/" data-fsc-term="state-new-jersey">New Jersey</a>, and <a href="/states/illinois/" data-fsc-term="state-illinois">Illinois</a>. The NAA frames the cumulative squeeze memorably: on 2024 data,
         89 cents of every rent dollar is consumed by expenses, with the mortgage taking roughly 44 cents and
         taxes about 10, leaving thin margins that leave little room for a break-even that keeps climbing.
       </p>
@@ -1420,7 +1419,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           HUD.loans, FNRP, PeerSense, and LoopNet. Operating-expense-ratio benchmarks: NCREIF apartment
           ratio of 42.5 percent pre-COVID rising to 44.1 percent as of Q2 2023 (peaking near 48 percent
           during COVID), per New York Life Real Estate Investors in the AFIRE Summit Journal, "OpEx Rising:
-          The Other Side of NOI," March 2024; rule-of-thumb ranges of 35&ndash;50 percent from CoreCast,
+          The Other Side of NOI," March 2024; rule-of-thumb ranges of 35-50 percent from CoreCast,
           Dwellsy, HelloData, and MRI, with 1920s Northeast mid-rise above 60 percent per Capstone; the NAA
           "dollar of rent" framing (89 cents of every dollar consumed; mortgage about 44 cents, taxes about
           10) on 2024 data, and property taxes at roughly 26 percent of operating expenses per the NAA.
@@ -1435,7 +1434,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           service even for interest-only loans (per SEC 424B5 CMBS prospectuses). Expense growth: property
           insurance up more than 120 percent since 2019 per Yardi Matrix (National Multifamily Report, July
           2025); corroborated by CBRE (+132 percent since December 2019), the Federal Reserve (about 77
-          percent real per-unit, 2019&ndash;2024), and the NAA Premium Pulse (+55 percent 2021&ndash;2024, to
+          percent real per-unit, 2019-2024), and the NAA Premium Pulse (+55 percent 2021-2024, to
           $777 per unit); total operating expenses up 8.7 percent in 2022, 9.3 percent (TTM June 2023), and
           7.1 percent (TTM January 2024, to $8,950 per unit) with insurance +27.7 percent year over year,
           decelerating to +1.3 percent in H1 2025, all per Yardi Matrix. Occupancy and supply: national
@@ -1443,14 +1442,14 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           November; Apartment List national vacancy index at a record 7.2 percent in November 2025 (CNBC,
           December 2, 2025), with peaks of 7.3 percent in February 2025 and January 2026, and Census rental
           vacancy of 7.3 percent in Q1 2026; more than 600,000 multifamily units delivered in 2024, the most
-          since 1986 (Apartment List); stabilized vacancy in the mid-6 percent range through 2025 (MMCG).
+          since 1986 (Apartment List); stabilized vacancy in the mid-6 percent range through 2025 (industry research).
           Distress: office CMBS delinquency at an all-time-high 12.34 percent in January 2026, with
-          multifamily near 6.9&ndash;7.15 percent (Trepp via Multi-Housing News); 2022-vintage underwriting
-          at roughly 32 percent expense-to-revenue versus a 38&ndash;40 percent norm (JPMorgan via
+          multifamily near 6.9-7.15 percent (Trepp via Multi-Housing News); 2022-vintage underwriting
+          at roughly 32 percent expense-to-revenue versus a 38-40 percent norm (JPMorgan via
           CREFC/Trepp); and the Trepp Parkmerced example, where 83 percent occupancy drove DSCR to 0.47x.
-          Rate figures are mid-2026 snapshots (Fed funds 3.75&ndash;4.00 percent after an October 2025 cut;
-          10-year Treasury near 4.3 percent; agency 5.5&ndash;6.0 percent, CMBS about 6.5 percent, bridge
-          8&ndash;9.5 percent; FHFA 2026 agency caps of $88 billion each, $176 billion total, up 20.5
+          Rate figures are mid-2026 snapshots (Fed funds 3.75-4.00 percent after an October 2025 cut;
+          10-year Treasury near 4.3 percent; agency 5.5-6.0 percent, CMBS about 6.5 percent, bridge
+          8-9.5 percent; FHFA 2026 agency caps of $88 billion each, $176 billion total, up 20.5
           percent) and move daily; the derivation is rate-invariant, the specific dollar figures are not. The
           200-unit example, the three sensitivity tables, and the mortgage constants are illustrative,
           internally consistent, and reproducible; rents, expense ratios, and rates should be re-verified
@@ -1469,6 +1468,40 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </article>
 
   <!-- ============ CTA ============ -->
+  <!--mesh:note-applied--><section class="section" id="applied" aria-labelledby="h-applied">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Applied In</span>
+        <h2 id="h-applied">Where this research is applied.</h2>
+      </div>
+      <p class="lede" style="margin-top:0px;margin-bottom:14px">Asset classes</p>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/multifamily/">Multifamily Feasibility &amp; Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Practice areas</p>
+      <ul class="link-cols">
+        <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Worked cases</p>
+      <ul class="link-cols">
+        <li><a href="/case-studies/multifamily-arizona-agency/">Multifamily Feasibility Study, Arizona: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-florida-agency/">Multifamily Feasibility Study, Florida: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-georgia-agency/">Multifamily Feasibility Study, Georgia: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-new-york-agency/">Multifamily Feasibility Study, New York: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-north-carolina-agency/">Multifamily Feasibility Study, North Carolina: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-texas-agency/">Multifamily Feasibility Study, Texas: An Agency / Conventional Worked Case</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Related research notes</p>
+      <ul class="link-cols">
+        <li><a href="/research-notes/absorption-forensics/">Absorption Forensics: Testing a Lease-Up Assumption Before the Reviewer Does</a></li>
+        <li><a href="/research-notes/office-repurposing/">Office Repurposing: A Field Guide to the Conversions That Actually Pencil</a></li>
+        <li><a href="/research-notes/effective-rent-vs-asking-rent/">The Concession Gap: Why Underwriting to Asking Rent Breaks a Multifamily Pro Forma</a></li>
+        <li><a href="/research-notes/coverage-constrained-takeout/">The Coverage-Constrained Takeout: When the Permanent Loan Sizes to Coverage, Not Value</a></li>
+        <li><a href="/research-notes/why-feasibility-studies-fail-review/">Why Feasibility Studies Fail Lender Review: A Taxonomy of Rejection</a></li>
+      </ul>
+    </div>
+  </section><!--/mesh:note-applied-->
+
   <section class="cta-band" aria-labelledby="h-cta">
     <div class="frame">
       <h2 id="h-cta">Underwriting a thin deal?</h2>
@@ -1523,7 +1556,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </div>
 </section>
 
-<footer class="site-footer">
+<!--chrome:footer--><footer class="site-footer">
   <div class="frame">
     <div class="footer-grid">
       <div class="footer-brand">
@@ -1540,21 +1573,24 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Explore</h4>
+        <h4>Asset Classes</h4>
         <ul>
-          <li><a href="/analytical-framework/">Methodology</a></li>
-          <li><a href="/asset-classes/">Asset Classes</a></li>
-          <li><a href="/states/">Markets</a></li>
-          <li><a href="/research-notes/">Research</a></li>
+          <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
+          <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
+          <li><a href="/asset-classes/hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/">View all asset classes</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Firm</h4>
         <ul>
           <li><a href="/the-practice/">The Practice</a></li>
-          <li><a href="/published-analyses/">Published Analyses</a></li>
-          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/case-studies/">Worked Cases</a></li>
+          <li><a href="/research-notes/">Research Notes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/#contact">Inquiries</a></li>
           <li><a href="/tools/nda/">NDA Generator</a></li>
+          <li><a href="/terms/">Terms</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/accessibility/">Accessibility</a></li>
         </ul>
       </div>
     </div>
@@ -1564,7 +1600,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     </div>
   </div>
 </footer>
-
 <script id="mega-markets-script">
 (function(){
   document.querySelectorAll('.has-mega').forEach(function(wrap){
@@ -1578,7 +1613,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
   });
 })();
-</script>
+</script><!--/chrome:footer-->
 <script id="fsc-contact-script">
 (function(){
   var f=document.getElementById('fsc-contact-form');

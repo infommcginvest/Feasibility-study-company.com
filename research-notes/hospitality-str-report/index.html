@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* =====================================================================
-   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   FEASIBILITY STUDY COMPANY - design system v3 (editorial / JLL language)
    White-dominant, single grotesque family, huge type, crimson accent
    used sparingly, hairline rules, borderless cards, arrow links,
    black footer.
@@ -835,7 +835,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
+<!--chrome:header--><header class="site-header">
   <div class="frame header-row">
     <div class="wordmark">
       <a href="/">
@@ -909,7 +909,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
               <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
               <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
               <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
-              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
               <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
               <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
               <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
@@ -918,13 +917,13 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <div class="mega-col metros">
             <h5>Major Metros</h5>
             <ul class="mega-list">
-              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
-              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
-              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
-              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
-              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
-              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
-              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/houston/">Houston</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/dallas-fort-worth/">Dallas-Fort Worth</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/austin/">Austin</a></li>
+              <li><a href="/states/california/#metros" role="menuitem" data-fsc-pending="/states/california/los-angeles/">Los Angeles</a></li>
+              <li><a href="/states/florida/#metros" role="menuitem" data-fsc-pending="/states/florida/miami/">Miami</a></li>
+              <li><a href="/states/georgia/#metros" role="menuitem" data-fsc-pending="/states/georgia/atlanta/">Atlanta</a></li>
+              <li><a href="/states/north-carolina/#metros" role="menuitem" data-fsc-pending="/states/north-carolina/charlotte/">Charlotte</a></li>
             </ul>
           </div>
           <div class="mega-foot">
@@ -933,10 +932,10 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           </div>
         </div>
       </div>
-      <a class="btn" href="#contact">Inquiries</a>
+      <a href="/#contact" class="btn">Inquiries</a>
     </nav>
   </div>
-</header>
+</header><!--/chrome:header-->
 
 <main id="main">
 
@@ -944,7 +943,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   <section class="hero article-hero">
     <div class="frame">
       <p class="hero-eyebrow">Research Note &middot; Hotel</p>
-      <h1>The STR Report Is Not the Analysis: Why a Benchmark Cannot Underwrite a New Hotel</h1><!--fsc:byline-article {"published": "2026-07-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-10">July 10, 2026</time></p><!--/fsc:byline-article-->
+      <h1>The STR Report Is Not the Analysis: Why a Benchmark Cannot Underwrite a New Hotel</h1><!--fsc:byline-article {"published": "2026-07-10", "updated": "2026-10-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-10">July 10, 2026</time> &middot; Updated <time datetime="2026-10-10">October 10, 2026</time></p><!--/fsc:byline-article-->
       <p class="article-deck">
         An STR benchmark measures how existing hotels have split existing demand. It is a valuable input
         to a hotel feasibility study, and no substitute for the forward-looking demand analysis that
@@ -974,9 +973,9 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p class="article-lead">
         When a sponsor hands a lender an STR report and calls it the market analysis, the lender is being
-        asked to answer a question the document was never built to answer. An STR benchmark &mdash; the
-        STAR report, the Trend report, the Pipeline report &mdash; is a historical, backward-looking record
-        of how hotels that already exist have performed against a competitive set. CoStar, which acquired
+        asked to answer a question the document was never built to answer. An STR benchmark (the
+        STAR report, the Trend report, the Pipeline report) is a historical, backward-looking record
+        of how <a href="/asset-classes/hotel/" data-fsc-term="hub-hotel">hotels</a> that already exist have performed against a competitive set. CoStar, which acquired
         STR in 2019, markets the product plainly as "benchmarking," built on "robust historical data." It
         is a genuinely useful data feed. It is not a feasibility study, and for a new-build hotel the
         difference decides the loan.
@@ -990,7 +989,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         USALI-structured ten-year income and expense projection that lands on cash flow and debt-service
         coverage. An STR report measures the performance of supply that already exists. It is silent on
         whether the market's underlying demand can absorb supply that does not. A lender who accepts the
-        one in place of the other is underwriting unquantified demand risk &mdash; and on a hotel, an SBA
+        one in place of the other is underwriting unquantified demand risk, and on a hotel, an SBA
         special-purpose asset, that is precisely the gap where loans default.
       </p>
 
@@ -1000,8 +999,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         Smith Travel Research was founded in 1985 on a simple premise: if hotels anonymously pooled their
         performance data, every participant would gain competitive insight none could assemble alone. STR
         was acquired by CoStar Group in 2019, and the product is now formally "CoStar with STR Benchmark,"
-        though the industry still calls it the STR report, or the STAR report &mdash; the Smith Travel
-        Accommodations Report &mdash; in universal shorthand.
+        though the industry still calls it the STR report, or the STAR report, the Smith Travel
+        Accommodations Report, in universal shorthand.
       </p>
       <p>
         The product family is worth naming, because each report is historical by design. The STAR report
@@ -1010,7 +1009,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         contract demand. The Trend report gives historical supply, demand, and performance for a market or
         submarket; HVS studies routinely order an STR Trend Report of historical supply and demand for the
         competitive group. The Pipeline report counts planned and under-construction supply from the
-        STR/Dodge Construction pipeline database &mdash; and STR's own educational materials describe it as
+        STR/Dodge Construction pipeline database, and STR's own educational materials describe it as
         "an important part of a thorough feasibility study," an input to the study, not a replacement for
         it. STR's forward Market Forecasts exist, but they are a separate econometric product produced "in
         partnership with leading forecasting company, Tourism Economics," not part of the benchmarking
@@ -1020,8 +1019,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         The metrics themselves follow CoStar and HSMAI conventions: supply is rooms available, demand is
         rooms sold, and occupancy is demand divided by supply; ADR is room revenue divided by rooms sold;
         and RevPAR is room revenue divided by rooms available, equivalently occupancy multiplied by ADR.
-        The competitive set is chosen by the subject hotel &mdash; conventionally three to five hotels
-        similar in location, class, price, and size &mdash; and STR aggregates and anonymizes the pool so
+        The competitive set is chosen by the subject hotel (conventionally three to five hotels
+        similar in location, class, price, and size) and STR aggregates and anonymizes the pool so
         no single competitor's data is identifiable. Every one of these outputs describes what has already
         happened. That is the defining feature, and the defining limit.
       </p>
@@ -1038,9 +1037,9 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <caption>The three STAR-report indices. An index of 100 is "fair share"; above 100 is more than the expected share, below 100 is less.</caption>
           <thead><tr><th scope="col">Index</th><th scope="col">Formula</th><th scope="col">What it reads</th></tr></thead>
           <tbody>
-            <tr><td>MPI &mdash; occupancy</td><td>Subject occupancy &divide; comp-set occupancy &times; 100</td><td>Share of occupancy against fair share</td></tr>
-            <tr><td>ARI &mdash; rate</td><td>Subject ADR &divide; comp-set ADR &times; 100</td><td>Rate position against the set</td></tr>
-            <tr><td>RGI &mdash; RevPAR</td><td>Subject RevPAR &divide; comp-set RevPAR &times; 100 (= ARI &times; MPI &divide; 100)</td><td>Net yield, rate and volume combined</td></tr>
+            <tr><td>MPI: occupancy</td><td>Subject occupancy &divide; comp-set occupancy &times; 100</td><td>Share of occupancy against fair share</td></tr>
+            <tr><td>ARI: rate</td><td>Subject ADR &divide; comp-set ADR &times; 100</td><td>Rate position against the set</td></tr>
+            <tr><td>RGI: RevPAR</td><td>Subject RevPAR &divide; comp-set RevPAR &times; 100 (= ARI &times; MPI &divide; 100)</td><td>Net yield, rate and volume combined</td></tr>
           </tbody>
         </table>
         <p class="table-source">Formulas and "fair share" language per CoStar's glossary and HSMAI convention.</p>
@@ -1049,7 +1048,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         CoStar's glossary states that each index is "historically described as 'fair share,'" with 100 the
         neutral point: above 100 is "more than the expected share," below 100 is "less than the expected
-        share." Its own worked example is deliberately plain &mdash; if the subject's ADR is $50 and the
+        share." Its own worked example is deliberately plain: if the subject's ADR is $50 and the
         set's ADR is $50, the ARI is 100; at a $60 ADR the ARI is 120; at $40 it is 80.
       </p>
       <p>
@@ -1057,8 +1056,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         rooms divided by the competitive-set rooms; its actual, or achieved, share equals its room nights
         sold divided by the set's room nights sold; and the penetration index is actual share divided by
         fair share, times 100. Take a 100-room subject in a competitive set of 1,000 rooms. Its fair share
-        is 100 &divide; 1,000, or 10 percent. If the whole set sells 700 room nights on a given night
-        &mdash; 70 percent occupancy &mdash; and the subject sells 84 of them, or 84 percent occupancy, the
+        is 100 &divide; 1,000, or 10 percent. If the whole set sells 700 room nights on a given night, 70 percent occupancy, and the subject sells 84 of them, or 84 percent occupancy, the
         subject's actual share is 84 &divide; 700, or 12 percent. Its penetration index is 12 &divide; 10,
         or 120, identical to the MPI you would read straight off 84 percent &divide; 70 percent &times; 100.
         The two formulations are algebraically the same because supply sits fixed in both denominators.
@@ -1066,7 +1064,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         The indices also diagnose. An ARI of 105 against an MPI of 85 yields an RGI of roughly
         105 &times; 85 &divide; 100, or 89: the hotel is winning rate but losing volume, and its net yield
-        is underperforming the set. That is a genuinely useful read &mdash; for a hotel that already
+        is underperforming the set. That is a genuinely useful read, for a hotel that already
         exists.
       </p>
 
@@ -1088,9 +1086,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <h2>What a feasibility study does that a benchmark cannot</h2>
 
       <p>
-        Professional hotel feasibility work &mdash; as HVS, CBRE Hotels, and their peers practice it
-        &mdash; follows a consistent architecture. A representative HVS table of contents, whether for a
-        Mitchell County, North Carolina study, a University City, Missouri study, or a Buffalo convention
+        Professional hotel feasibility work (as HVS, CBRE Hotels, and their peers practice it) follows a consistent architecture. A representative HVS table of contents, whether for a
+        Mitchell County, <a href="/states/north-carolina/" data-fsc-term="state-north-carolina">North Carolina</a> study, a University City, <a href="/states/missouri/" data-fsc-term="state-missouri">Missouri</a> study, or a Buffalo convention
         hotel, moves through the same seven stages: a market-area analysis of economic and demographic
         drivers, site access, and proximity to demand generators; a lodging-supply analysis of the
         existing competitive set plus the pipeline, where the STR Trend and Pipeline data are inputs; a
@@ -1101,22 +1098,21 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       </p>
       <p>
         The demand-generator and demand-segmentation work is the core discipline a benchmark structurally
-        cannot supply. HVS's Brian Bisema frames three primary segments &mdash; commercial, meeting and
-        group, and leisure &mdash; each with its own length of stay, day-of-week pattern, double-occupancy
+        cannot supply. HVS's Brian Bisema frames three primary segments (commercial, meeting and
+        group, and leisure) each with its own length of stay, day-of-week pattern, double-occupancy
         rate, price sensitivity, and growth path. Leisure travelers, for instance, typically stay one to
         four days at double-occupancy rates of 1.8 to 2.5 people per room and fill Friday and Saturday
         nights, while commercial and meeting demand is weekday-weighted. A new-build study has to identify
-        the specific generators &mdash; major employers and corporate offices, convention and meeting
+        the specific generators (major employers and corporate offices, convention and meeting
         facilities, universities, hospitals, airports and their passenger counts, attractions, sports
-        venues &mdash; and estimate the room nights each throws off. An STR report cannot do this: it
+        venues) and estimate the room nights each throws off. An STR report cannot do this: it
         reports the performance of hotels, not the behavior of the demand sources beneath them.
       </p>
       <p>
         The same is true of latent demand. Steve Rushmore, the founder of HVS, defines total market demand
         as accommodated demand plus latent demand, where latent demand is the sum of unaccommodated and
-        induced demand. Unaccommodated demand is the travel turned away when hotels sell out on peak nights
-        &mdash; the 100-room property that consistently turns away fifteen guests across a hundred sold-out
-        nights &mdash; and it is measured through turn-away analysis and sold-out-night counts. Induced
+        induced demand. Unaccommodated demand is the travel turned away when hotels sell out on peak nights, the 100-room property that consistently turns away fifteen guests across a hundred sold-out
+        nights, and it is measured through turn-away analysis and sold-out-night counts. Induced
         demand is the travel a specific new cause will pull into the market: a convention hotel with
         meeting space the market lacked, a new airport hub, a major attraction, a brand able to rotate
         group business in. An STR report, being a record of accommodated performance only, captures
@@ -1124,16 +1120,15 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         project and an infeasible one.
       </p>
       <p>
-        Rushmore's primary method is the build-up approach &mdash; the "build-up based on lodging activity,
+        Rushmore's primary method is the build-up approach: the "build-up based on lodging activity,
         which measures the demand the market is in fact accommodating, by counting it," cross-checked
         against a "build-up based on demand generators, which works the same calculation from the other
         direction by sampling the major sources of travel." The unit throughout is the room night, one
         room occupied for one night. Notably, Rushmore argues the correct allocation tool is segment-level
-        competitive indices rather than simple penetration rates &mdash; a subtlety that separates a
+        competitive indices rather than simple penetration rates, a subtlety that separates a
         rigorous study from index-copying, and one a lender should expect the analyst to have a stated
         position on. In feasibility the analyst then projects the new hotel's capture forward, from its
-        quality, brand, location, and competitive landscape. Assuming a new hotel captures fair share
-        &mdash; index 100 &mdash; on opening day is not analysis. It is an omission.
+        quality, brand, location, and competitive landscape. Assuming a new hotel captures fair share, index 100, on opening day is not analysis. It is an omission.
       </p>
 
       <h2>New hotels ramp; they do not open stabilized</h2>
@@ -1144,7 +1139,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       </p>
       <p>
         John W. O'Neill's Cornell study, "Hotel Occupancy: Is the Three-Year Stabilization Assumption
-        Justified?" (<em>Cornell Hospitality Quarterly</em>, 2011, 52(2):176&ndash;180), analyzed the
+        Justified?" (<em>Cornell Hospitality Quarterly</em>, 2011, 52(2):176-180), analyzed the
         actual occupancy of 3,699 hotels that opened during the previous economic cycle. It found support
         for a three-year build-up: the average U.S. hotel stabilized in about 3.08 years, with 61.9 percent
         stabilizing within three years, along the widely cited path of roughly 77 percent of stabilized
@@ -1161,11 +1156,11 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <caption>How long a new hotel takes to stabilize, by source and market.</caption>
           <thead><tr><th scope="col">Benchmark</th><th scope="col">Time to stabilization / 100 index</th><th scope="col">Source</th></tr></thead>
           <tbody>
-            <tr><td>U.S. average occupancy build-up</td><td>~3.08 years; ~77% / 91% / 100% of stabilized in Years 1&ndash;3</td><td>O'Neill, Cornell Hospitality Quarterly (2011), 3,699 hotels</td></tr>
+            <tr><td>U.S. average occupancy build-up</td><td>~3.08 years; ~77% / 91% / 100% of stabilized in Years 1-3</td><td>O'Neill, Cornell Hospitality Quarterly (2011), 3,699 hotels</td></tr>
             <tr><td>Top-25 markets vs. smaller markets</td><td>3.03 vs. 3.36 years</td><td>O'Neill (2011)</td></tr>
             <tr><td>New-construction RevPAR index to 100 (national)</td><td>~month 17 (58% occupancy in month one)</td><td>STR, 2019 Hotel Data Conference</td></tr>
-            <tr><td>Same &mdash; New York City</td><td>~month 35</td><td>STR (2019)</td></tr>
-            <tr><td>Same &mdash; Miami</td><td>~month 7</td><td>STR (2019)</td></tr>
+            <tr><td>Same: New York City</td><td>~month 35</td><td>STR (2019)</td></tr>
+            <tr><td>Same: Miami</td><td>~month 7</td><td>STR (2019)</td></tr>
             <tr><td>Independent-to-brand conversion</td><td>Index 68 &rarr; 99 by month 33</td><td>STR (2019)</td></tr>
           </tbody>
         </table>
@@ -1174,10 +1169,10 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p>
         STR's own data tells the same story with sharper edges. At the 2019 Hotel Data Conference, STR
-        senior consultant Emmy Hise &mdash; as reported by CoStar and Hotel News Now &mdash; showed that
+        senior consultant Emmy Hise, as reported by CoStar and Hotel News Now, showed that
         occupancy for new-construction properties "starts out slow, hitting 58% occupancy in month one,"
         but reaches a 100 percent RevPAR index at month 17 on average. That average, however, hides
-        enormous dispersion: most new-construction hotels in New York City do not reach a 100 percent
+        enormous dispersion: most new-construction hotels in <a href="/states/new-york/" data-fsc-term="state-new-york">New York</a> City do not reach a 100 percent
         RevPAR index until month 35, while in Miami the index reaches 100 by month seven. Independents
         converting to a brand, Hise noted, started at a 68 index and climbed to 99 by month 33. Ramp is
         market- and asset-specific, and it cannot be read off a comp set's current occupancy.
@@ -1185,11 +1180,11 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         The failure mode is direct. If a lender takes the comp set's current 70 percent occupancy from a
         STAR report as the new hotel's Year 1 occupancy, it overstates Year 1 room revenue by roughly the
-        ramp gap &mdash; a first-year hotel might realistically run 55 to 60 percent against that 70 percent
+        ramp gap: a first-year hotel might realistically run 55 to 60 percent against that 70 percent
         stabilized figure. Overstated revenue inflates NOI, inflates DSCR, and hides the interest-carry
         burden during lease-up, which is exactly the window in which new hotels default. The distinction is
-        live and contested elsewhere too: USCIS has repeatedly challenged the opposite error &mdash; using
-        ramp-phase rather than stabilized revenue &mdash; in EB-5 job-creation models, which only
+        live and contested elsewhere too: USCIS has repeatedly challenged the opposite error, using
+        ramp-phase rather than stabilized revenue, in <a href="/practice-areas/eb-5/" data-fsc-term="eb5-pa">EB-5</a> job-creation models, which only
         underscores that stabilized versus ramp is a real, adjudicated line, not a modeling nicety.
       </p>
 
@@ -1204,8 +1199,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         market's demand growth and latent demand can absorb the new rooms, and over what horizon.
       </p>
       <p>
-        ADR is projected by positioning the subject against the competitive set &mdash; a rate-index
-        assumption &mdash; built up segment by segment and grown with inflation. The interplay is where
+        ADR is projected by positioning the subject against the competitive set, a rate-index
+        assumption, built up segment by segment and grown with inflation. The interplay is where
         yield is won or lost: chasing occupancy at a low ADR can depress RevPAR against holding rate at
         slightly lower occupancy, the same ARI-versus-MPI trade-off a STAR report shows in the rear-view
         mirror, now projected forward rather than observed backward.
@@ -1219,8 +1214,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         rent. The Appraisal Institute defines a special-purpose, or special-design, property as "a limited
         market property with a unique physical design, special construction materials, or a layout that
         restricts its utility to the use for which it was built." Hotels are valued on a going-concern
-        basis, and the business enterprise value &mdash; the flag, the reservation system, the assembled
-        workforce &mdash; must be separated from the real estate, a contested area (the Rushmore Approach
+        basis, and the business enterprise value (the flag, the reservation system, the assembled
+        workforce) must be separated from the real estate, a contested area (the Rushmore Approach
         versus business-enterprise approaches) with direct property-tax and lending consequences. All of
         this is why a benchmark of room-level performance, however clean, cannot stand in for a
         valuation-grade analysis.
@@ -1230,17 +1225,17 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p>
         For SBA-financed hotels the governing document is <!--sba:sop.name-->SOP 50 10 8.1 with Technical Policy Updates<!--/sba:sop.name-->, effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->. It defines a
-        special purpose property as "a limited-market property with a unique physical design, special construction materials, or a layout that restricts its utility to the use for which it was built," and hotels and motels appear on its special-purpose list. For such properties the lender must obtain an independent going-concern appraisal by a Certified General Real Property Appraiser who has completed at least four going-concern appraisals of equivalent special-use property within the last 36 months, and the appraisal must allocate separate values to the individual components of the transaction, including land, building, equipment and intangible assets.
+        <a href="/research-notes/special-purpose-property-risk/" data-fsc-term="special-purpose">special purpose property</a> as "a limited-market property with a unique physical design, special construction materials, or a layout that restricts its utility to the use for which it was built," and hotels and motels appear on its special-purpose list. For such properties the lender must obtain an independent going-concern appraisal by a Certified General Real Property Appraiser who has completed at least four going-concern appraisals of equivalent special-use property within the last 36 months, and the appraisal must allocate separate values to the individual components of the transaction, including land, building, equipment and intangible assets.
       </p>
       <p>
-        Special-purpose treatment also raises the equity requirement. On a 504 loan the borrower contribution rises to 15 percent, against the standard 10, and to 20 percent where the borrower is also a new business; SBA 7(a) start-ups and complete changes of ownership carry a minimum 10 percent
+        Special-purpose treatment also raises the equity requirement. On a 504 loan the borrower contribution rises to 15 percent, against the standard 10, and to 20 percent where the borrower is also a new business; <a href="/practice-areas/sba-7a-504/" data-fsc-term="sba-pa">SBA 7(a)</a> start-ups and complete changes of ownership carry a minimum 10 percent
         injection under SOP 50 10 8.
       </p>
 
       <div class="article-note">
         <h3>A note on the feasibility "may"</h3>
         <p>
-          On the feasibility study itself, the regulatory hook (13 CFR 120.160(b)) is discretionary: the agency or lender <em>may</em> require a feasibility study, and lenders commonly read risk patterns into that discretion &mdash; market saturation by industry and location, a project disproportionately large for its
+          On the feasibility study itself, the regulatory hook (<a href="/research-notes/sba-feasibility-myth/" data-fsc-term="cfr-120-160">13 CFR 120.160</a>(b)) is discretionary: the agency or lender <em>may</em> require a feasibility study, and lenders commonly read risk patterns into that discretion: market saturation by industry and location, a project disproportionately large for its
           community, unique or unproven market concepts, and start-ups. Marketing that calls a feasibility
           study "mandatory for virtually all" SBA hotel loans overstates the literal text. In practice, the
           combination of special-purpose status, going-concern valuation, new-construction or start-up
@@ -1253,9 +1248,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p>
         Hotel lenders demand higher coverage than they do for stabilized asset classes, because hotel
-        revenue re-prices every day. Reported hotel DSCR minimums cluster around 1.35x to 1.50x &mdash;
-        roughly 1.40x for flagged hotels, and often 1.50x or higher for unflagged or independent ones
-        &mdash; well above the 1.25x common in multifamily. CMBS conduits enforce debt-yield floors of
+        revenue re-prices every day. Reported hotel DSCR minimums cluster around 1.35x to 1.50x (roughly 1.40x for flagged hotels, and often 1.50x or higher for unflagged or independent ones) well above the 1.25x common in <a href="/asset-classes/multifamily/" data-fsc-term="hub-multifamily">multifamily</a>. <a href="/practice-areas/conventional-institutional/" data-fsc-term="conventional-pa">CMBS</a> conduits enforce debt-yield floors of
         roughly 9 to 11 percent by flag and service level, and they stress-test with ADR haircuts of 5 to
         10 percent, occupancy caps of 75 to 80 percent even where actuals run higher, and NOI stress of 10
         to 20 percent in either direction. For new-build and transitional hotels there is no trailing twelve
@@ -1272,7 +1265,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         Franchise economics belong in the same analysis. A new-build study has to address brand approval
         and franchise costs; an acquisition or conversion triggers a Property Improvement Plan, the
         brand-mandated renovation whose per-room cost the feasibility study must fold into total project
-        cost and DSCR. The brands &mdash; Marriott, Hilton, IHG, Wyndham, Choice, Best Western &mdash; run
+        cost and DSCR. The brands (Marriott, Hilton, IHG, Wyndham, Choice, Best Western) run
         their own market feasibility evaluation before granting a franchise, separate from the lender's
         study, which is one more reason a benchmark alone will not carry a hotel deal.
       </p>
@@ -1292,8 +1285,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
             <tr><td>The subject's or set's penetration position (MPI / ARI / RGI) and rank</td><td>Segment-level capture for a hotel that does not yet exist</td></tr>
             <tr><td>Segmentation of existing accommodated demand (transient, group, contract)</td><td>The specific demand generators and each one's room-night contribution</td></tr>
             <tr><td>Counts of planned and under-construction supply (Pipeline)</td><td>Whether demand plus latent demand can absorb that pipeline, and over what horizon</td></tr>
-            <tr><td>&mdash;</td><td>Induced and unaccommodated (latent) demand a benchmark never sees</td></tr>
-            <tr><td>&mdash;</td><td>The ramp-up curve, projected stabilized NOI and DSCR, and the ADR a new hotel can actually achieve</td></tr>
+            <tr><td>-</td><td>Induced and unaccommodated (latent) demand a benchmark never sees</td></tr>
+            <tr><td>-</td><td>The ramp-up curve, projected stabilized NOI and DSCR, and the ADR a new hotel can actually achieve</td></tr>
           </tbody>
         </table>
       </div>
@@ -1314,7 +1307,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <div class="capsule">
         <p>
-          The feasibility study is the analysis. The STR report is one data feed into it &mdash;
+          The feasibility study is the analysis. The STR report is one data feed into it,
           indispensable, and not the decision.
         </p>
       </div>
@@ -1326,7 +1319,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         study that runs the build-up demand analysis and a demand-generator inventory, and do not treat a
         STAR report's occupancy as a proxy for Year 1. Before financing, upgrade to a full feasibility
         study with segmented penetration, a market-specific ramp curve, and a USALI ten-year projection
-        that resolves to DSCR under base and downside cases &mdash; benchmarking the ramp against the
+        that resolves to DSCR under base and downside cases, benchmarking the ramp against the
         evidence, with roughly Year 1 at 77 percent, Year 2 at 91 percent, and Year 3 at 100 percent of
         stabilized occupancy as a starting prior, adjusted faster in top-25 metros and near strong
         generators and slower for independents, large full-service hotels, and supply-heavy submarkets. If
@@ -1335,13 +1328,12 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       </p>
       <p>
         For a lender, the rule reduces to one line: treat the STR report as an input, never as the
-        deliverable. Require a segmented, build-up demand analysis; an explicit treatment of latent
-        &mdash; unaccommodated plus induced &mdash; demand; a market-specific ramp curve rather than a
-        day-one-stabilized assumption; and a USALI projection with a stated break-even occupancy and a
+        deliverable. Require a segmented, build-up demand analysis; an explicit treatment of latent, unaccommodated plus induced, demand; a market-specific ramp curve rather than a
+        day-one-stabilized assumption; and a USALI projection with a stated <a href="/research-notes/break-even-occupancy-trap/" data-fsc-term="break-even">break-even occupancy</a> and a
         stressed DSCR. Certain thresholds should change the decision: a projected stabilized DSCR below
         about 1.35x to 1.40x for a flagged hotel, or a CMBS debt yield below 9 to 11 percent, argues for a
-        resize or added equity; a Year 1 stressed DSCR &mdash; modeled with a realistic ramp and the
-        interest carry &mdash; below about 1.0x on a global basis argues for an interest reserve sized to
+        resize or added equity; a Year 1 stressed DSCR, modeled with a realistic ramp and the
+        interest carry, below about 1.0x on a global basis argues for an interest reserve sized to
         the lease-up gap; and a pipeline adding supply faster than demand plus latent demand can absorb
         argues for a longer ramp and a lower underwritten occupancy. Projections built now should be built
         to USALI's 12th Revised Edition, mandatory as of January 1, 2026, with its new Energy, Water, and
@@ -1363,10 +1355,10 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           latent-demand framework; Brian Bisema's segmentation) and representative HVS study tables of
           contents for Mitchell County, North Carolina, University City, Missouri, and a Buffalo convention
           hotel. Ramp evidence is from John W. O'Neill, "Hotel Occupancy: Is the Three-Year Stabilization
-          Assumption Justified?" (Cornell Hospitality Quarterly, 2011, 52(2):176&ndash;180, 3,699 hotels),
+          Assumption Justified?" (Cornell Hospitality Quarterly, 2011, 52(2):176-180, 3,699 hotels),
           a parallel Cornell event study of new entrants, and STR figures presented by Emmy Hise at the
           2019 Hotel Data Conference (reported by CoStar and Hotel News Now). Lending requirements are from
-          SBA <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--> (effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->) and the Appraisal Institute's special-purpose
+          SBA <a href="/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/" data-fsc-term="sop-8-1"><!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--></a> (effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->) and the Appraisal Institute's special-purpose
           definition; CMBS lodging delinquency is from Trepp (March 2026). USALI's 12th Revised Edition
           becomes mandatory January 1, 2026.
         </p>
@@ -1374,13 +1366,13 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           Caveats: CoStar positions the product as "benchmarking" on "historical data" and sells its
           forward Market Forecasts as a separate Tourism Economics product, but no verbatim "this is not a
           feasibility study" disclaimer is published on the open web; the positioning here is drawn from
-          CoStar's product and glossary pages. The SBA feasibility-study requirement is discretionary in the text &mdash; 13 CFR 120.160(b) uses "may" &mdash; while the
+          CoStar's product and glossary pages. The SBA feasibility-study requirement is discretionary in the text, 13 CFR 120.160(b) uses "may", while the
           going-concern-appraisal and equity-injection rules are firmly documented; SBA's current guidance on the "may" clause should be confirmed with the lender before relying on it. Ramp figures are central
           tendencies across large samples, not guarantees, as the New York (month 35) versus Miami
           (month 7) spread makes plain. Whether penetration rates or segment-level competitive indices are
           the correct allocation tool is a live debate; a rigorous study should state its method. Secondary
-          figures &mdash; per-room construction costs, current occupancy, ADR, and RevPAR, and DSCR ranges
-          drawn from consulting and lender sources &mdash; should be re-verified against primary CoStar and
+          figures (per-room construction costs, current occupancy, ADR, and RevPAR, and DSCR ranges
+          drawn from consulting and lender sources) should be re-verified against primary CoStar and
           CBRE data at time of writing.
         </p>
         <p class="reviewed" style="margin-top:16px"><strong>Reviewed and updated:</strong> October 2026.</p>
@@ -1394,6 +1386,40 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </article>
 
   <!-- ============ CTA ============ -->
+  <!--mesh:note-applied--><section class="section" id="applied" aria-labelledby="h-applied">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Applied In</span>
+        <h2 id="h-applied">Where this research is applied.</h2>
+      </div>
+      <p class="lede" style="margin-top:0px;margin-bottom:14px">Asset classes</p>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/hotel/">Hotel &amp; Hospitality Feasibility &amp; Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Practice areas</p>
+      <ul class="link-cols">
+        <li><a href="/practice-areas/sba-7a-504/">SBA Feasibility Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Worked cases</p>
+      <ul class="link-cols">
+        <li><a href="/case-studies/hotel-florida-sba/">Limited-Service Hotel Feasibility Study, Florida: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-georgia-sba/">Limited-Service Hotel Feasibility Study, Georgia: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-nevada-eb5/">Hotel Feasibility Study, Nevada: An EB-5 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-south-carolina-sba/">Limited-Service Hotel Feasibility Study, South Carolina: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-texas-sba/">Limited-Service Hotel Feasibility Study, Texas: An SBA 504 Worked Case</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Related research notes</p>
+      <ul class="link-cols">
+        <li><a href="/research-notes/franchise-vs-non-franchise/">Franchise or Independent? Underwriting the Brand, Not the Binary</a></li>
+        <li><a href="/research-notes/sba-default-economics/">SBA Default Economics: Loss Rates by Industry, and Why the Headline Number Misleads</a></li>
+        <li><a href="/research-notes/special-purpose-property-risk/">Special-Purpose Property Risk: What 1.28 Million SBA Loans Reveal, Industry by Industry</a></li>
+        <li><a href="/research-notes/gas-station-demand-per-capita/">Gas Station Demand Per Capita: Why a Site&#x27;s Gallons No Longer Set Its Value</a></li>
+        <li><a href="/research-notes/how-eb-5-jobs-are-counted/">How EB-5 Jobs Are Actually Counted: The Multiplier, Not the Payroll</a></li>
+        <li><a href="/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/">SOP 50 10 8.1: What Changed for Feasibility Studies</a></li>
+      </ul>
+    </div>
+  </section><!--/mesh:note-applied-->
+
   <section class="cta-band" aria-labelledby="h-cta">
     <div class="frame">
       <h2 id="h-cta">Underwriting a hotel?</h2>
@@ -1448,7 +1474,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </div>
 </section>
 
-<footer class="site-footer">
+<!--chrome:footer--><footer class="site-footer">
   <div class="frame">
     <div class="footer-grid">
       <div class="footer-brand">
@@ -1465,21 +1491,24 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Explore</h4>
+        <h4>Asset Classes</h4>
         <ul>
-          <li><a href="/analytical-framework/">Methodology</a></li>
-          <li><a href="/asset-classes/">Asset Classes</a></li>
-          <li><a href="/states/">Markets</a></li>
-          <li><a href="/research-notes/">Research</a></li>
+          <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
+          <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
+          <li><a href="/asset-classes/hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/">View all asset classes</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Firm</h4>
         <ul>
           <li><a href="/the-practice/">The Practice</a></li>
-          <li><a href="/published-analyses/">Published Analyses</a></li>
-          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/case-studies/">Worked Cases</a></li>
+          <li><a href="/research-notes/">Research Notes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/#contact">Inquiries</a></li>
           <li><a href="/tools/nda/">NDA Generator</a></li>
+          <li><a href="/terms/">Terms</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/accessibility/">Accessibility</a></li>
         </ul>
       </div>
     </div>
@@ -1489,7 +1518,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     </div>
   </div>
 </footer>
-
 <script id="mega-markets-script">
 (function(){
   document.querySelectorAll('.has-mega').forEach(function(wrap){
@@ -1503,7 +1531,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
   });
 })();
-</script>
+</script><!--/chrome:footer-->
 <script id="fsc-contact-script">
 (function(){
   var f=document.getElementById('fsc-contact-form');

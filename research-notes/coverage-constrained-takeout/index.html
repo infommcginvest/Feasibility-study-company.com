@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* =====================================================================
-   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   FEASIBILITY STUDY COMPANY - design system v3 (editorial / JLL language)
    White-dominant, single grotesque family, huge type, crimson accent
    used sparingly, hairline rules, borderless cards, arrow links,
    black footer.
@@ -836,7 +836,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
+<!--chrome:header--><header class="site-header">
   <div class="frame header-row">
     <div class="wordmark">
       <a href="/">
@@ -910,7 +910,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
               <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
               <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
               <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
-              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
               <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
               <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
               <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
@@ -919,13 +918,13 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <div class="mega-col metros">
             <h5>Major Metros</h5>
             <ul class="mega-list">
-              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
-              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
-              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
-              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
-              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
-              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
-              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/houston/">Houston</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/dallas-fort-worth/">Dallas-Fort Worth</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/austin/">Austin</a></li>
+              <li><a href="/states/california/#metros" role="menuitem" data-fsc-pending="/states/california/los-angeles/">Los Angeles</a></li>
+              <li><a href="/states/florida/#metros" role="menuitem" data-fsc-pending="/states/florida/miami/">Miami</a></li>
+              <li><a href="/states/georgia/#metros" role="menuitem" data-fsc-pending="/states/georgia/atlanta/">Atlanta</a></li>
+              <li><a href="/states/north-carolina/#metros" role="menuitem" data-fsc-pending="/states/north-carolina/charlotte/">Charlotte</a></li>
             </ul>
           </div>
           <div class="mega-foot">
@@ -934,10 +933,10 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           </div>
         </div>
       </div>
-      <a class="btn" href="#contact">Inquiries</a>
+      <a href="/#contact" class="btn">Inquiries</a>
     </nav>
   </div>
-</header>
+</header><!--/chrome:header-->
 
 <main id="main">
 
@@ -945,7 +944,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   <section class="hero article-hero">
     <div class="frame">
       <p class="hero-eyebrow">Research Note &middot; Capital Markets</p>
-      <h1>The Coverage-Constrained Takeout: When the Permanent Loan Sizes to Coverage, Not Value</h1><!--fsc:byline-article {"published": "2026-07-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-10">July 10, 2026</time></p><!--/fsc:byline-article-->
+      <h1>The Coverage-Constrained Takeout: When the Permanent Loan Sizes to Coverage, Not Value</h1><!--fsc:byline-article {"published": "2026-07-10", "updated": "2026-07-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-10">July 10, 2026</time></p><!--/fsc:byline-article-->
       <p class="article-deck">
         At today's permanent rates, a 1.25x coverage floor sizes a smaller loan than a 75 percent
         loan-to-value ceiling. The takeout now sizes to coverage, not value, and the equity gap lands
@@ -1024,7 +1023,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         The mechanism that rewired the math is the debt constant. For a fully amortizing loan paid
         monthly, the annual constant is 12 &times; [ (i / 12) &divide; (1 &minus; (1 + i / 12)<sup>&minus;n</sup>) ],
-        where i is the annual note rate and n is the number of monthly payments &mdash; 300 on a 25-year
+        where i is the annual note rate and n is the number of monthly payments: 300 on a 25-year
         amortization, 360 on a 30-year. The constant rises with the rate, and it is the reason a lender's
         coverage loan shrinks even when net operating income has not moved a single dollar.
       </p>
@@ -1072,7 +1071,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         The implication is the analytical heart of this piece: the crossover constant rises with the cap
         rate. A high cap rate produces a high crossover, so coverage does not bind until rates are very
         high and value stays the constraint. A low cap rate produces a low crossover, so coverage binds
-        even at modest rates. Low-cap-rate property, in other words, hits the coverage wall first &mdash;
+        even at modest rates. Low-cap-rate property, in other words, hits the coverage wall first,
         the opposite of where most underwriters instinctively look for rate stress.
       </p>
 
@@ -1129,7 +1128,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p>
         This is where the conventional intuition inverts. The instinct is that high-cap, higher-risk
-        assets, the hotels and older office, are the ones squeezed hardest by the coverage constraint. The
+        assets, the <a href="/asset-classes/hotel/" data-fsc-term="hub-hotel">hotels</a> and older office, are the ones squeezed hardest by the coverage constraint. The
         algebra says the opposite. Hold LTV at 75 percent and the coverage floor at 1.25x, and the
         crossover constant tracks the cap rate directly: a 5.5 percent cap yields a 5.87 percent crossover,
         below a 5 percent rate on either ladder; a 6.5 percent cap yields 6.93 percent, about a 5 percent
@@ -1138,7 +1137,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         the further rates have to climb before coverage binds at all.
       </p>
       <p>
-        Quantify it on a common $1,000,000 of net operating income. Multifamily at a 5.5 percent cap, 75
+        Quantify it on a common $1,000,000 of net operating income. <a href="/asset-classes/multifamily/" data-fsc-term="hub-multifamily">Multifamily</a> at a 5.5 percent cap, 75
         percent LTV, 1.25x coverage, and a roughly 6 percent constant on a 30-year amortization
         capitalizes to $18.18 million of value and a $13.64 million LTV loan, but a coverage loan of only
         about $10.35 million, a gap of roughly $3.29 million, 24 percent below the value loan. A hotel at
@@ -1155,7 +1154,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         <p>
           Coverage binds first where cap rates are lowest. It is the combination of a low cap rate, which
           keeps the value loan large, and a rate-inflated debt constant, which pulls the coverage loan
-          beneath it, that opens the widest gap &mdash; so the safest-looking assets, the bond-like
+          beneath it, that opens the widest gap, so the safest-looking assets, the bond-like
           multifamily and industrial, are the ones the coverage constraint squeezes hardest.
         </p>
       </div>
@@ -1164,7 +1163,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p>
         Generalize the pattern across property types, drawing cap rates from the CBRE H2 2025 U.S. Cap
-        Rate Survey, CRED iQ's CMBS data, Matthews, and Cushman &amp; Wakefield, and loan terms from the
+        Rate Survey, CRED iQ's <a href="/practice-areas/conventional-institutional/" data-fsc-term="conventional-pa">CMBS</a> data, Matthews, and Cushman &amp; Wakefield, and loan terms from the
         Freddie Mac and Fannie Mae multifamily guides, the PeerSense and Janover CMBS references, and
         Select Commercial.
       </p>
@@ -1174,26 +1173,26 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         transaction volume up about 19 percent and debt becoming more available at higher LTVs.
         Multifamily sits around 5.6 to 5.9 percent; apartment transactions averaged 5.7 percent across
         2025, the longest such plateau in 25 years. CRED iQ's CMBS deals in early 2025 show office at 7.4
-        percent, multifamily 5.9, retail 6.7, industrial 6.4, self-storage 6.2, and hotel 7.3. Cushman
+        percent, multifamily 5.9, retail 6.7, industrial 6.4, <a href="/asset-classes/self-storage/" data-fsc-term="hub-self-storage">self-storage</a> 6.2, and hotel 7.3. Cushman
         &amp; Wakefield and Matthews put first-quarter 2026 hotels near 8.2 percent on average, from 6.48
         percent for luxury metro product to 8.60 for flagged economy, and office single-tenant NNN at 7.9
         percent, Class A at 7.6, Class B at 8.0, and Class C between 8.7 and 9.4. Senior housing averaged
-        about 6.8 percent in mid-2025, with assisted living near 7 percent and memory care near 9.6, which
+        about 6.8 percent in mid-2025, with <a href="/asset-classes/assisted-living-and-memory-care/" data-fsc-term="hub-assisted-living">assisted living</a> near 7 percent and memory care near 9.6, which
         PGIM notes prices roughly 150 basis points wide of apartments.
       </p>
 
       <div class="data-table-wrap">
         <table class="data">
-          <caption>Where the binding constraint sits by asset class, at 2025&ndash;2026 conventions. Crossover constant computed at each class's representative cap rate, LTV, and DSCR.</caption>
+          <caption>Where the binding constraint sits by asset class, at 2025-2026 conventions. Crossover constant computed at each class's representative cap rate, LTV, and DSCR.</caption>
           <thead><tr><th scope="col">Class</th><th scope="col">Stabilized cap rate</th><th scope="col">Perm LTV ceiling</th><th scope="col">DSCR floor</th><th scope="col">Debt-yield floor</th><th scope="col">Typical am</th><th scope="col">Crossover constant</th><th scope="col">Binding constraint now</th></tr></thead>
           <tbody>
-            <tr><td>Multifamily (agency)</td><td>~5.5&ndash;5.9%</td><td>70&ndash;75% (agency to 80%)</td><td>1.25x</td><td>8&ndash;9%</td><td>30-yr</td><td>~5.9%</td><td>Coverage (largest gap)</td></tr>
-            <tr><td>Industrial / logistics</td><td>~6.0&ndash;6.5%</td><td>65&ndash;75%</td><td>1.25x</td><td>8&ndash;9%</td><td>25&ndash;30-yr</td><td>~6.9%</td><td>Coverage</td></tr>
-            <tr><td>Self-storage</td><td>~6.0&ndash;6.5%</td><td>65&ndash;70%</td><td>1.25&ndash;1.30x</td><td>~9%</td><td>25&ndash;30-yr</td><td>~6.9%</td><td>Coverage</td></tr>
-            <tr><td>Retail (neighborhood / grocery / NNN)</td><td>~6.5&ndash;7.0% (NNN low-mid 5s)</td><td>65&ndash;70%</td><td>1.25&ndash;1.40x (NNN to 1.05&ndash;1.10x)</td><td>8&ndash;10%</td><td>25&ndash;30-yr</td><td>~7.6%</td><td>Coverage or LTV (tenant-dependent)</td></tr>
-            <tr><td>Office</td><td>~7.6&ndash;9.0%+ (B/C higher)</td><td>55&ndash;65%</td><td>1.30&ndash;1.45x</td><td>10&ndash;12%</td><td>25&ndash;30-yr</td><td>~9.9%</td><td>Debt yield / LTV</td></tr>
-            <tr><td>Hotel / hospitality</td><td>~8.0&ndash;9.0%+ (economy ~10.5%)</td><td>55&ndash;65%</td><td>1.40&ndash;1.50x</td><td>10&ndash;12%</td><td>20&ndash;25-yr</td><td>~9.8%</td><td>LTV / debt yield</td></tr>
-            <tr><td>Senior housing / assisted living</td><td>~6.0&ndash;7.5% (memory care ~9.6%)</td><td>70&ndash;75% (HUD 232 to 80&ndash;85%)</td><td>1.30&ndash;1.45x (HUD 232 1.45x)</td><td>10&ndash;12% (CMBS)</td><td>30&ndash;40-yr (HUD 35&ndash;40)</td><td>~6.9%</td><td>Coverage (mitigated by long am)</td></tr>
+            <tr><td>Multifamily (agency)</td><td>~5.5-5.9%</td><td>70-75% (agency to 80%)</td><td>1.25x</td><td>8-9%</td><td>30-yr</td><td>~5.9%</td><td>Coverage (largest gap)</td></tr>
+            <tr><td>Industrial / logistics</td><td>~6.0-6.5%</td><td>65-75%</td><td>1.25x</td><td>8-9%</td><td>25-30-yr</td><td>~6.9%</td><td>Coverage</td></tr>
+            <tr><td>Self-storage</td><td>~6.0-6.5%</td><td>65-70%</td><td>1.25-1.30x</td><td>~9%</td><td>25-30-yr</td><td>~6.9%</td><td>Coverage</td></tr>
+            <tr><td>Retail (neighborhood / grocery / NNN)</td><td>~6.5-7.0% (NNN low-mid 5s)</td><td>65-70%</td><td>1.25-1.40x (NNN to 1.05-1.10x)</td><td>8-10%</td><td>25-30-yr</td><td>~7.6%</td><td>Coverage or LTV (tenant-dependent)</td></tr>
+            <tr><td>Office</td><td>~7.6-9.0%+ (B/C higher)</td><td>55-65%</td><td>1.30-1.45x</td><td>10-12%</td><td>25-30-yr</td><td>~9.9%</td><td>Debt yield / LTV</td></tr>
+            <tr><td>Hotel / hospitality</td><td>~8.0-9.0%+ (economy ~10.5%)</td><td>55-65%</td><td>1.40-1.50x</td><td>10-12%</td><td>20-25-yr</td><td>~9.8%</td><td>LTV / debt yield</td></tr>
+            <tr><td>Senior housing / assisted living</td><td>~6.0-7.5% (memory care ~9.6%)</td><td>70-75% (HUD 232 to 80-85%)</td><td>1.30-1.45x (HUD 232 1.45x)</td><td>10-12% (CMBS)</td><td>30-40-yr (HUD 35-40)</td><td>~6.9%</td><td>Coverage (mitigated by long am)</td></tr>
           </tbody>
         </table>
         <p class="table-source">Cap rates from CBRE H2 2025, CRED iQ, Matthews, and Cushman &amp; Wakefield; loan terms from the Freddie Mac and Fannie Mae multifamily guides, PeerSense, Janover, and Select Commercial. Conventions blend survey data with lender/advisory ranges; verify with a named lender before relying on them.</p>
@@ -1237,7 +1236,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         percent in August 2020; multifamily cap rates bottomed near 4.2 percent in late 2021; pandemic-era
         commercial coupons ran 3 to 4 percent. New commercial originations now average about 6.24 percent
         against roughly 4.76 percent on the debt they are refinancing, per CRE Daily, a 150 basis-point
-        refinancing shock against maturing loans and a 300-plus basis-point shock against the 2020&ndash;21
+        refinancing shock against maturing loans and a 300-plus basis-point shock against the 2020-21
         trough in which many construction deals were first conceived.
       </p>
 
@@ -1245,7 +1244,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 
       <p>
         Because construction loans float, the borrower typically has to buy an interest-rate cap, and the
-        cost of that protection exploded alongside the rate move &mdash; compounding the takeout problem by
+        cost of that protection exploded alongside the rate move, compounding the takeout problem by
         eroding the net operating income available for debt service during the construction and bridge
         period and by front-loading a large cash outlay just as the equity gap opens. The scale is easiest
         to see through the CRE CLO market. CRED iQ, via Commercial Observer on March 27, 2023, analyzed
@@ -1265,7 +1264,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         <h3>On the $176 billion figure</h3>
         <p>
           A widely cited $176 billion is sometimes attached to interest-rate caps. It is not a rate-cap
-          number. It is the FHFA's 2026 multifamily loan-purchase cap &mdash; $88 billion each for Fannie
+          number. It is the FHFA's 2026 multifamily loan-purchase cap: $88 billion each for Fannie
           Mae and Freddie Mac, $176 billion combined, up 20.5 percent from $73 billion each ($146 billion)
           in 2025, per the FHFA's November 24, 2025 release. That is a GSE lending-capacity ceiling, and a
           meaningful source of takeout liquidity for multifamily, but it has nothing to do with hedging
@@ -1282,7 +1281,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         multifamily debt, 17 percent of roughly $5.0 trillion outstanding, maturing in 2026, down 9
         percent from about $957 billion in 2025, with another $652 billion in 2027. S&amp;P Global Market
         Intelligence, on a broader definition, counts about $998 billion maturing in 2025, $1.148 trillion
-        in 2026, and $1.257 trillion in 2027 &mdash; cumulatively well over $1.5 trillion across the three
+        in 2026, and $1.257 trillion in 2027, cumulatively well over $1.5 trillion across the three
         years. The cushion that carried the market this far is thinning: only about 50 to 55 percent of
         2025 maturities are estimated to have actually paid off, the rest rolled forward, and lenders have
         signaled that the extend-and-pretend practice is largely over. Industry estimates put the
@@ -1330,20 +1329,20 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         ceilings have fallen from 70 to 75 percent to 55 to 65, per Janover and PeerSense; CBRE reported
         debt yields surging 90 basis points to 10.3 percent in the first quarter of 2025. Trepp notes that
         2026 underwriting recalibrates the debt-service test to current coupons and rejects future
-        rent-growth assumptions. Debt yield &mdash; net operating income over loan amount, immune to the
-        rate and amortization games that can flatter a coverage calculation &mdash; is increasingly the
+        rent-growth assumptions. Debt yield (net operating income over loan amount, immune to the
+        rate and amortization games that can flatter a coverage calculation) is increasingly the
         quiet binding constraint on high-cap-rate assets, precisely where coverage does not reach.
       </p>
       <p>
         For the analyst, the discipline follows directly. A pro forma underwritten in the low-rate era
         assumed the LTV ceiling would bind at going-in value; a rigorous 2026 feasibility study has to
         model the coverage-constrained takeout explicitly. Run the coverage loan at the projected takeout
-        rate and amortization &mdash; the amortizing constant, whatever the actual payment structure &mdash;
+        rate and amortization (the amortizing constant, whatever the actual payment structure)
         and set it beside both the LTV loan and the outstanding construction balance. Quantify the equity
         gap, and price the mezzanine or preferred capital required to fill it. For low-cap assets
         (multifamily, industrial, self-storage) the coverage test is now the decisive sizing constraint;
         for high-cap assets (office, hotel) the debt-yield floor has to be modeled alongside LTV. The
-        firm's differentiator is running all three lenses &mdash; LTV, coverage, and debt yield &mdash; at
+        firm's differentiator is running all three lenses (LTV, coverage, and debt yield) at
         stressed takeout rates, not the LTV loan at going-in value.
       </p>
       <p>
@@ -1388,11 +1387,62 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </article>
 
   <!-- ============ CTA ============ -->
+  <!--mesh:note-applied--><section class="section" id="applied" aria-labelledby="h-applied">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Applied In</span>
+        <h2 id="h-applied">Where this research is applied.</h2>
+      </div>
+      <p class="lede" style="margin-top:0px;margin-bottom:14px">Asset classes</p>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/assisted-living-and-memory-care/">Assisted Living &amp; Memory Care Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/hotel/">Hotel &amp; Hospitality Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/multifamily/">Multifamily Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/self-storage/">Self-Storage Feasibility &amp; Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Practice areas</p>
+      <ul class="link-cols">
+        <li><a href="/practice-areas/conventional-institutional/">Conventional &amp; Institutional Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Worked cases</p>
+      <ul class="link-cols">
+        <li><a href="/case-studies/assisted-living-arizona-hud/">Assisted Living Feasibility Study, Arizona: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-arizona-agency/">Multifamily Feasibility Study, Arizona: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/self-storage-arizona-sba/">Self-Storage Feasibility Study, Arizona: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-california-hud/">Assisted Living &amp; Memory Care Feasibility Study, California: A HUD 232 / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-florida-hud/">Assisted Living Feasibility Study, Florida: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-florida-sba/">Limited-Service Hotel Feasibility Study, Florida: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-florida-agency/">Multifamily Feasibility Study, Florida: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/hotel-georgia-sba/">Limited-Service Hotel Feasibility Study, Georgia: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-georgia-agency/">Multifamily Feasibility Study, Georgia: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-hawaii-hud/">Assisted Living Feasibility Study, Hawaii: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/self-storage-indiana-sba/">Self-Storage Feasibility Study, Indiana: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-nevada-eb5/">Hotel Feasibility Study, Nevada: An EB-5 Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-new-york-agency/">Multifamily Feasibility Study, New York: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-north-carolina-hud/">Assisted Living Feasibility Study, North Carolina: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-north-carolina-agency/">Multifamily Feasibility Study, North Carolina: An Agency / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/hotel-south-carolina-sba/">Limited-Service Hotel Feasibility Study, South Carolina: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-texas-hud/">Assisted Living Feasibility Study, Texas: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-texas-sba/">Limited-Service Hotel Feasibility Study, Texas: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/multifamily-texas-agency/">Multifamily Feasibility Study, Texas: An Agency / Conventional Worked Case</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Related research notes</p>
+      <ul class="link-cols">
+        <li><a href="/research-notes/absorption-forensics/">Absorption Forensics: Testing a Lease-Up Assumption Before the Reviewer Does</a></li>
+        <li><a href="/research-notes/office-repurposing/">Office Repurposing: A Field Guide to the Conversions That Actually Pencil</a></li>
+        <li><a href="/research-notes/special-purpose-property-risk/">Special-Purpose Property Risk: What 1.28 Million SBA Loans Reveal, Industry by Industry</a></li>
+        <li><a href="/research-notes/break-even-occupancy-trap/">The Break-Even Occupancy Trap: Why a Deal Can Clear DSCR and Still Not Cash-Flow</a></li>
+        <li><a href="/research-notes/effective-rent-vs-asking-rent/">The Concession Gap: Why Underwriting to Asking Rent Breaks a Multifamily Pro Forma</a></li>
+        <li><a href="/research-notes/franchise-vs-non-franchise/">Franchise or Independent? Underwriting the Brand, Not the Binary</a></li>
+      </ul>
+    </div>
+  </section><!--/mesh:note-applied-->
+
   <section class="cta-band" aria-labelledby="h-cta">
     <div class="frame">
       <h2 id="h-cta">Underwriting a takeout in this rate environment?</h2>
       <p>
-        Our feasibility and market studies size the permanent loan the way this piece describes &mdash;
+        Our feasibility and market studies size the permanent loan the way this piece describes:
         coverage, value, and debt yield, run at stressed takeout rates against the outstanding
         construction balance, with the equity gap and its cost quantified before the lender finds them.
       </p>
@@ -1442,7 +1492,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </div>
 </section>
 
-<footer class="site-footer">
+<!--chrome:footer--><footer class="site-footer">
   <div class="frame">
     <div class="footer-grid">
       <div class="footer-brand">
@@ -1459,21 +1509,24 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Explore</h4>
+        <h4>Asset Classes</h4>
         <ul>
-          <li><a href="/analytical-framework/">Methodology</a></li>
-          <li><a href="/asset-classes/">Asset Classes</a></li>
-          <li><a href="/states/">Markets</a></li>
-          <li><a href="/research-notes/">Research</a></li>
+          <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
+          <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
+          <li><a href="/asset-classes/hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/">View all asset classes</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Firm</h4>
         <ul>
           <li><a href="/the-practice/">The Practice</a></li>
-          <li><a href="/published-analyses/">Published Analyses</a></li>
-          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/case-studies/">Worked Cases</a></li>
+          <li><a href="/research-notes/">Research Notes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/#contact">Inquiries</a></li>
           <li><a href="/tools/nda/">NDA Generator</a></li>
+          <li><a href="/terms/">Terms</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/accessibility/">Accessibility</a></li>
         </ul>
       </div>
     </div>
@@ -1483,7 +1536,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     </div>
   </div>
 </footer>
-
 <script id="mega-markets-script">
 (function(){
   document.querySelectorAll('.has-mega').forEach(function(wrap){
@@ -1497,7 +1549,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
   });
 })();
-</script>
+</script><!--/chrome:footer-->
 <script id="fsc-contact-script">
 (function(){
   var f=document.getElementById('fsc-contact-form');

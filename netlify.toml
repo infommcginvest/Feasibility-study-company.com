@@ -1,10 +1,16 @@
-# Netlify configuration — Feasibility Study Company
+# Netlify configuration - Feasibility Study Company
 # Static site (no build step) served from the repository root, plus one
 # serverless function that handles the contact form.
 
 [build]
   publish = "."
   functions = "netlify/functions"
+  # Lane records (docs/) and page sources (src/) are never published. Netlify
+  # matches file paths without regard to case, so the /docs/* 404 rule below
+  # alone still served /Docs/... and /DOCS/.... A build from git drops both
+  # folders first; a CLI deploy publishes a tree made with
+  #   git archive <ref> | tar -x -C <dir> --exclude=docs --exclude=src
+  command = "rm -rf docs src"
 
 [build.environment]
   NODE_VERSION = "20"
@@ -24,3 +30,48 @@
   to = "/404.html"
   status = 404
   force = true
+
+# A second line for the two common capitalisations (Netlify's own file matching
+# ignores case; these rules do not). docs/ and src/ are not deployed at all.
+[[redirects]]
+  from = "/Docs/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/DOCS/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# Sources and templates under /src are never served (WEB-FSC-6 keeps page
+# sources there), the same way /docs is not.
+[[redirects]]
+  from = "/src/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# Retired asset-class paths, kept alive for anything that linked to them. Each
+# alias answers 301 to the hub that now covers it. /asset-classes/industrial/
+# gets its redirect when the industrial-and-warehouse hub ships, not before.
+[[redirects]]
+  from = "/asset-classes/car-wash/*"
+  to = "/asset-classes/express-car-wash/"
+  status = 301
+
+[[redirects]]
+  from = "/asset-classes/gas-station/*"
+  to = "/asset-classes/gas-station-and-c-store/"
+  status = 301
+
+[[redirects]]
+  from = "/asset-classes/assisted-living/*"
+  to = "/asset-classes/assisted-living-and-memory-care/"
+  status = 301
+
+[[redirects]]
+  from = "/asset-classes/independent-living/*"
+  to = "/asset-classes/assisted-living-and-memory-care/"
+  status = 301

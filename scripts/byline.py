@@ -14,6 +14,12 @@ Edit data/authors/mark-otava.json, run the script, commit the pages it changed.
 
 Display rule (byline-spec.md section 1): a credential renders only when its
 verify_url is an https:// link. With none filled, the name renders alone.
+
+Dates (WEB-FSC-4 ruling 13): a page has one date. On a case or note it is the
+JSON-LD dateModified, shown as "Updated" beside "Published" when the two differ.
+On a hub, state or practice area it is the "updated" param of its line region,
+mirrored into the author JSON-LD as dateModified. On the homepage it is the
+author-ld "date_modified" param. scripts/sitemap.py copies it into lastmod.
 """
 import datetime
 import html
@@ -102,6 +108,8 @@ def time_tag(iso):
 
 def r_byline_article(a, p):
     out = f'<p class="byline">Market analysis by {name_html(a)} &middot; Published {time_tag(p["published"])}'
+    if p.get("updated") and p["updated"] != p["published"]:
+        out += f' &middot; Updated {time_tag(p["updated"])}'
     if p.get("data_as_of"):
         out += f' &middot; Data as of {time_tag(p["data_as_of"])}'
     return out + "</p>"
@@ -219,6 +227,8 @@ def r_author_ld(a, p):
     url = p["url"]
     node = {"@context": "https://schema.org", "@type": "WebPage", "@id": url + "#webpage",
             "url": url, "author": person_ref(a), "publisher": {"@id": ORG_ID}}
+    if p.get("date_modified"):
+        node["dateModified"] = p["date_modified"]
     return '<script type="application/ld+json">\n' + json.dumps(node, indent=2, ensure_ascii=False) + "\n</script>"
 
 
@@ -252,19 +262,22 @@ def wrap(name, inner, params):
     return f"{head}{inner}<!--/fsc:{name}-->"
 
 
-def put(s, name, author, params=None, anchor=None):
-    """Render region NAME. Reuse params stored in an existing marker; insert at anchor(s) if absent."""
+def put(s, name, author, params=None, anchor=None, override=None):
+    """Render region NAME. Reuse params stored in an existing marker; insert at anchor(s) if absent.
+
+    override: params recomputed from the page on every run (they replace stored ones)."""
     m = find_block(s, name)
     if m:
         if m.group(2):
             stored = json.loads(m.group(2))
         else:
             stored = params() if callable(params) else (params or {})
+        stored = dict(stored, **(override or {}))
         inner = RENDER[name.split(":")[0]](author, stored)
         return s[:m.start()] + wrap(name, inner, stored) + s[m.end():]
     if anchor is None:
         raise ValueError(f"region {name} missing and no anchor given")
-    params = params() if callable(params) else (params or {})
+    params = dict(params() if callable(params) else (params or {}), **(override or {}))
     i = anchor(s)
     inner = RENDER[name.split(":")[0]](author, params)
     return s[:i] + wrap(name, inner, params) + s[i:]
@@ -368,8 +381,10 @@ def render_page(rel, s, author, counts):
     url = page_url(rel)
 
     if t in ("case", "note"):
+        # the visible line shows the page's JSON-LD dateModified beside the published date
         s = put(s, "byline-article", author,
-                params=lambda: {"published": ld_value(s, "datePublished")}, anchor=after_h1)
+                params=lambda: {"published": ld_value(s, "datePublished")}, anchor=after_h1,
+                override={"updated": ld_value(s, "dateModified")})
         sig_anchor = end_of_article if t == "note" else after_sources
         s = put(s, "signature", author, anchor=sig_anchor)
         s = article_author(s, author)
@@ -380,7 +395,10 @@ def render_page(rel, s, author, counts):
     elif t in ("asset", "practice", "state"):
         name = "line-state" if t == "state" else "line-asset"
         s = put(s, name, author, params=lambda: {"updated": git_date(rel)}, anchor=before_sources)
-        s = put(s, "author-ld", author, params={"url": url}, anchor=before_head_end)
+        # the page's one date: the visible "Updated" line, mirrored into JSON-LD dateModified
+        updated = json.loads(find_block(s, name).group(2))["updated"]
+        s = put(s, "author-ld", author, params={"url": url}, anchor=before_head_end,
+                override={"date_modified": updated})
     elif t == "home":
         s = put(s, "line-home", author, anchor=end_of_section('<section class="hero">'))
         s = put(s, "author-ld", author, params={"url": url}, anchor=before_head_end)
@@ -393,7 +411,18 @@ def render_page(rel, s, author, counts):
     return s
 
 
+def load_hold():
+    """Pages another lane owns while it rebuilds them (data/site/hold.json): never rewritten or checked."""
+    path = os.path.join(ROOT, "data", "site", "hold.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as fh:
+        return list(json.load(fh).get("pages", []))
+
+
 def main():
+    import fnmatch
+    hold = load_hold()
     check = "--check" in sys.argv[1:]
     author = load_author()
     counts = {"asset-classes": count_dirs("asset-classes"), "states": count_dirs("states"),
@@ -406,7 +435,7 @@ def main():
                 continue
             path = os.path.join(dirpath, fn)
             rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
-            if page_type(rel) is None:
+            if page_type(rel) is None or any(fnmatch.fnmatch(rel, p) for p in hold):
                 continue
             with open(path, encoding="utf-8") as fh:
                 old = fh.read()

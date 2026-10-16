@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* =====================================================================
-   FEASIBILITY STUDY COMPANY — design system v3 (editorial / JLL language)
+   FEASIBILITY STUDY COMPANY - design system v3 (editorial / JLL language)
    White-dominant, single grotesque family, huge type, crimson accent
    used sparingly, hairline rules, borderless cards, arrow links,
    black footer.
@@ -836,7 +836,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
+<!--chrome:header--><header class="site-header">
   <div class="frame header-row">
     <div class="wordmark">
       <a href="/">
@@ -910,7 +910,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
               <li><a href="/states/georgia/" role="menuitem">Georgia</a></li>
               <li><a href="/states/illinois/" role="menuitem">Illinois</a></li>
               <li><a href="/states/pennsylvania/" role="menuitem">Pennsylvania</a></li>
-              <li><a href="/states/ohio/" role="menuitem">Ohio</a></li>
               <li><a href="/states/michigan/" role="menuitem">Michigan</a></li>
               <li><a href="/states/iowa/" role="menuitem">Iowa</a></li>
               <li><a href="/states/minnesota/" role="menuitem">Minnesota</a></li>
@@ -919,13 +918,13 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           <div class="mega-col metros">
             <h5>Major Metros</h5>
             <ul class="mega-list">
-              <li><a href="/states/texas/houston/" role="menuitem">Houston</a></li>
-              <li><a href="/states/texas/dallas-fort-worth/" role="menuitem">Dallas&ndash;Fort Worth</a></li>
-              <li><a href="/states/texas/austin/" role="menuitem">Austin</a></li>
-              <li><a href="/states/california/los-angeles/" role="menuitem">Los Angeles</a></li>
-              <li><a href="/states/florida/miami/" role="menuitem">Miami</a></li>
-              <li><a href="/states/georgia/atlanta/" role="menuitem">Atlanta</a></li>
-              <li><a href="/states/north-carolina/charlotte/" role="menuitem">Charlotte</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/houston/">Houston</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/dallas-fort-worth/">Dallas-Fort Worth</a></li>
+              <li><a href="/states/texas/#metros" role="menuitem" data-fsc-pending="/states/texas/austin/">Austin</a></li>
+              <li><a href="/states/california/#metros" role="menuitem" data-fsc-pending="/states/california/los-angeles/">Los Angeles</a></li>
+              <li><a href="/states/florida/#metros" role="menuitem" data-fsc-pending="/states/florida/miami/">Miami</a></li>
+              <li><a href="/states/georgia/#metros" role="menuitem" data-fsc-pending="/states/georgia/atlanta/">Atlanta</a></li>
+              <li><a href="/states/north-carolina/#metros" role="menuitem" data-fsc-pending="/states/north-carolina/charlotte/">Charlotte</a></li>
             </ul>
           </div>
           <div class="mega-foot">
@@ -934,10 +933,10 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
           </div>
         </div>
       </div>
-      <a class="btn" href="#contact">Inquiries</a>
+      <a href="/#contact" class="btn">Inquiries</a>
     </nav>
   </div>
-</header>
+</header><!--/chrome:header-->
 
 <main id="main">
 
@@ -945,7 +944,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   <section class="hero article-hero">
     <div class="frame">
       <p class="hero-eyebrow">Research Note &middot; SBA</p>
-      <h1>SBA Default Economics: Loss Rates by Industry, and Why the Headline Number Misleads</h1><!--fsc:byline-article {"published": "2026-07-11"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-11">July 11, 2026</time></p><!--/fsc:byline-article-->
+      <h1>SBA Default Economics: Loss Rates by Industry, and Why the Headline Number Misleads</h1><!--fsc:byline-article {"published": "2026-07-11", "updated": "2026-10-10"}--><p class="byline">Market analysis by <a href="/the-practice/#who-stands-behind-the-research">Mark Otava</a> &middot; Published <time datetime="2026-07-11">July 11, 2026</time> &middot; Updated <time datetime="2026-10-10">October 10, 2026</time></p><!--/fsc:byline-article-->
       <p class="article-deck">
         Across roughly 2.1 million loans guaranteed since 1992, the SBA charged off 12.4 percent by count
         but lost only 4.0 percent by dollar. The widest driver of the gap is not the borrower's state or
@@ -1043,7 +1042,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         The table below carries the categories a commercial-real-estate lender or feasibility analyst is
         most likely to underwrite, shown on both bases so the divergence is visible. Note how the count
-        rate runs well above the dollar rate for the real-estate-secured categories: hotels charge off 4.6
+        rate runs well above the dollar rate for the real-estate-secured categories: <a href="/asset-classes/hotel/" data-fsc-term="hub-hotel">hotels</a> charge off 4.6
         percent of loans but only 1.8 percent of dollars, because the loans that fail are the smaller ones.
       </p>
 
@@ -1074,7 +1073,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         Sporting Goods Stores both at 7.4 percent, Furniture Stores at 7.2 percent, and Offices of
         Chiropractors at 6.9 percent. The middle band holds much of the rest of the CRE roster: Fitness and
         Recreational Sports Centers at 5.4 percent ($8.2 billion lent), Drinking Places at 5.1 percent,
-        Convenience Stores at 4.5 percent, Beer, Wine, and Liquor Stores at 3.2 percent, Home Health Care
+        <a href="/asset-classes/gas-station-and-c-store/" data-fsc-term="hub-gas-station">Convenience Stores</a> at 4.5 percent, Beer, Wine, and Liquor Stores at 3.2 percent, Home Health Care
         Services at 3.0 percent, Offices of Physicians at 2.8 percent, and Pharmacies and Drug Stores at 2.7
         percent. Professional and medical uses cluster low: Offices of Dentists at 1.9 percent ($16.4
         billion lent) sit just above hotels and veterinary services at the floor.
@@ -1112,8 +1111,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         which the large loans dominate, sits so far below the count view.
       </p>
       <p>
-        Franchise structure is a related, softer modifier. PeerSense and the reinstated SBA Franchise
-        Directory both indicate that franchised concepts generally default less than independents within
+        Franchise structure is a related, softer modifier. PeerSense and the reinstated SBA <a href="/research-notes/franchise-vs-non-franchise/" data-fsc-term="franchise">Franchise
+        Directory</a> both indicate that franchised concepts generally default less than independents within
         the same NAICS code, though the magnitude varies by brand and only about 40 percent of brands
         disclose Item 19 financial-performance representations, which limits how far the generalization can
         be pushed.
@@ -1135,7 +1134,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       </p>
       <p>
         Directional single-number ranges circulate too, and they are useful only if labeled as such.
-        Crestmont Capital, for instance, offers directional industry guidance placing restaurants at 12 to
+        Crestmont Capital, for instance, offers directional industry guidance placing <a href="/asset-classes/restaurant/" data-fsc-term="hub-restaurant">restaurants</a> at 12 to
         15 percent and healthcare under 1 percent, explicitly as guidance rather than measured rates.
         Headline single figures also travel widely through consumer-finance coverage such as NerdWallet and
         LendingTree. All of these can orient a first conversation, but none substitutes for a rate computed
@@ -1147,7 +1146,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         Geography matters less than industry, and it matters in a way that is easy to misread. On a
         lifetime count basis, Mazeka Labs (FOIA as of December 31, 2025) ranks the highest-default states
-        as Florida, Nevada, Georgia, Alabama, and a cluster of Southern and lower-Midwest states, and the
+        as <a href="/states/florida/" data-fsc-term="state-florida">Florida</a>, <a href="/states/nevada/" data-fsc-term="state-nevada">Nevada</a>, <a href="/states/georgia/" data-fsc-term="state-georgia">Georgia</a>, <a href="/states/alabama/" data-fsc-term="state-alabama">Alabama</a>, and a cluster of Southern and lower-Midwest states, and the
         lowest as a set of sparsely populated Mountain and Northern New England states.
       </p>
 
@@ -1174,8 +1173,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         The ranking is not stable across measurement choices, and that instability is the point. A separate
         GoSBA analysis of fiscal 2020 through 2025 7(a) FOIA data, measuring charge-offs on recent cohorts
-        only and on a dollar basis, produces a nearly different list: Hawaii and New York highest at 2.4
-        percent and Nevada at 2.0 percent, with Alaska (0.2 percent), Puerto Rico (0.3 percent), and Maine
+        only and on a dollar basis, produces a nearly different list: <a href="/states/hawaii/" data-fsc-term="state-hawaii">Hawaii</a> and <a href="/states/new-york/" data-fsc-term="state-new-york">New York</a> highest at 2.4
+        percent and Nevada at 2.0 percent, with Alaska (0.2 percent), Puerto Rico (0.3 percent), and <a href="/states/maine/" data-fsc-term="state-maine">Maine</a>
         (0.4 percent) lowest. Florida, the leader on the lifetime count list, does not top the recent-cohort
         dollar list at all. The two rankings disagree because one is lifetime and count-based while the
         other is recent-cohort and dollar-based, which is exactly the methodological lesson: state rankings
@@ -1340,7 +1339,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         on new Community Advantage lenders.
       </p>
       <p>
-        Two structural responses frame the vintages to come. <span data-historical="SOP 50 10 8">First, SOP 50 10 8, effective June 1, 2025, re-tightened underwriting, so post-June-2025 cohorts should, if history holds, perform better than the 2023 and 2024 vintages that are now the ones to watch.</span> <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--> (effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->) now governs new applications. Second, and pointing the other way on
+        Two structural responses frame the vintages to come. <span data-historical="SOP 50 10 8">First, SOP 50 10 8, effective June 1, 2025, re-tightened underwriting, so post-June-2025 cohorts should, if history holds, perform better than the 2023 and 2024 vintages that are now the ones to watch.</span> <a href="/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/" data-fsc-term="sop-8-1"><!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--></a> (effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->) now governs new applications. Second, and pointing the other way on
         exposure, the July 4, 2026 decoupling (SBA News Release 26-52 and Policy Notice 5000-879058,
         announced May 18, 2026 by Administrator Kelly Loeffler) raised the combined 7(a)-plus-504 ceiling to
         $10 million, allowing up to $5 million in 7(a) plus up to $5 million in 504 when the 7(a) loan is approved first, the highest cap in
@@ -1453,6 +1452,42 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </article>
 
   <!-- ============ CTA ============ -->
+  <!--mesh:note-applied--><section class="section" id="applied" aria-labelledby="h-applied">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Applied In</span>
+        <h2 id="h-applied">Where this research is applied.</h2>
+      </div>
+      <p class="lede" style="margin-top:0px;margin-bottom:14px">Asset classes</p>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/hotel/">Hotel &amp; Hospitality Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/restaurant/">Restaurant &amp; Foodservice Feasibility &amp; Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Practice areas</p>
+      <ul class="link-cols">
+        <li><a href="/practice-areas/sba-7a-504/">SBA Feasibility Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Worked cases</p>
+      <ul class="link-cols">
+        <li><a href="/case-studies/hotel-florida-sba/">Limited-Service Hotel Feasibility Study, Florida: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-georgia-sba/">Limited-Service Hotel Feasibility Study, Georgia: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/restaurant-missouri-sba/">Restaurant Feasibility Study, Missouri: An SBA 7(a) Worked Case</a></li>
+        <li><a href="/case-studies/hotel-nevada-eb5/">Hotel Feasibility Study, Nevada: An EB-5 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-south-carolina-sba/">Limited-Service Hotel Feasibility Study, South Carolina: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-texas-sba/">Limited-Service Hotel Feasibility Study, Texas: An SBA 504 Worked Case</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Related research notes</p>
+      <ul class="link-cols">
+        <li><a href="/research-notes/franchise-vs-non-franchise/">Franchise or Independent? Underwriting the Brand, Not the Binary</a></li>
+        <li><a href="/research-notes/special-purpose-property-risk/">Special-Purpose Property Risk: What 1.28 Million SBA Loans Reveal, Industry by Industry</a></li>
+        <li><a href="/research-notes/hospitality-str-report/">The STR Report Is Not the Analysis: Why a Benchmark Cannot Underwrite a New Hotel</a></li>
+        <li><a href="/research-notes/gas-station-demand-per-capita/">Gas Station Demand Per Capita: Why a Site&#x27;s Gallons No Longer Set Its Value</a></li>
+        <li><a href="/research-notes/how-eb-5-jobs-are-counted/">How EB-5 Jobs Are Actually Counted: The Multiplier, Not the Payroll</a></li>
+        <li><a href="/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/">SOP 50 10 8.1: What Changed for Feasibility Studies</a></li>
+      </ul>
+    </div>
+  </section><!--/mesh:note-applied-->
+
   <section class="cta-band" aria-labelledby="h-cta">
     <div class="frame">
       <h2 id="h-cta">Underwriting an SBA credit?</h2>
@@ -1506,7 +1541,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </div>
 </section>
 
-<footer class="site-footer">
+<!--chrome:footer--><footer class="site-footer">
   <div class="frame">
     <div class="footer-grid">
       <div class="footer-brand">
@@ -1523,21 +1558,24 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Explore</h4>
+        <h4>Asset Classes</h4>
         <ul>
-          <li><a href="/analytical-framework/">Methodology</a></li>
-          <li><a href="/asset-classes/">Asset Classes</a></li>
-          <li><a href="/states/">Markets</a></li>
-          <li><a href="/research-notes/">Research</a></li>
+          <li><a href="/asset-classes/multifamily/">Multifamily</a></li>
+          <li><a href="/asset-classes/self-storage/">Self-Storage</a></li>
+          <li><a href="/asset-classes/hotel/">Hotel</a></li>
+          <li><a href="/asset-classes/">View all asset classes</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Firm</h4>
         <ul>
           <li><a href="/the-practice/">The Practice</a></li>
-          <li><a href="/published-analyses/">Published Analyses</a></li>
-          <li><a href="#contact">Inquiries</a></li>
+          <li><a href="/case-studies/">Worked Cases</a></li>
+          <li><a href="/research-notes/">Research Notes</a></li>
+          <li><a href="/states/">Markets</a></li>
+          <li><a href="/#contact">Inquiries</a></li>
           <li><a href="/tools/nda/">NDA Generator</a></li>
+          <li><a href="/terms/">Terms</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/accessibility/">Accessibility</a></li>
         </ul>
       </div>
     </div>
@@ -1547,7 +1585,6 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     </div>
   </div>
 </footer>
-
 <script id="mega-markets-script">
 (function(){
   document.querySelectorAll('.has-mega').forEach(function(wrap){
@@ -1561,7 +1598,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   wrap.addEventListener('focusout',function(e){if(!wrap.contains(e.relatedTarget))close();});
   });
 })();
-</script>
+</script><!--/chrome:footer-->
 <script id="fsc-contact-script">
 (function(){
   var f=document.getElementById('fsc-contact-form');
