@@ -1,0 +1,1710 @@
+{
+ "archive_sha256": "44c4157cb7a4d50e852c6f476164b1cbe3b6b1dce32ae23c66442ee866d89864",
+ "data": [
+  {
+   "bytes": 59164,
+   "path": "data/markets/audit.csv",
+   "sha256": "6d8f4a97d57d4fa045399121af66a12e0640463dfe7d39d37ca5058b40c14d69"
+  },
+  {
+   "bytes": 314850,
+   "path": "data/markets/foia-county-strings.json",
+   "sha256": "af006d187f2feccd5fe174a751500ce668ac6b751d5df9c6664aa885fd3fd69d"
+  },
+  {
+   "bytes": 29696,
+   "path": "data/markets/foia-geocoding.json",
+   "sha256": "3bbc71eafef739f8d08741d06862198feb1465c9785081889a225d8a4f882613"
+  },
+  {
+   "bytes": 3118,
+   "path": "data/markets/foia-status-counts.json",
+   "sha256": "f26efe89384de2bcb4e504facbb82a222d25d7a6f28ce539c143f5dd9a3a4614"
+  },
+  {
+   "bytes": 3803,
+   "path": "data/markets/foia-status-map.json",
+   "sha256": "0d9f515fc705c68429f8fab198265300159db5b8da50f7f621b4f4940b927b70"
+  },
+  {
+   "bytes": 5112,
+   "path": "data/markets/geo/alabama/auburn.json",
+   "sha256": "c3bce83e5dfbf54c4c3a3d916e0d5724326048337326e34482579219d664673f"
+  },
+  {
+   "bytes": 5782,
+   "path": "data/markets/geo/alabama/birmingham.json",
+   "sha256": "1c9b9bbc45f87a46dac1a183a7b417271914a228ee9d8ae2bac7b505fc3fa51e"
+  },
+  {
+   "bytes": 65428,
+   "path": "data/markets/geo/alabama/black-belt.json",
+   "sha256": "67bbe2eecaf6fc91acd6ce8b2e8b030fa18571b2c0a4e5bdeaf3725696ea8e17"
+  },
+  {
+   "bytes": 65046,
+   "path": "data/markets/geo/alabama/gulf-shores.json",
+   "sha256": "5cfaa99f2fd771bac0696a1b2623fe11002d96fb895180f86f939688056b2bdc"
+  },
+  {
+   "bytes": 5252,
+   "path": "data/markets/geo/alabama/huntsville.json",
+   "sha256": "0c2f86f9fd39c8346f6fa55fa641c09cbf73b1b48564eeac1d431902387ed977"
+  },
+  {
+   "bytes": 5107,
+   "path": "data/markets/geo/alabama/mobile.json",
+   "sha256": "f841c928e93f68b1ad18818cecfa917eba0150a97233c351d2ea30fc3a2c18ed"
+  },
+  {
+   "bytes": 5438,
+   "path": "data/markets/geo/alabama/montgomery.json",
+   "sha256": "83de4f87d52da3de5e419679999c1ef28c84cc59cb64efb25050ff69b5896d8a"
+  },
+  {
+   "bytes": 5322,
+   "path": "data/markets/geo/alabama/tuscaloosa.json",
+   "sha256": "566c14e28b71300d7ab4586a0d797100a02f48035b82a260d348830f71aab118"
+  },
+  {
+   "bytes": 5168,
+   "path": "data/markets/geo/arizona/flagstaff.json",
+   "sha256": "243e7dc75b8a1de5316d0c551fea26dbe1eb39990895ae34588310ebf4b196ae"
+  },
+  {
+   "bytes": 5310,
+   "path": "data/markets/geo/arizona/phoenix.json",
+   "sha256": "b28f45a3c8dec10975ba994602630d619bc76a6edbba04a852613ee7068e9e7a"
+  },
+  {
+   "bytes": 65513,
+   "path": "data/markets/geo/arizona/pinal-county.json",
+   "sha256": "2de8319d4ee78dcdb4a8d53f167a5e6d82390cd3a0198c8b82a7461f3887205a"
+  },
+  {
+   "bytes": 66206,
+   "path": "data/markets/geo/arizona/prescott.json",
+   "sha256": "92777cd989de0a5d36a5646ca62df0c0adbf767334a2ea11565f327482e9ae14"
+  },
+  {
+   "bytes": 65851,
+   "path": "data/markets/geo/arizona/rural.json",
+   "sha256": "eef9bed3a6f567c29a796a3abf94feb6fc1af5d02caf272047d820e905fd8bec"
+  },
+  {
+   "bytes": 3092,
+   "path": "data/markets/geo/arizona/scottsdale.json",
+   "sha256": "0b0636342e2f88be168c3455f5180f3643fdc80b90b82ce9dd680b2ebb8ec7ae"
+  },
+  {
+   "bytes": 5101,
+   "path": "data/markets/geo/arizona/tucson.json",
+   "sha256": "3b1c6314cddfe5f75ff69f38ebfacbaa450d6e810d2919176446c00bea3a6e02"
+  },
+  {
+   "bytes": 5091,
+   "path": "data/markets/geo/arizona/yuma.json",
+   "sha256": "a4e84887f24163b2bcbe4f31200fccc616207425687aff3846d0ab12c52bf100"
+  },
+  {
+   "bytes": 5656,
+   "path": "data/markets/geo/arkansas/fort-smith.json",
+   "sha256": "3d7cc0ee870bced39a3ed860e533ea618581f802253535135799b9aacfd15a4c"
+  },
+  {
+   "bytes": 5140,
+   "path": "data/markets/geo/arkansas/hot-springs.json",
+   "sha256": "1a477077892647a1b27d9b784c656bc879a25fb3b0c9be3917f8322d7c41f566"
+  },
+  {
+   "bytes": 5242,
+   "path": "data/markets/geo/arkansas/jonesboro.json",
+   "sha256": "3d53bb05b7d840016a5b05acc81cc07e107d64cb4a5f82ed289961b739e6e442"
+  },
+  {
+   "bytes": 5742,
+   "path": "data/markets/geo/arkansas/little-rock.json",
+   "sha256": "d9c97ae49a601358a9536d5eefa4cd2ae02e9f9a84b3828527679f08c07b14dc"
+  },
+  {
+   "bytes": 63443,
+   "path": "data/markets/geo/arkansas/mississippi-county.json",
+   "sha256": "d5f4fb3562eb92ef0d18e0771c4aecf9e7d9603ff29cc3744ab0472fa13abeec"
+  },
+  {
+   "bytes": 5582,
+   "path": "data/markets/geo/arkansas/northwest-arkansas.json",
+   "sha256": "d7fb1ab67763f458b116a42af1b3c235989fc0ae44015a6e79ec1fde2b96ec1d"
+  },
+  {
+   "bytes": 63992,
+   "path": "data/markets/geo/arkansas/pine-bluff.json",
+   "sha256": "a01cefead83bbf409a6ddc9585ed45745ce431d9ccf0b59a196b7a67738ca261"
+  },
+  {
+   "bytes": 63605,
+   "path": "data/markets/geo/arkansas/south-arkansas.json",
+   "sha256": "75c72ca9e33f12e55b7f803ee15a0ee509bdc89deab417f9edf0069e0652df2a"
+  },
+  {
+   "bytes": 66533,
+   "path": "data/markets/geo/california/central-valley.json",
+   "sha256": "7f2cd97ae1d294b29d542cdc17a641f46b25a5d5db5af9d702c5ecd88166b113"
+  },
+  {
+   "bytes": 5316,
+   "path": "data/markets/geo/california/inland-empire.json",
+   "sha256": "03688bdefb897e6886fe8cc335fe99f0c652ed70022f01689181ee354af7b84d"
+  },
+  {
+   "bytes": 5324,
+   "path": "data/markets/geo/california/los-angeles.json",
+   "sha256": "d02ff5d682cca6b82fce98c36d97c950e81469d8d98acc648ed6da8184cad157"
+  },
+  {
+   "bytes": 65140,
+   "path": "data/markets/geo/california/orange-county.json",
+   "sha256": "c5b0bb261198eef6f6e2575b17b60e75f268be66a4a78d3c96caad0bf4987d7c"
+  },
+  {
+   "bytes": 5546,
+   "path": "data/markets/geo/california/sacramento.json",
+   "sha256": "bc102848a5c40d1119917aac83bebe4178408d765d9a9e74cdbf1c4483fabcb7"
+  },
+  {
+   "bytes": 5139,
+   "path": "data/markets/geo/california/san-diego.json",
+   "sha256": "fef41f7505e5f742d05a85f53a7ff22f31a3977ec30d0be5f1b0b15894583191"
+  },
+  {
+   "bytes": 66299,
+   "path": "data/markets/geo/california/san-francisco.json",
+   "sha256": "1b73b26f589034ea45ab71838a6ba23e768a0b9a28f8de6cc599f69c922f77bc"
+  },
+  {
+   "bytes": 5376,
+   "path": "data/markets/geo/california/silicon-valley.json",
+   "sha256": "b98f88ecde61c7f744b1f5d9f9e1374dddfeec3bb9670087d6e15a3c73f149cf"
+  },
+  {
+   "bytes": 135821,
+   "path": "data/markets/geo/connecticut/bridgeport.json",
+   "sha256": "8fb7461938fd606f82520a652862b2762e3a42d232c9bda21cb602d5959d90cf"
+  },
+  {
+   "bytes": 137056,
+   "path": "data/markets/geo/connecticut/fairfield-county.json",
+   "sha256": "24daa262f177e94dd609c5e13c5393f681e53dad2dafe6fabfc6b59734f41481"
+  },
+  {
+   "bytes": 136702,
+   "path": "data/markets/geo/connecticut/hartford.json",
+   "sha256": "04565538d2d1babd66baf91fed1c78ca5e46e561f00edb507296e28bf40d7828"
+  },
+  {
+   "bytes": 134931,
+   "path": "data/markets/geo/connecticut/litchfield-hills.json",
+   "sha256": "a035317975cac399ed552bdbb09c1ecc5b10c6da3bcd218478549e313f7080a1"
+  },
+  {
+   "bytes": 136349,
+   "path": "data/markets/geo/connecticut/new-haven.json",
+   "sha256": "8e261360e3290dbc10f10165db4aa1e9b35e029654ed56942c938679ae501e94"
+  },
+  {
+   "bytes": 135310,
+   "path": "data/markets/geo/connecticut/new-london.json",
+   "sha256": "658bbe27a36bc2e7eb8dc660a3138607faebd0aca2aead73171208fdceafdda9"
+  },
+  {
+   "bytes": 134497,
+   "path": "data/markets/geo/connecticut/quiet-corner.json",
+   "sha256": "31dbe3fe27a7174ad75ba428c03681412d49fae8e5452eb3c1124812f93ea343"
+  },
+  {
+   "bytes": 137086,
+   "path": "data/markets/geo/connecticut/waterbury.json",
+   "sha256": "970c35d7a8b8fd1cf0d0e61a53ec5cad9701580af0e998a8755b4c456933b284"
+  },
+  {
+   "bytes": 5438,
+   "path": "data/markets/geo/florida/fort-myers.json",
+   "sha256": "90485fdbbb3a5826a9083cddd64637a3bc65a6459d6d1b43381653534cf16dcf"
+  },
+  {
+   "bytes": 6145,
+   "path": "data/markets/geo/florida/gainesville.json",
+   "sha256": "df36bd17e9e93360f41b73c9fb78cf74cd8f1fd7d15eca683c9148fa409fa4e9"
+  },
+  {
+   "bytes": 5544,
+   "path": "data/markets/geo/florida/jacksonville.json",
+   "sha256": "b2ca32de736c03db2f031c2c75379f6a4a9d7ef25786832b548ed22565475aac"
+  },
+  {
+   "bytes": 5118,
+   "path": "data/markets/geo/florida/lakeland.json",
+   "sha256": "0ac2cfc90024b6d14adbaeb9917cd7aeeb61866b023dd6c664a1532aa53610ed"
+  },
+  {
+   "bytes": 5409,
+   "path": "data/markets/geo/florida/miami.json",
+   "sha256": "5b4054dba81b0908625fc1b1cafd38f708d595918af51e6ed460dc05d43f8c9b"
+  },
+  {
+   "bytes": 5442,
+   "path": "data/markets/geo/florida/orlando.json",
+   "sha256": "a4895fc44f068b3d46e24e3dac6b7aba4355ce08a449f0e7088ebcfb58dda0b3"
+  },
+  {
+   "bytes": 5466,
+   "path": "data/markets/geo/florida/tampa.json",
+   "sha256": "52a75d3b3af1e3450be401f570d38288fec120de2fd5e8c77c71df32ef91ef00"
+  },
+  {
+   "bytes": 5249,
+   "path": "data/markets/geo/florida/the-villages.json",
+   "sha256": "dd0427e3366cfd33326cf9a1780e8daf038fb7706ed13d1631929616232c96fb"
+  },
+  {
+   "bytes": 5610,
+   "path": "data/markets/geo/georgia/albany.json",
+   "sha256": "b0833f98eade02f022b7676dc672678d11f19eb4737c2161dcb48e2358b4f953"
+  },
+  {
+   "bytes": 5430,
+   "path": "data/markets/geo/georgia/athens.json",
+   "sha256": "595ce6da21eb7133d4ac4cbd3c4c3be7ded3d9623c4c253f8c16a84faf8a7bee"
+  },
+  {
+   "bytes": 8187,
+   "path": "data/markets/geo/georgia/atlanta.json",
+   "sha256": "2d81a5281f1dce14d2a6b26d3564083759366720e7f4010aa77adad69162e3c1"
+  },
+  {
+   "bytes": 5831,
+   "path": "data/markets/geo/georgia/augusta.json",
+   "sha256": "767d69b891bacf918ca9c67a0e20b7fe2d94efc2e621747f34720c08de3f3d62"
+  },
+  {
+   "bytes": 5599,
+   "path": "data/markets/geo/georgia/columbus.json",
+   "sha256": "dcc74930fbb7eed5ad41aed79563bd3876284551123c5b4f9dfb759977161d8f"
+  },
+  {
+   "bytes": 5519,
+   "path": "data/markets/geo/georgia/macon.json",
+   "sha256": "086b7ce48e9fdbb1c118774ff895d91c4f4ea900c2d6405ab8e8da9051c8af80"
+  },
+  {
+   "bytes": 5314,
+   "path": "data/markets/geo/georgia/savannah.json",
+   "sha256": "2cb5a7510eefac669a3ad2c550779aa750bcb1b4f9e1c87809d41a0d74cdd43d"
+  },
+  {
+   "bytes": 5838,
+   "path": "data/markets/geo/georgia/valdosta.json",
+   "sha256": "c36778142bb682005cddc11efd3925e0e445a59854af1be15f14b4865249fe5d"
+  },
+  {
+   "bytes": 64274,
+   "path": "data/markets/geo/hawaii/hawaii-island.json",
+   "sha256": "1d45cd7dd5fa6d3b35a2cc0f59b6999b402802c4f796f2e9a97d0fa37795bfe3"
+  },
+  {
+   "bytes": 3085,
+   "path": "data/markets/geo/hawaii/kapolei.json",
+   "sha256": "837cce27c96197bbadc57c943f6fbeccb87d0ed26fc2e976a4b6677f755c9db1"
+  },
+  {
+   "bytes": 63597,
+   "path": "data/markets/geo/hawaii/kauai.json",
+   "sha256": "6ec2d3112a0e4dd5bbe33bb0ae82effe678d2fe62ab9b4c4bcbd1dc5f166c948"
+  },
+  {
+   "bytes": 2835,
+   "path": "data/markets/geo/hawaii/lahaina.json",
+   "sha256": "ac685a10364fa602903e82eb2ec41d5e681973bf29f9eb09e04e37e1d51c7819"
+  },
+  {
+   "bytes": 63889,
+   "path": "data/markets/geo/hawaii/maui.json",
+   "sha256": "f8d70d9fab0d38043d9e7617f31ba8a7444882c810926d3edce07e698314e73a"
+  },
+  {
+   "bytes": 64725,
+   "path": "data/markets/geo/hawaii/oahu.json",
+   "sha256": "b4124d34ed8d5147ffed89aeefed7c95bc1db449efd58407ba589a9aadb40e06"
+  },
+  {
+   "bytes": 5164,
+   "path": "data/markets/geo/illinois/bloomington-normal.json",
+   "sha256": "78cecb7a5a6388e8e8abf76d14302df1990b7483dd5f3ccb5888b21f574f357f"
+  },
+  {
+   "bytes": 5349,
+   "path": "data/markets/geo/illinois/champaign-urbana.json",
+   "sha256": "62088053ec07cb4ec8ea1c8ea2c13af00a0f314dae46dd27343967892a0b552b"
+  },
+  {
+   "bytes": 6571,
+   "path": "data/markets/geo/illinois/chicago.json",
+   "sha256": "fd1a0c50b17dc34cbe1585e7e4b413e2cd3d4e43db293e8194938a391795c63f"
+  },
+  {
+   "bytes": 66512,
+   "path": "data/markets/geo/illinois/metro-east.json",
+   "sha256": "67123a5112e671e662871dd14aa00a20f18a1cc0971bf69888763d7c2a47ae3d"
+  },
+  {
+   "bytes": 5526,
+   "path": "data/markets/geo/illinois/peoria.json",
+   "sha256": "4379e919e4d66d195b8762133f5e825a17751bb545818e602ef589e1cf21b640"
+  },
+  {
+   "bytes": 5648,
+   "path": "data/markets/geo/illinois/quad-cities.json",
+   "sha256": "aad37bae18e46264d17601d83ad688a470ffb37baf91a6641a36a436a7a2fddb"
+  },
+  {
+   "bytes": 5206,
+   "path": "data/markets/geo/illinois/rockford.json",
+   "sha256": "6fd0a8c2cc927aa3d4a570404b55a494f80c6367382ef1c388749e73cc3d8623"
+  },
+  {
+   "bytes": 5221,
+   "path": "data/markets/geo/illinois/springfield.json",
+   "sha256": "2987a326214cef72a5e3ba0d96be442c268bb624bce001e94aef5cd10ab098b8"
+  },
+  {
+   "bytes": 5760,
+   "path": "data/markets/geo/indiana/bloomington.json",
+   "sha256": "2a297ee867af6d56e1e1e71f12b971fd2b00915b3b5c3c286a5d80373b8a759a"
+  },
+  {
+   "bytes": 65977,
+   "path": "data/markets/geo/indiana/carmel.json",
+   "sha256": "756fbe72856d7f92dc887380b74d421f3cefa811c06fb226041db653c1452b11"
+  },
+  {
+   "bytes": 5316,
+   "path": "data/markets/geo/indiana/elkhart.json",
+   "sha256": "db7ebcbb1da1fb18f7ebedf11c48acba6efc514c20d53ee35e5149a7233ae0c1"
+  },
+  {
+   "bytes": 5370,
+   "path": "data/markets/geo/indiana/fort-wayne.json",
+   "sha256": "14bfdf1acef88927f5ad1f27f4fe6779d9edc198d0ac93543a06857e10d974b4"
+  },
+  {
+   "bytes": 6264,
+   "path": "data/markets/geo/indiana/indianapolis.json",
+   "sha256": "f474f8d1abdf353c6c48d97da39f8dc39b1dd9455d12210074c592625b23ffbb"
+  },
+  {
+   "bytes": 5620,
+   "path": "data/markets/geo/indiana/kokomo.json",
+   "sha256": "fb7fe8a24a11c9bd242a2f5eee5ce93904a762b72c652ab6f8e0dba52840ba37"
+  },
+  {
+   "bytes": 65912,
+   "path": "data/markets/geo/indiana/northwest-indiana.json",
+   "sha256": "40aff7ad46ba3c839c59634d4b09ac930c142a9b9c43366db4f7580c161b7987"
+  },
+  {
+   "bytes": 5786,
+   "path": "data/markets/geo/indiana/warsaw.json",
+   "sha256": "2d58d826824603bffbfeff966fa585a96a2b2103be561ea81cdce836085d6756"
+  },
+  {
+   "bytes": 5200,
+   "path": "data/markets/geo/iowa/ames.json",
+   "sha256": "71f26e754e5bb289a350cbab75c8eee2a9496402295c8b1ff154715c9c6686ff"
+  },
+  {
+   "bytes": 5316,
+   "path": "data/markets/geo/iowa/cedar-rapids.json",
+   "sha256": "062121b360d1a2284ea2506f52c6609cf32279b0593fac9d2a8d66b628e063e3"
+  },
+  {
+   "bytes": 2999,
+   "path": "data/markets/geo/iowa/council-bluffs.json",
+   "sha256": "e2601d401f65d7605e8fd8ccec0a9e7110a4d4b330f8b657451a1f6900c00e24"
+  },
+  {
+   "bytes": 5690,
+   "path": "data/markets/geo/iowa/des-moines.json",
+   "sha256": "56f4aed48a37558e8716931ebca9cbc4a9f9f82451a7e314e141f8349b925ad1"
+  },
+  {
+   "bytes": 5209,
+   "path": "data/markets/geo/iowa/iowa-city.json",
+   "sha256": "b32b7c9b7934d9625cc8cc5222603c4c6362717a0c46a4953f6aaedfd3ea83b1"
+  },
+  {
+   "bytes": 5756,
+   "path": "data/markets/geo/iowa/quad-cities.json",
+   "sha256": "390d3e723b4fd89e780bf0927ba5339ca131f9c34f7c3ad3c3a87024bcd9b297"
+  },
+  {
+   "bytes": 5633,
+   "path": "data/markets/geo/iowa/sioux-city.json",
+   "sha256": "ca3961b377ca3218a62a65f2c7ee7b9f8941d3908b695336a655d8ef54410699"
+  },
+  {
+   "bytes": 5348,
+   "path": "data/markets/geo/iowa/waterloo-cedar-falls.json",
+   "sha256": "1a61977e6cacd275992697b12422c2f5c61365ca22bafe8ddf63d0d68ce74a70"
+  },
+  {
+   "bytes": 64280,
+   "path": "data/markets/geo/maine/aroostook.json",
+   "sha256": "d590d18e16d30cbfc4f18ea9fcb84c2b33c3f7ba1d873c89e45ce1023226bcd9"
+  },
+  {
+   "bytes": 5124,
+   "path": "data/markets/geo/maine/bangor.json",
+   "sha256": "f603e636ea17ec6e23e673ca16788804719528e3e9619175d4c7f967b7fdda3a"
+  },
+  {
+   "bytes": 64611,
+   "path": "data/markets/geo/maine/bar-harbor.json",
+   "sha256": "f099a618b374f340c0fd5b764860398ef4632b97f2cf228cb6fa47199a33458b"
+  },
+  {
+   "bytes": 64065,
+   "path": "data/markets/geo/maine/bath.json",
+   "sha256": "a70914cf2cca9734ab9c4e2a986418dba882d701f022a2419b40a6eef12c1ec1"
+  },
+  {
+   "bytes": 5148,
+   "path": "data/markets/geo/maine/lewiston-auburn.json",
+   "sha256": "97ce40fbeb36e2b6ae22dacc3443b92501199b955ba2afd4a64e75d70d44dc69"
+  },
+  {
+   "bytes": 64540,
+   "path": "data/markets/geo/maine/midcoast.json",
+   "sha256": "d22839b0fb7f9096777ffd9989ae2128ac8ea69749bd6656d9b0c2f39a6ef336"
+  },
+  {
+   "bytes": 65508,
+   "path": "data/markets/geo/maine/portland.json",
+   "sha256": "a93fa9691f0859fb624884f95d1b63d7f85a339e242a14538a3eb09718d308e1"
+  },
+  {
+   "bytes": 65141,
+   "path": "data/markets/geo/maine/york-county.json",
+   "sha256": "5d3e26f565e526c19a302170e29a9a9c2591a4ccc37d46a99c2c787a4ae08d8c"
+  },
+  {
+   "bytes": 64911,
+   "path": "data/markets/geo/maryland/baltimore.json",
+   "sha256": "eee1566f6c72a5e72e58f6d1041fd0666d04b81228249f908d424968eeae7e86"
+  },
+  {
+   "bytes": 66484,
+   "path": "data/markets/geo/maryland/bwi-corridor.json",
+   "sha256": "950242bdea3cbf59358957a0dcdbf77e8fea2f8f0c96aa53f340139091695995"
+  },
+  {
+   "bytes": 66268,
+   "path": "data/markets/geo/maryland/eastern-shore.json",
+   "sha256": "fe013e88d57d4d4c832e936369a414c43bbeeeb7349be7672ba1d2a7f2f4b3cb"
+  },
+  {
+   "bytes": 64840,
+   "path": "data/markets/geo/maryland/frederick.json",
+   "sha256": "6fa1a0cb8f093de28c3bd9cfc1fbc8a1d9aa049f0d140386f5ca9da597bac08a"
+  },
+  {
+   "bytes": 64925,
+   "path": "data/markets/geo/maryland/montgomery-county.json",
+   "sha256": "6b1473c7eb5f145e9d6d6bb63215654e711ad3ebd297dc8a4efa3919aac3e016"
+  },
+  {
+   "bytes": 65469,
+   "path": "data/markets/geo/maryland/prince-georges-county.json",
+   "sha256": "ef98cf4f6cec56f4c12e687d7c38c0b59695e6357e906f8b01d54c3a5442d592"
+  },
+  {
+   "bytes": 64898,
+   "path": "data/markets/geo/maryland/southern-maryland.json",
+   "sha256": "621ee26bf19c5c70ec9fdc691d839ee9655d1cb2869a205275f812b3e19e6ee1"
+  },
+  {
+   "bytes": 65065,
+   "path": "data/markets/geo/maryland/western-maryland.json",
+   "sha256": "72f074d85339449a471496b5381019f3646c060998b04ca202aaa8e921a52e92"
+  },
+  {
+   "bytes": 64942,
+   "path": "data/markets/geo/massachusetts/berkshires.json",
+   "sha256": "3733a3e67d3e5d4f251cb7c907f256b15bf722d32bff183ec21aa10637376e63"
+  },
+  {
+   "bytes": 6043,
+   "path": "data/markets/geo/massachusetts/boston.json",
+   "sha256": "31797b00b39da48671f44038d8623c8af4d3d864322b3f5fac650ecac0778d02"
+  },
+  {
+   "bytes": 2900,
+   "path": "data/markets/geo/massachusetts/cambridge.json",
+   "sha256": "607ed132315bb5f6fe1135f23966ef5e268283792536f82ce8ce4b7cdc9063c6"
+  },
+  {
+   "bytes": 65288,
+   "path": "data/markets/geo/massachusetts/cape-cod.json",
+   "sha256": "08d5291a3d20d5738afa4fb95bdf6eceba1c9aa9bc57e37db2dcfb344a0ebdbd"
+  },
+  {
+   "bytes": 3169,
+   "path": "data/markets/geo/massachusetts/lowell.json",
+   "sha256": "527cb1e4a5f61d32e2f8d84fc7a79818554c7e5d3a4f96c0ad6bc9b5657372b6"
+  },
+  {
+   "bytes": 2990,
+   "path": "data/markets/geo/massachusetts/new-bedford.json",
+   "sha256": "3c23096207363701f93f4edbbe725213a0dfe5de98dbeabafe279210d267ce4c"
+  },
+  {
+   "bytes": 65950,
+   "path": "data/markets/geo/massachusetts/springfield.json",
+   "sha256": "469f413aaef2e46e5168bcdfe6985fb86209ac447986c859881d21c3db7af5ae"
+  },
+  {
+   "bytes": 65782,
+   "path": "data/markets/geo/massachusetts/worcester.json",
+   "sha256": "598081c7a94e70f5118e02b531ae7166457ea7e64b1d377a59899a7d627f733f"
+  },
+  {
+   "bytes": 5089,
+   "path": "data/markets/geo/michigan/ann-arbor.json",
+   "sha256": "d77f354e07a47d4fee3354e3378c7dff393b8d585f4490567ffe83ce110b4516"
+  },
+  {
+   "bytes": 5792,
+   "path": "data/markets/geo/michigan/detroit.json",
+   "sha256": "f027178c46756406bec03697836c0283b1a2792ea2d81e8231e9c2923406b641"
+  },
+  {
+   "bytes": 5374,
+   "path": "data/markets/geo/michigan/flint.json",
+   "sha256": "0d4963cbe3ee06a5a0047c4fe057a6d040f99ea84816828e4937f645f8abb3c9"
+  },
+  {
+   "bytes": 5564,
+   "path": "data/markets/geo/michigan/grand-rapids.json",
+   "sha256": "e59ec5eafa327be8e4ab56bec5f186a95245e7cd4926c3ea89fe31c55ea8081d"
+  },
+  {
+   "bytes": 5277,
+   "path": "data/markets/geo/michigan/kalamazoo.json",
+   "sha256": "09d8b9481ac3f404e7607589f72adbd65db5e2c0d87aed5b5d17374081c9ae3c"
+  },
+  {
+   "bytes": 5503,
+   "path": "data/markets/geo/michigan/lansing.json",
+   "sha256": "22733bd213a24c1791d0b04f5b905c3f5e92d4d5a192ebfc3792af905f7895f1"
+  },
+  {
+   "bytes": 67047,
+   "path": "data/markets/geo/michigan/traverse-city.json",
+   "sha256": "4ffe46d9d07179bc5b222751ff0e84bcd8e34c5d8af940a3952ba03e067c05d9"
+  },
+  {
+   "bytes": 66208,
+   "path": "data/markets/geo/michigan/upper-peninsula.json",
+   "sha256": "e22e2be8055ded69150c90fda3ce0273b7fcbd5d8050f2550cab789bcd0f0bcb"
+  },
+  {
+   "bytes": 65385,
+   "path": "data/markets/geo/minnesota/brainerd.json",
+   "sha256": "212ed36b715b1589c9650bacc81f264f0777b787221160d6f4de44897b204db7"
+  },
+  {
+   "bytes": 5424,
+   "path": "data/markets/geo/minnesota/duluth.json",
+   "sha256": "b83415d983ea0ad9803bf71cdec09fa509d0379cf1c363044701973a82afe47c"
+  },
+  {
+   "bytes": 65517,
+   "path": "data/markets/geo/minnesota/iron-range.json",
+   "sha256": "ff3229a738742a38b408db72cfd12b24033c0af35bc22077445f7cc0a8693945"
+  },
+  {
+   "bytes": 5551,
+   "path": "data/markets/geo/minnesota/mankato.json",
+   "sha256": "da3a97e445e8475e2889d2275e553c669627d6adfb1c81aef63b535118756d72"
+  },
+  {
+   "bytes": 7242,
+   "path": "data/markets/geo/minnesota/minneapolis-st-paul.json",
+   "sha256": "585e840977e5f9e369be18bc3eaa2803b0dc5b3ea9bdff4948f288f3252c9a87"
+  },
+  {
+   "bytes": 5483,
+   "path": "data/markets/geo/minnesota/rochester.json",
+   "sha256": "00e92e77ed87a181f180205cb963a11d638c1194961291f9ee38e7fc04a55b0e"
+  },
+  {
+   "bytes": 2845,
+   "path": "data/markets/geo/minnesota/rosemount.json",
+   "sha256": "cd63e1c2e692a0dbdcd775dd6dc67e95c33ad33d42181c7908441d4ddc2c8a80"
+  },
+  {
+   "bytes": 5205,
+   "path": "data/markets/geo/minnesota/st-cloud.json",
+   "sha256": "67e01abd796848e9ee0f1773a4d6097a8cc9250f9ac00a6cc2eae345635c562f"
+  },
+  {
+   "bytes": 66348,
+   "path": "data/markets/geo/mississippi/delta.json",
+   "sha256": "54aa7cd4f79dd61064c2f2cf98630207810ca59f27751acd4b710ef54a6f3bf8"
+  },
+  {
+   "bytes": 64640,
+   "path": "data/markets/geo/mississippi/desoto-county.json",
+   "sha256": "16f350e95c1ec9110f7e4cc3db7c2f39ea3f74d397bda56ee3ec719b392ad4ee"
+  },
+  {
+   "bytes": 64396,
+   "path": "data/markets/geo/mississippi/golden-triangle.json",
+   "sha256": "3046d19b331093a04b1ae40410fa91b684e6ec456ed8d3b42b227c87bdbd7677"
+  },
+  {
+   "bytes": 65429,
+   "path": "data/markets/geo/mississippi/gulf-coast.json",
+   "sha256": "30a216706652f8652e6e4b950f5cd03fa8cc651a51775f81b042a58a74ce148e"
+  },
+  {
+   "bytes": 5863,
+   "path": "data/markets/geo/mississippi/hattiesburg.json",
+   "sha256": "c8a3e0cbc8954c05f57fdc8b3ccaf69e8d67e6436b0cfa1e632a6f97ecaaedde"
+  },
+  {
+   "bytes": 65481,
+   "path": "data/markets/geo/mississippi/jackson.json",
+   "sha256": "4e0c17dc759b06f3b8765353c600831cb25c65bf031fe64fa9d2fe2692173037"
+  },
+  {
+   "bytes": 63769,
+   "path": "data/markets/geo/mississippi/oxford.json",
+   "sha256": "ebab8bc89560f74701d5d74febb0db5364fa2a94c3216a82447c3ba3956e1ce2"
+  },
+  {
+   "bytes": 5449,
+   "path": "data/markets/geo/mississippi/tupelo.json",
+   "sha256": "72abcfe78df6a724d736b8a93195db4145afcafaf246a3caefca7102cdf9c2f4"
+  },
+  {
+   "bytes": 5695,
+   "path": "data/markets/geo/missouri/branson.json",
+   "sha256": "9a55bd803ac240f2c32fa2913202f05b1430ee14d204859492fde3d76717d0bc"
+  },
+  {
+   "bytes": 5207,
+   "path": "data/markets/geo/missouri/columbia.json",
+   "sha256": "e6feda9e9a78b4dd01edade683e16be6578377441d0e906ecf32a4821a4eb05b"
+  },
+  {
+   "bytes": 6118,
+   "path": "data/markets/geo/missouri/jefferson-city.json",
+   "sha256": "a678e59f5d724fd3d1622f18f43a4ef4f85f9337cc90f5d22847d8fa99e47cb3"
+  },
+  {
+   "bytes": 6902,
+   "path": "data/markets/geo/missouri/kansas-city.json",
+   "sha256": "0cc713ca912d7ce36d311b0e5f2cefd46c6efe993e697dcef3c387b30c4f4e31"
+  },
+  {
+   "bytes": 5633,
+   "path": "data/markets/geo/missouri/springfield.json",
+   "sha256": "a68a2f5cef49e522973ca83c96ab0c1bf90f6a7fca80e85e8a19937e5c8fd666"
+  },
+  {
+   "bytes": 5528,
+   "path": "data/markets/geo/missouri/st-joseph.json",
+   "sha256": "1b9b70545847599ae738d241199ed5a5a368c7b1baa0efe1622ee4d299cd198a"
+  },
+  {
+   "bytes": 3211,
+   "path": "data/markets/geo/missouri/st-louis.json",
+   "sha256": "f9e9e6e1a201dcfc4d6ce471415a0b66e55390dab13fe15fb28085f8e2dbb003"
+  },
+  {
+   "bytes": 64579,
+   "path": "data/markets/geo/nevada/carson-city.json",
+   "sha256": "275619f9f1b06ab2580687235975aeb683ba612fbcc08785484dcdd50d7166fb"
+  },
+  {
+   "bytes": 5257,
+   "path": "data/markets/geo/nevada/elko.json",
+   "sha256": "335befd34186cb4ed903f1b30f67783d1d99a4a5bade2cef888f340f09205c53"
+  },
+  {
+   "bytes": 63819,
+   "path": "data/markets/geo/nevada/fernley.json",
+   "sha256": "2466abecc60b17e51e3d4285a6785818ed2cbd51468e475da8b7d26cc3cf8678"
+  },
+  {
+   "bytes": 3088,
+   "path": "data/markets/geo/nevada/lake-tahoe.json",
+   "sha256": "ad3db1ef09af7b05aeec8015be9edc757580a451ceee909346c0dd125f3936d6"
+  },
+  {
+   "bytes": 5181,
+   "path": "data/markets/geo/nevada/las-vegas.json",
+   "sha256": "56f69bc40f730f38abdd9e67c0690b6c182482eaacd2ec42586adf278eef63d2"
+  },
+  {
+   "bytes": 2843,
+   "path": "data/markets/geo/nevada/laughlin.json",
+   "sha256": "35a0d6685ccdc29fb3c54c98bce0c24125765afc07005319873a49ad62cae38c"
+  },
+  {
+   "bytes": 5254,
+   "path": "data/markets/geo/nevada/reno.json",
+   "sha256": "498fbf9ecd71cc2c2a9ad5a0593de5d144a23dfb6e721f8435f64cb23bb9c029"
+  },
+  {
+   "bytes": 63846,
+   "path": "data/markets/geo/nevada/winnemucca.json",
+   "sha256": "88eb7fd65a84d3bba897c9d963fe44ddb6b47c9f0eb96c9f2731b14d040a8089"
+  },
+  {
+   "bytes": 5102,
+   "path": "data/markets/geo/new-hampshire/concord.json",
+   "sha256": "df43ecff33bbc59dfb68bf9ce17553927482c0f32a47ad28fbf8f54a59b807a6"
+  },
+  {
+   "bytes": 65746,
+   "path": "data/markets/geo/new-hampshire/lakes-and-mountains.json",
+   "sha256": "0bebcbe3b7a0619f8da705208637cd71b3472c3557e8f5fa6403fb8714498db9"
+  },
+  {
+   "bytes": 2922,
+   "path": "data/markets/geo/new-hampshire/manchester.json",
+   "sha256": "c46f8d1b946d5dee463ca1608b66258c820309a64b5761efab0a66a91a296474"
+  },
+  {
+   "bytes": 2857,
+   "path": "data/markets/geo/new-hampshire/nashua.json",
+   "sha256": "ae22494f9f80f764d6d94aeeb2098eac902993cf53c35ced84b0b220dd06818f"
+  },
+  {
+   "bytes": 64406,
+   "path": "data/markets/geo/new-hampshire/north-country.json",
+   "sha256": "755e5a93b7dfafe4e15dd674b0d4bed653ff83540f4d1ce5f6361bab82d52aca"
+  },
+  {
+   "bytes": 66319,
+   "path": "data/markets/geo/new-hampshire/portsmouth.json",
+   "sha256": "5c64e119afbea365695158d38d8e31c7bc7714ad9233485e9cb6a8d785645573"
+  },
+  {
+   "bytes": 2868,
+   "path": "data/markets/geo/new-hampshire/salem.json",
+   "sha256": "2bb8c2bc644db0e08ee04c0d490cbb0c9796782fc90cbe553de8b1935690e267"
+  },
+  {
+   "bytes": 5609,
+   "path": "data/markets/geo/new-hampshire/upper-valley.json",
+   "sha256": "2e305480b9573db7d890185bfba6d223424d45bfc43d084d063f876f3215a5af"
+  },
+  {
+   "bytes": 65280,
+   "path": "data/markets/geo/new-jersey/atlantic-city.json",
+   "sha256": "e79f7f0e5332a337b9bc74649895a1255dccce8d9df9a21e6c5f5c707dc2b3d9"
+  },
+  {
+   "bytes": 65347,
+   "path": "data/markets/geo/new-jersey/bergen-county.json",
+   "sha256": "5051721e74ee6550ba5a098cc39a08d85ea1be9acc95fbe9662978634cc5b620"
+  },
+  {
+   "bytes": 65536,
+   "path": "data/markets/geo/new-jersey/camden.json",
+   "sha256": "dfb26cb900381df11ef96f81671ba23f9428658234715cdd8e5ded1635ba9f0d"
+  },
+  {
+   "bytes": 64892,
+   "path": "data/markets/geo/new-jersey/jersey-city.json",
+   "sha256": "ceebdc92419d3f6e2055966d90a65cb925413bb05a7612747635515f21d3d884"
+  },
+  {
+   "bytes": 65413,
+   "path": "data/markets/geo/new-jersey/middlesex-county.json",
+   "sha256": "48d3174ac503bf60fffec539dc2378a58397d35b9353ba4b2011c4536891c9ac"
+  },
+  {
+   "bytes": 65822,
+   "path": "data/markets/geo/new-jersey/monmouth-ocean.json",
+   "sha256": "780ffe231dc584c0f9e95d95f397e2e78303134f5f7cd1b9f21eb99a2e93384c"
+  },
+  {
+   "bytes": 65799,
+   "path": "data/markets/geo/new-jersey/morris-county.json",
+   "sha256": "6d2ba0da6a641357fe7c24ef5e78dade4023b7405d414bd2d31ff21f3a7f35e7"
+  },
+  {
+   "bytes": 64721,
+   "path": "data/markets/geo/new-jersey/newark.json",
+   "sha256": "5b197557740a17777d3cb05bd35bcd2498e6292bd291c70fa0c0e3b418180d83"
+  },
+  {
+   "bytes": 5574,
+   "path": "data/markets/geo/new-mexico/albuquerque.json",
+   "sha256": "837889f6bf8ab45ee5471c53ef4e63705c83a1397a4173b17700b6b33c9a3b90"
+  },
+  {
+   "bytes": 5149,
+   "path": "data/markets/geo/new-mexico/farmington.json",
+   "sha256": "2bfb86b87ae7be8320b4fe61b7096035ab3ef12f776b928c8e029e90aa3a5533"
+  },
+  {
+   "bytes": 64908,
+   "path": "data/markets/geo/new-mexico/las-cruces.json",
+   "sha256": "2e1cc291eca96e59bafb70113ffbf65cbe7f945247f21f871c847b94c2562e90"
+  },
+  {
+   "bytes": 63669,
+   "path": "data/markets/geo/new-mexico/los-alamos.json",
+   "sha256": "8740e9fad13563a08f8267cadea783411f8b9f9d5ff088969e2db8caea3a5622"
+  },
+  {
+   "bytes": 196017,
+   "path": "data/markets/geo/new-mexico/permian-basin.json",
+   "sha256": "25f0980140340e58c12215027f3a28f92f97f49511af8ec4371c34c5ef0907b7"
+  },
+  {
+   "bytes": 3038,
+   "path": "data/markets/geo/new-mexico/rio-rancho.json",
+   "sha256": "4cb005e2a77362bcf57d35f63648eddc1f0e9cd381fc41ef2916162af63ae5f0"
+  },
+  {
+   "bytes": 5085,
+   "path": "data/markets/geo/new-mexico/santa-fe.json",
+   "sha256": "5012045613d8c0da240f4861e9500169e75864bda987edfc58a4b60be0cb955c"
+  },
+  {
+   "bytes": 63966,
+   "path": "data/markets/geo/new-mexico/truth-or-consequences.json",
+   "sha256": "d454df78f8f14c1c50b03333a95734a8817ed1ef5e026bef07da65149362f4b5"
+  },
+  {
+   "bytes": 5757,
+   "path": "data/markets/geo/new-york/albany.json",
+   "sha256": "f19437ee34c36fa5ee8128ea8a62850b1b5303469656129f7e5c12e9df6a4a55"
+  },
+  {
+   "bytes": 67662,
+   "path": "data/markets/geo/new-york/binghamton.json",
+   "sha256": "28bc31765d554e7a676087121a42526165ecc882a971192a2da187617aae3672"
+  },
+  {
+   "bytes": 66115,
+   "path": "data/markets/geo/new-york/buffalo.json",
+   "sha256": "5adf8b7af528142ad16909fc731f787c619fb47005140ecc5afe0e352cfd446d"
+  },
+  {
+   "bytes": 67211,
+   "path": "data/markets/geo/new-york/hudson-valley.json",
+   "sha256": "9bba02541fb8e98a1685f6c9ba2bc73c031fcd118dbee9c6116de62dfff53e95"
+  },
+  {
+   "bytes": 66210,
+   "path": "data/markets/geo/new-york/long-island.json",
+   "sha256": "18f9238b1f7792b665bf14a0d8b4a1ccc779efa00e5ca18953f6cc123890345b"
+  },
+  {
+   "bytes": 65957,
+   "path": "data/markets/geo/new-york/new-york-city.json",
+   "sha256": "88b5422d7e013c51c1d931a4c5fd69a624d57f7586196e457f1b3bbd720415d3"
+  },
+  {
+   "bytes": 5766,
+   "path": "data/markets/geo/new-york/rochester.json",
+   "sha256": "6f340a22d0759df7ca055fb4e69d910cbb849865bc25616fc8af7f321eb6d19b"
+  },
+  {
+   "bytes": 5459,
+   "path": "data/markets/geo/new-york/syracuse.json",
+   "sha256": "02f46c80280396470ad77fbaf3036104416fe033b9991bb8e3033d0249002d3b"
+  },
+  {
+   "bytes": 5500,
+   "path": "data/markets/geo/north-carolina/asheville.json",
+   "sha256": "af04c1e28b7b95f7dfa6a497574ca21b63ab769749f33ea062218044230b1ede"
+  },
+  {
+   "bytes": 6589,
+   "path": "data/markets/geo/north-carolina/charlotte.json",
+   "sha256": "2e08d4aae1e8258be41f4fa878a75cb05a864d5e1c4b9233da9bee88deee2e66"
+  },
+  {
+   "bytes": 5421,
+   "path": "data/markets/geo/north-carolina/fayetteville.json",
+   "sha256": "c80f9d35ac895fda62d13d51ea33955c72bd2376eae458208729d72c51926978"
+  },
+  {
+   "bytes": 6617,
+   "path": "data/markets/geo/north-carolina/greensboro.json",
+   "sha256": "b6538310e827772d3942e476c6afca29069490bd60262e98ed4cea7e1b07ae6c"
+  },
+  {
+   "bytes": 5142,
+   "path": "data/markets/geo/north-carolina/greenville.json",
+   "sha256": "6133fc80fa10080ae0a81a7068f87d8184e68bc79f5fed95ac78f7a93aa69329"
+  },
+  {
+   "bytes": 5547,
+   "path": "data/markets/geo/north-carolina/hickory.json",
+   "sha256": "74af9527e6b31291ea7c6b32b161caa4ed46c84aea484d2cc498b4d484074669"
+  },
+  {
+   "bytes": 5998,
+   "path": "data/markets/geo/north-carolina/raleigh-durham.json",
+   "sha256": "562a0c93de9860986fedf20b0bffc806602c4d26b429cf471ea355b3e67839f7"
+  },
+  {
+   "bytes": 5466,
+   "path": "data/markets/geo/north-carolina/wilmington.json",
+   "sha256": "a5e58c038f2b521ac765284a7774c3930c0b8a65412d1155d3ac6e1836321b0c"
+  },
+  {
+   "bytes": 6260,
+   "path": "data/markets/geo/ohio/columbus.json",
+   "sha256": "8d5a9f140c98988e4b8b473d5b321c69528d0234200fc7f2e59d8ef746653165"
+  },
+  {
+   "bytes": 3229,
+   "path": "data/markets/geo/oklahoma/durant.json",
+   "sha256": "d22ef2d02ad034a021e99f6005c1c49cf610a9adf69ee620e81a3ba7605b0f73"
+  },
+  {
+   "bytes": 3139,
+   "path": "data/markets/geo/oklahoma/edmond.json",
+   "sha256": "8fd62224617ec0f21ee5e739c08b2aa8b17bccfe2487b18a812d900062282e0c"
+  },
+  {
+   "bytes": 5144,
+   "path": "data/markets/geo/oklahoma/lawton.json",
+   "sha256": "8e8936f9166d2c4aadb67329e95f1ea1cc8cee8ffcc71ae946c1d59f2694a96f"
+  },
+  {
+   "bytes": 2978,
+   "path": "data/markets/geo/oklahoma/norman.json",
+   "sha256": "d4324af377eed978c27859622dfab27ac2fde0fcf5dd882e345103344c67b019"
+  },
+  {
+   "bytes": 5937,
+   "path": "data/markets/geo/oklahoma/oklahoma-city.json",
+   "sha256": "a36eda3dd29dc5ebf96c38c61d4003c83e6e3ed2acc8cdb37abfa1d460478330"
+  },
+  {
+   "bytes": 64497,
+   "path": "data/markets/geo/oklahoma/pryor.json",
+   "sha256": "107e29af0ac417f8363178f69fd891980b1216ba9247e378d19f0a147d88da0d"
+  },
+  {
+   "bytes": 5167,
+   "path": "data/markets/geo/oklahoma/stillwater.json",
+   "sha256": "82545ee26e68088b3f8d9a5de053bdedef591db267c2488968a90d6d26d7d356"
+  },
+  {
+   "bytes": 5864,
+   "path": "data/markets/geo/oklahoma/tulsa.json",
+   "sha256": "423a2ba231b973bf11e16deb6f45f910202a767ee8e6cea86146286838a23b5f"
+  },
+  {
+   "bytes": 5226,
+   "path": "data/markets/geo/oregon/bend.json",
+   "sha256": "0682fe7c218f54384966f5868f4478470fefc1d660481addb5a5a2307596ec02"
+  },
+  {
+   "bytes": 67483,
+   "path": "data/markets/geo/oregon/eastern-oregon.json",
+   "sha256": "ea2b242e8079e3430e34f3913b59731fd1e83740bb6b7e50975b1a118f07b0fb"
+  },
+  {
+   "bytes": 5107,
+   "path": "data/markets/geo/oregon/eugene.json",
+   "sha256": "185b242578333acf0929a91c68ec9cf913de5eddcad981666dfed3ff2ae4320d"
+  },
+  {
+   "bytes": 65430,
+   "path": "data/markets/geo/oregon/hillsboro.json",
+   "sha256": "3a939e32e15a57a665a8d93e50f5bc92dba5bdcc1046ef3f781ef5c5472f654b"
+  },
+  {
+   "bytes": 65171,
+   "path": "data/markets/geo/oregon/oregon-coast.json",
+   "sha256": "5731f8d3089a547c81e4525bea051267ccda29c04b49e29e96d5039a73fc1a70"
+  },
+  {
+   "bytes": 6025,
+   "path": "data/markets/geo/oregon/portland.json",
+   "sha256": "50e2c08099f6d459c4886a5dae3da3e87cfc51faa860d2ba6cda60f5ffc92466"
+  },
+  {
+   "bytes": 63375,
+   "path": "data/markets/geo/oregon/prineville.json",
+   "sha256": "aa2a47b17729a9e49726a19c5e506110bdffb0089a760f11ab82e145bbebbc4f"
+  },
+  {
+   "bytes": 5198,
+   "path": "data/markets/geo/oregon/salem.json",
+   "sha256": "9cc93a580620724f4fbc9139b32437242d718b91d2b33b25ff08bd71a40151d7"
+  },
+  {
+   "bytes": 5093,
+   "path": "data/markets/geo/pennsylvania/erie.json",
+   "sha256": "33173f2fc58b3b6536439c12182c23ce706cd250df7f9032bd239854e6dc8fec"
+  },
+  {
+   "bytes": 5468,
+   "path": "data/markets/geo/pennsylvania/harrisburg.json",
+   "sha256": "6604db7a82561266224423ef32efa12afe916e31d2ad9802f76d6820f0e5de8e"
+  },
+  {
+   "bytes": 5128,
+   "path": "data/markets/geo/pennsylvania/lancaster.json",
+   "sha256": "6bdbd3dff94b7439703d8a43fcf381ee00a152b5e11da282443a3dd2a12d50f1"
+  },
+  {
+   "bytes": 65961,
+   "path": "data/markets/geo/pennsylvania/lehigh-valley.json",
+   "sha256": "13143eb58dca4efc7772133f19444bbf2b5a4ad56d68b2e58242b2fb494aeb9f"
+  },
+  {
+   "bytes": 6513,
+   "path": "data/markets/geo/pennsylvania/philadelphia.json",
+   "sha256": "94db2169eadcebfc2d7feb6dfeb37b590b2ba045bb9a71f0c01a178d61c08750"
+  },
+  {
+   "bytes": 5893,
+   "path": "data/markets/geo/pennsylvania/pittsburgh.json",
+   "sha256": "23b75a1f92fa6366018837e8cf322997c7d28dde00e477614be982145385a6f2"
+  },
+  {
+   "bytes": 5437,
+   "path": "data/markets/geo/pennsylvania/scranton-wilkes-barre.json",
+   "sha256": "10cb267f5b8b8e8c61fb9e86c7ce1d37862e85ca360c6930015143c658ad6e41"
+  },
+  {
+   "bytes": 5223,
+   "path": "data/markets/geo/pennsylvania/state-college.json",
+   "sha256": "0a870343c69cead5ae163579b76b5825c3d3641254ddd1673092806d84fa8f2b"
+  },
+  {
+   "bytes": 5421,
+   "path": "data/markets/geo/south-carolina/charleston.json",
+   "sha256": "0c27d36533d035cad412c826a1965ee85f795ebba3fa5a347b8ea65ecf159a30"
+  },
+  {
+   "bytes": 5771,
+   "path": "data/markets/geo/south-carolina/columbia.json",
+   "sha256": "ed91340973ec5f3e9fff470a7c0972a5dd0a5fb213ffb0e731097f653847d637"
+  },
+  {
+   "bytes": 5315,
+   "path": "data/markets/geo/south-carolina/florence.json",
+   "sha256": "e1fc030685ca6ed0af90509f87358ce53a7a420366362bab77dd64874241ed9b"
+  },
+  {
+   "bytes": 5604,
+   "path": "data/markets/geo/south-carolina/greenville.json",
+   "sha256": "ee8980dc6a17dc74bd5806517c1b60f40a474c9baf630353c6f45bf4b0da9300"
+  },
+  {
+   "bytes": 5390,
+   "path": "data/markets/geo/south-carolina/hilton-head.json",
+   "sha256": "342186339a59488203fa0cb0788a92955c0a43fab44c01e39fe63d74e84b7174"
+  },
+  {
+   "bytes": 65756,
+   "path": "data/markets/geo/south-carolina/i-95-corridor.json",
+   "sha256": "2a135533fa46ce8641a0842dcfc7f47c78539eff48a27815a8536186c33bd556"
+  },
+  {
+   "bytes": 5261,
+   "path": "data/markets/geo/south-carolina/myrtle-beach.json",
+   "sha256": "01485b471b663986d782750482d4a60c2f071c41983a2e3d3f5237f018a0ce89"
+  },
+  {
+   "bytes": 5299,
+   "path": "data/markets/geo/south-carolina/spartanburg.json",
+   "sha256": "bb40419288a1fb2cdd6896d86b77a0a461b964a02e3a62a4d47239169422f195"
+  },
+  {
+   "bytes": 65371,
+   "path": "data/markets/geo/states/al.json",
+   "sha256": "f51a467633dc56a102266c7ac43ea7635f196be223e87d7df02bc0f4740beaff"
+  },
+  {
+   "bytes": 65525,
+   "path": "data/markets/geo/states/ar.json",
+   "sha256": "42fe3777dad35ecf058f944d148f2460c17ff3e3d8790b4bf0f63b16ae96fc30"
+  },
+  {
+   "bytes": 64783,
+   "path": "data/markets/geo/states/az.json",
+   "sha256": "7abc8c6f7a2903b44c789d1ac96343bf5cb1ea14849192557189a97902b51d52"
+  },
+  {
+   "bytes": 64551,
+   "path": "data/markets/geo/states/ca.json",
+   "sha256": "4badbecd9380ba31c08bad7ae4a0c57b1bae37d03139d95d3f24818c9e74ba1f"
+  },
+  {
+   "bytes": 65229,
+   "path": "data/markets/geo/states/ct.json",
+   "sha256": "678a1397afedc2a4befc817720a641f36a4984fa4960c6e3d5ba86f8b136a897"
+  },
+  {
+   "bytes": 64820,
+   "path": "data/markets/geo/states/fl.json",
+   "sha256": "0fd5a91309aacf2e92b760441685a00431dd93c722deef9d016a138e00e81118"
+  },
+  {
+   "bytes": 64557,
+   "path": "data/markets/geo/states/ga.json",
+   "sha256": "cbe48c3e782676e492b998275faa687ef8bbeecf3cec12f9f48ac6ac73e39965"
+  },
+  {
+   "bytes": 64583,
+   "path": "data/markets/geo/states/hi.json",
+   "sha256": "1681c8daca9cff6db30a85280efdead2d0c0287c00fa15918b59a52e90c0b8b7"
+  },
+  {
+   "bytes": 65250,
+   "path": "data/markets/geo/states/ia.json",
+   "sha256": "2925fb016cd810956aa0e918ebfa1c4043016e268a18bf70549aabf43d017954"
+  },
+  {
+   "bytes": 64534,
+   "path": "data/markets/geo/states/il.json",
+   "sha256": "522066f463f35a7f495b0ea33a65c5d3ce0e4bb35134a769140e12fdf16f6cab"
+  },
+  {
+   "bytes": 64213,
+   "path": "data/markets/geo/states/in.json",
+   "sha256": "ccbc1d2226926f393c089c9856c15c66d93f110e559a3917d1f84a606288a752"
+  },
+  {
+   "bytes": 64785,
+   "path": "data/markets/geo/states/ma.json",
+   "sha256": "bef1daa80037c349137a107a53bbc400b0f93efbdff666e88cd1f127dbc93bef"
+  },
+  {
+   "bytes": 65950,
+   "path": "data/markets/geo/states/md.json",
+   "sha256": "37e4816f6c284172b0301fd7b335ff972f5901565e457d7e2e25ba88fe111911"
+  },
+  {
+   "bytes": 64988,
+   "path": "data/markets/geo/states/me.json",
+   "sha256": "13eb7ae99ca5509eba42b2ac9ed1c5ff8c88f4fee46e18f02c29310d6afe0a70"
+  },
+  {
+   "bytes": 64320,
+   "path": "data/markets/geo/states/mi.json",
+   "sha256": "0a8e318f6a4970f080693d9cc5e7cb3b73f2220734f23fa1a39ce92cd0708ec4"
+  },
+  {
+   "bytes": 64108,
+   "path": "data/markets/geo/states/mn.json",
+   "sha256": "21df4c44f99c2c0bc541c06f24595930c2d935728c63efbaf24577c00b452aa2"
+  },
+  {
+   "bytes": 64875,
+   "path": "data/markets/geo/states/mo.json",
+   "sha256": "0f88e017e65e623abdac744df38ca3053ee59a930548eeb530e7bda81beaf009"
+  },
+  {
+   "bytes": 65097,
+   "path": "data/markets/geo/states/ms.json",
+   "sha256": "626ab950f76b5ceb15f430a3ec80ec1254d31d6a8ce07515194be4c7a055dfbd"
+  },
+  {
+   "bytes": 64560,
+   "path": "data/markets/geo/states/nc.json",
+   "sha256": "e11f2d0903c4a4cb445a2cb47acee527e1609ba63a717c290da12d34a1ec1c6e"
+  },
+  {
+   "bytes": 65063,
+   "path": "data/markets/geo/states/nh.json",
+   "sha256": "46ee23ad2309cfa58ae76d12359921bf9f362c0149e6af2f273d1f406b7ede3e"
+  },
+  {
+   "bytes": 65242,
+   "path": "data/markets/geo/states/nj.json",
+   "sha256": "9e6251534c687d17ef3f61a6b370c096f7b8b53ff16a942e4225b8e456490c79"
+  },
+  {
+   "bytes": 65751,
+   "path": "data/markets/geo/states/nm.json",
+   "sha256": "0eb13257e72945aa15f60b1eb9e7d780e3db9bd22111c7d7ae04d4dcdce640b1"
+  },
+  {
+   "bytes": 65059,
+   "path": "data/markets/geo/states/nv.json",
+   "sha256": "9b2e5e5e746f49a2fb3c46da8f33e52305560ca30a632b40cab2ad8829133dad"
+  },
+  {
+   "bytes": 64992,
+   "path": "data/markets/geo/states/ny.json",
+   "sha256": "635b1baa97db955fe9a59c5f0910469bc2b3a773ed62b347b67ee70c2ad28eda"
+  },
+  {
+   "bytes": 64815,
+   "path": "data/markets/geo/states/oh.json",
+   "sha256": "df11ebe414bbb6c2f2331fcb0fd99f0ac44446fed2aa9a2fa0800ffda452ab72"
+  },
+  {
+   "bytes": 65722,
+   "path": "data/markets/geo/states/ok.json",
+   "sha256": "269521aa0877f8c085453ca123810ffb24ded803758b99675b1ce6e41386c2dd"
+  },
+  {
+   "bytes": 64904,
+   "path": "data/markets/geo/states/or.json",
+   "sha256": "755dd9a13c8289f8f1670dd07c1f25e2c43c54cbb0104e9026818e429f8d33f6"
+  },
+  {
+   "bytes": 65422,
+   "path": "data/markets/geo/states/pa.json",
+   "sha256": "c790db125c32a879d4696afeeb37cea86400d1c50b1f40fc90f438856695e449"
+  },
+  {
+   "bytes": 65277,
+   "path": "data/markets/geo/states/sc.json",
+   "sha256": "9efb0e2ccc756337a3a5c24d44d571984be699917c23a3093cc6938da49574ba"
+  },
+  {
+   "bytes": 65147,
+   "path": "data/markets/geo/states/tx.json",
+   "sha256": "d4c36aa2bbd1a97a38123e8450c8c7183781d7dee83aa9c0f81301f5d6341765"
+  },
+  {
+   "bytes": 63885,
+   "path": "data/markets/geo/states/ut.json",
+   "sha256": "14b865ef8ae159a2dce9fe21cd01c0e301a70c92a9c46302278373f7d9fef1e2"
+  },
+  {
+   "bytes": 64408,
+   "path": "data/markets/geo/states/wa.json",
+   "sha256": "cdbb1e2fa73100fc4086f3b961d668022c021e0f39465d87b725774de6a7942e"
+  },
+  {
+   "bytes": 63841,
+   "path": "data/markets/geo/states/wi.json",
+   "sha256": "5cf03a1c8839d9c66910fb6d48eba656f273f83bcdbbd185ca0fec355122538e"
+  },
+  {
+   "bytes": 5609,
+   "path": "data/markets/geo/texas/austin.json",
+   "sha256": "15217bee47b5ab199a983f457ea628d8766d57873ee7bc83af0c1a412b952886"
+  },
+  {
+   "bytes": 5383,
+   "path": "data/markets/geo/texas/corpus-christi.json",
+   "sha256": "bab4334a3ac4b1c3fd820d805cce6951f7e458a3baf46f1ec5f8e966a115dd06"
+  },
+  {
+   "bytes": 6454,
+   "path": "data/markets/geo/texas/dallas-fort-worth.json",
+   "sha256": "0088de648b746d48a5880f827f80d61415ff0387ca36a0f0db4010ad91f36e05"
+  },
+  {
+   "bytes": 5216,
+   "path": "data/markets/geo/texas/el-paso.json",
+   "sha256": "359b2466343ed25bb704b78b236044449da9902a04ff301ab20ba9226c952f86"
+  },
+  {
+   "bytes": 6193,
+   "path": "data/markets/geo/texas/houston.json",
+   "sha256": "cef6ae5ab2a5c3bcf06f094b4633493e65e73864c7f50036cc52fcb3be27f074"
+  },
+  {
+   "bytes": 5332,
+   "path": "data/markets/geo/texas/lubbock.json",
+   "sha256": "f565e50d14e6662cbbf4d9cc38beef46ada502cac7c0c3104b6a5aa8ccc2e9d3"
+  },
+  {
+   "bytes": 5227,
+   "path": "data/markets/geo/texas/mcallen.json",
+   "sha256": "17dec94f4509205ab4e255478a683e8ad4da69a09a656c4e4915879377885435"
+  },
+  {
+   "bytes": 5998,
+   "path": "data/markets/geo/texas/san-antonio.json",
+   "sha256": "6036fb7bf90c99285180ebd1adb5b2226e21cf6cceb1e845154f4ecfb2a09e63"
+  },
+  {
+   "bytes": 65472,
+   "path": "data/markets/geo/utah/logan.json",
+   "sha256": "edbdf8f685ad8bb3393e54569db1603b97f5978f8234f0f2cde31c4df3edef5a"
+  },
+  {
+   "bytes": 65249,
+   "path": "data/markets/geo/utah/moab.json",
+   "sha256": "17633d9672df8b2afa37e4b5c54e94f136967ec48f0cbedde06cb7741c17e2d2"
+  },
+  {
+   "bytes": 5475,
+   "path": "data/markets/geo/utah/ogden.json",
+   "sha256": "5d627a64f531073d55d1385d3049e39919d73d3a1a25a70a1c7fab22d28e2288"
+  },
+  {
+   "bytes": 64740,
+   "path": "data/markets/geo/utah/park-city.json",
+   "sha256": "d9423758ecc1d9092002a2c7bab36b8704f0aba0f98829c2ca5d4f196982ca5b"
+  },
+  {
+   "bytes": 66340,
+   "path": "data/markets/geo/utah/provo-orem.json",
+   "sha256": "6e1d462588bcb2410ddad29b3ef2871e63f5f8fae81dadccaecc92b641ec2300"
+  },
+  {
+   "bytes": 5256,
+   "path": "data/markets/geo/utah/salt-lake-city.json",
+   "sha256": "4945a689dd3acdce1f79a04492f5c47ad3586776cd8ca991100d8b01d63a768f"
+  },
+  {
+   "bytes": 65767,
+   "path": "data/markets/geo/utah/st-george.json",
+   "sha256": "b9d79a849b680d1b1dbb5bba71a38a51deed80544c180db570e1dc303ee108dd"
+  },
+  {
+   "bytes": 65362,
+   "path": "data/markets/geo/utah/uinta-basin.json",
+   "sha256": "e6cd98efa9cf1f2065d0be5f7d30c5438edbd5ddc8dc28eb76f4ac949fbf6b04"
+  },
+  {
+   "bytes": 2945,
+   "path": "data/markets/geo/washington/bellevue.json",
+   "sha256": "d9c93676d654bc65ef94654dadce059a92daa3a5a362d7c0f5eb8f7a49b15eec"
+  },
+  {
+   "bytes": 64914,
+   "path": "data/markets/geo/washington/columbia-basin.json",
+   "sha256": "ff3bcdbbd55776fe72181f2b7003bb84fecd30840c945274a5b6aff93e440b5e"
+  },
+  {
+   "bytes": 65204,
+   "path": "data/markets/geo/washington/everett.json",
+   "sha256": "e8528726cdf3d349c751c0de9e2950da5501cb99512f8c34ba78b2cc413bd449"
+  },
+  {
+   "bytes": 5383,
+   "path": "data/markets/geo/washington/seattle.json",
+   "sha256": "7227319999980da42ffaff5e516f3db15eeda593bc08ebde98aad9fb40406053"
+  },
+  {
+   "bytes": 5375,
+   "path": "data/markets/geo/washington/spokane.json",
+   "sha256": "8c1407adf7543215fd32736e4c26e6574e9f2b46705b82478c241407c0604d9c"
+  },
+  {
+   "bytes": 5336,
+   "path": "data/markets/geo/washington/tri-cities.json",
+   "sha256": "cfe4e12c4a676a29cf950f48d9ab71491b489c905fd0abc40389bde7c15d5baf"
+  },
+  {
+   "bytes": 65364,
+   "path": "data/markets/geo/washington/vancouver.json",
+   "sha256": "3ebbd549c4d547f536a96ff7ea68195a5827b777e4ff472240f0f46564f7298c"
+  },
+  {
+   "bytes": 5617,
+   "path": "data/markets/geo/washington/yakima.json",
+   "sha256": "a7f33a04a71ebdf0e0a04fba24ad87fccd8280dea528ffe638dc37df91e94f84"
+  },
+  {
+   "bytes": 5475,
+   "path": "data/markets/geo/wisconsin/eau-claire.json",
+   "sha256": "e34b26b7357338169931827114a03aa640821d345398ecc5036d219f04efcc69"
+  },
+  {
+   "bytes": 5802,
+   "path": "data/markets/geo/wisconsin/green-bay.json",
+   "sha256": "ef8267b72b20fdf1f1e7b3e78f7d744cd3165cce52f1f019a261e9a546cb73b6"
+  },
+  {
+   "bytes": 65925,
+   "path": "data/markets/geo/wisconsin/kenosha-racine.json",
+   "sha256": "ecc3d4b48d8fa397c40ca7387565b75da6b566fa10fa8b69ab1bb0428f126166"
+  },
+  {
+   "bytes": 65871,
+   "path": "data/markets/geo/wisconsin/madison.json",
+   "sha256": "d032f45739d963517a1b5fd3259d77cc5fdf8026dd6fbe56ffd9432126b17d50"
+  },
+  {
+   "bytes": 5562,
+   "path": "data/markets/geo/wisconsin/milwaukee.json",
+   "sha256": "d5cee47332587f4ea97c22be74d132b0c10e2e813ffbd83ff16a0edb349727e8"
+  },
+  {
+   "bytes": 67592,
+   "path": "data/markets/geo/wisconsin/wausau.json",
+   "sha256": "7d528b9328301b2a0d1305aa35cc2027ea1604fdc654f1bb73d1c48243927533"
+  },
+  {
+   "bytes": 3645,
+   "path": "data/markets/geo/wisconsin/wisconsin-dells.json",
+   "sha256": "fee90f924cc3e3bb67e0d6f3c561f1411bf98a4cee37f762f0913653dd75da6a"
+  },
+  {
+   "bytes": 389237,
+   "path": "data/markets/geographies.json",
+   "sha256": "05ee74edbf4ff897b597728e1d8fcef4b6500bcc2ef421881cf23878857d72b8"
+  },
+  {
+   "bytes": 74614,
+   "path": "data/markets/naics-evidence.json",
+   "sha256": "50a8c99598d28dedba71afb4dbfdc21b42b0e239a9c5d3a9a38a20d7ea15efd6"
+  },
+  {
+   "bytes": 34923,
+   "path": "data/markets/naics-map.json",
+   "sha256": "65f58bc80301620d40017812580fa374892474cf457279cb6b9544c40e9c054e"
+  },
+  {
+   "bytes": 18728,
+   "path": "data/markets/reconciliation.json",
+   "sha256": "34e41570546f780d63add588c4645e4616356729c82b24343b652bb4693a7e50"
+  },
+  {
+   "bytes": 1288884,
+   "path": "data/markets/series/sba504_cancelled.json",
+   "sha256": "731d68e3594fa28b491e48b86504bd7ab72de0c85de0fcc2dc420690050cb915"
+  },
+  {
+   "bytes": 1376592,
+   "path": "data/markets/series/sba504_chgoff_amt.json",
+   "sha256": "5f50c08c362b05cb9c95aa21c22407db8a107321465d4a5c95af954c98337b16"
+  },
+  {
+   "bytes": 747134,
+   "path": "data/markets/series/sba504_chgoff_amt_rate.json",
+   "sha256": "783fc3f745cf65c52c037d058a4ca8bc67576879885e7061c08094785d8bd633"
+  },
+  {
+   "bytes": 1286836,
+   "path": "data/markets/series/sba504_chgoff_n.json",
+   "sha256": "00e8d78019f2f5585d4be2334c9f2f445bca110ac0b7dc19aaab9c8dd27c2e8f"
+  },
+  {
+   "bytes": 721481,
+   "path": "data/markets/series/sba504_chgoff_rate.json",
+   "sha256": "c08ebcae95cc12a0010eb3a01dca147717801cbb9d9e9c3662a12642d748d490"
+  },
+  {
+   "bytes": 1298155,
+   "path": "data/markets/series/sba504_disbursed.json",
+   "sha256": "644f02216b4f0dcb67736bf71e15803654e7ea620033588de504b791ac5e2320"
+  },
+  {
+   "bytes": 1299082,
+   "path": "data/markets/series/sba504_loans.json",
+   "sha256": "74362300f380813e75d993c983b6cd6c0b4c331cc649c73c9281fce83f6d88d6"
+  },
+  {
+   "bytes": 1646099,
+   "path": "data/markets/series/sba504_volume.json",
+   "sha256": "1814ef062240c4c514599c3f3cbc92b235afb54db6e5bf005392b8d1cda34baf"
+  },
+  {
+   "bytes": 1298835,
+   "path": "data/markets/series/sba7a_cancelled.json",
+   "sha256": "f170225a41cc0312865e57b92fb86592e5a43f14698a7ee2e84e5f3d408fc217"
+  },
+  {
+   "bytes": 1557287,
+   "path": "data/markets/series/sba7a_chgoff_amt.json",
+   "sha256": "611ae6be023c769ef671bb198f5e695748bd92d5062614ac56875645484c305c"
+  },
+  {
+   "bytes": 736951,
+   "path": "data/markets/series/sba7a_chgoff_amt_rate.json",
+   "sha256": "01656661655e4f2e8c532c8a0d121521b13004e5f056160c1b48fecef59deba1"
+  },
+  {
+   "bytes": 1294228,
+   "path": "data/markets/series/sba7a_chgoff_n.json",
+   "sha256": "f750a0b91482f42e0b83c33e9b7204083129d7697aa6d79e0dff020f9f2f9c45"
+  },
+  {
+   "bytes": 690760,
+   "path": "data/markets/series/sba7a_chgoff_rate.json",
+   "sha256": "f74affe70bfb1efa13739eeec9843400d10e451d3e12b03c4ff0ef8f3bf922b2"
+  },
+  {
+   "bytes": 1328890,
+   "path": "data/markets/series/sba7a_disbursed.json",
+   "sha256": "3b1bbd87d478876dedc20018636ad5e617afed6c25f518f0d6807efeb2a3bbef"
+  },
+  {
+   "bytes": 1329500,
+   "path": "data/markets/series/sba7a_loans.json",
+   "sha256": "2335d2215b3020e37b84c11302c30156c129bed26e30ff0498c95f8803e3d7b0"
+  },
+  {
+   "bytes": 1919747,
+   "path": "data/markets/series/sba7a_volume.json",
+   "sha256": "0368f6caf68005675a8869c3fa5b1e27a799a176e230c08ae6b5487701a62fd8"
+  },
+  {
+   "bytes": 43431,
+   "path": "data/markets/sources.json",
+   "sha256": "16cd4375f4c41cee470edfabdac1c20f2f4ebf62eaf3783827c2906644acf67a"
+  }
+ ],
+ "data_manifest_sha256": "2fb6f1d6a145bc4afe1934518f396ba4aefb3f5ad42ad7ca749e5dd9cb30a9b3",
+ "head": "210aa6aa7c40ec95bff91b7c1552e5254e02352e",
+ "raw": [
+  {
+   "bytes": 24529,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/7a_504_foia_data_dictionary.xlsx",
+   "retrieved_at": "2026-10-16T09:37:35Z",
+   "same": true,
+   "sha256_manifest": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+   "sha256_now": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx"
+  },
+  {
+   "bytes": 53616900,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/FOIA_504_FY1991_FY2009_asof_260630.csv",
+   "retrieved_at": "2026-10-16T09:37:21Z",
+   "same": true,
+   "sha256_manifest": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+   "sha256_now": "acaaa380618624c73df7c1d9706a215048db5d435e1a79233e13e0e955d71595",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv"
+  },
+  {
+   "bytes": 59412738,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/FOIA_504_FY2010_Present_asof_260630.csv",
+   "retrieved_at": "2026-10-16T09:37:22Z",
+   "same": true,
+   "sha256_manifest": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4",
+   "sha256_now": "8c0e15414217254bcde2a253a8f17418b3dc65ce78dbc56cc1f1ab05c4a05ad4",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv"
+  },
+  {
+   "bytes": 146416885,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+   "retrieved_at": "2026-10-16T09:37:24Z",
+   "same": true,
+   "sha256_manifest": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+   "sha256_now": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv"
+  },
+  {
+   "bytes": 318425094,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+   "retrieved_at": "2026-10-16T09:37:28Z",
+   "same": true,
+   "sha256_manifest": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+   "sha256_now": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv"
+  },
+  {
+   "bytes": 255101999,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+   "retrieved_at": "2026-10-16T09:37:32Z",
+   "same": true,
+   "sha256_manifest": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+   "sha256_now": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv"
+  },
+  {
+   "bytes": 181130871,
+   "path": "_cache/markets/raw/sba_foia/2026-06-30/FOIA_7a_FY2020_Present_asof_260630.csv",
+   "retrieved_at": "2026-10-16T09:37:34Z",
+   "same": true,
+   "sha256_manifest": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe",
+   "sha256_now": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe",
+   "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv"
+  }
+ ],
+ "raw_files_all_unchanged": true,
+ "sources": {
+  "bea_cainc1": {
+   "reason": "apps.bea.gov robots.txt disallows /regional/zip/CAINC1.zip for user-agent * (RFC 9309 group: * -> 16 rule(s))",
+   "status": "NOT FETCHED",
+   "vintage": "2024"
+  },
+  "bea_cainc1_api": {
+   "reason": "BEA_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:37Z was refused (https://apps.bea.gov/api/data?method=GETDATASETLIST&ResultFormat=JSON -> HTTP 200, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "bls_qcew": {
+   "reason": "data.bls.gov robots.txt disallows /cew/data/files/2025/csv/2025_annual_singlefile.zip for user-agent * (RFC 9309 group: * -> 1 rule(s))",
+   "status": "NOT FETCHED",
+   "vintage": "2025 annual"
+  },
+  "census_acs1": {
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "census_acs5": {
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "census_bps": {
+   "reason": "www2.census.gov robots.txt disallows /econ/bps/County/co2025a.txt for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "status": "NOT FETCHED",
+   "vintage": "2025 annual"
+  },
+  "census_cbp": {
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "census_cbp_bulk": {
+   "reason": "www2.census.gov robots.txt disallows /programs-surveys/cbp/datasets/2023/cbp23co.zip for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "status": "NOT FETCHED",
+   "vintage": "2023"
+  },
+  "census_dec2020_ct": {
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "census_delineation": {
+   "reason": "www2.census.gov robots.txt disallows /programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "status": "NOT FETCHED",
+   "vintage": "July 2023"
+  },
+  "census_geoinfo": {
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "census_pep": {
+   "reason": "www2.census.gov robots.txt disallows /programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv for user-agent * (RFC 9309 group: *,ravencrawler -> 1 rule(s))",
+   "status": "NOT FETCHED",
+   "vintage": "V2025"
+  },
+  "census_pep_api": {
+   "reason": "CENSUS_API_KEY is not set, and a keyless request observed at 2026-10-16T10:38:34Z was refused (https://api.census.gov/data/2023/cbp?get=ESTAB&for=us:1&NAICS2017=721110 -> HTTP 302, Location https://api.census.gov/data/missing_key.html, X-DataWebAPI-KeyError 1, empty body); see probes in the manifest",
+   "status": "NOT FETCHED",
+   "vintage": null
+  },
+  "hud_fmr": {
+   "reason": "www.huduser.gov: challenge (AWS WAF bot check on robots.txt)",
+   "status": "NOT FETCHED",
+   "vintage": "FY2027"
+  },
+  "sba_foia": {
+   "reason": null,
+   "status": "FETCHED",
+   "vintage": "2026-06-30"
+  }
+ }
+}
