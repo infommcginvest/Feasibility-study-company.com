@@ -12,7 +12,9 @@ import argparse
 import datetime
 import json
 import os
+import html
 import re
+import urllib.parse
 import shutil
 import subprocess
 import sys
@@ -348,9 +350,21 @@ def g7(base):
 def g8():
     probs = []
     dnu = os.environ.get("FSC6_DNU")
-    patterns = []
+    patterns, percase = [], {}
     if dnu and os.path.exists(dnu):
-        patterns = [l.strip() for l in open(dnu, encoding="utf-8") if l.strip() and not l.startswith("#")]
+        for l in open(dnu, encoding="utf-8"):
+            if not l.strip() or l.startswith("#"):
+                continue
+            if "\t" in l:
+                slug, tok = l.rstrip("\n").split("\t", 1)
+                percase.setdefault(slug, []).append(tok.strip())
+            else:
+                patterns.append(l.strip())
+
+    def flat(s):
+        # URL- and entity-decoded, lowercase, punctuation-insensitive: "00-State-Route-121" = "00 State Route 121"
+        s = html.unescape(urllib.parse.unquote(s)).lower()
+        return " " + " ".join(re.findall(r"[0-9a-z]+", s)) + " "
     street = re.compile(r"(?<![-\w])\d{2,6}\s+(?:[NSEW]\.?\s+)?(?:[A-Z][a-z]+\s){0,3}(?:St|Street|Rd|Road|Ave|Avenue|Blvd|Boulevard|Hwy|Highway|Dr|Drive|Ln|Lane|Pkwy|Parkway|Way|Ct|Court|Loop)\b\.?")
     parcel = re.compile(r"\b(parcel (?:id|number|no\.?)|APN|prop(?:erty)? id|account (?:no|number)|MLS\s*#|LoopNet ID)\b", re.I)
     for c in pc.CASES:
@@ -375,12 +389,14 @@ def g8():
         for m in parcel.finditer(text):
             probs.append(f"{c}: parcel or listing identifier wording in subject text: ...{text[max(0, m.start() - 40):m.end() + 40]}...")
         raw = read(p).lower()
-        for pat in patterns:
+        flatraw = flat(raw)
+        for pat in patterns + percase.get(c, []):
             # whole-token match, so "1100 FM 148" (a competitor) does not trip "100 FM 148" (the subject's parcel)
-            if re.search(r"(?<![0-9a-z])" + re.escape(pat.lower()) + r"(?![0-9a-z])", raw):
+            hit = re.search(r"(?<![0-9a-z])" + re.escape(pat.lower()) + r"(?![0-9a-z])", raw)
+            if hit or flat(pat) in flatraw:
                 probs.append(f"{c}: subject identifier present (text or link): {pat}")
     gate(8, "subjects: no street number, parcel id, owner or business name for any case subject", "GREEN" if not probs else "RED",
-         f"do-not-use strings checked: {len(patterns)}\n" + "\n".join("  " + x for x in probs[:40]))
+         f"do-not-use strings checked: {len(patterns)} on every case, {sum(len(v) for v in percase.values())} subject-listing values on their own case\n" + "\n".join("  " + x for x in probs[:40]))
 
 
 def inbound():

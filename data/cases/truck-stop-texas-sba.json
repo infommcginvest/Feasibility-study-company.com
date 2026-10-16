@@ -22,16 +22,16 @@
   },
   "inputs": {
     "land_per_acre": {
-      "value": 310000,
+      "value": 250000,
       "fmt": "$",
       "label": "Land price per acre",
-      "assumption": "The 2026 asking-price level per acre for Highway Corridor land at the I-20 and FM 148 interchange, deliberately not cited so that no real parcel is identified. It sits far above the Exit 509 tract that sold in March 2026 after listing at $1,300,000 for 16.63 acres [^23]; an appraisal and a contract set the value."
+      "assumption": "An assumed level for land near the I-20 and FM 148 interchange; no particular tract is assumed. It sits inside the land evidence the research holds for the Terrell corridor: the Exit 509 tract that sold in March 2026 after listing at $1,300,000 for 16.63 acres [^23] at the low end, and an I-20 tract of 29.94 acres listed on September 22, 2026 at $7,995,000 [^3] at the high end. Land near the interchange Buc-ee's anchors belongs toward the top of that range. An appraisal and a contract set the value."
     },
     "acres_used": {
       "value": 12,
       "fmt": "n1",
       "label": "Acres the sponsor buys",
-      "assumption": "About 12 acres in the Highway Corridor district at the interchange. A comparable chain build, Love's in Rock Falls, Illinois, used about 14 acres of a 30-acre site for more truck parking than this program [^40]."
+      "assumption": "About 12 acres near the interchange, in a district where the city may grant a truck stop a Specific Use Permit, to be confirmed [^1]. A comparable chain build, Love's in Rock Falls, Illinois, used about 14 acres of a 30-acre site for more truck parking than this program [^40]."
     },
     "site_work": {
       "value": 3400000,
@@ -245,7 +245,7 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land, about 12 acres at the interchange",
+      "label": "Land, about 12 acres near Exit 498",
       "expr": "acres_used * land_per_acre",
       "class": "real_estate",
       "basis": "Assumption; appraisal to confirm"
@@ -412,7 +412,7 @@
     ],
     [
       "Subject",
-      "Hypothetical independent truck stop and travel center on about 12 acres in the Highway Corridor district at the interchange [^1]: five diesel lanes, a car island, a 9,000 square foot store and food court, about 80 truck spaces; no real parcel is represented"
+      "Hypothetical independent truck stop and travel center on about 12 acres near the I-20 and FM 148 interchange, in a district where Terrell may grant a truck stop a Specific Use Permit, to be confirmed [^1]: five diesel lanes, a car island, a 9,000 square foot store and food court, about 80 truck spaces; no real parcel is represented"
     ],
     [
       "Program",
@@ -424,7 +424,7 @@
     ],
     [
       "Loan structure",
-      "{tpl} bank first lien and {debenture} debenture (the debenture at its {cap} limit)"
+      "{tpl} bank first lien ({tpl_share} of cost) and {debenture} debenture, {debenture_position}"
     ],
     [
       "Equity",
@@ -440,7 +440,7 @@
     ],
     [
       "Market conclusion",
-      "Freight and logistics growth support a mid-size diesel stop at Exit 498; the interchange's land price and 2026 build costs do not support 504 leverage"
+      "Freight and logistics growth support a mid-size diesel stop at Exit 498; interchange land and 2026 build costs do not support 504 leverage"
     ],
     [
       "Determination",

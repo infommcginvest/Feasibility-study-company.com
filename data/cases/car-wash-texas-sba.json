@@ -1,301 +1,307 @@
 {
- "slug": "car-wash-texas-sba",
- "page": "/case-studies/car-wash-texas-sba/",
- "program": "sba_504",
- "sba": {
-  "purpose": "startup",
-  "business_age": "new",
-  "special_purpose": true,
-  "manufacturer": false,
-  "rural_fee_waiver": false
- },
- "rule_sources": {
-  "sop": 44,
-  "fees": 45,
-  "prime": 46
- },
- "stabilized_year": 3,
- "dscr_test_year": 2,
- "units": {
-  "label": "tunnel",
-  "count": 1
- },
- "inputs": {
-  "land": {
-   "value": 1298959.2,
-   "fmt": "$",
-   "label": "Land, about 2 acres on SH 46",
-   "assumption": "The 2025 asking price the research found for a commercially zoned SH 46 corridor tract of about 1.98 acres near I-10, about $15 a square foot. The listing is not cited so that no real parcel is identified; its price was last updated in January 2025, and an appraisal sets the value."
+  "slug": "car-wash-texas-sba",
+  "page": "/case-studies/car-wash-texas-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
   },
-  "building_site": {
-   "value": 2350000,
-   "fmt": "$",
-   "label": "Tunnel building, vacuum canopies and site work",
-   "assumption": "No local construction cost was found. The 2025 Tommy's Express disclosure prices construction of its 130-foot model at $2,056,978 to $3,930,750, including a building structure of $803,411 to $853,190 [^30]; a state-filed estimate for a 4,696 square foot San Antonio express wash building was $1.25 million [^34]. The line sits in the lower half of the franchise range and above the San Antonio building-only figure because it also covers paving, drainage and vacuum canopies."
+  "rule_sources": {
+    "sop": 44,
+    "fees": 45,
+    "prime": 46
   },
-  "equipment": {
-   "value": 1750000,
-   "fmt": "$",
-   "label": "Tunnel equipment, conveyor, pay stations and vacuums",
-   "assumption": "A Texas contractor quotes tunnel equipment packages at $1.4 million to $2.1 million for 2026 [^33]; the line sits in the middle of that range and includes pay stations and the vacuum system. Steel and aluminum input prices rose sharply in the year to August 2026 [^37], so the low end is not used."
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "tunnel",
+    "count": 1
   },
-  "soft": {
-   "value": 450000,
-   "fmt": "$",
-   "label": "Design, permits, flood work and contingency",
-   "assumption": "The 2025 Tommy's Express disclosure gives soft costs of $107,563 to $582,000 [^30]. The line sits in the upper part of that range because the lot's flood status is unresolved, which can add engineering, elevation and permit work, and it carries a construction contingency."
+  "inputs": {
+    "land_acres": {
+      "value": 1.5,
+      "fmt": "n1",
+      "label": "Land area, acres (hypothetical pad on SH 46)",
+      "assumption": "A round hypothetical pad, close to the 1.54-acre average lot of three listed Mighty Wash express sites in May 2026 [^48]; enough for a single tunnel, two pay lanes and a vacuum plaza."
+    },
+    "land_psf": {
+      "value": 12,
+      "fmt": "$",
+      "label": "Land cost per square foot of site",
+      "assumption": "Set inside the range of two Seguin commercial land asks in 2026: a 4.58-acre I-10 frontage tract at $1,200,000 in October 2026 [^49] and a 1.07-acre SH 46 tract, zoned residential, at $700,000 since May 2026 [^50]. The larger frontage tract sets the low end of the range and the small pad the high end; a 1.5-acre commercial pad near I-10 sits between them. Asks are not sales, so an appraisal and an executed contract set the value."
+    },
+    "building_site": {
+      "value": 2350000,
+      "fmt": "$",
+      "label": "Tunnel building, vacuum canopies and site work",
+      "assumption": "No local construction cost was found. The 2025 Tommy's Express disclosure prices construction of its 130-foot model at $2,056,978 to $3,930,750, including a building structure of $803,411 to $853,190 [^30]; a state-filed estimate for a 4,696 square foot San Antonio express wash building was $1.25 million [^34]. The line sits in the lower half of the franchise range and above the San Antonio building-only figure because it also covers paving, drainage and vacuum canopies."
+    },
+    "equipment": {
+      "value": 1750000,
+      "fmt": "$",
+      "label": "Tunnel equipment, conveyor, pay stations and vacuums",
+      "assumption": "A Texas contractor quotes tunnel equipment packages at $1.4 million to $2.1 million for 2026 [^33]; the line sits in the middle of that range and includes pay stations and the vacuum system. Steel and aluminum input prices rose sharply in the year to August 2026 [^37], so the low end is not used."
+    },
+    "soft": {
+      "value": 450000,
+      "fmt": "$",
+      "label": "Design, permits, flood work and contingency",
+      "assumption": "The 2025 Tommy's Express disclosure gives soft costs of $107,563 to $582,000 [^30]. The line sits in the upper part of that range because the site's flood zone and its zoning path are not yet known, either of which can add engineering, elevation and permit work, and it carries a construction contingency."
+    },
+    "members": {
+      "value": [
+        1800,
+        2700,
+        3200,
+        3350,
+        3450
+      ],
+      "fmt": "n",
+      "label": "Average active members",
+      "assumption": "No member count for any Seguin wash was found. The ramp stabilizes between the fleet averages a lender can compute from Mister (about 2.3 million members at 548 sites, 2025) [^27] and Zips (about 625,000 members at more than 260 sites, February 2025) [^19], and below the 4,000-member size where a vendor panel saw 11.1% retail-to-member conversion [^38]. Four incumbents within about 3 miles keep it below the larger chain's average."
+    },
+    "member_price": {
+      "value": 24,
+      "fmt": "$",
+      "label": "Average member price per month",
+      "assumption": "Finish Line posts unlimited plans at $14 to $29 and Pic-n-Pac at $20 to $40 a month, both checked October 15, 2026 [^16,17]. The blend sits near the low middle of the combined range, assuming most members take a middle plan and some take opening discounts. Cosmic Express prices were not found."
+    },
+    "retail_washes": {
+      "value": [
+        38000,
+        40000,
+        41000,
+        42000,
+        43000
+      ],
+      "fmt": "n",
+      "label": "Retail (single) washes",
+      "assumption": "No local wash counts were found. Retail volume grows slowly while members grow, in line with a vendor panel that saw retail revenue fall 3% while membership revenue rose 10% in Q3 2025 [^38]."
+    },
+    "retail_ticket": {
+      "value": 13,
+      "fmt": "$",
+      "label": "Average retail ticket",
+      "assumption": "Equals Finish Line's second single-wash tier and sits between Pic-n-Pac's $10 and $15 washes [^15,17]."
+    },
+    "labor_chem_pct": {
+      "value": 0.29,
+      "fmt": "%",
+      "label": "Labor and chemicals, share of revenue",
+      "assumption": "Mister Car Wash spent 28.7% of 2025 revenue on labor and chemicals [^28]; a single site lacks a chain's chemical purchasing scale, so the ratio is set slightly higher."
+    },
+    "other_store_pct": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Utilities, repairs, card fees, software and marketing, share of revenue",
+      "assumption": "Mister's other store operating expenses were 41.5% of 2025 revenue, including rent it guided at about $123 million [^28,29]. The subject owns its site and pays no rent, so the ratio leaves rent out but keeps room for a single site's utility and repair costs."
+    },
+    "mgmt_pct": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Management allowance, share of revenue",
+      "assumption": "Stands in for owner management time. The market price of brand and operating support in this format is a 4% royalty plus a 1% brand fund in the 2025 Tommy's Express disclosure [^32]."
+    },
+    "insurance": {
+      "value": 45000,
+      "fmt": "$",
+      "label": "Property, liability and flood insurance, Year 1",
+      "assumption": "No insurance quote or market survey was found, and the site's flood zone is not known. A placeholder for property, liability and any flood cover the FEMA map calls for; a quote is a lender condition."
+    },
+    "cost_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in insurance cost",
+      "assumption": "General allowance for premium growth; no local insurance cost series was found."
+    },
+    "tax_rate": {
+      "value": 0.019267,
+      "fmt": "%2",
+      "label": "Property tax rate, Seguin ISD area, 2025",
+      "source": [
+        22
+      ]
+    },
+    "tpl_rate": {
+      "value": 0.0725,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime was 7.00% on October 9, 2026 [^46]. The bank holds a first lien at half of cost, its lowest-risk position, so the rate is set a quarter point over Prime, far below SBA's cap on the third-party spread. The lender sets the rate at pricing"
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank first-lien amortization",
+      "assumption": "Matches the 25-year debenture term; the bank's term must meet SBA's minimum for a 25-year debenture [^44]."
+    },
+    "debenture_rate": {
+      "value": 0.0697,
+      "fmt": "%2",
+      "label": "504 debenture effective rate, 25-year",
+      "source": [
+        42
+      ]
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "504 debenture term",
+      "source": [
+        44
+      ]
+    }
   },
-  "members": {
-   "value": [
-    1800,
-    2700,
-    3200,
-    3350,
-    3450
-   ],
-   "fmt": "n",
-   "label": "Average active members",
-   "assumption": "No member count for any Seguin wash was found. The ramp stabilizes between the fleet averages a lender can compute from Mister (about 2.3 million members at 548 sites, 2025) [^27] and Zips (about 625,000 members at more than 260 sites, February 2025) [^19], and below the 4,000-member size where a vendor panel saw 11.1% retail-to-member conversion [^38]. Four incumbents within about 3 miles keep it below the larger chain's average."
-  },
-  "member_price": {
-   "value": 24,
-   "fmt": "$",
-   "label": "Average member price per month",
-   "assumption": "Finish Line posts unlimited plans at $14 to $29 and Pic-n-Pac at $20 to $40 a month, both checked October 15, 2026 [^16,17]. The blend sits near the low middle of the combined range, assuming most members take a middle plan and some take opening discounts. Cosmic Express prices were not found."
-  },
-  "retail_washes": {
-   "value": [
-    38000,
-    40000,
-    41000,
-    42000,
-    43000
-   ],
-   "fmt": "n",
-   "label": "Retail (single) washes",
-   "assumption": "No local wash counts were found. Retail volume grows slowly while members grow, in line with a vendor panel that saw retail revenue fall 3% while membership revenue rose 10% in Q3 2025 [^38]."
-  },
-  "retail_ticket": {
-   "value": 13,
-   "fmt": "$",
-   "label": "Average retail ticket",
-   "assumption": "Equals Finish Line's second single-wash tier and sits between Pic-n-Pac's $10 and $15 washes [^15,17]."
-  },
-  "labor_chem_pct": {
-   "value": 0.29,
-   "fmt": "%",
-   "label": "Labor and chemicals, share of revenue",
-   "assumption": "Mister Car Wash spent 28.7% of 2025 revenue on labor and chemicals [^28]; a single site lacks a chain's chemical purchasing scale, so the ratio is set slightly higher."
-  },
-  "other_store_pct": {
-   "value": 0.18,
-   "fmt": "%",
-   "label": "Utilities, repairs, card fees, software and marketing, share of revenue",
-   "assumption": "Mister's other store operating expenses were 41.5% of 2025 revenue, including rent it guided at about $123 million [^28,29]. The subject owns its site and pays no rent, so the ratio leaves rent out but keeps room for a single site's utility and repair costs."
-  },
-  "mgmt_pct": {
-   "value": 0.04,
-   "fmt": "%",
-   "label": "Management allowance, share of revenue",
-   "assumption": "Stands in for owner management time. The market price of brand and operating support in this format is a 4% royalty plus a 1% brand fund in the 2025 Tommy's Express disclosure [^32]."
-  },
-  "insurance": {
-   "value": 45000,
-   "fmt": "$",
-   "label": "Property, liability and flood insurance, Year 1",
-   "assumption": "No insurance quote or market survey was found, and the lot's flood zone is not known. A placeholder for property, liability and flood cover; a quote is a lender condition."
-  },
-  "cost_growth": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Annual growth in insurance cost",
-   "assumption": "General allowance for premium growth; no local insurance cost series was found."
-  },
-  "tax_rate": {
-   "value": 0.019267,
-   "fmt": "%2",
-   "label": "Property tax rate, Seguin ISD area, 2025",
-   "source": [
-    22
-   ]
-  },
-  "tpl_rate": {
-   "value": 0.0725,
-   "fmt": "%2",
-   "label": "Bank first-lien rate",
-   "assumption": "Prime was 7.00% on October 9, 2026 [^46]. The bank holds a first lien at half of cost, its lowest-risk position, so the rate is set a quarter point over Prime, far below SBA's cap on the third-party spread. The lender sets the rate at pricing"
-  },
-  "tpl_amort_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Bank first-lien amortization",
-   "assumption": "Matches the 25-year debenture term; the bank's term must meet SBA's minimum for a 25-year debenture [^44]."
-  },
-  "debenture_rate": {
-   "value": 0.0697,
-   "fmt": "%2",
-   "label": "504 debenture effective rate, 25-year",
-   "source": [
-    42
-   ]
-  },
-  "debenture_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "504 debenture term",
-   "source": [
-    44
-   ]
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land",
-   "expr": "land",
-   "class": "real_estate",
-   "basis": "assumption, see inputs"
-  },
-  {
-   "key": "building_site",
-   "label": "Tunnel building, canopies and site work",
-   "expr": "building_site",
-   "class": "real_estate",
-   "basis": "assumption, see inputs"
-  },
-  {
-   "key": "equipment",
-   "label": "Tunnel equipment and vacuums",
-   "expr": "equipment",
-   "class": "equipment",
-   "basis": "assumption, see inputs"
-  },
-  {
-   "key": "soft",
-   "label": "Design, permits, flood work and contingency",
-   "expr": "soft",
-   "class": "real_estate",
-   "basis": "assumption, see inputs"
-  }
- ],
- "revenue": [
-  {
-   "key": "members",
-   "label": "Unlimited plan revenue",
-   "expr": "members * member_price * 12",
-   "basis": "members x monthly price x 12"
-  },
-  {
-   "key": "retail",
-   "label": "Retail wash revenue",
-   "expr": "retail_washes * retail_ticket",
-   "basis": "washes x average ticket"
-  }
- ],
- "opex": [
-  {
-   "key": "labor",
-   "label": "Labor and chemicals",
-   "expr": "rev_total * labor_chem_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "store",
-   "label": "Utilities, repairs, card fees, software, marketing",
-   "expr": "rev_total * other_store_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "mgmt",
-   "label": "Management allowance",
-   "expr": "rev_total * mgmt_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "insurance",
-   "label": "Insurance",
-   "expr": "insurance * (1 + cost_growth) ** y",
-   "basis": "assumption, grows yearly"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(land + building_site + equipment) * tax_rate",
-   "basis": "cost x 2025 rate [^22]"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.15,
-  "note": "the sponsor applies the tier for a new business alone and overlooks the special purpose test"
- },
- "breakeven": {
-  "input": "members",
-  "label": "average active members"
- },
- "sensitivity": {
-  "rows": {
-   "input": "members",
-   "label": "Members",
-   "steps": [
-    -0.2,
-    -0.1,
-    0,
-    0.1,
-    0.2
-   ]
-  },
-  "cols": {
-   "input": "member_price",
-   "label": "Member price",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.075,
-    0.15
-   ]
-  }
- },
- "glance": [
-  [
-   "Town, county and corridor",
-   "Seguin, Guadalupe County, Texas; SH 46 near the I-10 interchange on the San Antonio to Austin corridor [^7]"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 1.5 acres on SH 46",
+      "expr": "land_acres * 43560 * land_psf",
+      "class": "real_estate",
+      "basis": "acres x 43,560 sq ft x assumed $ per sq ft [^49,50]"
+    },
+    {
+      "key": "building_site",
+      "label": "Tunnel building, canopies and site work",
+      "expr": "building_site",
+      "class": "real_estate",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "equipment",
+      "label": "Tunnel equipment and vacuums",
+      "expr": "equipment",
+      "class": "equipment",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, flood work and contingency",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "assumption, see inputs"
+    }
   ],
-  [
-   "Subject",
-   "New express tunnel car wash with free vacuums and unlimited plans on about 2 acres of commercial land (hypothetical)"
+  "revenue": [
+    {
+      "key": "members",
+      "label": "Unlimited plan revenue",
+      "expr": "members * member_price * 12",
+      "basis": "members x monthly price x 12"
+    },
+    {
+      "key": "retail",
+      "label": "Retail wash revenue",
+      "expr": "retail_washes * retail_ticket",
+      "basis": "washes x average ticket"
+    }
   ],
-  [
-   "Program",
-   "SBA 504: bank first lien, CDC debenture, sponsor equity"
+  "opex": [
+    {
+      "key": "labor",
+      "label": "Labor and chemicals",
+      "expr": "rev_total * labor_chem_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "store",
+      "label": "Utilities, repairs, card fees, software, marketing",
+      "expr": "rev_total * other_store_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "mgmt",
+      "label": "Management allowance",
+      "expr": "rev_total * mgmt_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + cost_growth) ** y",
+      "basis": "assumption, grows yearly"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * 43560 * land_psf + building_site + equipment) * tax_rate",
+      "basis": "cost x 2025 rate [^22]"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc}"
-  ],
-  [
-   "Loan structure",
-   "Bank first lien {tpl}; 504 debenture {debenture}; total debt {loan_total}; annual debt service {ds}"
-  ],
-  [
-   "Equity",
-   "{equity_pct} ({equity}) as restructured; {equity_proposed_pct} as proposed; program tier {equity_req_pct}"
-  ],
-  [
-   "DSCR in the test year (Year 2)",
-   "{dscr_y2} as restructured; {dscr_y2_proposed} as proposed; floor {floor}"
-  ],
-  [
-   "Break-even",
-   "{breakeven_value} average members in Year 3, {breakeven_pct} of the underwritten count"
-  ],
-  [
-   "Market conclusion",
-   "Growing and contested: four conveyor washes within about 3 miles; demand supports a fifth tunnel priced inside the posted local range [^1,16,17]"
-  ],
-  [
-   "Determination",
-   "As proposed: fails (equity below the tier; Year 2 coverage below the floor). As restructured: meets every test at {equity_pct} equity, subject to the flood and zoning conditions"
+  "proposed": {
+    "equity_pct": 0.15,
+    "note": "the sponsor applies the tier for a new business alone and overlooks the special purpose test"
+  },
+  "breakeven": {
+    "input": "members",
+    "label": "average active members"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "members",
+      "label": "Members",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "member_price",
+      "label": "Member price",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Seguin, Guadalupe County, Texas; SH 46 near the I-10 interchange on the San Antonio to Austin corridor [^7]"
+    ],
+    [
+      "Subject",
+      "New express tunnel car wash with free vacuums and unlimited plans on about {in_land_acres} acres of commercial land on SH 46 near I-10 (hypothetical); flood zone and zoning to be confirmed"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien, CDC debenture, sponsor equity"
+    ],
+    [
+      "Total project cost",
+      "{tpc}"
+    ],
+    [
+      "Loan structure",
+      "Bank first lien {tpl}; 504 debenture {debenture}; total debt {loan_total}; annual debt service {ds}"
+    ],
+    [
+      "Equity",
+      "{equity_pct} ({equity}) as restructured; {equity_proposed_pct} as proposed; program tier {equity_req_pct}"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2} as restructured; {dscr_y2_proposed} as proposed; floor {floor}"
+    ],
+    [
+      "Break-even",
+      "{breakeven_value} average members in Year 3, {breakeven_pct} of the underwritten count"
+    ],
+    [
+      "Market conclusion",
+      "Growing and contested: four conveyor washes within about 3 miles; demand supports a fifth tunnel priced inside the posted local range [^1,16,17]"
+    ],
+    [
+      "Determination",
+      "As proposed: fails (equity below the tier; Year 2 coverage of {dscr_y2_proposed} would clear the floor). As restructured: meets every test at {equity_pct} equity, subject to the flood and zoning conditions"
+    ]
   ]
- ]
 }

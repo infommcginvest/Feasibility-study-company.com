@@ -20,13 +20,13 @@
   },
   "inputs": {
     "price": {
-      "value": 1300000,
+      "value": 1260000,
       "fmt": "$",
       "label": "Purchase price, land, building, fuel equipment and business",
-      "assumption": "An assumed price for an older small-format store sold with its land, building and fuel equipment: about six times the illustrative FY2025 EBITDA, below the 9.3x median at which listed convenience operators traded in September 2026 [^32], since a single store has none of their scale. No asking price is cited, so that no real store at the exit can be identified; the going-concern appraisal and the business valuation set the value."
+      "assumption": "Six times the illustrative FY2025 EBITDA, set from earnings evidence rather than from any asking price. The research holds no published multiple for single-store sales; its benchmark is the 9.3x EBITDA median at which listed convenience operators traded in September 2026 [^32], and a single store, without their scale, buying power or diversification, should trade well below that. The going-concern appraisal and the business valuation set the real value."
     },
     "re_alloc": {
-      "value": 910000,
+      "value": 882000,
       "fmt": "$",
       "label": "Price allocated to real estate (land, building, canopy, tanks)",
       "assumption": "70% of the price. No published norm for splitting a station's going-concern value among land, building, equipment and goodwill was found; the going-concern appraisal sets the real split, and a lower real estate share raises the business portion that amortizes over 10 years."
@@ -59,7 +59,7 @@
       ],
       "fmt": "n",
       "label": "Fuel gallons sold",
-      "assumption": "Below the 1.0 million gallons Yesway's older small-format stores averaged in 2025 on 10 dispensers [^28], because this store has fewer fueling positions and shorter hours than the 24-hour stores at the ramps. Year 1 carries the first full year of the QuikTrip that opened at Exit 62 in late 2025 [^11,12]; later years grow about 1.5% a year, near the 0.9% national vehicle-miles growth of 2025 plus local population growth [^35,1]."
+      "assumption": "Below the 1.0 million gallons Yesway's legacy stores averaged in 2025 on 10 dispensers [^28], because the model assumes fewer fueling positions and 15 trading hours a day against 24-hour competitors at every Opelika interchange. Year 1 carries the first full year of the QuikTrip that opened at Exit 62 in late 2025 [^11,12]; later years grow about 1.5% a year, near the 0.9% national vehicle-miles growth of 2025 plus local population growth [^35,1]."
     },
     "fuel_margin": {
       "value": 0.4,
@@ -79,7 +79,7 @@
       ],
       "fmt": "$",
       "label": "Inside sales (merchandise, beer, tobacco, food)",
-      "assumption": "Below the $1.7 million Yesway reported for its legacy 3,400 square foot stores in 2025 [^28]; the subject's store is older, keeps shorter hours and has no food program. Grows about 2% a year."
+      "assumption": "Below the $1.7 million Yesway reported for its legacy 3,400 square foot stores in 2025 [^28]; the model assumes shorter hours than the 24-hour competition and no food program. Grows about 2% a year."
     },
     "inside_margin": {
       "value": 0.352,
@@ -153,7 +153,7 @@
       "value": 222000,
       "fmt": "$",
       "label": "Seller EBITDA, FY2024 (illustrative)",
-      "assumption": "Illustrative. The research found no seller statements. Built from the same store economics as Year 1 below at higher volume (about 735,000 gallons and $1.08 million of inside sales) and 2025's fuel margin of over 40 cents [^30]."
+      "assumption": "Illustrative. The research found no seller statements. Built from the same store economics as Year 1 below at higher volume: about 715,000 gallons at the model's 40-cent margin and $1.04 million of inside sales at a 35.2% margin [^30,28], less Year 1's payroll, manager, card fees, property tax and other costs, which gives about $222,000."
     },
     "seller_ebitda_fy2025": {
       "value": 210000,
@@ -301,11 +301,11 @@
   "glance": [
     [
       "Town, county and corridor",
-      "Opelika, Lee County, Alabama, at I-85 Exit 64 on West Point Parkway (US-29) [^7]"
+      "Opelika, Lee County, Alabama, on the I-85 corridor through the city [^3]"
     ],
     [
       "Subject",
-      "Hypothetical purchase of an operating branded fuel and convenience store in the Exit 64 trade area on the US-29 corridor; no real store is represented"
+      "Hypothetical purchase of an operating branded fuel and convenience store on Opelika's I-85 corridor; interchange, brand and size not specified"
     ],
     [
       "Program",
@@ -337,7 +337,7 @@
     ],
     [
       "Market conclusion",
-      "The exit supports an operating store, but its trailing earnings predate a new QuikTrip one exit south [^7,12]; size the loan to history and verify 2026 results"
+      "The corridor supports an operating store, but the seller's trailing earnings predate a new QuikTrip at Exit 62 [^11,12]; size the loan to history and verify 2026 results"
     ],
     [
       "Determination",

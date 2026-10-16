@@ -60,7 +60,7 @@ CITE = re.compile(r"\[\^(\d+(?:\s*,\s*\d+)*)\]")
 CASE_SHORT = re.compile(r"\{\{case:([a-z0-9_.]+)\}\}")
 SECTION = re.compile(r"<section\s+([^>]*)>(.*?)</section>", re.S)
 ATTR = re.compile(r'([a-z][a-z0-9-]*)="([^"]*)"')
-DASHES = re.compile(r"–|—|&[mn]dash;|&#821[12];|&#x201[34];", re.I)
+DASHES = re.compile(r"\u2013|\u2014|&[mn]dash;|&#821[12];|&#x201[34];|%E2%80%9[34]|\\u201[34]", re.I)
 FORBIDDEN = re.compile("|".join([
     "m" + "mcg", "moh" + "elsky", "union ?" + "metric", "inno" + "wave", "analytics" + r"\.loan",
     "loan analytic" + "s", "feasibility-study-consulta" + "nt", "wert-?bera" + "ter"]), re.I)
@@ -352,6 +352,7 @@ def render(front, body, cfg, old=None):
         "sources": sources_html(front),
     }
     main = string.Template(read(os.path.join(TPL, kind + ".html"))).substitute(main_values)
+    main = pend_folded(main, front["url"])
     house = "house-b.css" if kind == "case" else "house-a.css"
     page_css = ""
     if kind == "case":
@@ -379,6 +380,24 @@ def render(front, body, cfg, old=None):
         out = keep_mesh(out, old)
     validate(out, front)
     return out
+
+
+FALLBACKS = os.path.join(ROOT, "data", "mesh", "fallbacks.json")
+A_OPEN = re.compile(r'<a href="([^"]+)"(?![^>]*data-fsc-pending)([^>]*)>')
+
+
+def pend_folded(text, page_url):
+    """A link to a section that stands in for a folded page is a pending link to that page (links.py --relink restores it)."""
+    fb = json.load(open(FALLBACKS, encoding="utf-8")) if os.path.exists(FALLBACKS) else {}
+    sections = {fb["targets"][p]: p for p in fb.get("folded", []) if fb.get("targets", {}).get(p)}
+
+    def sub(m):
+        href = m.group(1)
+        full = page_url + href if href.startswith("#") else href
+        if full in sections:
+            return f'<a href="{href}" data-fsc-pending="{sections[full]}"{m.group(2)}>'
+        return m.group(0)
+    return A_OPEN.sub(sub, text)
 
 
 def keep_mesh(fresh, old):

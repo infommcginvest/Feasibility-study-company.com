@@ -483,7 +483,9 @@ def check():
              ('50%% bank + %s CDC of the $5.00M' % ex['deb_pct']) in labels[1])
         need('tile 3 number %sx' % ex['dscr'][2], nums[2] == ex['dscr'][2] + 'x')
         need('tile 1 number $5.00M', nums[0] == '$5.00M')
-        need('tile 4 number ≈16% (IRR left as published)', nums[3].replace(' ', '') == '≈16%')
+        # Owner ruling of 2026-10-16 (WEB-FSC-6 D27): the IRR now uses the exit at the cap rate the page cites,
+        # recomputed by docs/web-fsc-6/recompute/rv-boat-storage-arizona-sba-irr.py, which also checks every IRR place.
+        need('tile 4 number ≈28% (owner ruling 2026-10-16, exit at the cited 8.5% cap)', nums[3].replace(' ', '') == '≈28%')
 
     # ---- capital structure table, DSCR table
     rows = table_rows(src)
@@ -565,8 +567,8 @@ def check():
             errors.append('STALE TIER: "restored for start-ups" without 7(a): %r' % s[:160])
 
     # ---- information only
-    irr_places = len(re.findall(r'(?:≈|~|near )\s?16\s?(?:%|percent)', universe))
-    print('info: IRR left as published (~16%%) in %d place(s); not recomputed, see the open item in the .md log' % irr_places)
+    irr_places = len(re.findall(r'(?:≈|~|near )\s?28\s?(?:%|percent)', universe))
+    print('info: IRR at ~28%% in %d place(s), owner ruling 2026-10-16 (docs/web-fsc-6/recompute/rv-boat-storage-arizona-sba-irr.py)' % irr_places)
     print('info: JSON-LD blocks parsed: %d (%s)' % (len(blocks), 'ok' if jsonld_ok else 'ERROR'))
 
     if errors:

@@ -10,10 +10,10 @@
     "rural_fee_waiver": false
   },
   "rule_sources": {
-    "sop": 56,
-    "fees": 57,
-    "prime": 58,
-    "program": 56
+    "sop": 54,
+    "fees": 55,
+    "prime": 56,
+    "program": 54
   },
   "stabilized_year": 3,
   "dscr_test_year": 2,
@@ -29,10 +29,10 @@
       "assumption": "A single-line mainstream store with a 40,000 sq ft building; the local competitors with a stated site sit on 14.84 to 17.586 acres [^20]. The subject is held at the low end of the range."
     },
     "land_psf": {
-      "value": 20.0,
+      "value": 18.0,
       "fmt": "$2",
       "label": "Land price per sq ft",
-      "assumption": "Set at the 2026 asking-price level for I-20 hard-corner frontage in Weatherford. The listing is not cited so that no real parcel is identified; an appraisal sets the value."
+      "assumption": "A round assumption for I-20 frontage in Weatherford. The research holds one priced frontage tract in town and no land sales, so the model takes no single listing's ask; an appraisal sets the value."
     },
     "bldg_sf": {
       "value": 40000,
@@ -52,7 +52,7 @@
       "value": 0.15,
       "fmt": "%",
       "label": "Escalation from the 2021 estimate to a 2027 build",
-      "assumption": "The research has no construction cost index to carry the 2021 registry figure forward. Construction input costs rose 8.9% in the year to August 2026 alone and contractors' bid prices 3.5% in the year to June 2026 [^48,49]; 15% is an allowance, to be replaced by a general contractor's bid."
+      "assumption": "The research has no construction cost index to carry the 2021 registry figure forward. Construction input costs rose 8.9% in the year to August 2026 alone and contractors' bid prices 3.5% in the year to June 2026 [^46,47]; 15% is an allowance, to be replaced by a general contractor's bid."
     },
     "sitework_per_acre": {
       "value": 200000,
@@ -64,14 +64,14 @@
       "value": 900000,
       "fmt": "$",
       "label": "Service equipment (above-ground lifts, alignment, compressors), IT and furniture",
-      "assumption": "Lift, service-equipment and IT costs are NOT FOUND in the research. Above-ground lifts are assumed so the service department is not a service center with pits and in-ground lifts on SBA's special purpose list [^56]."
+      "assumption": "Lift, service-equipment and IT costs are NOT FOUND in the research. Above-ground lifts are assumed so the service department is not a service center with pits and in-ground lifts on SBA's special purpose list [^54]."
     },
     "ae_pct": {
       "value": 0.07,
       "fmt": "%",
       "label": "Architectural and engineering fees, share of building cost",
       "source": [
-        47
+        45
       ]
     },
     "soft_other": {
@@ -110,14 +110,14 @@
       ],
       "fmt": "n",
       "label": "New vehicles retailed",
-      "assumption": "The average franchised store retailed 955 new vehicles in 2025 [^39]. The research has no ramp benchmark for an open point, so the store reaches 84% of that average in Year 3 and 94% in Year 5."
+      "assumption": "The average franchised store retailed 955 new vehicles in 2025 [^37]. The research has no ramp benchmark for an open point, so the ramp is an assumption: the store reaches 86% of that average in Year 3 and 96% in Year 5, below the average throughout."
     },
     "new_price": {
       "value": 48205,
       "fmt": "$",
       "label": "Average new-vehicle retail price",
       "source": [
-        39
+        37
       ]
     },
     "new_gpu": {
@@ -125,7 +125,7 @@
       "fmt": "$",
       "label": "Front-end gross profit per new vehicle",
       "source": [
-        44
+        42
       ]
     },
     "used_share": {
@@ -133,7 +133,7 @@
       "fmt": "%",
       "label": "Used vehicles, share of dealership sales dollars",
       "source": [
-        39
+        37
       ]
     },
     "new_share": {
@@ -141,21 +141,21 @@
       "fmt": "%",
       "label": "New vehicles, share of dealership sales dollars",
       "source": [
-        39
+        37
       ]
     },
     "used_price": {
       "value": 30000,
       "fmt": "$",
       "label": "Average used-vehicle retail price",
-      "assumption": "Not in the research. Held above the $27,528 average amount financed on a used vehicle in Q4 2025 [^39], because buyers finance less than the price."
+      "assumption": "Not in the research. Held above the $27,528 average amount financed on a used vehicle in Q4 2025 [^37], because buyers finance less than the price."
     },
     "used_gpu": {
       "value": 1634,
       "fmt": "$",
       "label": "Front-end gross profit per used vehicle",
       "source": [
-        44
+        42
       ]
     },
     "fi_pu": {
@@ -163,7 +163,7 @@
       "fmt": "$",
       "label": "Finance and insurance income per vehicle retailed",
       "source": [
-        45
+        43
       ]
     },
     "sp_sales_nada": {
@@ -171,7 +171,7 @@
       "fmt": "$",
       "label": "Service and parts sales, average franchised store",
       "source": [
-        39
+        37
       ]
     },
     "sp_share": {
@@ -190,7 +190,7 @@
       "value": 0.376,
       "fmt": "%",
       "label": "Service and parts gross margin",
-      "assumption": "The only service and parts margin in the research is the 37.6% that America's franchised truck dealers earned in 2025 [^42]; it is used for this light-vehicle store as a proxy."
+      "assumption": "The only service and parts margin in the research is the 37.6% that America's franchised truck dealers earned in 2025 [^40]; it is used for this light-vehicle store as a proxy."
     },
     "sga_pct": {
       "value": [
@@ -202,28 +202,28 @@
       ],
       "fmt": "%",
       "label": "Selling, general and administrative expense, share of gross profit",
-      "assumption": "AutoNation's SG&A ran at 67.9% of gross profit in FY2025 [^46]. A start-up store carries its full staff and launch advertising before volume arrives, so the ratio starts higher and reaches the benchmark in Year 5."
+      "assumption": "AutoNation's SG&A ran at 67.9% of gross profit in FY2025 [^44]. A start-up store carries its full staff and launch advertising before volume arrives, so the ratio starts higher and reaches the benchmark in Year 5."
     },
     "days_supply": {
       "value": 51,
       "fmt": "n",
       "label": "Inventory days' supply (new and used)",
       "source": [
-        44
+        42
       ]
     },
     "fp_rate": {
       "value": 0.075,
       "fmt": "%2",
       "label": "Floorplan interest rate",
-      "assumption": "Floorplan terms are NOT FOUND in the research. Prime was 7.00% on the H.15 release of October 9, 2026 [^58]; the model adds 0.50% and counts no manufacturer floorplan assistance."
+      "assumption": "Floorplan terms are NOT FOUND in the research. Prime was 7.00% on the H.15 release of October 9, 2026 [^56]; the model adds 0.50% and counts no manufacturer floorplan assistance."
     },
     "vit_factor": {
       "value": 0.00179,
       "fmt": "%2",
       "label": "Vehicle inventory tax unit factor (city, ISD and county)",
       "source": [
-        50
+        48
       ]
     },
     "tax_rate": {
@@ -231,9 +231,9 @@
       "fmt": "%2",
       "label": "Combined property tax rate (city, ISD, county), tax year 2025",
       "source": [
-        31,
-        32,
-        33
+        29,
+        30,
+        31
       ]
     },
     "insurance": {
@@ -246,7 +246,7 @@
       "value": 0.0725,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "The research has no bank rate. Prime was 7.00% on October 9, 2026 [^58]; the model uses 7.25% fixed. The rate is set at pricing"
+      "assumption": "The research has no bank rate. Prime was 7.00% on October 9, 2026 [^56]; the model uses 7.25% fixed. The rate is set at pricing"
     },
     "tpl_amort_years": {
       "value": 25,
@@ -259,7 +259,7 @@
       "fmt": "%2",
       "label": "SBA 504 debenture effective rate, 25-year",
       "source": [
-        37
+        35
       ]
     },
     "debenture_years": {
@@ -267,7 +267,7 @@
       "fmt": "yr",
       "label": "SBA 504 debenture term",
       "source": [
-        56
+        54
       ]
     },
     "growth_insurance": {
@@ -311,7 +311,7 @@
       "label": "Architecture and engineering",
       "expr": "bldg_sf * bldg_psf * (1 + escalation) * ae_pct",
       "class": "real_estate",
-      "basis": "[^47]"
+      "basis": "[^45]"
     },
     {
       "key": "soft",
@@ -340,25 +340,25 @@
       "key": "new",
       "label": "New vehicle sales",
       "expr": "new_units * new_price",
-      "basis": "units x price [^39]"
+      "basis": "units x price [^37]"
     },
     {
       "key": "used",
       "label": "Used vehicle sales",
       "expr": "new_units * new_price * used_share / new_share",
-      "basis": "NADA sales mix [^39]"
+      "basis": "NADA sales mix [^37]"
     },
     {
       "key": "fi",
       "label": "Finance and insurance income",
       "expr": "(new_units + new_units * new_price * used_share / new_share / used_price) * fi_pu",
-      "basis": "retail units x F&I [^45]"
+      "basis": "retail units x F&I [^43]"
     },
     {
       "key": "sp",
       "label": "Service and parts sales",
       "expr": "sp_sales_nada * sp_share",
-      "basis": "share of NADA store [^39]"
+      "basis": "share of NADA store [^37]"
     }
   ],
   "cost_of_sales": [
@@ -366,19 +366,19 @@
       "key": "new",
       "label": "Cost of new vehicles sold",
       "expr": "rev_new - new_units * new_gpu",
-      "basis": "[^44]"
+      "basis": "[^42]"
     },
     {
       "key": "used",
       "label": "Cost of used vehicles sold",
       "expr": "rev_used - rev_used / used_price * used_gpu",
-      "basis": "[^44]"
+      "basis": "[^42]"
     },
     {
       "key": "sp",
       "label": "Cost of service and parts sales",
       "expr": "rev_sp * (1 - sp_margin)",
-      "basis": "[^42] proxy"
+      "basis": "[^40] proxy"
     }
   ],
   "opex": [
@@ -386,25 +386,25 @@
       "key": "sga",
       "label": "Selling, general and administrative",
       "expr": "gp_total * sga_pct",
-      "basis": "[^46] benchmark"
+      "basis": "[^44] benchmark"
     },
     {
       "key": "floorplan",
       "label": "Floorplan interest",
       "expr": "(rev_new + rev_used) * days_supply / 365 * fp_rate",
-      "basis": "[^44] days' supply"
+      "basis": "[^42] days' supply"
     },
     {
       "key": "vit",
       "label": "Vehicle inventory tax",
       "expr": "(rev_new + rev_used) * vit_factor",
-      "basis": "[^50]"
+      "basis": "[^48]"
     },
     {
       "key": "proptax",
       "label": "Property tax on land, building and equipment",
       "expr": "(site_acres * 43560 * land_psf + bldg_sf * bldg_psf * (1 + escalation) + site_acres * sitework_per_acre + equipment) * tax_rate",
-      "basis": "[^31,32,33]"
+      "basis": "[^29,30,31]"
     },
     {
       "key": "insurance",
@@ -458,7 +458,7 @@
     ],
     [
       "Program",
-      "SBA 504: bank first lien, CDC debenture and sponsor equity [^56]"
+      "SBA 504: bank first lien, CDC debenture and sponsor equity [^54]"
     ],
     [
       "Total project cost",
@@ -490,7 +490,7 @@
     ],
     [
       "Determination as restructured",
-      "Meets: equity raised to {equity_pct}, which brings the debenture down to {debenture}, under the program limit, with the bank first lien at {tpl}; Year 2 coverage {dscr_y2}; a Year 1 reserve and the floorplan line are conditions"
+      "Meets: equity raised to {equity_pct}; debenture {debenture}, {debenture_position}; bank first lien {tpl}, {tpl_share} of cost; Year 2 coverage {dscr_y2}; a Year 1 reserve and the floorplan line are conditions"
     ]
   ]
 }

@@ -20,17 +20,23 @@
     "count": 1
   },
   "inputs": {
-    "land": {
-      "value": 650000,
+    "site_acres": {
+      "value": 2.5,
+      "fmt": "n1",
+      "label": "Site area, acres (hypothetical lot)",
+      "assumption": "About 2.5 acres: room for a 4,200 sq ft store, eight dispensers under one canopy, parking, detention and a septic field. Yesway's older stores sit on 1.1 acres and its new large-format stores on 3.7 acres with 27 dispensers [^37]; this forecourt falls between them. The lot is hypothetical."
+    },
+    "land_per_acre": {
+      "value": 220000,
       "fmt": "$",
-      "label": "Land, about three acres zoned C-1",
-      "assumption": "The 2026 asking-price level for C-1 commercial lots of about three acres near the interchange, deliberately not cited so that no real parcel is identified; an appraisal and a signed contract set the value."
+      "label": "Land allowance per acre",
+      "assumption": "An allowance, not a price found for any parcel. No land sale for the interchange area is in the research and the study takes no listing's ask, so the level is an assumption for commercial land near an I-75 interchange at the northwest edge of the Atlanta region; an appraisal and a signed contract set the value."
     },
     "site_work": {
       "value": 650000,
       "fmt": "$",
       "label": "Site work: grading, paving, stormwater, septic field, lighting",
-      "assumption": "A vacant lot where public sewer is not established, so the budget carries an on-site septic system as well as grading, paving and detention for about three acres. No local cost index was found."
+      "assumption": "A vacant lot where the case does not assume public sewer, so the budget carries an on-site septic system as well as grading, paving and detention for about 2.5 acres. No local cost index was found."
     },
     "building_sf": {
       "value": 4200,
@@ -262,10 +268,10 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land, about three acres, C-1",
-      "expr": "land",
+      "label": "Land, about 2.5 acres (allowance)",
+      "expr": "site_acres * land_per_acre",
       "class": "real_estate",
-      "basis": "Assumption; appraisal to confirm"
+      "basis": "Acres x allowance per acre (assumption); appraisal to confirm"
     },
     {
       "key": "site",
@@ -401,7 +407,7 @@
     {
       "key": "tax",
       "label": "Property tax",
-      "expr": "(land + site_work + building_sf * building_psf + canopy_tanks) * assess_ratio * (county_mills + school_mills) / 1000",
+      "expr": "(site_acres * land_per_acre + site_work + building_sf * building_psf + canopy_tanks) * assess_ratio * (county_mills + school_mills) / 1000",
       "basis": "40% of value x 23.94 mills [^24,25,26]"
     },
     {
@@ -452,11 +458,11 @@
   "glance": [
     [
       "Town, county and corridor",
-      "Cartersville area, unincorporated Bartow County, Georgia, about a mile from I-75 Exit 296 (Cassville-White Road) [^4]"
+      "Cartersville area, unincorporated Bartow County, Georgia, in the trade area of I-75 Exit 296 (Cassville-White Road) [^4]"
     ],
     [
       "Subject",
-      "Hypothetical new car-and-commuter fuel and convenience store with a food counter on a vacant C-1 lot of about three acres; no real parcel is represented"
+      "Hypothetical new car-and-commuter fuel and convenience store with a food counter on a vacant commercial lot of about {in_site_acres} acres, in a district that permits the use (to be confirmed)"
     ],
     [
       "Program",
@@ -484,7 +490,7 @@
     ],
     [
       "Market conclusion",
-      "The interchange is saturated for diesel; a commuter store one turn off the roundabouts has demand behind it but no visibility, and its cost basis is set by new-build prices"
+      "The interchange is saturated for diesel; a commuter store off the interstate frontage has demand behind it but no visibility, and its cost basis is set by new-build prices"
     ],
     [
       "Determination",

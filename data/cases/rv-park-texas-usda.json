@@ -205,11 +205,11 @@
       "assumption": "Insurance terms were NOT FOUND. The 2011 fire burned 34,068 acres of the Lost Pines [^42]; the lender must replace this with a bound quote that includes wildfire."
     },
     "tax_county": {
-      "value": 0.004287,
+      "value": 0.004554,
       "fmt": "%2",
-      "label": "Bastrop County tax rate, 2025 (per $1 of value)",
+      "label": "Bastrop County tax rate, FY 2026-27 ($0.4554 per $100)",
       "source": [
-        10
+        71
       ]
     },
     "tax_isd": {
@@ -246,9 +246,9 @@
       ]
     },
     "bi_fee_pct": {
-      "value": 0.03,
+      "value": 0.035,
       "fmt": "%",
-      "label": "USDA initial guarantee fee, share of guaranteed amount",
+      "label": "USDA guarantee fee, share of the guaranteed amount: 3.0% initial plus 0.50% for a guarantee issued before construction is complete",
       "source": [
         47
       ]
@@ -289,19 +289,19 @@
       "value": 0.03,
       "fmt": "%",
       "label": "Payroll growth per year",
-      "assumption": "Payroll grows 3% a year, a labelled allowance for wage growth; the research gives no local wage trend for this use, so the lender should test it against the operator's staffing plan."
+      "assumption": "An allowance for park wages, which no Bastrop source tracks for campground staff; the ARVC medians [^58] are a 2023 snapshot, so the operator's staffing plan and local job postings should replace this before closing."
     },
     "growth_insurance": {
       "value": 0.04,
       "fmt": "%",
       "label": "Insurance growth per year",
-      "assumption": "Insurance grows 4% a year, a labelled allowance; no quoted premium for the subject exists, so a bound quote replaces it before closing."
+      "assumption": "An allowance for premium increases on a park among the Lost Pines, where the 2011 fire is the reference event [^42]; with no quote in hand, the carrier's bound terms set this line."
     },
     "growth_tax": {
       "value": 0.02,
       "fmt": "%",
       "label": "Taxable value growth per year",
-      "assumption": "Taxable value grows 2% a year, a labelled allowance; Texas appraisal districts reappraise, and the study does not forecast the district's value."
+      "assumption": "An allowance for reappraisal by the Bastrop Central Appraisal District, which values property at 100% of market [^14]; the study makes no forecast of the district's value, and county rate changes [^10,71] come on top."
     },
     "usda_fee_paydown": {
       "value": 0.03,
@@ -448,7 +448,7 @@
       "key": "tax",
       "label": "Property tax",
       "expr": "(land_acres * land_per_acre + (rv_sites * site_cost + cabins * cabin_cost + amenity_building) * (1 + contingency_pct)) * (tax_county + tax_isd + tax_esd) * (1 + growth_tax) ** y",
-      "basis": "100% of market value [^14] x rates [^10,11,12]"
+      "basis": "100% of market value [^14] x rates [^11,12,71]"
     },
     {
       "key": "usda_fee",

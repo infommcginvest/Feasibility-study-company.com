@@ -236,9 +236,9 @@
       ]
     },
     "bi_fee_pct": {
-      "value": 0.03,
+      "value": 0.035,
       "fmt": "%",
-      "label": "Initial guarantee fee, share of the guaranteed amount (FY2026)",
+      "label": "USDA guarantee fee, share of the guaranteed amount: 3.0% initial plus 0.50% for a guarantee issued before construction is complete",
       "source": [
         44
       ]
@@ -264,10 +264,10 @@
       "assumption": "Term follows the useful life of the collateral, up to 40 years [^49]; 25 years blends a building life with process equipment that wears out sooner"
     },
     "bi_equity_min_pct": {
-      "value": 0.2,
+      "value": 0.25,
       "fmt": "%",
-      "label": "Minimum equity (lender requirement)",
-      "assumption": "No B&I equity rule is in the research. A start-up plant with no operating history is held to 20% by the lender's credit policy in this case; the lender confirms its own requirement and USDA's balance sheet test."
+      "label": "Minimum equity, new business with construction, share of project cost",
+      "assumption": "The research reads 7 CFR 5001.105(d), as amended December 11, 2025, as 20% tangible balance sheet equity for a new business, or 25% of project cost, and 25% where the guarantee issues before construction is complete [^74]. A start-up plant financed through construction is tested at 25% of project cost; the lender confirms which test applies."
     },
     "bi_dscr_floor": {
       "value": 1.25,
@@ -290,11 +290,11 @@
       "assumption": "The plant loses money in Year 1 and does not cover debt service in Year 2 in this model; a funded reserve carries part of that gap. The sponsor's lender sets the final amount from the monthly ramp."
     },
     "tax_county": {
-      "value": 0.004287,
+      "value": 0.004554,
       "fmt": "%2",
-      "label": "Bastrop County tax rate, tax year 2025 ($0.42870 per $100)",
+      "label": "Bastrop County tax rate, FY 2026-27 ($0.4554 per $100)",
       "source": [
-        36
+        75
       ]
     },
     "tax_city": {
@@ -474,7 +474,7 @@
   ],
   "proposed": {
     "equity_pct": 0.2,
-    "note": "the sponsor proposes the lender's 20% minimum equity"
+    "note": "the sponsor proposes 20% equity, the new-business balance sheet level"
   },
   "breakeven": {
     "input": "util",
@@ -543,7 +543,7 @@
     ],
     [
       "Determination as proposed",
-      "Fails: {equity_proposed_pct} equity and a {loan_total_proposed} loan cover Year 3 debt service {dscr_y3_proposed}, below the {floor} floor"
+      "Fails: {equity_proposed_pct} equity is below the {equity_req_pct} of project cost the rule asks, and a {loan_total_proposed} loan covers Year 3 debt service {dscr_y3_proposed}, below the {floor} floor"
     ],
     [
       "Determination as restructured",

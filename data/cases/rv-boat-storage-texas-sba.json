@@ -21,11 +21,17 @@
     "count": 100
   },
   "inputs": {
-    "land": {
-      "value": 1399000,
+    "land_acres": {
+      "value": 2.5,
+      "fmt": "n1",
+      "label": "Land area, acres (hypothetical lot on US 377)",
+      "assumption": "A round hypothetical lot of 2.5 acres: about 100 spaces at the 40 spaces an acre Cushman & Wakefield uses when it estimates supply (December 2025) [^34]."
+    },
+    "land_per_acre": {
+      "value": 400000,
       "fmt": "$",
-      "label": "Land, about 2.7 acres on US 377",
-      "assumption": "The October 2026 asking price the research found for a commercial corner of about 2.7 acres on US 377, about $521,626 an acre. The listing is not cited so that no real parcel is identified, and an appraisal sets the value."
+      "label": "Land cost per acre",
+      "assumption": "Set inside the range of two other US 377 asks in Granbury: a 2.17-acre tract listed at $1,300,000 (2025 to 2026) [^8] and a 5.73-acre tract whose asks were reported across listing portals at $1,125,000 to $2,495,988 (2025 to 2026) [^56]. Per acre, the level sits between the lowest of those asks and the 2.17-acre tract. Asks are not sales, and an appraisal sets the value."
     },
     "site_work": {
       "value": 900000,
@@ -49,7 +55,7 @@
       "value": 70,
       "fmt": "n",
       "label": "Covered spaces",
-      "assumption": "After drive aisles, setbacks, the wash bay and the gate, the lot holds about 100 spaces, fewer than the 40 spaces per acre Cushman & Wakefield uses for supply estimates (December 2025) [^34]. Most are covered because covered spaces carry the rent premium in Granbury's posted rates [^10,14]."
+      "assumption": "After drive aisles, setbacks, the wash bay and the gate, the 2.5-acre lot holds about 100 spaces, the 40 spaces an acre Cushman & Wakefield uses for supply estimates (December 2025) [^34]. Most are covered because covered spaces carry the rent premium in Granbury's posted rates [^10,14]."
     },
     "open_spaces": {
       "value": 30,
@@ -161,10 +167,10 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land",
-      "expr": "land",
+      "label": "Land, about 2.5 acres on US 377",
+      "expr": "land_acres * land_per_acre",
       "class": "real_estate",
-      "basis": "assumption, see inputs"
+      "basis": "acres x assumed $ per acre [^8,56]"
     },
     {
       "key": "site_work",
@@ -218,7 +224,7 @@
     {
       "key": "tax",
       "label": "Property tax",
-      "expr": "(land + site_work + canopies) * (tax_isd + tax_county + tax_city)",
+      "expr": "(land_acres * land_per_acre + site_work + canopies) * (tax_isd + tax_county + tax_city)",
       "basis": "cost x 2025 rates [^28,29,30]"
     }
   ],
@@ -257,11 +263,11 @@
   "glance": [
     [
       "Town, county and corridor",
-      "Granbury, Hood County, Texas; US 377 near Lake Granbury and the regional airport, in the Dallas-Fort Worth region [^1]"
+      "Granbury, Hood County, Texas; the US 377 corridor near Lake Granbury, in the Dallas-Fort Worth region [^1]"
     ],
     [
       "Subject",
-      "New RV and boat storage facility with {in_covered_spaces} covered and {in_open_spaces} open spaces on a 2.7-acre corner parcel on US 377 (hypothetical)"
+      "New RV and boat storage facility with {in_covered_spaces} covered and {in_open_spaces} open spaces on about {in_land_acres} acres on US 377 (hypothetical), in a district that permits vehicle storage (to be confirmed)"
     ],
     [
       "Program",
@@ -289,7 +295,7 @@
     ],
     [
       "Market conclusion",
-      "Real demand, ample supply and low rents: covered spaces post at $90 to $175 a month [^10], on land whose asking price per acre is close to what finished facilities sold for in 2025 [^33]"
+      "Real demand, ample supply and low rents: covered spaces post at $90 to $175 a month [^10], on land costing most of what finished facilities sold for per acre in 2025 [^33]"
     ],
     [
       "Determination",

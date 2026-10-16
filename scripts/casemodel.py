@@ -35,6 +35,8 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CASES = os.path.join(ROOT, "data", "cases")
 SBA_FILE = os.path.join(ROOT, "data", "regulatory", "sba.json")
+CARDS = os.path.join(ROOT, "src", "case-cards.json")
+INDEX = os.path.join(ROOT, "case-studies", "index.html")
 REGION = re.compile(r"<!--case:([a-z0-9-]+)\.([a-z0-9_.]+)-->(.*?)<!--/case:\1\.\2-->", re.S)
 CITE = re.compile(r"\[\^(\d+(?:\s*,\s*\d+)*)\]")
 YEARS = 5
@@ -688,7 +690,9 @@ class Renderer:
         if c.program == "sba_504":
             v.update({"debenture": fmt_money(t1["debenture"]), "tpl": fmt_money(t1["tpl"]),
                       "debenture_proposed": fmt_money(t0["debenture"]), "tpl_proposed": fmt_money(t0["tpl"]),
-                      "cap": fmt_money(r["rules"]["cap"])})
+                      "cap": fmt_money(r["rules"]["cap"]),
+                      "debenture_position": "at the program limit" if t1["debenture"] >= r["rules"]["cap"] - 1 else "under the program limit",
+                      "tpl_share": fmt_pct(t1["tpl"] / t1["tpc"])})
         elif r["rules"].get("cap"):
             v["cap"] = fmt_money(r["rules"]["cap"])
         for i, y in enumerate(r["years"], 1):
@@ -754,6 +758,16 @@ class Renderer:
             for label, text in self.c.spec["glance"]:
                 if re.search(r"\{cushion_pct\}|cushion|below (the )?(plan|underwritten)|covered down to|\bmargin\b", text, re.I):
                     raise ModelError(f"{self.c.slug}: glance row '{label}' reads as a cushion, but break-even is above plan or not reached")
+
+    def card(self, text):
+        """The case's card summary on /case-studies/, filled from the model; no citations, no contradiction."""
+        passes = all(x["ok"] for x in self.run["res_tests"])
+        says_fail = re.search(r"does not support", text, re.I)
+        if passes == bool(says_fail):
+            raise ModelError(f"{self.c.slug}: card wording contradicts the determination")
+        if CITE.search(text):
+            raise ModelError(f"{self.c.slug}: card carries a citation")
+        return esc(re.sub(r"\{([a-z0-9_]+)\}", lambda m: self.values[m.group(1)], text))
 
     def t_glance(self):
         self.check_glance()
@@ -1059,6 +1073,36 @@ def process(case, check):
     return problems, changed
 
 
+def process_index(cases, check):
+    """Fill the factory cases' card regions on /case-studies/ from src/case-cards.json."""
+    cards = {k: v for k, v in json.load(open(CARDS, encoding="utf-8")).items() if not k.startswith("_")}
+    text = open(INDEX, encoding="utf-8").read()
+    problems, changed = [], False
+    for slug, tmpl in cards.items():
+        case = cases.get(slug)
+        if case is None:
+            problems.append(f"case-cards: no case {slug}")
+            continue
+        pat = re.compile(r"(<!--case:%s\.card-->)(.*?)(<!--/case:%s\.card-->)" % (re.escape(slug), re.escape(slug)), re.S)
+        found = pat.findall(text)
+        if len(found) != 1:
+            problems.append(f"case-studies/index.html: {len(found)} card regions for {slug}, expected 1")
+            continue
+        page = page_file(case)
+        rnd = Renderer(case, nsources(open(page, encoding="utf-8").read()) if os.path.exists(page) else 0)
+        new = rnd.card(tmpl)
+        if found[0][1] != new:
+            changed = True
+            if check:
+                problems.append(f"case-studies/index.html: stale card {slug}")
+            text = pat.sub(lambda m: m.group(1) + new + m.group(3), text)
+    for slug in set(re.findall(r"<!--case:([a-z0-9-]+)\.card-->", text)) - set(cards):
+        problems.append(f"case-studies/index.html: card region for {slug} has no template")
+    if changed and not check:
+        open(INDEX, "w", encoding="utf-8").write(text)
+    return problems, changed
+
+
 def dump(case, rnd):
     r = rnd.run
     clean = lambda t: {k: v for k, v in t.items() if k != "tranches"} | {"tranches": t["tranches"]}
@@ -1079,10 +1123,11 @@ def main(argv):
     files = case_files()
     if args.case or args.only:
         files = [os.path.join(CASES, (args.case or args.only) + ".json")]
-    problems, written = [], []
+    problems, written, cases = [], [], {}
     for f in files:
         try:
             case = Case(f, sba)
+            cases[case.slug] = case
             if args.case or args.dump:
                 p = page_file(case)
                 n = nsources(open(p, encoding="utf-8").read()) if os.path.exists(p) else 999
@@ -1105,6 +1150,14 @@ def main(argv):
         for p in problems:
             print(p)
         return 1 if problems else 0
+    if not args.only:
+        try:
+            pr, changed = process_index(cases, args.check)
+            problems += pr
+            if changed and not args.check:
+                written.append("case-studies index cards")
+        except (ModelError, KeyError, ValueError, ZeroDivisionError) as exc:
+            problems.append(f"case-cards: {type(exc).__name__}: {exc}")
     for p in problems:
         print(p)
     if args.check:

@@ -13,16 +13,16 @@
  },
  "inputs": {
   "land": {
-   "value": 2250000,
+   "value": 800000,
    "fmt": "$",
-   "label": "Land, 14 acres at I-10 and SH 61",
-   "assumption": "The 2026 asking price the research found for a 14-acre tract at the I-10 and SH 61 interchange, about $160,714 an acre. The listing is not cited so that no real parcel is identified. It is high against the June 2026 sale of 6.82 acres at Exit 814 [^1]; an appraisal sets the value."
+   "label": "Land, about 10 acres (assumption)",
+   "assumption": "A hypothetical site of about 10 acres with I-10 frontage-road access in the Hankamer segment of the corridor, priced at an assumed $80,000 an acre. The level sits inside the land evidence the research holds for the area: 16.27 acres on SH 61 set back from the interstate asking $995,000, or $61,156 an acre [^2], and 6.82 acres of I-10 frontage at Exit 814 that sold on June 5, 2026 for $482,001 to $552,000 after listing at $668,428 [^1]. Interstate frontage for a truck lot sits toward the top of that range. An appraisal and a contract set the value."
   },
   "store_site": {
    "value": 4400000,
    "fmt": "$",
    "label": "Store, food service, showers, truck lot and site work",
-   "assumption": "No construction cost for a Chambers County travel center was found. Published projects run from $10 million for an 11,365 square foot urban travel center (February 2026) [^46] to $18 million for a chain travel center using about 14 acres with more than 80 truck spaces (November 2024) [^47]; both include costs this line leaves to other lines. The subject is smaller in store and truck lot than either. Construction input prices rose 8.9% in the year to August 2026 [^48], and the county requires new construction 24 inches above base flood elevation [^24], which raises pad costs."
+   "assumption": "No construction cost for a Chambers County travel center was found. Published projects run from $10 million for an 11,365 square foot urban travel center (February 2026) [^46] to $18 million for a chain travel center in Illinois with more than 80 truck spaces (November 2024) [^47]; both include costs this line leaves to other lines. The subject is smaller in store and truck lot than either. Construction input prices rose 8.9% in the year to August 2026 [^48], and the county requires new construction 24 inches above base flood elevation [^24], which raises pad costs."
   },
   "fuel_system": {
    "value": 1500000,
@@ -88,7 +88,7 @@
    "value": 0.36,
    "fmt": "cpg",
    "label": "Gasoline gross margin per gallon",
-   "assumption": "The same chain earned 39.2 cents a gallon on gasoline in fiscal 2025 [^44], and NACS put 2025 retail fuel margins above 40 cents [^43]. The subject is set below both because it shares its interchange with established branded stations."
+   "assumption": "The same chain earned 39.2 cents a gallon on gasoline in fiscal 2025 [^44], and NACS put 2025 retail fuel margins above 40 cents [^43]. The subject is set below both because established branded stations at the SH 61 interchange compete for the same car traffic."
   },
   "inside_margin": {
    "value": 0.33,
@@ -175,9 +175,9 @@
    ]
   },
   "bi_fee_pct": {
-   "value": 0.03,
+   "value": 0.035,
    "fmt": "%",
-   "label": "USDA initial guarantee fee, share of the guaranteed amount",
+   "label": "USDA guarantee fee, share of the guaranteed amount: 3.0% initial plus 0.50% for a guarantee issued before construction is complete",
    "source": [
     32
    ]
@@ -195,10 +195,10 @@
    "assumption": "The term may run to the justified useful life of the project or collateral, at most 40 years [^35]. Buildings and paving outlast dispensers and store fixtures; 25 years blends them. The lender must justify the term"
   },
   "bi_equity_min_pct": {
-   "value": 0.2,
+   "value": 0.25,
    "fmt": "%",
    "label": "Minimum equity",
-   "assumption": "The Hankamer research and the USDA program file do not state the equity rule. The regulation that does, 7 CFR 5001.105(d) as amended December 11, 2025, is read as 20% tangible balance sheet equity for a new business, or 25% of project cost, and 25% where the guarantee issues before construction is complete [^37]. The model tests 20%, assuming the guarantee issues after completion; the lender must confirm which test applies."
+   "assumption": "7 CFR 5001.105(d), as amended December 11, 2025, sets the equity a new business must show at 20% of its balance sheet, or 25% of project cost, and at 25% for a new business whose guarantee issues before construction is complete [^37]. This travel center is a new business built from the ground up on a guaranteed construction-to-permanent loan, so the model tests 25% of total project cost and charges the fee for a guarantee issued before completion. The lender confirms the measure and the timing of the guarantee at application."
   },
   "bi_dscr_floor": {
    "value": 1.25,
@@ -218,7 +218,7 @@
  "uses": [
   {
    "key": "land",
-   "label": "Land, 14 acres",
+   "label": "Land, about 10 acres",
    "expr": "land",
    "class": "real_estate",
    "basis": "assumption, see inputs"
@@ -339,11 +339,11 @@
  "glance": [
   [
    "Town, county and corridor",
-   "Hankamer (unincorporated), Chambers County, Texas; I-10 at SH 61, Exit 812/813, between Houston and Beaumont [^4]"
+   "Hankamer (unincorporated), Chambers County, Texas; the I-10 corridor around the SH 61 interchange (Exits 810 to 820), between Houston and Beaumont [^4]"
   ],
   [
    "Subject",
-   "New independent travel center with diesel lanes, a truck lot, a store with food service and showers, on 14 acres with no county zoning (hypothetical) [^1]"
+   "New independent travel center with diesel lanes, a truck lot and a store with food service and showers, on about 10 acres with I-10 frontage-road access in unincorporated Chambers County, where no county zoning applies (hypothetical site; access and flood zone to be confirmed) [^1,23]"
   ],
   [
    "Program",
@@ -359,7 +359,7 @@
   ],
   [
    "Equity",
-   "{equity_pct} ({equity}) as restructured; {equity_proposed_pct} as proposed; assumed minimum {equity_req_pct}"
+   "{equity_pct} ({equity}) as restructured; {equity_proposed_pct} as proposed; minimum {equity_req_pct} of project cost under the B&amp;I rule [^37]"
   ],
   [
    "DSCR in the test year (Year 3)",
@@ -371,11 +371,11 @@
   ],
   [
    "Market conclusion",
-   "Thin truck parking and two small fuel stops at the interchange support a new travel center; the volumes rest on benchmarks until TxDOT counts are pulled [^12,13,14]"
+   "Thin truck parking and two small fuel stops at the SH 61 interchange support a new travel center in the corridor; the volumes rest on benchmarks until TxDOT counts are pulled [^12,13,14]"
   ],
   [
    "Determination",
-   "As proposed: fails (equity below the assumed minimum; Year 3 coverage below the floor). As restructured: meets every test at {equity_pct} equity, a loan the projected cash flow carries"
+   "As proposed: fails (equity below the B&amp;I minimum; Year 3 coverage below the floor). As restructured: meets every test at {equity_pct} equity, a loan the projected cash flow carries"
   ]
  ]
 }

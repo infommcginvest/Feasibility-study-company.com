@@ -10,9 +10,9 @@
     "rural_fee_waiver": false
   },
   "rule_sources": {
-    "sop": 45,
-    "fees": 46,
-    "prime": 47
+    "sop": 44,
+    "fees": 45,
+    "prime": 46
   },
   "stabilized_year": 3,
   "dscr_test_year": 2,
@@ -21,23 +21,29 @@
     "count": 1
   },
   "inputs": {
-    "land": {
-      "value": 1850000,
+    "land_acres": {
+      "value": 2.0,
+      "fmt": "n1",
+      "label": "Land area, acres (hypothetical pad on US 183)",
+      "assumption": "A round hypothetical pad of about two acres with US 183 frontage inside city limits, enough for a 4,200 sq ft store, six fuel islands, parking and the 50-foot front setback the entrance-corridor overlay would impose if mapped [^22]."
+    },
+    "land_psf": {
+      "value": 20,
       "fmt": "$",
-      "label": "Land, about 1.5 acres of CLB land with US 183 frontage",
-      "assumption": "Carried at the full asking price of the one listed comparable, a 1.52-acre CLB tract with US 183 frontage inside city limits offered at $1,850,000 in October 2026 [^16]. It is an asking price, not a sale; no closed Lockhart land sale was found, so the study takes no discount."
+      "label": "Land cost per square foot of site",
+      "assumption": "The research holds no closed Lockhart land sale and not enough priced commercial land in town to build a range, so no market range sets this line. The study uses a round planning level of $20 a square foot for highway commercial land inside city limits; it is taken from no single listing, and the appraisal and an executed land contract replace it. The sensitivity table moves it 15% and 30% either way."
     },
     "store_sf": {
       "value": 4200,
       "fmt": "n",
       "label": "Store size, square feet",
-      "assumption": "Between Yesway's 3,400 sq ft legacy store and its 5,800 sq ft new-build average [^36], large enough for a made-to-order kitchen and a few seats."
+      "assumption": "Between Yesway's 3,400 sq ft legacy store and its 5,800 sq ft new-build average [^35], large enough for a made-to-order kitchen and a few seats."
     },
     "building_psf": {
       "value": 290,
       "fmt": "$",
       "label": "Store and canopy hard cost per square foot of store",
-      "assumption": "Inside the $150 to $350 contractor range for building and canopy [^39], in the upper half because nonresidential construction inputs rose 7.1% in the year to June 2026 [^41] and the store carries a kitchen."
+      "assumption": "Inside the $150 to $350 contractor range for building and canopy [^38], in the upper half because nonresidential construction inputs rose 7.1% in the year to June 2026 [^40] and the store carries a kitchen."
     },
     "tanks": {
       "value": 3,
@@ -49,25 +55,25 @@
       "value": 220000,
       "fmt": "$",
       "label": "Installed cost per tank, complete with piping and monitoring",
-      "assumption": "Midpoint of the $60,000 to $380,000 a fuel-system vendor gives for a complete installed tank system, updated August 18, 2026 [^40]; the same guide puts the vessel alone at $20,000 to $80,000."
+      "assumption": "Midpoint of the $60,000 to $380,000 a fuel-system vendor gives for a complete installed tank system, updated August 18, 2026 [^39]; the same guide puts the vessel alone at $20,000 to $80,000."
     },
     "dispensers": {
       "value": 6,
       "fmt": "n",
       "label": "Multi-product dispensers (12 fueling positions)",
-      "assumption": "Six islands for a highway frontage; the contractor's all-in example runs 4 dispensers for 3,000 sq ft [^39] and Yesway's legacy stores average 10 [^36]."
+      "assumption": "Six islands for a highway frontage; the contractor's all-in example runs 4 dispensers for 3,000 sq ft [^38] and Yesway's legacy stores average 10 [^35]."
     },
     "dispenser_cost": {
       "value": 50000,
       "fmt": "$",
       "label": "Cost per dispenser",
-      "assumption": "Middle of the $25,000 to $75,000 per dispenser range in the same vendor's cost table [^40]; its text quotes a lower floor of $12,000, so the table is the safer reading."
+      "assumption": "Middle of the $25,000 to $75,000 per dispenser range in the same vendor's cost table [^39]; its text quotes a lower floor of $12,000, so the table is the safer reading."
     },
     "sitework": {
       "value": 450000,
       "fmt": "$",
       "label": "Site work, paving, drainage, utility taps and signage",
-      "assumption": "No Lockhart site-work cost was found and the city does not publish commercial impact fee amounts [^28]; carried as a round allowance for a 1.5-acre pad with two drives."
+      "assumption": "No Lockhart site-work cost was found and the city does not publish commercial impact fee amounts [^27]; carried as a round allowance for a two-acre pad with two drives."
     },
     "contingency_pct": {
       "value": 0.05,
@@ -79,7 +85,7 @@
       "value": 260000,
       "fmt": "$",
       "label": "Design, permits, SUP process, survey, Phase I and legal",
-      "assumption": "Allowance; it includes a Phase I environmental site assessment, which gas station loans carry regardless of size [^43], and the cost of a Specific Use Permit application if the overlay is mapped."
+      "assumption": "Allowance; it includes a Phase I environmental site assessment, which gas station loans carry regardless of size [^42], and the cost of a Specific Use Permit application if the overlay is mapped."
     },
     "ffe": {
       "value": 380000,
@@ -91,7 +97,7 @@
       "value": 150000,
       "fmt": "$",
       "label": "Opening fuel inventory",
-      "assumption": "Low half of the $100,000 to $300,000 initial fuel inventory range in Holiday's 2025 franchise disclosure, as relayed by a contractor [^42]."
+      "assumption": "Low half of the $100,000 to $300,000 initial fuel inventory range in Holiday's 2025 franchise disclosure, as relayed by a contractor [^41]."
     },
     "merch_inventory": {
       "value": 140000,
@@ -121,7 +127,7 @@
       "value": 0.36,
       "fmt": "cpg",
       "label": "Fuel gross margin per gallon",
-      "assumption": "Below the 39.7-cent 2024 national gasoline margin [^9] and well below the 35.1 to 52.6 cents listed operators earned in the second quarter of 2026, a level lifted by the 2026 supply shock [^38]; the H-E-B fuel center on US 183 [^15] anchors the low end of local prices."
+      "assumption": "Below the 39.7-cent 2024 national gasoline margin [^9] and well below the 35.1 to 52.6 cents listed operators earned in the second quarter of 2026, a level lifted by the 2026 supply shock [^37]; the H-E-B fuel center on US 183 [^15] anchors the low end of local prices."
     },
     "inside_sales": {
       "value": [
@@ -133,33 +139,33 @@
       ],
       "fmt": "$",
       "label": "Inside sales, merchandise and food",
-      "assumption": "Year 3 sits between Yesway's $1.7 million legacy store and its $3.1 million new-build store [^36]; the kitchen and Lockhart's barbecue traffic justify more than a legacy store, but not a new-build chain store."
+      "assumption": "Year 3 sits between Yesway's $1.7 million legacy store and its $3.1 million new-build store [^35]; the kitchen and Lockhart's barbecue traffic justify more than a legacy store, but not a new-build chain store."
     },
     "food_share": {
       "value": 0.285,
       "fmt": "%",
       "label": "Foodservice share of inside sales",
       "source": [
-        34
+        33
       ]
     },
     "food_margin": {
       "value": 0.5,
       "fmt": "%",
       "label": "Foodservice gross margin",
-      "assumption": "Below the 58.3% prepared food margin Casey's reported for the first nine months of its fiscal 2026 [^37]; an independent kitchen buys at smaller scale."
+      "assumption": "Below the 58.3% prepared food margin Casey's reported for the first nine months of its fiscal 2026 [^36]; an independent kitchen buys at smaller scale."
     },
     "merch_margin": {
       "value": 0.32,
       "fmt": "%",
       "label": "Merchandise gross margin",
-      "assumption": "Below Yesway's 35.2% inside margin for 2025 [^36], which blends in its food; packaged goods alone earn less."
+      "assumption": "Below Yesway's 35.2% inside margin for 2025 [^35], which blends in its food; packaged goods alone earn less."
     },
     "staff_shift": {
       "value": 2.4,
       "fmt": "n1",
       "label": "Staff on the floor per hour",
-      "assumption": "Slightly under Yesway's portfolio average of 2.6 employees per shift [^36], whose stores average larger."
+      "assumption": "Slightly under Yesway's portfolio average of 2.6 employees per shift [^35], whose stores average larger."
     },
     "hours": {
       "value": 24,
@@ -172,7 +178,7 @@
       "fmt": "$2",
       "label": "Average hourly wage",
       "source": [
-        34
+        33
       ]
     },
     "burden": {
@@ -185,14 +191,14 @@
       "value": 0.03,
       "fmt": "%",
       "label": "Annual growth in wages and operating costs",
-      "assumption": "Near the 3.4% consumer price inflation reported for August 2026 [^38]."
+      "assumption": "Near the 3.4% consumer price inflation reported for August 2026 [^37]."
     },
     "card_cpg": {
       "value": 0.084,
       "fmt": "cpg",
       "label": "Card fees per gallon of fuel",
       "source": [
-        35
+        34
       ]
     },
     "ind_card_fees": {
@@ -200,7 +206,7 @@
       "fmt": "$",
       "label": "Industry card fees, 2025",
       "source": [
-        34
+        33
       ]
     },
     "ind_sales": {
@@ -208,20 +214,20 @@
       "fmt": "$",
       "label": "Industry total sales, 2025",
       "source": [
-        34
+        33
       ]
     },
     "utilities": {
       "value": 78000,
       "fmt": "$",
       "label": "Electricity, water and gas, Year 1",
-      "assumption": "The city's General Service Demand tariff adds a purchased power cost set by Council in October 2007 whose current value the rate page does not show [^27], so the bill cannot be built from the tariff; carried as an allowance for a 24-hour store with a kitchen."
+      "assumption": "The city's General Service Demand tariff adds a purchased power cost set by Council in October 2007 whose current value the rate page does not show [^26], so the bill cannot be built from the tariff; carried as an allowance for a 24-hour store with a kitchen."
     },
     "repairs": {
       "value": 70000,
       "fmt": "$",
       "label": "Repairs, supplies, tank testing and compliance, Year 1",
-      "assumption": "Allowance; tank and line testing is part of the environmental file a gas station loan keeps [^43]."
+      "assumption": "Allowance; tank and line testing is part of the environmental file a gas station loan keeps [^42]."
     },
     "insurance": {
       "value": 30000,
@@ -240,7 +246,7 @@
       "fmt": "%2",
       "label": "Property tax rate: County, road, City, Lockhart ISD and two Plum Creek districts, 2025",
       "source": [
-        30
+        29
       ]
     },
     "reserve_pct": {
@@ -254,31 +260,31 @@
       "fmt": "%",
       "label": "SBA guaranty share",
       "source": [
-        44
+        43
       ]
     }
   },
   "uses": [
     {
       "key": "land",
-      "label": "Land, about 1.5 acres on US 183",
-      "expr": "land",
+      "label": "Land, about 2 acres on US 183",
+      "expr": "land_acres * 43560 * land_psf",
       "class": "real_estate",
-      "basis": "assumption at the listed comparable's ask [^16]"
+      "basis": "acres x 43,560 sq ft x assumed $ per sq ft"
     },
     {
       "key": "building",
       "label": "Store and canopy, 4,200 sq ft",
       "expr": "store_sf * building_psf",
       "class": "real_estate",
-      "basis": "sq ft x cost per sq ft [^39,41]"
+      "basis": "sq ft x cost per sq ft [^38,40]"
     },
     {
       "key": "tanks",
       "label": "Underground tanks, piping and monitoring",
       "expr": "tanks * tank_cost",
       "class": "real_estate",
-      "basis": "3 tanks [^40]"
+      "basis": "3 tanks [^39]"
     },
     {
       "key": "sitework",
@@ -299,14 +305,14 @@
       "label": "Design, permits, SUP, Phase I, legal",
       "expr": "soft",
       "class": "real_estate",
-      "basis": "allowance [^43]"
+      "basis": "allowance [^42]"
     },
     {
       "key": "dispensers",
       "label": "Fuel dispensers",
       "expr": "dispensers * dispenser_cost",
       "class": "equipment",
-      "basis": "6 dispensers [^40]"
+      "basis": "6 dispensers [^39]"
     },
     {
       "key": "ffe",
@@ -320,7 +326,7 @@
       "label": "Opening fuel and store inventory",
       "expr": "fuel_inventory + merch_inventory",
       "class": "working_capital",
-      "basis": "[^42]"
+      "basis": "[^41]"
     },
     {
       "key": "working_capital",
@@ -335,19 +341,19 @@
       "key": "fuel",
       "label": "Fuel gross profit",
       "expr": "gallons_day * 365 * fuel_margin",
-      "basis": "gallons a day x 365 x margin [^9,38]"
+      "basis": "gallons a day x 365 x margin [^9,37]"
     },
     {
       "key": "merch",
       "label": "Merchandise gross profit",
       "expr": "inside_sales * (1 - food_share) * merch_margin",
-      "basis": "inside sales x non-food share x margin [^34,36]"
+      "basis": "inside sales x non-food share x margin [^33,35]"
     },
     {
       "key": "food",
       "label": "Foodservice gross profit",
       "expr": "inside_sales * food_share * food_margin",
-      "basis": "inside sales x food share x margin [^34,37]"
+      "basis": "inside sales x food share x margin [^33,36]"
     }
   ],
   "cost_of_sales": [],
@@ -356,25 +362,25 @@
       "key": "labor",
       "label": "Store payroll and burden",
       "expr": "staff_shift * hours * 365 * wage * (1 + burden) * (1 + inflation) ** y",
-      "basis": "staff x hours x wage [^34,36]"
+      "basis": "staff x hours x wage [^33,35]"
     },
     {
       "key": "card_fuel",
       "label": "Card fees on fuel",
       "expr": "gallons_day * 365 * card_cpg",
-      "basis": "8.4 cents a gallon [^35]"
+      "basis": "8.4 cents a gallon [^34]"
     },
     {
       "key": "card_inside",
       "label": "Card fees on inside sales",
       "expr": "inside_sales * ind_card_fees / ind_sales",
-      "basis": "industry fees / industry sales [^34]"
+      "basis": "industry fees / industry sales [^33]"
     },
     {
       "key": "utilities",
       "label": "Utilities",
       "expr": "utilities * (1 + inflation) ** y",
-      "basis": "allowance [^27]"
+      "basis": "allowance [^26]"
     },
     {
       "key": "repairs",
@@ -397,8 +403,8 @@
     {
       "key": "tax",
       "label": "Property tax",
-      "expr": "(land + store_sf * building_psf + tanks * tank_cost + sitework + dispensers * dispenser_cost + ffe) * tax_rate",
-      "basis": "cost basis x 2025 rates [^30]"
+      "expr": "(land_acres * 43560 * land_psf + store_sf * building_psf + tanks * tank_cost + sitework + dispensers * dispenser_cost + ffe) * tax_rate",
+      "basis": "cost basis x 2025 rates [^29]"
     },
     {
       "key": "reserve",
@@ -428,14 +434,14 @@
       ]
     },
     "cols": {
-      "input": "land",
-      "label": "Land price below the ask",
+      "input": "land_psf",
+      "label": "Land cost against the assumed level",
       "steps": [
-        -0.4,
         -0.3,
-        -0.2,
-        -0.1,
-        0
+        -0.15,
+        0,
+        0.15,
+        0.3
       ]
     },
     "year": 2
@@ -447,11 +453,11 @@
     ],
     [
       "Subject (hypothetical)",
-      "New {in_store_sf} sq ft branded convenience store with a made-to-order kitchen and {in_dispensers} multi-product dispensers on about 1.5 acres zoned CLB"
+      "New {in_store_sf} sq ft branded convenience store with a made-to-order kitchen and {in_dispensers} multi-product dispensers on about {in_land_acres} acres of US 183 frontage, in a commercial district that permits fuel sales (to be confirmed)"
     ],
     [
       "Program",
-      "SBA 7(a) start-up; gas stations are on SBA's special purpose property list [^45]"
+      "SBA 7(a) start-up; gas stations are on SBA's special purpose property list [^44]"
     ],
     [
       "Total project cost",
@@ -475,7 +481,7 @@
     ],
     [
       "Market conclusion",
-      "Demand supports a new full-service store; the land price, not the market, limits the loan"
+      "Demand supports a new full-service store; the cost of highway land, not the market, limits the loan"
     ],
     [
       "Determination",

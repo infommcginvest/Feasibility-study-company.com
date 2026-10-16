@@ -6,8 +6,24 @@
   "description": "A new limited-service hotel in Bastrop, Texas tested for SBA 504: SH 71 demand, a four-hotel pipeline, and the equity the loan needs to cover its debt.",
   "h1": "Limited-Service Hotel Feasibility Study, Bastrop, Texas: An SBA 504 Worked Case",
   "eyebrow": "Case Study &middot; Texas &middot; Limited-Service Hotel &middot; SBA 504",
-  "hero_sub": "Bastrop has the demand for another branded hotel: a city that has grown 38.2% since 2020 and a Starlink campus with more than 1,000 workers on the SH 71 corridor [^1,40]. It also has 228 extended-stay keys that opened in 2025 and four more branded hotels due between December 2026 and July 2028 [^23,15,20]. At the sponsor's {{case:v.equity_proposed_pct}} equity the hotel covers debt {{case:v.dscr_y2_proposed}} in Year 2. The market supports the loan at {{case:v.equity_pct}} equity and {{case:v.loan_total}} of debt, which reaches {{case:v.dscr_y2}}.",
-  "breadcrumb": [["Home", "/"], ["Case Studies", "/case-studies/"], ["Hotels", "/asset-classes/hotel/"], ["Bastrop TX"]],
+  "hero_sub": "Bastrop has the demand for another branded hotel: a city that has grown 38.2% since 2020 and a Starlink campus with more than 1,000 workers on the SH 71 corridor [^1,39]. It also has 228 extended-stay keys that opened in 2025 and four more branded hotels due between December 2026 and July 2028 [^23,15,20]. At the sponsor's {{case:v.equity_proposed_pct}} equity the hotel covers debt {{case:v.dscr_y2_proposed}} in Year 2. The market supports the loan at {{case:v.equity_pct}} equity and {{case:v.loan_total}} of debt, which reaches {{case:v.dscr_y2}}.",
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Case Studies",
+      "/case-studies/"
+    ],
+    [
+      "Hotels",
+      "/asset-classes/hotel/"
+    ],
+    [
+      "Bastrop TX"
+    ]
+  ],
   "published": "2026-07-13",
   "updated": "DEPLOY",
   "data_as_of": "2026-10",
@@ -15,83 +31,464 @@
     "eyebrow": "Bastrop Hotel Questions",
     "h2": "Questions lenders ask about this Bastrop hotel case.",
     "items": [
-      {"q": "Why does a new hotel in Bastrop need more SBA 504 equity than an established business would?", "a": "Two separate tests stack. The borrower is a new business, and a hotel is a special purpose property, so the 504 contribution steps from the <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> standard to <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value-->. The sponsor in this case asked for the <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> tier, which covers only one of the two conditions. The SOP sets the tiers [^61]."},
-      {"q": "Is the Bastrop hotel market overbuilt?", "a": "Not on demand, which is growing with the city and the Starlink campus, but the timing is crowded. Everhome and Home2 added 228 extended-stay keys in 2025, and Courtyard, a Fairfield and TownePlace dual-brand, a Residence Inn and a Fairfield and Staybridge are registered or under construction for delivery from December 2026 to July 2028 [^23,15,18,19,20]. A hotel financed now opens into that wave, which is why the model ramps occupancy slowly."},
-      {"q": "Why is the subject a transient hotel and not another extended-stay?", "a": "The 2025 openings already serve long-stay contractor demand. SBA's lodging rule asks for <!--sba:terms.transient_test.value-->more than 50% of the prior year&#x27;s revenue from transients who stay 30 days or less at a time; a start-up shows it in projections<!--/sba:terms.transient_test.value--> [^61], and Bastrop's hotel tax exempts guests who stay 30 consecutive days or more [^8]. A Bastrop hotel that drifted toward monthly contractor stays would weaken both its eligibility and its tax filings."},
-      {"q": "What ADR and occupancy did the study use, and where do they come from?", "a": "No published ADR or occupancy exists for Bastrop, and the aggregator prices in the research carry no stay date. The model uses labelled assumptions that sit below the 2025 national ADR of $160.54 and occupancy of 62.3% in the opening years and stabilize just above that occupancy in Year 3 [^50]. The first lender condition is an STR trend report for the named competitive set."},
-      {"q": "Could the sponsor use a 7(a) loan instead of a 504?", "a": "A 7(a) start-up loan needs only <!--sba:equity.startup_7a.value-->10%<!--/sba:equity.startup_7a.value--> equity, but its rate is variable and the coverage problem is the same: the hotel's Year 2 income supports about the same amount of debt under either program. The 504 keeps a fixed debenture rate near 7% for 25 years [^60], which matters for a hotel whose income takes three years to stabilize."},
-      {"q": "Does SBA require a feasibility study for this hotel?", "a": "The rule is <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^64]. Lenders often ask for one on a ground-up hotel. Here the study's job is narrower and more useful: it sets how much debt the market supports while the pipeline opens."}
+      {
+        "q": "Why does a new hotel in Bastrop need more SBA 504 equity than an established business would?",
+        "a": "Two separate tests stack. The borrower is a new business, and a hotel is a special purpose property, so the 504 contribution steps from the <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> standard to <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value-->. The sponsor in this case asked for the <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> tier, which covers only one of the two conditions. The SOP sets the tiers [^60]."
+      },
+      {
+        "q": "Is the Bastrop hotel market overbuilt?",
+        "a": "Not on demand, which is growing with the city and the Starlink campus, but the timing is crowded. Everhome and Home2 added 228 extended-stay keys in 2025, and Courtyard, a Fairfield and TownePlace dual-brand, a Residence Inn and a Fairfield and Staybridge are registered or under construction for delivery from December 2026 to July 2028 [^23,15,18,19,20]. A hotel financed now opens into that wave, which is why the model ramps occupancy slowly."
+      },
+      {
+        "q": "Why is the subject a transient hotel and not another extended-stay?",
+        "a": "The 2025 openings already serve long-stay contractor demand. SBA's lodging rule asks for <!--sba:terms.transient_test.value-->more than 50% of the prior year&#x27;s revenue from transients who stay 30 days or less at a time; a start-up shows it in projections<!--/sba:terms.transient_test.value--> [^60], and Bastrop's hotel tax exempts guests who stay 30 consecutive days or more [^8]. A Bastrop hotel that drifted toward monthly contractor stays would weaken both its eligibility and its tax filings."
+      },
+      {
+        "q": "What ADR and occupancy did the study use, and where do they come from?",
+        "a": "No published ADR or occupancy exists for Bastrop, and the aggregator prices in the research carry no stay date. Both are labelled assumptions. Occupancy opens at 60% in Year 1, under the 62.3% U.S. figure for 2025 [^49], because the pipeline opens around the hotel; it reaches 66% in Year 2, 69% in Year 3 and 70% from Year 4, a point or two below the 71.1% that Apple Hospitality's rooms-focused hotels ran in early 2025 [^56]. The rate starts at $138 and stays under the 2025 U.S. ADR of $160.54 in every year [^49]. The first lender condition is an STR trend report for the named competitive set."
+      },
+      {
+        "q": "Could the sponsor use a 7(a) loan instead of a 504?",
+        "a": "A 7(a) start-up loan needs only <!--sba:equity.startup_7a.value-->10%<!--/sba:equity.startup_7a.value--> equity, but its rate is variable and the coverage problem is the same: the hotel's Year 2 income supports about the same amount of debt under either program. The 504 keeps a fixed debenture rate near 7% for 25 years [^59], which matters for a hotel whose income takes three years to stabilize."
+      },
+      {
+        "q": "Does SBA require a feasibility study for this hotel?",
+        "a": "The rule is <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^63]. Lenders often ask for one on a ground-up hotel. Here the study's job is narrower and more useful: it sets how much debt the market supports while the pipeline opens."
+      }
     ]
   },
-  "cta": {"h2": "Underwriting a hotel on a growing corridor? Start with the supply calendar.", "p": "We build the competitive set, the pipeline and the debt test from public records, and we say plainly where the evidence stops."},
+  "cta": {
+    "h2": "Underwriting a hotel on a growing corridor? Start with the supply calendar.",
+    "p": "We build the competitive set, the pipeline and the debt test from public records, and we say plainly where the evidence stops."
+  },
   "sources_lede": "Every figure on this page traces to a named, dated source. Inputs the research could not source are labelled as assumptions in the model.",
   "sources": [
-    {"publisher": "U.S. Census Bureau", "title": "QuickFacts: Bastrop city, Texas; Bastrop County, Texas (population estimates)", "date": "Vintage 2025 (July 1, 2025); accessed October 15, 2026", "url": "https://www.census.gov/quickfacts/fact/table/bastropcitytexas,bastropcountytexas/PST120221"},
-    {"publisher": "U.S. Census Bureau", "title": "QuickFacts: Bastrop city, Texas (American Community Survey and Economic Census fields)", "date": "ACS 2020 to 2024; 2022 Economic Census; accessed October 15, 2026", "url": "https://census.gov/quickfacts/fact/table/bastropcitytexas,bastropcountytexas,TX/PST045225"},
-    {"publisher": "Texas Department of Transportation", "title": "TxDOT Annual Average Daily Traffic Counts (Public)", "date": "Data updated January 6, 2025", "url": "https://gis-txdot.opendata.arcgis.com/maps/TXDOT::txdot-annual-average-daily-traffic-counts-public"},
-    {"publisher": "City of Bastrop", "title": "Ordinances (including Ord. 2023-16, Ord. 2026-06 Bastrop Development Code and Ord. 2026-07 zoning map amendment)", "date": "2023 to 2026; accessed October 15, 2026", "url": "https://www.cityofbastrop.org/page/cs.ordinances"},
-    {"publisher": "City of Bastrop", "title": "Ordinance No. 2025-02 (impervious cover by place type)", "date": "2025", "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/bastroptx-meet-b88e10e812e14ebbb7bf85c90c427b47/ITEM-Attachment-001-68091db4ffa946fbb792970e6f84b944.pdf"},
-    {"publisher": "City of Bastrop", "title": "Resolution No. R-2025-209, Hotel and Leisure Advisors contract for hotel feasibility study", "date": "December 9, 2025", "url": "https://www.cityofbastrop.org/page/open/17251/0/RESOLUTION%20NO.%20R-2025-209%20Hotel%20and%20Leisure%20Advisors%20Contract%20for%20Hotel%20Feasibility%20Study.pdf"},
-    {"publisher": "City of Bastrop", "title": "Tax Rate Information (assessment basis, sales tax and hotel occupancy tax)", "date": "Accessed October 16, 2026", "url": "https://www.cityofbastrop.org/page/fin.tax_info"},
-    {"publisher": "City of Bastrop", "title": "Hotel Occupancy Tax, Code of Ordinances Art. 11.04", "date": "Current ordinance; accessed October 15, 2026", "url": "https://cityofbastrop.org/upload/page/0181/docs/Hotel_Occupancy_Tax.pdf"},
-    {"publisher": "Bastrop County", "title": "Short Term Lodging Hotel Occupancy Tax brochure", "date": "August 2025", "url": "https://www.bastropcounty.gov/upload/page/0146/STR%20HOT%20BROCHURE%20-%20AUG2025.pdf"},
-    {"publisher": "Bastrop County Commissioners Court", "title": "Order Setting the Bastrop County, Texas Tax Rate for 2025-2026", "date": "September 8, 2025", "url": "https://www.bastropcounty.gov/upload/page/0184/docs/OrderSettingTaxrateFY2526.pdf"},
-    {"publisher": "Community Impact", "title": "Bastrop County property tax rate to rise 6.2%", "date": "September 28, 2026", "url": "https://communityimpact.com/bastrop-cedar-creek/government/bastrop-county-property-tax-rate-to-rise-6-2/"},
-    {"publisher": "Community Impact", "title": "Bastrop ISD ratifies tax rate for 2025-26 financial year", "date": "September 18, 2025", "url": "https://communityimpact.com/austin/bastrop-cedar-creek/education/2025/09/18/bastrop-isd-ratifies-tax-rate-for-2025-26-financial-year/"},
-    {"publisher": "Bastrop County Emergency Services District No. 2", "title": "Notice About 2025 Tax Rates", "date": "August 2025", "url": "https://www.bastropesd2.org/wp-content/uploads/2025/08/Notice-About-2025-Tax-Rates-FINAL.pdf"},
-    {"publisher": "Bastrop County Emergency Services District No. 3", "title": "Tax Rate Information", "date": "Tax year 2025", "url": "https://www.bastropesd3.org/tax-rate-information"},
-    {"publisher": "Texas Department of Licensing and Regulation", "title": "TABS Project TABS2025002224 (Courtyard by Marriott at Jackson Square)", "date": "Registered October 1, 2024", "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025002224"},
-    {"publisher": "Texas Department of Licensing and Regulation", "title": "TABS Project TABS2023021644 (Everhome Suites Bastrop)", "date": "Registered 2023", "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2023021644"},
-    {"publisher": "Connect CRE", "title": "Construction Underway on Two Bastrop Hotels", "date": "November 12, 2025", "url": "https://www.connectcre.com/stories/construction-underway-on-two-bastrop-hotels/"},
-    {"publisher": "Community Impact", "title": "Dual-brand Marriott hotel under construction in Bastrop", "date": "July 21, 2025", "url": "https://communityimpact.com/bastrop-cedar-creek/development/dual-brand-marriott-hotel-under-construction-in-bastrop/"},
-    {"publisher": "Community Impact", "title": "Third Marriott-branded hotel project planned in Bastrop", "date": "May 6, 2026", "url": "https://communityimpact.com/austin/bastrop-cedar-creek/business/2026/05/06/third-marriott-branded-hotel-project-planned-in-bastrop/"},
-    {"publisher": "MySA (via Yahoo)", "title": "Marriott, IHG to build new $10M hotel near Buc-ee's outside of Austin", "date": "July 28, 2026", "url": "https://travel.yahoo.com/hotels/articles/marriott-ihg-build-10m-hotel-200200816.html"},
-    {"publisher": "Houston Chronicle", "title": "$300 million mixed-use project to boost fast-growing Texas city", "date": "March 30, 2025", "url": "https://www.chron.com/business/article/bastrop-musk-sendero-development-technology-20247611.php"},
-    {"publisher": "Hotel Project Leads", "title": "Bastrop Hotel Mixed Use Project Planned", "date": "March 27, 2025", "url": "https://hotelprojectleads.com/bastrop-hotel-mixed-use-project-planned/"},
-    {"publisher": "Choice Hotels International (PR Newswire)", "title": "Everhome Suites Continues to Grow Its National Footprint with Nine New Openings and Groundbreakings", "date": "May 28, 2025", "url": "https://www.prnewswire.com/news-releases/everhome-suites-continues-to-grow-its-national-footprint-with-nine-new-openings-and-groundbreakings-across-texas-arizona-oregon-and-ohio-302467207.html"},
-    {"publisher": "Community Impact", "title": "Everhome Suites opens in Bastrop, citing business growth and demand", "date": "February 26, 2025", "url": "https://communityimpact.com/austin/bastrop-cedar-creek/business/2025/02/26/everhome-suites-opens-in-bastrop-citing-business-growth-and-demand/"},
-    {"publisher": "Choice Hotels", "title": "Everhome Suites Bastrop, property page", "date": "Sold-out notice for the night of July 22 to 23, 2026; accessed October 15, 2026", "url": "https://www.choicehotels.com/texas/bastrop/everhome-suites-hotels/txr47"},
-    {"publisher": "Hilton", "title": "Home2 Suites by Hilton Bastrop, property page", "date": "Confirmed October 15, 2026", "url": "https://www.hilton.com/en/hotels/aushtht-home2-suites-bastrop/"},
-    {"publisher": "Hilton", "title": "Hampton Inn & Suites Bastrop, property page", "date": "Confirmed October 16, 2026", "url": "https://www.hilton.com/en/hotels/ausbthx-hampton-suites-bastrop/"},
-    {"publisher": "IHG Hotels & Resorts", "title": "Holiday Inn Express & Suites Bastrop, property page", "date": "Confirmed October 16, 2026", "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bastrop/bxptx/hoteldetail"},
-    {"publisher": "Choice Hotels", "title": "Comfort Suites Bastrop, property page", "date": "Confirmed October 16, 2026", "url": "https://www.choicehotels.com/texas/bastrop/comfort-suites-hotels/txe32"},
-    {"publisher": "Best Western Hotels & Resorts", "title": "Best Western Bastrop Pines Inn, property page", "date": "Confirmed October 16, 2026", "url": "https://www.bestwestern.com/en_US/book/hotels-in-bastrop/best-western-bastrop-pines-inn/propertyCode.44646.html"},
-    {"publisher": "Choice Hotels", "title": "Quality Inn Bastrop, property page (TX370)", "date": "Confirmed October 16, 2026", "url": "https://www.choicehotels.com/texas/bastrop/quality-inn-hotels/tx370"},
-    {"publisher": "Wyndham Hotels & Resorts", "title": "Days Inn by Wyndham Bastrop, property page", "date": "Confirmed October 16, 2026", "url": "https://www.wyndhamhotels.com/days-inn/bastrop-texas/days-inn-bastrop/overview"},
-    {"publisher": "Explore Bastrop County", "title": "Hampton Inn & Suites of Bastrop, listing", "date": "Accessed October 15, 2026", "url": "https://explorebastropcounty.com/listings/hampton-inn-suites-of-bastrop/"},
-    {"publisher": "Trip.com", "title": "Hampton Inn and Suites Bastrop", "date": "Accessed October 15, 2026", "url": "https://us.trip.com/hotels/bastrop-hotel-detail-2134959/hampton-inn-and-suites-bastrop/"},
-    {"publisher": "Tripadvisor", "title": "Holiday Inn Express & Suites Bastrop by IHG, hotel page", "date": "Accessed October 15, 2026", "url": "https://www.tripadvisor.com/Hotel_Review-g55451-d277743-Reviews-Holiday_Inn_Express_Suites_Bastrop_By_IHG-Bastrop_Texas.html"},
-    {"publisher": "Tripadvisor", "title": "Home2 Suites by Hilton Bastrop, hotel page", "date": "Accessed October 15, 2026", "url": "https://www.tripadvisor.com/Hotel_Review-g55451-d33264395-Reviews-Home2_Suites_by_Hilton_Bastrop-Bastrop_Texas.html"},
-    {"publisher": "Travel Weekly", "title": "Hotel directory, Bastrop, TX", "date": "Accessed October 15, 2026", "url": "https://www.travelweekly.com/Hotels/Bastrop-TX/Holiday-Inn-Express-p4245897"},
-    {"publisher": "Tripadvisor", "title": "Choice Hotels in Bastrop", "date": "Accessed October 15, 2026", "url": "https://www.tripadvisor.com/Hotels-g55451-zfb9195-Bastrop_Texas-Hotels.html"},
-    {"publisher": "Bastrop Regional Chamber of Commerce", "title": "Business directory: hotels, motels and resorts", "date": "Accessed October 15, 2026", "url": "https://business.bastropchamber.com/list/Search/hotels-motels-resorts-647276"},
-    {"publisher": "Austin American-Statesman", "title": "SpaceX may add 500 jobs near Austin (Bastrop expansion)", "date": "2026", "url": "https://www.statesman.com/business/article/spacex-bastrop-expansion-ai-solar-data-center-22260764.php"},
-    {"publisher": "KUT", "title": "Texas gives Musk's SpaceX $17M for Austin site", "date": "March 13, 2025", "url": "https://www.kut.org/business/2025-03-13/texas-grant-spacex-starlink-elon-musk-semiconductor-austin-bastrop"},
-    {"publisher": "Spectrum News", "title": "Bastrop residents react to SpaceX expansion", "date": "September 23, 2025", "url": "https://spectrumlocalnews.com/tx/san-antonio/news/2025/09/23/basrop-spacex-expansion"},
-    {"publisher": "Austin American-Statesman", "title": "Bastrop grapples with future of marketing efforts", "date": "August 28, 2016", "url": "https://www.statesman.com/story/news/local/2016/08/28/bastrop-grapples-with-future-of-marketing-efforts/9914679007/"},
-    {"publisher": "PLACE Designers", "title": "News release: west Bastrop hospital, hotel and convention concept", "date": "September 25, 2025", "url": "https://placedesigners.com/News/20250925/"},
-    {"publisher": "Office of the Texas Governor", "title": "Opportunity Zone Tract Listing", "date": "2018 designations; accessed October 2026", "url": "https://gov.texas.gov/uploads/files/press/Opportunity_Zone_Designations.pdf"},
-    {"publisher": "Office of the Texas Governor", "title": "Federal Opportunity Zones in Texas", "date": "2026", "url": "https://gov.texas.gov/business/page/opportunity-zones"},
-    {"publisher": "NAGGL", "title": "Procedural Notice Revising SOP 50 10 8 for New Citizenship and Residency Requirements (SBA Procedural Notice 5000-876626)", "date": "February 11, 2026; effective March 1, 2026", "url": "https://www.naggl.org/procedural-notice-revising-sop-50-10-8-for-new-citizenship-and-residency-requirements/"},
-    {"publisher": "HVS (via Hotel News Resource)", "title": "U.S. Hotel Development Cost Survey 2026", "date": "July 13, 2026 (2025 budgets)", "url": "https://www.hotelnewsresource.com/article142080.html"},
-    {"publisher": "Lodging Magazine (CBRE authors)", "title": "Profitability Under Pressure: How 2025 U.S. Hotel Performance Reshapes Valuation Underwriting", "date": "May 26, 2026", "url": "https://lodgingmagazine.com/profitability-under-pressure-how-2025-u-s-hotel-performance-reshapes-valuation-underwriting/"},
-    {"publisher": "CoStar", "title": "U.S. hotels report first full-year occupancy, RevPAR declines since 2020", "date": "January 20, 2026 (calendar 2025 data)", "url": "https://www.costar.com/products/str-benchmark/resources/press-releases/us-hotels-report-first-full-year-occupancy-revpar"},
-    {"publisher": "CoStar", "title": "U.S. Hotel Forecast Assumptions, Q3 2026", "date": "August 2026", "url": "https://www.costar.com/products/str-benchmark/resources/data-insights-blog/us-hotel-forecast-assumptions-q3-2026"},
-    {"publisher": "Largo Capital", "title": "9 Things Hotel Borrowers Should Be Focused On in Today's Lending Environment", "date": "2026", "url": "https://largocapital.com/hotel-market-update-borrower-priorities-2026/"},
-    {"publisher": "HVS", "title": "U.S. Hotel Franchise Fee Guide 2020", "date": "2020", "url": "https://www.hvs.com/Print/HVS-US-Hotel-Franchise-Fee-Guide-2020?id=8966"},
-    {"publisher": "Business Travel News (The Highland Group data)", "title": "Report: Q4 U.S. Ext.-Stay Supply Grows, Occupancy Rate Drops", "date": "2026 (fourth quarter 2025 data)", "url": "https://www.businesstravelnews.com/Lodging/Report-Q4-US-Ext-Stay-Supply-Grows-Occupancy-Rate-Drops"},
-    {"publisher": "Asian Hospitality (The Highland Group data)", "title": "Extended-stay occupancy premium widens", "date": "2026 (August 2026 data)", "url": "https://www.asianhospitality.com/extended-stay/"},
-    {"publisher": "Asian Hospitality (The Highland Group data)", "title": "Extended-Stay Hotels Outperform Economy and Midscale", "date": "2026 (calendar 2025 data)", "url": "https://www.asianhospitality.com/extended-stay-hotels-outperform-economy-midscale/"},
-    {"publisher": "Apple Hospitality REIT", "title": "Form 8-K, Exhibit 99.1, first quarter 2025 results", "date": "May 2025 (Q1 2025 data)", "url": "https://www.sec.gov/Archives/edgar/data/1418121/000095017025063557/aple-ex99_1.htm"},
-    {"publisher": "HotStats", "title": "US Hotels Face Profit Pressure as Labor Costs Outpace Recovery", "date": "December 10, 2025", "url": "https://www.hotstats.com/blog/us-hotels-face-profit-pressure-as-labor-costs-outpace-recovery"},
-    {"publisher": "HVS", "title": "U.S. Hotel Development Cost Survey 2026 (print edition with cost components)", "date": "July 2026 (2025 budgets)", "url": "https://www.hvs.com/Print/HVS-US-Hotel-Development-Cost-Survey-2026?id=10509"},
-    {"publisher": "Growth Corp", "title": "SBA 504 Rate Pricing", "date": "October 8, 2026 pricing", "url": "https://www.growthcorp.com/sba-504-rate-pricing/"},
-    {"publisher": "U.S. Small Business Administration", "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates", "date": "Effective October 1, 2026", "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"},
-    {"publisher": "U.S. Small Business Administration", "title": "Information Notice 5000-881796: FY 2027 504 Program Fees", "date": "2026", "url": "https://legacy.sba.gov/document/information-notice-5000-881796-fy-2027-504-program-fees"},
-    {"publisher": "Board of Governors of the Federal Reserve System", "title": "H.15 Selected Interest Rates", "date": "Release of October 9, 2026", "url": "https://www.federalreserve.gov/releases/h15/"},
-    {"publisher": "eCFR", "title": "13 CFR 120.160, Loan conditions", "date": "Current to October 7, 2026", "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"},
-    {"publisher": "Wikipedia", "title": "Bastrop, Texas", "date": "Accessed October 15, 2026", "url": "https://en.wikipedia.org/wiki/Bastrop,_Texas"},
-    {"publisher": "Wikipedia", "title": "Bastrop County, Texas", "date": "Accessed October 15, 2026", "url": "https://en.wikipedia.org/wiki/Bastrop_County,_Texas"}
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "QuickFacts: Bastrop city, Texas; Bastrop County, Texas (population estimates)",
+      "date": "Vintage 2025 (July 1, 2025); accessed October 15, 2026",
+      "url": "https://www.census.gov/quickfacts/fact/table/bastropcitytexas,bastropcountytexas/PST120221"
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "QuickFacts: Bastrop city, Texas (American Community Survey and Economic Census fields)",
+      "date": "ACS 2020 to 2024; 2022 Economic Census; accessed October 15, 2026",
+      "url": "https://census.gov/quickfacts/fact/table/bastropcitytexas,bastropcountytexas,TX/PST045225"
+    },
+    {
+      "publisher": "Texas Department of Transportation",
+      "title": "TxDOT Annual Average Daily Traffic Counts (Public)",
+      "date": "Data updated January 6, 2025",
+      "url": "https://gis-txdot.opendata.arcgis.com/maps/TXDOT::txdot-annual-average-daily-traffic-counts-public"
+    },
+    {
+      "publisher": "City of Bastrop",
+      "title": "Ordinances (including Ord. 2023-16, Ord. 2026-06 Bastrop Development Code and Ord. 2026-07 zoning map amendment)",
+      "date": "2023 to 2026; accessed October 15, 2026",
+      "url": "https://www.cityofbastrop.org/page/cs.ordinances"
+    },
+    {
+      "publisher": "City of Bastrop",
+      "title": "Ordinance No. 2025-02 (impervious cover by place type)",
+      "date": "2025",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/bastroptx-meet-b88e10e812e14ebbb7bf85c90c427b47/ITEM-Attachment-001-68091db4ffa946fbb792970e6f84b944.pdf"
+    },
+    {
+      "publisher": "City of Bastrop",
+      "title": "Resolution No. R-2025-209, Hotel and Leisure Advisors contract for hotel feasibility study",
+      "date": "December 9, 2025",
+      "url": "https://www.cityofbastrop.org/page/open/17251/0/RESOLUTION%20NO.%20R-2025-209%20Hotel%20and%20Leisure%20Advisors%20Contract%20for%20Hotel%20Feasibility%20Study.pdf"
+    },
+    {
+      "publisher": "City of Bastrop",
+      "title": "Tax Rate Information (assessment basis, sales tax and hotel occupancy tax)",
+      "date": "Accessed October 16, 2026",
+      "url": "https://www.cityofbastrop.org/page/fin.tax_info"
+    },
+    {
+      "publisher": "City of Bastrop",
+      "title": "Hotel Occupancy Tax, Code of Ordinances Art. 11.04",
+      "date": "Current ordinance; accessed October 15, 2026",
+      "url": "https://cityofbastrop.org/upload/page/0181/docs/Hotel_Occupancy_Tax.pdf"
+    },
+    {
+      "publisher": "Bastrop County",
+      "title": "Short Term Lodging Hotel Occupancy Tax brochure",
+      "date": "August 2025",
+      "url": "https://www.bastropcounty.gov/upload/page/0146/STR%20HOT%20BROCHURE%20-%20AUG2025.pdf"
+    },
+    {
+      "publisher": "Bastrop County Commissioners Court",
+      "title": "Order Setting the Bastrop County, Texas Tax Rate for 2025-2026",
+      "date": "September 8, 2025",
+      "url": "https://www.bastropcounty.gov/upload/page/0184/docs/OrderSettingTaxrateFY2526.pdf"
+    },
+    {
+      "publisher": "Community Impact",
+      "title": "Bastrop County property tax rate to rise 6.2%",
+      "date": "September 28, 2026",
+      "url": "https://communityimpact.com/bastrop-cedar-creek/government/bastrop-county-property-tax-rate-to-rise-6-2/"
+    },
+    {
+      "publisher": "Community Impact",
+      "title": "Bastrop ISD ratifies tax rate for 2025-26 financial year",
+      "date": "September 18, 2025",
+      "url": "https://communityimpact.com/austin/bastrop-cedar-creek/education/2025/09/18/bastrop-isd-ratifies-tax-rate-for-2025-26-financial-year/"
+    },
+    {
+      "publisher": "Bastrop County Emergency Services District No. 2",
+      "title": "Notice About 2025 Tax Rates",
+      "date": "August 2025",
+      "url": "https://www.bastropesd2.org/wp-content/uploads/2025/08/Notice-About-2025-Tax-Rates-FINAL.pdf"
+    },
+    {
+      "publisher": "Bastrop County Emergency Services District No. 3",
+      "title": "Tax Rate Information",
+      "date": "Tax year 2025",
+      "url": "https://www.bastropesd3.org/tax-rate-information"
+    },
+    {
+      "publisher": "Texas Department of Licensing and Regulation",
+      "title": "TABS Project TABS2025002224 (Courtyard by Marriott at Jackson Square)",
+      "date": "Registered October 1, 2024",
+      "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025002224"
+    },
+    {
+      "publisher": "Texas Department of Licensing and Regulation",
+      "title": "TABS Project TABS2023021644 (Everhome Suites Bastrop)",
+      "date": "Registered 2023",
+      "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2023021644"
+    },
+    {
+      "publisher": "Connect CRE",
+      "title": "Construction Underway on Two Bastrop Hotels",
+      "date": "November 12, 2025",
+      "url": "https://www.connectcre.com/stories/construction-underway-on-two-bastrop-hotels/"
+    },
+    {
+      "publisher": "Community Impact",
+      "title": "Dual-brand Marriott hotel under construction in Bastrop",
+      "date": "July 21, 2025",
+      "url": "https://communityimpact.com/bastrop-cedar-creek/development/dual-brand-marriott-hotel-under-construction-in-bastrop/"
+    },
+    {
+      "publisher": "Community Impact",
+      "title": "Third Marriott-branded hotel project planned in Bastrop",
+      "date": "May 6, 2026",
+      "url": "https://communityimpact.com/austin/bastrop-cedar-creek/business/2026/05/06/third-marriott-branded-hotel-project-planned-in-bastrop/"
+    },
+    {
+      "publisher": "MySA (via Yahoo)",
+      "title": "Marriott, IHG to build new $10M hotel near Buc-ee's outside of Austin",
+      "date": "July 28, 2026",
+      "url": "https://travel.yahoo.com/hotels/articles/marriott-ihg-build-10m-hotel-200200816.html"
+    },
+    {
+      "publisher": "Houston Chronicle",
+      "title": "$300 million mixed-use project to boost fast-growing Texas city",
+      "date": "March 30, 2025",
+      "url": "https://www.chron.com/business/article/bastrop-musk-sendero-development-technology-20247611.php"
+    },
+    {
+      "publisher": "Hotel Project Leads",
+      "title": "Bastrop Hotel Mixed Use Project Planned",
+      "date": "March 27, 2025",
+      "url": "https://hotelprojectleads.com/bastrop-hotel-mixed-use-project-planned/"
+    },
+    {
+      "publisher": "Choice Hotels International (PR Newswire)",
+      "title": "Everhome Suites Continues to Grow Its National Footprint with Nine New Openings and Groundbreakings",
+      "date": "May 28, 2025",
+      "url": "https://www.prnewswire.com/news-releases/everhome-suites-continues-to-grow-its-national-footprint-with-nine-new-openings-and-groundbreakings-across-texas-arizona-oregon-and-ohio-302467207.html"
+    },
+    {
+      "publisher": "Community Impact",
+      "title": "Everhome Suites opens in Bastrop, citing business growth and demand",
+      "date": "February 26, 2025",
+      "url": "https://communityimpact.com/austin/bastrop-cedar-creek/business/2025/02/26/everhome-suites-opens-in-bastrop-citing-business-growth-and-demand/"
+    },
+    {
+      "publisher": "Choice Hotels",
+      "title": "Everhome Suites Bastrop, property page",
+      "date": "Sold-out notice for the night of July 22 to 23, 2026; accessed October 15, 2026",
+      "url": "https://www.choicehotels.com/texas/bastrop/everhome-suites-hotels/txr47"
+    },
+    {
+      "publisher": "Hilton",
+      "title": "Home2 Suites by Hilton Bastrop, property page",
+      "date": "Confirmed October 15, 2026",
+      "url": "https://www.hilton.com/en/hotels/aushtht-home2-suites-bastrop/"
+    },
+    {
+      "publisher": "Hilton",
+      "title": "Hampton Inn & Suites Bastrop, property page",
+      "date": "Confirmed October 16, 2026",
+      "url": "https://www.hilton.com/en/hotels/ausbthx-hampton-suites-bastrop/"
+    },
+    {
+      "publisher": "IHG Hotels & Resorts",
+      "title": "Holiday Inn Express & Suites Bastrop, property page",
+      "date": "Confirmed October 16, 2026",
+      "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bastrop/bxptx/hoteldetail"
+    },
+    {
+      "publisher": "Choice Hotels",
+      "title": "Comfort Suites Bastrop, property page",
+      "date": "Confirmed October 16, 2026",
+      "url": "https://www.choicehotels.com/texas/bastrop/comfort-suites-hotels/txe32"
+    },
+    {
+      "publisher": "Best Western Hotels & Resorts",
+      "title": "Best Western Bastrop Pines Inn, property page",
+      "date": "Confirmed October 16, 2026",
+      "url": "https://www.bestwestern.com/en_US/book/hotels-in-bastrop/best-western-bastrop-pines-inn/propertyCode.44646.html"
+    },
+    {
+      "publisher": "Choice Hotels",
+      "title": "Quality Inn Bastrop, property page (TX370)",
+      "date": "Confirmed October 16, 2026",
+      "url": "https://www.choicehotels.com/texas/bastrop/quality-inn-hotels/tx370"
+    },
+    {
+      "publisher": "Wyndham Hotels & Resorts",
+      "title": "Days Inn by Wyndham Bastrop, property page",
+      "date": "Confirmed October 16, 2026",
+      "url": "https://www.wyndhamhotels.com/days-inn/bastrop-texas/days-inn-bastrop/overview"
+    },
+    {
+      "publisher": "Explore Bastrop County",
+      "title": "Hampton Inn & Suites of Bastrop, listing",
+      "date": "Accessed October 15, 2026",
+      "url": "https://explorebastropcounty.com/listings/hampton-inn-suites-of-bastrop/"
+    },
+    {
+      "publisher": "Trip.com",
+      "title": "Hampton Inn and Suites Bastrop",
+      "date": "Accessed October 15, 2026",
+      "url": "https://us.trip.com/hotels/bastrop-hotel-detail-2134959/hampton-inn-and-suites-bastrop/"
+    },
+    {
+      "publisher": "Tripadvisor",
+      "title": "Holiday Inn Express & Suites Bastrop by IHG, hotel page",
+      "date": "Accessed October 15, 2026",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g55451-d277743-Reviews-Holiday_Inn_Express_Suites_Bastrop_By_IHG-Bastrop_Texas.html"
+    },
+    {
+      "publisher": "Tripadvisor",
+      "title": "Home2 Suites by Hilton Bastrop, hotel page",
+      "date": "Accessed October 15, 2026",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g55451-d33264395-Reviews-Home2_Suites_by_Hilton_Bastrop-Bastrop_Texas.html"
+    },
+    {
+      "publisher": "Tripadvisor",
+      "title": "Choice Hotels in Bastrop",
+      "date": "Accessed October 15, 2026",
+      "url": "https://www.tripadvisor.com/Hotels-g55451-zfb9195-Bastrop_Texas-Hotels.html"
+    },
+    {
+      "publisher": "Bastrop Regional Chamber of Commerce",
+      "title": "Business directory: hotels, motels and resorts",
+      "date": "Accessed October 15, 2026",
+      "url": "https://business.bastropchamber.com/list/Search/hotels-motels-resorts-647276"
+    },
+    {
+      "publisher": "Austin American-Statesman",
+      "title": "SpaceX may add 500 jobs near Austin (Bastrop expansion)",
+      "date": "2026",
+      "url": "https://www.statesman.com/business/article/spacex-bastrop-expansion-ai-solar-data-center-22260764.php"
+    },
+    {
+      "publisher": "KUT",
+      "title": "Texas gives Musk's SpaceX $17M for Austin site",
+      "date": "March 13, 2025",
+      "url": "https://www.kut.org/business/2025-03-13/texas-grant-spacex-starlink-elon-musk-semiconductor-austin-bastrop"
+    },
+    {
+      "publisher": "Spectrum News",
+      "title": "Bastrop residents react to SpaceX expansion",
+      "date": "September 23, 2025",
+      "url": "https://spectrumlocalnews.com/tx/san-antonio/news/2025/09/23/basrop-spacex-expansion"
+    },
+    {
+      "publisher": "Austin American-Statesman",
+      "title": "Bastrop grapples with future of marketing efforts",
+      "date": "August 28, 2016",
+      "url": "https://www.statesman.com/story/news/local/2016/08/28/bastrop-grapples-with-future-of-marketing-efforts/9914679007/"
+    },
+    {
+      "publisher": "PLACE Designers",
+      "title": "News release: west Bastrop hospital, hotel and convention concept",
+      "date": "September 25, 2025",
+      "url": "https://placedesigners.com/News/20250925/"
+    },
+    {
+      "publisher": "Office of the Texas Governor",
+      "title": "Opportunity Zone Tract Listing",
+      "date": "2018 designations; accessed October 2026",
+      "url": "https://gov.texas.gov/uploads/files/press/Opportunity_Zone_Designations.pdf"
+    },
+    {
+      "publisher": "Office of the Texas Governor",
+      "title": "Federal Opportunity Zones in Texas",
+      "date": "2026",
+      "url": "https://gov.texas.gov/business/page/opportunity-zones"
+    },
+    {
+      "publisher": "NAGGL",
+      "title": "Procedural Notice Revising SOP 50 10 8 for New Citizenship and Residency Requirements (SBA Procedural Notice 5000-876626)",
+      "date": "February 11, 2026; effective March 1, 2026",
+      "url": "https://www.naggl.org/procedural-notice-revising-sop-50-10-8-for-new-citizenship-and-residency-requirements/"
+    },
+    {
+      "publisher": "HVS (via Hotel News Resource)",
+      "title": "U.S. Hotel Development Cost Survey 2026",
+      "date": "July 13, 2026 (2025 budgets)",
+      "url": "https://www.hotelnewsresource.com/article142080.html"
+    },
+    {
+      "publisher": "Lodging Magazine (CBRE authors)",
+      "title": "Profitability Under Pressure: How 2025 U.S. Hotel Performance Reshapes Valuation Underwriting",
+      "date": "May 26, 2026",
+      "url": "https://lodgingmagazine.com/profitability-under-pressure-how-2025-u-s-hotel-performance-reshapes-valuation-underwriting/"
+    },
+    {
+      "publisher": "CoStar",
+      "title": "U.S. hotels report first full-year occupancy, RevPAR declines since 2020",
+      "date": "January 20, 2026 (calendar 2025 data)",
+      "url": "https://www.costar.com/products/str-benchmark/resources/press-releases/us-hotels-report-first-full-year-occupancy-revpar"
+    },
+    {
+      "publisher": "CoStar",
+      "title": "U.S. Hotel Forecast Assumptions, Q3 2026",
+      "date": "August 2026",
+      "url": "https://www.costar.com/products/str-benchmark/resources/data-insights-blog/us-hotel-forecast-assumptions-q3-2026"
+    },
+    {
+      "publisher": "Largo Capital",
+      "title": "9 Things Hotel Borrowers Should Be Focused On in Today's Lending Environment",
+      "date": "2026",
+      "url": "https://largocapital.com/hotel-market-update-borrower-priorities-2026/"
+    },
+    {
+      "publisher": "HVS",
+      "title": "U.S. Hotel Franchise Fee Guide 2020",
+      "date": "2020",
+      "url": "https://www.hvs.com/Print/HVS-US-Hotel-Franchise-Fee-Guide-2020?id=8966"
+    },
+    {
+      "publisher": "Business Travel News (The Highland Group data)",
+      "title": "Report: Q4 U.S. Ext.-Stay Supply Grows, Occupancy Rate Drops",
+      "date": "2026 (fourth quarter 2025 data)",
+      "url": "https://www.businesstravelnews.com/Lodging/Report-Q4-US-Ext-Stay-Supply-Grows-Occupancy-Rate-Drops"
+    },
+    {
+      "publisher": "Asian Hospitality (The Highland Group data)",
+      "title": "Extended-stay occupancy premium widens",
+      "date": "2026 (August 2026 data)",
+      "url": "https://www.asianhospitality.com/extended-stay/"
+    },
+    {
+      "publisher": "Asian Hospitality (The Highland Group data)",
+      "title": "Extended-Stay Hotels Outperform Economy and Midscale",
+      "date": "2026 (calendar 2025 data)",
+      "url": "https://www.asianhospitality.com/extended-stay-hotels-outperform-economy-midscale/"
+    },
+    {
+      "publisher": "Apple Hospitality REIT",
+      "title": "Form 8-K, Exhibit 99.1, first quarter 2025 results",
+      "date": "May 2025 (Q1 2025 data)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418121/000095017025063557/aple-ex99_1.htm"
+    },
+    {
+      "publisher": "HotStats",
+      "title": "US Hotels Face Profit Pressure as Labor Costs Outpace Recovery",
+      "date": "December 10, 2025",
+      "url": "https://www.hotstats.com/blog/us-hotels-face-profit-pressure-as-labor-costs-outpace-recovery"
+    },
+    {
+      "publisher": "HVS",
+      "title": "U.S. Hotel Development Cost Survey 2026 (print edition with cost components)",
+      "date": "July 2026 (2025 budgets)",
+      "url": "https://www.hvs.com/Print/HVS-US-Hotel-Development-Cost-Survey-2026?id=10509"
+    },
+    {
+      "publisher": "Growth Corp",
+      "title": "SBA 504 Rate Pricing",
+      "date": "October 8, 2026 pricing",
+      "url": "https://www.growthcorp.com/sba-504-rate-pricing/"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+      "date": "Effective October 1, 2026",
+      "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "Information Notice 5000-881796: FY 2027 504 Program Fees",
+      "date": "2026",
+      "url": "https://legacy.sba.gov/document/information-notice-5000-881796-fy-2027-504-program-fees"
+    },
+    {
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "title": "H.15 Selected Interest Rates",
+      "date": "Release of October 9, 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "publisher": "eCFR",
+      "title": "13 CFR 120.160, Loan conditions",
+      "date": "Current to October 7, 2026",
+      "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+    },
+    {
+      "publisher": "Wikipedia",
+      "title": "Bastrop, Texas",
+      "date": "Accessed October 15, 2026",
+      "url": "https://en.wikipedia.org/wiki/Bastrop,_Texas"
+    },
+    {
+      "publisher": "Wikipedia",
+      "title": "Bastrop County, Texas",
+      "date": "Accessed October 15, 2026",
+      "url": "https://en.wikipedia.org/wiki/Bastrop_County,_Texas"
+    },
+    {
+      "publisher": "LoopNet",
+      "title": "2204 E. SH 71, Bastrop, TX 78602 (2.47 acres, mixed-use zoning; no longer advertised)",
+      "date": "First on market March 14, 2023; read October 15, 2026",
+      "url": "https://www.loopnet.com/Listing/2204-E-SH-71-Bastrop-TX/27975154/"
+    },
+    {
+      "publisher": "CoStar",
+      "title": "CoStar, Tourism Economics upgrade U.S. hotel growth forecast",
+      "date": "August 6, 2026 (forecast for 2026 and 2027)",
+      "url": "https://www.costar.com/products/str-benchmark/resources/press-releases/costar-tourism-economics-upgrade-us-hotel-growth"
+    },
+    {
+      "publisher": "KBRA (via Business Wire)",
+      "title": "KBRA Assigns Preliminary Ratings to BX 2024-SLCT",
+      "date": "December 12, 2024 (trailing twelve months to September 2024)",
+      "url": "https://www.businesswire.com/news/home/20241212352523/en"
+    },
+    {
+      "publisher": "Lodging Econometrics",
+      "title": "Q2 2026 U.S. Hotel Construction Pipeline Trend Report, news release",
+      "date": "July 23, 2026 (pipeline at June 30, 2026)",
+      "url": "https://lodgingeconometrics.com/us-hotel-construction-pipeline-q2-2026/"
+    },
+    {
+      "publisher": "Hotel Dive (Lodging Econometrics data)",
+      "title": "US hotel construction pipeline down in Q2, but higher-tier segments saw growth",
+      "date": "July 27, 2026 (second quarter 2026 data)",
+      "url": "https://www.hoteldive.com/news/hotel-construction-pipeline-q2-2026/826231/"
+    },
+    {
+      "publisher": "LW Hospitality Advisors (via Hospitality Net)",
+      "title": "2025 Major U.S. Hotel Sales Survey: Lodging Sector Overview",
+      "date": "2026 (calendar 2025 sales of more than $10 million)",
+      "url": "https://www.hospitalitynet.org/opinion/4130596/2025-major-us-hotel-sales-survey-lodging-sector-overview"
+    }
   ]
 }
 ---
@@ -103,20 +500,20 @@
 </section>
 <section id="market-conclusion" data-eyebrow="Market Conclusion" data-h2="Demand is there. The calendar is the problem.">
 <div class="prose">
-<p>Bastrop can absorb another branded limited-service hotel, but not at the leverage the sponsor requested. The city had 13,383 residents on July 1, 2025, against 12,720 a year earlier, and has grown 38.2% since April 2020 [^1]. The county reached 118,908 [^1]. The Starlink campus on FM 1209 employs more than 1,000 people, and permit filings describe a 1.1 million square foot factory with up to 500 more jobs [^40]. When Everhome opened its 114 suites on February 18, 2025, the opening was tied to demand from SpaceX and The Boring Co. [^24,23]. On the night of Wednesday, July 22, 2026, Choice's own booking page showed that hotel sold out [^25].</p>
+<p>Bastrop can absorb another branded limited-service hotel, but not at the leverage the sponsor requested. The city had 13,383 residents on July 1, 2025, against 12,720 a year earlier, and has grown 38.2% since April 2020 [^1]. The county reached 118,908 [^1]. The Starlink campus on FM 1209 employs more than 1,000 people, and permit filings describe a 1.1 million square foot factory with up to 500 more jobs [^39]. When Everhome opened its 114 suites on February 18, 2025, the opening was tied to demand from SpaceX and The Boring Co. [^24,23]. On the night of Wednesday, July 22, 2026, Choice's own booking page showed that hotel sold out [^25].</p>
 <p>The same evidence carries the warning. Branded supply in the city jumped in 2025: Everhome and Home2 Suites added 228 extended-stay keys between February and July [^23,36]. Four more branded hotels are in the state record or under construction, with completion dates from December 25, 2026 to July 3, 2028 [^15,18,19,20]. A hotel that closes its loan in 2027 opens into the middle of that wave. Its first two years are the years in which the new Marriott and IHG product competes for the same Starlink contractors, wedding blocks and SH 71 travelers.</p>
 <p>The model therefore ramps occupancy slowly and prices rooms below the national average. On that basis the hotel earns {{case:v.noi_y2}} of net operating income in Year 2 and {{case:v.noi_y3}} in Year 3. The sponsor asked for a 504 structure with {{case:v.equity_proposed_pct}} equity. That fails twice: the equity tier for a new business in a special purpose property is <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value-->, and coverage in the Year 2 test comes to {{case:v.dscr_y2_proposed}}. The structure that clears the <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> floor carries {{case:v.equity_pct}} equity ({{case:v.equity}}), a {{case:v.tpl}} bank first lien and a {{case:v.debenture}} debenture, for {{case:v.loan_total}} of debt. Coverage then reaches {{case:v.dscr_y2}} in Year 2 and {{case:v.dscr_y3}} in Year 3.</p>
-<p>That is a financeable hotel, but it is a different deal from the one proposed. Three facts would move the answer, and each is a lender condition below: an STR trend report for the named competitive set, a land price set by appraisal rather than by an asking price, and the adopted city tax rate. A trend report that shows the set running above our occupancy and rate would release equity. One that shows the 2025 openings diluting the older hotels would not.</p>
+<p>That is a financeable hotel, but it is a different deal from the one proposed. Three facts would move the answer, and each is a lender condition below: an STR trend report for the named competitive set, a land price set by appraisal rather than by assumption, and the adopted city tax rate. A trend report that shows the set running above our occupancy and rate would release equity. One that shows the 2025 openings diluting the older hotels would not.</p>
 </div>
 </section>
 <section id="demand" data-eyebrow="Demand" data-h2="Four demand streams, none of them measured in room nights.">
 <div class="prose">
 <p>Hotel demand in Bastrop comes from four sources, and the public record measures none of them in room nights. That is the central limit of this study. The research found no hotel occupancy tax receipts series, no state park visitation for the town's park, no hospital volumes and no seasonality data. What it did find are the drivers' sizes and their direction.</p>
-<p><strong>Industrial and contractor travel.</strong> Starlink is the anchor. Texas awarded Starlink a $17.3 million Semiconductor Innovation Fund grant for its Bastrop manufacturing in March 2025 [^41]. Local reporting in September 2025 described an expansion of 1 million square feet over three years, with an $8 million phase starting that month [^42]. The July 2026 coverage of the newest hotel filing listed a $440 million data center and a film studio among the other projects drawing workers to town [^20]. These are weekday travelers: engineers, vendors and construction crews. They book branded limited-service and extended-stay rooms, and they are the demand that justified Everhome and Home2.</p>
-<p><strong>Leisure and events.</strong> Bastrop's leisure base is older and concentrated. From 2007 to 2015 the Hyatt Regency Lost Pines produced more than 75% of the city's hotel occupancy tax revenue, and a marketing agreement of about $900,000 a year was funded from that tax [^43]. A resort that dominant spills weddings, tournaments and golf groups into the limited-service hotels on SH 71 when it fills. The destination office now markets weekend getaways, business meetings, filming and festivals [^20], but the record gives no event attendance.</p>
+<p><strong>Industrial and contractor travel.</strong> Starlink is the anchor. Texas awarded Starlink a $17.3 million Semiconductor Innovation Fund grant for its Bastrop manufacturing in March 2025 [^40]. Local reporting in September 2025 described an expansion of 1 million square feet over three years, with an $8 million phase starting that month [^41]. The July 2026 coverage of the newest hotel filing listed a $440 million data center and a film studio among the other projects drawing workers to town [^20]. These are weekday travelers: engineers, vendors and construction crews. They book branded limited-service and extended-stay rooms, and they are the demand that justified Everhome and Home2.</p>
+<p><strong>Leisure and events.</strong> Bastrop's leisure base is older and concentrated. From 2007 to 2015 the Hyatt Regency Lost Pines produced more than 75% of the city's hotel occupancy tax revenue, and a marketing agreement of about $900,000 a year was funded from that tax [^42]. A resort that dominant spills weddings, tournaments and golf groups into the limited-service hotels on SH 71 when it fills. The destination office now markets weekend getaways, business meetings, filming and festivals [^20], but the record gives no event attendance.</p>
 <p><strong>Highway travel.</strong> SH 71 is the town's through route, and Bastrop has no interstate. TxDOT publishes station counts [^3], but no count for the subject's segment was extracted, so highway demand is a lender condition rather than a number.</p>
-<p><strong>Planned public projects.</strong> The city contracted Hotel &amp; Leisure Advisors on December 9, 2025 to study a hotel and convention center [^6], and a designer has floated a west-side hospital, hotel and convention concept that it says could reach about $1.6 billion [^44]. Both are at the idea stage. Neither belongs in a projection, and a city-sponsored convention hotel would be a competitor, not a feeder.</p>
-<p>Two demographic facts shape the product. Median household income in the city was $81,551 and per capita income $41,634 in the 2020 to 2024 survey [^2], which supports midscale and upper-midscale rates for leisure guests. The city's accommodation and food services sales were $102,439,000 in the 2022 Economic Census, against retail sales of $97,973 per resident [^2]. Bastrop is a regional shopping and services town, which adds weekday traffic from the county's 118,908 residents [^1].</p>
+<p><strong>Planned public projects.</strong> The city contracted Hotel &amp; Leisure Advisors on December 9, 2025 to study a hotel and convention center [^6], and a designer has floated a west-side hospital, hotel and convention concept that it says could reach about $1.6 billion [^43]. Both are at the idea stage. Neither belongs in a projection, and a city-sponsored convention hotel would be a competitor, not a feeder.</p>
+<p>Two demographic facts shape the product. Median household income in the city was $81,551 and per capita income $41,634 in the 2020 to 2024 survey [^2], which supports midscale and upper-midscale rates for leisure guests. The city's accommodation and food services sales were $102,439,000 in the 2022 Economic Census, against retail sales of $97,973 per resident [^2]. Bastrop is a regional shopping and services town, which adds weekday traffic from the county's 118,908 residents in 36,868 households [^1,2].</p>
 </div>
 <div class="data-table-wrap">
 <table class="data">
@@ -126,24 +523,25 @@
 <tr><td>Population change, city</td><td>+38.2% from a 9,685 base</td><td>April 2020 to July 2025</td><td>[^1]</td></tr>
 <tr><td>Population, Bastrop County</td><td>118,908; +22.3% from 97,229</td><td>April 2020 to July 2025</td><td>[^1]</td></tr>
 <tr><td>Households, city; persons per household</td><td>4,917; 2.15</td><td>ACS 2020 to 2024</td><td>[^2]</td></tr>
+<tr><td>Households, Bastrop County</td><td>36,868</td><td>ACS 2020 to 2024</td><td>[^2]</td></tr>
 <tr><td>Median household income; per capita income, city</td><td>$81,551; $41,634 (2024 dollars)</td><td>ACS 2020 to 2024</td><td>[^2]</td></tr>
 <tr><td>Accommodation and food services sales, city</td><td>$102,439,000</td><td>2022 Economic Census</td><td>[^2]</td></tr>
-<tr><td>Starlink employment at the Bastrop complex</td><td>More than 1,000; factory permit for 1.1 million sq ft and up to 500 jobs</td><td>2026</td><td>[^40]</td></tr>
-<tr><td>State grant to Starlink, Bastrop</td><td>$17.3 million</td><td>March 13, 2025</td><td>[^41]</td></tr>
-<tr><td>SpaceX expansion</td><td>1 million sq ft over three years; $8 million phase</td><td>September 23, 2025</td><td>[^42]</td></tr>
-<tr><td>Hyatt Regency Lost Pines share of city hotel tax</td><td>More than 75%; marketing agreement about $900,000 a year</td><td>2007 to 2015 (reported 2016)</td><td>[^43]</td></tr>
+<tr><td>Starlink employment at the Bastrop complex</td><td>More than 1,000; factory permit for 1.1 million sq ft and up to 500 jobs</td><td>2026</td><td>[^39]</td></tr>
+<tr><td>State grant to Starlink, Bastrop</td><td>$17.3 million</td><td>March 13, 2025</td><td>[^40]</td></tr>
+<tr><td>SpaceX expansion</td><td>1 million sq ft over three years; $8 million phase</td><td>September 23, 2025</td><td>[^41]</td></tr>
+<tr><td>Hyatt Regency Lost Pines share of city hotel tax</td><td>More than 75%; marketing agreement about $900,000 a year</td><td>2007 to 2015 (reported 2016)</td><td>[^42]</td></tr>
 <tr><td>Everhome Suites, operator booking page</td><td>Sold out</td><td>Night of July 22 to 23, 2026</td><td>[^25]</td></tr>
 <tr><td>Hotel occupancy tax, inside the city or its ETJ</td><td>13.75% (state 6%, city 7%, county 0.75%)</td><td>Accessed October 16, 2026</td><td>[^7]</td></tr>
 </tbody>
 </table>
 </div>
 <div class="prose">
-<p>The demand mix argues for a transient hotel, not a third extended-stay. Long-stay contractor demand is real, but the two 2025 openings were built for it, and the national extended-stay segment added 4.0% to its supply in 2025, its largest increase in four years [^56]. The subject's niche is the guest who stays two to five nights: a visiting engineer, a wedding guest, a tournament family. That guest also keeps the borrower inside SBA's lodging rule, discussed in the loan section.</p>
+<p>The demand mix argues for a transient hotel, not a third extended-stay. Long-stay contractor demand is real, but the two 2025 openings were built for it, and the national extended-stay segment added 4.0% to its supply in 2025, its largest increase in four years [^55]. The subject's niche is the guest who stays two to five nights: a visiting engineer, a wedding guest, a tournament family. That guest also keeps the borrower inside SBA's lodging rule, discussed in the loan section.</p>
 </div>
 </section>
 <section id="competitors" data-eyebrow="Competitor Census" data-h2="Eight branded hotels today, at least four more by mid-2028.">
 <div class="prose">
-<p>The census counts eight operating branded hotels in the city with 593 keys, using the lower count where sources disagree [^33,35,37,23,36,39,38]. Each row links the brand's own page for that hotel, confirmed on the date shown in the sources list; four of those pages refused an automated read and were confirmed through the brands' own listings in search results, so the lender confirms them. Key counts for most of the set come from secondary directories, because the brand pages do not print them; the lender should confirm each from the franchise or the appraisal district.</p>
+<p>The census counts eight operating branded hotels in the city. Seven have a published key count, from 42 to 114 keys, taking the lower count where sources disagree; no confirmable count was found for the Comfort Suites [^33,35,23,36,38,37]. Each row links the brand's own page for that hotel, confirmed on the date shown in the sources list; four of those pages refused an automated read and were confirmed through the brands' own listings in search results, so the lender confirms them. Key counts for most of the set come from secondary directories, because the brand pages do not print them; the lender should confirm each from the franchise or the appraisal district.</p>
 </div>
 <div class="data-table-wrap">
 <table class="data wide">
@@ -151,17 +549,17 @@
 <tbody>
 <tr><td>Hampton Inn &amp; Suites Bastrop</td><td>Hilton</td><td>89 [^33]</td><td>2010 [^34]</td><td>240 S. Hasler Blvd</td><td><a href="https://www.hilton.com/en/hotels/ausbthx-hampton-suites-bastrop/">hilton.com</a> [^27]; the page refused an automated read, so the lender confirms it</td></tr>
 <tr><td>Holiday Inn Express &amp; Suites Bastrop</td><td>IHG</td><td>56 [^35]</td><td>Built 2003 [^35]</td><td>491 Agnes St</td><td><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/bastrop/bxptx/hoteldetail">ihg.com</a> [^28]; the page refused an automated read, so the lender confirms it</td></tr>
-<tr><td>Comfort Suites Bastrop</td><td>Choice</td><td>69 [^37]</td><td>Renovated 2024 [^37]</td><td>505 Agnes St</td><td><a href="https://www.choicehotels.com/texas/bastrop/comfort-suites-hotels/txe32">choicehotels.com</a> [^29]; the page refused an automated read, so the lender confirms it</td></tr>
+<tr><td>Comfort Suites Bastrop</td><td>Choice</td><td>Not confirmed; the lender obtains it</td><td>Not found</td><td>505 Agnes St</td><td><a href="https://www.choicehotels.com/texas/bastrop/comfort-suites-hotels/txe32">choicehotels.com</a> [^29]; the page refused an automated read, so the lender confirms it</td></tr>
 <tr><td>Everhome Suites Bastrop (extended stay)</td><td>Choice</td><td>114 [^23]</td><td>February 18, 2025 [^24]</td><td>630 Agnes St</td><td><a href="https://www.choicehotels.com/texas/bastrop/everhome-suites-hotels/txr47">choicehotels.com</a> [^25]</td></tr>
 <tr><td>Home2 Suites by Hilton Bastrop (extended stay)</td><td>Hilton</td><td>114 [^36]</td><td>2025 [^36]</td><td>114 Orr Dr</td><td><a href="https://www.hilton.com/en/hotels/aushtht-home2-suites-bastrop/">hilton.com</a> [^26]</td></tr>
-<tr><td>Best Western Bastrop Pines Inn</td><td>Best Western</td><td>60 [^39]</td><td>Built 2009, renovated 2018 [^39]</td><td>107 Hunters Crossing Blvd</td><td><a href="https://www.bestwestern.com/en_US/book/hotels-in-bastrop/best-western-bastrop-pines-inn/propertyCode.44646.html">bestwestern.com</a> [^30]</td></tr>
-<tr><td>Quality Inn Bastrop</td><td>Choice</td><td>42; one directory says 43 [^38]</td><td>Not found</td><td>106 Hasler Blvd</td><td><a href="https://www.choicehotels.com/texas/bastrop/quality-inn-hotels/tx370">choicehotels.com</a> [^31]; the page refused an automated read, so the lender confirms it</td></tr>
-<tr><td>Days Inn by Wyndham Bastrop</td><td>Wyndham</td><td>49; two sources say 52 [^39]</td><td>Not found</td><td>4102 Hwy 71 E</td><td><a href="https://www.wyndhamhotels.com/days-inn/bastrop-texas/days-inn-bastrop/overview">wyndhamhotels.com</a> [^32]</td></tr>
+<tr><td>Best Western Bastrop Pines Inn</td><td>Best Western</td><td>60 [^38]</td><td>Built 2009, renovated 2018 [^38]</td><td>107 Hunters Crossing Blvd</td><td><a href="https://www.bestwestern.com/en_US/book/hotels-in-bastrop/best-western-bastrop-pines-inn/propertyCode.44646.html">bestwestern.com</a> [^30]</td></tr>
+<tr><td>Quality Inn Bastrop</td><td>Choice</td><td>42; one directory says 43 [^37]</td><td>Not found</td><td>106 Hasler Blvd</td><td><a href="https://www.choicehotels.com/texas/bastrop/quality-inn-hotels/tx370">choicehotels.com</a> [^31]; the page refused an automated read, so the lender confirms it</td></tr>
+<tr><td>Days Inn by Wyndham Bastrop</td><td>Wyndham</td><td>49; two sources say 52 [^38]</td><td>Not found</td><td>4102 Hwy 71 E</td><td><a href="https://www.wyndhamhotels.com/days-inn/bastrop-texas/days-inn-bastrop/overview">wyndhamhotels.com</a> [^32]</td></tr>
 </tbody>
 </table>
 </div>
 <div class="prose">
-<p>The set splits into three tiers. The Hampton and the Holiday Inn Express are the established upper-midscale hotels. The Hampton's 3,100 square feet of meeting space is the largest in the limited-service set [^33], against 730 at the Holiday Inn Express [^35] and 325 at Everhome [^16]. Everhome and Home2 are new extended-stay product. The Best Western, Quality Inn and Days Inn are the economy and midscale tier; directories describe the Quality Inn as two stories with no elevator and the Days Inn as a two-floor, exterior-corridor motel [^38,39].</p>
+<p>The set splits into three tiers. The Hampton and the Holiday Inn Express are the established upper-midscale hotels. The Hampton's 3,100 square feet of meeting space is the largest in the limited-service set [^33], against 730 at the Holiday Inn Express [^35] and 325 at Everhome [^16]. Everhome and Home2 are new extended-stay product. The Best Western, Quality Inn and Days Inn are the economy and midscale tier; directories describe the Quality Inn as two stories with no elevator and the Days Inn as a two-floor, exterior-corridor motel [^37,38].</p>
 <p>The subject competes most directly with the Hampton and the Holiday Inn Express. It would be the newest transient hotel in town, and new product usually wins share from older hotels of the same tier. That share shift is not new demand, and the projection does not count it as such.</p>
 <p>Three more lodging names appear on travel sites: a Super 8, the Bastrop Inn and the Tropicana Motel. No brand page or appraisal district record could be confirmed for them, so they stay out of the table and their size is a lender condition. The Hyatt Regency Lost Pines is a full-service resort and is context, not a competitor. Its key count was not found.</p>
 </div>
@@ -178,58 +576,59 @@
 </table>
 </div>
 <div class="prose">
-<p>The pipeline is the decision-relevant table. Only one project has a published key count, the 121-key Fairfield and Staybridge. The Chronicle's account of the 75-acre, roughly $300 million Sendero plan includes a 120-room hotel alongside 782 apartments and more than 250,000 square feet of retail and dining [^21]. The four branded buildings range from 63,000 to 99,798 square feet, depending on which report of the Sendero building is right [^15,17,18,19,20]; for comparison, the 114-suite Everhome is 57,830 square feet [^16]. On building area alone, each project is at least as large as Everhome, against a branded base of 593 keys.</p>
+<p>The pipeline is the decision-relevant table. Only one project has a published key count, the 121-key Fairfield and Staybridge. The Chronicle's account of the 75-acre, roughly $300 million Sendero plan includes a 120-room hotel alongside 782 apartments and more than 250,000 square feet of retail and dining [^21]. The four branded buildings range from 63,000 to 99,798 square feet, depending on which report of the Sendero building is right [^15,17,18,19,20]; for comparison, the 114-suite Everhome is 57,830 square feet [^16]. On building area alone, each project is at least as large as Everhome, and each would enter a town whose older branded hotels run from 42 to 89 keys [^33,37].</p>
 <p>Three of the four are Marriott flags, two of them extended-stay or suite brands. That matters for the subject's brand choice. A Hampton or Holiday Inn Express already operates in town, and Fairfield arrives twice. The sponsor's franchise application will have to clear the brands' area protection, and the lender should see the radius terms before approval. Our note on <a href="/research-notes/franchise-vs-non-franchise/">franchise versus independent underwriting</a> explains why the flag is part of the credit, not a detail of the pro forma.</p>
+<p>The national pipeline points the same way, and at the same product. Lodging Econometrics counted 703,001 rooms in the U.S. construction pipeline at the end of June 2026, 133,216 of them under construction, and forecast 74,820 rooms to open in 2026, supply growth of about 1.3% [^69]. The upper midscale and upscale chain scales, where select-service brands sit, held 214,027 and 159,252 of those pipeline rooms [^70], and the Austin metro carries one of the deepest local pipelines, covered on the <a href="/states/texas/austin/">Austin market page</a>. Bastrop's own wave, 228 extended-stay keys in 2025 and four more branded hotels by mid-2028, runs far ahead of that national pace. A new select-service hotel here competes for brand approval and for guests in the most crowded part of the pipeline.</p>
 <p>The county appraisal district's search is a form, not an indexed record, so parcel numbers, tax years, assessed values and land areas for the set were not retrieved. That becomes a lender condition, because the assessed values of the 2025 openings are the best local evidence of what a new hotel is worth for tax.</p>
 </div>
 </section>
 <section id="site" data-eyebrow="Site" data-h2="A highway pad whose zoning, utilities and traffic count are still open.">
 <div class="prose">
-<p>The hypothetical site is a {{case:v.in_site_acres}}-acre pad with SH 71 frontage inside the City of Bastrop. Hotel pads in town run small: the Sendero hotel site under contract in March 2025 was 2.5 acres [^22]. Land is carried at {{case:v.in_land_per_acre}} an acre, the 2026 asking level of the SH 71 frontage tract the research identified. That listing is not cited, so that no real parcel is identified; an asking price is not a sale price, and its zoning status was not confirmed. An appraisal sets the value, and it is a lender condition.</p>
-<p><strong>Zoning.</strong> Bastrop repealed its B3 Code in 2026 and adopted the Bastrop Development Code (Ordinance 2026-06) with a comprehensive zoning map amendment (Ordinance 2026-07) [^4]. Any earlier reading of where hotels are allowed has to be checked against the new code. Under Ordinance 2023-16, if the planning and zoning commission denies a zoning change, council approval needs a supermajority [^4]. Ordinance 2025-02 capped impervious cover at 50% in the P3 place type, 60% in P4 and 65% in P5 Core [^5], a limit that drives parking layout on a 3-acre pad. Whether a hotel is permitted by right on the subject's district was not found.</p>
-<p><strong>Traffic.</strong> SH 71 is a TxDOT-maintained state highway. TxDOT's public count layer was updated January 6, 2025 [^3], but no station count for the frontage was extracted. A broker listing for another SH 71 parcel quotes a daily count with no station and no year; it is not evidence. The lender should pull the nearest TxDOT station and year.</p>
+<p>The hypothetical site is a {{case:v.in_site_acres}}-acre pad with SH 71 frontage inside the City of Bastrop; no particular tract is assumed. Hotel pads in town run small: the Sendero hotel site under contract in March 2025 was 2.5 acres [^22]. Land is carried at {{case:v.in_land_per_acre}} an acre, an assumption. The research found no recorded sale of SH 71 frontage and one land value on the corridor that this study can use: a 2.47-acre mixed-use parcel on East SH 71, marketed from March 14, 2023 and no longer advertised, carried a total appraisal-district assessment of $503,737, a little over $200,000 an acre [^66]. The appraisal district assesses at 100% of market value [^7], so the model rounds that level. One assessment is thin evidence: an appraisal with comparable sales sets the value, and it is a lender condition.</p>
+<p><strong>Zoning.</strong> Bastrop repealed its B3 Code in 2026 and adopted the Bastrop Development Code (Ordinance 2026-06) with a comprehensive zoning map amendment (Ordinance 2026-07) [^4]. Any earlier reading of where hotels are allowed has to be checked against the new code. Under Ordinance 2023-16, if the planning and zoning commission denies a zoning change, council approval needs a supermajority [^4]. Ordinance 2025-02 capped impervious cover at 50% in the P3 place type, 60% in P4 and 65% in P5 Core [^5], a limit that drives parking layout on a 3-acre pad. The pad's district, and whether a hotel is permitted by right in it, are to be confirmed.</p>
+<p><strong>Traffic.</strong> SH 71 is a TxDOT-maintained state highway. TxDOT's public count layer was updated January 6, 2025 [^3], but no station count for the frontage was extracted. The listing for the East SH 71 parcel quotes a daily count with no station and no year [^66]; it is not evidence. The lender should pull the nearest TxDOT station and year.</p>
 <p><strong>Utilities.</strong> Water, sewer, electric and gas providers for the pad were not found. Hotels need sewer capacity and fire flow that a highway pad does not always have, so will-serve letters belong in the conditions.</p>
-<p><strong>Flood and fire.</strong> The FEMA flood zone was not determined. The city imposed a development moratorium from August 14, 2018 to May 21, 2019 over flooding and drainage [^65], and the 2011 Bastrop County Complex fire burned in the county's pine forest [^66]. Both belong in the insurance quote and the survey.</p>
-<p><strong>Taxes on the property.</strong> Bastrop County adopted $0.42870 per $100 for tax year 2025, made up of $0.30678 for maintenance and operations, $0.04371 for debt and $0.07821 for roads and bridges [^10]. For fiscal 2026-27 the county raised the rate 6.22% to $0.4554 [^11]. Bastrop ISD adopted $1.0679 for 2025-26 ($0.6669 for operations, $0.4010 for debt) [^12]. Emergency services district rates for 2025 were $0.10 in ESD No. 3 and a $0.103878 voter-approval rate in ESD No. 2 [^14,13]; which district covers the pad was not found. The city's adopted 2025 rate could not be confirmed from a primary record: the city's tax page links only the 2024-25 ordinance [^7]. Property is assessed at 100% of market value as of January 1 [^7]. The model uses the county's 2026-27 rate, the ISD rate and a labelled placeholder for the city.</p>
+<p><strong>Flood and fire.</strong> The FEMA flood zone was not determined. The city imposed a development moratorium from August 14, 2018 to May 21, 2019 over flooding and drainage [^64], and the 2011 Bastrop County Complex fire burned in the county's pine forest [^65]. Both belong in the insurance quote and the survey.</p>
+<p><strong>Taxes on the property.</strong> Bastrop County adopted $0.42870 per $100 for tax year 2025, above its no-new-revenue rate of $0.40151, made up of $0.30678 for maintenance and operations, $0.04371 for debt and $0.07821 for roads and bridges [^10]. For fiscal 2026-27 the county raised the rate 6.22% to $0.4554 [^11]. Bastrop ISD adopted $1.0679 for 2025-26 ($0.6669 for operations, $0.4010 for debt) [^12]. Emergency services district rates for 2025 were $0.10 in ESD No. 3 and a $0.103878 voter-approval rate in ESD No. 2 [^14,13]; which district covers the pad was not found. The city's adopted 2025 rate could not be confirmed from a primary record: the city's tax page links only the 2024-25 ordinance [^7]. Property is assessed at 100% of market value as of January 1 [^7]. The model uses the county's 2026-27 rate, the ISD rate and a labelled placeholder for the city.</p>
 <p><strong>Lodging tax.</strong> Guests pay 13.75% inside the city or its extraterritorial jurisdiction: 6% state, 7% city and 0.75% county; outside the city the total is 13% [^7,9]. The city tax applies to rooms of $2.00 a day or more, gives the hotel a 1% collection allowance, and exempts guests who stay 30 consecutive days or more and state and federal employees on official business [^8]. The tax is collected for the government and is not hotel revenue.</p>
-<p><strong>Opportunity Zones.</strong> Bastrop County has three Opportunity Zone tracts from the 2018 round: 48021950200, 48021950600 and 48021950801 [^45]. Texas's next-round designations take effect January 1, 2027 [^46]. Whether the pad sits in one was not found; it could change the sponsor's equity source, not the loan.</p>
+<p><strong>Opportunity Zones.</strong> Bastrop County has three Opportunity Zone tracts from the 2018 round: 48021950200, 48021950600 and 48021950801 [^44]. Texas's next-round designations take effect January 1, 2027 [^45]. Whether the pad sits in one was not found; it could change the sponsor's equity source, not the loan.</p>
 </div>
 </section>
 <section id="revenue" data-eyebrow="Revenue" data-h2="Rooms revenue built from keys, a slow ramp and a below-national rate.">
 {{case:revenue}}
 <div class="prose">
 <p>Revenue is almost all rooms. The model multiplies {{case:v.in_keys}} keys by 365 nights, by occupancy and by average daily rate, and adds a small line for meeting room rental, vending, pet fees and guest laundry at {{case:v.in_other_rev_pct}} of rooms revenue. Total revenue is {{case:v.rev_y1}} in Year 1 and {{case:v.rev_y3}} in Year 3.</p>
-<p><strong>Occupancy</strong> ramps to {{case:v.in_occupancy}} in Year 3. U.S. hotels ran 62.3% in 2025, the first full-year decline since 2020 [^50]. Extended-stay hotels ran 77.8% in August 2026 against 65.5% for comparable hotels [^55], which shows how much of Bastrop's contractor demand the two 2025 openings can hold. The subject opens below the national figure because four new hotels deliver around it, and it stabilizes above it because Bastrop's weekday base is growing faster than the nation's. CoStar expects 2026 growth in midscale and economy RevPAR to come mainly from demand rather than rate [^51], which supports a ramp built on occupancy.</p>
-<p><strong>Average daily rate</strong> reaches {{case:v.in_adr}} in Year 3. No ADR for Bastrop is published. The aggregator prices found in the research carry no stay date and are asking rates, so they are not used. The model sits below the 2025 U.S. ADR of $160.54 [^50] and the $156.56 select-service ADR in Apple Hospitality's first quarter 2025 portfolio [^57], and above the $116.08 extended-stay average for the fourth quarter of 2025 [^54]. That places the subject where a new upper-midscale hotel in a small, fast-growing town should sit.</p>
+<p><strong>Occupancy</strong> opens below the national level in Year 1, passes it in Year 2 and reaches {{case:v.in_occupancy}} in Year 3, a point higher from Year 4 (the inputs table lists each year). U.S. hotels ran 62.3% in 2025, the first full-year decline since 2020 [^49], and in August 2026 CoStar and Tourism Economics raised their 2026 forecast to 63.1% [^67]. The stabilized level is set against the hotels the subject resembles, not the all-hotel average. Apple Hospitality's comparable portfolio of upscale, rooms-focused hotels ran 71.1% occupancy and $111.36 RevPAR in the first quarter of 2025 [^56], and a hotel portfolio KBRA rated in December 2024 ran 74.5% over the twelve months to September 2024, at 101.3% of its competitive sets' occupancy [^68]. Those are seasoned hotels holding their fair share; the subject is new and opens into a four-hotel pipeline, so it stabilizes a point or two below the Apple portfolio. It stabilizes above the national average for two local reasons: the weekday base around the Starlink campus is growing [^39], and midweek compression is already visible, with Everhome sold out on a Wednesday in July 2026 [^25]. Extended-stay hotels ran 77.8% in August 2026 against 65.5% for comparable hotels [^54], which shows how much of Bastrop's contractor demand the two 2025 openings can hold. CoStar expects 2026 growth in midscale and economy RevPAR to come mainly from demand rather than rate [^50], which supports a ramp built on occupancy.</p>
+<p><strong>Average daily rate</strong> reaches {{case:v.in_adr}} in Year 3. No ADR for Bastrop is published. The aggregator prices found in the research carry no stay date and are asking rates, so they are not used. The model sits below the 2025 U.S. ADR of $160.54 [^49] and the $156.56 select-service ADR in Apple Hospitality's first quarter 2025 portfolio [^56], and above the $116.08 extended-stay average for the fourth quarter of 2025 [^53]. That places the subject where a new upper-midscale hotel in a small, fast-growing town should sit.</p>
 <p>Two checks matter more than any single input. First, the lender should compare the Year 3 RevPAR this implies with the trailing twelve months of the Hampton and Holiday Inn Express, which a trend report will give. Second, the Everhome sold-out night shows midweek compression in July 2026 [^25]; a trend report will show whether that is a pattern or a single night. Our note on <a href="/research-notes/hospitality-str-report/">why the STR report is not the analysis</a> explains how the trend report and this projection should be read together.</p>
 </div>
 </section>
 <section id="opex" data-eyebrow="Operating Expenses" data-h2="A lean rooms-only cost structure, with payroll held fixed.">
 {{case:opex}}
 <div class="prose">
-<p>Operating costs total {{case:v.opex_y3}} in Year 3 and leave net operating income of {{case:v.noi_y3}}, a {{case:v.noi_margin_y3}} margin after the replacement reserve. CBRE's 2025 sample converted 22.8% of revenue to EBITDA across all hotel types, down from 23.3% in 2024 [^49]. A rooms-only hotel with no restaurant should do better than that blend, and the model's margin reflects it.</p>
-<p><strong>Payroll</strong> is the largest cost and is held as a fixed amount that grows 3% a year. Non-union U.S. hotels ran labor at 33.5% of revenue in 2025 [^58], a ratio weighted to hotels with food and beverage. Holding payroll fixed is deliberate: when occupancy falls, a hotel cannot cut its front desk and night audit in proportion, and a percentage-of-revenue payroll would flatter the break-even.</p>
-<p><strong>Franchise costs</strong> run at {{case:v.in_franchise_pct}} of rooms revenue, the average total franchise cost in HVS's 2020 guide [^53]. That guide is six years old; the lender should replace it with the chosen brand's disclosure document. <strong>Rooms costs</strong> cover linen, supplies, breakfast and online travel agency commissions. <strong>Undistributed costs</strong> cover utilities, maintenance, sales and administration. A <strong>management fee</strong> of {{case:v.in_mgmt_pct}} of revenue is carried even if the owner manages, so the projection pays for management.</p>
-<p><strong>Property tax</strong> applies the county's 2026-27 rate, the ISD rate and a placeholder for the city levy to land and building cost, on the 100% market value basis. The line grows 2% a year. CBRE found midscale hotels' property taxes rose 12.3% in 2025 while their gross operating profit fell 5.7% [^49], which is why the tax line is not left flat. <strong>Insurance</strong> is an allowance pending a quote that prices the county's wildfire history. The <strong>reserve</strong> sets aside {{case:v.in_reserve_pct}} of revenue for room renovations and brand improvement plans.</p>
+<p>Operating costs total {{case:v.opex_y3}} in Year 3 and leave net operating income of {{case:v.noi_y3}}, a {{case:v.noi_margin_y3}} margin after the replacement reserve. CBRE's 2025 sample converted 22.8% of revenue to EBITDA across all hotel types, down from 23.3% in 2024 [^48]. A rooms-only hotel with no restaurant should do better than that blend. Apple Hospitality's comparable rooms-focused hotels earned an adjusted hotel EBITDA margin of 32.3% in the first quarter of 2025 [^56]; the model's Year 3 margin, after its replacement reserve, sits a little below that seasoned portfolio.</p>
+<p><strong>Payroll</strong> is the largest cost and is held as a fixed amount that grows 3% a year. Non-union U.S. hotels ran labor at 33.5% of revenue in 2025 [^57], a ratio weighted to hotels with food and beverage. Holding payroll fixed is deliberate: when occupancy falls, a hotel cannot cut its front desk and night audit in proportion, and a percentage-of-revenue payroll would flatter the break-even.</p>
+<p><strong>Franchise costs</strong> run at {{case:v.in_franchise_pct}} of rooms revenue, the average total franchise cost in HVS's 2020 guide [^52]. That guide is six years old; the lender should replace it with the chosen brand's disclosure document. <strong>Rooms costs</strong> cover linen, supplies, breakfast and online travel agency commissions. <strong>Undistributed costs</strong> cover utilities, maintenance, sales and administration. A <strong>management fee</strong> of {{case:v.in_mgmt_pct}} of revenue is carried even if the owner manages, so the projection pays for management.</p>
+<p><strong>Property tax</strong> applies the county's 2026-27 rate, the ISD rate and a placeholder for the city levy to land and building cost, on the 100% market value basis. The line grows 2% a year. CBRE found midscale hotels' property taxes rose 12.3% in 2025 while their gross operating profit fell 5.7% [^48], which is why the tax line is not left flat. <strong>Insurance</strong> is an allowance pending a quote that prices the county's wildfire history. The <strong>reserve</strong> sets aside {{case:v.in_reserve_pct}} of revenue for room renovations and brand improvement plans.</p>
 </div>
 </section>
 <section id="sources-uses" data-eyebrow="Sources and Uses" data-h2="A project cost near the low end of the national range.">
 {{case:uses}}
 {{case:sources}}
 <div class="prose">
-<p>Total project cost is {{case:v.tpc}}, or {{case:v.tpc_per_unit}} per key. HVS put the 2025 median for limited-service and midscale extended-stay hotels at $170,000 to $197,000 per room, all-in, with construction costs still rising nationally [^48]. The local filings are lower but incomplete: the 114-suite Everhome registered an estimated construction value of $13.0 million for a 57,830 square foot, four-story wood-frame building [^16], and the Courtyard registered $10,000,000 for 63,603 square feet [^15]. Owner estimates filed with the state exclude furniture, design, financing and land, so the model carries building and site work at {{case:v.in_hard_cost_per_key}} per key, above those filings.</p>
-<p>The contingency is {{case:v.in_contingency_pct}} of hard cost, the low end of the 10% to 15% that hotel construction lenders require [^52]. Soft costs and construction interest are an allowance. Furniture, fixtures and equipment are carried at {{case:v.in_ffe_per_key}} per key; HVS's full-service median is $36,752 [^59], and a rooms-only hotel needs about half.</p>
+<p>Total project cost is {{case:v.tpc}}, or {{case:v.tpc_per_unit}} per key. HVS put the 2025 median for limited-service and midscale extended-stay hotels at $170,000 to $197,000 per room, all-in, with construction costs still rising nationally [^47]. The local filings are lower but incomplete: the 114-suite Everhome registered an estimated construction value of $13.0 million for a 57,830 square foot, four-story wood-frame building [^16], and the Courtyard registered $10,000,000 for 63,603 square feet [^15]. Owner estimates filed with the state exclude furniture, design, financing and land, so the model carries building and site work at {{case:v.in_hard_cost_per_key}} per key, above those filings. On the value side, U.S. hotels that sold for more than $10 million in 2025 averaged $211,000 per room [^71]. Those trades lean to larger hotels in bigger markets, so they cap rather than support this hotel's value; a new limited-service hotel in a town of this size should not be underwritten to appraise above its cost.</p>
+<p>The contingency is {{case:v.in_contingency_pct}} of hard cost, the low end of the 10% to 15% that hotel construction lenders require [^51]. Soft costs and construction interest are an allowance. Furniture, fixtures and equipment are carried at {{case:v.in_ffe_per_key}} per key; HVS's full-service median is $36,752 [^58], and a rooms-only hotel needs about half.</p>
 <p>Two items sit outside the 504 project. Pre-opening payroll, training and a working capital reserve are not fixed assets, and 504 proceeds fund fixed assets. The sponsor must show cash for them in addition to the equity in the table. The SBA fee on the debenture is financed and shown as a use.</p>
 </div>
 </section>
 <section id="loan" data-eyebrow="Loan Structure" data-h2="How the 504 rules size this hotel.">
 {{case:loan}}
 <div class="prose">
-<p>The 504 program splits a project three ways. Under <!--sba:sop.name-->SOP 50 10 8.1 with Technical Policy Updates<!--/sba:sop.name-->, effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->, the standard split is <!--sba:equity.sba_504_split.value-->Third Party Lender 50%, debenture 40%, borrower 10%; debenture 35% at a 15% contribution and 30% at 20%<!--/sba:equity.sba_504_split.value--> [^61]. The borrower's share rises with risk. It is <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> for an established business in a general-purpose building, <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> for a new business or a special purpose property, and <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value--> when both apply [^61]. Hotels are on SBA's special purpose property list, and a borrower formed to build and run a new hotel is a new business. The sponsor's {{case:v.equity_proposed_pct}} treats the hotel as one or the other, not both. Our note on <a href="/research-notes/special-purpose-property-risk/">special purpose property risk</a> explains why the program asks more of single-use buildings.</p>
-<p>The debenture is capped at <!--sba:limits.max_504.value-->$5 million<!--/sba:limits.max_504.value--> for a non-manufacturer [^61]. At the sponsor's {{case:v.equity_proposed_pct}}, the debenture came to {{case:v.debenture_proposed}}, just inside the limit. A slightly larger hotel would have hit it. Combined 7(a) and 504 exposure can now reach <!--sba:limits.combined.value-->$10 million<!--/sba:limits.combined.value--> [^61], which gives room for a later renovation loan but does not change this test. The upfront 504 fee for fiscal 2027 is <!--sba:fees_fy2027.upfront_504.value-->0.50%<!--/sba:fees_fy2027.upfront_504.value--> of the debenture, financed [^62].</p>
-<p>Coverage for a 504 is <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> [^61]. A new hotel has no history, so the test runs on projections, and this case tests Year 2. The bank rate is an assumption at {{case:v.in_tpl_rate}}, set from Prime of <!--sba:rates.prime.value-->7.00%<!--/sba:rates.prime.value--> on October 9, 2026 [^63] and broker-reported 2026 hotel pricing. The debenture rate is the 25-year effective rate of {{case:v.in_debenture_rate}} from the October 8, 2026 pricing [^60]. Both are set at pricing, and both are conditions below.</p>
-<p>Two eligibility rules come before the credit analysis. First, lodging borrowers must earn <!--sba:terms.transient_test.value-->more than 50% of the prior year&#x27;s revenue from transients who stay 30 days or less at a time; a start-up shows it in projections<!--/sba:terms.transient_test.value--> [^61]. The subject's transient positioning meets that by design, and its projection should show it. Second, since March 1, 2026, all direct and indirect owners and SBA-required guarantors must be U.S. citizens or U.S. nationals with a principal U.S. residence, and entity owners must be organized in the United States (Procedural Notice 5000-876626) [^47]. If any owner is a lawful permanent resident rather than a citizen or national, the borrower is ineligible under the current rule, so the check comes first.</p>
-<p>On the study itself: <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^64]. Lenders and CDCs often ask for one on a ground-up hotel. Our note on the <a href="/research-notes/sba-feasibility-myth/">SBA feasibility myth</a> separates the rule from the practice, and the <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 practice</a> page describes what our studies cover for both programs.</p>
+<p>The 504 program splits a project three ways. Under <!--sba:sop.name-->SOP 50 10 8.1 with Technical Policy Updates<!--/sba:sop.name-->, effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective-->, the standard split is <!--sba:equity.sba_504_split.value-->Third Party Lender 50%, debenture 40%, borrower 10%; debenture 35% at a 15% contribution and 30% at 20%<!--/sba:equity.sba_504_split.value--> [^60]. The borrower's share rises with risk. It is <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> for an established business in a general-purpose building, <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> for a new business or a special purpose property, and <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value--> when both apply [^60]. Hotels are on SBA's special purpose property list, and a borrower formed to build and run a new hotel is a new business. The sponsor's {{case:v.equity_proposed_pct}} treats the hotel as one or the other, not both. Our note on <a href="/research-notes/special-purpose-property-risk/">special purpose property risk</a> explains why the program asks more of single-use buildings.</p>
+<p>The debenture is capped at <!--sba:limits.max_504.value-->$5 million<!--/sba:limits.max_504.value--> for a non-manufacturer [^60]. At the sponsor's {{case:v.equity_proposed_pct}}, the debenture came to {{case:v.debenture_proposed}}, under the limit by a small margin. A slightly larger hotel would have hit it. Combined 7(a) and 504 exposure can now reach <!--sba:limits.combined.value-->$10 million<!--/sba:limits.combined.value--> [^60], which gives room for a later renovation loan but does not change this test. The upfront 504 fee for fiscal 2027 is <!--sba:fees_fy2027.upfront_504.value-->0.50%<!--/sba:fees_fy2027.upfront_504.value--> of the debenture, financed [^61].</p>
+<p>Coverage for a 504 is <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> [^60]. A new hotel has no history, so the test runs on projections, and this case tests Year 2. The bank rate is an assumption at {{case:v.in_tpl_rate}}, set from Prime of <!--sba:rates.prime.value-->7.00%<!--/sba:rates.prime.value--> on October 9, 2026 [^62] and broker-reported 2026 hotel pricing. The debenture rate is the 25-year effective rate of {{case:v.in_debenture_rate}} from the October 8, 2026 pricing [^59]. Both are set at pricing, and both are conditions below.</p>
+<p>Two eligibility rules come before the credit analysis. First, lodging borrowers must earn <!--sba:terms.transient_test.value-->more than 50% of the prior year&#x27;s revenue from transients who stay 30 days or less at a time; a start-up shows it in projections<!--/sba:terms.transient_test.value--> [^60]. The subject's transient positioning meets that by design, and its projection should show it. Second, since March 1, 2026, all direct and indirect owners and SBA-required guarantors must be U.S. citizens or U.S. nationals with a principal U.S. residence, and entity owners must be organized in the United States (Procedural Notice 5000-876626) [^46]. If any owner is a lawful permanent resident rather than a citizen or national, the borrower is ineligible under the current rule, so the check comes first.</p>
+<p>On the study itself: <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^63]. Lenders and CDCs often ask for one on a ground-up hotel. Our note on the <a href="/research-notes/sba-feasibility-myth/">SBA feasibility myth</a> separates the rule from the practice, and the <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 practice</a> page describes what our studies cover for both programs.</p>
 </div>
 </section>
 <section id="pro-forma" data-eyebrow="Pro Forma" data-h2="Five years, as restructured.">
@@ -266,17 +665,17 @@
 <section id="inputs" data-eyebrow="Model Inputs" data-h2="Every input and its basis.">
 {{case:inputs}}
 <div class="prose">
-<p>The research supplied the land price, the contingency, the franchise cost ratio, the tax rates and the debenture rate. Everything else is a labelled assumption: the key count, site size, building cost, FF&amp;E, soft costs, occupancy, rate, payroll, the cost ratios, insurance, the city tax placeholder, the reserve and the bank rate. Each assumption names the benchmark that informs it where one exists.</p>
+<p>The research supplied the contingency, the franchise cost ratio, the tax rates and the debenture rate. Everything else is a labelled assumption: the land price, the key count, site size, building cost, FF&amp;E, soft costs, occupancy, rate, payroll, the cost ratios, insurance, the city tax placeholder, the reserve and the bank rate. Each assumption names the benchmark that informs it where one exists.</p>
 </div>
 </section>
 <section id="risks" data-eyebrow="Risks" data-h2="What could break this hotel's projection.">
 <ol class="failures">
 <li><div><h3>Opening into the pipeline</h3><p>The Courtyard is scheduled to finish December 25, 2026, the Sendero dual-brand in early 2027, the Residence Inn in November 2027 and the Fairfield and Staybridge on July 3, 2028 [^15,18,19,20]. The subject's ramp years coincide with all four. The key counts of three of them are unknown, so the supply shock cannot yet be sized.</p></div></li>
 <li><div><h3>One employer drives weekday demand</h3><p>Starlink and SpaceX are the reason two hotels opened in 2025 [^24]. A pause in expansion, a shift of work to another campus or a slowdown in data center construction would hit the weekday base that the model counts on.</p></div></li>
-<li><div><h3>Rate erosion from new product</h3><p>New hotels open with introductory rates and loyalty promotions. Midscale hotels lost 5.7% of gross operating profit in 2025 while their property taxes rose 12.3% [^49]. A rate war in a small market reaches coverage faster than an occupancy dip.</p></div></li>
+<li><div><h3>Rate erosion from new product</h3><p>New hotels open with introductory rates and loyalty promotions. Midscale hotels lost 5.7% of gross operating profit in 2025 while their property taxes rose 12.3% [^48]. A rate war in a small market reaches coverage faster than an occupancy dip.</p></div></li>
 <li><div><h3>Site entitlement under a new code</h3><p>The 2026 development code and zoning map replaced the old code [^4]. If the pad needs a zoning change and the commission recommends denial, council approval needs a supermajority. Entitlement delay pushes the opening further into the pipeline.</p></div></li>
-<li><div><h3>Flood, drainage and wildfire</h3><p>The 2018 to 2019 drainage moratorium and the 2011 county fire [^65,66] point to insurance cost and availability risk that the model carries only as an allowance.</p></div></li>
-<li><div><h3>Ownership eligibility</h3><p>The March 1, 2026 citizenship rule makes any owner who is not a U.S. citizen or national an eligibility failure [^47]. Hotel ownership groups should be checked before the credit work starts.</p></div></li>
+<li><div><h3>Flood, drainage and wildfire</h3><p>The 2018 to 2019 drainage moratorium and the 2011 county fire [^64,65] point to insurance cost and availability risk that the model carries only as an allowance.</p></div></li>
+<li><div><h3>Ownership eligibility</h3><p>The March 1, 2026 citizenship rule makes any owner who is not a U.S. citizen or national an eligibility failure [^46]. Hotel ownership groups should be checked before the credit work starts.</p></div></li>
 <li><div><h3>Tax growth</h3><p>The county's rate rose 6.22% for 2026-27 [^11], and the city's adopted rate is unconfirmed. A new hotel is assessed near cost, so tax is a large, fixed line.</p></div></li>
 </ol>
 </section>
@@ -286,9 +685,9 @@
 <ol>
 <li><strong>STR trend report.</strong> A twelve-month trend report for a competitive set of the Hampton, Holiday Inn Express, Comfort Suites, Everhome and Home2, with monthly occupancy, ADR and RevPAR and a day-of-week breakdown. Replace the model's occupancy and rate assumptions with the set's performance and the subject's expected penetration.</li>
 <li><strong>Pipeline key counts.</strong> Key counts from TDLR, the city or the brands for the Courtyard, the Residence Inn and the Sendero dual-brand, plus city permit and planning agenda checks for any further hotel filings.</li>
-<li><strong>Competitor records.</strong> Confirmation of the Hampton, Holiday Inn Express, Comfort Suites and Quality Inn brand pages, which refused an automated read; key counts confirmed from franchise or appraisal district records for the Best Western, Quality Inn and Days Inn, where sources conflict; and size, brand status and appraisal records for the Super 8, the Bastrop Inn and the Tropicana Motel.</li>
+<li><strong>Competitor records.</strong> Confirmation of the Hampton, Holiday Inn Express, Comfort Suites and Quality Inn brand pages, which refused an automated read; key counts confirmed from franchise or appraisal district records for the Comfort Suites, where none was confirmed, and for the Best Western, Quality Inn and Days Inn, where sources conflict; and size, brand status and appraisal records for the Super 8, the Bastrop Inn and the Tropicana Motel.</li>
 <li><strong>Zoning.</strong> A zoning verification letter under the 2026 Bastrop Development Code confirming the pad's district, city limits or ETJ status, and whether a hotel is permitted by right; the approval timeline if it is not.</li>
-<li><strong>Land value.</strong> An appraisal of the pad, with comparable sales, replacing the model's per-acre assumption; an asking price is not a value.</li>
+<li><strong>Land value.</strong> An appraisal of the pad, with comparable sales, replacing the model's per-acre assumption; one assessment of another SH 71 parcel is not a value.</li>
 <li><strong>Utilities.</strong> Will-serve letters for water, sewer, electric and gas, with impact and connection fees.</li>
 <li><strong>Traffic.</strong> The nearest TxDOT station count and year on SH 71 at the pad, from the public count layer.</li>
 <li><strong>Flood and environmental.</strong> A FEMA flood zone determination, a Phase I environmental site assessment and a wildfire exposure review for the insurer.</li>

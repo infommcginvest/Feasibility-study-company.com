@@ -12,9 +12,16 @@ Definitions (the gates in the charter):
 - Overlap: 8-word shingles of lowercase tokens over <main> text minus scripts, styles and the
   sources section; overlap = shared shingles / the smaller page's shingle count. Every other
   served page of the site is compared.
-- Unique figures: a number with a unit ($, %, x, thousands separators, decimals, or a counted
-  unit word) inside a block (p, li, tr, stat, details) that carries a citation, outside sba:,
-  case: and mkt: regions, that appears nowhere in the text of any other served page.
+- Unique figures: a number with a unit ($, %, x, thousands separators, decimals, a scale word, or a
+  counted unit word) inside a block (p, li, tr, stat, details) that carries a citation, outside sba:,
+  case:, mkt: and mesh: regions, that appears nowhere in the text of any other served page. Text is
+  whitespace-collapsed first. "Appears" is by value, not spelling: $12.5 billion = $12,500 million;
+  $0.332300 = $0.3323; and a rounded repeat counts as the same figure when one side is written with a
+  million, billion or trillion scale and the shorter keeps 3 or more significant digits ($42.2B against
+  $42,198M; 31.7 million against 31,709,821), or when the shorter keeps 4 or more (118,900 against
+  118,908). Coincidences of three-digit roundings ($142k against $141,900) do not match. Money,
+  percentages, ratios and plain counts are compared within their own kind. Legal section numbers,
+  road, exit and route numbers, and margins of error are not figures.
 """
 import argparse
 import json
@@ -52,7 +59,7 @@ CASE_TABLES = ["glance", "revenue", "opex", "uses", "sources", "loan", "proforma
 DISCLOSURE = ("Representative worked example. The site, sponsor and project are hypothetical. The market evidence comes "
               "from the public sources listed below, with their dates. This page shows how the market analysis is built "
               "and how it sets the loan. It is not a client engagement.")
-DASHES = re.compile(r"–|—|&[mn]dash;|&#821[12];|&#x201[34];", re.I)
+DASHES = re.compile(r"\u2013|\u2014|&[mn]dash;|&#821[12];|&#x201[34];|%E2%80%9[34]|\\u201[34]", re.I)
 FORBIDDEN = re.compile("|".join(["m" + "mcg", "moh" + "elsky", "union ?" + "metric", "inno" + "wave", "analytics" + r"\.loan",
                                  "loan analytic" + "s", "feasibility-study-consulta" + "nt", "wert-?bera" + "ter"]), re.I)
 SBA_REQUIRES = re.compile(r"(?<![\"“]the )(required by (the )?SBA|SBA requires|SBA mandates|SBA-required)[^.]{0,80}feasibility|"
@@ -64,6 +71,7 @@ UNITS = (r"acres?|sites?|keys|rooms|units|beds|residents|people|jobs|employees|w
          r"vehicles per day|aadt|cents")
 FIG = re.compile(r"(?<![\w.$])(\$\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|thousand|trillion|[mbkt]\b))?"
                  r"|\d[\d,]*(?:\.\d+)?\s?(?:%|percent\b|x\b)"
+                 r"|\d[\d,]*(?:\.\d+)?\s(?:million|billion|trillion)\b"
                  r"|\d{1,3}(?:,\d{3})+(?:\.\d+)?"
                  r"|\d+\.\d+"
                  r"|\d{2,}(?=\s(?:" + UNITS + r")\b))", re.I)
@@ -140,6 +148,101 @@ def norm(fig):
     return f
 
 
+NOT_FIGURE = re.compile(r"(?:§|\bcfr|\bsection|\bsections|\bpart|\bsop|\bchapter|\bform|\bexit|\bexits|\binterstate|\bi-|"
+                        r"\bus|\bu\.s\.|\bsh|\bfm|\bhighway|\broute|\bsr|\bloop|\bspur|\bno\.|±|\+/-|margin of error|"
+                        r"\bml|\bmortgagee letter|\bfr|\bpub\. ?l\.|\bnaics)\s*$", re.I)
+SCALE = {"t": 1e12, "trillion": 1e12, "b": 1e9, "billion": 1e9, "m": 1e6, "million": 1e6, "k": 1e3, "thousand": 1e3}
+
+
+def collapse(text):
+    return re.sub(r"\s+", " ", text)
+
+
+def figure_key(raw):
+    """(kind, value, significant digits) for a figure as written, or None."""
+    f = raw.lower().replace("\u00a0", " ").strip().rstrip(".,")
+    kind = "plain"
+    if f.startswith("$"):
+        kind, f = "money", f[1:].strip()
+    if f.endswith("%") or f.endswith("percent"):
+        kind, f = "pct", f.replace("percent", "").rstrip("% ")
+    elif re.search(r"\d\s?x$", f):
+        kind, f = "ratio", f[:-1].strip()
+    scale = 1.0
+    m = re.match(r"^([\d,]*\.?\d+)\s?([a-z]+)?$", f)
+    if not m:
+        return None
+    num, word = m.group(1).replace(",", ""), m.group(2)
+    if word:
+        if word not in SCALE:
+            return None
+        scale = SCALE[word]
+    digits = num.replace(".", "").lstrip("0").rstrip("0")
+    try:
+        val = float(num) * scale
+    except ValueError:
+        return None
+    return kind, val, max(len(digits), 1), scale >= 1e6
+
+
+def round_sig(v, k):
+    if v == 0:
+        return 0.0
+    import math
+    return float(f"{v:.{k}g}")
+
+
+def figures_in(text):
+    """Every (raw, key) figure in text, skipping legal, road and margin-of-error numbers."""
+    text = collapse(text)
+    out = []
+    for m in FIG.finditer(text):
+        if NOT_FIGURE.search(text[max(0, m.start(1) - 24):m.start(1)]):
+            continue
+        if re.match(r"\(", text[m.end(1):m.end(1) + 1]) and re.match(r"^\d+\.\d+$", m.group(1)):
+            continue  # 120.160(b)
+        k = figure_key(m.group(1))
+        if k:
+            out.append((m.group(1), k))
+    return out
+
+
+class NumberIndex:
+    """Figures on other pages, for matching by value and by rounding."""
+
+    def __init__(self):
+        self.exact = set()
+        self.short = {}     # (kind, k, scaled) -> values written with exactly k significant digits
+        self.long = {}      # (kind, k, scaled) -> longer values rounded to k significant digits
+
+    def add(self, key):
+        kind, v, d, scaled = key
+        self.exact.add((kind, round(v, 6)))
+        self.short.setdefault((kind, d, scaled), set()).add(round_sig(v, d))
+        for k in range(3, d):
+            self.long.setdefault((kind, k, scaled), set()).add(round_sig(v, k))
+
+    def has(self, key):
+        kind, v, d, scaled = key
+        if (kind, round(v, 6)) in self.exact:
+            return True
+        # this figure is the shorter form: does a longer figure elsewhere round to it?
+        if d >= 3:
+            r = round_sig(v, d)
+            if r in self.long.get((kind, d, True), ()):
+                return True
+            if (scaled or d >= 4) and r in self.long.get((kind, d, False), ()):
+                return True
+        # this figure is the longer form: is a shorter figure elsewhere its rounding?
+        for k in range(3, d):
+            r = round_sig(v, k)
+            if r in self.short.get((kind, k, True), ()):
+                return True
+            if (scaled or k >= 4) and r in self.short.get((kind, k, False), ()):
+                return True
+        return False
+
+
 def all_numbers(text):
     return {norm(m.group(1)) for m in FIG.finditer(text)}
 
@@ -156,12 +259,11 @@ def sourced_figures(html_text):
             continue
         if not (b.select("a.cite") or b.select("sup.fn")):
             continue
-        for m in FIG.finditer(b.get_text(" ")):
-            raw = m.group(1)
+        for raw, key in figures_in(b.get_text(" ")):
             n = norm(raw)
             if YEAR.match(n):
                 continue
-            figs.setdefault(n, raw.strip())
+            figs.setdefault(n, (raw.strip(), key))
     return figs
 
 
@@ -228,7 +330,7 @@ def case_checks(url, html_text):
 def check(urls, pages, cache, show_figs=False, show_overlap=0):
     other_numbers = {}
     for u, p in pages.items():
-        other_numbers[u] = all_numbers(overlap_text(cache[u]) if u in cache else "")
+        other_numbers[u] = [k for _, k in figures_in(overlap_text(cache[u]))] if u in cache else []
     shing = {u: shingles(overlap_text(cache[u])) for u in pages}
     results = []
     for url in urls:
@@ -245,11 +347,12 @@ def check(urls, pages, cache, show_figs=False, show_overlap=0):
         if hi and rec["words"] > hi:
             rec["problems"].append(f"body words {rec['words']} over {hi}")
         figs = sourced_figures(h)
-        elsewhere = set()
+        elsewhere = NumberIndex()
         for u, nums in other_numbers.items():
             if u != url:
-                elsewhere |= nums
-        uniq = {k: v for k, v in figs.items() if k not in elsewhere}
+                for k in nums:
+                    elsewhere.add(k)
+        uniq = {n: raw for n, (raw, key) in figs.items() if not elsewhere.has(key)}
         rec["figures_sourced"] = len(figs)
         rec["figures_unique"] = len(uniq)
         if show_figs:
