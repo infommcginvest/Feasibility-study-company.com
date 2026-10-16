@@ -1,0 +1,494 @@
+{
+  "slug": "gas-station-georgia-sba",
+  "page": "/case-studies/gas-station-georgia-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 49,
+    "fees": 50,
+    "prime": 51
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "store",
+    "count": 1
+  },
+  "inputs": {
+    "land": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Land, about three acres zoned C-1",
+      "assumption": "The 2026 asking-price level for C-1 commercial lots of about three acres near the interchange, deliberately not cited so that no real parcel is identified; an appraisal and a signed contract set the value."
+    },
+    "site_work": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Site work: grading, paving, stormwater, septic field, lighting",
+      "assumption": "A vacant lot where public sewer is not established, so the budget carries an on-site septic system as well as grading, paving and detention for about three acres. No local cost index was found."
+    },
+    "building_sf": {
+      "value": 4200,
+      "fmt": "n",
+      "label": "Store size, square feet",
+      "assumption": "A commuter store with a hot-food counter, larger than the 3,400 square foot legacy format and smaller than the 5,800 square foot new-build format Yesway reported for 2025 [^37]."
+    },
+    "building_psf": {
+      "value": 260,
+      "fmt": "$",
+      "label": "Store construction cost per square foot",
+      "assumption": "Above the $1,350,000 estimated construction cost filed in October 2026 for a 6,374 square foot store in Fort Wayne, which covers vertical construction only [^44]; inside a contractor's 2026 range of $150 to $350 a square foot [^43]; construction input prices rose 7.1% in the year to June 2026 [^45]."
+    },
+    "canopy_tanks": {
+      "value": 780000,
+      "fmt": "$",
+      "label": "Canopy, three underground tanks, piping and leak detection",
+      "assumption": "Three tanks, canopy, product lines and leak detection. No dated per-tank installed cost was found; a 2026 franchise disclosure puts a whole new store and fuel site, before land, at $3,098,500 to $9,430,500 [^46], and this line is a share of a site at the bottom of that range."
+    },
+    "dispensers": {
+      "value": 8,
+      "fmt": "n",
+      "label": "Fuel dispensers (16 fueling positions)",
+      "assumption": "Eight double-sided dispensers for a car-and-commuter forecourt with no truck diesel island."
+    },
+    "dispenser_cost": {
+      "value": 45000,
+      "fmt": "$",
+      "label": "Cost per dispenser, installed",
+      "assumption": "An assumption for a high-volume retail dispenser installed with its electrical and software; no dated vendor price was found, so the bid is a lender condition."
+    },
+    "utility_fees": {
+      "value": 30990,
+      "fmt": "$",
+      "label": "County water and sewer connection, 2-inch meter, plan review and fire-flow test",
+      "source": [
+        23
+      ]
+    },
+    "ffe": {
+      "value": 420000,
+      "fmt": "$",
+      "label": "Store equipment: coolers, kitchen, point of sale, shelving",
+      "assumption": "Walk-in coolers, a hot-food kitchen, point of sale and fixtures for a 4,200 square foot store."
+    },
+    "soft": {
+      "value": 260000,
+      "fmt": "$",
+      "label": "Design, permits, survey, Phase I, legal, appraisal, study",
+      "assumption": "Architecture and engineering, county permits, survey, a Phase I environmental site assessment, legal, appraisal and the feasibility study."
+    },
+    "contingency_pct": {
+      "value": 0.08,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "8% of site, building, canopy and tank costs, for a market where steel mill products rose 16.9% in the year to June 2026 [^45]."
+    },
+    "construction_interest": {
+      "value": 150000,
+      "fmt": "$",
+      "label": "Interest during construction",
+      "assumption": "About nine months of interest on a loan drawn in stages."
+    },
+    "inventory": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Opening fuel and merchandise inventory",
+      "assumption": "Inside the $100,000 to $300,000 initial fuel inventory a 2025 franchise disclosure lists for a new fuel site [^46], plus opening merchandise."
+    },
+    "working_capital": {
+      "value": 150000,
+      "fmt": "$",
+      "label": "Pre-opening payroll and working capital",
+      "assumption": "Hiring and training before opening and about two months of operating losses during the ramp."
+    },
+    "gallons": {
+      "value": [
+        780000,
+        940000,
+        1020000,
+        1045000,
+        1065000
+      ],
+      "fmt": "n",
+      "label": "Fuel gallons sold",
+      "assumption": "Yesway's 2025 legacy stores sold 1.0 million gallons on 10 dispensers and its new-build stores 3.1 million on 27 [^37]. This store's eight dispensers are expected to sell somewhat more per dispenser than either format, on county growth and new plants, but the site has no interstate visibility. Ramps over three years."
+    },
+    "fuel_margin": {
+      "value": 0.393,
+      "fmt": "cpg",
+      "label": "Fuel gross margin per gallon",
+      "source": [
+        39
+      ]
+    },
+    "inside_sales": {
+      "value": [
+        1300000,
+        1560000,
+        1700000,
+        1740000,
+        1780000
+      ],
+      "fmt": "$",
+      "label": "Inside sales, merchandise and food",
+      "assumption": "Stabilizes at the $1.7 million Yesway's smaller legacy stores averaged in 2025 [^37]: a larger store with a food counter, but a newcomer on a secondary road. Ramps over three years."
+    },
+    "food_share": {
+      "value": 0.285,
+      "fmt": "%",
+      "label": "Foodservice share of inside sales",
+      "source": [
+        38
+      ]
+    },
+    "merch_margin": {
+      "value": 0.32,
+      "fmt": "%",
+      "label": "Merchandise gross margin",
+      "assumption": "Below Yesway's 35.2% blended inside margin for 2025 [^37], because the higher-margin food is split out."
+    },
+    "food_margin": {
+      "value": 0.5,
+      "fmt": "%",
+      "label": "Foodservice gross margin",
+      "assumption": "Below the 58.3% Casey's earned on prepared food and dispensed beverages in the first nine months of its 2026 fiscal year [^41]; a new single store lacks its scale."
+    },
+    "labor_hours": {
+      "value": 18615,
+      "fmt": "n",
+      "label": "Paid staff hours per year",
+      "assumption": "Three people on duty 17 hours a day (5 a.m. to 10 p.m.), every day, including the food counter."
+    },
+    "wage": {
+      "value": 15.04,
+      "fmt": "$2",
+      "label": "Average hourly wage, Year 1",
+      "source": [
+        38
+      ]
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual wage and cost growth",
+      "assumption": "3% a year for wages and other operating costs."
+    },
+    "burden": {
+      "value": 0.12,
+      "fmt": "%",
+      "label": "Payroll taxes and workers' compensation",
+      "assumption": "Employer taxes and workers' compensation on hourly wages."
+    },
+    "manager": {
+      "value": 60000,
+      "fmt": "$",
+      "label": "Store manager salary",
+      "assumption": "A salaried manager for a new store with a food program; charged whether or not the owner fills the role."
+    },
+    "card_fee": {
+      "value": 0.084,
+      "fmt": "cpg",
+      "label": "Card processing cost per gallon",
+      "source": [
+        40
+      ]
+    },
+    "county_mills": {
+      "value": 6.76,
+      "fmt": "n2",
+      "label": "Bartow County unincorporated millage, 2026",
+      "source": [
+        25
+      ]
+    },
+    "school_mills": {
+      "value": 17.18,
+      "fmt": "n2",
+      "label": "Bartow County Schools millage (2025 tentative)",
+      "source": [
+        26
+      ]
+    },
+    "assess_ratio": {
+      "value": 0.4,
+      "fmt": "%",
+      "label": "Assessment ratio, share of fair market value",
+      "source": [
+        24
+      ]
+    },
+    "water_kgal": {
+      "value": 600,
+      "fmt": "n",
+      "label": "Water use, thousand gallons a year",
+      "assumption": "About 1,600 gallons a day for restrooms, the kitchen and cleaning."
+    },
+    "water_rate": {
+      "value": 8.59,
+      "fmt": "$2",
+      "label": "County commercial water rate per 1,000 gallons",
+      "source": [
+        23
+      ]
+    },
+    "sewer_rate": {
+      "value": 6.88,
+      "fmt": "$2",
+      "label": "County wastewater rate per 1,000 gallons",
+      "source": [
+        23
+      ]
+    },
+    "other_opex": {
+      "value": 150000,
+      "fmt": "$",
+      "label": "Power, insurance, repairs, card fees on inside sales, supplies",
+      "assumption": "Electricity for coolers, kitchen and canopy; property and liability insurance; repairs and tank testing; card fees on inside sales; supplies and systems."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        48
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about three acres, C-1",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "Assumption; appraisal to confirm"
+    },
+    {
+      "key": "site",
+      "label": "Site work, septic, paving",
+      "expr": "site_work",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "building",
+      "label": "Store building, 4,200 square feet",
+      "expr": "building_sf * building_psf",
+      "class": "real_estate",
+      "basis": "Square feet x cost [^43,44]"
+    },
+    {
+      "key": "canopy",
+      "label": "Canopy, tanks and piping",
+      "expr": "canopy_tanks",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "utilities",
+      "label": "Water and sewer connection fees",
+      "expr": "utility_fees",
+      "class": "real_estate",
+      "basis": "2025 county schedule [^23]"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "contingency_pct * (site_work + building_sf * building_psf + canopy_tanks)",
+      "class": "real_estate",
+      "basis": "8% of hard costs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, Phase I, legal, appraisal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "interest",
+      "label": "Interest during construction",
+      "expr": "construction_interest",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "dispensers",
+      "label": "Fuel dispensers",
+      "expr": "dispensers * dispenser_cost",
+      "class": "equipment",
+      "basis": "Assumption"
+    },
+    {
+      "key": "ffe",
+      "label": "Store equipment and fixtures",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "Assumption"
+    },
+    {
+      "key": "inventory",
+      "label": "Opening inventory",
+      "expr": "inventory",
+      "class": "working_capital",
+      "basis": "Franchise disclosure range [^46]"
+    },
+    {
+      "key": "working_capital",
+      "label": "Pre-opening payroll and working capital",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "Assumption"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "fuel",
+      "label": "Fuel gross margin",
+      "expr": "gallons * fuel_margin",
+      "basis": "Gallons x 39.3 cents [^39]"
+    },
+    {
+      "key": "merch",
+      "label": "Merchandise sales",
+      "expr": "inside_sales * (1 - food_share)",
+      "basis": "71.5% of inside sales [^38]"
+    },
+    {
+      "key": "food",
+      "label": "Foodservice sales",
+      "expr": "inside_sales * food_share",
+      "basis": "28.5% of inside sales [^38]"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "merch_cogs",
+      "label": "Merchandise cost of goods",
+      "expr": "rev_merch * (1 - merch_margin)",
+      "basis": "32% margin"
+    },
+    {
+      "key": "food_cogs",
+      "label": "Food cost",
+      "expr": "rev_food * (1 - food_margin)",
+      "basis": "50% margin, below Casey's [^41]"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Store payroll with taxes",
+      "expr": "labor_hours * wage * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "Hours x wage [^38]"
+    },
+    {
+      "key": "manager",
+      "label": "Store manager",
+      "expr": "manager * (1 + wage_growth) ** y",
+      "basis": "Assumption"
+    },
+    {
+      "key": "cards",
+      "label": "Card fees on fuel",
+      "expr": "gallons * card_fee",
+      "basis": "8.4 cents a gallon [^40]"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land + site_work + building_sf * building_psf + canopy_tanks) * assess_ratio * (county_mills + school_mills) / 1000",
+      "basis": "40% of value x 23.94 mills [^24,25,26]"
+    },
+    {
+      "key": "water",
+      "label": "Water and wastewater",
+      "expr": "water_kgal * (water_rate + sewer_rate) * (1 + wage_growth) ** y",
+      "basis": "County rates [^23]"
+    },
+    {
+      "key": "other",
+      "label": "Power, insurance, repairs and other",
+      "expr": "other_opex * (1 + wage_growth) ** y",
+      "basis": "Assumption"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes the 10% start-up minimum"
+  },
+  "breakeven": {
+    "input": "gallons",
+    "label": "fuel gallons"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "inside_sales",
+      "label": "Inside sales",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "gallons",
+      "label": "Fuel gallons",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Cartersville area, unincorporated Bartow County, Georgia, about a mile from I-75 Exit 296 (Cassville-White Road) [^4]"
+    ],
+    [
+      "Subject",
+      "Hypothetical new car-and-commuter fuel and convenience store with a food counter on a vacant C-1 lot of about three acres; no real parcel is represented"
+    ],
+    [
+      "Program",
+      "SBA 7(a), start-up [^49]"
+    ],
+    [
+      "Total project cost",
+      "{tpc}"
+    ],
+    [
+      "Loan structure",
+      "{loan_total} 7(a) loan, 25-year amortization, at {rate}"
+    ],
+    [
+      "Equity",
+      "{equity_pct} as restructured ({equity}); {equity_proposed_pct} as proposed"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2} as restructured; {dscr_y2_proposed} as proposed; floor {floor}"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service until gallons fall to {breakeven_value} ({cushion_pct} below plan)"
+    ],
+    [
+      "Market conclusion",
+      "The interchange is saturated for diesel; a commuter store one turn off the roundabouts has demand behind it but no visibility, and its cost basis is set by new-build prices"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails 1.15x in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+    ]
+  ]
+}

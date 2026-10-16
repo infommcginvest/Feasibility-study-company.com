@@ -1,0 +1,347 @@
+{
+  "slug": "gas-station-alabama-sba",
+  "page": "/case-studies/gas-station-alabama-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "acquisition",
+    "business_age": "existing",
+    "special_purpose": true,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 39,
+    "fees": 40,
+    "prime": 41
+  },
+  "stabilized_year": 3,
+  "units": {
+    "label": "store",
+    "count": 1
+  },
+  "inputs": {
+    "price": {
+      "value": 1300000,
+      "fmt": "$",
+      "label": "Purchase price, land, building, fuel equipment and business",
+      "assumption": "An assumed price for an older small-format store sold with its land, building and fuel equipment: about six times the illustrative FY2025 EBITDA, below the 9.3x median at which listed convenience operators traded in September 2026 [^32], since a single store has none of their scale. No asking price is cited, so that no real store at the exit can be identified; the going-concern appraisal and the business valuation set the value."
+    },
+    "re_alloc": {
+      "value": 910000,
+      "fmt": "$",
+      "label": "Price allocated to real estate (land, building, canopy, tanks)",
+      "assumption": "70% of the price. No published norm for splitting a station's going-concern value among land, building, equipment and goodwill was found; the going-concern appraisal sets the real split, and a lower real estate share raises the business portion that amortizes over 10 years."
+    },
+    "inventory": {
+      "value": 80000,
+      "fmt": "$",
+      "label": "Fuel and merchandise inventory bought at closing",
+      "assumption": "About four weeks of the store's merchandise cost plus tank inventory for a small station; counted at closing and priced at cost."
+    },
+    "working_capital": {
+      "value": 50000,
+      "fmt": "$",
+      "label": "Working capital reserve",
+      "assumption": "Roughly one month of operating expenses, so the first fuel drop and payroll do not run through the line of credit."
+    },
+    "closing": {
+      "value": 45000,
+      "fmt": "$",
+      "label": "Closing costs: appraisal, business valuation, Phase I, legal",
+      "assumption": "A going-concern appraisal, an independent business valuation, a Phase I environmental site assessment with tank testing records, title and legal. The valuation and appraisal costs are buyer cash."
+    },
+    "gallons": {
+      "value": [
+        690000,
+        700000,
+        712000,
+        722000,
+        732000
+      ],
+      "fmt": "n",
+      "label": "Fuel gallons sold",
+      "assumption": "Below the 1.0 million gallons Yesway's older small-format stores averaged in 2025 on 10 dispensers [^28], because this store has fewer fueling positions and shorter hours than the 24-hour stores at the ramps. Year 1 carries the first full year of the QuikTrip that opened at Exit 62 in late 2025 [^11,12]; later years grow about 1.5% a year, near the 0.9% national vehicle-miles growth of 2025 plus local population growth [^35,1]."
+    },
+    "fuel_margin": {
+      "value": 0.4,
+      "fmt": "cpg",
+      "label": "Fuel gross margin per gallon",
+      "source": [
+        30
+      ]
+    },
+    "inside_sales": {
+      "value": [
+        1020000,
+        1045000,
+        1066000,
+        1087000,
+        1109000
+      ],
+      "fmt": "$",
+      "label": "Inside sales (merchandise, beer, tobacco, food)",
+      "assumption": "Below the $1.7 million Yesway reported for its legacy 3,400 square foot stores in 2025 [^28]; the subject's store is older, keeps shorter hours and has no food program. Grows about 2% a year."
+    },
+    "inside_margin": {
+      "value": 0.352,
+      "fmt": "%",
+      "label": "Inside gross margin",
+      "source": [
+        28
+      ]
+    },
+    "labor_hours": {
+      "value": 10950,
+      "fmt": "n",
+      "label": "Paid clerk hours per year",
+      "assumption": "Two clerks on duty for 15 hours a day, every day. The store does not move to 24 hours; at these volumes the extra shift costs more than it earns."
+    },
+    "wage": {
+      "value": 15.04,
+      "fmt": "$2",
+      "label": "Average hourly wage, Year 1",
+      "source": [
+        29
+      ]
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual wage and cost growth",
+      "assumption": "3% a year, below the pace of the 23.3% rise in total store expenses NACS measured from 2021 to 2025 [^30]."
+    },
+    "burden": {
+      "value": 0.12,
+      "fmt": "%",
+      "label": "Payroll taxes and workers' compensation",
+      "assumption": "Employer payroll taxes and workers' compensation on clerk wages; no health plan for hourly staff."
+    },
+    "manager": {
+      "value": 48000,
+      "fmt": "$",
+      "label": "Store manager or owner-operator salary",
+      "assumption": "A market salary for the person who runs the store, charged even when the buyer works it, so EBITDA is not inflated by unpaid owner labor."
+    },
+    "card_fee": {
+      "value": 0.084,
+      "fmt": "cpg",
+      "label": "Card processing cost per gallon",
+      "source": [
+        31
+      ]
+    },
+    "tax_rate": {
+      "value": 0.0108,
+      "fmt": "%2",
+      "label": "Property tax, share of appraised real estate value",
+      "assumption": "A placeholder near the effective rate that full state, county, school and city levies produce on Alabama business property inside a city. No dated rate table or tax bill for the parcel was found, so the actual levy is a lender condition."
+    },
+    "other_opex": {
+      "value": 128000,
+      "fmt": "$",
+      "label": "Utilities, insurance, repairs, tank testing, card fees on inside sales, supplies",
+      "assumption": "Utilities for coolers, canopy lighting and HVAC; property and liability insurance; repairs; tank and line testing; card fees on inside sales; supplies and point-of-sale fees. Grows 3% a year."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        38
+      ]
+    },
+    "seller_ebitda_fy2024": {
+      "value": 222000,
+      "fmt": "$",
+      "label": "Seller EBITDA, FY2024 (illustrative)",
+      "assumption": "Illustrative. The research found no seller statements. Built from the same store economics as Year 1 below at higher volume (about 735,000 gallons and $1.08 million of inside sales) and 2025's fuel margin of over 40 cents [^30]."
+    },
+    "seller_ebitda_fy2025": {
+      "value": 210000,
+      "fmt": "$",
+      "label": "Seller EBITDA, FY2025 (illustrative)",
+      "assumption": "Illustrative. Lower than FY2024 because large-format stores now operate at Exits 62 and 58 [^9,15]. It still predates the first full year of the QuikTrip that opened at Exit 62 in late 2025 [^12]."
+    }
+  },
+  "uses": [
+    {
+      "key": "real_estate",
+      "label": "Real estate: land, building, canopy and tanks (allocated)",
+      "expr": "re_alloc",
+      "class": "real_estate",
+      "basis": "Allocation of the price; appraisal to confirm"
+    },
+    {
+      "key": "business",
+      "label": "Business assets: dispensers, store fixtures and goodwill (allocated)",
+      "expr": "price - re_alloc",
+      "class": "business",
+      "basis": "Price less real estate; valuation to confirm"
+    },
+    {
+      "key": "inventory",
+      "label": "Fuel and merchandise inventory",
+      "expr": "inventory",
+      "class": "working_capital",
+      "basis": "Counted at closing"
+    },
+    {
+      "key": "working_capital",
+      "label": "Working capital reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "About one month of expenses"
+    },
+    {
+      "key": "closing",
+      "label": "Closing costs: appraisal, valuation, Phase I, legal",
+      "expr": "closing",
+      "class": "other",
+      "basis": "Due diligence for a change of ownership [^39]"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "fuel",
+      "label": "Fuel gross margin",
+      "expr": "gallons * fuel_margin",
+      "basis": "Gallons x 40 cents [^30]"
+    },
+    {
+      "key": "inside",
+      "label": "Inside sales",
+      "expr": "inside_sales",
+      "basis": "Below the legacy-store benchmark [^28]"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "inside_cogs",
+      "label": "Inside cost of goods",
+      "expr": "inside_sales * (1 - inside_margin)",
+      "basis": "35.2% margin [^28]"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Clerk payroll with taxes",
+      "expr": "labor_hours * wage * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "Hours x wage [^29]"
+    },
+    {
+      "key": "manager",
+      "label": "Store manager",
+      "expr": "manager * (1 + wage_growth) ** y",
+      "basis": "Market salary"
+    },
+    {
+      "key": "cards",
+      "label": "Card fees on fuel",
+      "expr": "gallons * card_fee",
+      "basis": "8.4 cents a gallon [^31]"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "re_alloc * tax_rate",
+      "basis": "Placeholder rate; tax bill is a condition"
+    },
+    {
+      "key": "other",
+      "label": "Utilities, insurance, repairs and other",
+      "expr": "other_opex * (1 + wage_growth) ** y",
+      "basis": "Small-store run rate"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the buyer proposes the 10% minimum injection for an initial acquisition"
+  },
+  "historical": {
+    "ebitda": [
+      {
+        "label": "FY2024",
+        "value": 222000
+      },
+      {
+        "label": "FY2025",
+        "value": 210000
+      }
+    ],
+    "use": "last"
+  },
+  "breakeven": {
+    "input": "gallons",
+    "label": "fuel gallons"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "gallons",
+      "label": "Fuel gallons",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "fuel_margin",
+      "label": "Fuel margin",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Opelika, Lee County, Alabama, at I-85 Exit 64 on West Point Parkway (US-29) [^7]"
+    ],
+    [
+      "Subject",
+      "Hypothetical purchase of an operating branded fuel and convenience store in the Exit 64 trade area on the US-29 corridor; no real store is represented"
+    ],
+    [
+      "Program",
+      "SBA 7(a), initial acquisition (change of ownership) under Appendix 15 [^39]"
+    ],
+    [
+      "Total project cost",
+      "{tpc}"
+    ],
+    [
+      "Loan structure",
+      "{loan_total} 7(a) loan split into a 25-year real estate portion and a 10-year business portion, at {rate}"
+    ],
+    [
+      "Equity",
+      "{equity_pct} as restructured ({equity}); {equity_proposed_pct} as proposed"
+    ],
+    [
+      "Coverage on the seller's last year (illustrative)",
+      "{hist_dscr} as restructured; {hist_dscr_proposed} as proposed; floor {floor}"
+    ],
+    [
+      "Projected coverage, Year 3",
+      "{dscr_y3} on the restructured loan (reviewed, not counted toward the floor)"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service until gallons fall to {breakeven_value} ({cushion_pct} cushion); 1.25x needs {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "The exit supports an operating store, but its trailing earnings predate a new QuikTrip one exit south [^7,12]; size the loan to history and verify 2026 results"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the 1.25x historical test. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+    ]
+  ]
+}

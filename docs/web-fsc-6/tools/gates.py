@@ -349,7 +349,8 @@ def g8():
             probs.append(f"{c}: parcel or listing identifier wording in subject text: ...{text[max(0, m.start() - 40):m.end() + 40]}...")
         raw = read(p).lower()
         for pat in patterns:
-            if pat.lower() in raw:
+            # whole-token match, so "1100 FM 148" (a competitor) does not trip "100 FM 148" (the subject's parcel)
+            if re.search(r"(?<![0-9a-z])" + re.escape(pat.lower()) + r"(?![0-9a-z])", raw):
                 probs.append(f"{c}: subject identifier present (text or link): {pat}")
     gate(8, "subjects: no street number, parcel id, owner or business name for any case subject", "GREEN" if not probs else "RED",
          f"do-not-use strings checked: {len(patterns)}\n" + "\n".join("  " + x for x in probs[:40]))

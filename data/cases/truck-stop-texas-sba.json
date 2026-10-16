@@ -1,0 +1,450 @@
+{
+  "slug": "truck-stop-texas-sba",
+  "page": "/case-studies/truck-stop-texas-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 56,
+    "fees": 57,
+    "prime": 58
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "travel center",
+    "count": 1
+  },
+  "inputs": {
+    "land_per_acre": {
+      "value": 310000,
+      "fmt": "$",
+      "label": "Land price per acre",
+      "assumption": "The 2026 asking-price level per acre for Highway Corridor land at the I-20 and FM 148 interchange, deliberately not cited so that no real parcel is identified. It sits far above the Exit 509 tract that sold in March 2026 after listing at $1,300,000 for 16.63 acres [^23]; an appraisal and a contract set the value."
+    },
+    "acres_used": {
+      "value": 12,
+      "fmt": "n1",
+      "label": "Acres the sponsor buys",
+      "assumption": "About 12 acres in the Highway Corridor district at the interchange. A comparable chain build, Love's in Rock Falls, Illinois, used about 14 acres of a 30-acre site for more truck parking than this program [^40]."
+    },
+    "site_work": {
+      "value": 3400000,
+      "fmt": "$",
+      "label": "Site work: grading, heavy-duty truck court, stormwater, lighting",
+      "assumption": "Concrete and asphalt for about 80 truck spaces, fuel islands and car parking on about 12 acres, with detention. No published per-space or per-acre travel-center cost was found."
+    },
+    "building_sf": {
+      "value": 9000,
+      "fmt": "n",
+      "label": "Building, square feet (store, food court, showers, laundry, lounge)",
+      "assumption": "A store, food court, showers, laundry and driver lounge, smaller than the 11,365 square foot North Chicago travel center approved in February 2026 [^41]."
+    },
+    "building_psf": {
+      "value": 360,
+      "fmt": "$",
+      "label": "Building cost per square foot",
+      "assumption": "A travel-center shell with kitchen, showers and laundry, in a year when nonresidential construction inputs rose 8.9% [^45]."
+    },
+    "fuel_system": {
+      "value": 2500000,
+      "fmt": "$",
+      "label": "Fuel system: five diesel lanes, six gasoline dispensers, tanks, canopies, DEF",
+      "assumption": "Two canopies, four underground tanks, high-flow diesel dispensers with satellites and bulk DEF, and a six-dispenser car island."
+    },
+    "ffe": {
+      "value": 1100000,
+      "fmt": "$",
+      "label": "Equipment: truck scale, kitchen, coolers, shower fixtures, point of sale",
+      "assumption": "A certified truck scale, food-court kitchen, walk-in coolers, shower and laundry fixtures and point-of-sale systems."
+    },
+    "soft": {
+      "value": 950000,
+      "fmt": "$",
+      "label": "Design, traffic study, Specific Use Permit, Phase I, legal, appraisal",
+      "assumption": "Engineering and architecture, a traffic study for the Specific Use Permit hearing [^1], a Phase I environmental site assessment, legal, appraisal and the feasibility study."
+    },
+    "contingency_pct": {
+      "value": 0.08,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "8% of site, building and fuel system costs; the diesel that drives site-work bids rose 77.8% in producer prices in a year [^53]."
+    },
+    "construction_interest": {
+      "value": 500000,
+      "fmt": "$",
+      "label": "Interest during construction",
+      "assumption": "Interest on the interim loan over a build of about a year after the permit."
+    },
+    "working_capital": {
+      "value": 500000,
+      "fmt": "$",
+      "label": "Opening fuel and store inventory, pre-opening payroll",
+      "assumption": "Tank fills for five diesel lanes and the car island, opening merchandise and food, and hiring and training."
+    },
+    "diesel_gal": {
+      "value": [
+        2600000,
+        3400000,
+        3900000,
+        4000000,
+        4100000
+      ],
+      "fmt": "n",
+      "label": "Diesel gallons sold",
+      "assumption": "Year 1 matches the 2.6 million diesel gallons an independent truck stop reported in a September 2025 sale listing [^54]. Rises to about 2,100 gallons per lane per day across five lanes by Year 3 as the Airport Road and US 80 logistics projects open [^27,30]. No truck share of I-20 traffic was found."
+    },
+    "diesel_margin": {
+      "value": 0.38,
+      "fmt": "cpg",
+      "label": "Diesel gross margin per gallon",
+      "assumption": "Between the 35 to 40 cent five-year average fuel markup NACS reports [^46] and the 2025 average of over 40 cents [^62]; fleet-card discounts keep a truck stop's realized diesel margin below its posted spread."
+    },
+    "gas_gal": {
+      "value": [
+        800000,
+        900000,
+        950000,
+        970000,
+        990000
+      ],
+      "fmt": "n",
+      "label": "Gasoline gallons sold",
+      "assumption": "Modest, because Buc-ee's at the same exit takes the car traffic [^10,11]; Year 1 matches the 0.8 million gasoline gallons in the same September 2025 listing [^54]."
+    },
+    "gas_margin": {
+      "value": 0.357,
+      "fmt": "cpg",
+      "label": "Gasoline gross margin per gallon",
+      "source": [
+        46
+      ]
+    },
+    "inside_sales": {
+      "value": [
+        2600000,
+        3100000,
+        3400000,
+        3500000,
+        3600000
+      ],
+      "fmt": "$",
+      "label": "Inside sales: store, food court, beverages",
+      "assumption": "Year 1 near the $2.5 million of inside sales in the September 2025 listing [^54], rising with diesel customers and the food court."
+    },
+    "inside_margin": {
+      "value": 0.41,
+      "fmt": "%",
+      "label": "Inside gross margin, blended",
+      "assumption": "Yesway's 35.2% merchandise margin [^48] on most of the store and the 56.41% average prepared-food margin NACS reported for 2024 [^49] on the food share."
+    },
+    "services": {
+      "value": [
+        150000,
+        220000,
+        260000,
+        268000,
+        276000
+      ],
+      "fmt": "$",
+      "label": "Reserved parking, showers, scale and laundry",
+      "assumption": "Paid reserved spaces, shower and laundry fees and scale weighs. TA Terrell already sells reserved parking [^8]; no local price for any of these services was found."
+    },
+    "staff_hours": {
+      "value": 54080,
+      "fmt": "n",
+      "label": "Paid hourly staff hours per year",
+      "assumption": "About 26 full-time equivalents across store, food court, fuel desk and housekeeping, open 24 hours."
+    },
+    "wage": {
+      "value": 15.04,
+      "fmt": "$2",
+      "label": "Average hourly wage, Year 1",
+      "source": [
+        47
+      ]
+    },
+    "burden": {
+      "value": 0.12,
+      "fmt": "%",
+      "label": "Payroll taxes and workers' compensation",
+      "assumption": "Employer taxes and workers' compensation on hourly wages."
+    },
+    "cost_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual wage and cost growth",
+      "assumption": "3% a year, below the 5.0% rise in construction-trade hourly earnings AGC reported for the year to August 2026 [^45]."
+    },
+    "management": {
+      "value": 140000,
+      "fmt": "$",
+      "label": "General manager and assistant manager",
+      "assumption": "Two salaried managers for a 24-hour site; charged whether or not the owner works there."
+    },
+    "card_fee": {
+      "value": 0.084,
+      "fmt": "cpg",
+      "label": "Card and fleet-card processing cost per gallon",
+      "source": [
+        46
+      ]
+    },
+    "taxable_value": {
+      "value": 11000000,
+      "fmt": "$",
+      "label": "Appraised value for property tax",
+      "assumption": "Below cost, because special-purpose improvements rarely appraise at cost. For scale, Kaufman CAD carried Buc-ee's, a much larger store at the same exit, at $15,909,580 in 2020 [^13]."
+    },
+    "tax_rate": {
+      "value": 0.02423473,
+      "fmt": "%2",
+      "label": "Combined in-city property tax rate, 2025",
+      "source": [
+        33
+      ]
+    },
+    "other_opex": {
+      "value": 540000,
+      "fmt": "$",
+      "label": "Insurance, utilities, repairs, scale certification, environmental, supplies",
+      "assumption": "Property and liability insurance on a 24-hour fuel site, power for the store and lot lighting, hot water for showers, repairs, tank testing and supplies."
+    },
+    "tpl_rate": {
+      "value": 0.0825,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime from the H.15 release [^58] plus 1.25 points for a special-purpose start-up; no published 2026 lender terms for travel centers were found, the 10-year Treasury sat near 5% in September 2026 [^60], and the bank sets the rate at pricing"
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank loan amortization",
+      "assumption": "25 years, matching the debenture; the bank may require a shorter term."
+    },
+    "debenture_rate": {
+      "value": 0.0695,
+      "fmt": "%2",
+      "label": "504 debenture rate, all-in",
+      "source": [
+        55
+      ]
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Debenture term",
+      "assumption": "The 25-year debenture available when real estate is the larger share of the project [^56]."
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 12 acres at the interchange",
+      "expr": "acres_used * land_per_acre",
+      "class": "real_estate",
+      "basis": "Assumption; appraisal to confirm"
+    },
+    {
+      "key": "site",
+      "label": "Site work and truck court",
+      "expr": "site_work",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "building",
+      "label": "Building, 9,000 square feet",
+      "expr": "building_sf * building_psf",
+      "class": "real_estate",
+      "basis": "Square feet x cost [^41,45]"
+    },
+    {
+      "key": "fuel",
+      "label": "Fuel system, tanks and canopies",
+      "expr": "fuel_system",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "contingency_pct * (site_work + building_sf * building_psf + fuel_system)",
+      "class": "real_estate",
+      "basis": "8% of hard costs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, Specific Use Permit, Phase I",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "interest",
+      "label": "Interest during construction",
+      "expr": "construction_interest",
+      "class": "real_estate",
+      "basis": "Assumption"
+    },
+    {
+      "key": "ffe",
+      "label": "Scale, kitchen and store equipment",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "Assumption"
+    },
+    {
+      "key": "wc",
+      "label": "Inventory and pre-opening costs",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "Assumption"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "diesel",
+      "label": "Diesel gross margin",
+      "expr": "diesel_gal * diesel_margin",
+      "basis": "Gallons x 38 cents [^46,62]"
+    },
+    {
+      "key": "gas",
+      "label": "Gasoline gross margin",
+      "expr": "gas_gal * gas_margin",
+      "basis": "Gallons x 35.7 cents [^46]"
+    },
+    {
+      "key": "inside",
+      "label": "Inside sales",
+      "expr": "inside_sales",
+      "basis": "Listing benchmark [^54]"
+    },
+    {
+      "key": "services",
+      "label": "Parking, showers, scale, laundry",
+      "expr": "services",
+      "basis": "Assumption"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "inside_cogs",
+      "label": "Inside cost of goods",
+      "expr": "inside_sales * (1 - inside_margin)",
+      "basis": "41% blended margin [^48,49]"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Hourly payroll with taxes",
+      "expr": "staff_hours * wage * (1 + burden) * (1 + cost_growth) ** y",
+      "basis": "Hours x wage [^47]"
+    },
+    {
+      "key": "management",
+      "label": "Managers",
+      "expr": "management * (1 + cost_growth) ** y",
+      "basis": "Assumption"
+    },
+    {
+      "key": "cards",
+      "label": "Card and fleet-card fees",
+      "expr": "(diesel_gal + gas_gal) * card_fee",
+      "basis": "8.4 cents a gallon [^46]"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "taxable_value * tax_rate",
+      "basis": "2025 in-city rate [^33]"
+    },
+    {
+      "key": "other",
+      "label": "Insurance, utilities, repairs and other",
+      "expr": "other_opex * (1 + cost_growth) ** y",
+      "basis": "Assumption"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.15,
+    "note": "the sponsor proposes 15% equity, the tier for a new business alone"
+  },
+  "breakeven": {
+    "input": "diesel_gal",
+    "label": "diesel gallons"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "diesel_gal",
+      "label": "Diesel gallons",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "diesel_margin",
+      "label": "Diesel margin",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Terrell, Kaufman County, Texas, at I-20 Exit 498 (FM 148), on the east edge of the Dallas-Fort Worth region [^9]"
+    ],
+    [
+      "Subject",
+      "Hypothetical independent truck stop and travel center on about 12 acres in the Highway Corridor district at the interchange [^1]: five diesel lanes, a car island, a 9,000 square foot store and food court, about 80 truck spaces; no real parcel is represented"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien plus a CDC debenture; new business on special purpose property [^56]"
+    ],
+    [
+      "Total project cost",
+      "{tpc}"
+    ],
+    [
+      "Loan structure",
+      "{tpl} bank first lien and {debenture} debenture (the debenture at its {cap} limit)"
+    ],
+    [
+      "Equity",
+      "{equity_pct} as restructured ({equity}); {equity_proposed_pct} as proposed"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2} as restructured; {dscr_y2_proposed} as proposed; floor {floor}"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service until diesel falls to {breakeven_value} gallons ({cushion_pct} below plan)"
+    ],
+    [
+      "Market conclusion",
+      "Freight and logistics growth support a mid-size diesel stop at Exit 498; the interchange's land price and 2026 build costs do not support 504 leverage"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the equity tier, the debenture limit and 1.15x. As restructured ({equity_pct} equity): meets all three"
+    ]
+  ]
+}
