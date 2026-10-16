@@ -1,0 +1,540 @@
+{
+  "slug": "gas-station-florida-sba",
+  "page": "/case-studies/gas-station-florida-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 40,
+    "fees": 41,
+    "prime": 42
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "store",
+    "count": 1
+  },
+  "inputs": {
+    "land": {
+      "value": 700000,
+      "fmt": "$",
+      "label": "Land, about 2 acres of US 27 frontage south of SR 60",
+      "assumption": "No vacant commercial land price on US 27 turned up in the research, and the acreage and price records for the one listed fuel property on the corridor conflict with each other; the study carries $350,000 an acre as a placeholder and makes an appraisal the first lender condition."
+    },
+    "store_sf": {
+      "value": 3400,
+      "fmt": "n",
+      "label": "Store size, square feet",
+      "assumption": "Yesway's legacy store average of 3,400 sq ft [^31]; it also falls in Polk County's 2,000 to 3,499 sq ft commercial tier for the non-ad valorem charge [^22]."
+    },
+    "building_psf": {
+      "value": 270,
+      "fmt": "$",
+      "label": "Building and canopy cost, dollars per store square foot",
+      "assumption": "Upper half of a 2026 contractor guide's $150 to $350 per square foot for store plus canopy [^34]; wind-load design and the 16.9% year-over-year rise in steel mill product prices to June 2026 [^36] push a Florida canopy above the midpoint."
+    },
+    "tanks": {
+      "value": 3,
+      "fmt": "n",
+      "label": "Underground storage tanks",
+      "assumption": "Regular, premium and diesel."
+    },
+    "tank_cost": {
+      "value": 220000,
+      "fmt": "$",
+      "label": "Installed cost per tank, complete",
+      "assumption": "Set at the middle of the $60,000 to $380,000 a fuel-system vendor quotes for a finished tank installation (guide updated August 18, 2026) [^35]; a high water table can push excavation and anchoring toward the top of that band."
+    },
+    "dispensers": {
+      "value": 6,
+      "fmt": "n",
+      "label": "Dispensers, two with auto-lane diesel",
+      "assumption": "Twelve fueling positions; diesel on two islands for pickups, farm and contractor trucks, not tractor-trailers."
+    },
+    "dispenser_cost": {
+      "value": 50000,
+      "fmt": "$",
+      "label": "Cost per dispenser",
+      "assumption": "Middle of the vendor's $25,000 to $75,000 table range per dispenser [^35]."
+    },
+    "sitework": {
+      "value": 420000,
+      "fmt": "$",
+      "label": "Site work, stormwater, wastewater, paving and signage",
+      "assumption": "Allowance; it includes an onsite wastewater system because central sewer along this stretch of US 27 is not confirmed (the corridor's one listed fuel property shows septic) and Florida stormwater retention."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "A 5% cushion on the store, tanks and site work, sized for a priced but unbid Polk County job."
+    },
+    "soft": {
+      "value": 230000,
+      "fmt": "$",
+      "label": "Design, permits, Phase I, survey and legal",
+      "assumption": "Allowance covering design, permits, survey, legal work and the Phase I report every fuel-site loan file needs whatever its size [^38]. Polk County impact and connection fees were not found."
+    },
+    "ffe": {
+      "value": 300000,
+      "fmt": "$",
+      "label": "Store fixtures, coolers, roller grill and point of sale",
+      "assumption": "Allowance for a store without a full kitchen."
+    },
+    "fuel_inventory": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Opening gasoline and diesel inventory",
+      "assumption": "Holiday's 2025 franchise disclosure sets opening fuel stock at $100,000 to $300,000, a contractor reports [^37]; two fuels and three tanks put this store above the bottom of that band."
+    },
+    "merch_inventory": {
+      "value": 110000,
+      "fmt": "$",
+      "label": "Opening merchandise inventory",
+      "assumption": "Allowance for shelf stock in a store without a kitchen."
+    },
+    "working_capital": {
+      "value": 140000,
+      "fmt": "$",
+      "label": "Pre-opening payroll, training and working capital",
+      "assumption": "About two months of modelled fixed costs."
+    },
+    "gas_day": {
+      "value": [
+        2600,
+        3100,
+        3300,
+        3350,
+        3400
+      ],
+      "fmt": "n",
+      "label": "Gasoline gallons sold per day",
+      "assumption": "Stabilizes about 18% under the roughly 4,000 gallons a day NACS gives for the typical store [^28]. US 27 is the town's main highway and FDOT projects 42,800 to 52,800 vehicles a day on it by 2040 [^3], but its page gives no year for today's counts, and a Murphy USA, two RaceTracs and a Love's already sell to the corridor."
+    },
+    "diesel_day": {
+      "value": [
+        350,
+        450,
+        500,
+        510,
+        520
+      ],
+      "fmt": "n",
+      "label": "Diesel gallons sold per day",
+      "assumption": "Small auto-lane volume from farm, grove and contractor pickups; tractor-trailers fuel at the Love's down the road, which lists 83 truck parking spaces and 7 DEF lanes [^15]."
+    },
+    "gas_price": {
+      "value": 3.91,
+      "fmt": "$2",
+      "label": "Retail gasoline price per gallon (2026 U.S. forecast)",
+      "source": [
+        27
+      ]
+    },
+    "diesel_price": {
+      "value": 5.19,
+      "fmt": "$2",
+      "label": "Retail diesel price per gallon (2026 U.S. forecast)",
+      "source": [
+        27
+      ]
+    },
+    "gas_margin": {
+      "value": 0.3,
+      "fmt": "cpg",
+      "label": "Gasoline gross margin per gallon",
+      "assumption": "Close to Murphy USA's 28.1-cent retail fuel margin for 2025 [^32], the price-leader benchmark, and below the 39.7-cent national average for 2024 [^28]; an unbranded store next to a Murphy USA and two RaceTracs prices to them."
+    },
+    "diesel_margin": {
+      "value": 0.431,
+      "fmt": "cpg",
+      "label": "Diesel gross margin per gallon",
+      "source": [
+        31
+      ]
+    },
+    "inside_sales": {
+      "value": [
+        1200000,
+        1450000,
+        1600000,
+        1640000,
+        1680000
+      ],
+      "fmt": "$",
+      "label": "Inside sales",
+      "assumption": "Under the $1.7 million an older Yesway store sold inside in 2025 [^31]: Lake Wales households earn a median $56,347 against $74,568 statewide, and 22.4% of residents live below the poverty line against 12.6% for Florida [^1,2]."
+    },
+    "inside_margin": {
+      "value": 0.33,
+      "fmt": "%",
+      "label": "Inside gross margin",
+      "assumption": "Under the 35.2% Yesway earned on inside sales in 2025 [^31]; without a made-to-order kitchen the mix leans to lower-margin packaged goods."
+    },
+    "staff_shift": {
+      "value": 2.0,
+      "fmt": "n1",
+      "label": "Staff on the floor per hour",
+      "assumption": "Two on the floor around the clock, leaner than the 2.6 per shift Yesway reports across its chain [^31], which a store without a kitchen can manage."
+    },
+    "hours": {
+      "value": 24,
+      "fmt": "n",
+      "label": "Hours open per day",
+      "assumption": "Around the clock for highway and early-shift farm and grove trade; competitor hours were not found."
+    },
+    "wage": {
+      "value": 15.04,
+      "fmt": "$2",
+      "label": "Average hourly wage",
+      "source": [
+        29
+      ]
+    },
+    "burden": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Payroll taxes and benefits",
+      "assumption": "Covers Florida employer payroll taxes, workers' compensation and modest benefits; the research has no Polk County figure."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Yearly escalation of payroll and fixed costs",
+      "assumption": "Close to the 3.4% rise in consumer prices to August 2026 [^33]."
+    },
+    "card_cpg": {
+      "value": 0.084,
+      "fmt": "cpg",
+      "label": "Processing cost per fuel gallon",
+      "source": [
+        30
+      ]
+    },
+    "ind_card_fees": {
+      "value": 21300000000,
+      "fmt": "$",
+      "label": "Industry card fees, 2025",
+      "source": [
+        29
+      ]
+    },
+    "ind_sales": {
+      "value": 817500000000,
+      "fmt": "$",
+      "label": "Industry total sales, 2025",
+      "source": [
+        29
+      ]
+    },
+    "utilities": {
+      "value": 64000,
+      "fmt": "$",
+      "label": "Electricity, water and propane, Year 1",
+      "assumption": "Allowance for round-the-clock cooling and lighting in central Florida heat; the parcel's electric provider was not confirmed."
+    },
+    "repairs": {
+      "value": 55000,
+      "fmt": "$",
+      "label": "Repairs, supplies and tank compliance, Year 1",
+      "assumption": "Allowance including the tank and line tests a fuel-site lender expects to see documented [^38]."
+    },
+    "insurance": {
+      "value": 48000,
+      "fmt": "$",
+      "label": "Insurance including windstorm, Year 1",
+      "assumption": "Higher than an inland Texas or Ohio store because Lake Wales took hurricane damage in 2004 and from Irma in 2017 [^12]; no quote was found, so a binding quote is a lender condition."
+    },
+    "admin": {
+      "value": 32000,
+      "fmt": "$",
+      "label": "Accounting, licenses and permits, Year 1",
+      "assumption": "Allowance; the research does not list Florida's agriculture department fuel registration, tank registration, alcohol or tobacco license fees."
+    },
+    "tax_mills": {
+      "value": 0.0201541,
+      "fmt": "%2",
+      "label": "Combined millage inside Lake Wales, 2025, as a rate",
+      "source": [
+        22
+      ]
+    },
+    "nav_charge": {
+      "value": 1343,
+      "fmt": "$",
+      "label": "Polk non-ad valorem charge, commercial 2,000 to 3,499 sq ft",
+      "source": [
+        22
+      ]
+    },
+    "reserve_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Annual equipment reserve, percent of dispensers and fixtures",
+      "assumption": "Sets aside enough each year to replace dispensers and fixtures over roughly two decades."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        39
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 2 acres on US 27",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "building",
+      "label": "Store and canopy, 3,400 sq ft",
+      "expr": "store_sf * building_psf",
+      "class": "real_estate",
+      "basis": "sq ft x cost [^34,36]"
+    },
+    {
+      "key": "tanks",
+      "label": "Underground tanks and piping",
+      "expr": "tanks * tank_cost",
+      "class": "real_estate",
+      "basis": "3 tanks [^35]"
+    },
+    {
+      "key": "sitework",
+      "label": "Site, stormwater and wastewater work",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Contingency on hard costs",
+      "expr": "(store_sf * building_psf + tanks * tank_cost + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "5% of store, tanks and site"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, Phase I and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance [^38]"
+    },
+    {
+      "key": "dispensers",
+      "label": "Dispensers",
+      "expr": "dispensers * dispenser_cost",
+      "class": "equipment",
+      "basis": "6 dispensers [^35]"
+    },
+    {
+      "key": "ffe",
+      "label": "Fixtures, coolers and point of sale",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "inventory",
+      "label": "Initial gasoline, diesel and shelf stock",
+      "expr": "fuel_inventory + merch_inventory",
+      "class": "working_capital",
+      "basis": "[^37]"
+    },
+    {
+      "key": "working_capital",
+      "label": "Start-up costs and operating cash",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "allowance"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "gasoline",
+      "label": "Gasoline sales",
+      "expr": "gas_day * 365 * gas_price",
+      "basis": "gallons x price [^27]"
+    },
+    {
+      "key": "diesel",
+      "label": "Diesel sales",
+      "expr": "diesel_day * 365 * diesel_price",
+      "basis": "gallons x price [^27]"
+    },
+    {
+      "key": "inside",
+      "label": "Inside sales",
+      "expr": "inside_sales",
+      "basis": "assumption [^31]"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "gasoline",
+      "label": "Gasoline cost, including fuel taxes",
+      "expr": "gas_day * 365 * (gas_price - gas_margin)",
+      "basis": "price less margin [^32]"
+    },
+    {
+      "key": "diesel",
+      "label": "Diesel cost, including fuel taxes",
+      "expr": "diesel_day * 365 * (diesel_price - diesel_margin)",
+      "basis": "price less margin [^31]"
+    },
+    {
+      "key": "inside",
+      "label": "Cost of inside goods",
+      "expr": "inside_sales * (1 - inside_margin)",
+      "basis": "sales x (1 - margin)"
+    }
+  ],
+  "opex": [
+    {
+      "key": "labor",
+      "label": "Wages and payroll costs",
+      "expr": "staff_shift * hours * 365 * wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "staffing x hours x wage [^29]"
+    },
+    {
+      "key": "card_fuel",
+      "label": "Card fees on fuel",
+      "expr": "(gas_day + diesel_day) * 365 * card_cpg",
+      "basis": "cents a gallon [^30]"
+    },
+    {
+      "key": "card_inside",
+      "label": "Card fees on inside sales",
+      "expr": "inside_sales * ind_card_fees / ind_sales",
+      "basis": "fees to sales ratio [^29]"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities",
+      "expr": "utilities * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "repairs",
+      "label": "Maintenance, supplies and tank testing",
+      "expr": "repairs * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance, including wind",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance [^12]"
+    },
+    {
+      "key": "admin",
+      "label": "Bookkeeping, licenses and permits",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land + store_sf * building_psf + tanks * tank_cost + sitework + dispensers * dispenser_cost + ffe) * tax_mills",
+      "basis": "cost basis x city millage [^22]"
+    },
+    {
+      "key": "nav",
+      "label": "Non-ad valorem charge",
+      "expr": "nav_charge",
+      "basis": "[^22]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(dispensers * dispenser_cost + ffe) * reserve_pct",
+      "basis": "5% of dispensers and fixtures"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor requests the program's minimum start-up injection"
+  },
+  "breakeven": {
+    "input": "gas_margin",
+    "label": "gasoline margin per gallon"
+  },
+  "sensitivity": {
+    "year": 2,
+    "rows": {
+      "input": "gas_day",
+      "label": "Gasoline gallons a day",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "gas_margin",
+      "label": "Gasoline margin",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Lake Wales, Polk County, Florida, on US 27 south of the US 27 and SR 60 interchange that FDOT rebuilt as a single-point interchange [^5]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New {in_store_sf} sq ft unbranded convenience store with {in_dispensers} dispensers selling gasoline and auto-lane diesel on about 2 acres of highway frontage; city or county jurisdiction to be confirmed"
+    ],
+    [
+      "Program",
+      "SBA 7(a) for a new business; SBA lists gas stations among special purpose properties [^40]"
+    ],
+    [
+      "Total project cost",
+      "{tpc} after restructuring ({tpc_proposed} under the request)"
+    ],
+    [
+      "Loan structure",
+      "Single 7(a) term loan over 25 years, priced at Prime plus the largest spread SBA permits"
+    ],
+    [
+      "Equity",
+      "Requested {equity_proposed_pct}; the restructured store needs {equity_pct}, or {equity}"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "Year 2 coverage {dscr_y2_proposed} on the request and {dscr_y2} on the smaller loan"
+    ],
+    [
+      "Break-even",
+      "Year 3 debt service is still met at a gasoline margin of {breakeven_value} a gallon"
+    ],
+    [
+      "Market conclusion",
+      "Traffic is ample; share is not. Five national chains already price and feed the corridor"
+    ],
+    [
+      "Determination",
+      "The request {verdict_proposed} the {floor} coverage floor; the corridor carries only {loan_total} of debt against a {tpc} project, a market decline for this format"
+    ]
+  ]
+}

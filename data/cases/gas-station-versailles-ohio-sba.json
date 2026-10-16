@@ -1,0 +1,491 @@
+{
+  "slug": "gas-station-versailles-ohio-sba",
+  "page": "/case-studies/gas-station-versailles-ohio-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 50,
+    "fees": 51,
+    "prime": 52
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "store",
+    "count": 1
+  },
+  "inputs": {
+    "land": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Land, about 2 acres of B-2 land on SR 121",
+      "assumption": "About 2 acres at the $60,000 an acre implied by the village's one B-2 commercial listing, 4.99 acres offered at $299,100 [^18,19]; that ask has been on the market since 2016 [^20], so it reads as a ceiling, not a clearing price."
+    },
+    "store_sf": {
+      "value": 3000,
+      "fmt": "n",
+      "label": "Store size, square feet",
+      "assumption": "Matches the 3,000 sq ft example in a contractor's 2026 cost guide [^42] and stays under the average size of Yesway's older stores [^40]; a village of 2,715 people does not need more."
+    },
+    "building_psf": {
+      "value": 260,
+      "fmt": "$",
+      "label": "Building with canopy, cost per store square foot",
+      "assumption": "Slightly above the middle of the per-square-foot band a 2026 contractor guide gives for a store with its canopy [^42]; building inputs cost 7.1% more in June 2026 than a year before [^44]."
+    },
+    "tanks": {
+      "value": 3,
+      "fmt": "n",
+      "label": "Underground storage tanks",
+      "assumption": "Regular, premium and diesel; Casey's on Main Street also sells E85 and an 88-octane blend from its tanks [^24]."
+    },
+    "tank_cost": {
+      "value": 220000,
+      "fmt": "$",
+      "label": "Installed cost per tank, complete",
+      "assumption": "Middle of the vendor's band for a finished installation, which its August 2026 update puts between $60,000 and $380,000 a tank [^43]; tanks must also meet the federal UST rules the village code cites [^15]."
+    },
+    "dispensers": {
+      "value": 4,
+      "fmt": "n",
+      "label": "Dispensers (8 fueling positions)",
+      "assumption": "The contractor example's 4 dispensers [^42]; the village code requires at least two driveways 20 ft apart, which a 2-acre lot meets [^15]."
+    },
+    "dispenser_cost": {
+      "value": 50000,
+      "fmt": "$",
+      "label": "Cost per dispenser",
+      "assumption": "Mid-range of what the same vendor's table shows per dispenser [^43]."
+    },
+    "sitework": {
+      "value": 330000,
+      "fmt": "$",
+      "label": "Site work, paving, screening, canopy lighting and signage",
+      "assumption": "Allowance; the code's filling station section sets recessed canopy lights, a 6-ft screen next to residential districts and one pole sign [^15]. Village tap and connection fees were not found."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Construction contingency",
+      "assumption": "A 5% reserve on store, tanks and site work for a job not yet bid."
+    },
+    "soft": {
+      "value": 190000,
+      "fmt": "$",
+      "label": "Design, conditional use permit, development plan, Phase I and legal",
+      "assumption": "Allowance for design, the conditional use and development plan filings the village requires for a filling station [^15], and the Phase I report a fuel-site lender expects in every file [^46]."
+    },
+    "ffe": {
+      "value": 280000,
+      "fmt": "$",
+      "label": "Fixtures, coolers, pizza and breakfast kitchen, point of sale",
+      "assumption": "Allowance for a store that competes with Casey's made-to-order pizza [^22]."
+    },
+    "fuel_inventory": {
+      "value": 100000,
+      "fmt": "$",
+      "label": "Opening fuel inventory",
+      "assumption": "The bottom of the opening fuel band in Holiday's 2025 franchise disclosure, which a contractor reports as $100,000 to $300,000 [^45]; four dispensers hold and turn less fuel."
+    },
+    "merch_inventory": {
+      "value": 90000,
+      "fmt": "$",
+      "label": "Opening merchandise and food inventory",
+      "assumption": "Allowance sized to a 3,000 sq ft store with a pizza line."
+    },
+    "working_capital": {
+      "value": 110000,
+      "fmt": "$",
+      "label": "Opening payroll, training and cash cushion",
+      "assumption": "About two months of modelled payroll and fixed costs."
+    },
+    "gallons_day": {
+      "value": [
+        1700,
+        2100,
+        2300,
+        2330,
+        2360
+      ],
+      "fmt": "n",
+      "label": "Fuel gallons sold per day",
+      "assumption": "Reaches a little over half of the roughly 4,000 gallons NACS gives as a typical store's daily volume [^36]: three stations already serve a village of 2,715 [^1] and its township, and no traffic count for SR 121 or SR 47 was found."
+    },
+    "fuel_margin": {
+      "value": 0.38,
+      "fmt": "cpg",
+      "label": "Fuel gross margin per gallon",
+      "assumption": "Close to the 39.7-cent national gasoline margin for 2024 [^36] and well under the 47.8 cents Casey's earned in its quarter to July 31, 2026, a quarter inflated by that year's supply disruption [^41]. Ohio's fuel tax holiday changes the pump price, not this margin, because the state requires retailers to pass the whole tax saving to customers [^29]."
+    },
+    "inside_sales": {
+      "value": [
+        950000,
+        1200000,
+        1350000,
+        1380000,
+        1410000
+      ],
+      "fmt": "$",
+      "label": "Inside sales, merchandise and food",
+      "assumption": "Short of the $1.7 million inside total of an older Yesway store, a format built for towns like this one [^40]; Midmark, which says its headquarters and largest plant are in Versailles [^7], supplies the breakfast and lunch trade."
+    },
+    "food_share": {
+      "value": 0.285,
+      "fmt": "%",
+      "label": "Foodservice share of inside sales",
+      "source": [
+        37
+      ]
+    },
+    "food_margin": {
+      "value": 0.55,
+      "fmt": "%",
+      "label": "Foodservice gross margin",
+      "assumption": "A few points under the 58.3% Casey's made on prepared food through the third quarter of fiscal 2026 [^39]."
+    },
+    "merch_margin": {
+      "value": 0.3,
+      "fmt": "%",
+      "label": "Merchandise gross margin",
+      "assumption": "Packaged goods alone, so under the 35.2% Yesway reported for its whole inside store in 2025 [^40]."
+    },
+    "staff_shift": {
+      "value": 2.2,
+      "fmt": "n1",
+      "label": "Staff on the floor per hour",
+      "assumption": "Under Yesway's 2.6 per shift [^40]; a pizza oven needs a second person through the day."
+    },
+    "hours": {
+      "value": 17,
+      "fmt": "n",
+      "label": "Hours open per day",
+      "assumption": "5 a.m. to 10 p.m., the hours Casey's keeps on Main Street [^22]."
+    },
+    "wage": {
+      "value": 15.04,
+      "fmt": "$2",
+      "label": "Average hourly wage",
+      "source": [
+        37
+      ]
+    },
+    "burden": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Payroll taxes and benefits",
+      "assumption": "Ohio employer payroll taxes, workers' compensation and basic benefits; no Darke County figure was in the research."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and fixed costs",
+      "assumption": "Set near consumer price growth of 3.4% in the year to August 2026 [^41]."
+    },
+    "card_cpg": {
+      "value": 0.084,
+      "fmt": "cpg",
+      "label": "Card fees per gallon",
+      "source": [
+        38
+      ]
+    },
+    "ind_card_fees": {
+      "value": 21300000000,
+      "fmt": "$",
+      "label": "Industry card fees, 2025",
+      "source": [
+        37
+      ]
+    },
+    "ind_sales": {
+      "value": 817500000000,
+      "fmt": "$",
+      "label": "Industry total sales, 2025",
+      "source": [
+        37
+      ]
+    },
+    "utilities": {
+      "value": 48000,
+      "fmt": "$",
+      "label": "Village electric, water and sewer, and gas, Year 1",
+      "assumption": "Allowance; the village supplies water, sewer and electric and CenterPoint supplies gas [^14], but no tariff was retrieved."
+    },
+    "repairs": {
+      "value": 45000,
+      "fmt": "$",
+      "label": "Repairs, supplies and tank compliance, Year 1",
+      "assumption": "Allowance; includes the periodic tank and line tests a lender's environmental file tracks [^46]."
+    },
+    "insurance": {
+      "value": 24000,
+      "fmt": "$",
+      "label": "Property, liability and pollution insurance, Year 1",
+      "assumption": "Allowance for an inland store; the FEMA flood zone was not found, so a quote is a lender condition."
+    },
+    "admin": {
+      "value": 30000,
+      "fmt": "$",
+      "label": "Accounting, licenses and permits, Year 1",
+      "assumption": "Allowance; Ohio's license list and fees (fuel, tobacco, lottery, liquor permits) were not found in the research."
+    },
+    "eff_mills": {
+      "value": 0.044738714,
+      "fmt": "%2",
+      "label": "Effective commercial tax rate, mills per dollar of assessed value",
+      "source": [
+        17
+      ]
+    },
+    "assess_ratio": {
+      "value": 0.35,
+      "fmt": "%",
+      "label": "Ohio assessed value, share of market value",
+      "assumption": "Ohio assesses real property at 35% of market value; the County Auditors' Association states the rule but its page carries no date [^33], so the study treats it as an assumption and makes the Darke County Auditor's valuation a lender condition."
+    },
+    "reserve_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Equipment renewal reserve, percent of dispenser and fixture cost a year",
+      "assumption": "Builds a fund to renew dispensers, coolers and ovens over about twenty years."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        49
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 2 acres on SR 121",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "assumption [^18,19]"
+    },
+    {
+      "key": "building",
+      "label": "Store and canopy, 3,000 sq ft",
+      "expr": "store_sf * building_psf",
+      "class": "real_estate",
+      "basis": "sq ft x cost [^42,44]"
+    },
+    {
+      "key": "tanks",
+      "label": "Underground tanks and piping",
+      "expr": "tanks * tank_cost",
+      "class": "real_estate",
+      "basis": "3 tanks [^43]"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, screening, lighting and signage",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance [^15]"
+    },
+    {
+      "key": "contingency",
+      "label": "Construction contingency",
+      "expr": "(store_sf * building_psf + tanks * tank_cost + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "5% of construction"
+    },
+    {
+      "key": "soft",
+      "label": "Design, conditional use, Phase I and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance [^15,46]"
+    },
+    {
+      "key": "dispensers",
+      "label": "Dispensers",
+      "expr": "dispensers * dispenser_cost",
+      "class": "equipment",
+      "basis": "4 dispensers [^43]"
+    },
+    {
+      "key": "ffe",
+      "label": "Fixtures, coolers, kitchen and point of sale",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "inventory",
+      "label": "Starting fuel and shelf stock",
+      "expr": "fuel_inventory + merch_inventory",
+      "class": "working_capital",
+      "basis": "[^45]"
+    },
+    {
+      "key": "working_capital",
+      "label": "Opening costs and cash cushion",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "allowance"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "fuel",
+      "label": "Fuel gross profit",
+      "expr": "gallons_day * 365 * fuel_margin",
+      "basis": "daily gallons x 365 x cents of margin [^36,41]"
+    },
+    {
+      "key": "merch",
+      "label": "Merchandise gross profit",
+      "expr": "inside_sales * (1 - food_share) * merch_margin",
+      "basis": "non-food sales x margin [^37,40]"
+    },
+    {
+      "key": "food",
+      "label": "Pizza and prepared food gross profit",
+      "expr": "inside_sales * food_share * food_margin",
+      "basis": "food sales x margin [^37,39]"
+    }
+  ],
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "labor",
+      "label": "Payroll with employer costs",
+      "expr": "staff_shift * hours * 365 * wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "staff x hours x wage [^37]"
+    },
+    {
+      "key": "card_fuel",
+      "label": "Card fees on fuel",
+      "expr": "gallons_day * 365 * card_cpg",
+      "basis": "cents a gallon [^38]"
+    },
+    {
+      "key": "card_inside",
+      "label": "Card fees on inside sales",
+      "expr": "inside_sales * ind_card_fees / ind_sales",
+      "basis": "industry ratio [^37]"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities",
+      "expr": "utilities * (1 + inflation) ** y",
+      "basis": "allowance [^14]"
+    },
+    {
+      "key": "repairs",
+      "label": "Repairs, supplies and tank compliance",
+      "expr": "repairs * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance premiums",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "admin",
+      "label": "Professional fees, licenses and permits",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "tax",
+      "label": "Real property tax",
+      "expr": "(land + store_sf * building_psf + tanks * tank_cost + sitework) * assess_ratio * eff_mills",
+      "basis": "cost x 35% x effective rate [^17,33]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(dispensers * dispenser_cost + ffe) * reserve_pct",
+      "basis": "5% a year of equipment cost"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor offers the least equity a start-up may put in"
+  },
+  "breakeven": {
+    "input": "inside_sales",
+    "label": "inside sales"
+  },
+  "sensitivity": {
+    "year": 2,
+    "rows": {
+      "input": "gallons_day",
+      "label": "Fuel gallons a day",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "inside_sales",
+      "label": "Inside sales",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Versailles, a village in Darke County, Ohio, on SR 121 where it ends at SR 47 and SR 185 [^12]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New {in_store_sf} sq ft branded convenience store with a pizza and breakfast kitchen and {in_dispensers} dispensers on about 2 acres zoned B-2"
+    ],
+    [
+      "Program",
+      "SBA 7(a) for a business with no operating history; SBA counts gas stations as special purpose property [^50]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} with the requested loan, {tpc} with the smaller one"
+    ],
+    [
+      "Loan structure",
+      "A single 25-year 7(a) loan at Prime plus SBA's top spread for its size"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} offered; {equity_pct} needed ({equity})"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} on the request; {dscr_y2} after restructuring"
+    ],
+    [
+      "Break-even",
+      "Inside sales can fall to {breakeven_value} in Year 3 before debt service goes uncovered, a {cushion_pct} margin"
+    ],
+    [
+      "Market conclusion",
+      "A small market with room for one modest store; the approval path for the tanks, not demand, decides the loan"
+    ],
+    [
+      "Determination",
+      "The sponsor's request {verdict_proposed} the {floor} floor; restructured at {loan_total} of debt and {equity_pct} equity, subject to the tank approvals"
+    ]
+  ]
+}
