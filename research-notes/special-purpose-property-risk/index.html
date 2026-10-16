@@ -976,8 +976,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p class="article-lead">
         Some collateral is worth nearly as much the day a loan works out as the day it closed. A
         warehouse, an office suite, a strip of general retail can be re-let or resold to the next tenant in
-        line. A car wash cannot. Neither can a bowling center, a funeral home with a crematorium, or a
-        select-service hotel built to a single flag&rsquo;s prototype. These are special-purpose
+        line. A <a href="/asset-classes/express-car-wash/" data-fsc-term="hub-car-wash">car wash</a> cannot. Neither can a bowling center, a <a href="/asset-classes/funeral-home/" data-fsc-term="hub-funeral">funeral home</a> with a crematorium, or a
+        select-service <a href="/asset-classes/hotel/" data-fsc-term="hub-hotel">hotel</a> built to a single flag&rsquo;s prototype. These are special-purpose
         properties, and lenders have always treated them as a category apart: more equity, tighter
         structure, an independent feasibility study before the file advances. The instinct is sound. What
         has been missing is the proof, industry by industry, and it turns out the proof has been sitting in
@@ -1018,12 +1018,12 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         intangibles, and an independent feasibility study.
       </p>
       <p>
-        <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--> carries a non-exhaustive example list of special-purpose types, the same list as <span data-historical="SOP 50 10 8">SOP 50 10 8</span>, and it reads like a tour of the operating-intensive economy: amusement parks, bowling alleys, car washes,
-        cemeteries, cold-storage facilities, dormitories, farms, funeral homes with crematoriums, gas
-        stations, golf courses, hospitals and surgical or urgent-care centers, hotels and motels, marinas,
-        mines, nursing homes including assisted living, oil wells, quarries, railroads, sanitary landfills,
+        <a href="/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/" data-fsc-term="sop-8-1"><!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short--></a> carries a non-exhaustive example list of special-purpose types, the same list as <span data-historical="SOP 50 10 8">SOP 50 10 8</span>, and it reads like a tour of the operating-intensive economy: amusement parks, bowling alleys, car washes,
+        cemeteries, cold-storage facilities, dormitories, farms, funeral homes with crematoriums, <a href="/asset-classes/gas-station-and-c-store/" data-fsc-term="hub-gas-station">gas
+        stations</a>, golf courses, hospitals and surgical or urgent-care centers, hotels and motels, <a href="/asset-classes/marina/" data-fsc-term="hub-marina">marinas</a>,
+        mines, nursing homes including <a href="/asset-classes/assisted-living-and-memory-care/" data-fsc-term="hub-assisted-living">assisted living</a>, oil wells, quarries, railroads, sanitary landfills,
         oil-and-lube and brake service centers with in-ground pits and lifts, sports arenas, swimming pools,
-        tennis clubs, theaters, and wineries. One omission is as instructive as the list itself: restaurants, daycares, and self-storage are simply not on it, so the list does not treat them as special-purpose. (SBA does name &ldquo;storage units&rdquo; as an example of a special purpose acquisition that the real estate fully secures, in its change-of-ownership rules, which is a different test.) Restaurants fail frequently, but they are not on SBA&rsquo;s special-purpose list, a distinction worth holding onto, because it separates default frequency from collateral
+        tennis clubs, theaters, and wineries. One omission is as instructive as the list itself: <a href="/asset-classes/restaurant/" data-fsc-term="hub-restaurant">restaurants</a>, daycares, and <a href="/asset-classes/self-storage/" data-fsc-term="hub-self-storage">self-storage</a> are simply not on it, so the list does not treat them as special-purpose. (SBA does name &ldquo;storage units&rdquo; as an example of a special purpose acquisition that the real estate fully secures, in its change-of-ownership rules, which is a different test.) Restaurants fail frequently, but they are not on SBA&rsquo;s special-purpose list, a distinction worth holding onto, because it separates default frequency from collateral
         risk, and the data will show those are two different things.
       </p>
 
@@ -1049,7 +1049,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
       <p>
         A charge-off is identified by the loan-status field, which takes values including PIF (paid in
         full), CHGOFF (charged off), CANCLD (cancelled), and EXEMPT. A defaulted loan is status CHGOFF,
-        corroborated by a non-null charge-off date and amount. The defensible way to state a charge-off rate
+        corroborated by a non-null charge-off date and amount. The defensible way to state a <a href="/research-notes/sba-default-economics/" data-fsc-term="default-rates">charge-off rate</a>
         is CHGOFF divided by the sum of PIF and CHGOFF (the resolved-loan, or cohort-default, basis) which excludes loans still in repayment, cancelled, or exempt. Counting still-performing
         loans in the denominator understates the true rate, which is precisely the error a naive query
         makes.
@@ -1099,9 +1099,9 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         The second, PeerSense (Ed Freeman, updated 2026), analyzes roughly 2.1 million records, about 1.28
         million of them resolved, on a <em>count</em> basis, and produces almost the reverse ordering
         for the same properties. Its niche table shows gasoline stations and convenience stores at 14.9
-        percent, car washes at 13.9 percent, full-service restaurants at 9.9 percent, childcare at 11.9
+        percent, car washes at 13.9 percent, full-service restaurants at 9.9 percent, <a href="/asset-classes/childcare-and-daycare/" data-fsc-term="hub-childcare">childcare</a> at 11.9
         percent, gyms and fitness at 17.1 percent, and long-haul trucking at 15.2 percent, against a safe
-        end of veterinary practices at 4.1 percent and dental offices at 4.6 percent. As PeerSense puts it,
+        end of <a href="/asset-classes/veterinary-practice/" data-fsc-term="hub-veterinary">veterinary practices</a> at 4.1 percent and dental offices at 4.6 percent. As PeerSense puts it,
         &ldquo;professional healthcare niches default below 5% (veterinary 4.1%, dental 4.6%), while gyms,
         long-haul trucking, and gas stations exceed 14%, roughly four times higher.&rdquo;
       </p>
@@ -1165,7 +1165,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         The single largest analytical trap in this dataset is time. Recent vintages have not had the years
         they need to default, so a fast-growing industry with a young loan book looks artificially safe next
         to a mature one. Glennon and Nigro established the shape of the problem two decades ago: in
-        discrete-time hazard models of SBA 7(a) loans (2005, <em>Journal of Money, Credit and Banking</em>
+        discrete-time hazard models of <a href="/practice-areas/sba-7a-504/" data-fsc-term="sba-pa">SBA 7(a)</a> loans (2005, <em>Journal of Money, Credit and Banking</em>
         37(5):923-947, and <em>Journal of Financial Services Research</em> 28:77-111), default
         risk is time-dependent: the hazard rises after origination, peaks around year two, then
         declines. Compare a mature industry&rsquo;s fully seasoned book against a newer industry&rsquo;s
@@ -1212,7 +1212,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         lender-facing note should stack them, because each closes a different escape route.
       </p>
       <p>
-        The first is CMBS distress by property type. Lodging and retail have consistently posted the highest
+        The first is <a href="/practice-areas/conventional-institutional/" data-fsc-term="conventional-pa">CMBS</a> distress by property type. Lodging and retail have consistently posted the highest
         delinquencies through stress. AG Mortgage Investment Trust&rsquo;s FY2020 10-K (SEC) records the
         COVID shock plainly: &ldquo;Hotels were most impacted, with delinquencies rising from 1.5% to 24%
         and ending the year at 20%... Retail was negatively affected, with delinquencies rising from 4.4% to
@@ -1326,6 +1326,56 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
   </article>
 
   <!-- ============ CTA ============ -->
+  <!--mesh:note-applied--><section class="section" id="applied" aria-labelledby="h-applied">
+    <div class="frame">
+      <div class="section-head">
+        <span class="eyebrow">Applied In</span>
+        <h2 id="h-applied">Where this research is applied.</h2>
+      </div>
+      <p class="lede" style="margin-top:0px;margin-bottom:14px">Asset classes</p>
+      <ul class="link-cols">
+        <li><a href="/asset-classes/assisted-living-and-memory-care/">Assisted Living &amp; Memory Care Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/express-car-wash/">Car Wash Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/funeral-home/">Funeral Home &amp; Deathcare Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/gas-station-and-c-store/">Gas Station &amp; C-Store Feasibility &amp; Market Studies</a></li>
+        <li><a href="/asset-classes/hotel/">Hotel &amp; Hospitality Feasibility &amp; Market Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Practice areas</p>
+      <ul class="link-cols">
+        <li><a href="/practice-areas/sba-7a-504/">SBA Feasibility Studies</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Worked cases</p>
+      <ul class="link-cols">
+        <li><a href="/case-studies/gas-station-alabama-sba/">Gas Station Feasibility Study, Alabama: An SBA 7(a) Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-arizona-hud/">Assisted Living Feasibility Study, Arizona: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-california-hud/">Assisted Living &amp; Memory Care Feasibility Study, California: A HUD 232 / Conventional Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-florida-hud/">Assisted Living Feasibility Study, Florida: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/gas-station-florida-sba/">Gas Station Feasibility Study, Florida: An SBA 7(a) Worked Case</a></li>
+        <li><a href="/case-studies/hotel-florida-sba/">Limited-Service Hotel Feasibility Study, Florida: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/gas-station-georgia-sba/">Gas Station Feasibility Study, Georgia: An SBA 7(a) Worked Case</a></li>
+        <li><a href="/case-studies/hotel-georgia-sba/">Limited-Service Hotel Feasibility Study, Georgia: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-hawaii-hud/">Assisted Living Feasibility Study, Hawaii: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-nevada-eb5/">Hotel Feasibility Study, Nevada: An EB-5 Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-north-carolina-hud/">Assisted Living Feasibility Study, North Carolina: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/hotel-south-carolina-sba/">Limited-Service Hotel Feasibility Study, South Carolina: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/assisted-living-texas-hud/">Assisted Living Feasibility Study, Texas: A HUD 232 Worked Case</a></li>
+        <li><a href="/case-studies/car-wash-texas-sba/">Express Car Wash Feasibility Study, Texas: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/gas-station-texas-sba/">Gas Station Feasibility Study, Texas: An SBA 7(a) Worked Case</a></li>
+        <li><a href="/case-studies/hotel-texas-sba/">Limited-Service Hotel Feasibility Study, Texas: An SBA 504 Worked Case</a></li>
+        <li><a href="/case-studies/funeral-home-wisconsin-sba/">Funeral Home Feasibility Study, Wisconsin: An SBA 7(a) Worked Case</a></li>
+      </ul>
+      <p class="lede" style="margin-top:34px;margin-bottom:14px">Related research notes</p>
+      <ul class="link-cols">
+        <li><a href="/research-notes/franchise-vs-non-franchise/">Franchise or Independent? Underwriting the Brand, Not the Binary</a></li>
+        <li><a href="/research-notes/gas-station-demand-per-capita/">Gas Station Demand Per Capita: Why a Site&#x27;s Gallons No Longer Set Its Value</a></li>
+        <li><a href="/research-notes/sba-default-economics/">SBA Default Economics: Loss Rates by Industry, and Why the Headline Number Misleads</a></li>
+        <li><a href="/research-notes/coverage-constrained-takeout/">The Coverage-Constrained Takeout: When the Permanent Loan Sizes to Coverage, Not Value</a></li>
+        <li><a href="/research-notes/underserved-gas-station-markets/">The Forecourt White Space: Where Fuel Demand Outran Modern Supply</a></li>
+        <li><a href="/research-notes/hospitality-str-report/">The STR Report Is Not the Analysis: Why a Benchmark Cannot Underwrite a New Hotel</a></li>
+      </ul>
+    </div>
+  </section><!--/mesh:note-applied-->
+
   <section class="cta-band" aria-labelledby="h-cta">
     <div class="frame">
       <h2 id="h-cta">Underwriting a special-purpose deal?</h2>

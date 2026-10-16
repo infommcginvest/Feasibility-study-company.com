@@ -9,61 +9,455 @@
     "Housing and senior living"
   ],
   "assets": {
-    "/asset-classes/assisted-living-and-memory-care/": {"name": "assisted living and memory care", "family": "Housing and senior living"},
-    "/asset-classes/auto-dealership/": {"name": "auto dealership", "family": "Fuel, auto and travel"},
-    "/asset-classes/auto-service-and-collision/": {"name": "auto service and collision", "family": "Fuel, auto and travel"},
-    "/asset-classes/behavioral-health/": {"name": "behavioral health", "family": "Health, care and services"},
-    "/asset-classes/childcare-and-daycare/": {"name": "childcare and daycare", "family": "Health, care and services"},
-    "/asset-classes/coffee-shop/": {"name": "coffee shop", "family": "Food and retail"},
-    "/asset-classes/express-car-wash/": {"name": "car wash", "family": "Fuel, auto and travel"},
-    "/asset-classes/fitness-and-recreation/": {"name": "fitness and recreation", "family": "Health, care and services"},
-    "/asset-classes/funeral-home/": {"name": "funeral home", "family": "Health, care and services"},
-    "/asset-classes/gas-station-and-c-store/": {"name": "gas station and c-store", "family": "Fuel, auto and travel"},
-    "/asset-classes/glamping/": {"name": "glamping", "family": "Hospitality and outdoor recreation"},
-    "/asset-classes/grocery-store/": {"name": "grocery store", "family": "Food and retail"},
-    "/asset-classes/hotel/": {"name": "hotel", "family": "Hospitality and outdoor recreation"},
-    "/asset-classes/laundromat/": {"name": "laundromat", "family": "Health, care and services"},
-    "/asset-classes/marina/": {"name": "marina", "family": "Hospitality and outdoor recreation"},
-    "/asset-classes/medical-office-and-asc/": {"name": "medical office and ASC", "family": "Health, care and services"},
-    "/asset-classes/multifamily/": {"name": "multifamily", "family": "Housing and senior living"},
-    "/asset-classes/pet-boarding-and-daycare/": {"name": "pet boarding and daycare", "family": "Health, care and services"},
-    "/asset-classes/private-school/": {"name": "private school", "family": "Health, care and services"},
-    "/asset-classes/quick-service-restaurant/": {"name": "quick-service restaurant", "family": "Food and retail"},
-    "/asset-classes/restaurant/": {"name": "restaurant", "family": "Food and retail"},
-    "/asset-classes/retail/": {"name": "retail", "family": "Food and retail"},
-    "/asset-classes/rv-and-boat-storage/": {"name": "RV and boat storage", "family": "Storage"},
-    "/asset-classes/rv-park-and-campground/": {"name": "RV park and campground", "family": "Hospitality and outdoor recreation"},
-    "/asset-classes/self-storage/": {"name": "self-storage", "family": "Storage"},
-    "/asset-classes/truck-stop-and-travel-center/": {"name": "truck stop and travel center", "family": "Fuel, auto and travel"},
-    "/asset-classes/urgent-care/": {"name": "urgent care", "family": "Health, care and services"},
-    "/asset-classes/veterinary-practice/": {"name": "veterinary practice", "family": "Health, care and services"},
-    "meat-processing": {"name": "meat processing", "family": "Food and retail", "slug_prefix": "meat-processing-"}
+    "/asset-classes/assisted-living-and-memory-care/": {
+      "name": "assisted living and memory care",
+      "family": "Housing and senior living"
+    },
+    "/asset-classes/auto-dealership/": {
+      "name": "auto dealership",
+      "family": "Fuel, auto and travel"
+    },
+    "/asset-classes/auto-service-and-collision/": {
+      "name": "auto service and collision",
+      "family": "Fuel, auto and travel"
+    },
+    "/asset-classes/behavioral-health/": {
+      "name": "behavioral health",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/childcare-and-daycare/": {
+      "name": "childcare and daycare",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/coffee-shop/": {
+      "name": "coffee shop",
+      "family": "Food and retail"
+    },
+    "/asset-classes/express-car-wash/": {
+      "name": "car wash",
+      "family": "Fuel, auto and travel"
+    },
+    "/asset-classes/fitness-and-recreation/": {
+      "name": "fitness and recreation",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/funeral-home/": {
+      "name": "funeral home",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/gas-station-and-c-store/": {
+      "name": "gas station and c-store",
+      "family": "Fuel, auto and travel"
+    },
+    "/asset-classes/glamping/": {
+      "name": "glamping",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/grocery-store/": {
+      "name": "grocery store",
+      "family": "Food and retail"
+    },
+    "/asset-classes/hotel/": {
+      "name": "hotel",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/laundromat/": {
+      "name": "laundromat",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/marina/": {
+      "name": "marina",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/medical-office-and-asc/": {
+      "name": "medical office and ASC",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/multifamily/": {
+      "name": "multifamily",
+      "family": "Housing and senior living"
+    },
+    "/asset-classes/pet-boarding-and-daycare/": {
+      "name": "pet boarding and daycare",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/private-school/": {
+      "name": "private school",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/quick-service-restaurant/": {
+      "name": "quick-service restaurant",
+      "family": "Food and retail"
+    },
+    "/asset-classes/restaurant/": {
+      "name": "restaurant",
+      "family": "Food and retail"
+    },
+    "/asset-classes/retail/": {
+      "name": "retail",
+      "family": "Food and retail"
+    },
+    "/asset-classes/rv-and-boat-storage/": {
+      "name": "RV and boat storage",
+      "family": "Storage"
+    },
+    "/asset-classes/rv-park-and-campground/": {
+      "name": "RV park and campground",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/self-storage/": {
+      "name": "self-storage",
+      "family": "Storage"
+    },
+    "/asset-classes/truck-stop-and-travel-center/": {
+      "name": "truck stop and travel center",
+      "family": "Fuel, auto and travel"
+    },
+    "/asset-classes/urgent-care/": {
+      "name": "urgent care",
+      "family": "Health, care and services"
+    },
+    "/asset-classes/veterinary-practice/": {
+      "name": "veterinary practice",
+      "family": "Health, care and services"
+    },
+    "meat-processing": {
+      "name": "meat processing",
+      "family": "Food and retail",
+      "slug_prefix": "meat-processing-"
+    }
   },
   "programs": {
-    "/practice-areas/sba-7a-504/": {"name": "SBA 7(a) and 504"},
-    "/practice-areas/usda-rural-development/": {"name": "USDA Rural Development"},
-    "/practice-areas/conventional-institutional/": {"name": "Conventional and institutional"},
-    "/practice-areas/eb-5/": {"name": "EB-5"}
+    "/practice-areas/sba-7a-504/": {
+      "name": "SBA 7(a) and 504"
+    },
+    "/practice-areas/usda-rural-development/": {
+      "name": "USDA Rural Development"
+    },
+    "/practice-areas/conventional-institutional/": {
+      "name": "Conventional and institutional"
+    },
+    "/practice-areas/eb-5/": {
+      "name": "EB-5"
+    }
   },
   "notes": {
-    "/research-notes/absorption-forensics/": {"hubs": ["/asset-classes/multifamily/"], "programs": ["/practice-areas/conventional-institutional/"]},
-    "/research-notes/break-even-occupancy-trap/": {"hubs": ["/asset-classes/multifamily/"], "programs": ["/practice-areas/conventional-institutional/"]},
-    "/research-notes/c-store-franchise-category/": {"hubs": ["/asset-classes/gas-station-and-c-store/"], "programs": ["/practice-areas/sba-7a-504/"]},
-    "/research-notes/coverage-constrained-takeout/": {"hubs": ["/asset-classes/multifamily/", "/asset-classes/hotel/", "/asset-classes/assisted-living-and-memory-care/", "/asset-classes/self-storage/"], "programs": ["/practice-areas/conventional-institutional/"]},
-    "/research-notes/effective-rent-vs-asking-rent/": {"hubs": ["/asset-classes/multifamily/"], "programs": ["/practice-areas/conventional-institutional/"]},
-    "/research-notes/five-usda-components-applied/": {"hubs": [], "programs": ["/practice-areas/usda-rural-development/"], "program_wide": true},
-    "/research-notes/franchise-vs-non-franchise/": {"hubs": ["/asset-classes/gas-station-and-c-store/", "/asset-classes/quick-service-restaurant/", "/asset-classes/restaurant/", "/asset-classes/fitness-and-recreation/", "/asset-classes/hotel/", "/asset-classes/childcare-and-daycare/", "/asset-classes/express-car-wash/"], "programs": ["/practice-areas/sba-7a-504/"]},
-    "/research-notes/gas-station-demand-per-capita/": {"hubs": ["/asset-classes/gas-station-and-c-store/"], "programs": ["/practice-areas/sba-7a-504/"]},
-    "/research-notes/hospitality-str-report/": {"hubs": ["/asset-classes/hotel/"], "programs": ["/practice-areas/sba-7a-504/"]},
-    "/research-notes/how-eb-5-jobs-are-counted/": {"hubs": ["/asset-classes/hotel/"], "programs": ["/practice-areas/eb-5/"], "program_wide": true},
-    "/research-notes/office-repurposing/": {"hubs": ["/asset-classes/multifamily/"], "programs": ["/practice-areas/conventional-institutional/"]},
-    "/research-notes/sba-default-economics/": {"hubs": ["/asset-classes/hotel/", "/asset-classes/restaurant/"], "programs": ["/practice-areas/sba-7a-504/"], "program_wide": true},
-    "/research-notes/sba-feasibility-myth/": {"hubs": [], "programs": ["/practice-areas/sba-7a-504/"], "program_wide": true},
-    "/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/": {"hubs": [], "programs": ["/practice-areas/sba-7a-504/"], "program_wide": true},
-    "/research-notes/special-purpose-property-risk/": {"hubs": ["/asset-classes/hotel/", "/asset-classes/express-car-wash/", "/asset-classes/gas-station-and-c-store/", "/asset-classes/assisted-living-and-memory-care/", "/asset-classes/funeral-home/"], "programs": ["/practice-areas/sba-7a-504/"]},
-    "/research-notes/trade-area-is-the-study/": {"hubs": ["/asset-classes/retail/", "/asset-classes/self-storage/"], "programs": []},
-    "/research-notes/underserved-gas-station-markets/": {"hubs": ["/asset-classes/gas-station-and-c-store/", "/asset-classes/truck-stop-and-travel-center/"], "programs": ["/practice-areas/sba-7a-504/"]},
-    "/research-notes/usda-rd-deadline-calendar/": {"hubs": [], "programs": ["/practice-areas/usda-rural-development/"], "program_wide": true},
-    "/research-notes/why-feasibility-studies-fail-review/": {"hubs": [], "programs": ["/practice-areas/sba-7a-504/", "/practice-areas/usda-rural-development/", "/practice-areas/conventional-institutional/"], "program_wide": true}
-  }
+    "/research-notes/absorption-forensics/": {
+      "hubs": [
+        "/asset-classes/multifamily/"
+      ],
+      "programs": [
+        "/practice-areas/conventional-institutional/"
+      ]
+    },
+    "/research-notes/break-even-occupancy-trap/": {
+      "hubs": [
+        "/asset-classes/multifamily/"
+      ],
+      "programs": [
+        "/practice-areas/conventional-institutional/"
+      ]
+    },
+    "/research-notes/c-store-franchise-category/": {
+      "hubs": [
+        "/asset-classes/gas-station-and-c-store/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ]
+    },
+    "/research-notes/coverage-constrained-takeout/": {
+      "hubs": [
+        "/asset-classes/multifamily/",
+        "/asset-classes/hotel/",
+        "/asset-classes/assisted-living-and-memory-care/",
+        "/asset-classes/self-storage/"
+      ],
+      "programs": [
+        "/practice-areas/conventional-institutional/"
+      ]
+    },
+    "/research-notes/effective-rent-vs-asking-rent/": {
+      "hubs": [
+        "/asset-classes/multifamily/"
+      ],
+      "programs": [
+        "/practice-areas/conventional-institutional/"
+      ]
+    },
+    "/research-notes/five-usda-components-applied/": {
+      "hubs": [],
+      "programs": [
+        "/practice-areas/usda-rural-development/"
+      ],
+      "program_wide": true
+    },
+    "/research-notes/franchise-vs-non-franchise/": {
+      "hubs": [
+        "/asset-classes/gas-station-and-c-store/",
+        "/asset-classes/quick-service-restaurant/",
+        "/asset-classes/restaurant/",
+        "/asset-classes/fitness-and-recreation/",
+        "/asset-classes/hotel/",
+        "/asset-classes/childcare-and-daycare/",
+        "/asset-classes/express-car-wash/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ]
+    },
+    "/research-notes/gas-station-demand-per-capita/": {
+      "hubs": [
+        "/asset-classes/gas-station-and-c-store/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ]
+    },
+    "/research-notes/hospitality-str-report/": {
+      "hubs": [
+        "/asset-classes/hotel/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ]
+    },
+    "/research-notes/how-eb-5-jobs-are-counted/": {
+      "hubs": [
+        "/asset-classes/hotel/"
+      ],
+      "programs": [
+        "/practice-areas/eb-5/"
+      ],
+      "program_wide": true
+    },
+    "/research-notes/office-repurposing/": {
+      "hubs": [
+        "/asset-classes/multifamily/"
+      ],
+      "programs": [
+        "/practice-areas/conventional-institutional/"
+      ]
+    },
+    "/research-notes/sba-default-economics/": {
+      "hubs": [
+        "/asset-classes/hotel/",
+        "/asset-classes/restaurant/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ],
+      "program_wide": true
+    },
+    "/research-notes/sba-feasibility-myth/": {
+      "hubs": [],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ],
+      "program_wide": true
+    },
+    "/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/": {
+      "hubs": [],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ],
+      "program_wide": true
+    },
+    "/research-notes/special-purpose-property-risk/": {
+      "hubs": [
+        "/asset-classes/hotel/",
+        "/asset-classes/express-car-wash/",
+        "/asset-classes/gas-station-and-c-store/",
+        "/asset-classes/assisted-living-and-memory-care/",
+        "/asset-classes/funeral-home/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ]
+    },
+    "/research-notes/trade-area-is-the-study/": {
+      "hubs": [
+        "/asset-classes/retail/",
+        "/asset-classes/self-storage/"
+      ],
+      "programs": []
+    },
+    "/research-notes/underserved-gas-station-markets/": {
+      "hubs": [
+        "/asset-classes/gas-station-and-c-store/",
+        "/asset-classes/truck-stop-and-travel-center/"
+      ],
+      "programs": [
+        "/practice-areas/sba-7a-504/"
+      ]
+    },
+    "/research-notes/usda-rd-deadline-calendar/": {
+      "hubs": [],
+      "programs": [
+        "/practice-areas/usda-rural-development/"
+      ],
+      "program_wide": true
+    },
+    "/research-notes/why-feasibility-studies-fail-review/": {
+      "hubs": [],
+      "programs": [
+        "/practice-areas/sba-7a-504/",
+        "/practice-areas/usda-rural-development/",
+        "/practice-areas/conventional-institutional/"
+      ],
+      "program_wide": true
+    }
+  },
+  "state_neighbors": {
+    "/states/alabama/": [
+      "/states/florida/",
+      "/states/georgia/",
+      "/states/mississippi/"
+    ],
+    "/states/arizona/": [
+      "/states/california/",
+      "/states/nevada/",
+      "/states/new-mexico/",
+      "/states/utah/"
+    ],
+    "/states/arkansas/": [
+      "/states/mississippi/",
+      "/states/missouri/",
+      "/states/oklahoma/",
+      "/states/texas/"
+    ],
+    "/states/california/": [
+      "/states/arizona/",
+      "/states/nevada/",
+      "/states/oregon/"
+    ],
+    "/states/connecticut/": [
+      "/states/massachusetts/",
+      "/states/new-york/"
+    ],
+    "/states/florida/": [
+      "/states/alabama/",
+      "/states/georgia/"
+    ],
+    "/states/georgia/": [
+      "/states/alabama/",
+      "/states/florida/",
+      "/states/north-carolina/",
+      "/states/south-carolina/"
+    ],
+    "/states/hawaii/": [],
+    "/states/illinois/": [
+      "/states/indiana/",
+      "/states/iowa/",
+      "/states/missouri/",
+      "/states/wisconsin/"
+    ],
+    "/states/indiana/": [
+      "/states/illinois/",
+      "/states/michigan/"
+    ],
+    "/states/iowa/": [
+      "/states/illinois/",
+      "/states/minnesota/",
+      "/states/missouri/",
+      "/states/wisconsin/"
+    ],
+    "/states/maine/": [
+      "/states/new-hampshire/"
+    ],
+    "/states/maryland/": [
+      "/states/pennsylvania/"
+    ],
+    "/states/massachusetts/": [
+      "/states/connecticut/",
+      "/states/new-hampshire/",
+      "/states/new-york/"
+    ],
+    "/states/michigan/": [
+      "/states/indiana/",
+      "/states/wisconsin/"
+    ],
+    "/states/minnesota/": [
+      "/states/iowa/",
+      "/states/wisconsin/"
+    ],
+    "/states/mississippi/": [
+      "/states/alabama/",
+      "/states/arkansas/"
+    ],
+    "/states/missouri/": [
+      "/states/arkansas/",
+      "/states/illinois/",
+      "/states/iowa/",
+      "/states/oklahoma/"
+    ],
+    "/states/nevada/": [
+      "/states/arizona/",
+      "/states/california/",
+      "/states/oregon/",
+      "/states/utah/"
+    ],
+    "/states/new-hampshire/": [
+      "/states/maine/",
+      "/states/massachusetts/"
+    ],
+    "/states/new-jersey/": [
+      "/states/new-york/",
+      "/states/pennsylvania/"
+    ],
+    "/states/new-mexico/": [
+      "/states/arizona/",
+      "/states/oklahoma/",
+      "/states/texas/"
+    ],
+    "/states/new-york/": [
+      "/states/connecticut/",
+      "/states/massachusetts/",
+      "/states/new-jersey/",
+      "/states/pennsylvania/"
+    ],
+    "/states/north-carolina/": [
+      "/states/georgia/",
+      "/states/south-carolina/"
+    ],
+    "/states/oklahoma/": [
+      "/states/arkansas/",
+      "/states/missouri/",
+      "/states/new-mexico/",
+      "/states/texas/"
+    ],
+    "/states/oregon/": [
+      "/states/california/",
+      "/states/nevada/",
+      "/states/washington/"
+    ],
+    "/states/pennsylvania/": [
+      "/states/maryland/",
+      "/states/new-jersey/",
+      "/states/new-york/"
+    ],
+    "/states/south-carolina/": [
+      "/states/georgia/",
+      "/states/north-carolina/"
+    ],
+    "/states/texas/": [
+      "/states/arkansas/",
+      "/states/new-mexico/",
+      "/states/oklahoma/"
+    ],
+    "/states/utah/": [
+      "/states/arizona/",
+      "/states/nevada/"
+    ],
+    "/states/washington/": [
+      "/states/oregon/"
+    ],
+    "/states/wisconsin/": [
+      "/states/illinois/",
+      "/states/iowa/",
+      "/states/michigan/",
+      "/states/minnesota/"
+    ]
+  },
+  "_about_state_neighbors": "Land borders between states that have a page (a corner touch such as New Mexico and Utah is not a border). Symmetric; mesh.py refuses an asymmetric map. Each state page lists its neighbours."
 }

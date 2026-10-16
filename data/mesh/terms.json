@@ -1,0 +1,734 @@
+{
+  "_about": "First-mention links (ruling 5), read by scripts/mesh.py. Each entry links the first prose mention of any of its terms to its target, once per page, in this priority order, at most 15 per page. ignore_case false means the term must match exactly (proper nouns, citations). Bare \"Washington\" is not a term (in prose it often means Washington, D.C.); the Washington page is reached through Washington State, Seattle, Spokane, Tacoma and Puget Sound.",
+  "terms": [
+    {
+      "key": "sop-8-1",
+      "target": "/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/",
+      "terms": [
+        "SOP 50 10 8.1"
+      ]
+    },
+    {
+      "key": "cfr-120-160",
+      "target": "/research-notes/sba-feasibility-myth/",
+      "terms": [
+        "13 CFR 120.160",
+        "13 CFR 120.160(b)",
+        "section 120.160"
+      ]
+    },
+    {
+      "key": "special-purpose",
+      "target": "/research-notes/special-purpose-property-risk/",
+      "terms": [
+        "special purpose property",
+        "special-purpose property",
+        "special purpose properties",
+        "special-purpose properties"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "break-even",
+      "target": "/research-notes/break-even-occupancy-trap/",
+      "terms": [
+        "break-even occupancy",
+        "breakeven occupancy"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "trade-area",
+      "target": "/research-notes/trade-area-is-the-study/",
+      "terms": [
+        "trade area",
+        "primary market area"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "effective-rent",
+      "target": "/research-notes/effective-rent-vs-asking-rent/",
+      "terms": [
+        "effective rent",
+        "effective rents"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "absorption",
+      "target": "/research-notes/absorption-forensics/",
+      "terms": [
+        "absorption"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "str-report",
+      "target": "/research-notes/hospitality-str-report/",
+      "terms": [
+        "STR report",
+        "STR benchmark",
+        "STR competitive set",
+        "STR comp set"
+      ]
+    },
+    {
+      "key": "eb5-jobs",
+      "target": "/research-notes/how-eb-5-jobs-are-counted/",
+      "terms": [
+        "RIMS II",
+        "input-output multiplier",
+        "input-output model",
+        "job-creation requirement"
+      ],
+      "ignore_case": false
+    },
+    {
+      "key": "franchise",
+      "target": "/research-notes/franchise-vs-non-franchise/",
+      "terms": [
+        "Franchise Directory",
+        "franchisor certification",
+        "Franchisor Certification"
+      ]
+    },
+    {
+      "key": "default-rates",
+      "target": "/research-notes/sba-default-economics/",
+      "terms": [
+        "default rate",
+        "default rates",
+        "charge-off rate",
+        "charge-off rates"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "office-repurposing",
+      "target": "/research-notes/office-repurposing/",
+      "terms": [
+        "adaptive reuse",
+        "office-to-residential",
+        "office-to-housing"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "takeout",
+      "target": "/research-notes/coverage-constrained-takeout/",
+      "terms": [
+        "permanent takeout",
+        "takeout loan",
+        "permanent loan takeout"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "five-usda",
+      "target": "/research-notes/five-usda-components-applied/",
+      "terms": [
+        "five mandatory components",
+        "five components"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "usda-calendar",
+      "target": "/research-notes/usda-rd-deadline-calendar/",
+      "terms": [
+        "REAP",
+        "Rural Energy for America"
+      ]
+    },
+    {
+      "key": "inside-sales",
+      "target": "/research-notes/gas-station-demand-per-capita/",
+      "terms": [
+        "inside sales"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "ust",
+      "target": "/research-notes/c-store-franchise-category/",
+      "terms": [
+        "underground storage tank",
+        "underground storage tanks",
+        "underground-storage-tank"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "forecourt",
+      "target": "/research-notes/underserved-gas-station-markets/",
+      "terms": [
+        "forecourt"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "review-failure",
+      "target": "/research-notes/why-feasibility-studies-fail-review/",
+      "terms": [
+        "lender review",
+        "fail review",
+        "fails review"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "framework",
+      "target": "/analytical-framework/",
+      "terms": [
+        "analytical framework",
+        "feasibility study methodology"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "usda-pa",
+      "target": "/practice-areas/usda-rural-development/",
+      "terms": [
+        "7 CFR Part 5001",
+        "USDA B&I",
+        "USDA Business and Industry",
+        "USDA Rural Development"
+      ]
+    },
+    {
+      "key": "sba-pa",
+      "target": "/practice-areas/sba-7a-504/",
+      "terms": [
+        "SBA 504",
+        "SBA 7(a)"
+      ]
+    },
+    {
+      "key": "eb5-pa",
+      "target": "/practice-areas/eb-5/",
+      "terms": [
+        "EB-5"
+      ]
+    },
+    {
+      "key": "conventional-pa",
+      "target": "/practice-areas/conventional-institutional/",
+      "terms": [
+        "Fannie Mae",
+        "Freddie Mac",
+        "HUD Section 232",
+        "life company",
+        "CMBS"
+      ]
+    },
+    {
+      "key": "state-alabama",
+      "target": "/states/alabama/",
+      "terms": [
+        "Alabama"
+      ]
+    },
+    {
+      "key": "state-arizona",
+      "target": "/states/arizona/",
+      "terms": [
+        "Arizona"
+      ]
+    },
+    {
+      "key": "state-arkansas",
+      "target": "/states/arkansas/",
+      "terms": [
+        "Arkansas"
+      ]
+    },
+    {
+      "key": "state-california",
+      "target": "/states/california/",
+      "terms": [
+        "California"
+      ]
+    },
+    {
+      "key": "state-connecticut",
+      "target": "/states/connecticut/",
+      "terms": [
+        "Connecticut"
+      ]
+    },
+    {
+      "key": "state-florida",
+      "target": "/states/florida/",
+      "terms": [
+        "Florida"
+      ]
+    },
+    {
+      "key": "state-georgia",
+      "target": "/states/georgia/",
+      "terms": [
+        "Georgia"
+      ]
+    },
+    {
+      "key": "state-hawaii",
+      "target": "/states/hawaii/",
+      "terms": [
+        "Hawaii"
+      ]
+    },
+    {
+      "key": "state-illinois",
+      "target": "/states/illinois/",
+      "terms": [
+        "Illinois"
+      ]
+    },
+    {
+      "key": "state-indiana",
+      "target": "/states/indiana/",
+      "terms": [
+        "Indiana"
+      ]
+    },
+    {
+      "key": "state-iowa",
+      "target": "/states/iowa/",
+      "terms": [
+        "Iowa"
+      ]
+    },
+    {
+      "key": "state-maine",
+      "target": "/states/maine/",
+      "terms": [
+        "Maine"
+      ]
+    },
+    {
+      "key": "state-maryland",
+      "target": "/states/maryland/",
+      "terms": [
+        "Maryland"
+      ]
+    },
+    {
+      "key": "state-massachusetts",
+      "target": "/states/massachusetts/",
+      "terms": [
+        "Massachusetts"
+      ]
+    },
+    {
+      "key": "state-michigan",
+      "target": "/states/michigan/",
+      "terms": [
+        "Michigan"
+      ]
+    },
+    {
+      "key": "state-minnesota",
+      "target": "/states/minnesota/",
+      "terms": [
+        "Minnesota"
+      ]
+    },
+    {
+      "key": "state-mississippi",
+      "target": "/states/mississippi/",
+      "terms": [
+        "Mississippi"
+      ]
+    },
+    {
+      "key": "state-missouri",
+      "target": "/states/missouri/",
+      "terms": [
+        "Missouri"
+      ]
+    },
+    {
+      "key": "state-nevada",
+      "target": "/states/nevada/",
+      "terms": [
+        "Nevada"
+      ]
+    },
+    {
+      "key": "state-new-hampshire",
+      "target": "/states/new-hampshire/",
+      "terms": [
+        "New Hampshire"
+      ]
+    },
+    {
+      "key": "state-new-jersey",
+      "target": "/states/new-jersey/",
+      "terms": [
+        "New Jersey"
+      ]
+    },
+    {
+      "key": "state-new-mexico",
+      "target": "/states/new-mexico/",
+      "terms": [
+        "New Mexico"
+      ]
+    },
+    {
+      "key": "state-new-york",
+      "target": "/states/new-york/",
+      "terms": [
+        "New York"
+      ]
+    },
+    {
+      "key": "state-north-carolina",
+      "target": "/states/north-carolina/",
+      "terms": [
+        "North Carolina"
+      ]
+    },
+    {
+      "key": "state-oklahoma",
+      "target": "/states/oklahoma/",
+      "terms": [
+        "Oklahoma"
+      ]
+    },
+    {
+      "key": "state-oregon",
+      "target": "/states/oregon/",
+      "terms": [
+        "Oregon"
+      ]
+    },
+    {
+      "key": "state-pennsylvania",
+      "target": "/states/pennsylvania/",
+      "terms": [
+        "Pennsylvania"
+      ]
+    },
+    {
+      "key": "state-south-carolina",
+      "target": "/states/south-carolina/",
+      "terms": [
+        "South Carolina"
+      ]
+    },
+    {
+      "key": "state-texas",
+      "target": "/states/texas/",
+      "terms": [
+        "Texas"
+      ]
+    },
+    {
+      "key": "state-utah",
+      "target": "/states/utah/",
+      "terms": [
+        "Utah"
+      ]
+    },
+    {
+      "key": "state-washington",
+      "target": "/states/washington/",
+      "terms": [
+        "Washington State",
+        "Washington state",
+        "Seattle",
+        "Spokane",
+        "Tacoma",
+        "Puget Sound"
+      ]
+    },
+    {
+      "key": "state-wisconsin",
+      "target": "/states/wisconsin/",
+      "terms": [
+        "Wisconsin"
+      ]
+    },
+    {
+      "key": "hub-assisted-living",
+      "target": "/asset-classes/assisted-living-and-memory-care/",
+      "terms": [
+        "assisted living",
+        "memory care"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-self-storage",
+      "target": "/asset-classes/self-storage/",
+      "terms": [
+        "self-storage",
+        "self storage"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-rv-boat-storage",
+      "target": "/asset-classes/rv-and-boat-storage/",
+      "terms": [
+        "RV and boat storage",
+        "RV & boat storage",
+        "boat storage"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-rv-park",
+      "target": "/asset-classes/rv-park-and-campground/",
+      "terms": [
+        "RV park",
+        "RV parks",
+        "campground",
+        "campgrounds",
+        "RV resort"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-glamping",
+      "target": "/asset-classes/glamping/",
+      "terms": [
+        "glamping"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-marina",
+      "target": "/asset-classes/marina/",
+      "terms": [
+        "marina",
+        "marinas"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-multifamily",
+      "target": "/asset-classes/multifamily/",
+      "terms": [
+        "multifamily"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-hotel",
+      "target": "/asset-classes/hotel/",
+      "terms": [
+        "hotel",
+        "hotels"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-car-wash",
+      "target": "/asset-classes/express-car-wash/",
+      "terms": [
+        "car wash",
+        "car washes",
+        "express car wash"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-gas-station",
+      "target": "/asset-classes/gas-station-and-c-store/",
+      "terms": [
+        "gas station",
+        "gas stations",
+        "convenience store",
+        "convenience stores",
+        "c-store",
+        "c-stores"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-truck-stop",
+      "target": "/asset-classes/truck-stop-and-travel-center/",
+      "terms": [
+        "truck stop",
+        "truck stops",
+        "travel center",
+        "travel centers"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-auto-dealership",
+      "target": "/asset-classes/auto-dealership/",
+      "terms": [
+        "auto dealership",
+        "car dealership",
+        "dealership"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-auto-service",
+      "target": "/asset-classes/auto-service-and-collision/",
+      "terms": [
+        "auto service",
+        "collision repair",
+        "auto repair"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-childcare",
+      "target": "/asset-classes/childcare-and-daycare/",
+      "terms": [
+        "childcare",
+        "child care",
+        "child-care"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-pet-boarding",
+      "target": "/asset-classes/pet-boarding-and-daycare/",
+      "terms": [
+        "pet boarding",
+        "dog daycare",
+        "pet daycare"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-fitness",
+      "target": "/asset-classes/fitness-and-recreation/",
+      "terms": [
+        "fitness center",
+        "fitness centers",
+        "health club",
+        "health clubs"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-funeral",
+      "target": "/asset-classes/funeral-home/",
+      "terms": [
+        "funeral home",
+        "funeral homes"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-laundromat",
+      "target": "/asset-classes/laundromat/",
+      "terms": [
+        "laundromat",
+        "laundromats"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-veterinary",
+      "target": "/asset-classes/veterinary-practice/",
+      "terms": [
+        "veterinary practice",
+        "veterinary practices",
+        "animal hospital",
+        "veterinary clinic"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-urgent-care",
+      "target": "/asset-classes/urgent-care/",
+      "terms": [
+        "urgent care"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-medical-office",
+      "target": "/asset-classes/medical-office-and-asc/",
+      "terms": [
+        "medical office",
+        "medical office building",
+        "ambulatory surgery center",
+        "surgery center"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-behavioral",
+      "target": "/asset-classes/behavioral-health/",
+      "terms": [
+        "behavioral health"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-private-school",
+      "target": "/asset-classes/private-school/",
+      "terms": [
+        "private school",
+        "private schools",
+        "independent school"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-qsr",
+      "target": "/asset-classes/quick-service-restaurant/",
+      "terms": [
+        "quick-service restaurant",
+        "quick-service restaurants",
+        "fast-food restaurant",
+        "drive-thru"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-restaurant",
+      "target": "/asset-classes/restaurant/",
+      "terms": [
+        "full-service restaurant",
+        "restaurant",
+        "restaurants"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-coffee",
+      "target": "/asset-classes/coffee-shop/",
+      "terms": [
+        "coffee shop",
+        "coffee shops",
+        "cafe"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-grocery",
+      "target": "/asset-classes/grocery-store/",
+      "terms": [
+        "grocery store",
+        "grocery stores",
+        "supermarket",
+        "supermarkets"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "hub-retail",
+      "target": "/asset-classes/retail/",
+      "terms": [
+        "shopping center",
+        "shopping centers",
+        "retail center",
+        "retail centers",
+        "strip center"
+      ],
+      "ignore_case": true
+    }
+  ]
+}
