@@ -118,6 +118,8 @@ It found no regression: a sweep of 87,120 additive cells against its own raw rec
 
 **The final freeze** is the commit that holds this file together with its gate record. Its record, `freeze/freeze-<sha>.json`, now also carries the manifest's door and probe records, and is written after it. The closing records-only commit copies the final freeze's hashes and the bundle into this file; it changes no data, script or gate file.
 
+**Final freeze record:** head `6cff8d70aa29ecac24a001036778ab89a94f17d9`; archive sha256 `04c2bf7dd1a3f2a10e40f706bdc1edae09505618293b0032f4edb2db81401175` (reproduced with `git archive 6cff8d7 | shasum -a 256`); data manifest sha256 `48e3e5ce7cb7ab714db676ad880468b24bb63413ecbc08233bf681de92c5f916`. 7 raw files are unchanged since retrieval, 312 data files are hashed, and the manifest's 6 door and 2 probe records are carried; see `freeze/freeze-6cff8d7.json`. Gates at the final freeze: 7 of 11 green (GATES.txt). Gate 6, rerun on the final register: 304 of 304, and 3,644,608 values with 0 mismatches.
+
 ## Land and push
 
 Not landed: gates 2, 5, 6 and 8 are red, and the charter lands only on all green. `main` is untouched, nothing was deployed, and nothing was pushed to `origin`. The branch `web-fsc-5` holds the work locally. A bundle of it is written to `<repo>/_bundles/` and clone-tested after the final freeze, and the closing records-only commit adds its name and the clone test.
