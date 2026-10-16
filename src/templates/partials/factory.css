@@ -1,0 +1,42 @@
+/* WEB-FSC-6 factory components, shared by every page built from src/ */
+.prose ul, .prose ol { padding-left: 1.4em; margin-bottom: 1.15em; }
+.prose li { margin-bottom: .6em; }
+.prose h3 { font-size: 20px; font-weight: 700; letter-spacing: -.01em; line-height: 1.25; margin: 34px 0 10px; color: var(--ink); }
+.prose h3:first-child { margin-top: 0; }
+.prose a, .table-source a, .verdict a { color: var(--red); }
+.prose a:hover, .table-source a:hover { text-decoration: underline; text-underline-offset: 3px; }
+a.cite { color: var(--red); white-space: nowrap; }
+.prose + .data-table-wrap { margin-top: 28px; }
+.data-table-wrap + .prose { margin-top: 36px; }
+.data-table-wrap + .data-table-wrap { margin-top: 28px; }
+table.data td a { color: var(--red); word-break: break-word; }
+table.data.num td, table.data.num th { white-space: nowrap; }
+table.data.num td + td, table.data.num th + th { text-align: right; }
+table.data tr.total td { font-weight: 700; border-top: 2px solid var(--ink); }
+table.data tr.sub td { color: var(--grey); font-size: 13.5px; }
+table.data tr.sub td:first-child { font-weight: 500; padding-left: 28px; }
+table.data.wide { min-width: 700px; }
+table.data.glance td:first-child { width: 34%; }
+table.data.matrix { min-width: 560px; }
+table.data.matrix td, table.data.matrix th { text-align: center; white-space: nowrap; }
+table.data.matrix td:first-child, table.data.matrix th:first-child { text-align: left; }
+table.data.matrix td.pass { background: #E7F0E9; color: #2E6B34; font-weight: 600; }
+table.data.matrix td.thin { background: #F4EEDC; color: #7E5E15; font-weight: 600; }
+table.data.matrix td.fail { background: #FBEAEC; color: #A50D25; font-weight: 600; }
+table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
+.verdict { border-left: 3px solid var(--red); background: var(--white); padding: 18px 22px; margin-top: 28px; max-width: 860px; }
+.verdict p { margin: 0 0 .6em; color: var(--ink); }
+.verdict p:last-child { margin-bottom: 0; }
+.case-list { list-style: none; border-top: 1px solid var(--line-dark); max-width: 980px; }
+.case-list li { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.case-list a { font-weight: 700; color: var(--ink); }
+.case-list a:hover { color: var(--red); }
+.case-list span { display: block; font-size: 14.5px; color: var(--grey); margin-top: 4px; }
+@media (max-width: 680px) {
+  .frame { padding: 0 16px; }
+  table.data { font-size: 13px; }
+  table.data th, table.data td { padding: 9px 8px; }
+  table.data thead th { font-size: 11px; letter-spacing: 0.02em; }
+  table.data.glance td:first-child { width: auto; min-width: 8.5em; }
+  .verdict { padding: 14px 16px; }
+}

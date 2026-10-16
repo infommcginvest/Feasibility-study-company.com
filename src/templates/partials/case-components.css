@@ -1,0 +1,18 @@
+
+/* WEB-FSC-1 batch-1 page components */
+.hero .disclosure { margin-top: 30px; }
+.prose ol, .prose ul { padding-left: 1.4em; margin-bottom: 1.15em; }
+.prose li { margin-bottom: .6em; }
+.prose a, .related a { color: var(--red); }
+.prose a:hover, .related a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.prose + .data-table-wrap { margin-top: 28px; }
+.data-table-wrap + .prose { margin-top: 36px; }
+a.cite { color: var(--red); white-space: nowrap; }
+table.data td { min-width: 7em; }
+.related { max-width: 860px; margin-top: 40px; font-size: 15px; line-height: 1.7; }
+@media (max-width: 680px) {
+  table.data { font-size: 13px; }
+  table.data th, table.data td { padding: 9px 8px; min-width: 0; }
+  table.data td:first-child { min-width: 8.5em; }
+  table.data thead th { font-size: 11px; letter-spacing: 0.02em; }
+}

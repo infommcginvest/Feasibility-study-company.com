@@ -1,0 +1,4 @@
+{
+  "deploy_date": "2026-10-16",
+  "_about": "deploy_date is the date every page whose front matter says \"DEPLOY\" carries as its published (new pages) or updated (rebuilt pages) date. Set it to the deploy day, run scripts/build.py and then byline.py, and commit."
+}
