@@ -1,0 +1,381 @@
+{
+ "slug": "travel-center-hankamer-texas-usda",
+ "page": "/case-studies/travel-center-hankamer-texas-usda/",
+ "program": "usda_bi",
+ "rule_sources": {
+  "program": 32
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 3,
+ "units": {
+  "label": "travel center",
+  "count": 1
+ },
+ "inputs": {
+  "land": {
+   "value": 2250000,
+   "fmt": "$",
+   "label": "Land, 14 acres at I-10 and SH 61",
+   "assumption": "The 2026 asking price the research found for a 14-acre tract at the I-10 and SH 61 interchange, about $160,714 an acre. The listing is not cited so that no real parcel is identified. It is high against the June 2026 sale of 6.82 acres at Exit 814 [^1]; an appraisal sets the value."
+  },
+  "store_site": {
+   "value": 4400000,
+   "fmt": "$",
+   "label": "Store, food service, showers, truck lot and site work",
+   "assumption": "No construction cost for a Chambers County travel center was found. Published projects run from $10 million for an 11,365 square foot urban travel center (February 2026) [^46] to $18 million for a chain travel center using about 14 acres with more than 80 truck spaces (November 2024) [^47]; both include costs this line leaves to other lines. The subject is smaller in store and truck lot than either. Construction input prices rose 8.9% in the year to August 2026 [^48], and the county requires new construction 24 inches above base flood elevation [^24], which raises pad costs."
+  },
+  "fuel_system": {
+   "value": 1500000,
+   "fmt": "$",
+   "label": "Tanks, dispensers and fuel canopies",
+   "assumption": "No published tank or dispenser cost was found. The line covers underground tanks, gasoline and diesel dispensers and canopies. For scale, a Texas convenience chain budgets $10.0 million to $12.0 million all-in for a large new store with 27 dispensers on 3.7 acres (March 2026) [^44], of which the fuel system is one part."
+  },
+  "soft": {
+   "value": 550000,
+   "fmt": "$",
+   "label": "Design, county permits, drainage review and contingency",
+   "assumption": "County fees are small: a $1,000 drainage deposit, $150 to $450 building permits, $150 per fuel tank and $300 per building for a flammable liquids permit [^23]. The line is mostly design, engineering, drainage and flood work, and a construction contingency."
+  },
+  "inventory_wc": {
+   "value": 300000,
+   "fmt": "$",
+   "label": "Opening inventory and working capital",
+   "assumption": "Opening store inventory, the first fuel loads and working capital for the ramp. No benchmark was found; the lender sizes it from the operator's purchasing plan."
+  },
+  "diesel_gal": {
+   "value": [
+    1700000,
+    2300000,
+    2600000,
+    2650000,
+    2700000
+   ],
+   "fmt": "n",
+   "label": "Diesel gallons",
+   "assumption": "No gallons for any Hankamer station were found. An independent travel center offered for sale in September 2025 reported 3.4 million annual gallons, 2.6 million of them diesel, and $2.5 million of inside sales (broker listing, unverified) [^45]. The subject reaches that diesel level by Year 3 on the strength of a truck lot larger than any at the fuel stops between Baytown and Winnie. TxDOT truck counts were not found and are a lender condition."
+  },
+  "gas_gal": {
+   "value": [
+    550000,
+    700000,
+    800000,
+    815000,
+    830000
+   ],
+   "fmt": "n",
+   "label": "Gasoline gallons",
+   "assumption": "Reaches the benchmark site's gasoline volume, its 3.4 million total gallons less 2.6 million of diesel, by Year 3 [^45]. Population growth along SH 61 adds local car traffic [^5]."
+  },
+  "inside_sales": {
+   "value": [
+    1750000,
+    2200000,
+    2500000,
+    2550000,
+    2600000
+   ],
+   "fmt": "$",
+   "label": "Inside sales (store and food)",
+   "assumption": "Reaches the benchmark site's $2.5 million of inside sales by Year 3 [^45]."
+  },
+  "diesel_margin": {
+   "value": 0.4,
+   "fmt": "cpg",
+   "label": "Diesel gross margin per gallon",
+   "assumption": "A Texas convenience chain earned 43.1 cents a gallon on diesel in fiscal 2025 [^44]. The subject is set below that because Pilot reported lower fuel margins in 2025 [^49] and the chain travel centers 20 miles west compete for fleet fuel."
+  },
+  "gas_margin": {
+   "value": 0.36,
+   "fmt": "cpg",
+   "label": "Gasoline gross margin per gallon",
+   "assumption": "The same chain earned 39.2 cents a gallon on gasoline in fiscal 2025 [^44], and NACS put 2025 retail fuel margins above 40 cents [^43]. The subject is set below both because it shares its interchange with established branded stations."
+  },
+  "inside_margin": {
+   "value": 0.33,
+   "fmt": "%",
+   "label": "Inside gross margin",
+   "assumption": "The same chain's fiscal 2025 merchandise margin was 35.2% [^44]; the subject is set slightly lower for a new store without a chain's purchasing."
+  },
+  "card_fee_cpg": {
+   "value": 0.084,
+   "fmt": "cpg",
+   "label": "Card fees per gallon",
+   "assumption": "NACS put card fees at 8.4 cents a gallon in 2023 [^53]; the study applies the same charge to diesel and gasoline."
+  },
+  "payroll": {
+   "value": 640000,
+   "fmt": "$",
+   "label": "Payroll and benefits, Year 1",
+   "assumption": "A 24-hour store with food service and showers. No Chambers County wage data was found. For scale, the same Texas chain reported salaries and benefits of $200.9 million across 448 stores in fiscal 2025 [^44]; the subject runs more services than an average convenience store."
+  },
+  "store_opex": {
+   "value": 200000,
+   "fmt": "$",
+   "label": "Utilities, repairs, supplies and marketing, Year 1",
+   "assumption": "Utilities, repairs, supplies and marketing. No travel-center ratio was found; convenience store operating expenses rose 23.3% between 2021 and 2025 [^43]."
+  },
+  "insurance": {
+   "value": 110000,
+   "fmt": "$",
+   "label": "Property, wind, flood, liability and pollution insurance, Year 1",
+   "assumption": "Chambers County is on the Gulf coast; wind and flood premiums were not found, and a quote is a lender condition. The amount is a placeholder for property, wind, flood, liability and pollution cover."
+  },
+  "cost_growth": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in payroll and fixed costs",
+   "assumption": "General allowance; no local cost series was found."
+  },
+  "tax_county": {
+   "value": 0.00439746,
+   "fmt": "%2",
+   "label": "Chambers County tax rate, 2025",
+   "source": [
+    25
+   ]
+  },
+  "tax_isd": {
+   "value": 0.011769,
+   "fmt": "%2",
+   "label": "Anahuac ISD tax rate, 2024 (2025 assumed unchanged)",
+   "source": [
+    26
+   ]
+  },
+  "tax_tbcd": {
+   "value": 0.00291133,
+   "fmt": "%2",
+   "label": "Trinity Bay Conservation District tax rate, 2025",
+   "source": [
+    27
+   ]
+  },
+  "tax_hospital": {
+   "value": 0.00206762,
+   "fmt": "%2",
+   "label": "Hospital district tax rate, 2024",
+   "source": [
+    26
+   ]
+  },
+  "tax_nav": {
+   "value": 7.87e-05,
+   "fmt": "%2",
+   "label": "Navigation district tax rate, 2024",
+   "source": [
+    26
+   ]
+  },
+  "bi_guarantee_pct": {
+   "value": 0.8,
+   "fmt": "%",
+   "label": "USDA guarantee share, loans of $5 million to $25 million",
+   "source": [
+    32
+   ]
+  },
+  "bi_fee_pct": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "USDA initial guarantee fee, share of the guaranteed amount",
+   "source": [
+    32
+   ]
+  },
+  "bi_rate": {
+   "value": 0.0944,
+   "fmt": "%2",
+   "label": "All-in rate: note rate plus the annual retention fee",
+   "assumption": "USDA leaves the rate to lender and borrower [^35]. Prime was 7.00% on October 9, 2026 [^54]. The note rate is assumed at Prime plus 2.00 points for a construction-stage fuel retail loan, and the 0.55% annual retention fee on the 80% guaranteed share [^32] is added on the assumption that the lender passes it to the borrower. The lender sets the rate at pricing"
+  },
+  "bi_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Amortization",
+   "assumption": "The term may run to the justified useful life of the project or collateral, at most 40 years [^35]. Buildings and paving outlast dispensers and store fixtures; 25 years blends them. The lender must justify the term"
+  },
+  "bi_equity_min_pct": {
+   "value": 0.2,
+   "fmt": "%",
+   "label": "Minimum equity",
+   "assumption": "The Hankamer research and the USDA program file do not state the equity rule. The regulation that does, 7 CFR 5001.105(d) as amended December 11, 2025, is read as 20% tangible balance sheet equity for a new business, or 25% of project cost, and 25% where the guarantee issues before construction is complete [^37]. The model tests 20%, assuming the guarantee issues after completion; the lender must confirm which test applies."
+  },
+  "bi_dscr_floor": {
+   "value": 1.25,
+   "fmt": "x",
+   "label": "Coverage floor",
+   "assumption": "No B&I coverage ratio appears in the rules reviewed; the lender's credit policy governs. The model tests 1.25x in Year 3, the first stabilized year, above SBA's 504 floor because the lender keeps the unguaranteed fifth of the loan."
+  },
+  "bi_loan_cap": {
+   "value": 25000000,
+   "fmt": "$",
+   "label": "B&I maximum loan",
+   "source": [
+    32
+   ]
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, 14 acres",
+   "expr": "land",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "store_site",
+   "label": "Store, showers, truck lot and site work",
+   "expr": "store_site",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "fuel_system",
+   "label": "Fuel system and canopies",
+   "expr": "fuel_system",
+   "class": "equipment",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "soft",
+   "label": "Design, permits and contingency",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "inventory_wc",
+   "label": "Opening inventory and working capital",
+   "expr": "inventory_wc",
+   "class": "working_capital",
+   "basis": "assumption, see inputs"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "diesel",
+   "label": "Diesel gross profit",
+   "expr": "diesel_gal * diesel_margin",
+   "basis": "gallons x margin"
+  },
+  {
+   "key": "gas",
+   "label": "Gasoline gross profit",
+   "expr": "gas_gal * gas_margin",
+   "basis": "gallons x margin"
+  },
+  {
+   "key": "inside",
+   "label": "Inside gross profit",
+   "expr": "inside_sales * inside_margin",
+   "basis": "sales x margin"
+  }
+ ],
+ "opex": [
+  {
+   "key": "payroll",
+   "label": "Payroll and benefits",
+   "expr": "payroll * (1 + cost_growth) ** y",
+   "basis": "assumption, grows yearly"
+  },
+  {
+   "key": "cards",
+   "label": "Card fees on fuel",
+   "expr": "(diesel_gal + gas_gal) * card_fee_cpg",
+   "basis": "gallons x fee"
+  },
+  {
+   "key": "store",
+   "label": "Utilities, repairs, supplies, marketing",
+   "expr": "store_opex * (1 + cost_growth) ** y",
+   "basis": "assumption, grows yearly"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * (1 + cost_growth) ** y",
+   "basis": "assumption, grows yearly"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land + store_site + fuel_system) * (tax_county + tax_isd + tax_tbcd + tax_hospital + tax_nav)",
+   "basis": "cost x five rates [^25,26,27]"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.15,
+  "note": "the sponsor leans on the USDA guarantee to keep its own cash low"
+ },
+ "breakeven": {
+  "input": "diesel_gal",
+  "label": "diesel gallons"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "diesel_gal",
+   "label": "Diesel gallons",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "diesel_margin",
+   "label": "Diesel margin",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  }
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Hankamer (unincorporated), Chambers County, Texas; I-10 at SH 61, Exit 812/813, between Houston and Beaumont [^4]"
+  ],
+  [
+   "Subject",
+   "New independent travel center with diesel lanes, a truck lot, a store with food service and showers, on 14 acres with no county zoning (hypothetical) [^1]"
+  ],
+  [
+   "Program",
+   "USDA Business and Industry guaranteed loan, guarantee share {in_bi_guarantee_pct}; program assumed, see conditions [^32]"
+  ],
+  [
+   "Total project cost",
+   "{tpc}"
+  ],
+  [
+   "Loan structure",
+   "One B&amp;I guaranteed loan of {loan_total} at {in_bi_rate} all-in over {in_bi_amort_years}; annual debt service {ds}"
+  ],
+  [
+   "Equity",
+   "{equity_pct} ({equity}) as restructured; {equity_proposed_pct} as proposed; assumed minimum {equity_req_pct}"
+  ],
+  [
+   "DSCR in the test year (Year 3)",
+   "{dscr_y3} as restructured; {dscr_y3_proposed} as proposed; assumed floor {floor}"
+  ],
+  [
+   "Break-even",
+   "{breakeven_value} diesel gallons in Year 3, {breakeven_pct} of the underwritten volume"
+  ],
+  [
+   "Market conclusion",
+   "Thin truck parking and two small fuel stops at the interchange support a new travel center; the volumes rest on benchmarks until TxDOT counts are pulled [^12,13,14]"
+  ],
+  [
+   "Determination",
+   "As proposed: fails (equity below the assumed minimum; Year 3 coverage below the floor). As restructured: meets every test at {equity_pct} equity, a loan the projected cash flow carries"
+  ]
+ ]
+}

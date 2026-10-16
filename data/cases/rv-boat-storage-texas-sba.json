@@ -1,0 +1,299 @@
+{
+ "slug": "rv-boat-storage-texas-sba",
+ "page": "/case-studies/rv-boat-storage-texas-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 54,
+  "fees": 55,
+  "prime": 56
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "space",
+  "count": 100
+ },
+ "inputs": {
+  "land": {
+   "value": 1399000,
+   "fmt": "$",
+   "label": "Land, about 2.7 acres on US 377",
+   "assumption": "The October 2026 asking price the research found for a commercial corner of about 2.7 acres on US 377, about $521,626 an acre. The listing is not cited so that no real parcel is identified, and an appraisal sets the value."
+  },
+  "site_work": {
+   "value": 900000,
+   "fmt": "$",
+   "label": "Paving, drainage, fencing, gate, lighting, wash bay and dump station",
+   "assumption": "No local site cost was found. A builder puts site development at $4.25 to $8 per square foot beyond construction and a fenced, paved outdoor facility at about $15 per square foot (August 2025) [^42]. The line uses the top of the site-development range across the whole unimproved lot, because Granbury's code requires an improved hard surface for vehicle storage [^5], and it includes the gate, lighting, wash bay and dump station."
+  },
+  "canopies": {
+   "value": 1000000,
+   "fmt": "$",
+   "label": "Steel canopies over the covered spaces",
+   "assumption": "Canopy structures cost $9 to $14 or more per structural square foot and about $36 per square foot turnkey (2025) [^41]; a Mountain West builder quotes covered shells at $18 to $35 per rentable square foot (2026) [^43]. The line assumes about 12 by 45 foot covered spaces priced between those ranges; steel and aluminum prices rose sharply into mid-2026 [^52]."
+  },
+  "soft": {
+   "value": 220000,
+   "fmt": "$",
+   "label": "Design, permits, SUP process and contingency",
+   "assumption": "Permitting and professional services run $1 to $3 per square foot (August 2025) [^42]. The line adds the Specific Use Permit process the Heavy Commercial district requires for vehicle storage [^5,6] and a construction contingency."
+  },
+  "covered_spaces": {
+   "value": 70,
+   "fmt": "n",
+   "label": "Covered spaces",
+   "assumption": "After drive aisles, setbacks, the wash bay and the gate, the lot holds about 100 spaces, fewer than the 40 spaces per acre Cushman & Wakefield uses for supply estimates (December 2025) [^34]. Most are covered because covered spaces carry the rent premium in Granbury's posted rates [^10,14]."
+  },
+  "open_spaces": {
+   "value": 30,
+   "fmt": "n",
+   "label": "Open spaces",
+   "assumption": "The balance of the roughly 100 spaces, on paved open stalls for boat trailers and smaller RVs."
+  },
+  "covered_rate": {
+   "value": 135,
+   "fmt": "$",
+   "label": "Covered rent per space per month, Year 1",
+   "assumption": "Park'er Here posts covered spaces from $90 (32 feet) to $175 (65 feet), with 45 and 50 feet at $120 and $135; A&E posts a 45-foot covered space at $128; Vanguard says its largest covered pull-through spaces are under $150 (all checked October 15, 2026) [^10,11,14]. A new facility is priced at the 50-foot level."
+  },
+  "open_rate": {
+   "value": 50,
+   "fmt": "$",
+   "label": "Open rent per space per month, Year 1",
+   "assumption": "Park'er Here posts outside RV parking at $50 and open boat trailers at $40; A&E posts uncovered spaces at $46 (checked October 15, 2026) [^10,14]."
+  },
+  "rent_growth": {
+   "value": 0.019,
+   "fmt": "%",
+   "label": "Annual rent growth",
+   "assumption": "Equals the Dallas-Fort Worth year-over-year parking rent change Yardi Matrix reported for September 2025 [^33]. National rents rose faster, but every Park'er Here size showed available on October 15, 2026 [^10], which argues against faster increases."
+  },
+  "occupancy": {
+   "value": [
+    0.45,
+    0.7,
+    0.85,
+    0.88,
+    0.88
+   ],
+   "fmt": "%",
+   "label": "Average occupancy",
+   "assumption": "No primary absorption benchmark was found. The ramp reaches 88% by Year 4, near the 8.5% vacancy a large Florida facility carried in its 2023 CMBS underwriting [^44]. A 2025 Florida opening leased faster than its own projection [^46], but open capacity at Granbury operators in October 2026 [^10,14] argues for a slower first year."
+  },
+  "mgmt_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Management fee, share of revenue",
+   "assumption": "Third-party self-storage managers typically charge 6% of gross revenue (2019) [^45]."
+  },
+  "fixed_opex": {
+   "value": 30000,
+   "fmt": "$",
+   "label": "Insurance, utilities, repairs, software and marketing, Year 1",
+   "assumption": "Insurance, utilities, repairs, software and marketing for a gated facility without on-site staff. No local cost was found; local operators market hail and ice-storm protection [^11], so storm insurance is a real line. A large Florida facility ran total operating expenses of $0.90 per square foot in its 2023 underwriting [^44]."
+  },
+  "cost_growth": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in fixed costs",
+   "assumption": "General allowance; no local cost series was found."
+  },
+  "tax_isd": {
+   "value": 0.009296,
+   "fmt": "%2",
+   "label": "Granbury ISD tax rate, 2025",
+   "source": [
+    28
+   ]
+  },
+  "tax_county": {
+   "value": 0.002797,
+   "fmt": "%2",
+   "label": "Hood County tax rate, 2025",
+   "source": [
+    29
+   ]
+  },
+  "tax_city": {
+   "value": 0.0042,
+   "fmt": "%2",
+   "label": "City of Granbury tax rate, 2025",
+   "source": [
+    30
+   ]
+  },
+  "tpl_rate": {
+   "value": 0.0703,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "A broker rate sheet quoted 10-year fixed self-storage loans at 7.03% on July 27, 2026 [^48]. The bank's 504 first lien at half of cost is no riskier, so the same rate is used. The lender sets the rate at pricing"
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "Matches the 25-year debenture term; the bank's term must meet SBA's minimum for a 25-year debenture [^54]."
+  },
+  "debenture_rate": {
+   "value": 0.0697,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "source": [
+    49
+   ]
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "504 debenture term",
+   "source": [
+    54
+   ]
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land",
+   "expr": "land",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "site_work",
+   "label": "Site work, paving and security",
+   "expr": "site_work",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "canopies",
+   "label": "Steel canopies",
+   "expr": "canopies",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "soft",
+   "label": "Design, permits and contingency",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "assumption, see inputs"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "covered",
+   "label": "Covered space rent",
+   "expr": "covered_spaces * covered_rate * (1 + rent_growth) ** y * 12 * occupancy",
+   "basis": "spaces x rent x 12 x occupancy"
+  },
+  {
+   "key": "open",
+   "label": "Open space rent",
+   "expr": "open_spaces * open_rate * (1 + rent_growth) ** y * 12 * occupancy",
+   "basis": "spaces x rent x 12 x occupancy"
+  }
+ ],
+ "opex": [
+  {
+   "key": "mgmt",
+   "label": "Management fee",
+   "expr": "rev_total * mgmt_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "fixed",
+   "label": "Insurance, utilities, repairs, software, marketing",
+   "expr": "fixed_opex * (1 + cost_growth) ** y",
+   "basis": "assumption, grows yearly"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land + site_work + canopies) * (tax_isd + tax_county + tax_city)",
+   "basis": "cost x 2025 rates [^28,29,30]"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor applies the standard contribution and overlooks the new-business test"
+ },
+ "breakeven": {
+  "input": "covered_rate",
+  "label": "covered rent per space"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "occupancy",
+   "label": "Occupancy",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "covered_rate",
+   "label": "Covered rent",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  }
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Granbury, Hood County, Texas; US 377 near Lake Granbury and the regional airport, in the Dallas-Fort Worth region [^1]"
+  ],
+  [
+   "Subject",
+   "New RV and boat storage facility with {in_covered_spaces} covered and {in_open_spaces} open spaces on a 2.7-acre corner parcel on US 377 (hypothetical)"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture, sponsor equity"
+  ],
+  [
+   "Total project cost",
+   "{tpc} ({tpc_per_unit} per space)"
+  ],
+  [
+   "Loan structure",
+   "Bank first lien {tpl}; 504 debenture {debenture}; total debt {loan_total}; annual debt service {ds}"
+  ],
+  [
+   "Equity",
+   "{equity_pct} ({equity}) as restructured; {equity_proposed_pct} as proposed; program tier {equity_req_pct}"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2} as restructured; {dscr_y2_proposed} as proposed; floor {floor}"
+  ],
+  [
+   "Break-even",
+   "None found: no covered rent up to triple the underwritten level covers Year 3 debt service"
+  ],
+  [
+   "Market conclusion",
+   "Real demand, ample supply and low rents: covered spaces post at $90 to $175 a month [^10], on land whose asking price per acre is close to what finished facilities sold for in 2025 [^33]"
+  ],
+  [
+   "Determination",
+   "As proposed: fails (equity below the tier; coverage far below the floor). As restructured: still fails coverage at {equity_pct} equity. The market does not support a 504 loan for this project as designed"
+  ]
+ ]
+}
