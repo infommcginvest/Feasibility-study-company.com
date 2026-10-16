@@ -1,4 +1,4 @@
-WEB-FSC-5 gates at HEAD e334cfbad883afa776df98fdb7a50a5a18470623
+WEB-FSC-5 gates at HEAD d82ece5426d8e057b492b4fa0aa006fea8b6eb50
 runner: python3 docs/web-fsc-5/gates/run_gates.py (from the worktree root). Gates 1, 8 and 10 run shell commands, printed with "$"; the other gates are checks inside this script over the committed files, and each prints what it measured. The gate record is committed after this run, so the commit that holds GATES.txt is one record-only commit after the HEAD above.
 
 === GATE 1: no served file changed
@@ -330,27 +330,16 @@ data/markets/series/acs5_unemployment_rate.json
 data/markets/series/bea_per_capita_income.json
 data/markets/series/bea_personal_income.json
 data/markets/series/bea_population.json
-data/markets/series/bps_units_1unit_2025.json
-data/markets/series/bps_units_1unit_5y.json
-data/markets/series/bps_units_2unit_2025.json
-data/markets/series/bps_units_2unit_5y.json
-data/markets/series/bps_units_3_4unit_2025.json
-data/markets/series/bps_units_3_4unit_5y.json
-data/markets/series/bps_units_5plus_2025.json
-data/markets/series/bps_units_5plus_5y.json
-data/markets/series/bps_units_total_2025.json
-data/markets/series/bps_units_total_5y.json
 data/markets/series/cbp_emp.json
 data/markets/series/cbp_estab.json
 data/markets/series/cbp_estab_per_10k.json
 data/markets/series/pep_change_1y.json
 data/markets/series/pep_change_1y_pct.json
-data/markets/series/pep_change_5y.json
-data/markets/series/pep_change_5y_pct.json
+data/markets/series/pep_change_3y.json
+data/markets/series/pep_change_3y_pct.json
 data/markets/series/pep_pop_2020.json
+data/markets/series/pep_pop_2022.json
 data/markets/series/pep_pop_2023.json
-data/markets/series/pep_pop_2024.json
-data/markets/series/pep_pop_2025.json
 data/markets/series/sba504_cancelled.json
 data/markets/series/sba504_chgoff_amt.json
 data/markets/series/sba504_chgoff_amt_rate.json
@@ -399,8 +388,11 @@ docs/web-fsc-5/fixture/null-negative.html
 docs/web-fsc-5/freeze/freeze-210aa6a.json
 docs/web-fsc-5/freeze/freeze-6cff8d7.json
 docs/web-fsc-5/freeze/freeze-e7cc263.json
+docs/web-fsc-5/gates/rederive-census-result.json
+docs/web-fsc-5/gates/rederive-census-result.round2.json
 docs/web-fsc-5/gates/rederive-result.json
 docs/web-fsc-5/gates/rederive.py
+docs/web-fsc-5/gates/rederive_census.py
 docs/web-fsc-5/gates/run_gates.py
 docs/web-fsc-5/input/WEB-FSC-5-CHARTER.md
 docs/web-fsc-5/tools/assemble_geographies.py
@@ -415,7 +407,7 @@ scripts/markets_census.py
 scripts/markets_fetch.py
 $ git status --porcelain (paths outside the lane)
 (none)
---> GATE 1 GREEN: 410 changed path(s), all inside the lane
+--> GATE 1 GREEN: 402 changed path(s), all inside the lane
 
 === GATE 2: coverage
 series files 57; series rows 57; series files without a row: none
@@ -452,7 +444,7 @@ pep_pop_2023.all: 52 states checked, 52 equal or explained, 0 named; us 33491489
   bea_personal_income: BEA publishes some counties only inside combined areas (Virginia independent cities with their counties, Kalawao with Maui in Hawaii); those states exceed the sum of the counties BEA publishes on their own by the combined areas.
   cbp_estab: A state exceeds the sum of its counties by its statewide records (establishments with no fixed county, which the API does not publish at county level) plus the 6-digit cells CBP withholds at county level (bounded by each absent cell's published parent less its published children). Without the statewide records the check is that no state falls below the sum of its counties; each difference is named with the withheld bound.
   pep: Each state equals the sum of its counties, and the nation equals the sum of the states.
---> GATE 3 GREEN: FOIA register equals the raw files by program and FY; every Census, CBP, permits and BEA state is equal to its county sum, explained, or named with its measured difference
+--> GATE 3 GREEN: FOIA register equals the raw files by program and FY; every ACS, PEP, CBP and BEA state is equal to its county sum, explained, or named with its measured difference
 
 === GATE 4: FOIA status
 504 FOIA_504_FY1991_FY2009_asof_260630.csv: CANCLD=17,845, CHGOFF=11,246, CLOSED=337, EXEMPT=3,817, PIF=77,821
@@ -630,7 +622,7 @@ Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility 
 --> GATE 10 GREEN: no match in lane files or commit identities
 
 === GATE 11: size
-data/markets total 54,521,929 bytes = 54.52 MB = 52.00 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
+data/markets total 54,521,999 bytes = 54.52 MB = 52.00 MiB; files over 25 MB: none; tracked under _cache or _bundles: none
 largest: data/markets/series/cbp_estab_per_10k.json 4.93 MB; data/markets/series/cbp_emp.json 4.66 MB; data/markets/series/cbp_estab.json 4.55 MB; data/markets/series/sba7a_loans.json 2.01 MB; data/markets/series/sba7a_disbursed.json 2.01 MB
 --> GATE 11 GREEN: 54.52 MB (52.00 MiB), largest file 4.93 MB, nothing under _cache tracked
 

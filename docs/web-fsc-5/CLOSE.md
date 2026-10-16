@@ -27,7 +27,27 @@ It covers every state, all 3,222 counties, all 935 CBSAs (membership from the Ce
 - **QCEW:** api.bls.gov's robots.txt is `Disallow: /`; data.bls.gov is closed by robots.txt and answers 403.
 - **HUD Fair Market Rents:** an AWS WAF bot challenge.
 
-{{GATES}}
+## Gates: 11 of 11 green
+
+All eleven gates are green at `d82ece5`, the lane commit on top of the merge of main. GATES.txt holds each gate's checks and output; its runner is `python3 docs/web-fsc-5/gates/run_gates.py`.
+
+- **1 (no served file):** 402 changed paths, all inside the lane.
+- **2 (coverage):** all 253 site-market anchors at the cut point `1d48cc2` have a row. Every state, county and CBSA is present, and every source and series row has every field.
+- **3 (reconciliation):** FOIA equals the raw files by program and FY. Every ACS, PEP, CBP and BEA state equals its county sum or is named with its measured difference.
+- **4 (FOIA status):** every status is classified.
+- **5 (NAICS):** every class is graded, and each carries a CBP 2023 national establishment count.
+- **6 (independent re-derivation):** an independent subagent session wrote both checks against the raw files, importing nothing from the pipeline.
+  - FOIA: 352 of 352 sampled values match, and a sweep of 4,416,192 values finds 0 problems.
+  - Census and BEA, the one round on the affected series (D50): 797 sampled, 765 matched, 32 mismatched, all in CBP. The fixes are in D51.
+  - After the fixes, the checker's unchanged script matches 767 of 767 and finds 0 problems in 698,030 values.
+  - Quotas met: Connecticut 75, multi-county 264, sub-county 31, cross-state 98, medians 116 (multi-area medians null).
+- **7 (aggregation):** no median is aggregated, and every rate is a ratio of sums.
+- **8 (render):** the mutation test gives 0, 1, 0. The null marker is refused, and the fixture renders 6 Houston and 4 Connecticut markers.
+- **9 (Texas):** `tx` holds 865 values; 8 of 8 markets are standalone.
+- **10 (names and identity):** no match in lane files or commit identities.
+- **11 (size):** 54.52 MB (52.00 MiB); largest file 4.93 MB; nothing under `_cache` is tracked.
+
+BPS, QCEW and HUD are NOT FETCHED, each for a recorded refusal. Under the owner's 16 October ruling a series NOT FETCHED for a recorded refusal does not block landing; each is listed above with its reason.
 
 ## Series: vintage, period, status
 
@@ -103,9 +123,18 @@ Nationally, 238 of 253 markets are standalone. The 15 that are not:
 - 10 place or town markets with ACS only;
 - fairfield-county (ACS from towns only).
 
-{{FREEZE}}
+## Freeze
 
-{{LAND}}
+The final freeze is the commit that holds this file together with its gate record (GATES.txt). Its record, `freeze/freeze-<sha>.json`, is written after that commit and committed in the records-only commit that follows. The record carries:
+- the archive hash;
+- the hash of every raw file and every data file;
+- the 16 held www2 files, re-hashed where they are held to show they are unchanged.
+
+{{FREEZE_RECORD}}
+
+## Land and push
+
+{{LAND_RECORD}}
 
 ## For the next lanes
 
