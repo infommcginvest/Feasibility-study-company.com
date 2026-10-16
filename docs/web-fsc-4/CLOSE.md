@@ -116,6 +116,8 @@ Freeze 1 went to two Opus attackers and a Sonnet verifier, separately; freeze 2 
 | Rounding, wording, structured data, 320px, served tooling, narrative frame, held-page dates, `.gitignore` dash (not served), claim wording | verifier and attackers (minor) | Ruled on in decisions 42 and 43, or claim wording corrected |
 | Freeze 2 re-verification | second verifier (Sonnet) | 12 of 12 items verified, 0 refuted; one new major, the veterinary Michigan card (1.50x on the index, 1.27x on its page, stale since 10 October), fixed in freeze 3 with all 60 card figures rechecked (decision 44); three minors recorded |
 
+Tally. Attackers found 13 (attacker one: 1 blocker, 5 minor; attacker two: 1 blocker, 3 major, 3 minor). Fixed on the site: 5 (the `/Docs/` exposure, the case index cards, the escaped dashes, the cross-sentence pairs, the California and Florida IRRs). The other 8 were ruled on: 3 were claim wording (held pages, `.gitignore`) and the claims were corrected; 2 are structured data and slugs left for the owner; 3 are kept as true (Florida rounding, the myth-note wording, held-page dates). Verifiers: first round 2 blockers and 3 majors, all fixed except M3 (a held page, owner item 5); second round 0 blockers and 1 major (fixed in freeze 3).
+
 ## Production checks
 
 On https://feasibility-study-company.com after the deploy (GET only):
@@ -161,7 +163,11 @@ The published deploy read back from the Netlify API: `6ad2086d3e2479e9245b02a6`,
 
 ## Push and bundle
 
-{{PUSH}}
+`git push origin main web-fsc-4` (prompts disabled) failed for credentials: `fatal: could not read Username for 'https://github.com': terminal prompts disabled`. No credential was looked for. `origin/main` is still `1d48cc2`.
+
+**`main` is live but not on GitHub.** Production serves `main`'s tree (`f14f6b1` for every served file; the commits after it touch only `docs/web-fsc-4/`). Netlify builds and publishes GitHub `main` on every push, so nothing may push an older `main` to GitHub before this one, including a WEB-FSC-5 or WEB-FSC-6 branch cut from `1d48cc2` that has not merged this lane: that push would make Netlify rebuild and publish the old site over this one. To publish the history, from the repository with the owner's credentials: `git push origin main web-fsc-4` (a fast-forward from `1d48cc2`).
+
+Bundle of `main` and `web-fsc-4`: `_bundles/web-fsc-4-<final main sha>.bundle` in the repository root (the sha is the one in the five-line report below); `git bundle verify` passes and a clone of it checks out exactly `main`, with an identical `git archive` hash.
 
 ## Owner items
 
