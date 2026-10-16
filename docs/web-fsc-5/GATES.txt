@@ -1,4 +1,4 @@
-WEB-FSC-5 gates at HEAD 9c8a902bf9087359ff952f13ee988b996770e3d2
+WEB-FSC-5 gates at HEAD 8dd83fa6254dd889c00657ac940846d9ed42dc19
 
 === GATE 1: no served file changed
 $ git diff --name-only main...HEAD
@@ -315,7 +315,10 @@ data/markets/series/sba7a_disbursed.json
 data/markets/series/sba7a_loans.json
 data/markets/series/sba7a_volume.json
 data/markets/sources.json
+docs/web-fsc-5/CLOSE-TABLES.md
+docs/web-fsc-5/CLOSE.md
 docs/web-fsc-5/DECISIONS.md
+docs/web-fsc-5/GATES.txt
 docs/web-fsc-5/STEP0.md
 docs/web-fsc-5/compose/classes43.json
 docs/web-fsc-5/compose/foia_county_inventory.tsv
@@ -327,17 +330,21 @@ docs/web-fsc-5/compose/market_extracts.json
 docs/web-fsc-5/compose/naics-map-draft.json
 docs/web-fsc-5/fixture/houston-negative.html
 docs/web-fsc-5/fixture/index.html
+docs/web-fsc-5/gates/rederive-result.json
+docs/web-fsc-5/gates/rederive.py
 docs/web-fsc-5/gates/run_gates.py
 docs/web-fsc-5/input/WEB-FSC-5-CHARTER.md
 docs/web-fsc-5/tools/assemble_geographies.py
+docs/web-fsc-5/tools/close_tables.py
 docs/web-fsc-5/tools/foia_inventory.py
 docs/web-fsc-5/tools/foia_profile.py
+docs/web-fsc-5/tools/freeze.py
 scripts/markets.py
 scripts/markets_build.py
 scripts/markets_fetch.py
 $ git status --porcelain (paths outside the lane)
 (none)
---> GATE 1 GREEN: 333 changed path(s), all inside the lane
+--> GATE 1 GREEN: 340 changed path(s), all inside the lane
 
 === GATE 2: coverage
 series files 16; series rows 16; series files without a row: none
