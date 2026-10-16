@@ -1,5 +1,176 @@
 WEB-FSC-4 GATES
 
+Freeze 3 (final): f14f6b14d4afa1784477c1d4d5a2c4591cd40d93 | git archive sha256 c97a33e227fd5d54eba11b676293458f8f6448e735b0fa73ee58a6817aca2cb1
+Draft of freeze 3: 6ad20834bddcf24abc46238a. Production: 6ad2086d3e2479e9245b02a6 (git archive main = f14f6b1, docs/ and src/ excluded).
+Freeze 3 differs from freeze 2 by one case-index card figure (veterinary Michigan 1.50x -> 1.27x), the /Docs/* and /DOCS/* 404 rules and the decision record.
+
+## Offline gates on freeze 3 (TMPDIR=<scratch> python3 docs/web-fsc-4/tools/gates.py f14f6b1 1d48cc2)
+
+gates on HEAD = f14f6b14d4afa1784477c1d4d5a2c4591cd40d93, base 1d48cc2, trees under <scratch>/wfsc4-gates-o4a88n_4
+
+== Gate 1: Pages: GREEN
+   served HTML pages: 160 (base 160; must be 160)
+   pages without exactly one <title> outside comments: none
+   JSON-LD blocks that do not parse: none
+
+== Gate 2: Links: GREEN
+   python3 scripts/links.py --check -> exit 0
+   pending anchors by class: {"framework": 31, "hub": 131, "metro": 1285, "retired-infrastructure": 1, "state": 8, "subtype": 185}
+   0 problem(s) over 146 checked pages (14 held, data/site/hold.json)
+   broken internal anchors at base: 2720
+   broken anchors left on held WEB-FSC-6 pages (theirs to fix): 215
+
+== Gate 4: Mesh: GREEN
+   child-to-parent and note-topic edges: 237; missing reverse edge: none
+   exempt (parent is a held WEB-FSC-6 page, closed when it lands): 19
+   pages under 3 contextual inbound links (distinct non-index pages, inside <main>, no breadcrumb, no chrome): none
+     hub       n= 28  min   1 ->   4   median   5.0 ->  14.0
+     state     n= 32  min   1 ->   3   median   1.0 ->   8.0
+     case      n= 64  min   0 ->   3   median   0.0 ->   6.0
+     note      n= 19  min   0 ->   8   median   0.0 ->  33.0
+     practice  n=  4  min   1 ->   9   median  15.5 ->  58.0
+     framework n=  1  min   3 ->   4   median   3.0 ->   4.0
+   pages with a generated link set: 133; identical sets: none
+
+== Gate 5: Chrome: GREEN
+   python3 scripts/chrome.py --check -> exit 0
+   0 page(s) out of date; 14 held; 146 checked; 0 problem(s)
+
+== Gate 6: Case math: GREEN
+   rv-boat-storage-arizona-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+   rv-boat-storage-california-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+   rv-boat-storage-florida-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+   medical-office-north-carolina-sba: rerun exit 0, --check exit 0, 15% equity row present, old-tier text none
+
+== Gate 7: Dashes: GREEN
+   dashes.py check -> exit 0: 0 dash(es) left in served files outside data/site/hold.json
+   dashes left on held WEB-FSC-6 pages (theirs): 652
+   fidelity, sweep commit c21b055b: 150 served files, every word (text, attributes, JSON-LD) identical before and after: yes
+   fidelity, cross-sentence pair repairs after freeze 1: 24 pages, words identical from 5e25e47: yes
+
+== Gate 8: Names: GREEN
+   served files outside the hold carrying a ruling-10 name: none
+   held WEB-FSC-6 pages still carrying one (theirs): ['asset-classes/gas-station-and-c-store/index.html', 'case-studies/rv-boat-storage-texas-sba/index.html', 'case-studies/rv-park-texas-usda/index.html', 'case-studies/assisted-living-texas-hud/index.html']
+   links to a sister domain: none
+   this lane's commits (1d48cc2..HEAD) with a name in author, committer or message: none
+
+== Gate 9: Credentials: GREEN
+   grep -riE "otava,? *(ph\.?d|ccim|mai)" over the worktree and the built tree: nothing
+
+== Gate 10: Disclosure: GREEN
+   disclosure.py --check -> exit 0: 0 page(s) out of date; 0 misplaced
+   cases outside the hold with the box directly under the H1 and byline: 52
+
+== Gate 11: Dates: GREEN
+   indexable pages where JSON-LD dateModified, the visible line and sitemap lastmod disagree: none
+   pages whose own date moved: /case-studies/medical-office-north-carolina-sba/: 2026-10-10 -> 2026-10-16; /case-studies/rv-boat-storage-arizona-sba/: 2026-10-10 -> 2026-10-16; /case-studies/rv-boat-storage-california-sba/: 2026-10-10 -> 2026-10-16; /case-studies/rv-boat-storage-florida-sba/: 2026-10-10 -> 2026-10-16
+   moved list equals the four recomputed cases: yes
+   sitemap lastmod corrected to the page's own (unmoved) date: 31
+     /asset-classes/multifamily/: 2026-10-10 -> 2026-07-12
+     /case-studies/assisted-living-florida-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/assisted-living-hawaii-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/assisted-living-north-carolina-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/assisted-living-texas-hud/: 2026-10-10 -> 2026-07-13
+     /case-studies/behavioral-health-massachusetts-conventional/: 2026-10-10 -> 2026-07-13
+     /case-studies/grocery-store-mississippi-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/hotel-nevada-eb5/: 2026-10-10 -> 2026-07-13
+     /case-studies/meat-processing-georgia-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/meat-processing-north-carolina-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/meat-processing-texas-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-arizona-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-florida-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-georgia-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-north-carolina-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/multifamily-texas-agency/: 2026-10-10 -> 2026-07-13
+     /case-studies/rv-park-arizona-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/rv-park-maine-usda/: 2026-10-10 -> 2026-07-13
+     /case-studies/rv-park-texas-usda/: 2026-10-10 -> 2026-07-13
+     /practice-areas/conventional-institutional/: 2026-10-10 -> 2026-07-12
+     /practice-areas/eb-5/: 2026-10-10 -> 2026-07-12
+     /practice-areas/usda-rural-development/: 2026-10-10 -> 2026-07-12
+     /research-notes/absorption-forensics/: 2026-10-10 -> 2026-07-10
+     /research-notes/break-even-occupancy-trap/: 2026-10-10 -> 2026-07-10
+     /research-notes/coverage-constrained-takeout/: 2026-10-10 -> 2026-07-10
+     /research-notes/effective-rent-vs-asking-rent/: 2026-10-10 -> 2026-07-10
+     /research-notes/five-usda-components-applied/: 2026-10-10 -> 2026-07-10
+     /research-notes/gas-station-demand-per-capita/: 2026-10-10 -> 2026-07-11
+     /research-notes/how-eb-5-jobs-are-counted/: 2026-10-10 -> 2026-07-10
+     /research-notes/underserved-gas-station-markets/: 2026-10-10 -> 2026-07-11
+     /research-notes/usda-rd-deadline-calendar/: 2026-10-10 -> 2026-07-11
+
+== Gate 12: Markers: GREEN
+   python3 scripts/byline.py --check -> exit 0: out of date: 0 page(s)
+   python3 scripts/regulatory.py --check -> exit 0: 0 page(s) out of date
+   python3 scripts/mesh.py --check -> exit 0: 0 page(s) out of date; 14 held; 855 term link(s) on 132 page(s)
+   python3 scripts/links.py --check -> exit 0: 0 problem(s) over 146 checked pages (14 held, data/site/hold.json)
+   python3 scripts/chrome.py --check -> exit 0: 0 page(s) out of date; 14 held; 146 checked; 0 problem(s)
+   python3 scripts/sitemap.py --check -> exit 0: sitemap.xml up to date
+
+== Gate 14: Index all (offline): GREEN
+   indexable pages without index, follow or missing from the sitemap: none
+   sitemap URLs: 158; IndexNow key file at the root: ['db7ea828330340f8994ca82a16c48c8b.txt']
+   indexnow.py --since 1d48cc2 --dry-run -> exit 0, 145 URL(s)
+
+SUMMARY: G1=G G2=G G4=G G5=G G6=G G7=G G8=G G9=G G10=G G11=G G12=G G14=G
+
+## Served checks on the freeze 3 draft
+
+draft of freeze 3: https://6ad20834bddcf24abc46238a--splendid-cannoli-80c225.netlify.app (deploy 6ad20834bddcf24abc46238a), git archive f14f6b1 minus docs/ and src/
+/asset-classes/car-wash/                         301 /asset-classes/express-car-wash/
+/asset-classes/gas-station/                      301 /asset-classes/gas-station-and-c-store/
+/asset-classes/assisted-living/                  301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/independent-living/               301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/independent-living/x/             301 /asset-classes/assisted-living-and-memory-care/
+/asset-classes/industrial/                       404 
+/docs/web-fsc-4/DECISIONS.md                     404 
+/Docs/web-fsc-4/DECISIONS.md                     404 
+/DOCS/web-fsc-4/DECISIONS.md                     404 
+/dOcS/web-fsc-4/input/WEB-FSC-4-CHARTER.md       404 
+/DOCS/web-fsc-2/INVENTORY.csv                    404 
+/src/anything                                    404 
+/SRC/anything                                    404 
+/db7ea828330340f8994ca82a16c48c8b.txt            200 
+/api/contact                                     405 
+/sitemap.xml                                     200 
+/case-studies/                                   200 
+vet card: labor as the binding constraint, and a 1.27&times;
+
+## Production checks
+
+production checks on https://feasibility-study-company.com
+200 /case-studies/rv-boat-storage-arizona-sba/ | H1: RV & Boat Storage Feasibility Study, Arizona: An SBA 504 Worked Case | titles outside comments: 1 | equity row: 15% | IRR tile: 16%
+200 /case-studies/rv-boat-storage-california-sba/ | H1: RV & Boat Storage Feasibility Study, California: An SBA 504 Worked Case | titles outside comments: 1 | equity row: 15% | IRR tile: 30%
+200 /case-studies/rv-boat-storage-florida-sba/ | H1: RV & Boat Storage Feasibility Study, Florida: An SBA 504 Worked Case | titles outside comments: 1 | equity row: 15% | IRR tile: 25%
+200 /case-studies/medical-office-north-carolina-sba/ | H1: Medical Office & ASC Feasibility Study, North Carolina: An SBA 504 Worked Case | titles outside comments: 1 | equity row: 15% | IRR tile: 12%
+200 /states/hawaii/ | H1: Hawaii Feasibility Studies | titles outside comments: 1 | Four island counties, six markets, distinct demand fingerprints.
+200 /case-studies/truck-stop-oklahoma-sba/ | H1: Truck Stop Feasibility Study, Oklahoma: An SBA 504 Worked Case | titles outside comments: 1
+200 /asset-classes/marina/ | H1: Marina & Boat Harbor Feasibility & Market Studies | titles outside comments: 1
+200 /asset-classes/hotel/ | H1: Hotel & Hospitality Feasibility & Market Studies | titles outside comments: 1
+200 /practice-areas/sba-7a-504/ | H1: SBA Feasibility Studies | titles outside comments: 1
+200 /practice-areas/usda-rural-development/ | H1: USDA Feasibility Studies | titles outside comments: 1
+301 /asset-classes/car-wash/ -> /asset-classes/express-car-wash/ OK
+301 /asset-classes/gas-station/ -> /asset-classes/gas-station-and-c-store/ OK
+301 /asset-classes/assisted-living/ -> /asset-classes/assisted-living-and-memory-care/ OK
+301 /asset-classes/independent-living/ -> /asset-classes/assisted-living-and-memory-care/ OK
+301 /asset-classes/car-wash/x/ -> /asset-classes/express-car-wash/ OK
+404 /asset-classes/industrial/ (pending, not redirected)
+200 CTA hrefs on /case-studies/hotel-florida-sba/: ['/#contact']
+200 CTA hrefs on /states/oregon/: ['/#contact']
+200 CTA hrefs on /research-notes/trade-area-is-the-study/: ['#contact', '/#contact']
+200 CTA hrefs on /: ['#contact']
+405 /api/contact GET: {"ok":false,"error":"Method not allowed."}
+404 /docs/web-fsc-4/CLOSE.md
+404 /docs/web-fsc-4/DECISIONS.md
+404 /Docs/web-fsc-4/DECISIONS.md
+404 /DOCS/web-fsc-2/INVENTORY.csv
+404 /dOcS/web-fsc-2/CLOSE.md
+404 /src/x
+200 IndexNow key file: db7ea828330340f8994ca82a16c48c8b
+sitemap: 158 URLs live; pages whose live date differs from lastmod or that do not answer 200: none
+
+--------------------------------------------------------------------------------
+FREEZE 2 RECORD
+--------------------------------------------------------------------------------
 Freeze 2 (final): 9896628866f26d591afec42c0c8b5b8f5df419e3 | git archive sha256 1b513fe087c8a1f2d2e6893a1c30cc02d39e7e28de57ee4f274bb0c1fac34717
 Draft deploy of freeze 2: 6ad20281fa0eff51c6dc288e (https://6ad20281fa0eff51c6dc288e--splendid-cannoli-80c225.netlify.app), published from git archive 9896628 with docs/ and src/ excluded
 
