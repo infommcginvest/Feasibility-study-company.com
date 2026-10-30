@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/retail/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Retail Real Estate Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Retail Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent retail real estate feasibility and market studies: a national and metro open-air supply and absorption monitor, tenancy and co-tenancy forensics, and SBA, CMBS, and USDA loan-program authority.\">",
+   "after": "<meta name=\"description\" content=\"Feasibility Study Company, retail feasibility study consultants for owners, developers and lenders, tests tenancy, co-tenancy and lease-up before the loan.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Retail Real Estate Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Retail Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national and metro open-air retail supply and absorption monitor, the tenancy and lease-up failure forensics, and the market-study-versus-feasibility authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Feasibility Study Company, retail feasibility study consultants for owners, developers and lenders, tests tenancy, co-tenancy and lease-up before the loan.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Retail Real Estate Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Retail Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national and metro retail supply monitor, tenancy failure forensics, and SBA, CMBS, and USDA loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Feasibility Study Company, retail feasibility study consultants for owners, developers and lenders, tests tenancy, co-tenancy and lease-up before the loan.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Retail Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Retail Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for retail real estate across conventional bank, CMBS,\n        life-company, SBA, USDA, and bridge capital. This page is our standing read on why open-air\n        retail is supply-starved while department-store-anchored malls stay distressed, how tenancy\n        and lease-up forecasts fail review, and the difference between the market study, the\n        feasibility study, and the appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">In 2025 Coresight Research tracked 8,270 US store closures and 5,270 openings,<sup class=\"fn\"><a href=\"#s8\">8</a></sup> yet open-air centers stay supply-starved while department-store-anchored malls remain distressed. That split is why tenancy, co-tenancy and lease-up decide retail credit. <a href=\"/#contact\">Send Feasibility Study Company the center or the pad</a>: the firm prepares retail real estate feasibility studies for landlords, developers and the lenders on the deal, built on a trade-area market study, the rent roll and the anchor, for bank, CMBS, life-company, SBA, USDA and bridge review.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Walk us through the center</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a retail center? Start with the rent roll.</h2>",
+   "after": "<h2 id=\"h-cta\">Retail is a rent roll. Show us yours.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Retail Real Estate feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current supply, tenancy, and cap-rate data for your format and\n        trade area.\n      </p>",
+   "after": "<p>Whether the project is a grocery-anchored center, an outparcel or a single-tenant net-lease box, Feasibility Study Company tests the tenants, the co-tenancy clauses and the competing supply your lender will ask about.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Walk us through the center</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "8,270 and 5,270 [source 8], already on the page at: #thesis paragraph (\"Coresight Research counted 8,270 US store closures in 2025 against 5,270 openings\"; the sentence cites [8][9], and s8, Coresight, states both)"
+}

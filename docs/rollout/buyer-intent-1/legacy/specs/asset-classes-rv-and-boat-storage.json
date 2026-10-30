@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/rv-and-boat-storage/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>RV &amp; Boat Storage Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>RV and Boat Storage Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent RV and boat storage feasibility and market studies: a national and regional supply-and-demand monitor, lease-up and operating forensics, and SBA, USDA, and bank program authority for lenders and developers.\">",
+   "after": "<meta name=\"description\" content=\"With RV and boat storage undersupplied, Feasibility Study Company prepares feasibility studies that match format to rent, for owners, developers and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"RV &amp; Boat Storage Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"RV and Boat Storage Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national supply-and-demand monitor for a chronically undersupplied niche, the lease-up failure forensics, and the SBA, USDA, and bank authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"With RV and boat storage undersupplied, Feasibility Study Company prepares feasibility studies that match format to rent, for owners, developers and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"RV &amp; Boat Storage Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"RV and Boat Storage Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The RV and boat storage supply monitor, lease-up failure forensics, and SBA, USDA, and bank form and program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"With RV and boat storage undersupplied, Feasibility Study Company prepares feasibility studies that match format to rent, for owners, developers and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>RV &amp; Boat Storage Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>RV and Boat Storage Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for RV and boat storage across SBA 7(a) and 504, USDA\n        Rural Development B&amp;I, conventional bank, CMBS, and bridge or construction capital. This\n        page is our standing read on a market defined by chronic structural undersupply, on why\n        format, from an open gravel lot to a climate-controlled condo, drives every rate and every\n        underwriting, and on how feasibility and lease-up forecasts fail review.\n      </p>",
+   "after": "<p class=\"hero-sub\">RV and boat storage is structurally undersupplied, and new units keep arriving: RV wholesale shipments recovered toward 342,000 in 2025.<sup class=\"fn\"><a href=\"#s17\">17</a></sup> Format, from an open gravel lot to a climate-controlled condo, sets every rate a lender will accept. Feasibility Study Company prepares RV and boat storage feasibility studies for storage owners and developers and for their lenders, with a market study that documents demand density, HOA restrictions and absorption by format. <a href=\"/#contact\">Map the trade area with us</a>; the studies are prepared for SBA 7(a) and 504, USDA Rural Development, bank, CMBS and construction or bridge credit.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Size your storage market</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting an RV or boat storage project? Start with the format and the market.</h2>",
+   "after": "<h2 id=\"h-cta\">Count the boats and RVs first; the format follows.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent RV &amp; Boat Storage feasibility and market studies, built to the review standard your capital source applies. A methodology briefing covers documented demand density and HOA restrictions in your trade\n        area, the format the market will actually pay for, the absorption pace a credit committee will\n        accept, and the SBA, USDA, bank, or bridge route that fits your hold.\n      </p>",
+   "after": "<p>Feasibility Study Company counts the RVs and boats near your site, the restrictions that push them out of driveways and the competing lots, then matches the format to what that market will pay. Send the parcel and the lender.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Size your storage market</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "342,000 [source 17], already on the page at: #monitor paragraph (RVIA shipment cycle \"before recovering toward 342,000 in 2025\", [17])"
+}

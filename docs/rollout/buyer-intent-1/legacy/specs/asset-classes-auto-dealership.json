@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/auto-dealership/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Auto Dealership Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Auto Dealership Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent automobile dealership feasibility and market studies: a brand blue-sky and buy-sell monitor, floor-plan and absorption forensics, and NADA, Haig, and Kerrigan authority.\">",
+   "after": "<meta name=\"description\" content=\"Fixed operations now carry a dealership, so Feasibility Study Company builds auto dealership feasibility studies around them for dealers and floor-plan lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Auto Dealership Feasibility &amp; Market Study | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Auto Dealership Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A brand blue-sky and buy-sell monitor, the floor-plan and fixed-operations absorption failure forensics, and the market-study-versus-feasibility authority dealership lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Fixed operations now carry a dealership, so Feasibility Study Company builds auto dealership feasibility studies around them for dealers and floor-plan lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Auto Dealership Feasibility &amp; Market Study | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Auto Dealership Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The brand blue-sky and buy-sell monitor, floor-plan and absorption failure forensics, and NADA, Haig, and Kerrigan authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Fixed operations now carry a dealership, so Feasibility Study Company builds auto dealership feasibility studies around them for dealers and floor-plan lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Automobile Dealership Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Auto Dealership Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for automobile dealerships across floor-plan, blue-sky and\n        acquisition, SBA 504, conventional real-estate, net-lease, and subprime-finance capital. This\n        page is our standing read on why the floor-plan lien defines every dealership credit, how\n        blue-sky and fixed-operations absorption forecasts fail review, and the difference between the\n        market study, the feasibility study, and the appraisal a dealership file requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">What carries a dealership once new-car gross normalizes? In 2024 average gross profit per new vehicle fell to $2,247,<sup class=\"fn\"><a href=\"#s2\">2</a></sup> so Feasibility Study Company builds its <a href=\"/#contact\">auto dealership feasibility studies</a> around fixed operations, F&amp;I and used vehicles. We prepare them, market study included, for dealer owners, buyers and developers and for the floor-plan, SBA 504, conventional real-estate and net-lease lenders who finance the store. Each one sets out the blue-sky evidence, the floor-plan lien and service absorption in terms a credit committee can check.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Talk through the buy-sell</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a dealership acquisition? Start with the brand and the floor plan.</h2>",
+   "after": "<h2 id=\"h-cta\">A dealership loan is a floor-plan decision before it is a real-estate one.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Auto Dealership feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current blue-sky, absorption, and floor-plan data for your brand and\n        market.\n      </p>",
+   "after": "<p>Feasibility Study Company starts from the franchise agreement, the floor-plan terms and the registrations in your market. Say whether this is a buy-sell, an open point or a relocation, and which lender is reading the file, and the scope of the study follows from that.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Talk through the buy-sell</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "$2,247 [source 2], already on the page at: stat band (\"2024 average gross per new vehicle, down 33%\", [2]) and #thesis (\"fell 33.0 percent in 2024 to $2,247\", [2])"
+}

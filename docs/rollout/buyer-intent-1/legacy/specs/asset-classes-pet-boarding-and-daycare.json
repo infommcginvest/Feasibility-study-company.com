@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/pet-boarding-and-daycare/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Pet Boarding &amp; Daycare Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Pet Boarding Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent pet boarding, doggy daycare, and grooming feasibility and market studies: a national demand monitor, ramp-up and occupancy forensics, going-concern valuation, and SBA and USDA authority.\">",
+   "after": "<meta name=\"description\" content=\"Daycare and boarding earn differently; Feasibility Study Company projects both in its pet boarding feasibility studies for kennel owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Pet Boarding &amp; Daycare Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Pet Boarding Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national pet-care demand monitor, the ramp-up and occupancy failure forensics, going-concern valuation, and the SBA, USDA, and conventional authority lenders rely on for pet boarding, daycare, and grooming.\">",
+   "after": "<meta property=\"og:description\" content=\"Daycare and boarding earn differently; Feasibility Study Company projects both in its pet boarding feasibility studies for kennel owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Pet Boarding &amp; Daycare Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Pet Boarding Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national pet-care demand monitor, ramp-up and occupancy failure forensics, going-concern valuation, and SBA and USDA form authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Daycare and boarding earn differently; Feasibility Study Company projects both in its pet boarding feasibility studies for kennel owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Pet Boarding, Daycare &amp; Grooming Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Pet Boarding and Daycare Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for pet boarding kennels, doggy daycare, grooming, and\n        integrated pet-care facilities across SBA 7(a) and 504, USDA Business and Industry,\n        conventional bank, specialty, and bridge capital. This page is our standing read on how the\n        dual recurring-daycare-versus-episodic-boarding revenue model works, how ramp-up and\n        occupancy forecasts fail review, and the difference between the market study, the feasibility\n        study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Daycare brings recurring weekday revenue and boarding brings episodic holiday peaks, so each pet boarding and daycare feasibility study models both through the ramp to stabilized occupancy. Feasibility Study Company writes them for kennel owners, developers and their lenders, each starting from a market study of the households nearby. The scope covers kennels, doggy daycare, grooming and integrated pet resorts, a field IBISWorld counted at 169,481 businesses, up from 162,802 in 2024.<sup class=\"fn\"><a href=\"#s1\">1</a></sup> <a href=\"/#contact\">Tell us about the facility</a>, and the study will be framed for a 7(a) or 504 loan, a USDA Business and Industry loan, or specialty, bank or bridge credit.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Tell us about your pet facility</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a pet-care facility? Start with the ramp curve.</h2>",
+   "after": "<h2 id=\"h-cta\">Talk to the consultants before the kennel plans are final.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Pet Boarding &amp; Daycare feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current demand, ramp, and going-concern valuation data for your\n        format and trade area.\n      </p>",
+   "after": "<p>Run sizes, play yards and staffing shape both revenue streams. Send the site, the services planned and the lender, and Feasibility Study Company will describe the demand and ramp work the study would include.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Tell us about your pet facility</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "162,802 [source 1], already on the page at: #monitor paragraph (IBISWorld \"across 169,481 businesses, up 4.1 percent from 162,802 in 2024\", [1])"
+}

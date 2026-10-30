@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/medical-office-and-asc/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Medical Office &amp; ASC Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Medical Office Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent medical office (MOB) and ASC feasibility and market studies: a national medical-office supply and demand monitor, the going-concern practice versus income-producing real-estate distinction, and SBA 7(a), 504, USDA, CMBS, and life-company authority.\">",
+   "after": "<meta name=\"description\" content=\"A practice is valued on cash flow, a medical office building on its leases; Feasibility Study Company models each basis for physician owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Medical Office &amp; ASC Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Medical Office Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national medical-office supply and demand monitor, the going-concern practice versus MOB real-estate forensics, and the SBA, USDA, CMBS, and life-company authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"A practice is valued on cash flow, a medical office building on its leases; Feasibility Study Company models each basis for physician owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Medical Office &amp; ASC Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Medical Office Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national medical-office supply monitor, practice-versus-MOB forensics, and SBA 7(a), 504, USDA, CMBS, and life-company authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"A practice is valued on cash flow, a medical office building on its leases; Feasibility Study Company models each basis for physician owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Medical Office &amp; ASC Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Medical Office and ASC Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for medical office buildings, ambulatory surgery centers,\n        and dental, veterinary, and physician practices across SBA 7(a) and 504, USDA, conventional\n        bank, CMBS, life-company, and agency capital. This page is our standing read on the one\n        distinction that governs the asset class, the going-concern practice valued on cash flow\n        versus the income-producing medical building valued on net operating income, how each fails\n        review, and the demographic and outpatient tailwind underneath both.\n      </p>",
+   "after": "<p class=\"hero-sub\"><a href=\"/#contact\">Tell us first</a> whether you are financing a practice, a surgery center or a medical office building: the asset class turns on that line. A practice or ASC is an operating business valued on its cash flow; a medical office building is real estate, valued on the net operating income its leases produce. Feasibility Study Company prepares medical office and ASC feasibility studies on the right basis, market study included, for physician owners, developers and their lenders across SBA 7(a) and 504, USDA, banks, CMBS, life companies and agencies. On the real-estate side, triple-net asking rent set a record at $24.86 a square foot in 2024's second quarter,<sup class=\"fn\"><a href=\"#s7\">7</a></sup> and the study tests whether your tenants can carry rent at that level.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a medical office study</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a practice or a medical building? Start with the basis.</h2>",
+   "after": "<h2 id=\"h-cta\">Whether you own the practice or the walls decides the study.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Medical Office &amp; ASC feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the going-concern-versus-real-estate distinction, the\n        deliverable your capital source requires, and the current supply, demand, and consolidation\n        data for your segment and market.\n      </p>",
+   "after": "<p>Feasibility Study Company asks two things first: who owns the operating business, and who owns the walls. Send the specialty, the site and the lender.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Request a medical office study</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "$24.86 [source 7], already on the page at: #monitor paragraph (\"triple-net asking rent set records at $24.86 per square foot in the second quarter of 2024\"; the sentence cites [7][8], and s7, CBRE Q3 2024, states it); also the monitor table's CBRE note"
+}

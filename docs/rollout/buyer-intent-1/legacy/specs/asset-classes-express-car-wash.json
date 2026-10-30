@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/express-car-wash/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Car Wash Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Car Wash Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent car wash feasibility and market studies: a national and metro supply-and-demand monitor, membership-ramp and cannibalization forensics, and SBA 7(a)/504, USDA, conventional, and bridge loan-program authority for a going-concern asset.\">",
+   "after": "<meta name=\"description\" content=\"Every car wash carries two values; Feasibility Study Company's car wash feasibility studies keep them apart for owners, developers and their lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Car Wash Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Car Wash Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national and metro car-wash supply-and-demand monitor, the membership-ramp and cannibalization failure forensics, and the going-concern, SBA, and USDA authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Every car wash carries two values; Feasibility Study Company's car wash feasibility studies keep them apart for owners, developers and their lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Car Wash Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Car Wash Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national and metro car-wash supply monitor, membership-ramp failure forensics, and SBA 7(a)/504, USDA, and going-concern authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Every car wash carries two values; Feasibility Study Company's car wash feasibility studies keep them apart for owners, developers and their lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Car Wash Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Car Wash Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for car-wash real estate and operations across SBA 7(a)\n        and 504, USDA Business &amp; Industry, conventional bank, and bridge capital. This page is our\n        standing read on why the express sector moved from a 2019-2023 land-grab into a\n        2024-2026 consolidation and shakeout, how membership, ramp, and cannibalization\n        forecasts fail review, and the difference between the market study, the feasibility study, and\n        the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Every express wash carries two values: the going concern built on memberships, and the leased-fee building, where the average net-lease cap rate was 6.26 percent in December 2025.<sup class=\"fn\"><a href=\"#s9\">9</a></sup> Feasibility Study Company prepares <a href=\"/#contact\">car wash feasibility studies</a> that keep those values apart, for owners and developers and for their lenders, whether the money is SBA, USDA Business and Industry, bank or bridge. A market study maps competing tunnels and cannibalization, then the study sets the membership ramp and churn and tests coverage in the ramp year.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Share your wash site</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a car wash? Start with the membership base.</h2>",
+   "after": "<h2 id=\"h-cta\">Is the value in the tunnel or in the memberships?</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Car Wash feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current supply, membership, and cap-rate data for your format and\n        trade area, with the ramp-year coverage that decides the loan.\n      </p>",
+   "after": "<p>Lenders now ask how many members a new tunnel can hold against the washes already open nearby. Feasibility Study Company answers that first; share the site, the format and the lender.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Share your wash site</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "6.26 percent [source 9], already on the page at: stat band (\"Average net-lease (leased-fee) car-wash cap rate, December 2025\", [9]) and #monitor (B+E, \"a 6.26 percent average cap rate\", [9])"
+}

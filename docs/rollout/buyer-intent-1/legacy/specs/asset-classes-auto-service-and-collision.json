@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/auto-service-and-collision/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Auto Service &amp; Collision Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Auto Service Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent auto service and collision feasibility and market studies: a going-concern demand monitor, ramp-up, technician-supply, and DRP forensics, and SBA 7(a)/504, USDA, and environmental authority for automotive repair.\">",
+   "after": "<meta name=\"description\" content=\"Bay count means little without technicians; Feasibility Study Company ties auto service feasibility studies to staffing, for shop owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Auto Service &amp; Collision Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Auto Service Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national going-concern demand monitor for automotive repair and collision, ramp-up and DRP failure forensics, and the market-study-versus-feasibility-versus-appraisal authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Bay count means little without technicians; Feasibility Study Company ties auto service feasibility studies to staffing, for shop owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Auto Service &amp; Collision Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Auto Service Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The auto-service and collision going-concern monitor, ramp-up and DRP failure forensics, and SBA 7(a)/504, USDA, and environmental authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Bay count means little without technicians; Feasibility Study Company ties auto service feasibility studies to staffing, for shop owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Auto Service &amp; Collision Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Auto Service and Collision Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for automotive repair and collision across SBA 7(a) and\n        504, USDA Business &amp; Industry, conventional bank and equipment, and bridge capital. This\n        page is our standing read on why a record-old vehicle fleet is a durable demand tailwind, how\n        ramp-up, staffing, and DRP forecasts fail review, why the EV and ADAS transition splits\n        sharply by sub-model, and the difference between the market study, the feasibility study, and\n        the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">General repair, collision, quick lube and tire shops share one constraint: technicians, more than customer demand, cap how many hours a shop can bill, and TechForce Foundation put the need at roughly 971,000 transportation technicians from 2024 through 2028.<sup class=\"fn\"><a href=\"#s5\">5</a></sup> Feasibility Study Company writes auto service and collision feasibility studies for <a href=\"/#contact\">shop owners</a>, developers and their lenders, and the market study is the first chapter of each. The study ties bay count, ramp and DRP volume to staffing and the sub-model, then tests coverage for lenders using SBA 7(a) or 504, USDA rural credit, a bank line or equipment finance.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Describe your shop</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting an auto-service deal? Start with the cash flow.</h2>",
+   "after": "<h2 id=\"h-cta\">How many technicians can this shop actually hire?</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Auto Service &amp; Collision feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the going-concern framework, the deliverable your capital\n        source requires, and the current demand, staffing, technology, and valuation data for your\n        sub-model and trade area.\n      </p>",
+   "after": "<p>Share the address, the bay count, the sub-model and any insurer or DRP relationships. Feasibility Study Company will outline the staffing, ramp and coverage tests, and name the lender it is being written for.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Describe your shop</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "971,000 [source 5], already on the page at: #monitor, \"The technician gap caps throughput\" paragraph (\"TechForce Foundation estimated roughly 971,000 transportation technicians needed from 2024 through 2028\", [5])"
+}

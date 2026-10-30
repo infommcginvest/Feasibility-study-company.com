@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/funeral-home/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Funeral Home &amp; Deathcare Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Funeral Home Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent funeral home and deathcare feasibility and going-concern studies: a national and regional deathcare demand monitor, cremation-shift and preneed forensics, and SBA 7(a), USDA B&amp;I, and going-concern valuation authority.\">",
+   "after": "<meta name=\"description\" content=\"You are buying a name, a call count and a preneed book: Feasibility Study Company's funeral home feasibility studies test all three for owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Funeral Home &amp; Deathcare Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Funeral Home Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national and regional deathcare demand monitor, the cremation-shift and preneed failure forensics, and the market-study-versus-going-concern-appraisal authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"You are buying a name, a call count and a preneed book: Feasibility Study Company's funeral home feasibility studies test all three for owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Funeral Home &amp; Deathcare Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Funeral Home Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national and regional deathcare demand monitor, cremation and preneed failure forensics, and SBA 7(a) and going-concern appraisal authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"You are buying a name, a call count and a preneed book: Feasibility Study Company's funeral home feasibility studies test all three for owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Funeral Home &amp; Deathcare Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Funeral Home Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, going-concern analysis for funeral homes, crematories, and cemeteries across\n        SBA 7(a), SBA 504, conventional and specialty deathcare, and USDA rural capital. This page is\n        our standing read on how the cremation shift compresses revenue per call, why heritage goodwill\n        and preneed backlogs drive value, and the difference between the market study, the feasibility\n        study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Funeral homes, crematories and cemeteries draw on one market and run on very different economics. Feasibility Study Company prepares their <a href=\"/#contact\">feasibility studies</a>, each grounded in a regional market study, for owners, successors, buyers, developers and the lenders who finance them. The NFDA tally stands at 15,401 US funeral homes,<sup class=\"fn\"><a href=\"#s1\">1</a></sup> most of them family- or privately owned, so many files are acquisitions in which heritage goodwill and the preneed backlog carry the value. The study projects call volume as cremation compresses revenue per call, and tests a going-concern purchase for SBA 7(a) and 504, specialty deathcare, bank and USDA rural lenders.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Ask about a funeral home study</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Acquiring a funeral home or cemetery? Start with the going-concern read.</h2>",
+   "after": "<h2 id=\"h-cta\">Where a funeral home study starts: the call count and the goodwill.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Funeral Home &amp; Deathcare feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current cremation, preneed, and valuation data for your market and\n        sub-type.\n      </p>",
+   "after": "<p>Successions and acquisitions turn on how many families a firm serves and how much of its value is name and preneed. Send the call history or the planned site, and Feasibility Study Company will outline the study and the lender it fits.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Ask about a funeral home study</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "15,401 [source 1], already on the page at: #monitor paragraph (\"NFDA counts 15,401 funeral homes operating in the United States\", [1])"
+}

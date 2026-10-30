@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/behavioral-health/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Behavioral Health &amp; SUD Treatment Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Behavioral Health Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent behavioral health and SUD treatment feasibility and market studies: the out-of-network collapse and reimbursement monitor, IMD 16-bed and Section 1115 waiver gating, EKRA and compliance forensics, and going-concern valuation authority.\">",
+   "after": "<meta name=\"description\" content=\"Who pays decides a treatment center's loan, and Feasibility Study Company's behavioral health feasibility studies start there, for operators and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Behavioral Health &amp; SUD Treatment Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Behavioral Health Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"The out-of-network collapse monitor, the IMD 16-bed and Section 1115 waiver gate, EKRA and compliance forensics, and the going-concern valuation authority lenders rely on for behavioral health and addiction-treatment facilities.\">",
+   "after": "<meta property=\"og:description\" content=\"Who pays decides a treatment center's loan, and Feasibility Study Company's behavioral health feasibility studies start there, for operators and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Behavioral Health &amp; SUD Treatment Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Behavioral Health Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The out-of-network collapse and reimbursement monitor, the IMD 16-bed and Section 1115 waiver gate, EKRA and compliance forensics, and going-concern valuation authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Who pays decides a treatment center's loan, and Feasibility Study Company's behavioral health feasibility studies start there, for operators and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Behavioral Health &amp; SUD Treatment Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Behavioral Health Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for behavioral health and substance-use-disorder treatment\n        facilities across SBA, conventional and specialty-healthcare, private-credit, HUD-FHA, and\n        USDA capital. This page is our standing read on why the out-of-network billing model collapsed,\n        how the IMD 16-bed threshold and Section 1115 waiver status gate residential Medicaid revenue,\n        how de-novo and acquisition underwriting fails review, and the difference between the market\n        study, the feasibility study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">The need for treatment is not the open question; payment is. Overdose deaths fell to an estimated 80,391 in 2024,<sup class=\"fn\"><a href=\"#s3\">3</a></sup> the out-of-network billing model has collapsed, and residential revenue now turns on in-network, Medicaid and opioid treatment program payers. Feasibility Study Company prepares behavioral health and substance use treatment feasibility studies for <a href=\"/#contact\">operators and developers</a> and the lenders who fund them, with a market study that starts from those payers. Each one models revenue by payer class and tests the IMD 16-bed threshold, Section 1115 waiver status and compliance exposure. The studies fit SBA, specialty healthcare, private credit, HUD-FHA and USDA files.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Map the payer mix</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a treatment facility? Start with the payer and regulatory read.</h2>",
+   "after": "<h2 id=\"h-cta\">No payer contract, no loan.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Behavioral Health &amp; SUD Treatment feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, the IMD and Section 1115 posture for your market, and the collected-revenue,\n        LOS, and compliance data that decide whether a project pencils.\n      </p>",
+   "after": "<p>That is why the revenue question comes first. Send the license type, the state and the payers you expect to contract with; Feasibility Study Company will set out how the study would test that revenue and what a lender in your program looks for.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Map the payer mix</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "80,391 [source 3], already on the page at: #monitor paragraph (\"overdose deaths fell to an estimated 80,391 in 2024, down 26.9 percent from 110,037 in 2023\", [3]); the stat band carries the 26.9% drop [3]"
+}

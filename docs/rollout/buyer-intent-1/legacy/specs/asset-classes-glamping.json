@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/glamping/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Glamping &amp; Outdoor Hospitality Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Glamping Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent glamping and outdoor-hospitality-resort feasibility and market studies: a national demand monitor, a destination and regional matrix, ramp-up and operating forensics, and SBA, USDA B&amp;I, conventional, and bridge loan-program authority.\">",
+   "after": "<meta name=\"description\" content=\"Off-season cash flow and entitlements come first in glamping feasibility studies from Feasibility Study Company, for resort owners, developers and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Glamping &amp; Outdoor Hospitality Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Glamping Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national glamping demand monitor, a destination and regional matrix, ramp-up and seasonality forensics, and the going-concern, SBA, USDA B&amp;I, conventional, and bridge authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Off-season cash flow and entitlements come first in glamping feasibility studies from Feasibility Study Company, for resort owners, developers and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Glamping &amp; Outdoor Hospitality Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Glamping Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national glamping demand monitor, destination matrix, ramp-up and seasonality forensics, and going-concern, SBA, USDA B&amp;I, and bridge loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Off-season cash flow and entitlements come first in glamping feasibility studies from Feasibility Study Company, for resort owners, developers and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Glamping &amp; Outdoor Hospitality Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Glamping Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for glamping and outdoor-hospitality resorts across SBA\n        7(a) and 504, USDA Business &amp; Industry, conventional bank, and bridge capital. This page is\n        our standing read on a going-concern outdoor-hospitality hybrid that is neither passive real\n        estate nor a simple hotel: where demand and supply actually stand, why projects die in\n        entitlement and off-season cash-flow gaps, and the difference between the market study, the\n        feasibility study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">The off-season is where a glamping resort has to cover its debt. Feasibility Study Company prepares glamping and outdoor hospitality feasibility studies for <a href=\"/#contact\">owners and developers</a>, and for lenders using SBA, the USDA Business and Industry program, a bank or bridge money. A glamping resort is neither passive real estate nor a simple hotel, and projects most often die in entitlement or in off-season cash-flow gaps. Demand is broad, with a record 183.2 million U.S. outdoor participants in 2025,<sup class=\"fn\"><a href=\"#s4\">4</a></sup> but each study's destination market study prices nights, seasonality and unit mix for one place.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Scope a glamping study</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a glamping resort? Start with the entitlements.</h2>",
+   "after": "<h2 id=\"h-cta\">Let the off-season set the loan size.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Glamping &amp; Outdoor Hospitality feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current demand, ADR, seasonality, and cap-rate data for your\n        destination and unit type.\n      </p>",
+   "after": "<p>A resort that fills all summer still has a payment due in February. Feasibility Study Company starts with seasonality, entitlements and the pull of the destination; send the acreage and the unit plan.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Scope a glamping study</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "183.2 million [source 4], already on the page at: #monitor paragraph (\"a record 181.1 million U.S. outdoor participants in 2024 updated to 183.2 million in 2025\"; the sentence cites [3][4], and s4, Outdoor Industry Association, states the figure)"
+}
