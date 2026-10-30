@@ -1,0 +1,519 @@
+{
+ "slug": "medical-office-lebanon-tennessee-sba",
+ "page": "/case-studies/medical-office-lebanon-tennessee-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": true,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 37,
+  "fees": 38,
+  "prime": 39
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "surgery center",
+  "count": 1
+ },
+ "inputs": {
+  "land_acres": {
+   "value": 4.0,
+   "fmt": "n1",
+   "label": "Land area, acres (hypothetical site in the South Hartmann medical corridor)",
+   "assumption": "A round hypothetical site of about four acres: room for a two-story building of the size below, surface parking for a surgery center and a medical office, and a stormwater area. The research holds land listings in the corridor, but a listing's acreage is a property attribute, not a market figure, so the study sizes the site from the building and not from any listing. The site plan, not this study, fixes the parking count."
+  },
+  "land_per_acre": {
+   "value": 400000,
+   "fmt": "$",
+   "label": "Land cost per acre",
+   "assumption": "The research holds only broker listings for corridor land, and an asking price is not a sale. The study carries a round $400,000 an acre as a planning figure; the appraisal and an executed land contract replace it."
+  },
+  "bldg_sf": {
+   "value": 22500,
+   "fmt": "n",
+   "label": "Building, gross square feet",
+   "assumption": "A round size for a two-story building that holds the surgery center and a medical office wing. The only comparable size in the research is the state filing for the newest competitor, a two-operating-room center [^6]; the subject is larger because it carries a leased office wing. The size is a design assumption, not a market observation."
+  },
+  "asc_sf": {
+   "value": 14000,
+   "fmt": "n",
+   "label": "Surgery center area within the building, square feet",
+   "assumption": "A round size for two operating rooms, one procedure room, pre-operative and recovery bays, sterile processing, a pharmacy closet and business offices, which is the room mix in the state filing for the newest competitor [^6]. About five eighths of the building is the borrower's own, which is the share the program's owner-occupancy test for a new building asks the operating borrower to occupy."
+  },
+  "bldg_psf": {
+   "value": 280,
+   "fmt": "$",
+   "label": "Building hard cost per square foot, shell and medical office finish",
+   "assumption": "No Lebanon construction cost, and no cost index against the national level, was found. The study carries a round $280 a square foot for the whole building as a medical-office shell and finish, with the surgery center's extra cost priced separately below. A contractor bid replaces it."
+  },
+  "asc_extra_psf": {
+   "value": 220,
+   "fmt": "$",
+   "label": "Surgery center premium per square foot, over the office finish",
+   "assumption": "The extra cost of operating rooms: medical gas, positive-pressure air handling, power and backup power, sterile processing, finishes and shielding. No Lebanon or Tennessee surgery center cost was found; the 2022 bid record for a competitor's renovation is a single project of a different type [^18]. A round allowance, replaced by a contractor bid."
+  },
+  "sitework": {
+   "value": 900000,
+   "fmt": "$",
+   "label": "Site work, paving, utility taps, lighting and signage",
+   "assumption": "An allowance for a four-acre site on an arterial corridor. The research found a water tap schedule and a capacity-fee increase but no commercial capacity fee [^25,26], so the allowance carries the paving, drainage, lighting, signage and any line extension. No utility territory was confirmed for the site."
+  },
+  "contingency_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Six percent of building, surgery center premium and site work, a round allowance for a priced but unbid medical project."
+  },
+  "soft": {
+   "value": 1100000,
+   "fmt": "$",
+   "label": "Design, engineering, survey, Phase I, permits, certificate-of-need counsel and legal",
+   "assumption": "Allowance. It covers the architect and engineers, the survey and a Phase I environmental assessment, city plan review and permits [^23,27], state licensure filings [^21], the certificate-of-need application and loan-closing legal work. The research found no application fee and no consultant cost, so the figure is round."
+  },
+  "asc_equip": {
+   "value": 2600000,
+   "fmt": "$",
+   "label": "Surgical equipment: tables, lights, scopes, anesthesia machines, sterile processing",
+   "assumption": "Allowance for two operating rooms, a procedure room, recovery bays and a sterile processing department. No equipment quote or vendor price was found; the 2022 bid record for a competitor's renovation does not break equipment out [^18]. A vendor quote replaces it."
+  },
+  "ffe_it": {
+   "value": 500000,
+   "fmt": "$",
+   "label": "Furniture, fixtures, signage, network and electronic records systems",
+   "assumption": "Allowance for waiting and registration areas, offices, network, a surgery scheduling and records system and signage."
+  },
+  "preopen": {
+   "value": 400000,
+   "fmt": "$",
+   "label": "Pre-opening: licensure, accreditation, payer credentialing, hiring and training",
+   "assumption": "Allowance. Staff are hired and trained before the first case, and payer credentialing and accreditation run ahead of revenue. The licensure application form carries its own steps [^21]; the research found no credentialing timeline, so the figure is round and the reserve below carries the real exposure."
+  },
+  "working_capital": {
+   "value": 1100000,
+   "fmt": "$",
+   "label": "Working capital and ramp reserve",
+   "assumption": "Roughly four months of Year 2 operating cost, to fund the gap between paying clinical staff and collecting from payers during the ramp. The research holds no days-in-receivables figure for the market."
+  },
+  "cases": {
+   "value": [
+    1000,
+    1900,
+    2400,
+    2600,
+    2700
+   ],
+   "fmt": "n",
+   "label": "Surgical cases per year",
+   "assumption": "No facility in the research publishes case volume; the only volume figures are a hospital's 2017 surgery count [^11] and the room counts in the newest competitor's state filing [^6]. The study ramps a newcomer with two operating rooms and a procedure room to 2,400 cases in Year 3 and 2,700 by Year 5, a modest turnover of its rooms in a county of 175,033 residents [^1]. It also assumes the certificate of need is in hand before the first case [^19]. A referral-source and physician-commitment study should replace it."
+  },
+  "net_per_case": {
+   "value": 2500,
+   "fmt": "$",
+   "label": "Net facility revenue collected per case",
+   "assumption": "The research holds no payer mix, no allowed amounts and no collection rate, and no operator posts a price. The only prices found are a third-party marketplace's cash prices for one competitor's endoscopy services, which are undated and are not printed. The study carries a round $2,500 net collected per case across orthopaedic, ENT, spine, pain and GI work, the specialties one physician-owned competitor lists [^17], blended across payers. The payer mix is the largest unknown in the model and a lender condition. A 2024 amendment also conditions licensure of a non-hospital center on TennCare participation at a level comparable to hospital-based centers [^20], which pulls the blend down."
+  },
+  "leased_sf": {
+   "value": 8500,
+   "fmt": "n",
+   "label": "Medical office wing leased to outside physician tenants, square feet",
+   "assumption": "The part of the building that is not the surgery center. It is leased to independent physician practices, which keeps the borrower's own occupancy above the program's owner-occupancy test for a new building (set out in the loan section). No tenant is signed in this study."
+  },
+  "rent_psf": {
+   "value": 28,
+   "fmt": "$",
+   "label": "Medical office rent, dollars per square foot per year",
+   "assumption": "A round planning rent. The research holds asking rents from lease listings in the town, none of them a signed lease; they were read from a listing site in October 2026, which does not date them, so they are not printed. The listings differ by a wide margin and this figure sits inside their spread. A broker opinion and signed leases replace it."
+  },
+  "lease_up": {
+   "value": [
+    0.35,
+    0.7,
+    0.9,
+    0.93,
+    0.95
+   ],
+   "fmt": "%",
+   "label": "Share of the leased wing occupied by tenants, each year",
+   "assumption": "A new medical office wing leases up while the surgery center opens and physicians relocate. Lease listings in the town include established buildings and a new clinic building, so a newcomer would be chasing tenants alongside existing supply. The ramp is a planning assumption."
+  },
+  "clin_fte": {
+   "value": [
+    10,
+    12,
+    13,
+    14,
+    14
+   ],
+   "fmt": "n",
+   "label": "Clinical full-time equivalents: nurses, surgical technologists, sterile processing",
+   "assumption": "The study staffs a two-room center with a procedure room at 13 full-time equivalents by Year 3. No competitor publishes a staffing ratio, so the figure is a planning assumption."
+  },
+  "clin_wage": {
+   "value": 74000,
+   "fmt": "$",
+   "label": "Average clinical salary, before payroll costs",
+   "assumption": "A round blended planning wage for registered nurses, technologists and sterile processing technicians. No Lebanon wage figure is in the research; a local wage survey replaces it."
+  },
+  "admin_payroll": {
+   "value": 380000,
+   "fmt": "$",
+   "label": "Administrator, business office and scheduling payroll, before payroll costs",
+   "assumption": "A center administrator, a clinical director and about four business office staff, as one allowance. A market salary is charged even when an owner fills a role, so earnings are not inflated by unpaid owner labor."
+  },
+  "med_director": {
+   "value": 60000,
+   "fmt": "$",
+   "label": "Medical director fee, per year",
+   "assumption": "A flat allowance for physician oversight and credentialing committee work. Tennessee licensure requirements for the role were not confirmed in the research [^21]."
+  },
+  "burden": {
+   "value": 0.2,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package; no Tennessee figure was in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year; no inflation series is in the research. Revenue per case and rent per square foot are held flat, so the model does not assume that payers or tenants pay more each year."
+  },
+  "supplies_pct": {
+   "value": 0.21,
+   "fmt": "%",
+   "label": "Surgical supplies, implants and drugs, share of surgery center revenue",
+   "assumption": "A round share of facility revenue for implants, sutures, drugs and disposables. Orthopaedic cases carry heavy implant cost, and a physician-owned competitor lists orthopaedics and other implant-heavy work [^17]. No Tennessee supply cost figure was found."
+  },
+  "billing_pct": {
+   "value": 0.04,
+   "fmt": "%",
+   "label": "Billing, coding and collections service, share of surgery center revenue",
+   "assumption": "A round share of facility revenue for outsourced billing and coding."
+  },
+  "insurance": {
+   "value": 110000,
+   "fmt": "$",
+   "label": "Professional, general and property liability insurance",
+   "assumption": "Allowance for a two-room surgery center and a medical office building. A broker's quote replaces it."
+  },
+  "utilities": {
+   "value": 160000,
+   "fmt": "$",
+   "label": "Utilities",
+   "assumption": "Allowance for electric, gas, water and sewer on a building with operating-room air handling. Which providers serve the site was not confirmed [^25,26]."
+  },
+  "it_software": {
+   "value": 95000,
+   "fmt": "$",
+   "label": "Records system, scheduling software, phones and internet",
+   "assumption": "Allowance, per year."
+  },
+  "marketing": {
+   "value": 70000,
+   "fmt": "$",
+   "label": "Marketing, referral outreach and physician recruitment",
+   "assumption": "Allowance, per year. A newcomer beside a system-owned center that has a hospital referral network has to buy its visibility [^13,14]."
+  },
+  "service": {
+   "value": 130000,
+   "fmt": "$",
+   "label": "Equipment service contracts, linen, waste and sterilization supplies",
+   "assumption": "One allowance for the recurring service costs that surgical equipment and a sterile processing department bring."
+  },
+  "repairs_admin": {
+   "value": 180000,
+   "fmt": "$",
+   "label": "Repairs, janitorial, accreditation, licences, accounting and other administration",
+   "assumption": "One allowance for the small recurring costs of a surgery center and an office wing: cleaning, repairs, licences, accreditation fees, the accountant."
+  },
+  "tax_rate": {
+   "value": 0.011,
+   "fmt": "%2",
+   "label": "Property tax, share of land, building and site cost",
+   "assumption": "A planning level of about one percent of cost. The research holds county and city rates for tax year 2025 [^28,29], a county certified rate for FY2026-27 [^30] and estimates for 2026 after a reappraisal [^31], but no commercial assessment ratio and no adopted city rate, so the combined levy on the site cannot be computed. The actual levy is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Replacement reserve, share of equipment and fixture cost per year",
+   "assumption": "Funds replacement of surgical equipment and fixtures over a long cycle."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^37] plus a half point for a start-up surgery center. No published 2026 bank terms for medical real estate in Wilson County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. The bank may require a shorter term on a special purpose property, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.0697,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "source": [
+    34
+   ]
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, about 4 acres in the medical corridor",
+   "expr": "land_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "acres x assumed price per acre"
+  },
+  {
+   "key": "building",
+   "label": "Building, 22,500 sq ft, office finish",
+   "expr": "bldg_sf * bldg_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed hard cost"
+  },
+  {
+   "key": "asc_premium",
+   "label": "Surgery center premium, 14,000 sq ft",
+   "expr": "asc_sf * asc_extra_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed premium"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, paving, utility taps and signage",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance [^25,26]"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * bldg_psf + asc_sf * asc_extra_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "6% of building and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits, CON counsel and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance [^21,23]"
+  },
+  {
+   "key": "asc_equip",
+   "label": "Surgical equipment",
+   "expr": "asc_equip",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "ffe_it",
+   "label": "Furniture, fixtures and systems",
+   "expr": "ffe_it",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening, licensure and credentialing",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance [^21]"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital and ramp reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about four months of Year 2 operating cost"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "asc",
+   "label": "Surgery center facility revenue",
+   "expr": "cases * net_per_case",
+   "basis": "cases x net revenue per case"
+  },
+  {
+   "key": "rent",
+   "label": "Medical office rent",
+   "expr": "leased_sf * rent_psf * lease_up",
+   "basis": "leased sq ft x rent x occupancy"
+  }
+ ],
+ "cost_of_sales": [],
+ "opex": [
+  {
+   "key": "clinical",
+   "label": "Clinical payroll with costs",
+   "expr": "clin_fte * clin_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x wage"
+  },
+  {
+   "key": "admin",
+   "label": "Administration payroll with costs",
+   "expr": "admin_payroll * (1 + burden) * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "director",
+   "label": "Medical director fee",
+   "expr": "med_director * (1 + inflation) ** y",
+   "basis": "flat allowance"
+  },
+  {
+   "key": "supplies",
+   "label": "Surgical supplies, implants and drugs",
+   "expr": "rev_asc * supplies_pct",
+   "basis": "share of facility revenue"
+  },
+  {
+   "key": "billing",
+   "label": "Billing and collections service",
+   "expr": "rev_asc * billing_pct",
+   "basis": "share of facility revenue"
+  },
+  {
+   "key": "insurance",
+   "label": "Liability and property insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance [^25,26]"
+  },
+  {
+   "key": "it",
+   "label": "Records system and software",
+   "expr": "it_software * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "marketing",
+   "label": "Marketing and physician outreach",
+   "expr": "marketing * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "service",
+   "label": "Equipment service, linen and waste",
+   "expr": "service * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "admin2",
+   "label": "Repairs, cleaning, accreditation, accounting",
+   "expr": "repairs_admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + asc_sf * asc_extra_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate [^28,29,30]"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "(asc_equip + ffe_it) * reserve_pct",
+   "basis": "5% of equipment"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.15,
+  "note": "the sponsor applies the tier for a new business alone and overlooks the special purpose test"
+ },
+ "breakeven": {
+  "input": "cases",
+  "label": "surgical cases a year"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "cases",
+   "label": "Surgical cases",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "net_per_case",
+   "label": "Net revenue per case",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Lebanon, Wilson County, Tennessee, in the South Hartmann Drive medical corridor east of Nashville [^1,13]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "New physician-owned surgery center (two operating rooms and a procedure room) with a leased medical office wing, in a building of about {in_bldg_sf} sq ft on about {in_land_acres} acres; site, owner and operator not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; surgery centers are on SBA's special purpose list and the business is new [^35]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} cases a year ({cushion_pct} below the {in_cases} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "A fast-growing city and county can use more outpatient surgery, but a system-owned center was approved in 2025 and a new center still needs a state certificate of need [^1,7,19]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

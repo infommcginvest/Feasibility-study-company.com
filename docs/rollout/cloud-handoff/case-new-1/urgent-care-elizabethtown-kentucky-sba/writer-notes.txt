@@ -1,0 +1,41 @@
+urgent-care-elizabethtown-kentucky-sba (CASE-NEW-1)
+
+DETERMINATION
+As proposed (10.0% equity): fails. Year 2 DSCR 0.57x vs 1.15x floor; loan $3,651,940; TPC $4,057,711.
+As restructured (engine): 54.4% equity ($2,179,472), loan $1,826,910, Year 2 DSCR 1.15x (a hair above floor), Year 3 2.06x; TPC $4,006,382. Passes all tests.
+Break-even Year 3: 33 of 38 walk-in visits a day (14.2% cushion).
+
+COUNTS (last check.sh run)
+Body words 5,640. Pagecheck: 0 problems, counted 33 (research 23, register 10/10), overlap 6.14% (gas-station-texas-sba), gate 8: 0 hits, dashes 0, banned names 0.
+Note: the research list includes 4,060 (my arithmetic, 35,448 minus 31,388, cited to the Census row); without it research = 22. A margin of 3 over the 30 floor: the assisted-living sibling shares about 5 Census figures, so if it lands first the count could drop under 30.
+Lender conditions: 12 items.
+
+NOT FOUND, turned into lender conditions
+Parcel id, zoning district, flood zone, electric/water/sewer territory for the site; Ring Road AADT; median age; daytime employment; Kentucky comparison column; exam rooms/floor area/opening year for competitors (except as published); posted prices for Baptist Health, CareFirst, Radcliff clinic; competitor parcel and tax records; new urgent care permits; truck volumes; seasonality; combined tax rate, assessment ratio, occupational license tax; licensure/CON; construction cost index; insurance conditions; Hardin County 7(a) lender data; USDA rural, HUBZone, OZ status; payer mix and allowed amounts (not in research at all).
+
+RESEARCH FIGURES DROPPED OR RE-SOURCED, and why
+- Uninsured under 65 (8.1%, 6.9%) and poverty (17.0%, 12.7%): vintage given only as "latest" (I86). Mentioned in prose without numbers.
+- Norton self-pay $100 to $250: page-modified stamp is not a publication date (I69). Stated without the number.
+- CareFirst 1,417 reviews: fetch-dated, single-property attribute. Stated as "a long review history".
+- Baptist Cecilia (4,200 sq ft, opened 11 May 2026) and the Mulberry opening date (17 Nov 2020): the press releases' URLs were not captured; the Baptist Ring Road page returned HTTP 403 to my WebFetch (closed door, not worked around). Cecilia appears only as an announced, unconfirmed clinic with no number; no source entry. Mulberry row uses only its location page.
+- Competitor hours (Mon-Fri 8:00-20:00 etc.): fetch-dated only; described qualitatively.
+- Acutecare, The Little Clinic (aggregator only): in prose as unconfirmed, no URL, no table row. Heartland aggregator record: noted as stale.
+- Baptist Health Hardin 300 beds / 400,000 residents / ten counties: undated location page; catchment described without numbers. (The hospital row cites its location page for the qualitative statement.)
+- City sewer $1,500, HCWD2 sewer $500, gas deposit $100: undated; stated without numbers. Water tap $1,600 kept (tariff issued 25 Mar 2025).
+- Tax rates (city $0.110 vs $0.107 conflict, county 10.8 cents, school $0.652/$0.857): undated pages or articles; no numbers printed; model tax rate is a labelled planning assumption.
+- Fort Knox $4.8B Chamber op-ed: undated. VA clinic 150 jobs, 29.02 acres (WDRB, undated) and 9.62 acres (single property): dropped. WDRB articles kept as sources for qualitative zoning/groundbreaking statements only, dated "August 2025 / 2026, article date not recorded".
+- GoSBA aggregator figures (Kentucky 508 loans, $257.8M, 9.63%, Stock Yards $34.5M): aggregator of data the register holds; not used. Whiteford and PilieroMazza law-firm summaries: not used (SBA rules go through sba: markers). Policy Notice 5000-876441 via the owner's own site: dropped (not independent); no citizenship rule printed (not in sba.json).
+- Subject-site listing facts (ask, acreage, broker, companion parcel, 245 Ring Road, Apex Center, 2300 Ring Road lease rates): dnu; land is a round assumption (1.25 acres, $500,000 an acre) with reasoning that asking prices lie on both sides, no listing numbers printed.
+- National 7(a) volume $37.3B: source is the owner's own site.
+- Yelp, Solv, chamberofcommerce, yellowpages: not used.
+
+SOURCES REUSED FROM THE SITE'S STANDARD SET (not in my research file)
+SBA 7(a) terms page (guaranty share), SOP 50 10 8.1 document, FY2027 fee notice, H.15 release of Oct 9 2026, eCFR 120.160: copied (publisher, title, date, URL) from the gas-station-texas-sba exemplar sources 43 to 47, because rule_sources needs sop/fees/prime entries and the research file has none of these in citable form. Lane owner to confirm this reuse is intended.
+Register block (10 ACS values via mkt: markers) cites the Census ACS 5-year API, as the New Jersey state page does.
+
+ENGINE / DECISIONS FOR THE LANE OWNER
+- The research file holds no clinic unit economics (visits, collected revenue per visit, staffing, build cost, equipment, working capital). All are labelled assumptions with reasoning; every revenue and cost level is therefore a planning figure. If the lane has sourced benchmarks (the AH-URGENT-CARE-A/B files exist in the research folder; I did not open them per scope), the assumptions could be re-sourced and the determination re-run. The determination is sensitive: the restructured Year 2 DSCR is 1.15x on the nose and the sensitivity table spans -1.00x to 3.69x because staffing is fixed.
+- Per-year ramp values (visits, occupational visits) cannot be printed in prose through {{case:v...}} (only the stabilized-year value is exposed as v.in_<name>); I described the ramp in words. A per-year value form (e.g. v.in_visits_day_y1) would help.
+- Sensitivity grid is on the restructured loan (engine behaviour), so the "proposed" structure is not shown there.
+- Cecilia clinic and the Little Clinic need operator-page confirmation (competitor census follow-up).
+- No engine limitation blocked the case.

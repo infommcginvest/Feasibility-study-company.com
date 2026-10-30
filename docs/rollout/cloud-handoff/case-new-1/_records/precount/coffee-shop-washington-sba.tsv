@@ -1,0 +1,70 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+R001	27,469	Moses Lake population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:50	Y	
+R002	8.3%	Moses Lake population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:51	Y	
+R003	8,001,020	Washington population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:50	N	on served page states/washington (I71 includes its text)
+R004	3.8%	Washington population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:51	Y	
+R005	27,530	Moses Lake population, OFM April 1, 2025	research	I77b	WA Office of Financial Management, April 1, 2026 Population of Cities, Towns, and Counties	CS-R-COFFEE-SHOP-WASHINGTON-SBA:52	Y	
+R006	27,960	Moses Lake population, OFM April 1, 2026	research	I77b	WA Office of Financial Management, April 1, 2026 Population of Cities, Towns, and Counties	CS-R-COFFEE-SHOP-WASHINGTON-SBA:52	Y	
+R007	10,092	Moses Lake households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:53	Y	
+R008	3,064,820	Washington households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:53	N	on served page states/washington
+R009	2.55	Moses Lake persons per household	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:54	Y	
+R010	2.50	Washington persons per household	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:54	Y	
+R011	$74,752	Moses Lake median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:55	Y	
+R012	$98,141	Washington median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:55	N	on served page states/washington
+R013	$35,449	Moses Lake per capita income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:56	Y	
+R014	$53,744	Washington per capita income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:56	Y	
+R015	32.3	Moses Lake median age	research	I77c	Census Reporter, ACS 2024 5-year profile	CS-R-COFFEE-SHOP-WASHINGTON-SBA:57	Y	
+R016	38.3	Washington median age	research	I77c	Census Reporter, ACS 2024 5-year profile	CS-R-COFFEE-SHOP-WASHINGTON-SBA:57	Y	
+R017	27.7%	Moses Lake persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:58	Y	
+R018	20.4%	Washington persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:58	Y	
+R019	18.2	Moses Lake mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:59	Y	
+R020	26.6	Washington mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:59	Y	
+R021	$130,549,000	Moses Lake accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-COFFEE-SHOP-WASHINGTON-SBA:60	Y	
+R022	$26,364,447,000	Washington accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-COFFEE-SHOP-WASHINGTON-SBA:60	Y	
+R023	105,727	Grant County population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:61	Y	
+R024	6.6%	Grant County population change, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:61	Y	
+R025	10.9126617484	Tax Area 0073 combined levy per $1,000, tax year 2026	research	I77a	Grant County Treasurer, 2026 tax statement	CS-R-COFFEE-SHOP-WASHINGTON-SBA:127	Y	subject parcel tax area unconfirmed, area-level rate
+R026	9.2706653160	Tax Area 0073 combined levy per $1,000, tax year 2025	research	I77a	Grant County Treasurer, 2026 tax statement	CS-R-COFFEE-SHOP-WASHINGTON-SBA:127	Y	
+R027	2.5032808051	City of Moses Lake levy per $1,000, 2024 levy for 2025 tax	research	I77a	Grant County Assessor property record (Tax Area 0073)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:128	Y	
+R028	0.50%	Moses Lake local REET rate, effective Apr 1, 2025	research	I77a	WA Department of Revenue, Local Real Estate Excise Tax Rates (April 2025)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:132	Y	
+R029	8.5%	Moses Lake combined retail sales tax 2026	research	I77b	TaxHero, Moses Lake Washington Sales Tax Rate 2026	CS-R-COFFEE-SHOP-WASHINGTON-SBA:131	Y	secondary aggregator, confirm with WA DOR
+R030	4,670	City traffic count Yonezawa Blvd (series member)	research	none	City of Moses Lake, Traffic Counts for the Year of 2018	CS-R-COFFEE-SHOP-WASHINGTON-SBA:38	N	year of each of the three values not stated; series member
+R031	5,307	City traffic count Yonezawa Blvd 180 ft W of SR 17	research	none	City of Moses Lake, Traffic Counts for the Year of 2018	CS-R-COFFEE-SHOP-WASHINGTON-SBA:38	N	year of this value not stated (latest year is "No count")
+R032	4,577	City traffic count Yonezawa Blvd (series member)	research	none	City of Moses Lake, Traffic Counts for the Year of 2018	CS-R-COFFEE-SHOP-WASHINGTON-SBA:38	N	year not stated; series member
+R033	16,000	SR 17 ADT at Yonezawa, TIB project figure	research	none	WA Transportation Improvement Board project record 8-3-162(014)-1	CS-R-COFFEE-SHOP-WASHINGTON-SBA:39	N	project record undated in research; not a WSDOT AADT
+R034	$6.5 million	SR 17/Yonezawa roundabout project cost	research	I77a	Source ONE News (2024-2025)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:41	N	one named project cost (I66); article date not given
+R035	$375,000	Grant County grant to roundabout project	research	none	Source ONE News (2025)	CS-R-COFFEE-SHOP-WASHINGTON-SBA:41	N	single project funding (I66); no publication date
+R036	$2,500,000	TIB funding for roundabout	research	none	WA TIB project record	CS-R-COFFEE-SHOP-WASHINGTON-SBA:42	N	single project funding (I66); record undated
+R037	600,000	Sila plant size (sq ft)	research	I77a	Sila press release Sep 23, 2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:109	N	one named facility size (I64)
+R038	160	Sila site acres	research	I77a	Sila press release Sep 23, 2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:109	N	one named site (I64)
+R039	400	Sila employees at opening	research	I77a	GeekWire Sep 2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:109	N	one facility headcount, size of a single named facility (I64)
+R040	500	Sila expected employment	research	I77a	GeekWire Sep 2025	CS-R-COFFEE-SHOP-WASHINGTON-SBA:109	N	projection for one facility
+R041	150	Sila 150 to 300 FTE planning range	research	I77a	U.S. DOE Draft EA Feb 2024	CS-R-COFFEE-SHOP-WASHINGTON-SBA:109	N	planning projection for one facility
+R042	224	REC Silicon layoffs	research	none	Manufacturing Dive	CS-R-COFFEE-SHOP-WASHINGTON-SBA:110	N	research ties it to event dates (Dec 2024, Jan 2025) but gives no article date
+R043	$1 billion	Airport-area OZ nomination potential investment	research	I77a	Source ONE News Oct 8, 2026	CS-R-COFFEE-SHOP-WASHINGTON-SBA:112	N	projection of potential, not a market measurement
+R044	2,500	Airport-area OZ nomination potential jobs	research	I77a	Source ONE News Oct 8, 2026	CS-R-COFFEE-SHOP-WASHINGTON-SBA:112	N	projection
+R045	96	Desert Point proposed acres	research	I77a	Columbia Basin Herald Jan 11, 2024	CS-R-COFFEE-SHOP-WASHINGTON-SBA:98	N	one proposed project (I64)
+R046	510	Desert Point multifamily units	research	I77a	Columbia Basin Herald Jan 11, 2024	CS-R-COFFEE-SHOP-WASHINGTON-SBA:98	N	one proposed project (I64)
+R047	$9 million	Desert Point road cost	research	I77a	Columbia Basin Herald Jan 11, 2024	CS-R-COFFEE-SHOP-WASHINGTON-SBA:98	N	one proposed project cost (I66)
+R048	44	Dutch Bros Yelp reviews (Jul 2025)	research	none	Yelp	CS-R-COFFEE-SHOP-WASHINGTON-SBA:72	N	one business listing attribute; aggregator
+R049	[subject figure withheld]	Subject asking price	research	I77a	CBA listing 702789	CS-R-COFFEE-SHOP-WASHINGTON-SBA:29	N	subject listing figure and identifier; forbidden on page
+R050	[subject figure withheld]	Subject alternate asking price	research	none	LoopNet	CS-R-COFFEE-SHOP-WASHINGTON-SBA:30	N	subject listing figure
+R051	[subject figure withheld]	Subject lot SF	research	I77a	CBA listing 702789	CS-R-COFFEE-SHOP-WASHINGTON-SBA:28	N	subject attribute (I64)
+R052	$5,000,000	7(a) maximum loan	research	I77a	SBA	CS-R-COFFEE-SHOP-WASHINGTON-SBA:146	N	program rule
+R053	$50,000	SOP 50 10 8 collateral threshold	research	I77a	CRS IN12549	CS-R-COFFEE-SHOP-WASHINGTON-SBA:147	N	program rule
+R054	$350,000	7(a) Small Loan ceiling	research	I77a	CRS IN12549	CS-R-COFFEE-SHOP-WASHINGTON-SBA:147	N	program rule
+R055	10%	Startup equity injection minimum	research	I77a	UMWSB / SOP 50 10 8	CS-R-COFFEE-SHOP-WASHINGTON-SBA:148	N	program rule
+R056	Prime + 3.0%	Maximum 7(a) rate over $350,000	research	I77a	First Bank of the Lake	CS-R-COFFEE-SHOP-WASHINGTON-SBA:150	N	program rule
+R057	17.95	City square miles	research	none	not tied to a source row	CS-R-COFFEE-SHOP-WASHINGTON-SBA:46	N	no source row or date
+R058	16 competitor rows	Competitor census tallies (Dutch Bros 1, Starbucks 3)	research	none	research file tally	CS-R-COFFEE-SHOP-WASHINGTON-SBA:66	N	research summary counts
+G01	$73,267	Grant County median household income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_hh_income.json key co-53025.acs5_median_hh_income	Y	
+G02	6.5%	Grant County unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key co-53025.acs5_unemployment_rate	Y	
+G03	$52,210	Grant County per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key co-53025.bea_per_capita_income	Y	
+G04	$299,500	Grant County median home value, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_home_value.json key co-53025.acs5_median_home_value	Y	
+G05	$1,116	Grant County median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key co-53025.acs5_median_gross_rent	Y	
+G06	43	Grant County coffee shop establishments (NAICS 722515, fit partial), CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key co-53025.cbp_estab.coffee-shop	Y	
+G07	3,088	Washington coffee shop establishments (fit partial), CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key wa.cbp_estab.coffee-shop	Y	
+G08	220	Washington 7(a) loans to coffee shops FY2016-FY2025 (fit partial)	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_loans.json key wa.sba7a_loans.coffee-shop (window fy2016_2025)	Y	
+G09	7.1%	Washington 7(a) coffee shop charge-off rate by count, FY2011-FY2020 cohorts	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_chgoff_rate.json key wa.sba7a_chgoff_rate.coffee-shop	Y	
+G10	$53.6 million	Washington 7(a) coffee shop approval volume FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_volume.json key wa.sba7a_volume.coffee-shop (window fy2016_2025)	Y	
+#SUMMARY coffee-shop-washington-sba counted=36 research=26 register=10 verdict=PAGE engine=N notes=A4 reading 39/29 (three WA state-page repeats); research is Census and levy rows, no coffee benchmarks

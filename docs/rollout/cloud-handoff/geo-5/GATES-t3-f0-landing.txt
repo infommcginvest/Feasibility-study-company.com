@@ -1,0 +1,39 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-28T20:30:59
+root ~/Downloads/fsc-rollout/tmp/geo-5/t3; git dir ~/Downloads/wt-rollout-geo-5 at 8b2a94f4c2f7e0e9d5ea2d7e1e81478a6f91a94f; range None; stage landing; site-wide True
+command: python3 scripts/qa/gates.py --root . --git-dir ~/Downloads/wt-rollout-geo-5 --urls /states/south-dakota/ --new /states/south-dakota/ --stage landing --only 3,9 --site-wide --skip-look --out ~/Downloads/fsc-rollout/drafts/geo-5/GATES-t3-f0-landing.txt
+pages (1): /states/south-dakota/
+
+=== Gate 3: counted figures, amendment A6 landing floors (research and register apart): GREEN
+  /states/south-dakota/                                          state     counted 107 (research 98, register 9/9)
+site-wide: 90 other factory page(s) at landing floors; under the floor: 0
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/south-dakota/                                          max 0.51% (/states/tennessee/nashville/)
+site-wide pairs at or over 15%: 10, of which with a page of this set: 0 (the others are on pages this landing did not write, reported, not failed)
+  24.8% / ~ /asset-classes/
+  23.22% /case-studies/qsr-arkansas-sba/ ~ /case-studies/qsr-georgia-sba/
+  20.38% /case-studies/fitness-minnesota-sba/ ~ /case-studies/fitness-new-hampshire-sba/
+  16.12% /case-studies/truck-stop-georgia-sba/ ~ /case-studies/truck-stop-oklahoma-sba/
+  15.81% /case-studies/fitness-minnesota-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.77% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.48% /case-studies/funeral-home-wisconsin-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.47% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/funeral-home-wisconsin-sba/
+  15.12% /case-studies/hotel-florida-sba/ ~ /case-studies/hotel-south-carolina-sba/
+  15.03% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/fitness-minnesota-sba/
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+0 metro or subtype page(s); failing: []
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 201 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1074 term link(s) on 186 page(s)
+pages checked for inbound links: 188; under 3: 0
+
+required edges: all present
+
+SUMMARY
+  gate  3: GREEN    counted figures, amendment A6 landing floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  green 4/4

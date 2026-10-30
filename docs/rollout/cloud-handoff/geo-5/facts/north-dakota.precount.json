@@ -1,0 +1,778 @@
+{
+ "state": "NORTH-DAKOTA",
+ "markets": [
+  {
+   "slug": "fargo",
+   "name": "Fargo",
+   "section": "Fargo (Cass County and Fargo city, North Dakota side only)",
+   "counties": [
+    "co-38017"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-NORTH-DAKOTA line 21",
+    "MT-NORTH-DAKOTA line 23",
+    "MT-NORTH-DAKOTA line 25",
+    "MT-NORTH-DAKOTA line 44",
+    "MT-NORTH-DAKOTA line 45",
+    "MT-NORTH-DAKOTA line 46"
+   ]
+  },
+  {
+   "slug": "bismarck-mandan",
+   "name": "Bismarck-Mandan",
+   "section": "Bismarck-Mandan (Burleigh and Morton counties)",
+   "counties": [
+    "co-38015",
+    "co-38059"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-NORTH-DAKOTA line 68",
+    "MT-NORTH-DAKOTA line 69",
+    "MT-NORTH-DAKOTA line 70",
+    "MT-NORTH-DAKOTA line 71",
+    "MT-NORTH-DAKOTA line 72",
+    "MT-NORTH-DAKOTA line 73",
+    "MT-NORTH-DAKOTA line 76",
+    "MT-NORTH-DAKOTA line 77",
+    "MT-NORTH-DAKOTA line 81",
+    "MT-NORTH-DAKOTA line 82",
+    "MT-NORTH-DAKOTA line 83"
+   ]
+  },
+  {
+   "slug": "grand-forks",
+   "name": "Grand Forks",
+   "section": "Grand Forks (Grand Forks County, North Dakota side)",
+   "counties": [
+    "co-38035"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-NORTH-DAKOTA line 100",
+    "MT-NORTH-DAKOTA line 101",
+    "MT-NORTH-DAKOTA line 102",
+    "MT-NORTH-DAKOTA line 105"
+   ]
+  },
+  {
+   "slug": "minot",
+   "name": "Minot",
+   "section": "Minot (Ward County)",
+   "counties": [
+    "co-38101"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-NORTH-DAKOTA line 116",
+    "MT-NORTH-DAKOTA line 117",
+    "MT-NORTH-DAKOTA line 118",
+    "MT-NORTH-DAKOTA line 121",
+    "MT-NORTH-DAKOTA line 122",
+    "MT-NORTH-DAKOTA line 123",
+    "MT-NORTH-DAKOTA line 125"
+   ]
+  },
+  {
+   "slug": "williston",
+   "name": "Williston and the Bakken",
+   "section": "Williston and the Bakken (Williams and McKenzie counties, Watford City)",
+   "counties": [
+    "co-38105",
+    "co-38053"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-NORTH-DAKOTA line 141",
+    "MT-NORTH-DAKOTA line 142",
+    "MT-NORTH-DAKOTA line 144",
+    "MT-NORTH-DAKOTA line 145"
+   ]
+  },
+  {
+   "slug": "dickinson",
+   "name": "Dickinson",
+   "section": "Dickinson (Stark County)",
+   "counties": [
+    "co-38089"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-NORTH-DAKOTA line 168",
+    "MT-NORTH-DAKOTA line 169"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-NORTH-DAKOTA line 14",
+  "ST-NORTH-DAKOTA line 24",
+  "ST-NORTH-DAKOTA line 25",
+  "ST-NORTH-DAKOTA line 30",
+  "ST-NORTH-DAKOTA line 31",
+  "ST-NORTH-DAKOTA line 39",
+  "ST-NORTH-DAKOTA line 40",
+  "ST-NORTH-DAKOTA line 49",
+  "ST-NORTH-DAKOTA line 50",
+  "ST-NORTH-DAKOTA line 52",
+  "ST-NORTH-DAKOTA line 70",
+  "ST-NORTH-DAKOTA line 78",
+  "ST-NORTH-DAKOTA line 79",
+  "ST-NORTH-DAKOTA line 80",
+  "ST-NORTH-DAKOTA line 86",
+  "ST-NORTH-DAKOTA line 107",
+  "ST-NORTH-DAKOTA line 108",
+  "ST-NORTH-DAKOTA line 109",
+  "ST-NORTH-DAKOTA line 110",
+  "ST-NORTH-DAKOTA line 111",
+  "ST-NORTH-DAKOTA line 112"
+ ],
+ "register_pairs": [
+  {
+   "geo": "nd",
+   "series": "sba7a_loans",
+   "value": 1326
+  },
+  {
+   "geo": "nd",
+   "series": "sba7a_volume",
+   "value": 439220300
+  },
+  {
+   "geo": "nd",
+   "series": "sba504_loans",
+   "value": 546
+  },
+  {
+   "geo": "nd",
+   "series": "sba504_volume",
+   "value": 373331000
+  },
+  {
+   "geo": "nd",
+   "series": "acs5_median_hh_income",
+   "value": 76657
+  },
+  {
+   "geo": "nd",
+   "series": "acs5_median_home_value",
+   "value": 249900
+  },
+  {
+   "geo": "nd",
+   "series": "acs5_median_gross_rent",
+   "value": 954
+  },
+  {
+   "geo": "nd",
+   "series": "acs1_unemployment_rate",
+   "value": 0.019102
+  },
+  {
+   "geo": "nd",
+   "series": "bea_personal_income",
+   "value": 57153353000
+  },
+  {
+   "geo": "nd",
+   "series": "bea_per_capita_income",
+   "value": 71749
+  }
+ ],
+ "borderline_ids": [
+  "ST-NORTH-DAKOTA line 59",
+  "ST-NORTH-DAKOTA line 60",
+  "ST-NORTH-DAKOTA line 61",
+  "ST-NORTH-DAKOTA line 62",
+  "MT-NORTH-DAKOTA line 17",
+  "MT-NORTH-DAKOTA line 18",
+  "MT-NORTH-DAKOTA line 74",
+  "MT-NORTH-DAKOTA line 96",
+  "MT-NORTH-DAKOTA line 97",
+  "MT-NORTH-DAKOTA line 124",
+  "MT-NORTH-DAKOTA line 147",
+  "MT-NORTH-DAKOTA line 148",
+  "MT-NORTH-DAKOTA line 170"
+ ],
+ "secondary_ids": [
+  "ST-NORTH-DAKOTA line 14",
+  "ST-NORTH-DAKOTA line 39",
+  "ST-NORTH-DAKOTA line 40",
+  "ST-NORTH-DAKOTA line 70",
+  "ST-NORTH-DAKOTA line 78",
+  "ST-NORTH-DAKOTA line 79",
+  "ST-NORTH-DAKOTA line 80",
+  "ST-NORTH-DAKOTA line 86",
+  "ST-NORTH-DAKOTA line 107",
+  "MT-NORTH-DAKOTA line 23",
+  "MT-NORTH-DAKOTA line 25",
+  "MT-NORTH-DAKOTA line 44",
+  "MT-NORTH-DAKOTA line 72",
+  "MT-NORTH-DAKOTA line 73",
+  "MT-NORTH-DAKOTA line 76",
+  "MT-NORTH-DAKOTA line 77",
+  "MT-NORTH-DAKOTA line 81",
+  "MT-NORTH-DAKOTA line 102",
+  "MT-NORTH-DAKOTA line 105",
+  "MT-NORTH-DAKOTA line 116",
+  "MT-NORTH-DAKOTA line 117",
+  "MT-NORTH-DAKOTA line 118",
+  "MT-NORTH-DAKOTA line 123",
+  "MT-NORTH-DAKOTA line 125",
+  "MT-NORTH-DAKOTA line 145"
+ ],
+ "dropped": [
+  {
+   "id": "ST-NORTH-DAKOTA line 13",
+   "why": "same fact as ST-14 (I82); 799.358 thousand is not read as a figure"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 22",
+   "why": "already printed by served page(s) (taken): /asset-classes/self-storage/, /case-studies/auto-service-new-jersey-sba/ and more; also in another GEO-5 state (VERMONT, WYOMING)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 23",
+   "why": "already printed by served page(s) (taken): /research-notes/coverage-constrained-takeout/, /asset-classes/restaurant/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 26",
+   "why": "already printed by served page(s) (taken): /research-notes/effective-rent-vs-asking-rent/, /research-notes/c-store-franchise-category/ and more; also in another GEO-5 state (COLORADO)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 27",
+   "why": "already printed by served page(s) (taken): /research-notes/gas-station-demand-per-capita/, /asset-classes/gas-station-and-c-store/interstate-highway/"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 28",
+   "why": "already printed by served page(s) (taken): /states/kansas/"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 29",
+   "why": "already printed by served page(s) (taken): /asset-classes/truck-stop-and-travel-center/"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 48",
+   "why": "already printed by served page(s) (taken): /states/kentucky/"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 51",
+   "why": "already printed by served page(s) (taken): /case-studies/gas-station-florida-sba/"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 53",
+   "why": "already printed by served page(s) (taken): /asset-classes/glamping/, /asset-classes/auto-service-and-collision/ and more; also in another GEO-5 state (WYOMING)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 54",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 55",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 56",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 57",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 58",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 81",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 82",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 83",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 84",
+   "why": "bare count; read as \"93 permits\" it is taken (Utah state page); not countable"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 85",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 94",
+   "why": "held by another GEO-5 state research (COLORADO)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 95",
+   "why": "already printed by served page(s) (taken): /case-studies/gas-station-alabama-sba/"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 96",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 97",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 98",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 99",
+   "why": "undated source (I86)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 113",
+   "why": "already printed by served page(s) (taken): /case-studies/private-school-connecticut-conventional/, /states/alabama/ and more"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 114",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/underserved-gas-station-markets/ and more"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 115",
+   "why": "already printed by served page(s) (taken): /states/missouri/, /states/mississippi/ and more"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 123",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 124",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 125",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 126",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 127",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 128",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 129",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 130",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 131",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 132",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 140",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 141",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "ST-NORTH-DAKOTA line 142",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 13",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 14",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 15",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 16",
+   "why": "already printed by served page(s) (taken): /research-notes/effective-rent-vs-asking-rent/, /asset-classes/restaurant/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 17",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity; BLS Economy at a Glance page, Published cell is the extraction stamp (retrieval date), dated by period only (c), borderline"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 18",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity; BLS Economy at a Glance page, Published cell is the extraction stamp (retrieval date), dated by period only (c), borderline"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 19",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ and more; also in another GEO-5 state (COLORADO, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 20",
+   "why": "already printed by served page(s) (taken): /asset-classes/glamping/, /asset-classes/veterinary-practice/ and more; also in another GEO-5 state (VERMONT, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 22",
+   "why": "already printed by served page(s) (taken): /states/new-jersey/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 24",
+   "why": "already printed by served page(s) (taken): /states/arizona/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 26",
+   "why": "bare count pagecheck does not read as the cell stands; reads with unit \"listings\"/\"permits\" and is free: unit-context sensitivity only"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 27",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 28",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 29",
+   "why": "bare count pagecheck does not read as the cell stands; reads with unit \"listings\"/\"permits\" and is free: unit-context sensitivity only"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 30",
+   "why": "bare monthly permit count; read as \"N permits\" it is taken by served pages"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 31",
+   "why": "bare monthly permit count; read as \"N permits\" it is taken by served pages"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 32",
+   "why": "single-digit or bare monthly permit count pagecheck does not read; Stacker relay"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 33",
+   "why": "already printed by served page(s) (taken): /research-notes/c-store-franchise-category/, /asset-classes/glamping/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 34",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 35",
+   "why": "already printed by served page(s) (taken): /asset-classes/veterinary-practice/, /asset-classes/pet-boarding-and-daycare/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 36",
+   "why": "already printed by served page(s) (taken): /asset-classes/hotel/, /asset-classes/multifamily/ and more; also in another GEO-5 state (VIRGINIA, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 37",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 38",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 39",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 40",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 41",
+   "why": "already printed by served page(s) (taken): /research-notes/effective-rent-vs-asking-rent/, /research-notes/absorption-forensics/ and more; also in another GEO-5 state (DISTRICT-OF-COLUMBIA)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 42",
+   "why": "already printed by served page(s) (taken): /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 43",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 47",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 48",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 49",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 57",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 58",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 59",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 60",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 61",
+   "why": "already printed by served page(s) (taken): /research-notes/c-store-franchise-category/, /asset-classes/hotel/ and more; also in another GEO-5 state (SOUTH-DAKOTA, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 62",
+   "why": "already printed by served page(s) (taken): /research-notes/franchise-vs-non-franchise/, /states/texas/austin/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 63",
+   "why": "already printed by served page(s) (taken): /research-notes/franchise-vs-non-franchise/, /states/texas/austin/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 64",
+   "why": "already printed by served page(s) (taken): /research-notes/c-store-franchise-category/, /asset-classes/hotel/ and more; also in another GEO-5 state (SOUTH-DAKOTA, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 65",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /asset-classes/assisted-living-and-memory-care/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 66",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ and more; also in another GEO-5 state (COLORADO, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 67",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/gas-station-demand-per-capita/ and more; also in another GEO-5 state (VERMONT, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 75",
+   "why": "already printed by served page(s) (taken): /asset-classes/multifamily/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 78",
+   "why": "bare monthly permit count; read as \"N permits\" it is taken by served pages"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 79",
+   "why": "single-digit or bare monthly permit count pagecheck does not read; Stacker relay"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 80",
+   "why": "single-digit or bare monthly permit count pagecheck does not read; Stacker relay"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 84",
+   "why": "one-off tax-levy error reimbursement (an event amount the researcher flagged), not a market figure"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 85",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 93",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 94",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 95",
+   "why": "already printed by served page(s) (taken): /research-notes/effective-rent-vs-asking-rent/, /asset-classes/restaurant/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 96",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity; BLS Economy at a Glance page, Published cell is the extraction stamp (retrieval date), dated by period only (c), borderline"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 97",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity; BLS Economy at a Glance page, Published cell is the extraction stamp (retrieval date), dated by period only (c), borderline"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 98",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ and more; also in another GEO-5 state (SOUTH-DAKOTA, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 99",
+   "why": "already printed by served page(s) (taken): /research-notes/effective-rent-vs-asking-rent/, /asset-classes/restaurant/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 103",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 104",
+   "why": "already printed by served page(s) (taken): /asset-classes/funeral-home/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 106",
+   "why": "bi-state geography (county or metro includes Minnesota); Fargo and Grand Forks stay in-state, counted only in the bi-state sensitivity"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 107",
+   "why": "single property or project (I64, I66)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 108",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 119",
+   "why": "already printed by served page(s) (taken): /research-notes/c-store-franchise-category/, /asset-classes/hotel/ and more; also in another GEO-5 state (SOUTH-DAKOTA, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 120",
+   "why": "already printed by served page(s) (taken): /research-notes/coverage-constrained-takeout/, /asset-classes/restaurant/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 133",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 134",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 135",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 136",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 137",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/underserved-gas-station-markets/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 138",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /asset-classes/assisted-living-and-memory-care/ and more; also in another GEO-5 state (VERMONT, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 139",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 140",
+   "why": "already printed by served page(s) (taken): /asset-classes/glamping/, /asset-classes/veterinary-practice/ and more; also in another GEO-5 state (VERMONT, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 143",
+   "why": "already printed by served page(s) (taken): /asset-classes/multifamily/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 146",
+   "why": "already printed by served page(s) (taken): /case-studies/glamping-utah-usda/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 149",
+   "why": "already printed by served page(s) (taken): /states/tennessee/"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 150",
+   "why": "already printed by served page(s) (taken): /case-studies/funeral-home-wisconsin-sba/, /case-studies/qsr-arkansas-sba/ and more; also in another GEO-5 state (VERMONT)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 151",
+   "why": "already printed by served page(s) (taken): /, /research-notes/special-purpose-property-risk/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 152",
+   "why": "already printed by served page(s) (taken): /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 153",
+   "why": "no figure pagecheck reads (bare small count or text)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 154",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 155",
+   "why": "FEMA declaration code or count of designated counties (code number, I91; researcher flagged)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 156",
+   "why": "service-change text (Williston air service), no figure; researcher flagged"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 164",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 165",
+   "why": "undated relay (I86); research method note names no Census vintage (I109 not met); value equals the register 2024 BEA/ACS value, label \"1 Jul 2025\" doubtful"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 166",
+   "why": "already printed by served page(s) (taken): /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ and more"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 167",
+   "why": "already printed by served page(s) (taken): /asset-classes/glamping/, /asset-classes/veterinary-practice/ and more; also in another GEO-5 state (VERMONT, WYOMING)"
+  },
+  {
+   "id": "MT-NORTH-DAKOTA line 171",
+   "why": "single property or project (I64, I66)"
+  }
+ ],
+ "unit_context_ids": [
+  "MT-NORTH-DAKOTA line 26",
+  "MT-NORTH-DAKOTA line 29"
+ ],
+ "bistate_ids": [
+  "MT-NORTH-DAKOTA line 17",
+  "MT-NORTH-DAKOTA line 18",
+  "MT-NORTH-DAKOTA line 27",
+  "MT-NORTH-DAKOTA line 28",
+  "MT-NORTH-DAKOTA line 34",
+  "MT-NORTH-DAKOTA line 37",
+  "MT-NORTH-DAKOTA line 39",
+  "MT-NORTH-DAKOTA line 40",
+  "MT-NORTH-DAKOTA line 96",
+  "MT-NORTH-DAKOTA line 97",
+  "MT-NORTH-DAKOTA line 103",
+  "MT-NORTH-DAKOTA line 106"
+ ],
+ "i109_undated_ids": [
+  "MT-NORTH-DAKOTA line 13",
+  "MT-NORTH-DAKOTA line 14",
+  "MT-NORTH-DAKOTA line 15",
+  "MT-NORTH-DAKOTA line 57",
+  "MT-NORTH-DAKOTA line 58",
+  "MT-NORTH-DAKOTA line 59",
+  "MT-NORTH-DAKOTA line 60",
+  "MT-NORTH-DAKOTA line 93",
+  "MT-NORTH-DAKOTA line 94",
+  "MT-NORTH-DAKOTA line 133",
+  "MT-NORTH-DAKOTA line 134",
+  "MT-NORTH-DAKOTA line 135",
+  "MT-NORTH-DAKOTA line 136",
+  "MT-NORTH-DAKOTA line 164",
+  "MT-NORTH-DAKOTA line 165"
+ ],
+ "register_available": {
+  "nd": "51 pairs",
+  "fargo": "32 CBSA 22020 / 35 Cass",
+  "bismarck-mandan": "32 CBSA 13900 / 35 Burleigh / 21 Morton",
+  "grand-forks": "32 CBSA 24220 / 35 county",
+  "minot": "32 CBSA 33500 / 35 Ward",
+  "williston": "18 CBSA 48780 (Williams only) / 21 Williams / 21 McKenzie (no CBSA)",
+  "dickinson": "18 CBSA 19860 / 21 Stark"
+ }
+}

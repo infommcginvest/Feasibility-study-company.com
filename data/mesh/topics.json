@@ -6,7 +6,8 @@
     "Fuel, auto and travel",
     "Health, care and services",
     "Food and retail",
-    "Housing and senior living"
+    "Housing and senior living",
+    "Industrial and logistics"
   ],
   "assets": {
     "/asset-classes/assisted-living-and-memory-care/": {
@@ -125,6 +126,58 @@
       "name": "meat processing",
       "family": "Food and retail",
       "slug_prefix": "meat-processing-"
+    },
+    "/asset-classes/short-term-rental/": {
+      "name": "short-term rental",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/event-and-wedding-venue/": {
+      "name": "event and wedding venue",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/brewery-and-distillery/": {
+      "name": "brewery and distillery",
+      "family": "Food and retail"
+    },
+    "/asset-classes/wellness-and-retreat/": {
+      "name": "wellness and retreat",
+      "family": "Hospitality and outdoor recreation"
+    },
+    "/asset-classes/industrial-and-warehouse/": {
+      "name": "industrial and warehouse",
+      "family": "Industrial and logistics"
+    },
+    "/asset-classes/cold-storage/": {
+      "name": "cold storage",
+      "family": "Industrial and logistics"
+    },
+    "/asset-classes/data-center/": {
+      "name": "data center",
+      "family": "Industrial and logistics"
+    },
+    "/asset-classes/skilled-nursing/": {
+      "name": "skilled nursing",
+      "family": "Housing and senior living"
+    },
+    "/asset-classes/independent-living-and-ccrc/": {
+      "name": "independent living and CCRC",
+      "family": "Housing and senior living"
+    },
+    "/asset-classes/build-to-rent/": {
+      "name": "build-to-rent",
+      "family": "Housing and senior living"
+    },
+    "/asset-classes/manufactured-housing/": {
+      "name": "manufactured housing",
+      "family": "Housing and senior living"
+    },
+    "/asset-classes/mixed-use/": {
+      "name": "mixed-use",
+      "family": "Food and retail"
+    },
+    "/asset-classes/meat-and-poultry-processing/": {
+      "name": "meat and poultry processing",
+      "family": "Food and retail"
     }
   },
   "programs": {
@@ -139,6 +192,9 @@
     },
     "/practice-areas/eb-5/": {
       "name": "EB-5"
+    },
+    "/practice-areas/hud-and-agency/": {
+      "name": "HUD and agency"
     }
   },
   "notes": {
@@ -256,6 +312,14 @@
       ],
       "program_wide": true
     },
+    "/research-notes/sba-rural-fee-waiver-vs-usda-bi/": {
+      "hubs": [],
+      "programs": [
+        "/practice-areas/sba-7a-504/",
+        "/practice-areas/usda-rural-development/"
+      ],
+      "program_wide": true
+    },
     "/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/": {
       "hubs": [],
       "programs": [
@@ -312,8 +376,10 @@
     "/states/alabama/": [
       "/states/florida/",
       "/states/georgia/",
-      "/states/mississippi/"
+      "/states/mississippi/",
+      "/states/tennessee/"
     ],
+    "/states/alaska/": [],
     "/states/arizona/": [
       "/states/california/",
       "/states/nevada/",
@@ -321,9 +387,11 @@
       "/states/utah/"
     ],
     "/states/arkansas/": [
+      "/states/louisiana/",
       "/states/mississippi/",
       "/states/missouri/",
       "/states/oklahoma/",
+      "/states/tennessee/",
       "/states/texas/"
     ],
     "/states/california/": [
@@ -331,9 +399,27 @@
       "/states/nevada/",
       "/states/oregon/"
     ],
+    "/states/colorado/": [
+      "/states/kansas/",
+      "/states/nebraska/",
+      "/states/new-mexico/",
+      "/states/oklahoma/",
+      "/states/utah/",
+      "/states/wyoming/"
+    ],
     "/states/connecticut/": [
       "/states/massachusetts/",
-      "/states/new-york/"
+      "/states/new-york/",
+      "/states/rhode-island/"
+    ],
+    "/states/delaware/": [
+      "/states/maryland/",
+      "/states/new-jersey/",
+      "/states/pennsylvania/"
+    ],
+    "/states/district-of-columbia/": [
+      "/states/maryland/",
+      "/states/virginia/"
     ],
     "/states/florida/": [
       "/states/alabama/",
@@ -343,70 +429,137 @@
       "/states/alabama/",
       "/states/florida/",
       "/states/north-carolina/",
-      "/states/south-carolina/"
+      "/states/south-carolina/",
+      "/states/tennessee/"
     ],
     "/states/hawaii/": [],
+    "/states/idaho/": [
+      "/states/montana/",
+      "/states/nevada/",
+      "/states/oregon/",
+      "/states/utah/",
+      "/states/washington/",
+      "/states/wyoming/"
+    ],
     "/states/illinois/": [
       "/states/indiana/",
       "/states/iowa/",
+      "/states/kentucky/",
       "/states/missouri/",
       "/states/wisconsin/"
     ],
     "/states/indiana/": [
       "/states/illinois/",
-      "/states/michigan/"
+      "/states/kentucky/",
+      "/states/michigan/",
+      "/states/ohio/"
     ],
     "/states/iowa/": [
       "/states/illinois/",
       "/states/minnesota/",
       "/states/missouri/",
+      "/states/nebraska/",
+      "/states/south-dakota/",
       "/states/wisconsin/"
+    ],
+    "/states/kansas/": [
+      "/states/colorado/",
+      "/states/missouri/",
+      "/states/nebraska/",
+      "/states/oklahoma/"
+    ],
+    "/states/kentucky/": [
+      "/states/illinois/",
+      "/states/indiana/",
+      "/states/missouri/",
+      "/states/ohio/",
+      "/states/tennessee/",
+      "/states/virginia/",
+      "/states/west-virginia/"
+    ],
+    "/states/louisiana/": [
+      "/states/arkansas/",
+      "/states/mississippi/",
+      "/states/texas/"
     ],
     "/states/maine/": [
       "/states/new-hampshire/"
     ],
     "/states/maryland/": [
-      "/states/pennsylvania/"
+      "/states/delaware/",
+      "/states/district-of-columbia/",
+      "/states/pennsylvania/",
+      "/states/virginia/",
+      "/states/west-virginia/"
     ],
     "/states/massachusetts/": [
       "/states/connecticut/",
       "/states/new-hampshire/",
-      "/states/new-york/"
+      "/states/new-york/",
+      "/states/rhode-island/",
+      "/states/vermont/"
     ],
     "/states/michigan/": [
       "/states/indiana/",
+      "/states/ohio/",
       "/states/wisconsin/"
     ],
     "/states/minnesota/": [
       "/states/iowa/",
+      "/states/north-dakota/",
+      "/states/south-dakota/",
       "/states/wisconsin/"
     ],
     "/states/mississippi/": [
       "/states/alabama/",
-      "/states/arkansas/"
+      "/states/arkansas/",
+      "/states/louisiana/",
+      "/states/tennessee/"
     ],
     "/states/missouri/": [
       "/states/arkansas/",
       "/states/illinois/",
       "/states/iowa/",
-      "/states/oklahoma/"
+      "/states/kansas/",
+      "/states/kentucky/",
+      "/states/nebraska/",
+      "/states/oklahoma/",
+      "/states/tennessee/"
+    ],
+    "/states/montana/": [
+      "/states/idaho/",
+      "/states/north-dakota/",
+      "/states/south-dakota/",
+      "/states/wyoming/"
+    ],
+    "/states/nebraska/": [
+      "/states/colorado/",
+      "/states/iowa/",
+      "/states/kansas/",
+      "/states/missouri/",
+      "/states/south-dakota/",
+      "/states/wyoming/"
     ],
     "/states/nevada/": [
       "/states/arizona/",
       "/states/california/",
+      "/states/idaho/",
       "/states/oregon/",
       "/states/utah/"
     ],
     "/states/new-hampshire/": [
       "/states/maine/",
-      "/states/massachusetts/"
+      "/states/massachusetts/",
+      "/states/vermont/"
     ],
     "/states/new-jersey/": [
+      "/states/delaware/",
       "/states/new-york/",
       "/states/pennsylvania/"
     ],
     "/states/new-mexico/": [
       "/states/arizona/",
+      "/states/colorado/",
       "/states/oklahoma/",
       "/states/texas/"
     ],
@@ -414,50 +567,126 @@
       "/states/connecticut/",
       "/states/massachusetts/",
       "/states/new-jersey/",
-      "/states/pennsylvania/"
+      "/states/pennsylvania/",
+      "/states/vermont/"
     ],
     "/states/north-carolina/": [
       "/states/georgia/",
-      "/states/south-carolina/"
+      "/states/south-carolina/",
+      "/states/tennessee/",
+      "/states/virginia/"
+    ],
+    "/states/north-dakota/": [
+      "/states/minnesota/",
+      "/states/montana/",
+      "/states/south-dakota/"
+    ],
+    "/states/ohio/": [
+      "/states/indiana/",
+      "/states/kentucky/",
+      "/states/michigan/",
+      "/states/pennsylvania/",
+      "/states/west-virginia/"
     ],
     "/states/oklahoma/": [
       "/states/arkansas/",
+      "/states/colorado/",
+      "/states/kansas/",
       "/states/missouri/",
       "/states/new-mexico/",
       "/states/texas/"
     ],
     "/states/oregon/": [
       "/states/california/",
+      "/states/idaho/",
       "/states/nevada/",
       "/states/washington/"
     ],
     "/states/pennsylvania/": [
+      "/states/delaware/",
       "/states/maryland/",
       "/states/new-jersey/",
-      "/states/new-york/"
+      "/states/new-york/",
+      "/states/ohio/",
+      "/states/west-virginia/"
+    ],
+    "/states/rhode-island/": [
+      "/states/connecticut/",
+      "/states/massachusetts/"
     ],
     "/states/south-carolina/": [
       "/states/georgia/",
       "/states/north-carolina/"
     ],
+    "/states/south-dakota/": [
+      "/states/iowa/",
+      "/states/minnesota/",
+      "/states/montana/",
+      "/states/nebraska/",
+      "/states/north-dakota/",
+      "/states/wyoming/"
+    ],
+    "/states/tennessee/": [
+      "/states/alabama/",
+      "/states/arkansas/",
+      "/states/georgia/",
+      "/states/kentucky/",
+      "/states/mississippi/",
+      "/states/missouri/",
+      "/states/north-carolina/",
+      "/states/virginia/"
+    ],
     "/states/texas/": [
       "/states/arkansas/",
+      "/states/louisiana/",
       "/states/new-mexico/",
       "/states/oklahoma/"
     ],
     "/states/utah/": [
       "/states/arizona/",
-      "/states/nevada/"
+      "/states/colorado/",
+      "/states/idaho/",
+      "/states/nevada/",
+      "/states/wyoming/"
+    ],
+    "/states/vermont/": [
+      "/states/massachusetts/",
+      "/states/new-hampshire/",
+      "/states/new-york/"
+    ],
+    "/states/virginia/": [
+      "/states/district-of-columbia/",
+      "/states/kentucky/",
+      "/states/maryland/",
+      "/states/north-carolina/",
+      "/states/tennessee/",
+      "/states/west-virginia/"
     ],
     "/states/washington/": [
+      "/states/idaho/",
       "/states/oregon/"
+    ],
+    "/states/west-virginia/": [
+      "/states/kentucky/",
+      "/states/maryland/",
+      "/states/ohio/",
+      "/states/pennsylvania/",
+      "/states/virginia/"
     ],
     "/states/wisconsin/": [
       "/states/illinois/",
       "/states/iowa/",
       "/states/michigan/",
       "/states/minnesota/"
+    ],
+    "/states/wyoming/": [
+      "/states/colorado/",
+      "/states/idaho/",
+      "/states/montana/",
+      "/states/nebraska/",
+      "/states/south-dakota/",
+      "/states/utah/"
     ]
   },
-  "_about_state_neighbors": "Land borders between states that have a page (a corner touch such as New Mexico and Utah is not a border). Symmetric; mesh.py refuses an asymmetric map. Each state page lists its neighbours."
+  "_about_state_neighbors": "Land borders between states that have a page or are promised one (FACTORY-2 adds the eleven new states of ROLLOUT-1; mesh.py lists only neighbours whose page exists). A corner touch such as New Mexico and Utah is not a border. Symmetric; mesh.py refuses an asymmetric map. Each state page lists its neighbours."
 }

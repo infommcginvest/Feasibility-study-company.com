@@ -1,0 +1,176 @@
+tranche t1 (illinois) copy ~/Downloads/fsc-rollout/tmp/geo-3/t1 from worktree HEAD b191a93a48e769fae6f0c83564eaa0d7656d6ba0
+pages: ['/states/illinois/chicago/', '/states/illinois/']
+requests applied in the copy: scripts/requests.py docs/rollout/geo-3/requests.json: rc=0 docs/rollout/geo-3/requests.json: changed data/mesh/fallbacks.json
+chain scripts/build.py: rc=0 25 source(s), 25 page(s) written, 0 error(s)
+chain scripts/chrome.py: rc=0 1 page(s) rewrote; 0 held; 170 checked; 0 problem(s)
+chain scripts/byline.py: rc=0   states/illinois/chicago/index.html
+chain scripts/regulatory.py: rc=0 0 page(s) rewritten
+chain scripts/markets.py: rc=0 0 page(s) rewritten
+chain scripts/casemodel.py: rc=0 15 case(s), 0 page(s) rewritten, 0 problem(s)
+chain scripts/mesh.py: rc=0 25 page(s) rewrote; 0 held; 1002 term link(s) on 156 page(s)
+chain scripts/links.py --relink: rc=0 2 page(s) changed
+chain scripts/sitemap.py: rc=0 sitemap.xml: 168 URLs
+
+GEO-3 gates on ~/Downloads/fsc-rollout/tmp/geo-3/t1
+pages: /states/illinois/chicago/, /states/illinois/
+folded: [['/states/illinois/peoria/', '/states/illinois/#peoria'], ['/states/illinois/rockford/', '/states/illinois/#rockford'], ['/states/illinois/springfield/', '/states/illinois/#springfield'], ['/states/illinois/champaign-urbana/', '/states/illinois/#champaign-urbana'], ['/states/illinois/bloomington-normal/', '/states/illinois/#bloomington-normal'], ['/states/illinois/quad-cities/', '/states/illinois/#quad-cities'], ['/states/illinois/metro-east/', '/states/illinois/#metro-east']]
+deploy_date in the copy: 2026-10-16
+
+=== Gate 1: pages build from sources; one <title>; JSON-LD parses with BreadcrumbList and author @id; folds have their section: GREEN
+  2 pages, 7 folded sections
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0 (no case in this tranche; casemodel run as a guard): GREEN
+  build.py --check rc=0: 25 page(s) checked, 0 out of date or failing
+  casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures: research at least 20, research plus register (at most 10) at least 30 (amendment A6): GREEN
+  /states/illinois/chicago/                    metro  words 3102  research 25  register 10  counted 35  overlap max 0.26% (/case-studies/lodging-retreat-johnson-city-texas-sba/)
+  /states/illinois/                            state  words 7923  research 93  register 9  counted 102  overlap max 0.47% (/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/)
+
+=== Gate 4: overlap under 15% against every page of the copy; sibling matrix: GREEN
+  /states/illinois/chicago/                    sibling max 0.0%; top: [[0.26, '/case-studies/lodging-retreat-johnson-city-texas-sba/', 10], [0.26, '/case-studies/hotel-texas-sba/', 10], [0.26, '/asset-classes/gas-station-and-c-store/ev-charging/', 8]]
+  /states/illinois/                            sibling max 0.0%; top: [[0.47, '/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/', 16], [0.39, '/practice-areas/sba-7a-504/', 16], [0.3, '/states/texas/', 27]]
+
+=== Gate 5: standalone: every metro passes gates 3 and 4 on its own geography's evidence (folds listed in gate 1): GREEN
+  metros 1, failing []
+
+=== Gate 6: case standard: N/A
+  GEO-3 writes no case pages
+
+=== Gate 7: sources: four parts; ruling 9 pattern absent in sources, served pages, commit authors and messages, tag messages; sbamandate zero: RED
+  lane commit identities: ['Feasibility Study Company <(the repository-configured address, rebuilt per D12)> | Feasibility Study Company <(the repository-configured address, rebuilt per D12)>', 'Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility Study Company <noreply@feasibility-study-company.com>']
+  forbidden pattern in a lane commit author or message
+
+=== Gate 8: subjects: no identifier from any list in private/ in the tranche's pages, sources or history: GREEN
+  10 lists, 6690 tokens
+
+=== Gate 9: links: links.py and mesh.py --check; required state and metro edges; inbound count (checked again at landing): RED
+  links.py --check rc=1: 1 problem(s) over 170 checked pages (0 held, data/site/hold.json)
+  mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1002 term link(s) on 156 page(s)
+  inbound contextual links from distinct non-index pages (3 required after landing):
+    /states/illinois/                            21
+    /states/illinois/chicago/                    1
+
+=== Gate 10: clean text: zero em and en dashes in any encoding; no credential beside the name: GREEN
+  0 dashes, credential grep 0
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+  byline.py --check rc=0: out of date: 0 page(s)
+  regulatory.py --check rc=0: 0 page(s) out of date
+  chrome.py --check rc=0: 0 page(s) out of date; 0 held; 170 checked; 0 problem(s)
+  markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, visible line and sitemap lastmod agree (2026-10-16 in the copy; the integrator pins DEPLOY at landing); rebuilt pages keep their published date: GREEN
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+  states_illinois_chicago-desktop-1440.png                     scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  states_illinois_chicago-mobile-390.png                       scrollWidth 390 / 390 overflow False inner-scroll tables 0
+  states_illinois-desktop-1440.png                             scrollWidth 1440 / 1440 overflow False inner-scroll tables 0
+  states_illinois-mobile-390.png                               scrollWidth 390 / 390 overflow False inner-scroll tables 5
+
+=== Gate 14: index all: index, follow and in the sitemap with lastmod: GREEN
+
+SUMMARY: 12/14 green or not applicable; 1:GREEN, 2:GREEN, 3:GREEN, 4:GREEN, 5:GREEN, 6:N/A, 7:RED, 8:GREEN, 9:RED, 10:GREEN, 11:GREEN, 12:GREEN, 13:GREEN, 14:GREEN
+
+
+## Integrator tool, scripts/qa/gates.py --stage ready
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-17T09:02:06
+root ~/Downloads/fsc-rollout/tmp/geo-3/t1; git dir ~/Downloads/wt-rollout-geo-3 at b191a93a48e769fae6f0c83564eaa0d7656d6ba0; range main..HEAD; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-3/t1 --git-dir ~/Downloads/wt-rollout-geo-3 --urls /states/illinois/chicago/,/states/illinois/ --stage ready --range main..HEAD --skip-look --out ~/Downloads/fsc-rollout/tmp/geo-3/t1/.qa-gates.txt
+pages (2): /states/illinois/ /states/illinois/chicago/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+2 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 25 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /states/illinois/                                              state     counted 102 (research 93, register 9/9)
+  /states/illinois/chicago/                                      metro     counted 38 (research 28, register 10/10)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/illinois/                                              max 0.48% (/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/)
+  /states/illinois/chicago/                                      max 0.26% (/case-studies/lodging-retreat-johnson-city-texas-sba/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+1 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: RED
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..HEAD: 1
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..HEAD (108942 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): RED
+links.py --check rc=1: 1 problem(s) over 170 checked pages (0 held, data/site/hold.json)
+  states/illinois/chicago/index.html:987: missing fragment: /states/indiana/#northwest-indiana
+  pending anchors by class: {"framework": 31, "hub": 2304, "metro": 943, "retired-infrastructure": 1, "state": 8, "subtype": 228}
+  1 problem(s) over 170 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1002 term link(s) on 156 page(s)
+pages checked for inbound links: 2; under 3: 1
+  /states/illinois/chicago/                                      1
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 170 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+2 page(s)
+
+=== Gate 13: look: PENDING
+  skipped in this run (--skip-look)
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  2 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: RED      sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: RED      links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: PENDING  look
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 11/14
+
+freeze of tranche t1: worktree HEAD b191a93a48e769fae6f0c83564eaa0d7656d6ba0
+  source /states/illinois/chicago/                dbc5179c116620fc21841b76a38970a52c0eefe61b132e53b94408ffcca98d21
+  served /states/illinois/chicago/                5abc0418ed9792bce6e3ddf854a89f5bc59af502cab917302a05c0675a63c634
+  source /states/illinois/                        6e59fc46551004665d28dbea469071fc57d60272ba98b5e49a9ff36841de94ef
+  served /states/illinois/                        94a082b98c0bef4bb6951fa6ced85ba133609c3af65988bdf2067dccfb4c0e29

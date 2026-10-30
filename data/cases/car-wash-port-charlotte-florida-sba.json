@@ -1,0 +1,305 @@
+{
+  "slug": "car-wash-port-charlotte-florida-sba",
+  "page": "/case-studies/car-wash-port-charlotte-florida-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 31,
+    "fees": 32,
+    "prime": 33
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "tunnel",
+    "count": 1
+  },
+  "inputs": {
+    "land_acres": {
+      "value": 1.5,
+      "fmt": "n1",
+      "label": "Site area, acres (hypothetical US 41 pad)",
+      "assumption": "Round figure set by the operating tunnels around it: the Tommy's Express lot on Murdock Circle measures 58,370 sq ft on the 2026 roll, about 1.3 acres [^11], and the Mister Car Wash lot on McCall Road was reported at 1.47 acres [^20]. Three listed net-lease Mighty Wash sites averaged 1.54 acres in May 2026 [^27]. About 1.5 acres fits one tunnel, a stacking lane for members and a vacuum row."
+    },
+    "land": {
+      "value": 1100000,
+      "fmt": "$",
+      "label": "Land, about 1.5 acres of commercial frontage",
+      "assumption": "A round placeholder, not the price of any parcel. The only appraiser value for car wash land on the corridor is the Tommy's Express lot, where the 2026 roll carries land at $1,400,880 for 58,370 sq ft, about $24 a sq ft, after a $1,800,000 sale in February 2020 [^11]. That lot sits at the Murdock Circle retail node; a mid-corridor pad is carried at about $17 a sq ft. An appraisal and an executed contract replace this line."
+    },
+    "building_site": {
+      "value": 2450000,
+      "fmt": "$",
+      "label": "Tunnel building (about 5,000 sq ft), vacuum canopies, paving and drainage",
+      "assumption": "No Charlotte County construction cost was found. The building size sits between the 4,455 sq ft average of three listed Mighty Wash buildings [^27] and the 6,417 sq ft Tommy's building completed in Port Charlotte in 2022 [^11]. Finished tunnels listed at an average of $5.11 million including land in April 2026 [^26] and Mister sold one site in a sale-leaseback for $5.0 million in the third quarter of 2025 [^23]; this line plus land and soft costs stays below those values because equipment is carried separately. Steel mill products rose 23.4% in the year to August 2026 [^28], so the line is not set low."
+    },
+    "equipment": {
+      "value": 1550000,
+      "fmt": "$",
+      "label": "Conveyor, wash equipment, pay stations and vacuum system",
+      "assumption": "No equipment quote and no published equipment share of cost was found. The 2026 Tommy's Express disclosure puts total investment for its tunnel at $3,482,389 to $11,846,697 [^25]; the land, building and equipment lines here total in the lower part of that range. Aluminum mill shapes rose 27.3% in the year to August 2026 [^28]. A vendor quote is a lender condition."
+    },
+    "soft": {
+      "value": 400000,
+      "fmt": "$",
+      "label": "Design, permits, impact fees, survey and contingency",
+      "assumption": "Charlotte County's August 2020 impact fee study set an updated maximum of $11,727 per 1,000 sq ft for retail and commercial use [^9], about $59,000 for a 5,000 sq ft building if that category applied; the current adopted fee and the car wash category were not found. The rest covers design, survey, stormwater engineering and a contingency for a flood zone that is not yet known."
+    },
+    "preopening": {
+      "value": 150000,
+      "fmt": "$",
+      "label": "Pre-opening payroll, marketing and working capital",
+      "assumption": "Covers hiring, training and opening promotions. ModWash opened its Beatrix Boulevard tunnel with a discounted first month for its first top-plan members [^15], so a new entrant should budget for a discounted launch."
+    },
+    "members": {
+      "value": [
+        1300,
+        2200,
+        2700,
+        2850,
+        2950
+      ],
+      "fmt": "n",
+      "label": "Average active unlimited members",
+      "assumption": "No member count for any Port Charlotte tunnel was found. Mister ended 2025 with about 2.3 million members at 548 locations [^21], about 4,200 a site by division; the subject stabilizes well below that because at least five tunnels already sell plans in the market and a sixth is announced on US 41. Year 1 is about half of the stabilized count. As a check on the ramp, Tommy's Express first-year sites averaged $1,093,264 of gross sales in 2024 and its later-year cohorts $1,603,302 to $2,204,358 [^24]; the model's Year 1 revenue sits below the first figure and its Year 3 revenue below every later one."
+    },
+    "member_price": {
+      "value": 30,
+      "fmt": "$",
+      "label": "Blended member price per month",
+      "assumption": "A round blend, not a posted price. Tommy's Express, Coastal Express and the announced Bubble Down site each post a tiered menu of unlimited plans [^12,16,18], and ModWash names its tiers without dollar amounts [^13]. Their amounts are not printed here because the pages carry no publication date. The blend is set in the lower half of the posted ladders, on the view that most members of a new tunnel buy a middle plan and some take opening discounts. A fresh pull of every menu is a lender condition."
+    },
+    "retail_washes": {
+      "value": [
+        24000,
+        25000,
+        26000,
+        26500,
+        27000
+      ],
+      "fmt": "n",
+      "label": "Retail (single) washes",
+      "assumption": "No wash counts were found for any local site. Retail volume grows slowly while members grow; at Mister, members produced 76% of 2025 wash sales [^21], and the model reaches about 70% by Year 3, lower because a newcomer converts fewer retail customers."
+    },
+    "retail_ticket": {
+      "value": 16,
+      "fmt": "$",
+      "label": "Average retail ticket",
+      "assumption": "A round figure between the entry and second single-wash tiers on the menus of the operators that post them [^12,16,18]; their dollar amounts are undated and not printed here. A fresh pull of the menus is a lender condition."
+    },
+    "labor_chem_pct": {
+      "value": 0.29,
+      "fmt": "%",
+      "label": "Labor and chemicals, share of revenue",
+      "assumption": "Mister reported labor and chemicals at 28.7% of 2025 revenue [^22]. A single tunnel buys chemicals without chain pricing, so the share is rounded up."
+    },
+    "other_store_pct": {
+      "value": 0.19,
+      "fmt": "%",
+      "label": "Utilities, repairs, card fees, software and marketing, share of revenue",
+      "assumption": "Mister's other store costs were 41.5% of 2025 revenue [^22], a chain-wide ratio that includes about $123 million of rent [^23], which an owner-occupied site does not pay. The ratio carried here is lower for that reason and is a judgement, not a figure from any filing: no single-site operating statement was found, and a comparable site's statements are a lender condition. Property tax and insurance are separate lines here."
+    },
+    "mgmt_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Management and brand allowance, share of revenue",
+      "assumption": "Stands in for owner management or a franchise. The market price of brand and support in this format is a 4% royalty and a 1% brand fund in the Tommy's Express disclosure [^25]."
+    },
+    "insurance": {
+      "value": 65000,
+      "fmt": "$",
+      "label": "Property, wind, flood and liability insurance, Year 1",
+      "assumption": "No insurance quote was found. The nearest operating tunnel's lot straddles flood Zone AE and Zone X on the 2022 FEMA panel [^11], and the county's FY25 budget workshop still carried a Hurricane Ian return-to-roll line [^10], so the placeholder is set well above an inland site. A bound quote is a lender condition."
+    },
+    "cost_growth": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Annual growth in insurance cost",
+      "assumption": "No Florida commercial premium series was found. The growth rate is set above general inflation as a cushion for coastal wind and flood cover on a site whose flood zone is not yet known; the bound quote and its renewal terms replace it."
+    },
+    "taxable_value": {
+      "value": 3000000,
+      "fmt": "$",
+      "label": "Taxable value of land, building and equipment",
+      "assumption": "Florida taxes at assessed value, not cost. The 2022 Tommy's tunnel carries a 2026 just value of $2,509,667 and a county taxable value of $2,323,668 [^11]; a newer building with its equipment on the tangible roll is set somewhat higher. The property appraiser's first assessment replaces this line."
+    },
+    "tax_mills": {
+      "value": 0.017,
+      "fmt": "%2",
+      "label": "Combined property tax rate, as a share of taxable value",
+      "assumption": "The county's own series of county-levied millage ends at 11.6998 mills [^8], which includes the 6.0394 countywide operating rate [^6]. School board, water management district and inlet district levies were not found, and about 5.3 mills is added as an allowance for them. The tax collector's estimate replaces this line."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        30
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 1.5 acres on US 41",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "building_site",
+      "label": "Tunnel building, canopies and site work",
+      "expr": "building_site",
+      "class": "real_estate",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, impact fees and contingency",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "assumption [^9]"
+    },
+    {
+      "key": "equipment",
+      "label": "Tunnel equipment, pay stations and vacuums",
+      "expr": "equipment",
+      "class": "equipment",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "preopening",
+      "label": "Pre-opening costs and working capital",
+      "expr": "preopening",
+      "class": "working_capital",
+      "basis": "assumption, see inputs"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "members",
+      "label": "Unlimited plan revenue",
+      "expr": "members * member_price * 12",
+      "basis": "members x monthly price x 12"
+    },
+    {
+      "key": "retail",
+      "label": "Single wash revenue",
+      "expr": "retail_washes * retail_ticket",
+      "basis": "washes x average ticket"
+    }
+  ],
+  "opex": [
+    {
+      "key": "labor",
+      "label": "Labor and chemicals",
+      "expr": "rev_total * labor_chem_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "store",
+      "label": "Utilities, repairs, card fees, software, marketing",
+      "expr": "rev_total * other_store_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "mgmt",
+      "label": "Management and brand allowance",
+      "expr": "rev_total * mgmt_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance, including wind and flood",
+      "expr": "insurance * (1 + cost_growth) ** y",
+      "basis": "assumption, grows yearly"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "taxable_value * tax_mills",
+      "basis": "taxable value x rate [^6,8,11]"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor requests the 7(a) start-up minimum"
+  },
+  "breakeven": {
+    "input": "members",
+    "label": "average active members"
+  },
+  "sensitivity": {
+    "year": 2,
+    "rows": {
+      "input": "members",
+      "label": "Members",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "member_price",
+      "label": "Blended member price",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Port Charlotte, Charlotte County, Florida, on the US 41 (Tamiami Trail) commercial corridor"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New express tunnel car wash with unlimited plans and free vacuums on about {in_land_acres} acres of commercial frontage on US 41; parcel, zoning, flood zone, utilities and traffic count to be confirmed"
+    ],
+    [
+      "Program",
+      "SBA 7(a) for a start-up; the page tests the SOP's equity floor, the 7(a) size limit and the coverage floor"
+    ],
+    [
+      "Total project cost",
+      "{tpc} as restructured ({tpc_proposed} under the request)"
+    ],
+    [
+      "Loan structure",
+      "One 7(a) term loan over 25 years at Prime plus the maximum spread for its size, {rate}; annual debt service {ds}"
+    ],
+    [
+      "Equity",
+      "Requested {equity_proposed_pct} ({equity_proposed}); the coverage test needs {equity_pct} ({equity})"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} on the request; {dscr_y2} on the smaller loan; floor {floor}"
+    ],
+    [
+      "Break-even",
+      "Year 3 debt service is met at {breakeven_value} average members, {breakeven_pct} of the underwritten count"
+    ],
+    [
+      "Market conclusion",
+      "Growing county, crowded corridor: at least five operator-confirmed membership washes and one announced, so a new entrant underwrites a modest member base [^1,12,13,16,18]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): a {loan_total_proposed} loan over the {cap} 7(a) limit, covering Year 2 debt service {dscr_y2_proposed} against {floor}. As restructured: the modeled income carries {loan_total} of 7(a) debt, which needs {equity_pct} equity on a {tpc} project; no lender approval is implied"
+    ]
+  ]
+}

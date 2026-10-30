@@ -1,0 +1,64 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+PSCT-01	13,544	North Branford town population Apr 2020	research	I77b	DataHaven, North Branford 2021 Equity Profile (2020 Census)	ct-research:L60	Y	
+PSCT-02	3,605,944	Connecticut population Apr 2020	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L60	Y	
+PSCT-03	3,688,496	Connecticut population V2025	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L61	N	same value already printed on a served page (served: states/connecticut/index.html)
+PSCT-04	+2.2%	Connecticut population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L62	Y	
+PSCT-05	1,434,007	Connecticut households	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L63	Y	
+PSCT-06	$95,781	Connecticut median household income	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L64	Y	
+PSCT-07	$55,915	Connecticut per capita income	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L66	Y	
+PSCT-08	$366,900	Connecticut median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L67	Y	
+PSCT-09	42.5%	Connecticut bachelor degree or higher	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L68	Y	
+PSCT-10	1,536,698	Connecticut total employment 2023 (County Business Patterns)	research	I77c	U.S. Census Bureau QuickFacts	ct-research:L69	Y	
+PSCT-11	13,503	North Branford population estimate	research	none	CCM Data Hub	ct-research:L61	N	town figure from CCM Data Hub, ACS label only, no periodic document identified
+PSCT-12	5,015	North Branford households	research	none	CCM Data Hub	ct-research:L63	N	CCM label "2025", no periodic document identified
+PSCT-13	$108,032	North Branford median household income	research	none	connecticut-demographics.com; CCM	ct-research:L64	N	secondary site, research notes 2023/2024 label conflict
+PSCT-14	48.5	North Branford median age	research	none	connecticut-demographics.com	ct-research:L65	N	secondary site, year label only
+PSCT-15	$54,198	North Branford per capita income	research	none	CCM Data Hub	ct-research:L66	N	CCM 2023 label only
+PSCT-16	$367,800	North Branford median home value	research	none	CCM Data Hub	ct-research:L67	N	CCM 2023 label only
+PSCT-17	1,538 to 1,546	North Branford public school enrollment	research	none	GreatSchools	ct-research:L70	N	"current listing", no date
+PSCT-18	$26,300	Hamden Hall PreS/PreK tuition 2026-27	research	I77a	Hamden Hall, Tuition and Financial Aid (2026-27)	ct-research:L83	Y	
+PSCT-19	$55,100	Hamden Hall Grades 9-12 tuition 2026-27	research	I77a	Hamden Hall, Tuition and Financial Aid (2026-27)	ct-research:L83	Y	
+PSCT-20	$31,000 to $45,000	Hamden Hall K to Grade 8 tuition steps 2026-27	research	I77a	Hamden Hall	ct-research:L83	N	intermediate values of the same schedule; endpoints counted
+PSCT-21	$3,315 to $875	Hamden Hall extended day fees 2025-26	research	I77a	Hamden Hall	ct-research:L84	N	ancillary fee schedule of one school; not counted
+PSCT-22	$30,800	The Country School K tuition 2026-27	research	I77a	The Country School, Tuition and Financial Aid (2026-27)	ct-research:L89	Y	
+PSCT-23	$41,100	The Country School Grades 6-8 tuition 2026-27	research	I77a	The Country School, Tuition and Financial Aid (2026-27)	ct-research:L89	Y	
+PSCT-24	$14,100 to $25,750	The Country School PreSchool/PreK tuition 2026-27	research	I77a	The Country School	ct-research:L89	N	schedule range depending on days; other grade steps not separately counted
+PSCT-25	$57,610	Choate Rosemary Hall day tuition plus fee 2026-27	research	I77a	Choate Rosemary Hall, Tuition and Financial Aid (2026-27)	ct-research:L103	Y	
+PSCT-26	$74,530	Choate Rosemary Hall boarding tuition plus fee 2026-27	research	I77a	Choate Rosemary Hall, Tuition and Financial Aid (2026-27)	ct-research:L103	Y	
+PSCT-27	$56,610 / $73,530	Choate tuition before $1,000 technology fee	research	I77a	Choate	ct-research:L103	N	components of the totals counted
+PSCT-28	$570 to $45,320	Choate average family contribution by income band 2026-27	research	I77a	Choate	ct-research:L104	N	school aid schedule, not a market measure
+PSCT-29	$8,098	East Shoreline Catholic Academy Gr 1-8 Catholic tuition 2025-26	research	I77a	ESCA, Tuition & Financial Aid (2025-26 schedule)	ct-research:L110	Y	
+PSCT-30	$9,718	East Shoreline Catholic Academy Gr 1-8 non-Catholic tuition 2025-26	research	I77a	ESCA, Tuition & Financial Aid (2025-26 schedule)	ct-research:L110	Y	
+PSCT-31	$15,644 to $35,564	ESCA multi-child tuition	research	I77a	ESCA	ct-research:L110	N	derived multi-child schedule of one school
+PSCT-32	$24,000	Slate School top grade tuition	research	none	Niche	ct-research:L99	N	Niche, undated
+PSCT-33	$49,910	Private School Review Choate day tuition (superseded)	research	none	Private School Review	ct-research:L105	N	research treats it as wrong, contradicted by operator
+PSCT-34	$28,702	Connecticut average private school tuition 2026-27	research	I77b	Private School Review, Connecticut Private High Schools By Tuition Cost (2026-27)	ct-research:L113	Y	
+PSCT-35	$40,770	Connecticut average private high school tuition 2026-27	research	I77b	Private School Review, Connecticut Private High Schools By Tuition Cost (2026-27)	ct-research:L113	Y	
+PSCT-36	$19,109 / $29,229	New Haven County average private tuition	research	none	Private School Review	ct-research:L136	N	Private School Review page with year label only
+PSCT-37	$24,762	North Branford public per-pupil spending	research	none	U.S. News	ct-research:L135	N	"latest NCES-based", no date
+PSCT-38	226 students	East Shoreline Catholic Academy enrollment	research	I77b	Private School Review, East Shoreline Catholic Academy (2026-27 Profile)	ct-research:L111	Y	
+PSCT-39	196 students	The Country School enrollment	research	I77b	Private School Review, The Country School (2026 Profile)	ct-research:L88	Y	
+PSCT-40	670 students	Hamden Hall enrollment	research	none	Hamden Hall	ct-research:L81	N	"current page", no date
+PSCT-41	859 students	Choate enrollment (649 boarding, 210 day)	research	none	Niche	ct-research:L106	N	Niche, year label only
+PSCT-42	160 students by Fall 2029	Slate School K-12 capacity target	research	none	Slate School	ct-research:L96	N	operator page undated
+PSCT-43	90 seats	Slate School denied second campus (Sept 2021)	research	I77a	Patch	ct-research:L122	N	research marks it pre-2025
+PSCT-44	$12 million	RESC magnet school funding restored by legislature (9 Apr 2026)	research	I77a	ACES Governing Board Draft Minutes (9 Apr 2026)	ct-research:L175	Y	
+PSCT-45	$75,000 each	charter school planning grants, three schools (2026)	research	I77b	CGA OLR Report 2026-R-0079	ct-research:L124	Y	
+PSCT-46	$225,000	former St. Mary Catholic School, Meriden sale (23 Apr 2026)	research	I77a	Hartford Business Journal (23 Apr 2026)	ct-research:L186	Y	
+PSCT-47	19,020 SF	former St. Mary Catholic School, Meriden	research	I77a	Hartford Business Journal (23 Apr 2026)	ct-research:L186	Y	
+PSCT-48	$1.6 million	St. Rose campus East Hartford listing (6 May 2025)	research	I77a	Patch (6 May 2025)	ct-research:L181	Y	
+PSCT-49	$1,300,000	Ben Bronz Academy purchase of St. Rose campus	research	none	Amodio & Co.; Hartford Business Journal	ct-research:L125	N	Amodio and HBJ article dates not given in research
+PSCT-50	50 students	Ben Bronz Academy enrollment	research	none	Hartford Business Journal	ct-research:L125	N	HBJ article date not given
+PSCT-51	17,200 / 12,200 AADT	Route 22 and Route 17 traffic (2022)	research	I77a	SCRCOG Northford Center Connectivity Study (June 2024)	ct-research:L47-L48	N	research says segment assignment to be confirmed
+PSCT-52	27.61 mills	North Branford mill rate FY2025-26	research	I77c	Patch; CCM Data Hub (FY2025-26 budget)	ct-research:L153	Y	
+PSCT-53	28.91 mills	North Branford mill rate FY2026-27	research	I77c	Town of North Branford, 2026-2027 Proposed Annual Budget	ct-research:L154	Y	
+PSCT-54	35.93 mills	North Branford mill rate FY2024-25 (pre-revaluation)	research	I77c	Town of North Branford, 2025-2026 Proposed Budget presentation	ct-research:L155	Y	
+PSCT-55	$1,844,637	value of one mill after revaluation	research	I77c	Town of North Branford, 2025-2026 Proposed Budget presentation	ct-research:L156	Y	
+PSCT-56	$1,398,877	value of one mill before revaluation	research	I77c	Town of North Branford, 2025-2026 Proposed Budget presentation	ct-research:L156	Y	
+PSCT-57	70%	North Branford assessment ratio FY2026-27	research	I77c	Town of North Branford, 2026-2027 Proposed Annual Budget	ct-research:L157	Y	
+PSCT-58	$65,859,026	North Branford FY2026-27 budget	research	I77c	Town of North Branford, 2026-2027 Proposed Annual Budget	ct-research:L154	Y	
+PSCT-59	$64,693,639	North Branford FY2025-26 budget	research	I77c	Patch; town budget presentation (FY2025-26)	ct-research:L182	Y	
+PSCT-60	$4,750,000	subject listing price, 26 Old Post Road	research	none	Coldwell Banker	ct-research:L28	N	subject listing figure
+PSCT-61	37,769 SF	subject building size	research	none	Coldwell Banker	ct-research:L31	N	subject attribute
+PSCT-62	$2,256,800	subject assessment	research	none	Coldwell Banker	ct-research:L36	N	subject attribute
+#SUMMARY private-school-connecticut-conventional counted=34 research=34 register=0 verdict=PAGE engine=Y notes=tuition counted on stated school-year basis; state Census figures counted; subject listing excluded

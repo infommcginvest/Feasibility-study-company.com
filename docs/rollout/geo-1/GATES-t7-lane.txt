@@ -1,0 +1,58 @@
+GEO-1 tranche 7 gates, copy ~/Downloads/fsc-rollout/tmp/geo-1/t7, 2 page(s)
+13/14 green
+
+GATE  1 GREEN pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id (2 pages)
+
+
+GATE  2 GREEN factory: build.py --check and casemodel.py --check exit 0
+  build.py --check: exit 0: 54 page(s) checked, 0 out of date or failing
+  casemodel.py --check: exit 0: 15 case(s) checked, 0 problem(s)
+
+GATE  3 GREEN counted figures (A6): at least 30, research at least 20, register at most 10 counted; body words in the ruling 3 range
+  /states/kentucky/                            state  words  4524 (4500-8000) research  80 register  9 total  89
+  /states/tennessee/                           state  words  5073 (4500-8000) research  93 register  9 total 102
+
+GATE  4 GREEN overlap under 15% against every page of the copy; sibling matrix
+  /states/kentucky/                            max  0.86% with /states/tennessee/nashville/; top [(0.86, '/states/tennessee/nashville/', 23), (0.86, '/states/alabama/huntsville/', 23), (0.73, '/states/south-carolina/charleston/', 19)]
+  /states/tennessee/                           max  0.94% with /states/tennessee/nashville/; top [(0.94, '/states/tennessee/nashville/', 25), (0.75, '/states/florida/miami/', 23), (0.73, '/states/south-carolina/charleston/', 19)]
+  sibling matrix:
+  /states/kentucky/ x /states/tennessee/: 0.46%
+
+GATE  5 GREEN standalone: every metro passes gates 3 and 4 on its own evidence (its counted figures are its own geography's)
+  no metro pages in this tranche
+
+GATE  6 GREEN case standard
+  no case pages in this tranche (not applicable)
+
+GATE  7 GREEN sources: four parts, all cited; ruling 9 pattern absent from pages, sources, commits and tags; sbamandate.py zero
+
+  sources matching the pattern: []
+  commits or tags matching: 0
+
+GATE  8 GREEN subjects: no identifier from 10 private list(s) in tranche pages, sources or history (217 tokens)
+
+
+GATE  9 GREEN links: links.py --check and mesh.py --check exit 0; state and metro link both ways; inbound counts (checked at landing)
+  links.py --check: exit 0: 0 problem(s) over 187 checked pages (0 held, data/site/hold.json)
+  mesh.py --check: exit 0: 0 page(s) out of date; 0 held; 1075 term link(s) on 172 page(s)
+
+  /states/kentucky/: 5 inbound contextual source pages (needs 3 after landing)
+  /states/tennessee/: 8 inbound contextual source pages (needs 3 after landing)
+
+GATE 10 GREEN clean text: no em or en dashes in any encoding; no credential after the name
+
+
+GATE 11 GREEN markers: byline, regulatory, chrome and markets --check exit 0
+  byline.py --check: exit 0: out of date: 0 page(s)
+  regulatory.py --check: exit 0: 0 page(s) out of date
+  chrome.py --check: exit 0: 0 page(s) out of date; 0 held; 187 checked; 0 problem(s)
+  markets.py --check: exit 0: 0 page(s) out of date
+
+GATE 12 GREEN dates: dateModified, visible line and sitemap lastmod agree (2026-10-22); rebuilt pages keep published
+
+
+GATE 13 RED   look
+  not run (--skip-look)
+
+GATE 14 GREEN index all: index, follow; in the sitemap with lastmod
+

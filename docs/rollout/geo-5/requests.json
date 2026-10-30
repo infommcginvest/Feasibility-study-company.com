@@ -1,0 +1,205 @@
+{
+ "lane": "geo-5",
+ "requests": [
+  {
+   "id": "geo-5-1",
+   "kind": "promised",
+   "urls": [
+    "/states/colorado/denver/",
+    "/states/virginia/northern-virginia/"
+   ]
+  },
+  {
+   "id": "geo-5-2",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "Colorado",
+   "href": "/states/colorado/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-3",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "metros",
+   "label": "Denver",
+   "href": "/states/colorado/denver/",
+   "fallback": "/states/colorado/#metros",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-4",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/colorado/",
+   "label": "Colorado",
+   "line": "Migration out of the state, a Front Range office market in two broker readings, and Denver with seven markets read county by county."
+  },
+  {
+   "id": "geo-5-5",
+   "kind": "mesh_term",
+   "key": "metro-denver",
+   "target": "/states/colorado/denver/",
+   "terms": [
+    "Denver"
+   ]
+  },
+  {
+   "id": "geo-5-6",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "Virginia",
+   "href": "/states/virginia/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-7",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "metros",
+   "label": "Northern Virginia",
+   "href": "/states/virginia/northern-virginia/",
+   "fallback": "/states/virginia/#metros",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-8",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/virginia/",
+   "label": "Virginia",
+   "line": "A data center tax exemption kept and a new power tax, federal payroll cuts, and Northern Virginia with eight markets from Richmond to the Shenandoah Valley."
+  },
+  {
+   "id": "geo-5-9",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "South Dakota",
+   "href": "/states/south-dakota/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-10",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/south-dakota/",
+   "label": "South Dakota",
+   "line": "Tourism's share of state sales tax, the October crop forecast, and Sioux Falls with five more markets read on county payrolls."
+  },
+  {
+   "id": "geo-5-11",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "North Dakota",
+   "href": "/states/north-dakota/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-12",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/north-dakota/",
+   "label": "North Dakota",
+   "line": "Record gas output and producing wells, the state-owned bank's lending, and six markets from Fargo to the Bakken."
+  },
+  {
+   "id": "geo-5-13",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "Alaska",
+   "href": "/states/alaska/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-14",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/alaska/",
+   "label": "Alaska",
+   "line": "The state's oil forecast and first oil at Pikka, borough payrolls and wages, and seven markets from Anchorage to Kodiak."
+  },
+  {
+   "id": "geo-5-15",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "Wyoming",
+   "href": "/states/wyoming/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-16",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/wyoming/",
+   "label": "Wyoming",
+   "line": "Data centers in Laramie County, lower gas withdrawals, a property tax vote, and seven county markets from Cheyenne to Jackson."
+  },
+  {
+   "id": "geo-5-17",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "District of Columbia",
+   "href": "/states/district-of-columbia/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-18",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/district-of-columbia/",
+   "label": "District of Columbia",
+   "line": "Federal job losses read for the District, its division and the metro, office vacancy and conversions, and five submarkets."
+  },
+  {
+   "id": "geo-5-19",
+   "kind": "chrome_link",
+   "mega": "markets",
+   "col": "states",
+   "label": "Vermont",
+   "href": "/states/vermont/",
+   "hide_until_live": true
+  },
+  {
+   "id": "geo-5-20",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/vermont/",
+   "label": "Vermont",
+   "line": "The labor force and county wages, flood recovery money and Act 250, and six markets from Burlington to the ski towns."
+  },
+  {
+   "id": "geo-5-21",
+   "kind": "mesh_term",
+   "key": "state-north-dakota",
+   "target": "/states/north-dakota/",
+   "terms": [
+    "North Dakota"
+   ]
+  },
+  {
+   "id": "geo-5-22",
+   "kind": "mesh_term",
+   "key": "state-alaska",
+   "target": "/states/alaska/",
+   "terms": [
+    "Alaska"
+   ]
+  },
+  {
+   "id": "geo-5-23",
+   "kind": "mesh_term",
+   "key": "state-district-of-columbia",
+   "target": "/states/district-of-columbia/",
+   "terms": [
+    "District of Columbia"
+   ]
+  }
+ ]
+}

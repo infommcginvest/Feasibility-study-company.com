@@ -1,0 +1,101 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+M01	12,630	Gig Harbor city population 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:50	Y	
+M02	12,046	Gig Harbor estimates base 1 Apr 2020	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:51	Y	
+M03	4.8%	Gig Harbor population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:52	Y	note: same string on asset-classes/retail/index.html (+9), different measure; kept
+M04	5,299	Gig Harbor households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:53	Y	
+M05	2.29	Persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:54	Y	note: same string on asset-classes/grocery-store/index.html (+1), different measure; kept
+M06	$118,395	Median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:55	Y	
+M07	$66,028	Per capita income, Gig Harbor city, ACS 2024 5-yr	research	I77c	Census Reporter (ACS 2024 5-yr)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:56	Y	
+M08	$53,744	Per capita income, Washington, ACS 2024 5-yr	research	I77c	Census Reporter (ACS 2024 5-yr)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:56	Y	
+M09	52.1%	Bachelor degree or higher (25+), ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:58	Y	
+M10	$767,100	Median owner-occupied home value, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:59	Y	
+M11	62.2%	Owner-occupied housing rate, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:60	Y	
+M12	$305.50	Gig Harbor Marina & Boatyard monthly open rate, 24 ft, 2019	research	I77a	Port of Kingston, Marina Rate Analysis (Nov 2019)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:77	Y	
+M13	$635.00	Gig Harbor Marina & Boatyard monthly open rate, top of range, 2019	research	I77a	Port of Kingston, Marina Rate Analysis (Nov 2019)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:77	Y	
+M14	$0.75	Guest rate winter per ft, 2019 (also $1.00 summer, $1.50 holiday)	research	I77a	Port of Kingston, Marina Rate Analysis (Nov 2019)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:77	Y	note: same string on case-studies/assisted-living-arizona-hud/index.html (+20), different measure; kept
+M15	2.60	Competitor parcel land acres (022108-2021), tax year 2024	research	I77c	LoopNet public-record page (Pierce County tax records)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:80	Y	note: same string on case-studies/assisted-living-arizona-hud/index.html (+9), different measure; kept
+M16	$125,000	Condominium slip closed sale, 32 ft slip B-26, 8 May 2023	research	I77a	Homes.com sale record	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:100	Y	note: same string on asset-classes/laundromat/index.html (+4), different measure; kept
+M17	$130,000	Condominium covered slip #24 sold 21 Dec 2017 (research flags outdated)	research	I77a	Windermere MLS 1198806	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:101	Y	note: same string on case-studies/cabin-resort-townsend-tennessee-sba/index.html (+1), different measure; kept
+M18	$385	Foss Harbor open slip 26 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:109	Y	
+M19	$435	Foss Harbor open slip 30 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:109	Y	
+M20	$525	Foss Harbor open slip 36 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:109	Y	
+M21	$595	Foss Harbor open slip 40 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:109	Y	
+M22	$645	Foss Harbor open slip 44 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:109	Y	note: same string on asset-classes/self-storage/index.html, different measure; kept
+M23	$785	Foss Harbor open slip 50 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:109	Y	
+M24	$495	Foss Harbor covered slip 26 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:110	Y	
+M25	$515	Foss Harbor covered slip 28 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:110	Y	
+M26	$660	Foss Harbor covered slip 36 ft per month	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:110	Y	
+M27	$1.90	Foss Harbor guest rate per ft per night	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:110	Y	note: same string on case-studies/auto-dealership-texas-sba/index.html (+2), different measure; kept
+M28	$35	Foss Harbor guest minimum (also City dock $35)	research	I77a	Foss Harbor Marina, 2026 Moorage Rates (effective 1 Jan 2026)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:110	Y	note: same string on asset-classes/coffee-shop/index.html (+39), different measure; kept
+M29	$337.80	Port Orchard Marina open 36 ft per month	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M30	$9.38	Port Orchard Marina open 36 ft per ft	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M31	$513.19	Port Orchard Marina open 50 ft per month	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M32	$10.26	Port Orchard Marina open 50 ft per ft	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M33	$450.52	Port Orchard Marina covered 36 ft per month	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M34	$12.51	Port Orchard Marina covered 36 ft per ft	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	note: same string on case-studies/behavioral-health-massachusetts-conventional/index.html, different measure; kept
+M35	$785.52	Port Orchard Marina covered 52 ft per month	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M36	$15.11	Port Orchard Marina covered 52 ft per ft	research	I77a	Port of Bremerton, Port Orchard Marina 2025 Tariff Schedule (eff. 1 Jul 2025)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:116	Y	
+M37	17	Commercial Fishing Homeport vessel capacity	research	I77a	Gig Harbor Now 21 Jul 2025	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:124	Y	
+M38	$3,480,000	Homeport 2025-2026 biennial budget	research	I77c	Future Tides; News Tribune via Yahoo; City of Gig Harbor budget	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:126	Y	
+M39	$4.2M	Homeport construction-contract range top, Jul 2026	research	I77a	Gig Harbor Now (C. Bick) 28 Jul 2026	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:126	Y	note: same string on case-studies/restaurant-missouri-sba/index.html (+1), different measure; kept
+M40	$5.2 million	Homeport worst-case total, Jul 2026	research	I77a	Gig Harbor Now (C. Bick) 28 Jul 2026	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:126	Y	note: same string on index.html (+2), different measure; kept
+M41	$3.6 million	Homeport contract bid accepted by council 10 Aug 2026	research	I77a	National Fisherman citing Gig Harbor Now; council vote 10 Aug 2026	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:128	Y	note: same string on asset-classes/childcare-and-daycare/index.html (+4), different measure; kept
+M42	$10	Homeport staff-recommended moorage per ft per month (proposed)	research	I77a	Gig Harbor Now (C. Bick) 28 Jul 2026	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:129	Y	
+M43	$121,000	Homeport projected annual moorage revenue	research	I77a	Gig Harbor Now (C. Bick) 28 Jul 2026	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:129	Y	note: same string on states/new-jersey/index.html, different measure; kept
+M44	$54,000	Homeport annual upkeep (a little more than)	research	I77a	Gig Harbor Now (C. Bick) 28 Jul 2026	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:129	Y	note: same string on case-studies/funeral-home-wisconsin-sba/index.html, different measure; kept
+M45	222,252	Gig Harbor visitor trips Q3 2025	research	I77c	Gig Harbor Chamber, July-Sept 2025 Tourism report to City	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:139	Y	
+M46	2.3	Average visitor stay, days, Q3 2025	research	I77c	Gig Harbor Chamber, July-Sept 2025 Tourism report to City	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:139	Y	note: same string on asset-classes/auto-service-and-collision/index.html (+30), different measure; kept
+M47	510,448	Visitor days Q3 2025	research	I77c	Gig Harbor Chamber, July-Sept 2025 Tourism report to City	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:139	Y	
+M48	565	Visitor-centre walk-ins Q3 2025	research	I77c	Gig Harbor Chamber, July-Sept 2025 Tourism report to City	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:140	Y	
+M49	$480,000	Annual tourism marketing funding to Chamber, 2025	research	I77b	Gig Harbor Now, Seven organizations get 2025 lodging tax grants	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:141	Y	note: same string on case-studies/lodging-retreat-johnson-city-texas-sba/index.html (+1), different measure; kept
+M50	2,000	Gig Harbor Film Festival anticipated audience, 24-28 Sep 2025	research	I77b	Gig Harbor Now, Seven organizations get 2025 lodging tax grants	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:144	Y	note: same string on asset-classes/auto-service-and-collision/index.html (+38), different measure; kept
+M51	8.38797	Combined levy TCA 075 per $1,000, tax year 2025	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M52	2.39236	TCA 075 State levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M53	0.74375	TCA 075 County levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M54	0.13266	TCA 075 Port levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M55	0.09399	TCA 075 Flood Control levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M56	0.67635	TCA 075 City levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M57	0.50000	TCA 075 EMS levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M58	1.81451	TCA 075 School levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M59	0.32621	TCA 075 Library levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M60	1.70814	TCA 075 FPD/Other levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:162	Y	
+M61	8.94210	Combined levy TCA 076 per $1,000, tax year 2025	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:163	Y	
+M62	0.55413	TCA 076 PenMet Parks levy	research	I77b	Pierce County Assessor-Treasurer, 2025 Tax Rates	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:163	Y	
+M63	3.00%	DNR water-dependent real rate of return, FY 1 Jul 2026-30 Jun 2027	research	I77c	Washington DNR, Ports inflation adjustment indexes	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:167	Y	
+M64	2.42%	DNR CPI adjustment, FY 1 Jul 2026-30 Jun 2027	research	I77c	Washington DNR, Ports inflation adjustment indexes	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:167	Y	note: same string on case-studies/truck-stop-texas-sba/index.html, different measure; kept
+M65	2%	Gig Harbor additional special lodging excise (Ord. 592, 13 Nov 1990)	research	I77a	City of Gig Harbor Ordinance 592	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:169	N	value already on states/washington/index.html as the special lodging tax of up to 2% (same measure)
+M66	6.97%	SBA 504 debenture rate 25-yr and 20-yr, effective 8 Oct 2026	research	I77a	Ohio Statewide Development Corp / CDCLoans citing NADCO pricing	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:192	N	SBA 504 debenture rate already printed as sba: value on other served case pages (e.g. case-studies/truck-stop-texas-sba)
+M67	6.60%	SBA 504 debenture rate 10-yr, Oct 2026 (also Sep 2026)	research	I77a	Ohio Statewide Development Corp / CDCLoans citing NADCO pricing	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:192	Y	note: same string on asset-classes/childcare-and-daycare/index.html, different measure; kept
+M68	30.6%	Persons 65 and over	research	none	U.S. Census Bureau QuickFacts Gig Harbor city (V2025 / ACS 2020-2024)	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:57	N	period given only as "QuickFacts current"
+M69	$1.11	Peninsula School District EP&O levy per $1,000	research	none	Gig Harbor Now	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:164	N	article date not stated; "2025" label only
+M70	12.84%	Leasehold excise tax on state aquatic lands lease (6.84% state, up to 6%)	research	none	Washington DOR	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:166	N	rule rate, "Current", undated
+M71	7%	Lodging tax facilities with more than 25 rooms	research	none	Gig Harbor Now	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:169	N	article undated
+M72	$789,000	Total lodging tax grants awarded, 2025	research	none	Gig Harbor Now	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:142	N	article date not stated
+M73	45,000	Visitor guide copies; $61,560 per year	research	none	Gig Harbor Now letter to the editor	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:143	N	undated advocacy letter
+M74	20	Commercial fishing vessels moored (estimate by one fisherman)	research	none	News Tribune via Yahoo	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:145	N	undated anecdotal estimate
+M75	20,000	SR 302 daily drivers	research	none	KIRO 7	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:148	N	article undated
+M76	6.54%	SBA 504 debenture rates 10 Sep 2026 sale (also 6.53%)	research	none	SomerCor; ThinkSBA; Evergreen	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:193	N	not retrieved directly (enrichment search only)
+M77	$465	Harbor Place posted monthly rates 30 ft $465, 44 ft $745, 50 ft $860	research	none	Harbor Place Marina	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:95	N	dated only by researcher check (15 Oct 2026)
+M78	$10/ft	Arabella's Landing permanent rate $10/ft ($8.00-$11.00 on second version)	research	none	Arabella's Landing	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:88	N	version dates not shown; checked-date only
+M79	$1.75	Jerisich Dock transient $1.75/ft peak, $1.25 off-peak, min $35/$25	research	none	City of Gig Harbor	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:102	N	dated only by researcher check
+M80	$16.50	Delin Docks rates $16.50 to $21.25 per ft, utility fee $35	research	none	Delin Docks Marina	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:112	N	effective date NOT FOUND
+M81	$0.84	Tacoma Yacht Club about $0.84 per sq ft per month	research	none	Tacoma Yacht Club	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:114	N	basin-map update date does not date the rate; members only
+M82	$260,000	Murphy's Landing slip asking prices $260,000 and $270,000	research	none	Zillow; Seattle by Design IDX	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:99	N	listing dates not shown
+M83	$90	Dockwa reviewer guest price, 37 ft	research	none	Dockwa review	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:79	N	single review, year only
+M84	416	Foss Harbor slips (also GHMB 150, Harbor Place 30, Arabella's 47)	research	none	Paige Schulte blog; Lake.com; operator pages	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:74,94,111	N	undated or checked-date only
+M85	$8,950,000	Subject listing price; 102/100 slips; 20,908.80 SF; opened 1947	research	none	CBRE listing; operator site	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:5,10,21-23	N	subject listing figures (real subject)
+M86	12 months	Harbor Place lease term; Port of Kingston peak season dates	research	none	operators	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:96,150	N	terms, no dated market value
+M87	$5,000,000	SBA 504 program values: 90% LTV refinance, $5M limit, 48-month deadline, citizenship rule	research	I77a	AmPac; Security Banks; SBA	CS-Q-GIG-HARBOR-WASHINGTON-MARINA:186-191	N	SBA program rule values
+R01	18	Marina establishments, Pierce County, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[co-53053][marina]	Y	note: same string on asset-classes/marina/index.html, different measure; kept
+R02	135	Marina employees, Pierce County, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_emp.json values[co-53053][marina]	Y	
+R03	97	Marina establishments, Washington, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[wa][marina]	Y	
+R04	568	Marina employees, Washington, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_emp.json values[wa][marina]	Y	
+R05	16	Marina 7(a) loans approved, Washington, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_loans.json values[wa][marina]	Y	note: same string on asset-classes/auto-dealership/index.html, different measure; kept
+R06	$6,504,000	Marina 7(a) volume, Washington, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_volume.json values[wa][marina]	Y	
+R07	$937,000	Marina 504 volume, Washington, all years to 2026-06-30	register	I77c	SBA FOIA 504 as of 2026-06-30	data/markets/series/sba504_volume.json values[wa][marina]	Y	
+R08	$99,564	Median household income, Pierce County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_hh_income.json values[co-53053]	Y	
+R09	$526,600	Median home value, Pierce County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_home_value.json values[co-53053]	Y	
+R10	$68,414	Per capita personal income, Pierce County, 2024	register	I77c	BEA county personal income 2024	data/markets/series/bea_per_capita_income.json values[co-53053]	Y	
+R11	$1,806	Median gross rent, Pierce County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_gross_rent.json values[co-53053]	N	over the 10-figure register cap
+R12	$85,187	Per capita personal income, Washington, 2024	register	I77c	BEA state personal income 2024	data/markets/series/bea_per_capita_income.json values[wa]	N	value already on states/washington/index.html (BEA per capita income, same measure); also over the cap
+#SUMMARY marina-gig-harbor-washington-sba counted=75 research=65 register=10 verdict=PAGE engine=N notes=Real-subject file: subject figures excluded; competitor, tax and rate-table figures carry it.

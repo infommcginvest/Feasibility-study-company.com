@@ -1,0 +1,69 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	21,411	Kapolei CDP population (2020 Census)	research	I77c	U.S. Census Bureau QuickFacts (2020 Census)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L50	Y	
+F02	15,186	Kapolei CDP population (2010 Census)	research	I77c	U.S. Census Bureau QuickFacts (2010 Census)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L51	Y	
+F03	22,232	Kapolei population, ACS 2020-2024 5-year (Census Reporter)	research	I77c	Census Reporter (republished ACS 2020-2024)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L53	Y	
+F04	$128,324	Kapolei CDP median household income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-HAWAII-HUD:L55	Y	
+F05	$100,389	Hawaii median household income	research	I77c	Census Reporter (republished ACS 2020-2024)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L55	Y	
+F06	$106,195	Urban Honolulu MSA median household income (same value as register acs5_median_hh_income co-15003)	research	I77c	Census Reporter (republished ACS 2020-2024)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L56	Y	
+F07	12,400	Fort Barrette Rd AADT 2022	research	I77b	DBEDT State of Hawaii Data Book 2024, Table 18.18 (HDOT counts)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L39	Y	
+F08	12,000	Fort Barrette Rd AADT 2023	research	I77b	DBEDT State of Hawaii Data Book 2024, Table 18.18 (HDOT counts)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L39	N	same value (and kind) printed on served page /research-notes/office-repurposing/
+F09	12,100	Fort Barrette Rd AADT 2024	research	I77b	DBEDT State of Hawaii Data Book 2024, Table 18.18 (HDOT counts)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L39	Y	
+F10	34,900	Kalaeloa Blvd AADT 2024	research	I77b	DBEDT State of Hawaii Data Book 2024, Table 18.18 (HDOT counts)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L40	Y	
+F11	89,300	H-1 east of Kualakai Pkwy AADT 2024	research	I77b	DBEDT State of Hawaii Data Book 2024, Table 18.18 (HDOT counts)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L41	Y	
+F12	2,593	Hawaii licensed ALF beds (Sept 2025 report)	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L101	Y	
+F13	17	Hawaii licensed ALFs (Sept 2025 report)	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L101	Y	
+F14	$372	Hawaii ALF cost per day	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L101	Y	
+F15	$11,315	Hawaii ALF cost per month	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L101	Y	
+F16	$135,780	Hawaii ALF cost per year	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L101	Y	
+F17	60%	Share of Hawaii long-term care paid by Medicaid	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L101	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F18	40	Hawaii assisted living beds per 1,000 aged 75+	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L102	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F19	55	National assisted living beds per 1,000 aged 75+	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L102	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F20	138	Best state beds per 1,000 aged 75+	research	I77a	LTC Financing Permitted Interaction Group Final Report (Sept 2025), SHPDA KAC minutes 31 Oct 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L102	Y	
+F21	13,000	Hawaii long-term care residents (Dec 2024)	research	I77a	Hawaii DOH Executive Office on Aging, LTC Plan report (Act 159), Dec 2024	CS-R-ASSISTED-LIVING-HAWAII-HUD:L103	N	same value (and kind) printed on served page /research-notes/c-store-franchise-category/
+F22	1,779	Hawaii long-term care facilities (Dec 2024)	research	I77a	Hawaii DOH Executive Office on Aging, LTC Plan report (Act 159), Dec 2024	CS-R-ASSISTED-LIVING-HAWAII-HUD:L103	Y	
+F23	$230,000	Nursing home annual cost per beneficiary 2023	research	I77a	Hawaii DOH Executive Office on Aging, LTC Plan report (Act 159), Dec 2024	CS-R-ASSISTED-LIVING-HAWAII-HUD:L103	N	same value (and kind) printed on served page /asset-classes/veterinary-practice/
+F24	949	Vacant direct patient care positions, HAH members (2022)	research	I77a	Hawaii DOH EOA LTC Plan report citing HAH 2022 Workforce Initiative	CS-R-ASSISTED-LIVING-HAWAII-HUD:L130	Y	
+F25	$6,996	Kapolei average assisted living (A Place for Mom)	research	none	A Place for Mom	CS-R-ASSISTED-LIVING-HAWAII-HUD:L104	N	page labelled 2026 only; no dated release
+F26	$10,000	Ilima AL studio (A Place for Mom)	research	none	A Place for Mom	CS-R-ASSISTED-LIVING-HAWAII-HUD:L78	N	aggregator rates flagged unreliable, checked Oct 2026 (fetch date)
+F27	$5,800	Plaza at Pearl City shared AL from (Seniorly)	research	none	Seniorly	CS-R-ASSISTED-LIVING-HAWAII-HUD:L87	N	aggregator, undated
+F28	$8,825	Plaza at Mililani shared MC (SeniorHomes)	research	none	SeniorHomes.com	CS-R-ASSISTED-LIVING-HAWAII-HUD:L91	N	aggregator, undated
+F29	160	Plaza at Moanalua beds (Dec 2020)	research	I77a	Seniors Housing Business, Dec 2020	CS-R-ASSISTED-LIVING-HAWAII-HUD:L94	N	same value (and kind) printed on served page /case-studies/lodging-retreat-johnson-city-texas-sba/
+F30	$41M	Walker & Dunlop financing, Plaza at Moanalua (2020)	research	I77a	Seniors Housing Business, 2020	CS-R-ASSISTED-LIVING-HAWAII-HUD:L96	N	same value (and kind) printed on served page /research-notes/office-repurposing/
+F31	$33M	Lancaster Pollard Fannie Mae refinance, Plaza at Punchbowl (2020)	research	I77a	Seniors Housing Business, 2020	CS-R-ASSISTED-LIVING-HAWAII-HUD:L165	N	same value (and kind) printed on served page /case-studies/grocery-store-mississippi-usda/
+F32	$52M	Ziegler bridge loan, Kalakaua Gardens (12 Jan 2022)	research	I77a	Seniors Housing Business, 12 Jan 2022	CS-R-ASSISTED-LIVING-HAWAII-HUD:L166	N	same value (and kind) printed on served page /case-studies/multifamily-new-york-agency/
+F33	$16.58M	Berkadia 232/223(f) loan, Kailua-Kona (11 Aug 2021)	research	I77a	Berkadia press release, 11 Aug 2021	CS-R-ASSISTED-LIVING-HAWAII-HUD:L164	N	same value (and kind) printed on served page rounded-repeat
+F34	123	Kailua-Kona assisted living units financed (11 Aug 2021)	research	I77a	Berkadia press release, 11 Aug 2021	CS-R-ASSISTED-LIVING-HAWAII-HUD:L164	Y	
+F35	2,500	Laulima residential units	research	I77a	Pacific Business News via DHHL, 3 Nov 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L113	N	same value (and kind) printed on served page /asset-classes/quick-service-restaurant/
+F36	750	Laulima affordable rentals	research	I77a	Pacific Business News via DHHL, 3 Nov 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L113	N	same value (and kind) printed on served page /case-studies/cabin-resort-townsend-tennessee-sba/
+F37	130	Gentry Homes Ewa Villages homes	research	I77a	Pacific Business News via DHHL, 3 Nov 2025	CS-R-ASSISTED-LIVING-HAWAII-HUD:L114	N	same value (and kind) printed on served page /asset-classes/truck-stop-and-travel-center/
+F38	30,000	West Oahu new homes over next decade (broker map, Jan 2025)	research	I77a	Broker market map, 01/25 update	CS-R-ASSISTED-LIVING-HAWAII-HUD:L125	N	same value (and kind) printed on served page /research-notes/underserved-gas-station-markets/
+F39	403	East Kapolei Phase I units (Jan 2025)	research	I77a	Broker market map, 01/25 update	CS-R-ASSISTED-LIVING-HAWAII-HUD:L126	Y	
+F40	308	East Kapolei Phase I units built (Jan 2025)	research	I77a	Broker market map, 01/25 update	CS-R-ASSISTED-LIVING-HAWAII-HUD:L126	Y	
+F41	2,000	East Kapolei Phase II units planned (Jan 2025)	research	I77a	Broker market map, 01/25 update	CS-R-ASSISTED-LIVING-HAWAII-HUD:L126	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F42	320	East Kapolei Phase II units built (Jan 2025)	research	I77a	Broker market map, 01/25 update	CS-R-ASSISTED-LIVING-HAWAII-HUD:L126	N	same value (and kind) printed on served page /case-studies/rv-boat-storage-arizona-sba/
+F43	120	Hawaii State Veterans Home West Oahu beds	research	none	Broker market map	CS-R-ASSISTED-LIVING-HAWAII-HUD:L117	N	status not verified
+F44	$12.40	Honolulu commercial property tax per $1,000 (FY2026 and FY2027, unchanged)	research	I77a	City and County of Honolulu RPAD, Real Property Tax Rates FY2026 (Jul 2025) and FY2027 (Jul 2026)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L143	Y	
+F45	$13.90	Honolulu hotel and resort tax per $1,000	research	I77a	City and County of Honolulu RPAD, Real Property Tax Rates FY2026 and FY2027	CS-R-ASSISTED-LIVING-HAWAII-HUD:L145	Y	
+F46	$3.50	Honolulu residential tax per $1,000	research	I77a	City and County of Honolulu RPAD, Real Property Tax Rates FY2026 and FY2027	CS-R-ASSISTED-LIVING-HAWAII-HUD:L145	N	same value (and kind) printed on served page /asset-classes/coffee-shop/
+F47	$4.00	Honolulu Residential A tax per $1,000 (first $1M)	research	I77a	City and County of Honolulu RPAD, Real Property Tax Rates FY2026 and FY2027	CS-R-ASSISTED-LIVING-HAWAII-HUD:L145	N	same value (and kind) printed on served page /case-studies/gas-station-georgia-sba/
+F48	$11.40	Honolulu Residential A tax per $1,000 (over $1M)	research	I77a	City and County of Honolulu RPAD, Real Property Tax Rates FY2026 and FY2027	CS-R-ASSISTED-LIVING-HAWAII-HUD:L145	Y	
+F49	$5.70	Honolulu agricultural tax per $1,000	research	I77a	City and County of Honolulu RPAD, Real Property Tax Rates FY2026 and FY2027	CS-R-ASSISTED-LIVING-HAWAII-HUD:L145	Y	
+F50	11.2%	Kapolei 65+ share	research	none	no source or period given in the research text	CS-R-ASSISTED-LIVING-HAWAII-HUD:L121	N	stated in section prose with no source or period
+F51	$8.1 billion	HUD 232 FY2025 firm commitments	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L167	N	same value counted once on california-hud (this batch)
+F52	$6 billion	HUD 232 FY2025 closings	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L167	N	same value counted once on california-hud (this batch)
+F53	337	HUD 232 FY2025 loans	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-HAWAII-HUD:L167	N	same value counted once on california-hud (this batch)
+F54	$8,280,700	Subject listing asking price	research	none	Colliers	CS-R-ASSISTED-LIVING-HAWAII-HUD:L29	N	subject listing figure
+F55	1.901	Subject acreage	research	none	Colliers	CS-R-ASSISTED-LIVING-HAWAII-HUD:L28	N	single-property attribute
+F56	75%	HUD 232 max LTV	research	none	LSG Lending	CS-R-ASSISTED-LIVING-HAWAII-HUD:L170	N	HUD program rule value
+F57	38	Honolulu County assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[co-15003][assisted-living-and-memory-care]	Y	
+F58	504	Honolulu County assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[co-15003][assisted-living-and-memory-care]	Y	
+F59	0.38	Honolulu County assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[co-15003][assisted-living-and-memory-care]	Y	
+F60	43	Hawaii assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[hi][assisted-living-and-memory-care]	Y	
+F61	605	Hawaii assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[hi][assisted-living-and-memory-care]	Y	
+F62	0.3	Hawaii assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[hi][assisted-living-and-memory-care]	N	same value printed on served page /case-studies/glamping-utah-usda/
+F63	195,878	Honolulu County population 65+ (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_pop65.json values[co-15003]	Y	
+F64	$897,500	Honolulu County median home value (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_home_value.json values[co-15003]	Y	
+F65	$74,681	Honolulu County BEA per capita income (calendar year 2024)	register	I77c	register: bea_cainc1_api	data/markets/series/bea_per_capita_income.json values[co-15003]	Y	
+F66	2,083	Honolulu County median gross rent (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_gross_rent.json values[co-15003]	Y	
+F67	338,868	Honolulu County households (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_households.json values[co-15003]	Y	
+#SUMMARY assisted-living-hawaii-hud counted=35 research=25 register=10 verdict=PAGE engine=N notes=25 research clears floor; many small integers lost to repeats; aggregator rates, subject, HUD rule rows excluded

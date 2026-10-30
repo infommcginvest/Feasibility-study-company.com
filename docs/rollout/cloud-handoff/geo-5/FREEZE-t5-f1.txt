@@ -1,0 +1,6 @@
+# GEO-5 t5 freeze 1 (2026-10-28T21:08Z)
+worktree HEAD 851c315279b9edbf952de22db7ba6575093bea39 (local main 24aa91e merged); requests.json 168ae44519b508444bc725d888db331017a1c3942ea2f6bd5bc09c4a14444ac6 (working copy, 23 requests)
+source alaska aefa7dc9f30fa2960f409a274ff0a7e61af20f076639ac9e68a8f297adde1c10 copy aefa7dc9f30fa2960f409a274ff0a7e61af20f076639ac9e68a8f297adde1c10
+rendered /states/alaska/ ec9ad4be50f3e99eba65220a534aad12ef1f37731a85cee926190ab8b59dc311
+src/pages/states tree b194080dd383765a20e6af1c6e52de159ea9a10a7fde7858855e2ea1a5b21a0a
+gates READY 0f38644bd58740b5d590cd3fbc75d345bb2154fc26130f2204d798ff0c72ed3c; landing 3,9 site-wide 6ce7e10530bba963a5ec837fc588385635075d6d65fabfd00f55272afa80a9c6

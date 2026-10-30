@@ -1,0 +1,1482 @@
+{
+ "state": "WYOMING",
+ "rerun": 2,
+ "rerun_note": "ST-WYOMING-2 supplement judged fresh; first-pass judgements reused unchanged",
+ "markets": [
+  {
+   "slug": "cheyenne",
+   "name": "Cheyenne",
+   "section": "Cheyenne (Laramie County)",
+   "counties": [
+    "Laramie County, WY (co-56021)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 10",
+    "MT-WYOMING line 12",
+    "MT-WYOMING line 13",
+    "MT-WYOMING line 16",
+    "MT-WYOMING line 17",
+    "MT-WYOMING line 18",
+    "MT-WYOMING line 19",
+    "MT-WYOMING line 24",
+    "MT-WYOMING line 25",
+    "MT-WYOMING line 26",
+    "MT-WYOMING line 27",
+    "MT-WYOMING line 30",
+    "MT-WYOMING line 47",
+    "MT-WYOMING line 48",
+    "ST-WYOMING-2 line 85",
+    "ST-WYOMING-2 line 86",
+    "ST-WYOMING-2 line 87",
+    "ST-WYOMING-2 line 89",
+    "ST-WYOMING-2 line 90"
+   ]
+  },
+  {
+   "slug": "casper",
+   "name": "Casper",
+   "section": "Casper (Natrona County)",
+   "counties": [
+    "Natrona County, WY (co-56025)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 57",
+    "MT-WYOMING line 58",
+    "MT-WYOMING line 63",
+    "MT-WYOMING line 66",
+    "MT-WYOMING line 70",
+    "MT-WYOMING line 71",
+    "MT-WYOMING line 72",
+    "MT-WYOMING line 73",
+    "ST-WYOMING-2 line 103",
+    "ST-WYOMING-2 line 105",
+    "ST-WYOMING-2 line 106",
+    "ST-WYOMING-2 line 109"
+   ]
+  },
+  {
+   "slug": "laramie",
+   "name": "Laramie",
+   "section": "Laramie (Albany County)",
+   "counties": [
+    "Albany County, WY (co-56001)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 94",
+    "ST-WYOMING-2 line 118"
+   ]
+  },
+  {
+   "slug": "gillette",
+   "name": "Gillette",
+   "section": "Gillette (Campbell County)",
+   "counties": [
+    "Campbell County, WY (co-56005)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 104",
+    "MT-WYOMING line 112",
+    "ST-WYOMING-2 line 128"
+   ]
+  },
+  {
+   "slug": "jackson",
+   "name": "Jackson",
+   "section": "Jackson (Teton County)",
+   "counties": [
+    "Teton County, WY (co-56039)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 122",
+    "MT-WYOMING line 127",
+    "MT-WYOMING line 128",
+    "MT-WYOMING line 129",
+    "MT-WYOMING line 130",
+    "MT-WYOMING line 131",
+    "MT-WYOMING line 137",
+    "MT-WYOMING line 138",
+    "MT-WYOMING line 140",
+    "MT-WYOMING line 142"
+   ]
+  },
+  {
+   "slug": "rock-springs-green-river",
+   "name": "Rock Springs and Green River",
+   "section": "Rock Springs and Green River (Sweetwater County)",
+   "counties": [
+    "Sweetwater County, WY (co-56037)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 152",
+    "ST-WYOMING-2 line 148"
+   ]
+  },
+  {
+   "slug": "sheridan",
+   "name": "Sheridan",
+   "section": "Sheridan",
+   "counties": [
+    "Sheridan County, WY (co-56033)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-WYOMING line 166",
+    "MT-WYOMING line 168",
+    "ST-WYOMING-2 line 158",
+    "ST-WYOMING-2 line 159"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-WYOMING line 10",
+  "ST-WYOMING line 23",
+  "ST-WYOMING line 24",
+  "ST-WYOMING line 28",
+  "ST-WYOMING line 29",
+  "ST-WYOMING line 30",
+  "ST-WYOMING line 31",
+  "ST-WYOMING line 32",
+  "ST-WYOMING line 33",
+  "ST-WYOMING line 35",
+  "ST-WYOMING line 38",
+  "ST-WYOMING line 44",
+  "ST-WYOMING line 53",
+  "ST-WYOMING line 60",
+  "ST-WYOMING line 62",
+  "ST-WYOMING line 73",
+  "ST-WYOMING line 109",
+  "ST-WYOMING line 110",
+  "ST-WYOMING line 112",
+  "ST-WYOMING line 113",
+  "ST-WYOMING line 114",
+  "ST-WYOMING line 116",
+  "ST-WYOMING line 117",
+  "ST-WYOMING line 118",
+  "ST-WYOMING line 119",
+  "ST-WYOMING line 120",
+  "ST-WYOMING line 121",
+  "ST-WYOMING line 129",
+  "ST-WYOMING line 130",
+  "ST-WYOMING line 131",
+  "ST-WYOMING line 132",
+  "ST-WYOMING-2 line 12",
+  "ST-WYOMING-2 line 13",
+  "ST-WYOMING-2 line 14",
+  "ST-WYOMING-2 line 15",
+  "ST-WYOMING-2 line 16",
+  "ST-WYOMING-2 line 18",
+  "ST-WYOMING-2 line 19",
+  "ST-WYOMING-2 line 55",
+  "ST-WYOMING-2 line 56",
+  "ST-WYOMING-2 line 57",
+  "ST-WYOMING-2 line 58",
+  "ST-WYOMING-2 line 59",
+  "ST-WYOMING-2 line 68",
+  "ST-WYOMING-2 line 69",
+  "ST-WYOMING-2 line 70",
+  "ST-WYOMING-2 line 71"
+ ],
+ "register_pairs": [
+  {
+   "geo": "wy",
+   "series": "acs5_median_hh_income",
+   "value": 76176,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_per_capita_income",
+   "value": 42668,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_median_home_value",
+   "value": 309700,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_median_gross_rent",
+   "value": 992,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_households",
+   "value": 243318,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_labor_force",
+   "value": 299826,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_owner_occupied",
+   "value": 174619,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_renter_occupied",
+   "value": 68699,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_aggregate_income",
+   "value": 24849497400,
+   "page": "state"
+  },
+  {
+   "geo": "wy",
+   "series": "acs5_unemployed",
+   "value": 11113,
+   "page": "state"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_median_hh_income",
+   "value": 80173,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_per_capita_income",
+   "value": 42871,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_median_home_value",
+   "value": 348700,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_median_gross_rent",
+   "value": 1160,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_households",
+   "value": 43279,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_labor_force",
+   "value": 50840,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_renter_occupied",
+   "value": 12742,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_aggregate_income",
+   "value": 4332522400,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16940",
+   "series": "acs5_unemployed",
+   "value": 1872,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "co-56021",
+   "series": "bea_per_capita_income",
+   "value": 66012,
+   "page": "cheyenne"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_median_hh_income",
+   "value": 72156,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_per_capita_income",
+   "value": 42188,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_median_home_value",
+   "value": 273000,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_median_gross_rent",
+   "value": 1016,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_households",
+   "value": 33886,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_labor_force",
+   "value": 41906,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_owner_occupied",
+   "value": 24967,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_renter_occupied",
+   "value": 8919,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_aggregate_income",
+   "value": 3374094300,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-16220",
+   "series": "acs5_unemployed",
+   "value": 1735,
+   "page": "casper"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_median_hh_income",
+   "value": 61917,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_per_capita_income",
+   "value": 37723,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_median_home_value",
+   "value": 333000,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_households",
+   "value": 17083,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_labor_force",
+   "value": 22749,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_owner_occupied",
+   "value": 8546,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-29660",
+   "series": "acs5_renter_occupied",
+   "value": 8537,
+   "page": "laramie"
+  },
+  {
+   "geo": "co-56001",
+   "series": "bea_per_capita_income",
+   "value": 57293,
+   "page": "laramie"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_median_hh_income",
+   "value": 89869,
+   "page": "gillette"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_per_capita_income",
+   "value": 40799,
+   "page": "gillette"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_median_gross_rent",
+   "value": 1009,
+   "page": "gillette"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_labor_force",
+   "value": 24704,
+   "page": "gillette"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_owner_occupied",
+   "value": 13971,
+   "page": "gillette"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_renter_occupied",
+   "value": 4017,
+   "page": "gillette"
+  },
+  {
+   "geo": "cbsa-23940",
+   "series": "acs5_unemployed",
+   "value": 875,
+   "page": "gillette"
+  },
+  {
+   "geo": "co-56005",
+   "series": "bea_per_capita_income",
+   "value": 64369,
+   "page": "gillette"
+  },
+  {
+   "geo": "co-56005",
+   "series": "bea_personal_income",
+   "value": 3086245000,
+   "page": "gillette"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_median_hh_income",
+   "value": 124172,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_per_capita_income",
+   "value": 89594,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_median_gross_rent",
+   "value": 1904,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_households",
+   "value": 9830,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_labor_force",
+   "value": 15344,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_owner_occupied",
+   "value": 5735,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "acs5_renter_occupied",
+   "value": 4095,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "bea_per_capita_income",
+   "value": 532903,
+   "page": "jackson"
+  },
+  {
+   "geo": "co-56039",
+   "series": "bea_personal_income",
+   "value": 12401707000,
+   "page": "jackson"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_median_hh_income",
+   "value": 75034,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_per_capita_income",
+   "value": 41511,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_median_home_value",
+   "value": 251400,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_median_gross_rent",
+   "value": 911,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_households",
+   "value": 17502,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_labor_force",
+   "value": 21594,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_owner_occupied",
+   "value": 13049,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-40540",
+   "series": "acs5_renter_occupied",
+   "value": 4453,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "co-56037",
+   "series": "bea_per_capita_income",
+   "value": 63284,
+   "page": "rock-springs-green-river"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_median_hh_income",
+   "value": 71388,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_per_capita_income",
+   "value": 41122,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_median_home_value",
+   "value": 394900,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_median_gross_rent",
+   "value": 939,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_households",
+   "value": 13845,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_labor_force",
+   "value": 16278,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_owner_occupied",
+   "value": 9782,
+   "page": "sheridan"
+  },
+  {
+   "geo": "cbsa-43260",
+   "series": "acs5_renter_occupied",
+   "value": 4063,
+   "page": "sheridan"
+  },
+  {
+   "geo": "co-56033",
+   "series": "bea_per_capita_income",
+   "value": 82773,
+   "page": "sheridan"
+  },
+  {
+   "geo": "co-56033",
+   "series": "bea_personal_income",
+   "value": 2729674000,
+   "page": "sheridan"
+  }
+ ],
+ "borderline_ids": [
+  "MT-WYOMING line 16",
+  "MT-WYOMING line 17",
+  "MT-WYOMING line 18",
+  "MT-WYOMING line 19",
+  "MT-WYOMING line 63",
+  "MT-WYOMING line 66",
+  "ST-WYOMING line 23",
+  "ST-WYOMING line 24",
+  "ST-WYOMING line 28",
+  "ST-WYOMING line 29",
+  "ST-WYOMING line 30",
+  "ST-WYOMING-2 line 58",
+  "ST-WYOMING-2 line 59"
+ ],
+ "borderline_excluded_ids": [
+  "ST-WYOMING line 76",
+  "ST-WYOMING-2 line 22",
+  "ST-WYOMING-2 line 45"
+ ],
+ "secondary_ids": [
+  "ST-WYOMING line 10",
+  "ST-WYOMING line 38",
+  "ST-WYOMING line 53",
+  "ST-WYOMING line 60",
+  "ST-WYOMING line 62",
+  "ST-WYOMING line 109",
+  "ST-WYOMING line 110",
+  "ST-WYOMING line 112",
+  "ST-WYOMING line 113",
+  "ST-WYOMING line 114",
+  "ST-WYOMING line 121",
+  "ST-WYOMING line 129",
+  "ST-WYOMING line 130",
+  "ST-WYOMING line 131",
+  "ST-WYOMING line 132",
+  "MT-WYOMING line 10",
+  "MT-WYOMING line 12",
+  "MT-WYOMING line 13",
+  "MT-WYOMING line 26",
+  "MT-WYOMING line 27",
+  "MT-WYOMING line 47",
+  "MT-WYOMING line 48",
+  "MT-WYOMING line 57",
+  "MT-WYOMING line 58",
+  "MT-WYOMING line 72",
+  "MT-WYOMING line 73",
+  "MT-WYOMING line 94",
+  "MT-WYOMING line 104",
+  "MT-WYOMING line 112",
+  "MT-WYOMING line 122",
+  "MT-WYOMING line 127",
+  "MT-WYOMING line 128",
+  "MT-WYOMING line 130",
+  "MT-WYOMING line 131",
+  "MT-WYOMING line 137",
+  "MT-WYOMING line 138",
+  "MT-WYOMING line 140",
+  "MT-WYOMING line 142",
+  "MT-WYOMING line 152",
+  "MT-WYOMING line 166",
+  "MT-WYOMING line 168"
+ ],
+ "dropped": [
+  {
+   "id": "ST-WYOMING line 11",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/sba-default-economics/, /research-notes/coverage-constrained-takeout/ (+2 more); shared with VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 12",
+   "why": "taken: /research-notes/break-even-occupancy-trap/, /asset-classes/rv-park-and-campground/, /case-studies/gas-station-versailles-ohio-sba/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 13",
+   "why": "taken: /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/c-store-franchise-category/, /research-notes/gas-station-demand-per-capita/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 21",
+   "why": "taken: /research-notes/five-usda-components-applied/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/c-store-franchise-category/ (+2 more); shared with ALASKA, SOUTH-DAKOTA, VERMONT, VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 22",
+   "why": "taken: /case-studies/meat-processing-north-carolina-usda/, /states/new-york/"
+  },
+  {
+   "id": "ST-WYOMING line 25",
+   "why": "shared with COLORADO"
+  },
+  {
+   "id": "ST-WYOMING line 26",
+   "why": "taken: /case-studies/gas-station-georgia-sba/, /case-studies/gas-station-florida-sba/"
+  },
+  {
+   "id": "ST-WYOMING line 27",
+   "why": "taken: /case-studies/gas-station-florida-sba/"
+  },
+  {
+   "id": "ST-WYOMING line 34",
+   "why": "taken: /research-notes/special-purpose-property-risk/"
+  },
+  {
+   "id": "ST-WYOMING line 36",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/, /research-notes/underserved-gas-station-markets/ (+2 more); shared with VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 37",
+   "why": "taken: /asset-classes/restaurant/, /asset-classes/medical-office-and-asc/, /asset-classes/veterinary-practice/ (+2 more); shared with ALASKA, VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 39",
+   "why": "taken: /states/tennessee/"
+  },
+  {
+   "id": "ST-WYOMING line 40",
+   "why": "taken: /case-studies/, /case-studies/fitness-new-hampshire-sba/, /case-studies/retail-nevada-conventional/"
+  },
+  {
+   "id": "ST-WYOMING line 41",
+   "why": "taken: /case-studies/gas-station-texas-sba/, /states/washington/, /states/texas/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 42",
+   "why": "taken: /research-notes/underserved-gas-station-markets/, /asset-classes/rv-park-and-campground/, /asset-classes/retail/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 43",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 45",
+   "why": "taken: /asset-classes/medical-office-and-asc/, /case-studies/hotel-south-carolina-sba/, /case-studies/gas-station-georgia-sba/ (+2 more); shared with VERMONT, VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 54",
+   "why": "no figure (direction of the Q2 2026 GDP change, no Wyoming percentage printed)"
+  },
+  {
+   "id": "ST-WYOMING line 55",
+   "why": "taken: /asset-classes/glamping/, /asset-classes/auto-service-and-collision/, /asset-classes/marina/ (+2 more); shared with NORTH-DAKOTA"
+  },
+  {
+   "id": "ST-WYOMING line 56",
+   "why": "taken: /case-studies/gas-station-versailles-ohio-sba/"
+  },
+  {
+   "id": "ST-WYOMING line 57",
+   "why": "taken: /research-notes/sba-default-economics/, /asset-classes/quick-service-restaurant/, /asset-classes/hotel/ (+2 more); shared with COLORADO"
+  },
+  {
+   "id": "ST-WYOMING line 58",
+   "why": "taken: /research-notes/sba-default-economics/, /asset-classes/gas-station-and-c-store/, /case-studies/hotel-south-carolina-sba/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 59",
+   "why": "taken: /case-studies/, /case-studies/auto-dealership-texas-sba/"
+  },
+  {
+   "id": "ST-WYOMING line 61",
+   "why": "taken: /case-studies/hotel-texas-sba/, /states/texas/san-antonio/"
+  },
+  {
+   "id": "ST-WYOMING line 63",
+   "why": "original publisher not named in the row (Cowboy State Daily gives no source for $353.7 million; page confirmed): unnamed-original add-back, brief rule 3"
+  },
+  {
+   "id": "ST-WYOMING line 64",
+   "why": "taken: /case-studies/qsr-georgia-sba/, /states/texas/austin/, /states/california/"
+  },
+  {
+   "id": "ST-WYOMING line 65",
+   "why": "taken: /research-notes/absorption-forensics/, /research-notes/sba-default-economics/, /research-notes/coverage-constrained-takeout/ (+2 more); shared with COLORADO, VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 74",
+   "why": "same fact as ST line 73 (Wyoming SSBCI allocation of about $58 million, same publisher, a rounded repeat, I82); ST line 73 is kept"
+  },
+  {
+   "id": "ST-WYOMING line 75",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/usda-rd-deadline-calendar/, /asset-classes/urgent-care/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 76",
+   "why": "FDIC BankFind API read: no publication date (the 2026-09-16 index date is a retrieval date), measure label \"CB\" unconfirmed, no unit pagecheck reads, not a listed periodic release (D12): borderline, left out of the main reading"
+  },
+  {
+   "id": "ST-WYOMING line 84",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/absorption-forensics/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/ (+2 more); shared with VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING line 85",
+   "why": "count of counties with a local lodging tax, no figure pagecheck reads (geography count) and a list the page can name (I91); the 5% state rate is a rule value and taken"
+  },
+  {
+   "id": "ST-WYOMING line 86",
+   "why": "attributed claim of an official (400 days), \"days\" is not a figure pagecheck reads"
+  },
+  {
+   "id": "ST-WYOMING line 87",
+   "why": "taken: /research-notes/five-usda-components-applied/, /research-notes/sba-default-economics/, /research-notes/usda-rd-deadline-calendar/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 99",
+   "why": "FEMA declaration number 4845 is a code, not a figure"
+  },
+  {
+   "id": "ST-WYOMING line 100",
+   "why": "taken: /research-notes/absorption-forensics/, /research-notes/sba-default-economics/, /research-notes/coverage-constrained-takeout/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 108",
+   "why": "taken: /research-notes/office-repurposing/, /asset-classes/glamping/, /asset-classes/laundromat/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 111",
+   "why": "taken: /asset-classes/medical-office-and-asc/, /case-studies/pet-boarding-oregon-sba/, /case-studies/fitness-new-hampshire-sba/"
+  },
+  {
+   "id": "ST-WYOMING line 115",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/, /research-notes/gas-station-demand-per-capita/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 140",
+   "why": "taken: /research-notes/office-repurposing/, /asset-classes/laundromat/, /asset-classes/private-school/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 141",
+   "why": "taken: /asset-classes/glamping/, /asset-classes/auto-service-and-collision/, /asset-classes/marina/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 142",
+   "why": "taken: /asset-classes/restaurant/, /asset-classes/childcare-and-daycare/, /asset-classes/gas-station-and-c-store/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING line 143",
+   "why": "taken: /states/texas/ | also: single property (Antelope Mine tract), market flag false"
+  },
+  {
+   "id": "ST-WYOMING line 144",
+   "why": "taken: /asset-classes/glamping/, /asset-classes/rv-park-and-campground/, /case-studies/rv-park-texas-usda/ (+1 more) | also: single property (Lost Cabin data center phase), market flag false"
+  },
+  {
+   "id": "ST-WYOMING line 145",
+   "why": "one gift to one site by one firm (I64, I66); the sheet counts it"
+  },
+  {
+   "id": "ST-WYOMING line 146",
+   "why": "count of forums, no figure pagecheck reads, not a market figure"
+  },
+  {
+   "id": "MT-WYOMING line 11",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/underserved-gas-station-markets/, /research-notes/franchise-vs-non-franchise/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 14",
+   "why": "taken: /asset-classes/hotel/, /asset-classes/multifamily/, /case-studies/gas-station-versailles-ohio-sba/ (+2 more); shared with NORTH-DAKOTA, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 15",
+   "why": "taken: /research-notes/five-usda-components-applied/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/c-store-franchise-category/ (+2 more); shared with ALASKA, SOUTH-DAKOTA, VERMONT, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 20",
+   "why": "taken: /asset-classes/private-school/, /case-studies/assisted-living-arizona-hud/, /states/california/sacramento/"
+  },
+  {
+   "id": "MT-WYOMING line 21",
+   "why": "taken: /asset-classes/behavioral-health/, /asset-classes/gas-station-and-c-store/, /case-studies/behavioral-health-massachusetts-conventional/"
+  },
+  {
+   "id": "MT-WYOMING line 22",
+   "why": "taken: /asset-classes/medical-office-and-asc/, /asset-classes/retail/, /case-studies/gas-station-versailles-ohio-sba/"
+  },
+  {
+   "id": "MT-WYOMING line 23",
+   "why": "taken: /asset-classes/auto-service-and-collision/, /asset-classes/grocery-store/, /case-studies/auto-service-new-jersey-sba/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 28",
+   "why": "\"43 days\" is not a figure pagecheck reads (days on market)"
+  },
+  {
+   "id": "MT-WYOMING line 29",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/underserved-gas-station-markets/, /research-notes/franchise-vs-non-franchise/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 31",
+   "why": "data center project count, unit (projects) not read by pagecheck; same page as MT line 30"
+  },
+  {
+   "id": "MT-WYOMING line 32",
+   "why": "data center project count, unit (projects) not read by pagecheck; same page as MT line 30"
+  },
+  {
+   "id": "MT-WYOMING line 33",
+   "why": "taken: /asset-classes/self-storage/, /case-studies/auto-service-new-jersey-sba/, /case-studies/gas-station-alabama-sba/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 34",
+   "why": "taken: /research-notes/hospitality-str-report/, /asset-classes/grocery-store/, /case-studies/multifamily-north-carolina-agency/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 35",
+   "why": "taken: /research-notes/trade-area-is-the-study/, /research-notes/office-repurposing/, /research-notes/underserved-gas-station-markets/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 36",
+   "why": "single property (market flag false)"
+  },
+  {
+   "id": "MT-WYOMING line 37",
+   "why": "taken: /research-notes/hospitality-str-report/, /asset-classes/grocery-store/, /case-studies/multifamily-north-carolina-agency/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 38",
+   "why": "taken: /asset-classes/glamping/, /case-studies/childcare-illinois-sba/, /case-studies/coffee-shop-washington-sba/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 39",
+   "why": "single property (market flag false)"
+  },
+  {
+   "id": "MT-WYOMING line 40",
+   "why": "a county official quoted generally (\"looking at 250 employees\"), scope not stated (page confirmed); an expectation, not a data point"
+  },
+  {
+   "id": "MT-WYOMING line 41",
+   "why": "taken: /asset-classes/quick-service-restaurant/, /case-studies/gas-station-georgia-sba/, /case-studies/rv-park-texas-usda/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 42",
+   "why": "single property (market flag false)"
+  },
+  {
+   "id": "MT-WYOMING line 43",
+   "why": "taken: /states/new-york/, /states/maryland/, /states/texas/san-antonio/"
+  },
+  {
+   "id": "MT-WYOMING line 44",
+   "why": "single property (market flag false)"
+  },
+  {
+   "id": "MT-WYOMING line 45",
+   "why": "council vote tally, not a market figure"
+  },
+  {
+   "id": "MT-WYOMING line 46",
+   "why": "taken: /case-studies/auto-dealership-texas-sba/"
+  },
+  {
+   "id": "MT-WYOMING line 49",
+   "why": "taken: /case-studies/meat-processing-texas-usda/, /states/indiana/, /states/michigan/detroit/"
+  },
+  {
+   "id": "MT-WYOMING line 59",
+   "why": "taken: /research-notes/sba-default-economics/, /asset-classes/assisted-living-and-memory-care/, /asset-classes/restaurant/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 60",
+   "why": "taken: /asset-classes/hotel/, /asset-classes/multifamily/, /case-studies/gas-station-versailles-ohio-sba/ (+2 more); shared with NORTH-DAKOTA, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 61",
+   "why": "taken: /asset-classes/gas-station-and-c-store/, /case-studies/gas-station-texas-sba/, /case-studies/gas-station-versailles-ohio-sba/ (+1 more)"
+  },
+  {
+   "id": "MT-WYOMING line 62",
+   "why": "taken: /asset-classes/behavioral-health/; shared with ALASKA"
+  },
+  {
+   "id": "MT-WYOMING line 64",
+   "why": "taken: /case-studies/restaurant-missouri-sba/, /case-studies/multifamily-new-york-agency/, /states/texas/san-antonio/"
+  },
+  {
+   "id": "MT-WYOMING line 65",
+   "why": "taken: /asset-classes/grocery-store/, /case-studies/assisted-living-florida-hud/, /case-studies/multifamily-florida-agency/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 67",
+   "why": "taken: /asset-classes/auto-service-and-collision/, /asset-classes/funeral-home/, /case-studies/rv-boat-storage-california-sba/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 68",
+   "why": "taken: /asset-classes/gas-station-and-c-store/ev-charging/, /case-studies/auto-dealership-texas-sba/, /case-studies/laundromat-new-mexico-sba/ (+1 more)"
+  },
+  {
+   "id": "MT-WYOMING line 69",
+   "why": "taken: /research-notes/c-store-franchise-category/, /asset-classes/urgent-care/, /asset-classes/self-storage/ (+1 more)"
+  },
+  {
+   "id": "MT-WYOMING line 74",
+   "why": "\"46 days\" is not a figure pagecheck reads (days on market)"
+  },
+  {
+   "id": "MT-WYOMING line 75",
+   "why": "taken: /asset-classes/urgent-care/, /asset-classes/veterinary-practice/, /asset-classes/hotel/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 76",
+   "why": "CEO claim of her own marketing impact (\"$34.2 million of economic impact\", page confirmed): claim row, add-back only"
+  },
+  {
+   "id": "MT-WYOMING line 77",
+   "why": "taken: /asset-classes/grocery-store/, /case-studies/rv-park-texas-usda/, /case-studies/fitness-minnesota-sba/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 78",
+   "why": "undated page (I77: a period on an undated non-periodic page does not date it); add-back under generous dating"
+  },
+  {
+   "id": "MT-WYOMING line 79",
+   "why": "taken: /states/montana/ | also: undated page (I77)"
+  },
+  {
+   "id": "MT-WYOMING line 80",
+   "why": "taken: /research-notes/usda-rd-deadline-calendar/, /asset-classes/medical-office-and-asc/, /asset-classes/urgent-care/ (+2 more) | also: undated page (I77)"
+  },
+  {
+   "id": "MT-WYOMING line 81",
+   "why": "undated page (I77)"
+  },
+  {
+   "id": "MT-WYOMING line 82",
+   "why": "undated page (I77)"
+  },
+  {
+   "id": "MT-WYOMING line 83",
+   "why": "taken: /case-studies/multifamily-new-york-agency/, /states/new-hampshire/"
+  },
+  {
+   "id": "MT-WYOMING line 84",
+   "why": "taken: /research-notes/usda-rd-deadline-calendar/, /research-notes/office-repurposing/, /asset-classes/coffee-shop/ (+2 more); shared with SOUTH-DAKOTA"
+  },
+  {
+   "id": "MT-WYOMING line 85",
+   "why": "taken: /states/washington/"
+  },
+  {
+   "id": "MT-WYOMING line 86",
+   "why": "count of agencies reviewing one project, no figure pagecheck reads"
+  },
+  {
+   "id": "MT-WYOMING line 95",
+   "why": "taken: /asset-classes/self-storage/, /case-studies/auto-service-new-jersey-sba/, /case-studies/gas-station-alabama-sba/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 96",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/underserved-gas-station-markets/, /asset-classes/restaurant/ (+2 more) | also: single grant to one university project, read from a listing teaser the researcher did not open"
+  },
+  {
+   "id": "MT-WYOMING line 105",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/gas-station-demand-per-capita/, /asset-classes/restaurant/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 106",
+   "why": "taken: /asset-classes/glamping/, /asset-classes/veterinary-practice/, /asset-classes/private-school/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 107",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/sba-default-economics/, /research-notes/coverage-constrained-takeout/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 108",
+   "why": "original publisher not named in the row (the article names MSHA; the row does not): unnamed-original add-back; basin-wide (Campbell and Converse)"
+  },
+  {
+   "id": "MT-WYOMING line 109",
+   "why": "original publisher not named in the row or on the page for this figure (page confirmed); basin-wide: unnamed-original add-back"
+  },
+  {
+   "id": "MT-WYOMING line 110",
+   "why": "original publisher not named in the row or on the page for this figure (page confirmed); basin-wide: unnamed-original add-back"
+  },
+  {
+   "id": "MT-WYOMING line 111",
+   "why": "FEMA declaration number 4845 is a code, not a figure"
+  },
+  {
+   "id": "MT-WYOMING line 113",
+   "why": "taken: /states/south-carolina/, /states/kentucky/"
+  },
+  {
+   "id": "MT-WYOMING line 114",
+   "why": "attendance at one forum (about 100), no market figure"
+  },
+  {
+   "id": "MT-WYOMING line 123",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with COLORADO, NORTH-DAKOTA"
+  },
+  {
+   "id": "MT-WYOMING line 124",
+   "why": "taken: /research-notes/c-store-franchise-category/, /asset-classes/hotel/, /asset-classes/retail/ (+2 more); shared with NORTH-DAKOTA, SOUTH-DAKOTA"
+  },
+  {
+   "id": "MT-WYOMING line 125",
+   "why": "taken: /research-notes/sba-default-economics/, /asset-classes/assisted-living-and-memory-care/, /asset-classes/restaurant/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 126",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with NORTH-DAKOTA, SOUTH-DAKOTA"
+  },
+  {
+   "id": "MT-WYOMING line 132",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 133",
+   "why": "taken: /research-notes/office-repurposing/, /asset-classes/self-storage/, /case-studies/truck-stop-texas-sba/"
+  },
+  {
+   "id": "MT-WYOMING line 134",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/, /research-notes/underserved-gas-station-markets/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 135",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/, /research-notes/gas-station-demand-per-capita/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 136",
+   "why": "original publisher not named (page: \"projections show\", no source): unnamed-original add-back; also hangs on the 3 Nov 2026 ballot (Proposition 1)"
+  },
+  {
+   "id": "MT-WYOMING line 139",
+   "why": "taken: /research-notes/trade-area-is-the-study/, /research-notes/effective-rent-vs-asking-rent/, /research-notes/hospitality-str-report/ (+2 more)"
+  },
+  {
+   "id": "MT-WYOMING line 141",
+   "why": "taken: /case-studies/assisted-living-hawaii-hud/"
+  },
+  {
+   "id": "MT-WYOMING line 143",
+   "why": "undated broker page (I77, I86)"
+  },
+  {
+   "id": "MT-WYOMING line 144",
+   "why": "undated broker page (I77, I86)"
+  },
+  {
+   "id": "MT-WYOMING line 153",
+   "why": "taken: /asset-classes/restaurant/, /asset-classes/medical-office-and-asc/, /asset-classes/veterinary-practice/ (+2 more); shared with ALASKA, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 154",
+   "why": "taken: /asset-classes/restaurant/, /asset-classes/medical-office-and-asc/, /asset-classes/veterinary-practice/ (+2 more); shared with ALASKA, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 155",
+   "why": "taken: /asset-classes/urgent-care/, /asset-classes/veterinary-practice/, /asset-classes/hotel/ (+2 more); shared with VERMONT, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 156",
+   "why": "taken: /states/illinois/, /states/florida/jacksonville/"
+  },
+  {
+   "id": "MT-WYOMING line 157",
+   "why": "taken: /asset-classes/multifamily/, /asset-classes/gas-station-and-c-store/, /case-studies/truck-stop-texas-sba/ (+2 more) | also: single property (Tomahawk Hotel)"
+  },
+  {
+   "id": "MT-WYOMING line 158",
+   "why": "count of new businesses tied to one project, no figure pagecheck reads"
+  },
+  {
+   "id": "MT-WYOMING line 167",
+   "why": "taken: /research-notes/absorption-forensics/, /asset-classes/hotel/, /asset-classes/auto-service-and-collision/ (+2 more); shared with COLORADO"
+  },
+  {
+   "id": "MT-WYOMING line 169",
+   "why": "taken: /research-notes/coverage-constrained-takeout/, /asset-classes/veterinary-practice/, /asset-classes/hotel/ (+2 more); shared with COLORADO"
+  },
+  {
+   "id": "MT-WYOMING line 170",
+   "why": "taken: /asset-classes/glamping/, /asset-classes/veterinary-practice/, /asset-classes/private-school/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "MT-WYOMING line 171",
+   "why": "taken: /research-notes/special-purpose-property-risk/, /asset-classes/medical-office-and-asc/, /asset-classes/veterinary-practice/ (+2 more); shared with VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 172",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/, /research-notes/gas-station-demand-per-capita/ (+2 more); shared with COLORADO, SOUTH-DAKOTA, VIRGINIA"
+  },
+  {
+   "id": "MT-WYOMING line 173",
+   "why": "taken: /states/minnesota/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 17",
+   "why": "taken: /states/arkansas/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 20",
+   "why": "taken: /states/missouri/, /states/mississippi/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 21",
+   "why": "initial claims 972: \"claims\" is not a unit pagecheck reads, so no figure; a month-grain live monthly page with no release date (borderline), not a listed periodic release"
+  },
+  {
+   "id": "ST-WYOMING-2 line 22",
+   "why": "BORDERLINE, left out of the main reading: DWS Monthly Unemployment Insurance Claims Report prints \"September 2026\" and no release date or update date (page opened); a live page, not a listed periodic release (D12); add-back +1 on the state page"
+  },
+  {
+   "id": "ST-WYOMING-2 line 30",
+   "why": "taken: /research-notes/absorption-forensics/, /asset-classes/hotel/, /asset-classes/auto-service-and-collision/ (+2 more); shared with COLORADO"
+  },
+  {
+   "id": "ST-WYOMING-2 line 31",
+   "why": "taken: /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more); shared with ALASKA, VERMONT, VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 32",
+   "why": "taken: /research-notes/special-purpose-property-risk/, /asset-classes/medical-office-and-asc/, /asset-classes/veterinary-practice/ (+2 more); shared with VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 33",
+   "why": "taken: /case-studies/gas-station-georgia-sba/, /case-studies/multifamily-florida-agency/, /case-studies/meat-processing-texas-usda/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 34",
+   "why": "taken: /research-notes/hospitality-str-report/, /research-notes/c-store-franchise-category/, /research-notes/underserved-gas-station-markets/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 35",
+   "why": "taken: /research-notes/hospitality-str-report/, /asset-classes/grocery-store/, /case-studies/multifamily-north-carolina-agency/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 36",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/, /asset-classes/assisted-living-and-memory-care/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 37",
+   "why": "taken: /research-notes/underserved-gas-station-markets/, /asset-classes/quick-service-restaurant/burger/, /asset-classes/retail/ (+2 more); shared with ALASKA, DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 45",
+   "why": "FDIC BankFind API (integrator: borderline): year-only dating (YEAR 2025), no release date (index createTimestamp 2026-09-16 is metadata), DEP 8644242 has no unit and is not a figure pagecheck reads; left out of the main reading as ST line 76 was"
+  },
+  {
+   "id": "ST-WYOMING-2 line 46",
+   "why": "single property (one Business Ready Community grant, Douglas; I64, I66); also not in the sheet as market"
+  },
+  {
+   "id": "ST-WYOMING-2 line 47",
+   "why": "single property (one Business Ready Community grant, Wright; I64, I66)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 60",
+   "why": "single property (market flag false; I64, I66); taken: /research-notes/sba-default-economics/, /asset-classes/gas-station-and-c-store/interstate-highway/, /asset-classes/marina/ (+2 more); shared with SOUTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "ST-WYOMING-2 line 79",
+   "why": "taken: /asset-classes/grocery-store/, /asset-classes/self-storage/, /states/wisconsin/; shared with COLORADO; dated by edition year in the title under I77(b) (integrator), but the sheet reads it as taken on matches that look coincidental, see flag 3"
+  },
+  {
+   "id": "ST-WYOMING-2 line 80",
+   "why": "taken: /states/alabama/; dated by edition year in the title under I77(b) (integrator), but the sheet reads it as taken on matches that look coincidental, see flag 3"
+  },
+  {
+   "id": "ST-WYOMING-2 line 81",
+   "why": "taken: /research-notes/coverage-constrained-takeout/, /case-studies/glamping-utah-usda/, /case-studies/grocery-store-mississippi-usda/; dated by edition year in the title under I77(b) (integrator), but the sheet reads it as taken on matches that look coincidental, see flag 3"
+  },
+  {
+   "id": "ST-WYOMING-2 line 82",
+   "why": "taken: /asset-classes/self-storage/, /case-studies/private-school-connecticut-conventional/, /states/nevada/; dated by edition year in the title under I77(b) (integrator), but the sheet reads it as taken on matches that look coincidental, see flag 3"
+  },
+  {
+   "id": "ST-WYOMING-2 line 83",
+   "why": "taken: /case-studies/gas-station-texas-sba/, /states/washington/, /states/texas/ (+2 more); dated by edition year in the title under I77(b) (integrator), but the sheet reads it as taken on matches that look coincidental, see flag 3"
+  },
+  {
+   "id": "ST-WYOMING-2 line 84",
+   "why": "taken: /case-studies/rv-park-arizona-usda/, /states/texas/, /states/california/; dated by edition year in the title under I77(b) (integrator), but the sheet reads it as taken on matches that look coincidental, see flag 3"
+  },
+  {
+   "id": "ST-WYOMING-2 line 88",
+   "why": "taken: /asset-classes/hotel/, /case-studies/rv-boat-storage-california-sba/, /case-studies/rv-boat-storage-arizona-sba/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 91",
+   "why": "taken: /research-notes/sba-default-economics/, /asset-classes/assisted-living-and-memory-care/, /asset-classes/restaurant/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "ST-WYOMING-2 line 92",
+   "why": "rests on a search-result snippet (integrator ruling: not countable); PDF unread"
+  },
+  {
+   "id": "ST-WYOMING-2 line 93",
+   "why": "rests on a search-result snippet (integrator ruling) and the snippet says \"second quarter\" for an Oct to Dec period; also taken"
+  },
+  {
+   "id": "ST-WYOMING-2 line 94",
+   "why": "single property (market flag false; I64, I66); taken: /research-notes/usda-rd-deadline-calendar/, /research-notes/office-repurposing/, /asset-classes/hotel/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 102",
+   "why": "taken: /asset-classes/hotel/, /case-studies/, /case-studies/medical-office-north-carolina-sba/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 104",
+   "why": "taken: /asset-classes/hotel/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 107",
+   "why": "taken: /states/nebraska/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 108",
+   "why": "taken: /states/nebraska/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 117",
+   "why": "taken: /case-studies/lodging-retreat-johnson-city-texas-sba/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 119",
+   "why": "rests on a search-result snippet (uwyo.edu certificate error; integrator ruling: not countable)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 127",
+   "why": "taken: /states/florida/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 129",
+   "why": "single property (market flag false; I64, I66); taken: /research-notes/usda-rd-deadline-calendar/, /asset-classes/fitness-and-recreation/, /asset-classes/self-storage/ (+2 more); shared with COLORADO"
+  },
+  {
+   "id": "ST-WYOMING-2 line 130",
+   "why": "single property (market flag false; I64, I66); taken: /asset-classes/multifamily/, /asset-classes/gas-station-and-c-store/interstate-highway/, /case-studies/multifamily-texas-agency/ (+2 more)"
+  },
+  {
+   "id": "ST-WYOMING-2 line 138",
+   "why": "taken: /states/minnesota/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 139",
+   "why": "taken: /research-notes/underserved-gas-station-markets/, /research-notes/franchise-vs-non-franchise/, /asset-classes/veterinary-practice/ (+2 more); shared with SOUTH-DAKOTA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 140",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more); shared with SOUTH-DAKOTA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 149",
+   "why": "taken: /states/california/"
+  },
+  {
+   "id": "ST-WYOMING-2 line 150",
+   "why": "taken: /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more); shared with ALASKA, VERMONT, VIRGINIA"
+  },
+  {
+   "id": "ST-WYOMING-2 line 160",
+   "why": "taken: /asset-classes/restaurant/, /asset-classes/medical-office-and-asc/, /asset-classes/gas-station-and-c-store/ (+2 more); shared with ALASKA, VIRGINIA"
+  }
+ ],
+ "unnamed_original_ids": [
+  "ST-WYOMING line 63",
+  "MT-WYOMING line 108",
+  "MT-WYOMING line 109",
+  "MT-WYOMING line 110",
+  "MT-WYOMING line 136"
+ ],
+ "claim_ids": [
+  "MT-WYOMING line 76"
+ ],
+ "bare_count_ids": [
+  "MT-WYOMING line 112",
+  "MT-WYOMING line 142",
+  "MT-WYOMING line 168",
+  "MT-WYOMING line 27",
+  "MT-WYOMING line 30",
+  "MT-WYOMING line 48",
+  "MT-WYOMING line 58",
+  "MT-WYOMING line 73",
+  "ST-WYOMING line 132",
+  "ST-WYOMING line 35",
+  "ST-WYOMING-2 line 14",
+  "ST-WYOMING-2 line 15"
+ ],
+ "stale_ids": [
+  "MT-WYOMING line 137",
+  "MT-WYOMING line 138",
+  "MT-WYOMING line 140",
+  "MT-WYOMING line 142",
+  "MT-WYOMING line 47",
+  "MT-WYOMING line 48",
+  "ST-WYOMING line 113",
+  "ST-WYOMING line 44",
+  "ST-WYOMING line 73",
+  "ST-WYOMING-2 line 118",
+  "ST-WYOMING-2 line 128",
+  "ST-WYOMING-2 line 148",
+  "ST-WYOMING-2 line 158",
+  "ST-WYOMING-2 line 159",
+  "ST-WYOMING-2 line 16",
+  "ST-WYOMING-2 line 18",
+  "ST-WYOMING-2 line 19",
+  "ST-WYOMING-2 line 89",
+  "ST-WYOMING-2 line 90"
+ ],
+ "venue_ids": [
+  "MT-WYOMING line 127",
+  "MT-WYOMING line 128",
+  "MT-WYOMING line 129",
+  "MT-WYOMING line 130",
+  "MT-WYOMING line 131",
+  "MT-WYOMING line 47",
+  "MT-WYOMING line 48",
+  "ST-WYOMING line 116",
+  "ST-WYOMING line 117",
+  "ST-WYOMING line 118",
+  "ST-WYOMING line 119",
+  "ST-WYOMING line 120",
+  "ST-WYOMING line 121",
+  "ST-WYOMING-2 line 109",
+  "ST-WYOMING-2 line 68",
+  "ST-WYOMING-2 line 69",
+  "ST-WYOMING-2 line 70",
+  "ST-WYOMING-2 line 71"
+ ],
+ "edition_year_ids": [
+  "ST-WYOMING-2 line 109"
+ ],
+ "live_data_table_ids": [
+  "ST-WYOMING-2 line 55",
+  "ST-WYOMING-2 line 56",
+  "ST-WYOMING-2 line 57",
+  "ST-WYOMING-2 line 58",
+  "ST-WYOMING-2 line 59"
+ ],
+ "register_available": {
+  "state": 26,
+  "cheyenne": 22,
+  "casper": 24,
+  "laramie": 9,
+  "gillette": 9,
+  "jackson": 10,
+  "rock-springs-green-river": 10,
+  "sheridan": 11
+ },
+ "state_page_duplicates": 0,
+ "state_page_free_research_all_folded": 99,
+ "snippet_rows_not_counted": [
+  "ST-WYOMING-2 line 92",
+  "ST-WYOMING-2 line 93",
+  "ST-WYOMING-2 line 119"
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "lane": "geo-2",
+ "requests": [
+  {
+   "id": "geo-2-1",
+   "kind": "folded",
+   "url": "/states/pennsylvania/philadelphia/",
+   "target": "/states/pennsylvania/#philadelphia"
+  },
+  {
+   "id": "geo-2-2",
+   "kind": "folded",
+   "url": "/states/pennsylvania/pittsburgh/",
+   "target": "/states/pennsylvania/#pittsburgh"
+  },
+  {
+   "id": "geo-2-3",
+   "kind": "folded",
+   "url": "/states/pennsylvania/lancaster/",
+   "target": "/states/pennsylvania/#lancaster"
+  },
+  {
+   "id": "geo-2-4",
+   "kind": "folded",
+   "url": "/states/pennsylvania/lehigh-valley/",
+   "target": "/states/pennsylvania/#lehigh-valley"
+  },
+  {
+   "id": "geo-2-5",
+   "kind": "folded",
+   "url": "/states/pennsylvania/scranton-wilkes-barre/",
+   "target": "/states/pennsylvania/#scranton-wilkes-barre"
+  },
+  {
+   "id": "geo-2-6",
+   "kind": "folded",
+   "url": "/states/pennsylvania/erie/",
+   "target": "/states/pennsylvania/#erie"
+  },
+  {
+   "id": "geo-2-7",
+   "kind": "folded",
+   "url": "/states/pennsylvania/harrisburg/",
+   "target": "/states/pennsylvania/#harrisburg"
+  },
+  {
+   "id": "geo-2-8",
+   "kind": "folded",
+   "url": "/states/pennsylvania/state-college/",
+   "target": "/states/pennsylvania/#state-college"
+  },
+  {
+   "id": "geo-2-9",
+   "kind": "folded",
+   "url": "/states/new-york/albany/",
+   "target": "/states/new-york/#albany"
+  },
+  {
+   "id": "geo-2-10",
+   "kind": "folded",
+   "url": "/states/new-york/binghamton/",
+   "target": "/states/new-york/#binghamton"
+  },
+  {
+   "id": "geo-2-11",
+   "kind": "folded",
+   "url": "/states/new-york/buffalo/",
+   "target": "/states/new-york/#buffalo"
+  },
+  {
+   "id": "geo-2-12",
+   "kind": "folded",
+   "url": "/states/new-york/hudson-valley/",
+   "target": "/states/new-york/#hudson-valley"
+  },
+  {
+   "id": "geo-2-13",
+   "kind": "folded",
+   "url": "/states/new-york/long-island/",
+   "target": "/states/new-york/#long-island"
+  },
+  {
+   "id": "geo-2-14",
+   "kind": "folded",
+   "url": "/states/new-york/new-york-city/",
+   "target": "/states/new-york/#new-york-city"
+  },
+  {
+   "id": "geo-2-15",
+   "kind": "folded",
+   "url": "/states/new-york/rochester/",
+   "target": "/states/new-york/#rochester"
+  },
+  {
+   "id": "geo-2-16",
+   "kind": "folded",
+   "url": "/states/new-york/syracuse/",
+   "target": "/states/new-york/#syracuse"
+  },
+  {
+   "id": "geo-2-17",
+   "kind": "folded",
+   "url": "/states/new-jersey/atlantic-city/",
+   "target": "/states/new-jersey/#atlantic-city"
+  },
+  {
+   "id": "geo-2-18",
+   "kind": "folded",
+   "url": "/states/new-jersey/bergen-county/",
+   "target": "/states/new-jersey/#bergen-county"
+  },
+  {
+   "id": "geo-2-19",
+   "kind": "folded",
+   "url": "/states/new-jersey/camden/",
+   "target": "/states/new-jersey/#camden"
+  },
+  {
+   "id": "geo-2-20",
+   "kind": "folded",
+   "url": "/states/new-jersey/jersey-city/",
+   "target": "/states/new-jersey/#jersey-city"
+  },
+  {
+   "id": "geo-2-21",
+   "kind": "folded",
+   "url": "/states/new-jersey/middlesex-county/",
+   "target": "/states/new-jersey/#middlesex-county"
+  },
+  {
+   "id": "geo-2-22",
+   "kind": "folded",
+   "url": "/states/new-jersey/monmouth-ocean/",
+   "target": "/states/new-jersey/#monmouth-ocean"
+  },
+  {
+   "id": "geo-2-23",
+   "kind": "folded",
+   "url": "/states/new-jersey/morris-county/",
+   "target": "/states/new-jersey/#morris-county"
+  },
+  {
+   "id": "geo-2-24",
+   "kind": "folded",
+   "url": "/states/new-jersey/newark/",
+   "target": "/states/new-jersey/#newark"
+  },
+  {
+   "id": "geo-2-25",
+   "kind": "folded",
+   "url": "/states/massachusetts/berkshires/",
+   "target": "/states/massachusetts/#berkshires"
+  },
+  {
+   "id": "geo-2-26",
+   "kind": "folded",
+   "url": "/states/massachusetts/boston/",
+   "target": "/states/massachusetts/#boston"
+  },
+  {
+   "id": "geo-2-27",
+   "kind": "folded",
+   "url": "/states/massachusetts/cambridge/",
+   "target": "/states/massachusetts/#cambridge"
+  },
+  {
+   "id": "geo-2-28",
+   "kind": "folded",
+   "url": "/states/massachusetts/cape-cod/",
+   "target": "/states/massachusetts/#cape-cod"
+  },
+  {
+   "id": "geo-2-29",
+   "kind": "folded",
+   "url": "/states/massachusetts/lowell/",
+   "target": "/states/massachusetts/#lowell"
+  },
+  {
+   "id": "geo-2-30",
+   "kind": "folded",
+   "url": "/states/massachusetts/new-bedford/",
+   "target": "/states/massachusetts/#new-bedford"
+  },
+  {
+   "id": "geo-2-31",
+   "kind": "folded",
+   "url": "/states/massachusetts/springfield/",
+   "target": "/states/massachusetts/#springfield"
+  },
+  {
+   "id": "geo-2-32",
+   "kind": "folded",
+   "url": "/states/massachusetts/worcester/",
+   "target": "/states/massachusetts/#worcester"
+  },
+  {
+   "id": "geo-2-33",
+   "kind": "folded",
+   "url": "/states/connecticut/bridgeport/",
+   "target": "/states/connecticut/#bridgeport"
+  },
+  {
+   "id": "geo-2-34",
+   "kind": "folded",
+   "url": "/states/connecticut/fairfield-county/",
+   "target": "/states/connecticut/#fairfield-county"
+  },
+  {
+   "id": "geo-2-35",
+   "kind": "folded",
+   "url": "/states/connecticut/hartford/",
+   "target": "/states/connecticut/#hartford"
+  },
+  {
+   "id": "geo-2-36",
+   "kind": "folded",
+   "url": "/states/connecticut/litchfield-hills/",
+   "target": "/states/connecticut/#litchfield-hills"
+  },
+  {
+   "id": "geo-2-37",
+   "kind": "folded",
+   "url": "/states/connecticut/new-haven/",
+   "target": "/states/connecticut/#new-haven"
+  },
+  {
+   "id": "geo-2-38",
+   "kind": "folded",
+   "url": "/states/connecticut/new-london/",
+   "target": "/states/connecticut/#new-london"
+  },
+  {
+   "id": "geo-2-39",
+   "kind": "folded",
+   "url": "/states/connecticut/quiet-corner/",
+   "target": "/states/connecticut/#quiet-corner"
+  },
+  {
+   "id": "geo-2-40",
+   "kind": "folded",
+   "url": "/states/connecticut/waterbury/",
+   "target": "/states/connecticut/#waterbury"
+  },
+  {
+   "id": "geo-2-41",
+   "kind": "folded",
+   "url": "/states/new-hampshire/concord/",
+   "target": "/states/new-hampshire/#concord"
+  },
+  {
+   "id": "geo-2-42",
+   "kind": "folded",
+   "url": "/states/new-hampshire/lakes-and-mountains/",
+   "target": "/states/new-hampshire/#lakes-and-mountains"
+  },
+  {
+   "id": "geo-2-43",
+   "kind": "folded",
+   "url": "/states/new-hampshire/manchester/",
+   "target": "/states/new-hampshire/#manchester"
+  },
+  {
+   "id": "geo-2-44",
+   "kind": "folded",
+   "url": "/states/new-hampshire/nashua/",
+   "target": "/states/new-hampshire/#nashua"
+  },
+  {
+   "id": "geo-2-45",
+   "kind": "folded",
+   "url": "/states/new-hampshire/north-country/",
+   "target": "/states/new-hampshire/#north-country"
+  },
+  {
+   "id": "geo-2-46",
+   "kind": "folded",
+   "url": "/states/new-hampshire/portsmouth/",
+   "target": "/states/new-hampshire/#portsmouth"
+  },
+  {
+   "id": "geo-2-47",
+   "kind": "folded",
+   "url": "/states/new-hampshire/salem/",
+   "target": "/states/new-hampshire/#salem"
+  },
+  {
+   "id": "geo-2-48",
+   "kind": "folded",
+   "url": "/states/new-hampshire/upper-valley/",
+   "target": "/states/new-hampshire/#upper-valley"
+  },
+  {
+   "id": "geo-2-49",
+   "kind": "folded",
+   "url": "/states/maine/aroostook/",
+   "target": "/states/maine/#aroostook"
+  },
+  {
+   "id": "geo-2-50",
+   "kind": "folded",
+   "url": "/states/maine/bangor/",
+   "target": "/states/maine/#bangor"
+  },
+  {
+   "id": "geo-2-51",
+   "kind": "folded",
+   "url": "/states/maine/bar-harbor/",
+   "target": "/states/maine/#bar-harbor"
+  },
+  {
+   "id": "geo-2-52",
+   "kind": "folded",
+   "url": "/states/maine/bath/",
+   "target": "/states/maine/#bath"
+  },
+  {
+   "id": "geo-2-53",
+   "kind": "folded",
+   "url": "/states/maine/lewiston-auburn/",
+   "target": "/states/maine/#lewiston-auburn"
+  },
+  {
+   "id": "geo-2-54",
+   "kind": "folded",
+   "url": "/states/maine/midcoast/",
+   "target": "/states/maine/#midcoast"
+  },
+  {
+   "id": "geo-2-55",
+   "kind": "folded",
+   "url": "/states/maine/portland/",
+   "target": "/states/maine/#portland"
+  },
+  {
+   "id": "geo-2-56",
+   "kind": "folded",
+   "url": "/states/maine/york-county/",
+   "target": "/states/maine/#york-county"
+  },
+  {
+   "id": "geo-2-57",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/rhode-island/",
+   "label": "Rhode Island",
+   "line": "Town-by-town housing records from the state's housing office, the comprehensive permit question in Warwick and Cranston, and Electric Boat's hiring at Quonset Point."
+  }
+ ]
+}

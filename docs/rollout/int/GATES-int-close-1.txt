@@ -1,0 +1,262 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-25T15:11:22
+root ~/Downloads/wt-rollout-int; git dir ~/Downloads/wt-rollout-int at 2c7412cd3e450342e057ecaeae24b01f16ed7564; range main..rollout/int/close-1; stage landing; site-wide True
+command: python3 scripts/qa/gates.py --root . --git-dir . --urls /asset-classes/hotel/,/asset-classes/multifamily/,/asset-classes/quick-service-restaurant/burger/,/asset-classes/quick-service-restaurant/,/case-studies/private-school-connecticut-conventional/,/states/alabama/huntsville/,/states/alabama/,/states/florida/,/states/florida/jacksonville/,/states/florida/miami/,/states/florida/orlando/,/states/florida/tampa/,/states/georgia/,/states/georgia/savannah/,/states/indiana/,/states/indiana/indianapolis/,/states/kansas/,/states/kentucky/,/states/michigan/detroit/,/states/michigan/,/states/minnesota/,/states/missouri/,/states/nebraska/,/states/north-carolina/charlotte/,/states/north-carolina/,/states/north-carolina/raleigh-durham/,/states/ohio/,/states/south-carolina/charleston/,/states/south-carolina/,/states/tennessee/,/states/tennessee/nashville/,/states/texas/austin/,/states/texas/dallas-fort-worth/,/states/texas/houston/,/states/texas/,/states/texas/san-antonio/,/states/wisconsin/ --range main..rollout/int/close-1 --base-ref main --tags rollout/int/close-1 --stage landing --site-wide --deploy-date 2026-10-25 --look-out ~/Downloads/fsc-rollout/tmp/int/look/close-1 --out ~/Downloads/fsc-rollout/tmp/int/GATES-int-close-1.txt
+pages (37): /asset-classes/hotel/ /asset-classes/multifamily/ /asset-classes/quick-service-restaurant/ /asset-classes/quick-service-restaurant/burger/ /case-studies/private-school-connecticut-conventional/ /states/alabama/ /states/alabama/huntsville/ /states/florida/ /states/florida/jacksonville/ /states/florida/miami/ /states/florida/orlando/ /states/florida/tampa/ /states/georgia/ /states/georgia/savannah/ /states/indiana/ /states/indiana/indianapolis/ /states/kansas/ /states/kentucky/ /states/michigan/ /states/michigan/detroit/ /states/minnesota/ /states/missouri/ /states/nebraska/ /states/north-carolina/ /states/north-carolina/charlotte/ /states/north-carolina/raleigh-durham/ /states/ohio/ /states/south-carolina/ /states/south-carolina/charleston/ /states/tennessee/ /states/tennessee/nashville/ /states/texas/ /states/texas/austin/ /states/texas/dallas-fort-worth/ /states/texas/houston/ /states/texas/san-antonio/ /states/wisconsin/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+37 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 63 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 landing floors (research and register apart): RED
+  /asset-classes/hotel/                                          hub       counted 106 (research 96, register 10/24)
+  /asset-classes/multifamily/                                    hub       counted 118 (research 112, register 6/6)
+  /asset-classes/quick-service-restaurant/                       hub       counted 111 (research 104, register 7/7)
+  /asset-classes/quick-service-restaurant/burger/                subtype   counted 70 (research 70, register 0/0)
+  /case-studies/private-school-connecticut-conventional/         case      counted 13 (research 13, register 0/0)
+  /states/alabama/                                               state     counted 73 (research 63, register 10/10)
+  /states/alabama/huntsville/                                    metro     counted 33 (research 23, register 10/10)
+  /states/florida/                                               state     counted 70 (research 61, register 9/9)
+  /states/florida/jacksonville/                                  metro     counted 30 (research 20, register 10/10)
+  /states/florida/miami/                                         metro     counted 32 (research 22, register 10/10)
+  /states/florida/orlando/                                       metro     counted 35 (research 25, register 10/10)
+  /states/florida/tampa/                                         metro     counted 34 (research 24, register 10/10)
+  /states/georgia/                                               state     counted 82 (research 72, register 10/10)
+  /states/georgia/savannah/                                      metro     counted 35 (research 25, register 10/10)
+  /states/indiana/                                               state     counted 62 (research 52, register 10/10)
+  /states/indiana/indianapolis/                                  metro     counted 50 (research 40, register 10/10)
+  /states/kansas/                                                state     counted 88 (research 83, register 5/5)
+  /states/kentucky/                                              state     counted 66 (research 56, register 10/10)
+  /states/michigan/                                              state     counted 80 (research 74, register 6/6)
+  /states/michigan/detroit/                                      metro     counted 29 (research 19, register 10/10)
+  /states/minnesota/                                             state     counted 76 (research 66, register 10/10)
+  /states/missouri/                                              state     counted 46 (research 41, register 5/5)
+  /states/nebraska/                                              state     counted 81 (research 74, register 7/7)
+  /states/north-carolina/                                        state     counted 56 (research 47, register 9/9)
+  /states/north-carolina/charlotte/                              metro     counted 32 (research 22, register 10/14)
+  /states/north-carolina/raleigh-durham/                         metro     counted 26 (research 17, register 9/9)
+  /states/ohio/                                                  state     counted 89 (research 80, register 9/9)
+  /states/south-carolina/                                        state     counted 98 (research 88, register 10/10)
+  /states/south-carolina/charleston/                             metro     counted 30 (research 20, register 10/10)
+  /states/tennessee/                                             state     counted 89 (research 81, register 8/8)
+  /states/tennessee/nashville/                                   metro     counted 25 (research 19, register 6/6)
+  /states/texas/                                                 state     counted 65 (research 56, register 9/9)
+  /states/texas/austin/                                          metro     counted 41 (research 34, register 7/7)
+  /states/texas/dallas-fort-worth/                               metro     counted 36 (research 29, register 7/7)
+  /states/texas/houston/                                         metro     counted 37 (research 33, register 4/4)
+  /states/texas/san-antonio/                                     metro     counted 28 (research 21, register 7/7)
+  /states/wisconsin/                                             state     counted 91 (research 85, register 6/6)
+site-wide: 27 other factory page(s) at landing floors; under the floor: 0
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /asset-classes/hotel/                                          max 1.37% (/asset-classes/multifamily/)
+  /asset-classes/multifamily/                                    max 1.37% (/asset-classes/hotel/)
+  /asset-classes/quick-service-restaurant/                       max 1.14% (/states/new-york/)
+  /asset-classes/quick-service-restaurant/burger/                max 0.93% (/asset-classes/gas-station-and-c-store/)
+  /case-studies/private-school-connecticut-conventional/         max 5.52% (/case-studies/qsr-arkansas-sba/)
+  /states/alabama/                                               max 1.0% (/states/south-carolina/charleston/)
+  /states/alabama/huntsville/                                    max 1.03% (/states/south-carolina/)
+  /states/florida/                                               max 1.0% (/states/south-carolina/charleston/)
+  /states/florida/jacksonville/                                  max 1.43% (/states/florida/tampa/)
+  /states/florida/miami/                                         max 1.34% (/states/florida/tampa/)
+  /states/florida/orlando/                                       max 1.45% (/states/south-carolina/charleston/)
+  /states/florida/tampa/                                         max 1.43% (/states/florida/jacksonville/)
+  /states/georgia/                                               max 1.09% (/states/south-carolina/charleston/)
+  /states/georgia/savannah/                                      max 1.22% (/states/south-carolina/charleston/)
+  /states/indiana/                                               max 0.02% (/states/kentucky/)
+  /states/indiana/indianapolis/                                  max 0.08% (/states/california/sacramento/)
+  /states/kansas/                                                max 0.24% (/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/)
+  /states/kentucky/                                              max 1.31% (/states/tennessee/nashville/)
+  /states/michigan/                                              max 0.02% (/states/kentucky/)
+  /states/michigan/detroit/                                      max 0.08% (/states/california/sacramento/)
+  /states/minnesota/                                             max 0.18% (/case-studies/fitness-minnesota-sba/)
+  /states/missouri/                                              max 0.27% (/research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/)
+  /states/nebraska/                                              max 0.11% (/states/alabama/huntsville/)
+  /states/north-carolina/                                        max 1.45% (/states/north-carolina/raleigh-durham/)
+  /states/north-carolina/charlotte/                              max 1.4% (/states/south-carolina/charleston/)
+  /states/north-carolina/raleigh-durham/                         max 1.45% (/states/north-carolina/)
+  /states/ohio/                                                  max 0.05% (/states/north-carolina/)
+  /states/south-carolina/                                        max 1.22% (/states/south-carolina/charleston/)
+  /states/south-carolina/charleston/                             max 1.45% (/states/florida/orlando/)
+  /states/tennessee/                                             max 1.42% (/states/tennessee/nashville/)
+  /states/tennessee/nashville/                                   max 1.42% (/states/tennessee/)
+  /states/texas/                                                 max 0.79% (/states/georgia/)
+  /states/texas/austin/                                          max 0.14% (/states/south-carolina/charleston/)
+  /states/texas/dallas-fort-worth/                               max 0.57% (/states/florida/tampa/)
+  /states/texas/houston/                                         max 0.05% (/states/texas/dallas-fort-worth/)
+  /states/texas/san-antonio/                                     max 0.09% (/states/south-carolina/charleston/)
+  /states/wisconsin/                                             max 0.01% (/states/missouri/)
+site-wide pairs at or over 15%: 10, of which with a page of this set: 0 (the others are on pages this landing did not write, reported, not failed)
+  24.8% / ~ /asset-classes/
+  23.22% /case-studies/qsr-arkansas-sba/ ~ /case-studies/qsr-georgia-sba/
+  20.38% /case-studies/fitness-minnesota-sba/ ~ /case-studies/fitness-new-hampshire-sba/
+  16.12% /case-studies/truck-stop-georgia-sba/ ~ /case-studies/truck-stop-oklahoma-sba/
+  15.81% /case-studies/fitness-minnesota-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.77% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.48% /case-studies/funeral-home-wisconsin-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.47% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/funeral-home-wisconsin-sba/
+  15.12% /case-studies/hotel-florida-sba/ ~ /case-studies/hotel-south-carolina-sba/
+  15.03% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/fitness-minnesota-sba/
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+17 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 15: RED
+
+  private-school-connecticut-conventional: body words 2745 under 4500
+  private-school-connecticut-conventional: missing section #at-a-glance
+  private-school-connecticut-conventional: missing section #market-conclusion
+  private-school-connecticut-conventional: missing section #competitors
+  private-school-connecticut-conventional: missing section #revenue
+  private-school-connecticut-conventional: missing section #opex
+  private-school-connecticut-conventional: missing section #sources-uses
+  private-school-connecticut-conventional: missing section #loan
+  private-school-connecticut-conventional: missing section #pro-forma
+  private-school-connecticut-conventional: missing section #dscr
+  private-school-connecticut-conventional: missing section #break-even
+  private-school-connecticut-conventional: missing section #sensitivity
+  private-school-connecticut-conventional: missing section #risks
+  private-school-connecticut-conventional: missing section #lender-conditions
+  private-school-connecticut-conventional: missing section #faq
+  private-school-connecticut-conventional: missing case table glance
+  private-school-connecticut-conventional: missing case table revenue
+  private-school-connecticut-conventional: missing case table opex
+  private-school-connecticut-conventional: missing case table uses
+  private-school-connecticut-conventional: missing case table sources
+  private-school-connecticut-conventional: missing case table loan
+  private-school-connecticut-conventional: missing case table proforma
+  private-school-connecticut-conventional: missing case table dscr
+  private-school-connecticut-conventional: missing case table determination
+  private-school-connecticut-conventional: missing case table verdict
+  private-school-connecticut-conventional: missing case table breakeven
+  private-school-connecticut-conventional: missing case table sensitivity
+  private-school-connecticut-conventional: no case input file data/cases/private-school-connecticut-conventional.json
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: RED
+stale-claim hits 0
+
+source entries lacking a part or never cited 13
+  /case-studies/private-school-connecticut-conventional/: s1: NCES Private School Universe Survey (PSS) and Digest of Education Statistics, 2023: about 
+  /case-studies/private-school-connecticut-conventional/: s2: NAIS, 2024-25 National Tables / Facts at a Glance: average day-school tuition $32,251; nea
+  /case-studies/private-school-connecticut-conventional/: s3: SAIS / NAIS FastStats, Financial Health Trends: net tuition revenue fell to roughly 83% (N
+  /case-studies/private-school-connecticut-conventional/: s4: Feasibility Study Company, Private K-12 School asset-class analysis: the market study size
+  /case-studies/private-school-connecticut-conventional/: s5: Connecticut Office of Policy and Management, FY2025-26 municipal mill rates, via Patch (Au
+  /case-studies/private-school-connecticut-conventional/: s6: Venable LLP and ERIC, “Capital Financing for Private & Independent Schools”: tax-exempt co
+  /case-studies/private-school-connecticut-conventional/: s7: U.S. Small Business Administration, SOP 50 10 8.1 with Technical Policy Updates (effective
+  /case-studies/private-school-connecticut-conventional/: s8: U.S. Census Bureau and CTData Collaborative, Vintage 2024 Population Estimates (Connecticu
+  /case-studies/private-school-connecticut-conventional/: s9: Apartment List via the Connecticut Office of the State Comptroller economic update (March 
+  /case-studies/private-school-connecticut-conventional/: s10: EdChoice and Education Week (2025-26): about 1.5 million students use private-choice progr
+  /case-studies/private-school-connecticut-conventional/: s11: CT Mirror, restrictive local zoning across Connecticut's 169 municipalities and the 8-30g 
+  /case-studies/private-school-connecticut-conventional/: s12: NCEA Annual Statistical Report, 2024-25: Catholic PK-12 enrollment 1,683,506 in 5,852 scho
+  /case-studies/private-school-connecticut-conventional/: s13: Tax Foundation, Connecticut income, corporate, and property-tax data (2026); Governor's of
+figure blocks without a citation 38
+  /case-studies/private-school-connecticut-conventional/ #engagement: ['400', '55,000'] in: A head of school and board came to our feasibility study company with a campus-expansion
+            plan and 
+  /case-studies/private-school-connecticut-conventional/ #engagement: ['400'] in: Current enrollment ~400 students
+  /case-studies/private-school-connecticut-conventional/ #engagement: ['470'] in: Stabilized target ~470 students
+  /case-studies/private-school-connecticut-conventional/ #engagement: ['55,000'] in: Program ~55,000 sf academic / STEM / arts
+  /case-studies/private-school-connecticut-conventional/ #engagement: ['$24.0M'] in: Project cost $24.0M
+  /case-studies/private-school-connecticut-conventional/ #demand: ['$17.95M'] in: Stabilized enrollment Fill new seats cohort by cohort, ~400 → ~470 ≈ $17.95M net tuition/yr
+  /case-studies/private-school-connecticut-conventional/ #competition: ['1,150'] in: School A Established independent day PK-12 ~1,150 Flagship; long waitlist, prices at top
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$24.0 million', '60 percent', '40 percent'] in: Total project cost lands at $24.0 million, financed 60 percent debt and 40 percent equity and
+          fundra
+  /case-studies/private-school-connecticut-conventional/ #financing: ['55,000', '$17.6M'] in: New academic / STEM / arts building (~55,000 sf) $17.6M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$1.9M'] in: Site work, utilities & athletics infrastructure $1.9M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$1.6M'] in: Renovation of vacated classroom space $1.6M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$1.3M'] in: FF&E, technology & lab / maker equipment $1.3M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$1.0M'] in: Soft costs (A&E, permitting, construction management) $1.0M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$0.6M'] in: Capitalized interest, issuance & financing costs $0.6M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$24.0M'] in: Total project cost $24.0M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['60%', '$14.40M'] in: Tax-exempt bond / bank debt (60%) $14.40M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$7.60M'] in: Capital campaign pledges & gifts $7.60M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$2.00M'] in: Board-designated funds & reserves (equity) $2.00M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['40%', '$9.60M'] in: Total equity & fundraising (40%) $9.60M
+  /case-studies/private-school-connecticut-conventional/ #financing: ['7.5%'] in: Illustrative rate ~7.5% fixed
+  /case-studies/private-school-connecticut-conventional/ #financing: ['$1.29M'] in: Annual debt service (MADS) ≈ $1.29M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['470', '$46,000', '$21.62M'] in: Gross tuition & fees 470 students × ~$46,000 blended tuition $21.62M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$38,180', '$17.95M'] in: Net tuition revenue 470 × ~$38,180 net / student $17.95M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$0.95M'] in: Auxiliary & program revenue Summer, aftercare, athletics, rentals $0.95M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.10M'] in: Annual fund & unrestricted gifts Haircut to trailing three-year actual $1.10M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$21.30M'] in: Total operating revenue Net tuition + auxiliary + draw + gifts $21.30M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.60M'] in: Academic & student programs Instruction, athletics, student life (non-comp) ($1.60M)
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$2.15M'] in: Facilities, utilities & maintenance Plant O&M; high Connecticut electricity cost ($2.15M)
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.45M'] in: Administration & G&A Leadership, finance, HR, governance ($1.45M)
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$0.94M'] in: Admissions, marketing, technology & insurance Enrollment, IT, risk ($0.94M)
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$19.49M'] in: Total operating expenses (pre-debt service) Sum of expense lines ($19.49M)
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.81M'] in: Net revenues available for debt service Revenue less operating expense ≈ $1.81M
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['63%', '80%', '6%', '6.7%'] in: Salaries at ~63% of budget sit inside the grounded 60-80% faculty-compensation range; endowment draw funds ~6%
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.13M', '$1.08M', '1.05'] in: Year 1 Ramp (interest-only bridge) ~415 ~$1.13M Interest-only ~$1.08M 1.05
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.61M', '$1.29M', '1.25'] in: Year 2 Building ~445 ~$1.61M Full amortizing ~$1.29M 1.25
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['$1.81M', '$1.29M', '1.40'] in: Year 3 Stabilized ~470 ~$1.81M Full amortizing ~$1.29M 1.40
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['1.10', '1.25x'] in: DSCR computed as net revenues available for debt service divided by the period debt-service obligation. See so
+  /case-studies/private-school-connecticut-conventional/ #outcome: ['1.40x', '13%'] in: Verdict: financially feasible and bankable. On independently derived enrollment, a stabilized
+            1.40
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..rollout/int/close-1: 0
+tag messages matching (1 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: RED
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..rollout/int/close-1 (5806735 bytes)
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 4
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1074 term link(s) on 175 page(s)
+pages checked for inbound links: 177; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 190 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10) (every page): GREEN
+189 page(s)
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in ~/Downloads/fsc-rollout/tmp/int/look/close-1 (port 52013)
+  asset-classes_hotel-desktop-1440.png                                   scrollWidth 1440 / 1440 overflow False offenders []
+  asset-classes_hotel-mobile-390.png                                     scrollWidth 390 / 390 overflow False offenders []
+  asset-classes_quick-service-restaurant_burger-desktop-1440.png         scrollWidth 1440 / 1440 overflow False offenders []
+  asset-classes_quick-service-restaurant_burger-mobile-390.png           scrollWidth 390 / 390 overflow False offenders []
+  case-studies_private-school-connecticut-conventional-desktop-1440.png  scrollWidth 1440 / 1440 overflow False offenders []
+  case-studies_private-school-connecticut-conventional-mobile-390.png    scrollWidth 390 / 390 overflow False offenders []
+  states_alabama-desktop-1440.png                                        scrollWidth 1440 / 1440 overflow False offenders []
+  states_alabama-mobile-390.png                                          scrollWidth 390 / 390 overflow False offenders []
+  states_alabama_huntsville-desktop-1440.png                             scrollWidth 1440 / 1440 overflow False offenders []
+  states_alabama_huntsville-mobile-390.png                               scrollWidth 390 / 390 overflow False offenders []
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  37 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: RED      counted figures, amendment A6 landing floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: RED      case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 
+  gate  7: RED      sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: RED      subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 10/14

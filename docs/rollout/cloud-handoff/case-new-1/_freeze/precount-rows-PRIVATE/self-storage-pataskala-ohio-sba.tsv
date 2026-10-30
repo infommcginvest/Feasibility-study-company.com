@@ -1,0 +1,73 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F001	18,529	Pataskala city population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L51	Y	
+F002	3.6%	Pataskala population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L52	N	same value printed on served page(s): /case-studies/gas-station-versailles-ohio-sba/, /case-studies/rv-park-texas-usda/, /case-studies/fitness-new-hampshire-sba/
+F003	17,882	Pataskala April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L52	Y	
+F004	11,900,510	Ohio population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L51	N	rounded repeat of a figure on a served case or note page
+F005	0.9%	Ohio population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L52	N	same value printed on served page(s): /research-notes/absorption-forensics/, /case-studies/auto-service-new-jersey-sba/, /case-studies/restaurant-missouri-sba/
+F006	11,799,445	Ohio April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L52	N	rounded repeat of a figure on a served case or note page
+F007	6,920	Pataskala households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L53	Y	
+F008	4,863,191	Ohio households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L53	N	rounded repeat of a figure on a served case or note page
+F009	2.61	Pataskala persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L54	N	same value printed on served page(s): /case-studies/meat-processing-texas-usda/
+F010	2.37	Ohio persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L54	N	same value printed on served page(s): /case-studies/gas-station-florida-sba/
+F011	$92,033	Pataskala median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L55	Y	
+F012	$71,389	Ohio median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:Pataskala:L55	N	same value printed on served parent page(s): /states/ohio/
+F013	33,640 building permits	Ohio residential building permits, 2025	research	I77c	U.S. Census Bureau QuickFacts Ohio	FSC2:Pataskala:L139	N	same value printed on served parent page(s): 
+F014	37.1	Pataskala median age	research	none	World Population Review	FSC2:Pataskala:L56	N	ACS vintage not stated by the publisher; primary table NOT FOUND
+F015	15,038	3-mile population from broker brochure	research	none	Edwards Realty/Alterra brochure	FSC2:Pataskala:L58	N	brochure dated c.2016-17 only; undated for the rule
+F016	49,969	5-mile population from broker brochure	research	none	Edwards Realty/Alterra brochure	FSC2:Pataskala:L58	N	brochure dated c.2016-17 only
+F017	9,031	Pataskala employed residents, 2024	research	none	Data USA	FSC2:Pataskala:L57	N	page says 2024 with no periodic document identified
+F018	25,000 SF	Prestige Pataskala approved outdoor vehicle storage expansion	research	I77a	Citizen Portal summary of Pataskala BZA meeting, 10 Mar 2026	FSC2:Pataskala:L88	N	same value printed on served page(s): /research-notes/underserved-gas-station-markets/, /case-studies/rv-park-texas-usda/, /case-studies/meat-processing-texas-usda/
+F019	32 spaces	Prestige Pataskala new outdoor spaces (CU-26-002)	research	I77a	Citizen Portal summary of Pataskala BZA meeting, 10 Mar 2026	FSC2:Pataskala:L88	N	same value printed on served parent page(s): /states/minnesota/
+F020	$300,000	Prestige Pataskala expansion budget (CU-26-002)	research	I77a	Citizen Portal summary of Pataskala BZA meeting, 10 Mar 2026	FSC2:Pataskala:L88	N	same value printed on served page(s): /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/usda-rd-deadline-calendar/, /research-notes/break-even-occupancy-trap/
+F021	38 homes	Townhome rezoning near SR 310 site (ZON-25-002)	research	I77a	City of Pataskala P&Z agenda 7 May 2025; Planning Director report 1 Dec 2025	FSC2:Pataskala:L121	N	same value printed on served page(s): /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-versailles-ohio-sba/, /case-studies/meat-processing-texas-usda/
+F022	4.35 acres	7164 Hazelton-Etna parcel in the rezoning	research	I77a	City of Pataskala P&Z agenda 7 May 2025	FSC2:Pataskala:L121	N	single-property attribute of one parcel
+F023	8.7	townhome density per acre	research	none	Citizen Portal summary	FSC2:Pataskala:L135	N	derived density of one pending rezoning; single-property attribute
+F024	$28 billion	Intel Ohio One investment, two fabs	research	I77a	Intel Newsroom, 28 Feb 2025	FSC2:Pataskala:L129	N	same value printed on served parent page(s): /asset-classes/glamping/, /states/ohio/
+F025	3,000 jobs	Intel Ohio One jobs commitment	research	I77a	Axios Columbus, 10 Mar 2025	FSC2:Pataskala:L131	N	same value printed on served page(s): /research-notes/usda-rd-deadline-calendar/, /case-studies/gas-station-georgia-sba/, /case-studies/gas-station-texas-sba/
+F026	$20 billion	Intel Ohio One capital, state statement	research	I77a	Axios Columbus, 10 Mar 2025	FSC2:Pataskala:L131	N	same value printed on served parent page(s): /states/mississippi/, /states/wisconsin/, /states/pennsylvania/
+F027	7,000 jobs	Intel Ohio One construction jobs	research	I77a	Axios Columbus, 10 Mar 2025	FSC2:Pataskala:L131	N	same value printed on served page(s): /case-studies/rv-park-arizona-usda/
+F028	$405 million	Intel Ohio One annual payroll	research	I77a	Axios Columbus, 10 Mar 2025	FSC2:Pataskala:L131	N	same value printed on served parent page(s): /states/georgia/
+F029	$90 million	ODOT Intel-area road commitments	research	none	City of New Albany Silicon Heartland page	FSC2:Pataskala:L133	N	period 2022-2026 with no publication date; undated page
+F030	264 units	Drayton Hall apartments adjacent to outlots	research	none	CBC Worldwide listing	FSC2:Pataskala:L134	N	broker listing, undated; adjacent to the subject
+F031	800,000	Amazon facility square feet, broker claim	research	none	Edwards Realty brochure c.2016-17	FSC2:Pataskala:L136	N	brochure undated (c.2016-17); unverified
+F032	2.19%	Pataskala median effective property tax rate	research	none	Ownwell	FSC2:Pataskala:L155	N	aggregator page 2025-26 with no periodic document or date
+F033	2.12%	Licking County median effective property tax rate	research	none	Ownwell	FSC2:Pataskala:L155	N	aggregator page, undated
+F034	1.60%	Ohio median effective property tax rate	research	none	Ownwell	FSC2:Pataskala:L155	N	aggregator page, undated
+F035	35%	Licking County assessment ratio	research	none	Ohio Tax Calculator	FSC2:Pataskala:L157	N	statutory ratio from an undated calculator site; program-style rule value
+F036	$105,840	7164 Hazelton-Etna land assessment	research	none	LoopNet listing 33352544	FSC2:Pataskala:L158	N	single-property attribute from a listing
+F037	14,252	SR 310 vehicles per day, broker figure	research	none	LoopNet listing 33352544	FSC2:Pataskala:L41	N	year not stated
+F038	0.75%	Southwest Licking LSD income tax rate	research	I77b	Ohio Department of Taxation, School Districts With an Income Tax for 2025/2026	FSC2:Pataskala:L159	N	same value printed on served page(s): /case-studies/rv-park-texas-usda/, /case-studies/hotel-texas-sba/
+F039	2%	SWL proposed earned income tax replacement, 3 Nov 2026 ballot	research	none	NBC4/WCMH via Yahoo; Licking County BOE issues list	FSC2:Pataskala:L160	N	pending ballot issue; publication date not given in the research (I86)
+F040	$80.7 million	SWL proposed bond, 3 Nov 2026 ballot	research	none	NBC4/WCMH via Yahoo; Licking County BOE issues list	FSC2:Pataskala:L160	N	pending ballot issue; publication date not given in the research (I86)
+F041	$115 million	SWL bond defeated 6 May 2025 (64% against)	research	none	NBC4/WCMH	FSC2:Pataskala:L197	N	election date only; article date not given
+F042	$95.3 million	SWL bond defeated Nov 2025 (about 71% against)	research	none	NBC4/WCMH	FSC2:Pataskala:L197	N	election date only; article date not given
+F043	7.25%	Ohio 5.75% plus Licking County 1.5% sales tax	research	none	Sales Tax Handbook	FSC2:Pataskala:L161	N	publisher also states 8.25% for Pataskala; unreconciled
+F044	$64 million	OSDC executive director small business loans secured	research	none	OSDC staff page	FSC2:Pataskala:L176	N	period not stated
+F045	$55.48	Mini Mall Storage 5x5 CC regular rate per 4 weeks	research	none	Mini Mall Storage location page	FSC2:Pataskala:L73	N	operator rate dated only by our 15 Oct 2026 fetch
+F046	$75	Mini Mall Storage 10x10 drive-up regular rate	research	none	Mini Mall Storage location page	FSC2:Pataskala:L73	N	operator rate dated only by our 15 Oct 2026 fetch
+F047	$142.48	Mini Mall Storage 10x20 drive-up regular rate	research	none	Mini Mall Storage location page	FSC2:Pataskala:L73	N	fetch date only
+F048	547 reviews	Mini Mall Storage review count	research	none	Mini Mall Storage location page	FSC2:Pataskala:L75	N	fetch date only; single-property attribute
+F049	6.363 acres	Mini Mall Storage parcel acreage	research	none	LoopNet property record snippet	FSC2:Pataskala:L76	N	single-property attribute of a competitor; record dated only by tax year in a snippet
+F050	1.738 acres	Prestige Etna parcel acreage	research	none	LoopNet property record snippet	FSC2:Pataskala:L83	N	single-property attribute; snippet
+F051	3.989 acres	Broad and York parcel acreage	research	none	LoopNet property record snippet	FSC2:Pataskala:L97	N	single-property attribute; snippet
+F052	385 units	11309 Broad St entitled self-storage units (superseded)	research	none	Edwards Realty brochure c.2016-17	FSC2:Pataskala:L43	N	brochure undated (c.2016-17); entitlement lost
+F053	53,613 SF	11309 Broad St entitled NRSF (superseded)	research	none	Edwards Realty brochure c.2016-17	FSC2:Pataskala:L43	N	brochure undated (c.2016-17)
+F054	$399,000	11309 Broad St asking price (historic)	research	none	Edwards Realty brochure c.2016-17	FSC2:Pataskala:L43	N	brochure undated; single-property
+F055	383 spaces	RentCafe market count of spaces	research	none	RentCafe	FSC2:Pataskala:L107	N	undated and internally inconsistent with 1,410 units
+F056	1,410 units	RentCafe market count of storage units	research	none	RentCafe	FSC2:Pataskala:L107	N	undated and internally inconsistent
+F057	7 competitors	competitor census count	research	none	research file	FSC2:Pataskala:L60	N	research file's own summary count
+F058	$1,100,000	5001 Babbitt Rd New Albany lot asking price	research	none	listing	FSC2:Pataskala:L17	N	rejected-town listing price, single-property, undated
+F059	5.46 acres	subject outlot acreage	research	none	LoopNet listing	FSC2:Pataskala:L32	N	subject attribute
+F060	46.59 acres	Opportunity Zone tract size in listing	research	none	ApartmentBuildings.com	FSC2:Pataskala:L187	N	single-property attribute
+F061	$1,078	Licking County median gross rent, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_gross_rent.json values.co-39089.all.v	Y	
+F062	$84,426	Licking County median household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_hh_income.json values.co-39089.all.v	Y	
+F063	$275,200	Licking County median home value, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_home_value.json values.co-39089.all.v	Y	
+F064	181,837	Licking County population, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_pop.json values.co-39089.all.v	Y	
+F065	68,620	Licking County households, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_households.json values.co-39089.all.v	Y	
+F066	50,603	Licking County owner-occupied units, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_owner_occupied.json values.co-39089.all.v	Y	
+F067	$1,274	Columbus metro median gross rent, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_gross_rent.json values.cbsa-18140.all.v	Y	
+F068	$81,945	Columbus metro median household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_hh_income.json values.cbsa-18140.all.v	Y	
+F069	$300,800	Columbus metro median home value, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_home_value.json values.cbsa-18140.all.v	Y	
+F070	$44,770	Columbus metro per capita income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_per_capita_income.json values.cbsa-18140.all.v	Y	
+F071	$42,609	Licking County per capita income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_per_capita_income.json values.co-39089.all.v	N	same value printed on served page(s): /case-studies/gas-station-florida-sba/
+#SUMMARY self-storage-pataskala-ohio-sba counted=14 research=4 register=10 verdict=FOLD engine=N notes=short: research 4 of 20, total 14 of 30; Ohio and Intel figures repeat on served pages; A4 reading 20 counted, 10 research

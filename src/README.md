@@ -7,7 +7,11 @@ the served `index.html`.
 ```
 src/site.json                        deploy_date used by "DEPLOY" dates
 src/templates/base.html              head, chrome regions, main, footer (shared)
-src/templates/{state,metro,hub,subtype,case}.html   main layout per page type
+src/templates/<type>.html            main layout per page type (state, metro, hub, subtype, case, and any type
+                                     a lane adds); each type has its settings in src/types.json (FACTORY-2)
+src/types.json                       per-type settings: schema, byline, house CSS, citation style, body-word
+                                     range and counted-figure class (scripts/qa/pagecheck.py reads the last two)
+src/case-cards/<slug>.json           one case's /case-studies/ card template and index entry (FACTORY-2)
 src/templates/partials/              house CSS (byte for byte), factory.css, chrome partials
 src/pages/<url path>.html            one source per page, e.g. src/pages/states/texas/houston.html
 data/cases/<slug>.json               case model inputs (case pages only)
@@ -16,6 +20,11 @@ scripts/casemodel.py                 computes cases and fills their <!--case:-->
 ```
 
 ## Build order
+
+`python3 scripts/chain.py` runs the whole chain below in order (`--check` runs every step's check). The
+gates are `python3 scripts/qa/gates.py` (gates 1 to 14 on a page set against the whole tree) and
+`python3 scripts/qa/pagecheck.py` (words, counted figures, overlap); requests for integrator-owned files
+follow `docs/rollout/int/REQUESTS.md`.
 
 ```
 python3 scripts/build.py                  # or --page /states/texas/houston/
@@ -95,7 +104,8 @@ body:
 ```
 
 Front matter rules:
-- `type`: state, metro, hub, subtype or case. `url` must match the file's place under `src/pages`.
+- `type`: a type with a template in `src/templates/` and an entry in `src/types.json` (state, metro, hub,
+  subtype, case, plus METHOD-1's). `url` must match the file's place under `src/pages`.
 - `published` and `updated`: ISO dates, or `"DEPLOY"` for `src/site.json` `deploy_date`. New
   pages: both `"DEPLOY"`. Rebuilt pages: keep the old published date; `updated` is `"DEPLOY"`.
 - Cases also carry `"data_as_of": "2026-10"` and may set `"case_slug"` (defaults to the last URL segment).
@@ -135,8 +145,10 @@ Body rules:
 - Case pages: `{{case:glance}}` and the other tables, `{{case:v.dscr_y2}}` for values.
 - Never use em dashes or en dashes in any encoding (build.py refuses them). Use a hyphen for
   ranges ("2025 to 2026" reads better) and a comma, colon or parentheses elsewhere.
-- Links: only to pages that exist (or to pages built in the same lane). Contextual links in
-  prose use plain `<a href="/path/">anchor</a>`.
+- Links: to pages that exist, or to a promised page (`data/site/promised.json`, amendment A5): `links.py
+  --relink` renders a link to a promised page that is not built yet as a pending link with its class
+  fallback and switches it on the day the page lands. A link to a page neither built nor promised is a
+  broken link. Contextual links in prose use plain `<a href="/path/">anchor</a>`.
 
 ## Case input file (data/cases/<slug>.json)
 

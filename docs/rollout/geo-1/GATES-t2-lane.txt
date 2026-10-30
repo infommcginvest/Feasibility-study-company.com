@@ -1,0 +1,58 @@
+GEO-1 tranche 2 gates, copy ~/Downloads/fsc-rollout/tmp/geo-1/t2, 2 page(s)
+13/14 green
+
+GATE  1 GREEN pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id (2 pages)
+
+
+GATE  2 GREEN factory: build.py --check and casemodel.py --check exit 0
+  build.py --check: exit 0: 31 page(s) checked, 0 out of date or failing
+  casemodel.py --check: exit 0: 15 case(s) checked, 0 problem(s)
+
+GATE  3 GREEN counted figures (A6): at least 30, research at least 20, register at most 10 counted; body words in the ruling 3 range
+  /states/georgia/                             state  words  5146 (4500-8000) research  86 register 10 total  96
+  /states/georgia/savannah/                    metro  words  2084 (2000-3500) research  26 register 10 total  36
+
+GATE  4 GREEN overlap under 15% against every page of the copy; sibling matrix
+  /states/georgia/                             max  1.84% with /case-studies/truck-stop-georgia-sba/; top [(1.84, '/case-studies/truck-stop-georgia-sba/', 65), (1.75, '/case-studies/qsr-georgia-sba/', 59), (1.65, '/case-studies/hotel-georgia-sba/', 57)]
+  /states/georgia/savannah/                    max  0.95% with /states/florida/orlando/; top [(0.95, '/states/florida/orlando/', 28), (0.94, '/states/florida/tampa/', 27), (0.88, '/states/georgia/', 26)]
+  sibling matrix:
+  /states/georgia/ x /states/georgia/savannah/: 0.88%
+
+GATE  5 GREEN standalone: every metro passes gates 3 and 4 on its own evidence (its counted figures are its own geography's)
+  /states/georgia/savannah/
+
+GATE  6 GREEN case standard
+  no case pages in this tranche (not applicable)
+
+GATE  7 GREEN sources: four parts, all cited; ruling 9 pattern absent from pages, sources, commits and tags; sbamandate.py zero
+
+  sources matching the pattern: []
+  commits or tags matching: 0
+
+GATE  8 GREEN subjects: no identifier from 10 private list(s) in tranche pages, sources or history (217 tokens)
+
+
+GATE  9 GREEN links: links.py --check and mesh.py --check exit 0; state and metro link both ways; inbound counts (checked at landing)
+  links.py --check: exit 0: 0 problem(s) over 174 checked pages (0 held, data/site/hold.json)
+  mesh.py --check: exit 0: 0 page(s) out of date; 0 held; 1023 term link(s) on 160 page(s)
+
+  /states/georgia/: 39 inbound contextual source pages (needs 3 after landing)
+  /states/georgia/savannah/: 3 inbound contextual source pages (needs 3 after landing)
+
+GATE 10 GREEN clean text: no em or en dashes in any encoding; no credential after the name
+
+
+GATE 11 GREEN markers: byline, regulatory, chrome and markets --check exit 0
+  byline.py --check: exit 0: out of date: 0 page(s)
+  regulatory.py --check: exit 0: 0 page(s) out of date
+  chrome.py --check: exit 0: 0 page(s) out of date; 0 held; 174 checked; 0 problem(s)
+  markets.py --check: exit 0: 0 page(s) out of date
+
+GATE 12 GREEN dates: dateModified, visible line and sitemap lastmod agree (2026-10-18); rebuilt pages keep published
+
+
+GATE 13 RED   look
+  not run (--skip-look)
+
+GATE 14 GREEN index all: index, follow; in the sitemap with lastmod
+

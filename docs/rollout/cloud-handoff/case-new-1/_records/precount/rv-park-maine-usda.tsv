@@ -1,0 +1,51 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+RME-001	8,399	Ellsworth population, 2020 Census	research	I77a	Wikipedia citing Census 2020	CS-R-RV-PARK-MAINE-USDA:58	Y	Level only (I109); borderline
+RME-002	8,657	Ellsworth population ACS 2020-2024	research	I77c	HomeTownLocator citing ACS	CS-R-RV-PARK-MAINE-USDA:57	Y	Compiler site, period names the ACS vintage; borderline
+RME-003	3,731	Ellsworth households ACS 2020-2024	research	I77c	HomeTownLocator citing ACS	CS-R-RV-PARK-MAINE-USDA:59	N	Already on served page /case-studies/gas-station-alabama-sba/ (by value); Compiler site; borderline
+RME-004	2.23	Ellsworth average household size	research	I77c	HomeTownLocator citing ACS	CS-R-RV-PARK-MAINE-USDA:59	Y	Compiler site; borderline
+RME-005	43	Ellsworth median age, ACS 2024	research	I77c	Data USA	CS-R-RV-PARK-MAINE-USDA:60	N	Not a figure by the page checker shape (plain number with no unit word); Compiler site; borderline
+RME-006	9.26%	Ellsworth poverty rate, ACS 2024	research	I77c	Data USA	CS-R-RV-PARK-MAINE-USDA:61	Y	Compiler site; borderline
+RME-007	55,478	Hancock County 2020 Census population	research	I77a	Wikipedia citing Census	CS-R-RV-PARK-MAINE-USDA:63	Y	Level only (I109); borderline
+RME-008	57,171	Hancock County 2025 estimate	research	I77a	Wikipedia citing Census	CS-R-RV-PARK-MAINE-USDA:63	Y	Level only (I109); borderline
+RME-009	4,944	Bucksport 2020 Census population	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-MAINE-USDA:18	Y	
+RME-010	5,066	Bucksport V2025 population	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-MAINE-USDA:18	Y	
+RME-011	2.5%	Bucksport population change	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-MAINE-USDA:18	N	Already on served page /research-notes/hospitality-str-report/, /research-notes/c-store-franchise-category/, /research-notes/underserved-gas-station-markets/ (by value)
+RME-012	1,584	Trenton 2020 Census population	research	I77a	Hancock County, Maine, Population page	CS-R-RV-PARK-MAINE-USDA:19	N	Held only by legacy case page(s) being rebuilt: /case-studies/fitness-minnesota-sba/ (by value; strict reading excludes)
+RME-013	4,079,318	Acadia recreation visits CY2025	research	I77c	Bar Harbor Story, 24 Jan 2026 (citing NPS)	CS-R-RV-PARK-MAINE-USDA:128	Y	
+RME-014	+3.0%	Acadia visits change 2025	research	I77c	National Sites Guide citing NPS	CS-R-RV-PARK-MAINE-USDA:129	N	Compiler percentage (I109)
+RME-015	196.5K	Acadia overnight stays 2025	research	I77c	Here & There citing NPS	CS-R-RV-PARK-MAINE-USDA:130	N	Also on /states/arkansas/ (state/hub/metro page; yields to the case under A4, strict reading excludes); Compiler of NPS annual statistics; borderline
+RME-016	183.0K	Acadia total campers 2025	research	I77c	Here & There citing NPS	CS-R-RV-PARK-MAINE-USDA:130	Y	Compiler of NPS annual statistics; borderline
+RME-017	323,014,305	NPS systemwide recreation visits 2025	research	I77a	National Park Service release, 13 Mar 2026	CS-R-RV-PARK-MAINE-USDA:131	Y	
+RME-018	26 parks	Parks setting visit records in 2025	research	I77a	National Park Service release, 13 Mar 2026	CS-R-RV-PARK-MAINE-USDA:131	N	Not a figure by the page checker shape (plain number with no unit word)
+RME-019	19%	Ellsworth commercial values change, FY2026 revaluation	research	I77a	The Ellsworth American (Sep 2025)	CS-R-RV-PARK-MAINE-USDA:153	N	Also on /states/virginia/, /states/colorado/, /states/utah/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RME-020	31%	Ellsworth waterfront values change, FY2026	research	I77a	The Ellsworth American (Sep 2025)	CS-R-RV-PARK-MAINE-USDA:153	N	Held only by legacy case page(s) being rebuilt: /case-studies/assisted-living-florida-hud/, /case-studies/hotel-nevada-eb5/, /case-studies/assisted-living-hawaii-hud/ (by value; strict reading excludes)
+RME-021	13%	Ellsworth non-waterfront values change, FY2026	research	I77a	The Ellsworth American (Sep 2025)	CS-R-RV-PARK-MAINE-USDA:153	N	Held only by legacy case page(s) being rebuilt: /case-studies/hotel-georgia-sba/ (by value; strict reading excludes)
+RME-022	$17.45; $15.66; $16.25; $12.20; $11.75; $13.07	Ellsworth and Trenton tax rates per $1,000	research	I77a	City of Ellsworth; Town of Trenton	CS-R-RV-PARK-MAINE-USDA:150-154	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+RME-023	9%; 5.5%; 8%	Maine lodging and sales taxes	research	none	Maine Revenue Services Business Guide	CS-R-RV-PARK-MAINE-USDA:155-156	N	Rule values; dated only "current" (I86)
+RME-024	$35; $20	Acadia entrance fees	research	none	NPS	CS-R-RV-PARK-MAINE-USDA:132	N	Fee = rule value; 2026 page undated
+RME-025	about 12 private campgrounds	Mount Desert Island campground count	research	none	NPS Acadia FAQs	CS-R-RV-PARK-MAINE-USDA:105	N	Undated FAQ page (I86)
+RME-026	33 RV sites; 50 sites	Schoodic Woods Campground	research	none	NPS Acadia FAQs	CS-R-RV-PARK-MAINE-USDA:106	N	Single facility; undated
+RME-027	85%; 80%; 3%; 0.55%; $25 million; 40 years; 10%	USDA B&I terms	research	I77a	USDA Rural Development	CS-R-RV-PARK-MAINE-USDA:166-172	N	Program rule values
+RME-028	$25,000,000	Vertical Harvest Maine B&I guarantee	research	I77a	Rep. Pingree press release 28 Mar 2024	CS-R-RV-PARK-MAINE-USDA:175	N	Single loan (I66)
+RME-029	$11.9M; $5.9M; $6M	Maine Plywood guarantees	research	none	Mainebiz (date not stated)	CS-R-RV-PARK-MAINE-USDA:176	N	Single loan (I66); undated; different program
+RME-030	$500,000	Eastern Maine Development Corp RMAP loan	research	none	USDA RD release (date not stated)	CS-R-RV-PARK-MAINE-USDA:177	N	Single loan; undated
+RME-031	80.46 acres; $695,000; $8,638 per acre; 803 ft	Subject listing	research	none	Homes.com	CS-R-RV-PARK-MAINE-USDA:30-36	N	Subject listing figures (I64)
+RME-032	7.86 ac; $295,000; 5.74 ac; $169,000	Adjacent listings	research	none	Homes.com	CS-R-RV-PARK-MAINE-USDA:37	N	Single listings (I64)
+RME-033	28 sites; 52 acres; 2,000 gpd	Anchor In Campground proposal	research	I77a	Bangor Daily News 3 Jun 2026; Ellsworth American 1 Jul 2026	CS-R-RV-PARK-MAINE-USDA:114-118	N	Single project (I64)
+RME-034	39 households	Alton Avenue petition	research	none	Ellsworth American	CS-R-RV-PARK-MAINE-USDA:110	N	Not a market figure
+RME-035	200 sites; 531; 144; 50; 55; 41st season	Competitor sizes and seasons	research	none	Operator sites	CS-R-RV-PARK-MAINE-USDA:74-106	N	Single named facilities (I64)
+RME-036	$68; $1,500; $4,100; $70; $40-45; $30; $100; $73; $82	Competitor posted rates	research	none	Operator sites (checked 15 Oct 2026); Campendium; Good Sam	CS-R-RV-PARK-MAINE-USDA:77-101	N	Single facilities; fetch-dated (I69) or undated
+RME-037	432; 94%; 2.7; 4.7	Competitor reviews	research	none	Facebook; Yelp	CS-R-RV-PARK-MAINE-USDA:78-97	N	Undated review figures
+RME-038	$33.98; $2,600	Trenton personal property tax on Timberland	research	I77a	Trenton 2026 PP Commitment Book	CS-R-RV-PARK-MAINE-USDA:79	N	Single taxpayer account (I64)
+RME-039	NOT FOUND	Median household income, AADT, flood zone, B&I lenders, zoning	research	none	NOT FOUND	CS-R-RV-PARK-MAINE-USDA:35-62	N	NOT FOUND rows
+RME-040	56,526	pep_pop_2023 all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.pep_pop_2023.all	Y	Register series (geo, series) pair
+RME-041	$72,744	acs5_median_hh_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.acs5_median_hh_income.all	Y	Register series (geo, series) pair
+RME-042	$310,400	acs5_median_home_value all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.acs5_median_home_value.all	N	Value also on /states/maine/ (yields under A4; strict reading excludes)
+RME-043	$44,241	acs5_per_capita_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.acs5_per_capita_income.all	Y	Register series (geo, series) pair
+RME-044	25,572	acs5_households all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.acs5_households.all	Y	Register series (geo, series) pair
+RME-045	13	cbp_estab rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.cbp_estab.rv-park-and-campground	Y	Register series (geo, series) pair
+RME-046	3	sba7a_loans rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.sba7a_loans.rv-park-and-campground	Y	Register series (geo, series) pair
+RME-047	$5,150,000	sba7a_volume rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.sba7a_volume.rv-park-and-campground	N	Value held only by legacy case page(s) being rebuilt: /case-studies/glamping-utah-usda/
+RME-048	2	sba504_loans rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.sba504_loans.rv-park-and-campground	Y	Register series (geo, series) pair
+RME-049	$3,784,000	sba504_volume rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maine/bar-harbor.json:series.sba504_volume.rv-park-and-campground	Y	Register series (geo, series) pair
+#SUMMARY rv-park-maine-usda counted=19 research=11 register=8 verdict=FOLD engine=N notes=short even with A4 (22 counted, 13 research); competitor data single-property; compiler-site Census rows borderline

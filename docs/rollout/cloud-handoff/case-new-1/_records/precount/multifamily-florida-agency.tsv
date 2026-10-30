@@ -1,0 +1,90 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+F01	62,313	Winter Haven population, V2025	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L51	Y	
+F02	23.9%	Winter Haven population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L52	Y	
+F03	20.7%	Polk County population change	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L52	Y	
+F04	3.1%	US population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L52	N	already printed on /case-studies/assisted-living-texas-hud/
+F05	50,288	Winter Haven April 2020 base population	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L52	Y	
+F06	874,790	Polk County population, V2025	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L51	N	already printed on /states/florida/
+F07	23,462,518	Florida population	research	none	Wikipedia Demographics of Florida	WinterHaven:L51	N	secondary, undated
+F08	20,396	Winter Haven households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L53	Y	
+F09	2.67	Persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L54	Y	
+F10	$59,648	Median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L55	Y	
+F11	$30,632	Per capita income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L56	Y	
+F12	40.1	Median age Winter Haven, ACS 2024 5-yr	research	I77c	Census Reporter (ACS)	WinterHaven:L57	Y	secondary republisher of ACS
+F13	42.6	Median age Florida, ACS 2024 5-yr	research	I77c	Census Reporter (ACS)	WinterHaven:L57	N	already printed on /case-studies/gas-station-florida-sba/
+F14	39.5	Median age Lakeland-Winter Haven MSA, ACS 2024 5-yr	research	I77c	Census Reporter (ACS)	WinterHaven:L57	N	already printed on /case-studies/gas-station-florida-sba/
+F15	63.7%	Owner-occupied rate, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L58	Y	
+F16	$1,246	Median gross rent, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L59	Y	
+F17	$269,800	Median owner-occupied value, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L60	Y	
+F18	16.4%	Persons in poverty	research	none	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L61	N	"QuickFacts current", undated
+F19	57.1%	Civilian labor force participation, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L62	Y	
+F20	28.4 minutes	Mean commute, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L63	Y	
+F21	$956.2M	Health care receipts, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L64	Y	
+F22	$1,366.4M	Retail sales, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Winter Haven	WinterHaven:L64	Y	
+F23	10,000	Projected housing units over next decade	research	I77a	WFLA 7 Jul 2025 citing city report	WinterHaven:L65	Y	published projection
+F24	25,000	Projected added residents over next decade	research	I77a	WFLA 7 Jul 2025 citing city report	WinterHaven:L65	Y	published projection
+F25	460	Briarcrest units	research	I77a	Commercial Observer 10 Jul 2025	WinterHaven:L78	Y	
+F26	238	The Jade units	research	I77a	Business Observer 27 Feb 2026	WinterHaven:L81	Y	
+F27	105	The Breeze units	research	none	BLDUP	WinterHaven:L80	N	undated
+F28	264	The Waverly units	research	none	Tellus Partners developer site	WinterHaven:L82	N	undated, single-property attribute
+F29	1,000	Carlton Arms units	research	none	Apartments.com	WinterHaven:L83	N	undated aggregator
+F30	561	Carlton at Lake Dexter units	research	none	Apartments.com	WinterHaven:L84	N	undated aggregator
+F31	2,630	Identified competitor units	research	none	Research file	WinterHaven:L69	N	research file's own summary count
+F32	$997	Briarcrest 1BR from	research	none	Homes.com	WinterHaven:L78	N	undated 2026 aggregator
+F33	$1,138	Carlton Arms 1BR from	research	none	Carlton Arms operator site	WinterHaven:L83	N	date is our fetch (15 Oct 2026)
+F34	19.0232	Combined millage, district 92410, 2025	research	I77c	Polk County Property Appraiser	WinterHaven:L136	Y	
+F35	18.6979	Combined millage, district 90410, 2025	research	I77c	Polk County Property Appraiser	WinterHaven:L136	Y	
+F36	168	Spring Lake units under construction	research	I77a	GrowthSpotter 16 Mar 2026	WinterHaven:L95	Y	
+F37	94	The Jade remaining units	research	I77a	Business Observer 27 Feb 2026	WinterHaven:L96	Y	
+F38	903	Haven Realty PUD apartments allowed	research	I77a	Winter Haven Planning Commission packet 11 Jul 2023	WinterHaven:L97	Y	stale but dated
+F39	688,204	Haven Realty PUD commercial sf allowed	research	I77a	Winter Haven Planning Commission packet 11 Jul 2023	WinterHaven:L97	Y	
+F40	46.21 acres	O-25-37 rezoning area	research	I77a	City of Winter Haven agenda 24 Nov 2025	WinterHaven:L98	N	link to the subject parcel unconfirmed
+F41	262	Sun Haven single-family homes	research	I77a	GrowthSpotter 28 May 2025	WinterHaven:L99	Y	
+F42	468	Winter Haven Hospital beds	research	none	PracticeLink	WinterHaven:L108	N	undated profile
+F43	10,318	Polk State College enrollment, fall 2024	research	none	U.S. News profile	WinterHaven:L113	N	undated profile page
+F44	14,515	Polk State College students, 2025	research	none	FloridaShines	WinterHaven:L113	N	undated page
+F45	34,100	SR 544 AADT, 2024	research	I77a	FDOT District 1 Technical Scope Dec 2024	WinterHaven:L41	Y	
+F46	10.0%	SR 544 truck share, 2024	research	I77a	FDOT District 1 Technical Scope Dec 2024	WinterHaven:L41	Y	
+F47	28,000	US-17 AADT station 165148, 2018	research	I77c	FDOT SR 544 Intersection Safety Study (FDOT count year 2018)	WinterHaven:L40	Y	2018 count, stale but dated
+F48	24,500	US-17 AADT station 165149, 2018	research	I77c	FDOT SR 544 Intersection Safety Study (FDOT count year 2018)	WinterHaven:L40	Y	2018 count, stale but dated
+F49	$480.36	Variance fee, multifamily	research	I77c	City of Winter Haven 2025-2026 Planning and Zoning Fee Schedule	WinterHaven:L126	Y	
+F50	$3,671.25	Water connection fee per ERU inside city	research	I77a	City of Winter Haven Utility Connection Fees, eff. 1 Jan 2025	WinterHaven:L127	Y	
+F51	$4,587.00	Water connection fee per ERU outside city	research	I77a	City of Winter Haven Utility Connection Fees, eff. 1 Jan 2025	WinterHaven:L127	Y	
+F52	$8,175.00	Sewer connection fee per ERU inside city	research	I77a	City of Winter Haven Utility Connection Fees, eff. 1 Jan 2025	WinterHaven:L128	Y	
+F53	$10,217.50	Sewer connection fee per ERU outside city	research	I77a	City of Winter Haven Utility Connection Fees, eff. 1 Jan 2025	WinterHaven:L128	Y	
+F54	$4,196.50	Prior sewer connection fee	research	I77a	City of Winter Haven / Winter Haven Daily 16 Sep 2024	WinterHaven:L128	Y	
+F55	2.5%	Miscellaneous charge escalator each 1 Oct	research	I77c	City of Winter Haven Miscellaneous Charges FY2026-2027	WinterHaven:L129	Y	
+F56	$11,846.25	Water plus sewer ERU per unit	research	none	Research file	WinterHaven:L120	N	researcher arithmetic
+F57	$2,114.03	City impact fee, new homes, before	research	I77a	WFLA 7 Jul 2025	WinterHaven:L131	Y	
+F58	$5,503	City impact fee, new homes, from Oct 2025	research	I77a	WFLA 7 Jul 2025	WinterHaven:L131	Y	
+F59	6.5900	City millage FY2025-26 and FY2026-27	research	I77a	Daily Ridge 12 Sep 2025; CitizenPortal 29 Sep 2026	WinterHaven:L133	Y	
+F60	6.5567	City rollback millage FY2026-27	research	I77a	CitizenPortal 29 Sep 2026	WinterHaven:L133	Y	
+F61	6.6348	Polk County millage FY2025-26	research	I77a	Polk County Government news release 17 Jul 2025	WinterHaven:L134	N	already printed on /case-studies/gas-station-florida-sba/
+F62	5.29	Polk school millage 2025-26	research	I77a	CitizenPortal, Polk School Board 9 Sep 2025	WinterHaven:L135	N	already printed on /case-studies/gas-station-florida-sba/
+F63	1.0 mill	School referendum on Nov 2026 ballot	research	I77a	WFLA via Yahoo 18 Nov 2025	WinterHaven:L137	Y	
+F64	$88 billion	FHFA 2026 cap per Enterprise	research	I77a	FHFA 24 Nov 2025	WinterHaven:L151	N	national and already on other served pages
+F65	$176 billion	FHFA 2026 combined cap	research	I77a	FHFA 24 Nov 2025	WinterHaven:L151	N	national and already on other served pages
+F66	$73 billion	FHFA 2025 cap	research	I77a	NAHB Nov 2025	WinterHaven:L152	N	national and already on other served pages
+F67	20.5%	2026 cap increase	research	I77a	NAHB Nov 2025	WinterHaven:L152	N	national and already on other served pages
+F68	$2 billion	GSE LIHTC investment cap	research	I77a	Multi-Housing News 25 Nov 2025	WinterHaven:L153	N	national, not case-specific
+F69	$48.3 million	Briarcrest Freddie Mac loan	research	I77a	Commercial Observer 10 Jul 2025	WinterHaven:L154	Y	comparable loan, not the subject
+F70	70%	Briarcrest loan LTV	research	I77a	Commercial Observer 10 Jul 2025	WinterHaven:L154	Y	
+F71	35-year	Briarcrest amortization	research	I77a	Commercial Observer 10 Jul 2025	WinterHaven:L154	Y	
+F72	$107.3 million	Berkadia portfolio refinance	research	I77a	Commercial Observer 10 Jul 2025	WinterHaven:L154	Y	
+F73	944	Portfolio units	research	I77a	Commercial Observer 10 Jul 2025	WinterHaven:L154	Y	
+F74	$30 million	The Jade Bridgeinvest loan	research	I77a	Business Observer 27 Feb 2026	WinterHaven:L155	Y	
+F75	6.23%	Indicative Freddie Mac rate (low end)	research	none	Apartment Loan Store broker page	WinterHaven:L158	N	broker quote, not a program document
+F76	9.8 acres	Subject acreage	research	none	Innova (Stellar MLS)	WinterHaven:L28	N	subject listing figure
+F77	$980,000	Subject asking price	research	none	Innova (Stellar MLS)	WinterHaven:L29	N	subject listing figure
+F78	$35.01	Subject last listed taxes, 2021	research	none	Innova (Stellar MLS)	WinterHaven:L38	N	subject listing figure
+R01	1,363	Median gross rent, Lakeland-Winter Haven market (ACS 2020-2024)	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.florida/lakeland	Y	
+R02	85,480	Renter-occupied units, Lakeland-Winter Haven market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.florida/lakeland	Y	
+R03	65,978	Median household income, Lakeland-Winter Haven market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.florida/lakeland	Y	
+R04	266,500	Median home value, Lakeland-Winter Haven market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.florida/lakeland	Y	
+R05	4.83%	Unemployment rate, Lakeland-Winter Haven market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.florida/lakeland	Y	
+R06	46,274	Per capita personal income, Lakeland-Winter Haven market, 2024	register	I77c	U.S. Bureau of Economic Analysis	data/markets/series/bea_per_capita_income.json values.florida/lakeland	Y	
+R07	1,669	Median gross rent, Florida	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.fl	Y	
+R08	2,834,163	Renter-occupied units, Florida	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.fl	Y	
+R09	74,568	Median household income, Florida	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.fl	Y	
+R10	359,000	Median home value, Florida	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.fl	Y	
+#SUMMARY multifamily-florida-agency counted=59 research=49 register=10 verdict=PAGE engine=Y notes=agency program so engine; FHFA caps national and excluded; four values already on other served pages

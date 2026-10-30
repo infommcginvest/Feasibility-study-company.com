@@ -1,0 +1,32 @@
+restaurant-acquisition-broussard-louisiana-sba (CASE-NEW-1)
+
+Determination (engine): as proposed, 10.0% equity, $1,032,390 debt, historical DSCR 1.18x against the 1.25x floor: FAILS. As restructured, 14.9% equity ($170,693), $974,898 debt, $127,866 debt service, 1.25x: MEETS. Projected coverage on the restructured loan 1.16x (Y1), 1.30x (Y3), 1.48x (Y5); break-even cushion 4.1% (Y3). Two-year average of the illustrative history (166,000) would give 1.23x as proposed, so the request fails on either basis.
+
+Body words 5,516. Counted figures 37 (research 27, register 10). Overlap max 8.53% (gas-station-alabama-sba). Gate 8: 340 tokens, 0 hits. Dashes 0, banned names 0. Lender conditions 22. Pagecheck PROBLEM lines: none (the earlier 40.8% overlap with urgent-care-elizabethtown was against another writer's stub in the shared workbench and went away on rerun).
+
+Subject: hypothetical independent full-service Cajun/seafood restaurant bought with its building. Round placeholders: price $1,000,000, real estate allocation $620,000, about 4,500 sq ft, 1.5 acres, 110 seats. None of the listing's figures are used (asking price, cash flow, multiple, the 1115 Terrace Hwy substitute, its acreage and size). dnu.tsv copied from the old draft folder plus: BizBuySell, CityFeet, LoopingCloud, Showcase, Benchmark Business Brokers, BizQuest, Ouachita, Cajun Table, Established Louisiana Restaurant, Shade Tree Cafe. No listing site is cited.
+
+NOT FOUND items turned into lender conditions: subject zoning, flood, utilities, current DOTD AADT, radius demographics/median age/daytime employment, competitor seats/SF/opening years, assessor parcel data, planning agendas and permits, seasonality and visitor counts, approval timelines/impact fees/construction cost, ward millage and assessment ratio, alcohol and health license fees, insurance, local change-of-ownership 7(a) examples, USDA/HUBZone/OZ status, Walk-On's and Fezzo's confirmation.
+
+Research figures dropped or kept uncounted, and why:
+- Undated or fetch-dated numbers not printed (I69/I86/I106): all competitor menu prices (Prejean's $15.99, LT's $20.75 etc.; menus are described only as a lower lunch tier and higher dinner tier), Louisiana median asking price for restaurants, Tripadvisor/Yelp review counts and ranks, broker-cited traffic (5,800 and 34,300 VPD), the 88.29 and 105.20 parish millage (tax-year label on an undated page), the city-reported population 17,148, Parish Brewing 22,500 SF, the 17.89 sq mi city area, zip-codes.com metro population.
+- Subject-listing and substitute-property figures: never used.
+- GoSBALoans and Nautix Louisiana/Lafayette SBA volumes: not used (aggregator, unreconciled internal conflict, mismatch risk); the SBA register series la.sba7a_loans/chgoff_rate.restaurant are used instead.
+- Funder Intel (13 Oct 2026) has no URL in the research source list, so the 1.25x quote is not cited; the floor comes from the sba: markers.
+- Yelp-only fact (Broussard's on Heritage Pkwy closed) dropped: Yelp is a banned source.
+- Printed but not counted by pagecheck because another served page holds the value: 17.5%, 0.9%, 28.4%, 9.7%, 22.7%, 18.8%, 83.3%, $60,756, sales tax rates, $1.45 million, 12,000 SF, state 5.00%, 4.45%, 5.5%, 3.6 mills, 1.93%/2.71%.
+- Register: ten pairs (ACS parish and metro, CBP restaurants, SBA 7(a) restaurants for Louisiana); the pre-count's ACS-only set was swapped for restaurant-specific series. Several register values collided with other pages and drop out of the count (co-22055 cbp_estab 626 and others).
+
+Sourcing notes the owner should know:
+- Source 4 (DOTD key=34991): the research row gives one URL for both the 21 Feb 2024 release ($136.52M, completion by spring 2026) and a 20 Mar 2026 announcement (northbound traffic shifted 5 Mar 2026). The source entry says so in its date field. If the 2026 announcement has its own URL, split it.
+- Source 13 is the Sylvia McLain blog summarizing The Advocate (the research's only URL for the $1.45M permit); the publisher field says so.
+- Source 6 (Develop Broussard, Prejean's) carries no publication date in the research; the date field states the opening date it reports (January 30, 2023).
+- Nash's website (nashsrestaurant.com) confirmed by WebFetch 29 Oct 2026. Walk-On's: the chain locator's Louisiana list does not name Broussard (no row). Fezzo's: 403 on both URLs tried (no row). Prejean's: 403 on fetch, but the research gave its URL, so the row stands on the research's date of 15 Oct 2026.
+- Tripadvisor "The 10 Best Restaurants in Broussard" (Sep 2026) is cited only to name Walk-On's and Fezzo's, with no ranks or review counts.
+- SBA program rules all go through sba: markers; secondary law-firm rules (citizenship rule effective 1 Mar 2026, FY2025 acquisition lending $8.29B and 1.93%/2.71% defaults) are cited as secondhand. The page does not state the 7(a) Small path conflict from the research; sba.json says that path does not apply to changes of ownership.
+- Restaurants are not on SBA's special purpose list (sba.json note), so special_purpose is false in the model and the projection exception is stated as unavailable.
+
+Engine limitations: none hit. The sensitivity grid goes negative at the -20% guests corner because staffing is fixed to hours; the page says so.
+Acquisition-model note: the seller history is two illustrative inputs (FY2024 172,000; FY2025 160,000) each tied in its assumption text to Year 1 economics (about 55,400 and 54,600 guests at Year 1 prices and costs).
+
+Links used: /asset-classes/restaurant/ (served), /states/louisiana/, /practice-areas/sba-7a-504/, /case-studies/gas-station-alabama-sba/, two research notes, /#contact. No Lafayette metro page exists, so none is linked.

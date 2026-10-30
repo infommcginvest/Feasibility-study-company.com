@@ -1,0 +1,441 @@
+{
+ "state": "COLORADO",
+ "markets": [
+  {
+   "slug": "denver",
+   "name": "Denver",
+   "section": "Denver (Denver-Aurora-Centennial metro, Denver city and county)",
+   "counties": [
+    "Denver",
+    "Arapahoe",
+    "Jefferson",
+    "Adams",
+    "Douglas"
+   ],
+   "verdict": "page",
+   "free_ids": [
+    "MT-COLORADO line 13",
+    "MT-COLORADO line 17",
+    "MT-COLORADO line 18",
+    "MT-COLORADO line 19",
+    "MT-COLORADO line 20",
+    "MT-COLORADO line 21",
+    "MT-COLORADO line 22",
+    "MT-COLORADO line 23",
+    "MT-COLORADO line 24",
+    "MT-COLORADO line 25",
+    "MT-COLORADO line 26",
+    "MT-COLORADO line 27",
+    "MT-COLORADO line 28",
+    "MT-COLORADO line 29",
+    "MT-COLORADO line 33",
+    "MT-COLORADO line 34",
+    "MT-COLORADO line 37",
+    "MT-COLORADO line 40",
+    "MT-COLORADO line 42",
+    "MT-COLORADO line 43",
+    "MT-COLORADO line 44",
+    "MT-COLORADO line 47",
+    "MT-COLORADO line 49",
+    "MT-COLORADO line 57",
+    "MT-COLORADO line 60",
+    "MT-COLORADO line 62",
+    "MT-COLORADO line 64",
+    "MT-COLORADO line 66",
+    "MT-COLORADO line 67",
+    "MT-COLORADO line 68",
+    "MT-COLORADO line 70",
+    "MT-COLORADO line 71",
+    "MT-COLORADO line 72",
+    "MT-COLORADO line 73",
+    "MT-COLORADO line 74",
+    "MT-COLORADO line 75",
+    "MT-COLORADO line 76",
+    "MT-COLORADO line 78",
+    "MT-COLORADO line 80"
+   ]
+  },
+  {
+   "slug": "colorado-springs",
+   "name": "Colorado Springs",
+   "section": "Colorado Springs (El Paso County)",
+   "counties": [
+    "El Paso"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 89",
+    "MT-COLORADO line 91",
+    "MT-COLORADO line 92",
+    "MT-COLORADO line 93",
+    "MT-COLORADO line 94",
+    "MT-COLORADO line 95",
+    "MT-COLORADO line 96",
+    "MT-COLORADO line 99",
+    "MT-COLORADO line 100",
+    "MT-COLORADO line 101",
+    "MT-COLORADO line 103",
+    "MT-COLORADO line 106",
+    "MT-COLORADO line 107",
+    "MT-COLORADO line 109",
+    "MT-COLORADO line 111",
+    "MT-COLORADO line 112",
+    "MT-COLORADO line 117"
+   ]
+  },
+  {
+   "slug": "fort-collins",
+   "name": "Fort Collins and Northern Colorado",
+   "section": "Fort Collins-Loveland (Larimer County) and Northern Colorado",
+   "counties": [
+    "Larimer"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 126",
+    "MT-COLORADO line 129",
+    "MT-COLORADO line 130",
+    "MT-COLORADO line 131",
+    "MT-COLORADO line 132",
+    "MT-COLORADO line 133",
+    "MT-COLORADO line 136",
+    "MT-COLORADO line 138",
+    "MT-COLORADO line 141",
+    "MT-COLORADO line 142",
+    "MT-COLORADO line 143"
+   ]
+  },
+  {
+   "slug": "boulder",
+   "name": "Boulder",
+   "section": "Boulder (Boulder County)",
+   "counties": [
+    "Boulder"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 152",
+    "MT-COLORADO line 154",
+    "MT-COLORADO line 155",
+    "MT-COLORADO line 156",
+    "MT-COLORADO line 158",
+    "MT-COLORADO line 159",
+    "MT-COLORADO line 166"
+   ]
+  },
+  {
+   "slug": "greeley",
+   "name": "Greeley",
+   "section": "Greeley (Weld County)",
+   "counties": [
+    "Weld"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 175",
+    "MT-COLORADO line 178",
+    "MT-COLORADO line 179",
+    "MT-COLORADO line 180",
+    "MT-COLORADO line 181",
+    "MT-COLORADO line 182",
+    "MT-COLORADO line 183",
+    "MT-COLORADO line 186"
+   ]
+  },
+  {
+   "slug": "pueblo",
+   "name": "Pueblo",
+   "section": "Pueblo (Pueblo County)",
+   "counties": [
+    "Pueblo"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 195",
+    "MT-COLORADO line 197",
+    "MT-COLORADO line 198",
+    "MT-COLORADO line 199",
+    "MT-COLORADO line 201",
+    "MT-COLORADO line 203"
+   ]
+  },
+  {
+   "slug": "grand-junction",
+   "name": "Grand Junction",
+   "section": "Grand Junction (Mesa County)",
+   "counties": [
+    "Mesa"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 212",
+    "MT-COLORADO line 214",
+    "MT-COLORADO line 215",
+    "MT-COLORADO line 216",
+    "MT-COLORADO line 219",
+    "MT-COLORADO line 220"
+   ]
+  },
+  {
+   "slug": "mountain-resort-counties",
+   "name": "Mountain resort counties",
+   "section": "Mountain resort counties (Summit, Eagle, Pitkin, Routt)",
+   "counties": [
+    "Summit",
+    "Eagle",
+    "Pitkin",
+    "Routt"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-COLORADO line 228",
+    "MT-COLORADO line 230",
+    "MT-COLORADO line 231",
+    "MT-COLORADO line 232",
+    "MT-COLORADO line 233",
+    "MT-COLORADO line 235",
+    "MT-COLORADO line 236",
+    "MT-COLORADO line 237"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-COLORADO line 11",
+  "ST-COLORADO line 13",
+  "ST-COLORADO line 14",
+  "ST-COLORADO line 15",
+  "ST-COLORADO line 16",
+  "ST-COLORADO line 28",
+  "ST-COLORADO line 29",
+  "ST-COLORADO line 30",
+  "ST-COLORADO line 31",
+  "ST-COLORADO line 32",
+  "ST-COLORADO line 34",
+  "ST-COLORADO line 36",
+  "ST-COLORADO line 45",
+  "ST-COLORADO line 46",
+  "ST-COLORADO line 54",
+  "ST-COLORADO line 55",
+  "ST-COLORADO line 57",
+  "ST-COLORADO line 67",
+  "ST-COLORADO line 122",
+  "ST-COLORADO line 150",
+  "ST-COLORADO line 151",
+  "ST-COLORADO line 152",
+  "ST-COLORADO line 154",
+  "ST-COLORADO line 155",
+  "ST-COLORADO line 164",
+  "ST-COLORADO line 165"
+ ],
+ "register_pairs": [
+  {
+   "geo": "co",
+   "series": "acs5_median_hh_income",
+   "value": "$95,470"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_per_capita_income",
+   "value": "$52,636"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_median_home_value",
+   "value": "$539,400"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_households",
+   "value": "2,374,218"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_renter_occupied",
+   "value": "802,483"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_owner_occupied",
+   "value": "1,571,735"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_pop65",
+   "value": "914,002"
+  },
+  {
+   "geo": "co",
+   "series": "acs5_labor_force",
+   "value": "3,235,476"
+  },
+  {
+   "geo": "co",
+   "series": "acs1_median_hh_income",
+   "value": "$97,113"
+  },
+  {
+   "geo": "co",
+   "series": "acs1_median_gross_rent",
+   "value": "$1,822"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_median_hh_income",
+   "value": "$105,762"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_per_capita_income",
+   "value": "$57,998"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_median_gross_rent",
+   "value": "$1,874"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_median_home_value",
+   "value": "$603,800"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_households",
+   "value": "1,221,636"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_renter_occupied",
+   "value": "439,123"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_owner_occupied",
+   "value": "782,513"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_pop65",
+   "value": "425,711"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs5_labor_force",
+   "value": "1,752,195"
+  },
+  {
+   "geo": "cbsa-19740",
+   "series": "acs1_median_hh_income",
+   "value": "$108,046"
+  }
+ ],
+ "borderline_ids": [
+  "MT-COLORADO line 126",
+  "MT-COLORADO line 13",
+  "MT-COLORADO line 152",
+  "MT-COLORADO line 175",
+  "MT-COLORADO line 178",
+  "MT-COLORADO line 195",
+  "MT-COLORADO line 212",
+  "MT-COLORADO line 89",
+  "ST-COLORADO line 28",
+  "ST-COLORADO line 29",
+  "ST-COLORADO line 30"
+ ],
+ "secondary_ids": [
+  "ST-COLORADO line 11",
+  "ST-COLORADO line 13",
+  "ST-COLORADO line 14",
+  "ST-COLORADO line 15",
+  "ST-COLORADO line 16",
+  "ST-COLORADO line 34",
+  "ST-COLORADO line 36",
+  "ST-COLORADO line 45",
+  "ST-COLORADO line 46",
+  "ST-COLORADO line 54",
+  "ST-COLORADO line 55",
+  "ST-COLORADO line 57",
+  "ST-COLORADO line 67",
+  "ST-COLORADO line 150",
+  "ST-COLORADO line 151",
+  "ST-COLORADO line 152",
+  "ST-COLORADO line 154",
+  "ST-COLORADO line 155",
+  "ST-COLORADO line 164",
+  "ST-COLORADO line 165",
+  "MT-COLORADO line 28",
+  "MT-COLORADO line 29",
+  "MT-COLORADO line 33",
+  "MT-COLORADO line 34",
+  "MT-COLORADO line 80",
+  "MT-COLORADO line 94",
+  "MT-COLORADO line 95",
+  "MT-COLORADO line 96",
+  "MT-COLORADO line 117",
+  "MT-COLORADO line 132",
+  "MT-COLORADO line 133",
+  "MT-COLORADO line 143",
+  "MT-COLORADO line 158",
+  "MT-COLORADO line 159",
+  "MT-COLORADO line 166",
+  "MT-COLORADO line 182",
+  "MT-COLORADO line 183",
+  "MT-COLORADO line 186",
+  "MT-COLORADO line 201",
+  "MT-COLORADO line 203",
+  "MT-COLORADO line 219",
+  "MT-COLORADO line 220",
+  "MT-COLORADO line 236",
+  "MT-COLORADO line 237"
+ ],
+ "dropped": [
+  {
+   "id": "ST-COLORADO line 17",
+   "why": "same fact as ST line 11 (Census Vintage 2025 population, same period; a rescaled repeat, I82)"
+  },
+  {
+   "id": "ST-COLORADO line 37",
+   "why": "rule value (statutory state minimum wage)"
+  },
+  {
+   "id": "ST-COLORADO line 126",
+   "why": "one project (the Front Range wildfire mitigation grant), I64"
+  },
+  {
+   "id": "ST-COLORADO line 137",
+   "why": "one firm's own loan count (Colorado Enterprise Fund), I64 firm reading; bare number not read by pagecheck"
+  },
+  {
+   "id": "ST-COLORADO line 139",
+   "why": "one firm's own average loan (Colorado Enterprise Fund), I64 firm reading"
+  },
+  {
+   "id": "ST-COLORADO line 127",
+   "why": "news relay (KUNC) that names no original publisher for the damage estimate (brief item 3)"
+  },
+  {
+   "id": "ST-COLORADO line 156",
+   "why": "relay whose own note says the source is not named on the page (brief item 3)"
+  },
+  {
+   "id": "MT-COLORADO line 243",
+   "why": "rule value (proposed income limits as a percent of AMI, a petition under review)"
+  },
+  {
+   "id": "MT-COLORADO line 200",
+   "why": "taken as 226 units by /case-studies/meat-processing-texas-usda/ (value read with the unit the row context gives, as in the Montana pre-count)"
+  },
+  {
+   "id": "MT-COLORADO line 217",
+   "why": "taken as 810 units by /states/oregon/ (value read with the unit the row context gives, as in the Montana pre-count)"
+  },
+  {
+   "id": "MT-COLORADO line 238",
+   "why": "taken as 218 units by /asset-classes/quick-service-restaurant/burger/ (value read with the unit the row context gives, as in the Montana pre-count)"
+  },
+  {
+   "id": "MT-COLORADO line 239",
+   "why": "taken as 36 units by three served pages (value read with the unit the row context gives, as in the Montana pre-count)"
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "vdol": {
+  "publisher": "Vermont Department of Labor",
+  "title": "Latest Employment Report (September 2026 Report)",
+  "date": "October 20, 2026 (September 2026, with September 2025 for comparison; seasonally adjusted)",
+  "url": "https://labor.vermont.gov/economic-data/employment-report"
+ },
+ "vdol_feb": {
+  "publisher": "Vermont Department of Labor",
+  "title": "Vermont's Unemployment Rate Declined to 2.6 Percent in February",
+  "date": "April 22, 2026 (February 2025 to February 2026)",
+  "url": "https://labor.vermont.gov/press-release/vermonts-unemployment-rate-declined-26-percent-february"
+ },
+ "bls_metro_t1": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Table 1. Civilian labor force and unemployment by state and metropolitan area",
+  "date": "Released October 28, 2026 (September 2025, August 2026 and September 2026; not seasonally adjusted; 2026 values preliminary)",
+  "url": "https://www.bls.gov/news.release/metro.t01.htm"
+ },
+ "bls_t3": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Table 3. Employees on nonfarm payrolls by state and selected industry sector, seasonally adjusted - 2026 M09 Results",
+  "date": "Last modified October 20, 2026 (September 2025 and August 2026 columns)",
+  "url": "https://www.bls.gov/news.release/laus.t03.htm"
+ },
+ "bls_vt_eag": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Vermont Economy at a Glance",
+  "date": "September 2026 industry employment (preliminary); June to September 2025 business employment dynamics; May 2025 occupational wages",
+  "url": "https://www.bls.gov/regions/new-england/vermont.htm"
+ },
+ "bls_btv_eag": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Burlington-South Burlington, VT Economy at a Glance",
+  "date": "September 2026 (preliminary; not seasonally adjusted)",
+  "url": "https://www.bls.gov/regions/new-england/vt_burlington_msa.htm"
+ },
+ "bls_qcew": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "County Employment and Wages in Vermont, First Quarter 2026",
+  "date": "September 4, 2026 (first quarter 2026; employment as of March 2026; data preliminary)",
+  "url": "https://www.bls.gov/regions/new-england/news-release/countyemploymentandwages_vermont.htm"
+ },
+ "vbm_lfpr": {
+  "publisher": "Vermont Business Magazine (relay of the Vermont Department of Labor; secondary)",
+  "title": "Vermont's unemployment rate again holds at 2.6% in September",
+  "date": "October 20, 2026 (September 2026)",
+  "url": "https://vermontbiz.com/news/2026/october/20/vermonts-unemployment-rate-again-holds-26-september"
+ },
+ "fred_gdp": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the U.S. Bureau of Economic Analysis; secondary)",
+  "title": "Gross Domestic Product: All Industry Total in Vermont",
+  "date": "Last updated September 30, 2026 (calendar year 2025, current dollars)",
+  "url": "https://fred.stlouisfed.org/data/VTNGSP"
+ },
+ "fred_hpi_vt": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the Federal Housing Finance Agency; secondary)",
+  "title": "All-Transactions House Price Index for Vermont",
+  "date": "Last updated August 25, 2026 (second quarter of 2026; 1980:Q1=100)",
+  "url": "https://fred.stlouisfed.org/data/VTSTHPI"
+ },
+ "vbm_veda_fy25": {
+  "publisher": "Vermont Business Magazine (relay of the Vermont Economic Development Authority; secondary)",
+  "title": "In FY25 VEDA closed 173 loans totaling $61.5 million",
+  "date": "October 31, 2025 (fiscal year 2025)",
+  "url": "https://vermontbiz.com/node/240368"
+ },
+ "gov_ssbci": {
+  "publisher": "Office of the Governor of Vermont",
+  "title": "Governor Phil Scott Announces $57.9 Million Investment",
+  "date": "July 18, 2022",
+  "url": "https://governor.vermont.gov/press-release/governor-phil-scott-announces-579-million-investment-creating-unprecedented-level"
+ },
+ "veda_q3": {
+  "publisher": "Vermont Economic Development Authority",
+  "title": "VEDA Spurs Economic Development with $13.8 Million in Investments",
+  "date": "April 1, 2026 (January to March 2026, the third quarter of VEDA's fiscal 2026)",
+  "url": "https://www.veda.org/newsevents/veda-spurs-economic-development-with-13.8-million-in-investments"
+ },
+ "veda_housing": {
+  "publisher": "Vermont Economic Development Authority",
+  "title": "VEDA Can Lend to Commercial Housing Projects Starting July 1",
+  "date": "June 19, 2026 (authority effective July 1, 2026)",
+  "url": "https://www.veda.org/newsevents/veda-can-lend-to-commercial-housing-projects-starting-july-1"
+ },
+ "veda_drlf": {
+  "publisher": "Vermont Economic Development Authority",
+  "title": "Disaster Recovery Loan Fund Opens",
+  "date": "August 28, 2025",
+  "url": "https://www.veda.org/newsevents/disaster-recovery-loan-fund-opens"
+ },
+ "treasurer_30m": {
+  "publisher": "Vermont State Treasurer's Office",
+  "title": "Treasurer Pieciak, Local Leaders Unveil $30 million in New Housing Investments to Build and Revitalize Homes Across Vermont",
+  "date": "February 2, 2026",
+  "url": "https://www.vermonttreasurer.gov/press-releases/treasurer-pieciak-local-leaders-unveil-30-million-new-housing-investments-build-and"
+ },
+ "sba_shutdown": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SBA Releases State-Level Analysis of Shutdown Impact on Small Business Lending",
+  "date": "October 21, 2025 (estimate per week of the October 2025 shutdown)",
+  "url": "https://legacy.sba.gov/article/2025/10/21/sba-releases-state-level-analysis-shutdown-impact-small-business-lending"
+ },
+ "accd_cdbgdr": {
+  "publisher": "Vermont Agency of Commerce and Community Development",
+  "title": "November 2025 CDBG-DR Approved Funding",
+  "date": "November 2025 (month from the page title)",
+  "url": "https://accd.vermont.gov/community-development/funding-incentives/Disaster-Recovery/CDBG-DR-board/CDBG-DR-awards-Nov-2025"
+ },
+ "vbm_cdbgdr_final": {
+  "publisher": "Vermont Business Magazine (relay of the Governor's announcement; secondary)",
+  "title": "Governor Scott announces final CDBG-DR flood recovery award",
+  "date": "October 15, 2026",
+  "url": "https://vermontbiz.com/news/2026/october/15/governor-scott-announces-final-cdbg-dr-flood-recovery-award"
+ },
+ "vbm_flood_year": {
+  "publisher": "Vermont Business Magazine (relay of the state's one-year report; secondary)",
+  "title": "One Year Later, Vermont makes progress recovering from severe flooding",
+  "date": "July 11, 2024 (assistance approved to that date)",
+  "url": "https://vermontbiz.com/node/231181"
+ },
+ "fema_4720": {
+  "publisher": "Federal Emergency Management Agency",
+  "title": "DR-4720-VT Public Notice 001 Major Disaster Declaration",
+  "date": "August 31, 2023 (declared July 14, 2023; incident July 7 to 17, 2023)",
+  "url": "https://www.fema.gov/disaster-federal-register-notice/public-notice-major-disaster-declaration-fema-4720-dr-vt"
+ },
+ "fema_4810": {
+  "publisher": "Federal Emergency Management Agency",
+  "title": "Public Notice, Major Disaster Declaration FEMA-4810-DR-VT",
+  "date": "October 30, 2024 (declared August 20, 2024; incident July 9 to 11, 2024)",
+  "url": "https://www.fema.gov/disaster-federal-register-notice/public-notice-major-disaster-declaration-fema-4810-dr-vt"
+ },
+ "vbm_gas": {
+  "publisher": "Vermont Business Magazine (relay of GasBuddy; secondary)",
+  "title": "Vermont average gas price falls 4 cents to $4.34",
+  "date": "October 26, 2026 (prices of that day)",
+  "url": "https://vermontbiz.com/news/2026/october/26/vermont-average-gas-price-falls-4-cents-434"
+ },
+ "vbm_tourism": {
+  "publisher": "Vermont Business Magazine (relay of the Vermont Department of Tourism and Marketing and its Tourism Economics study; secondary)",
+  "title": "Vermont welcomes 16 million visitors as tourism powers $4.2 billion economy",
+  "date": "December 11, 2025 (calendar year 2024)",
+  "url": "https://vermontbiz.com/node/240793"
+ },
+ "vbm_ski": {
+  "publisher": "Vermont Business Magazine (relay of Ski Vermont; secondary)",
+  "title": "Ski Vermont reports strongest skier visits since 2014-15",
+  "date": "June 4, 2026 (2025 to 2026 season)",
+  "url": "https://vermontbiz.com/node/243794"
+ },
+ "vbm_opening": {
+  "publisher": "Vermont Business Magazine (relay of Vail Resorts; secondary)",
+  "title": "Stowe, Okemo, and Mount Snow target Opening Day November 21",
+  "date": "October 26, 2026 (2026 to 2027 season)",
+  "url": "https://vermontbiz.com/news/2026/october/26/stowe-okemo-and-mount-snow-target-opening-day-november-21"
+ },
+ "ctpublic": {
+  "publisher": "Connecticut Public Radio (VTDigger and Vermont Public reporting; secondary)",
+  "title": "Even with more Vermont homes on the market, prices are still rising",
+  "date": "September 11, 2025 (2024 sales)",
+  "url": "https://www.ctpublic.org/2025-09-11/even-with-more-vermont-homes-on-the-market-prices-are-still-rising"
+ },
+ "bfp_yahoo": {
+  "publisher": "Burlington Free Press via Yahoo News (relay of Realtor.com; secondary)",
+  "title": "Chittenden County home listings asked for less money in July - see the current median price here",
+  "date": "August 22, 2025 (July 2025)",
+  "url": "https://www.yahoo.com/news/articles/chittenden-county-home-listings-asked-201923165.html"
+ },
+ "vbm_rev_sep": {
+  "publisher": "Vermont Business Magazine (relay of the Agency of Administration's monthly revenue release; secondary)",
+  "title": "Personal income tax leads state revenue surge in September",
+  "date": "October 19, 2026 (September 2026)",
+  "url": "https://vermontbiz.com/news/2026/october/19/personal-income-tax-leads-state-revenue-surge-september"
+ },
+ "vbm_rev_fy25": {
+  "publisher": "Vermont Business Magazine (relay of the Agency of Administration; secondary)",
+  "title": "State tax revenues lag in June, but General Fund has strong year",
+  "date": "August 5, 2025 (fiscal year 2025)",
+  "url": "https://vermontbiz.com/node/239537"
+ },
+ "nass_2025": {
+  "publisher": "USDA National Agricultural Statistics Service",
+  "title": "2025 State Agriculture Overview, Vermont",
+  "date": "2025 edition (2025 milk production)",
+  "url": "https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=Vermont&year=2025"
+ },
+ "nass_2026": {
+  "publisher": "USDA National Agricultural Statistics Service",
+  "title": "USDA/NASS 2026 State Agriculture Overview for Vermont",
+  "date": "2026 edition (dated by the edition year in its title)",
+  "url": "https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=Vermont&year=2026"
+ },
+ "vtd_stowe_cap": {
+  "publisher": "VTDigger (secondary)",
+  "title": "After years of debate, Stowe caps short-term rentals",
+  "date": "August 1, 2026 (town data and the selectboard vote of July 2026)",
+  "url": "https://vtdigger.org/2026/08/01/after-years-of-debate-stowe-caps-short-term-rentals/"
+ },
+ "vtd_stowe_reg": {
+  "publisher": "VTDigger (reporting the Stowe Reporter; secondary)",
+  "title": "Stowe resorts lobby for short-term rental cap carveouts",
+  "date": "January 16, 2026 (registration count from a September letter to the town manager, as reported)",
+  "url": "https://vtdigger.org/2026/01/16/stowe-resorts-lobby-for-short-term-rental-cap-carveouts/"
+ },
+ "vbm_lurb": {
+  "publisher": "Vermont Business Magazine (relay of the Land Use Review Board's FAQ of April 10, 2026; secondary)",
+  "title": "LURB: Act 181 Frequently Asked Questions",
+  "date": "April 13, 2026",
+  "url": "https://vermontbiz.com/node/242883"
+ },
+ "vbm_transit": {
+  "publisher": "Vermont Business Magazine (relay of the Land Use Review Board; secondary)",
+  "title": "Land Use Review Board transit area map expands exemption areas",
+  "date": "October 16, 2026",
+  "url": "https://vermontbiz.com/news/2026/october/16/land-use-review-board-transit-area-map-expands-exemption-areas"
+ },
+ "vbm_onlogic": {
+  "publisher": "Vermont Business Magazine (secondary)",
+  "title": "OMRON to acquire Vermont's OnLogic for $675 million",
+  "date": "October 13, 2026 (agreement signed October 10, 2026)",
+  "url": "https://vermontbiz.com/news/2026/october/13/omron-acquire-vermonts-onlogic-675-million"
+ },
+ "fred_gdp_btv": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the U.S. Bureau of Economic Analysis; secondary)",
+  "title": "Total Gross Domestic Product for Burlington-South Burlington, VT (MSA) (DISCONTINUED)",
+  "date": "Last updated December 4, 2024 (calendar year 2023, the last observation)",
+  "url": "https://fred.stlouisfed.org/data/NGMP15540"
+ },
+ "fred_hpi_btv": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the Federal Housing Finance Agency; secondary)",
+  "title": "All-Transactions House Price Index for Burlington-South Burlington, VT (MSA)",
+  "date": "Last updated August 25, 2026 (second quarter of 2026; 1995:Q1=100)",
+  "url": "https://fred.stlouisfed.org/data/ATNHPIUS15540Q"
+ },
+ "fred_hpi_chit": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the Federal Housing Finance Agency; secondary)",
+  "title": "All-Transactions House Price Index for Chittenden County, VT",
+  "date": "Last updated March 31, 2026 (annual 2025; 2000=100)",
+  "url": "https://fred.stlouisfed.org/data/ATNHPIUS50007A"
+ },
+ "fred_list_chit": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of Realtor.com; secondary)",
+  "title": "Housing Inventory: Median Listing Price in Chittenden County, VT",
+  "date": "Last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/data/MEDLISPRI50007"
+ },
+ "fred_permits_chit": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the U.S. Census Bureau's Building Permits Survey; secondary)",
+  "title": "New Private Housing Structures Authorized by Building Permits for Chittenden County, VT",
+  "date": "Last updated May 28, 2026 (calendar year 2025)",
+  "url": "https://fred.stlouisfed.org/data/BPPRIV050007"
+ },
+ "fred_hpi_rut": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the Federal Housing Finance Agency; secondary)",
+  "title": "All-Transactions House Price Index for Rutland County, VT",
+  "date": "Last updated March 31, 2026 (annual 2025; 2000=100)",
+  "url": "https://fred.stlouisfed.org/data/ATNHPIUS50021A"
+ },
+ "fred_list_rut": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of Realtor.com; secondary)",
+  "title": "Housing Inventory: Median Listing Price in Rutland County, VT",
+  "date": "Last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/data/MEDLISPRI50021"
+ },
+ "fred_hpi_wash": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the Federal Housing Finance Agency; secondary)",
+  "title": "All-Transactions House Price Index for Washington County, VT",
+  "date": "Last updated March 31, 2026 (annual 2025; 2000=100)",
+  "url": "https://fred.stlouisfed.org/data/ATNHPIUS50023A"
+ },
+ "fred_list_wash": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of Realtor.com; secondary)",
+  "title": "Housing Inventory: Median Listing Price in Washington County, VT",
+  "date": "Last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/data/MEDLISPRI50023"
+ },
+ "fred_list_wind": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of Realtor.com; secondary)",
+  "title": "Housing Inventory: Median Listing Price in Windsor County, VT",
+  "date": "Last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/data/MEDLISPRI50027"
+ },
+ "fred_hpi_windham": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (relay of the Federal Housing Finance Agency; secondary)",
+  "title": "All-Transactions House Price Index for Windham County, VT",
+  "date": "Last updated March 31, 2026 (annual 2025; 2000=100)",
+  "url": "https://fred.stlouisfed.org/data/ATNHPIUS50025A"
+ },
+ "acs1": {
+  "publisher": "U.S. Census Bureau",
+  "title": "American Community Survey 1-Year Estimates, Detailed Tables (Census Data API)",
+  "date": "2024 one-year estimates; retrieved October 16, 2026",
+  "url": "https://api.census.gov/data/2024/acs/acs1"
+ },
+ "bea_cainc1": {
+  "publisher": "U.S. Bureau of Economic Analysis",
+  "title": "Personal Income by County, Metro, and Other Areas (Regional table CAINC1)",
+  "date": "calendar year 2024; retrieved October 16, 2026",
+  "url": "https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas"
+ },
+ "sba_foia": {
+  "publisher": "U.S. Small Business Administration, Office of Capital Access",
+  "title": "7(a) and 504 FOIA loan-level data",
+  "date": "loan status as of June 30, 2026 (approval fiscal years 2021 to 2025); retrieved October 16, 2026",
+  "url": "https://data.sba.gov/dataset/7a-504-foia"
+ },
+ "sba_sop": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+  "date": "effective October 1, 2026",
+  "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+ },
+ "ecfr": {
+  "publisher": "eCFR",
+  "title": "13 CFR 120.160, Loan conditions",
+  "date": "current to October 7, 2026",
+  "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+ }
+}

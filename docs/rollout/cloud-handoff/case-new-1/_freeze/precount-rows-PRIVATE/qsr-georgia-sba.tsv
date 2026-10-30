@@ -1,0 +1,103 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+R001	25,699	Perry population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:51	Y	
+R002	20,586	Perry April 2020 population base	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:52	Y	
+R003	24.8%	Perry population change 2020-2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:53	Y	
+R004	11,302,748	Georgia population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:51	N	on served page case-studies/gas-station-georgia-sba
+R005	10,713,861	Georgia April 2020 population base	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:52	Y	
+R006	5.5%	Georgia population change 2020-2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:53	N	on served page case-studies/gas-station-georgia-sba
+R007	9,051	Perry households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:54	Y	
+R008	4,074,366	Georgia households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:54	Y	
+R009	2.44	Perry persons per household	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:55	Y	
+R010	2.62	Georgia persons per household	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:55	Y	
+R011	$76,909	Perry median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:56	Y	
+R012	$77,353	Georgia median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:56	Y	
+R013	$36,748	Perry per capita income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:57	Y	
+R014	$40,924	Georgia per capita income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:57	Y	
+R015	23.7%	Perry persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:58	Y	
+R016	22.2%	Georgia persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:58	Y	
+R017	14.4%	Perry persons 65 and over, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:58	Y	
+R018	16.7%	Georgia persons 65 and over, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-GEORGIA-SBA:58	Y	
+R019	2,400	Perry veterans	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:60	Y	
+R020	601,304	Georgia veterans	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:60	Y	
+R021	22.2	Perry mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:61	Y	same digits as the Georgia under-18 share but a different measure
+R022	28.3	Georgia mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-GEORGIA-SBA:61	Y	
+R023	4,405,730	Georgia total employment, CBP 2023	research	I77c	U.S. Census Bureau, County Business Patterns 2023 via QuickFacts	CS-R-QSR-GEORGIA-SBA:62	Y	
+R024	$86,979,000	Perry accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-GEORGIA-SBA:63	Y	
+R025	$36,524,926,000	Georgia accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-GEORGIA-SBA:63	Y	
+R026	$23,190	Perry retail sales per capita, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-GEORGIA-SBA:64	Y	
+R027	$19,869	Georgia retail sales per capita, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-GEORGIA-SBA:64	Y	
+R028	612,706	Georgia National Fair attendance 2025	research	I77a	13WMAZ / Georgia Farm Bureau 22 Oct 2025	CS-R-QSR-GEORGIA-SBA:118	Y	
+R029	545,382	Georgia National Fair attendance 2024	research	I77a	13WMAZ 2025 attendance article	CS-R-QSR-GEORGIA-SBA:119	Y	dated by the 2025 article that reports it
+R030	565,533	Georgia National Fair attendance 2019	research	I77a	13WMAZ 2025 attendance article	CS-R-QSR-GEORGIA-SBA:119	Y	dated by the 2025 article that reports it
+R031	$4.48 billion	Robins AFB economic impact FY2025	research	I77a	Houston Home Journal / 41NBC, State of the Base 23 Apr 2026	CS-R-QSR-GEORGIA-SBA:122	Y	
+R032	$2.89 billion	Robins AFB payroll FY2025	research	I77a	Houston Home Journal, State of the Base 23 Apr 2026	CS-R-QSR-GEORGIA-SBA:122	Y	
+R033	8.06%	Robins AFB impact increase FY2025	research	I77a	Houston Home Journal, State of the Base 23 Apr 2026	CS-R-QSR-GEORGIA-SBA:122	Y	
+R034	33%	Robins AFB expenditures increase FY2024 to FY2025	research	I77a	Houston Home Journal, State of the Base 23 Apr 2026	CS-R-QSR-GEORGIA-SBA:122	Y	
+R035	$120 million	Robins AFB construction increase	research	I77a	Houston Home Journal, State of the Base 23 Apr 2026	CS-R-QSR-GEORGIA-SBA:122	Y	
+R036	21,000	Robins AFB workforce FY2025 (over)	research	I77a	Houston Home Journal, State of the Base 23 Apr 2026	CS-R-QSR-GEORGIA-SBA:123	Y	
+R037	13,400	Perry Parkway vehicles per day (GDOT 2023 as cited)	research	I77a	The Summit Group listing modified 2026-06-11	CS-R-QSR-GEORGIA-SBA:40	Y	secondary: broker cites GDOT 2023; station IDs not found
+R038	10,600	US 41 vehicles per day (GDOT 2023 as cited)	research	I77a	The Summit Group listing modified 2026-06-11	CS-R-QSR-GEORGIA-SBA:40	Y	secondary: broker cites GDOT 2023
+R039	67,900	I-75 vehicles per day (GDOT 2023 as cited)	research	I77a	The Summit Group listing modified 2026-06-11	CS-R-QSR-GEORGIA-SBA:41	Y	secondary: broker cites GDOT 2023
+R040	8.45	Houston County M&O millage tax year 2025 (mills)	research	I77a	Houston County BOC notice of property tax increase 2025; HHJ 27 Aug 2025	CS-R-QSR-GEORGIA-SBA:149	Y	
+R041	8.501	Houston County M&O prior millage (mills)	research	I77a	Houston County BOC notice 2025	CS-R-QSR-GEORGIA-SBA:149	Y	
+R042	7.60	Houston County M&O rollback rate (mills)	research	I77a	Houston County BOC notice 2025	CS-R-QSR-GEORGIA-SBA:149	Y	
+R043	1.677	Houston County fire millage 2025 (mills)	research	I77a	Houston County BOC notice 2025	CS-R-QSR-GEORGIA-SBA:150	Y	applicability inside Perry city limits not found
+R044	1.177	Houston County fire millage prior (mills)	research	I77a	Houston County BOC notice 2025	CS-R-QSR-GEORGIA-SBA:150	Y	
+R045	11.719	Houston County school millage 2025 (mills)	research	I77a	Houston Home Journal 26 Aug 2025	CS-R-QSR-GEORGIA-SBA:151	Y	
+R046	11,400	US 41 at Perimeter Rd vehicles per day	research	none	The Summit Group (second listing)	CS-R-QSR-GEORGIA-SBA:43	N	second listing has no date in research
+R047	7,460	Perimeter Rd vehicles per day	research	none	The Summit Group (second listing)	CS-R-QSR-GEORGIA-SBA:43	N	second listing has no date in research
+R048	13.9%	Perry persons in poverty	research	none	U.S. Census Bureau, QuickFacts	CS-R-QSR-GEORGIA-SBA:59	N	research dates it only "Latest QuickFacts" (I86)
+R049	12.6%	Georgia persons in poverty	research	none	U.S. Census Bureau, QuickFacts	CS-R-QSR-GEORGIA-SBA:59	N	research dates it only "Latest QuickFacts" (I86)
+R050	$35 million	Fair 2024 economic impact	research	none	13WMAZ 2024 article	CS-R-QSR-GEORGIA-SBA:120	N	article undated in research
+R051	75,331	Fair peak day Oct 11, 2024	research	none	13WMAZ 2024 article	CS-R-QSR-GEORGIA-SBA:120	N	article undated in research
+R052	$1.73 billion	Robins AFB civilian and military payroll	research	none	Robins AFB fact sheet	CS-R-QSR-GEORGIA-SBA:123	N	fact sheet undated; conflicts with $2.89 billion
+R053	22,000	Robins AFB workforce per fact sheet	research	none	Robins AFB fact sheet	CS-R-QSR-GEORGIA-SBA:123	N	fact sheet undated
+R054	12.697	City of Perry millage 2025 (mills)	research	none	41NBC	CS-R-QSR-GEORGIA-SBA:152	N	article date not in research
+R055	12.508	City of Perry proposed millage 2026 (mills)	research	none	41NBC	CS-R-QSR-GEORGIA-SBA:152	N	article date not in research; proposal
+R056	32.866	Combined millage	research	none	derived	CS-R-QSR-GEORGIA-SBA:153	N	derived by the researcher
+R057	16,770	Georgia 7(a) loans over ten years	research	none	F&M Bank of Lake	CS-R-QSR-GEORGIA-SBA:169	N	undated secondary page
+R058	84,400	FY2025 national 7(a) and 504 loans	research	none	Select Commercial	CS-R-QSR-GEORGIA-SBA:174	N	broker page unverified against SBA, undated
+R059	$3,620	Site plan review fee, 1-3 acres	research	I77a	City of Perry Fee Schedule, Resol. 2025-60, 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:138	N	municipal fee schedule value, an administrative charge not a market figure
+R060	$363	Site plan review per additional acre	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:138	N	fee schedule value
+R061	$13,080	Site plan review maximum	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:138	N	fee schedule value
+R062	$345	Commercial plan review under 5,000 SF	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:139	N	fee schedule value
+R063	$103	Commercial structure permit per inspection	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:140	N	fee schedule value
+R064	$840	Fire Marshal life safety review	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:141	N	fee schedule value
+R065	$751	Hood system review	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:141	N	fee schedule value
+R066	$910	Suppression/sprinkler review	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:141	N	fee schedule value
+R067	$590	Fire alarm review	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:141	N	fee schedule value
+R068	$1,300	Water meter 3/4 inch	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:142	N	fee schedule value
+R069	$1,600	Water meter 1 inch	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:142	N	fee schedule value
+R070	$2,700	Water meter 1.5 inch	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:142	N	fee schedule value
+R071	$3,100	Water meter 2 inch	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:142	N	fee schedule value
+R072	$170	Non-residential sewer tap inspection	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:143	N	fee schedule value
+R073	$355	Commercial gas connection	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:144	N	fee schedule value
+R074	$69	Curb cut permit	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:145	N	fee schedule value
+R075	$305	Occupational tax base (10-99 employees)	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:147	N	fee schedule value
+R076	$325	Special exception fee	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:148	N	fee schedule value
+R077	$330	Variance fee	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:148	N	fee schedule value
+R078	$670	Malt or wine licence per year	research	I77a	City of Perry Fee Schedule 21 Oct 2025	CS-R-QSR-GEORGIA-SBA:157	N	fee schedule value
+R079	118,337	Kroger Marketplace square feet	research	none	Macon Telegraph via AOL	CS-R-QSR-GEORGIA-SBA:107	N	one named project size (I64)
+R080	[subject figure withheld]	Subject asking price	research	I77a	LoopNet 40886004	CS-R-QSR-GEORGIA-SBA:29	N	subject listing figure
+R081	[subject figure withheld]	Subject acres	research	I77a	The Summit Group	CS-R-QSR-GEORGIA-SBA:28	N	subject attribute (I64)
+R082	$450,000	Alternative QSR pad asking price	research	none	The Summit Group	CS-R-QSR-GEORGIA-SBA:43	N	single listing (I64)
+R083	$2,890,000	1406 Sam Nunn Blvd listing price	research	none	Realmo	CS-R-QSR-GEORGIA-SBA:81	N	single listing
+R084	$925,000	Krystal value estimate	research	none	Realmo	CS-R-QSR-GEORGIA-SBA:78	N	single property
+R085	$447,120	Chick-fil-A parcel assessment	research	none	LoopNet 2018 land listing	CS-R-QSR-GEORGIA-SBA:72	N	single property, assessment year not stated
+R086	15	Jack in the Box restaurants in franchise agreement	research	none	Macon Telegraph	CS-R-QSR-GEORGIA-SBA:19	N	one operator plan; article date not in research
+R087	$50,000	SOP 50 10 8 collateral threshold	research	I77a	CRS IN12549	CS-R-QSR-GEORGIA-SBA:170	N	program rule
+R088	$350,000	7(a) small-loan ceiling	research	I77a	CRS IN12549	CS-R-QSR-GEORGIA-SBA:170	N	program rule
+R089	1.25x	Change-of-ownership DSCR under SOP 50 10 8.1	research	I77a	PilieroMazza	CS-R-QSR-GEORGIA-SBA:172	N	program rule
+R090	1.10:1	7(a) small-loan DSCR floor	research	none	a source the pattern list forbids naming	CS-R-QSR-GEORGIA-SBA:173	N	cited to a forbidden-pattern publisher; program rule
+R091	40%	Georgia assessment ratio	research	none	research subagent summary	CS-R-QSR-GEORGIA-SBA:154	N	rule value, no document
+G01	$80,698	Houston County median household income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_hh_income.json key co-13153.acs5_median_hh_income	Y	
+G02	5.1%	Houston County unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key co-13153.acs5_unemployment_rate	Y	
+G03	$52,696	Houston County per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key co-13153.bea_per_capita_income	Y	
+G04	$1,208	Houston County median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key co-13153.acs5_median_gross_rent	Y	
+G05	211	Houston County limited-service restaurant establishments, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key co-13153.cbp_estab.quick-service-restaurant	Y	
+G06	4,206	Houston County limited-service restaurant employees, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_emp.json key co-13153.cbp_emp.quick-service-restaurant	Y	
+G07	11,857	Georgia limited-service restaurant establishments, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key ga.cbp_estab.quick-service-restaurant	Y	
+G08	979	Georgia 7(a) loans to limited-service restaurants FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_loans.json key ga.sba7a_loans.quick-service-restaurant (window fy2016_2025)	Y	
+G09	6.0%	Georgia 7(a) QSR charge-off rate by count, FY2011-FY2020 cohorts	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_chgoff_rate.json key ga.sba7a_chgoff_rate.quick-service-restaurant	Y	
+G10	$506.4 million	Georgia 7(a) QSR approval volume FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_volume.json key ga.sba7a_volume.quick-service-restaurant (window fy2016_2025)	Y	
+#SUMMARY qsr-georgia-sba counted=53 research=43 register=10 verdict=PAGE engine=N notes=Census, fair, Robins AFB, broker-cited GDOT, millage carry it; city fees excluded; GA pair on gas-station case

@@ -1,0 +1,276 @@
+{
+ "state": "ALASKA",
+ "markets": [
+  {
+   "slug": "anchorage",
+   "name": "Anchorage",
+   "section": "Anchorage (Municipality of Anchorage)",
+   "counties": [
+    "co-02020"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 12",
+    "MT-ALASKA line 15",
+    "MT-ALASKA line 17",
+    "MT-ALASKA line 19",
+    "MT-ALASKA line 21",
+    "MT-ALASKA line 22",
+    "MT-ALASKA line 23",
+    "MT-ALASKA line 24",
+    "MT-ALASKA line 25",
+    "MT-ALASKA line 26",
+    "MT-ALASKA line 40",
+    "MT-ALASKA line 43",
+    "MT-ALASKA line 45",
+    "MT-ALASKA line 49",
+    "MT-ALASKA line 50"
+   ]
+  },
+  {
+   "slug": "mat-su",
+   "name": "Matanuska-Susitna (Mat-Su)",
+   "section": "Matanuska-Susitna Borough (Wasilla and Palmer)",
+   "counties": [
+    "co-02170"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 64",
+    "MT-ALASKA line 66",
+    "MT-ALASKA line 67",
+    "MT-ALASKA line 68",
+    "MT-ALASKA line 74"
+   ]
+  },
+  {
+   "slug": "fairbanks",
+   "name": "Fairbanks",
+   "section": "Fairbanks North Star Borough",
+   "counties": [
+    "co-02090"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 85",
+    "MT-ALASKA line 87",
+    "MT-ALASKA line 91",
+    "MT-ALASKA line 92",
+    "MT-ALASKA line 94"
+   ]
+  },
+  {
+   "slug": "juneau",
+   "name": "Juneau",
+   "section": "Juneau (City and Borough)",
+   "counties": [
+    "co-02110"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 112",
+    "MT-ALASKA line 113",
+    "MT-ALASKA line 114",
+    "MT-ALASKA line 115",
+    "MT-ALASKA line 119",
+    "MT-ALASKA line 120"
+   ]
+  },
+  {
+   "slug": "kenai-peninsula",
+   "name": "Kenai Peninsula",
+   "section": "Kenai Peninsula Borough",
+   "counties": [
+    "co-02122"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 131",
+    "MT-ALASKA line 134",
+    "MT-ALASKA line 135"
+   ]
+  },
+  {
+   "slug": "ketchikan",
+   "name": "Ketchikan",
+   "section": "Ketchikan Gateway Borough",
+   "counties": [
+    "co-02130"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 150"
+   ]
+  },
+  {
+   "slug": "kodiak",
+   "name": "Kodiak",
+   "section": "Kodiak Island Borough",
+   "counties": [
+    "co-02150"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-ALASKA line 162"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-ALASKA line 11",
+  "ST-ALASKA line 12",
+  "ST-ALASKA line 13",
+  "ST-ALASKA line 14",
+  "ST-ALASKA line 16",
+  "ST-ALASKA line 19",
+  "ST-ALASKA line 21",
+  "ST-ALASKA line 42",
+  "ST-ALASKA line 43",
+  "ST-ALASKA line 45",
+  "ST-ALASKA line 46",
+  "ST-ALASKA line 47",
+  "ST-ALASKA line 48",
+  "ST-ALASKA line 49",
+  "ST-ALASKA line 50",
+  "ST-ALASKA line 61",
+  "ST-ALASKA line 62",
+  "ST-ALASKA line 63",
+  "ST-ALASKA line 64",
+  "ST-ALASKA line 72",
+  "ST-ALASKA line 74",
+  "ST-ALASKA line 75",
+  "ST-ALASKA line 76",
+  "ST-ALASKA line 77",
+  "ST-ALASKA line 78",
+  "ST-ALASKA line 79",
+  "ST-ALASKA line 80",
+  "ST-ALASKA line 82",
+  "ST-ALASKA line 83",
+  "ST-ALASKA line 95",
+  "ST-ALASKA line 96",
+  "ST-ALASKA line 149"
+ ],
+ "register_pairs": [
+  {
+   "geo": "ak",
+   "series": "acs5_median_hh_income",
+   "value": "$92,788"
+  },
+  {
+   "geo": "ak",
+   "series": "bea_per_capita_income",
+   "value": "$76,234"
+  },
+  {
+   "geo": "ak",
+   "series": "acs1_median_home_value",
+   "value": "$376,500"
+  },
+  {
+   "geo": "ak",
+   "series": "sba7a_loans",
+   "value": "919"
+  },
+  {
+   "geo": "ak",
+   "series": "sba504_volume",
+   "value": "$104.4 million"
+  },
+  {
+   "geo": "cbsa-11260",
+   "series": "acs5_median_hh_income",
+   "value": "$100,505"
+  },
+  {
+   "geo": "co-02090",
+   "series": "acs5_median_home_value",
+   "value": "$298,200"
+  },
+  {
+   "geo": "co-02110",
+   "series": "acs5_per_capita_income",
+   "value": "$54,089"
+  },
+  {
+   "geo": "cbsa-28540",
+   "series": "acs5_median_gross_rent",
+   "value": "$1,505"
+  },
+  {
+   "geo": "co-02122",
+   "series": "acs5_median_hh_income",
+   "value": "$80,538"
+  }
+ ],
+ "borderline_ids": [
+  "ST-ALASKA line 42",
+  "ST-ALASKA line 43",
+  "ST-ALASKA line 45",
+  "ST-ALASKA line 46",
+  "ST-ALASKA line 47",
+  "MT-ALASKA line 15",
+  "MT-ALASKA line 17",
+  "MT-ALASKA line 19",
+  "MT-ALASKA line 21",
+  "MT-ALASKA line 87",
+  "MT-ALASKA line 28",
+  "MT-ALASKA line 30",
+  "MT-ALASKA line 95",
+  "MT-ALASKA line 116",
+  "MT-ALASKA line 151"
+ ],
+ "secondary_ids": [
+  "ST-ALASKA line 16",
+  "ST-ALASKA line 19",
+  "ST-ALASKA line 21",
+  "ST-ALASKA line 61",
+  "ST-ALASKA line 62",
+  "ST-ALASKA line 63",
+  "ST-ALASKA line 64",
+  "ST-ALASKA line 82",
+  "ST-ALASKA line 149",
+  "MT-ALASKA line 40",
+  "MT-ALASKA line 43",
+  "MT-ALASKA line 45",
+  "MT-ALASKA line 74",
+  "MT-ALASKA line 119",
+  "MT-ALASKA line 120"
+ ],
+ "dropped": [
+  {
+   "id": "ST-ALASKA line 134",
+   "why": "rule value: Disaster Unemployment Assistance weekly benefit range and 27-week cap (a statutory/administrative benefit schedule, not a market figure)"
+  },
+  {
+   "id": "ST-ALASKA line 165",
+   "why": "single project (Alaska LNG cost estimate; the row itself says single-project; I64)"
+  },
+  {
+   "id": "ST-ALASKA line 168",
+   "why": "single project (Alaska LNG investment; the row itself says single-project; I64)"
+  },
+  {
+   "id": "MT-ALASKA line 46",
+   "why": "same series, period and measure as MT 45 (Anchorage air cargo 2025) at a different value; counts once (I82); MT 45 kept because it names the original (AEDC forecast) and a date"
+  },
+  {
+   "id": "MT-ALASKA line 28",
+   "why": "borderline, not counted in the main reading: DOLWD/AHFC rental survey on a live data page, no printed publication date, title carries only the range \"2010 - 2026\", publisher not a recognised periodic release; the page does not print the survey month"
+  },
+  {
+   "id": "MT-ALASKA line 30",
+   "why": "borderline, not counted in the main reading: DOLWD/AHFC rental survey on a live data page, no printed publication date, title carries only the range \"2010 - 2026\", publisher not a recognised periodic release; the page does not print the survey month"
+  },
+  {
+   "id": "MT-ALASKA line 95",
+   "why": "borderline, not counted in the main reading: DOLWD/AHFC rental survey on a live data page, no printed publication date, title carries only the range \"2010 - 2026\", publisher not a recognised periodic release; the page does not print the survey month"
+  },
+  {
+   "id": "MT-ALASKA line 116",
+   "why": "borderline, not counted in the main reading: DOLWD/AHFC rental survey on a live data page, no printed publication date, title carries only the range \"2010 - 2026\", publisher not a recognised periodic release; the page does not print the survey month"
+  },
+  {
+   "id": "MT-ALASKA line 151",
+   "why": "borderline, not counted in the main reading: DOLWD/AHFC rental survey on a live data page, no printed publication date, title carries only the range \"2010 - 2026\", publisher not a recognised periodic release; the page does not print the survey month"
+  }
+ ]
+}

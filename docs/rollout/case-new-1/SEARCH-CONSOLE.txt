@@ -1,0 +1,16 @@
+CASE-NEW-1: URLs to submit in Google Search Console (URL Inspection, Request indexing), 2026-10-29
+
+New pages (7). Live deploy 6ae3104e329ef44e1fa3aa2c; all in the sitemap with lastmod 2026-10-29.
+https://feasibility-study-company.com/case-studies/self-storage-bardstown-kentucky-usda/
+https://feasibility-study-company.com/case-studies/restaurant-acquisition-broussard-louisiana-sba/
+https://feasibility-study-company.com/case-studies/urgent-care-elizabethtown-kentucky-sba/
+https://feasibility-study-company.com/case-studies/grocery-store-ness-city-kansas-usda/
+https://feasibility-study-company.com/case-studies/car-wash-port-charlotte-florida-sba/
+https://feasibility-study-company.com/case-studies/restaurant-sevierville-tennessee-sba/
+https://feasibility-study-company.com/case-studies/medical-office-lebanon-tennessee-sba/
+
+Changed pages worth re-inspecting (link or card changes): the index and the Nashville page carry new text.
+https://feasibility-study-company.com/case-studies/
+https://feasibility-study-company.com/states/tennessee/nashville/
+
+The sitemap (https://feasibility-study-company.com/sitemap.xml, 211 URLs) already lists the seven; IndexNow accepted the submissions (200 OK, 22 URLs for t1 and 33 for t2).

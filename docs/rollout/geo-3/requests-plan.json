@@ -1,0 +1,175 @@
+{
+ "_about": "GEO-3 requests to the integrator (ruling 13), in GEO-3's own format until FACTORY-2 publishes docs/rollout/int/REQUESTS.md. Apply per state when that state's tranche lands. 'folded': add each URL to data/mesh/fallbacks.json 'folded' and set its 'targets' entry to the section. 'promised_new': new metro URLs this lane chose (amendment A5), all folded, for data/site/promised.json if it lists folded slugs. 'pages': metro pages this lane ships, for promised.json and the Markets panel cards in data/site/chrome.json.",
+ "states": {
+  "illinois": {
+   "state_page": "/states/illinois/",
+   "pages": [],
+   "folded": {
+    "/states/illinois/chicago/": "/states/illinois/#chicago",
+    "/states/illinois/peoria/": "/states/illinois/#peoria",
+    "/states/illinois/rockford/": "/states/illinois/#rockford",
+    "/states/illinois/springfield/": "/states/illinois/#springfield",
+    "/states/illinois/champaign-urbana/": "/states/illinois/#champaign-urbana",
+    "/states/illinois/bloomington-normal/": "/states/illinois/#bloomington-normal",
+    "/states/illinois/quad-cities/": "/states/illinois/#quad-cities",
+    "/states/illinois/metro-east/": "/states/illinois/#metro-east"
+   }
+  },
+  "ohio": {
+   "state_page": "/states/ohio/",
+   "pages": [],
+   "folded": {
+    "/states/ohio/columbus/": "/states/ohio/#columbus",
+    "/states/ohio/cleveland/": "/states/ohio/#cleveland",
+    "/states/ohio/cincinnati/": "/states/ohio/#cincinnati",
+    "/states/ohio/dayton/": "/states/ohio/#dayton",
+    "/states/ohio/toledo/": "/states/ohio/#toledo",
+    "/states/ohio/akron/": "/states/ohio/#akron",
+    "/states/ohio/canton/": "/states/ohio/#canton",
+    "/states/ohio/youngstown/": "/states/ohio/#youngstown"
+   },
+   "promised_new": [
+    "/states/ohio/cleveland/",
+    "/states/ohio/cincinnati/",
+    "/states/ohio/dayton/",
+    "/states/ohio/toledo/",
+    "/states/ohio/akron/",
+    "/states/ohio/canton/",
+    "/states/ohio/youngstown/"
+   ]
+  },
+  "michigan": {
+   "state_page": "/states/michigan/",
+   "pages": [
+    "/states/michigan/detroit/"
+   ],
+   "folded": {
+    "/states/michigan/grand-rapids/": "/states/michigan/#grand-rapids",
+    "/states/michigan/ann-arbor/": "/states/michigan/#ann-arbor",
+    "/states/michigan/lansing/": "/states/michigan/#lansing",
+    "/states/michigan/kalamazoo/": "/states/michigan/#kalamazoo",
+    "/states/michigan/flint/": "/states/michigan/#flint",
+    "/states/michigan/traverse-city/": "/states/michigan/#traverse-city",
+    "/states/michigan/upper-peninsula/": "/states/michigan/#upper-peninsula"
+   }
+  },
+  "indiana": {
+   "state_page": "/states/indiana/",
+   "pages": [
+    "/states/indiana/indianapolis/"
+   ],
+   "folded": {
+    "/states/indiana/carmel/": "/states/indiana/indianapolis/#collar",
+    "/states/indiana/fort-wayne/": "/states/indiana/#fort-wayne",
+    "/states/indiana/northwest-indiana/": "/states/indiana/#northwest-indiana",
+    "/states/indiana/elkhart/": "/states/indiana/#elkhart",
+    "/states/indiana/warsaw/": "/states/indiana/#warsaw",
+    "/states/indiana/bloomington/": "/states/indiana/#bloomington",
+    "/states/indiana/kokomo/": "/states/indiana/#kokomo"
+   }
+  },
+  "minnesota": {
+   "state_page": "/states/minnesota/",
+   "pages": [],
+   "folded": {
+    "/states/minnesota/minneapolis-st-paul/": "/states/minnesota/#minneapolis-st-paul",
+    "/states/minnesota/rochester/": "/states/minnesota/#rochester",
+    "/states/minnesota/duluth/": "/states/minnesota/#duluth",
+    "/states/minnesota/brainerd/": "/states/minnesota/#brainerd",
+    "/states/minnesota/rosemount/": "/states/minnesota/#rosemount",
+    "/states/minnesota/st-cloud/": "/states/minnesota/#st-cloud",
+    "/states/minnesota/iron-range/": "/states/minnesota/#iron-range",
+    "/states/minnesota/mankato/": "/states/minnesota/#mankato"
+   }
+  },
+  "missouri": {
+   "state_page": "/states/missouri/",
+   "pages": [],
+   "folded": {
+    "/states/missouri/st-louis/": "/states/missouri/#st-louis",
+    "/states/missouri/branson/": "/states/missouri/#branson",
+    "/states/missouri/columbia/": "/states/missouri/#columbia",
+    "/states/missouri/springfield/": "/states/missouri/#springfield",
+    "/states/missouri/st-joseph/": "/states/missouri/#st-joseph",
+    "/states/missouri/jefferson-city/": "/states/missouri/#jefferson-city",
+    "/states/missouri/kansas-city/": "/states/missouri/#kansas-city"
+   }
+  },
+  "wisconsin": {
+   "state_page": "/states/wisconsin/",
+   "pages": [],
+   "folded": {
+    "/states/wisconsin/milwaukee/": "/states/wisconsin/#milwaukee",
+    "/states/wisconsin/madison/": "/states/wisconsin/#madison",
+    "/states/wisconsin/green-bay/": "/states/wisconsin/#green-bay",
+    "/states/wisconsin/kenosha-racine/": "/states/wisconsin/#kenosha-racine",
+    "/states/wisconsin/eau-claire/": "/states/wisconsin/#eau-claire",
+    "/states/wisconsin/wisconsin-dells/": "/states/wisconsin/#wisconsin-dells",
+    "/states/wisconsin/wausau/": "/states/wisconsin/#wausau"
+   }
+  },
+  "iowa": {
+   "state_page": "/states/iowa/",
+   "pages": [
+    "/states/iowa/des-moines/"
+   ],
+   "folded": {
+    "/states/iowa/cedar-rapids/": "/states/iowa/#cedar-rapids",
+    "/states/iowa/iowa-city/": "/states/iowa/#iowa-city",
+    "/states/iowa/waterloo-cedar-falls/": "/states/iowa/#waterloo-cedar-falls",
+    "/states/iowa/ames/": "/states/iowa/#ames",
+    "/states/iowa/council-bluffs/": "/states/iowa/#council-bluffs",
+    "/states/iowa/quad-cities/": "/states/iowa/#quad-cities",
+    "/states/iowa/sioux-city/": "/states/iowa/#sioux-city"
+   }
+  },
+  "kansas": {
+   "state_page": "/states/kansas/",
+   "pages": [],
+   "folded": {
+    "/states/kansas/wichita/": "/states/kansas/#wichita",
+    "/states/kansas/kansas-city-ks/": "/states/kansas/#kansas-city-ks",
+    "/states/kansas/topeka/": "/states/kansas/#topeka",
+    "/states/kansas/lawrence/": "/states/kansas/#lawrence",
+    "/states/kansas/manhattan/": "/states/kansas/#manhattan",
+    "/states/kansas/salina/": "/states/kansas/#salina",
+    "/states/kansas/garden-city/": "/states/kansas/#garden-city",
+    "/states/kansas/hays/": "/states/kansas/#hays"
+   },
+   "promised_new": [
+    "/states/kansas/wichita/",
+    "/states/kansas/kansas-city-ks/",
+    "/states/kansas/topeka/",
+    "/states/kansas/lawrence/",
+    "/states/kansas/manhattan/",
+    "/states/kansas/salina/",
+    "/states/kansas/garden-city/",
+    "/states/kansas/hays/"
+   ]
+  },
+  "nebraska": {
+   "state_page": "/states/nebraska/",
+   "pages": [],
+   "folded": {
+    "/states/nebraska/omaha/": "/states/nebraska/#omaha",
+    "/states/nebraska/lincoln/": "/states/nebraska/#lincoln",
+    "/states/nebraska/grand-island/": "/states/nebraska/#grand-island",
+    "/states/nebraska/kearney/": "/states/nebraska/#kearney",
+    "/states/nebraska/north-platte/": "/states/nebraska/#north-platte",
+    "/states/nebraska/scottsbluff/": "/states/nebraska/#scottsbluff",
+    "/states/nebraska/norfolk/": "/states/nebraska/#norfolk",
+    "/states/nebraska/columbus/": "/states/nebraska/#columbus"
+   },
+   "promised_new": [
+    "/states/nebraska/omaha/",
+    "/states/nebraska/lincoln/",
+    "/states/nebraska/grand-island/",
+    "/states/nebraska/kearney/",
+    "/states/nebraska/north-platte/",
+    "/states/nebraska/scottsbluff/",
+    "/states/nebraska/norfolk/",
+    "/states/nebraska/columbus/"
+   ]
+  }
+ }
+}

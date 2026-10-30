@@ -1,0 +1,60 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	19,861	Clive population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:55	Y	
+F02	3,238,387	Iowa population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:55	Y	note: also on /states/iowa/ (lower rank, case keeps it, A4)
+F03	6.7%	Clive population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:56	N	repeat: held by /research-notes/sba-default-economics/ (note) and 4 more
+F04	18,620	Clive Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:56	N	repeat: held by a rounded match (rounding rule)
+F05	1.5%	Iowa population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:56	N	repeat: held by /research-notes/effective-rent-vs-asking-rent/ (note) and 12 more
+F06	3,190,582	Iowa Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:56	Y	note: also on /states/iowa/ (lower rank, case keeps it, A4)
+F07	7,053	Clive households, ACS 2020-2024	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:57	Y	
+F08	2.69	Clive persons per household	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:58	N	repeat: held by /case-studies/rv-boat-storage-texas-sba/ (case)
+F09	$132,121	Clive median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:59	Y	
+F10	$59,890	Clive per capita income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:60	Y	
+F11	37.4	Clive median age, ACS 2024 5-year	research	I77c	U.S. Census Bureau ACS 2024 5-year (via Census Reporter)	CS-R-CHILDCARE-IOWA-SBA:61	Y	
+F12	38.6	Iowa median age, ACS 2024 5-year	research	I77c	U.S. Census Bureau ACS 2024 5-year (via Census Reporter)	CS-R-CHILDCARE-IOWA-SBA:61	Y	note: also on /asset-classes/behavioral-health/ (lower rank, case keeps it, A4)
+F13	5.5%	Clive persons under 5, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:62	N	repeat: held by /research-notes/effective-rent-vs-asking-rent/ (note) and 7 more
+F14	27.6%	Clive persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:63	Y	
+F15	67.1%	Clive female civilian labor force participation	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:64	N	repeat: held by /case-studies/car-wash-texas-sba/ (case)
+F16	61.0%	Clive adults 25+ with bachelor's degree or higher	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:65	N	repeat: held by /research-notes/gas-station-demand-per-capita/ (note) and 5 more
+F17	$401,100	Clive median owner-occupied home value	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:66	Y	
+F18	20.7	Clive mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:134	Y	
+F19	$326,489,000	Clive health care and social assistance receipts, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	CS-R-CHILDCARE-IOWA-SBA:135	Y	
+F20	1,496	Iowa licensed child care centers (statewide)	research	I77a	Iowa HHS, Investing in Iowa's Child Care System (deck dated 9 Jan 2024)	CS-R-CHILDCARE-IOWA-SBA:136	Y	note: also on /states/iowa/ (lower rank, case keeps it, A4) and 1 more
+F21	2,034	Iowa licensed child care homes (statewide)	research	I77a	Iowa HHS, Investing in Iowa's Child Care System (deck dated 9 Jan 2024)	CS-R-CHILDCARE-IOWA-SBA:136	Y	note: also on /states/iowa/ (lower rank, case keeps it, A4) and 1 more
+F22	78,000	National FY2025 7(a) loan count	research	I77c	Bankrate citing SBA weekly lending report (FY2025)	CS-R-CHILDCARE-IOWA-SBA:177	N	national program volume, not case-specific (shared by every SBA case)
+F23	$37.2 billion	National FY2025 7(a) dollar volume	research	I77c	Bankrate citing SBA weekly lending report (FY2025)	CS-R-CHILDCARE-IOWA-SBA:177	N	national program volume, not case-specific (shared by every SBA case)
+F24	$45 billion	SBA FY2025 guaranteed 7(a)+504 combined	research	I77b	SBA, 2025 Annual Report	CS-R-CHILDCARE-IOWA-SBA:177	N	national program volume, not case-specific (shared by every SBA case)
+F25	85,000	SBA FY2025 small businesses served, 7(a)+504	research	I77b	SBA, 2025 Annual Report	CS-R-CHILDCARE-IOWA-SBA:177	N	national program volume, not case-specific (shared by every SBA case)
+F26	7.3%	Clive persons in poverty	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:67	N	undated: research period is 'QuickFacts current' (I86)
+F27	21,976	North Liberty population (screened-out candidate)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:20	N	not the case market: candidate town not selected
+F28	6.1%	North Liberty under 5 share	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-CHILDCARE-IOWA-SBA:20	N	not the case market: candidate town not selected
+F29	180	Traditions Children's Center IV licensed capacity	research	none	Iowa HHS Child Care Client Portal	CS-R-CHILDCARE-IOWA-SBA:77	N	single named facility attribute (I64); portal date is a fetch date (I69)
+F30	105	Clive Children's Center II licensed capacity	research	none	Iowa HHS Child Care Client Portal	CS-R-CHILDCARE-IOWA-SBA:87	N	single named facility attribute (I64)
+F31	151	Kids West Crestview licensed capacity	research	none	Iowa HHS Child Care Client Portal	CS-R-CHILDCARE-IOWA-SBA:106	N	single named facility attribute (I64)
+F32	$290	Traditions IV weekly infant rate	research	none	Iowa HHS Child Care Client Portal	CS-R-CHILDCARE-IOWA-SBA:78	N	one facility's posted price, retrieval-dated 'Oct 2026' (I64, I69)
+F33	$249	Clive Children's Center II weekly infant rate	research	none	Iowa HHS Child Care Client Portal	CS-R-CHILDCARE-IOWA-SBA:88	N	one facility's posted price, retrieval-dated (I64, I69)
+F34	$1,160	Traditions monthly infant rate (Care.com)	research	none	Care.com	CS-R-CHILDCARE-IOWA-SBA:79	N	undated aggregator; one facility (I86)
+F35	98%	Cadence Academy Facebook recommend share	research	none	Facebook / Yelp	CS-R-CHILDCARE-IOWA-SBA:100	N	undated review aggregate, one facility (I86)
+F36	$560,000	Subject listing asking price	research	none	LoopNet / CityFeet	CS-R-CHILDCARE-IOWA-SBA:31	N	subject's own listing figure (I64)
+F37	6,655	Subject building size (SF)	research	none	LoopNet	CS-R-CHILDCARE-IOWA-SBA:29	N	subject's own attribute (I64)
+F38	$3,620,000	Ankeny comparable listing price	research	none	LoopNet	CS-R-CHILDCARE-IOWA-SBA:124	N	single listing price (I64), listing undated
+F39	$5,596,129	Waukee New Creations listing price	research	none	LoopNet / CityFeet	CS-R-CHILDCARE-IOWA-SBA:111	N	single listing price (I64), conflicting, undated
+F40	$9.92	Clive city levy per $1,000	research	none	City of Clive	CS-R-CHILDCARE-IOWA-SBA:152	N	tax rate is a rule value; city page not a dated periodic document
+F41	$33.64979	Clive consolidated tax rate per $1,000, FY2025	research	I77b	City of Johnston, FY2026 Preliminary Budget Book	CS-R-CHILDCARE-IOWA-SBA:153	N	tax rate is a rule value (printed nocount if at all)
+F42	47.4316%	Iowa FY2026 residential rollback applied to first $150,000	research	I77a	Johnston FY2026 Budget Book	CS-R-CHILDCARE-IOWA-SBA:155	N	rule value (assessment ratio)
+F43	$150	State license fee, 151+ capacity	research	I77a	Iowa HHS Form 470-4834 rev. 1/19	CS-R-CHILDCARE-IOWA-SBA:157	N	rule value (fee schedule)
+F44	$50,000	SBA collateral threshold	research	I77a	CRS IN12549	CS-R-CHILDCARE-IOWA-SBA:172	N	SBA program rule value
+F45	10%	SBA start-up equity injection minimum	research	I77a	Whiteford Taylor Preston client alert	CS-R-CHILDCARE-IOWA-SBA:173	N	SBA program rule value
+F46	160%	Iowa CCA income limit as share of federal poverty level	research	none	Iowa Capital Dispatch	CS-R-CHILDCARE-IOWA-SBA:182	N	rule value (eligibility threshold)
+F47	1,000	Iowa child care workers covered by CCA pilot ('about a thousand')	research	I77a	Radio Iowa, 9 Apr 2026	CS-R-CHILDCARE-IOWA-SBA:181	N	research gives only 'about a thousand', no published count; approximate wording
+F48	11	Iowa center inspectors	research	I77a	Iowa HHS deck 9 Jan 2024	CS-R-CHILDCARE-IOWA-SBA:136	N	bare small integer, not a detectable figure
+G01	194 establishments	establishments in the asset class NAICS group, iowa/des-moines (week of March 12, 2023)	register	I77c	U.S. Census Bureau, County Business Patterns 2023	data/markets/series/cbp_estab.json values[iowa/des-moines:childcare-and-daycare]	Y	
+G02	3,875 employees	employees in the asset class NAICS group, iowa/des-moines (week of March 12, 2023)	register	I77c	U.S. Census Bureau, County Business Patterns 2023	data/markets/series/cbp_emp.json values[iowa/des-moines:childcare-and-daycare]	Y	
+G03	$262,100	median home value, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_home_value.json values[co-19153]	Y	
+G04	$1,149	median gross rent, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_gross_rent.json values[co-19153]	Y	
+G05	138,309 households	owner-occupied housing units, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_owner_occupied.json values[co-19153]	Y	
+G06	67,049 households	renter-occupied housing units, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_renter_occupied.json values[co-19153]	Y	
+G07	70,275 residents	population aged 65 and over, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_pop65.json values[co-19153]	Y	
+G08	280,850 workers	civilian labor force, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_labor_force.json values[co-19153]	Y	
+G09	12,223 workers	unemployed civilians, Polk County IA (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_unemployed.json values[co-19153]	Y	
+G10	$36.03 billion	personal income, Polk County IA (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_personal_income.json values[co-19153]	Y	
+#SUMMARY childcare-iowa-sba counted=24 research=14 register=10 verdict=FOLD engine=N notes=short 6 research and 6 counted; competitor, rule and program rows excluded; 9 research under strict repeats

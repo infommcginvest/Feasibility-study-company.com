@@ -1,0 +1,581 @@
+{
+ "state": "VERMONT",
+ "markets": [
+  {
+   "slug": "burlington",
+   "name": "Burlington",
+   "section": "Burlington-South Burlington (Chittenden County)",
+   "counties": [
+    "co-50007"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VERMONT line 12",
+    "MT-VERMONT line 13",
+    "MT-VERMONT line 14",
+    "MT-VERMONT line 15",
+    "MT-VERMONT line 16",
+    "MT-VERMONT line 19",
+    "MT-VERMONT line 20",
+    "MT-VERMONT line 21",
+    "MT-VERMONT line 22",
+    "MT-VERMONT line 23",
+    "MT-VERMONT line 27",
+    "MT-VERMONT line 44",
+    "MT-VERMONT line 45",
+    "ST-VERMONT-2 line 77",
+    "ST-VERMONT-2 line 78"
+   ]
+  },
+  {
+   "slug": "rutland",
+   "name": "Rutland",
+   "section": "Rutland",
+   "counties": [
+    "co-50021"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VERMONT line 58",
+    "MT-VERMONT line 59",
+    "ST-VERMONT-2 line 92"
+   ]
+  },
+  {
+   "slug": "barre-montpelier",
+   "name": "Barre-Montpelier",
+   "section": "Barre-Montpelier (Washington County)",
+   "counties": [
+    "co-50023"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VERMONT line 80",
+    "MT-VERMONT line 81",
+    "ST-VERMONT-2 line 103"
+   ]
+  },
+  {
+   "slug": "resort-towns",
+   "name": "Resort towns (Stowe, Killington, Ludlow, Dover)",
+   "section": "Resort towns: Stowe, Killington, Ludlow, Dover",
+   "counties": [
+    "co-50015",
+    "co-50021",
+    "co-50027",
+    "co-50025"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VERMONT line 100",
+    "MT-VERMONT line 101",
+    "MT-VERMONT line 112",
+    "ST-VERMONT-2 line 120",
+    "ST-VERMONT-2 line 121",
+    "ST-VERMONT-2 line 122",
+    "ST-VERMONT-2 line 123"
+   ]
+  },
+  {
+   "slug": "brattleboro",
+   "name": "Brattleboro",
+   "section": "Brattleboro (Windham County)",
+   "counties": [
+    "co-50025"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VERMONT line 126",
+    "ST-VERMONT-2 line 132",
+    "ST-VERMONT-2 line 133"
+   ]
+  },
+  {
+   "slug": "st-albans",
+   "name": "St. Albans",
+   "section": "St. Albans (Franklin County)",
+   "counties": [
+    "co-50011"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "ST-VERMONT-2 line 144",
+    "ST-VERMONT-2 line 145"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-VERMONT line 20",
+  "ST-VERMONT line 21",
+  "ST-VERMONT line 22",
+  "ST-VERMONT line 32",
+  "ST-VERMONT line 33",
+  "ST-VERMONT line 67",
+  "ST-VERMONT line 25",
+  "ST-VERMONT line 27",
+  "ST-VERMONT line 28",
+  "ST-VERMONT line 30",
+  "ST-VERMONT line 34",
+  "ST-VERMONT line 35",
+  "ST-VERMONT line 145",
+  "ST-VERMONT line 37",
+  "ST-VERMONT line 49",
+  "ST-VERMONT line 52",
+  "ST-VERMONT line 64",
+  "ST-VERMONT line 65",
+  "ST-VERMONT line 76",
+  "ST-VERMONT line 100",
+  "ST-VERMONT line 112",
+  "ST-VERMONT line 126",
+  "ST-VERMONT line 129",
+  "ST-VERMONT line 134",
+  "ST-VERMONT line 143",
+  "ST-VERMONT line 144",
+  "ST-VERMONT line 159",
+  "ST-VERMONT line 160",
+  "ST-VERMONT line 162",
+  "ST-VERMONT-2 line 11",
+  "ST-VERMONT-2 line 13",
+  "ST-VERMONT-2 line 14",
+  "ST-VERMONT-2 line 15",
+  "ST-VERMONT-2 line 16",
+  "ST-VERMONT-2 line 17",
+  "ST-VERMONT-2 line 32",
+  "ST-VERMONT-2 line 37",
+  "ST-VERMONT-2 line 55",
+  "ST-VERMONT-2 line 65"
+ ],
+ "register_pairs": [
+  {
+   "geo": "vt",
+   "series": "acs1_median_hh_income",
+   "value": 82730
+  },
+  {
+   "geo": "vt",
+   "series": "acs1_median_gross_rent",
+   "value": 1319
+  },
+  {
+   "geo": "vt",
+   "series": "acs1_per_capita_income",
+   "value": 48856
+  },
+  {
+   "geo": "vt",
+   "series": "acs1_households",
+   "value": 285548
+  },
+  {
+   "geo": "vt",
+   "series": "acs1_owner_occupied",
+   "value": 209117
+  },
+  {
+   "geo": "vt",
+   "series": "acs1_renter_occupied",
+   "value": 76431
+  },
+  {
+   "geo": "vt",
+   "series": "acs1_aggregate_income",
+   "value": 31682535700
+  },
+  {
+   "geo": "vt",
+   "series": "bea_personal_income",
+   "value": 46229260000
+  },
+  {
+   "geo": "vt",
+   "series": "sba7a_volume",
+   "window": "fy2021_2025",
+   "value": 195998200
+  },
+  {
+   "geo": "vt",
+   "series": "sba504_volume",
+   "window": "fy2021_2025",
+   "value": 71444000
+  }
+ ],
+ "borderline_ids": [
+  "MT-VERMONT line 12",
+  "MT-VERMONT line 13",
+  "MT-VERMONT line 16",
+  "ST-VERMONT line 25",
+  "ST-VERMONT line 27",
+  "ST-VERMONT line 28",
+  "ST-VERMONT line 30",
+  "ST-VERMONT line 34",
+  "ST-VERMONT line 35",
+  "ST-VERMONT line 145",
+  "ST-VERMONT-2 line 13",
+  "ST-VERMONT-2 line 14",
+  "ST-VERMONT-2 line 15",
+  "ST-VERMONT-2 line 16",
+  "ST-VERMONT-2 line 65",
+  "ST-VERMONT-2 line 77",
+  "ST-VERMONT-2 line 78"
+ ],
+ "secondary_ids": [
+  "MT-VERMONT line 100",
+  "MT-VERMONT line 101",
+  "MT-VERMONT line 112",
+  "MT-VERMONT line 126",
+  "MT-VERMONT line 19",
+  "MT-VERMONT line 20",
+  "MT-VERMONT line 21",
+  "MT-VERMONT line 22",
+  "MT-VERMONT line 23",
+  "MT-VERMONT line 27",
+  "MT-VERMONT line 44",
+  "MT-VERMONT line 45",
+  "MT-VERMONT line 58",
+  "MT-VERMONT line 59",
+  "MT-VERMONT line 80",
+  "MT-VERMONT line 81",
+  "ST-VERMONT line 100",
+  "ST-VERMONT line 112",
+  "ST-VERMONT line 126",
+  "ST-VERMONT line 129",
+  "ST-VERMONT line 134",
+  "ST-VERMONT line 143",
+  "ST-VERMONT line 144",
+  "ST-VERMONT line 159",
+  "ST-VERMONT line 160",
+  "ST-VERMONT line 162",
+  "ST-VERMONT line 37",
+  "ST-VERMONT line 49",
+  "ST-VERMONT line 52",
+  "ST-VERMONT line 64",
+  "ST-VERMONT line 65",
+  "ST-VERMONT line 76"
+ ],
+ "dropped": [
+  {
+   "id": "ST-VERMONT line 11",
+   "why": "unit-context: 644.663 thousand re-read as 644,663 persons; free, secondary FRED/Census; add only if printed as 644,663 residents"
+  },
+  {
+   "id": "ST-VERMONT line 39",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "ST-VERMONT line 40",
+   "why": "spot check: page ties the $332 million only to \"the most recent data\", not to the week of 17 Oct 2026, and names no source for it"
+  },
+  {
+   "id": "ST-VERMONT line 53",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "ST-VERMONT line 54",
+   "why": "single firm (OnLogic acquisition, I64); same fact as MT line 46"
+  },
+  {
+   "id": "ST-VERMONT line 63",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "ST-VERMONT line 73",
+   "why": "single firm (one bank company wide total assets, I64)"
+  },
+  {
+   "id": "ST-VERMONT line 77",
+   "why": "single project (Western Rail Corridor) and the granting agency is not named (secondary row without an original publisher)"
+  },
+  {
+   "id": "ST-VERMONT line 91",
+   "why": "rule value (local short term rental cap; also the article derives 850 as 1,450 less about 600, research arithmetic, I55)"
+  },
+  {
+   "id": "ST-VERMONT line 101",
+   "why": "US average diesel price, not a Vermont figure (the research marks it national, context only)"
+  },
+  {
+   "id": "ST-VERMONT line 110",
+   "why": "no figure the matcher reads (a date, an appeal, a list or a count of places the page would name, I91)"
+  },
+  {
+   "id": "ST-VERMONT line 111",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "ST-VERMONT line 131",
+   "why": "undated: Published cell undated and the page is not a periodic release (I77, I86)"
+  },
+  {
+   "id": "ST-VERMONT line 135",
+   "why": "no figure the matcher reads (a date, an appeal, a list or a count of places the page would name, I91)"
+  },
+  {
+   "id": "ST-VERMONT line 165",
+   "why": "single employer (WARN notice, I64)"
+  },
+  {
+   "id": "MT-VERMONT line 24",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 25",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 29",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 30",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 32",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 33",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 36",
+   "why": "single employer (one health system layoff, I64)"
+  },
+  {
+   "id": "MT-VERMONT line 37",
+   "why": "single project (Winooski Main Street, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 41",
+   "why": "undated: Published cell undated and the page is not a periodic release (I77, I86)"
+  },
+  {
+   "id": "MT-VERMONT line 46",
+   "why": "single firm (OnLogic acquisition, I64); same key as ST line 54"
+  },
+  {
+   "id": "MT-VERMONT line 57",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 60",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 61",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 62",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 66",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 67",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 69",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 79",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 82",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 83",
+   "why": "single project award (Barre North End townhomes and buyouts, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 85",
+   "why": "no figure the matcher reads (a date, an appeal, a list or a count of places the page would name, I91)"
+  },
+  {
+   "id": "MT-VERMONT line 91",
+   "why": "no figure the matcher reads (a date, an appeal, a list or a count of places the page would name, I91)"
+  },
+  {
+   "id": "MT-VERMONT line 99",
+   "why": "rule value (local short term rental cap; also the article derives 850 as 1,450 less about 600, research arithmetic, I55)"
+  },
+  {
+   "id": "MT-VERMONT line 102",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 103",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 109",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 110",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 113",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 114",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 116",
+   "why": "no figure the matcher reads (a date, an appeal, a list or a count of places the page would name, I91)"
+  },
+  {
+   "id": "MT-VERMONT line 125",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 129",
+   "why": "single-property or single-project row (note says so, I64, I66)"
+  },
+  {
+   "id": "MT-VERMONT line 131",
+   "why": "no figure the matcher reads (a date, an appeal, a list or a count of places the page would name, I91)"
+  },
+  {
+   "id": "MT-VERMONT line 140",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 142",
+   "why": "unit-context: bare count the matcher does not read; free if printed with its noun (listings, permits, loans, days); outside the main reading"
+  },
+  {
+   "id": "MT-VERMONT line 144",
+   "why": "single employer (WARN notice, I64)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 12",
+   "why": "same fact as ST-VERMONT line 32 (Vermont covered employment, March 2026, BLS QCEW release): 304,184 is the unrounded print of 304,200; counts once (I82)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 95",
+   "why": "integrator ruling: value rests on search-result text (snippet), publisher PDF not read; also a single employer (Rutland Regional Medical Center, I64)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 66",
+   "why": "integrator ruling: value rests on search-result text (snippet); also taken by served pages"
+  },
+  {
+   "id": "ST-VERMONT-2 line 40",
+   "why": "unit-context: \"nearly 200 permanent jobs\" is approximate and the matcher reads no figure; free only if printed with its noun; outside the main reading"
+  },
+  {
+   "id": "ST-VERMONT-2 line 36",
+   "why": "rule value (lending authority threshold, five or more units, effective 1 Jul 2026)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 49",
+   "why": "no figure: a list of counties (DR notice); 2023 and 2024 notices, stale family; outside every count (I91)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 50",
+   "why": "no figure: a list of counties (DR notice); 2023 and 2024 notices, stale family; outside every count (I91)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 51",
+   "why": "no figure: a list of counties (DR notice); 2023 and 2024 notices, stale family; outside every count (I91)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 52",
+   "why": "no figure: a list of counties (DR notice); 2023 and 2024 notices, stale family; outside every count (I91)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 53",
+   "why": "no figure: a list of counties (DR notice); 2023 and 2024 notices, stale family; outside every count (I91)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 64",
+   "why": "stale (24 Oct 2024 release, 2.5 million visitors per season) and taken by served pages"
+  },
+  {
+   "id": "ST-VERMONT-2 line 79",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 80",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 81",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 93",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 94",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 105",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 106",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 107",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 108",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 109",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 110",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 111",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 112",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 124",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 134",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 135",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 136",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 146",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  },
+  {
+   "id": "ST-VERMONT-2 line 147",
+   "why": "single-property or single-project row (the research Note says so, I64, I66)"
+  }
+ ]
+}

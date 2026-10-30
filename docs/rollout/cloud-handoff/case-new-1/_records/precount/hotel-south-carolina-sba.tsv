@@ -1,0 +1,83 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+HSC-001	16,459	Hardeeville city population	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:59	Y	
+HSC-002	118.7%	Hardeeville population change Apr 2020 to Jul 2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:60	Y	
+HSC-003	7,527	Hardeeville April 2020 base population	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:60	Y	
+HSC-004	5,570,274	South Carolina population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:59	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-005	8.8%	South Carolina population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:60	N	Held only by legacy case page(s) being rebuilt: /case-studies/assisted-living-florida-hud/, /case-studies/rv-park-arizona-usda/, /case-studies/rv-park-maine-usda/ (by value; strict reading excludes)
+HSC-006	5,118,250	South Carolina April 2020 base population	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:60	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-007	10,871	Hardeeville population ACS 2020-2024	research	I77c	Census Reporter (ACS 5-yr)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:61	Y	
+HSC-008	5,238	Hardeeville households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:62	N	Also on /states/indiana/indianapolis/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-009	2,117,989	SC households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:62	Y	
+HSC-010	2.07	Hardeeville persons per household	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:63	N	Already on served page /research-notes/gas-station-demand-per-capita/ (by value)
+HSC-011	2.4	SC persons per household	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:63	N	Already on served page /case-studies/gas-station-texas-sba/, /case-studies/auto-dealership-texas-sba/, /case-studies/veterinary-michigan-sba/ (by value)
+HSC-012	$78,365	Hardeeville median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:64	Y	
+HSC-013	$69,324	SC median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:64	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-014	$44,646	Hardeeville per capita income	research	I77c	Census Reporter (ACS 5-yr)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:65	Y	
+HSC-015	$39,236	SC per capita income	research	I77c	Census Reporter (ACS 5-yr)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:65	Y	
+HSC-016	61.4	Hardeeville median age	research	I77c	Census Reporter (ACS 5-yr)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:66	Y	
+HSC-017	40.2	SC median age	research	I77c	Census Reporter (ACS 5-yr)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:66	Y	
+HSC-018	39.7%	Hardeeville persons 65+	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:67	N	Already on served page /case-studies/gas-station-texas-sba/, /case-studies/gas-station-versailles-ohio-sba/, /case-studies/gas-station-florida-sba/ (by value)
+HSC-019	21.1%	SC persons 65+	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:67	N	Already on served page /research-notes/break-even-occupancy-trap/ (by value)
+HSC-020	$488,900	Hardeeville median owner-occupied home value	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:68	Y	
+HSC-021	$259,000	SC median owner-occupied home value	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:68	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-022	$27,856,000	Hardeeville accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau (QuickFacts) (2022 Economic Census)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:69	Y	
+HSC-023	38,533	Jasper County population 2025 estimate	research	I77a	Wikipedia citing Census V2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:71	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes); Level only (I109); row ties it to Census V2025; borderline
+HSC-024	28,791	Jasper County 2020 Census population	research	I77a	Wikipedia citing Census	CS-R-HOTEL-SOUTH-CAROLINA-SBA:71	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes); Level only (I109); borderline
+HSC-025	33.8%	Jasper County growth vs 2020	research	none	Wikipedia	CS-R-HOTEL-SOUTH-CAROLINA-SBA:71	N	Compiler percentage, not dated by the vintage note (I109)
+HSC-026	38,800	US 278 AADT, Station 178, 2024	research	I77b	SCDOT 2024 Traffic Counts, Beaufort County	CS-R-HOTEL-SOUTH-CAROLINA-SBA:47	Y	
+HSC-027	48,900	I-95 AADT Station 2355, 2011	research	I77b	SCDOT traffic counts 2011	CS-R-HOTEL-SOUTH-CAROLINA-SBA:44	N	Stale 2011 count (GEO-4 D5 precedent); borderline
+HSC-028	43,300	I-95 AADT Station 2357, 2011	research	I77b	SCDOT traffic counts 2011	CS-R-HOTEL-SOUTH-CAROLINA-SBA:45	N	Stale 2011 count (GEO-4 D5 precedent); borderline
+HSC-029	25,300	US 278 AADT Station 239, 2007	research	I77b	SCDOT traffic counts 2007	CS-R-HOTEL-SOUTH-CAROLINA-SBA:46	N	Stale 2007 count (GEO-4 D5 precedent); borderline
+HSC-030	$825 million	I-95 widening and Exit 8 contract value	research	I77a	Construction Dive, 2 Sep 2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:130	N	Also on /states/south-carolina/, /states/minnesota/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-031	$728.8 million	SCDOT construction cost, I-95 contract	research	I77a	Construction Dive, 2 Sep 2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:130	N	Also on /states/south-carolina/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-032	14 bridges	Bridges replaced on I-95 project	research	none	Construction Equipment Guide (undated in row)	CS-R-HOTEL-SOUTH-CAROLINA-SBA:130	N	Row cites two publishers; the 14 is not tied to the dated one
+HSC-033	$800 million	I-95 project value per Bluffton Sun	research	none	The Bluffton Sun	CS-R-HOTEL-SOUTH-CAROLINA-SBA:131	N	Undated article, conflicts with Construction Dive
+HSC-034	$360 million	I-95 earlier estimate	research	none	Savannah Morning News via Yahoo	CS-R-HOTEL-SOUTH-CAROLINA-SBA:131	N	Undated, superseded estimate
+HSC-035	1,380	Southpoint residential units modeled	research	I77a	City of Hardeeville, Southpoint TIS draft 3 Oct 2022	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	Y	
+HSC-036	370 ksf	Southpoint commercial space modeled	research	I77a	City of Hardeeville TIS draft 3 Oct 2022	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	N	Not a figure by the page checker shape (plain number with no unit word)
+HSC-037	12 ksf	Southpoint fast-food space modeled	research	I77a	City of Hardeeville TIS draft 3 Oct 2022	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	N	Not a figure by the page checker shape (plain number with no unit word)
+HSC-038	75,000 sf	Southpoint self-storage modeled	research	I77a	City of Hardeeville TIS draft 3 Oct 2022	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	N	Already on served page /research-notes/absorption-forensics/, /case-studies/, /case-studies/gas-station-texas-sba/ (by value)
+HSC-039	100 rooms	Southpoint hotel program: four 100-room hotels	research	I77a	City of Hardeeville TIS draft 3 Oct 2022	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	N	Already on served page /research-notes/absorption-forensics/, /case-studies/truck-stop-texas-sba/, /case-studies/rv-boat-storage-texas-sba/ (by value)
+HSC-040	~400 keys	Southpoint hotel keys	research	none	Research arithmetic	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	N	Research arithmetic (I55)
+HSC-041	300 acres	Southpoint acres cleared	research	I77a	WTOC, 17 Jun 2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:115	N	Already on served page /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-alabama-sba/ (by value)
+HSC-042	360 acres	Southpoint site area	research	none	Bluffton Sun / LoopNet	CS-R-HOTEL-SOUTH-CAROLINA-SBA:114	N	Undated article and listing
+HSC-043	46-acre	Buc-ee's site	research	none	The Bluffton Sun	CS-R-HOTEL-SOUTH-CAROLINA-SBA:117	N	Undated article; single site (I64)
+HSC-044	16%	Hardeeville growth Jul 2024-Jul 2025	research	I77a	The Post and Courier, May 2026	CS-R-HOTEL-SOUTH-CAROLINA-SBA:137	N	Already on served page /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-georgia-sba/, /case-studies/lodging-retreat-johnson-city-texas-sba/ (by value)
+HSC-045	2,280	Hardeeville added residents Jul 2024-Jul 2025	research	I77a	The Post and Courier, May 2026	CS-R-HOTEL-SOUTH-CAROLINA-SBA:137	N	Already on served page /case-studies/lodging-retreat-johnson-city-texas-sba/ (by value)
+HSC-046	85%	Hardeeville growth 2020-2024	research	I77a	The Post and Courier, 15 May 2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:138	N	Also on /states/michigan/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+HSC-047	$398,748	Hardeeville state A-tax receipts FY2020	research	I77a	City of Hardeeville, Ordinance 2019-6-6A	CS-R-HOTEL-SOUTH-CAROLINA-SBA:139	Y	
+HSC-048	$915,915	Hardeeville local A-tax receipts FY2020	research	I77a	City of Hardeeville, Ordinance 2019-6-6A	CS-R-HOTEL-SOUTH-CAROLINA-SBA:139	Y	
+HSC-049	$1,018,203	Hardeeville local hospitality tax FY2020 (budgeted)	research	I77a	City of Hardeeville, Ordinance 2019-6-6A	CS-R-HOTEL-SOUTH-CAROLINA-SBA:139	N	Held only by legacy case page(s) being rebuilt: /case-studies/coffee-shop-washington-sba/ (by value; strict reading excludes)
+HSC-050	95.0 mills	Hardeeville millage, Jasper portion, FY2025	research	I77a	City of Hardeeville, Ordinance 2024-5-16B	CS-R-HOTEL-SOUTH-CAROLINA-SBA:153	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+HSC-051	100.9 mills	Hardeeville millage, Beaufort portion, FY2025	research	I77a	City of Hardeeville, Ordinance 2024-5-16B	CS-R-HOTEL-SOUTH-CAROLINA-SBA:153	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+HSC-052	96.0 mills	Hardeeville millage FY2024	research	I77a	City of Hardeeville, Ordinance 2023-6-1A	CS-R-HOTEL-SOUTH-CAROLINA-SBA:154	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+HSC-053	457.0 mills	Combined project millage, Hardeeville location	research	I77a	Jasper County Council agenda 18 Aug 2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:156	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+HSC-054	$317,500	Value of one county mill, Jasper	research	I77a	SC Association of Counties, Property Tax Rates by County 2025	CS-R-HOTEL-SOUTH-CAROLINA-SBA:155	Y	
+HSC-055	6%	Commercial assessment ratio	research	I77a	Jasper County FILOT ordinance	CS-R-HOTEL-SOUTH-CAROLINA-SBA:158	N	Rule value
+HSC-056	7%; 13%; 3%; 1%	Accommodation tax layers	research	none	SC DOR; City of Hardeeville	CS-R-HOTEL-SOUTH-CAROLINA-SBA:159-162	N	Rule values; most dated only "current" (I86)
+HSC-057	3% / 2%	Unincorporated Jasper A-tax and hospitality tax	research	I77a	Jasper County guide 17 Dec 2024	CS-R-HOTEL-SOUTH-CAROLINA-SBA:163	N	Rule value
+HSC-058	41 beds; 3,276; 10,173	Coastal Carolina Hospital beds, discharges, patient days	research	none	American Hospital Directory	CS-R-HOTEL-SOUTH-CAROLINA-SBA:135	N	Single facility (I64); cost-report period not identified
+HSC-059	330,480 SF; 96 acres	Gateway Commerce Park	research	none	LoopNet	CS-R-HOTEL-SOUTH-CAROLINA-SBA:136	N	Single property, undated listing
+HSC-060	10 competitors; ~830 rooms	Research competitor census totals	research	none	Research summary	CS-R-HOTEL-SOUTH-CAROLINA-SBA:5	N	Research file own summary counts
+HSC-061	84; 92; 76; 62; 75; 96; 99; 94; 61; 95	Competitor key counts	research	none	Aggregators	CS-R-HOTEL-SOUTH-CAROLINA-SBA:81-90	N	Single named facilities (I64); aggregator, undated
+HSC-062	$118; $137; $64; $55; $47; $60	Competitor posted rates	research	none	Aggregators	CS-R-HOTEL-SOUTH-CAROLINA-SBA:98-106	N	Undated aggregator rates, single facilities
+HSC-063	1,122; 851; 752; 534	Competitor review counts	research	none	Choice Hotels; Tripadvisor	CS-R-HOTEL-SOUTH-CAROLINA-SBA:100-104	N	Undated review counts (I86)
+HSC-064	3.90 acres; $1,950,000; 21.19 acres	Subject site and listing	research	none	LoopNet	CS-R-HOTEL-SOUTH-CAROLINA-SBA:28-33	N	Subject listing figures (I64)
+HSC-065	$382,500	Subject land assessment	research	none	LoopNet	CS-R-HOTEL-SOUTH-CAROLINA-SBA:34	N	Subject single-property attribute (I64)
+HSC-066	$199,000; $2,000,000; 101-key	Walterboro lot and Ramada listing	research	none	Beach Commercial; Realmo	CS-R-HOTEL-SOUTH-CAROLINA-SBA:17	N	Single listings, 6 Oct 2025 listing date (I64)
+HSC-067	12+ hotels	Walterboro Exit 53 hotel count	research	none	Listing aggregators	CS-R-HOTEL-SOUTH-CAROLINA-SBA:17	N	Undated count
+HSC-068	$4,500,000; 9.42%	Econo Lodge on-market price and cap rate	research	none	LoopNet	CS-R-HOTEL-SOUTH-CAROLINA-SBA:102	N	Single property listing
+HSC-069	NOT FOUND	Hilton Head visitor volume	research	none	NOT FOUND	CS-R-HOTEL-SOUTH-CAROLINA-SBA:141	N	NOT FOUND row
+HSC-070	1 Jun 2025 SOP; PN numbers; 5%	SBA SOP 50 10 8 and citizenship notices	research	I77a	SBA; NAGGL; CRS	CS-R-HOTEL-SOUTH-CAROLINA-SBA:178-186	N	Program rule values
+HSC-071	$50,000	Hazard insurance threshold	research	I77a	SOP 50 10 8 summary	CS-R-HOTEL-SOUTH-CAROLINA-SBA:185	N	Program rule value
+HSC-072	232,523	pep_pop_2023 all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.pep_pop_2023.all	Y	Register series (geo, series) pair
+HSC-073	7.2%	pep_change_3y_pct all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.pep_change_3y_pct.all	Y	Register series (geo, series) pair
+HSC-074	$83,304	acs5_median_hh_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.acs5_median_hh_income.all	N	Value also on /states/north-carolina/charlotte/ (yields under A4; strict reading excludes)
+HSC-075	$439,500	acs5_median_home_value all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.acs5_median_home_value.all	Y	Register series (geo, series) pair
+HSC-076	$51,125	acs5_per_capita_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.acs5_per_capita_income.all	Y	Register series (geo, series) pair
+HSC-077	77	cbp_estab limited-service-hotel	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.cbp_estab.limited-service-hotel	Y	Register series (geo, series) pair
+HSC-078	26	sba7a_loans limited-service-hotel	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.sba7a_loans.limited-service-hotel	Y	Register series (geo, series) pair
+HSC-079	$70,094,000	sba7a_volume limited-service-hotel	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.sba7a_volume.limited-service-hotel	Y	Register series (geo, series) pair
+HSC-080	5	sba504_loans limited-service-hotel	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.sba504_loans.limited-service-hotel	Y	Register series (geo, series) pair
+HSC-081	$13,822,000	sba504_volume limited-service-hotel	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/south-carolina/hilton-head.json:series.sba504_volume.limited-service-hotel	Y	Register series (geo, series) pair
+#SUMMARY hotel-south-carolina-sba counted=26 research=17 register=9 verdict=FOLD engine=N notes=strict reading; A4 case-over-state gives 37 counted, 27 research, PAGE; tax rates and 2011 AADT excluded

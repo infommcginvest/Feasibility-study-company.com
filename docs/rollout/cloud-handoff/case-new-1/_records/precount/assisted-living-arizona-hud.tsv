@@ -1,0 +1,75 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	52,423	Prescott Valley population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L55	Y	
+F02	12.2%	Prescott Valley change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L58	N	same value (and kind) printed on served page /case-studies/gas-station-georgia-sba/
+F03	29.9%	Prescott Valley persons 65+	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L61	N	same value (and kind) printed on served page /case-studies/rv-boat-storage-texas-sba/
+F04	48,420	Prescott city population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L56	Y	
+F05	252,552	Yavapai County population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L57	Y	
+F06	6.9%	Yavapai County change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L59	N	same value (and kind) printed on served page /research-notes/sba-default-economics/
+F07	20,968	Prescott Valley households	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L60	Y	
+F08	111,157	Yavapai County households (same value as register acs5_households co-04025, counted once)	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L60	Y	
+F09	2.33	Prescott Valley persons per household	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L60	Y	
+F10	$74,569	Prescott Valley median household income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L62	Y	
+F11	$37,400	Prescott Valley per capita income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L63	Y	
+F12	$413,200	Prescott Valley median owner-occupied home value	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L64	Y	
+F13	72.3%	Prescott Valley owner-occupancy rate	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L64	Y	
+F14	4,797	Prescott Valley veterans	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L126	Y	
+F15	$450,232,000	Prescott Valley health care and social assistance receipts	research	I77c	U.S. Census Bureau QuickFacts 2022 Economic Census	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L127	Y	
+F16	49.2	Prescott Valley median age (Census Reporter, search text only)	research	I77c	Census Reporter (repackaged ACS 2024 5-year)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L65	N	page not opened; search text only, repackaged ACS
+F17	28,026	SR 69 AADT, Mendecino Dr to Robert Rd	research	I77b	ADOT AADT Report 2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L40	Y	
+F18	36,244	SR 69 AADT, Robert Rd to Glassford Hill Rd	research	I77b	ADOT AADT Report 2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L41	Y	
+F19	27,714	SR 69 AADT, Fain Rd to Mendecino Dr	research	I77b	ADOT AADT Report 2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L42	Y	
+F20	16,733	SR 69 AADT at the I-17 ramp	research	I77b	ADOT AADT Report 2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L44	Y	
+F21	41,328	SR 69 AADT, highest segment to Prescott East Hwy	research	I77b	ADOT AADT Report 2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L130	Y	
+F22	$4,470	Ativo assisted living posted entry rate	research	I77a	Ativo Floor Plans page (updated 21 Apr 2026)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L76	Y	
+F23	$6,775	Ativo memory care posted entry rate	research	I77a	Ativo Floor Plans page (updated 21 Apr 2026)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L76	Y	
+F24	$2,730	Ativo independent living posted entry rate	research	I77a	Ativo Floor Plans page (updated 21 Apr 2026)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L76	Y	
+F25	$4,215	Ativo prior AL rate	research	none	Ativo Floor Plans (search-index snapshot)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L77	N	undated earlier version; "before Apr 2026"
+F26	117	Ativo licensed beds (license AL12628C effective 20 Sep 2024)	research	I77a	Care-Wise mirror of ADHS AZ Care Check	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L79	Y	
+F27	125	The Landings licensed beds (license effective 9 Dec 2020)	research	I77a	Care-Wise; CareListings (ADHS records)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L86	Y	
+F28	138	Touchmark at The Ranch AL beds (license AL11059C, expires 28 Feb 2027)	research	I77a	Assisted Living Magazine; Oasis Senior Advisors	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L95	Y	
+F29	$3,805	The Landings AL starting rate	research	none	The Landings FAQs page	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L84	N	date is fetch date only (page opened 2026); page undated
+F30	$6,025	The Landings MC starting rate	research	none	The Landings FAQs page	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L84	N	date is fetch date only; page undated
+F31	$3,800	Highgate AL rate	research	none	Highgate operator site (search-result text)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L92	N	undated, search-result text
+F32	$5,501	Prescott average assisted living monthly cost	research	I77b	CareScout 2024 Cost of Care Study via U.S. News (search text)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L103	Y	
+F33	$6,371	Arizona average assisted living monthly cost	research	I77b	CareScout 2024 Cost of Care Study via U.S. News (search text)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L103	Y	
+F34	$5,900	National average assisted living monthly cost	research	I77b	CareScout 2024 Cost of Care Study via U.S. News (search text)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L103	N	same value (and kind) printed on served page /asset-classes/assisted-living-and-memory-care/
+F35	97	Highgate beds	research	none	CareListings	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L93	N	undated; sources conflict (97 vs 87)
+F36	124	Granite Gate beds	research	none	Oasis Senior Advisors	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L94	N	undated; license numbers conflict
+F37	47	Glassford Place units	research	none	Care-Wise; SeniorLivingFacilities.net	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L89	N	sources conflict (47 vs 39)
+F38	259	North Central Arizona Senior Living Community total units	research	I77a	AZBEX, 23 Feb 2024 (P&Z 12 Feb 2024)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L112	Y	
+F39	49.31	North Central Arizona Senior Living Community acres	research	I77a	AZBEX, 23 Feb 2024	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L112	Y	
+F40	75	Ordinance 863 assisted living units (P&Z 13 May 2019)	research	I77a	Town of Prescott Valley Ordinance No. 863	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L114	N	same value (and kind) printed on served page /asset-classes/multifamily/
+F41	22	Ordinance 863 memory care units (P&Z 13 May 2019)	research	I77a	Town of Prescott Valley Ordinance No. 863	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L114	N	same value (and kind) printed on served page /asset-classes/skilled-nursing/
+F42	$9.54	Water base rate, 5/8 in meter	research	I77a	Town of Prescott Valley Comprehensive Fee Schedule (effective 1 Feb 2025)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L145	Y	
+F43	$29.10	Water base rate, 2 in meter	research	I77a	Town of Prescott Valley Comprehensive Fee Schedule (effective 1 Feb 2025)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L145	Y	
+F44	$92.06	Water base rate, 4 in meter	research	I77a	Town of Prescott Valley Comprehensive Fee Schedule (effective 1 Feb 2025)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L145	Y	
+F45	$167.90	Water base rate, 6 in meter	research	I77a	Town of Prescott Valley Comprehensive Fee Schedule (effective 1 Feb 2025)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L145	Y	
+F46	$43,703	City of Prescott total DIF, 2 in meter, Service Area A	research	I77a	City of Prescott Permit Fees (effective 1 Jan 2025)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L146	Y	
+F47	$5,168	City of Prescott DIF water component	research	I77a	City of Prescott Permit Fees (effective 1 Jan 2025)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L146	N	component of the counted $43,703 total
+F48	1.6443	Yavapai County primary rate per $100	research	I77a	Yavapai County release, FY2025-26	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L147	Y	
+F49	1.9388	Yavapai County combined county rate FY2025-26	research	I77a	Yavapai County release, FY2025-26	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L148	Y	
+F50	1.9463	Yavapai County combined county rate FY2024-25	research	I77a	Yavapai County release, FY2025-26	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L148	Y	
+F51	0.1599	Yavapai Flood Control District rate	research	I77a	Yavapai County release, FY2025-26	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L148	Y	
+F52	0.1346	Yavapai Free Library District rate	research	I77a	Yavapai County release, FY2025-26	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L148	Y	
+F53	3.2750	Humboldt USD primary levy (residential parcel bill)	research	I77c	Yavapai County Treasurer 2025 bill (snippet)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L149	N	unconfirmed snippet, page blocked; residential parcel, site tax area may differ
+F54	16.0%	Class 1 commercial assessment ratio TY2025	research	I77a	Arizona JLBC citing A.R.S. 42-15001 (Laws 2022 Ch. 171)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L151	N	same value (and kind) printed on served page /research-notes/effective-rent-vs-asking-rent/
+F55	15.5%	Class 1 commercial assessment ratio TY2026	research	I77a	Arizona JLBC citing A.R.S. 42-15001 (Laws 2022 Ch. 171)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L151	N	same value (and kind) printed on served page /case-studies/hotel-nevada-eb5/
+F56	15.0%	Class 1 commercial assessment ratio TY2027+	research	I77a	Arizona JLBC citing A.R.S. 42-15001 (Laws 2022 Ch. 171)	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L151	N	same value (and kind) printed on served page /
+F57	$1,350,000	Subject listing asking price	research	none	PropertyShark	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L28	N	subject listing figure
+F58	3.07	Subject acreage	research	none	BHHS MLS	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L27	N	single-property attribute
+F59	75%	HUD 232 max LTV for-profit	research	none	ADROC Capital	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L170	N	HUD program rule value
+F60	1.45x	HUD 232 minimum DSCR	research	none	ADROC Capital	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L170	N	HUD program rule value
+F61	0.25%	HUD multifamily MIP (232 excluded)	research	I77a	Multifamily.loans	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L169	N	HUD program rule value
+F62	14	Small licensed homes in Prescott Valley (4 to 10 beds)	research	none	SeniorGuidance.org	CS-R-ASSISTED-LIVING-ARIZONA-HUD:L102	N	undated directory count
+F63	29	Yavapai County assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[co-04025][assisted-living-and-memory-care]	Y	
+F64	544	Yavapai County assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[co-04025][assisted-living-and-memory-care]	Y	
+F65	1.16	Yavapai County assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[co-04025][assisted-living-and-memory-care]	Y	
+F66	749	Arizona assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[az][assisted-living-and-memory-care]	Y	
+F67	13,768	Arizona assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[az][assisted-living-and-memory-care]	Y	
+F68	1.01	Arizona assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[az][assisted-living-and-memory-care]	N	same value printed on served page /case-studies/childcare-iowa-sba/
+F69	83,800	Yavapai County population 65+ (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_pop65.json values[co-04025]	Y	
+F70	$69,613	Yavapai County median household income (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_hh_income.json values[co-04025]	Y	
+F71	$425,200	Yavapai County median home value (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_home_value.json values[co-04025]	Y	
+F72	$60,854	Yavapai County BEA per capita income (calendar year 2024)	register	I77c	register: bea_cainc1_api	data/markets/series/bea_per_capita_income.json values[co-04025]	Y	
+F73	1,351	Yavapai County median gross rent (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_gross_rent.json values[co-04025]	Y	
+#SUMMARY assisted-living-arizona-hud counted=47 research=37 register=10 verdict=PAGE engine=N notes=research ample; subject, HUD rule and undated competitor rows excluded

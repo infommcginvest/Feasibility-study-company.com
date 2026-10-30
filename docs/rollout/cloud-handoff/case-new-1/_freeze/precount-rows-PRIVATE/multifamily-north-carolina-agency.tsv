@@ -1,0 +1,70 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+NCAG-01	21,952	Mebane city population V2025	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L51	Y	
+NCAG-02	+23.7%	Mebane population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L52	Y	
+NCAG-03	17,752	Mebane population estimates base Apr 2020	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L52	Y	
+NCAG-04	7,857	Mebane households	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L53	Y	
+NCAG-05	2.48 persons	persons per household	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L54	Y	
+NCAG-06	$83,174	median household income	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L55	Y	
+NCAG-07	$42,148	per capita income	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L56	Y	
+NCAG-08	15.4%	persons 65 and over V2025	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L57	Y	
+NCAG-09	23.5%	persons under 18 V2025	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L57	Y	
+NCAG-10	60.5%	owner-occupied rate	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L58	Y	
+NCAG-11	$1,283	median gross rent	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L59	Y	
+NCAG-12	$338,900	median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L60	Y	
+NCAG-13	40.4%	bachelor degree or higher	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L61	Y	
+NCAG-14	29.9 minutes	mean travel time to work	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L62	Y	
+NCAG-15	69.2%	civilian labor force participation	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L64	Y	
+NCAG-16	10.37 sq mi	Mebane land area	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L65	Y	
+NCAG-17	7.2%	persons in poverty	research	none	U.S. Census Bureau QuickFacts	nc-research:L63	N	period given only as "Latest"
+NCAG-18	39.5%	renter share implied from owner rate	research	none	U.S. Census Bureau QuickFacts	nc-research:L58	N	derived by the research from a counted figure
+NCAG-19	$89.834 million	accommodation and food sales 2022 (Economic Census)	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L138	Y	
+NCAG-20	$691.141 million	retail sales 2022 (Economic Census)	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L139	Y	
+NCAG-21	$35,128	retail sales per capita 2022	research	I77c	U.S. Census Bureau QuickFacts	nc-research:L139	Y	
+NCAG-22	14,000 AADT	NCDOT Station 4747 NC 119 (2012)	research	I77c	NCDOT Historical AADT Report 2002-2012	nc-research:L40	N	2012 count, distance to site unconfirmed, research says it predates the NC 119 bypass
+NCAG-23	16,000 / 19,000 AADT	NCDOT Stations 4707 and 4706 (2012)	research	I77c	NCDOT Historical AADT Report 2002-2012	nc-research:L41	N	2012 counts, station relation to site unconfirmed
+NCAG-24	240 units	Fieldstone 1969, Carden Place 240 units, Keystone 396, Arrowhead 162, Ashbury 192, Keystone TC 56	research	none	ForRent; RentCafe; Apartments.com	nc-research:L74-L102	N	competitor unit counts from listing aggregators, undated
+NCAG-25	$1,313	Fieldstone 2BR base rent	research	none	Fieldstone operator site	nc-research:L75	N	dated only by researcher fetch (checked 15 Oct 2026)
+NCAG-26	$1,100 to $2,475	advertised comp rents	research	none	aggregators	nc-research:L9	N	aggregator rents and fetch-dated operator rents
+NCAG-27	1,286 units	competitive set total C1-C6	research	none	research derivation	nc-research:L110	N	sum computed by the research from secondary unit counts
+NCAG-28	$14.2735 million	Ashbury Square sale price	research	none	Kalikow Group	nc-research:L102	N	sale date not given
+NCAG-29	one month free	operator concessions Oct 2026	research	none	operator sites	nc-research:L106	N	concession text dated only by researcher fetch
+NCAG-30	140 apartments	Stadler Place, S NC 119 (council 7 Jul 2025)	research	I77a	Alamance News (Jul 2025)	nc-research:L118	Y	
+NCAG-31	120 units	Gardens on 11th (legal notice 8 Oct 2026)	research	I77a	Alamance News (Sep-Oct 2026)	nc-research:L119	Y	
+NCAG-32	$112,342	Gardens on 11th payment in lieu of recreation	research	I77a	Alamance News (Oct 2026)	nc-research:L119	Y	
+NCAG-33	69 townhomes	Mebane Village Townes, 211 Supper Club Rd (Jun 2025)	research	I77a	News of Orange (Jun 2025)	nc-research:L120	Y	
+NCAG-34	82 homes	Oakview Cove, Gibson Rd (11 Mar 2026)	research	I77a	BPR (11 Mar 2026)	nc-research:L121	Y	
+NCAG-35	$70,000 to $105,000	80-120% AMI household income, Oakview Cove developer figures (11 Mar 2026)	research	I77a	BPR (11 Mar 2026)	nc-research:L177	Y	
+NCAG-36	599,006 SF	Walmart DC second building (filed May 2024)	research	I77a	Alamance News; Connect CRE (7 May 2024); Business NC	nc-research:L132	Y	
+NCAG-37	461,516 SF	Walmart DC existing building	research	I77a	Alamance News; Connect CRE (7 May 2024)	nc-research:L132	Y	
+NCAG-38	450 jobs	Walmart DC dry-goods phase (May 2024)	research	I77a	Business North Carolina / Alamance News (May 2024)	nc-research:L132	Y	
+NCAG-39	80 percent automated	Walmart DC operations (May 2024)	research	I77a	Business North Carolina / Alamance News (May 2024)	nc-research:L132	Y	
+NCAG-40	919,840 SF	Lidl regional distribution center	research	none	Alamance News; 13WMAZ	nc-research:L133	N	source dates not given; research marks it older (2017-2023)
+NCAG-41	$18.50/hr	Amazon sortation associate wage	research	none	Indeed	nc-research:L134	N	job listing dated only by researcher fetch (Aug 2026 label)
+NCAG-42	49.39 cents per $100	Alamance County tax rate FY2025-26	research	I77a	Alamance News (Jun 2025)	nc-research:L152	Y	
+NCAG-43	46.89 cents per $100	Alamance County tax rate prior year	research	I77a	Alamance News (Jun 2025)	nc-research:L152	Y	
+NCAG-44	37 cents per $100	City of Mebane tax rate FY2025-26 and FY2026-27	research	I77a	Alamance News (2 Jun 2026)	nc-research:L153	Y	
+NCAG-45	86.39 cents per $100	combined rate in city	research	none	research derivation	nc-research:L154	N	sum computed by the research from two counted rows
+NCAG-46	$78.40 to $86.25	Mebane minimum combined water and sewer bill	research	none	Alamance News	nc-research:L151	N	article year not stated
+NCAG-47	10.5%	proposed FY2026-27 utility rate increase	research	none	Alamance News	nc-research:L151	N	proposal, not an adopted figure; article date not given
+NCAG-48	80.73%	Mebane revaluation increase 2023	research	none	Alamance News	nc-research:L156	N	article undated and research marks it older
+NCAG-49	7.5%	Mebane sales tax rate	research	none	Sales Tax Handbook	nc-research:L157	N	secondary handbook, Aug 2026 date is researcher fetch
+NCAG-50	$158,550	Mebane occupancy tax first-year estimate	research	none	Alamance News	nc-research:L158	N	article year not stated
+NCAG-51	52 units	approved low-income housing units (aggregator)	research	none	HUD Housing Network	nc-research:L109	N	aggregator, Aug 2026 label only
+NCAG-52	260 units	two garden projects total	research	none	research derivation	nc-research:L114	N	sum computed by the research
+NCAG-53	$88 billion	FHFA 2026 multifamily purchase cap per Enterprise (24 Nov 2025)	research	I77a	FHFA release (24 Nov 2025)	nc-research:L169	N	same value already printed on a served page (served: research-notes/coverage-constrained-takeout and asset-classes/multifamily)
+NCAG-54	$176 billion	FHFA 2026 combined caps	research	I77a	FHFA release (24 Nov 2025)	nc-research:L169	N	same value already printed on a served page (served: research-notes/coverage-constrained-takeout and case-studies/multifamily-texas-agency)
+NCAG-55	20.5%	increase in cap from 2025 to 2026	research	I77a	FHFA release (24 Nov 2025)	nc-research:L165	N	same value already printed on a served page (served: research-notes/coverage-constrained-takeout (20.5 percent))
+NCAG-56	$73 billion	FHFA 2025 caps per Enterprise	research	I77b	FHFA, 2025 Multifamily Loan Purchase Caps fact sheet	nc-research:L170	N	same value already printed on a served page (served: asset-classes/multifamily/index.html)
+NCAG-57	$146 billion	FHFA 2025 combined caps	research	I77b	FHFA, 2025 Multifamily Loan Purchase Caps fact sheet	nc-research:L170	N	same value already printed on a served page (served: research-notes/coverage-constrained-takeout)
+NCAG-58	$70 billion	FHFA 2024 caps per Enterprise (14 Nov 2023)	research	I77a	FHFA news release (14 Nov 2023)	nc-research:L171	Y	
+NCAG-59	$140 billion	FHFA 2024 combined caps	research	I77a	FHFA news release (14 Nov 2023)	nc-research:L171	N	same value as NCAG-30
+NCAG-60	$75 billion	FHFA 2023 caps per Enterprise	research	I77a	FHFA news release (14 Nov 2023)	nc-research:L171	Y	
+NCAG-61	$74 billion	Fannie Mae 2025 multifamily production (4 Feb 2026)	research	I77a	Fannie Mae release (4 Feb 2026)	nc-research:L172	Y	
+NCAG-62	34%	Fannie Mae 2025 production growth	research	I77a	Fannie Mae release (4 Feb 2026)	nc-research:L172	Y	
+NCAG-63	$55 billion	Fannie Mae 2024 multifamily production	research	I77a	Fannie Mae release (4 Feb 2026)	nc-research:L172	Y	
+NCAG-64	$5.9 billion	Fannie Mae 2025 Small Loans	research	I77a	Fannie Mae release (4 Feb 2026)	nc-research:L172	Y	
+NCAG-65	$8.3 billion	Fannie Mae 2025 Mission Affordable Housing (MAH)	research	I77a	Fannie Mae release (4 Feb 2026)	nc-research:L172	Y	
+NCAG-66	$77.6 billion	Freddie Mac 2025 volume	research	none	CoStar	nc-research:L172	N	CoStar report, date not given in research
+NCAG-67	$2 billion	GSE LIHTC investment cap per Enterprise	research	I77a	Novogradac; ABA Banking Journal; Multi-Housing News	nc-research:L173	N	program rule value
+NCAG-68	50% mission driven	FHFA mission driven minimum	research	I77a	FHFA	nc-research:L169	N	FHFA program rule value
+#SUMMARY multifamily-north-carolina-agency counted=39 research=39 register=0 verdict=PAGE engine=Y notes=FHFA cap figures already served; comps and rents undated; pipeline and Census carry the count

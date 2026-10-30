@@ -1,0 +1,205 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-18T17:18:59
+root ~/Downloads/fsc-rollout/tmp/geo-1/t6; git dir ~/Downloads/wt-rollout-geo-1 at 9386ffc9c6bb9f813b93d07269997c10e07a8cdd; range main..HEAD; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-1/t6 --git-dir . --urls /states/alabama/,/states/alabama/huntsville/ --range main..HEAD --stage ready --new /states/alabama/huntsville/ --look-out ~/Downloads/fsc-rollout/drafts/geo-1/look/t6f5 --out ~/Downloads/fsc-rollout/tmp/geo-1/t6-rec/GATES-t6.txt
+pages (2): /states/alabama/ /states/alabama/huntsville/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+2 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 48 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /states/alabama/                                               state     counted 78 (research 68, register 10/10)
+  /states/alabama/huntsville/                                    metro     counted 36 (research 26, register 10/10)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/alabama/                                               max 0.85% (/states/south-carolina/charleston/)
+  /states/alabama/huntsville/                                    max 1.01% (/states/south-carolina/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+1 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..HEAD: 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..HEAD (0 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 184 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1060 term link(s) on 169 page(s)
+pages checked for inbound links: 2; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 184 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+2 page(s)
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in ~/Downloads/fsc-rollout/drafts/geo-1/look/t6f5 (port 53999)
+  states_alabama-desktop-1440.png                                        scrollWidth 1440 / 1440 overflow False offenders []
+  states_alabama-mobile-390.png                                          scrollWidth 390 / 390 overflow False offenders []
+  states_alabama_huntsville-desktop-1440.png                             scrollWidth 1440 / 1440 overflow False offenders []
+  states_alabama_huntsville-mobile-390.png                               scrollWidth 390 / 390 overflow False offenders []
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  2 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 14/14
+
+=== Gate 9 at landing stage (D20)
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-18T17:20:53
+root ~/Downloads/fsc-rollout/tmp/geo-1/t6; git dir ~/Downloads/wt-rollout-geo-1 at 9386ffc9c6bb9f813b93d07269997c10e07a8cdd; range main..HEAD; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-1/t6 --git-dir . --urls /states/alabama/,/states/alabama/huntsville/ --range main..HEAD --stage landing --only 9 --new /states/alabama/huntsville/ --out ~/Downloads/fsc-rollout/tmp/geo-1/t6-rec/GATES-t6-g9-landing.txt
+pages (2): /states/alabama/ /states/alabama/huntsville/
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 184 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1060 term link(s) on 169 page(s)
+pages checked for inbound links: 2; under 3: 0
+
+required edges: all present
+
+SUMMARY
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  green 1/1
+
+----- after the commit: gates with --diff main...HEAD, --skip-look (gate 13 is the freeze 5 run above) -----
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-18T17:25:26
+root ~/Downloads/fsc-rollout/tmp/geo-1/t6; git dir ~/Downloads/wt-rollout-geo-1 at a8ce9ab0f94e180ee0265b8a57ac7d472d9bd839; range main..HEAD; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-1/t6 --git-dir . --urls /states/alabama/,/states/alabama/huntsville/ --range main..HEAD --stage ready --new /states/alabama/huntsville/ --diff main...HEAD --skip-look --out /tmp/geo1-t6-post.txt
+pages (2): /states/alabama/ /states/alabama/huntsville/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+2 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 48 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /states/alabama/                                               state     counted 78 (research 68, register 10/10)
+  /states/alabama/huntsville/                                    metro     counted 36 (research 26, register 10/10)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/alabama/                                               max 0.85% (/states/south-carolina/charleston/)
+  /states/alabama/huntsville/                                    max 1.01% (/states/south-carolina/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+1 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..HEAD: 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..HEAD (132882 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 184 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1060 term link(s) on 169 page(s)
+pages checked for inbound links: 2; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 184 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+2 page(s)
+
+=== Gate 13: look: PENDING
+  skipped in this run (--skip-look)
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  2 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: PENDING  look
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 13/14

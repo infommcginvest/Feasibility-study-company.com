@@ -1,0 +1,2518 @@
+{
+ "_about": "Every URL a ROLLOUT-1 block assigns (amendment A5), read by scripts/links.py: a link to a promised URL that does not exist yet renders as a pending link with its class fallback (a state to /states/, a metro to its state's #metros, a subtype to its hub, a hub to /asset-classes/, a case to /case-studies/), and links.py --relink switches it on the day the page lands. Every data-fsc-pending target already on the site counts as promised too. New metro and subtype slugs a builder chooses are added here from its requests (docs/rollout/int/REQUESTS.md). Built by the integrator from the saved blocks; the geo-4 and case-3 blocks, derived by FSC-NIGHT-1 on 21 October 2026, were added in the asset-4 t2 landing (DECISIONS I52).",
+ "lanes_missing": [],
+ "pages": {
+  "/analytical-framework/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/absorption-and-lease-up/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/common-review-failures/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/coverage-and-stress-testing/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/demand-analysis/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/demand-modeling/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/financial-projection-architecture/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/independence-and-evidence/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/market-area-definition/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/market-study-vs-feasibility-study/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/operating-expenses/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/regulatory-alignment/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/revenue-and-rent/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/analytical-framework/supply-and-competition/": {
+   "lane": "method-1",
+   "class": "framework"
+  },
+  "/asset-classes/assisted-living-and-memory-care/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/assisted-living-and-memory-care/assisted-living/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/assisted-living-and-memory-care/memory-care/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/auto-dealership/buy-here-pay-here/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/challenged-brand-franchises/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/franchised-new-car-domestic/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/franchised-new-car-import-luxury/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/heavy-truck-and-commercial/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/independent-used-car/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/powersports-and-motorcycle/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-dealership/rv-and-marine/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/auto-service-and-collision/collision-body/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/dealership-fixed-ops/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/franchised-service/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/general-repair/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/quick-lube/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/specialty/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/auto-service-and-collision/tire-and-service/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/behavioral-health/office-based-obot/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/opioid-treatment-otp/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/outpatient-and-ccbhc/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/php-and-iop/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/psychiatric-hospital/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/residential-and-inpatient/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/behavioral-health/sober-living-and-recovery-residences/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/brewery-and-distillery/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/build-to-rent/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/childcare-and-daycare/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/childcare-and-daycare/employer-sponsored/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/faith-based/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/family-child-care/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/franchised-branded/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/head-start/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/independent-single-site/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/montessori-preschool/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/childcare-and-daycare/net-lease-stnl/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/coffee-shop/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/coffee-shop/cafe-bakery/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/coffee-shop/drive-thru-kiosk/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/coffee-shop/franchised-drive-thru/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/coffee-shop/independent-cafe/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/coffee-shop/net-lease/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/coffee-shop/roaster-retailer/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/cold-storage/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/data-center/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/event-and-wedding-venue/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/express-car-wash/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/express-car-wash/conversion/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/express-car-wash/express-exterior/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/express-car-wash/flex-service/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/express-car-wash/full-service/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/express-car-wash/in-bay-automatic/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/express-car-wash/self-service/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/fitness-and-recreation/24-hour-gyms/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/boutique-studios/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/full-service-health-clubs/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/hvlp-budget-gyms/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/net-lease-fitness/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/premium-luxury-clubs/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/fitness-and-recreation/specialty-fitness/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/funeral-home/cemetery/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/combination/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/consolidation/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/crematory/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/direct-cremation/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/preneed/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/funeral-home/traditional/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/gas-station-and-c-store/branded-fuel/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/gas-station-and-c-store/convenience-no-fuel/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/gas-station-and-c-store/foodservice-qsr/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/gas-station-and-c-store/unbranded-independent/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/glamping/airstreams-trailers/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/cabins-tiny-homes/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/container-units/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/geodesic-domes/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/safari-bell-tents/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/treehouses/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/unique-experiential/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/glamping/yurts/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/grocery-store/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/grocery-store/cooperative-affiliated/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/grocery-store/discount-limited-assortment/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/grocery-store/ethnic-and-specialty/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/grocery-store/independent-supermarket/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/grocery-store/natural-and-organic/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/grocery-store/rural-and-community-owned/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/hotel/boutique-and-independent/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/extended-stay/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/full-service/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/limited-service/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/resort/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/select-service/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/hotel/upper-upscale-and-luxury/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/independent-living-and-ccrc/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/industrial-and-warehouse/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/laundromat/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/laundromat/card-and-app-operated/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/laundromat/franchised/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/laundromat/laundromat-anchored-retail/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/laundromat/route-and-multi-store/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/laundromat/rural-usda/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/laundromat/unattended-coin-op/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/laundromat/wash-dry-fold/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/manufactured-housing/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/marina/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/marina/boatyard-service/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/marina/dockominium/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/marina/dry-stack-storage/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/marina/full-service/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/marina/inland-lake-reservoir/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/marina/municipal-yacht-club/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/marina/resort-destination/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/meat-and-poultry-processing/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/medical-office-and-asc/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/medical-office-and-asc/ambulatory-surgery-center/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/medical-office-and-asc/dental-practice/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/medical-office-and-asc/dialysis-net-lease/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/medical-office-and-asc/imaging-diagnostic/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/medical-office-and-asc/medical-office-building/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/medical-office-and-asc/physician-practice/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/mixed-use/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/multifamily/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/multifamily/garden-style/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/multifamily/lihtc/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/multifamily/mid-and-high-rise/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/multifamily/student-housing/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/multifamily/workforce-housing/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/pet-boarding-and-daycare/boarding-kennels-and-resorts/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/change-of-ownership/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/dog-training/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/doggy-daycare/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/franchised-pet-care/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/grooming/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/pet-boarding-and-daycare/integrated-facilities/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/private-school/boarding/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/catholic-parochial/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/christian-faith-based/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/independent-nais/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/microschools/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/montessori-waldorf/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/private-school/therapeutic-special-education/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/quick-service-restaurant/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/quick-service-restaurant/burger/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/quick-service-restaurant/chicken/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/quick-service-restaurant/mexican/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/quick-service-restaurant/multi-unit-platform/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/quick-service-restaurant/pizza/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/quick-service-restaurant/sandwich-and-subs/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/restaurant/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/restaurant/fast-casual/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/restaurant/franchised/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/restaurant/full-service/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/restaurant/ghost-kitchens/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/restaurant/independent/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/restaurant/stnl-qsr/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/": {
+   "lane": "asset-4",
+   "class": "hub"
+  },
+  "/asset-classes/retail/grocery-anchored/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/lifestyle-center/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/malls/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/neighborhood-strip/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/owner-occupied/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/power-center/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/retail/single-tenant-net-lease/": {
+   "lane": "asset-4",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-and-boat-storage/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/rv-and-boat-storage/climate-controlled/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-and-boat-storage/covered-canopy/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-and-boat-storage/enclosed-drive-up/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-and-boat-storage/open-lot/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-park-and-campground/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/rv-park-and-campground/annual-seasonal-park/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-park-and-campground/campground/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-park-and-campground/destination-resort/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-park-and-campground/franchise-affiliated/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-park-and-campground/transient-rv-resort/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/rv-park-and-campground/workforce-extended-stay/": {
+   "lane": "asset-1",
+   "class": "subtype"
+  },
+  "/asset-classes/self-storage/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/self-storage/climate-controlled/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/self-storage/conversion/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/self-storage/drive-up/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/self-storage/portable-container/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/self-storage/third-party-managed/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/self-storage/value-add/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/short-term-rental/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/asset-classes/skilled-nursing/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/truck-stop-and-travel-center/": {
+   "lane": "asset-2",
+   "class": "hub"
+  },
+  "/asset-classes/truck-stop-and-travel-center/foodservice-qsr/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/fuel-only-fleet-fueling/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/gaming-truck-stop/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/independent-truck-stop/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/interstate-travel-center/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/net-lease-stnl/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/truck-parking/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/truck-stop-and-travel-center/truck-service-maintenance/": {
+   "lane": "asset-2",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/urgent-care/franchised-platform/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/freestanding-ed/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/health-system-jv/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/independent-physician-owned/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/occupational-medicine/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/pediatric/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/urgent-care/rural-health-clinic/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/": {
+   "lane": "asset-3",
+   "class": "hub"
+  },
+  "/asset-classes/veterinary-practice/corporate-and-platform/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/food-animal/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/general-practice/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/mixed-animal-and-equine/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/mobile-and-house-call/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/referral-and-diagnostic-imaging/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/veterinary-practice/specialty-and-emergency/": {
+   "lane": "asset-3",
+   "class": "subtype"
+  },
+  "/asset-classes/wellness-and-retreat/": {
+   "lane": "asset-1",
+   "class": "hub"
+  },
+  "/case-studies/assisted-living-arizona-hud/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/assisted-living-california-hud/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/assisted-living-elizabethtown-kentucky-bridge/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/assisted-living-florida-hud/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/assisted-living-hawaii-hud/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/assisted-living-north-carolina-hud/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/auto-service-new-jersey-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/behavioral-health-massachusetts-conventional/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/car-wash-port-charlotte-florida-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/childcare-gonzales-louisiana-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/childcare-illinois-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/childcare-iowa-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/coffee-shop-washington-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/fitness-minnesota-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/fitness-new-hampshire-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/funeral-home-wisconsin-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/glamping-utah-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/grocery-store-mississippi-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/grocery-store-ness-city-kansas-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/hotel-acquisition-fairlawn-ohio-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/hotel-florida-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/hotel-georgia-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/hotel-hays-kansas-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/hotel-natchitoches-louisiana-eb5/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/hotel-nevada-eb5/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/hotel-south-carolina-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/industrial-flex-gardner-kansas-conventional/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/laundromat-acquisition-huron-county-ohio-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/laundromat-new-mexico-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/marina-gig-harbor-washington-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/marina-maryland-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/marina-new-baltimore-michigan-sba/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/marina-shell-knob-missouri-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/meat-processing-georgia-usda/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/meat-processing-north-carolina-usda/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/medical-office-lebanon-tennessee-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/medical-office-north-carolina-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/mixed-use-multifamily-euclid-ohio-eb5/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/multifamily-arizona-agency/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/multifamily-clarksville-tennessee-dscr/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/multifamily-florida-agency/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/multifamily-georgia-agency/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/multifamily-new-york-agency/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/multifamily-north-carolina-agency/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/pet-boarding-oregon-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/private-school-connecticut-conventional/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/qsr-arkansas-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/qsr-georgia-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/restaurant-acquisition-broussard-louisiana-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/restaurant-missouri-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/restaurant-sevierville-tennessee-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/retail-nevada-conventional/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/retreat-center-kerhonkson-new-york-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/rv-boat-storage-arizona-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/rv-boat-storage-california-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/rv-boat-storage-florida-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/rv-park-arizona-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/rv-park-maine-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/rv-park-pennsylvania-usda/": {
+   "lane": "case-1",
+   "class": "case"
+  },
+  "/case-studies/self-storage-arizona-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/self-storage-bardstown-kentucky-usda/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/self-storage-indiana-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/self-storage-pataskala-ohio-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/short-term-rental-yucca-valley-california-conventional/": {
+   "lane": "case-4",
+   "class": "case"
+  },
+  "/case-studies/truck-stop-georgia-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/truck-stop-oklahoma-sba/": {
+   "lane": "case-2",
+   "class": "case"
+  },
+  "/case-studies/urgent-care-elizabethtown-kentucky-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/case-studies/urgent-care-florida-sba/": {
+   "lane": "case-3",
+   "class": "case"
+  },
+  "/practice-areas/conventional-institutional/": {
+   "lane": "method-1",
+   "class": "practice"
+  },
+  "/practice-areas/eb-5/": {
+   "lane": "method-1",
+   "class": "practice"
+  },
+  "/practice-areas/hud-and-agency/": {
+   "lane": "method-1",
+   "class": "practice"
+  },
+  "/practice-areas/sba-7a-504/": {
+   "lane": "method-1",
+   "class": "practice"
+  },
+  "/practice-areas/usda-rural-development/": {
+   "lane": "method-1",
+   "class": "practice"
+  },
+  "/research-notes/proving-demand/": {
+   "lane": "method-1",
+   "class": "note"
+  },
+  "/research-notes/sba-default-economics/": {
+   "lane": "method-1",
+   "class": "note"
+  },
+  "/research-notes/sba-feasibility-myth/": {
+   "lane": "method-1",
+   "class": "note"
+  },
+  "/research-notes/sba-rural-fee-waiver-vs-usda-bi/": {
+   "lane": "method-1",
+   "class": "note"
+  },
+  "/states/alabama/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/alabama/auburn/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/birmingham/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/black-belt/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/gulf-shores/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/huntsville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/mobile/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/montgomery/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/alabama/tuscaloosa/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arizona/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/arizona/flagstaff/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/phoenix/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/pinal-county/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/prescott/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/rural/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/scottsdale/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/tucson/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arizona/yuma/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/arkansas/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/arkansas/fort-smith/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/hot-springs/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/jonesboro/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/little-rock/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/mississippi-county/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/northwest-arkansas/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/pine-bluff/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/arkansas/south-arkansas/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/california/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/california/central-valley/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/inland-empire/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/los-angeles/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/orange-county/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/sacramento/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/san-diego/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/san-francisco/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/california/silicon-valley/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/colorado/denver/": {
+   "lane": "geo-5",
+   "class": "metro"
+  },
+  "/states/connecticut/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/connecticut/bridgeport/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/fairfield-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/hartford/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/litchfield-hills/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/new-haven/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/new-london/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/quiet-corner/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/connecticut/waterbury/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/delaware/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/florida/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/florida/fort-myers/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/gainesville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/jacksonville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/lakeland/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/miami/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/orlando/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/tampa/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/florida/the-villages/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/georgia/albany/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/athens/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/atlanta/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/augusta/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/columbus/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/macon/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/savannah/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/georgia/valdosta/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/hawaii/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/hawaii/hawaii-island/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/hawaii/kapolei/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/hawaii/kauai/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/hawaii/lahaina/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/hawaii/maui/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/hawaii/oahu/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/idaho/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/idaho/treasure-valley/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/illinois/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/illinois/bloomington-normal/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/champaign-urbana/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/chicago/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/metro-east/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/peoria/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/quad-cities/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/rockford/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/illinois/springfield/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/indiana/bloomington/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/carmel/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/elkhart/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/fort-wayne/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/indianapolis/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/kokomo/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/northwest-indiana/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/indiana/warsaw/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/iowa/ames/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/cedar-rapids/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/council-bluffs/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/des-moines/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/iowa-city/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/quad-cities/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/sioux-city/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/iowa/waterloo-cedar-falls/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/kansas/garden-city/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/hays/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/kansas-city-ks/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/lawrence/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/manhattan/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/salina/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/topeka/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kansas/wichita/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/kentucky/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/louisiana/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/maine/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/maine/aroostook/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/bangor/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/bar-harbor/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/bath/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/lewiston-auburn/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/midcoast/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/portland/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maine/york-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/maryland/baltimore/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/bwi-corridor/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/eastern-shore/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/frederick/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/montgomery-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/prince-georges-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/southern-maryland/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/maryland/western-maryland/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/massachusetts/berkshires/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/boston/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/cambridge/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/cape-cod/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/lowell/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/new-bedford/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/springfield/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/massachusetts/worcester/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/michigan/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/michigan/ann-arbor/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/detroit/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/flint/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/grand-rapids/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/kalamazoo/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/lansing/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/traverse-city/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/michigan/upper-peninsula/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/minnesota/brainerd/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/duluth/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/iron-range/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/mankato/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/minneapolis-st-paul/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/rochester/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/rosemount/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/minnesota/st-cloud/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/mississippi/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/mississippi/delta/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/desoto-county/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/golden-triangle/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/gulf-coast/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/hattiesburg/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/jackson/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/oxford/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/mississippi/tupelo/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/missouri/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/missouri/branson/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/missouri/columbia/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/missouri/jefferson-city/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/missouri/kansas-city/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/missouri/springfield/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/missouri/st-joseph/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/missouri/st-louis/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/montana/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/nebraska/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/nebraska/columbus/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/grand-island/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/kearney/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/lincoln/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/norfolk/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/north-platte/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/omaha/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nebraska/scottsbluff/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/nevada/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/nevada/carson-city/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/elko/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/fernley/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/lake-tahoe/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/las-vegas/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/laughlin/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/reno/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/nevada/winnemucca/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-hampshire/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/new-hampshire/concord/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/lakes-and-mountains/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/manchester/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/nashua/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/north-country/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/portsmouth/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/salem/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-hampshire/upper-valley/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/new-jersey/atlantic-city/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/bergen-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/camden/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/jersey-city/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/middlesex-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/monmouth-ocean/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/morris-county/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-jersey/newark/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-mexico/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/new-mexico/albuquerque/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/farmington/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/las-cruces/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/los-alamos/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/permian-basin/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/rio-rancho/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/santa-fe/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-mexico/truth-or-consequences/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/new-york/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/new-york/albany/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/binghamton/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/buffalo/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/hudson-valley/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/long-island/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/new-york-city/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/rochester/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/new-york/syracuse/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/north-carolina/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/north-carolina/asheville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/charlotte/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/fayetteville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/greensboro/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/greenville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/hickory/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/raleigh-durham/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/north-carolina/wilmington/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/ohio/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/ohio/akron/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/canton/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/cincinnati/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/cleveland/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/columbus/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/dayton/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/toledo/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/ohio/youngstown/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/oklahoma/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/oklahoma/durant/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/edmond/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/lawton/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/norman/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/oklahoma-city/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/pryor/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/stillwater/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oklahoma/tulsa/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/oregon/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/oregon/bend/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/eastern-oregon/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/eugene/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/hillsboro/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/oregon-coast/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/portland/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/prineville/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/oregon/salem/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/pennsylvania/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/pennsylvania/erie/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/harrisburg/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/lancaster/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/lehigh-valley/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/philadelphia/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/pittsburgh/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/scranton-wilkes-barre/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/pennsylvania/state-college/": {
+   "lane": "geo-2",
+   "class": "metro"
+  },
+  "/states/rhode-island/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/south-carolina/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/south-carolina/charleston/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/columbia/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/florence/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/greenville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/hilton-head/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/i-95-corridor/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/myrtle-beach/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/south-carolina/spartanburg/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/tennessee/": {
+   "lane": "geo-1",
+   "class": "state"
+  },
+  "/states/tennessee/nashville/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/texas/corpus-christi/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/texas/el-paso/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/texas/lubbock/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/texas/mcallen/": {
+   "lane": "geo-1",
+   "class": "metro"
+  },
+  "/states/utah/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/utah/logan/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/moab/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/ogden/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/park-city/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/provo-orem/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/salt-lake-city/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/st-george/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/utah/uinta-basin/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/virginia/northern-virginia/": {
+   "lane": "geo-5",
+   "class": "metro"
+  },
+  "/states/washington/": {
+   "lane": "geo-4",
+   "class": "state"
+  },
+  "/states/washington/bellevue/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/columbia-basin/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/everett/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/seattle/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/spokane/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/tri-cities/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/vancouver/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/washington/yakima/": {
+   "lane": "geo-4",
+   "class": "metro"
+  },
+  "/states/west-virginia/": {
+   "lane": "geo-2",
+   "class": "state"
+  },
+  "/states/wisconsin/": {
+   "lane": "geo-3",
+   "class": "state"
+  },
+  "/states/wisconsin/eau-claire/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wisconsin/green-bay/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wisconsin/kenosha-racine/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wisconsin/madison/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wisconsin/milwaukee/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wisconsin/wausau/": {
+   "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wisconsin/wisconsin-dells/": {
+   "lane": "geo-3",
+   "class": "metro"
+  }
+ }
+}

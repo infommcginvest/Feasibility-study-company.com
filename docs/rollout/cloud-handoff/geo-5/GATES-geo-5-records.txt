@@ -1,0 +1,37 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-28T22:36:11
+root ~/Downloads/wt-rollout-int; git dir ~/Downloads/wt-rollout-int at 8614ac579ac617905e65e91b4e91403601061e56; range main..HEAD; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root . --git-dir . --diff main...HEAD --range main..HEAD --stage landing --only 7,8,10 --skip-look --out ~/Downloads/fsc-rollout/drafts/geo-5/GATES-geo-5-records.txt
+pages (0): 
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..HEAD: 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..HEAD (11199 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+SUMMARY
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  green 3/3

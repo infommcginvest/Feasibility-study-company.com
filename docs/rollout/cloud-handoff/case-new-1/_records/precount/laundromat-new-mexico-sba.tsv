@@ -1,0 +1,63 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	32,524	Carlsbad population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:53	Y	
+F02	2,125,498	New Mexico population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:53	Y	note: also on /states/new-mexico/ (lower rank, case keeps it, A4)
+F03	32,180	Carlsbad Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:54	Y	
+F04	1.1%	Carlsbad population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:55	N	repeat: held by /research-notes/sba-default-economics/ (note) and 6 more
+F05	0.4%	New Mexico population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:55	N	repeat: held by /research-notes/sba-default-economics/ (note) and 6 more
+F06	12,445	Carlsbad households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:56	Y	
+F07	837,414	New Mexico households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:56	Y	note: also on /states/new-mexico/ (lower rank, case keeps it, A4)
+F08	2.48	Persons per household (Carlsbad and New Mexico)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:57	Y	
+F09	$72,306	Carlsbad median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:58	Y	
+F10	$64,059	New Mexico median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:58	Y	note: also on /states/new-mexico/ (lower rank, case keeps it, A4)
+F11	$38,402	Carlsbad per capita income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:59	Y	
+F12	$36,218	New Mexico per capita income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:59	Y	
+F13	70.2%	Carlsbad owner-occupied housing rate	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:62	Y	note: also on /states/south-carolina/ (lower rank, case keeps it, A4)
+F14	70.0%	New Mexico owner-occupied housing rate	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:62	N	repeat: held by /research-notes/absorption-forensics/ (note) and 37 more
+F15	$1,236	Carlsbad median gross rent	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:63	Y	
+F16	$1,067	New Mexico median gross rent	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:63	Y	note: also on /states/new-mexico/ (lower rank, case keeps it, A4)
+F17	53.5%	Carlsbad Hispanic or Latino share, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:64	Y	
+F18	49.4%	New Mexico Hispanic or Latino share, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:64	N	repeat: held by /case-studies/rv-park-texas-usda/ (case)
+F19	30.5%	Carlsbad language other than English at home	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:65	N	repeat: held by /research-notes/absorption-forensics/ (note)
+F20	31.3%	New Mexico language other than English at home	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:65	Y	
+F21	61.0%	Carlsbad civilian labor force participation	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:66	N	repeat: held by /research-notes/gas-station-demand-per-capita/ (note) and 5 more
+F22	56.9%	New Mexico civilian labor force participation	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:66	Y	
+F23	23.8%	Carlsbad persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:61	N	repeat: held by /case-studies/travel-center-hankamer-texas-usda/ (case)
+F24	15.9%	Carlsbad persons 65+, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:61	Y	note: also on /states/oklahoma/ (lower rank, case keeps it, A4)
+F25	$818,703,000	Carlsbad total retail sales, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:139	Y	
+F26	$25,981	Carlsbad retail sales per capita, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:139	Y	
+F27	62,509	Eddy County population V2025 (Wikipedia citing Census)	research	I77c	U.S. Census Bureau V2025, relayed by Wikipedia (secondary)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:68	Y	note: also on /states/new-mexico/ (lower rank, case keeps it, A4)
+F28	62,314	Eddy County 2020 Census population (Wikipedia citing Census)	research	I77a	U.S. Census Bureau 2020 Census, relayed by Wikipedia (secondary)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:68	Y	
+F29	410,778	Carlsbad Caverns National Park recreation visits, 2025	research	I77c	NPS Visitor Use Statistics, relayed by Wikipedia / National Sites Guide (secondary)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:133	Y	
+F30	18,000	Canal St AADT low end (NMDOT TIMS 2013-2015); range 18,000 to 21,000	research	I77a	Eddy County Master Transportation Plan draft, Sept 2016	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:41	N	repeat: held by /case-studies/rv-boat-storage-texas-sba/ (case) and 4 more
+F31	21,000	Canal St AADT high end	research	I77a	Eddy County Master Transportation Plan draft, Sept 2016	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:41	N	other end of the 18,000 to 21,000 range: one figure
+F32	13.8%	Carlsbad persons in poverty	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:60	N	undated: 'QuickFacts current' (I86)
+F33	16.4%	New Mexico persons in poverty	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:60	N	undated: 'QuickFacts current' (I86)
+F34	40,863	Hobbs population (not-selected candidate)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:17	N	not the case market: candidate town not selected
+F35	14,211	Hobbs households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:17	N	not the case market
+F36	401,110	Caverns 5-year average visits (National Sites Guide)	research	none	National Sites Guide analysis of NPS data	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:133	N	average computed by a secondary analyst (I55); no dated publication
+F37	51,173	Caverns July average visits 2021-2025	research	none	National Sites Guide analysis of NPS data	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:137	N	monthly average computed by a secondary analyst (I55)
+F38	19,549	Caverns January average visits 2021-2025	research	none	National Sites Guide analysis of NPS data	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:137	N	monthly average computed by a secondary analyst (I55)
+F39	47th	Caverns rank among most-visited national parks 2025	research	I77b	Time Out, most-visited national parks 2025	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:134	N	ordinal rank, not a detectable figure form
+F40	1,100	WIPP employees	research	none	Carlsbad Department of Development	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:131	N	undated 'current page' (I86); one employer
+F41	348	Eddy County government employees	research	none	Carlsbad Department of Development	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:132	N	undated (I86); one employer
+F42	#2	Eddy County oil and gas rank (MineralAnswers)	research	none	MineralAnswers	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:129	N	secondary web page with a month of data, not a periodic document (I77)
+F43	30.201	Carlsbad in-city non-residential mill rate TY2025	research	I77a	NM DFA Certificate of Property Tax Rates TY2025	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:151	N	tax rate is a rule value
+F44	7.3958%	Carlsbad gross receipts tax rate	research	I77a	NM Taxation and Revenue rate schedule	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:161	N	tax rate is a rule value
+F45	$17,712,900	Western Commerce Bank FY2025 SBA approvals	research	none	SBARates.com	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:175	N	one lender; aggregator page with no as-of date
+F46	$78,159,000	Western Commerce Bank C&I portfolio, Q2 2025 call report	research	I77c	FDIC call report via DistressedPro	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:177	N	one firm's financials (I64 reading 'firm'); aggregator relay
+F47	$780,000	Subject asking price	research	none	CENTURY 21 Commercial	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:28	N	subject's own listing figure (I64)
+F48	$3.50	Laundry Basket 20 lb wash price	research	none	Operator website	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:79	N	one operator's posted price, retrieval-dated (I64, I69)
+F49	33	Laundry Basket washer count	research	none	Operator website	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:77	N	single named facility attribute (I64)
+F50	100	Top Coin machine count	research	none	Operator website	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:86	N	single named facility attribute (I64)
+F51	$250,000	BizBuySell NM laundromat listing	research	none	BizBuySell	CS-R-LAUNDROMAT-NEW-MEXICO-SBA:121	N	single listing, accessed Oct 2026 (I64, I69)
+G01	$212,600	median home value, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_home_value.json values[co-35015]	Y	
+G02	$1,245	median gross rent, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_gross_rent.json values[co-35015]	Y	
+G03	17,325 households	owner-occupied housing units, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_owner_occupied.json values[co-35015]	Y	
+G04	6,295 households	renter-occupied housing units, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_renter_occupied.json values[co-35015]	Y	
+G05	9,034 residents	population aged 65 and over, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_pop65.json values[co-35015]	Y	
+G06	29,197 workers	civilian labor force, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_labor_force.json values[co-35015]	Y	
+G07	1,606 workers	unemployed civilians, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_unemployed.json values[co-35015]	Y	
+G08	$4.82 billion	personal income, Eddy County NM (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_personal_income.json values[co-35015]	Y	
+G09	$78,406	personal income per capita, Eddy County NM (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_per_capita_income.json values[co-35015]	Y	
+G10	$2.32 billion	aggregate household income, Eddy County NM (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_aggregate_income.json values[co-35015]	Y	
+#SUMMARY laundromat-new-mexico-sba counted=32 research=22 register=10 verdict=PAGE engine=N notes=margin 2; 19 without three Wikipedia relays; 15 if state-page repeats also block (A4)

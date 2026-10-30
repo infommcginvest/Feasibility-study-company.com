@@ -1,0 +1,12 @@
+# GEO-5 t1 freeze 1 (2026-10-28T19:10Z)
+worktree HEAD 8b2a94f4c2f7e0e9d5ea2d7e1e81478a6f91a94f; local main a03f5624e2b42e7b055ca0693eea1428a83ed147
+copy: tmp/geo-5/t1 (archive of worktree HEAD, drafts placed, requests applied, neighbors5.py, patches/, chain run)
+source colorado 16c81ff9a210684e2b434ac5f8ec5c654c495d2561b57229bdb2b2eea3a1d5a7
+rendered /states/colorado/ 7cf9c1cc14826e3f07819f462943f7b5adcffb6902eb56097778fce46a35a8bd
+source colorado/denver f98aaaa9517b1b7c92460bbfc5e766a0774a62fc7c06ec0fc4f18292e57ece9f
+rendered /states/colorado/denver/ 6d03bebad564598acff24529b2342123cfeef299eb7605f806e9cc83cf7e136a
+src/pages/states tree b696a8e4484648916fb5c259aa2013f480c753cc7e80f0f78b96e4b6ca6b019c
+requests.json 7556f7deda9e2e9fc646b7b0f624f62586719eb84eb691c5cd202c53f8f8d785
+neighbors5.py 4deeb9aade645d62c97faf4924ac96266ea42efeabfe818cd785bc89edc6b34e
+patches/nova_links.py 4ddce4058d204c44732a7e9a3779418f25df42a1aa1a0c306c36653df9959664
+gates READY c1e1b85ee12fa874688c3f68c553f74afca868b997e772b156a2455b2d5771fb; landing 3,9 site-wide 641553bf44f99160ef58088a9facbc04eb5d4a73ba747f070afecfa3ba6f73ce

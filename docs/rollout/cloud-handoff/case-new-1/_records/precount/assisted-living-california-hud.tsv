@@ -1,0 +1,90 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	57,367	Lincoln city population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L52	Y	
+F02	39,355,309	California population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L53	Y	
+F03	39,555,703	California April 2020 estimates base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L53	Y	
+F04	-0.5%	California population change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L53	N	same value (and kind) printed on served page /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/
+F05	15.3%	Lincoln change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L54	N	same value (and kind) printed on served page /case-studies/gas-station-alabama-sba/
+F06	49,744	Lincoln April 2020 estimates base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L54	Y	
+F07	56,268	Lincoln population V2024	research	I77c	U.S. Census Bureau QuickFacts V2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L55	Y	
+F08	20,078	Lincoln households	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L56	Y	
+F09	2.63	Lincoln persons per household	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L57	N	same value (and kind) printed on served page /case-studies/assisted-living-texas-hud/
+F10	27.0%	Lincoln persons 65+	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L58	N	same value (and kind) printed on served page /research-notes/office-repurposing/
+F11	83.9%	Lincoln owner-occupied rate	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L61	N	same value (and kind) printed on served page /research-notes/break-even-occupancy-trap/
+F12	$651,000	Lincoln median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L62	Y	
+F13	40.1%	Lincoln bachelor degree or higher	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L63	Y	
+F14	3,977	Lincoln veterans	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L64	Y	
+F15	54.7%	Lincoln civilian labor force participation	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L65	N	same value (and kind) printed on served page /asset-classes/medical-office-and-asc/
+F16	63.0%	US civilian labor force participation	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L65	N	same value (and kind) printed on served page /research-notes/c-store-franchise-category/
+F17	24.17	Lincoln land area, sq mi	research	I77c	U.S. Census Bureau QuickFacts (2020 Census)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L66	Y	
+F18	$107,908	Lincoln median household income (Livability)	research	none	Livability	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L59	N	secondary, period unstated, conflicts with Data Commons
+F19	43.2	Lincoln median age (Data Commons)	research	none	Data Commons	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L60	N	secondary aggregator, "2024" is not a dated release
+F20	71,000	SR-65 AADT at Twelve Bridges, back	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L39	Y	
+F21	67,000	SR-65 AADT at Twelve Bridges, ahead	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L39	Y	
+F22	73,000	SR-65 peak-month AADT, back	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L39	Y	
+F23	70,000	SR-65 peak-month AADT, ahead	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L39	N	same value (and kind) printed on served page /research-notes/gas-station-demand-per-capita/
+F24	6,000	SR-65 peak-hour volume, back	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L39	N	same value (and kind) printed on served page /research-notes/five-usda-components-applied/
+F25	5,900	SR-65 peak-hour volume, ahead	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L39	Y	
+F26	65,000	SR-65 AADT at Industrial Ave, ahead	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L40	Y	
+F27	89,000	SR-65 AADT at Placer/Sunset Blvds, back	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L40	N	same value (and kind) printed on served page /case-studies/lodging-retreat-johnson-city-texas-sba/
+F28	84,000	SR-65 AADT at Placer/Sunset Blvds, ahead	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L40	N	same value (and kind) printed on served page /case-studies/multifamily-north-carolina-agency/
+F29	66,000	SR-65 AADT at Ferrari Ranch Rd, back	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L40	Y	
+F30	35,500	SR-65 AADT at Ferrari Ranch Rd, ahead	research	I77c	Caltrans Traffic_AADT FeatureServer, District 03 (2023 per layer metadata)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L40	Y	
+F31	162	Summerset Lincoln IL/AL capacity (licensed 28 Jan 2020)	research	I77a	Sun City Roseville Foundation; Assisted Living Magazine (license date)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L76	Y	
+F32	132	Summerset MC capacity	research	none	carelistings; Sun City Roseville Foundation	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L82	N	capacity undated (no license or release date given)
+F33	$5,800	Summerset IL/AL Seniorly estimate	research	none	Seniorly (per subagent)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L79	N	aggregator estimate, undated
+F34	105	Atria Rocklin licensed capacity (inspection 9 Aug 2023)	research	I77a	CDSS Community Care Licensing, Facility Evaluation Report LIC 809	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L88	N	same value (and kind) printed on served page /case-studies/lodging-retreat-johnson-city-texas-sba/
+F35	81	Atria Rocklin residents at inspection (9 Aug 2023)	research	I77a	CDSS Community Care Licensing, Facility Evaluation Report LIC 809	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L88	Y	
+F36	$5,350	Atria studio from-rate	research	none	Atria operator site (checked 15 Oct 2026)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L89	N	date is the researcher fetch date (I69)
+F37	$3,822	Atria one-bedroom from-rate	research	none	Atria operator site (checked 15 Oct 2026)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L89	N	date is the researcher fetch date (I69)
+F38	$42,000	Atria move-in incentive	research	none	Atria operator site	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L91	N	promotion ending 31 Oct, year not stated on the research row
+F39	100	Ansel Park capacity (license 13 Nov 2019)	research	I77a	CDSS Care Facility Search, Facility Detail	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L94	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F40	68	Ansel Park residents at inspection (11 Oct 2022)	research	I77a	CDSS LIC 809	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L95	Y	
+F41	157	Ivy at Blue Oaks beds (licensed 21 Nov 2024)	research	I77a	Assisted Living Magazine; carelistings (per subagent)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L97	Y	
+F42	98,137	Ivy at Blue Oaks building size, sf (completed 2024)	research	I77a	DesCor Builders project page	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L98	Y	
+F43	99	Gladding Ridge capacity, closed 28 Feb 2024	research	I77a	CDSS Facility Evaluation Report LIC 809	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L101	Y	
+F44	60	Gathering Inn medical respite beds (letter 21 Oct 2024)	research	I77a	City of Lincoln Letter to Residents	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L102	N	same value (and kind) printed on served page /asset-classes/quick-service-restaurant/
+F45	38	Gathering Inn RCFE residents, double occupancy (21 Oct 2024)	research	I77a	City of Lincoln Letter to Residents	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L102	N	same value (and kind) printed on served page /asset-classes/gas-station-and-c-store/
+F46	6,783	Sun City Lincoln Hills homes (page modified 31 Dec 2025)	research	I77a	55places.com	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L132	Y	
+F47	2,992	Sun City Lincoln Hills acres	research	I77a	55places.com	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L132	Y	
+F48	107	Carefield Lincoln planned units (21 Sep 2026)	research	I77a	Onsite Observer, 21 Sep 2026	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L116	Y	
+F49	155	Lincoln Retirement Residence suites (18 Jul 2024)	research	I77a	Citizen Portal summary of Planning Commission, 18 Jul 2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L120	Y	
+F50	153,000	Lincoln Retirement Residence building sf (18 Jul 2024)	research	I77a	Citizen Portal summary of Planning Commission, 18 Jul 2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L120	Y	
+F51	411	Dwelling units permitted in Lincoln in 2025	research	I77a	Citizen Portal summary of Lincoln PC APR, 18 Feb 2026	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L122	Y	
+F52	5,120	Lincoln RHNA 6th cycle units	research	I77a	Citizen Portal summary of Lincoln PC APR, 18 Feb 2026	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L122	Y	
+F53	165	Windsor Cove homes	research	none	Onsite Observer	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L123	N	undated (2026), no release date on the research row
+F54	0.726300	Placer unitary debt service rate, TRA 000-001 (FY2025/26)	research	I77a	Placer County Resolutions 2025-181 and 2025-189 (snippet)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L148	Y	
+F55	1.0345%	Combined rate, Lincoln/Western Placer Unified zone (2025/26)	research	I77c	CA Property Checker (secondary)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L149	Y	
+F56	27.8326%	City of Lincoln AB8 share of 1% levy (FY2025/26)	research	I77c	Placer County, 2025/26 Allocation of 1% Tax Rate	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L152	Y	
+F57	7.25%	Placer County sales tax rate	research	none	Avalara	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L153	N	undated 2026 page
+F58	1.000000%	Prop 13 base levy	research	I77c	Placer County Resolutions 2025-181 and 2025-189	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L148	N	statutory base rate (Prop 13), not a market figure
+F59	$8.1 billion	HUD 232 FY2025 firm commitments	research	I77c	McKnight's Senior Living, reporting HUD (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L165	N	same value (and kind) printed on served page /case-studies/assisted-living-texas-hud/
+F60	$4.1 billion	HUD 232 FY2024 firm commitments	research	I77c	McKnight's Senior Living, reporting HUD (FY2024)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L165	N	same value (and kind) printed on served page /case-studies/assisted-living-texas-hud/
+F61	$6 billion	HUD 232 FY2025 closings	research	I77c	McKnight's Senior Living, reporting HUD (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L166	N	same value (and kind) printed on served page /asset-classes/marina/
+F62	337	HUD 232 loans closed in FY2025	research	I77c	McKnight's Senior Living; Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L166	Y	
+F63	130	HUD 232 applications pending at start of FY2025	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L167	N	bare number with no counted unit word; not a countable figure
+F64	29	HUD 232 applications pending at end of FY2025	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L167	N	bare number with no counted unit word; not a countable figure
+F65	329	HUD 232/223(f) loans in FY2025	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L168	Y	
+F66	$130M	Forbright FY2025 HUD 232 volume	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L169	Y	
+F67	$250M	Forbright FY2026 HUD 232 expectation	research	none	Seniors Housing Business	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L169	N	projection
+F68	$20.7M	Lument two California 232/223 refinances (11 Apr 2025)	research	I77a	Lument press release, 11 Apr 2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L170	Y	
+F69	36	Crescent Oaks MC beds, Sunnyvale	research	I77a	Lument press release, 11 Apr 2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L170	N	same value (and kind) printed on served page /research-notes/underserved-gas-station-markets/
+F70	43	Silver Oaks MC beds, Menlo Park	research	I77a	Lument press release, 11 Apr 2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L170	Y	
+F71	$29M	Berkadia Bakersfield 232/223(f) loan (10 Dec 2024)	research	I77a	Berkadia release via Wolf Media USA, 10 Dec 2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L171	N	same value (and kind) printed on served page /case-studies/multifamily-new-york-agency/
+F72	117	Berkadia Bakersfield AL/MC units	research	I77a	Berkadia release via Wolf Media USA, 10 Dec 2024	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L171	Y	
+F73	$17.0M	Berkadia Vacaville bridge-to-HUD loan (3 Sep 2025)	research	I77a	Berkadia release via Wolf Media USA, 3 Sep 2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L172	N	same value (and kind) printed on served page /case-studies/hotel-texas-sba/
+F74	122	Berkadia Vacaville AL/MC beds	research	I77a	Berkadia release via Wolf Media USA, 3 Sep 2025	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L172	Y	
+F75	$29.25M	Berkadia Southern California bridge loan	research	none	Berkadia news	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L173	N	release date not on the research row ("2025-2026")
+F76	$49 Million	Greystone California HUD loan	research	none	Greystone Healthcare Financing page	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L174	N	date not shown
+F77	$1,130,000	Subject listing asking price	research	none	CBRE	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L29	N	subject listing figure
+F78	1.3	Subject acreage	research	none	CBRE	CS-R-ASSISTED-LIVING-CALIFORNIA-HUD:L28	N	single-property attribute
+F79	86	Placer County assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[co-06061][assisted-living-and-memory-care]	Y	
+F80	1,279	Placer County assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[co-06061][assisted-living-and-memory-care]	Y	
+F81	2.03	Placer County assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[co-06061][assisted-living-and-memory-care]	Y	
+F82	3,755	California assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[ca][assisted-living-and-memory-care]	Y	
+F83	62,325	California assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[ca][assisted-living-and-memory-care]	Y	
+F84	0.96	California assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[ca][assisted-living-and-memory-care]	Y	
+F85	85,822	Placer County population 65+ (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_pop65.json values[co-06061]	Y	
+F86	$115,998	Placer County median household income (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_hh_income.json values[co-06061]	Y	
+F87	$688,100	Placer County median home value (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_home_value.json values[co-06061]	Y	
+F88	$87,751	Placer County BEA per capita income (calendar year 2024)	register	I77c	register: bea_cainc1_api	data/markets/series/bea_per_capita_income.json values[co-06061]	Y	
+#SUMMARY assisted-living-california-hud counted=50 research=40 register=10 verdict=PAGE engine=N notes=FY2025 HUD loan counts counted here only in batch; subject, aggregator, fetch-dated rows excluded

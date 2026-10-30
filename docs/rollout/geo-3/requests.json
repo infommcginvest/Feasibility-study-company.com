@@ -1,0 +1,526 @@
+{
+ "lane": "geo-3",
+ "requests": [
+  {
+   "id": "geo-3-1",
+   "kind": "promised",
+   "urls": [
+    "/states/ohio/cleveland/",
+    "/states/ohio/cincinnati/",
+    "/states/ohio/dayton/",
+    "/states/ohio/toledo/",
+    "/states/ohio/akron/",
+    "/states/ohio/canton/",
+    "/states/ohio/youngstown/"
+   ]
+  },
+  {
+   "id": "geo-3-2",
+   "kind": "folded",
+   "url": "/states/ohio/columbus/",
+   "target": "/states/ohio/#columbus"
+  },
+  {
+   "id": "geo-3-3",
+   "kind": "folded",
+   "url": "/states/ohio/cleveland/",
+   "target": "/states/ohio/#cleveland"
+  },
+  {
+   "id": "geo-3-4",
+   "kind": "folded",
+   "url": "/states/ohio/cincinnati/",
+   "target": "/states/ohio/#cincinnati"
+  },
+  {
+   "id": "geo-3-5",
+   "kind": "folded",
+   "url": "/states/ohio/dayton/",
+   "target": "/states/ohio/#dayton"
+  },
+  {
+   "id": "geo-3-6",
+   "kind": "folded",
+   "url": "/states/ohio/toledo/",
+   "target": "/states/ohio/#toledo"
+  },
+  {
+   "id": "geo-3-7",
+   "kind": "folded",
+   "url": "/states/ohio/akron/",
+   "target": "/states/ohio/#akron"
+  },
+  {
+   "id": "geo-3-8",
+   "kind": "folded",
+   "url": "/states/ohio/canton/",
+   "target": "/states/ohio/#canton"
+  },
+  {
+   "id": "geo-3-9",
+   "kind": "folded",
+   "url": "/states/ohio/youngstown/",
+   "target": "/states/ohio/#youngstown"
+  },
+  {
+   "id": "geo-3-10",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/ohio/",
+   "label": "Ohio",
+   "line": "Columbus growth, the Intel site in Licking County, and the liquor quota, tank fund and AEP tariff a study must clear."
+  },
+  {
+   "id": "geo-3-minnesota-1",
+   "kind": "folded",
+   "url": "/states/minnesota/minneapolis-st-paul/",
+   "target": "/states/minnesota/#minneapolis-st-paul"
+  },
+  {
+   "id": "geo-3-minnesota-2",
+   "kind": "folded",
+   "url": "/states/minnesota/rochester/",
+   "target": "/states/minnesota/#rochester"
+  },
+  {
+   "id": "geo-3-minnesota-3",
+   "kind": "folded",
+   "url": "/states/minnesota/duluth/",
+   "target": "/states/minnesota/#duluth"
+  },
+  {
+   "id": "geo-3-minnesota-4",
+   "kind": "folded",
+   "url": "/states/minnesota/brainerd/",
+   "target": "/states/minnesota/#brainerd"
+  },
+  {
+   "id": "geo-3-minnesota-5",
+   "kind": "folded",
+   "url": "/states/minnesota/rosemount/",
+   "target": "/states/minnesota/#rosemount"
+  },
+  {
+   "id": "geo-3-minnesota-6",
+   "kind": "folded",
+   "url": "/states/minnesota/st-cloud/",
+   "target": "/states/minnesota/#st-cloud"
+  },
+  {
+   "id": "geo-3-minnesota-7",
+   "kind": "folded",
+   "url": "/states/minnesota/iron-range/",
+   "target": "/states/minnesota/#iron-range"
+  },
+  {
+   "id": "geo-3-minnesota-8",
+   "kind": "folded",
+   "url": "/states/minnesota/mankato/",
+   "target": "/states/minnesota/#mankato"
+  },
+  {
+   "id": "geo-3-kansas-1",
+   "kind": "promised",
+   "urls": [
+    "/states/kansas/wichita/",
+    "/states/kansas/kansas-city-ks/",
+    "/states/kansas/topeka/",
+    "/states/kansas/lawrence/",
+    "/states/kansas/manhattan/",
+    "/states/kansas/salina/",
+    "/states/kansas/garden-city/",
+    "/states/kansas/hays/"
+   ]
+  },
+  {
+   "id": "geo-3-kansas-2",
+   "kind": "folded",
+   "url": "/states/kansas/wichita/",
+   "target": "/states/kansas/#wichita"
+  },
+  {
+   "id": "geo-3-kansas-3",
+   "kind": "folded",
+   "url": "/states/kansas/kansas-city-ks/",
+   "target": "/states/kansas/#kansas-city-ks"
+  },
+  {
+   "id": "geo-3-kansas-4",
+   "kind": "folded",
+   "url": "/states/kansas/topeka/",
+   "target": "/states/kansas/#topeka"
+  },
+  {
+   "id": "geo-3-kansas-5",
+   "kind": "folded",
+   "url": "/states/kansas/lawrence/",
+   "target": "/states/kansas/#lawrence"
+  },
+  {
+   "id": "geo-3-kansas-6",
+   "kind": "folded",
+   "url": "/states/kansas/manhattan/",
+   "target": "/states/kansas/#manhattan"
+  },
+  {
+   "id": "geo-3-kansas-7",
+   "kind": "folded",
+   "url": "/states/kansas/salina/",
+   "target": "/states/kansas/#salina"
+  },
+  {
+   "id": "geo-3-kansas-8",
+   "kind": "folded",
+   "url": "/states/kansas/garden-city/",
+   "target": "/states/kansas/#garden-city"
+  },
+  {
+   "id": "geo-3-kansas-9",
+   "kind": "folded",
+   "url": "/states/kansas/hays/",
+   "target": "/states/kansas/#hays"
+  },
+  {
+   "id": "geo-3-kansas-10",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/kansas/",
+   "label": "Kansas",
+   "line": "Wichita aircraft payrolls, the Kansas side of Kansas City, and guest-tax and care-licensing rules a study must clear."
+  },
+  {
+   "id": "geo-3-nebraska-1",
+   "kind": "promised",
+   "urls": [
+    "/states/nebraska/omaha/",
+    "/states/nebraska/lincoln/",
+    "/states/nebraska/grand-island/",
+    "/states/nebraska/kearney/",
+    "/states/nebraska/north-platte/",
+    "/states/nebraska/scottsbluff/",
+    "/states/nebraska/norfolk/",
+    "/states/nebraska/columbus/"
+   ]
+  },
+  {
+   "id": "geo-3-nebraska-2",
+   "kind": "folded",
+   "url": "/states/nebraska/omaha/",
+   "target": "/states/nebraska/#omaha"
+  },
+  {
+   "id": "geo-3-nebraska-3",
+   "kind": "folded",
+   "url": "/states/nebraska/lincoln/",
+   "target": "/states/nebraska/#lincoln"
+  },
+  {
+   "id": "geo-3-nebraska-4",
+   "kind": "folded",
+   "url": "/states/nebraska/grand-island/",
+   "target": "/states/nebraska/#grand-island"
+  },
+  {
+   "id": "geo-3-nebraska-5",
+   "kind": "folded",
+   "url": "/states/nebraska/kearney/",
+   "target": "/states/nebraska/#kearney"
+  },
+  {
+   "id": "geo-3-nebraska-6",
+   "kind": "folded",
+   "url": "/states/nebraska/north-platte/",
+   "target": "/states/nebraska/#north-platte"
+  },
+  {
+   "id": "geo-3-nebraska-7",
+   "kind": "folded",
+   "url": "/states/nebraska/scottsbluff/",
+   "target": "/states/nebraska/#scottsbluff"
+  },
+  {
+   "id": "geo-3-nebraska-8",
+   "kind": "folded",
+   "url": "/states/nebraska/norfolk/",
+   "target": "/states/nebraska/#norfolk"
+  },
+  {
+   "id": "geo-3-nebraska-9",
+   "kind": "folded",
+   "url": "/states/nebraska/columbus/",
+   "target": "/states/nebraska/#columbus"
+  },
+  {
+   "id": "geo-3-nebraska-10",
+   "kind": "index_entry",
+   "index": "/states/",
+   "url": "/states/nebraska/",
+   "label": "Nebraska",
+   "line": "Omaha and Lincoln growth, the meat-plant towns of the Platte, and the disaster record of 2025 to 2026."
+  },
+  {
+   "id": "geo-3-wisconsin-1",
+   "kind": "folded",
+   "url": "/states/wisconsin/milwaukee/",
+   "target": "/states/wisconsin/#milwaukee"
+  },
+  {
+   "id": "geo-3-wisconsin-2",
+   "kind": "folded",
+   "url": "/states/wisconsin/madison/",
+   "target": "/states/wisconsin/#madison"
+  },
+  {
+   "id": "geo-3-wisconsin-3",
+   "kind": "folded",
+   "url": "/states/wisconsin/green-bay/",
+   "target": "/states/wisconsin/#green-bay"
+  },
+  {
+   "id": "geo-3-wisconsin-4",
+   "kind": "folded",
+   "url": "/states/wisconsin/kenosha-racine/",
+   "target": "/states/wisconsin/#kenosha-racine"
+  },
+  {
+   "id": "geo-3-wisconsin-5",
+   "kind": "folded",
+   "url": "/states/wisconsin/eau-claire/",
+   "target": "/states/wisconsin/#eau-claire"
+  },
+  {
+   "id": "geo-3-wisconsin-6",
+   "kind": "folded",
+   "url": "/states/wisconsin/wisconsin-dells/",
+   "target": "/states/wisconsin/#wisconsin-dells"
+  },
+  {
+   "id": "geo-3-wisconsin-7",
+   "kind": "folded",
+   "url": "/states/wisconsin/wausau/",
+   "target": "/states/wisconsin/#wausau"
+  },
+  {
+   "id": "geo-3-missouri-1",
+   "kind": "folded",
+   "url": "/states/missouri/st-louis/",
+   "target": "/states/missouri/#st-louis"
+  },
+  {
+   "id": "geo-3-missouri-2",
+   "kind": "folded",
+   "url": "/states/missouri/branson/",
+   "target": "/states/missouri/#branson"
+  },
+  {
+   "id": "geo-3-missouri-3",
+   "kind": "folded",
+   "url": "/states/missouri/columbia/",
+   "target": "/states/missouri/#columbia"
+  },
+  {
+   "id": "geo-3-missouri-4",
+   "kind": "folded",
+   "url": "/states/missouri/springfield/",
+   "target": "/states/missouri/#springfield"
+  },
+  {
+   "id": "geo-3-missouri-5",
+   "kind": "folded",
+   "url": "/states/missouri/st-joseph/",
+   "target": "/states/missouri/#st-joseph"
+  },
+  {
+   "id": "geo-3-missouri-6",
+   "kind": "folded",
+   "url": "/states/missouri/jefferson-city/",
+   "target": "/states/missouri/#jefferson-city"
+  },
+  {
+   "id": "geo-3-missouri-7",
+   "kind": "folded",
+   "url": "/states/missouri/kansas-city/",
+   "target": "/states/missouri/#kansas-city"
+  },
+  {
+   "id": "geo-3-michigan-1",
+   "kind": "folded",
+   "url": "/states/michigan/grand-rapids/",
+   "target": "/states/michigan/#grand-rapids"
+  },
+  {
+   "id": "geo-3-michigan-2",
+   "kind": "folded",
+   "url": "/states/michigan/ann-arbor/",
+   "target": "/states/michigan/#ann-arbor"
+  },
+  {
+   "id": "geo-3-michigan-3",
+   "kind": "folded",
+   "url": "/states/michigan/lansing/",
+   "target": "/states/michigan/#lansing"
+  },
+  {
+   "id": "geo-3-michigan-4",
+   "kind": "folded",
+   "url": "/states/michigan/kalamazoo/",
+   "target": "/states/michigan/#kalamazoo"
+  },
+  {
+   "id": "geo-3-michigan-5",
+   "kind": "folded",
+   "url": "/states/michigan/flint/",
+   "target": "/states/michigan/#flint"
+  },
+  {
+   "id": "geo-3-michigan-6",
+   "kind": "folded",
+   "url": "/states/michigan/traverse-city/",
+   "target": "/states/michigan/#traverse-city"
+  },
+  {
+   "id": "geo-3-michigan-7",
+   "kind": "folded",
+   "url": "/states/michigan/upper-peninsula/",
+   "target": "/states/michigan/#upper-peninsula"
+  },
+  {
+   "id": "geo-3-indiana-1",
+   "kind": "folded",
+   "url": "/states/indiana/carmel/",
+   "target": "/states/indiana/indianapolis/#collar"
+  },
+  {
+   "id": "geo-3-indiana-2",
+   "kind": "folded",
+   "url": "/states/indiana/fort-wayne/",
+   "target": "/states/indiana/#fort-wayne"
+  },
+  {
+   "id": "geo-3-indiana-3",
+   "kind": "folded",
+   "url": "/states/indiana/northwest-indiana/",
+   "target": "/states/indiana/#northwest-indiana"
+  },
+  {
+   "id": "geo-3-indiana-4",
+   "kind": "folded",
+   "url": "/states/indiana/elkhart/",
+   "target": "/states/indiana/#elkhart"
+  },
+  {
+   "id": "geo-3-indiana-5",
+   "kind": "folded",
+   "url": "/states/indiana/warsaw/",
+   "target": "/states/indiana/#warsaw"
+  },
+  {
+   "id": "geo-3-indiana-6",
+   "kind": "folded",
+   "url": "/states/indiana/bloomington/",
+   "target": "/states/indiana/#bloomington"
+  },
+  {
+   "id": "geo-3-indiana-7",
+   "kind": "folded",
+   "url": "/states/indiana/kokomo/",
+   "target": "/states/indiana/#kokomo"
+  },
+  {
+   "id": "geo-3-illinois-1",
+   "kind": "folded",
+   "url": "/states/illinois/peoria/",
+   "target": "/states/illinois/#peoria"
+  },
+  {
+   "id": "geo-3-illinois-2",
+   "kind": "folded",
+   "url": "/states/illinois/rockford/",
+   "target": "/states/illinois/#rockford"
+  },
+  {
+   "id": "geo-3-illinois-3",
+   "kind": "folded",
+   "url": "/states/illinois/springfield/",
+   "target": "/states/illinois/#springfield"
+  },
+  {
+   "id": "geo-3-illinois-4",
+   "kind": "folded",
+   "url": "/states/illinois/champaign-urbana/",
+   "target": "/states/illinois/#champaign-urbana"
+  },
+  {
+   "id": "geo-3-illinois-5",
+   "kind": "folded",
+   "url": "/states/illinois/bloomington-normal/",
+   "target": "/states/illinois/#bloomington-normal"
+  },
+  {
+   "id": "geo-3-illinois-6",
+   "kind": "folded",
+   "url": "/states/illinois/quad-cities/",
+   "target": "/states/illinois/#quad-cities"
+  },
+  {
+   "id": "geo-3-illinois-7",
+   "kind": "folded",
+   "url": "/states/illinois/metro-east/",
+   "target": "/states/illinois/#metro-east"
+  },
+  {
+   "id": "geo-3-illinois-8",
+   "kind": "folded",
+   "url": "/states/illinois/chicago/",
+   "target": "/states/illinois/#chicago"
+  },
+  {
+   "id": "geo-3-iowa-1",
+   "kind": "folded",
+   "url": "/states/iowa/cedar-rapids/",
+   "target": "/states/iowa/#cedar-rapids"
+  },
+  {
+   "id": "geo-3-iowa-2",
+   "kind": "folded",
+   "url": "/states/iowa/iowa-city/",
+   "target": "/states/iowa/#iowa-city"
+  },
+  {
+   "id": "geo-3-iowa-3",
+   "kind": "folded",
+   "url": "/states/iowa/waterloo-cedar-falls/",
+   "target": "/states/iowa/#waterloo-cedar-falls"
+  },
+  {
+   "id": "geo-3-iowa-4",
+   "kind": "folded",
+   "url": "/states/iowa/ames/",
+   "target": "/states/iowa/#ames"
+  },
+  {
+   "id": "geo-3-iowa-5",
+   "kind": "folded",
+   "url": "/states/iowa/council-bluffs/",
+   "target": "/states/iowa/#council-bluffs"
+  },
+  {
+   "id": "geo-3-iowa-6",
+   "kind": "folded",
+   "url": "/states/iowa/quad-cities/",
+   "target": "/states/iowa/#quad-cities"
+  },
+  {
+   "id": "geo-3-iowa-7",
+   "kind": "folded",
+   "url": "/states/iowa/sioux-city/",
+   "target": "/states/iowa/#sioux-city"
+  },
+  {
+   "id": "geo-3-iowa-8",
+   "kind": "folded",
+   "url": "/states/iowa/des-moines/",
+   "target": "/states/iowa/#des-moines"
+  }
+ ]
+}

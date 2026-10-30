@@ -1,0 +1,47 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+K01	1,722	Kerhonkson CDP population, 2020 Census	research	I77c	Kiddle/Wikipedia reference entry citing 2020 Census	CS-Q-KERHONKSON-NEW-YORK-RETREAT:56	Y	
+K02	183,330	Ulster County population 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Ulster County (V2025)	CS-Q-KERHONKSON-NEW-YORK-RETREAT:57	Y	
+K03	181,851	Ulster County 2020 Census	research	I77c	U.S. Census Bureau QuickFacts Ulster County (V2025)	CS-Q-KERHONKSON-NEW-YORK-RETREAT:57	Y	
+K04	0.8%	Ulster County population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts Ulster County (V2025)	CS-Q-KERHONKSON-NEW-YORK-RETREAT:61	Y	note: same string on asset-classes/hotel/index.html (+15), different measure; kept
+K05	52%	Minnewaska visitors from outside surrounding counties (2014 survey, published 14 Apr 2015)	research	I77a	Open Space Institute, The Pulse of Parks, 14 Apr 2015	CS-Q-KERHONKSON-NEW-YORK-RETREAT:64	Y	
+K06	$12,000,000	Hudson Valley Resort transfer 31 Jul 2023 (Ulster County Clerk records as reported)	research	I77a	WPDH 23 Aug 2023	CS-Q-KERHONKSON-NEW-YORK-RETREAT:76	Y	
+K07	$15,000,000	Hudson Valley Resort listing withdrawn 1 Sep 2025 (competitor, not subject)	research	none	BHHS Hudson Valley Properties MLS 20250193	CS-Q-KERHONKSON-NEW-YORK-RETREAT:125	N	broker listing page; off-market status date is not a publication date (same listing gives the 232 rooms and 550 acres)
+K08	520,000	Minnewaska visitors 2024 (more than)	research	I77a	Open Space Institute, 25 Aug 2025	CS-Q-KERHONKSON-NEW-YORK-RETREAT:133	Y	note: same string on case-studies/car-wash-texas-sba/index.html (+1), different measure; kept
+K09	23,974	Minnewaska acres after Aug 2025 addition	research	I77a	Office of the Governor, 1 Aug 2025	CS-Q-KERHONKSON-NEW-YORK-RETREAT:135	Y	
+K10	291	Acres added to Minnewaska Aug 2025	research	I77a	Office of the Governor, 1 Aug 2025	CS-Q-KERHONKSON-NEW-YORK-RETREAT:135	Y	
+K11	4%	Ulster County hotel occupancy tax (also state 4% and county 4% sales tax)	research	I77a	Ulster County Dept. of Finance; Local Law No. 1 of 2024 (eff. 1 Jan 2024)	CS-Q-KERHONKSON-NEW-YORK-RETREAT:140	Y	note: same string on asset-classes/hotel/index.html (+11), different measure; kept
+K12	8%	Ulster County combined sales tax, eff. 1 Mar 2025	research	I77b	NYS Dept. of Taxation and Finance, Publication 718 (2/25)	CS-Q-KERHONKSON-NEW-YORK-RETREAT:162	Y	
+K13	50	Grossinger's redevelopment Phase 1: 50-room hotel and 50 cottages	research	I77a	Rockland County Business Journal 20 Jul 2026	CS-Q-KERHONKSON-NEW-YORK-RETREAT:122	Y	
+K14	6,859	SUNY New Paltz undergraduates 2024-25	research	I77b	NYSED Data Site, 2025 SUNY New Paltz Enrollment Data	CS-Q-KERHONKSON-NEW-YORK-RETREAT:142	Y	
+K15	6,083	SUNY New Paltz degree-seeking undergraduates	research	I77b	NYSED Data Site, 2025 SUNY New Paltz Enrollment Data	CS-Q-KERHONKSON-NEW-YORK-RETREAT:142	Y	
+K16	1,036	SUNY New Paltz graduate students	research	I77b	NYSED Data Site, 2025 SUNY New Paltz Enrollment Data	CS-Q-KERHONKSON-NEW-YORK-RETREAT:142	Y	
+K17	$3.5 billion	USDA B&I FY2025 allotment (highest in program history)	research	I77a	House Agriculture hearing testimony 18 Sep 2025	CS-Q-KERHONKSON-NEW-YORK-RETREAT:180	Y	note: same string on asset-classes/auto-service-and-collision/index.html (+2), different measure; kept
+K18	$8.1 million	USDA B&I average loan size 2024	research	I77a	House Agriculture hearing testimony 18 Sep 2025	CS-Q-KERHONKSON-NEW-YORK-RETREAT:180	Y	note: same string on asset-classes/rv-and-boat-storage/index.html (+6), different measure; kept
+K19	59.29%	USDA B&I loans in Opportunity Zones, increase 2018-2025	research	I77a	House Agriculture hearing testimony 18 Sep 2025	CS-Q-KERHONKSON-NEW-YORK-RETREAT:180	Y	
+K20	1 million	Minnewaska "more than a million visitors a year" (PIPC director quote)	research	none	Open Space Institute	CS-Q-KERHONKSON-NEW-YORK-RETREAT:134	N	conflicts with 520,000; researcher treats as unresolved and not usable
+K21	232	Hudson Valley Resort 232 functioning rooms, 550 acres (also 270, 332)	research	none	BHHS sale listing	CS-Q-KERHONKSON-NEW-YORK-RETREAT:73-74	N	listing attribute, year only ("2025"), room count conflicts across sources
+K22	$229	Hudson Valley Resort OTA rate, Oct 16-17 2026; Inness $949/$1,108; Tripadvisor ranges	research	none	Hotels.com; Tripadvisor	CS-Q-KERHONKSON-NEW-YORK-RETREAT:77,84,106	N	dated only by researcher fetch
+K23	$225	Sivananda posted rates $225/$175/$160/$130/$100 per person per night	research	none	Sivananda Yoga Ranch	CS-Q-KERHONKSON-NEW-YORK-RETREAT:99	N	checked-date only (Oct 2026)
+K24	40	Inness 40 keys, 225 acres, completed 2021; AOS R&R 25 guests; Wildflower 65 keys; Mohonk 259 rooms	research	none	operator sites, Post Company, Auberge	CS-Q-KERHONKSON-NEW-YORK-RETREAT:81-111	N	undated attributes of competitors
+K25	79	Vrbo cabin rentals in Kerhonkson, $244-$438	research	none	Vrbo	CS-Q-KERHONKSON-NEW-YORK-RETREAT:112	N	retrieval date only (Oct-Nov 2026)
+K26	$7,981,250	Crexi: 4 hotels listed, average ask, total $31,925,000, 64,037 SF	research	none	Crexi	CS-Q-KERHONKSON-NEW-YORK-RETREAT:113	N	retrieval date only (Oct 2026)
+K27	$381	STAR comparison, Rondout Valley CSD: $381, $1,066, $388, $1,088	research	I77b	NYS Dept. of Taxation and Finance	CS-Q-KERHONKSON-NEW-YORK-RETREAT:160	N	residential STAR relief schedule, rule values, not a commercial retreat market figure
+K28	50 attendees	Wawarsing event venue rules: 3 acres minimum, 50 attendees per acre; 30-day stay limit	research	I77a	Town of Wawarsing Code Ch. 112	CS-Q-KERHONKSON-NEW-YORK-RETREAT:151-153	N	zoning rule values
+K29	~90 minutes	Distance to Manhattan	research	I77a	Open Space Institute	CS-Q-KERHONKSON-NEW-YORK-RETREAT:138	N	approximate drive time, not a dated market measure
+K30	85%	USDA B&I guarantee 85% under $5M, 80% above; $25 million per-borrower cap; fee rates (FR 91 FR 11272)	research	I77a	USDA RD; Federal Register	CS-Q-KERHONKSON-NEW-YORK-RETREAT:176-181	N	USDA program rule values
+K31	$8,250,000	Subject listing: Colonial Motel, 93.53 acres, 20+17 rooms, $9,000,000 variant, 11.2% cap, assessment $452,300, taxes $13,324.03	research	none	Century 21 Commercial; LoopNet; Realty.com; RE/MAX	CS-Q-KERHONKSON-NEW-YORK-RETREAT:22-34	N	subject listing figures (real subject)
+K32	$825,000	Fallback site 300 Mt Laurel Rd: 55 acres, taxes $3,614	research	none	McLauchlen listing	CS-Q-KERHONKSON-NEW-YORK-RETREAT:44	N	listing figures of a candidate site
+K33	2.7	Colonial Motel 2.7 stars from 45 reviews; Yelp 1.5 (70 reviews); Hotels.com 5.2/10	research	none	directories	CS-Q-KERHONKSON-NEW-YORK-RETREAT:78,95	N	undated review scores
+R01	51	Hotel and motel establishments, Ulster County, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[co-36111][hotel]	Y	note: same string on asset-classes/childcare-and-daycare/index.html, different measure; kept
+R02	2,033	Hotel and motel employees, Ulster County, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_emp.json values[co-36111][hotel]	Y	
+R03	2,362	Hotel and motel establishments, New York, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[ny][hotel]	N	value already on states/new-york/index.html (hotel and motel establishments, CBP 2023, same measure)
+R04	589	Hotel and motel 7(a) loans approved, New York, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_loans.json values[ny][hotel]	Y	
+R05	258	Hotel and motel 504 loans approved, New York, all years to 2026-06-30	register	I77c	SBA FOIA 504 as of 2026-06-30	data/markets/series/sba504_loans.json values[ny][hotel]	Y	note: same string on case-studies/rv-park-ossipee-new-hampshire-usda/index.html, different measure; kept
+R06	$86,271	Median household income, Ulster County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_hh_income.json values[co-36111]	Y	
+R07	$352,500	Median home value, Ulster County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_home_value.json values[co-36111]	Y	
+R08	$69,090	Per capita personal income, Ulster County, 2024	register	I77c	BEA county personal income 2024	data/markets/series/bea_per_capita_income.json values[co-36111]	Y	
+R09	$1,425	Median gross rent, Ulster County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_gross_rent.json values[co-36111]	Y	
+R10	5.4%	Unemployment rate, Ulster County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_unemployment_rate.json values[co-36111]	Y	note: same string on asset-classes/express-car-wash/index.html, different measure; kept
+R11	241	Hotel and motel establishments, Hudson Valley market, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[new-york/hudson-valley][hotel]	Y	
+R12	$85,552	Per capita personal income, New York, 2024	register	I77c	BEA state personal income 2024	data/markets/series/bea_per_capita_income.json values[ny]	N	over the 10-figure register cap
+#SUMMARY retreat-center-kerhonkson-new-york-usda counted=28 research=18 register=10 verdict=FOLD engine=N notes=Research 18 under the 20 floor, total under 30 even with 10 register; rest is listings, undated and rules.

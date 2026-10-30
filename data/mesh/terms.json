@@ -349,6 +349,13 @@
       ]
     },
     {
+      "key": "state-montana",
+      "target": "/states/montana/",
+      "terms": [
+        "Montana"
+      ]
+    },
+    {
       "key": "state-nevada",
       "target": "/states/nevada/",
       "terms": [
@@ -409,6 +416,13 @@
       "target": "/states/pennsylvania/",
       "terms": [
         "Pennsylvania"
+      ]
+    },
+    {
+      "key": "state-rhode-island",
+      "target": "/states/rhode-island/",
+      "terms": [
+        "Rhode Island"
       ]
     },
     {
@@ -729,6 +743,46 @@
         "strip center"
       ],
       "ignore_case": true
+    },
+    {
+      "key": "metro-denver",
+      "target": "/states/colorado/denver/",
+      "terms": [
+        "Denver"
+      ]
+    },
+    {
+      "key": "hub-skilled-nursing",
+      "target": "/asset-classes/skilled-nursing/",
+      "terms": [
+        "skilled nursing facility",
+        "skilled nursing facilities",
+        "skilled nursing",
+        "nursing home",
+        "nursing homes"
+      ],
+      "ignore_case": true
+    },
+    {
+      "key": "state-north-dakota",
+      "target": "/states/north-dakota/",
+      "terms": [
+        "North Dakota"
+      ]
+    },
+    {
+      "key": "state-alaska",
+      "target": "/states/alaska/",
+      "terms": [
+        "Alaska"
+      ]
+    },
+    {
+      "key": "state-district-of-columbia",
+      "target": "/states/district-of-columbia/",
+      "terms": [
+        "District of Columbia"
+      ]
     }
   ]
 }

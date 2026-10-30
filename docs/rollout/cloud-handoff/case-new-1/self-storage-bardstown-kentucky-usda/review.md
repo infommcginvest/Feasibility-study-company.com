@@ -1,0 +1,16 @@
+C1 | hero_sub, market-conclusion, competitors h2/prose/table/"What the table shows", revenue (cc and du rent), risks 3, FAQ "no rents", case.json inputs nrsf_cc/nrsf_du/cc_rate/du_rate/payroll/du_occ | counts "five operators", "two advertise climate control", "three of the five", "three sites", "at least a dozen" rest on operator-site checks (research sec. 3: "Sites were checked October 12-15, 2026"; builder fetch 29 Oct) and the Lock N Key row is "product not verified" in the research | name Heartland and Bluegrass, say "the others", "multiple sites", "many more in directories"; no count
+C1 | competitors table, Heartland row | "opening in December 2010" is an operator-site claim, no publication date (research row 1 Year opened) | delete clause
+C1 | competitors table, Stor-All / Maywood / Bluegrass / Lock N Key rows | unit sizes (5 by 10 to 15 by 35, 50 to 525 sq ft, 10 by 10 to 20 by 20) and "24-hour" are operator-site facts dated only by the retrieval or 29 Oct fetch | replace with "a range of sizes", "round-the-clock access"
+C1 | sources 19 to 23 and 20 title | source dates are the 29 Oct fetch; title "24/7" comes from the fetch | keep the entries (no figure rests on them), retitle Bluegrass without a number
+C2 | demand prose and table, Heaven Hill row | $135 million is one named facility's investment (research sec. 5 row, Jun 6, 2022) | wrap in data-fsc-nocount
+C2 | demand prose and table, Bardstown Bourbon Company row | $28.7 million and 55,000 barrels are one named facility's investment and capacity | wrap in data-fsc-nocount
+C2 | loan, "program's own risks" | $9.95 million loan and 81-room hotel are one named property's financing and size | wrap in data-fsc-nocount
+C3 | competitors "What the table shows" | "roughly 49,000 people" rounds the counted 49,036 as a new figure | remove the rounded repeat
+C5 | sources-uses prose | "B&I proceeds may also fund working capital" is a program rule not in PA-USDA (sec. 5: eligible purposes NOT IN THE FILE) | state as a model choice, eligibility of working capital a lender condition
+C5 | sources-uses prose, case.json bi_fee_pct label | fee "of the guaranteed amount": PA-USDA sec. 1 and 5 print no fee base ("NOT STATED") | say the model applies it to the guaranteed amount, base unconfirmed
+C5 | opex prose, case.json bi_annual_fee label, usda_fee_paydown, usda_fee basis | 0.55% "of the guaranteed balance": base not printed in PA-USDA | same wording as above
+C5 | loan prose "feasibility study" | "a loan of $1,000,000 or less would still draw a study": 7 CFR 5001.306(a)(3)(ii) says the Agency may require one | "may still draw"
+C5 | loan prose "Rate and term" | "up to 40 years": PA-USDA 5001.402(a) is 40 years or the state-statute limit, whichever is less | add the state limit; same in case.json bi_amort_years
+C5 | case.json glance "25-year amortization" and proposed.note "25-year" | model number typed by hand | use the engine placeholder / drop the number
+C8 | competitors prose, dscr prose | "settle the question in days", "verified in days": turnaround claim no record states | delete the timing
+C4, C6, C7 | none | gate 8 0 hits; Indiana case, USDA practice page, break-even note, hub and state pages exist; no pending link described as live | none

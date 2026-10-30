@@ -1,0 +1,59 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	38,547	Redmond population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:58	Y	
+F02	15.7%	Redmond population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:59	N	repeat: held by /case-studies/truck-stop-texas-sba/ (case) and 1 more
+F03	33,306	Redmond Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:59	Y	
+F04	3.1%	U.S. population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:60	N	repeat: held by /case-studies/truck-stop-texas-sba/ (case) and 4 more
+F05	4,273,586	Oregon population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:61	Y	note: also on /states/oregon/ (lower rank, case keeps it, A4)
+F06	0.9%	Oregon population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:61	N	repeat: held by /research-notes/absorption-forensics/ (note) and 5 more
+F07	13,907	Redmond households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:62	Y	
+F08	2.58	Redmond persons per household	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:63	N	repeat: held by /case-studies/gas-station-versailles-ohio-sba/ (case)
+F09	$84,164	Redmond median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:64	Y	
+F10	$83,011	Oregon median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:65	Y	note: also on /states/oregon/ (lower rank, case keeps it, A4)
+F11	15.6%	Redmond persons 65+, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:66	Y	note: also on /asset-classes/gas-station-and-c-store/ev-charging/ (lower rank, case keeps it, A4) and 1 more
+F12	23.5%	Redmond persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:66	Y	
+F13	64.5%	Redmond owner-occupied housing rate	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:67	N	repeat: held by /case-studies/assisted-living-texas-hud/ (case)
+F14	$462,500	Redmond median owner-occupied home value	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:68	Y	
+F15	67.4%	Redmond civilian labor force participation	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:69	Y	
+F16	21.4	Redmond mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:70	Y	note: also on /states/north-carolina/charlotte/ (lower rank, case keeps it, A4)
+F17	$24,952	Redmond retail sales per capita, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:72	Y	
+F18	38,199	Redmond PSU certified population estimate, 1 Jul 2025	research	I77a	Portland State University Population Research Center, via Central Oregonian (2 Dec 2025)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:73	Y	
+F19	37,146	Redmond PSU certified population estimate, 1 Jul 2024	research	I77a	Portland State University Population Research Center, via Central Oregonian (2 Dec 2025)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:73	N	conflicts with 38,199, +739 and 1.97% in the same row (implies a 2024 base near 37,460); research arithmetic does not reconcile
+F20	208,612	Deschutes County PSU certified population estimate, 1 Jul 2024	research	I77a	Portland State University Population Research Center, via City of Redmond Demographics	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:73	Y	
+F21	1.97%	Redmond 2025 population growth, PSU	research	I77a	Portland State University via Redmond Spokesman, 5 Jan 2026	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:139	Y	
+F22	1.3%	Deschutes County 2025 population growth, PSU	research	I77a	Portland State University via Redmond Spokesman, 5 Jan 2026	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:139	N	repeat: held by /research-notes/break-even-occupancy-trap/ (note) and 12 more
+F23	739	Redmond residents added, PSU July 2025	research	I77a	Portland State University via Central Oregonian (2 Dec 2025)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:73	Y	
+F24	33,693	US 97 S of Redmond ADT, ODOT ATR 09-020, 2016	research	I77a	City of Bend, Chapter 6 ODOT Vehicle Data, April 2017	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:47	Y	
+F25	30,800	US 97 S of Redmond ADT, 2015	research	I77a	City of Bend, Chapter 6 ODOT Vehicle Data, April 2017	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:47	Y	note: also on /states/hawaii/ (lower rank, case keeps it, A4)
+F26	1.3 million	Redmond Municipal Airport expected 2025 passengers	research	I77a	OPB, 4 Jul 2025	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:144	N	repeat: held by /research-notes/absorption-forensics/ (note) and 5 more
+F27	165%	Redmond Municipal Airport traffic growth over past decade	research	I77a	OPB, 4 Jul 2025	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:144	Y	
+F28	78,000	National FY2025 7(a) loan count	research	I77c	Bankrate citing SBA weekly lending report (FY2025)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:185	N	national program volume, not case-specific (shared by every SBA case)
+F29	$37.2B	National FY2025 7(a) dollar volume	research	I77c	Bankrate citing SBA weekly lending report (FY2025)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:185	N	national program volume, not case-specific (shared by every SBA case)
+F30	$447,571	National FY2025 average 7(a) loan	research	I77c	Bankrate citing SBA weekly lending report (FY2025)	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:185	N	national program volume, not case-specific (shared by every SBA case)
+F31	1,317,665	RDM total passengers 2025 (Wikipedia)	research	none	Wikipedia citing FAA	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:143	N	Wikipedia page, no dated publication named; duplicates the OPB 1.3 million
+F32	$180 million	RDM terminal expansion cost	research	I77a	OPB, 4 Jul 2025	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:144	N	single project cost (I64, I66)
+F33	80,000	RDM terminal expansion size (SF)	research	I77a	Redmond Municipal Airport fact sheet	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:145	N	single project attribute (I64)
+F34	$8,085	Redmond wastewater SDC per connection	research	I77a	Redmond Spokesman, 22 Jul 2026	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:162	N	fee schedule is a rule value
+F35	$16.80	Deschutes County average consolidated rate per $1,000	research	none	Ryan Realty blog	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:165	N	tax rate is a rule value; undated blog
+F36	50.84%	Measure 9-176 Yes vote share	research	I77a	Deschutes County Clerk, Nov 5 2024 results	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:168	N	election tally, not a market figure
+F37	$45.33	Rover average in-home boarding price per night, Redmond	research	none	Rover	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:116	N	aggregator page with a month label, not a periodic document (I77)
+F38	$505.5M	Oregon 7(a) volume 2025 (GoSBA Loans)	research	none	GoSBA Loans	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:182	N	aggregator page with a year only, no as-of date (I77)
+F39	1,179	Columbia Bank Oregon 7(a) loans FY2021-FY2026 (SBA Loans HQ)	research	none	SBA Loans HQ	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:181	N	aggregator, no data-as-of date; one lender
+F40	258	Bend 7(a) approved loans FY2021-FY2026	research	none	SBA Loans HQ	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:183	N	aggregator, no data-as-of date
+F41	$725,000	Subject asking price	research	none	Homes.com	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:29	N	subject's own listing figure (I64)
+F42	1.69	Subject land area (acres)	research	none	Premiere Property Group	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:32	N	subject's own attribute (I64)
+F43	$2,533	Subject real estate tax 2024	research	none	MLS via Premiere Property Group	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:41	N	subject's own attribute (I64)
+F44	$35	Happy Tales condo boarding price per night	research	none	Happy Tales Pet Resort	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:85	N	one operator's posted price, retrieval-dated (I64, I69)
+F45	$50	Deschutes Pet Lodge cabin price per night	research	none	Deschutes Pet Lodge	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:94	N	one operator's posted price, retrieval-dated (I64, I69)
+F46	4.5	Happy Tales Yelp rating (44 reviews)	research	none	Yelp	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:89	N	undated review aggregate, one facility (I86)
+F47	$1,750,000	Prineville listing asking price	research	none	LandWatch	EXTRA-2026-10-15-REDMOND-OR-PET-BOARDING:17	N	single listing, not the case market (I64)
+G01	224 employees	employees in the asset class NAICS group, oregon/bend (week of March 12, 2023)	register	I77c	U.S. Census Bureau, County Business Patterns 2023	data/markets/series/cbp_emp.json values[oregon/bend:pet-boarding-and-daycare]	Y	
+G02	$650,900	median home value, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_home_value.json values[co-41017]	Y	
+G03	$1,787	median gross rent, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_gross_rent.json values[co-41017]	Y	
+G04	59,437 households	owner-occupied housing units, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_owner_occupied.json values[co-41017]	Y	
+G05	25,496 households	renter-occupied housing units, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_renter_occupied.json values[co-41017]	Y	
+G06	43,870 residents	population aged 65 and over, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_pop65.json values[co-41017]	Y	
+G07	109,166 workers	civilian labor force, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_labor_force.json values[co-41017]	Y	
+G08	4,801 workers	unemployed civilians, Deschutes County OR (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_unemployed.json values[co-41017]	Y	
+G09	$18.23 billion	personal income, Deschutes County OR (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_personal_income.json values[co-41017]	Y	
+G10	$86,176	personal income per capita, Deschutes County OR (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_per_capita_income.json values[co-41017]	Y	
+#SUMMARY pet-boarding-oregon-sba counted=29 research=19 register=10 verdict=FOLD engine=N notes=short 1 research and 1 counted; PSU 37,146 conflicts with 38,199; national SBA rows out; 14 under strict repeats

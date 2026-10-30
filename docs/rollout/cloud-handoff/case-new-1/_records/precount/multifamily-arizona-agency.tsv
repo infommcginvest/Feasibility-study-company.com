@@ -1,0 +1,111 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+F01	69,753	Casa Grande population, V2025	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L53	Y	
+F02	29.9%	Casa Grande population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L54	Y	
+F03	7,623,818	Arizona population, V2025	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L53	N	already printed on /states/arizona/
+F04	6.5%	Arizona population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L54	Y	
+F05	539,380	Pinal County population, V2025	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L55	Y	
+F06	26.6%	Pinal County population change	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L55	Y	
+F07	21,624	Casa Grande households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L56	Y	
+F08	2.80	Persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L57	Y	
+F09	$69,983	Median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L58	Y	
+F10	$36,194	Per capita income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L59	Y	
+F11	$1,386	Median gross rent, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L60	Y	
+F12	72.8%	Owner-occupied rate, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L61	Y	
+F13	19.9%	Persons 65 and over, V2025	research	I77c	U.S. Census Bureau QuickFacts Casa Grande	CasaGrande:L62	Y	
+F14	69,405	Casa Grande population, AZ OEO 1 Jul 2025	research	I77a	Arizona Office of Economic Opportunity July 1 2025 estimates	CasaGrande:L16	Y	
+F15	19,674	Coolidge 2024 estimate	research	none	Wikipedia	CasaGrande:L17	N	undated secondary source
+F16	18,945	Coolidge population, AZ OEO July 2024	research	I77a	Arizona OEO via City Affordable Housing Plan	CasaGrande:L17	Y	
+F17	37.8	Median age Casa Grande, ACS 2023 5-yr	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L63	Y	
+F18	38.8	Median age Arizona, ACS 2023 5-yr	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L63	Y	
+F19	47.8%	Renter households paying over 30% of income	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L64	Y	
+F20	6,069	Renter households	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L64	Y	
+F21	47.0%	Arizona renter cost burden	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L64	Y	
+F22	1,862	Seasonal units	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L65	Y	
+F23	3,724	Potential seasonal population	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L65	Y	
+F24	4.4%	Casa Grande unemployment, Mar 2025	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L66	Y	
+F25	4.0%	Arizona unemployment, Mar 2025	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L66	Y	
+F26	68,048	Forecast 2025 population	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L67	N	forecast year contradicted by observed V2025 count
+F27	76,606	Forecast 2030 population	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L67	Y	published consultant forecast
+F28	674	Forecast housing units per year 2025 to 2030	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L67	Y	published consultant forecast
+F29	2,568	Market-rate garden units, Q1 2025	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L95	Y	
+F30	925	Build-to-rent units	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L95	Y	
+F31	3,493	Market-rate inventory	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L95	Y	
+F32	19.0%	Market-rate vacancy	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L95	Y	
+F33	7%	Stabilized vacancy norm	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L95	N	norm cited by consultant, effectively an assumption
+F34	4,325	Existing apartment units	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L96	Y	
+F35	1,474	Apartment units under construction	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L96	Y	
+F36	642	Apartment units planned	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L96	Y	
+F37	26.5%	Overall apartment vacancy	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L96	Y	
+F38	832	Affordable units in 7 complexes	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L97	Y	
+F39	416	Affordable units completed 2024	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L97	Y	
+F40	756	LIHTC units approved 2024 to 2025	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L97	Y	
+F41	1,588	Affordable units by 2027	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L97	Y	
+F42	$1,455	Peak average rent, Q3 2022	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L98	Y	
+F43	$1,350	Average rent, Q1 2025	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L98	Y	
+F44	4 years	Years to reach 93% occupancy	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L99	N	consultant projection, analyst-style assumption
+F45	840	BTR/duplex plan units 2023 to 2030	research	I77a	AZBEX 12 Nov 2024	CasaGrande:L100	Y	
+F46	3,218	BTR units zoned or in site plan, 2023	research	I77a	AZBEX 12 Nov 2024	CasaGrande:L100	Y	
+F47	1,526	Multifamily permits 2023	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L117	Y	
+F48	568	Multifamily permits 2024	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L117	Y	
+F49	2,102	MF/BTR units permitted since 2022	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L117	Y	
+F50	336	Casa Grande Commons units (denied then approved)	research	I77a	AZBEX 2 Sep 2025 / 14 Jan 2026	CasaGrande:L108	Y	
+F51	64	Gorman downtown affordable units	research	I77a	Casa Grande Dispatch 5 Dec 2025	CasaGrande:L109	Y	
+F52	278	Townhomes on Earley units	research	I77a	Dominium release 24 Jul 2025	CasaGrande:L110	Y	
+F53	$62M	Arizona IDA bonds for Earley	research	I77a	Arizona IDA / Multi-Housing News 29 Jul 2025	CasaGrande:L110	Y	
+F54	$5M	Second Arizona IDA bond tranche	research	I77a	Arizona IDA / Multi-Housing News 29 Jul 2025	CasaGrande:L110	Y	
+F55	$38.8M	KeyBank construction loan for Earley	research	I77a	Arizona IDA / Multi-Housing News 29 Jul 2025	CasaGrande:L110	Y	
+F56	81	Marigold Crossing units	research	none	AZBEX	CasaGrande:L111	N	undated article
+F57	407	Roers Companies proposed units	research	I77a	Casa Grande Dispatch 29 Jul 2024	CasaGrande:L112	Y	
+F58	193	O'Neil Apartments units	research	none	AZBEX	CasaGrande:L113	N	hearing year not stated
+F59	$9,800,000	100-unit land listing asking price	research	none	Crexi	CasaGrande:L116	N	single-property listing figure
+F60	~9,000	Lucid employees globally, 31 Dec 2025	research	I77a	Lucid Group 10-K FY2025	CasaGrande:L125	Y	company-wide, not Casa Grande only
+F61	2,000	Lucid Casa Grande workers before layoffs, Apr 2023	research	I77a	12News (KPNX) Apr 2023	CasaGrande:L126	Y	
+F62	968	Arizona layoffs, Apr 2023	research	I77a	12News (KPNX) Apr 2023	CasaGrande:L126	Y	
+F63	$700M	Casa Grande Lucid plant	research	I77a	12News (KPNX) Apr 2023	CasaGrande:L126	Y	
+F64	5,000	Lucid jobs claim	research	none	Jackson Dearborn marketing	CasaGrande:L126	N	developer marketing, unverified
+F65	$19 to $23	Lucid production wages per hour	research	none	Staffmark	CasaGrande:L127	N	undated posting
+F66	400	Kohler new full-time jobs	research	I77a	Kohler press release 15 May 2024	CasaGrande:L128	Y	
+F67	$300M	Kohler investment	research	none	IEN / Yahoo Finance citing Phoenix Business Journal	CasaGrande:L128	N	article date not in research
+F68	58,549	I-10 AADT Exit 190 to 194, 2024	research	I77c	ADOT Average Annual Daily Traffic Report 2024 Interstate Sections	CasaGrande:L43	Y	
+F69	59,631	I-10 AADT Exit 185 to 190, 2024	research	I77c	ADOT Average Annual Daily Traffic Report 2024 Interstate Sections	CasaGrande:L44	Y	
+F70	57,741	I-10 AADT Exit 190 to 194, 2023	research	I77c	ADOT AADT Report 2023 Interstate Sections	CasaGrande:L43	Y	
+F71	58,808	I-10 AADT Exit 185 to 190, 2023	research	I77c	ADOT AADT Report 2023 Interstate Sections	CasaGrande:L44	Y	
+F72	6,177	Trucks per day I-10 Exit 190 to 194, 2024	research	I77c	ADOT Average Annual Daily Traffic Report 2024 Interstate Sections	CasaGrande:L43	Y	
+F73	87,748	Casa Grande Ruins visitors, 2025	research	none	Wikipedia citing NPS	CasaGrande:L133	N	secondary, undated
+F74	$336,000	O'Neil traffic impact fees	research	none	AZBEX	CasaGrande:L145	N	year not stated
+F75	$20.96	Multifamily wastewater fee per unit, FY2024-25	research	I77c	City of Casa Grande FY2024-2025 Consolidated Fee Schedule	CasaGrande:L148	Y	
+F76	$82.05M	Solace project cost	research	none	Avasa Partners	CasaGrande:L156	N	developer page undated; single-property figure
+F77	3.3630	Pinal primary rate per $100 AV, FY2025-26	research	I77a	Pinal County FY25-26 Tax Levies & Rates, approved 18 Aug 2025	CasaGrande:L150	Y	
+F78	0.2510	Pinal secondary rate per $100 AV, FY2025-26	research	I77a	Pinal County FY25-26 Tax Levies & Rates	CasaGrande:L150	Y	
+F79	3.6140	Pinal combined rate per $100 AV, FY2025-26	research	I77a	Pinal County FY25-26 Tax Levies & Rates	CasaGrande:L150	Y	
+F80	9.3166	Tax area 0403 primary rate per $100 AV, 2025	research	I77c	Pinal County Treasurer 2025 tax statement	CasaGrande:L151	Y	example bill; subject tax area not found
+F81	2.9254	Tax area 0403 secondary rate per $100 AV, 2025	research	I77c	Pinal County Treasurer 2025 tax statement	CasaGrande:L151	Y	
+F82	$36,618,000	Desert Sands Fannie Mae DUS loan	research	I77a	Greystone press release 22 Jan 2024	CasaGrande:L165	Y	comparable loan, not the subject
+F83	5.94%	Desert Sands loan rate	research	I77a	Greystone press release 22 Jan 2024	CasaGrande:L165	Y	
+F84	89.5%	Desert Sands occupancy at closing	research	I77a	Greystone press release 22 Jan 2024	CasaGrande:L165	Y	
+F85	$79,125,000	HSL three-property portfolio financing	research	I77a	Greystone press release 22 Jan 2024	CasaGrande:L165	Y	
+F86	323	Desert Sands units	research	I77a	Greystone press release 22 Jan 2024	CasaGrande:L165	Y	
+F87	$21.5M	Earlier Hunt Fannie Mae refinance	research	none	REBusinessOnline	CasaGrande:L166	N	date not shown
+F88	$74B	Fannie Mae 2025 volume (and lender volumes)	research	I77a	Fannie Mae newsroom	CasaGrande:L168	N	national figure, not case-specific
+F89	$88 billion	FHFA 2026 cap per Enterprise	research	I77a	FHFA 24 Nov 2025	CasaGrande:L170	N	national and already on other served pages
+F90	$176 billion	FHFA 2026 combined cap	research	I77a	FHFA 24 Nov 2025	CasaGrande:L170	N	national and already on other served pages
+F91	$73 billion	FHFA 2025 cap per Enterprise	research	I77a	FHFA	CasaGrande:L170	N	national and already on other served pages
+F92	50%	FHFA mission-driven share	research	I77a	FHFA	CasaGrande:L170	N	program rule value
+F93	2,000 units	City housing goal through 2030	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L174	N	policy goal; value 2,000 already counted from the Lucid row
+F94	$81,000	Workforce rental target household income	research	I77a	Elliott D. Pollack & Co. for City of Casa Grande, Affordable Housing Plan, Sept 2025	CasaGrande:L174	Y	
+F95	19.21 acres	Subject site acreage	research	none	LoopNet	CasaGrande:L28	N	subject listing figure
+F96	$6,299,822	Subject asking price	research	none	LoopNet	CasaGrande:L29	N	subject listing figure
+F97	284	Solace units	research	none	Mark-Taylor / Avasa	CasaGrande:L75	N	developer page undated; single-property attribute
+F98	204	FLATZ 387 units	research	none	FLATZ 387 operator / P&Z staff report	CasaGrande:L76	N	single-property attribute, rents dated by our fetch
+F99	$1,199	Solace one-bedroom from	research	none	Mark-Taylor operator site	CasaGrande:L75	N	date is our fetch ("checked 15 Oct 2026")
+R01	1,537	Median gross rent, Pinal County market (ACS 2020-2024)	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.arizona/pinal-county	Y	
+R02	29,599	Renter-occupied units, Pinal County market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.arizona/pinal-county	Y	
+R03	80,266	Median household income, Pinal County market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.arizona/pinal-county	Y	
+R04	349,000	Median home value, Pinal County market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.arizona/pinal-county	Y	
+R05	5.96%	Unemployment rate, Pinal County market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.arizona/pinal-county	Y	
+R06	50,771	Per capita personal income, Pinal County market, 2024	register	I77c	U.S. Bureau of Economic Analysis	data/markets/series/bea_per_capita_income.json values.arizona/pinal-county	Y	
+R07	1,543	Median gross rent, Arizona	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.az	Y	
+R08	931,983	Renter-occupied units, Arizona	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.az	Y	
+R09	79,964	Median household income, Arizona	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.az	Y	
+R10	5.09%	Unemployment rate, Arizona	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.az	Y	
+#SUMMARY multifamily-arizona-agency counted=83 research=73 register=10 verdict=PAGE engine=Y notes=agency program so engine; national FHFA and Fannie figures excluded; Lucid and Kohler rows are company-level

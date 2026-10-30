@@ -1,0 +1,109 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+F01	28,466	Pooler population, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L50	Y	secondary republisher of ACS
+F02	31,171	Pooler population, V2024	research	I77c	U.S. Census Bureau QuickFacts Pooler	Pooler:L51	Y	
+F03	32,744	Pooler population, V2025	research	none	citypopulation.de	Pooler:L52	N	secondary transcription; QuickFacts shows NA
+F04	25,711	Pooler 2020 Census population	research	I77c	U.S. Census Bureau QuickFacts Pooler	Pooler:L53	Y	
+F05	21.7%	Pooler population change Apr 2020 to Jul 2024	research	I77c	U.S. Census Bureau QuickFacts Pooler	Pooler:L54	Y	
+F06	11,650	Pooler households, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L55	Y	
+F07	4,074,366	Georgia households, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L55	Y	
+F08	$91,766	Pooler median household income, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L56	Y	
+F09	$77,353	Georgia median household income, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L56	Y	
+F10	38.7	Pooler median age, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L57	Y	
+F11	37.6	Georgia median age, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L57	Y	
+F12	12,422	Pooler housing units, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L58	Y	
+F13	4,541,835	Georgia housing units, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L58	Y	
+F14	18.2%	Pooler moved since previous year, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L59	Y	
+F15	13.0%	Georgia moved since previous year, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L59	Y	
+F16	13.1%	Pooler veteran share, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L60	Y	
+F17	7.2%	Georgia veteran share, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024)	Pooler:L60	Y	
+F18	18,275	Jobs located in Pooler, 2022 LEHD	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L61	Y	
+F19	16,666	Inflow commuters, 2022 LEHD	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L61	Y	
+F20	1,609	Residents employed in Pooler, 2022 LEHD	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L61	Y	
+F21	34,352	City base-year population, impact fee model	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L62	Y	
+F22	4,887	Multifamily housing units, 2025 base	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L62	Y	
+F23	9,215	Projected multifamily units, 2035	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L120	Y	city draft projection
+F24	2,430	Projected single-family additions to 2035	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L120	Y	city draft projection
+F25	4,328	Projected multifamily increase	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L120	N	difference of two projection values, researcher arithmetic
+F26	1,341	Class A units opened 2025 to 2026	research	none	Research file	Pooler:L9	N	research file's own summary count
+F27	280	Parc at Pooler units	research	none	ApartmentGuide / Homes.com	Pooler:L72	N	undated, single-property attribute
+F28	289	Monument at Pooler units	research	none	Homes.com / Apartments.com	Pooler:L74	N	undated, single-property attribute
+F29	360	The Liliana units	research	I77a	Thompson Thrift; Multifamily Leadership Apr 2026	Pooler:L75	Y	
+F30	256	MAA Avala units	research	none	RentCafe	Pooler:L76	N	undated, single-property attribute
+F31	316	Populus Pooler units	research	none	Novare Group	Pooler:L77	N	undated, single-property attribute
+F32	348	HoM at Pooler units	research	none	apartmentfinder	Pooler:L78	N	undated, single-property attribute
+F33	333	Everly (Mosaic Pooler) units	research	I77a	Berkadia 4 Jun 2025	Pooler:L79	Y	
+F34	$47.5 million	Mosaic Pooler Bank OZK construction loan	research	I77a	Berkadia 4 Jun 2025	Pooler:L79	Y	comparable loan, not the subject
+F35	$13.25 million	Mosaic Pooler FCP preferred equity	research	I77a	Berkadia 4 Jun 2025	Pooler:L79	Y	
+F36	$60.8 million	Mosaic Pooler total capital arranged	research	I77a	Berkadia 4 Jun 2025	Pooler:L190	Y	
+F37	215	Wren's Hollow townhomes	research	none	Willow Bridge	Pooler:L81	N	undated
+F38	$1,372	Parc at Pooler studio from	research	none	Parc at Pooler operator site	Pooler:L91	N	date is our fetch (15 Oct 2026)
+F39	$1,674	Monument at Pooler A1 base	research	none	Monument at Pooler operator site	Pooler:L96	N	date is our fetch (15 Oct 2026)
+F40	$2,542	Miro 3BR achieved rent, June 2026	research	I77a	Rentberry	Pooler:L107	N	single-unit listing
+F41	$1,437	Pooler average studio rent	research	none	ApartmentHomeLiving	Pooler:L108	N	undated aggregator
+F42	300	The Foundry at Mosaic units	research	I77a	citybiz 20 Jul 2026	Pooler:L116	Y	
+F43	90 acres	Wetlands preserved in May 2026 rezoning	research	I77a	WSAV 4 May 2026	Pooler:L117	Y	
+F44	75-ft	Savannah-Ogeechee Canal buffer	research	I77a	WSAV 4 May 2026	Pooler:L117	Y	
+F45	2,113,972	Savannah/Hilton Head enplanements, CY2025	research	I77c	Savannah Airport Commission Stats	Pooler:L139	Y	
+F46	2,120,559	Savannah/Hilton Head deplanements, CY2025	research	I77c	Savannah Airport Commission Stats	Pooler:L139	Y	
+F47	114,508	January 2025 enplanements	research	I77c	Savannah Airport Commission Stats	Pooler:L140	Y	
+F48	207,137	May 2025 enplanements	research	I77c	Savannah Airport Commission Stats	Pooler:L140	Y	
+F49	210,380	April 2026 enplanements	research	I77c	Savannah Airport Commission Stats	Pooler:L126	Y	
+F50	175,528	August 2026 enplanements	research	I77c	Savannah Airport Commission Stats	Pooler:L126	Y	
+F51	4.2 million	Airport 2025 passengers	research	I77a	Office of Rep. Buddy Carter 29 Jun 2026	Pooler:L141	Y	
+F52	13,144	Gulfstream Chatham County employees	research	none	Savannah Chamber Major Employers	Pooler:L130	N	current list, undated
+F53	20,000	Gulfstream global employees	research	I77a	Aviation Across America 6 Oct 2025	Pooler:L131	Y	
+F54	158	Gulfstream aircraft delivered 2025	research	I77a	General Dynamics Q4 and full-year 2025 results 28 Jan 2026	Pooler:L132	Y	
+F55	136	Gulfstream large-cabin deliveries 2025 (and 2024 total)	research	I77a	General Dynamics Q4 and full-year 2025 results 28 Jan 2026	Pooler:L132	Y	
+F56	22	Gulfstream mid-cabin deliveries 2025	research	I77a	General Dynamics Q4 and full-year 2025 results 28 Jan 2026	Pooler:L132	Y	
+F57	1,600	Gulfstream expansion new jobs	research	I77a	SEDA Apr 2023	Pooler:L133	Y	
+F58	$150 million	Gulfstream expansion investment	research	I77a	SEDA Apr 2023	Pooler:L133	Y	
+F59	4,365	Hyundai Metaplant hires confirmed, June 2026	research	I77a	The Current GA 6 Sep 2026	Pooler:L134	Y	
+F60	8,500	Hyundai Metaplant promised jobs	research	I77a	The Current GA 6 Sep 2026	Pooler:L134	Y	
+F61	2,112	Hyundai main plant hires	research	I77a	The Current GA 6 Sep 2026	Pooler:L134	Y	
+F62	4,420	Hyundai site employment, 23 Sep 2026	research	I77a	North Atlanta Star 23 Sep 2026	Pooler:L135	Y	
+F63	52%	Hyundai share of 8,500 goal	research	I77a	North Atlanta Star 23 Sep 2026	Pooler:L135	Y	
+F64	5.67 million	Port of Savannah TEUs FY2026	research	I77a	Georgia Ports Authority 28 Jul 2026	Pooler:L136	Y	
+F65	5.7 million	Port of Savannah TEUs FY2025	research	I77a	Georgia Ports Authority	Pooler:L136	N	already printed on /case-studies/truck-stop-georgia-sba/
+F66	483,684	Port TEUs June 2026	research	I77a	Georgia Ports Authority 28 Jul 2026	Pooler:L136	Y	
+F67	18%	Port TEU change June 2026	research	I77a	Georgia Ports Authority 28 Jul 2026	Pooler:L136	Y	
+F68	541,405	Containers by Mason Mega Rail FY2026	research	I77a	Grice Connect (GPA release)	Pooler:L137	Y	
+F69	17%	Rail share of container trade FY2026	research	I77a	Grice Connect (GPA release)	Pooler:L137	Y	
+F70	504,015	Port TEUs September 2026	research	I77a	Railway Age	Pooler:L138	Y	
+F71	3.7%	Port TEU change September 2026	research	I77a	Railway Age	Pooler:L138	Y	
+F72	4.197	Pooler millage 2025	research	I77a	City of Pooler Public Hearing, 2025 Millage Rate; WTOC 23 Jul 2025	Pooler:L153	Y	
+F73	13.52%	Pooler millage increase 2025	research	I77a	WTOC 23 Jul 2025	Pooler:L193	Y	
+F74	4.096	Pooler millage 2026 (rollback)	research	I77a	City of Pooler Millage Rate page, modified 4 Aug 2026	Pooler:L154	Y	
+F75	40%	Georgia assessment ratio	research	none	City of Pooler Millage Rate page	Pooler:L155	N	"Current", undated
+F76	10.176	Chatham County millage ceiling 2025	research	I77a	Chatham County Notice of Property Tax Increase 11 Jun 2025	Pooler:L156	Y	
+F77	1.056	Chatham Area Transit millage	research	I77a	Chatham County Notice of Property Tax Increase 11 Jun 2025	Pooler:L156	Y	
+F78	48.99%	Special Service District increase	research	I77a	Chatham County Notice of Property Tax Increase 11 Jun 2025	Pooler:L156	Y	
+F79	17.331	School district M&O millage 2025	research	I77a	Savannah-Chatham County Public School System Board Agenda 25 Jun 2025	Pooler:L157	Y	
+F80	$639	Proposed fire impact fee, up to 1,000 sf	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L159	Y	draft proposal
+F81	$891	Proposed fire impact fee, 1,001 to 1,500 sf	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L159	Y	draft proposal
+F82	$1,277	Proposed fire impact fee, 1,501 to 2,000 sf	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L159	Y	draft proposal
+F83	$531	Proposed parks impact fee, up to 1,000 sf	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L160	Y	draft proposal
+F84	$740	Proposed parks impact fee, 1,001 to 1,500 sf	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L160	Y	draft proposal
+F85	$1,061	Proposed parks impact fee, 1,501 to 2,000 sf	research	I77a	City of Pooler / TischlerBise DRAFT Impact Fees, 25 Mar 2026	Pooler:L160	Y	draft proposal
+F86	$88 billion	FHFA 2026 cap per Enterprise	research	I77a	FHFA 24 Nov 2025	Pooler:L177	N	national and already on other served pages
+F87	$176 billion	FHFA 2026 combined cap	research	I77a	FHFA 24 Nov 2025	Pooler:L177	N	national and already on other served pages
+F88	$73 billion	FHFA 2025 cap	research	I77a	NAHB Nov 2025	Pooler:L178	N	national and already on other served pages
+F89	20.5%	2026 cap increase	research	I77a	NAHB Nov 2025	Pooler:L178	N	national and already on other served pages
+F90	$2 billion	GSE LIHTC investment cap	research	I77a	Multi-Housing News 25 Nov 2025	Pooler:L179	N	national, not case-specific
+F91	$24.4 million	River Walk Savannah Freddie Mac refinance	research	none	Multifamily & Affordable Housing Business	Pooler:L180	N	closing date NOT FOUND
+F92	$250 million	Thompson Thrift fund equity commitments	research	I77a	Thompson Thrift press release 13 Jun 2024	Pooler:L182	Y	
+F93	72%	Fund partners who were repeat investors	research	I77a	Thompson Thrift press release 13 Jun 2024	Pooler:L182	Y	
+F94	35.24 acres	Subject site acreage	research	none	GAMLS listing	Pooler:L28	N	subject listing figure
+F95	$795,000	Subject asking price	research	none	GAMLS listing	Pooler:L29	N	subject listing figure
+F96	90,000	Broker traffic claim, I-95	research	none	GAMLS listing	Pooler:L40	N	broker claim, no station or year
+F97	$1,200,000	11 Canal Bank Rd asking price	research	none	Homes.com	Pooler:L42	N	listing figure
+R01	1,454	Median gross rent, Savannah market (ACS 2020-2024)	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.georgia/savannah	Y	
+R02	61,020	Renter-occupied units, Savannah market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.georgia/savannah	Y	
+R03	77,180	Median household income, Savannah market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.georgia/savannah	Y	
+R04	302,000	Median home value, Savannah market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.georgia/savannah	Y	
+R05	5.81%	Unemployment rate, Savannah market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.georgia/savannah	Y	
+R06	40,645	Per capita income, Savannah market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_per_capita_income.json values.georgia/savannah	Y	
+R07	1,393	Median gross rent, Georgia	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.ga	Y	
+R08	1,398,009	Renter-occupied units, Georgia	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.ga	Y	
+R09	303,300	Median home value, Georgia	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.ga	Y	
+R10	5.13%	Unemployment rate, Georgia	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.ga	Y	
+#SUMMARY multifamily-georgia-agency counted=81 research=71 register=10 verdict=PAGE engine=Y notes=agency program so engine; national FHFA figures excluded; ports 5.7 million collides with Georgia truck-stop page

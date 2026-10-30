@@ -1,0 +1,62 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	19,687	Wendell population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L62	Y	
+F02	100.1%	Wendell change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L63	Y	
+F03	9,841	Wendell April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L63	Y	
+F04	17.8%	Wendell growth 2024 to 2025, highest in NC	research	I77a	Carolina Demography (UNC CPC), 2025 City and Town Population Estimates, 27 May 2026	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L64	N	same value (and kind) printed on served page /asset-classes/assisted-living-and-memory-care/
+F05	13.9%	Zebulon growth 2024 to 2025, second highest in NC	research	I77a	Carolina Demography (UNC CPC), 2025 City and Town Population Estimates, 27 May 2026	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L120	N	same value (and kind) printed on served page /research-notes/special-purpose-property-risk/
+F06	4,957	Wendell households	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L65	N	same value (and kind) printed on served page /research-notes/underserved-gas-station-markets/
+F07	$95,787	Wendell median household income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L66	Y	
+F08	15.6%	Wendell persons 65+	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L67	Y	
+F09	$330,500	Wendell median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L69	Y	
+F10	39.1	North Carolina median age	research	I77c	Census Reporter (ACS 2024 5-year, republished)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L68	Y	
+F11	38	Wendell median age	research	I77c	Census Reporter (ACS 2024 5-year, republished)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L68	N	bare integer with no counted unit word; not a countable figure
+F12	23,144	Knightdale population 2025	research	I77c	Census V2025 as compiled on Wikipedia	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L72	Y	
+F13	19,435	Knightdale population 2020	research	I77c	Census 2020 as compiled on Wikipedia	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L72	Y	
+F14	11,197,968	North Carolina population 2025	research	I77c	Census V2025 as compiled on Wikipedia	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L73	N	same value (and kind) printed on served page /case-studies/meat-processing-north-carolina-usda/
+F15	37,557	5-mile population 2024 (LoopNet demographics)	research	none	LoopNet property record	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L70	N	vendor demographic with no stated release; year label only
+F16	$78,576	5-mile median household income (LoopNet)	research	none	LoopNet property record	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L71	N	vendor demographic with no stated release
+F17	96	TerraBella Knightdale licensed beds (Mar 2026)	research	I77a	NC DHSR Adult Care Home Listing (as of 03/2026) and Special Care Unit list (13 Mar 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L84	N	same value (and kind) printed on served page /case-studies/assisted-living-texas-hud/
+F18	36	TerraBella Knightdale special care unit beds (Mar 2026)	research	I77a	NC DHSR Adult Care Home Listing (as of 03/2026) and Special Care Unit list (13 Mar 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L85	N	same value (and kind) printed on served page /research-notes/underserved-gas-station-markets/
+F19	60	Zebulon House and Dunmore Zebulon licensed beds (Mar 2026)	research	I77a	NC DHSR Adult Care Home Listing (as of 03/2026) and Special Care Unit list (13 Mar 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L92	N	same value (and kind) printed on served page /asset-classes/quick-service-restaurant/
+F20	31	Zebulon House special care unit beds (Mar 2026)	research	I77a	NC DHSR Adult Care Home Listing (as of 03/2026) and Special Care Unit list (13 Mar 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L93	N	same value (and kind) printed on served page /asset-classes/assisted-living-and-memory-care/
+F21	216	Trade-area licensed beds, three homes (sum)	research	I77a	NC DHSR Adult Care Home Listing (as of 03/2026) and Special Care Unit list (13 Mar 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L102	N	research file summary sum
+F22	$4,085	TerraBella Knightdale AL from-rate	research	none	TerraBella operator site (checked 15 Oct 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L87	N	date is the researcher fetch date (I69)
+F23	$6,695	TerraBella Knightdale MC from-rate	research	none	TerraBella operator site (checked 15 Oct 2026)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L87	N	date is the researcher fetch date (I69)
+F24	$5,500	Dunmore Zebulon from-rate (FamilyAssets)	research	none	FamilyAssets	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L99	N	aggregator, undated
+F25	$6,948	Wendell average assisted living (A Place for Mom, 2023-2024 move-ins)	research	I77c	A Place for Mom, Wendell cost page (2023 to 2024 move-ins)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L103	Y	
+F26	$8,291	Wendell average memory care (A Place for Mom, 2023-2024 move-ins)	research	I77c	A Place for Mom, Wendell cost page (2023 to 2024 move-ins)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L103	Y	
+F27	$6,196	North Carolina average assisted living (A Place for Mom, 2023-2024 move-ins)	research	I77c	A Place for Mom, Wendell cost page (2023 to 2024 move-ins)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L103	Y	
+F28	$7,410	North Carolina average memory care (A Place for Mom, 2023-2024 move-ins)	research	I77c	A Place for Mom, Wendell cost page (2023 to 2024 move-ins)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L103	Y	
+F29	100	Perquimans County adult care home bed need (2026 SMFP)	research	I77b	NC DHHS DHSR, 2026 State Medical Facilities Plan	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L110	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F30	40	Halifax County adult care home bed need (2026 SMFP)	research	I77b	NC DHHS DHSR, 2026 State Medical Facilities Plan	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L110	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F31	30	Chowan County proposed 2027 bed need (preliminary)	research	I77a	RPC Consulting, 2027 Draft SMFP summary	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L111	N	preliminary draft figure, secondary summary
+F32	402	Wendell indexed projects with 2025 meeting dates	research	none	Boardwalk AI index	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L113	N	AI index; period is a meeting-date filter, not a release
+F33	1,700	Ammons tract PUD maximum units, traffic study (2024)	research	I77a	Town of Wendell Planning Board minutes, 2024	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L123	N	same value (and kind) printed on served page /asset-classes/truck-stop-and-travel-center/
+F34	12.97%	Projected 5-mile population growth 2024 to 2029 (LoopNet)	research	none	LoopNet property record	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L122	N	vendor projection
+F35	$0.5171	Wake County tax rate per $100 (TY2025)	research	I77a	Wake County, Tax Rates (Jul 2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L133	Y	
+F36	$0.5135	Wake County tax rate per $100 (TY2024)	research	I77a	Wake County, Tax Rates (Jul 2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L133	N	same value (and kind) printed on served page /case-studies/car-wash-texas-sba/
+F37	$0.42	Town of Wendell tax rate per $100 (TY2025)	research	I77a	Wake County, Tax Rates (Jul 2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L134	N	same value (and kind) printed on served page /asset-classes/gas-station-and-c-store/ev-charging/
+F38	$0.1225	Fire Tax District rate per $100 (TY2025)	research	I77a	Wake County, Tax Rates (Jul 2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L135	Y	
+F39	$1.0596	Combined tax rate per $100 (TY2025)	research	I77a	Wake County, Tax Rates (Jul 2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L136	N	researcher sum of the three counted rates
+F40	$75	Wendell stormwater fee per parcel	research	I77a	Wake County, Tax Rates (Jul 2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L137	N	same value (and kind) printed on served page /asset-classes/pet-boarding-and-daycare/
+F41	95.4%	Wake sales assessment ratio	research	none	countypropertytaxes.com citing NC DOR	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L139	N	secondary site, period given only as 2024 to 2025
+F42	337	HUD 232 FY2025 loans	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L158	N	same value counted once on california-hud (this batch)
+F43	329	HUD 232/223(f) loans FY2025	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L158	N	same value counted once on california-hud (this batch)
+F44	$130 million	Forbright FY2025 HUD 232 volume	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L159	N	same value counted once on california-hud (this batch)
+F45	$2,195,000	Subject last asking price	research	none	CityFeet	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L42	N	subject listing figure
+F46	$1,698,897	Subject assessed value	research	I77c	LoopNet (Wake County tax data)	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L46	N	single-property attribute
+F47	4.11	Subject acreage	research	none	LoopNet	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L39	N	single-property attribute
+F48	26,926	Subject building size, sf	research	none	LoopNet	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L40	N	single-property attribute
+F49	75%	HUD 232 max LTV	research	none	ADROC Capital	CS-R-ASSISTED-LIVING-NORTH-CAROLINA-HUD:L162	N	HUD program rule value
+F50	70	Wake County assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[co-37183][assisted-living-and-memory-care]	Y	
+F51	2,698	Wake County assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[co-37183][assisted-living-and-memory-care]	Y	
+F52	0.59	Wake County assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[co-37183][assisted-living-and-memory-care]	Y	
+F53	552	North Carolina assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[nc][assisted-living-and-memory-care]	Y	
+F54	18,520	North Carolina assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[nc][assisted-living-and-memory-care]	Y	
+F55	0.51	North Carolina assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[nc][assisted-living-and-memory-care]	N	same value printed on served page /asset-classes/skilled-nursing/
+F56	151,920	Wake County population 65+ (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_pop65.json values[co-37183]	Y	
+F57	$105,768	Wake County median household income (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_hh_income.json values[co-37183]	Y	
+F58	$461,300	Wake County median home value (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_home_value.json values[co-37183]	Y	
+F59	$85,573	Wake County BEA per capita income (calendar year 2024)	register	I77c	register: bea_cainc1_api	data/markets/series/bea_per_capita_income.json values[co-37183]	Y	
+F60	1,623	Wake County median gross rent (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_gross_rent.json values[co-37183]	Y	
+#SUMMARY assisted-living-north-carolina-hud counted=25 research=15 register=10 verdict=FOLD engine=N notes=FOLD: research 15 of 20 and counted 25 of 30; repeats, vendor demographics, fetch-dated rates excluded

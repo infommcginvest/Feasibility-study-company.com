@@ -1,0 +1,15 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-22T16:48:09
+root ~/Downloads/fsc-rollout/tmp/geo-4/t1; git dir ~/Downloads/wt-rollout-geo-4 at 7ba00e86d7539b9f420d0f99cd3220bdbd63c44e; range main..HEAD; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-4/t1 --git-dir ~/Downloads/wt-rollout-geo-4 --urls /states/california/,/states/california/sacramento/ --range main..HEAD --stage landing --only 9 --new /states/california/sacramento/ --out ~/Downloads/fsc-rollout/tmp/geo-4/f3/GATES-t1-g9-landing.txt
+pages (2): /states/california/ /states/california/sacramento/
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): RED
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1079 term link(s) on 175 page(s)
+pages checked for inbound links: 2; under 3: 1
+  /states/california/sacramento/                                 1
+required edges: all present
+
+SUMMARY
+  gate  9: RED      links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  green 0/1

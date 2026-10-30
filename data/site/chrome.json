@@ -55,7 +55,20 @@
             {"label": "Auto Dealership", "href": "/asset-classes/auto-dealership/"},
             {"label": "Private K-12 School", "href": "/asset-classes/private-school/"},
             {"label": "Behavioral Health & SUD", "href": "/asset-classes/behavioral-health/"},
-            {"label": "Marina & Boat Harbor", "href": "/asset-classes/marina/"}
+            {"label": "Marina & Boat Harbor", "href": "/asset-classes/marina/"},
+            {"label": "Short-Term Rental", "href": "/asset-classes/short-term-rental/", "fallback": "/asset-classes/"},
+            {"label": "Event & Wedding Venue", "href": "/asset-classes/event-and-wedding-venue/", "fallback": "/asset-classes/"},
+            {"label": "Brewery & Distillery", "href": "/asset-classes/brewery-and-distillery/", "fallback": "/asset-classes/"},
+            {"label": "Wellness & Retreat", "href": "/asset-classes/wellness-and-retreat/", "fallback": "/asset-classes/"},
+            {"label": "Industrial & Warehouse", "href": "/asset-classes/industrial-and-warehouse/", "fallback": "/asset-classes/"},
+            {"label": "Cold Storage", "href": "/asset-classes/cold-storage/", "fallback": "/asset-classes/"},
+            {"label": "Data Center", "href": "/asset-classes/data-center/", "fallback": "/asset-classes/"},
+            {"label": "Skilled Nursing", "href": "/asset-classes/skilled-nursing/", "fallback": "/asset-classes/"},
+            {"label": "Independent Living & CCRC", "href": "/asset-classes/independent-living-and-ccrc/", "fallback": "/asset-classes/"},
+            {"label": "Build-to-Rent", "href": "/asset-classes/build-to-rent/", "fallback": "/asset-classes/"},
+            {"label": "Manufactured Housing", "href": "/asset-classes/manufactured-housing/", "fallback": "/asset-classes/"},
+            {"label": "Mixed-Use", "href": "/asset-classes/mixed-use/", "fallback": "/asset-classes/"},
+            {"label": "Meat & Poultry Processing", "href": "/asset-classes/meat-and-poultry-processing/", "fallback": "/asset-classes/"}
           ]
         }
       ],
@@ -82,7 +95,25 @@
             {"label": "Ohio", "href": "/states/ohio/", "hide_until_live": true},
             {"label": "Michigan", "href": "/states/michigan/"},
             {"label": "Iowa", "href": "/states/iowa/"},
-            {"label": "Minnesota", "href": "/states/minnesota/"}
+            {"label": "Minnesota", "href": "/states/minnesota/"},
+            {"label": "Delaware", "href": "/states/delaware/", "hide_until_live": true},
+            {"label": "Idaho", "href": "/states/idaho/", "hide_until_live": true},
+            {"label": "Kansas", "href": "/states/kansas/", "hide_until_live": true},
+            {"label": "Kentucky", "href": "/states/kentucky/", "hide_until_live": true},
+            {"label": "Louisiana", "href": "/states/louisiana/", "hide_until_live": true},
+            {"label": "Montana", "href": "/states/montana/", "hide_until_live": true},
+            {"label": "Nebraska", "href": "/states/nebraska/", "hide_until_live": true},
+            {"label": "Rhode Island", "href": "/states/rhode-island/", "hide_until_live": true},
+            {"label": "Tennessee", "href": "/states/tennessee/", "hide_until_live": true},
+            {"label": "West Virginia", "href": "/states/west-virginia/", "hide_until_live": true},
+            {"label": "Colorado", "href": "/states/colorado/", "hide_until_live": true},
+            {"label": "Virginia", "href": "/states/virginia/", "hide_until_live": true},
+            {"label": "South Dakota", "href": "/states/south-dakota/", "hide_until_live": true},
+            {"label": "North Dakota", "href": "/states/north-dakota/", "hide_until_live": true},
+            {"label": "Alaska", "href": "/states/alaska/", "hide_until_live": true},
+            {"label": "Wyoming", "href": "/states/wyoming/", "hide_until_live": true},
+            {"label": "District of Columbia", "href": "/states/district-of-columbia/", "hide_until_live": true},
+            {"label": "Vermont", "href": "/states/vermont/", "hide_until_live": true}
           ]
         },
         {
@@ -96,7 +127,21 @@
             {"label": "Los Angeles", "href": "/states/california/los-angeles/", "fallback": "/states/california/#metros"},
             {"label": "Miami", "href": "/states/florida/miami/", "fallback": "/states/florida/#metros"},
             {"label": "Atlanta", "href": "/states/georgia/atlanta/", "fallback": "/states/georgia/#metros"},
-            {"label": "Charlotte", "href": "/states/north-carolina/charlotte/", "fallback": "/states/north-carolina/#metros"}
+            {"label": "Charlotte", "href": "/states/north-carolina/charlotte/", "fallback": "/states/north-carolina/#metros"},
+            {"label": "Tampa", "href": "/states/florida/tampa/", "fallback": "/states/florida/#metros"},
+            {"label": "Orlando", "href": "/states/florida/orlando/", "fallback": "/states/florida/#metros"},
+            {"label": "Raleigh-Durham", "href": "/states/north-carolina/raleigh-durham/", "fallback": "/states/north-carolina/#metros"},
+            {"label": "Nashville", "href": "/states/tennessee/nashville/", "fallback": "/states/tennessee/#metros"},
+            {"label": "Charleston", "href": "/states/south-carolina/charleston/", "fallback": "/states/south-carolina/#metros"},
+            {"label": "Huntsville", "href": "/states/alabama/huntsville/", "fallback": "/states/alabama/#metros"},
+            {"label": "Sacramento", "href": "/states/california/sacramento/", "fallback": "/states/california/#metros"},
+            {"label": "Seattle", "href": "/states/washington/seattle/", "fallback": "/states/washington/#metros"},
+            {"label": "Spokane", "href": "/states/washington/spokane/", "fallback": "/states/washington/#metros"},
+            {"label": "Northwest Arkansas", "href": "/states/arkansas/northwest-arkansas/", "fallback": "/states/arkansas/#metros"},
+            {"label": "Las Vegas", "href": "/states/nevada/las-vegas/", "fallback": "/states/nevada/#metros"},
+            {"label": "Treasure Valley", "href": "/states/idaho/treasure-valley/", "fallback": "/states/idaho/#metros"},
+            {"label": "Denver", "href": "/states/colorado/denver/", "fallback": "/states/colorado/#metros", "hide_until_live": true},
+            {"label": "Northern Virginia", "href": "/states/virginia/northern-virginia/", "fallback": "/states/virginia/#metros", "hide_until_live": true}
           ]
         }
       ],

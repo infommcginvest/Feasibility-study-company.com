@@ -1,0 +1,476 @@
+{
+ "slug": "urgent-care-elizabethtown-kentucky-sba",
+ "page": "/case-studies/urgent-care-elizabethtown-kentucky-sba/",
+ "program": "sba_7a",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 28,
+  "fees": 29,
+  "prime": 30
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "clinic",
+  "count": 1
+ },
+ "inputs": {
+  "land_acres": {
+   "value": 1.25,
+   "fmt": "n2",
+   "label": "Land area, acres (hypothetical pad on the Ring Road corridor)",
+   "assumption": "A round hypothetical pad of about an acre and a quarter: room for a single-story clinic of the size below, its parking and a drive aisle. The city code sets a clinic parking ratio per square foot of floor area [^20]; the site plan, not this study, fixes the count."
+  },
+  "land_per_acre": {
+   "value": 500000,
+   "fmt": "$",
+   "label": "Land cost per acre",
+   "assumption": "The research holds asking prices for Ring Road parcels but no closed land sale, and an asking price is not a market price. The asks it found sit both above and below this level, so the study carries a round $500,000 an acre as a planning figure for a signaled commercial corner; the appraisal and an executed land contract replace it. The sensitivity table does not move it, but the lender conditions require the appraisal first."
+  },
+  "bldg_sf": {
+   "value": 4500,
+   "fmt": "n",
+   "label": "Clinic building, square feet",
+   "assumption": "A round size for a single-story clinic with eight to ten exam and procedure rooms, a radiography room, a small lab and a waiting area. None of the in-city operators publishes exam rooms or floor area on its own page [^13,14,15,16], so the size is a design assumption, not a market observation."
+  },
+  "bldg_psf": {
+   "value": 340,
+   "fmt": "$",
+   "label": "Building hard cost per square foot",
+   "assumption": "No Elizabethtown construction cost, and no cost index against the national level, was found. The study carries a round $340 a square foot for a medical-use building: exam-room plumbing, radiography shielding and heavier HVAC and electrical service than a shell retail building takes. A contractor bid replaces it."
+  },
+  "sitework": {
+   "value": 320000,
+   "fmt": "$",
+   "label": "Site work, paving, utility taps, lighting and signage",
+   "assumption": "An allowance for an acre and a quarter on a bypass frontage road [^8]. The tap and connection fees the research found are small beside it [^22,23]; the rest is paving, drainage, lighting, signage and extension of any line that does not reach the parcel. No utility territory was confirmed for the parcel."
+  },
+  "contingency_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Five percent of building and site work, a round allowance for a priced but unbid project."
+  },
+  "soft": {
+   "value": 240000,
+   "fmt": "$",
+   "label": "Design, engineering, survey, Phase I, permits and legal",
+   "assumption": "Allowance. It covers the architect and engineers, the survey and a Phase I environmental assessment, development-plan review, the certificate of occupancy [^20,21] and loan-closing legal work. Kentucky facility licensure and any certificate-of-need question were not resolved in the research, so any cost there is a lender condition."
+  },
+  "med_equip": {
+   "value": 400000,
+   "fmt": "$",
+   "label": "Medical equipment: radiography, lab analyzers, exam-room and procedure equipment",
+   "assumption": "Allowance for a digital X-ray room, point-of-care lab analyzers, exam tables, procedure and monitoring equipment. Norton lists on-site X-ray as a standard service [^15] and the independent Radcliff clinic lists digital X-ray [^18], so the subject needs it to compete. No equipment quote was found."
+  },
+  "ffe_it": {
+   "value": 150000,
+   "fmt": "$",
+   "label": "Furniture, fixtures, signage, practice-management and electronic records systems",
+   "assumption": "Allowance for the waiting room, workstations, network, an electronic records system and a patient check-in queue, which Norton and Baptist Health both offer online [^13,15]."
+  },
+  "preopen": {
+   "value": 150000,
+   "fmt": "$",
+   "label": "Pre-opening: licensure, payer credentialing, hiring, training and launch marketing",
+   "assumption": "Allowance. Staff are paid and trained before the first visit, and payer credentialing runs ahead of revenue. The research found no Kentucky credentialing timeline, so the allowance is round and the reserve below carries the real exposure."
+  },
+  "working_capital": {
+   "value": 450000,
+   "fmt": "$",
+   "label": "Working capital and ramp reserve",
+   "assumption": "Roughly four months of Year 2 operating costs, to fund the gap between paying staff and collecting from payers during the ramp. The research holds no days-in-receivables figure for the market."
+  },
+  "visits_day": {
+   "value": [
+    26,
+    34,
+    38,
+    39,
+    40
+   ],
+   "fmt": "n",
+   "label": "Walk-in visits per day",
+   "assumption": "No urgent care in the research publishes visits, exam rooms or volume. The only volume signal is a review count at the independent in-city competitor [^16], and the field is crowded: three of the four confirmed in-city clinics belong to two health systems [^13,14,15]. The study therefore ramps a newcomer to 38 visits a day by Year 3, a level that needs only a small share of a county of 113,482 residents [^1], and holds it flat after that. A payer-mix and demand study with real competitor volumes should replace it."
+  },
+  "net_per_visit": {
+   "value": 125,
+   "fmt": "$",
+   "label": "Collected revenue per walk-in visit",
+   "assumption": "The research holds no payer mix, no allowed amounts and no collection rate. Norton posts a self-pay range for a basic visit, with labs and X-ray extra [^15]; Baptist Health and CareFirst post no price [^13,16]. The study carries a round $125 net collected per visit, blending insured, Medicare, Medicaid, TRICARE and self-pay patients, which CareFirst says it accepts [^16], and ancillary X-ray and lab revenue. The payer mix is the largest unknown in the model and a lender condition."
+  },
+  "occ_visits_day": {
+   "value": [
+    2,
+    4,
+    6,
+    7,
+    7
+   ],
+   "fmt": "n",
+   "label": "Occupational and employer-contract visits per day",
+   "assumption": "Fort Knox and the region's plants supply a workforce for pre-employment, injury and screening visits [^3,4]. The BlueOval SK layoffs removed one employer buyer for now [^5]. No employer contract is signed in this study; the line assumes the clinic wins a few, and it stays small beside walk-in revenue."
+  },
+  "occ_fee": {
+   "value": 95,
+   "fmt": "$",
+   "label": "Collected revenue per occupational visit",
+   "assumption": "A round figure below the walk-in visit because employer fee schedules are negotiated and many are screening-only. No Kentucky employer fee schedule was found."
+  },
+  "provider_hours": {
+   "value": 12,
+   "fmt": "n",
+   "label": "Provider hours on duty per day, seven days",
+   "assumption": "The operators in the research keep weekday hours into the evening and shorter weekend hours [^13,14,17]; the study staffs one provider through a 12-hour day, every day, which matches the competitors' weekday span and is longer than their weekend span."
+  },
+  "provider_rate": {
+   "value": 65,
+   "fmt": "$2",
+   "label": "Provider cost per hour (nurse practitioner or physician assistant), before payroll costs",
+   "assumption": "A round planning wage for an advanced practice provider. No Kentucky wage figure is in the research; a staffing quote replaces it."
+  },
+  "med_director": {
+   "value": 60000,
+   "fmt": "$",
+   "label": "Supervising physician and medical director fee, per year",
+   "assumption": "A flat allowance for physician oversight, chart review and collaboration; the structure Kentucky requires for the provider type was not confirmed and is a lender condition."
+  },
+  "staff_shift": {
+   "value": 3,
+   "fmt": "n",
+   "label": "Support staff on duty each hour",
+   "assumption": "A medical assistant, a radiography-capable technician and a front-desk coordinator, which is the least a clinic with on-site X-ray runs. No competitor publishes its staffing."
+  },
+  "staff_rate": {
+   "value": 24,
+   "fmt": "$2",
+   "label": "Support staff cost per hour, before payroll costs",
+   "assumption": "A round planning wage for a blended team of medical assistants, technicians and front desk staff; a local wage survey replaces it."
+  },
+  "manager": {
+   "value": 90000,
+   "fmt": "$",
+   "label": "Clinic manager salary",
+   "assumption": "A market salary for the person who runs the clinic, charged even when an owner fills the role, so earnings are not inflated by unpaid owner labor."
+  },
+  "burden": {
+   "value": 0.2,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package; no Kentucky figure was in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year; no inflation series is in the research. Revenue per visit is held flat, so the model does not assume that payers pay more each year."
+  },
+  "supplies_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Medical and office supplies, share of revenue",
+   "assumption": "A round share of revenue for drugs on hand, swabs, test kits, X-ray consumables and office supplies. Operator sites cite flu, COVID-19, strep and RSV testing as core services [^15], which are kit-driven."
+  },
+  "billing_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Billing, coding and collections service, share of revenue",
+   "assumption": "A round share of revenue for outsourced billing. No Kentucky billing cost figure was found."
+  },
+  "malpractice": {
+   "value": 45000,
+   "fmt": "$",
+   "label": "Professional and general liability insurance",
+   "assumption": "Allowance for a single-site clinic with one provider on duty. A broker's quote replaces it."
+  },
+  "utilities": {
+   "value": 48000,
+   "fmt": "$",
+   "label": "Utilities",
+   "assumption": "Allowance for electric, gas, water and sewer on a clinic that runs seven days a week. The city operates the gas utility [^24]; which electric provider serves the parcel was not confirmed [^25]."
+  },
+  "it_software": {
+   "value": 40000,
+   "fmt": "$",
+   "label": "Records system, phones, internet and software subscriptions",
+   "assumption": "Allowance, per year."
+  },
+  "marketing": {
+   "value": 48000,
+   "fmt": "$",
+   "label": "Marketing and online check-in",
+   "assumption": "Allowance, per year. A newcomer among established health-system brands has to buy its visibility."
+  },
+  "repairs_admin": {
+   "value": 66000,
+   "fmt": "$",
+   "label": "Repairs, janitorial, waste, licences, accounting and other administration",
+   "assumption": "One allowance for the small recurring costs of a clinic: cleaning, medical waste, repairs, licences and permits, and the accountant."
+  },
+  "tax_rate": {
+   "value": 0.011,
+   "fmt": "%2",
+   "label": "Property tax, share of land, building and site cost",
+   "assumption": "A planning level of about one percent of cost. The research holds a city rate for tax year 2025 [^26], a county rate, school-district rates that differ by district, and no assessment ratio or combined rate; the sources conflict on the city's rate. The actual levy is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Replacement reserve, share of equipment and fixture cost per year",
+   "assumption": "Funds replacement of the X-ray unit, analyzers and fixtures over a long cycle."
+  },
+  "sba_guaranty_pct": {
+   "value": 0.75,
+   "fmt": "%",
+   "label": "SBA guaranty share",
+   "source": [
+    27
+   ]
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, about 1.25 acres on the Ring Road corridor",
+   "expr": "land_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "acres x assumed price per acre"
+  },
+  {
+   "key": "building",
+   "label": "Clinic building, 4,500 sq ft",
+   "expr": "bldg_sf * bldg_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed hard cost"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, paving, utility taps and signage",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance [^22,23]"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "5% of building and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance [^20,21]"
+  },
+  {
+   "key": "med_equip",
+   "label": "Medical equipment, including radiography",
+   "expr": "med_equip",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "ffe_it",
+   "label": "Furniture, fixtures and systems",
+   "expr": "ffe_it",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening, credentialing and launch",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital and ramp reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about four months of Year 2 operating cost"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "walkin",
+   "label": "Walk-in patient revenue",
+   "expr": "visits_day * 365 * net_per_visit",
+   "basis": "visits a day x 365 x collected revenue per visit"
+  },
+  {
+   "key": "occ",
+   "label": "Occupational and employer-contract revenue",
+   "expr": "occ_visits_day * 365 * occ_fee",
+   "basis": "visits a day x 365 x fee"
+  }
+ ],
+ "cost_of_sales": [],
+ "opex": [
+  {
+   "key": "providers",
+   "label": "Provider payroll with costs",
+   "expr": "provider_hours * 365 * provider_rate * (1 + burden) * (1 + inflation) ** y",
+   "basis": "hours x rate, seven days"
+  },
+  {
+   "key": "director",
+   "label": "Supervising physician fee",
+   "expr": "med_director * (1 + inflation) ** y",
+   "basis": "flat allowance"
+  },
+  {
+   "key": "support",
+   "label": "Support staff payroll with costs",
+   "expr": "staff_shift * provider_hours * 365 * staff_rate * (1 + burden) * (1 + inflation) ** y",
+   "basis": "staff x hours x rate"
+  },
+  {
+   "key": "manager",
+   "label": "Clinic manager with costs",
+   "expr": "manager * (1 + burden) * (1 + inflation) ** y",
+   "basis": "market salary"
+  },
+  {
+   "key": "supplies",
+   "label": "Medical and office supplies",
+   "expr": "rev_total * supplies_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "billing",
+   "label": "Billing and collections service",
+   "expr": "rev_total * billing_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "insurance",
+   "label": "Liability insurance",
+   "expr": "malpractice * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance [^24,25]"
+  },
+  {
+   "key": "it",
+   "label": "Records system and software",
+   "expr": "it_software * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "marketing",
+   "label": "Marketing and online check-in",
+   "expr": "marketing * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "admin",
+   "label": "Repairs, cleaning, waste, licences, accounting",
+   "expr": "repairs_admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate [^26]"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "(med_equip + ffe_it) * reserve_pct",
+   "basis": "5% of equipment"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor proposes the program's 10% minimum equity for a start-up"
+ },
+ "breakeven": {
+  "input": "visits_day",
+  "label": "walk-in visits a day"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "visits_day",
+   "label": "Walk-in visits a day",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "net_per_visit",
+   "label": "Collected revenue per visit",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Elizabethtown, Hardin County, Kentucky, on the Ring Road (KY 3005) northern bypass [^8]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "New independent urgent care clinic of about {in_bldg_sf} sq ft on about {in_land_acres} acres, with on-site X-ray and an occupational medicine line; site, owner and operator not specified"
+  ],
+  [
+   "Program",
+   "SBA 7(a) start-up; the program's equity and coverage tests apply [^28]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the guaranty fee, added to project cost, moves with the loan)"
+  ],
+  [
+   "Loan structure",
+   "One 7(a) loan, 25-year term, at {rate} (Prime plus the maximum variable-rate spread)"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} walk-in visits a day ({cushion_pct} below the {in_visits_day} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "Demand is real and growing, but three of the four urgent care sites confirmed in the city belong to two health systems, and a veterans clinic is under construction on the same corridor [^13,14,15,12]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

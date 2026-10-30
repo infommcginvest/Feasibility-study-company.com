@@ -1,0 +1,73 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+R001	8,155	Siler City population, Vintage 2025	research	I77c	Data Commons (Census Vintage 2025)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:52	Y	secondary aggregator of a periodic Census release
+R002	7,702	Siler City 2020 Census population	research	I77c	U.S. Census Bureau 2020 Census (via Wikipedia)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:53	Y	
+R003	2,696	Siler City 2020 Census households	research	I77c	U.S. Census Bureau 2020 Census (via Wikipedia)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:53	Y	
+R004	5.9%	Siler City population change 2020-2025	research	I77c	Wikipedia (Census-derived)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:54	Y	
+R005	35.6	Siler City median age, ACS 2024	research	I77c	Data Commons (ACS 2024)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:55	Y	
+R006	$27,264	Siler City median individual income, ACS 2024	research	I77c	Data Commons (ACS 2024)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:56	Y	median individual, not household
+R007	76,285	Chatham County 2020 Census population	research	I77c	U.S. Census Bureau 2020 Census (via Wikipedia)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:57	Y	
+R008	85,111	Chatham County 2025 population estimate	research	I77c	Wikipedia, Chatham County (Census estimate)	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:57	Y	vintage not named in research
+R009	0.76%	Chatham County share of NC population, 2025	research	I77c	USAFacts	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:58	Y	
+R010	2.77	Siler City WWTP average flow FY2022-23 (MGD)	research	I77c	Town of Siler City, System Performance Annual Report 2022-2023	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:38	Y	
+R011	4.0	Siler City WWTP permitted capacity (MGD)	research	I77b	Town of Siler City, System Performance Annual Report 2022-2023	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:38	Y	single utility plant capacity; borderline I64
+R012	80%	Water plant production above 80% of approved capacity, five consecutive days in 2025	research	I77c	NC DEQ Local Water Supply Plan, Siler City 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:141	Y	
+R013	6	Siler City WWTP expansion target (MGD), under construction	research	I77c	NC DEQ Local Water Supply Plan, Siler City 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:140	Y	
+R014	500,000	New sewer capacity from WWTP upgrade (gpd)	research	I77a	Siler City Board of Commissioners agenda, 4 May 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:139	Y	
+R015	100,000	Sewer set-aside for commercial, industrial and in-fill (gpd)	research	I77a	Siler City Board of Commissioners agenda, 4 May 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:139	Y	
+R016	20%	Sewer set-aside share requested	research	I77a	Siler City Board of Commissioners agenda, 4 May 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:139	Y	
+R017	400,000	Recommended residential sewer allocations (gpd)	research	I77a	Siler City Board of Commissioners agenda, 4 May 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:139	Y	
+R018	159%	Total nitrogen exceedance, May 2022	research	I77a	NC Newsline 8 Mar 2023	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:142	Y	
+R019	90	Siler City wastewater violations since 2019	research	I77a	NC Newsline 8 Mar 2023	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:142	Y	
+R020	$267,000	Siler City wastewater fines since 2016	research	I77a	NC Newsline 8 Mar 2023	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:142	Y	
+R021	$3.1 million	NCAMPI awards to seven meat projects	research	I77a	NCDA&CS press release 7 Jul 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:108	Y	
+R022	$3.9 million	NCAMPI total grants round	research	I77a	NCDA&CS press release 7 Jul 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:108	Y	
+R023	73	Wolfspeed Siler City layoffs per WARN notice 9 Jun 2025	research	I77a	Carolina Journal 12 Jun 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:127	Y	
+R024	$0.60	Chatham County property tax rate per $100, FY2025-26	research	I77a	NC Department of Revenue, 2025-2026 County Tax Rates	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:144	Y	
+R025	$0.725	Chatham County prior property tax rate per $100	research	I77a	Chatham Journal 17 Jun 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:144	Y	
+R026	$0.5296	Chatham County revenue-neutral rate per $100, FY2025-26	research	I77a	Chatham Journal 17 Jun 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:145	Y	
+R027	$957 million	NC B&I obligations FY2015-2024	research	I77a	House Agriculture Committee testimony 18 Sep 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:167	Y	
+R028	200	NC B&I loans FY2015-2024	research	I77a	House Agriculture Committee testimony 18 Sep 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:167	Y	
+R029	$3.5 billion	National FY2025 B&I allotment	research	I77a	House Agriculture Committee testimony 18 Sep 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:168	Y	
+R030	176,529,407	NC state-inspected red meat lb, 2025	research	none	NCDA&CS MPID Information Statement	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:120	N	undated statement page saying "2025", no periodic document (I77)
+R031	63,229,310	NC state-inspected poultry lb, 2025	research	none	NCDA&CS MPID Information Statement	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:120	N	undated statement page (I77)
+R032	4,523,895	NC state-inspected siluriformes lb, 2025	research	none	NCDA&CS MPID Information Statement	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:120	N	undated statement page (I77)
+R033	150	NC state-inspected plants, 2025	research	none	NCDA&CS MPID Information Statement	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:120	N	undated statement page (I77)
+R034	280,815	NC state-inspected swine slaughter, 2025	research	none	NCDA&CS MPID Information Statement	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:121	N	undated statement page (I77)
+R035	12,056	NC state-inspected cattle slaughter, 2025	research	none	NCDA&CS MPID Information Statement	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:121	N	undated statement page (I77)
+R036	186	NCDA&CS-inspected facilities	research	none	NCDA&CS MPID	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:122	N	research dates it only "Current" (I86)
+R037	$62 million	Siler City WWTP expansion cost	research	none	Shook Construction	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:140	N	one named project cost (I66); contractor page undated
+R038	1.4 million	Mountaire birds per week, 2022	research	I77a	NC Newsline 22 Aug 2022	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:96	N	one named plant volume (I64)
+R039	1,250	Mountaire expected jobs	research	I77a	NC Newsline 22 Aug 2022	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:72	N	one named plant
+R040	$761,810	Piedmont Custom Meats NCAMPI grant	research	I77a	NCDA&CS press release 7 Jul 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:107	N	one named facility financing (I66)
+R041	$10 million	North State Processing MPPEP grant	research	I77a	USDA 11 Jul 2024	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:109	N	one named facility financing (I66)
+R042	$5 billion	Wolfspeed Siler City project	research	I77a	Chatham County EDC	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:127	N	one named project investment (I66)
+R043	$1.14	Combined county plus town rate per $100	research	none	Triangle Tax Map	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:146	N	aggregator page, FY label only, no periodic document
+R044	$0.54	Siler City town rate per $100	research	none	Triangle Tax Map	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:146	N	aggregator page, no periodic document
+R045	7.0%	Chatham County combined sales tax	research	none	Chatham County EDC	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:149	N	research dates it only "Current" (I86)
+R046	100%	NC assessment ratio	research	I77a	NC DOR 2025-2026 County Tax Rates	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:148	N	rule value
+R047	85%	B&I guarantee for projects under $5 million	research	I77a	USDA RD 27 Mar 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:161	N	program rule value
+R048	3%	B&I initial guarantee fee	research	none	USDA RD NC page	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:163	N	program rule value, research dates it "Current"
+R049	0.55%	B&I annual retention fee	research	none	USDA RD NC page	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:163	N	program rule value
+R050	$60 million	MPPEP-4 funding pool	research	I77a	Beef Magazine / USDA RD	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:169	N	USDA program parameter, also in sibling meat case
+R051	$25 million	B&I guaranteed loans coupled with MPPEP-4	research	I77a	Beef Magazine 12 Nov 2025	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:169	N	program rule value
+R052	6,000	Baldor products	research	I77a	The National Provisioner 23 Jun 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:125	N	one distributor attribute
+R053	[subject figure withheld]	Subject asking price	research	none	Adcock Real Estate	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:29	N	subject listing figure
+R054	[subject figure withheld]	Subject acres	research	none	Adcock Real Estate	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:28	N	subject attribute (I64)
+R055	28	Chaudhry employees	research	none	Firsthand Foods 5 Feb 2019	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:70	N	one named facility headcount, pre-2025
+R056	$95	Piedmont beef kill fee	research	none	Piedmont Custom Meats, checked 16 Oct 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:90	N	dated only by the researcher fetch (I69)
+R057	$85	Piedmont hog kill fee	research	none	Piedmont Custom Meats, checked 16 Oct 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:90	N	dated only by the researcher fetch (I69)
+R058	$5.39	Chaudhry ground beef retail price per lb	research	none	Chaudhry Halal Meats, checked 16 Oct 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:87	N	dated only by the researcher fetch (I69)
+R059	600	Piedmont independent farmers served	research	none	Piedmont Custom Meats, checked 16 Oct 2026	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:92	N	single operator claim, fetch-dated
+R060	45,000	Piedmont facility sq ft	research	none	Piedmont Custom Meats	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:91	N	one named facility size (I64)
+R061	50	Radius miles (trade area)	research	none	NC State Extension Apr 2008	CS-R-MEAT-PROCESSING-NORTH-CAROLINA-USDA:51	N	analyst definition, 2008 source
+G01	$94,317	Chatham County median household income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_hh_income.json key co-37037.acs5_median_hh_income	Y	
+G02	2.9%	Chatham County unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key co-37037.acs5_unemployment_rate	Y	
+G03	$91,638	Chatham County per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key co-37037.bea_per_capita_income	Y	
+G04	33,004	Chatham County households, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_households.json key co-37037.acs5_households	Y	
+G05	$1,180	Chatham County median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key co-37037.acs5_median_gross_rent	Y	
+G06	$446,200	Chatham County median home value, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_home_value.json key co-37037.acs5_median_home_value	Y	
+G07	$72,388	North Carolina median household income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_hh_income.json key nc.acs5_median_hh_income	Y	
+G08	4.7%	North Carolina unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key nc.acs5_unemployment_rate	Y	
+G09	$65,634	North Carolina per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key nc.bea_per_capita_income	Y	
+G10	4,282,345	North Carolina households, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_households.json key nc.acs5_households	Y	
+#SUMMARY meat-processing-north-carolina-usda counted=39 research=29 register=10 verdict=PAGE engine=N notes=NCDA&CS 2025 volumes fail I77; sewer, county tax and B&I history rows carry it; WWTP rows borderline

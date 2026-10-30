@@ -313,6 +313,8 @@ def end_of_section(open_tag):
 
 
 def end_of_article(s):
+    if "</article>" not in s:
+        return after_sources(s)     # a factory page (src/templates) has no <article>: sign after the sources
     end = s.index("</article>")
     return s.rindex("</div>", 0, end)
 
@@ -369,12 +371,24 @@ def page_type(rel):
         return "framework"
     if len(parts) >= 3 and parts[-1] == "index.html":
         return {"case-studies": "case", "research-notes": "note", "asset-classes": "asset",
-                "practice-areas": "practice", "states": "state"}.get(parts[0])
+                "practice-areas": "practice", "states": "state", "analytical-framework": "framework"}.get(parts[0])
+    return None
+
+
+def factory_type(rel, s):
+    """The byline.py type of a factory page at a URL page_type does not know (FACTORY-2: a type added under
+    src/templates, such as a framework child), read from the byline region build.py wrote; or None."""
+    if len(rel.split("/")) < 3:
+        return None
+    for name, t in (("byline-article", "note"), ("line-state", "state"), ("line-asset", "practice"),
+                    ("byline-framework", "framework")):
+        if find_block(s, name):
+            return t
     return None
 
 
 def render_page(rel, s, author, counts):
-    t = page_type(rel)
+    t = page_type(rel) or factory_type(rel, s)
     if t is None:
         return s
     s = put(s, "style", author, anchor=before_head_end)
@@ -435,10 +449,12 @@ def main():
                 continue
             path = os.path.join(dirpath, fn)
             rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
-            if page_type(rel) is None or any(fnmatch.fnmatch(rel, p) for p in hold):
+            if any(fnmatch.fnmatch(rel, p) for p in hold):
                 continue
             with open(path, encoding="utf-8") as fh:
                 old = fh.read()
+            if page_type(rel) is None and factory_type(rel, old) is None:
+                continue
             new = render_page(rel, old, author, counts)
             if new != old:
                 changed.append(rel)

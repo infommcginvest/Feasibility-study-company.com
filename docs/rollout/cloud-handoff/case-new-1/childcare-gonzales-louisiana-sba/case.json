@@ -1,0 +1,495 @@
+{
+  "slug": "childcare-gonzales-louisiana-sba",
+  "page": "/case-studies/childcare-gonzales-louisiana-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 28,
+    "fees": 29,
+    "prime": 30
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "center",
+    "count": 1
+  },
+  "inputs": {
+    "capacity": {
+      "value": 150,
+      "fmt": "n",
+      "label": "Licensed capacity, children",
+      "assumption": "A mid-sized center for the trade area. Directory capacities for Gonzales-area centers run from small home-scale programs to several well above this level, but those figures carry no date, so the study prints none; the Ready Start Network counts 28 early learning centers in the parish [^12]. The state license fee schedule also steps up at 101 children [^22]."
+    },
+    "occ": {
+      "value": [
+        0.5,
+        0.72,
+        0.84,
+        0.88,
+        0.88
+      ],
+      "fmt": "%",
+      "label": "Enrolled children as a share of licensed capacity",
+      "assumption": "Ramps over three years to 84%, then 88%. No competitor occupancy was found and the research holds no utilization figure for the parish, so the path is an underwriting choice: demand is strong (the parish added several thousand residents between April 2020 and July 2025 [^4]) but the center must still take children from established programs, and a 150-child center opens with every classroom empty. The sensitivity table moves occupancy 20% either way."
+    },
+    "share_young": {
+      "value": 0.3,
+      "fmt": "%",
+      "label": "Share of enrolled children under age 3",
+      "assumption": "Infant and toddler rooms are the costliest to staff and the most scarce; the mix is a planning choice, not a market statistic."
+    },
+    "share_pre": {
+      "value": 0.45,
+      "fmt": "%",
+      "label": "Share of enrolled children ages 3 to 5",
+      "assumption": "The largest group, as at most centers; this share also includes pre-kindergarten children."
+    },
+    "share_school": {
+      "value": 0.25,
+      "fmt": "%",
+      "label": "Share of enrolled children in school-age before and after care",
+      "assumption": "Competitors in the census run before and after school care and summer camp for primary-school children [^14,15]. The subject carries a smaller school-age program than a center beside a primary school would."
+    },
+    "rate_young": {
+      "value": 205,
+      "fmt": "$",
+      "label": "Weekly tuition, under age 3",
+      "assumption": "Inside the range of weekly rates by age that the Dutchtown center publishes on its own site [^14]. The study does not print the competitor's posted rates, because the research dates them only by a check, not by a publication. Infant care is the highest-priced room."
+    },
+    "rate_pre": {
+      "value": 170,
+      "fmt": "$",
+      "label": "Weekly tuition, ages 3 to 5",
+      "assumption": "Inside the same posted range, at the preschool end; three- to five-year-olds are the lowest-priced full-time rooms."
+    },
+    "rate_school": {
+      "value": 105,
+      "fmt": "$",
+      "label": "Weekly rate, school-age before and after care",
+      "assumption": "Inside the range of before- and after-school rates the same operator publishes [^14]; school-age children attend part of the day, so the weekly rate is far below a full-time rate."
+    },
+    "weeks": {
+      "value": 50,
+      "fmt": "n",
+      "label": "Billed weeks per year",
+      "assumption": "Fifty-two weeks less closed holidays; a center bills across the summer, so there is no seasonal gap beyond a few unbilled days."
+    },
+    "tuition_index": {
+      "value": 1.0,
+      "fmt": "n2",
+      "label": "Tuition level against the modelled schedule",
+      "assumption": "A multiplier on all three weekly rates, held at 1.00 so that the sensitivity table can move tuition up and down."
+    },
+    "tuition_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual tuition increase",
+      "assumption": "A planning rate close to general inflation; the research holds no Gonzales tuition history, so no local increase is claimed."
+    },
+    "fees_per_child": {
+      "value": 450,
+      "fmt": "$",
+      "label": "Registration, supply and late fees per enrolled child per year",
+      "assumption": "Operators in the census charge a one-time registration fee per child [^14]. This is an allowance for registration, annual supply fees and late-pickup charges; the research states no Gonzales total."
+    },
+    "cpt_young": {
+      "value": 6,
+      "fmt": "n",
+      "label": "Children per teaching post, under age 3",
+      "assumption": "A blended classroom ratio for infant, toddler and two-year-old rooms. The licensing ratios are in the state's center rules, which the research cited for fees and license types, not ratios [^22]; the lender should replace this figure with the rule's."
+    },
+    "cpt_pre": {
+      "value": 11,
+      "fmt": "n",
+      "label": "Children per teaching post, ages 3 to 5",
+      "assumption": "A blended preschool ratio, an assumption pending the same check against the state rule."
+    },
+    "cpt_school": {
+      "value": 15,
+      "fmt": "n",
+      "label": "Children per teaching post, school-age",
+      "assumption": "School-age groups run at the loosest ratio; an assumption pending the same check."
+    },
+    "paid_hours": {
+      "value": 2080,
+      "fmt": "n",
+      "label": "Paid hours per teaching post per year",
+      "assumption": "A center open from early morning to evening staggers shifts so that ratios hold through the middle of the day and thin at its edges; the model pays one full-time equivalent, 2,080 hours, for each classroom post. Competitors in the census run a long day with before and after care [^14,15]."
+    },
+    "wage_teacher": {
+      "value": 14.0,
+      "fmt": "$2",
+      "label": "Average hourly wage, teaching staff",
+      "assumption": "The midpoint of the $13.00 to $15.00 hourly range a Geismar center advertised for a toddler assistant in August 2025 [^17]. Most teaching posts are assistants, and the few leads earn more, so the midpoint stands for the blend. The advertised range is a single posting, not a market survey."
+    },
+    "admin_payroll": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Director, assistant director, cook and office payroll, Year 1",
+      "assumption": "A director, an assistant director, a cook and part-time office help; the research holds no Gonzales salary for any of them. It is the largest non-classroom cost and a lender condition to price from a payroll quote."
+    },
+    "burden": {
+      "value": 0.12,
+      "fmt": "%",
+      "label": "Payroll taxes, workers' compensation and benefits on wages",
+      "assumption": "Employer taxes and workers' compensation for a labour-intensive service business; no Louisiana child care figure was found."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and operating costs",
+      "assumption": "A planning rate; the research states no Louisiana inflation figure, so none is claimed."
+    },
+    "food_per_child": {
+      "value": 650,
+      "fmt": "$",
+      "label": "Meals and snacks per enrolled child per year",
+      "assumption": "An allowance. Centers that accept subsidy children often serve meals, and the research found no Gonzales food cost; a lender should ask for the center's food program."
+    },
+    "supplies_per_child": {
+      "value": 275,
+      "fmt": "$",
+      "label": "Curriculum, supplies and consumables per enrolled child per year",
+      "assumption": "An allowance; no Gonzales supply cost was found."
+    },
+    "utilities_psf": {
+      "value": 2.5,
+      "fmt": "$2",
+      "label": "Utilities per square foot of building per year",
+      "assumption": "An allowance for electricity, water, sewer, gas and telephone for a building that runs long hours. Whether water, sewer and electric service reach a site is a lender condition, and the utility providers were not found."
+    },
+    "insurance": {
+      "value": 26000,
+      "fmt": "$",
+      "label": "Property, liability and abuse-and-molestation insurance, Year 1",
+      "assumption": "An allowance; no Ascension Parish premium was found, and the lender should obtain quotes."
+    },
+    "repairs_psf": {
+      "value": 3.0,
+      "fmt": "$2",
+      "label": "Repairs, janitorial and grounds per square foot of building per year",
+      "assumption": "An allowance for a building with heavy daily use."
+    },
+    "admin": {
+      "value": 42000,
+      "fmt": "$",
+      "label": "Licenses, accounting, software, marketing and parent communications, Year 1",
+      "assumption": "An allowance. The state's annual license fee for a center of this size is $250 and the application fee is $25 [^22]; the balance is accounting, parent software and advertising."
+    },
+    "tax_rate": {
+      "value": 0.012,
+      "fmt": "%2",
+      "label": "Property tax as a share of cost basis",
+      "assumption": "The research found only undated millage tables and no commercial assessment ratio, so no rate is printed from them; this is a round 1.2% allowance for a commercial parcel outside the city's boundaries, and the parcel's actual taxing districts are a lender condition."
+    },
+    "reserve_pct": {
+      "value": 0.08,
+      "fmt": "%",
+      "label": "Replacement reserve, share of furniture, equipment and playground cost per year",
+      "assumption": "Funds classroom furniture, kitchen equipment and playground surfacing over a roughly twelve-year cycle."
+    },
+    "land_acres": {
+      "value": 2.0,
+      "fmt": "n1",
+      "label": "Land area, acres",
+      "assumption": "A round hypothetical parcel of about two acres, enough for a building of this size, a drop-off lane, parking and a fenced outdoor play area."
+    },
+    "land_per_acre": {
+      "value": 200000,
+      "fmt": "$",
+      "label": "Land cost per acre",
+      "assumption": "A round planning figure for commercial land on a growing corridor. The research found no closed land sale in Gonzales; it did find two commercial parcels of about this size offered for sale in the town during 2025 and 2026, and the model's figure sits between their per-acre asking prices. Asking prices are not sales, so the appraisal and an executed contract replace it. The sensitivity of the verdict to land is small beside enrolment and tuition."
+    },
+    "building_sf": {
+      "value": 12000,
+      "fmt": "n",
+      "label": "Building size, square feet",
+      "assumption": "About 80 square feet of building per licensed child, for classrooms, a kitchen, offices, bathrooms and circulation. For scale, a 7,400 sq ft center in Dutchtown changed hands in April 2025 [^13]; this building is considerably larger because it carries 150 children."
+    },
+    "building_psf": {
+      "value": 200,
+      "fmt": "$",
+      "label": "Building hard cost per square foot",
+      "assumption": "A planning allowance. The research lists a construction cost index for the parish as not found and holds no Gonzales bid. For scale, the 7,400 sq ft Dutchtown center sold with its land for $860,000 in April 2025 [^13]; that is a used building, so new construction is carried well above it."
+    },
+    "sitework": {
+      "value": 380000,
+      "fmt": "$",
+      "label": "Site work: paving, drainage, utility taps, fencing and signage",
+      "assumption": "An allowance for a two-acre parcel with a drop-off lane and parking. Parish impact and connection fees were not found [^20], so they are a lender condition."
+    },
+    "playground": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Outdoor play areas: shade structures, surfacing and equipment",
+      "assumption": "An allowance for age-separated play areas."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "Five percent of building, site work and play areas, a planning choice for a priced but unbid project."
+    },
+    "soft": {
+      "value": 240000,
+      "fmt": "$",
+      "label": "Design, permits, survey, Phase I environmental, legal and state approvals",
+      "assumption": "An allowance. A new center needs parish zoning approval, fire marshal and public health approvals and a certificate of occupancy before the state will license it [^33]; new or renovated space also needs approvals before occupancy [^23]."
+    },
+    "ffe": {
+      "value": 280000,
+      "fmt": "$",
+      "label": "Furniture, kitchen, security, technology and a vehicle",
+      "assumption": "An allowance for classroom furniture and cribs, a commercial kitchen, door security and cameras, a parent check-in system and one van."
+    },
+    "working_capital": {
+      "value": 240000,
+      "fmt": "$",
+      "label": "Pre-opening payroll, licensing carry and operating reserve",
+      "assumption": "A planning reserve for pre-opening payroll, licensing carry and the Year 1 operating loss while the center is licensed and fills; a state license can take weeks after construction ends, and the center earns nothing until then."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        27
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 2 acres",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x assumed $ per acre"
+    },
+    {
+      "key": "building",
+      "label": "Building, 12,000 sq ft",
+      "expr": "building_sf * building_psf",
+      "class": "real_estate",
+      "basis": "sq ft x cost per sq ft"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, utilities and signage",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "playground",
+      "label": "Outdoor play areas",
+      "expr": "playground",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(building_sf * building_psf + sitework + playground) * contingency_pct",
+      "class": "real_estate",
+      "basis": "5% of hard costs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits, Phase I and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance [^23,33]"
+    },
+    {
+      "key": "ffe",
+      "label": "Furniture, kitchen, security and van",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "working_capital",
+      "label": "Pre-opening costs and operating reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "allowance"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "young",
+      "label": "Tuition, under age 3",
+      "expr": "capacity * occ * share_young * rate_young * weeks * tuition_index * (1 + tuition_growth) ** y",
+      "basis": "children x weekly rate x weeks"
+    },
+    {
+      "key": "pre",
+      "label": "Tuition, ages 3 to 5",
+      "expr": "capacity * occ * share_pre * rate_pre * weeks * tuition_index * (1 + tuition_growth) ** y",
+      "basis": "children x weekly rate x weeks"
+    },
+    {
+      "key": "school",
+      "label": "School-age before and after care",
+      "expr": "capacity * occ * share_school * rate_school * weeks * tuition_index * (1 + tuition_growth) ** y",
+      "basis": "children x weekly rate x weeks"
+    },
+    {
+      "key": "fees",
+      "label": "Registration, supply and late fees",
+      "expr": "capacity * occ * fees_per_child",
+      "basis": "children x fee"
+    }
+  ],
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "teaching",
+      "label": "Teaching payroll",
+      "expr": "capacity * occ * (share_young / cpt_young + share_pre / cpt_pre + share_school / cpt_school) * paid_hours * wage_teacher * (1 + inflation) ** y",
+      "basis": "posts x hours x wage [^17]"
+    },
+    {
+      "key": "admin_pay",
+      "label": "Director, kitchen and office payroll",
+      "expr": "admin_payroll * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "burden",
+      "label": "Payroll taxes and benefits",
+      "expr": "(opex_teaching + opex_admin_pay) * burden",
+      "basis": "share of payroll"
+    },
+    {
+      "key": "food",
+      "label": "Meals and snacks",
+      "expr": "capacity * occ * food_per_child * (1 + inflation) ** y",
+      "basis": "children x allowance"
+    },
+    {
+      "key": "supplies",
+      "label": "Curriculum and supplies",
+      "expr": "capacity * occ * supplies_per_child * (1 + inflation) ** y",
+      "basis": "children x allowance"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities",
+      "expr": "building_sf * utilities_psf * (1 + inflation) ** y",
+      "basis": "sq ft x allowance"
+    },
+    {
+      "key": "repairs",
+      "label": "Repairs, janitorial and grounds",
+      "expr": "building_sf * repairs_psf * (1 + inflation) ** y",
+      "basis": "sq ft x allowance"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "admin",
+      "label": "Licenses, accounting and marketing",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance [^22]"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + building_sf * building_psf + sitework + playground + ffe) * tax_rate",
+      "basis": "cost basis x allowance rate"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(ffe + playground) * reserve_pct",
+      "basis": "8% of equipment and play areas"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes the program's start-up minimum of 10% equity"
+  },
+  "breakeven": {
+    "input": "occ",
+    "label": "enrolment as a share of licensed capacity"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "occ",
+      "label": "Enrolment against the underwritten level",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "tuition_index",
+      "label": "Tuition against the modelled schedule",
+      "steps": [
+        -0.1,
+        -0.05,
+        0,
+        0.05,
+        0.1
+      ]
+    },
+    "year": 2
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Gonzales, Ascension Parish, Louisiana, on the LA 621 corridor [^1,4]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New {in_building_sf} sq ft child care and early learning center licensed for {in_capacity} children, on about {in_land_acres} acres of commercial land"
+    ],
+    [
+      "Program",
+      "SBA 7(a) start-up; a new business, so the start-up tests apply"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the guaranty fee moves with the loan)"
+    ],
+    [
+      "Loan structure",
+      "One 7(a) loan, 25-year term, Prime plus the maximum variable-rate spread"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured"
+    ],
+    [
+      "Break-even",
+      "Enrolment of {breakeven_pct} of the underwritten level covers debt service in Year 3 ({cushion_pct} cushion)"
+    ],
+    [
+      "Market conclusion",
+      "Demand is real and growing; the cost of a new building against local tuition limits the loan"
+    ],
+    [
+      "Determination",
+      "As proposed: {verdict_proposed} the {floor} test. As restructured: {loan_total} of 7(a) debt and {equity_pct} equity"
+    ]
+  ]
+}

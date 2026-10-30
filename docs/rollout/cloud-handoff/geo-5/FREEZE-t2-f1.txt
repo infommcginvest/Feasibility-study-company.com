@@ -1,0 +1,12 @@
+# GEO-5 t2 freeze 1 (2026-10-28T19:10Z)
+worktree HEAD 8b2a94f4c2f7e0e9d5ea2d7e1e81478a6f91a94f; local main a03f5624e2b42e7b055ca0693eea1428a83ed147
+copy: tmp/geo-5/t2 (archive of worktree HEAD, drafts placed, requests applied, neighbors5.py, patches/, chain run)
+source virginia 35b33fbda6c82084137c3a9c7d5d5a4fae5e4c016e4f3a4ac44cc2d6ccf0120f
+rendered /states/virginia/ bec11252f792275559be5f1ab59a6cf5d0906fe41d5f2c405604bc528b657419
+source virginia/northern-virginia c217c1ac781410e85031de510e2a19b9d1049c6cf94d46dbfa5cb207c2423c2c
+rendered /states/virginia/northern-virginia/ daef1780a1b01b57f24ffd793697c4a96188100000255f6ec5db07a28247b0dc
+src/pages/states tree 65fe3ae2a832069e00020511019c78de41ba4411f2f853fec8f1a5a72a08b0be
+requests.json 7556f7deda9e2e9fc646b7b0f624f62586719eb84eb691c5cd202c53f8f8d785
+neighbors5.py 4deeb9aade645d62c97faf4924ac96266ea42efeabfe818cd785bc89edc6b34e
+patches/nova_links.py 4ddce4058d204c44732a7e9a3779418f25df42a1aa1a0c306c36653df9959664
+gates READY 493a411d272e49cabd09887c2cdd03b8ce86a3382c81dc5da709cd798d9eaa86; landing 3,9 site-wide 2ed765c86d1ea94fdf226e8c3bbe2a7b1e0fc954f1ca488424c74cdaf1a339df

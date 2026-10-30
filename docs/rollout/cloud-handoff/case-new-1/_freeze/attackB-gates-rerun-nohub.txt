@@ -1,0 +1,105 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-29T10:28:30
+root ~/Downloads/wt-rollout-int; git dir ~/Downloads/wt-rollout-int at 860fcd32b158c4ec1a6235901b9fbe52048da609; range None; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root . --git-dir . --urls /case-studies/self-storage-bardstown-kentucky-usda/,/case-studies/restaurant-acquisition-broussard-louisiana-sba/,/case-studies/urgent-care-elizabethtown-kentucky-sba/,/case-studies/grocery-store-ness-city-kansas-usda/,/case-studies/car-wash-port-charlotte-florida-sba/,/case-studies/restaurant-sevierville-tennessee-sba/,/case-studies/medical-office-lebanon-tennessee-sba/,/states/tennessee/nashville/ --stage landing --skip-look --only 1,2,3,4,6,7,8,9,10,11,12,14 --out ~/Downloads/fsc-rollout/drafts/case-new-1/_freeze/attackB-gates-rerun-nohub.txt
+pages (8): /case-studies/car-wash-port-charlotte-florida-sba/ /case-studies/grocery-store-ness-city-kansas-usda/ /case-studies/medical-office-lebanon-tennessee-sba/ /case-studies/restaurant-acquisition-broussard-louisiana-sba/ /case-studies/restaurant-sevierville-tennessee-sba/ /case-studies/self-storage-bardstown-kentucky-usda/ /case-studies/urgent-care-elizabethtown-kentucky-sba/ /states/tennessee/nashville/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+8 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 103 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 22 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 landing floors (research and register apart): GREEN
+  /case-studies/car-wash-port-charlotte-florida-sba/             case      counted 34 (research 29, register 5/5)
+  /case-studies/grocery-store-ness-city-kansas-usda/             case      counted 50 (research 43, register 7/7)
+  /case-studies/medical-office-lebanon-tennessee-sba/            case      counted 31 (research 21, register 10/10)
+  /case-studies/restaurant-acquisition-broussard-louisiana-sba/  case      counted 35 (research 26, register 9/9)
+  /case-studies/restaurant-sevierville-tennessee-sba/            case      counted 31 (research 21, register 10/10)
+  /case-studies/self-storage-bardstown-kentucky-usda/            case      counted 34 (research 24, register 10/10)
+  /case-studies/urgent-care-elizabethtown-kentucky-sba/          case      counted 30 (research 20, register 10/10)
+  /states/tennessee/nashville/                                   metro     counted 25 (research 19, register 6/6)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /case-studies/car-wash-port-charlotte-florida-sba/             max 3.87% (/case-studies/urgent-care-elizabethtown-kentucky-sba/)
+  /case-studies/grocery-store-ness-city-kansas-usda/             max 9.32% (/case-studies/self-storage-bardstown-kentucky-usda/)
+  /case-studies/medical-office-lebanon-tennessee-sba/            max 7.79% (/case-studies/urgent-care-elizabethtown-kentucky-sba/)
+  /case-studies/restaurant-acquisition-broussard-louisiana-sba/  max 8.36% (/case-studies/gas-station-alabama-sba/)
+  /case-studies/restaurant-sevierville-tennessee-sba/            max 6.04% (/case-studies/urgent-care-elizabethtown-kentucky-sba/)
+  /case-studies/self-storage-bardstown-kentucky-usda/            max 9.32% (/case-studies/grocery-store-ness-city-kansas-usda/)
+  /case-studies/urgent-care-elizabethtown-kentucky-sba/          max 7.79% (/case-studies/medical-office-lebanon-tennessee-sba/)
+  /states/tennessee/nashville/                                   max 1.4% (/states/tennessee/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+1 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 15: GREEN
+  car-wash-port-charlotte-florida-sba            sba_7a   words  5492  equity  38.9% (tier 10%)  test DSCR 1.152 (floor 1.15)
+  grocery-store-ness-city-kansas-usda            usda_bi  words  5846  equity  25.0% (tier 25%)  NEGATIVE  test DSCR -0.336 (floor 1.25)
+  medical-office-lebanon-tennessee-sba           sba_504  words  5910  equity  43.3% (tier 20%)  test DSCR 1.150 (floor 1.15)
+  restaurant-acquisition-broussard-louisiana-sba sba_7a   words  5475  equity  14.9% (tier 10%)  test DSCR 1.251 (floor 1.25)
+  restaurant-sevierville-tennessee-sba           sba_7a   words  5714  equity  38.5% (tier 10%)  test DSCR 1.150 (floor 1.15)
+  self-storage-bardstown-kentucky-usda           usda_bi  words  5806  equity  54.8% (tier 25%)  test DSCR 1.252 (floor 1.25)
+  urgent-care-elizabethtown-kentucky-sba         sba_7a   words  5645  equity  54.4% (tier 10%)  test DSCR 1.152 (floor 1.15)
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in (no range): 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: none (0 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 213 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1164 term link(s) on 199 page(s)
+pages checked for inbound links: 8; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 213 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+8 page(s)
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  8 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 landing floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 13/13

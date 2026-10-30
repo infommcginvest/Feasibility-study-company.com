@@ -1,0 +1,63 @@
+GEO-1 tranche 3 gates, copy ~/Downloads/fsc-rollout/tmp/geo-1/t3, 3 page(s)
+13/14 green
+
+GATE  1 GREEN pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id (3 pages)
+
+
+GATE  2 GREEN factory: build.py --check and casemodel.py --check exit 0
+  build.py --check: exit 0: 36 page(s) checked, 0 out of date or failing
+  casemodel.py --check: exit 0: 15 case(s) checked, 0 problem(s)
+
+GATE  3 GREEN counted figures (A6): at least 30, research at least 20, register at most 10 counted; body words in the ruling 3 range
+  /states/north-carolina/                      state  words  4634 (4500-8000) research  72 register 10 total  82
+  /states/north-carolina/charlotte/            metro  words  2066 (2000-3500) research  24 register 10 total  34
+  /states/north-carolina/raleigh-durham/       metro  words  2069 (2000-3500) research  25 register  9 total  34
+
+GATE  4 GREEN overlap under 15% against every page of the copy; sibling matrix
+  /states/north-carolina/                      max  1.27% with /states/north-carolina/raleigh-durham/; top [(1.27, '/states/north-carolina/raleigh-durham/', 35), (1.24, '/case-studies/multifamily-north-carolina-agency/', 44), (1.03, '/case-studies/medical-office-north-carolina-sba/', 38)]
+  /states/north-carolina/charlotte/            max  0.95% with /states/north-carolina/; top [(0.95, '/states/north-carolina/', 25), (0.95, '/states/florida/orlando/', 25), (0.88, '/states/north-carolina/raleigh-durham/', 23)]
+  /states/north-carolina/raleigh-durham/       max  1.27% with /states/north-carolina/; top [(1.27, '/states/north-carolina/', 35), (0.88, '/states/north-carolina/charlotte/', 23), (0.76, '/states/florida/miami/', 21)]
+  sibling matrix:
+  /states/north-carolina/ x /states/north-carolina/charlotte/: 0.95%
+  /states/north-carolina/ x /states/north-carolina/raleigh-durham/: 1.27%
+  /states/north-carolina/charlotte/ x /states/north-carolina/raleigh-durham/: 0.88%
+
+GATE  5 GREEN standalone: every metro passes gates 3 and 4 on its own evidence (its counted figures are its own geography's)
+  /states/north-carolina/charlotte/, /states/north-carolina/raleigh-durham/
+
+GATE  6 GREEN case standard
+  no case pages in this tranche (not applicable)
+
+GATE  7 GREEN sources: four parts, all cited; ruling 9 pattern absent from pages, sources, commits and tags; sbamandate.py zero
+
+  sources matching the pattern: []
+  commits or tags matching: 0
+
+GATE  8 GREEN subjects: no identifier from 10 private list(s) in tranche pages, sources or history (217 tokens)
+
+
+GATE  9 GREEN links: links.py --check and mesh.py --check exit 0; state and metro link both ways; inbound counts (checked at landing)
+  links.py --check: exit 0: 0 problem(s) over 177 checked pages (0 held, data/site/hold.json)
+  mesh.py --check: exit 0: 0 page(s) out of date; 0 held; 1033 term link(s) on 163 page(s)
+
+  /states/north-carolina/: 40 inbound contextual source pages (needs 3 after landing)
+  /states/north-carolina/charlotte/: 3 inbound contextual source pages (needs 3 after landing)
+  /states/north-carolina/raleigh-durham/: 3 inbound contextual source pages (needs 3 after landing)
+
+GATE 10 GREEN clean text: no em or en dashes in any encoding; no credential after the name
+
+
+GATE 11 GREEN markers: byline, regulatory, chrome and markets --check exit 0
+  byline.py --check: exit 0: out of date: 0 page(s)
+  regulatory.py --check: exit 0: 0 page(s) out of date
+  chrome.py --check: exit 0: 0 page(s) out of date; 0 held; 177 checked; 0 problem(s)
+  markets.py --check: exit 0: 0 page(s) out of date
+
+GATE 12 GREEN dates: dateModified, visible line and sitemap lastmod agree (2026-10-18); rebuilt pages keep published
+
+
+GATE 13 RED   look
+  not run (--skip-look)
+
+GATE 14 GREEN index all: index, follow; in the sitemap with lastmod
+

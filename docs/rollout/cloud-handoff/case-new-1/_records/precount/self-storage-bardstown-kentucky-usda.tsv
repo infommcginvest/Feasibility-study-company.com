@@ -1,0 +1,89 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F001	49,036	Nelson County population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L50	Y	
+F002	4.9%	Nelson County population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L51	N	same value printed on served page(s): /research-notes/underserved-gas-station-markets/, /case-studies/rv-boat-storage-arizona-sba/, /case-studies/grocery-store-mississippi-usda/
+F003	46,732	Nelson County April 2020 estimates base	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L51	Y	
+F004	4,606,864	Kentucky population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L50	N	same value printed on served parent page(s): 
+F005	2.2%	Kentucky population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L51	N	same value printed on served page(s): /case-studies/auto-service-new-jersey-sba/, /case-studies/gas-station-alabama-sba/, /case-studies/private-school-connecticut-conventional/
+F006	4,506,287	Kentucky April 2020 estimates base	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L51	Y	
+F007	3.1%	US population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L51	N	national comparator in a state row; not a case-specific market figure
+F008	14,161	Bardstown city population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L19	Y	
+F009	4.4%	Bardstown city population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L19	N	same value printed on served page(s): /research-notes/special-purpose-property-risk/, /case-studies/rv-boat-storage-texas-sba/, /case-studies/assisted-living-florida-hud/
+F010	13,561	Bardstown city April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025	FSC2:Bardstown:L19	Y	
+F011	47,606	Nelson County population, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L52	Y	
+F012	19,150	Nelson County households, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L53	Y	
+F013	$69,562	Nelson County median household income, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L54	Y	
+F014	39.5	Nelson County median age, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L55	N	same value printed on served page(s): /case-studies/gas-station-florida-sba/
+F015	20,330	Nelson County housing units, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L56	N	same value printed on served parent page(s): 
+F016	$238,000	Nelson County median owner-occupied value, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L57	N	same value printed on served page(s): /case-studies/laundromat-new-mexico-sba/
+F017	9.7%	Nelson County moved in past year, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L58	N	same value printed on served page(s): /case-studies/auto-dealership-texas-sba/, /case-studies/cabin-resort-townsend-tennessee-sba/
+F018	7.2%	Nelson County veterans share, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L59	N	same value printed on served page(s): /research-notes/sba-default-economics/, /research-notes/break-even-occupancy-trap/, /case-studies/hotel-texas-sba/
+F019	26.6	Nelson County mean commute minutes, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L60	Y	
+F020	1,814,469	Kentucky households, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L53	N	rounded repeat of a figure on a served case or note page
+F021	$63,726	Kentucky median household income, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L54	N	same value printed on served parent page(s): /states/kentucky/
+F022	39.1	Kentucky median age, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L55	Y	
+F023	2,023,116	Kentucky housing units, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L56	Y	
+F024	$205,600	Kentucky median owner-occupied value, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L57	N	same value printed on served parent page(s): /states/kentucky/
+F025	12.5%	Kentucky moved in past year, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L58	N	same value printed on served page(s): /research-notes/effective-rent-vs-asking-rent/, /research-notes/office-repurposing/, /case-studies/multifamily-arizona-agency/
+F026	6.5%	Kentucky veterans share, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L59	N	same value printed on served page(s): /research-notes/coverage-constrained-takeout/, /research-notes/break-even-occupancy-trap/, /practice-areas/sba-7a-504/
+F027	24.0	Kentucky mean commute minutes, ACS 2020-2024	research	I77c	Census Reporter (ACS 2020-2024 5-yr)	FSC2:Bardstown:L60	N	same value printed on served page(s): /research-notes/underserved-gas-station-markets/, /case-studies/assisted-living-florida-hud/, /case-studies/rv-park-arizona-usda/
+F028	2,612	Nelson County manufacturing jobs, 2022	research	I77a	The Lane Report, Jul 2022	FSC2:Bardstown:L61	Y	
+F029	59 establishments	Nelson County manufacturing establishments, 2022	research	I77a	The Lane Report, Jul 2022	FSC2:Bardstown:L61	N	same value printed on served page(s): /research-notes/c-store-franchise-category/
+F030	2,610	Nelson County retail jobs, 2022	research	I77a	The Lane Report, Jul 2022	FSC2:Bardstown:L61	Y	
+F031	$90.9 million	Nelson County tourism economic impact, 2024	research	I77a	Visit Bardstown citing KY Dept of Tourism (2025 release)	FSC2:Bardstown:L109	N	same value printed on served parent page(s): /states/connecticut/
+F032	$62.6 million	Nelson County direct visitor spending, 2024	research	I77a	Visit Bardstown citing KY Dept of Tourism (2025 release)	FSC2:Bardstown:L109	N	same value printed on served parent page(s): /states/florida/orlando/
+F033	450 jobs	Nelson County tourism jobs, 2024	research	I77a	Visit Bardstown citing KY Dept of Tourism (2025 release)	FSC2:Bardstown:L109	N	same value printed on served parent page(s): /asset-classes/multifamily/, /states/alabama/huntsville/, /states/new-mexico/
+F034	623 jobs	Nelson County total tourism-supported jobs, 2024	research	I77a	Visit Bardstown citing KY Dept of Tourism (2025 release)	FSC2:Bardstown:L109	Y	
+F035	$140,000	Tourism community grants, record, 17 Sep 2025	research	I77a	Visit Bardstown	FSC2:Bardstown:L110	N	same value printed on served page(s): /practice-areas/sba-7a-504/, /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-texas-sba/
+F036	50,000	Kentucky Bourbon Festival attendance, organizer claim	research	I77a	Spectrum News 1, 8 Sep 2025	FSC2:Bardstown:L111	N	organizer claim in conflict with a 6,000+ ticketed figure; research marks both unverified
+F037	6,000	Kentucky Bourbon Festival ticketed guests	research	none	Wikipedia	FSC2:Bardstown:L111	N	undated Wikipedia figure; conflicts with the organizer claim
+F038	85%	Kentucky Bourbon Festival out-of-state share of ticketed guests, 2024	research	I77a	Fred Minnick, 19 Sep 2024	FSC2:Bardstown:L112	N	same value printed on served page(s): /research-notes/five-usda-components-applied/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/sba-default-economics/
+F039	2.7 million	Kentucky Bourbon Trail visitors, 2025	research	none	James B. Beam Distilling Co. article	FSC2:Bardstown:L115	N	page says 2025 but the article is not dated or periodic
+F040	9 partner distilleries	National Bourbon Week partner distilleries 2025	research	none	American Whiskey Magazine	FSC2:Bardstown:L114	N	article date not given in the research; no unit word for pagecheck
+F041	11 distilleries	Distilleries within 16 miles of the court square	research	I77a	Whiskey Network, Apr 2025	FSC2:Bardstown:L116	N	plain count with no pagecheck unit word (distilleries); not a figure the gate counts as written
+F042	$135 million	Heaven Hill new distillery investment	research	I77a	Commonwealth of Kentucky press release, 6 Jun 2022	FSC2:Bardstown:L117	N	same value printed on served parent page(s): /states/washington/, /states/new-hampshire/, /states/west-virginia/
+F043	38 jobs	Heaven Hill new distillery full-time jobs	research	I77a	Commonwealth of Kentucky press release, 6 Jun 2022	FSC2:Bardstown:L117	N	same value printed on served page(s): /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-versailles-ohio-sba/, /case-studies/meat-processing-texas-usda/
+F044	$33.62	Heaven Hill average hourly wage incl. benefits	research	I77a	Commonwealth of Kentucky press release, 6 Jun 2022	FSC2:Bardstown:L117	Y	
+F045	$28.7 million	Bardstown Bourbon Co. expansion	research	I77a	Kentucky Distillers' Association, 31 Mar 2022	FSC2:Bardstown:L118	N	same value printed on served parent page(s): /states/pennsylvania/
+F046	29 jobs	Bardstown Bourbon Co. expansion jobs	research	I77a	Kentucky Distillers' Association, 31 Mar 2022	FSC2:Bardstown:L118	N	same value printed on served page(s): /case-studies/rv-park-texas-usda/
+F047	55,000 barrels	Bardstown Bourbon Co. added barrels per year	research	I77a	Kentucky Distillers' Association, 31 Mar 2022	FSC2:Bardstown:L118	N	plain count with no pagecheck unit word (barrels)
+F048	26,260	Fort Knox daytime population, installation-wide	research	none	U.S. Army Fort Knox visitor information	FSC2:Bardstown:L120	N	page marked Current, undated; no Bardstown-specific link
+F049	16.10 cents	Bardstown city property tax rate per $100, FY2025-26	research	I77a	CitizenPortal.ai summary of Ord. B2025-12, 9 Sep 2025	FSC2:Bardstown:L135	N	same value printed on served parent page(s): /asset-classes/skilled-nursing/, /states/indiana/, /states/massachusetts/
+F050	79.10 cents	Bardstown City Schools real property rate per $100	research	I77a	Bardstown City Schools, approved 29 Sep 2026	FSC2:Bardstown:L136	Y	
+F051	81.30 cents	Bardstown City Schools personal property rate per $100	research	I77a	Bardstown City Schools, approved 29 Sep 2026	FSC2:Bardstown:L136	Y	
+F052	67.0 cents	Nelson County Schools real property rate per $100	research	I77a	CitizenPortal.ai summary of board vote, 19 Aug 2025	FSC2:Bardstown:L137	N	same value printed on served parent page(s): /states/maine/, /states/new-hampshire/
+F053	67.3 cents	Nelson County Schools prior real property rate	research	I77a	CitizenPortal.ai summary of board vote, 19 Aug 2025	FSC2:Bardstown:L137	Y	
+F054	12.0 cents	Nelson County Fiscal Court rate per $100, 2024	research	I77a	Nelson County Gazette, 3 Sep 2024	FSC2:Bardstown:L138	N	same value printed on served page(s): /research-notes/how-eb-5-jobs-are-counted/, /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-texas-sba/
+F055	12.7 cents	Nelson County Fiscal Court prior rate	research	I77a	Nelson County Gazette, 3 Sep 2024	FSC2:Bardstown:L138	N	same value printed on served parent page(s): /states/texas/austin/
+F056	113.4 cents	Combined Bardstown / Nelson Schools rate, labelled 2025	research	none	Hardin Homes broker site	FSC2:Bardstown:L139	N	broker site, year label only, components from mixed years (research caveat)
+F057	$470 million	Kentucky B&I guaranteed volume 2012-2022	research	I77a	House Agriculture Committee testimony, 18 Sep 2025	FSC2:Bardstown:L159	Y	
+F058	74 loans	Kentucky B&I guaranteed loans 2012-2022	research	I77a	House Agriculture Committee testimony, 18 Sep 2025	FSC2:Bardstown:L159	N	same value printed on served page(s): /research-notes/franchise-vs-non-franchise/
+F059	$9.95 million	Kentucky RD guaranteed loan example, 81-room hotel	research	I77a	The Lane Report, Oct 2026	FSC2:Bardstown:L160	N	same value printed on served parent page(s): /states/kentucky/
+F060	$355,000	Lot 1 Manor 0.72 acres asking price	research	none	aggregator listing	FSC2:Bardstown:L23	N	asking price of a listing, undated; single-property attribute
+F061	$525,000	Subject lot asking price	research	none	Schuler Bauer listing	FSC2:Bardstown:L29	N	subject listing figure
+F062	1.75 acres	Subject lot acreage	research	none	Schuler Bauer listing	FSC2:Bardstown:L28	N	subject attribute
+F063	$50	Maywood U-Store-It 10x10 rate (page 404 on recheck)	research	none	operator site snippet	FSC2:Bardstown:L72	N	undated, fetched Oct 2026 only; page 404 on recheck
+F064	$75	Maywood 10x20 rate	research	none	operator site snippet	FSC2:Bardstown:L72	N	undated; fetch date only
+F065	$94	RentCafe Bardstown average non-climate rate	research	none	RentCafe	FSC2:Bardstown:L90	N	undated aggregator figure; research calls it unreliable
+F066	$58	Extra Space Mount Washington 5x5 rate	research	none	StorageCafe aggregator	FSC2:Bardstown:L86	N	aggregator rate dated only by our Oct 2026 fetch
+F067	Heartland opened 1 Dec 2010	Heartland Self Storage 3 opening date	research	none	operator site	FSC2:Bardstown:L69	N	single-property attribute of a competitor, not dated by publication; no value
+F068	14 sites	Census of at least 12 operators, 14 sites	research	none	research file's own census	FSC2:Bardstown:L65	N	research file's own summary count
+F069	$1,008	Nelson County median gross rent, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_gross_rent.json values.co-21179.all.v	Y	
+F070	$35,010	Nelson County per capita income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_per_capita_income.json values.co-21179.all.v	Y	
+F071	15,001	Nelson County owner-occupied units, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_owner_occupied.json values.co-21179.all.v	Y	
+F072	8,291	Nelson County residents 65 and over, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_pop65.json values.co-21179.all.v	Y	
+F073	23,912	Nelson County labor force, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_labor_force.json values.co-21179.all.v	Y	
+F074	$58,611	Nelson County BEA per capita personal income, 2024, BEA 2024	register	I77c	BEA via register	data/markets/series/bea_per_capita_income.json values.co-21179.all.v	Y	
+F075	$1,116	Louisville metro median gross rent, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_gross_rent.json values.cbsa-31140.all.v	Y	
+F076	$73,863	Louisville metro median household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_hh_income.json values.cbsa-31140.all.v	Y	
+F077	$41,207	Louisville metro per capita income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_per_capita_income.json values.cbsa-31140.all.v	Y	
+F078	1,372,558	Louisville metro population, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_pop.json values.cbsa-31140.all.v	Y	
+F079	$69,562	Nelson County median household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_hh_income.json values.co-21179.all.v	N	same value as F013 (counts once)
+F080	$238,000	Nelson County median home value, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_home_value.json values.co-21179.all.v	N	same value printed on served page(s): /case-studies/laundromat-new-mexico-sba/
+F081	47,606	Nelson County population, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_pop.json values.co-21179.all.v	N	same value as F011 (counts once)
+F082	19,150	Nelson County households, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_households.json values.co-21179.all.v	N	same value as F012 (counts once)
+F083	4,149	Nelson County renter-occupied units, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_renter_occupied.json values.co-21179.all.v	N	same value printed on served parent page(s): /states/washington/
+F084	796	Nelson County unemployed, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_unemployed.json values.co-21179.all.v	N	not a pagecheck figure as written
+F085	3.3%	Nelson County unemployment rate, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_unemployment_rate.json values.co-21179.all.v	N	same value printed on served page(s): /case-studies/hotel-south-carolina-sba/, /case-studies/gas-station-georgia-sba/
+F086	$1.67 billion	Nelson County aggregate household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_aggregate_income.json values.co-21179.all.v	N	same value printed on served parent page(s): /asset-classes/quick-service-restaurant/
+F087	$248,700	Louisville metro median home value, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_home_value.json values.cbsa-31140.all.v	N	same value printed on served page(s): 
+#SUMMARY self-storage-bardstown-kentucky-usda counted=29 research=19 register=10 verdict=FOLD engine=N notes=short 1 on research and total; A4 reading (parent pages cede shared values) 42 counted, 32 research, PAGE

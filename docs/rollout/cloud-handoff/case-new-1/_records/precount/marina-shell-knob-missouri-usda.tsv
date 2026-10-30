@@ -1,0 +1,59 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+SKNB-001	1,486	Shell Knob CDP population	research	I77c	Data USA (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:36	N	same value printed on served page(s): /case-studies/cabin-resort-townsend-tennessee-sba/
+SKNB-002	758	Shell Knob CDP households	research	I77c	Data USA (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:37	N	bare 3-digit integer, not a pagecheck figure unless printed with a unit word
+SKNB-003	$54,925	Shell Knob CDP median household income	research	I77c	Data USA (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:38	Y	
+SKNB-004	59.6	Shell Knob CDP median age	research	I77c	Data USA (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:39	Y	
+SKNB-005	4,016	ZIP 65747 population	research	I77c	zip-codes.com (ZIP 65747), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:40	N	ZIP-code lookup site (zip-codes.com), borderline: not a Census tabulation product, left out of the strict count
+SKNB-006	3,364	ZIP 65747 2020 Census population	research	I77c	zip-codes.com (ZIP 65747), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:40	N	ZIP-code lookup site (zip-codes.com), borderline: not a Census tabulation product, left out of the strict count
+SKNB-007	$55,060	ZIP 65747 median household income	research	I77c	zip-codes.com (ZIP 65747), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:41	N	ZIP-code lookup site (zip-codes.com), borderline: not a Census tabulation product, left out of the strict count
+SKNB-008	62.7	ZIP 65747 median age	research	I77c	zip-codes.com (ZIP 65747), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:42	N	same value printed on served page(s): /asset-classes/private-school/
+SKNB-009	1,365	Shell Knob township population	research	I77c	Census Reporter (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:43	Y	
+SKNB-010	737	Shell Knob township households	research	I77c	Census Reporter (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:43	N	bare 3-digit integer, not a pagecheck figure unless printed with a unit word
+SKNB-011	$51,080	Shell Knob township median household income	research	I77c	Census Reporter (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:43	Y	
+SKNB-012	61.9	Shell Knob township median age	research	I77c	Census Reporter (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:43	Y	
+SKNB-013	39.0	Missouri median age	research	I77c	Census Reporter (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:44	Y	
+SKNB-014	$39,695	Missouri per capita income	research	I77c	Census Reporter (ACS tabulation), ACS 2020-2024 5-yr	CS-Q-SHELL-KNOB-MISSOURI-MARINA:44	Y	
+SKNB-015	1,254	Shell Knob CDP 2020 Census population	research	none	Wikipedia citing US Census 2020	CS-Q-SHELL-KNOB-MISSOURI-MARINA:35	N	Wikipedia page is not a periodic document and carries no date in the research (I77)
+SKNB-016	$3.2524	Shell Knob 78 School District operating levy per $100 AV, tax year 2025	research	I77b	Missouri State Auditor, 2025 Property Tax Rates, Report 2026-006, Jan 2026	CS-Q-SHELL-KNOB-MISSOURI-MARINA:120	Y	
+SKNB-017	$109,546,087	Shell Knob 78 School District assessed valuation, tax year 2025	research	I77b	Missouri State Auditor, 2025 Property Tax Rates, Report 2026-006	CS-Q-SHELL-KNOB-MISSOURI-MARINA:120	Y	
+SKNB-018	$0.1144	Shell Knob-Viola SRD 9 road levy per $100 AV, tax year 2025	research	I77b	Missouri State Auditor, 2025 Property Tax Rates	CS-Q-SHELL-KNOB-MISSOURI-MARINA:121	Y	
+SKNB-019	$3.2898	Shell Knob 78 School District operating levy, tax year 2023	research	I77b	Missouri State Auditor, 2023 Property Tax Rates, Report 2024-012	CS-Q-SHELL-KNOB-MISSOURI-MARINA:122	Y	
+SKNB-020	$0.1508	Shell Knob SRD 9 road levy, tax year 2023	research	I77b	Missouri State Auditor, 2023 Property Tax Rates	CS-Q-SHELL-KNOB-MISSOURI-MARINA:122	Y	
+SKNB-021	6.2250%	Missouri state plus Barry County sales tax rate	research	I77b	Missouri Department of Revenue, sales/use tax rate table, Apr 2025	CS-Q-SHELL-KNOB-MISSOURI-MARINA:125	Y	
+SKNB-022	7.475%	Shell Knob combined sales tax	research	none	Sales Tax Handbook, 'Jan 2026'	CS-Q-SHELL-KNOB-MISSOURI-MARINA:126	N	aggregator, year-month in period cell only (I77)
+SKNB-023	$6 million	Corps concession administrative fees collected per year	research	I77a	GAO-24-107208, 17 Jul 2024	CS-Q-SHELL-KNOB-MISSOURI-MARINA:117	N	same value printed on served page(s): /research-notes/sba-default-economics/, /research-notes/underserved-gas-station-markets/, /case-studies/rv-park-ossipee-new-hampshire-usda/, /case-studies/meat-processing-north-carolina-usda/ (+9 more)
+SKNB-024	378	Corps active concession operations leases, June 2022	research	I77a	GAO-24-107208, 17 Jul 2024	CS-Q-SHELL-KNOB-MISSOURI-MARINA:115	N	bare 3-digit integer, needs a counted unit word to be a pagecheck figure; national program total
+SKNB-025	2.0%	Corps graduated concession rent, lowest tier	research	I77a	GAO-24-107208, 17 Jul 2024	CS-Q-SHELL-KNOB-MISSOURI-MARINA:115	N	lease rent schedule is a rule value
+SKNB-026	4.6%	Corps graduated concession rent, top tier	research	I77a	GAO-24-107208, 17 Jul 2024	CS-Q-SHELL-KNOB-MISSOURI-MARINA:115	N	lease rent schedule is a rule value
+SKNB-027	$400	median Corps administrative fee	research	I77a	GAO-24-107208	CS-Q-SHELL-KNOB-MISSOURI-MARINA:117	N	GAO's approximate wording, small administrative fee
+SKNB-028	2 million	annual visitors to Table Rock Lake (more than)	research	I77a	USACE, Table Rock Lake Volunteer Policy and Handbook, Feb 2021	CS-Q-SHELL-KNOB-MISSOURI-MARINA:99	N	same value printed on served page(s): /states/texas/dallas-fort-worth/
+SKNB-029	$1 million	Table Rock fee collections (more than)	research	I77a	USACE, Table Rock Lake Volunteer Policy and Handbook, Feb 2021	CS-Q-SHELL-KNOB-MISSOURI-MARINA:99	N	same value printed on served page(s): /, /research-notes/five-usda-components-applied/, /research-notes/effective-rent-vs-asking-rent/, /research-notes/absorption-forensics/ (+76 more)
+SKNB-030	185,000	Dewey Short Visitor Center visitors a year	research	I77a	USACE handbook, Feb 2021	CS-Q-SHELL-KNOB-MISSOURI-MARINA:100	N	visitation of one named facility (I64)
+SKNB-031	43,100	Table Rock Lake surface acres	research	I77b	National Fish Habitat Partnership, Table Rock Lake, Missouri (2012)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:103	N	same value printed on served page(s): /states/texas/dallas-fort-worth/
+SKNB-032	745 miles	Table Rock Lake shoreline at conservation pool	research	I77b	National Fish Habitat Partnership, Table Rock Lake, Missouri (2012)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:103	Y	
+SKNB-033	4,375	Table Rock Lake wet boat slips	research	I77b	USACE Little Rock District, Table Rock Lake Shoreline Management Plan (2020)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:80	N	same value printed on served page(s): /case-studies/meat-processing-texas-usda/, /states/west-virginia/
+SKNB-034	4,123	Stone County planning and zoning vote, keep	research	I77a	StoneCounty.news 6 Aug 2026 and KSMU 21 Apr 2026 (vote of 7 Apr 2026)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:118	Y	
+SKNB-035	4,045	Stone County planning and zoning vote, abolish	research	I77a	StoneCounty.news 6 Aug 2026 and KSMU 21 Apr 2026	CS-Q-SHELL-KNOB-MISSOURI-MARINA:118	Y	
+SKNB-036	8,168	Stone County ballots cast 7 Apr 2026	research	I77a	StoneCounty.news (secondary), 7 Apr 2026 vote	CS-Q-SHELL-KNOB-MISSOURI-MARINA:111	Y	
+SKNB-037	1,627	wake-boat restriction petition signatures	research	I77a	KY3, 16 Aug 2026	CS-Q-SHELL-KNOB-MISSOURI-MARINA:160	N	same value printed on served page(s): /case-studies/lodging-retreat-johnson-city-texas-sba/
+SKNB-038	6 million	Chamber visitor estimate for the lake	research	none	Springfield Business Journal, Sailing Through the Seasons (undated)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:102	N	undated article, attributed estimate that conflicts with the Corps figure
+SKNB-039	$308 million	three-lake visitor spending study	research	none	USACE White River study (year not found)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:104	N	study year NOT FOUND in the research
+SKNB-040	74	waterfront-view homes for sale in Shell Knob	research	none	Homes.com, checked Oct 2026	CS-Q-SHELL-KNOB-MISSOURI-MARINA:107	N	listing count dated only by retrieval
+SKNB-041	$247,219.50	MoDOT Route 39 bridge washing award	research	I77a	MoDOT, 31 Mar to 23 May 2025	CS-Q-SHELL-KNOB-MISSOURI-MARINA:150	N	single project (I64)
+SKNB-042	280+; 192; 26; 20; 6; 2.7 acres; 3,200 sq ft; 61	Campbell Point, Kings River and Big M sizes	research	none	operator sites, trade press	CS-Q-SHELL-KNOB-MISSOURI-MARINA:55-78	N	single-property attributes (I64)
+SKNB-043	$40; $45; $3,795 to $9,415	transient and historical slip rates	research	none	operator pages checked Oct 2026; stale mirror	CS-Q-SHELL-KNOB-MISSOURI-MARINA:60-59	N	dated only by retrieval or undated (I69, I106)
+SKNB-044	80%; 85%; 3%; 0.55%; 0.50%; $200,000 to $25 million	USDA B&I terms	research	I77a	USDA RD, OCC, House Agriculture record	CS-Q-SHELL-KNOB-MISSOURI-MARINA:138-140	N	USDA program rule values
+SKNB-045	1%	MARINA Act cap on food, fuel and boat sales in rent base	research	I77a	Rep. Comer release, Jan 2026	CS-Q-SHELL-KNOB-MISSOURI-MARINA:146	N	bare 1% and a bill not law; rule-like
+SKNB-046	$7,900,000; 1,500 acres; $219,500; 60279667	substitute listings	research	none	LandWatch; Charlie Gerken Realty	CS-Q-SHELL-KNOB-MISSOURI-MARINA:20-22	N	listing figures and dnu.txt
+SKNB-047	931 ft; 935.47 ft	Table Rock flood pool and 2011 record crest	research	none	Wikipedia (undated)	CS-Q-SHELL-KNOB-MISSOURI-MARINA:24	N	undated encyclopedia page
+SKNB-048	2.14	Stone County marina establishments per 10,000 residents, CBP 2023	register	I77c	U.S. Census Bureau County Business Patterns 2023 via register	data/markets/series/cbp_estab_per_10k.json values.co-29209.marina	Y	
+SKNB-049	$47,374	Barry County per capita personal income 2024	register	I77c	BEA regional accounts 2024 via register	data/markets/series/bea_per_capita_income.json values.co-29009.all.v	Y	
+SKNB-050	$1,687,384,000	Barry County personal income 2024	register	I77c	BEA regional accounts 2024 via register	data/markets/series/bea_personal_income.json values.co-29009.all.v	Y	
+SKNB-051	$766	Barry County median gross rent, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_median_gross_rent.json values.co-29009.all.v	Y	
+SKNB-052	$187,800	Barry County median home value, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_median_home_value.json values.co-29009.all.v	Y	
+SKNB-053	15,706 workers	Barry County civilian labor force, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_labor_force.json values.co-29009.all.v	Y	
+SKNB-054	7,702 residents	Barry County residents 65 and over, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_pop65.json values.co-29009.all.v	Y	
+SKNB-055	10,308 households	Barry County owner-occupied households, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_owner_occupied.json values.co-29009.all.v	Y	
+SKNB-056	3,028 households	Barry County renter-occupied households, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_renter_occupied.json values.co-29009.all.v	Y	
+SKNB-057	$31,611	Barry County per capita income, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_per_capita_income.json values.co-29009.all.v	Y	
+#SUMMARY marina-shell-knob-missouri-usda counted=27 research=17 register=10 verdict=FOLD engine=N notes=short 3 research, 3 total; 20 if ZIP-aggregator rows count; competitor, Corps rent and USDA rule rows excluded

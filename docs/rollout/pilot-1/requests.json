@@ -1,0 +1,27 @@
+{
+ "lane": "pilot-1",
+ "requests": [
+  {
+   "id": "pilot-1-1",
+   "kind": "mesh_term",
+   "key": "hub-skilled-nursing",
+   "target": "/asset-classes/skilled-nursing/",
+   "terms": [
+    "skilled nursing facility",
+    "skilled nursing facilities",
+    "skilled nursing",
+    "nursing home",
+    "nursing homes"
+   ],
+   "ignore_case": true
+  },
+  {
+   "id": "pilot-1-2",
+   "kind": "index_entry",
+   "index": "/asset-classes/",
+   "url": "/asset-classes/skilled-nursing/",
+   "label": "Skilled Nursing",
+   "line": "Feasibility studies for nursing facility owners, developers and lenders, built payer by payer against the HUD 232, SBA and USDA tests."
+  }
+ ]
+}

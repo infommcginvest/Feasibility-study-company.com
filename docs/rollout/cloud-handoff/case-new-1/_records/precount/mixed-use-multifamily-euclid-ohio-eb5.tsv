@@ -1,0 +1,81 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+U01	47,962	Euclid city population V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Euclid-MixedUse.md:47	Y	
+U02	3.5%	Population change Apr 2020 to Jul 2025 (decline)	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Euclid-MixedUse.md:48	N	value already on served page research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/index.html (+30 more)
+U03	49,691	April 2020 base population	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:48	Y	
+U04	22,433	Households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:49	Y	
+U05	2.16	Persons per household ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:50	N	value already on served page case-studies/retail-nevada-conventional/index.html (+2 more)
+U06	$50,285	Median household income	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:51	Y	
+U07	$31,470	Per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:52	Y	
+U08	22.1%	Persons under 18 V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Euclid-MixedUse.md:53	Y	
+U09	16.2%	Persons 65+ V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Euclid-MixedUse.md:53	N	value already on served page asset-classes/gas-station-and-c-store/ev-charging/index.html (+3 more)
+U10	46.4%	Owner-occupied housing rate	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:54	Y	
+U11	53.6%	Renter-occupied share (complement of 46.4%)	research	none	Research file arithmetic	EXTRA-2026-10-15-Euclid-MixedUse.md:42	N	Derived complement of U10
+U12	$1,025	Median gross rent	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:55	N	value already on served page case-studies/truck-stop-texas-sba/index.html (+1 more)
+U13	$126,500	Median owner-occupied home value	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:56	Y	
+U14	16.6%	Persons in poverty	research	none	U.S. Census Bureau (QuickFacts, latest SAIPE)	EXTRA-2026-10-15-Euclid-MixedUse.md:57	N	Period given only as latest SAIPE in QuickFacts
+U15	63.9%	Civilian labor force participation	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:58	Y	
+U16	23.2%	Bachelor's degree or higher	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:59	Y	
+U17	25.9	Mean travel time to work (minutes)	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:60	N	value already on served page asset-classes/veterinary-practice/index.html (+4 more)
+U18	10.66 sq mi	City land area	research	I77c	U.S. Census Bureau (QuickFacts, 2020)	EXTRA-2026-10-15-Euclid-MixedUse.md:46	N	Geographic extent, not a market figure
+U19	428	Water's Edge units	research	none	RentCafe	EXTRA-2026-10-15-Euclid-MixedUse.md:70	N	Aggregator, Oct 2026 retrieval, conflicts with 300
+U20	$628	Water's Edge studio rent low end	research	none	RentCafe	EXTRA-2026-10-15-Euclid-MixedUse.md:71	N	Dated only by researcher retrieval (15 Oct 2026)
+U21	340	Normandy Towers units	research	none	ApartmentFinder	EXTRA-2026-10-15-Euclid-MixedUse.md:75	N	Undated aggregator, conflicts with 80
+U22	$820	Normandy Towers studio rent	research	none	Apartments.com	EXTRA-2026-10-15-Euclid-MixedUse.md:76	N	Undated listing
+U23	186	Cultural Gardens units	research	none	ApartmentGuide	EXTRA-2026-10-15-Euclid-MixedUse.md:83	N	Aggregator, year only
+U24	949	The Vista units (sold Jan 2021)	research	I77a	REBusinessOnline (Jan 25, 2021)	EXTRA-2026-10-15-Euclid-MixedUse.md:89	N	value already on served page states/illinois/index.html (+1 more)
+U25	$30.1 million	The Vista sale price	research	I77a	REBusinessOnline (Jan 25, 2021)	EXTRA-2026-10-15-Euclid-MixedUse.md:89	Y	
+U26	180	Euclid Office Campus conversion apartments (up to)	research	none	CitizenPortal AI-generated summary	EXTRA-2026-10-15-Euclid-MixedUse.md:102	N	Unit count only in AI summary the research flags as unverified
+U27	$5.5 million	Euclid Office Campus asking price	research	none	Crexi / LoopNet	EXTRA-2026-10-15-Euclid-MixedUse.md:104	N	Listing, 2026 only
+U28	209	Union at Cleveland Harbor units	research	I77a	NEOtrans (May 21, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:106	N	value already on served page asset-classes/behavioral-health/index.html (+18 more)
+U29	198,500	Union at Cleveland Harbor building area (sf)	research	I77a	NEOtrans (May 21, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:106	Y	
+U30	$69.3 million	Union at Cleveland Harbor total cost	research	I77a	NEOtrans (May 21, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:106	Y	
+U31	177	Silver Hills at Euclid Bell Tower senior units	research	I77a	NEOtrans (Mar 30, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:107	N	value already on served page asset-classes/skilled-nursing/index.html (+14 more)
+U32	159	Signet Midtown Site units	research	I77a	NEOtrans (Jul 17, 2025)	EXTRA-2026-10-15-Euclid-MixedUse.md:108	N	value already on served page research-notes/office-repurposing/index.html (+39 more)
+U33	1,931	Signet Midtown Site retail (sf)	research	I77a	NEOtrans (Jul 17, 2025)	EXTRA-2026-10-15-Euclid-MixedUse.md:108	Y	
+U34	$300 million	Port of Cleveland financed projects (nearly)	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/index.html (+66 more)
+U35	536	Housing units in Port of Cleveland package	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page states/hawaii/index.html (+1 more)
+U36	121	Hotel rooms in Port of Cleveland package	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page research-notes/usda-rd-deadline-calendar/index.html (+39 more)
+U37	23,000	Commercial space in Port package (sf, more than)	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page asset-classes/childcare-and-daycare/index.html (+8 more)
+U38	$120 million	Project Scarlet cost	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page research-notes/sba-default-economics/index.html (+28 more)
+U39	171	Project Scarlet apartments	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page asset-classes/rv-and-boat-storage/index.html (+19 more)
+U40	$140 million	Stokes East Tower cost	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page practice-areas/sba-7a-504/index.html (+19 more)
+U41	285	Stokes East Tower apartments	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:109	N	value already on served page research-notes/gas-station-demand-per-capita/index.html (+28 more)
+U42	$7 million	Ohio Transformational Mixed-Use Development credit to Project Scarlet	research	I77a	NEOtrans (Jul 9, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:169	N	value already on served page index.html (+114 more)
+U43	650,000	Amazon fulfillment center (sf)	research	none	Wikipedia Euclid Square Mall	EXTRA-2026-10-15-Euclid-MixedUse.md:120	N	Undated Wikipedia
+U44	2,000	Amazon hiring push jobs Aug 2019	research	I77a	Freshwater Cleveland (Oct 2019)	EXTRA-2026-10-15-Euclid-MixedUse.md:120	N	value already on served page research-notes/absorption-forensics/index.html (+68 more)
+U45	$265,467,000	Health care and social assistance receipts 2022	research	I77c	U.S. Census Bureau (2022 Economic Census via QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:121	Y	
+U46	$1,862,506,000	Total retail sales 2022	research	I77c	U.S. Census Bureau (2022 Economic Census via QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:122	Y	
+U47	$38,411	Retail sales per capita 2022	research	I77c	U.S. Census Bureau (2022 Economic Census via QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:122	Y	
+U48	$42,311,000	Accommodation and food services sales 2022	research	I77c	U.S. Census Bureau (2022 Economic Census via QuickFacts)	EXTRA-2026-10-15-Euclid-MixedUse.md:123	Y	
+U49	136.95 mills	Euclid voted property tax rate TY2024	research	I77c	Cuyahoga County Fiscal Officer Tax Rates by Community TY2024 CY2025	EXTRA-2026-10-15-Euclid-MixedUse.md:142	Y	
+U50	70.95 mills	Effective residential/agricultural rate	research	I77c	Cuyahoga County Fiscal Officer TY2024 CY2025	EXTRA-2026-10-15-Euclid-MixedUse.md:143	Y	
+U51	2.27%	Residential effective rate of market value	research	I77c	Cuyahoga County Fiscal Officer TY2024 CY2025	EXTRA-2026-10-15-Euclid-MixedUse.md:143	Y	
+U52	98.95 mills	Effective commercial/industrial rate	research	I77c	Cuyahoga County Fiscal Officer TY2024 CY2025	EXTRA-2026-10-15-Euclid-MixedUse.md:144	Y	
+U53	3.46%	Commercial effective rate of market value	research	I77c	Cuyahoga County Fiscal Officer TY2024 CY2025	EXTRA-2026-10-15-Euclid-MixedUse.md:144	Y	
+U54	35%	Assessment ratio	research	none	MyTownView	EXTRA-2026-10-15-Euclid-MixedUse.md:146	N	Secondary page and statutory rule
+U55	8.0%	Cuyahoga County combined sales tax	research	none	SalesTaxHandbook	EXTRA-2026-10-15-Euclid-MixedUse.md:147	N	Secondary, dated only by retrieval (Oct 2026)
+U56	3.6%	U.S. 2022 unemployment rate used for TEA	research	I77a	Ohio Department of Development (April 2023 list)	EXTRA-2026-10-15-Euclid-MixedUse.md:159	N	value already on served page asset-classes/restaurant/index.html (+21 more)
+U57	4.0%	U.S. 2024 unemployment rate used for TEA	research	I77a	Ohio Department of Development (April 2025 tract map)	EXTRA-2026-10-15-Euclid-MixedUse.md:160	N	value already on served page asset-classes/restaurant/index.html (+33 more)
+U58	4.3%	National 2025 LAUS rate	research	I77a	IIUSA (released May 19, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:161	N	value already on served page asset-classes/medical-office-and-asc/index.html (+31 more)
+U59	38,800	Census tracts qualifying as HUA nationally (38,800+)	research	I77a	IIUSA (released May 19, 2026)	EXTRA-2026-10-15-Euclid-MixedUse.md:161	Y	
+U60	5.4%	HUA threshold 150% of 3.6%	research	I77a	Ohio Department of Development (April 2023 list)	EXTRA-2026-10-15-Euclid-MixedUse.md:159	N	EB-5 program threshold, a rule value
+U61	6.5%	HUA threshold from May 19, 2026	research	I77a	IIUSA	EXTRA-2026-10-15-Euclid-MixedUse.md:161	N	EB-5 program threshold, a rule value
+U62	$1,050,000	EB-5 standard minimum investment	research	I77a	USCIS	EXTRA-2026-10-15-Euclid-MixedUse.md:163	N	EB-5 program rule value
+U63	$800,000	EB-5 TEA minimum investment	research	I77a	USCIS	EXTRA-2026-10-15-Euclid-MixedUse.md:163	N	EB-5 program rule value
+U64	88	Ohio counties covered by EB5AN regional center	research	none	EB5AN sponsor marketing	EXTRA-2026-10-15-Euclid-MixedUse.md:165	N	Sponsor marketing, undated
+U65	6.01 acres	Subject listing acreage	research	none	Realmo	EXTRA-2026-10-15-Euclid-MixedUse.md:27	N	Subject single-property listing figure
+U66	$1,803,000	Subject asking price	research	none	Realmo	EXTRA-2026-10-15-Euclid-MixedUse.md:28	N	Subject listing figure
+U67	13,792	East Cleveland 2020 Census population	research	none	Wikipedia	EXTRA-2026-10-15-Euclid-MixedUse.md:17	N	Alternate town, Wikipedia secondary
+R01	$64,468	Cuyahoga County median household income	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_hh_income.json:co-39035	Y	
+R02	$1,060	Cuyahoga County median gross rent	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_gross_rent.json:co-39035	N	value already on served page case-studies/travel-center-hankamer-texas-usda/index.html (+4 more)
+R03	$195,400	Cuyahoga County median home value	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_home_value.json:co-39035	Y	
+R04	225,378	Cuyahoga County renter-occupied units	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_renter_occupied.json:co-39035	Y	
+R05	329,173	Cuyahoga County owner-occupied units	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_owner_occupied.json:co-39035	Y	
+R06	554,551	Cuyahoga County households	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_households.json:co-39035	Y	
+R07	6.6%	Cuyahoga County unemployment rate	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_unemployment_rate.json:co-39035	N	value already on served page research-notes/sba-default-economics/index.html (+20 more)
+R08	$42,747	Cuyahoga County per capita income	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_per_capita_income.json:co-39035	Y	
+R09	$72,797	Cuyahoga County BEA per capita personal income	register	I77c	BEA (calendar year 2024)	data/markets/series/bea_per_capita_income.json:co-39035	Y	
+R10	650,577	Cuyahoga County civilian labor force	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_labor_force.json:co-39035	Y	
+R11	242,818	Cuyahoga County population 65+	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_pop65.json:co-39035	Y	
+R12	$90.31 billion	Cuyahoga County BEA personal income	register	I77c	BEA (calendar year 2024)	data/markets/series/bea_personal_income.json:co-39035	Y	
+#SUMMARY mixed-use-multifamily-euclid-ohio-eb5 counted=34 research=24 register=10 verdict=PAGE engine=Y notes=A4 reading 37/27; EB-5 thresholds and fees excluded as rules; competitor rents undated

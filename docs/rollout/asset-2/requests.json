@@ -1,0 +1,47 @@
+{
+ "lane": "asset-2",
+ "requests": [
+  {
+   "id": "asset-2-1",
+   "kind": "folded",
+   "url": "/asset-classes/self-storage/climate-controlled/",
+   "target": "/asset-classes/self-storage/#climate-controlled"
+  },
+  {
+   "id": "asset-2-2",
+   "kind": "folded",
+   "url": "/asset-classes/self-storage/conversion/",
+   "target": "/asset-classes/self-storage/#conversion"
+  },
+  {
+   "id": "asset-2-3",
+   "kind": "folded",
+   "url": "/asset-classes/self-storage/drive-up/",
+   "target": "/asset-classes/self-storage/#drive-up"
+  },
+  {
+   "id": "asset-2-4",
+   "kind": "folded",
+   "url": "/asset-classes/self-storage/portable-container/",
+   "target": "/asset-classes/self-storage/#portable-container"
+  },
+  {
+   "id": "asset-2-5",
+   "kind": "folded",
+   "url": "/asset-classes/self-storage/third-party-managed/",
+   "target": "/asset-classes/self-storage/#third-party-managed"
+  },
+  {
+   "id": "asset-2-6",
+   "kind": "folded",
+   "url": "/asset-classes/self-storage/value-add/",
+   "target": "/asset-classes/self-storage/#value-add"
+  },
+  {
+   "id": "asset-2-7",
+   "kind": "subtype_section",
+   "hub": "/asset-classes/self-storage/",
+   "section": "subtypes"
+  }
+ ]
+}

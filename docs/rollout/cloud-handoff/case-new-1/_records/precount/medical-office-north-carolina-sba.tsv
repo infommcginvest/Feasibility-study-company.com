@@ -1,0 +1,64 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	256,448	Johnston County population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:61	Y	
+F02	32,633	Clayton population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:62	Y	
+F03	18.7%	Johnston County population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:64	N	repeat: held by /research-notes/c-store-franchise-category/ (note) and 3 more
+F04	216,014	Johnston County Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:64	Y	
+F05	24.0%	Clayton population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:65	N	repeat: held by /research-notes/special-purpose-property-risk/ (note) and 4 more
+F06	26,314	Clayton Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:65	Y	
+F07	215,999	Johnston County 2020 Census population	research	I77a	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:66	Y	
+F08	85,591	Johnston County households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:67	Y	
+F09	11,242	Clayton households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:67	Y	
+F10	$83,384	Johnston County median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:68	Y	
+F11	$78,822	Clayton median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:68	Y	
+F12	39.1	North Carolina median age, ACS 2024 5-year	research	I77c	U.S. Census Bureau ACS 2024 5-year (via Census Reporter)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:69	Y	
+F13	15.2%	Johnston County persons 65+, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:71	N	repeat: held by /research-notes/special-purpose-property-risk/ (note)
+F14	10.2%	Clayton persons 65+, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:71	N	repeat: held by /case-studies/assisted-living-florida-hud/ (case) and 3 more
+F15	$1,021,900K	Johnston County health care and social assistance receipts, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:74	Y	
+F16	$339,437K	Clayton health care and social assistance receipts, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:74	Y	
+F17	3,002	Johnston County building permits, 2025	research	I77c	U.S. Census Bureau, QuickFacts (building permits 2025)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:75	Y	
+F18	66.0%	Johnston County civilian labor force participation	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:76	N	repeat: held by /research-notes/office-repurposing/ (note) and 5 more
+F19	73.0%	Clayton civilian labor force participation	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:76	N	repeat: held by /case-studies/hotel-south-carolina-sba/ (case) and 8 more
+F20	39,139	Wake County qualified-urban ASC ambulatory cases, 1 Oct 2024 to 30 Sep 2025	research	I77b	NC DHHS, 2026 State Medical Facilities Plan Table 6E	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:111	Y	
+F21	211,592	Statewide qualified-urban ASC ambulatory cases, FY ending 30 Sep 2025	research	I77b	NC DHHS, 2026 State Medical Facilities Plan Table 6E	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:112	Y	
+F22	63	2026 SMFP acute care bed need determination, Johnston County	research	I77b	NC DHHS CON findings J-12742-26 (2026 SMFP)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:164	Y	note: also on /states/arizona/ (lower rank, case keeps it, A4)
+F23	$50,605	Johnston County average annual wage	research	I77a	NCBiotech, Jun 2024	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:161	Y	
+F24	70.6%	Johnston County average home value rise at 1 Jan 2025 revaluation	research	I77a	Town of Clayton Taxes and Fees / JoCo Report (revaluation effective 1 Jan 2025)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:192	Y	note: also on /asset-classes/hotel/ (lower rank, case keeps it, A4) and 1 more
+F25	31.1	Clayton mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:168	Y	
+F26	32.2	Johnston County mean travel time to work (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:168	Y	
+F27	33	Clayton median age, ACS 2024 5-year	research	I77c	U.S. Census Bureau ACS 2024 5-year (via Census Reporter)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:69	N	bare two-digit integer with no unit: not a detectable figure
+F28	37	Wake County qualified-urban ASC operating rooms	research	I77b	NC DHHS, 2026 SMFP Table 6E	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:111	N	'operating rooms' is not a counted unit word: not a detectable figure
+F29	196	Statewide qualified-urban ASC operating rooms	research	I77b	NC DHHS, 2026 SMFP Table 6E	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:112	N	'operating rooms' is not a counted unit word: not a detectable figure
+F30	$4.1B	Novo Nordisk Clayton expansion investment	research	I77a	EDPNC, 24 Jun 2024	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:159	N	one firm's project (I64, I66)
+F31	1,000	Novo Nordisk new jobs	research	I77a	EDPNC, 24 Jun 2024	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:159	N	one firm's project (I64)
+F32	$70,000	Novo average new-job salary	research	I77a	NCBiotech, Jun 2024	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:161	N	one firm's project (I64)
+F33	9.6%	Johnston County persons in poverty	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:73	N	undated: 'Latest in QuickFacts' (I86)
+F34	10.5%	Johnston County uninsured under 65	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:72	N	undated: 'Latest SAHIE in QuickFacts' (I86)
+F35	13,114	Smithfield population (not-selected candidate)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:19	N	not the case market: candidate town not selected
+F36	4,305	Rex Surgery Center of Cary cases	research	I77b	NC DHHS, 2026 SMFP Table 6E	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:113	N	single named facility utilization (I64); table labelled DRAFT DATA
+F37	3,255	Holly Springs Surgery Center cases	research	I77b	NC DHHS, 2026 SMFP Table 6E	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:114	N	single named facility utilization (I64)
+F38	$13.5M	UNC Health Johnston-Clayton +35 beds project cost	research	I77a	NC DHHS CON findings J-12742-26	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:139	N	single project (I64, I66)
+F39	$100M	UNC Health Johnston system expansion	research	I77a	UNC Health Johnston news, 15 Jun 2026	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:142	N	single project (I64, I66)
+F40	$0.52	Johnston County FY2025-26 tax rate per $100	research	I77a	ABC11, 17 Jun 2025	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:187	N	tax rate is a rule value
+F41	6.75%	Johnston County combined sales tax	research	none	Avalara	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:193	N	rule value; secondary, no URL in the row
+F42	117	Johnston County SBA 7(a)+504 approvals FY2021-FY2025	research	none	SBA Ledger (secondary aggregator of SBA FOIA)	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:207	N	borderline: fiscal range only, no data-as-of date, aggregator relay (I77); the register carries the SBA series
+F43	$71.0M	Johnston County SBA 7(a)+504 dollar volume FY2021-FY2025	research	none	SBA Ledger	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:207	N	same as 117: no data-as-of date
+F44	468	North Carolina SBA 504 approvals (SBA Ledger)	research	none	SBA Ledger	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:208	N	same: aggregator relay with no data-as-of date
+F45	$5.37bn	North Carolina SBA approvals volume (SBA Ledger)	research	none	SBA Ledger	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:208	N	same: aggregator relay with no data-as-of date
+F46	6.116%	BEFCOR posted 504 rate	research	none	BEFCOR home page	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:209	N	rate quote 'accessed Oct 2026': retrieval-dated, one lender
+F47	$1,050,000	Subject asking price	research	none	LandSearch / MLS	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:33	N	subject's own listing figure (I64)
+F48	2.75	Subject acreage	research	none	LoopNet	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:32	N	subject's own attribute (I64)
+F49	$29.50	620 Veterans Pkwy lease rate per SF	research	none	CityFeet	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:122	N	single listing, accessed Oct 2026 (I64, I69)
+F50	17,500	S Lombard St broker traffic count	research	none	Broker flyer	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:51	N	undated broker claim (I86)
+F51	7,900	Flowers Plantation homesites (broker marketing)	research	none	LoopNet listing	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:49	N	broker marketing claim
+F52	$5 million	SBA 504 maximum loan	research	none	SBA 504 loans page	EXTRA-2026-10-15-CLAYTON-NC-MEDICAL-OFFICE:206	N	SBA program rule value
+G01	$15.2 million	7(a) dollars approved FY2021 to FY2025 in the asset class, north-carolina/raleigh-durham (SBA FOIA data as of 2026-06-30)	register	I77a	SBA 7(a) FOIA loan file, data as of 30 Jun 2026	data/markets/series/sba7a_volume.json values[north-carolina/raleigh-durham:medical-office-and-asc]	Y	
+G02	$305,600	median home value, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_home_value.json values[co-37101]	Y	
+G03	$1,146	median gross rent, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_gross_rent.json values[co-37101]	Y	
+G04	65,092 households	owner-occupied housing units, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_owner_occupied.json values[co-37101]	Y	
+G05	20,499 households	renter-occupied housing units, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_renter_occupied.json values[co-37101]	Y	
+G06	32,148 residents	population aged 65 and over, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_pop65.json values[co-37101]	Y	
+G07	4,600 workers	unemployed civilians, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_unemployed.json values[co-37101]	Y	
+G08	$55,335	personal income per capita, Johnston County NC (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_per_capita_income.json values[co-37101]	Y	
+G09	$9.11 billion	aggregate household income, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_aggregate_income.json values[co-37101]	Y	
+G10	$38,897	per capita income, Johnston County NC (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_per_capita_income.json values[co-37101]	Y	
+#SUMMARY medical-office-north-carolina-sba counted=30 research=20 register=10 verdict=PAGE engine=N notes=zero margin; 70.6% is weak; 18 research if state-page repeats also block (A4)

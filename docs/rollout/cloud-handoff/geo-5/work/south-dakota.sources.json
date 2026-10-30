@@ -1,0 +1,488 @@
+{
+ "tour": {
+  "publisher": "South Dakota Department of Tourism",
+  "title": "2025 SHOWS CONTINUED STRENGTH FOR SOUTH DAKOTA'S TOURISM INDUSTRY",
+  "date": "January 21, 2026 (calendar 2025)",
+  "url": "https://sdvisit.com/newsroom/2025-shows-continued-strength-south-dakotas-tourism-industry"
+ },
+ "nass": {
+  "publisher": "USDA National Agricultural Statistics Service",
+  "title": "Crop Production (October 2026)",
+  "date": "October 9, 2026 (forecasts as of October 1, 2026)",
+  "url": "https://esmis.nal.usda.gov/sites/default/release-files/796123/crop1026.pdf"
+ },
+ "snap": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Labor Market Information Center - Economic Snapshot",
+  "date": "September 2026 data, preliminary (monthly release; day not shown)",
+  "url": "https://dlr.sd.gov/lmic/economic_snapshot.aspx"
+ },
+ "qcew": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+  "date": "2025 annual report, statewide summary (edition year in title; day not shown)",
+  "url": "https://dlr.sd.gov/lmic/qcew2025_2_summary.aspx"
+ },
+ "qcew_sfmsa": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+  "date": "2025 annual report, Sioux Falls MSA table (edition year in title; day not shown)",
+  "url": "https://dlr.sd.gov/lmic/qcew2025_10_sfmsa_est_work_pay.aspx"
+ },
+ "qcew_rcmsa": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+  "date": "2025 annual report, Rapid City MSA table (edition year in title; day not shown)",
+  "url": "https://dlr.sd.gov/lmic/qcew2025_9_rcmsa_est_work_pay.aspx"
+ },
+ "qcew_cw": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+  "date": "2025 annual report, covered workers by county (edition year in title; day not shown)",
+  "url": "https://dlr.sd.gov/lmic/qcew2025_6_county_workers.aspx"
+ },
+ "qcew_pay": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Annual Pay for Covered Workers by County 2024 and 2025",
+  "date": "2025 annual report (edition year in title; day not shown)",
+  "url": "https://dlr.sd.gov/lmic/qcew2025_7_county_annual_pay.aspx"
+ },
+ "nonfarm25": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Nonfarm employment trends in 2025",
+  "date": "e-Labor Bulletin, April 2026 (2025 annual average)",
+  "url": "https://dlr.sd.gov/lmic/lb/historical_lmi_articles/lbart_apr2026_nonfarm_year_in_review.aspx"
+ },
+ "proj": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "South Dakota Industry Employment Trends to 2034",
+  "date": "e-Labor Bulletin, July 2026 (projections 2024 to 2034)",
+  "url": "https://dlr.sd.gov/lmic/lb/2026/lbart_jul2026_industry_projections_2024_2034_top_growers.aspx"
+ },
+ "occ": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "The Nitty Gritty of Occupational Demand",
+  "date": "e-Labor Bulletin, October 2026 (projections 2024 to 2034)",
+  "url": "https://dlr.sd.gov/lmic/lb/2026/lbart_oct2026_occupational_demand_projections_2024_2034.aspx"
+ },
+ "dlrpop": {
+  "publisher": "South Dakota Department of Labor and Regulation, Labor Market Information Center",
+  "title": "Where demographic data meets the road",
+  "date": "e-Labor Bulletin, December 2025 (Census Bureau estimates for 2024, Vintage 2024)",
+  "url": "https://dlr.sd.gov/lmic/lb/2025/lbart_dec2025_population.aspx"
+ },
+ "pop25": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "Resident Population in South Dakota",
+  "date": "March 3, 2026 (Vintage 2025, population as of July 1, 2025)",
+  "url": "https://fred.stlouisfed.org/series/SDPOP"
+ },
+ "blsm09": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "State Employment and Unemployment (Monthly) News Release - 2026 M09 Results",
+  "date": "October 20, 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/news.release/archives/laus_10202026.htm"
+ },
+ "blsq1": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "County Employment and Wages in South Dakota - First Quarter 2026",
+  "date": "September 4, 2026 (first quarter of 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/midwest/news-release/2026/countyemploymentandwages_southdakota_20260904.htm"
+ },
+ "fredlh": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Labor Statistics",
+  "title": "All Employees: Leisure and Hospitality in South Dakota",
+  "date": "October 20, 2026 (September 2026, seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/SDLEIH"
+ },
+ "gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Gross Domestic Product: All Industry Total in South Dakota",
+  "date": "September 30, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/SDNGSP"
+ },
+ "rgdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Real Gross Domestic Product: All Industry Total in South Dakota",
+  "date": "September 30, 2026 (calendar 2025, chained 2017 dollars)",
+  "url": "https://fred.stlouisfed.org/series/SDRGSP"
+ },
+ "sdot": {
+  "publisher": "South Dakota Department of Transportation",
+  "title": "2026 Sturgis Motorcycle Rally Vehicle Count - Through Day Ten",
+  "date": "August 17, 2026",
+  "url": "https://dot.sd.gov/inside-sddot/media/press-releases/2026-sturgis-motorcycle-rally-vehicle-count-through-day-ten/"
+ },
+ "dnn_rally": {
+  "publisher": "Dakota News Now (secondary, relaying SDDOT)",
+  "title": "Sturgis Rally vehicle traffic down nearly 6% in first three days, SDDOT says",
+  "date": "August 11, 2026",
+  "url": "https://www.dakotanewsnow.com/2026/08/12/sturgis-rally-vehicle-traffic-down-nearly-6-first-three-days-sddot-says/"
+ },
+ "dor_rally": {
+  "publisher": "South Dakota Department of Revenue",
+  "title": "$1.4 million in Tax Collections from 2026 Sturgis Motorcycle Rally",
+  "date": "September 1, 2026",
+  "url": "https://dor.sd.gov/newsroom/14-million-in-tax-collections-from-2026-sturgis-motorcycle-rally"
+ },
+ "gaming": {
+  "publisher": "South Dakota Commission on Gaming",
+  "title": "Commission on Gaming Annual Report Fiscal Year 2025",
+  "date": "fiscal 2025 annual report (July 1, 2024 to June 30, 2025; day not shown)",
+  "url": "https://dor.sd.gov/media/ulhbkp2a/fy-25-annual-report-final.pdf"
+ },
+ "dtn": {
+  "publisher": "DTN Progressive Farmer (secondary, citing the USDA NASS Land Values 2026 Summary)",
+  "title": "USDA Land Values Report: US Cropland Tops $6,000 an Acre in 2026",
+  "date": "July 31, 2026",
+  "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/07/31/usda-land-values-report-us-cropland"
+ },
+ "profarmer": {
+  "publisher": "Pro Farmer (secondary, citing the SDSU Extension Farm Real Estate Survey)",
+  "title": "South Dakota Cropland Values Rise 1%",
+  "date": "June 17, 2026",
+  "url": "https://www.profarmer.com/news/agriculture-news/south-dakota-cropland-values-rise-1"
+ },
+ "hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for South Dakota",
+  "date": "August 25, 2026 (second quarter of 2026)",
+  "url": "https://fred.stlouisfed.org/series/SDSTHPI"
+ },
+ "listsd": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Active Listing Count in South Dakota",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOUSD"
+ },
+ "permsd": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Units Authorized by Building Permits for South Dakota",
+  "date": "October 27, 2026 (September 2026, not seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/SDBPPRIV"
+ },
+ "sdhda": {
+  "publisher": "South Dakota Housing Development Authority",
+  "title": "South Dakota Housing Awards More Than $60 Million for Affordable Housing in South Dakota",
+  "date": "December 10, 2025",
+  "url": "https://www.sdhousing.org/news-blog/affordable-housing-awards-2025"
+ },
+ "ghouse": {
+  "publisher": "South Dakota Housing Development Authority",
+  "title": "SD Housing Expands Governor's House Eligibility Through Updated Income Limits",
+  "date": "June 15, 2026 (limits effective June 15, 2026)",
+  "url": "https://www.sdhousing.org/news-blog/incomelimits2026"
+ },
+ "pit": {
+  "publisher": "South Dakota Housing Development Authority",
+  "title": "Statewide Homeless Count Lower Than Previous Years",
+  "date": "April 22, 2026 (count of January 27, 2026)",
+  "url": "https://www.sdhousing.org/news-blog/2025-pit-count-numbers-released-ntfn9"
+ },
+ "gm5": {
+  "publisher": "South Dakota Housing Development Authority",
+  "title": "South Dakota Housing Introduces New Program for Downpayment Assistance",
+  "date": "October 13, 2026 (program launch November 2, 2026)",
+  "url": "https://www.sdhousing.org/news-blog/give-me-five"
+ },
+ "acs": {
+  "publisher": "U.S. Census Bureau",
+  "title": "American Community Survey 5-Year Estimates, Detailed Tables (Census Data API)",
+  "date": "2020 to 2024 five-year estimates",
+  "url": "https://api.census.gov/data/2024/acs/acs5"
+ },
+ "banking": {
+  "publisher": "South Dakota Division of Banking",
+  "title": "Division of Banking Industry Overview",
+  "date": "December 17, 2025 (meeting deck)",
+  "url": "https://dlr.sd.gov/banking/meeting_documents/agenda-121725-division-overview.pdf"
+ },
+ "dortax": {
+  "publisher": "South Dakota Department of Revenue",
+  "title": "Department of Revenue Updates Tax System for Decrease in State Tax Rate",
+  "date": "April 3, 2023 (rate effective July 1, 2023; sunset June 30, 2027)",
+  "url": "https://dor.sd.gov/newsroom/department-of-revenue-updates-tax-system-for-decrease-in-state-tax-rate"
+ },
+ "sdpb_ptax": {
+  "publisher": "South Dakota Public Broadcasting (secondary, reporting the Governor's signing)",
+  "title": "Governor signs property tax bills into law",
+  "date": "March 12, 2026",
+  "url": "https://www.sdpb.org/politics/2026-03-12/governor-signs-property-tax-bills-into-law"
+ },
+ "dnn_sb96": {
+  "publisher": "Dakota News Now (secondary, reporting the Legislature)",
+  "title": "South Dakota SB 96: Counties can now cut property taxes with optional sales tax",
+  "date": "July 16, 2026",
+  "url": "https://www.dakotanewsnow.com/2026/07/16/south-dakota-sb-96-counties-can-now-cut-property-taxes-with-optional-sales-tax/"
+ },
+ "dnn_bills": {
+  "publisher": "Dakota News Now (secondary, reporting the Legislature)",
+  "title": "Every bill Governor Rhoden has signed into law in 2026",
+  "date": "March 28, 2026",
+  "url": "https://www.dakotanewsnow.com/2026/03/28/every-bill-governor-rhoden-has-signed-into-law-2026/"
+ },
+ "kota_dc": {
+  "publisher": "KOTA TV (South Dakota Searchlight)",
+  "title": "Data center restrictions signed into South Dakota law after push for incentives failed",
+  "date": "March 25, 2026",
+  "url": "https://www.kotatv.com/2026/03/25/data-center-restrictions-signed-into-south-dakota-law-after-push-incentives-failed"
+ },
+ "kota_summit": {
+  "publisher": "KOTA TV",
+  "title": "Summit describes new carbon pipeline route as not including South Dakota",
+  "date": "May 14, 2026",
+  "url": "https://www.kotatv.com/2026/05/14/summit-describes-new-carbon-pipeline-route-not-including-south-dakota/"
+ },
+ "kota_rcdc": {
+  "publisher": "KOTA TV",
+  "title": "Heat raises resource concerns as Rapid City data center moves forward",
+  "date": "July 2, 2026",
+  "url": "https://www.kotatv.com/2026/07/02/south-dakota-drought-strains-power-grid-rapid-city-data-center-moves-forward/"
+ },
+ "sfb_smithfield": {
+  "publisher": "SiouxFalls.Business",
+  "title": "Smithfield Foods to build $1B+ plant at new site as century-old location will redevelop",
+  "date": "February 16, 2026",
+  "url": "https://siouxfalls.business/?p=183982"
+ },
+ "sfb_gemini": {
+  "publisher": "SiouxFalls.Business",
+  "title": "Sioux Falls data center developers detail next steps",
+  "date": "January 19, 2026",
+  "url": "https://siouxfalls.business/?p=182564"
+ },
+ "kota_air": {
+  "publisher": "KOTA TV",
+  "title": "$50M approved for Rapid City, Sioux Falls airport projects",
+  "date": "February 5, 2026",
+  "url": "https://www.kotatv.com/2026/02/05/50m-approved-rapid-city-sioux-falls-airport-projects"
+ },
+ "sdnw_b21": {
+  "publisher": "South Dakota News Watch",
+  "title": "B-21 Ellsworth expansion getting mixed support in Pierre",
+  "date": "February 29, 2024",
+  "url": "https://www.sdnewswatch.org/ellsworth-b21-expansion-millions-south-dakota-legislature-support/"
+ },
+ "korn": {
+  "publisher": "KORN Radio (secondary, reporting the Governor's office)",
+  "title": "Governor awards $1 million for business parks in hometown of political opponent",
+  "date": "December 10, 2025",
+  "url": "https://kornradio.com/latestnews/governor-awards-1-million-for-business-parks-in-hometown-of-political-opponent"
+ },
+ "sba_drought": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SBA Offers Relief to South Dakota Small Businesses and Private Nonprofits Affected by Drought",
+  "date": "June 5, 2026 (applications due February 1, 2027)",
+  "url": "https://legacy.sba.gov/article/2026/06/05/sba-offers-relief-south-dakota-small-businesses-private-nonprofits-affected-drought"
+ },
+ "sba_flood": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SBA Offers Relief to South Dakota Small Businesses and Private Nonprofits Affected by Flooding and Excessive Moisture",
+  "date": "February 13, 2026 (incident period July 21 to August 19, 2025)",
+  "url": "https://legacy.sba.gov/article/2026/02/13/sba-offers-relief-south-dakota-small-businesses-private-nonprofits-affected-flooding-excessive"
+ },
+ "sba_oglala": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SBA Relief Available to Oglala Sioux Tribe Businesses, Private Nonprofits, and Residents Affected by Adverse Weather",
+  "date": "September 23, 2026 (incident June 2 to 4, 2026)",
+  "url": "https://legacy.sba.gov/article/2026/09/23/sba-relief-available-oglala-sioux-tribe-businesses-private-nonprofits-residents-affected-adverse"
+ },
+ "fema4903": {
+  "publisher": "Safeguard Properties (secondary, relaying a FEMA alert)",
+  "title": "FEMA Major Disaster Declaration - South Dakota Straight-line Winds",
+  "date": "April 7, 2026 (incident December 17 to 18, 2025)",
+  "url": "https://safeguardproperties.com/fema-major-disaster-declaration-south-dakota-straight-line-winds/"
+ },
+ "fema4938": {
+  "publisher": "Safeguard Properties (secondary, relaying a FEMA alert)",
+  "title": "FEMA Major Disaster Declaration - South Dakota Severe Storms, Straight-line Winds, Tornadoes, and Flooding",
+  "date": "September 1, 2026 (incident June 28 to July 3, 2026)",
+  "url": "https://safeguardproperties.com/fema-major-disaster-declaration-south-dakota-severe-storms-straight-line-winds-tornadoes-and-flooding/"
+ },
+ "sdpb_sf": {
+  "publisher": "South Dakota Public Broadcasting (secondary, reporting the City of Sioux Falls)",
+  "title": "Sioux Falls again sees new building valuations surpass $1B",
+  "date": "January 14, 2026 (2025 year-end)",
+  "url": "https://www.sdpb.org/business-economics/2026-01-14/sioux-falls-again-sees-new-building-valuations-surpass-1b"
+ },
+ "sfpermits": {
+  "publisher": "City of Sioux Falls",
+  "title": "Building Permit Statistics - City of Sioux Falls",
+  "date": "2025 Year-End Report, January 14, 2026",
+  "url": "https://www.siouxfalls.gov/business-permits/development-projects/building-services/permit-stats"
+ },
+ "bpp_min": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Structures Authorized by Building Permits for Minnehaha County, SD",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV046099"
+ },
+ "bpp_lin": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Structures Authorized by Building Permits for Lincoln County, SD",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV046083"
+ },
+ "bender": {
+  "publisher": "SiouxFalls.Business (secondary, reporting Bender Commercial Real Estate Services)",
+  "title": "Annual Bender Market Outlook finds 'remarkable strength, resilience' in Sioux Falls market",
+  "date": "February 19, 2026 (calendar 2025)",
+  "url": "https://siouxfalls.business/?p=184195"
+ },
+ "sdmha26": {
+  "publisher": "SiouxFalls.Business (secondary, reporting the South Dakota Multi-Housing Association survey)",
+  "title": "Multifamily occupancy trends down some with more construction ahead",
+  "date": "March 16, 2026 (January 2026 survey)",
+  "url": "https://siouxfalls.business/?p=185065"
+ },
+ "sdmha25": {
+  "publisher": "SiouxFalls.Business (secondary, reporting the South Dakota Multi-Housing Association survey)",
+  "title": "Sioux Falls apartment vacancy shows sharp decrease at midyear",
+  "date": "August 11, 2025 (July 2025 survey)",
+  "url": "https://siouxfalls.business/?p=174122"
+ },
+ "sfair": {
+  "publisher": "Sioux Falls Regional Airport",
+  "title": "Sioux Falls Regional Airport Operational Statistics 2025",
+  "date": "calendar 2025 (periodic statistics; issue date not printed)",
+  "url": "https://www.sfairport.com/hubfs/2025.pdf"
+ },
+ "sfmin": {
+  "publisher": "Sioux Falls Regional Airport Authority",
+  "title": "Sioux Falls Regional Airport Authority Board Meeting Minutes March 25, 2026",
+  "date": "March 25, 2026 (February 2026 traffic)",
+  "url": "https://www.sfairport.com/hubfs/Board%20Minutes%20March25%202026-Attachment%201.pdf"
+ },
+ "sf_mlp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Sioux Falls, SD (CBSA)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI43620"
+ },
+ "sf_alc": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Active Listing Count in Sioux Falls, SD (CBSA)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOU43620"
+ },
+ "sf_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Sioux Falls, SD (MSA)",
+  "date": "August 25, 2026 (second quarter of 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS43620Q"
+ },
+ "sf_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Sioux Falls, SD (MSA) (DISCONTINUED)",
+  "date": "December 4, 2024 (calendar 2023; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP43620"
+ },
+ "rcpost": {
+  "publisher": "Rapid City Post (secondary, reporting the City of Rapid City's year-end building services report)",
+  "title": "Rapid City Sees Near Record Growth as 2025 Building Valuations Top $390 Million",
+  "date": "January 8, 2026 (calendar 2025)",
+  "url": "https://rapidcitypost.com/rapid-city-sees-near-record-growth-as-2025-building-valuations-top-390-million/"
+ },
+ "bpp_law": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Structures Authorized by Building Permits for Lawrence County, SD",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV046081"
+ },
+ "kota_rap": {
+  "publisher": "KOTA TV (secondary, reporting the airport's release)",
+  "title": "Rapid City Regional Airport sets passenger record in 2025",
+  "date": "January 19, 2026 (calendar 2025)",
+  "url": "https://www.kotatv.com/2026/01/19/rapid-city-regional-airport-sets-passenger-record-2025/"
+ },
+ "rap_q1": {
+  "publisher": "Rapid City Regional Airport",
+  "title": "Record-Breaking Start to 2025 for Rapid City Regional Airport",
+  "date": "April 11, 2025 (January to March 2025)",
+  "url": "https://rapairport.com/?p=33533"
+ },
+ "rc_mlp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Rapid City, SD (CBSA)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI39660"
+ },
+ "rc_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Rapid City, SD (MSA)",
+  "date": "August 25, 2026 (second quarter of 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS39660Q"
+ },
+ "rc_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Rapid City, SD (MSA) (DISCONTINUED)",
+  "date": "December 4, 2024 (calendar 2023; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP39660"
+ },
+ "ab_mlp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Aberdeen, SD (CBSA)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI10100"
+ },
+ "bpp_bro": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Structures Authorized by Building Permits for Brookings County, SD",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV046011"
+ },
+ "bpp_cod": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Structures Authorized by Building Permits for Codington County, SD",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV046029"
+ },
+ "wtn": {
+  "publisher": "City of Watertown",
+  "title": "2025 Monthly Combined",
+  "date": "January to December 2025 (compiled report; day not shown)",
+  "url": "http://www.watertownsd.gov/DocumentCenter/View/2140/2025-Monthly-Combined_Alyssa-Halling"
+ },
+ "mi_mlp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Mitchell, SD (CBSA)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI33580"
+ },
+ "pi_mlp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Pierre, SD (CBSA)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI38180"
+ },
+ "mitrep": {
+  "publisher": "Mitchell Republic (secondary, reporting City of Mitchell permit records)",
+  "title": "Nearly $110 million in permitted projects in Mitchell means 2023 was a big year for building",
+  "date": "February 2, 2024 (calendar 2023)",
+  "url": "https://www.mitchellrepublic.com/news/local/nearly-110-million-in-permitted-projects-in-mitchell-means-2023-was-a-big-year-for-building"
+ },
+ "ecfr": {
+  "publisher": "eCFR",
+  "title": "13 CFR 120.160, Loan conditions",
+  "date": "current to October 7, 2026",
+  "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+ },
+ "sop": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+  "date": "effective October 1, 2026",
+  "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+ },
+ "redi": {
+  "publisher": "South Dakota Board of Economic Development",
+  "title": "BOARD OF ECONOMIC DEVELOPMENT (minutes, 10 June 2026)",
+  "date": "June 10, 2026 (board meeting)",
+  "url": "https://boardsandcommissions.sd.gov/bcuploads/REDI%20Board%20Minutes%2006-10-2026.pdf"
+ },
+ "fredmfg": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Labor Statistics",
+  "title": "All Employees: Manufacturing in South Dakota",
+  "date": "October 20, 2026 (September 2026, seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/SDMFG"
+ }
+}

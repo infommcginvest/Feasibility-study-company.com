@@ -1,0 +1,17 @@
+{
+  "lane": "asset-1",
+  "requests": [
+    {"id": "asset-1-1", "kind": "subtype_section", "hub": "/asset-classes/hotel/", "section": "subtypes"},
+    {"id": "asset-1-2", "kind": "folded", "url": "/asset-classes/hotel/boutique-and-independent/", "target": "/asset-classes/hotel/#boutique-and-independent"},
+    {"id": "asset-1-3", "kind": "folded", "url": "/asset-classes/hotel/extended-stay/", "target": "/asset-classes/hotel/#extended-stay"},
+    {"id": "asset-1-4", "kind": "folded", "url": "/asset-classes/hotel/full-service/", "target": "/asset-classes/hotel/#full-service"},
+    {"id": "asset-1-5", "kind": "folded", "url": "/asset-classes/hotel/limited-service/", "target": "/asset-classes/hotel/#limited-service"},
+    {"id": "asset-1-6", "kind": "folded", "url": "/asset-classes/hotel/resort/", "target": "/asset-classes/hotel/#resort"},
+    {"id": "asset-1-7", "kind": "folded", "url": "/asset-classes/hotel/select-service/", "target": "/asset-classes/hotel/#select-service"},
+    {"id": "asset-1-8", "kind": "folded", "url": "/asset-classes/hotel/upper-upscale-and-luxury/", "target": "/asset-classes/hotel/#upper-upscale-and-luxury"},
+    {"id": "asset-1-9", "kind": "fallback", "url": "/asset-classes/limited-service-hotel/", "target": "/asset-classes/hotel/#limited-service"},
+    {"id": "asset-1-10", "kind": "fallback", "url": "/asset-classes/select-service-hotel/", "target": "/asset-classes/hotel/#select-service"},
+    {"id": "asset-1-11", "kind": "fallback", "url": "/asset-classes/extended-stay-hotel/", "target": "/asset-classes/hotel/#extended-stay"},
+    {"id": "asset-1-12", "kind": "fallback", "url": "/asset-classes/boutique-and-resort/", "target": "/asset-classes/hotel/#boutique-and-independent"}
+  ]
+}

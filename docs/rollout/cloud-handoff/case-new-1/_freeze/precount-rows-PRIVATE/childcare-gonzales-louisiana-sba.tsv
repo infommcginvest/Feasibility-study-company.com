@@ -1,0 +1,86 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+G01	13,930	Gonzales city population	research	I77c	U.S. Census Bureau QuickFacts Gonzales city (V2025)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:49	Y	
+G02	12,089	Gonzales estimates base Apr 2020 (V2025)	research	I77c	U.S. Census Bureau QuickFacts Gonzales city (V2025)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:50	Y	
+G03	15.2%	Gonzales population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Gonzales city (V2025)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:51	Y	note: same string on asset-classes/urgent-care/index.html, different measure; kept
+G04	12,231	Gonzales 2020 Census count	research	I77c	U.S. Census Bureau QuickFacts Gonzales city (V2025)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:52	Y	
+G05	1,337.9	Gonzales persons per sq mi, 2020	research	I77c	U.S. Census Bureau QuickFacts Gonzales city (V2025)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:53	Y	
+G06	$45,875	Gonzales median household income, ACS 2024	research	I77c	Data Commons republishing Census ACS 2024	CS-N-CHILDCARE-LOUISIANA-SBA-7A:54	Y	
+G07	38.9	Gonzales median age, ACS 2024	research	I77c	Data Commons republishing Census ACS 2024	CS-N-CHILDCARE-LOUISIANA-SBA-7A:55	Y	note: same string on asset-classes/gas-station-and-c-store/index.html (+9), different measure; kept
+G08	4,159	Gonzales households, 2020 Census	research	I77c	Wikipedia citing 2020 Census	CS-N-CHILDCARE-LOUISIANA-SBA-7A:56	Y	
+G09	135,105	Ascension Parish population Jul 2025	research	I77a	Gonzales Weekly Citizen 29 Mar 2026 citing Census	CS-N-CHILDCARE-LOUISIANA-SBA-7A:57	Y	
+G10	126,499	Ascension Parish 2020 Census	research	I77a	Gonzales Weekly Citizen 29 Mar 2026 citing Census	CS-N-CHILDCARE-LOUISIANA-SBA-7A:58	Y	
+G11	126,975	Ascension Parish estimate 2020	research	I77a	Gonzales Weekly Citizen 29 Mar 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:59	Y	
+G12	128,600	Ascension Parish estimate 2021	research	I77a	Gonzales Weekly Citizen 29 Mar 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:59	Y	
+G13	130,638	Ascension Parish estimate 2022	research	I77a	Gonzales Weekly Citizen 29 Mar 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:59	Y	
+G14	132,202	Ascension Parish estimate 2023	research	I77a	Gonzales Weekly Citizen 29 Mar 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:59	Y	
+G15	134,027	Ascension Parish estimate 2024	research	I77a	Gonzales Weekly Citizen 29 Mar 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:59	Y	
+G16	33,197	Prairieville CDP population, 2020 Census	research	I77c	Wikipedia citing 2020 Census	CS-N-CHILDCARE-LOUISIANA-SBA-7A:61	Y	
+G17	$860,000	Comparable daycare building sale, Golden Rule Dutchtown, Apr 2025	research	I77a	Baton Rouge Business Report 2 May 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:98	Y	
+G18	$1.1M	Prior sale of same building, 2017	research	I77a	Baton Rouge Business Report 2 May 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:75	Y	note: same string on case-studies/auto-service-new-jersey-sba/index.html (+6), different measure; kept
+G19	28	Early learning centers in Ascension Ready Start Network, 2026-2027 blueprint	research	I77c	Ascension Early Childhood Ready Start Network, Network Blueprint	CS-N-CHILDCARE-LOUISIANA-SBA-7A:95	Y	
+G20	18	School-based sites in Ready Start Network, 2026-2027 blueprint	research	I77c	Ascension Early Childhood Ready Start Network, Network Blueprint	CS-N-CHILDCARE-LOUISIANA-SBA-7A:95	Y	
+G21	$5.8 billion	Hyundai steel plant investment, announced Mar 2025	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:122	Y	note: same string on asset-classes/self-storage/index.html (+1), different measure; kept
+G22	1,300	Hyundai steel plant direct jobs expected	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:122	Y	note: same string on case-studies/multifamily-texas-agency/index.html (+13), different measure; kept
+G23	$4 billion	Blue Point One ammonia plant, groundbreaking 26 Aug 2026	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:123	Y	
+G24	$69 million	ControlWorx Gonzales facility, announced 11 Feb 2025	research	I77a	Louisiana Illuminator 11 Feb 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:124	Y	
+G25	175	ControlWorx direct jobs over 10 years	research	I77a	Louisiana Illuminator 11 Feb 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:124	Y	
+G26	$12.5 million	ControlWorx payroll	research	I77a	Louisiana Illuminator 11 Feb 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:124	Y	note: same string on case-studies/marina-maryland-sba/index.html (+2), different measure; kept
+G27	340 million	Chevron Geismar renewable diesel capacity after expansion, gal/yr (FY2025 10-K)	research	I77c	Chevron FY2025 Form 10-K; Baton Rouge Business Report 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:125	Y	
+G28	90 million	Chevron Geismar capacity before expansion, gal/yr	research	I77c	Chevron FY2025 Form 10-K; Baton Rouge Business Report 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:125	Y	
+G29	160	Chevron Geismar employees (more than)	research	I77a	Baton Rouge Business Report 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:125	Y	
+G30	350	Chevron Geismar total workers (about)	research	I77a	Baton Rouge Business Report 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:125	Y	
+G31	1,500	Chevron Geismar construction workers (more than)	research	I77a	Baton Rouge Business Report 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:125	Y	note: same string on asset-classes/behavioral-health/index.html (+37), different measure; kept
+G32	8,000	Louisiana children on CCAP waitlist (nearly)	research	I77a	WAFB 13 Oct 2026 citing Louisiana Policy Institute for Children report	CS-N-CHILDCARE-LOUISIANA-SBA-7A:129	Y	note: same string on asset-classes/childcare-and-daycare/index.html (+24), different measure; kept
+G33	5,371	Louisiana families waiting for CCAP, end CY2025	research	I77a	Citizen Portal summary of LDOE report, 20 Feb 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:130	Y	
+G34	16,871	Louisiana children in CCAP voucher seats, end CY2025	research	I77a	Citizen Portal summary of LDOE report, 20 Feb 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:130	Y	
+G35	$34 million	FY2026 federal funding directly affecting Ascension Parish (flood and roads)	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:161	Y	
+G36	$23 million	Upper Barataria Basin flood protection, FY2026	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:161	Y	
+G37	$6 million	Airline Hwy raise (Sorrento to I-10), FY2026	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:161	Y	
+G38	$5 million	Lower Mississippi River Comprehensive Study, FY2026	research	I77a	U.S. Sen. John Kennedy release 8 Sep 2026	CS-N-CHILDCARE-LOUISIANA-SBA-7A:161	Y	
+G39	624	Louisiana SBA 7(a) loans CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026), SBA FOIA basis	CS-N-CHILDCARE-LOUISIANA-SBA-7A:170	Y	
+G40	$348.7 million	Louisiana SBA 7(a) volume CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:170	Y	
+G41	$559K	Louisiana average 7(a) loan CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:170	Y	
+G42	10.49%	Louisiana average 7(a) rate CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:170	Y	
+G43	90	Louisiana 7(a) lenders CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:170	Y	note: same string on states/louisiana/index.html, different measure; kept
+G44	7,703	Jobs supported by Louisiana 7(a) loans CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:170	Y	
+G45	15	Louisiana 7(a) loans to child day care (NAICS 624410) CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:171	Y	note: same string on asset-classes/childcare-and-daycare/index.html (+4), different measure; kept
+G46	$6.8 million	Louisiana 7(a) volume to child day care CY2025	research	I77b	GoSBA, Best Louisiana SBA Lenders & Rates (2026)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:171	Y	note: same string on case-studies/meat-processing-north-carolina-usda/index.html (+2), different measure; kept
+G47	$13.00	Toddler assistant wage range $13.00 to $15.00/hr, Aug 2025 posting	research	I77a	Glassdoor posting, Kaleidoscope The Learning Center, Aug 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:99	Y	note: same string on case-studies/retail-nevada-conventional/index.html (+1), different measure; kept
+G48	9.14	Gonzales land area sq mi	research	I77c	U.S. Census Bureau QuickFacts Gonzales city (V2025)	CS-N-CHILDCARE-LOUISIANA-SBA-7A:53	N	geographic constant, not a market figure
+G49	2.9%	Ascension share of Louisiana population, 2025	research	none	USAFacts	CS-N-CHILDCARE-LOUISIANA-SBA-7A:60	N	page says 2025 with no periodic document; undated
+G50	$279,600	Ascension median home value (also $1,519 tax; 38,597 owner households)	research	none	National Mortgage Center	CS-N-CHILDCARE-LOUISIANA-SBA-7A:62	N	ACS vintage not stated; undated
+G51	186	Licensed capacities 37 to 186, eleven centers (also 75, 117, 142, 70, 135, 74, 89, 80, 85)	research	none	childcarecenter.us, daycare.com aggregators	CS-N-CHILDCARE-LOUISIANA-SBA-7A:74-88	N	undated aggregator capacities
+G52	$215	Golden Rule weekly rates $215 infant to $170 age 3-5 (also $195, $180, $190, $160)	research	none	goldenrulekids.com; Parent Handbook May 2025	CS-N-CHILDCARE-LOUISIANA-SBA-7A:75-76	N	dated only by researcher check (Oct 2026); handbook not tied to each rate
+G53	$154.50	A Love For Kids infant payment, billing period not stated	research	none	aloveforkids.com	CS-N-CHILDCARE-LOUISIANA-SBA-7A:79	N	undated, period not stated
+G54	5.6/7	Little Lads Ready Start site score 2020-21 (4.14/7 in 2021-22)	research	none	Ascension Ready Start Network	CS-N-CHILDCARE-LOUISIANA-SBA-7A:74	N	competitor quality score; periodic document not identified
+G55	$526	Average full-time daycare cost per month, Gonzales	research	none	CareLuLu	CS-N-CHILDCARE-LOUISIANA-SBA-7A:97	N	undated
+G56	18	Child care centers in Gonzales (CareLuLu)	research	none	CareLuLu	CS-N-CHILDCARE-LOUISIANA-SBA-7A:96	N	undated
+G57	$8,153	Louisiana 4-year-old care cost per year, 2025	research	none	The Advocate citing EPI	CS-N-CHILDCARE-LOUISIANA-SBA-7A:100	N	article date not stated; 2025 label without periodic document
+G58	$404,060	Competing daycare-zoned land listing, 2.32 acres	research	none	Homes.com / RE/MAX listing	CS-N-CHILDCARE-LOUISIANA-SBA-7A:113	N	listing price, undated
+G59	$1.3 billion	Mitsubishi Chemical plant withdrawn 8 Jan 2025	research	none	Louisiana Illuminator place archive	CS-N-CHILDCARE-LOUISIANA-SBA-7A:128	N	place archive page, article date not identified
+G60	100	Blue Point permanent jobs (more than)	research	none	Louisiana Illuminator place archive	CS-N-CHILDCARE-LOUISIANA-SBA-7A:123	N	source is undated archive page
+G61	$780M	BASF Geismar expansion; retains more than 1,000 jobs	research	none	Ascension EDC	CS-N-CHILDCARE-LOUISIANA-SBA-7A:126	N	announcement year not stated
+G62	29	Ascension EDC active projects ($22 billion, 1,472 jobs)	research	none	The Advocate sponsored content	CS-N-CHILDCARE-LOUISIANA-SBA-7A:127	N	sponsored content, date only "2026"
+G63	$6,786	CCAP income limit for family of 4 (85% SMI), eff. 1 Feb 2025	research	I77a	LDOE	CS-N-CHILDCARE-LOUISIANA-SBA-7A:131	N	state subsidy eligibility rule value, not a market figure
+G64	$25	Louisiana childcare license fees $25/$100/$175/$250, Bulletin 137 Apr 2025	research	I77b	BESE Bulletin 137	CS-N-CHILDCARE-LOUISIANA-SBA-7A:148	N	regulatory fee schedule, rule value
+G65	20%	Act 454 credit rates 5/10/15/20%, $10,000 per-child, $1 million cap, eff. 1 Jan 2026	research	I77a	Louisiana Dept. of Revenue RIB 25-029	CS-N-CHILDCARE-LOUISIANA-SBA-7A:158	N	state tax-credit rule values, not market figures
+G66	111.36	Combined millage Prairieville area (108.93 Gonzales; 101.74 Sorrento/Geismar)	research	none	Southern Title	CS-N-CHILDCARE-LOUISIANA-SBA-7A:151-153	N	resource page with "2026" label, no periodic document; undated
+G67	115.00	Parish-wide average millage	research	none	Ascension EDC	CS-N-CHILDCARE-LOUISIANA-SBA-7A:154	N	not dated
+G68	$1.9 million	Value of one mill, parish	research	none	Pelican Post	CS-N-CHILDCARE-LOUISIANA-SBA-7A:155	N	article date not stated
+G69	15,000	Homes flooded in Aug 2016 (one-third of parish homes)	research	none	Wikipedia	CS-N-CHILDCARE-LOUISIANA-SBA-7A:160	N	event date only, undated Wikipedia page
+G70	7,000	Chevron Geismar 7,000 to 22,000 bbl/d	research	I77c	Chevron FY2025 Form 10-K	CS-N-CHILDCARE-LOUISIANA-SBA-7A:125	N	rescaled repeat of the 90 to 340 million gal/yr capacity
+G71	$50,000	SBA collateral threshold, 75% guaranty, 25% fee retention, 100% owner rule	research	I77a	CRS IN12549; SBA SOP 50 10 8	CS-N-CHILDCARE-LOUISIANA-SBA-7A:175-181	N	SBA program rule values
+G72	$500,000	Subject listing price, 1.73 / 2.22 acres, MLS BR2025016393, tax assessment 8275200	research	none	Guidry & Co. listing	CS-N-CHILDCARE-LOUISIANA-SBA-7A:8,27-33	N	subject listing figures
+R01	44	Child day care establishments, Ascension Parish, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[co-22005][childcare-and-daycare]	Y	
+R02	585	Child day care employees, Ascension Parish, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_emp.json values[co-22005][childcare-and-daycare]	Y	
+R03	1,040	Child day care establishments, Louisiana, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[la][childcare-and-daycare]	Y	
+R04	290	Childcare 7(a) loans approved, Louisiana, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_loans.json values[la][childcare-and-daycare]	Y	
+R05	$59,145,948	Childcare 7(a) volume, Louisiana, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_volume.json values[la][childcare-and-daycare]	Y	
+R06	$91,549	Median household income, Ascension Parish, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_hh_income.json values[co-22005]	Y	
+R07	$1,318	Median gross rent, Ascension Parish, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_gross_rent.json values[co-22005]	Y	
+R08	$66,285	Per capita personal income, Ascension Parish, 2024	register	I77c	BEA county personal income 2024	data/markets/series/bea_per_capita_income.json values[co-22005]	Y	
+R09	4.4%	Unemployment rate, Ascension Parish, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_unemployment_rate.json values[co-22005]	Y	note: same string on asset-classes/hotel/index.html, different measure; kept
+R10	47,656	Households, Ascension Parish, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_households.json values[co-22005]	Y	
+R11	$279,600	Median home value, Ascension Parish, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_home_value.json values[co-22005]	N	over the 10-figure register cap
+R12	$61,897	Per capita personal income, Louisiana, 2024	register	I77c	BEA state personal income 2024	data/markets/series/bea_per_capita_income.json values[la]	N	over the 10-figure register cap
+#SUMMARY childcare-gonzales-louisiana-sba counted=57 research=47 register=10 verdict=PAGE engine=N notes=Counted well above both floors; dated research figures carry it.

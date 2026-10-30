@@ -1,0 +1,24 @@
+self-storage-bardstown-kentucky-usda (CASE-NEW-1)
+
+Determination: as proposed (20% equity, $3,438,967 loan): fails equity (25% test) and coverage (0.69x Year 3 vs 1.25x). As restructured by the engine: 54.8% equity, $1,922,626 loan, 1.25x Year 3. Project cost $4,253,598 restructured. Loan stays over $1,000,000 so the USDA feasibility study rule applies; under $5,000,000 so 85% guarantee.
+Body words 5,766. Unique counted figures 37 (research 27, register 10/10). Overlap top 4.63% (rv-park-texas-usda). Lender conditions: 13. Gate 8: 0 hits (dnu.tsv extended with Marvin Downs, the FIRM panel and PIN of the adjacent parcel, LCKYBARDSTOWN, exprealty.com, loopnet.com/property/232, "325 days active").
+
+NOT FOUND turned into lender conditions: climate-controlled and drive-up posted rates; competitor unit counts, NRSF, acres, PVA tax, occupancy; pipeline 2025-26; USDA rural eligibility map result; subject parcel, FEMA zone, utilities providers, AADT; land comps; construction cost index and bids; impact and connection fees; approval timeline; 2025 Fiscal Court rate, state and library rates, assessment ratio; insurance and wind cover; licenses; B&I lender and Nelson County B&I closings; HUBZone/OZ (not used).
+
+Research figures dropped or not printed, and why:
+- All aggregator rates (RentCafe $94, StorageCafe Extra Space/Storage Project/Lighthouse rates, review counts): undated, fetch-date only (I69/I106); one aggregator called unreliable by the research; StorageCafe page is a search-results listing. No number printed.
+- Maywood web rates ($50/$75/...): page 404 in the research recheck; Maywood home page fetched 29 Oct 2026 shows no rates (call to rent). Not printed as rates; said so in prose.
+- Subject listing ask, per-acre ask, acreage, MLS ids, adjacent parcel id and FIRM panel, the two land comps ($355,000 0.72 ac; $450,000 per acre): dnu or single-property listing figures. Land is a labelled round assumption (3 acres, $160,000 per acre).
+- City population 14,161 / 13,561 and +4.4%: the research gives no URL for the QuickFacts city page; a source entry needs an absolute URL, so the city figures were dropped (county and state QuickFacts used).
+- KBF attendance (50,000 vs 6,000+), KBT 2.7M, Army Fort Knox 26,260, National Bourbon Week 9 distilleries: conflicting or undated; Fort Knox kept as prose with no number.
+- Hardin Homes combined rate 113.4 cents: broker site, mixed years; replaced by dated components (city 16.10, city schools 79.10, county 12.0) plus an assumption for state and library.
+- Tornado review quote (StorageCafe user review) and the Bluegrass customer review: anecdote from review pages, not used as sources.
+- Heartland "Dec 2010" opening and "resident manager", Heartland "one of the largest" claim, Bluegrass "remotely managed": from the research (operator-site facts); only the product facts were reconfirmed by fetch on 29 Oct 2026.
+- Competitors found only in directories, chamber, Yelp, Yellow Pages (Stow-Away, Lay-A-Way, Devine's, QSI, Bardstown Express, Susannah/AAA/Withrow Ridge/All Weather, Coxs Creek ring): no own website; left out of the table, noted in prose as unconfirmed.
+
+Competitor confirmation (WebFetch 29 Oct 2026, own sites only): Heartland (selfstorageky.com), Bluegrass Storage, Bardstown Stor-All, Lock N Key, Maywood U-Store-It (home page). None posts rates.
+
+Assumption-heavy inputs (all labelled): size (30,000 cc + 24,000 drive-up NRSF), land, build costs ($62 / $29 per sf), site work, rents ($1.00 cc, $0.60 drive-up, 3% growth), occupancy ramps, opex ratios, payroll, insurance, state and library tax, reserve, rate (Prime 7.00% [H.15 via sba.json] + 0.75), amortization 25 years, equity min 25%, DSCR floor 1.25x (PA-USDA prints neither for B&I).
+
+Engine notes: (1) FAQ answers cannot carry {{case:v...}} placeholders (build.py refuses: unexpanded shorthand); hero_sub can. (2) The USDA retention-fee opex line uses tpc*(1-bi_equity_min_pct), i.e. the fee base follows the minimum equity, not the restructured equity (same as rv-park-texas-usda); it slightly overstates the fee when equity is 54.8%. (3) pagecheck lists "525" only when a competitor size sits outside data-fsc-nocount; wrapped. (4) Register markers use co-21179 and cbsa-31140 (Nelson County is inside the Louisville/Jefferson County metro in the register); research said only "next to Louisville".
+No engine change requested.

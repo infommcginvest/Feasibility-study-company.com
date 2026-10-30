@@ -1,0 +1,68 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+F01	17,267	Humboldt County population, V2025	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L51	Y	
+F02	-0.1%	Humboldt County population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L52	Y	
+F03	8,307	Winnemucca city population, V2025	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L53	Y	
+F04	8,225	Winnemucca city population, V2024	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L53	Y	
+F05	8,431	Winnemucca city 2020 Census population	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L53	Y	
+F06	-2.0%	Winnemucca city population change Apr 2020 to Jul 2024	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L54	Y	
+F07	6,911	Humboldt County households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L55	Y	
+F08	2.48	Persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L56	Y	
+F09	$81,073	Median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L57	Y	
+F10	37.7	Median age Winnemucca micro area, ACS 2024 5-yr	research	I77c	Census Reporter (ACS)	Winnemucca:L58	Y	secondary republisher of ACS
+F11	6,392	Employees, County Business Patterns 2023	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L59	Y	
+F12	418	Employer establishments, County Business Patterns 2023	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L59	Y	
+F13	$138,726,000	Accommodation and food services sales, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L60	Y	
+F14	7,942	Housing units, 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Humboldt County / Winnemucca	Winnemucca:L61	Y	
+F15	20,564	Elko city 2020 Census population	research	I77c	U.S. Census Bureau QuickFacts Elko city	Winnemucca:L17	N	already printed on /states/nevada/
+F16	21,019	Elko city population, V2025	research	I77c	U.S. Census Bureau QuickFacts Elko city	Winnemucca:L17	Y	
+F17	20,000	Rural TEA city population ceiling	research	none	USCIS	Winnemucca:L159	N	program rule value
+F18	$375,000	Adjacent parcel sale, 26 Apr 2024	research	I77a	Humboldt County Assessor	Winnemucca:L36	Y	recorded sale comp; borderline as single-parcel figure
+F19	$2,130,000	Winners Hotel parcel sale, 6 Oct 2023	research	I77a	Humboldt County Assessor	Winnemucca:L93	Y	recorded sale comp; borderline as single-parcel figure
+F20	$295,000	Adjacent parcel 2026 land value	research	I77c	Humboldt County Assessor	Winnemucca:L36	N	single-parcel assessment
+F21	$313,986	Adjacent parcel taxable value	research	I77c	Humboldt County Assessor	Winnemucca:L36	N	single-parcel assessment
+F22	72	Holiday Inn Express rooms	research	none	IHG	Winnemucca:L72	N	date is our fetch ("Checked Oct 2026")
+F23	80	Fairfield Inn rooms	research	none	Expedia / HotelPlanner	Winnemucca:L76	N	undated aggregators
+F24	83	Candlewood Suites rooms	research	none	HotelGuides	Winnemucca:L80	N	"Not dated"
+F25	71	Best Western Plus rooms	research	none	Cvent / Travel Weekly	Winnemucca:L83	N	undated, conflicting counts
+F26	50	Super 8 rooms (for-sale listing)	research	none	Crexi	Winnemucca:L86	N	single-property listing figure
+F27	$1,875,000	Regency Inn asking price	research	none	CityFeet	Winnemucca:L89	N	single-property listing figure
+F28	$265	Holiday Inn Express rate	research	none	Google Hotels	Winnemucca:L74	N	undated display rate
+F29	26	Winnemucca lodging properties (22 to 28 by site)	research	none	Expedia / HotelsCombined / Tripadvisor	Winnemucca:L92	N	undated aggregators
+F30	77	Abandoned 77-room hotel project	research	none	ConstructConnect	Winnemucca:L102	N	project record, only a start date
+F31	1,800	Thacker Pass Workforce Hub capacity (also the 1,800 skilled labor in the 10-K jobs line)	research	I77a	Lithium Americas post, Oct 2025	Winnemucca:L103	Y	operator statement
+F32	250	Workforce Hub initial beds, Sep 2025	research	I77a	Target Hospitality 10-K / ARS FY2025	Winnemucca:L104	Y	
+F33	500	Workforce Hub residents, 31 Dec 2025	research	I77a	Lithium Americas 10-K FY2025	Winnemucca:L105	Y	
+F34	950	Thacker Pass construction workers, 31 Dec 2025	research	I77a	Lithium Americas 10-K FY2025	Winnemucca:L116	Y	
+F35	2,000	Thacker Pass Phase 1 jobs	research	I77a	Lithium Americas 10-K FY2025	Winnemucca:L117	Y	
+F36	900	Thacker Pass workers mid-March 2026	research	I77a	Nevada Appeal 26 Mar 2026	Winnemucca:L118	Y	
+F37	350	Thacker Pass long-term operating workforce	research	I77a	Nevada Appeal 26 Mar 2026	Winnemucca:L119	Y	
+F38	$3 billion	Thacker Pass project capital	research	I77a	Nevada Appeal 26 Mar 2026	Winnemucca:L120	Y	
+F39	$2.23 billion	DOE loan to Thacker Pass	research	I77a	Nevada Appeal / Target Hospitality 8-K	Winnemucca:L120	Y	
+F40	38%	GM asset-level interest	research	I77a	Nevada Appeal 26 Mar 2026	Winnemucca:L120	Y	
+F41	8,400	I-80 central Nevada vehicles per day	research	none	Wikipedia	Winnemucca:L123	N	undated, station and year not stated
+F42	3.2716	District 1.0 combined tax rate per $100 AV, FY2025/26	research	I77c	Humboldt County Assessor/Treasurer	Winnemucca:L139	Y	
+F43	3.1716	District 1.0 combined tax rate per $100 AV, FY2024/25	research	I77c	Humboldt County Assessor	Winnemucca:L140	Y	
+F44	2.3063	District 3.0 tax rate per $100 AV, FY2024/25	research	I77c	Humboldt County Assessor	Winnemucca:L141	Y	
+F45	35%	Assessment ratio	research	none	Humboldt County Assessor parcel record	Winnemucca:L143	N	read off one parcel record
+F46	12%	Room tax outside city limits	research	none	Humboldt County Code Ch. 3.16	Winnemucca:L145	N	"Current code", undated
+F47	6.85%	Winnemucca combined sales tax	research	I77b	Avalara "2026 Winnemucca, Nevada Sales Tax"	Winnemucca:L147	N	same value already on /states/nevada/ (Tax Foundation state rate)
+F48	$800,000	Rural TEA minimum investment	research	none	USCIS	Winnemucca:L162	N	program rule value
+F49	$1,050,000	Non-TEA minimum investment	research	none	USCIS	Winnemucca:L162	N	program rule value
+F50	20%	Rural visa set-aside	research	none	USCIS	Winnemucca:L163	N	program rule value
+F51	$1,000,000	Gold Card individual gift	research	I77a	Executive Order 14351, 19 Sep 2025 (law-firm summaries)	Winnemucca:L166	Y	
+F52	$2,000,000	Gold Card corporate gift	research	I77a	Executive Order 14351, 19 Sep 2025 (law-firm summaries)	Winnemucca:L166	Y	
+F53	$5,000,000	Gold Card as announced, 25 Feb 2025	research	I77a	AILA	Winnemucca:L167	Y	
+F54	$299,000	Subject asking price	research	none	Movoto / NNRMLS	Winnemucca:L29	N	subject listing figure
+F55	1.00 acre	Subject acreage	research	none	Movoto / NNRMLS	Winnemucca:L28	N	subject listing figure
+F56	$1,259.91	Subject MLS property tax	research	none	Movoto / NNRMLS	Winnemucca:L32	N	subject listing figure
+R01	994	Median gross rent, Winnemucca market (ACS 2020-2024)	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.nevada/winnemucca	Y	
+R02	278,300	Median home value, Winnemucca market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.nevada/winnemucca	Y	
+R03	5.78%	Unemployment rate, Winnemucca market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.nevada/winnemucca	Y	
+R04	1,799	Renter-occupied units, Winnemucca market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_renter_occupied.json values.nevada/winnemucca	Y	
+R05	5,112	Owner-occupied units, Winnemucca market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_owner_occupied.json values.nevada/winnemucca	Y	
+R06	60,358	Per capita personal income, Winnemucca market, 2024	register	I77c	U.S. Bureau of Economic Analysis	data/markets/series/bea_per_capita_income.json values.nevada/winnemucca	Y	
+R07	8,354	Labor force, Winnemucca market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_labor_force.json values.nevada/winnemucca	Y	
+R08	78,260	Median household income, Nevada	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.nv	Y	
+R09	1,597	Median gross rent, Nevada	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.nv	Y	
+R10	6.97%	Unemployment rate, Nevada	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.nv	Y	
+#SUMMARY hotel-nevada-eb5 counted=43 research=33 register=10 verdict=PAGE engine=Y notes=EB-5 rule values excluded; two sale comps borderline; Elko 2020 count collides with Nevada page

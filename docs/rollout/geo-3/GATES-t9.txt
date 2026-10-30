@@ -1,0 +1,311 @@
+tranche t9 (illinois) copy ~/Downloads/fsc-rollout/tmp/geo-3/t9 from worktree HEAD 88808dd2c949ee2e5130819cf47a9c44c7873032
+pages: ['/states/illinois/', '/states/indiana/', '/states/wisconsin/']
+requests applied in the copy: scripts/requests.py docs/rollout/geo-3/requests.json: rc=0   INDEX ENTRY (integrator writes it): geo-3 geo-3-nebraska-10: /states/ entry for /states/nebraska/: 'Nebraska' (Omaha and Lincoln growth, the meat-plant towns of the Platte, and the disaster record of 2025 to 2026.); illinois requests from drafts/geo-3/requests-next: rc=0 .geo3-requests-next.json: changed data/mesh/fallbacks.json
+chain scripts/build.py: rc=0 63 source(s), 62 page(s) written, 0 error(s)
+chain scripts/chrome.py: rc=0 0 page(s) rewrote; 0 held; 190 checked; 0 problem(s)
+chain scripts/byline.py: rc=0   states/wisconsin/index.html
+chain scripts/regulatory.py: rc=0 0 page(s) rewritten
+chain scripts/markets.py: rc=0 0 page(s) rewritten
+chain scripts/casemodel.py: rc=0 15 case(s), 0 page(s) rewritten, 0 problem(s)
+chain scripts/mesh.py: rc=0 62 page(s) rewrote; 0 held; 1080 term link(s) on 175 page(s)
+chain scripts/links.py --relink: rc=0 0 page(s) changed
+chain scripts/sitemap.py: rc=0 sitemap.xml: 188 URLs
+
+GEO-3 gates on ~/Downloads/fsc-rollout/tmp/geo-3/t9
+pages: /states/illinois/, /states/indiana/, /states/wisconsin/
+folded: [['/states/illinois/chicago/', '/states/illinois/#chicago'], ['/states/illinois/peoria/', '/states/illinois/#peoria'], ['/states/illinois/rockford/', '/states/illinois/#rockford'], ['/states/illinois/springfield/', '/states/illinois/#springfield'], ['/states/illinois/champaign-urbana/', '/states/illinois/#champaign-urbana'], ['/states/illinois/bloomington-normal/', '/states/illinois/#bloomington-normal'], ['/states/illinois/quad-cities/', '/states/illinois/#quad-cities'], ['/states/illinois/metro-east/', '/states/illinois/#metro-east']]
+deploy_date in the copy: 2026-10-22
+
+=== Gate 1: pages build from sources; one <title>; JSON-LD parses with BreadcrumbList and author @id; folds have their section: GREEN
+  3 pages, 8 folded sections
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0 (no case in this tranche; casemodel run as a guard): GREEN
+  build.py --check rc=0: 63 page(s) checked, 0 out of date or failing
+  casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures: research at least 20, research plus register (at most 10) at least 30 (amendment A6); body words in the ruling 3 range: GREEN
+  /states/illinois/                            state  words 5842  research 73  register 7  counted 80  overlap max 0.34% (/states/tennessee/nashville/)
+  /states/indiana/                             state  words 7209  research 75  register 10  counted 85  overlap max 0.11% (/case-studies/)
+  /states/wisconsin/                           state  words 7691  research 93  register 6  counted 99  overlap max 0.14% (/case-studies/)
+
+=== Gate 4: overlap under 15% against every page of the copy; sibling matrix: GREEN
+  /states/illinois/                            sibling max 0.06%; top: [[0.34, '/states/tennessee/nashville/', 9], [0.31, '/states/south-carolina/charleston/', 8], [0.3, '/states/north-carolina/charlotte/', 8]]
+  /states/indiana/                             sibling max 0.01%; top: [[0.11, '/case-studies/', 3], [0.09, '/case-studies/self-storage-indiana-sba/', 3], [0.08, '/case-studies/self-storage-arizona-sba/', 3]]
+  /states/wisconsin/                           sibling max 0.06%; top: [[0.14, '/case-studies/', 4], [0.12, '/case-studies/funeral-home-wisconsin-sba/', 4], [0.1, '/states/new-mexico/', 4]]
+
+=== Gate 5: standalone: every metro passes gates 3 and 4 on its own geography's evidence (folds listed in gate 1): GREEN
+  metros 0, failing []
+
+=== Gate 6: case standard: N/A
+  GEO-3 writes no case pages
+
+=== Gate 7: sources: four parts; ruling 9 pattern absent in sources, served pages, commit authors and messages, tag messages; sbamandate zero: GREEN
+  lane commit identities: ['Feasibility Study Company <noreply@feasibility-study-company.com> | Feasibility Study Company <noreply@feasibility-study-company.com>']
+
+=== Gate 8: subjects: no identifier from any list in private/ in the tranche's pages, sources or history: GREEN
+  10 lists, 6690 tokens
+
+=== Gate 9: links: links.py and mesh.py --check; required state and metro edges; inbound count (checked again at landing): GREEN
+  links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+  mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1080 term link(s) on 175 page(s)
+  inbound contextual links from distinct non-index pages (3 required after landing):
+    /states/illinois/                            21
+    /states/indiana/                             14
+    /states/wisconsin/                           8
+
+=== Gate 10: clean text: zero em and en dashes in any encoding; no credential beside the name: GREEN
+  0 dashes, credential grep 0
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+  byline.py --check rc=0: out of date: 0 page(s)
+  regulatory.py --check rc=0: 0 page(s) out of date
+  chrome.py --check rc=0: 0 page(s) out of date; 0 held; 190 checked; 0 problem(s)
+  markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, visible line and sitemap lastmod agree (2026-10-22 in the copy; the integrator pins DEPLOY at landing); rebuilt pages keep their published date: GREEN
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+  states_illinois-desktop-1440.png                             scrollWidth 1440 / emulated 1440 (innerWidth 1440) overflow False inner-scroll tables 0
+  states_illinois-mobile-390.png                               scrollWidth 390 / emulated 390 (innerWidth 390) overflow False inner-scroll tables 4
+  states_indiana-desktop-1440.png                              scrollWidth 1440 / emulated 1440 (innerWidth 1440) overflow False inner-scroll tables 0
+  states_indiana-mobile-390.png                                scrollWidth 390 / emulated 390 (innerWidth 390) overflow False inner-scroll tables 1
+  states_wisconsin-desktop-1440.png                            scrollWidth 1440 / emulated 1440 (innerWidth 1440) overflow False inner-scroll tables 0
+  states_wisconsin-mobile-390.png                              scrollWidth 390 / emulated 390 (innerWidth 390) overflow False inner-scroll tables 1
+
+=== Gate 14: index all: index, follow and in the sitemap with lastmod: GREEN
+
+SUMMARY: 14/14 green or not applicable; 1:GREEN, 2:GREEN, 3:GREEN, 4:GREEN, 5:GREEN, 6:N/A, 7:GREEN, 8:GREEN, 9:GREEN, 10:GREEN, 11:GREEN, 12:GREEN, 13:GREEN, 14:GREEN
+
+
+## Integrator tool, scripts/qa/gates.py --stage ready
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-22T17:31:07
+root ~/Downloads/fsc-rollout/tmp/geo-3/t9; git dir ~/Downloads/wt-rollout-geo-3 at 88808dd2c949ee2e5130819cf47a9c44c7873032; range main..HEAD; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-3/t9 --git-dir ~/Downloads/wt-rollout-geo-3 --urls /states/illinois/,/states/indiana/,/states/wisconsin/ --stage ready --range main..HEAD --skip-look --out ~/Downloads/fsc-rollout/tmp/geo-3/t9/.qa-gates.txt
+pages (3): /states/illinois/ /states/indiana/ /states/wisconsin/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+3 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 63 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /states/illinois/                                              state     counted 75 (research 68, register 7/7)
+  /states/indiana/                                               state     counted 85 (research 75, register 10/10)
+  /states/wisconsin/                                             state     counted 99 (research 93, register 6/6)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/illinois/                                              max 0.34% (/states/tennessee/nashville/)
+  /states/indiana/                                               max 0.02% (/states/california/)
+  /states/wisconsin/                                             max 0.01% (/states/missouri/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+0 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..HEAD: 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..HEAD (191 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1080 term link(s) on 175 page(s)
+pages checked for inbound links: 3; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 190 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+3 page(s)
+
+=== Gate 13: look: PENDING
+  skipped in this run (--skip-look)
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  3 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: PENDING  look
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 13/14
+
+freeze of tranche t9: worktree HEAD 88808dd2c949ee2e5130819cf47a9c44c7873032
+  source /states/illinois/                        4587a4818abfc7450ed0600650e3723486db381022ca27f95d68e56edd2907ed
+  served /states/illinois/                        5741b45585c1dff0fdfe055a8c78222b43c73c9e99ae24782c6dc91561bff59c
+  source /states/indiana/                         f73d82edbe82d923a401928258b131d6d6ca890db701f1e8cbce592579431aa3
+  served /states/indiana/                         e75ce48dd8c524e5f436f7bd1e6fbd98c7eb81391d6123dd7540674cfd0cd2f9
+  source /states/wisconsin/                       709209392146c5678aa6b37f1c4e37d45492c37545bb5e6f484a943f25f62f21
+  served /states/wisconsin/                       8e84cd993c07547017e7c940bd9717ccf501aadb4a976e25304b9a2eb5c02acc
+
+## Freeze 2: scripts/qa/gates.py --stage ready
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-22T17:32:49
+root ~/Downloads/fsc-rollout/tmp/geo-3/t9; git dir ~/Downloads/wt-rollout-geo-3 at 88808dd2c949ee2e5130819cf47a9c44c7873032; range main..HEAD; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-3/t9 --git-dir ~/Downloads/wt-rollout-geo-3 --urls /states/illinois/,/states/indiana/,/states/wisconsin/ --stage ready --range main..HEAD --look-out ~/Downloads/fsc-rollout/tmp/geo-3/t9/.look --out ~/Downloads/fsc-rollout/tmp/geo-3/t9/.qa-ready.txt
+pages (3): /states/illinois/ /states/indiana/ /states/wisconsin/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+3 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 63 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /states/illinois/                                              state     counted 75 (research 68, register 7/7)
+  /states/indiana/                                               state     counted 85 (research 75, register 10/10)
+  /states/wisconsin/                                             state     counted 99 (research 93, register 6/6)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/illinois/                                              max 0.34% (/states/tennessee/nashville/)
+  /states/indiana/                                               max 0.02% (/states/california/)
+  /states/wisconsin/                                             max 0.01% (/states/missouri/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+0 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..HEAD: 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..HEAD (191 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1080 term link(s) on 175 page(s)
+pages checked for inbound links: 3; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 190 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+3 page(s)
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in ~/Downloads/fsc-rollout/tmp/geo-3/t9/.look (port 49734)
+  states_illinois-desktop-1440.png                                       scrollWidth 1440 / 1440 overflow False offenders []
+  states_illinois-mobile-390.png                                         scrollWidth 390 / 390 overflow False offenders []
+  states_indiana-desktop-1440.png                                        scrollWidth 1440 / 1440 overflow False offenders []
+  states_indiana-mobile-390.png                                          scrollWidth 390 / 390 overflow False offenders []
+  states_wisconsin-desktop-1440.png                                      scrollWidth 1440 / 1440 overflow False offenders []
+  states_wisconsin-mobile-390.png                                        scrollWidth 390 / 390 overflow False offenders []
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  3 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 14/14
+
+## Freeze 2: --only 9 --stage landing
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-22T17:34:59
+root ~/Downloads/fsc-rollout/tmp/geo-3/t9; git dir ~/Downloads/wt-rollout-geo-3 at 88808dd2c949ee2e5130819cf47a9c44c7873032; range main..HEAD; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-3/t9 --git-dir ~/Downloads/wt-rollout-geo-3 --urls /states/illinois/,/states/indiana/,/states/wisconsin/ --stage landing --only 9 --range main..HEAD --out ~/Downloads/fsc-rollout/tmp/geo-3/t9/.qa-landing9.txt
+pages (3): /states/illinois/ /states/indiana/ /states/wisconsin/
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1080 term link(s) on 175 page(s)
+pages checked for inbound links: 3; under 3: 0
+
+required edges: all present
+
+SUMMARY
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  green 1/1
+
+## Freeze 2: pagecheck --figures
+/states/illinois/                                              state     words   5842  counted   75 (research 68, register 7/7)  overlap 0.34% (/states/tennessee/nashville/)
+    research: $112,442,000; $119.6M; $12.96; $128.5M; $15.40; $17.05; $183,217,910; $245M; $47.5M; $476,683,540; $67.9M; $895M; $9.25; $949 million; 0.06%; 1,036,700; 1,743; 10,177; 107,400; 113,300; 13,857; 13.5 million; 143,400; 15,800; 16,108; 170,954; 171,419; 172,500; 206,033; 208,640; 23,044; 236,072; 239,979; 250,708; 254,100; 257,617; 263,110; 265,983; 27.75%; 3,275; 3,758; 3,780; 3,859,500; 3,901; 3.56 million; 31,054; 31,615; 31,761; 337,242; 338,798; 363,505; 368,782; 377,000; 4,075; 40,017; 44,000; 571,400; 6,175,600; 6,386; 606,900; 85,600; 858,100; 87,100; 9,600; 9,935; 90,900; 908,700; 94.9%
+    register: il.acs5_households=5,036,449; il.acs5_median_hh_income=$83,390; il.acs5_pop65=2,156,214; il.acs5_renter_occupied=1,657,539; il.cbp_estab=793; il.sba504_loans=2,857; il.sba7a_loans=17,193
+/states/indiana/                                               state     words   7209  counted   85 (research 75, register 10/10)  overlap 0.02% (/states/california/)
+    research: $1,169; $1,406; $12,676,053,; $143 million; $198,031,230.18; $3.87 billion; $458 million; $550.9 million; $564.4 million; $587.9 million; $6.3 billion; $71 million; $76.9 billion; $82,363.19; $879 million; 1,237; 1,271; 1,366; 1,548; 1,710; 10.6; 103,201; 111,294; 112,200; 112,300; 112,417; 116,176; 117,288; 12,197; 13,600; 133.5; 14,571; 154,835; 16.1; 165,231; 176,049; 18,500; 207,047; 208,774; 238,200; 263,918; 269,256; 272,861; 272,912; 273,786; 275,203; 3,235; 3,266.5; 3.23%; 33,020; 34,525; 35,700; 36,400; 38,579; 44,502; 45,747; 50,538; 50,600; 504,612; 51,226; 51,500; 52,655; 54,092; 59,578; 59,999; 6,024; 6,786,605; 6,973,333; 67,289; 70,803; 71,238; 723; 75,712; 8,561; 81.1%
+    register: in.acs5_households=2,716,009; in.acs5_labor_force=3,472,016; in.acs5_median_hh_income=$71,957; in.acs5_median_home_value=$218,200; in.acs5_owner_occupied=1,916,243; in.acs5_pop65=1,147,627; in.acs5_renter_occupied=799,766; in.bea_per_capita_income=$64,077; in.bea_personal_income=$443,688.8 million; in.cbp_estab=12,537
+/states/wisconsin/                                             state     words   7691  counted   99 (research 93, register 6/6)  overlap 0.01% (/states/missouri/)
+    research: $1,709; $12,808,428; $13.3B; $139,309,000; $19,735,700; $190,993,000; $2.33; $20B; $227M; $28.1M; $3,007,600; $347M; $36.3 billion; $369M; $37.5B; $4,491,300; $4.19M; $482.1M; $5,484,000; $5.90; $524.9M; $551.1M; $59.6M; $757 million; 1,022; 1,046; 1,099; 1,128; 1,210; 1,905; 1,949; 1.4M; 104.001; 105,710; 109,033; 11,300; 11,800; 121,339; 122,800; 138,013; 139,432; 14.55; 149; 150.31; 156; 156,400; 157,500; 168,168; 168,448; 169,151; 171,730; 174,218; 19,395; 190,705; 195,894; 197,727; 198,919; 2,050; 2,370; 2,802; 268,740; 275,803; 296,600; 3,057,300; 3,098; 3,494; 3,615; 333,700; 412,700; 418,500; 458,400; 5,828; 5,837; 5,972,787; 505,500; 561,504; 590,375; 6,629; 6,984; 611,149; 65,763; 66,652; 66.0304; 66.0615; 66.1014; 7,250; 7,260; 714.2 Million; 727; 892; 924,216; 939,489; 96.3%
+    register: wi.acs5_median_gross_rent=$1,087; wi.acs5_median_home_value=$266,500; wi.acs5_pop65=1,096,043; wi.bea_per_capita_income=$67,755; wi.sba504_volume=$1,692.6 million; wi.sba7a_loans=10,364
+3 page(s), 0 with problems

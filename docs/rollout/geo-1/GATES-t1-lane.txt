@@ -1,0 +1,126 @@
+GEO-1 tranche 1 gates, copy ~/Downloads/fsc-rollout/tmp/geo-1/t1, 10 page(s)
+13/14 green
+
+GATE  1 GREEN pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id (10 pages)
+
+
+GATE  2 GREEN factory: build.py --check and casemodel.py --check exit 0
+  build.py --check: exit 0: 29 page(s) checked, 0 out of date or failing
+  casemodel.py --check: exit 0: 15 case(s) checked, 0 problem(s)
+
+GATE  3 GREEN counted figures (A6): at least 30, research at least 20, register at most 10 counted; body words in the ruling 3 range
+  /states/texas/                               state  words 10979 (4500-8000 OUT) research  69 register 10 total  79  (range not enforced: D13)
+  /states/texas/houston/                       metro  words  3316 (2000-3500) research  35 register  7 total  42
+  /states/texas/dallas-fort-worth/             metro  words  3425 (2000-3500) research  34 register  7 total  41
+  /states/texas/austin/                        metro  words  3066 (2000-3500) research  37 register  7 total  44
+  /states/texas/san-antonio/                   metro  words  3069 (2000-3500) research  31 register  7 total  38
+  /states/florida/                             state  words  6656 (4500-8000) research  78 register 10 total  88
+  /states/florida/miami/                       metro  words  2183 (2000-3500) research  27 register 10 total  37
+  /states/florida/tampa/                       metro  words  2061 (2000-3500) research  28 register 10 total  38
+  /states/florida/orlando/                     metro  words  2063 (2000-3500) research  25 register  9 total  34
+  /states/florida/jacksonville/                metro  words  2061 (2000-3500) research  21 register 10 total  31
+
+GATE  4 GREEN overlap under 15% against every page of the copy; sibling matrix
+  /states/texas/                               max  2.45% with /case-studies/multifamily-texas-agency/; top [(2.45, '/case-studies/multifamily-texas-agency/', 90), (2.04, '/practice-areas/sba-7a-504/', 83), (1.97, '/practice-areas/usda-rural-development/', 34)]
+  /states/texas/houston/                       max  0.17% with /states/florida/tampa/; top [(0.17, '/states/florida/tampa/', 5), (0.15, '/states/florida/jacksonville/', 4), (0.14, '/states/florida/orlando/', 4)]
+  /states/texas/dallas-fort-worth/             max  0.52% with /states/florida/tampa/; top [(0.52, '/states/florida/tampa/', 15), (0.51, '/states/florida/orlando/', 15), (0.44, '/states/florida/jacksonville/', 12)]
+  /states/texas/austin/                        max  0.11% with /states/texas/houston/; top [(0.11, '/states/texas/houston/', 5), (0.1, '/states/florida/tampa/', 3), (0.07, '/states/florida/jacksonville/', 2)]
+  /states/texas/san-antonio/                   max  0.11% with /states/texas/houston/; top [(0.11, '/states/texas/houston/', 5), (0.07, '/states/florida/jacksonville/', 2), (0.07, '/states/florida/tampa/', 2)]
+  /states/florida/                             max   2.8% with /case-studies/dry-stack-cape-coral-florida-sba/; top [(2.8, '/case-studies/dry-stack-cape-coral-florida-sba/', 68), (2.25, '/case-studies/hotel-florida-sba/', 75), (2.23, '/case-studies/urgent-care-florida-sba/', 75)]
+  /states/florida/miami/                       max  1.25% with /states/florida/orlando/; top [(1.25, '/states/florida/orlando/', 37), (1.22, '/states/florida/tampa/', 35), (1.17, '/states/florida/jacksonville/', 32)]
+  /states/florida/tampa/                       max  1.36% with /states/florida/jacksonville/; top [(1.36, '/states/florida/jacksonville/', 37), (1.26, '/states/florida/orlando/', 36), (1.22, '/states/florida/miami/', 35)]
+  /states/florida/orlando/                     max  1.26% with /states/florida/tampa/; top [(1.26, '/states/florida/tampa/', 36), (1.25, '/states/florida/miami/', 37), (1.17, '/states/florida/jacksonville/', 32)]
+  /states/florida/jacksonville/                max  1.36% with /states/florida/tampa/; top [(1.36, '/states/florida/tampa/', 37), (1.17, '/states/florida/orlando/', 32), (1.17, '/states/florida/miami/', 32)]
+  sibling matrix:
+  /states/texas/ x /states/texas/houston/: 0.0%
+  /states/texas/ x /states/texas/dallas-fort-worth/: 0.17%
+  /states/texas/ x /states/texas/austin/: 0.05%
+  /states/texas/ x /states/texas/san-antonio/: 0.02%
+  /states/texas/ x /states/florida/: 0.62%
+  /states/texas/ x /states/florida/miami/: 0.26%
+  /states/texas/ x /states/florida/tampa/: 0.28%
+  /states/texas/ x /states/florida/orlando/: 0.27%
+  /states/texas/ x /states/florida/jacksonville/: 0.29%
+  /states/texas/houston/ x /states/texas/dallas-fort-worth/: 0.04%
+  /states/texas/houston/ x /states/texas/austin/: 0.11%
+  /states/texas/houston/ x /states/texas/san-antonio/: 0.11%
+  /states/texas/houston/ x /states/florida/: 0.07%
+  /states/texas/houston/ x /states/florida/miami/: 0.13%
+  /states/texas/houston/ x /states/florida/tampa/: 0.17%
+  /states/texas/houston/ x /states/florida/orlando/: 0.14%
+  /states/texas/houston/ x /states/florida/jacksonville/: 0.15%
+  /states/texas/dallas-fort-worth/ x /states/texas/austin/: 0.05%
+  /states/texas/dallas-fort-worth/ x /states/texas/san-antonio/: 0.0%
+  /states/texas/dallas-fort-worth/ x /states/florida/: 0.15%
+  /states/texas/dallas-fort-worth/ x /states/florida/miami/: 0.33%
+  /states/texas/dallas-fort-worth/ x /states/florida/tampa/: 0.52%
+  /states/texas/dallas-fort-worth/ x /states/florida/orlando/: 0.51%
+  /states/texas/dallas-fort-worth/ x /states/florida/jacksonville/: 0.44%
+  /states/texas/austin/ x /states/texas/san-antonio/: 0.07%
+  /states/texas/austin/ x /states/florida/: 0.05%
+  /states/texas/austin/ x /states/florida/miami/: 0.07%
+  /states/texas/austin/ x /states/florida/tampa/: 0.1%
+  /states/texas/austin/ x /states/florida/orlando/: 0.07%
+  /states/texas/austin/ x /states/florida/jacksonville/: 0.07%
+  /states/texas/san-antonio/ x /states/florida/: 0.06%
+  /states/texas/san-antonio/ x /states/florida/miami/: 0.07%
+  /states/texas/san-antonio/ x /states/florida/tampa/: 0.07%
+  /states/texas/san-antonio/ x /states/florida/orlando/: 0.07%
+  /states/texas/san-antonio/ x /states/florida/jacksonville/: 0.07%
+  /states/florida/ x /states/florida/miami/: 0.56%
+  /states/florida/ x /states/florida/tampa/: 0.59%
+  /states/florida/ x /states/florida/orlando/: 0.71%
+  /states/florida/ x /states/florida/jacksonville/: 0.55%
+  /states/florida/miami/ x /states/florida/tampa/: 1.22%
+  /states/florida/miami/ x /states/florida/orlando/: 1.25%
+  /states/florida/miami/ x /states/florida/jacksonville/: 1.17%
+  /states/florida/tampa/ x /states/florida/orlando/: 1.26%
+  /states/florida/tampa/ x /states/florida/jacksonville/: 1.36%
+  /states/florida/orlando/ x /states/florida/jacksonville/: 1.17%
+
+GATE  5 GREEN standalone: every metro passes gates 3 and 4 on its own evidence (its counted figures are its own geography's)
+  /states/texas/houston/, /states/texas/dallas-fort-worth/, /states/texas/austin/, /states/texas/san-antonio/, /states/florida/miami/, /states/florida/tampa/, /states/florida/orlando/, /states/florida/jacksonville/
+
+GATE  6 GREEN case standard
+  no case pages in this tranche (not applicable)
+
+GATE  7 GREEN sources: four parts, all cited; ruling 9 pattern absent from pages, sources, commits and tags; sbamandate.py zero
+
+  sources matching the pattern: []
+  commits or tags matching: 0
+
+GATE  8 GREEN subjects: no identifier from 10 private list(s) in tranche pages, sources or history (217 tokens)
+
+
+GATE  9 GREEN links: links.py --check and mesh.py --check exit 0; state and metro link both ways; inbound counts (checked at landing)
+  links.py --check: exit 0: 0 problem(s) over 173 checked pages (0 held, data/site/hold.json)
+  mesh.py --check: exit 0: 0 page(s) out of date; 0 held; 1022 term link(s) on 159 page(s)
+
+  /states/texas/: 64 inbound contextual source pages (needs 3 after landing)
+  /states/texas/houston/: 5 inbound contextual source pages (needs 3 after landing)
+  /states/texas/dallas-fort-worth/: 7 inbound contextual source pages (needs 3 after landing)
+  /states/texas/austin/: 9 inbound contextual source pages (needs 3 after landing)
+  /states/texas/san-antonio/: 5 inbound contextual source pages (needs 3 after landing)
+  /states/florida/: 52 inbound contextual source pages (needs 3 after landing)
+  /states/florida/miami/: 3 inbound contextual source pages (needs 3 after landing)
+  /states/florida/tampa/: 3 inbound contextual source pages (needs 3 after landing)
+  /states/florida/orlando/: 4 inbound contextual source pages (needs 3 after landing)
+  /states/florida/jacksonville/: 3 inbound contextual source pages (needs 3 after landing)
+
+GATE 10 GREEN clean text: no em or en dashes in any encoding; no credential after the name
+
+
+GATE 11 GREEN markers: byline, regulatory, chrome and markets --check exit 0
+  byline.py --check: exit 0: out of date: 0 page(s)
+  regulatory.py --check: exit 0: 0 page(s) out of date
+  chrome.py --check: exit 0: 0 page(s) out of date; 0 held; 173 checked; 0 problem(s)
+  markets.py --check: exit 0: 0 page(s) out of date
+
+GATE 12 GREEN dates: dateModified, visible line and sitemap lastmod agree (2026-10-18); rebuilt pages keep published
+
+
+GATE 13 RED   look
+  not run (--skip-look)
+
+GATE 14 GREEN index all: index, follow; in the sitemap with lastmod
+

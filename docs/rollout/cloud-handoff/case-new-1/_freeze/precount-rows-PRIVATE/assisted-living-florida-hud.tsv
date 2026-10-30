@@ -1,0 +1,92 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	62,313	Winter Haven population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L53	Y	
+F02	23,462,518	Florida population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L53	Y	
+F03	23.9%	Winter Haven change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L54	N	same value (and kind) printed on served page /case-studies/gas-station-alabama-sba/
+F04	50,288	Winter Haven April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L54	Y	
+F05	8.9%	Florida change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L54	N	same value (and kind) printed on served page /research-notes/sba-default-economics/
+F06	21,538,207	Florida April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L54	Y	
+F07	874,790	Polk County population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L55	Y	
+F08	20.7%	Polk County change since 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L55	N	same value (and kind) printed on served page /case-studies/qsr-arkansas-sba/
+F09	725,042	Polk County April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L136	Y	
+F10	20,396	Winter Haven households	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L56	Y	
+F11	8,752,810	Florida households	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L56	Y	
+F12	2.67	Winter Haven persons per household	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L57	Y	
+F13	2.51	Florida persons per household	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L57	N	same value (and kind) printed on served page /case-studies/gas-station-texas-sba/
+F14	$59,648	Winter Haven median household income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L58	Y	
+F15	$74,568	Florida median household income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L58	N	same value (and kind) printed on served page /case-studies/gas-station-florida-sba/
+F16	$30,632	Winter Haven per capita income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L59	Y	
+F17	$42,609	Florida per capita income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L59	N	same value (and kind) printed on served page /case-studies/gas-station-florida-sba/
+F18	19.3%	Winter Haven persons 65+	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L60	N	same value (and kind) printed on served page /asset-classes/gas-station-and-c-store/
+F19	22.8%	Florida persons 65+	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L60	N	same value (and kind) printed on served page /asset-classes/auto-service-and-collision/
+F20	40.1	Winter Haven median age	research	I77c	Census Reporter (ACS 2024 5-year, republished)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L61	Y	
+F21	42.6	Florida median age	research	I77c	Census Reporter (ACS 2024 5-year, republished)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L61	N	same value (and kind) printed on served page /case-studies/gas-station-florida-sba/
+F22	$269,800	Winter Haven median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L62	Y	
+F23	$359,000	Florida median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L62	Y	
+F24	16.4%	Winter Haven persons in poverty	research	I77c	U.S. Census Bureau QuickFacts (current table)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L63	N	same value (and kind) printed on served page /research-notes/sba-default-economics/
+F25	12.0%	Florida persons in poverty	research	I77c	U.S. Census Bureau QuickFacts (current table)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L63	N	same value (and kind) printed on served page /research-notes/hospitality-str-report/
+F26	$956,231,000	Winter Haven health care and social assistance receipts	research	I77c	U.S. Census Bureau QuickFacts 2022 Economic Census	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L64	Y	
+F27	$211,744,080,000	Florida health care and social assistance receipts	research	I77c	U.S. Census Bureau QuickFacts 2022 Economic Census	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L64	Y	
+F28	9,988,508	Florida total employment (2023)	research	I77c	U.S. Census Bureau QuickFacts 2023 employment	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L65	Y	
+F29	2,721	Winter Haven veterans	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L141	Y	
+F30	149,748	Polk County added residents 2020 to 2025 (researcher subtraction)	research	I77c	research file arithmetic	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L129	N	analyst arithmetic on two counted figures
+F31	33,000	SR 540 at Helena Rd vehicles per day (FDOT as reported)	research	I77c	AARoads citing FDOT (2023)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L42	N	secondary road-enthusiast site citing FDOT, count not primary-verified
+F32	24,500	Cypress Gardens Blvd count near LEGOLAND	research	none	LoopNet listing	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L43	N	undated listing claim
+F33	793	Licensed ALF beds, 12 facilities (sum)	research	none	AssistedList.com (AHCA-derived)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L88	N	research summary sum; AHCA data undated, retrieval date only
+F34	$3,585	Average starting price, 13 communities	research	none	AssistedList.com	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L88	N	aggregator estimate, checked Oct 2026 (fetch date)
+F35	200	Spring Haven beds	research	none	AssistedList / aggregators	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L76	N	AHCA-derived via aggregator, undated; older lists say 120
+F36	145	Meadows at Cypress Gardens beds	research	none	AssistedList	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L77	N	undated aggregator
+F37	65	Lake Howard Heights beds (license 1 Mar 2025 to 28 Feb 2027)	research	I77a	AssistedLivingMapper (AHCA license term)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L80	N	same value (and kind) printed on served page /asset-classes/restaurant/
+F38	60	Celebration Villa AL beds (license 1 Sep 2025 to 31 Aug 2027)	research	I77a	AssistedLivingMagazine (AHCA license term)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L81	N	same value (and kind) printed on served page /asset-classes/quick-service-restaurant/
+F39	40	Celebration Villa MC beds (license 9670 renewed through 31 Aug 2027)	research	I77a	AssistedLivingMagazine (AHCA license term)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L82	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F40	$4,375	Winter Haven average AL price (A Place for Mom)	research	none	A Place for Mom	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L106	N	not dated
+F41	$5,124	Winter Haven average MC price (A Place for Mom)	research	none	A Place for Mom	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L106	N	not dated
+F42	447	BayCare Winter Haven Hospital beds (2025)	research	I77c	BayCare, BayCare Hospitals statistics 2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L138	Y	
+F43	21,228	BayCare Winter Haven discharges (2025)	research	I77c	BayCare, BayCare Hospitals statistics 2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L138	Y	
+F44	72,319	BayCare Winter Haven ER visits (2025)	research	I77c	BayCare, BayCare Hospitals statistics 2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L138	Y	
+F45	2,500	BayCare Winter Haven employees	research	none	BayCare PracticeLink profile	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L138	N	secondary and undated
+F46	168	Spring Lake apartments units (site plan Sept 2025)	research	I77a	GrowthSpotter, 16 Mar 2026	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L125	Y	
+F47	264	Cypress Gardens Blvd apartment site units	research	none	LoopNet	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L126	N	listing no longer advertised, undated
+F48	$3,671.25	Water connection fee per ERU, inside city	research	I77a	City of Winter Haven, Utility Connection Fees (effective 1 Jan 2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L157	Y	
+F49	$4,587.00	Water connection fee per ERU, outside city	research	I77a	City of Winter Haven, Utility Connection Fees (effective 1 Jan 2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L157	Y	
+F50	$8,175.00	Wastewater connection fee per ERU, inside city	research	I77a	City of Winter Haven, Utility Connection Fees (effective 1 Jan 2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L158	Y	
+F51	$10,217.50	Wastewater connection fee per ERU, outside city	research	I77a	City of Winter Haven, Utility Connection Fees (effective 1 Jan 2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L158	Y	
+F52	$2.35	Commercial water/sewer tier from, per 1,000 gal inside city (effective 1 Oct 2025)	research	I77a	City of Winter Haven commercial rate schedule	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L159	Y	
+F53	$2.93	Commercial water/sewer tier from, per 1,000 gal outside city	research	I77a	City of Winter Haven commercial rate schedule	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L159	Y	
+F54	$2,114.03	Impact fee low (WFLA)	research	I77a	WFLA, 7 Jul 2025	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L160	N	two sources conflict (WFLA vs FOX 13)
+F55	18.6979	Combined millage, code 90410 (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L162	Y	
+F56	12.1079	County, school and water-management millage (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L162	Y	
+F57	6.5900	City of Winter Haven millage (FY2026-27, adopted 28 Sep 2026)	research	I77a	CitizenPortal report of 28 Sep 2026 vote	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L165	Y	
+F58	6.5567	City rollback rate FY2026-27	research	I77a	CitizenPortal report of 28 Sep 2026 vote	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L165	Y	
+F59	19.0232	Combined millage, code 92410 Lake Region (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L163	Y	
+F60	6.6348	Polk County general millage (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L164	N	same value (and kind) printed on served page /case-studies/gas-station-florida-sba/
+F61	2.2480	School local millage (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L164	N	same value (and kind) printed on served page /case-studies/gas-station-florida-sba/
+F62	3.0420	School state millage (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L164	N	same value (and kind) printed on served page /case-studies/gas-station-florida-sba/
+F63	0.1831	SWFWMD millage (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L164	Y	
+F64	0.3253	Lake Region LMD millage (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L164	Y	
+F65	$10,350	County fire assessment, institutional 30,000 to 39,999 sf (TY2025)	research	I77c	Polk County Property Appraiser, 2025 Final Millage Rates	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L166	N	applicability inside city limits not confirmed in the research
+F66	0.55	C-3 floor area ratio, parcels over 5 ac	research	I77a	City of Winter Haven Ord. O-15-18	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L153	N	2015 zoning code standard for the subject parcel class, not market evidence
+F67	$8.1B	HUD 232 FY2025 firm commitments	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L179	N	same value counted once on california-hud (this batch)
+F68	$6B	HUD 232 FY2025 closings	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L180	N	same value counted once on california-hud (this batch)
+F69	337	HUD 232 FY2025 loans	research	I77c	McKnight's Senior Living (FY2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L180	N	same value counted once on california-hud (this batch)
+F70	$7.5 billion	ORCF FY2025 firm commitments (Seniors Housing Business)	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L175	N	conflicts with the $8.1B figure; one fact, two values
+F71	$1.38 billion	Greystone HUD 232 volume FY2025	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L186	Y	
+F72	74	Greystone HUD 232 transactions FY2025	research	I77c	Seniors Housing Business (FY2025)	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L186	N	bare number with no counted unit word; not a countable figure
+F73	$3.9M	CFG Bank HUD loan, 40-bed ALF, St. Cloud (closed 28 Jul 2026)	research	I77a	Skilled Nursing News, Sept 2026	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L185	N	same value (and kind) printed on served page /case-studies/multifamily-texas-agency/
+F74	$17.0M	CFG Bank HUD refinance, 120-bed Florida SNF (closed 20 Aug 2026)	research	I77a	Skilled Nursing News, Sept 2026	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L185	N	same value (and kind) printed on served page /case-studies/hotel-texas-sba/
+F75	$850,000	Subject listing asking price	research	none	LoopNet	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L29	N	subject listing figure
+F76	5.33	Subject acreage	research	none	LoopNet	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L28	N	single-property attribute
+F77	$11,193	Subject annual property tax	research	none	Movoto MLS display	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L33	N	subject listing figure
+F78	75%	HUD 232 max LTV	research	none	ADROC Capital	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L184	N	HUD program rule value
+F79	0.25%	HUD multifamily MIP	research	I77a	HUD FR-6522-N-02, 90 FR 45789	CS-R-ASSISTED-LIVING-FLORIDA-HUD:L183	N	HUD program rule value
+F80	20	Polk County assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[co-12105][assisted-living-and-memory-care]	Y	
+F81	618	Polk County assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[co-12105][assisted-living-and-memory-care]	Y	
+F82	0.24	Polk County assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[co-12105][assisted-living-and-memory-care]	N	same value printed on served page /case-studies/self-storage-indiana-sba/
+F83	1,417	Florida assisted living establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[fl][assisted-living-and-memory-care]	Y	
+F84	35,181	Florida assisted living employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[fl][assisted-living-and-memory-care]	Y	
+F85	0.63	Florida assisted living establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[fl][assisted-living-and-memory-care]	Y	
+F86	154,193	Polk County population 65+ (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_pop65.json values[co-12105]	Y	
+F87	$65,978	Polk County median household income (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_hh_income.json values[co-12105]	Y	
+F88	$266,500	Polk County median home value (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_home_value.json values[co-12105]	Y	
+F89	$46,274	Polk County BEA per capita income (calendar year 2024)	register	I77c	register: bea_cainc1_api	data/markets/series/bea_per_capita_income.json values[co-12105]	Y	
+F90	1,363	Polk County median gross rent (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_gross_rent.json values[co-12105]	Y	
+#SUMMARY assisted-living-florida-hud counted=46 research=36 register=10 verdict=PAGE engine=N notes=Census, fee and millage rows carry it; fetch-dated competitor data, subject, rule rows excluded

@@ -1,0 +1,72 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+RTNV-01	26,214	Fernley city population V2025	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L55	Y	
+RTNV-02	3,282,188	Nevada population V2025	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L55	N	same value already printed on a served page (served: states/nevada/index.html)
+RTNV-03	22,898	Fernley population base Apr 2020	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L56	Y	
+RTNV-04	3,105,593	Nevada population base Apr 2020	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L56	Y	
+RTNV-05	+14.5%	Fernley population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L57	Y	
+RTNV-06	+5.7%	Nevada population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L57	Y	
+RTNV-07	8,789	Fernley households	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L58	Y	
+RTNV-08	1,202,593	Nevada households	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L58	Y	
+RTNV-09	2.76 persons	Fernley persons per household	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L59	Y	
+RTNV-10	2.62 persons	Nevada persons per household	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L59	Y	
+RTNV-11	$89,517	Fernley median household income	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L60	Y	
+RTNV-12	$78,260	Nevada median household income	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L60	N	same value already printed on a served page (served: states/nevada/index.html)
+RTNV-13	$37,038	Fernley per capita income	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L61	Y	
+RTNV-14	$41,354	Nevada per capita income	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L61	Y	
+RTNV-15	15.1%	Fernley persons 65 and over	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L62	Y	
+RTNV-16	18.3%	Nevada persons 65 and over	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L62	Y	
+RTNV-17	23.6%	Fernley persons under 18	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L63	Y	
+RTNV-18	20.7%	Nevada persons under 18	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L63	Y	
+RTNV-19	72.0%	Fernley owner-occupied rate	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L64	Y	
+RTNV-20	60.0%	Nevada owner-occupied rate	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L64	Y	
+RTNV-21	27.9 min	Fernley mean travel time to work	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L65	Y	
+RTNV-22	24.8 min	Nevada mean travel time to work	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L65	Y	
+RTNV-23	$816,033,000	Fernley total retail sales 2022	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L66	Y	
+RTNV-24	$70,103,046,000	Nevada total retail sales 2022	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L66	Y	
+RTNV-25	$33,616	Fernley retail sales per capita 2022	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L67	Y	
+RTNV-26	$22,063	Nevada retail sales per capita 2022	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L67	Y	
+RTNV-27	$45,326,000	Fernley accommodation and food services sales 2022	research	I77c	U.S. Census Bureau QuickFacts	nv-research:L125	Y	
+RTNV-28	26,006	Fernley certified population 1 Jul 2025	research	I77c	Nevada Real Estate Group blog citing NV Dept. of Taxation certified estimates	nv-research:L73	Y	
+RTNV-29	66,154	Lyon County certified population 1 Jul 2025	research	I77c	Nevada Real Estate Group blog citing NV Dept. of Taxation certified estimates	nv-research:L73	N	same value already printed on a served page (served: states/nevada/index.html)
+RTNV-30	37.8	Fernley 5-mile median age 2025 est.	research	none	Colliers Reno flyer	nv-research:L68	N	broker flyer with year label only, no periodic document
+RTNV-31	19,613	Fernley 5-mile daytime population 2025 est.	research	none	Colliers Reno flyer	nv-research:L69	N	broker flyer with year label only
+RTNV-32	26,007 / 9,527	Fernley 5-mile population and households 2025 est.	research	none	Colliers Reno flyer	nv-research:L70	N	broker flyer with year label only
+RTNV-33	$84,180	Fernley 5-mile median household income	research	none	Colliers Reno flyer	nv-research:L71	N	broker flyer with year label only
+RTNV-34	$28,661	Fernley 5-mile retail expenditure per household	research	none	Colliers Reno flyer	nv-research:L72	N	broker flyer with year label only
+RTNV-35	+/-22,000 cars per day	I-80 traffic near the site	research	none	Kidder Mathews flyer via LoopNet	nv-research:L44	N	flyer dated 5.15.23 but no station or count year
+RTNV-36	23,634 ADT	US-95A / E Newlands map labels	research	none	Colliers Reno flyer	nv-research:L45	N	no station or year
+RTNV-37	3.6579 per $100	Fernley District 6.0 combined ad valorem rate FY2025/26	research	I77c	Lyon County Treasurer tax account (FY2025/26)	nv-research:L135	Y	
+RTNV-38	3.6566 per $100	District 6.0 rate FY2024/25	research	I77c	Lyon County Treasurer tax accounts	nv-research:L136	Y	
+RTNV-39	3.6551 per $100	District 6.0 rate FY2023/24	research	I77c	Lyon County Treasurer tax accounts	nv-research:L136	Y	
+RTNV-40	3.6127 per $100	District 6.0 rate FY2022/23	research	I77c	Lyon County Treasurer tax accounts	nv-research:L136	Y	
+RTNV-41	8.0%	Nevada commercial tax cap on Fernley account	research	I77c	Lyon County Treasurer	nv-research:L139	N	statutory cap rule value
+RTNV-42	35%	assessment ratio on subject parcel	research	none	Lyon County Assessor	nv-research:L138	N	derived from the subject parcel assessment
+RTNV-43	7.100%	Lyon County sales and use tax rate (rates effective 01/01/20)	research	I77a	Nevada Department of Taxation, ADM-T047 County Map	nv-research:L142	Y	
+RTNV-44	$12,734,807	Walmart parcel 021-232-69 taxable value 2026 roll	research	I77c	Lyon County Assessor parcel record (2026 roll)	nv-research:L81	Y	
+RTNV-45	$4,457,182	Walmart parcel net assessed value 2026 roll	research	I77c	Lyon County Assessor parcel record (2026 roll)	nv-research:L81	Y	
+RTNV-46	$4,565,535	Walmart parcel net assessed value prior roll	research	I77c	Lyon County Assessor parcel record (2025 roll)	nv-research:L81	Y	
+RTNV-47	$13,404.23	Lowe's personal property tax 2025/26	research	I77c	Lyon County Treasurer account FE003251	nv-research:L82	Y	
+RTNV-48	$14,082.07	Lowe's personal property tax 2026/27	research	I77c	Lyon County Treasurer account FE003251	nv-research:L82	Y	
+RTNV-49	$2,083,584	Fernley Village Marketplace parcel 020-334-04 taxable value 2026	research	I77c	Lyon County Assessor parcel record (2026 roll)	nv-research:L83	Y	
+RTNV-50	$30,204,453	Daehan Solution real property taxable value 2025 roll	research	I77c	Lyon County Assessor parcel record (2025 roll)	nv-research:L120	Y	
+RTNV-51	$359,993.82	Daehan Solution real estate tax FY2025/26	research	I77c	Lyon County Treasurer	nv-research:L120	Y	
+RTNV-52	3 junior anchors, 16,000 SF	Fernley Promenade program (subject project)	research	I77a	LRE & Companies via PR Newswire	nv-research:L101	N	subject project attribute from developer release
+RTNV-53	98 rooms	Promenade hotel per 2023 release	research	I77a	PR Newswire	nv-research:L100	N	superseded by the city 91 room figure
+RTNV-54	91 rooms	Home2 Suites, Stanley Dr (final parcel map approved Dec 2025)	research	I77a	City of Fernley Community Development Monthly Reports (Dec 2025, Feb 2026)	nv-research:L100	Y	
+RTNV-55	12,194 SF	Lucky Strike Casino CUP25002 (council 17 Dec 2025)	research	I77a	City of Fernley Community Development Monthly Report (Dec 2025)	nv-research:L102	Y	
+RTNV-56	2,600 SF	Panda Express drive-thru (Dec 2024)	research	I77a	City of Fernley Community Development Monthly Report (Dec 2024)	nv-research:L103	Y	
+RTNV-57	7,000 SF	Silver Square Plaza Building 1 convenience store (Dec 2024)	research	I77a	City of Fernley Community Development Monthly Report (Dec 2024)	nv-research:L104	Y	
+RTNV-58	3,000 SF	Silver Square Plaza restaurant space (Dec 2024)	research	I77a	City of Fernley Community Development Monthly Report (Dec 2024)	nv-research:L104	Y	
+RTNV-59	4,300-acre	Victory Logistics District master plan (8 Mar 2023)	research	I77a	Nevada Appeal / NNBW (8 Mar 2023)	nv-research:L118	Y	
+RTNV-60	2,173 acres	Victory Logistics development agreement request (Aug 2024)	research	I77a	City of Fernley Community Development Monthly Report (Aug 2024)	nv-research:L119	Y	
+RTNV-61	88,820 SF	Fernley Village Marketplace GLA	research	none	Colliers Reno flyer	nv-research:L83	N	Colliers flyer dated "2026" only
+RTNV-62	$1.50 PSF NNN	Fernley Village Marketplace asking rent	research	none	Colliers Reno flyer	nv-research:L83	N	flyer dated "2026" only; rent dated by researcher fetch (Oct 2026)
+RTNV-63	$21,584,000	deed transfer 3 Jun 2022, 3130 Fairview LLC	research	none	Lyon County Assessor	nv-research:L83	N	research says it may cover several parcels, unconfirmed
+RTNV-64	34,803 parcels	Lyon County parcel base Jun 2025	research	I77a	Lyon County Assessor home page	nv-research:L126	N	administrative count, not a retail market figure
+RTNV-65	$6,708,240	subject asking price 9.26 acres	research	none	CityFeet	nv-research:L31	N	subject listing figure
+RTNV-66	$820,505	subject net assessed value 2026	research	none	Lyon County Assessor	nv-research:L38	N	subject attribute
+RTNV-67	$2,619,480	subject last transfer 13 Dec 2021	research	none	Lyon County Assessor	nv-research:L39	N	subject attribute
+RTNV-68	$1,800,000 / $650,000	subject chain of title 2010 and 2015	research	none	Lyon County Assessor	nv-research:L157	N	subject attribute
+RTNV-69	$5,622.24 / $9,176.64	historical Fernley water ancillary fee and bond assessments	research	I77c	Lyon County Treasurer	nv-research:L145	N	2016-2021 special assessments on one parcel, historical
+RTNV-70	50% abatement	Daehan economic abatement NRS 361.0687	research	none	Lyon County Assessor	nv-research:L162	N	program rule value
+#SUMMARY retail-nevada-conventional counted=46 research=46 register=0 verdict=PAGE engine=Y notes=Nevada state and Lyon County figures already served; flyer data undated; Census, tax roll, CDR items count

@@ -1,0 +1,421 @@
+{
+  "lane": "geo-4",
+  "requests": [
+    {
+      "id": "geo-4-1",
+      "kind": "folded",
+      "url": "/states/california/central-valley/",
+      "target": "/states/california/#central-valley"
+    },
+    {
+      "id": "geo-4-2",
+      "kind": "folded",
+      "url": "/states/california/inland-empire/",
+      "target": "/states/california/#inland-empire"
+    },
+    {
+      "id": "geo-4-3",
+      "kind": "folded",
+      "url": "/states/california/los-angeles/",
+      "target": "/states/california/#los-angeles"
+    },
+    {
+      "id": "geo-4-4",
+      "kind": "folded",
+      "url": "/states/california/orange-county/",
+      "target": "/states/california/#orange-county"
+    },
+    {
+      "id": "geo-4-5",
+      "kind": "folded",
+      "url": "/states/california/san-diego/",
+      "target": "/states/california/#san-diego"
+    },
+    {
+      "id": "geo-4-6",
+      "kind": "folded",
+      "url": "/states/california/san-francisco/",
+      "target": "/states/california/#san-francisco"
+    },
+    {
+      "id": "geo-4-7",
+      "kind": "folded",
+      "url": "/states/california/silicon-valley/",
+      "target": "/states/california/#silicon-valley"
+    },
+    {
+      "id": "geo-4-8",
+      "kind": "chrome_link",
+      "mega": "markets",
+      "col": "metros",
+      "label": "Sacramento",
+      "href": "/states/california/sacramento/",
+      "fallback": "/states/california/#metros"
+    },
+    {
+      "id": "geo-4-9",
+      "kind": "folded",
+      "url": "/states/washington/bellevue/",
+      "target": "/states/washington/#bellevue"
+    },
+    {
+      "id": "geo-4-10",
+      "kind": "folded",
+      "url": "/states/washington/columbia-basin/",
+      "target": "/states/washington/#columbia-basin"
+    },
+    {
+      "id": "geo-4-11",
+      "kind": "folded",
+      "url": "/states/washington/everett/",
+      "target": "/states/washington/#everett"
+    },
+    {
+      "id": "geo-4-12",
+      "kind": "folded",
+      "url": "/states/washington/tri-cities/",
+      "target": "/states/washington/#tri-cities"
+    },
+    {
+      "id": "geo-4-13",
+      "kind": "folded",
+      "url": "/states/washington/vancouver/",
+      "target": "/states/washington/#vancouver"
+    },
+    {
+      "id": "geo-4-14",
+      "kind": "folded",
+      "url": "/states/washington/yakima/",
+      "target": "/states/washington/#yakima"
+    },
+    {
+      "id": "geo-4-15",
+      "kind": "chrome_link",
+      "mega": "markets",
+      "col": "metros",
+      "label": "Seattle",
+      "href": "/states/washington/seattle/",
+      "fallback": "/states/washington/#metros"
+    },
+    {
+      "id": "geo-4-16",
+      "kind": "chrome_link",
+      "mega": "markets",
+      "col": "metros",
+      "label": "Spokane",
+      "href": "/states/washington/spokane/",
+      "fallback": "/states/washington/#metros"
+    },
+    {
+      "id": "geo-4-17",
+      "kind": "folded",
+      "url": "/states/arizona/flagstaff/",
+      "target": "/states/arizona/#flagstaff"
+    },
+    {
+      "id": "geo-4-18",
+      "kind": "folded",
+      "url": "/states/arizona/phoenix/",
+      "target": "/states/arizona/#phoenix"
+    },
+    {
+      "id": "geo-4-19",
+      "kind": "folded",
+      "url": "/states/arizona/pinal-county/",
+      "target": "/states/arizona/#pinal-county"
+    },
+    {
+      "id": "geo-4-20",
+      "kind": "folded",
+      "url": "/states/arizona/prescott/",
+      "target": "/states/arizona/#prescott"
+    },
+    {
+      "id": "geo-4-21",
+      "kind": "folded",
+      "url": "/states/arizona/rural/",
+      "target": "/states/arizona/#rural"
+    },
+    {
+      "id": "geo-4-22",
+      "kind": "folded",
+      "url": "/states/arizona/scottsdale/",
+      "target": "/states/arizona/#scottsdale"
+    },
+    {
+      "id": "geo-4-23",
+      "kind": "folded",
+      "url": "/states/arizona/tucson/",
+      "target": "/states/arizona/#tucson"
+    },
+    {
+      "id": "geo-4-24",
+      "kind": "folded",
+      "url": "/states/arizona/yuma/",
+      "target": "/states/arizona/#yuma"
+    },
+    {
+      "id": "geo-4-25",
+      "kind": "folded",
+      "url": "/states/oregon/bend/",
+      "target": "/states/oregon/#bend"
+    },
+    {
+      "id": "geo-4-26",
+      "kind": "folded",
+      "url": "/states/oregon/eastern-oregon/",
+      "target": "/states/oregon/#eastern-oregon"
+    },
+    {
+      "id": "geo-4-27",
+      "kind": "folded",
+      "url": "/states/oregon/eugene/",
+      "target": "/states/oregon/#eugene"
+    },
+    {
+      "id": "geo-4-28",
+      "kind": "folded",
+      "url": "/states/oregon/hillsboro/",
+      "target": "/states/oregon/#hillsboro"
+    },
+    {
+      "id": "geo-4-29",
+      "kind": "folded",
+      "url": "/states/oregon/oregon-coast/",
+      "target": "/states/oregon/#oregon-coast"
+    },
+    {
+      "id": "geo-4-30",
+      "kind": "folded",
+      "url": "/states/oregon/portland/",
+      "target": "/states/oregon/#portland"
+    },
+    {
+      "id": "geo-4-31",
+      "kind": "folded",
+      "url": "/states/oregon/prineville/",
+      "target": "/states/oregon/#prineville"
+    },
+    {
+      "id": "geo-4-32",
+      "kind": "folded",
+      "url": "/states/oregon/salem/",
+      "target": "/states/oregon/#salem"
+    },
+    {
+      "id": "geo-4-33",
+      "kind": "folded",
+      "url": "/states/utah/logan/",
+      "target": "/states/utah/#logan"
+    },
+    {
+      "id": "geo-4-34",
+      "kind": "folded",
+      "url": "/states/utah/moab/",
+      "target": "/states/utah/#moab"
+    },
+    {
+      "id": "geo-4-35",
+      "kind": "folded",
+      "url": "/states/utah/ogden/",
+      "target": "/states/utah/#ogden"
+    },
+    {
+      "id": "geo-4-36",
+      "kind": "folded",
+      "url": "/states/utah/park-city/",
+      "target": "/states/utah/#park-city"
+    },
+    {
+      "id": "geo-4-37",
+      "kind": "folded",
+      "url": "/states/utah/provo-orem/",
+      "target": "/states/utah/#provo-orem"
+    },
+    {
+      "id": "geo-4-38",
+      "kind": "folded",
+      "url": "/states/utah/salt-lake-city/",
+      "target": "/states/utah/#salt-lake-city"
+    },
+    {
+      "id": "geo-4-39",
+      "kind": "folded",
+      "url": "/states/utah/st-george/",
+      "target": "/states/utah/#st-george"
+    },
+    {
+      "id": "geo-4-40",
+      "kind": "folded",
+      "url": "/states/utah/uinta-basin/",
+      "target": "/states/utah/#uinta-basin"
+    },
+    {
+      "id": "geo-4-41",
+      "kind": "folded",
+      "url": "/states/nevada/carson-city/",
+      "target": "/states/nevada/#carson-city"
+    },
+    {
+      "id": "geo-4-42",
+      "kind": "folded",
+      "url": "/states/nevada/elko/",
+      "target": "/states/nevada/#elko"
+    },
+    {
+      "id": "geo-4-43",
+      "kind": "folded",
+      "url": "/states/nevada/fernley/",
+      "target": "/states/nevada/#fernley"
+    },
+    {
+      "id": "geo-4-44",
+      "kind": "folded",
+      "url": "/states/nevada/lake-tahoe/",
+      "target": "/states/nevada/#lake-tahoe"
+    },
+    {
+      "id": "geo-4-45",
+      "kind": "folded",
+      "url": "/states/nevada/laughlin/",
+      "target": "/states/nevada/#laughlin"
+    },
+    {
+      "id": "geo-4-46",
+      "kind": "folded",
+      "url": "/states/nevada/reno/",
+      "target": "/states/nevada/#reno"
+    },
+    {
+      "id": "geo-4-47",
+      "kind": "folded",
+      "url": "/states/nevada/winnemucca/",
+      "target": "/states/nevada/#winnemucca"
+    },
+    {
+      "id": "geo-4-48",
+      "kind": "chrome_link",
+      "mega": "markets",
+      "col": "metros",
+      "label": "Las Vegas",
+      "href": "/states/nevada/las-vegas/",
+      "fallback": "/states/nevada/#metros"
+    },
+    {
+      "id": "geo-4-49",
+      "kind": "folded",
+      "url": "/states/new-mexico/albuquerque/",
+      "target": "/states/new-mexico/#albuquerque"
+    },
+    {
+      "id": "geo-4-50",
+      "kind": "folded",
+      "url": "/states/new-mexico/farmington/",
+      "target": "/states/new-mexico/#farmington"
+    },
+    {
+      "id": "geo-4-51",
+      "kind": "folded",
+      "url": "/states/new-mexico/las-cruces/",
+      "target": "/states/new-mexico/#las-cruces"
+    },
+    {
+      "id": "geo-4-52",
+      "kind": "folded",
+      "url": "/states/new-mexico/los-alamos/",
+      "target": "/states/new-mexico/#los-alamos"
+    },
+    {
+      "id": "geo-4-53",
+      "kind": "folded",
+      "url": "/states/new-mexico/permian-basin/",
+      "target": "/states/new-mexico/#permian-basin"
+    },
+    {
+      "id": "geo-4-54",
+      "kind": "folded",
+      "url": "/states/new-mexico/rio-rancho/",
+      "target": "/states/new-mexico/#rio-rancho"
+    },
+    {
+      "id": "geo-4-55",
+      "kind": "folded",
+      "url": "/states/new-mexico/santa-fe/",
+      "target": "/states/new-mexico/#santa-fe"
+    },
+    {
+      "id": "geo-4-56",
+      "kind": "folded",
+      "url": "/states/new-mexico/truth-or-consequences/",
+      "target": "/states/new-mexico/#truth-or-consequences"
+    },
+    {
+      "id": "geo-4-57",
+      "kind": "index_entry",
+      "index": "/states/",
+      "url": "/states/idaho/",
+      "label": "Idaho",
+      "line": "Groundwater rights curtailed by priority date, a tighter homeowners insurance market and the Treasure Valley's two-county record."
+    },
+    {
+      "id": "geo-4-58",
+      "kind": "promised",
+      "urls": [
+        "/states/idaho/treasure-valley/"
+      ]
+    },
+    {
+      "id": "geo-4-59",
+      "kind": "chrome_link",
+      "mega": "markets",
+      "col": "metros",
+      "label": "Treasure Valley",
+      "href": "/states/idaho/treasure-valley/",
+      "fallback": "/states/idaho/#metros"
+    },
+    {
+      "id": "geo-4-60",
+      "kind": "folded",
+      "url": "/states/hawaii/hawaii-island/",
+      "target": "/states/hawaii/#hawaii-island"
+    },
+    {
+      "id": "geo-4-61",
+      "kind": "folded",
+      "url": "/states/hawaii/kapolei/",
+      "target": "/states/hawaii/#kapolei"
+    },
+    {
+      "id": "geo-4-62",
+      "kind": "folded",
+      "url": "/states/hawaii/kauai/",
+      "target": "/states/hawaii/#kauai"
+    },
+    {
+      "id": "geo-4-63",
+      "kind": "folded",
+      "url": "/states/hawaii/lahaina/",
+      "target": "/states/hawaii/#lahaina"
+    },
+    {
+      "id": "geo-4-64",
+      "kind": "folded",
+      "url": "/states/hawaii/maui/",
+      "target": "/states/hawaii/#maui"
+    },
+    {
+      "id": "geo-4-65",
+      "kind": "folded",
+      "url": "/states/hawaii/oahu/",
+      "target": "/states/hawaii/#oahu"
+    },
+    {
+      "id": "geo-4-66",
+      "kind": "index_entry",
+      "index": "/states/",
+      "url": "/states/montana/",
+      "label": "Montana",
+      "line": "A graded commercial property tax, county answers to data center proposals and seven markets read on county counts, payrolls and local rules."
+    }
+  ]
+}

@@ -36,6 +36,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CASES = os.path.join(ROOT, "data", "cases")
 SBA_FILE = os.path.join(ROOT, "data", "regulatory", "sba.json")
 CARDS = os.path.join(ROOT, "src", "case-cards.json")
+CARD_DIR = os.path.join(ROOT, "src", "case-cards")
 RETURNS = os.path.join(ROOT, "data", "returns")
 INDEX = os.path.join(ROOT, "case-studies", "index.html")
 REGION = re.compile(r"<!--case:([a-z0-9-]+)\.([a-z0-9_.]+)-->(.*?)<!--/case:\1\.\2-->", re.S)
@@ -1074,11 +1075,37 @@ def process(case, check):
     return problems, changed
 
 
-def process_index(cases, check):
-    """Fill the factory cases' card regions on /case-studies/ from src/case-cards.json."""
+def load_cards():
+    """Card templates: src/case-cards.json plus one src/case-cards/<slug>.json per case (FACTORY-2).
+
+    A per-case file is {"slug": "<slug>", "card": "<template>", ...}; its other keys (category, asset,
+    title) are for the /case-studies/ index entry and are read by scripts/indexes.py, not here."""
     cards = {k: v for k, v in json.load(open(CARDS, encoding="utf-8")).items() if not k.startswith("_")}
+    problems = []
+    if os.path.isdir(CARD_DIR):
+        for fn in sorted(os.listdir(CARD_DIR)):
+            if not fn.endswith(".json"):
+                continue
+            slug = fn[:-5]
+            spec = json.load(open(os.path.join(CARD_DIR, fn), encoding="utf-8"))
+            if spec.get("slug", slug) != slug:
+                problems.append(f"src/case-cards/{fn}: slug {spec.get('slug')} does not match the file name")
+                continue
+            if not isinstance(spec.get("card"), str) or not spec["card"].strip():
+                problems.append(f"src/case-cards/{fn}: no card template")
+                continue
+            if slug in cards:
+                problems.append(f"src/case-cards/{fn}: {slug} also has a template in src/case-cards.json")
+                continue
+            cards[slug] = spec["card"]
+    return cards, problems
+
+
+def process_index(cases, check):
+    """Fill the factory cases' card regions on /case-studies/ from the card templates (load_cards)."""
+    cards, problems = load_cards()
     text = open(INDEX, encoding="utf-8").read()
-    problems, changed = [], False
+    changed = False
     for slug, tmpl in cards.items():
         case = cases.get(slug)
         if case is None:

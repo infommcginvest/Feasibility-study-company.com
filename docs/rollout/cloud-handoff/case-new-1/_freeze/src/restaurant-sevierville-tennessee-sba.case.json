@@ -1,0 +1,417 @@
+{
+  "slug": "restaurant-sevierville-tennessee-sba",
+  "page": "/case-studies/restaurant-sevierville-tennessee-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 22,
+    "fees": 23,
+    "prime": 24
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "restaurant",
+    "count": 1
+  },
+  "inputs": {
+    "land_acres": {
+      "value": 1.5,
+      "fmt": "n2",
+      "label": "Land area, acres (hypothetical pad on the Winfield Dunn Parkway corridor)",
+      "assumption": "About 1.5 acres, a round figure for a freestanding full-service restaurant with a parking field sized for a tourist corridor, a drive aisle for deliveries and room for stormwater. It is not any listed parcel's acreage."
+    },
+    "land_per_acre": {
+      "value": 550000,
+      "fmt": "$",
+      "label": "Land cost per acre",
+      "assumption": "A round planning figure. The research holds no closed sale of a small corridor pad that it can date, and the asking prices it found for corridor parcels are not sales. A pad on a divided highway near a major interchange prices above land set back from the road, so the study carries a round figure for a visible corner. An appraisal and an executed land contract replace it, and the sensitivity tables do not move it."
+    },
+    "bldg_sf": {
+      "value": 5500,
+      "fmt": "n",
+      "label": "Restaurant building, square feet",
+      "assumption": "A freestanding full-service restaurant of about 5,500 square feet: a dining room, a bar, a kitchen and a covered entry, sized for about 150 seats. No competitor in the research publishes its building size or seat count, so this is a planning size."
+    },
+    "bldg_psf": {
+      "value": 350,
+      "fmt": "$",
+      "label": "Building hard cost per square foot",
+      "assumption": "A planning figure for a commercial kitchen shell with a finished dining room. The research holds no construction cost index or bid for Sevierville, and no Knoxville-area cost comparison against the national level, so a contractor's bid replaces it. It is the largest single cost in the budget."
+    },
+    "sitework": {
+      "value": 380000,
+      "fmt": "$",
+      "label": "Site work, paving, utility taps, lighting and signage",
+      "assumption": "An allowance for grading, a parking field, utility connections, a grease interceptor, lighting and a pylon sign. The city's water and sewer fee schedule and the serving electric provider were not found in the research, so the allowance is a placeholder until a civil engineer prices the parcel."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "Five percent of building and site work, a conventional cushion for a ground-up build."
+    },
+    "soft": {
+      "value": 240000,
+      "fmt": "$",
+      "label": "Design, survey, Phase I, permits, legal and impact fees",
+      "assumption": "An allowance for architecture, engineering, a survey, a Phase I environmental assessment, building and health permits, legal work and utility impact fees. The research found no impact fee or tap fee schedule for the city, so the allowance is not tied to a published fee."
+    },
+    "kitchen": {
+      "value": 480000,
+      "fmt": "$",
+      "label": "Kitchen and bar equipment",
+      "assumption": "A planning allowance for hoods, ranges, walk-in cooler and freezer, dish machine, bar equipment and smallwares. No equipment quote is in the research."
+    },
+    "ffe": {
+      "value": 240000,
+      "fmt": "$",
+      "label": "Furniture, fixtures, point-of-sale and signage",
+      "assumption": "Dining room seating, decor, point-of-sale terminals, a reservation system and interior signage for a restaurant of this size. A placeholder until a design package is priced."
+    },
+    "preopen": {
+      "value": 170000,
+      "fmt": "$",
+      "label": "Pre-opening: licences, hiring, training and launch",
+      "assumption": "Food service, beer and liquor-by-the-drink licences, hiring and training the full staff before the first guest, a soft opening and launch marketing. The licence list and fees were not found in the research, so they are lender conditions and this is an allowance."
+    },
+    "working_capital": {
+      "value": 280000,
+      "fmt": "$",
+      "label": "Working capital and off-season reserve",
+      "assumption": "About five weeks of Year 2 operating cost and cost of sales, sized for the slow months. Great Smoky Mountains National Park visits in January 2025 were less than half of April's [^8], and a corridor restaurant feels the same swing, so the reserve carries payroll through the winter trough without a credit line."
+    },
+    "guests": {
+      "value": [
+        88000,
+        108000,
+        118000,
+        120000,
+        122000
+      ],
+      "fmt": "n",
+      "label": "Guests served",
+      "assumption": "About 330 guests a day on average in Year 3 for a restaurant of about 150 seats, which is a little over two turns of the room on an average day, with far busier days in the peak months and lighter ones in winter. The ramp opens at about three quarters of that level in Year 1. The demand case is visitor spending in the county [^6] and a national park that drew heavy traffic even in January [^8], but the research holds no restaurant sales, covers or seat counts for any competitor, so the volume is a planning assumption, not a market share."
+    },
+    "food_check": {
+      "value": 23.5,
+      "fmt": "$2",
+      "label": "Food sales per guest, Year 1",
+      "assumption": "A blend of lunch plates, family dinners and a few entrees at a higher price, as an independent table-service restaurant would sell. Operator menus on the corridor show a wide price range between a breakfast diner and an upscale downtown dining room [^10,12], and the blend sits in the middle. Menu prices on those pages carry only the date they were read, so they set the reasoning here and are not printed."
+    },
+    "bev_check": {
+      "value": 4.5,
+      "fmt": "$2",
+      "label": "Beverage and bar sales per guest, Year 1",
+      "assumption": "Soft drinks, tea, beer and wine averaged over every guest, including those who order only water. Liquor-by-the-drink is not assumed; whether the parcel can hold a licence is a lender condition."
+    },
+    "check_growth": {
+      "value": 0.025,
+      "fmt": "%",
+      "label": "Annual menu price growth",
+      "assumption": "A modest pass-through of cost increases. It is a placeholder; no Tennessee restaurant price or cost index was found in the research."
+    },
+    "food_cost": {
+      "value": 0.31,
+      "fmt": "%",
+      "label": "Food cost, share of food sales",
+      "assumption": "A little under a third of food sales for a menu of regional American dishes. The research holds no restaurant cost benchmark for Tennessee or the nation, so the first-year purchasing records and a menu costing replace this figure."
+    },
+    "bev_cost": {
+      "value": 0.26,
+      "fmt": "%",
+      "label": "Beverage cost, share of beverage sales",
+      "assumption": "A blend of fountain drinks, which cost little, and beer and wine, which cost more. Replaced by supplier quotes before opening."
+    },
+    "labor_hours": {
+      "value": 64000,
+      "fmt": "n",
+      "label": "Paid hourly hours per year",
+      "assumption": "Cooks, dishwashers, servers, bussers, hosts and a bartender across lunch and dinner service seven days a week, about 175 paid hours on an average day. The model does not add hours for the peak season, which is a reason the labor line is a floor, not a ceiling."
+    },
+    "wage": {
+      "value": 15,
+      "fmt": "$2",
+      "label": "Average hourly wage, Year 1",
+      "assumption": "A blended rate across kitchen staff and tipped front-of-house staff. No Tennessee restaurant wage survey was found in the research, so the figure is a placeholder that a local survey replaces."
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual wage and cost growth",
+      "assumption": "A little above menu price growth, so costs grow slightly faster than prices. It is a placeholder, not a forecast."
+    },
+    "burden": {
+      "value": 0.11,
+      "fmt": "%",
+      "label": "Payroll taxes and workers' compensation",
+      "assumption": "Employer payroll taxes and workers' compensation on hourly wages; no health plan is assumed for hourly staff."
+    },
+    "manager": {
+      "value": 235000,
+      "fmt": "$",
+      "label": "General manager, kitchen manager and assistant manager salaries",
+      "assumption": "Three salaried managers, charged at a market rate even if the owner works in the restaurant, so net income is not flattered by unpaid owner labor. Payroll taxes are added in the opex line."
+    },
+    "card_fee": {
+      "value": 0.027,
+      "fmt": "%",
+      "label": "Card processing, share of sales",
+      "assumption": "Most dining checks are paid by card. A placeholder until a processor quotes."
+    },
+    "marketing_pct": {
+      "value": 0.02,
+      "fmt": "%",
+      "label": "Marketing and visitor-guide listings, share of sales",
+      "assumption": "A restaurant on a tourist corridor depends on discovery by visitors who have never been to it, so the model spends a little more than a local restaurant would on signage, online listings and visitor-guide placement. A placeholder."
+    },
+    "other_opex": {
+      "value": 235000,
+      "fmt": "$",
+      "label": "Utilities, insurance, repairs, supplies, licences and other",
+      "assumption": "Electricity and gas for a commercial kitchen, water and sewer, property and liability insurance including flood and wind where the parcel needs them, repairs, linen, pest control, waste, music licensing, software, accounting and permits. Insurance conditions for wind and wildfire were not found in the research, so the allowance is a placeholder. It grows with the cost index."
+    },
+    "tax_rate": {
+      "value": 0.005,
+      "fmt": "%2",
+      "label": "Property tax, share of land, building and site cost",
+      "assumption": "A planning level of one half of one percent of land, building and site cost. The county set a lower rate for 2026 after its reappraisal [^9], but the assessment ratio, the appraisal and whether the parcel lies inside the city were not found, so the actual bill is a lender condition."
+    },
+    "reserve_pct": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Replacement reserve, share of equipment and fixture cost per year",
+      "assumption": "Funds replacement of kitchen equipment, smallwares and dining room furnishings over their useful lives."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        21
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 1.5 acres on the Winfield Dunn Parkway corridor",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x assumed price per acre"
+    },
+    {
+      "key": "building",
+      "label": "Restaurant building, 5,500 sq ft",
+      "expr": "bldg_sf * bldg_psf",
+      "class": "real_estate",
+      "basis": "sq ft x assumed hard cost"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, paving, utility taps and signage",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "5% of building and site work"
+    },
+    {
+      "key": "soft",
+      "label": "Design, survey, Phase I, permits and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "kitchen",
+      "label": "Kitchen and bar equipment",
+      "expr": "kitchen",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "ffe",
+      "label": "Furniture, fixtures and point-of-sale",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "preopen",
+      "label": "Pre-opening, licences and training",
+      "expr": "preopen",
+      "class": "working_capital",
+      "basis": "allowance"
+    },
+    {
+      "key": "working_capital",
+      "label": "Working capital and off-season reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "about five weeks of Year 2 operating cost and cost of sales"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "food",
+      "label": "Food sales",
+      "expr": "guests * food_check * (1 + check_growth) ** y",
+      "basis": "guests x food check, with price growth"
+    },
+    {
+      "key": "beverage",
+      "label": "Beverage sales",
+      "expr": "guests * bev_check * (1 + check_growth) ** y",
+      "basis": "guests x beverage check, with price growth"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "food_cost",
+      "label": "Food cost",
+      "expr": "rev_food * food_cost",
+      "basis": "share of food sales"
+    },
+    {
+      "key": "bev_cost",
+      "label": "Beverage cost",
+      "expr": "rev_beverage * bev_cost",
+      "basis": "share of beverage sales"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Hourly payroll with taxes",
+      "expr": "labor_hours * wage * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "hours x wage"
+    },
+    {
+      "key": "manager",
+      "label": "Managers with taxes",
+      "expr": "manager * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "market salaries"
+    },
+    {
+      "key": "cards",
+      "label": "Card processing",
+      "expr": "rev_total * card_fee",
+      "basis": "share of sales"
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing and visitor listings",
+      "expr": "rev_total * marketing_pct",
+      "basis": "share of sales"
+    },
+    {
+      "key": "other",
+      "label": "Utilities, insurance, repairs and other",
+      "expr": "other_opex * (1 + wage_growth) ** y",
+      "basis": "full-service run rate"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+      "basis": "cost basis x planning rate [^9]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(kitchen + ffe) * reserve_pct",
+      "basis": "share of equipment cost"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes the program's 10% minimum equity for a start-up"
+  },
+  "breakeven": {
+    "input": "guests",
+    "label": "guests served"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "guests",
+      "label": "Guests served",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "food_check",
+      "label": "Food sales per guest",
+      "steps": [
+        -0.1,
+        -0.05,
+        0,
+        0.05,
+        0.1
+      ]
+    },
+    "year": 2
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Sevierville, Sevier County, Tennessee, on the Winfield Dunn Parkway (SR-66) approach from Interstate 40 [^14]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New independent full-service restaurant of about {in_bldg_sf} sq ft on about {in_land_acres} acres, built for the visitor trade; site, owner and operator not specified"
+    ],
+    [
+      "Program",
+      "SBA 7(a) start-up; the program's equity and coverage tests apply [^22]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the guaranty fee, added to project cost, moves with the loan)"
+    ],
+    [
+      "Loan structure",
+      "One 7(a) loan, 25-year term, at {rate} (Prime plus the maximum variable-rate spread)"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+    ],
+    [
+      "Stabilized year (Year 3)",
+      "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service down to {breakeven_value} guests ({cushion_pct} below the {in_guests} underwritten)"
+    ],
+    [
+      "Market conclusion",
+      "Visitor demand is large and documented, and the corridor already holds many sit-down competitors, so a newcomer wins on concept and location rather than on an empty market [^6,10,11,12,13]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it, {dscr_y2} in Year 2"
+    ]
+  ]
+}

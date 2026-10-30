@@ -1,0 +1,62 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	45,973	Haines City population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:55	Y	
+F02	67.4%	Haines City population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:56	Y	
+F03	27,466	Haines City Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:56	Y	
+F04	218,250	Haines City CCD population, ACS 2020-2024	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:55	Y	
+F05	10.0%	Haines City growth Jul 2024 to Jul 2025 (6th among cities of 20,000+)	research	I77a	U.S. Census Bureau press release, 14 May 2026	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:57	N	repeat: held by / (other) and 69 more
+F06	42,073	Haines City population, V2024	research	I77a	U.S. Census Bureau press release, 15 May 2025	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:122	Y	
+F07	12.1%	Haines City growth Jul 2023 to Jul 2024	research	I77a	U.S. Census Bureau press release, 15 May 2025	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:122	Y	note: also on /asset-classes/marina/ (lower rank, case keeps it, A4)
+F08	11,511	Haines City households	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:58	Y	
+F09	75,897	Haines City CCD households, ACS 2020-2024	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:58	Y	
+F10	2.95	Haines City persons per household	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:59	Y	
+F11	2.5	Florida persons per household (Census Reporter)	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:59	N	repeat: held by /research-notes/hospitality-str-report/ (note) and 16 more
+F12	$65,975	Haines City median household income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:60	Y	
+F13	$71,107	Haines City CCD median household income	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:60	Y	
+F14	$74,568	Florida median household income	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:60	N	repeat: held by /case-studies/gas-station-florida-sba/ (case)
+F15	$29,724	Haines City per capita income	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:61	Y	
+F16	$32,880	Haines City CCD per capita income	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:61	Y	
+F17	$42,609	Florida per capita income	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Census Reporter)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:61	N	repeat: held by /case-studies/gas-station-florida-sba/ (case)
+F18	38.0	Haines City median age, ACS 2020-2024	research	I77c	U.S. Census Bureau ACS 2020-2024 (via Florida-Demographics.com)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:62	N	repeat: held by /case-studies/truck-stop-texas-sba/ (case) and 2 more
+F19	24.0%	Haines City persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:63	N	repeat: held by /research-notes/special-purpose-property-risk/ (note) and 3 more
+F20	14.6%	Haines City persons 65+, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:63	N	repeat: held by /case-studies/rv-park-texas-usda/ (case)
+F21	49.8%	Haines City Hispanic or Latino share, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:66	Y	
+F22	50.2%	Haines City language other than English at home	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:67	Y	note: also on /asset-classes/quick-service-restaurant/burger/ (lower rank, case keeps it, A4)
+F23	35.5	Haines City mean commute (minutes)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:68	Y	
+F24	$351,817,000	Haines City health care and social assistance receipts, 2022	research	I77c	U.S. Census Bureau, QuickFacts (2022 Economic Census)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:69	Y	
+F25	725,042	Polk County Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts Polk County FL (V2025)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:123	Y	note: also on /states/florida/ (lower rank, case keeps it, A4)
+F26	874,790	Polk County population, V2025	research	I77c	U.S. Census Bureau, QuickFacts Polk County FL (V2025)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:123	Y	note: also on /states/florida/ (lower rank, case keeps it, A4)
+F27	20.7%	Polk County population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts Polk County FL (V2025)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:123	N	repeat: held by /case-studies/qsr-arkansas-sba/ (case)
+F28	26,478	Haines City urban residents, 2020 Census	research	I77a	U.S. Census Bureau 2020 Census (via CityPopulation.de)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:173	Y	
+F29	191	Haines City rural residents, 2020 Census	research	I77a	U.S. Census Bureau 2020 Census (via CityPopulation.de)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:173	Y	note: also on /states/alabama/ (lower rank, case keeps it, A4)
+F30	6th	Haines City growth rank among US cities of 20,000+	research	I77a	U.S. Census Bureau press release	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:57	N	ordinal rank, not a detectable figure form
+F31	19.7%	Haines City uninsured under 65	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:64	N	undated: 'Census QuickFacts current' (I86)
+F32	16.1%	Haines City persons in poverty	research	none	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:65	N	undated: 'Census QuickFacts current' (I86)
+F33	18,110	Davenport population (rejected candidate)	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:17	N	not the case market: candidate town rejected
+F34	16,537	Publix Polk County employees (CFDC top employers, as of Jan 2026)	research	I77a	Central Florida Development Council, Polk County Top Employers	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:124	N	one firm's headcount (I64 reading 'firm'); borderline, left out of the verdict
+F35	13,500	Polk County School Board employees	research	I77a	Central Florida Development Council	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:124	N	one employer's headcount; borderline, left out
+F36	8,279	Lakeland Regional Health employees	research	I77a	Central Florida Development Council	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:124	N	one employer's headcount; borderline, left out
+F37	5,523	Walmart Polk employees	research	I77a	Central Florida Development Council	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:124	N	one employer's headcount; borderline, left out
+F38	56,000	US 27 traffic, 'cars' (Haines City EDC, 4 Jun 2024)	research	I77a	Haines City Economic Development Council	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:127	N	unsourced EDC claim, FDOT station not cited, conflicts with 62,000 and 50,500
+F39	650	ALDI distribution centre expansion new jobs	research	I77a	Haines City EDC, 25 Mar 2026	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:125	N	single project; job counts conflict between EDC posts (650 vs 450)
+F40	$175	BayCare self-pay tier 1	research	none	BayCare	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:90	N	one operator's posted price, retrieval-dated 15 Oct 2026 (I64, I69)
+F41	$325	Disney in-room AdventHealth visit self-pay	research	none	Walt Disney World guest services	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:128	N	one service price, undated (I86)
+F42	497	Solv same-day appointments listed (Haines City)	research	none	Solv	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:98	N	live-page count, retrieval-dated (I69)
+F43	$15.1 million	HCA Haines City ER construction cost estimate	research	none	Mid Florida Newspapers, 2022	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:95	N	single facility cost (I64, I66)
+F44	$1,495,000	Subject asking price	research	none	Crexi / LoopNet	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:30	N	subject's own listing figure (I64)
+F45	8,084	Subject building size (SF)	research	none	LoopNet	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:28	N	subject's own attribute (I64)
+F46	$515,000	2.6-acre US 27 tract sale price, 23 Oct 2025	research	none	Trulia / Compass	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:44	N	single comparable sale (I64)
+F47	$710,000	608 Ingraham Ave medical office sale, 31 Oct 2025	research	none	Edina Realty	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:46	N	single comparable sale (I64)
+F48	19.4474	Haines City combined millage 2025	research	I77a	Polk County Property Appraiser, 2025 Final Millage Rates	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:139	N	tax rate is a rule value
+F49	$3,286	Polk impact fee, office transportation A, per 1,000 SF (2025)	research	I77a	Polk County impact fee schedule (Ord. 2024-62)	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:147	N	fee schedule is a rule value
+F50	1.25x	SOP 50 10 8.1 change-of-ownership DSCR	research	I77a	PilieroMazza	EXTRA-2026-10-15-HAINES-CITY-FL-URGENT-CARE:170	N	SBA program rule value
+G01	412 employees	employees in the asset class NAICS group, florida/lakeland (week of March 12, 2023)	register	I77c	U.S. Census Bureau, County Business Patterns 2023	data/markets/series/cbp_emp.json values[florida/lakeland:urgent-care]	Y	
+G02	$266,500	median home value, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_home_value.json values[co-12105]	Y	
+G03	$1,363	median gross rent, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_gross_rent.json values[co-12105]	Y	
+G04	203,945 households	owner-occupied housing units, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_owner_occupied.json values[co-12105]	Y	
+G05	85,480 households	renter-occupied housing units, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_renter_occupied.json values[co-12105]	Y	
+G06	154,193 residents	population aged 65 and over, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_pop65.json values[co-12105]	Y	
+G07	368,493 workers	civilian labor force, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_labor_force.json values[co-12105]	Y	
+G08	17,791 workers	unemployed civilians, Polk County FL (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_unemployed.json values[co-12105]	Y	
+G09	$39.47 billion	personal income, Polk County FL (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_personal_income.json values[co-12105]	Y	
+G10	$46,274	personal income per capita, Polk County FL (calendar year 2024)	register	I77c	U.S. Bureau of Economic Analysis, calendar year 2024	data/markets/series/bea_per_capita_income.json values[co-12105]	Y	
+#SUMMARY urgent-care-florida-sba counted=31 research=21 register=10 verdict=PAGE engine=N notes=margin 1; 15 on primary Census rows only; 16 if state-page repeats also block (A4)

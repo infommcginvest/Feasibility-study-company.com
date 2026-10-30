@@ -1,0 +1,1381 @@
+{
+ "state": "SOUTH-DAKOTA",
+ "rerun": 2,
+ "markets": [
+  {
+   "slug": "sioux-falls",
+   "name": "Sioux Falls",
+   "section": "Sioux Falls (Minnehaha and Lincoln counties)",
+   "counties": [
+    "Minnehaha County, SD (co-46099)",
+    "Lincoln County, SD (co-46083)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-SOUTH-DAKOTA line 11",
+    "MT-SOUTH-DAKOTA line 12",
+    "MT-SOUTH-DAKOTA line 13",
+    "MT-SOUTH-DAKOTA line 14",
+    "MT-SOUTH-DAKOTA line 15",
+    "MT-SOUTH-DAKOTA line 17",
+    "MT-SOUTH-DAKOTA line 18",
+    "MT-SOUTH-DAKOTA line 23",
+    "MT-SOUTH-DAKOTA line 24",
+    "MT-SOUTH-DAKOTA line 29",
+    "MT-SOUTH-DAKOTA line 30",
+    "MT-SOUTH-DAKOTA line 31",
+    "MT-SOUTH-DAKOTA line 33",
+    "MT-SOUTH-DAKOTA line 34",
+    "MT-SOUTH-DAKOTA line 35",
+    "MT-SOUTH-DAKOTA line 37",
+    "MT-SOUTH-DAKOTA line 38",
+    "MT-SOUTH-DAKOTA line 41",
+    "MT-SOUTH-DAKOTA line 42",
+    "MT-SOUTH-DAKOTA line 43",
+    "MT-SOUTH-DAKOTA line 44",
+    "MT-SOUTH-DAKOTA line 45",
+    "MT-SOUTH-DAKOTA line 47",
+    "MT-SOUTH-DAKOTA line 48",
+    "ST-SOUTH-DAKOTA-2 line 104",
+    "ST-SOUTH-DAKOTA-2 line 105",
+    "ST-SOUTH-DAKOTA-2 line 106",
+    "ST-SOUTH-DAKOTA-2 line 107",
+    "ST-SOUTH-DAKOTA-2 line 108",
+    "ST-SOUTH-DAKOTA-2 line 109",
+    "ST-SOUTH-DAKOTA-2 line 114",
+    "ST-SOUTH-DAKOTA-2 line 116"
+   ]
+  },
+  {
+   "slug": "rapid-city",
+   "name": "Rapid City and the Black Hills",
+   "section": "Rapid City and the Black Hills (Pennington, Meade, Lawrence counties)",
+   "counties": [
+    "Pennington County, SD (co-46103)",
+    "Meade County, SD (co-46093)",
+    "Lawrence County, SD (co-46081)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-SOUTH-DAKOTA line 59",
+    "MT-SOUTH-DAKOTA line 60",
+    "MT-SOUTH-DAKOTA line 71",
+    "MT-SOUTH-DAKOTA line 72",
+    "MT-SOUTH-DAKOTA line 74",
+    "MT-SOUTH-DAKOTA line 77",
+    "MT-SOUTH-DAKOTA line 80",
+    "MT-SOUTH-DAKOTA line 81",
+    "ST-SOUTH-DAKOTA-2 line 124",
+    "ST-SOUTH-DAKOTA-2 line 125",
+    "ST-SOUTH-DAKOTA-2 line 126",
+    "ST-SOUTH-DAKOTA-2 line 127",
+    "ST-SOUTH-DAKOTA-2 line 128",
+    "ST-SOUTH-DAKOTA-2 line 129",
+    "ST-SOUTH-DAKOTA-2 line 130",
+    "ST-SOUTH-DAKOTA-2 line 131"
+   ]
+  },
+  {
+   "slug": "aberdeen",
+   "name": "Aberdeen",
+   "section": "Aberdeen (Brown County)",
+   "counties": [
+    "Brown County, SD (co-46013)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-SOUTH-DAKOTA line 94",
+    "ST-SOUTH-DAKOTA-2 line 139",
+    "ST-SOUTH-DAKOTA-2 line 140"
+   ]
+  },
+  {
+   "slug": "brookings",
+   "name": "Brookings",
+   "section": "Brookings (Brookings County)",
+   "counties": [
+    "Brookings County, SD (co-46011)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-SOUTH-DAKOTA line 108",
+    "ST-SOUTH-DAKOTA-2 line 150",
+    "ST-SOUTH-DAKOTA-2 line 151"
+   ]
+  },
+  {
+   "slug": "watertown",
+   "name": "Watertown",
+   "section": "Watertown (Codington County)",
+   "counties": [
+    "Codington County, SD (co-46029)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-SOUTH-DAKOTA line 121",
+    "ST-SOUTH-DAKOTA-2 line 159",
+    "ST-SOUTH-DAKOTA-2 line 160",
+    "ST-SOUTH-DAKOTA-2 line 161",
+    "ST-SOUTH-DAKOTA-2 line 162"
+   ]
+  },
+  {
+   "slug": "mitchell-pierre",
+   "name": "Mitchell and Pierre",
+   "section": "Mitchell and Pierre (Davison and Hughes counties)",
+   "counties": [
+    "Davison County, SD (co-46035)",
+    "Hughes County, SD (co-46065)"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-SOUTH-DAKOTA line 139",
+    "MT-SOUTH-DAKOTA line 141",
+    "MT-SOUTH-DAKOTA line 143",
+    "ST-SOUTH-DAKOTA-2 line 170",
+    "ST-SOUTH-DAKOTA-2 line 171"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-SOUTH-DAKOTA line 11",
+  "ST-SOUTH-DAKOTA line 21",
+  "ST-SOUTH-DAKOTA line 22",
+  "ST-SOUTH-DAKOTA line 24",
+  "ST-SOUTH-DAKOTA line 29",
+  "ST-SOUTH-DAKOTA line 30",
+  "ST-SOUTH-DAKOTA line 38",
+  "ST-SOUTH-DAKOTA line 39",
+  "ST-SOUTH-DAKOTA line 50",
+  "ST-SOUTH-DAKOTA line 51",
+  "ST-SOUTH-DAKOTA line 52",
+  "ST-SOUTH-DAKOTA line 53",
+  "ST-SOUTH-DAKOTA line 55",
+  "ST-SOUTH-DAKOTA line 57",
+  "ST-SOUTH-DAKOTA line 58",
+  "ST-SOUTH-DAKOTA line 104",
+  "ST-SOUTH-DAKOTA line 106",
+  "ST-SOUTH-DAKOTA line 108",
+  "ST-SOUTH-DAKOTA line 109",
+  "ST-SOUTH-DAKOTA line 111",
+  "ST-SOUTH-DAKOTA line 130",
+  "ST-SOUTH-DAKOTA line 131",
+  "ST-SOUTH-DAKOTA-2 line 11",
+  "ST-SOUTH-DAKOTA-2 line 23",
+  "ST-SOUTH-DAKOTA-2 line 24",
+  "ST-SOUTH-DAKOTA-2 line 25",
+  "ST-SOUTH-DAKOTA-2 line 26",
+  "ST-SOUTH-DAKOTA-2 line 27",
+  "ST-SOUTH-DAKOTA-2 line 29",
+  "ST-SOUTH-DAKOTA-2 line 30",
+  "ST-SOUTH-DAKOTA-2 line 31",
+  "ST-SOUTH-DAKOTA-2 line 32",
+  "ST-SOUTH-DAKOTA-2 line 34",
+  "ST-SOUTH-DAKOTA-2 line 35",
+  "ST-SOUTH-DAKOTA-2 line 62",
+  "ST-SOUTH-DAKOTA-2 line 73",
+  "ST-SOUTH-DAKOTA-2 line 74",
+  "ST-SOUTH-DAKOTA-2 line 93",
+  "ST-SOUTH-DAKOTA-2 line 95",
+  "ST-SOUTH-DAKOTA-2 line 96"
+ ],
+ "register_pairs": [
+  {
+   "geo": "sd",
+   "series": "acs5_median_hh_income",
+   "value": 75081,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_per_capita_income",
+   "value": 40550,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_median_gross_rent",
+   "value": 946,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_households",
+   "value": 365544,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_renter_occupied",
+   "value": 114923,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_owner_occupied",
+   "value": 250621,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_pop65",
+   "value": 163311,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_labor_force",
+   "value": 475223,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_occupied_units",
+   "value": 365544,
+   "page": "state"
+  },
+  {
+   "geo": "sd",
+   "series": "acs5_aggregate_income",
+   "value": 36795922400,
+   "page": "state"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_median_hh_income",
+   "value": 76880,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_per_capita_income",
+   "value": 43062,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_median_gross_rent",
+   "value": 978,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_median_home_value",
+   "value": 287600,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_households",
+   "value": 84814,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_renter_occupied",
+   "value": 31307,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_owner_occupied",
+   "value": 53507,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_pop65",
+   "value": 28306,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_labor_force",
+   "value": 116075,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "co-46099",
+   "series": "acs5_occupied_units",
+   "value": 84814,
+   "page": "sioux-falls"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_median_hh_income",
+   "value": 75255,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_per_capita_income",
+   "value": 42169,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_median_gross_rent",
+   "value": 1140,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_median_home_value",
+   "value": 307700,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_households",
+   "value": 62789,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_renter_occupied",
+   "value": 18128,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_owner_occupied",
+   "value": 44661,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_pop65",
+   "value": 30971,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_labor_force",
+   "value": 77262,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-39660",
+   "series": "acs5_occupied_units",
+   "value": 62789,
+   "page": "rapid-city"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_median_hh_income",
+   "value": 71488,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_per_capita_income",
+   "value": 41173,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_median_gross_rent",
+   "value": 783,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_median_home_value",
+   "value": 215100,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_households",
+   "value": 17915,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_renter_occupied",
+   "value": 5579,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_owner_occupied",
+   "value": 12336,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_pop65",
+   "value": 7659,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_labor_force",
+   "value": 22428,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-10100",
+   "series": "acs5_occupied_units",
+   "value": 17915,
+   "page": "aberdeen"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_median_hh_income",
+   "value": 70064,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_per_capita_income",
+   "value": 35295,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_median_gross_rent",
+   "value": 901,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_median_home_value",
+   "value": 264600,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_households",
+   "value": 13798,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_renter_occupied",
+   "value": 5902,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_owner_occupied",
+   "value": 7896,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_pop65",
+   "value": 4736,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_labor_force",
+   "value": 19803,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-15100",
+   "series": "acs5_occupied_units",
+   "value": 13798,
+   "page": "brookings"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_median_hh_income",
+   "value": 72727,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_per_capita_income",
+   "value": 39825,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_median_gross_rent",
+   "value": 938,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_median_home_value",
+   "value": 237700,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_households",
+   "value": 12526,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_renter_occupied",
+   "value": 3779,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_owner_occupied",
+   "value": 8747,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_pop65",
+   "value": 5625,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_occupied_units",
+   "value": 12526,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-47980",
+   "series": "acs5_unemployed",
+   "value": 301,
+   "page": "watertown"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_median_hh_income",
+   "value": 69101,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_per_capita_income",
+   "value": 37926,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_median_gross_rent",
+   "value": 838,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_median_home_value",
+   "value": 197700,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_households",
+   "value": 10977,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_renter_occupied",
+   "value": 3751,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_owner_occupied",
+   "value": 7226,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_pop65",
+   "value": 5204,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_labor_force",
+   "value": 13832,
+   "page": "mitchell-pierre"
+  },
+  {
+   "geo": "cbsa-33580",
+   "series": "acs5_occupied_units",
+   "value": 10977,
+   "page": "mitchell-pierre"
+  }
+ ],
+ "borderline_ids": [
+  "ST-SOUTH-DAKOTA line 21",
+  "ST-SOUTH-DAKOTA line 22",
+  "ST-SOUTH-DAKOTA line 24"
+ ],
+ "secondary_ids": [
+  "MT-SOUTH-DAKOTA line 11",
+  "MT-SOUTH-DAKOTA line 23",
+  "MT-SOUTH-DAKOTA line 24",
+  "MT-SOUTH-DAKOTA line 29",
+  "MT-SOUTH-DAKOTA line 30",
+  "MT-SOUTH-DAKOTA line 31",
+  "MT-SOUTH-DAKOTA line 33",
+  "MT-SOUTH-DAKOTA line 34",
+  "MT-SOUTH-DAKOTA line 35",
+  "MT-SOUTH-DAKOTA line 37",
+  "MT-SOUTH-DAKOTA line 38",
+  "MT-SOUTH-DAKOTA line 44",
+  "MT-SOUTH-DAKOTA line 45",
+  "MT-SOUTH-DAKOTA line 47",
+  "MT-SOUTH-DAKOTA line 48",
+  "MT-SOUTH-DAKOTA line 59",
+  "MT-SOUTH-DAKOTA line 60",
+  "MT-SOUTH-DAKOTA line 71",
+  "MT-SOUTH-DAKOTA line 72",
+  "MT-SOUTH-DAKOTA line 74",
+  "MT-SOUTH-DAKOTA line 77",
+  "MT-SOUTH-DAKOTA line 80",
+  "MT-SOUTH-DAKOTA line 81",
+  "MT-SOUTH-DAKOTA line 94",
+  "MT-SOUTH-DAKOTA line 108",
+  "MT-SOUTH-DAKOTA line 121",
+  "MT-SOUTH-DAKOTA line 139",
+  "MT-SOUTH-DAKOTA line 141",
+  "MT-SOUTH-DAKOTA line 143",
+  "ST-SOUTH-DAKOTA line 11",
+  "ST-SOUTH-DAKOTA line 29",
+  "ST-SOUTH-DAKOTA line 30",
+  "ST-SOUTH-DAKOTA line 38",
+  "ST-SOUTH-DAKOTA line 39",
+  "ST-SOUTH-DAKOTA line 58",
+  "ST-SOUTH-DAKOTA line 104",
+  "ST-SOUTH-DAKOTA line 106",
+  "ST-SOUTH-DAKOTA line 108",
+  "ST-SOUTH-DAKOTA line 130",
+  "ST-SOUTH-DAKOTA line 131"
+ ],
+ "dropped": [
+  {
+   "id": "MT-SOUTH-DAKOTA line 16",
+   "why": "taken: /asset-classes/hotel/, /case-studies/behavioral-health-massachusetts-conventional/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 19",
+   "why": "taken: /research-notes/c-store-franchise-category/, /asset-classes/hotel/, /asset-classes/retail/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 20",
+   "why": "taken: /, /research-notes/effective-rent-vs-asking-rent/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 21",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 22",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 25",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/office-repurposing/, /research-notes/coverage-constrained-takeout/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 26",
+   "why": "taken: /asset-classes/marina/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 27",
+   "why": "taken: /research-notes/special-purpose-property-risk/, /research-notes/gas-station-demand-per-capita/, /asset-classes/restaurant/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 28",
+   "why": "taken: /research-notes/coverage-constrained-takeout/, /research-notes/underserved-gas-station-markets/, /asset-classes/private-school/ (+2 more); shared with ALASKA"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 32",
+   "why": "taken: /research-notes/usda-rd-deadline-calendar/, /research-notes/office-repurposing/, /states/connecticut/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 36",
+   "why": "taken: /research-notes/gas-station-demand-per-capita/, /case-studies/assisted-living-north-carolina-hud/, /states/oregon/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 39",
+   "why": "one property (senior living permit)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 40",
+   "why": "one property (Nova Apartments)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 46",
+   "why": "48 days: not a unit pagecheck reads"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 49",
+   "why": "one project (Smithfield plant size)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 50",
+   "why": "one site (Gemini 164 acres)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 51",
+   "why": "one facility (Sioux Falls airport terminal grant)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 61",
+   "why": "taken: /case-studies/multifamily-florida-agency/, /states/new-york/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 62",
+   "why": "taken: /asset-classes/self-storage/, /states/north-carolina/charlotte/, /states/washington/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 63",
+   "why": "taken: /asset-classes/veterinary-practice/, /case-studies/multifamily-florida-agency/, /case-studies/hotel-florida-sba/ (+1 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 64",
+   "why": "taken: /research-notes/c-store-franchise-category/, /asset-classes/hotel/, /asset-classes/retail/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 65",
+   "why": "taken: /, /research-notes/effective-rent-vs-asking-rent/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 66",
+   "why": "taken: /research-notes/c-store-franchise-category/, /asset-classes/hotel/, /asset-classes/retail/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 67",
+   "why": "taken: /research-notes/c-store-franchise-category/, /asset-classes/hotel/, /asset-classes/retail/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 68",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 69",
+   "why": "taken: /states/mississippi/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 70",
+   "why": "taken: /states/new-jersey/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 73",
+   "why": "one facility (Rapid City airport terminal grant)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 75",
+   "why": "one named site (Ellsworth base population)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 76",
+   "why": "one named site (Ellsworth school and housing)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 78",
+   "why": "taken: /states/mississippi/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 79",
+   "why": "64 days: not a unit pagecheck reads"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 82",
+   "why": "one property (Habitat East Creek Village award)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 83",
+   "why": "one award to one named entity for one development (35 lots): I64; also outside the three counties; the sheet counts it"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 91",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 92",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with NORTH-DAKOTA, WYOMING"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 93",
+   "why": "taken: /states/maine/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 95",
+   "why": "taken: /states/new-mexico/, /states/oklahoma/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 96",
+   "why": "49 days: not a unit pagecheck reads"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 97",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/office-repurposing/, /research-notes/coverage-constrained-takeout/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 98",
+   "why": "taken: /research-notes/underserved-gas-station-markets/, /asset-classes/private-school/, /asset-classes/express-car-wash/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 106",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 107",
+   "why": "taken: /research-notes/underserved-gas-station-markets/, /research-notes/franchise-vs-non-franchise/, /asset-classes/veterinary-practice/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 109",
+   "why": "two properties (student apartments)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 110",
+   "why": "undated (I86)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 111",
+   "why": "undated (I86)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 119",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 120",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 122",
+   "why": "one property (Sentry SD plant purchase)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 123",
+   "why": "one project (Dakota Automation)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 124",
+   "why": "one project (Calvin Industrial Park sewer grant)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 125",
+   "why": "undated (I86)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 133",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 134",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 135",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 136",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/ (+2 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 137",
+   "why": "taken: /asset-classes/self-storage/, /case-studies/assisted-living-florida-hud/, /case-studies/lodging-retreat-johnson-city-texas-sba/ (+-3 more)"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 138",
+   "why": "taken: /case-studies/rv-park-texas-usda/, /states/missouri/, /states/utah/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 140",
+   "why": "taken: /states/delaware/, /states/south-carolina/charleston/, /states/texas/"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 142",
+   "why": "taken: /asset-classes/self-storage/, /states/north-carolina/charlotte/, /states/washington/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 12",
+   "why": "same fact as MT line 11 (Sioux Falls city population 224,676, SDPB 14 Jan 2026): belongs to the market section (ruling 4, I82)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 20",
+   "why": "taken: /, /research-notes/effective-rent-vs-asking-rent/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 23",
+   "why": "taken: /states/illinois/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 25",
+   "why": "taken: /states/delaware/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 26",
+   "why": "taken: /, /research-notes/effective-rent-vs-asking-rent/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 27",
+   "why": "taken: /, /research-notes/effective-rent-vs-asking-rent/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 28",
+   "why": "taken: /asset-classes/laundromat/, /case-studies/laundromat-new-mexico-sba/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 40",
+   "why": "taken: /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/franchise-vs-non-franchise/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 41",
+   "why": "taken: /research-notes/five-usda-components-applied/, /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/c-store-franchise-category/ (+2 more); shared with ALASKA, VERMONT, VIRGINIA, WYOMING"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 42",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/office-repurposing/, /asset-classes/restaurant/ (+2 more)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 54",
+   "why": "taken: /asset-classes/retail/, /asset-classes/self-storage/, /case-studies/restaurant-missouri-sba/ (+2 more); shared with ALASKA, COLORADO, DISTRICT-OF-COLUMBIA, VIRGINIA"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 56",
+   "why": "taken: /asset-classes/auto-service-and-collision/, /asset-classes/behavioral-health/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 59",
+   "why": "undated (I86)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 67",
+   "why": "a count whose unit pagecheck does not read (39 banks; no unit in the list), the Montana rule"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 68",
+   "why": "taken: /states/georgia/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 69",
+   "why": "one firm (First Bank and Trust): I64 reading the sheet misses"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 70",
+   "why": "bill number (SB 18)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 71",
+   "why": "one project (Elevate Rapid City REDI loan, I64/I66)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 72",
+   "why": "one firm/project (Smithfield grant, up to $29,975,400): I64, the sheet misses it"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 73",
+   "why": "taken: /research-notes/c-store-franchise-category/, /research-notes/usda-rd-deadline-calendar/, /research-notes/sba-feasibility-myth/ (+2 more); shared with NORTH-DAKOTA, VERMONT"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 74",
+   "why": "one firm/project (GEVO release): I64"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 75",
+   "why": "taken: /states/arkansas/, /states/texas/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 76",
+   "why": "one firm (Silencer Central REDI loan): I64/I66"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 77",
+   "why": "taken: /, /research-notes/five-usda-components-applied/, /research-notes/effective-rent-vs-asking-rent/ (+2 more)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 78",
+   "why": "undated (I86)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 86",
+   "why": "rule value (statutory sales tax rate, I86 class); also taken by /research-notes/c-store-franchise-category/, /research-notes/coverage-constrained-takeout/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 87",
+   "why": "a date, not a figure"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 88",
+   "why": "bill number (SB 245)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 89",
+   "why": "rule value (county option sales tax rate); also taken by /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/c-store-franchise-category/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 90",
+   "why": "bill number (SB 3)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 91",
+   "why": "bill number (SB 129)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 92",
+   "why": "bill number (SB 204)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 93",
+   "why": "bill number (SB 91)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 94",
+   "why": "bill number (HB 1260)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 95",
+   "why": "rule threshold (10 megawatts) and no figure pagecheck reads"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 96",
+   "why": "a signing date, not a figure"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 105",
+   "why": "taken: /asset-classes/gas-station-and-c-store/, /case-studies/gas-station-versailles-ohio-sba/, /case-studies/rv-park-pennsylvania-usda/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 107",
+   "why": "58 days: days is not a unit pagecheck reads"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 110",
+   "why": "one property (The Rhys Apartments): I64"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 112",
+   "why": "one property (Roosevelt Street Apartments): I64"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 120",
+   "why": "declaration code (DR-4903-SD)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 121",
+   "why": "declaration code (DR-4938-SD)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 122",
+   "why": "\"more than half\": no figure"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 132",
+   "why": "taken: /research-notes/trade-area-is-the-study/, /research-notes/five-usda-components-applied/, /research-notes/absorption-forensics/ (+2 more)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 140",
+   "why": "one project (Smithfield plant)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 141",
+   "why": "one firm (Smithfield workforce)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 142",
+   "why": "single project (Gemini data center) and no figure pagecheck reads"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 143",
+   "why": "single project (Rapid City data center) and no figure pagecheck reads"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 144",
+   "why": "one named site (Ellsworth construction)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 145",
+   "why": "one named site (Ellsworth)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 146",
+   "why": "taken: /research-notes/how-eb-5-jobs-are-counted/, /research-notes/usda-rd-deadline-calendar/, /research-notes/office-repurposing/ (+2 more); shared with DISTRICT-OF-COLUMBIA"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA line 147",
+   "why": "no figure (a route statement)"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 12",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/gas-station-demand-per-capita/, /asset-classes/veterinary-practice/, /asset-classes/hotel/, /asset-classes/marina/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 13",
+   "why": "taken: /asset-classes/hotel/, /asset-classes/multifamily/, /case-studies/gas-station-versailles-ohio-sba/, /states/north-carolina/raleigh-durham/, /states/new-mexico/; shared with NORTH-DAKOTA, VIRGINIA, WYOMING"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 14",
+   "why": "taken: /asset-classes/quick-service-restaurant/, /case-studies/gas-station-georgia-sba/, /case-studies/rv-park-texas-usda/, /case-studies/self-storage-indiana-sba/, /states/illinois/; shared with WYOMING"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 22",
+   "why": "taken: /states/hawaii/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 28",
+   "why": "taken: /asset-classes/self-storage/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 33",
+   "why": "taken: /states/hawaii/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 43",
+   "why": "taken: /research-notes/effective-rent-vs-asking-rent/, /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /research-notes/coverage-constrained-takeout/, /research-notes/franchise-vs-non-franchise/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 51",
+   "why": "integrator ruling 2: rests on search-result text only (BFM PDF never opened by the researcher); not countable"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 52",
+   "why": "integrator ruling 2: rests on search-result text only (BFM PDF never opened by the researcher); not countable"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 60",
+   "why": "rule value (statutory gaming tax rate, SDCL 42-7B-28); also taken by a served page"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 61",
+   "why": "taken: /case-studies/car-wash-texas-sba/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 63",
+   "why": "taken: /case-studies/rv-park-arizona-usda/, /case-studies/childcare-iowa-sba/, /case-studies/car-wash-texas-sba/, /case-studies/meat-processing-georgia-usda/, /states/wisconsin/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 71",
+   "why": "taken: /research-notes/coverage-constrained-takeout/, /case-studies/travel-center-hankamer-texas-usda/, /case-studies/marina-maryland-sba/, /case-studies/behavioral-health-massachusetts-conventional/, /states/texas/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 72",
+   "why": "rule value (program maximum purchase price, an eligibility limit); the sheet counts it"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 82",
+   "why": "a deadline date, not a figure"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 83",
+   "why": "an incident period (dates), not a figure"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 84",
+   "why": "rule value (SBA loan limit); also taken by a served page"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 92",
+   "why": "taken: /states/arizona/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 94",
+   "why": "taken: /research-notes/gas-station-demand-per-capita/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 110",
+   "why": "taken: /case-studies/gas-station-florida-sba/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 111",
+   "why": "taken: /case-studies/rv-boat-storage-california-sba/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 112",
+   "why": "taken: /states/nevada/; shared with VERMONT"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 113",
+   "why": "17 projects: \"projects\" is not a unit pagecheck reads, so the printed form is not a figure"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 115",
+   "why": "single project (one terminal grant, I64); also taken by a served page"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 148",
+   "why": "taken: /states/connecticut/, /states/texas/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 149",
+   "why": "taken: /states/florida/orlando/"
+  },
+  {
+   "id": "ST-SOUTH-DAKOTA-2 line 172",
+   "why": "taken: /states/tennessee/"
+  }
+ ],
+ "state_page_duplicates": [
+  {
+   "id": "MT-SOUTH-DAKOTA line 71",
+   "same_as": "MT-SOUTH-DAKOTA line 24"
+  },
+  {
+   "id": "MT-SOUTH-DAKOTA line 108",
+   "same_as": "MT-SOUTH-DAKOTA line 14"
+  }
+ ],
+ "state_page_free_research_all_folded": 102,
+ "families": {
+  "live-page (FRED, DLR snapshot)": [
+   "MT-SOUTH-DAKOTA line 23",
+   "MT-SOUTH-DAKOTA line 24",
+   "MT-SOUTH-DAKOTA line 44",
+   "MT-SOUTH-DAKOTA line 45",
+   "MT-SOUTH-DAKOTA line 47",
+   "MT-SOUTH-DAKOTA line 48",
+   "MT-SOUTH-DAKOTA line 71",
+   "MT-SOUTH-DAKOTA line 77",
+   "MT-SOUTH-DAKOTA line 80",
+   "MT-SOUTH-DAKOTA line 81",
+   "MT-SOUTH-DAKOTA line 94",
+   "MT-SOUTH-DAKOTA line 108",
+   "MT-SOUTH-DAKOTA line 121",
+   "MT-SOUTH-DAKOTA line 139",
+   "MT-SOUTH-DAKOTA line 141",
+   "ST-SOUTH-DAKOTA line 11",
+   "ST-SOUTH-DAKOTA line 21",
+   "ST-SOUTH-DAKOTA line 22",
+   "ST-SOUTH-DAKOTA line 24",
+   "ST-SOUTH-DAKOTA line 29",
+   "ST-SOUTH-DAKOTA line 30",
+   "ST-SOUTH-DAKOTA line 38",
+   "ST-SOUTH-DAKOTA line 39",
+   "ST-SOUTH-DAKOTA line 104",
+   "ST-SOUTH-DAKOTA line 106",
+   "ST-SOUTH-DAKOTA line 108"
+  ],
+  "preliminary": [
+   "ST-SOUTH-DAKOTA line 21",
+   "ST-SOUTH-DAKOTA line 22",
+   "ST-SOUTH-DAKOTA line 24",
+   "ST-SOUTH-DAKOTA-2 line 29",
+   "ST-SOUTH-DAKOTA-2 line 30",
+   "ST-SOUTH-DAKOTA-2 line 31",
+   "ST-SOUTH-DAKOTA-2 line 32",
+   "ST-SOUTH-DAKOTA-2 line 109"
+  ],
+  "approximate": [
+   "MT-SOUTH-DAKOTA line 59"
+  ],
+  "stale / prior-period": [
+   "MT-SOUTH-DAKOTA line 37",
+   "MT-SOUTH-DAKOTA line 38",
+   "MT-SOUTH-DAKOTA line 48",
+   "MT-SOUTH-DAKOTA line 81",
+   "MT-SOUTH-DAKOTA line 143",
+   "ST-SOUTH-DAKOTA-2 line 11",
+   "ST-SOUTH-DAKOTA-2 line 116",
+   "ST-SOUTH-DAKOTA-2 line 128",
+   "ST-SOUTH-DAKOTA-2 line 131",
+   "ST-SOUTH-DAKOTA-2 line 140",
+   "ST-SOUTH-DAKOTA-2 line 151"
+  ],
+  "bare counts read with a unit": [
+   "MT-SOUTH-DAKOTA line 14",
+   "MT-SOUTH-DAKOTA line 15",
+   "MT-SOUTH-DAKOTA line 24",
+   "MT-SOUTH-DAKOTA line 71",
+   "MT-SOUTH-DAKOTA line 108",
+   "MT-SOUTH-DAKOTA line 121",
+   "ST-SOUTH-DAKOTA line 108",
+   "ST-SOUTH-DAKOTA-2 line 161"
+  ],
+  "cross-state CBSA/MSA": [
+   "MT-SOUTH-DAKOTA line 44",
+   "MT-SOUTH-DAKOTA line 45",
+   "MT-SOUTH-DAKOTA line 47",
+   "MT-SOUTH-DAKOTA line 48",
+   "ST-SOUTH-DAKOTA-2 line 104",
+   "ST-SOUTH-DAKOTA-2 line 105",
+   "ST-SOUTH-DAKOTA-2 line 106"
+  ],
+  "complement or label doubt": [
+   "MT-SOUTH-DAKOTA line 34",
+   "MT-SOUTH-DAKOTA line 35",
+   "ST-SOUTH-DAKOTA-2 line 34",
+   "ST-SOUTH-DAKOTA-2 line 35",
+   "ST-SOUTH-DAKOTA-2 line 73",
+   "ST-SOUTH-DAKOTA-2 line 74",
+   "ST-SOUTH-DAKOTA-2 line 116"
+  ],
+  "bulletin issue month only (ruling 4, I77c)": [
+   "ST-SOUTH-DAKOTA-2 line 11",
+   "ST-SOUTH-DAKOTA-2 line 27",
+   "ST-SOUTH-DAKOTA-2 line 34",
+   "ST-SOUTH-DAKOTA-2 line 35",
+   "ST-SOUTH-DAKOTA-2 line 116",
+   "ST-SOUTH-DAKOTA-2 line 128",
+   "ST-SOUTH-DAKOTA-2 line 140",
+   "ST-SOUTH-DAKOTA-2 line 151"
+  ],
+  "periodic PDF, no issue date (c)": [
+   "MT-SOUTH-DAKOTA line 41",
+   "MT-SOUTH-DAKOTA line 42",
+   "MT-SOUTH-DAKOTA line 43",
+   "ST-SOUTH-DAKOTA-2 line 159",
+   "ST-SOUTH-DAKOTA-2 line 160",
+   "ST-SOUTH-DAKOTA-2 line 161"
+  ],
+  "edition year only (b), no day": [
+   "ST-SOUTH-DAKOTA-2 line 23",
+   "ST-SOUTH-DAKOTA-2 line 24",
+   "ST-SOUTH-DAKOTA-2 line 25",
+   "ST-SOUTH-DAKOTA-2 line 26",
+   "ST-SOUTH-DAKOTA-2 line 62",
+   "ST-SOUTH-DAKOTA-2 line 104",
+   "ST-SOUTH-DAKOTA-2 line 105",
+   "ST-SOUTH-DAKOTA-2 line 106",
+   "ST-SOUTH-DAKOTA-2 line 107",
+   "ST-SOUTH-DAKOTA-2 line 108",
+   "ST-SOUTH-DAKOTA-2 line 124",
+   "ST-SOUTH-DAKOTA-2 line 125",
+   "ST-SOUTH-DAKOTA-2 line 126",
+   "ST-SOUTH-DAKOTA-2 line 127",
+   "ST-SOUTH-DAKOTA-2 line 139",
+   "ST-SOUTH-DAKOTA-2 line 150",
+   "ST-SOUTH-DAKOTA-2 line 162",
+   "ST-SOUTH-DAKOTA-2 line 170",
+   "ST-SOUTH-DAKOTA-2 line 171"
+  ],
+  "NASS PDF state rows (I69 ruling 1)": [
+   "ST-SOUTH-DAKOTA-2 line 93",
+   "ST-SOUTH-DAKOTA-2 line 95",
+   "ST-SOUTH-DAKOTA-2 line 96"
+  ],
+  "city-level": [
+   "MT-SOUTH-DAKOTA line 11",
+   "MT-SOUTH-DAKOTA line 12",
+   "MT-SOUTH-DAKOTA line 13",
+   "MT-SOUTH-DAKOTA line 14",
+   "MT-SOUTH-DAKOTA line 15",
+   "MT-SOUTH-DAKOTA line 17",
+   "MT-SOUTH-DAKOTA line 18",
+   "MT-SOUTH-DAKOTA line 59",
+   "MT-SOUTH-DAKOTA line 60",
+   "MT-SOUTH-DAKOTA line 143",
+   "ST-SOUTH-DAKOTA-2 line 116",
+   "ST-SOUTH-DAKOTA-2 line 128",
+   "ST-SOUTH-DAKOTA-2 line 140",
+   "ST-SOUTH-DAKOTA-2 line 151",
+   "ST-SOUTH-DAKOTA-2 line 159",
+   "ST-SOUTH-DAKOTA-2 line 160",
+   "ST-SOUTH-DAKOTA-2 line 161"
+  ]
+ },
+ "nass_ids_confirmed_by_name": [
+  "ST-SOUTH-DAKOTA-2 line 93",
+  "ST-SOUTH-DAKOTA-2 line 95",
+  "ST-SOUTH-DAKOTA-2 line 96"
+ ],
+ "cross_state_ids": [
+  "MT-SOUTH-DAKOTA line 44",
+  "MT-SOUTH-DAKOTA line 45",
+  "MT-SOUTH-DAKOTA line 47",
+  "MT-SOUTH-DAKOTA line 48",
+  "ST-SOUTH-DAKOTA-2 line 104",
+  "ST-SOUTH-DAKOTA-2 line 105",
+  "ST-SOUTH-DAKOTA-2 line 106"
+ ]
+}

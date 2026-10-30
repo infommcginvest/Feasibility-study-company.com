@@ -1,0 +1,8 @@
+# GEO-5 t3 freeze 1 (2026-10-28T19:31Z)
+worktree HEAD 8b2a94f4c2f7e0e9d5ea2d7e1e81478a6f91a94f; local main a03f5624e2b42e7b055ca0693eea1428a83ed147
+copy: tmp/geo-5/t3 (archive of worktree HEAD, draft placed, requests applied, neighbors5.py, patches/, chain run; the SBA-mandate rewording placed and the chain rerun)
+source south-dakota 68eb5362f393127031ddcad7d66562d13acdadb94f974c0f3ac22456e45e6440
+copy source 68eb5362f393127031ddcad7d66562d13acdadb94f974c0f3ac22456e45e6440
+rendered /states/south-dakota/ 56012101269d1f37375b962ce3791e5c17e3b1be2b582ca05a3ba3de62eceb0d
+src/pages/states tree b079bde3d5953097202ab03d65b312b8cc7fd7afa09c77a2d7d1d0d4608d7295
+gates READY 6276158ce72dd3efc2c64289bad4ec4404d8fabd7d9fdc7bb7800a223c7cb07a; landing 3,9 site-wide f7ec6a09aeb12dede06209520fecc6bcad14be6e097d56d3b4001f65a1bb0669

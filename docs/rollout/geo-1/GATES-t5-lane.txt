@@ -1,0 +1,58 @@
+GEO-1 tranche 5 gates, copy ~/Downloads/fsc-rollout/tmp/geo-1/t5, 2 page(s)
+13/14 green
+
+GATE  1 GREEN pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id (2 pages)
+
+
+GATE  2 GREEN factory: build.py --check and casemodel.py --check exit 0
+  build.py --check: exit 0: 46 page(s) checked, 0 out of date or failing
+  casemodel.py --check: exit 0: 15 case(s) checked, 0 problem(s)
+
+GATE  3 GREEN counted figures (A6): at least 30, research at least 20, register at most 10 counted; body words in the ruling 3 range
+  /states/south-carolina/                      state  words  4679 (4500-8000) research 108 register 10 total 118
+  /states/south-carolina/charleston/           metro  words  2067 (2000-3500) research  22 register  9 total  31
+
+GATE  4 GREEN overlap under 15% against every page of the copy; sibling matrix
+  /states/south-carolina/                      max  1.04% with /states/south-carolina/charleston/; top [(1.04, '/states/south-carolina/charleston/', 27), (0.84, '/states/florida/jacksonville/', 23), (0.79, '/states/tennessee/nashville/', 21)]
+  /states/south-carolina/charleston/           max  1.23% with /states/florida/orlando/; top [(1.23, '/states/florida/orlando/', 32), (1.19, '/states/north-carolina/charlotte/', 31), (1.08, '/states/georgia/savannah/', 28)]
+  sibling matrix:
+  /states/south-carolina/ x /states/south-carolina/charleston/: 1.04%
+
+GATE  5 GREEN standalone: every metro passes gates 3 and 4 on its own evidence (its counted figures are its own geography's)
+  /states/south-carolina/charleston/
+
+GATE  6 GREEN case standard
+  no case pages in this tranche (not applicable)
+
+GATE  7 GREEN sources: four parts, all cited; ruling 9 pattern absent from pages, sources, commits and tags; sbamandate.py zero
+
+  sources matching the pattern: []
+  commits or tags matching: 0
+
+GATE  8 GREEN subjects: no identifier from 10 private list(s) in tranche pages, sources or history (217 tokens)
+
+
+GATE  9 GREEN links: links.py --check and mesh.py --check exit 0; state and metro link both ways; inbound counts (checked at landing)
+  links.py --check: exit 0: 0 problem(s) over 183 checked pages (0 held, data/site/hold.json)
+  mesh.py --check: exit 0: 0 page(s) out of date; 0 held; 1060 term link(s) on 169 page(s)
+
+  /states/south-carolina/: 7 inbound contextual source pages (needs 3 after landing)
+  /states/south-carolina/charleston/: 3 inbound contextual source pages (needs 3 after landing)
+
+GATE 10 GREEN clean text: no em or en dashes in any encoding; no credential after the name
+
+
+GATE 11 GREEN markers: byline, regulatory, chrome and markets --check exit 0
+  byline.py --check: exit 0: out of date: 0 page(s)
+  regulatory.py --check: exit 0: 0 page(s) out of date
+  chrome.py --check: exit 0: 0 page(s) out of date; 0 held; 183 checked; 0 problem(s)
+  markets.py --check: exit 0: 0 page(s) out of date
+
+GATE 12 GREEN dates: dateModified, visible line and sitemap lastmod agree (2026-10-18); rebuilt pages keep published
+
+
+GATE 13 RED   look
+  not run (--skip-look)
+
+GATE 14 GREEN index all: index, follow; in the sitemap with lastmod
+

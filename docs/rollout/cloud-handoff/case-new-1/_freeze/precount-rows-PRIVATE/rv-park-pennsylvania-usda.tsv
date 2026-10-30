@@ -1,0 +1,56 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+RPA-001	7,106	Gettysburg borough population, 2020 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:59	Y	
+RPA-002	8,365	Gettysburg borough population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:60	Y	
+RPA-003	103,852	Adams County population, 2020 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:59	Y	
+RPA-004	107,594	Adams County population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:60	Y	
+RPA-005	13,002,700	Pennsylvania population, 2020 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:59	Y	
+RPA-006	13,059,432	Pennsylvania population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:60	N	Already on served page /research-notes/office-repurposing/ (by value)
+RPA-007	17.7%	Gettysburg borough population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:61	Y	
+RPA-008	3.6%	Adams County population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:61	N	Held only by legacy case page(s) being rebuilt: /case-studies/fitness-new-hampshire-sba/, /case-studies/hotel-georgia-sba/ (by value; strict reading excludes)
+RPA-009	0.4%	Pennsylvania population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:61	N	Also on /states/delaware/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RPA-010	$54,365	Gettysburg borough median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:62	Y	
+RPA-011	$84,092	Adams County median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:62	Y	
+RPA-012	$36,093	Gettysburg borough per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:63	Y	
+RPA-013	$40,973	Adams County per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:63	Y	
+RPA-014	12.7%	Gettysburg borough persons 65+	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-RV-PARK-PENNSYLVANIA-USDA:64	N	Also on /states/texas/austin/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RPA-015	24.7%	Adams County persons 65+	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-RV-PARK-PENNSYLVANIA-USDA:64	N	Already on served page /case-studies/car-wash-texas-sba/ (by value)
+RPA-016	21.4%	Pennsylvania persons 65+	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-RV-PARK-PENNSYLVANIA-USDA:64	N	Also on /states/north-carolina/charlotte/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RPA-017	14.1%	Gettysburg borough poverty rate	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:67	Y	
+RPA-018	7.7%	Adams County poverty rate	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-PENNSYLVANIA-USDA:67	N	Held only by legacy case page(s) being rebuilt: /case-studies/multifamily-north-carolina-agency/, /case-studies/coffee-shop-washington-sba/ (by value; strict reading excludes)
+RPA-019	$819.3 million	Adams County visitor spending 2025	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:118	Y	
+RPA-020	1.2%	Adams County visitor spending change 2025	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:118	N	Already on served page /case-studies/truck-stop-texas-sba/, /case-studies/veterinary-michigan-sba/ (by value)
+RPA-021	$10.1 million	Adams County visitor spending increase vs 2024	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:118	N	Held only by legacy case page(s) being rebuilt: /case-studies/assisted-living-arizona-hud/ (by value; strict reading excludes)
+RPA-022	30%	Adams County visitor spending change since 2021	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:118	N	Already on served page /research-notes/gas-station-demand-per-capita/, /case-studies/rv-park-ossipee-new-hampshire-usda/, /case-studies/gas-station-florida-sba/ (by value)
+RPA-023	$217.2 million	Adams County recreation spending 2025	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:119	N	Also on /asset-classes/marina/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RPA-024	26.5%	Recreation share of Adams County spending	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:119	Y	
+RPA-025	20%	Recreation share of Pennsylvania spending	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:119	N	Already on served page /research-notes/absorption-forensics/, /research-notes/underserved-gas-station-markets/, /case-studies/truck-stop-texas-sba/ (by value)
+RPA-026	5,109	Jobs directly supported by Adams visitors 2025	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:120	Y	
+RPA-027	$74.9 million	State and local tourism tax revenue 2025	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:121	N	Also on /asset-classes/self-storage/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RPA-028	$78.9 million	Federal tourism tax revenue 2025	research	I77c	PA DCED / Tourism Economics via FOX43 (2025 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:121	Y	
+RPA-029	$809.2 million	Adams County visitor spending 2024	research	I77c	Central Penn Business Journal; Keystone Newsroom (2024 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-030	$89.8 million	Adams County lodging spending 2024	research	I77c	Keystone Newsroom (2024 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-031	5,101	Adams jobs supported by visitors 2024	research	I77c	Keystone Newsroom (2024 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-032	$178.8 million	Adams visitor labor income 2024	research	I77c	Keystone Newsroom (2024 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-033	5,392	Adams jobs supported by visitors 2019	research	I77a	Destination Gettysburg press release on Tourism Economics 2024 report	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-034	$786 million	Adams County visitor spending 2023	research	I77c	Keystone Newsroom (2024 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-035	5,067	Adams jobs supported by visitors 2023	research	I77c	Keystone Newsroom (2024 report)	CS-R-RV-PARK-PENNSYLVANIA-USDA:122	Y	
+RPA-036	730,398	Gettysburg NMP recreation visits 2025	research	I77c	hereandthere.club compiled from NPS statistics	CS-R-RV-PARK-PENNSYLVANIA-USDA:123	Y	Compiler of NPS annual statistics; borderline
+RPA-037	804.8K	Gettysburg NMP total visits 2025	research	I77c	hereandthere.club compiled from NPS statistics	CS-R-RV-PARK-PENNSYLVANIA-USDA:123	Y	Compiler of NPS annual statistics; borderline
+RPA-038	2.98M	Gettysburg NMP recreation hours 2025	research	I77c	hereandthere.club compiled from NPS statistics	CS-R-RV-PARK-PENNSYLVANIA-USDA:123	N	Also on /states/kansas/ (state/hub/metro page; yields to the case under A4, strict reading excludes); Compiler of NPS annual statistics; borderline
+RPA-039	129	Gettysburg NMP overnight stays 2025	research	I77c	hereandthere.club compiled from NPS statistics	CS-R-RV-PARK-PENNSYLVANIA-USDA:123	N	Single-park tiny count; compiler; not separately distinctive
+RPA-040	72.44%; 67.50%	Adams County common level ratio, 1 Jul 2025 and 1 Jul 2026	research	I77a	County of Adams Millage Rate Chart	CS-R-RV-PARK-PENNSYLVANIA-USDA:147	Y	Two charts; both dated by their effective dates
+RPA-041	5.1393; 0.7764; 11.4851; 11.8870	County, township and school district millage	research	I77a	County of Adams ACFR 2025; Millage Chart	CS-R-RV-PARK-PENNSYLVANIA-USDA:142-144	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+RPA-042	17.4008	Combined millage rate	research	I77a	Research arithmetic	CS-R-RV-PARK-PENNSYLVANIA-USDA:145	N	Research arithmetic (I55)
+RPA-043	6%; 5%; 1.70%; 7.9%; 11%	Hotel, sales and earned income taxes; Granite Hill tax practice	research	none	PA DOR; Adams County; Granite Hill	CS-R-RV-PARK-PENNSYLVANIA-USDA:148-152	N	Rule values; some "current" only (I86)
+RPA-044	85%; 80%; 3%; 0.55%; 1%; 0.50%	USDA B&I guarantee and fees	research	I77a	Federal Register 2026-04581; USDA RD	CS-R-RV-PARK-PENNSYLVANIA-USDA:162-165	N	Program rule values
+RPA-045	$915,000; $1,190,000; 19.87 acres; 27 sites; 400 sq ft	Subject listing	research	none	Bright MLS via Real Estate Innovations	CS-R-RV-PARK-PENNSYLVANIA-USDA:36-40	N	Subject listing figures (I64)
+RPA-046	459; 384; 300; 200; 264; 90; 224; 1,125 acres; 59	Competitor and park site counts	research	none	Thousand Trails; operators; DCNR	CS-R-RV-PARK-PENNSYLVANIA-USDA:78-109	N	Single named facilities (I64)
+RPA-047	$64-$150; $69; $2,900; $99; $70; $107; $81; $74; $22	Competitor posted rates and offers	research	none	Operator sites (checked Oct 2026); Good Sam	CS-R-RV-PARK-PENNSYLVANIA-USDA:78-84	N	Single facilities; fetch-dated (I69) or aggregator
+RPA-048	89.42; 57.03; 24.83; 37.11; 43.33; 46.74; $4,500,000	Competitor acreage and value	research	none	Realmo	CS-R-RV-PARK-PENNSYLVANIA-USDA:92-97	N	Single properties; aggregator, undated
+RPA-049	2,008; 405; 4.2; 82%; 48	Review counts and ratings	research	none	Facebook; aggregators	CS-R-RV-PARK-PENNSYLVANIA-USDA:94-98	N	Undated ratings and review counts
+RPA-050	85,000 acre	Michaux State Forest	research	none	Bright MLS listing text	CS-R-RV-PARK-PENNSYLVANIA-USDA:128	N	Listing text, undated
+RPA-051	$599.00	Travel Resorts membership maintenance fee	research	I77a	Resale site (April 2026)	CS-R-RV-PARK-PENNSYLVANIA-USDA:82	N	Single operator fee, secondary
+RPA-052	6210 Chambersburg Rd; 12/17/2024	Related listing posting date	research	I77a	CampgroundsForSale.com	CS-R-RV-PARK-PENNSYLVANIA-USDA:43	N	Single listing
+RPA-053	6%; no county add-on	Pennsylvania sales tax	research	none	SalesTaxHandbook (Jul 2026)	CS-R-RV-PARK-PENNSYLVANIA-USDA:150	N	Rule value
+RPA-054	NOT FOUND	Median age, households, AADT, flood zone, B&I lenders, new campgrounds	research	none	NOT FOUND	CS-R-RV-PARK-PENNSYLVANIA-USDA:44-66	N	NOT FOUND rows
+#SUMMARY rv-park-pennsylvania-usda counted=25 research=25 register=0 verdict=FOLD engine=N notes=no register geo covers Adams County so register 0; A4 gives 31 counted, 31 research, PAGE

@@ -1,0 +1,33 @@
+childcare-gonzales-louisiana-sba writer notes (2026-10-29)
+
+DETERMINATION
+- As proposed (10% equity, loan 3,919,256 on a 4,354,729 project): fails, Year 2 DSCR 0.15x against 1.15x.
+- As restructured by the engine: equity 87.4% (3,722,431), loan 536,643, Year 2 DSCR 1.15x, TPC 4,259,074.
+- Finding: demand is real; a ground-up center on purchased land cannot carry a 7(a) loan at tuition inside the range a local operator posts. Routes named on the page: more cash, smaller building, acquisition, lease and fit-out.
+
+NUMBERS
+- Body words 6,050 (range 4,500 to 6,500; I trimmed from 6,315). Pagecheck: counted 38 (research 31, register 7/7), overlap max 6.27% (gas-station-texas-sba), 0 PROBLEM lines, no "link to missing page" line. Gate 8: 245 tokens, 0 hits. Dashes 0, banned names 0.
+- Lender conditions: 12.
+- Sources: 35, all cited. Competitor pages confirmed by my own fetch on 2026-10-29: goldenrulekids.com (Dutchtown and St. Amant), kidskavellc.com, aloveforkids.com home page.
+
+NOT FOUND ITEMS TURNED INTO LENDER CONDITIONS
+Zoning district and by-right or conditional status; city or unincorporated jurisdiction; approval timeline; impact and connection fees; FEMA flood zone (parish flood map portal named); water, sewer, electric and gas providers; DOTD AADT; 3-mile radius demographics and daytime employment; licensed capacity and rates for the twelve unconfirmed competitors; year opened, assessor tax records and acreage for competitors; pipeline and building permits; Ascension CCAP waitlist; feeder school enrolment; commercial assessment ratio and sales tax rate; construction cost index; site-specific wind and flood insurance; Ascension 7(a) loan history; USDA, HUBZone and Opportunity Zone status; state licensing child-to-staff ratios (the research cites Bulletin 137 for fees and license types only).
+
+RESEARCH FIGURES DROPPED OR NOT PRINTED, AND WHY
+- Subject listing: address, MLS and parcel ids, ask, both acreages, broker and office, coordinates (gate 8; all in dnu.tsv). Competing Edenborne listing (address, ask, acreage, MLS id) not printed either; the land assumption says only that two commercial parcels of about the size were offered and the model sits between their per-acre asks.
+- Undated: Golden Rule weekly rates and fees (researcher check Oct 2026 only; I69/I77), Golden Rule St. Amant rates, A Love For Kids infant payment (and its payment page now returns 404), all directory capacities (childcarecenter.us, daycare.com), CareLuLu 18 centers and $526, Ready Start site scores (2020-21 and 2021-22 only, too old), USAFacts 2.9%, National Mortgage Center home value/tax, Southern Title and EDC millage, Pelican Post $1.9M mill, Wikipedia flood counts, Louisiana Illuminator place-archive items (Blue Point jobs, Mitsubishi), BASF, Advocate sponsored content (29 projects), EPI $8,153, Hours of operation. Tuition rates enter the model as labelled assumptions "inside the posted range" with no competitor number printed.
+- SBA program-rule values from the research (SOP effective date, $50,000 collateral, citizenship and LPR notices, 25% fee retention, SOP 8.1 via secondary sources): not stated, because rules come only from sba: markers; the citizenship notice numbers also conflict between sources.
+- Pre-count rows the tool treats as taken by other pages (so not counted here): 15.2%, 38.9, $860,000, $1.1M, $13.00, 8,000, 1,300, 1,500, $4 billion, $12.5M, $34M, $6M, $5M, $6.8M, 15 and others; they are still printed, cited. Plain counts such as 28, 18, 175, 624, 90 lenders are not recognized as figures by pagecheck, so they print but do not count.
+- Register: used the FY2016 to FY2025 window for Louisiana child care 7(a) loans and volume (the "all years" values need allow_flag and an undercount note); the loan count 55 was taken by another page, the volume counts.
+
+SOURCE SUBSTITUTIONS
+- SBA guaranty 75% sourced to the SBA 7(a) terms page and SOP/fee/H.15/eCFR entries copied from the gas-station-texas-sba exemplar rather than the research file's CRS and Partner ESI copies.
+- Arithmetic I typed from cited figures: 1,841 (13,930 less 12,089), 8,606 (135,105 less 126,499), 1,564 and 2,038 (smallest and largest year-over-year gains in the five parish estimates), 250 million (340 less 90), about $453,000 (6.8M over 15 loans), 2.4% (15 of 624), about 2.7 times (33,197 over 12,231).
+
+ASSUMPTIONS TO REVIEW
+Every cost, ratio, occupancy and tuition input is an assumption (the research holds no cost or occupancy data): 150 licensed children, 12,000 sq ft at $200/sq ft, 2 acres at $200,000/acre, occupancy 50/72/84/88/88%, weekly rates 205/170/105, wage $14.00 (midpoint of one Aug 2025 posting), 1:6, 1:11, 1:15 ratios, admin payroll $160,000, property tax 1.2% of cost. The result is highly sensitive to them. Building size was chosen as 12,000 (not 12,500) only so that no computed row prints x,500,000, which the raw gate 8 token for the subject ask would match.
+
+ENGINE LIMITATIONS
+- When Year 2 NOI is negative at every equity share the engine cannot restructure (restructured equals proposed and DSCR stays below the floor). My first inputs hit this; I raised capacity and trimmed cost assumptions to mid-range values instead of faking it. A "no structure works" verdict would need a engine branch.
+- {{case:v...}} placeholders are not expanded in FAQ answers (build error), only in hero_sub and the body.
+- Gate 8 raw token test flags "2,500,000" for the token 500,000 (preceding comma is not alphanumeric); the flattened test is correct but the raw test is not.

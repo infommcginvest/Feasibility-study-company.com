@@ -1,0 +1,67 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+R001	9,220	Fort Valley population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:56	Y	
+R002	4.9%	Fort Valley population change 2020-2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:59	Y	
+R003	29,877	Peach County population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:57	Y	
+R004	6.7%	Peach County population change 2020-2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:59	Y	
+R005	11,302,748	Georgia population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:58	N	on served page case-studies/gas-station-georgia-sba
+R006	5.5%	Georgia population change 2020-2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:59	N	on served page case-studies/gas-station-georgia-sba
+R007	3,251	Fort Valley households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-MEAT-PROCESSING-GEORGIA-USDA:60	Y	
+R008	10,598	Peach County households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-MEAT-PROCESSING-GEORGIA-USDA:60	Y	same value as register co-13225.acs5_households, counted once as research
+R009	$50,283	Fort Valley median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-MEAT-PROCESSING-GEORGIA-USDA:61	Y	
+R010	$71,293	Peach County median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-MEAT-PROCESSING-GEORGIA-USDA:61	Y	same value as register co-13225.acs5_median_hh_income, counted once as research
+R011	29.6%	Fort Valley persons in poverty	research	none	U.S. Census Bureau, QuickFacts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:62	N	research dates it only "latest QuickFacts" (I86)
+R012	17.7%	Peach County persons in poverty	research	none	U.S. Census Bureau, QuickFacts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:62	N	research dates it only "latest QuickFacts" (I86)
+R013	32.9	Fort Valley median age	research	I77c	Census Reporter, ACS 2024 5-year	CS-R-MEAT-PROCESSING-GEORGIA-USDA:63	Y	
+R014	37.6	Georgia median age	research	I77c	Census Reporter, ACS 2024 5-year	CS-R-MEAT-PROCESSING-GEORGIA-USDA:63	Y	
+R015	7,571	Peach County CBP jobs, 2023	research	I77c	U.S. Census Bureau, County Business Patterns 2023 via QuickFacts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:64	Y	
+R016	504	Peach County CBP employer establishments, 2023	research	I77c	U.S. Census Bureau, County Business Patterns 2023 via QuickFacts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:64	Y	
+R017	3.0%	Peach County CBP job change 2022 to 2023	research	I77c	U.S. Census Bureau, County Business Patterns 2023 via QuickFacts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:64	Y	
+R018	1,620,760	Regional population (Development Authority)	research	none	Development Authority of Peach County	CS-R-MEAT-PROCESSING-GEORGIA-USDA:65	N	period not stated, region undefined
+R019	719,334	Regional labor force (Development Authority)	research	none	Development Authority of Peach County	CS-R-MEAT-PROCESSING-GEORGIA-USDA:65	N	period not stated, region undefined
+R020	970,000	Georgia all cattle and calves, 1 Jan 2026	research	I77c	USDA NASS, State Agriculture Overview Georgia	CS-R-MEAT-PROCESSING-GEORGIA-USDA:117	Y	
+R021	441,000	Georgia beef cows, 1 Jan 2026	research	I77c	USDA NASS, State Agriculture Overview Georgia	CS-R-MEAT-PROCESSING-GEORGIA-USDA:118	Y	
+R022	89,000	Georgia milk cows, 1 Jan 2026	research	I77c	USDA NASS, State Agriculture Overview Georgia	CS-R-MEAT-PROCESSING-GEORGIA-USDA:118	Y	
+R023	1%	Georgia cattle inventory change Jan 2026 vs Jan 2025 (US beef cows also down 1%)	research	I77a	Clemson Livestock & Forages blog, 30 Jan 2026 (NASS data)	CS-R-MEAT-PROCESSING-GEORGIA-USDA:119	Y	
+R024	86.2 million	US cattle inventory, 1 Jan 2026	research	I77a	USDA NASS news release 30 Jan 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:120	N	on served page case-studies/meat-processing-texas-usda (national herd 86.2 million)
+R025	86.5 million	US cattle inventory, 1 Jan 2025	research	I77a	Clemson Livestock & Forages blog, 30 Jan 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:119	Y	
+R026	27.6 million	US beef cows, 1 Jan 2026	research	I77a	USDA NASS news release 30 Jan 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:120	Y	
+R027	23	Georgia state-inspected plants eligible under CIS	research	I77a	WRDW / Atlanta News First, 28 Jul 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:121	Y	
+R028	230	Georgia small processors ("about 230")	research	I77a	Lanier County News, 11 Aug 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:122	Y	
+R029	85%	Share of market held by four packers	research	I77a	Herald & Community Journal, Aug 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:123	Y	
+R030	11	States participating in CIS with Georgia	research	I77a	USDA press release 27 Jul 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:124	Y	
+R031	60%	FSIS reimbursement share of state inspection cost	research	I77a	DRG News 28 Jul 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:124	Y	
+R032	11.382	Peach County BOC millage, tax year 2024 (mills)	research	I77a	Houston Home Journal 27 Aug 2024	CS-R-MEAT-PROCESSING-GEORGIA-USDA:137	Y	
+R033	14.5	Peach County BOE millage tentatively adopted 2025 (mills)	research	I77a	Peach County Schools notice, 22 Aug 2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:138	Y	
+R034	14.058	Peach County BOE rollback rate 2025 (mills)	research	I77a	Peach County Schools notice, 22 Aug 2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:138	Y	
+R035	14.05	Peach County BOE prior millage (mills)	research	I77a	WGXA, 10 Sep 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:139	Y	
+R036	15,360	Pounds of venison donated statewide 2019-20	research	none	WRBL	CS-R-MEAT-PROCESSING-GEORGIA-USDA:126	N	source undated; old season
+R037	$60 million	MPPEP Phase 4 funding pool	research	I77a	USDA RD news release 8 Jul 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:164	N	USDA program parameter, also in sibling meat case
+R038	$25 million	B&I guarantee ceiling for meat processors	research	I77a	Beef Magazine 12 Nov 2025	CS-R-MEAT-PROCESSING-GEORGIA-USDA:163	N	program rule value
+R039	$17.2 million	Georgia Food Supply Chain RLF	research	none	CSRA Business Lending	CS-R-MEAT-PROCESSING-GEORGIA-USDA:165	N	research dates it only "Current" (I86)
+R040	3%	B&I standard guarantee fee	research	I77a	USDA RD / Federal Register 9 Mar 2026	CS-R-MEAT-PROCESSING-GEORGIA-USDA:158	N	program rule value
+R041	1.0%	B&I reduced guarantee fee	research	I77a	Federal Register 91 FR 11272	CS-R-MEAT-PROCESSING-GEORGIA-USDA:159	N	program rule value
+R042	0.55%	B&I annual retention fee	research	I77a	USDA RD program page	CS-R-MEAT-PROCESSING-GEORGIA-USDA:160	N	program rule value
+R043	80%	B&I loan guarantee at reduced fee	research	I77a	Federal Register 91 FR 11272	CS-R-MEAT-PROCESSING-GEORGIA-USDA:159	N	program rule value
+R044	$1,222,302	Flint Packers MPPEP grant	research	I77a	USDA RD FY2024 MPPEP chart 10 Jul 2024	CS-R-MEAT-PROCESSING-GEORGIA-USDA:82	N	one named facility financing (I66)
+R045	12,000	Flint Packers plant sq ft	research	I77a	USDA RD FY2024 MPPEP chart	CS-R-MEAT-PROCESSING-GEORGIA-USDA:82	N	one named facility size (I64)
+R046	$1,518,081	Frontier MPPEP grant	research	I77a	USDA RD MPPEP combined charts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:105	N	one named facility financing (I66)
+R047	17	Frontier new full-time jobs	research	I77a	USDA RD MPPEP combined charts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:105	N	one named project
+R048	$2,775,600	Hero Management MPPEP grant	research	I77a	USDA RD MPPEP combined charts	CS-R-MEAT-PROCESSING-GEORGIA-USDA:107	N	one named facility financing (I66)
+R049	$2,674,427	North Georgia Meat Company grant	research	I77a	USDA AMS FY2024 Local Meat Capacity Grants	CS-R-MEAT-PROCESSING-GEORGIA-USDA:108	N	one named facility financing (I66)
+R050	[subject figure withheld]	Subject asking price	research	none	LoopNet 34728783	CS-R-MEAT-PROCESSING-GEORGIA-USDA:30	N	subject listing figure
+R051	[subject figure withheld]	Subject acres	research	none	Development Authority of Peach County	CS-R-MEAT-PROCESSING-GEORGIA-USDA:29	N	subject attribute (I64)
+R052	6,790	ADT at Highway 341	research	none	Development Authority of Peach County	CS-R-MEAT-PROCESSING-GEORGIA-USDA:41	N	year not stated
+R053	65,500	ADT I-75	research	none	Development Authority of Peach County	CS-R-MEAT-PROCESSING-GEORGIA-USDA:42	N	year not stated
+R054	13,800	ADT Highway 96	research	none	Development Authority of Peach County	CS-R-MEAT-PROCESSING-GEORGIA-USDA:42	N	year not stated
+R055	40%	Georgia assessment ratio	research	none	Georgia Department of Revenue	CS-R-MEAT-PROCESSING-GEORGIA-USDA:136	N	rule value, research dates it only "Current"
+G01	6.6%	Peach County unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key co-13225.acs5_unemployment_rate	Y	
+G02	$48,711	Peach County per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key co-13225.bea_per_capita_income	Y	
+G03	$1.42 billion	Peach County total personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_personal_income.json key co-13225.bea_personal_income	Y	
+G04	$940	Peach County median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key co-13225.acs5_median_gross_rent	Y	
+G05	$207,800	Peach County median home value, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_home_value.json key co-13225.acs5_median_home_value	Y	
+G06	$34,046	Peach County per capita income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_per_capita_income.json key co-13225.acs5_per_capita_income	Y	
+G07	14,135	Peach County civilian labor force, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_labor_force.json key co-13225.acs5_labor_force	Y	
+G08	$63,006	Georgia per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key ga.bea_per_capita_income	Y	
+G09	5.1%	Georgia unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key ga.acs5_unemployment_rate	Y	
+G10	$1,393	Georgia median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key ga.acs5_median_gross_rent	Y	
+#SUMMARY meat-processing-georgia-usda counted=38 research=28 register=10 verdict=PAGE engine=N notes=GA population pair and 86.2 million blocked by same-rank case pages; Census, NASS, millage rows carry it

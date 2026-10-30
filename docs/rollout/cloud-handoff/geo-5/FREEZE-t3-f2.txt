@@ -1,0 +1,13 @@
+# GEO-5 t3 freeze 2, final (2026-10-28T21:12Z)
+worktree HEAD 851c315279b9edbf952de22db7ba6575093bea39 (local main 24aa91e merged)
+fixes: reviews/t3-f1-verifier-fix.py (11 edits: deletions and labels restored to the source's words; integrator diff check, D24)
+source south-dakota 2fca5fc115e60d67ac96c27cf7eb0d713f1bc296d79a2519b5ecd6c0ed55f44b copy 2fca5fc115e60d67ac96c27cf7eb0d713f1bc296d79a2519b5ecd6c0ed55f44b
+rendered /states/south-dakota/ 11df61bce164e9a22b987bef38d7867d3feb83e107388c35acde09f4e526ea18
+src/pages/states tree d3681d2be2424fce18424ca611db23e8a1cf9adbe5b6c8765de9420fb7a6aa00
+gates READY 9dd872a94235136d4970462d007913824e2d101874f99300e2acec94542bb02e; landing 3,9 site-wide c488ef81ae483be84b074d109031019f473fb2274e26af67869bba3983747da8
+reviews/t3-f1-attacker1.md fcdf53ebd9040a3ec178a918b2d764fb9726ecbd652769f0e443f84448f00d19
+reviews/t3-f1-attacker2.md 894ed6b4f7e028b7948c81faaed43be6f3c7f22afd9baa0d58c9edfc109542ae
+reviews/t3-f1-verifier.md aa7f0324e6fdff77d22a0a24da154a134b3a026fa8c853ceb049f5daecd43ec9
+reviews/t3-f1-verifier-fix.py 200b9a3bb8ad700498810450d2940b26a291c1304087bae7e99d994a61a76c7a
+FREEZE-t3-f1.txt aa0194ababf13a864bdcedd4e84eb4c200be6937d793c0db7463a7dec73cf0db
+GATES-t3-f0.txt 6276158ce72dd3efc2c64289bad4ec4404d8fabd7d9fdc7bb7800a223c7cb07a

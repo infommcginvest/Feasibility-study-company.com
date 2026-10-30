@@ -1,0 +1,56 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+HAYS-001	21,258	Hays city population 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-N-HOTEL-KANSAS-USDA-BI:50	Y	
+HAYS-002	29,075	Ellis County population 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-N-HOTEL-KANSAS-USDA-BI:50	Y	
+HAYS-003	21,144	Hays city estimates base Apr 2020	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-N-HOTEL-KANSAS-USDA-BI:51	Y	
+HAYS-004	28,933	Ellis County estimates base Apr 2020	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-N-HOTEL-KANSAS-USDA-BI:51	Y	
+HAYS-005	+0.5%	Hays and Ellis County population change Apr 2020 to Jul 2025 (same value for both)	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-N-HOTEL-KANSAS-USDA-BI:52	N	same value printed on served page(s): /research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/, /research-notes/c-store-franchise-category/, /research-notes/gas-station-demand-per-capita/, /practice-areas/sba-7a-504/ (+40 more)
+HAYS-006	73%	Hays share of Ellis County residents	research	none	research arithmetic on 21,258 of 29,075	CS-N-HOTEL-KANSAS-USDA-BI:46	N	the research's own arithmetic (I55)
+HAYS-007	1,031	Hays citywide hotel room inventory Dec 2019	research	I77a	Hays Post, Hays City Commission approves CID for new Avid Hotel, 14 Dec 2019	CS-N-HOTEL-KANSAS-USDA-BI:85	Y	
+HAYS-008	1,119	Hays citywide peak room inventory Dec 2019	research	I77a	Hays Post, 14 Dec 2019	CS-N-HOTEL-KANSAS-USDA-BI:85	Y	
+HAYS-009	8.25%	Hays transient guest tax rate	research	I77a	Hays Post, 9 Aug 2025 and 26 Oct 2024	CS-N-HOTEL-KANSAS-USDA-BI:143	N	same value printed on served page(s): /case-studies/truck-stop-texas-sba/, /case-studies/rv-boat-storage-texas-sba/, /case-studies/rv-park-ossipee-new-hampshire-usda/, /case-studies/auto-dealership-texas-sba/ (+6 more)
+HAYS-010	$42,000	staff increase to 2026 guest tax revenue estimate	research	I77a	Hays Post, 9 Aug 2025	CS-N-HOTEL-KANSAS-USDA-BI:121	Y	
+HAYS-011	$250,000	guest tax yield of a 1.25 point increase	research	I77a	Hays Post, 26 Oct 2024	CS-N-HOTEL-KANSAS-USDA-BI:121	N	same string as the listing ask in dnu.txt, cannot be printed on this page
+HAYS-012	9.25%	Hays total local sales tax rate	research	I77a	Hays Post, 12 Sep 2026 (corrected 15 Sep 2026)	CS-N-HOTEL-KANSAS-USDA-BI:142	N	same value printed on served page(s): /states/oklahoma/
+HAYS-013	1.25%	city portion of the Hays sales tax	research	I77a	Hays Post, 12 Sep 2026	CS-N-HOTEL-KANSAS-USDA-BI:142	N	same value printed on served page(s): /asset-classes/childcare-and-daycare/, /case-studies/truck-stop-texas-sba/, /case-studies/travel-center-hankamer-texas-usda/, /states/wisconsin/
+HAYS-014	6.5%	Kansas state sales tax on rooms	research	I77a	Kansas Department of Revenue, Pub. KS-1540 rev. 29 Jul 2025	CS-N-HOTEL-KANSAS-USDA-BI:141	N	same value printed on served page(s): /research-notes/coverage-constrained-takeout/, /research-notes/break-even-occupancy-trap/, /practice-areas/sba-7a-504/, /asset-classes/medical-office-and-asc/ (+29 more)
+HAYS-015	24.381	Hays city mill levy 2026	research	I77a	Hays Post, 12 Sep 2026	CS-N-HOTEL-KANSAS-USDA-BI:135	Y	
+HAYS-016	24.153	Hays city mill levy 2027 budget	research	I77a	Hays Post, 12 Sep 2026	CS-N-HOTEL-KANSAS-USDA-BI:135	Y	
+HAYS-017	1.96	Ellis County 2026 budget mill levy increase	research	I77a	Hays Post, 9 Sep 2025	CS-N-HOTEL-KANSAS-USDA-BI:137	N	same value printed on served parent page(s): /asset-classes/hotel/; yields to the case under A4, strict reading excludes
+HAYS-018	$34.7 million	Ellis County general fund 2026 budget	research	I77a	Hays Post, 9 Sep 2025	CS-N-HOTEL-KANSAS-USDA-BI:137	N	same value printed on served page(s): /case-studies/auto-dealership-texas-sba/
+HAYS-019	35.99	Ellis County draft general fund levy (mills) before	research	I77a	Hays Post, 14 Aug 2025	CS-N-HOTEL-KANSAS-USDA-BI:137	Y	
+HAYS-020	37.83	Ellis County draft general fund levy (mills) after	research	I77a	Hays Post, 14 Aug 2025	CS-N-HOTEL-KANSAS-USDA-BI:137	Y	
+HAYS-021	4.14	Ellis County Fire District levy (mills) draft	research	I77a	Hays Post, 14 Aug 2025	CS-N-HOTEL-KANSAS-USDA-BI:137	Y	
+HAYS-022	32.72	USD 489 local levies 2024-25 (mills)	research	none	Hays Post, Hays USD 489 revenue to increase (undated in research)	CS-N-HOTEL-KANSAS-USDA-BI:136	N	article undated in research, 2024-25 is a budget year in the period cell (I77)
+HAYS-023	12,849	FHSU total enrollment fall 2025	research	I77a	Hays Post, 1 Oct 2025 citing KBOR	CS-N-HOTEL-KANSAS-USDA-BI:113	Y	
+HAYS-024	12,878	FHSU total enrollment fall 2024	research	I77a	Hays Post, 1 Oct 2025 citing KBOR	CS-N-HOTEL-KANSAS-USDA-BI:113	Y	
+HAYS-025	1,096	FHSU first-time new undergraduates fall 2025	research	I77a	Fort Hays State University news, Oct 2025	CS-N-HOTEL-KANSAS-USDA-BI:114	N	same value printed on served page(s): /states/north-carolina/charlotte/
+HAYS-026	3,908	FHSU on-campus headcount fall 2025	research	none	FHSU About page vs student media	CS-N-HOTEL-KANSAS-USDA-BI:115	N	the research flags a conflict (3,908 vs 3,804) and the About page is undated
+HAYS-027	13,359	FHSU full-time equivalent enrollment fall 2026	research	none	Hays Post, FHSU enrollment up (undated in research)	CS-N-HOTEL-KANSAS-USDA-BI:116	N	article carries no date in the research; period cell only
+HAYS-028	150,000	HaysMed population base	research	none	HaysMed careers page, 'Current'	CS-N-HOTEL-KANSAS-USDA-BI:57	N	operator claim, undated
+HAYS-029	207	HaysMed beds	research	none	HaysMed careers page, 'Current'	CS-N-HOTEL-KANSAS-USDA-BI:117	N	single-facility attribute, undated
+HAYS-030	90	Crossroads acres	research	I77a	Hays Post, 5 Sep 2026	CS-N-HOTEL-KANSAS-USDA-BI:98	N	acreage of one named site (I64)
+HAYS-031	13	161 First Addition lots	research	I77a	Hays Post, 26 Jul 2026	CS-N-HOTEL-KANSAS-USDA-BI:99	N	attribute of one named plat (I64)
+HAYS-032	9,000	24/7 Travel Plaza square feet	research	I77a	Hays Post, 11 Apr 2026	CS-N-HOTEL-KANSAS-USDA-BI:101	N	single project attribute (I64)
+HAYS-033	$11.1 million	24/7 Travel Store project	research	none	Hays Post (undated in research)	CS-N-HOTEL-KANSAS-USDA-BI:102	N	single project financing and undated (I64, I66)
+HAYS-034	$622,836	avid hotel CID sales tax estimate	research	I77a	Hays Post, 14 Dec 2019	CS-N-HOTEL-KANSAS-USDA-BI:87	N	single property incentive estimate (I64)
+HAYS-035	11.5%	Ellis County residential assessment ratio	research	none	Ellis County, 'How Taxes are Figured', 'Current'	CS-N-HOTEL-KANSAS-USDA-BI:139	N	undated, residential
+HAYS-036	85%	USDA B&I guarantee under $5 million FY2026	research	I77a	USDA RD B&I Kansas page, modified 26 Aug 2025	CS-N-HOTEL-KANSAS-USDA-BI:157	N	USDA program rule value
+HAYS-037	0.55%	USDA B&I annual retention fee	research	I77a	Federal Register 2026-04581, 9 Mar 2026	CS-N-HOTEL-KANSAS-USDA-BI:158	N	USDA program rule value
+HAYS-038	$2,093,151,202	USDA FY2026 B&I funding availability	research	I77a	USDA RD OneRD Guarantee page, modified 8 Oct 2026	CS-N-HOTEL-KANSAS-USDA-BI:161	N	national program funding, not case-specific
+HAYS-039	14	CVB-listed hotels	research	none	Hays CVB, retrieved 15 Oct 2026	CS-N-HOTEL-KANSAS-USDA-BI:84	N	count dated only by the researcher's retrieval; research's own summary count
+HAYS-040	$78-$169	posted rates seen on brand sites	research	none	brand sites checked 15 Oct 2026	CS-N-HOTEL-KANSAS-USDA-BI:9	N	dated only by the researcher's retrieval (I69, I106)
+HAYS-041	100; 80; 91; 79; 67; 75; 55; 55; 30; 43; 61; 100; 104; 76	competitor keys (14 hotels)	research	none	brand and OTA pages	CS-N-HOTEL-KANSAS-USDA-BI:67-80	N	single-property attributes (I64), mostly secondary and undated
+HAYS-042	$1,200,000; 87; 24,108	hotel offered for sale, CityFeet	research	none	CityFeet listing	CS-N-HOTEL-KANSAS-USDA-BI:88	N	listing figures and dnu.txt
+HAYS-043	$200,000; $300,000; $350,000; $275,000	other General Hays Rd lot asks	research	none	Redfin	CS-N-HOTEL-KANSAS-USDA-BI:35	N	listing prices and dnu.txt
+HAYS-044	2.1; $250,000; $275,000; 180+	subject lot listing figures	research	none	Trulia, Homes.com	CS-N-HOTEL-KANSAS-USDA-BI:30-33	N	subject's own listing figures and dnu.txt
+HAYS-045	$63,084	Ellis County median household income, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_median_hh_income.json values.co-20051.all.v	Y	
+HAYS-046	$37,483	Ellis County per capita income, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_per_capita_income.json values.co-20051.all.v	Y	
+HAYS-047	$58,325	Ellis County per capita personal income 2024	register	I77c	BEA regional accounts 2024 via register	data/markets/series/bea_per_capita_income.json values.co-20051.all.v	Y	
+HAYS-048	$1,691,847,000	Ellis County personal income 2024	register	I77c	BEA regional accounts 2024 via register	data/markets/series/bea_personal_income.json values.co-20051.all.v	Y	
+HAYS-049	$943	Ellis County median gross rent, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_median_gross_rent.json values.co-20051.all.v	Y	
+HAYS-050	12,251 households	Ellis County households, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_households.json values.co-20051.all.v	Y	
+HAYS-051	17,006 workers	Ellis County civilian labor force, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_labor_force.json values.co-20051.all.v	Y	
+HAYS-052	4,616 residents	Ellis County residents 65 and over, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_pop65.json values.co-20051.all.v	Y	
+HAYS-053	7,742 households	Ellis County owner-occupied households, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_owner_occupied.json values.co-20051.all.v	Y	
+HAYS-054	4,509 households	Ellis County renter-occupied households, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 2020-2024 5-year via register	data/markets/series/acs5_renter_occupied.json values.co-20051.all.v	Y	
+#SUMMARY hotel-hays-kansas-usda counted=24 research=14 register=10 verdict=FOLD engine=N notes=short 6 research, 6 total; Census and Hays Post rows carry it; competitor, listing and USDA rule rows excluded

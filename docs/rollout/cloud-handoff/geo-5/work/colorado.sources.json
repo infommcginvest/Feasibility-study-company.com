@@ -1,0 +1,422 @@
+{
+ "dola": {
+  "publisher": "Colorado State Demography Office (DOLA), relaying U.S. Census Bureau Vintage 2025 estimates",
+  "title": "Colorado's State Demography Office Summarizes the U.S. Census Data Released Today",
+  "date": "January 27, 2026 (population July 1, 2025; components July 1, 2024 to June 30, 2025)",
+  "url": "https://content.govdelivery.com/accounts/CODOLA/bulletins/4065eb6"
+ },
+ "bls_co": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "BLS Mountain-Plains Information Office: Colorado",
+  "date": "October 2026 (September 2026 data, seasonally adjusted, preliminary)",
+  "url": "https://www.bls.gov/regions/mountain-plains/colorado.htm"
+ },
+ "qcew": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "County Employment and Wages in Colorado, First Quarter 2026",
+  "date": "September 4, 2026 (employment March 2026, wages first quarter 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/countyemploymentandwages_colorado.htm"
+ },
+ "fred_leih": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BLS)",
+  "title": "All Employees: Leisure and Hospitality in Colorado (COLEIH)",
+  "date": "October 20, 2026 (September 2026, seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/COLEIH"
+ },
+ "fred_pbs": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BLS)",
+  "title": "All Employees: Professional and Business Services in Colorado (COPBSV)",
+  "date": "October 20, 2026 (September 2026, seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/COPBSV"
+ },
+ "fred_gdp": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Gross Domestic Product: All Industry Total in Colorado (CONQGSP)",
+  "date": "September 30, 2026 (second quarter 2026, seasonally adjusted annual rate)",
+  "url": "https://fred.stlouisfed.org/series/CONQGSP"
+ },
+ "fred_rgdp": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Real Gross Domestic Product: All Industry Total in Colorado (CORQGSP)",
+  "date": "September 30, 2026 (second quarter 2026, seasonally adjusted annual rate)",
+  "url": "https://fred.stlouisfed.org/series/CORQGSP"
+ },
+ "vail": {
+  "publisher": "Vail Daily (news report on the Legislative Council Staff and OSPB forecasts)",
+  "title": "Colorado barrels toward another tight budget year amid economic headwinds",
+  "date": "December 21, 2025 (December 2025 forecasts)",
+  "url": "https://www.vaildaily.com/news/colorado-lawmakers-tight-budget-year-economic-headwinds/"
+ },
+ "acs5": {
+  "publisher": "U.S. Census Bureau",
+  "title": "American Community Survey 5-Year Estimates, Detailed Tables (Census Data API)",
+  "date": "2020 to 2024 five-year estimates; retrieved October 16, 2026",
+  "url": "https://api.census.gov/data/2024/acs/acs5"
+ },
+ "acs1": {
+  "publisher": "U.S. Census Bureau",
+  "title": "American Community Survey 1-Year Estimates, Detailed Tables (Census Data API)",
+  "date": "2024 one-year estimates; retrieved October 16, 2026",
+  "url": "https://api.census.gov/data/2024/acs/acs1"
+ },
+ "kjct": {
+  "publisher": "KJCT News (reporting Colorado Tourism Office research by Dean Runyan Associates and Longwoods International)",
+  "title": "Colorado tourism hits record $29.2 billion in 2025, but growth slows",
+  "date": "July 29, 2026 (calendar 2025)",
+  "url": "https://www.kjct8.com/2026/07/30/colorado-tourism-hits-record-292-billion-2025-growth-slows/"
+ },
+ "snow": {
+  "publisher": "SnowBrains (reporting Colorado Tourism Office research)",
+  "title": "Colorado Tourism Hits Record $29.2 Billion in 2025 But Growth Slows",
+  "date": "September 2, 2026 (calendar 2025)",
+  "url": "https://snowbrains.com/colorado-tourism-hits-record-29-2-billion-in-2025-but-growth-slows/"
+ },
+ "fred_medlist": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Median Listing Price in Colorado (MEDLISPRICO)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRICO"
+ },
+ "fred_listings": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Active Listing Count in Colorado (ACTLISCOUCO)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOUCO"
+ },
+ "fred_hpi": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: FHFA)",
+  "title": "All-Transactions House Price Index for Colorado (COSTHPI)",
+  "date": "August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/COSTHPI"
+ },
+ "avnews": {
+  "publisher": "Aviation Industry News (reporting the Denver International Airport release of January 28, 2026)",
+  "title": "Denver International Airport Hits Passenger Traffic High in 2025",
+  "date": "January 29, 2026 (calendar 2025)",
+  "url": "https://aviationindustry-news.com/denver-international-airport-hits-passenger-traffic-high-in-2025"
+ },
+ "hb24_1313": {
+  "publisher": "Colorado General Assembly",
+  "title": "Housing in Transit-Oriented Communities (HB24-1313)",
+  "date": "signed and effective May 13, 2024",
+  "url": "https://leg.colorado.gov/bills/HB24-1313"
+ },
+ "hb24_1304": {
+  "publisher": "Colorado General Assembly",
+  "title": "Minimum Parking Requirements (HB24-1304)",
+  "date": "signed May 10, 2024; effective August 7, 2024",
+  "url": "https://leg.colorado.gov/bills/HB24-1304"
+ },
+ "hb24_1007": {
+  "publisher": "Colorado General Assembly",
+  "title": "Prohibit Residential Occupancy Limits (HB24-1007)",
+  "date": "signed April 15, 2024; effective July 1, 2024",
+  "url": "https://leg.colorado.gov/bills/HB24-1007"
+ },
+ "hb24_1152": {
+  "publisher": "Colorado General Assembly",
+  "title": "Accessory Dwelling Units (HB24-1152)",
+  "date": "signed May 13, 2024",
+  "url": "https://leg.colorado.gov/bills/HB24-1152"
+ },
+ "sb24_174": {
+  "publisher": "Colorado General Assembly",
+  "title": "Sustainable Affordable Housing Assistance (SB24-174)",
+  "date": "signed May 30, 2024",
+  "url": "https://leg.colorado.gov/bills/SB24-174"
+ },
+ "hb24_1175": {
+  "publisher": "Colorado General Assembly",
+  "title": "Local Governments Rights to Property for Affordable Housing (HB24-1175)",
+  "date": "signed May 30, 2024; effective August 7, 2024",
+  "url": "https://leg.colorado.gov/bills/HB24-1175"
+ },
+ "hb25_1272": {
+  "publisher": "Colorado General Assembly",
+  "title": "Construction Defects & Middle Market Housing (HB25-1272)",
+  "date": "signed May 12, 2025; effective August 6, 2025",
+  "url": "https://leg.colorado.gov/bills/HB25-1272"
+ },
+ "hb26_1001": {
+  "publisher": "Colorado General Assembly",
+  "title": "Housing Developments on Qualifying Properties (HB26-1001)",
+  "date": "signed and effective March 25, 2026",
+  "url": "https://leg.colorado.gov/bills/HB26-1001"
+ },
+ "sb26_001": {
+  "publisher": "Colorado General Assembly",
+  "title": "Workforce Housing & Housing Tax Credit (SB26-001)",
+  "date": "signed March 25, 2026; effective August 12, 2026",
+  "url": "https://leg.colorado.gov/bills/SB26-001"
+ },
+ "hb24b_1001": {
+  "publisher": "Colorado General Assembly",
+  "title": "Property Tax (HB24B-1001)",
+  "date": "signed September 4, 2024 (extraordinary session)",
+  "url": "https://leg.colorado.gov/bills/HB24B-1001"
+ },
+ "sb26_155": {
+  "publisher": "Colorado General Assembly",
+  "title": "Increase Access Homeowner's Insurance Enterprise (SB26-155)",
+  "date": "signed June 4, 2026; effective August 12, 2026",
+  "url": "https://leg.colorado.gov/bills/SB26-155"
+ },
+ "doh": {
+  "publisher": "Colorado Department of Local Affairs, Division of Housing",
+  "title": "Division of Housing Updates - August 26, 2026",
+  "date": "August 26, 2026",
+  "url": "https://content.govdelivery.com/accounts/CODOLA/bulletins/426ed49"
+ },
+ "aspen": {
+  "publisher": "The Aspen Times (reporting a Colorado Division of Insurance report)",
+  "title": "New report shows how much hail, wildfire contribute to Colorado homeowners insurance costs",
+  "date": "February 11, 2026 (Division of Insurance report released February 2026)",
+  "url": "https://www.aspentimes.com/news/colorado-homeowners-insurance-costs/"
+ },
+ "kunc_fema": {
+  "publisher": "KUNC (Colorado Capitol News Alliance / CPR News)",
+  "title": "Colorado will not receive FEMA aid for last year's fires and flooding",
+  "date": "April 14, 2026",
+  "url": "https://www.kunc.org/news/2026-04-14/colorado-will-not-receive-fema-aid-for-last-years-fires-and-flooding"
+ },
+ "fema_0915": {
+  "publisher": "FEMA",
+  "title": "Trump Administration Delivers More Than $90 Million Through FEMA to Help Communities Recover from Recent Disasters and Strengthen Their Resilience Against Future Disasters in Colorado",
+  "date": "September 15, 2026 (release R8-26-NR-025)",
+  "url": "https://www.fema.gov/press-release/20260915/trump-administration-delivers-more-90-million-through-fema-help-communities"
+ },
+ "fema_0928": {
+  "publisher": "FEMA",
+  "title": "FEMA Approves More than $784,000 in Funding to Help Colorado Recover from Recent Disasters",
+  "date": "September 28, 2026 (release R8-26-NR-032)",
+  "url": "https://www.fema.gov/press-release/20260928/fema-approves-more-784000-funding-help-colorado-recover-recent-disasters"
+ },
+ "cef": {
+  "publisher": "Colorado Enterprise Fund",
+  "title": "Colorado Enterprise Fund Wraps Fiscal Year, Distributes $18M to Small Businesses Across the State",
+  "date": "December 3, 2025 (fiscal year ended September 30, 2025)",
+  "url": "https://coloradoenterprisefund.org/blog/16049/Colorado-Enterprise-Fund-Wraps-Fiscal-Year-Distributes-18M-to-Small-Businesses-Across-the-State"
+ },
+ "ecfr": {
+  "publisher": "eCFR",
+  "title": "13 CFR 120.160, Loan conditions",
+  "date": "current to October 7, 2026",
+  "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+ },
+ "sop": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+  "date": "effective October 1, 2026",
+  "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+ },
+ "oews_cs": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Colorado Springs, May 2025",
+  "date": "August 5, 2026 (May 2025 estimates)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_coloradosprings.htm"
+ },
+ "oews_fc": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Fort Collins-Loveland, May 2025",
+  "date": "August 5, 2026 (May 2025 estimates; release 26-1213-KAN)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_fortcollins.htm"
+ },
+ "oews_boulder": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Boulder, May 2025",
+  "date": "August 5, 2026 (May 2025 estimates)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_boulder.htm"
+ },
+ "oews_greeley": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Greeley, May 2025",
+  "date": "August 5, 2026 (May 2025 estimates)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_greeley.htm"
+ },
+ "oews_pueblo": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Pueblo, May 2025",
+  "date": "August 5, 2026 (May 2025 estimates)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_pueblo.htm"
+ },
+ "oews_gj": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Grand Junction, May 2025",
+  "date": "August 5, 2026 (May 2025 estimates)",
+  "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_grandjunction.htm"
+ },
+ "bp_elpaso": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+  "title": "New Private Housing Structures Authorized by Building Permits for El Paso County, CO (BPPRIV008041)",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV008041"
+ },
+ "bp_larimer": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+  "title": "New Private Housing Structures Authorized by Building Permits for Larimer County, CO (BPPRIV008069)",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV008069"
+ },
+ "bp_weld": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+  "title": "New Private Housing Structures Authorized by Building Permits for Weld County, CO (BPPRIV008123)",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV008123"
+ },
+ "bp_summit": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+  "title": "New Private Housing Structures Authorized by Building Permits for Summit County, CO (BPPRIV008117)",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV008117"
+ },
+ "bp_eagle": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+  "title": "New Private Housing Structures Authorized by Building Permits for Eagle County, CO (BPPRIV008037)",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV008037"
+ },
+ "ml_cs": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Median Listing Price in Colorado Springs, CO (CBSA) (MEDLISPRI17820)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI17820"
+ },
+ "al_cs": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Active Listing Count in Colorado Springs, CO (CBSA) (ACTLISCOU17820)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOU17820"
+ },
+ "ml_fc": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Median Listing Price in Fort Collins, CO (CBSA) (MEDLISPRI22660)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI22660"
+ },
+ "ml_boulder": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Median Listing Price in Boulder, CO (CBSA) (MEDLISPRI14500)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI14500"
+ },
+ "al_boulder": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Active Listing Count in Boulder, CO (CBSA) (ACTLISCOU14500)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOU14500"
+ },
+ "ml_greeley": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Median Listing Price in Greeley, CO (CBSA) (MEDLISPRI24540)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI24540"
+ },
+ "ml_pueblo": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Median Listing Price in Pueblo, CO (CBSA) (MEDLISPRI39380)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI39380"
+ },
+ "al_gj": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+  "title": "Housing Inventory: Active Listing Count in Grand Junction, CO (CBSA) (ACTLISCOU24300)",
+  "date": "October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOU24300"
+ },
+ "cbre_cs_ind": {
+  "publisher": "CBRE",
+  "title": "Colorado Springs Industrial Figures H1 2026",
+  "date": "August 11, 2026 (first half 2026)",
+  "url": "https://www.cbre.com/insights/figures/colorado-springs-industrial-figures-h1-2026"
+ },
+ "cbre_cs_off": {
+  "publisher": "CBRE",
+  "title": "Colorado Springs Office Figures H1 2026",
+  "date": "August 11, 2026 (first half 2026)",
+  "url": "https://www.cbre.com/insights/figures/colorado-springs-office-figures-h1-2026"
+ },
+ "cbre_cs_mf": {
+  "publisher": "CBRE",
+  "title": "Colorado Springs Multifamily Figures H1 2026",
+  "date": "August 11, 2026 (first half 2026)",
+  "url": "https://www.cbre.com/insights/figures/colorado-springs-multifamily-figures-h1-2026"
+ },
+ "mat_cs": {
+  "publisher": "Matthews Real Estate Investment Services (CoStar data per the report)",
+  "title": "Colorado Springs Industrial Market Report Q2 2026",
+  "date": "August 27, 2026 (second quarter 2026)",
+  "url": "https://www.matthews.com/insights/colorado-springs-industrial-q2-2026"
+ },
+ "cbre_noco_off": {
+  "publisher": "CBRE",
+  "title": "Northern Colorado Office Figures H1 2026",
+  "date": "August 11, 2026 (first half 2026)",
+  "url": "https://www.cbre.com/insights/figures/northern-colorado-office-figures-h1-2026"
+ },
+ "cbre_noco_ind": {
+  "publisher": "CBRE",
+  "title": "Northern Colorado Industrial Figures H1 2026",
+  "date": "August 11, 2026 (first half 2026)",
+  "url": "https://www.cbre.com/insights/figures/northern-colorado-industrial-figures-h1-2026"
+ },
+ "mat_noco": {
+  "publisher": "Matthews Real Estate Investment Services (CoStar data per the report)",
+  "title": "Northern Colorado Industrial Market Report Q1 2026",
+  "date": "May 12, 2026 (first quarter 2026)",
+  "url": "https://www.matthews.com/insights/northern-colorado-industrial-q1-2026"
+ },
+ "visitcos": {
+  "publisher": "Visit Colorado Springs",
+  "title": "Pikes Peak Region Tourism Held Strong in 2025",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://www.visitcos.com/media/press-releases/pikes-peak-region-tourism-held-strong-in-2025/"
+ },
+ "gdp_cs": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Total Gross Domestic Product for Colorado Springs, CO (MSA) (DISCONTINUED) (NGMP17820)",
+  "date": "December 4, 2024 (calendar 2023; series marked discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP17820"
+ },
+ "gdp_fc": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Total Gross Domestic Product for Fort Collins, CO (MSA) (DISCONTINUED) (NGMP22660)",
+  "date": "December 4, 2024 (calendar 2023; series marked discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP22660"
+ },
+ "gdp_boulder": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Total Gross Domestic Product for Boulder, CO (MSA) (DISCONTINUED) (NGMP14500)",
+  "date": "December 4, 2024 (calendar 2023; series marked discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP14500"
+ },
+ "gdp_greeley": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Total Gross Domestic Product for Greeley, CO (MSA) (DISCONTINUED) (NGMP24540)",
+  "date": "December 4, 2024 (calendar 2023; series marked discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP24540"
+ },
+ "gdp_pueblo": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Total Gross Domestic Product for Pueblo, CO (MSA) (DISCONTINUED) (NGMP39380)",
+  "date": "December 4, 2024 (calendar 2023; series marked discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP39380"
+ },
+ "gdp_gj": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+  "title": "Total Gross Domestic Product for Grand Junction, CO (MSA) (DISCONTINUED) (NGMP24300)",
+  "date": "December 4, 2024 (calendar 2023; series marked discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP24300"
+ },
+ "kunc_routt": {
+  "publisher": "KUNC (Steamboat Pilot, reporting a Colorado Division of Insurance report)",
+  "title": "Wildfire risk represents 22% of home insurance costs in Routt County",
+  "date": "February 18, 2026",
+  "url": "https://www.kunc.org/news/2026-02-18/wildfire-risk-represents-22-of-home-insurance-costs-in-routt-county"
+ },
+ "bp_boulder": {
+  "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+  "title": "New Private Housing Structures Authorized by Building Permits for Boulder County, CO (BPPRIV008013)",
+  "date": "May 28, 2026 (calendar 2025)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV008013"
+ }
+}

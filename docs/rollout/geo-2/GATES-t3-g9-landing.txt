@@ -1,0 +1,15 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-25T14:21:49
+root ~/Downloads/fsc-rollout/tmp/geo-2/t3; git dir ~/Downloads/wt-rollout-geo-2 at b2fb289c0d46e5dc8b6a4d388d7900df33542391; range None; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-2/t3 --git-dir ~/Downloads/wt-rollout-geo-2 --urls /states/pennsylvania/ --only 9 --stage landing --out ~/Downloads/fsc-rollout/drafts/geo-2/GATES-t3-f2-g9-landing.txt
+pages (1): /states/pennsylvania/
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1074 term link(s) on 175 page(s)
+pages checked for inbound links: 1; under 3: 0
+
+required edges: all present
+
+SUMMARY
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  green 1/1

@@ -1,0 +1,383 @@
+{
+ "state": "DISTRICT-OF-COLUMBIA",
+ "markets": [
+  {
+   "slug": "downtown-dc",
+   "name": "Downtown and the Central Business District",
+   "section": "Downtown and the Central Business District",
+   "counties": [
+    "co-11001"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-DISTRICT-OF-COLUMBIA line 9",
+    "MT-DISTRICT-OF-COLUMBIA line 10",
+    "MT-DISTRICT-OF-COLUMBIA line 23",
+    "MT-DISTRICT-OF-COLUMBIA line 24"
+   ]
+  },
+  {
+   "slug": "noma-union-market",
+   "name": "NoMa and Union Market",
+   "section": "NoMa and Union Market",
+   "counties": [
+    "co-11001"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-DISTRICT-OF-COLUMBIA line 37",
+    "MT-DISTRICT-OF-COLUMBIA line 39",
+    "MT-DISTRICT-OF-COLUMBIA line 40"
+   ]
+  },
+  {
+   "slug": "capitol-riverfront-southwest-waterfront",
+   "name": "Capitol Riverfront and the Southwest Waterfront",
+   "section": "Capitol Riverfront (Navy Yard) and the Southwest Waterfront",
+   "counties": [
+    "co-11001"
+   ],
+   "verdict": "section",
+   "free_ids": []
+  },
+  {
+   "slug": "wards-7-and-8",
+   "name": "Wards 7 and 8",
+   "section": "Wards 7 and 8 east of the Anacostia River",
+   "counties": [
+    "co-11001"
+   ],
+   "verdict": "section",
+   "free_ids": []
+  },
+  {
+   "slug": "washington-metro",
+   "name": "Washington metropolitan area",
+   "section": "Washington metropolitan area (Washington-Arlington-Alexandria)",
+   "counties": [
+    "co-11001"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-DISTRICT-OF-COLUMBIA line 87",
+    "MT-DISTRICT-OF-COLUMBIA line 88",
+    "MT-DISTRICT-OF-COLUMBIA line 91",
+    "MT-DISTRICT-OF-COLUMBIA line 92",
+    "MT-DISTRICT-OF-COLUMBIA line 93",
+    "MT-DISTRICT-OF-COLUMBIA line 94",
+    "MT-DISTRICT-OF-COLUMBIA line 95",
+    "MT-DISTRICT-OF-COLUMBIA line 96",
+    "MT-DISTRICT-OF-COLUMBIA line 100",
+    "MT-DISTRICT-OF-COLUMBIA line 101",
+    "MT-DISTRICT-OF-COLUMBIA line 102",
+    "MT-DISTRICT-OF-COLUMBIA line 104",
+    "MT-DISTRICT-OF-COLUMBIA line 108",
+    "MT-DISTRICT-OF-COLUMBIA line 109",
+    "ST-DISTRICT-OF-COLUMBIA line 165"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-DISTRICT-OF-COLUMBIA line 19",
+  "ST-DISTRICT-OF-COLUMBIA line 20",
+  "ST-DISTRICT-OF-COLUMBIA line 23",
+  "ST-DISTRICT-OF-COLUMBIA line 24",
+  "ST-DISTRICT-OF-COLUMBIA line 27",
+  "ST-DISTRICT-OF-COLUMBIA line 29",
+  "ST-DISTRICT-OF-COLUMBIA line 32",
+  "ST-DISTRICT-OF-COLUMBIA line 35",
+  "ST-DISTRICT-OF-COLUMBIA line 37",
+  "ST-DISTRICT-OF-COLUMBIA line 38",
+  "ST-DISTRICT-OF-COLUMBIA line 39",
+  "ST-DISTRICT-OF-COLUMBIA line 40",
+  "ST-DISTRICT-OF-COLUMBIA line 41",
+  "ST-DISTRICT-OF-COLUMBIA line 42",
+  "ST-DISTRICT-OF-COLUMBIA line 97",
+  "ST-DISTRICT-OF-COLUMBIA line 100",
+  "ST-DISTRICT-OF-COLUMBIA line 117",
+  "ST-DISTRICT-OF-COLUMBIA line 118",
+  "ST-DISTRICT-OF-COLUMBIA line 120",
+  "ST-DISTRICT-OF-COLUMBIA line 121",
+  "ST-DISTRICT-OF-COLUMBIA line 134",
+  "ST-DISTRICT-OF-COLUMBIA line 135",
+  "ST-DISTRICT-OF-COLUMBIA line 137",
+  "ST-DISTRICT-OF-COLUMBIA line 151"
+ ],
+ "register_pairs": [
+  {
+   "geo": "dc",
+   "series": "acs5_median_hh_income",
+   "value": 109870
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_median_home_value",
+   "value": 737100
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_median_gross_rent",
+   "value": 1954
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_per_capita_income",
+   "value": 77348
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_households",
+   "value": 324491
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_owner_occupied",
+   "value": 134683
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_renter_occupied",
+   "value": 189808
+  },
+  {
+   "geo": "dc",
+   "series": "acs5_aggregate_income",
+   "value": 52696645000
+  },
+  {
+   "geo": "dc",
+   "series": "bea_personal_income",
+   "value": 78079526000
+  },
+  {
+   "geo": "dc",
+   "series": "bea_per_capita_income",
+   "value": 111185
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_median_hh_income",
+   "value": 126684
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_median_home_value",
+   "value": 579900
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_median_gross_rent",
+   "value": 2027
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_per_capita_income",
+   "value": 63554
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_households",
+   "value": 2373022
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_owner_occupied",
+   "value": 1510742
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_renter_occupied",
+   "value": 862280
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_aggregate_income",
+   "value": 401558514300
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_labor_force",
+   "value": 3528277
+  },
+  {
+   "geo": "cbsa-47900",
+   "series": "acs5_unemployed",
+   "value": 168822
+  }
+ ],
+ "borderline_ids": [
+  "MT-DISTRICT-OF-COLUMBIA line 92",
+  "MT-DISTRICT-OF-COLUMBIA line 93",
+  "MT-DISTRICT-OF-COLUMBIA line 94",
+  "MT-DISTRICT-OF-COLUMBIA line 95",
+  "MT-DISTRICT-OF-COLUMBIA line 96",
+  "ST-DISTRICT-OF-COLUMBIA line 37"
+ ],
+ "secondary_ids": [
+  "ST-DISTRICT-OF-COLUMBIA line 97",
+  "ST-DISTRICT-OF-COLUMBIA line 100",
+  "ST-DISTRICT-OF-COLUMBIA line 165"
+ ],
+ "dropped": [
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 9",
+   "why": "undated (Census QuickFacts snippet, page 403, no release date); brief keeps it out"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 67",
+   "why": "single financing transaction (I66, note says single-project); secondary relay naming no original publisher"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 68",
+   "why": "single property financing (I64, I66): The Geneva C-PACE"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 79",
+   "why": "statutory rate (hotel tax 15.95%): rule value, not a market figure"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 80",
+   "why": "undated (OTR page footer 2025) and a statutory rate"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 81",
+   "why": "undated (OTR page footer 2025) and a statutory rate"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 83",
+   "why": "undated (OTR page footer 2025) and a statutory rate"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 84",
+   "why": "bill vote date and count (B26-0164): bill number and vote, not a market figure"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 85",
+   "why": "rule value (TOPA exemption window): statutory"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 86",
+   "why": "rule value (TOPA cooling-off periods): statutory"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 87",
+   "why": "bill vote date and count: not a market figure"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 88",
+   "why": "proposal term (15-year window): rule value, proposed not enacted"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 96",
+   "why": "a count of projects pagecheck does not read as a figure; secondary relay"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 99",
+   "why": "single property (The Geneva, 532 homes): I64"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 108",
+   "why": "declaration code (EM-3643-DC): code number; secondary relay"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 109",
+   "why": "secondary relay (MEAWW) whose row names no original publisher; headline prints 200M against 243 million in the body; spot check found DC Water named on the page, but the research row does not carry it (I69). Borderline, out of the main reading"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 138",
+   "why": "booked-event forecast count; pagecheck reads no unit"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 139",
+   "why": "no figure (cut by two-thirds)"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 140",
+   "why": "undated (Destination DC research page); brief keeps it out"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 141",
+   "why": "undated (Destination DC research page); brief keeps it out"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 143",
+   "why": "undated (CoStar snippet, page 403); brief keeps it out"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 153",
+   "why": "a count pagecheck does not read as a figure (36 restaurant closings)"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 156",
+   "why": "same fact as MT 23 (Downtown BID hotel revenue 2024); counted once, in the Downtown section (I82)"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 157",
+   "why": "same fact as MT 24 (Downtown BID net fiscal impact); counted once, in the Downtown section (I82)"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 169",
+   "why": "single project (Skyland Town Center Phase 1, 263 homes): I64; the fact sheet counted it, the MT twin (line 73) it did not"
+  },
+  {
+   "id": "ST-DISTRICT-OF-COLUMBIA line 171",
+   "why": "no numeric value; bill proposal"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 11",
+   "why": "undated (Stream Realty report, page shows May 08 with no year); brief keeps it out"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 26",
+   "why": "single property (The Geneva): I64"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 29",
+   "why": "same fact as ST 117 (citywide office vacancy 23.5%, C&W Q3 2026); counted once, on the state (I82, citywide equals state)"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 44",
+   "why": "a count pagecheck does not read as a figure (12 new businesses)"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 47",
+   "why": "single project (Sursum Corda replacement): I64"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 69",
+   "why": "single site land area (St. Elizabeths Parcel 1): I64; the fact sheet counted it"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 70",
+   "why": "single site land area (St. Elizabeths Parcel 16): I64; the fact sheet counted it"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 71",
+   "why": "single site land area (3720 Martin Luther King Jr. Avenue SE): I64; the fact sheet counted it"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 73",
+   "why": "single project (Skyland Phase 1): I64"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 75",
+   "why": "single project (Skyland Phase 3): I64"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 78",
+   "why": "single project (Cedar Hill hospital), no numeric value"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 106",
+   "why": "same value $2,227 as Matthews MT line 100 (I82 treats a repeated value as one fact; Matthews kept per the fact sheet); if Matthews goes, this Yardi row is the better holder of the value"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 111",
+   "why": "undated (Destination DC research page); brief keeps it out"
+  },
+  {
+   "id": "MT-DISTRICT-OF-COLUMBIA line 112",
+   "why": "undated snippet (WMATA April 2026 snapshot PDF unreadable); same class as the CoStar snippet the brief keeps out"
+  }
+ ]
+}

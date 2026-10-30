@@ -1,0 +1,201 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-25T15:29:43
+root ~/Downloads/wt-rollout-int; git dir ~/Downloads/wt-rollout-int at 093352193ecd0158bebe98585f9b1f56eb134a1e; range main..rollout/geo-4/t2; stage landing; site-wide True
+command: python3 scripts/qa/gates.py --root . --git-dir . --urls /states/washington/,/states/washington/seattle/,/states/washington/spokane/,/asset-classes/mixed-use/,/case-studies/coffee-shop-washington-sba/ --range main..rollout/geo-4/t2 --base-ref main --tags rollout/geo-4/t2 --stage landing --site-wide --deploy-date 2026-10-25 --look-out ~/Downloads/fsc-rollout/tmp/int/look/geo-4-t2 --out ~/Downloads/fsc-rollout/tmp/int/GATES-geo-4-t2.txt
+pages (5): /asset-classes/mixed-use/ /case-studies/coffee-shop-washington-sba/ /states/washington/ /states/washington/seattle/ /states/washington/spokane/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+5 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 68 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 landing floors (research and register apart): RED
+  /asset-classes/mixed-use/                                      hub       counted 38 (research 34, register 4/4)
+  /case-studies/coffee-shop-washington-sba/                      case      counted 11 (research 11, register 0/0)
+  /states/washington/                                            state     counted 91 (research 81, register 10/10)
+  /states/washington/seattle/                                    metro     counted 33 (research 23, register 10/10)
+  /states/washington/spokane/                                    metro     counted 33 (research 23, register 10/10)
+site-wide: 64 other factory page(s) at landing floors; under the floor: 0
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /asset-classes/mixed-use/                                      max 1.28% (/states/new-york/)
+  /case-studies/coffee-shop-washington-sba/                      max 14.66% (/case-studies/qsr-arkansas-sba/)
+  /states/washington/                                            max 0.85% (/states/tennessee/nashville/)
+  /states/washington/seattle/                                    max 0.51% (/states/alabama/)
+  /states/washington/spokane/                                    max 0.57% (/states/tennessee/nashville/)
+site-wide pairs at or over 15%: 10, of which with a page of this set: 0 (the others are on pages this landing did not write, reported, not failed)
+  24.8% / ~ /asset-classes/
+  23.22% /case-studies/qsr-arkansas-sba/ ~ /case-studies/qsr-georgia-sba/
+  20.38% /case-studies/fitness-minnesota-sba/ ~ /case-studies/fitness-new-hampshire-sba/
+  16.12% /case-studies/truck-stop-georgia-sba/ ~ /case-studies/truck-stop-oklahoma-sba/
+  15.81% /case-studies/fitness-minnesota-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.77% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.48% /case-studies/funeral-home-wisconsin-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.47% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/funeral-home-wisconsin-sba/
+  15.12% /case-studies/hotel-florida-sba/ ~ /case-studies/hotel-south-carolina-sba/
+  15.03% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/fitness-minnesota-sba/
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+2 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 15: RED
+
+  coffee-shop-washington-sba: body words 3043 under 4500
+  coffee-shop-washington-sba: missing section #at-a-glance
+  coffee-shop-washington-sba: missing section #market-conclusion
+  coffee-shop-washington-sba: missing section #competitors
+  coffee-shop-washington-sba: missing section #revenue
+  coffee-shop-washington-sba: missing section #opex
+  coffee-shop-washington-sba: missing section #sources-uses
+  coffee-shop-washington-sba: missing section #loan
+  coffee-shop-washington-sba: missing section #pro-forma
+  coffee-shop-washington-sba: missing section #dscr
+  coffee-shop-washington-sba: missing section #break-even
+  coffee-shop-washington-sba: missing section #sensitivity
+  coffee-shop-washington-sba: missing section #risks
+  coffee-shop-washington-sba: missing section #lender-conditions
+  coffee-shop-washington-sba: missing section #faq
+  coffee-shop-washington-sba: missing case table glance
+  coffee-shop-washington-sba: missing case table revenue
+  coffee-shop-washington-sba: missing case table opex
+  coffee-shop-washington-sba: missing case table uses
+  coffee-shop-washington-sba: missing case table sources
+  coffee-shop-washington-sba: missing case table loan
+  coffee-shop-washington-sba: missing case table proforma
+  coffee-shop-washington-sba: missing case table dscr
+  coffee-shop-washington-sba: missing case table determination
+  coffee-shop-washington-sba: missing case table verdict
+  coffee-shop-washington-sba: missing case table breakeven
+  coffee-shop-washington-sba: missing case table sensitivity
+  coffee-shop-washington-sba: no case input file data/cases/coffee-shop-washington-sba.json
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: RED
+stale-claim hits 0
+
+source entries lacking a part or never cited 13
+  /case-studies/coffee-shop-washington-sba/: s1: Washington State Office of Financial Management (OFM), April 1, 2024 population estimates 
+  /case-studies/coffee-shop-washington-sba/: s2: National Coffee Association, National Coffee Data Trends (“The Atlas of American Coffee”),
+  /case-studies/coffee-shop-washington-sba/: s3: QSR Magazine (2024-2025), CoffeeFest, and the Scooter's, 7 Brew, and Dutch Bros FDD / earn
+  /case-studies/coffee-shop-washington-sba/: s4: VantaInsights (2026), Roast Launch (2026), and BusinessDojo (2025-2026): coffee COGS of 25
+  /case-studies/coffee-shop-washington-sba/: s5: Perfect Daily Grind and Food & Wine (February 2025), Perfect Daily Grind (October 2025), a
+  /case-studies/coffee-shop-washington-sba/: s6: Buildout-cost sources: joe Coffee, Restroworks, BusinessCostHQ, Bellwether, and 7shifts (2
+  /case-studies/coffee-shop-washington-sba/: s7: BizBuySell Coffee Shop & Cafe Valuation Benchmarks (2025), CT Acquisitions (2026), Peak Bu
+  /case-studies/coffee-shop-washington-sba/: s8: U.S. Small Business Administration SOP 50 10 8.1 (effective October 1, 2026 ) and 13 CFR 1
+  /case-studies/coffee-shop-washington-sba/: s9: SBA SOP 50 10 8.1 : single-loan 7(a) cap of $5 million; 7(a) terms up to 25 years with rea
+  /case-studies/coffee-shop-washington-sba/: s10: U.S. Small Business Administration, Seattle District Office directory (2026): serves all o
+  /case-studies/coffee-shop-washington-sba/: s11: Holland & Knight, RSM, and Kiplinger (2025), with USGS and the Washington Department of Na
+  /case-studies/coffee-shop-washington-sba/: s12: U.S. Small Business Administration SOP 50 10 8.1 (Franchise Directory) and the Scooter's C
+  /case-studies/coffee-shop-washington-sba/: sources never cited [6]
+figure blocks without a citation 40
+  /case-studies/coffee-shop-washington-sba/ #engagement: ['0.7', '24,000', '1,000'] in: A sponsor came to our feasibility study company with a ground-up specialty-coffee project
+            and an S
+  /case-studies/coffee-shop-washington-sba/ #engagement: ['0.7'] in: Site ~0.7-acre pad
+  /case-studies/coffee-shop-washington-sba/ #engagement: ['24,000'] in: Traffic ~24,000 vehicles/day, AM-commute side
+  /case-studies/coffee-shop-washington-sba/ #engagement: ['1,000'] in: Building ~1,000 sf, owner-operated
+  /case-studies/coffee-shop-washington-sba/ #engagement: ['$7.25'] in: Average ticket ~$7.25
+  /case-studies/coffee-shop-washington-sba/ #demand: ['55,000'] in: The demand read starts with people, cars, and the morning daypart, not a capture rate applied
+          to a t
+  /case-studies/coffee-shop-washington-sba/ #demand: ['55,000'] in: Trade-area population (3-mi ring) ~55,000 residents, growing suburban submarket Rising captive base
+  /case-studies/coffee-shop-washington-sba/ #demand: ['24,000'] in: Corridor traffic ~24,000 vehicles/day, peak-directional AM/PM Primary trip capture
+  /case-studies/coffee-shop-washington-sba/ #demand: ['600', '$7.25', '$1.57M'] in: Stabilized revenue ~600 cars × ~$7.25 × ~360 operating days ≈ $1.57M/yr
+  /case-studies/coffee-shop-washington-sba/ #competition: ['0.9'] in: Competitor A National brand Cafe + single drive-thru 0.9 mi Nearest; cross-corridor, off-peak AM side
+  /case-studies/coffee-shop-washington-sba/ #competition: ['1.6'] in: Competitor B Franchised drive-thru Dual-lane drive-thru 1.6 mi The one direct format rival
+  /case-studies/coffee-shop-washington-sba/ #competition: ['2.1'] in: Competitor C Regional drive-thru Single drive-thru 2.1 mi Off the peak-commute path
+  /case-studies/coffee-shop-washington-sba/ #competition: ['1.3'] in: Competitor D Independent cafe Sit-down, no drive-thru 1.3 mi Dwell-focused; thin AM throughput
+  /case-studies/coffee-shop-washington-sba/ #competition: ['2.7'] in: Competitor E QSR with coffee Drive-thru 2.7 mi Coffee secondary to food
+  /case-studies/coffee-shop-washington-sba/ #competition: ['2.4'] in: Competitor F Independent kiosk Walk-up stand 2.4 mi Limited capacity, no lane
+  /case-studies/coffee-shop-washington-sba/ #market: ['8,035,700', '84,550', '82 percent'] in: The state backdrop is favorable for a suburban drive-thru, tempered by an above-average
+          operating-co
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$2.10 million'] in: Total project cost lands at $2.10 million. The 7(a) program can finance the owner-occupied real
+          esta
+  /case-studies/coffee-shop-washington-sba/ #financing: ['0.7', '$0.52M'] in: Land (~0.7-acre pad) $0.52M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$0.35M'] in: Site work, dual drive-thru lanes & utilities $0.35M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['1,000', '$0.50M'] in: Building shell (~1,000 sf) $0.50M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$0.36M'] in: Equipment & FF&E (espresso systems, drive-thru tech, refrigeration) $0.36M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$0.085M'] in: Signage, canopy & menu boards $0.085M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$0.18M'] in: Soft costs, design, permits & contingency $0.18M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$0.105M'] in: Working capital & pre-opening reserves $0.105M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$2.10M'] in: Total project cost $2.10M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$150,000', '$400,000', '40%', '$5,000', '$20,000'] in: Buildout and equipment allocation grounded in coffee-shop cost ranges: a full-service or drive-thru cafe runs 
+  /case-studies/coffee-shop-washington-sba/ #financing: ['90%', '$1.89M'] in: SBA 7(a) loan (90%) $1.89M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['10%', '$0.21M'] in: Borrower equity injection (10%) $0.21M
+  /case-studies/coffee-shop-washington-sba/ #financing: ['10.25%', '2.75%'] in: Illustrative rate ~10.25% (Prime + ~2.75%)
+  /case-studies/coffee-shop-washington-sba/ #financing: ['$242k'] in: Annual debt service (fully amortizing) ≈ $242k
+  /case-studies/coffee-shop-washington-sba/ #financing: ['60%', '$5M'] in: Structure per SBA 7(a) conventions under   (effective  ); owner-occupancy 60% for new construction; single-loa
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['600', '$7.25', '$1,566k'] in: Revenue ~600 cars/day × ~$7.25 × ~360 days ≈ $1,566k
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['$270k'] in: Other operating expense Card fees, utilities, R&M & reserve, insurance, property tax, marketing, supplies, G&A
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['$388k'] in: Store-level EBITDA Gross profit less labor and operating expense ≈ $388k
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['$388k', '24.8%', '80%'] in: Store-level EBITDA of ~$388k is ~24.8% of revenue; because the building is owner-occupied there is no rent lin
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['390', '$1.02M', '$213k', '$194k', '1.10'] in: Year 1 Ramp (~390 cars/day) ~$1.02M ~$213k Interest-only ~$194k 1.10
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['510', '$1.33M', '$327k', '$242k', '1.35'] in: Year 2 Building (~510 cars/day) ~$1.33M ~$327k Full amortizing ~$242k 1.35
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['600', '$1.57M', '$388k', '$242k', '1.60'] in: Year 3 Stabilized (~600 cars/day) ~$1.57M ~$388k Full amortizing ~$242k 1.60
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['1.15x'] in: DSCR computed as store-level EBITDA divided by the period debt-service obligation. The ramp to full transactio
+  /case-studies/coffee-shop-washington-sba/ #outcome: ['1.60x', '25%'] in: Verdict: financially feasible and bankable. On independently derived demand, a stabilized
+            1.60x DS
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in main..rollout/geo-4/t2: 0
+tag messages matching (1 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: main..rollout/geo-4/t2 (162404 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 192 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1078 term link(s) on 177 page(s)
+pages checked for inbound links: 179; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 192 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10) (every page): GREEN
+191 page(s)
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in ~/Downloads/fsc-rollout/tmp/int/look/geo-4-t2 (port 55466)
+  asset-classes_mixed-use-desktop-1440.png                               scrollWidth 1440 / 1440 overflow False offenders []
+  asset-classes_mixed-use-mobile-390.png                                 scrollWidth 390 / 390 overflow False offenders []
+  case-studies_coffee-shop-washington-sba-desktop-1440.png               scrollWidth 1440 / 1440 overflow False offenders []
+  case-studies_coffee-shop-washington-sba-mobile-390.png                 scrollWidth 390 / 390 overflow False offenders []
+  states_washington-desktop-1440.png                                     scrollWidth 1440 / 1440 overflow False offenders []
+  states_washington-mobile-390.png                                       scrollWidth 390 / 390 overflow False offenders []
+  states_washington_seattle-desktop-1440.png                             scrollWidth 1440 / 1440 overflow False offenders []
+  states_washington_seattle-mobile-390.png                               scrollWidth 390 / 390 overflow False offenders []
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  5 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: RED      counted figures, amendment A6 landing floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: RED      case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 
+  gate  7: RED      sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 11/14

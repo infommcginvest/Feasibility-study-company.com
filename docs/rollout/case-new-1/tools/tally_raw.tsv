@@ -1,0 +1,69 @@
+slug	class	counted	research	register	dropped_case_dup	dropped_sibling_dup	figures_ceded_by_parents	verdict_A4	engine	parents_losing_figures
+self-storage-bardstown-kentucky-usda	new	43	33	10	15	0	9	PAGE	N	asset-classes/auto-dealership;asset-classes/multifamily;asset-classes/self-storage;research-notes/effective-rent-vs-asking-rent;research-notes/usda-rd
+self-storage-pataskala-ohio-sba	new	25	15	10	8	0	4	FOLD	N	states/georgia;states/ohio
+restaurant-acquisition-broussard-louisiana-sba	new	41	31	10	17	0	10	PAGE	N	asset-classes/quick-service-restaurant;asset-classes/self-storage;asset-classes/skilled-nursing;research-notes/break-even-occupancy-trap;research-note
+urgent-care-elizabethtown-kentucky-sba	new	31	21	10	12	0	3	PAGE	N	states/kentucky;states/mississippi;states/wisconsin
+childcare-gonzales-louisiana-sba	new	43	35	8	14	0	2	PAGE	N	asset-classes/urgent-care;research-notes/special-purpose-property-risk;states/hawaii;states/new-hampshire;states/texas/austin
+marina-gig-harbor-washington-sba	new	56	46	10	22	0	7	PAGE	N	asset-classes/gas-station-and-c-store;asset-classes/hotel;asset-classes/private-school;asset-classes/quick-service-restaurant;asset-classes/self-stora
+retreat-center-kerhonkson-new-york-usda	new	26	17	9	3	0	2	FOLD	N	asset-classes/skilled-nursing;states/new-mexico
+assisted-living-elizabethtown-kentucky-bridge	new	48	43	5	16	13	8	PAGE	Y	asset-classes/gas-station-and-c-store;asset-classes/rv-and-boat-storage;asset-classes/skilled-nursing;research-notes/c-store-franchise-category;resear
+hotel-natchitoches-louisiana-eb5	new	46	36	10	18	2	3	PAGE	Y	research-notes/gas-station-demand-per-capita;research-notes/sba-default-economics;states/colorado;states/pennsylvania;states/south-dakota;states/utah
+short-term-rental-yucca-valley-california-conventional	new	42	32	10	15	0	3	PAGE	Y	asset-classes/hotel;asset-classes/marina;asset-classes/private-school;states/arizona;states/kansas;states/maine;states/north-carolina;states/pennsylva
+grocery-store-ness-city-kansas-usda	new	63	53	10	11	2	14	PAGE	N	asset-classes/gas-station-and-c-store;asset-classes/gas-station-and-c-store/ev-charging;asset-classes/laundromat;asset-classes/self-storage;asset-clas
+hotel-acquisition-fairlawn-ohio-sba	new	26	17	9	2	3	4	FOLD	N	asset-classes/hotel;asset-classes/self-storage;states/ohio;states/washington/spokane
+hotel-hays-kansas-usda	new	27	17	10	5	0	4	FOLD	N	asset-classes/gas-station-and-c-store;research-notes/coverage-constrained-takeout;research-notes/franchise-vs-non-franchise;states/illinois;states/mai
+marina-new-baltimore-michigan-sba	new	32	23	9	3	0	3	PAGE	N	asset-classes/gas-station-and-c-store/interstate-highway;asset-classes/marina;research-notes/gas-station-demand-per-capita;states/illinois;states/new-
+marina-shell-knob-missouri-usda	new	29	20	9	6	0	6	FOLD	N	asset-classes/auto-dealership;asset-classes/private-school;asset-classes/self-storage;research-notes/hospitality-str-report;states/arizona;states/oreg
+car-wash-port-charlotte-florida-sba	new	55	45	10	3	0	4	PAGE	N	asset-classes/gas-station-and-c-store;states/kansas;states/maryland;states/massachusetts;states/nevada;states/south-carolina;states/utah
+restaurant-sevierville-tennessee-sba	new	42	32	10	7	0	4	PAGE	N	asset-classes/multifamily;asset-classes/pet-boarding-and-daycare;asset-classes/private-school;asset-classes/skilled-nursing;research-notes/sba-default
+laundromat-acquisition-huron-county-ohio-sba	new	29	19	10	8	5	5	FOLD	N	asset-classes/gas-station-and-c-store/ev-charging;asset-classes/glamping;asset-classes/private-school;research-notes/absorption-forensics;states/hawai
+medical-office-lebanon-tennessee-sba	new	44	36	8	18	0	7	PAGE	N	asset-classes/childcare-and-daycare;asset-classes/funeral-home;asset-classes/self-storage;research-notes/sba-feasibility-myth;states/indiana;states/ne
+industrial-flex-gardner-kansas-conventional	new	58	48	10	15	2	6	PAGE	Y	asset-classes/auto-dealership;asset-classes/hotel;asset-classes/medical-office-and-asc;states/alabama;states/arkansas;states/georgia;states/oklahoma;s
+mixed-use-multifamily-euclid-ohio-eb5	new	40	30	10	16	0	7	PAGE	Y	asset-classes/hotel;asset-classes/skilled-nursing;states/illinois;states/kansas;states/massachusetts;states/mississippi;states/missouri;states/nevada;
+multifamily-clarksville-tennessee-dscr	new	40	30	10	14	2	7	PAGE	Y	asset-classes/coffee-shop;asset-classes/hotel;asset-classes/self-storage;states/hawaii;states/idaho;states/indiana/indianapolis;states/kansas;states/m
+fitness-minnesota-sba	legacy CASE-1	39	32	7	9	0	9	PAGE	N	asset-classes/medical-office-and-asc;asset-classes/mixed-use;research-notes/break-even-occupancy-trap;research-notes/effective-rent-vs-asking-rent;res
+fitness-new-hampshire-sba	legacy CASE-1	62	55	7	27	3	22	PAGE	N	asset-classes/behavioral-health;asset-classes/childcare-and-daycare;asset-classes/glamping;asset-classes/hotel;asset-classes/marina;asset-classes/priv
+glamping-utah-usda	legacy CASE-1	33	26	7	9	2	6	PAGE	N	asset-classes/funeral-home;asset-classes/mixed-use;states/california;states/connecticut;states/florida;states/hawaii;states/iowa;states/kansas;states/
+grocery-store-mississippi-usda	legacy CASE-1	30	22	8	16	0	6	PAGE	N	asset-classes/gas-station-and-c-store;asset-classes/grocery-store;states/delaware;states/kentucky;states/louisiana;states/minnesota;states/mississippi
+hotel-florida-sba	legacy CASE-1	39	30	9	10	1	5	PAGE	N	asset-classes/hotel;research-notes/coverage-constrained-takeout;states/florida;states/texas/dallas-fort-worth;states/washington;states/west-virginia
+hotel-georgia-sba	legacy CASE-1	44	37	7	15	0	11	PAGE	N	asset-classes/hotel;asset-classes/multifamily;asset-classes/private-school;asset-classes/retail;asset-classes/truck-stop-and-travel-center;asset-class
+hotel-south-carolina-sba	legacy CASE-1	37	27	10	7	2	12	PAGE	N	asset-classes/restaurant;research-notes/break-even-occupancy-trap;states/florida/tampa;states/indiana/indianapolis;states/new-york;states/north-caroli
+marina-maryland-sba	legacy CASE-1	40	31	9	4	0	3	PAGE	N	asset-classes/private-school;states/maryland
+rv-park-arizona-usda	legacy CASE-1	32	22	10	5	0	1	PAGE	N	states/arizona
+rv-park-maine-usda	legacy CASE-1	20	11	9	3	1	3	FOLD	N	asset-classes/multifamily;research-notes/coverage-constrained-takeout;states/maine
+rv-park-pennsylvania-usda	legacy CASE-1	30	30	0	5	1	4	PAGE	N	asset-classes/private-school;asset-classes/skilled-nursing;states/maryland;states/pennsylvania
+auto-service-new-jersey-sba	legacy CASE-2	49	39	10	11	0	11	PAGE	N	asset-classes/childcare-and-daycare;asset-classes/quick-service-restaurant;asset-classes/retail;research-notes/gas-station-demand-per-capita;research-
+coffee-shop-washington-sba	legacy CASE-2	29	22	7	7	3	7	FOLD	N	asset-classes/medical-office-and-asc;asset-classes/self-storage;research-notes/break-even-occupancy-trap;research-notes/office-repurposing;research-no
+meat-processing-georgia-usda	legacy CASE-2	31	22	9	9	0	4	PAGE	N	states/georgia;states/maryland;states/oregon;states/washington
+meat-processing-north-carolina-usda	legacy CASE-2	29	19	10	9	1	5	FOLD	N	research-notes/coverage-constrained-takeout;states/arkansas;states/maine;states/north-carolina;states/south-carolina;states/washington
+qsr-arkansas-sba	legacy CASE-2	21	13	8	8	0	4	FOLD	N	states/arkansas;states/new-york;states/north-carolina;states/rhode-island
+qsr-georgia-sba	legacy CASE-2	37	28	9	16	1	8	PAGE	N	asset-classes/gas-station-and-c-store;asset-classes/retail;asset-classes/self-storage;research-notes/c-store-franchise-category;research-notes/coverag
+restaurant-missouri-sba	legacy CASE-2	47	37	10	6	0	6	PAGE	N	research-notes/special-purpose-property-risk;states/alabama;states/florida/orlando;states/missouri;states/texas/austin;states/west-virginia
+rv-boat-storage-arizona-sba	legacy CASE-2	47	39	8	7	1	8	PAGE	Y	asset-classes/hotel;asset-classes/quick-service-restaurant;asset-classes/quick-service-restaurant/burger;research-notes/office-repurposing;research-no
+rv-boat-storage-california-sba	legacy CASE-2	37	29	8	12	0	2	PAGE	N	states/kansas;states/pennsylvania
+rv-boat-storage-florida-sba	legacy CASE-2	33	29	4	7	11	4	PAGE	N	asset-classes/medical-office-and-asc;asset-classes/multifamily;asset-classes/rv-and-boat-storage;states/alabama;states/arizona;states/missouri;states/
+self-storage-arizona-sba	legacy CASE-2	45	37	8	24	3	4	PAGE	N	asset-classes/express-car-wash;asset-classes/rv-and-boat-storage;asset-classes/self-storage;states/arizona;states/montana;states/new-hampshire;states/
+self-storage-indiana-sba	legacy CASE-2	37	31	6	12	1	1	PAGE	N	research-notes/sba-default-economics;states/arizona
+truck-stop-georgia-sba	legacy CASE-2	46	37	9	15	0	6	PAGE	N	asset-classes/express-car-wash;asset-classes/private-school;asset-classes/quick-service-restaurant;research-notes/gas-station-demand-per-capita;resear
+truck-stop-oklahoma-sba	legacy CASE-2	42	32	10	8	0	3	PAGE	N	asset-classes/hotel;states/oklahoma;states/tennessee
+assisted-living-arizona-hud	legacy CASE-3	44	35	9	11	2	7	PAGE	N	asset-classes/hotel;asset-classes/skilled-nursing;states/arizona;states/california;states/connecticut;states/new-mexico;states/new-york;states/washing
+assisted-living-california-hud	legacy CASE-3	45	37	8	23	3	8	PAGE	N	asset-classes/express-car-wash;asset-classes/gas-station-and-c-store;asset-classes/hotel;asset-classes/quick-service-restaurant;research-notes/break-e
+assisted-living-florida-hud	legacy CASE-3	45	36	9	20	1	9	PAGE	N	asset-classes/gas-station-and-c-store;research-notes/gas-station-demand-per-capita;research-notes/special-purpose-property-risk;states/florida;states/
+assisted-living-hawaii-hud	legacy CASE-3	36	27	9	17	2	6	PAGE	N	research-notes/underserved-gas-station-markets;states/colorado;states/hawaii;states/pennsylvania;states/south-dakota;states/west-virginia
+assisted-living-north-carolina-hud	legacy CASE-3	28	19	9	10	2	3	FOLD	N	asset-classes/gas-station-and-c-store;research-notes/gas-station-demand-per-capita;research-notes/underserved-gas-station-markets;states/colorado;stat
+childcare-illinois-sba	legacy CASE-3	33	23	10	20	1	2	PAGE	N	asset-classes/multifamily;states/georgia/savannah;states/idaho;states/minnesota;states/missouri;states/nebraska
+childcare-iowa-sba	legacy CASE-3	23	14	9	7	0	6	FOLD	N	asset-classes/behavioral-health;asset-classes/hotel;asset-classes/multifamily;asset-classes/quick-service-restaurant;asset-classes/quick-service-resta
+funeral-home-wisconsin-sba	legacy CASE-3	22	12	10	4	0	4	FOLD	N	asset-classes/funeral-home;asset-classes/hotel;states/michigan;states/south-dakota
+laundromat-new-mexico-sba	legacy CASE-3	33	23	10	7	0	13	PAGE	N	asset-classes/marina;asset-classes/restaurant;states/michigan/detroit;states/new-mexico;states/new-york;states/north-carolina/raleigh-durham;states/ok
+medical-office-north-carolina-sba	legacy CASE-3	28	19	9	6	1	4	FOLD	N	asset-classes/gas-station-and-c-store;asset-classes/hotel;asset-classes/medical-office-and-asc;asset-classes/self-storage;research-notes/sba-default-e
+pet-boarding-oregon-sba	legacy CASE-3	26	17	9	7	2	6	FOLD	N	asset-classes/hotel;states/alabama;states/hawaii;states/new-york;states/ohio;states/oregon
+urgent-care-florida-sba	legacy CASE-3	28	18	10	10	1	7	FOLD	N	asset-classes/quick-service-restaurant/burger;states/florida;states/hawaii;states/michigan;states/mississippi;states/new-jersey;states/rhode-island;st
+behavioral-health-massachusetts-conventional	legacy CASE-4	44	35	9	20	1	2	PAGE	Y	states/massachusetts;states/new-jersey;states/wisconsin
+hotel-nevada-eb5	legacy CASE-4	31	22	9	14	0	6	PAGE	Y	asset-classes/marina;states/nevada;states/new-york;states/north-carolina/raleigh-durham;states/rhode-island
+multifamily-arizona-agency	legacy CASE-4	63	54	9	18	2	19	PAGE	Y	asset-classes/hotel;asset-classes/skilled-nursing;research-notes/special-purpose-property-risk;states/arizona;states/idaho;states/indiana/indianapolis
+multifamily-florida-agency	legacy CASE-4	42	34	8	22	1	9	PAGE	Y	states/florida;states/georgia;states/mississippi;states/missouri;states/north-carolina;states/rhode-island;states/texas/san-antonio;states/wisconsin
+multifamily-georgia-agency	legacy CASE-4	59	50	9	21	2	16	PAGE	Y	asset-classes/hotel;asset-classes/multifamily;asset-classes/self-storage;research-notes/effective-rent-vs-asking-rent;states/georgia;states/georgia/sa
+multifamily-new-york-agency	legacy CASE-4	43	43	0	16	0	6	PAGE	Y	asset-classes/mixed-use;asset-classes/rv-and-boat-storage;asset-classes/self-storage;research-notes/coverage-constrained-takeout;states/arizona;states
+multifamily-north-carolina-agency	legacy CASE-4	35	35	0	9	0	5	PAGE	Y	asset-classes/glamping;asset-classes/marina;asset-classes/self-storage;states/florida;states/georgia/savannah;states/new-york;states/north-carolina/ra
+private-school-connecticut-conventional	legacy CASE-4	33	33	0	3	0	5	PAGE	Y	research-notes/break-even-occupancy-trap;states/arizona;states/california;states/connecticut;states/florida;states/hawaii;states/iowa;states/minnesota
+retail-nevada-conventional	legacy CASE-4	35	35	0	14	0	6	PAGE	Y	research-notes/c-store-franchise-category;states/colorado;states/georgia/savannah;states/missouri;states/nevada;states/oregon;states/utah;states/virgi

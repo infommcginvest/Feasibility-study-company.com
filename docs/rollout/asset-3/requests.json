@@ -1,0 +1,53 @@
+{
+ "lane": "asset-3",
+ "requests": [
+  {
+   "id": "asset-3-1",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/catholic-parochial/",
+   "target": "/asset-classes/private-school/#catholic-parochial"
+  },
+  {
+   "id": "asset-3-2",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/christian-faith-based/",
+   "target": "/asset-classes/private-school/#christian-faith-based"
+  },
+  {
+   "id": "asset-3-3",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/boarding/",
+   "target": "/asset-classes/private-school/#boarding"
+  },
+  {
+   "id": "asset-3-4",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/montessori-waldorf/",
+   "target": "/asset-classes/private-school/#montessori-waldorf"
+  },
+  {
+   "id": "asset-3-5",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/therapeutic-special-education/",
+   "target": "/asset-classes/private-school/#therapeutic-special-education"
+  },
+  {
+   "id": "asset-3-6",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/microschools/",
+   "target": "/asset-classes/private-school/#microschools"
+  },
+  {
+   "id": "asset-3-7",
+   "kind": "subtype_section",
+   "hub": "/asset-classes/private-school/",
+   "section": "subtypes"
+  },
+  {
+   "id": "asset-3-9",
+   "kind": "folded",
+   "url": "/asset-classes/private-school/independent-nais/",
+   "target": "/asset-classes/private-school/#independent-nais"
+  }
+ ]
+}

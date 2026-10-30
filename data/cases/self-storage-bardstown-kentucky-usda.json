@@ -1,0 +1,508 @@
+{
+  "slug": "self-storage-bardstown-kentucky-usda",
+  "page": "/case-studies/self-storage-bardstown-kentucky-usda/",
+  "program": "usda_bi",
+  "rule_sources": {
+    "program": 24,
+    "prime": 35
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 3,
+  "units": {
+    "label": "net rentable sq ft",
+    "count": 54000
+  },
+  "inputs": {
+    "nrsf_cc": {
+      "value": 30000,
+      "fmt": "n",
+      "label": "Climate-controlled net rentable sq ft",
+      "assumption": "A hypothetical climate-controlled building of about 30,000 net rentable square feet, sized as the larger half of a two-product facility because the census found climate control on the operators' own sites only at Heartland and Bluegrass among the Bardstown operators it confirmed [^19,20]."
+    },
+    "nrsf_du": {
+      "value": 24000,
+      "fmt": "n",
+      "label": "Drive-up net rentable sq ft",
+      "assumption": "About 24,000 square feet of drive-up units. Every other confirmed operator sells drive-up space [^21,22,23], so a drive-up wing keeps the entry price point that local tenants already know."
+    },
+    "land_acres": {
+      "value": 3,
+      "fmt": "n",
+      "label": "Site area, acres",
+      "assumption": "A hypothetical site of about 3 acres on the US 150 corridor. It holds two single-story buildings, drive aisles, a gate and the open space and setbacks of the B-3 district [^8]; no particular tract is assumed."
+    },
+    "land_per_acre": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Land price per acre",
+      "assumption": "The research holds no closed land sale in Bardstown, only asking prices for listed tracts, which this study does not use. $160,000 per acre is a round placeholder for improved commercial land in town; the appraisal replaces it."
+    },
+    "cost_cc": {
+      "value": 62,
+      "fmt": "$",
+      "label": "Climate-controlled building cost per net rentable sq ft",
+      "assumption": "The research found no Bardstown construction cost index or bid. $62 is a placeholder for an insulated single-story metal building with heating, cooling and dehumidification, and the contractor's bid must replace it."
+    },
+    "cost_du": {
+      "value": 29,
+      "fmt": "$",
+      "label": "Drive-up building cost per net rentable sq ft",
+      "assumption": "A placeholder for uninsulated drive-up buildings with roll-up doors, about half the climate-controlled cost per foot; a bid replaces it."
+    },
+    "site_work": {
+      "value": 380000,
+      "fmt": "$",
+      "label": "Site work, paving, drainage, fencing and gate",
+      "assumption": "A lump sum for grading, stormwater, paved aisles, fencing, lighting and a keypad gate. Bardstown requires a land disturbance permit and stormwater review for a site of this kind [^11]; the civil engineer's estimate replaces the allowance."
+    },
+    "contingency_pct": {
+      "value": 0.07,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "7% of hard cost, because bids and subsurface conditions are not yet known."
+    },
+    "soft_pct": {
+      "value": 0.08,
+      "fmt": "%",
+      "label": "Soft costs, share of hard cost",
+      "assumption": "Engineering, site plan review, permits, legal, appraisal, the feasibility study and construction-period interest."
+    },
+    "fixtures": {
+      "value": 140000,
+      "fmt": "$",
+      "label": "Office, security, access control and software",
+      "assumption": "A working allowance for the rental office, cameras, gate and door alarm hardware and management software; no benchmark found."
+    },
+    "working_capital": {
+      "value": 200000,
+      "fmt": "$",
+      "label": "Lease-up reserve and pre-opening costs",
+      "assumption": "Covers marketing, payroll and utilities while the units fill. Nothing in the research measures how fast a new Bardstown facility leases up, so the reserve is sized to the Year 1 shortfall the model shows."
+    },
+    "cc_rate": {
+      "value": [
+        1.0,
+        1.03,
+        1.06,
+        1.09,
+        1.13
+      ],
+      "fmt": "$2",
+      "label": "Climate-controlled rent per sq ft per month",
+      "assumption": "No Bardstown operator posts a climate-controlled rate: the confirmed operators' own sites list none [^19,20,22,23], and the research could not date the aggregator rates it found, so this page does not print them. $1.00 a square foot (a 10 by 10 unit at $100 a month) is a placeholder set above the drive-up rate, with 3% annual growth as an allowance; a secret-shopper survey replaces it."
+    },
+    "cc_occ": {
+      "value": [
+        0.3,
+        0.58,
+        0.78,
+        0.85,
+        0.88
+      ],
+      "fmt": "%",
+      "label": "Climate-controlled occupancy, share of net rentable area",
+      "assumption": "A ramp to a stabilized level in Year 3. The research holds no occupancy for any Bardstown competitor, so the ramp is a placeholder that the competitor survey must test."
+    },
+    "du_rate": {
+      "value": [
+        0.6,
+        0.62,
+        0.64,
+        0.66,
+        0.68
+      ],
+      "fmt": "$2",
+      "label": "Drive-up rent per sq ft per month",
+      "assumption": "No operator in the census posts a verified drive-up rate on its own site [^21,22,23]. $0.60 a square foot (a 10 by 10 at $60 a month) is a placeholder below the climate rate; the survey replaces it."
+    },
+    "du_occ": {
+      "value": [
+        0.35,
+        0.65,
+        0.82,
+        0.88,
+        0.9
+      ],
+      "fmt": "%",
+      "label": "Drive-up occupancy, share of net rentable area",
+      "assumption": "Faster than the climate wing because the product is the one the market already buys, and held below full because the census shows many drive-up competitors [^21,22,23]."
+    },
+    "other_pct": {
+      "value": 0.07,
+      "fmt": "%",
+      "label": "Fees, tenant insurance and retail, share of rent",
+      "assumption": "Administrative fees, tenant protection plans, lock and box sales; no local benchmark."
+    },
+    "payroll": {
+      "value": 85000,
+      "fmt": "$",
+      "label": "Payroll and benefits (Year 1)",
+      "assumption": "One resident or full-time manager and part-time cover. Climate-controlled competitors advertise on-site or remote management [^19,20]; the owner's staffing plan replaces this allowance."
+    },
+    "utilities_pct": {
+      "value": 0.055,
+      "fmt": "%",
+      "label": "Utilities, share of revenue",
+      "assumption": "Heating, cooling and dehumidification for the climate wing, plus lighting and gate power; the engineer's load estimate replaces it."
+    },
+    "rm_pct": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Repairs and maintenance, share of revenue",
+      "assumption": "Roofs, doors, paving, HVAC service and the gate."
+    },
+    "marketing_pct": {
+      "value": 0.035,
+      "fmt": "%",
+      "label": "Marketing and booking fees, share of revenue",
+      "assumption": "Search and aggregator listings, signage and online rental software fees."
+    },
+    "ga_pct": {
+      "value": 0.025,
+      "fmt": "%",
+      "label": "Administration and professional fees, share of revenue",
+      "assumption": "Accounting, legal, software and licenses."
+    },
+    "mgmt_pct": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Management fee, share of revenue",
+      "assumption": "The research found no management fee norm for independent facilities. 3% is carried so the projection pays for oversight even if the owner runs the site."
+    },
+    "insurance": {
+      "value": 19000,
+      "fmt": "$",
+      "label": "Insurance (Year 1)",
+      "assumption": "Insurance terms were NOT FOUND. $19,000 is a placeholder for a metal-building facility; the lender needs a bound quote that includes wind and tornado cover."
+    },
+    "tax_city": {
+      "value": 0.00161,
+      "fmt": "%2",
+      "label": "City of Bardstown tax rate, FY 2025-26 ($0.1610 per $100)",
+      "source": [
+        15
+      ]
+    },
+    "tax_city_schools": {
+      "value": 0.00791,
+      "fmt": "%2",
+      "label": "Bardstown City Schools real property rate ($0.7910 per $100)",
+      "source": [
+        14
+      ]
+    },
+    "tax_county": {
+      "value": 0.0012,
+      "fmt": "%2",
+      "label": "Nelson County Fiscal Court rate, 2024 ($0.1200 per $100)",
+      "source": [
+        17
+      ]
+    },
+    "tax_other": {
+      "value": 0.0016,
+      "fmt": "%2",
+      "label": "State and library rates",
+      "assumption": "Dated rates for the state and the library district were NOT FOUND; a broker site printed components from mixed years, which this study does not use. About 0.16% is carried until the Kentucky Department of Revenue rate book is read."
+    },
+    "growth_tax": {
+      "value": 0.02,
+      "fmt": "%",
+      "label": "Taxable value growth per year",
+      "assumption": "An allowance for reassessment by the Nelson County property valuation administrator; the study makes no forecast of assessed values."
+    },
+    "growth_payroll": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Payroll growth per year",
+      "assumption": "An allowance for wage growth; no local wage series for storage staff was found."
+    },
+    "growth_insurance": {
+      "value": 0.04,
+      "fmt": "%",
+      "label": "Insurance growth per year",
+      "assumption": "An allowance for premium increases on a metal-building facility in a tornado-prone region; a bound quote replaces it."
+    },
+    "reserve_psf": {
+      "value": 0.12,
+      "fmt": "$2",
+      "label": "Replacement reserve per net rentable sq ft per year",
+      "assumption": "A small allowance for roofs, doors and HVAC replacement; no benchmark found."
+    },
+    "growth_reserve": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Reserve growth per year",
+      "assumption": "Labelled allowance for replacement cost inflation."
+    },
+    "usda_fee_paydown": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Retention fee base decline per year",
+      "assumption": "The model applies the retention fee to the outstanding guaranteed balance (the terms sheet prints no base) and lowers that base by 3% of the original balance each year, a labelled simplification."
+    },
+    "bi_guarantee_pct": {
+      "value": 0.85,
+      "fmt": "%",
+      "label": "USDA guarantee, loans under $5 million",
+      "source": [
+        24
+      ]
+    },
+    "bi_fee_pct": {
+      "value": 0.035,
+      "fmt": "%",
+      "label": "USDA guarantee fee: 3.0% initial plus 0.50% for a guarantee issued before construction is complete (the model applies it to the guaranteed amount; the terms sheet prints no base)",
+      "source": [
+        24
+      ]
+    },
+    "bi_annual_fee": {
+      "value": 0.0055,
+      "fmt": "%2",
+      "label": "USDA annual retention fee (the model applies it to the outstanding guaranteed balance; the terms sheet prints no base)",
+      "source": [
+        24
+      ]
+    },
+    "bi_rate": {
+      "value": 0.0775,
+      "fmt": "%2",
+      "label": "Interest rate",
+      "assumption": "B&I rates are negotiated between lender and borrower [^26]. Prime was 7.00% on October 9, 2026 [^35]; this study carries Prime plus 0.75 points and the lender sets the rate at pricing."
+    },
+    "bi_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Amortization",
+      "assumption": "USDA allows a term up to the useful life of the project or collateral, with a maximum of 40 years or the state-statute limit, whichever is less [^26]. Metal buildings, roofs, paving and HVAC wear out sooner, so the model amortizes over 25 years."
+    },
+    "bi_equity_min_pct": {
+      "value": 0.25,
+      "fmt": "%",
+      "label": "Minimum equity",
+      "assumption": "The USDA terms sheet prints no equity minimum for B&I. The study tests 25% of project cost, a lender-style figure; the lender must confirm the requirement in its credit memo."
+    },
+    "bi_dscr_floor": {
+      "value": 1.25,
+      "fmt": "x",
+      "label": "Coverage floor",
+      "assumption": "The USDA terms sheet prints no coverage ratio for B&I; the lender's credit policy governs. The study tests 1.25x in Year 3, the first stabilized year."
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 3 acres",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x price per acre (assumption)"
+    },
+    {
+      "key": "cc_bldg",
+      "label": "Climate-controlled building",
+      "expr": "nrsf_cc * cost_cc",
+      "class": "real_estate",
+      "basis": "sq ft x cost (assumption)"
+    },
+    {
+      "key": "du_bldg",
+      "label": "Drive-up buildings",
+      "expr": "nrsf_du * cost_du",
+      "class": "real_estate",
+      "basis": "sq ft x cost (assumption)"
+    },
+    {
+      "key": "site",
+      "label": "Site work, paving, drainage, fencing and gate",
+      "expr": "site_work",
+      "class": "real_estate",
+      "basis": "allowance (assumption)"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(nrsf_cc * cost_cc + nrsf_du * cost_du + site_work) * contingency_pct",
+      "class": "real_estate",
+      "basis": "share of hard cost"
+    },
+    {
+      "key": "soft",
+      "label": "Soft costs, permits and construction interest",
+      "expr": "(nrsf_cc * cost_cc + nrsf_du * cost_du + site_work) * soft_pct",
+      "class": "other",
+      "basis": "share of hard cost"
+    },
+    {
+      "key": "fixtures",
+      "label": "Office, security and software",
+      "expr": "fixtures",
+      "class": "equipment",
+      "basis": "allowance (assumption)"
+    },
+    {
+      "key": "wc",
+      "label": "Lease-up reserve and pre-opening costs",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "assumption"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "cc",
+      "label": "Climate-controlled rent",
+      "expr": "nrsf_cc * cc_occ * 12 * cc_rate",
+      "basis": "sq ft x occupancy x 12 x rate"
+    },
+    {
+      "key": "du",
+      "label": "Drive-up rent",
+      "expr": "nrsf_du * du_occ * 12 * du_rate",
+      "basis": "sq ft x occupancy x 12 x rate"
+    },
+    {
+      "key": "other",
+      "label": "Fees, tenant insurance and retail",
+      "expr": "(rev_cc + rev_du) * other_pct",
+      "basis": "share of rent"
+    }
+  ],
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Payroll and benefits",
+      "expr": "payroll * (1 + growth_payroll) ** y",
+      "basis": "fixed, growing"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities",
+      "expr": "rev_total * utilities_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "rm",
+      "label": "Repairs and maintenance",
+      "expr": "rev_total * rm_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing and booking fees",
+      "expr": "rev_total * marketing_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "ga",
+      "label": "Administration and professional fees",
+      "expr": "rev_total * ga_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "mgmt",
+      "label": "Management fee",
+      "expr": "rev_total * mgmt_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + growth_insurance) ** y",
+      "basis": "fixed, growing"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + (nrsf_cc * cost_cc + nrsf_du * cost_du + site_work) * (1 + contingency_pct)) * (tax_city + tax_city_schools + tax_county + tax_other) * (1 + growth_tax) ** y",
+      "basis": "cost basis x rates [^14,15,17]"
+    },
+    {
+      "key": "usda_fee",
+      "label": "USDA annual retention fee (passed through)",
+      "expr": "tpc * (1 - bi_equity_min_pct) * bi_guarantee_pct * bi_annual_fee * (1 - usda_fee_paydown * y)",
+      "basis": "0.55%, base set by the model (assumption) [^24]"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(nrsf_cc + nrsf_du) * reserve_psf * (1 + growth_reserve) ** y",
+      "basis": "per sq ft (assumption)"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.2,
+    "note": "the sponsor proposes a USDA-guaranteed loan for the balance"
+  },
+  "breakeven": {
+    "input": "cc_occ",
+    "label": "climate-controlled occupancy"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "cc_occ",
+      "label": "Climate-controlled occupancy",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "cc_rate",
+      "label": "Climate-controlled rent",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Bardstown, Nelson County, Kentucky, on the US 150 corridor [^1]"
+    ],
+    [
+      "Subject",
+      "A new self-storage facility of about {in_nrsf_cc} climate-controlled and {in_nrsf_du} drive-up net rentable square feet on about {in_land_acres} acres (hypothetical)"
+    ],
+    [
+      "Program",
+      "USDA Business and Industry guaranteed loan, 85% guarantee under $5 million [^24]"
+    ],
+    [
+      "Total project cost",
+      "{tpc} ({tpc_per_unit} per net rentable square foot)"
+    ],
+    [
+      "Loan structure",
+      "One USDA-guaranteed bank loan of {loan_total} at {rate}, amortized over {in_bi_amort_years}, as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} as restructured ({equity})"
+    ],
+    [
+      "DSCR in the test year (Year 3)",
+      "{dscr_y3_proposed} as proposed; {dscr_y3} as restructured, against a {floor} floor"
+    ],
+    [
+      "Break-even",
+      "Debt service is covered down to {breakeven_value} climate-controlled occupancy in Year 3; the floor is met down to {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "Zoning allows the use by right and climate-controlled supply is thin, but rents and competitor occupancy are unverified, so the market carries only a modest loan [^8,19,20]"
+    ],
+    [
+      "Determination",
+      "As proposed: fails (equity and coverage). As restructured: {equity_pct} equity, {loan_total} of debt, {dscr_y3} in Year 3"
+    ]
+  ]
+}

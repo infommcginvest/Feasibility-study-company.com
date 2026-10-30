@@ -1,0 +1,99 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+F01	22,894	Westborough population, V2025	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L58	Y	
+F02	6.2%	Westborough population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L59	Y	
+F03	7,964	Westborough households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L60	Y	
+F04	2.69	Persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L61	Y	
+F05	$141,944	Median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L62	Y	
+F06	38.8 years	Median age Westborough, ACS 2024 5-yr	research	I77c	Census Reporter (ACS 2024 5-year)	Westborough:L63	Y	secondary republisher of ACS
+F07	40.0 years	Median age Massachusetts, ACS 2024 5-yr	research	I77c	Census Reporter (ACS 2024 5-year)	Westborough:L63	Y	secondary republisher of ACS
+F08	15.5%	Persons 65 and over, V2025	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L64	Y	
+F09	25.6%	Persons under 18, V2025	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L65	Y	
+F10	2.3%	Uninsured under 65, SAHIE	research	none	U.S. Census Bureau QuickFacts Westborough	Westborough:L66	N	year missing ("Latest SAHIE")
+F11	$476,554,000	Health care and social assistance receipts, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Westborough	Westborough:L67	Y	
+F12	$15.93 per $1,000	Westborough single tax rate FY2026	research	I77c	Town of Westborough Assessing Department	Westborough:L162	Y	
+F13	$16.29 per $1,000	Westborough tax rate FY2025	research	I77c	Town of Westborough FY2026 Community Profile	Westborough:L163	Y	
+F14	0.5%	Community Preservation Act surcharge, began FY2024	research	I77a	Town of Westborough Assessing Department	Westborough:L166	Y	effective date FY2024
+F15	$29.06 per $1,000	Worcester commercial tax rate FY2026	research	I77c	City of Worcester Taxes & Assessments	Westborough:L109	Y	
+F16	$28.61 per $1,000	Worcester commercial tax rate FY2025	research	I77c	City of Worcester Taxes & Assessments	Westborough:L109	Y	
+F17	627	Central Mass licensed psychiatric beds C1 to C9	research	none	Research file own sum	Westborough:L112	N	research file's own summary count; its components add to 591
+F18	104	Westborough Behavioral Healthcare Hospital licensed beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L80	Y	
+F19	120	Hospital for Behavioral Medicine, Worcester, licensed beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L89	Y	
+F20	103	Leonard Morse Hospital, Natick, licensed beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L93	Y	
+F21	22	UMass Memorial Marlborough psychiatric beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L97	Y	
+F22	14	UMass Memorial Medical Center adult beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L98	Y	
+F23	26	UMass Memorial PTRC adult beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L98	Y	
+F24	20	HealthAlliance Clinton geriatric beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L99	Y	
+F25	40	UMass Memorial Harrington adult beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L100	Y	
+F26	20	Saint Vincent psychiatric beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L101	N	same value as Clinton 20
+F27	122	TaraVista Devens beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L103	Y	
+F28	32	Heywood Hospital Gardner beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L104	Y	
+F29	45	Newton-Wellesley adult beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L104	Y	
+F30	51	Monte Nido Walden Dedham beds	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L104	Y	
+F31	72	Westborough adult beds (unit split)	research	I77a	Mass. DMH Licensed Hospitals list 2/25/2025	Westborough:L80	N	component of the counted 104; not counted separately
+F32	152	Westborough hospital beds built	research	I77a	Becker's Hospital Review 19 Sep 2025	Westborough:L81	Y	operator executive statement
+F33	118	Westborough hospital beds available (staffed)	research	I77a	Becker's Hospital Review 19 Sep 2025	Westborough:L81	Y	
+F34	34	Built-but-unstaffed beds	research	I77a	Becker's Hospital Review	Westborough:L120	N	researcher subtraction of 152 and 118
+F35	117	Westborough beds per job postings	research	none	Indeed / ZipRecruiter	Westborough:L82	N	undated job ads
+F36	74.5%	Hospital for Behavioral Medicine utilization	research	none	Dmand.ai	Westborough:L91	N	undated aggregator
+F37	114	AdCare Hospital beds	research	none	AdCare	Westborough:L107	N	"Current", undated
+F38	12	AdCare new ASAM 3.7 unit beds	research	I77a	Detox.com news 24 Sep 2026	Westborough:L108	Y	announced vs opened wording conflicts; value unchanged
+F39	200	Spectrum Health Systems beds	research	none	Rehabs.com	Westborough:L106	N	undated and conflicts with 100
+F40	320	Worcester Recovery Center and Hospital beds	research	none	Mass.gov DMH	Westborough:L110	N	"Current", undated
+F41	31.3%	BH ED visits boarding over 12 hours, 2020	research	I77a	Mass. Health Policy Commission (27 Feb 2025 report)	Westborough:L134	Y	
+F42	38.8%	BH ED visits boarding over 12 hours, Jan to May 2024	research	I77a	Mass. Health Policy Commission (27 Feb 2025 report)	Westborough:L134	Y	
+F43	37.5%	BH ED visits boarding over 12 hours, 2024	research	I77a	Mass. Health Policy Commission via Boston Globe 25 Mar 2026	Westborough:L136	Y	
+F44	39.6%	Peak boarding share, 2022	research	I77a	Mass. Health Policy Commission via Boston Globe 25 Mar 2026	Westborough:L136	Y	
+F45	4,500	Fewer boarded patients, 2024 vs 2023	research	I77a	Mass. Health Policy Commission via Boston Globe 25 Mar 2026	Westborough:L136	Y	
+F46	26%	Over-12-hour boarders discharged	research	I77a	Mass. Health Policy Commission via Boston Globe 25 Mar 2026	Westborough:L130	Y	
+F47	23%	Over-12-hour boarders admitted for observation then sent home	research	I77a	Mass. Health Policy Commission via Boston Globe 25 Mar 2026	Westborough:L130	Y	
+F48	13%	Adults waiting over 48 hours for inpatient psychiatric care, 2024	research	I77a	Mass. Health Policy Commission March 2026 report	Westborough:L16	Y	
+F49	11%	Children waiting over 48 hours for inpatient psychiatric care, 2024	research	I77a	Mass. Health Policy Commission March 2026 report	Westborough:L16	Y	
+F50	21%	Prior adult 48-hour wait share	research	none	Mass. Health Policy Commission	Westborough:L16	N	comparison year missing
+F51	22%	Prior child 48-hour wait share	research	none	Mass. Health Policy Commission	Westborough:L16	N	comparison year missing
+F52	sixth-longest	Massachusetts BH ED time rank	research	I77a	New England Psychologist	Westborough:L137	N	ordinal rank, no printable value
+F53	14%	Statewide monthly ED boarding rate, Dec 2025	research	I77a	Massachusetts Hospital Association, Capturing a Crisis, March 2026	Westborough:L138	Y	
+F54	44%	Highest single hospital boarding rate, Dec 2025	research	I77a	Massachusetts Hospital Association, Capturing a Crisis, March 2026	Westborough:L138	Y	
+F55	nearly 20%	Psychiatric beds offline for staffing	research	none	Massachusetts Hospital Association	Westborough:L139	N	2022 figure from an undated reports page, no document identified
+F56	60%	Forensic share of state hospital admissions, 2023 (MNA/SEIU 509 white paper)	research	I77a	WBUR 16 Oct 2025	Westborough:L140	Y	
+F57	two-thirds	Forensic share of state psychiatric hospital beds	research	I77a	WBUR 16 Oct 2025	Westborough:L140	N	fraction word, not a countable value token
+F58	13 towns	Advocates CBHC catchment	research	none	Advocates	Westborough:L142	N	launch year missing
+F59	$76 million	MA Repay awards	research	I77a	Mass.gov press release 28 Mar 2025	Westborough:L143	Y	
+F60	1,700	MA Repay provider count	research	I77a	Mass.gov press release 28 Mar 2025	Westborough:L143	Y	
+F61	$245 million	MA Repay cumulative awards	research	I77a	Mass.gov press release 28 Mar 2025	Westborough:L143	Y	
+F62	144	Tufts Medicine / Acadia Malden beds	research	I77a	City of Malden news 18 Feb 2026	Westborough:L123	Y	
+F63	86	Malden net bed gain	research	I77a	City of Malden news 18 Feb 2026	Westborough:L123	Y	
+F64	$65 million	Malden project cost	research	I77a	City of Malden news 18 Feb 2026	Westborough:L123	Y	
+F65	$640 million	Boston Children's behavioral campus cost	research	I77a	Bank of America newsroom 1 Oct 2026	Westborough:L124	Y	
+F66	60	Boston Children's inpatient psychiatric beds (and 60 complex care beds)	research	I77a	Bank of America newsroom 1 Oct 2026	Westborough:L124	Y	
+F67	$10 million	Bank of America grant to Boston Children's	research	I77a	Bank of America newsroom 1 Oct 2026	Westborough:L124	Y	
+F68	150	Valley Springs Holyoke beds	research	none	Baystate Health	Westborough:L171	N	news item date not in research; opened-in-2023 is an event date
+F69	$72 million	Valley Springs cost	research	none	Baystate Health	Westborough:L171	N	same
+F70	84	Holyoke Medical Center planned beds, on hold	research	I77a	Greenfield Recorder March 2022	Westborough:L23	Y	stale but dated
+F71	118 / 88 / 54	Holyoke DMH licensed beds	research	none	DMH (implied)	Westborough:L23	N	date and source missing
+F72	482	Mass General Brigham expansion beds	research	I77a	MassDevelopment 23 Apr 2026	Westborough:L189	Y	
+F73	409	MassDevelopment projects, FY2025	research	I77a	MassDevelopment 23 Apr 2026	Westborough:L189	Y	
+F74	$4.65 billion	MassDevelopment FY2025 investment	research	I77a	MassDevelopment 23 Apr 2026	Westborough:L189	Y	
+F75	60 ft	BA district max height	research	I77a	Westborough Zoning Bylaw, amended 22 Mar 2025 ATM Art. 24	Westborough:L42	Y	district rule, not SBA/USDA/HUD
+F76	40%	BA max lot coverage	research	I77a	Westborough Zoning Bylaw, amended 22 Mar 2025 ATM Art. 24	Westborough:L42	Y	
+F77	60%	BA minimum open space	research	I77a	Westborough Zoning Bylaw, amended 22 Mar 2025 ATM Art. 24	Westborough:L42	N	same value as an earlier counted row
+F78	75 ft	BA front yard on Turnpike Road	research	I77a	Westborough Zoning Bylaw, amended 22 Mar 2025 ATM Art. 24	Westborough:L42	Y	
+F79	100 ft	BA buffer abutting residential	research	I77a	Westborough Zoning Bylaw, amended 22 Mar 2025 ATM Art. 24	Westborough:L42	Y	
+F80	1 space per bed	Hospital parking standard	research	I77b	Westborough Zoning Bylaws (2020 ATM edition)	Westborough:L43	Y	
+F81	3 years	Special permit lapse if not used	research	I77a	Westborough Section 6.2, TM approved 10/21/2024	Westborough:L158	Y	
+F82	4 to 1	Select Board vote on tax rate	research	I77a	Community Advocate	Westborough:L164	N	vote tally, not a market figure
+F83	4.5 acres	Subject site acreage	research	none	LoopNet	Westborough:L34	N	subject listing figure
+F84	$6,500,000	Subject asking price	research	none	LoopNet	Westborough:L37	N	subject listing figure
+F85	12,000 SF	Subject building size	research	none	LoopNet	Westborough:L35	N	subject listing figure
+F86	$2,598,500	Subject assessed value	research	none	LoopNet	Westborough:L39	N	subject listing figure, tax year not stated
+F87	14.81 acres	C1 parcel acreage	research	I77c	LoopNet public record	Westborough:L86	N	single-property attribute of one competitor parcel, secondary
+R01	95,939	Median household income, Worcester market (ACS 2020-2024)	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.massachusetts/worcester	Y	
+R02	423,700	Median home value, Worcester market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.massachusetts/worcester	Y	
+R03	1,426	Median gross rent, Worcester market (already on /states/massachusetts/)	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_gross_rent.json values.massachusetts/worcester	Y	
+R04	5.27%	Unemployment rate, Worcester market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.massachusetts/worcester	Y	
+R05	71,909	Per capita personal income, Worcester market, 2024	register	I77c	U.S. Bureau of Economic Analysis	data/markets/series/bea_per_capita_income.json values.massachusetts/worcester	Y	
+R06	335,826	Households, Worcester market	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_households.json values.massachusetts/worcester	Y	
+R07	103,960	Median household income, Massachusetts	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_hh_income.json values.ma	Y	
+R08	562,100	Median home value, Massachusetts	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_median_home_value.json values.ma	Y	
+R09	93,607	Per capita personal income, Massachusetts, 2024	register	I77c	U.S. Bureau of Economic Analysis	data/markets/series/bea_per_capita_income.json values.ma	Y	
+R10	5.15%	Unemployment rate, Massachusetts	register	I77c	U.S. Census Bureau ACS 5-year	data/markets/series/acs5_unemployment_rate.json values.ma	Y	
+#SUMMARY behavioral-health-massachusetts-conventional counted=71 research=61 register=10 verdict=PAGE engine=Y notes=zoning district rules counted; undated and subject rows excluded; no served-page collisions

@@ -1,0 +1,495 @@
+{
+ "state": "VIRGINIA",
+ "markets": [
+  {
+   "slug": "northern-virginia",
+   "name": "Northern Virginia",
+   "section": "Northern Virginia (Fairfax, Arlington, Loudoun, Prince William, Alexandria city)",
+   "counties": [
+    "co-51059",
+    "co-51013",
+    "co-51107",
+    "co-51153",
+    "co-51510"
+   ],
+   "verdict": "page",
+   "free_ids": [
+    "MT-VIRGINIA line 11",
+    "MT-VIRGINIA line 12",
+    "MT-VIRGINIA line 13",
+    "MT-VIRGINIA line 14",
+    "MT-VIRGINIA line 15",
+    "MT-VIRGINIA line 16",
+    "MT-VIRGINIA line 18",
+    "MT-VIRGINIA line 19",
+    "MT-VIRGINIA line 20",
+    "MT-VIRGINIA line 28",
+    "MT-VIRGINIA line 30",
+    "MT-VIRGINIA line 33",
+    "MT-VIRGINIA line 35",
+    "MT-VIRGINIA line 36",
+    "MT-VIRGINIA line 37",
+    "MT-VIRGINIA line 38",
+    "MT-VIRGINIA line 39",
+    "MT-VIRGINIA line 40",
+    "MT-VIRGINIA line 41",
+    "MT-VIRGINIA line 43",
+    "MT-VIRGINIA line 44",
+    "MT-VIRGINIA line 47",
+    "MT-VIRGINIA line 51",
+    "MT-VIRGINIA line 52",
+    "MT-VIRGINIA line 53",
+    "MT-VIRGINIA line 54",
+    "MT-VIRGINIA line 55",
+    "MT-VIRGINIA line 56",
+    "MT-VIRGINIA line 57",
+    "MT-VIRGINIA line 61",
+    "MT-VIRGINIA line 63",
+    "MT-VIRGINIA line 65",
+    "MT-VIRGINIA line 66",
+    "MT-VIRGINIA line 73",
+    "MT-VIRGINIA line 74",
+    "MT-VIRGINIA line 75",
+    "MT-VIRGINIA line 76"
+   ]
+  },
+  {
+   "slug": "richmond",
+   "name": "Richmond",
+   "section": "Richmond",
+   "counties": [
+    "co-51007",
+    "co-51036",
+    "co-51041",
+    "co-51053",
+    "co-51075",
+    "co-51085",
+    "co-51087",
+    "co-51097",
+    "co-51101",
+    "co-51127",
+    "co-51145",
+    "co-51149",
+    "co-51183",
+    "co-51570",
+    "co-51670",
+    "co-51730",
+    "co-51760"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 85",
+    "MT-VIRGINIA line 87",
+    "MT-VIRGINIA line 88",
+    "MT-VIRGINIA line 89",
+    "MT-VIRGINIA line 91",
+    "MT-VIRGINIA line 92",
+    "MT-VIRGINIA line 94",
+    "MT-VIRGINIA line 96",
+    "MT-VIRGINIA line 97",
+    "MT-VIRGINIA line 99",
+    "MT-VIRGINIA line 100",
+    "MT-VIRGINIA line 102",
+    "MT-VIRGINIA line 104",
+    "MT-VIRGINIA line 105",
+    "MT-VIRGINIA line 112",
+    "MT-VIRGINIA line 113",
+    "MT-VIRGINIA line 116",
+    "MT-VIRGINIA line 117",
+    "MT-VIRGINIA line 118"
+   ]
+  },
+  {
+   "slug": "hampton-roads",
+   "name": "Hampton Roads",
+   "section": "Hampton Roads (Virginia Beach, Chesapeake, Norfolk)",
+   "counties": [
+    "co-51073",
+    "co-51093",
+    "co-51095",
+    "co-51115",
+    "co-51181",
+    "co-51199",
+    "co-51550",
+    "co-51650",
+    "co-51700",
+    "co-51710",
+    "co-51735",
+    "co-51740",
+    "co-51800",
+    "co-51810",
+    "co-51830"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 127",
+    "MT-VIRGINIA line 128",
+    "MT-VIRGINIA line 129",
+    "MT-VIRGINIA line 131",
+    "MT-VIRGINIA line 132",
+    "MT-VIRGINIA line 133",
+    "MT-VIRGINIA line 135",
+    "MT-VIRGINIA line 136",
+    "MT-VIRGINIA line 137",
+    "MT-VIRGINIA line 138",
+    "MT-VIRGINIA line 140",
+    "MT-VIRGINIA line 145",
+    "MT-VIRGINIA line 146",
+    "MT-VIRGINIA line 147",
+    "MT-VIRGINIA line 148",
+    "MT-VIRGINIA line 149",
+    "MT-VIRGINIA line 152",
+    "MT-VIRGINIA line 153",
+    "MT-VIRGINIA line 158",
+    "MT-VIRGINIA line 162",
+    "MT-VIRGINIA line 163"
+   ]
+  },
+  {
+   "slug": "roanoke",
+   "name": "Roanoke",
+   "section": "Roanoke",
+   "counties": [
+    "co-51023",
+    "co-51045",
+    "co-51067",
+    "co-51161",
+    "co-51770",
+    "co-51775"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 171",
+    "MT-VIRGINIA line 173",
+    "MT-VIRGINIA line 175",
+    "MT-VIRGINIA line 176",
+    "MT-VIRGINIA line 177",
+    "MT-VIRGINIA line 179",
+    "MT-VIRGINIA line 180",
+    "MT-VIRGINIA line 181",
+    "MT-VIRGINIA line 182",
+    "MT-VIRGINIA line 184"
+   ]
+  },
+  {
+   "slug": "charlottesville",
+   "name": "Charlottesville",
+   "section": "Charlottesville",
+   "counties": [
+    "co-51003",
+    "co-51065",
+    "co-51079",
+    "co-51125",
+    "co-51540"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 194",
+    "MT-VIRGINIA line 196",
+    "MT-VIRGINIA line 200",
+    "MT-VIRGINIA line 201",
+    "MT-VIRGINIA line 202",
+    "MT-VIRGINIA line 203",
+    "MT-VIRGINIA line 205",
+    "MT-VIRGINIA line 206",
+    "MT-VIRGINIA line 208",
+    "MT-VIRGINIA line 209",
+    "MT-VIRGINIA line 210"
+   ]
+  },
+  {
+   "slug": "lynchburg",
+   "name": "Lynchburg",
+   "section": "Lynchburg",
+   "counties": [
+    "co-51009",
+    "co-51011",
+    "co-51019",
+    "co-51031",
+    "co-51680"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 218",
+    "MT-VIRGINIA line 220",
+    "MT-VIRGINIA line 222",
+    "MT-VIRGINIA line 223",
+    "MT-VIRGINIA line 224"
+   ]
+  },
+  {
+   "slug": "blacksburg-christiansburg",
+   "name": "Blacksburg-Christiansburg",
+   "section": "Blacksburg-Christiansburg",
+   "counties": [
+    "co-51063",
+    "co-51071",
+    "co-51121",
+    "co-51155",
+    "co-51750"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 233",
+    "MT-VIRGINIA line 234",
+    "MT-VIRGINIA line 235",
+    "MT-VIRGINIA line 238",
+    "MT-VIRGINIA line 239",
+    "MT-VIRGINIA line 240"
+   ]
+  },
+  {
+   "slug": "harrisonburg",
+   "name": "Harrisonburg",
+   "section": "Harrisonburg and Winchester (Shenandoah Valley)",
+   "counties": [
+    "co-51165",
+    "co-51660"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 251",
+    "MT-VIRGINIA line 254",
+    "MT-VIRGINIA line 260",
+    "MT-VIRGINIA line 262",
+    "MT-VIRGINIA line 264"
+   ]
+  },
+  {
+   "slug": "winchester",
+   "name": "Winchester",
+   "section": "Harrisonburg and Winchester (Shenandoah Valley)",
+   "counties": [
+    "co-51069",
+    "co-51840"
+   ],
+   "verdict": "section",
+   "free_ids": [
+    "MT-VIRGINIA line 253",
+    "MT-VIRGINIA line 255",
+    "MT-VIRGINIA line 261",
+    "MT-VIRGINIA line 263",
+    "MT-VIRGINIA line 265",
+    "MT-VIRGINIA line 266"
+   ]
+  }
+ ],
+ "state_free_ids": [
+  "ST-VIRGINIA line 10",
+  "ST-VIRGINIA line 20",
+  "ST-VIRGINIA line 23",
+  "ST-VIRGINIA line 25",
+  "ST-VIRGINIA line 26",
+  "ST-VIRGINIA line 27",
+  "ST-VIRGINIA line 28",
+  "ST-VIRGINIA line 29",
+  "ST-VIRGINIA line 30",
+  "ST-VIRGINIA line 35",
+  "ST-VIRGINIA line 44",
+  "ST-VIRGINIA line 54",
+  "ST-VIRGINIA line 55",
+  "ST-VIRGINIA line 63",
+  "ST-VIRGINIA line 64",
+  "ST-VIRGINIA line 65",
+  "ST-VIRGINIA line 66",
+  "ST-VIRGINIA line 67",
+  "ST-VIRGINIA line 68",
+  "ST-VIRGINIA line 78",
+  "ST-VIRGINIA line 79",
+  "ST-VIRGINIA line 80",
+  "ST-VIRGINIA line 81",
+  "ST-VIRGINIA line 89",
+  "ST-VIRGINIA line 126"
+ ],
+ "register_pairs": [
+  {
+   "geo": "va",
+   "series": "acs5_median_hh_income",
+   "value": 93170
+  },
+  {
+   "geo": "va",
+   "series": "acs5_median_home_value",
+   "value": 383700
+  },
+  {
+   "geo": "va",
+   "series": "acs5_median_gross_rent",
+   "value": 1579
+  },
+  {
+   "geo": "va",
+   "series": "acs5_per_capita_income",
+   "value": 50666
+  },
+  {
+   "geo": "va",
+   "series": "acs5_households",
+   "value": 3365732
+  },
+  {
+   "geo": "va",
+   "series": "acs5_owner_occupied",
+   "value": 2266609
+  },
+  {
+   "geo": "va",
+   "series": "acs5_renter_occupied",
+   "value": 1099123
+  },
+  {
+   "geo": "va",
+   "series": "acs5_aggregate_income",
+   "value": 441060065800
+  },
+  {
+   "geo": "va",
+   "series": "bea_personal_income",
+   "value": 681552175000
+  },
+  {
+   "geo": "va",
+   "series": "bea_per_capita_income",
+   "value": 77351
+  }
+ ],
+ "borderline_ids": [
+  "ST-VIRGINIA line 20",
+  "ST-VIRGINIA line 23",
+  "MT-VIRGINIA line 28",
+  "MT-VIRGINIA line 85",
+  "MT-VIRGINIA line 87",
+  "MT-VIRGINIA line 88",
+  "MT-VIRGINIA line 89",
+  "MT-VIRGINIA line 127",
+  "MT-VIRGINIA line 128",
+  "MT-VIRGINIA line 129",
+  "MT-VIRGINIA line 131",
+  "MT-VIRGINIA line 171",
+  "MT-VIRGINIA line 173",
+  "MT-VIRGINIA line 194",
+  "MT-VIRGINIA line 218",
+  "MT-VIRGINIA line 233",
+  "MT-VIRGINIA line 234",
+  "MT-VIRGINIA line 251",
+  "MT-VIRGINIA line 253",
+  "ST-VIRGINIA line 83",
+  "ST-VIRGINIA line 84",
+  "ST-VIRGINIA line 111",
+  "ST-VIRGINIA line 112",
+  "ST-VIRGINIA line 113",
+  "MT-VIRGINIA line 77"
+ ],
+ "secondary_ids": [
+  "ST-VIRGINIA line 35",
+  "ST-VIRGINIA line 44",
+  "ST-VIRGINIA line 54",
+  "ST-VIRGINIA line 55",
+  "ST-VIRGINIA line 63",
+  "ST-VIRGINIA line 64",
+  "ST-VIRGINIA line 65",
+  "ST-VIRGINIA line 66",
+  "ST-VIRGINIA line 67",
+  "ST-VIRGINIA line 68",
+  "ST-VIRGINIA line 81",
+  "ST-VIRGINIA line 89",
+  "ST-VIRGINIA line 126",
+  "MT-VIRGINIA line 30",
+  "MT-VIRGINIA line 33",
+  "MT-VIRGINIA line 35",
+  "MT-VIRGINIA line 36",
+  "MT-VIRGINIA line 37",
+  "MT-VIRGINIA line 38",
+  "MT-VIRGINIA line 39",
+  "MT-VIRGINIA line 40",
+  "MT-VIRGINIA line 41",
+  "MT-VIRGINIA line 94",
+  "MT-VIRGINIA line 96",
+  "MT-VIRGINIA line 97",
+  "MT-VIRGINIA line 145",
+  "MT-VIRGINIA line 146",
+  "MT-VIRGINIA line 147",
+  "MT-VIRGINIA line 148",
+  "MT-VIRGINIA line 149",
+  "MT-VIRGINIA line 162",
+  "MT-VIRGINIA line 163",
+  "MT-VIRGINIA line 179",
+  "MT-VIRGINIA line 180",
+  "MT-VIRGINIA line 181",
+  "MT-VIRGINIA line 200",
+  "MT-VIRGINIA line 201",
+  "MT-VIRGINIA line 202",
+  "MT-VIRGINIA line 203",
+  "MT-VIRGINIA line 205",
+  "MT-VIRGINIA line 206",
+  "MT-VIRGINIA line 208",
+  "MT-VIRGINIA line 209",
+  "MT-VIRGINIA line 210",
+  "MT-VIRGINIA line 222",
+  "MT-VIRGINIA line 223",
+  "MT-VIRGINIA line 224",
+  "MT-VIRGINIA line 238",
+  "MT-VIRGINIA line 239",
+  "MT-VIRGINIA line 240",
+  "MT-VIRGINIA line 260",
+  "MT-VIRGINIA line 261",
+  "MT-VIRGINIA line 262",
+  "MT-VIRGINIA line 263",
+  "MT-VIRGINIA line 264",
+  "MT-VIRGINIA line 265"
+ ],
+ "dropped": [
+  {
+   "id": "ST-VIRGINIA line 11",
+   "why": "rescaled repeat of ST line 10 (8.88 million, same Census/Weldon Cooper 1 Jul 2025 population); one fact per page (I82)"
+  },
+  {
+   "id": "ST-VIRGINIA line 85",
+   "why": "statutory rate (data center electricity tax $0.011 per kWh): rule value, not a market figure"
+  },
+  {
+   "id": "ST-VIRGINIA line 83",
+   "why": "borderline, out of main: Holland & Knight prints $48.6 billion with no source named (spot check) and the row names no original publisher"
+  },
+  {
+   "id": "ST-VIRGINIA line 84",
+   "why": "borderline, out of main: Holland & Knight prints $33.2 billion unattributed (spot check; link to a state document, no name); row names no original publisher"
+  },
+  {
+   "id": "ST-VIRGINIA line 111",
+   "why": "borderline, out of main: FDIC API response, no title; unit not printed; date is index metadata createTimestamp (a retrieval-type stamp); FDIC is not on the recognised-periodic list"
+  },
+  {
+   "id": "ST-VIRGINIA line 112",
+   "why": "borderline, out of main: same FDIC API response as ST line 111"
+  },
+  {
+   "id": "ST-VIRGINIA line 113",
+   "why": "borderline, out of main: same FDIC API response as ST line 111"
+  },
+  {
+   "id": "MT-VIRGINIA line 77",
+   "why": "borderline, out of main: FFXnow relay; the research row says the original ranking is not named (the page itself says FAA preliminary figures); row names no original publisher"
+  },
+  {
+   "id": "MT-VIRGINIA line 144",
+   "why": "no figure pagecheck reads: 846 permits in a FRED series titled 'Structures'; printing it as '846 units' or 'permits' would mislabel the series"
+  },
+  {
+   "id": "MT-VIRGINIA line 199",
+   "why": "no figure pagecheck reads: 729 permits in a FRED series titled 'Structures'; printing it as '729 units' or 'permits' would mislabel the series"
+  },
+  {
+   "id": "MT-VIRGINIA line 237",
+   "why": "no figure pagecheck reads: 328 permits in a FRED series titled 'Structures'; printing it as '328 units' or 'permits' would mislabel the series"
+  },
+  {
+   "id": "MT-VIRGINIA line 259",
+   "why": "no figure pagecheck reads: 685 permits in a FRED series titled 'Structures'; printing it as '685 units' or 'permits' would mislabel the series"
+  },
+  {
+   "id": "ST-VIRGINIA line 69",
+   "why": "47 days: pagecheck reads no figure for a days value; not countable"
+  }
+ ]
+}

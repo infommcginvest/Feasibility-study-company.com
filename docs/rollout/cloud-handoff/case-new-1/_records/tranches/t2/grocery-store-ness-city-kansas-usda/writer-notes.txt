@@ -1,0 +1,43 @@
+CASE-NEW-1 writer notes: grocery-store-ness-city-kansas-usda (USDA B&I, Ness City, Ness County, Kansas)
+
+DETERMINATION (engine)
+- As proposed: 25.0% equity, $1,989,861 loan, TPC $2,653,148, debt service $199,728, Year 3 DSCR -0.34x vs 1.25x floor (NOI Year 3 negative: ($67,159) on $1,902,058 sales). Fails coverage; equity test met.
+- As restructured: engine finds no equity share that meets the floor (NOI below zero), so the structure is unchanged: same loan, same -0.34x. "The market does not support this loan." Break-even share of county food spending 41.3% (floor 44.3%) vs 25.0% underwritten.
+- Negative determination written to the result; no tuning of inputs toward a pass.
+
+COUNTS (pagecheck --stage ready, last run): body words 5,930; counted 50 (research 43, register 7); overlap top 9.81% (Bardstown USDA); no PROBLEM lines; gate 8 own list 263 tokens, 0 hits; dashes 0; banned names 0.
+Lender conditions: 14.
+
+NOT FOUND turned into lender conditions: available retail site/pad; zoning district and by-right status; competitor size, parcel, acreage, tax (ORKA blocked in research); food-at-home spend/household survey; pipeline (agendas, permits); USDA rural eligibility map result for the parcel; utilities (water tap fees under Ch. XV, sewer provider, electric, gas); FEMA flood zone; current KDOT count (only 2019 found); construction and equipment bids, wholesaler cost schedule; combined levy for the Ness City tax unit (county levy sheet) and local sales tax city/county attribution; insurance (wind/hail/flood); licences; B&I lender in county; USDA equity minimum and DSCR (PA-USDA prints none: modeled as labelled assumptions 25% and 1.25x); alternative structures (existing building, CF community ownership).
+
+RESEARCH FIGURES DROPPED OR RE-SOURCED
+- N02, N04, R12, R13 (Kansas population/base/per capita income/home value): shared with other pages or over cap; not printed.
+- N66 (0 building permits): stated in words ("no building permits"), not as a numeral.
+- N67 poverty 11.3%: period only "SAIPE", undated (I77): dropped.
+- N69 USD 303 vote 507 to 179, 74%: article date not stated: dropped. N35 $24 million bond kept (county notice posted 26 Mar 2025, I77a), cited to the KSN article; the county notice itself has no URL in the research, so the source entry is the KSN article with the notice date in its date field. Lane owner may want to delete the bond paragraph if the notice date is judged not to date the article.
+- N70 enrollment 280 (snippet only), N71 owner age 57 (undated), N72 6.5%/0% food tax (stated in words only, no numeral), N73 8.5%/2.0% local sales tax (city/county attribution conflicts, not printed), N74 25%/12% assessment ratio (printed with Kansas Constitution cite because it is a model input; "Current" basis, not counted), N75 Cheney REDLG loan (undated, different program): dropped.
+- N77 Jamboree: six stores, 4.2/4.4 ratings, 72 reviews, hours (8-8, 81 hours/week), 5 SNAP retailers: all fetch-dated or "current" only (I69/I77); stated qualitatively ("regional chain", "evening and Sunday hours"). Old draft's 81-hour figure dropped from payroll reasoning.
+- N78, N79 (104 S Iowa listing, LoopNet industrial listing 13937 US 283, 7.14 acres, 12,500 SF, Well Watch / Wabash Welding, FMCSA date): all in dnu.tsv; none used. Land is a labelled round assumption (about 2 acres, $20,000 an acre) with no land evidence in the research.
+- FMCSA 13 Mar 2026 update: tied to the dnu listing: dropped.
+- Counted-by-pagecheck check: values $4,547,337.19, $3,046,449.62, $1,084,613.89, $116,375.52, $13,169,019, $16,549,938, $24 million, 2,977,220 etc. were not credited as unique (shared with another page or the matcher); the page still has 43 research figures.
+
+COMPETITOR URLS
+- Jamboree Foods: https://www.jamboreefoodsks.com/contact (research: primary-verified 15 Oct 2026). My WebFetch on 29 Oct 2026 returned only the word "Welcome" (script-rendered page); I could not re-confirm contents. Source date says "research check of October 15, 2026"; no number from the page is printed.
+- Family Dollar: https://locations.familydollar.com/ks/ness-city (research: primary-verified Oct 2026). My fetch on 29 Oct 2026 returned only the heading "Ness City" (truncated); not re-confirmed independently.
+- Dollar General (Eagle Drive): the chain's store directory returned 403 on 29 Oct 2026. No row; named in prose as unconfirmed (appears only in the SNAP directory, Feedam).
+- Moeder's Meats, Quick Pick, Butterfield's, C&J Food Supply, Holly's (Ransom): no own site in the research; not named, not in the table.
+
+SOURCES ADDED OUTSIDE THE RESEARCH FILE
+- PA-USDA sources (FR 91 FR 11272, eCFR subpart D/E, Cornell 5001.202, stakeholder announcement 27 Mar 2026, FY2027 explanatory notes, release 0065.26, NRLA/Summit study, FarmWeek wind/solar) for program terms and program risks, all from PA-USDA-terms.md.
+- Federal Reserve H.15 (Prime 7.00%, 9 Oct 2026): taken from data/regulatory/sba.json rates.prime (source and as_of), cited in the rate assumption.
+- Wikipedia "U.S. Route 283 in Kansas" (I-70/US-40 at WaKeeney): the research cites it for the interstate reference; distance NOT FOUND.
+
+ENGINE LIMITATIONS / NOTES
+- When NOI is negative, the restructure step cannot find an equity share; it returns the proposed structure unchanged. The page says so in words. The glance Determination row must contain "still fails" or "does not support" (check_glance); it does.
+- casemodel refuses a break-even "cushion" mention when break-even is above plan, so the page does not mention the cushion value.
+- pagecheck credits a table figure only when its own row carries a [^n] cite; I added a Source column to the traffic and tax tables (the table-source note alone does not count).
+- The USDA terms sheet prints no base for the 3.0% fee and 0.55% retention fee; the model applies them to the guaranteed amount/balance and the page says the lender must confirm. Retention fee paydown (3.5% of the original balance a year) is a labelled simplification.
+- Register table values are placeholders in the source ($0, x); markets.py fills them (7 of 7 register figures counted).
+- Competitor table has 2 rows only (Jamboree, Family Dollar), the only ones with confirmed own-site URLs.
+
+FILES: page.html, case.json, card.json, dnu.tsv, writer-notes.txt in this folder; generator scripts in ~/Downloads/fsc-rollout/tmp/case-new-1/scratch/grocery-store-ness-city-kansas-usda/ (mkcase.py, mkmeta.py, front.py, body-1..3.html).

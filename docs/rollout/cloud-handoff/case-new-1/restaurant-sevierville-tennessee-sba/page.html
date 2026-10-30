@@ -1,0 +1,439 @@
+---
+{
+  "type": "case",
+  "url": "/case-studies/restaurant-sevierville-tennessee-sba/",
+  "title": "Restaurant Feasibility Study Case: Sevierville, TN SBA 7(a)",
+  "description": "Restaurant feasibility study case for an SBA 7(a) new build in Sevierville, Tennessee: a visitor-driven corridor, a crowded field and a loan sized to coverage.",
+  "h1": "Restaurant Feasibility Study Case: Sevierville, Tennessee, SBA 7(a) New Build",
+  "eyebrow": "Case Study &middot; Tennessee &middot; Restaurant &middot; SBA 7(a)",
+  "hero_sub": "Sevier County drew $3,929,693,370 in visitor spending in 2024 [^6], and Sevierville has only 18,231 residents [^1], so a restaurant on the Winfield Dunn Parkway lives on visitors. A 7(a) loan with {{case:v.equity_proposed_pct}} equity covers Year 2 debt service only {{case:v.dscr_y2_proposed}}; the model supports {{case:v.loan_total}} of debt at {{case:v.equity_pct}} equity.",
+  "hero_secondary": {
+    "text": "Jump to the coverage test",
+    "href": "#dscr"
+  },
+  "breadcrumb": [
+    ["Home", "/"],
+    ["Case Studies", "/case-studies/"],
+    ["Restaurant & Foodservice", "/asset-classes/restaurant/"],
+    ["Sevierville TN"]
+  ],
+  "published": "DEPLOY",
+  "updated": "DEPLOY",
+  "data_as_of": "2026-10",
+  "faq": {
+    "eyebrow": "Sevierville Questions",
+    "h2": "What lenders ask about the Sevierville restaurant case.",
+    "items": [
+      {
+        "q": "Does a town of 18,000 people have enough demand for a new full-service restaurant?",
+        "a": "Not from residents alone. Sevierville counted 18,231 people on July 1, 2024 [^1], and the county's 2024 visitor spending was $3,929,693,370 [^6]. The case therefore sizes the restaurant to the visitor trade, which also means it inherits the visitor trade's seasons: Great Smoky Mountains National Park logged 459,626 visits in January 2025 and 1,026,754 in April [^8]."
+      },
+      {
+        "q": "Why do reused restaurant buildings matter to a new-build loan?",
+        "a": "Because they set the competitive cost base. Some of the corridor's newest openings took over buildings that earlier restaurants had left, in the spring of 2026 [^15], so those operators opened without paying for land, a shell and a full kitchen. A new-build sponsor carries all three, and the loan has to be sized to the revenue a restaurant earns while carrying them."
+      },
+      {
+        "q": "Why does the restructured loan need so much more equity than the program minimum?",
+        "a": "The program minimum is only one of two tests. A start-up must inject <!--sba:equity.startup_7a.value-->10%<!--/sba:equity.startup_7a.value--> of project cost, and its projections must also reach <!--sba:dscr.standard_7a.value-->1.15x<!--/sba:dscr.standard_7a.value--> coverage inside two years [^22]. This restaurant earns too little in its second year to carry a minimum-equity loan, so the engine adds equity until the second test is met. The coverage tables below show the two structures side by side."
+      },
+      {
+        "q": "Does SBA require a feasibility study for a restaurant loan?",
+        "a": "Not as a blanket rule. The regulation reads <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^25]. A lender weighing a ground-up restaurant for a first-time operator can reasonably want one, and having the competitor census and the coverage test in hand answers that request in advance."
+      },
+      {
+        "q": "How did the 2026 reappraisal change the property tax picture?",
+        "a": "The county rate for fiscal 2026-27 is $0.87 per $100 assessed, lower than the year before [^9], and the City of Sevierville also reset its rate after the reappraisal. A lower rate follows a higher appraised value, so the bill on a new building still depends on the appraisal and the assessment ratio, neither of which the research found. The model uses a planning level and makes the real bill a lender condition."
+      },
+      {
+        "q": "What could stop the project before any loan question arises?",
+        "a": "Site facts the research could not find: the parcel's zoning district and whether a restaurant is allowed there by right, its flood zone, and the utilities that reach it. A river-bottom parcel on the same highway carries a FEMA flood designation in the property record the research read, which is why the flood zone is the first site condition on the list."
+      }
+    ]
+  },
+  "cta": {
+    "h2": "Planning a restaurant on a tourist corridor? Test the site against the debt before you sign.",
+    "p": "Feasibility Study Company writes restaurant feasibility studies for owners, developers and their lenders, built from dated public records."
+  },
+  "sources_lede": "Publisher, date and link for every cited figure are listed here. Where no restaurant benchmark could be sourced, the model says so and labels the input an assumption.",
+  "sources": [
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "QuickFacts: Sevierville city, Tennessee",
+      "date": "Vintage 2024 estimates (July 1, 2024), 2020 Census (April 1, 2020); land area and density 2020",
+      "url": "https://www.census.gov/quickfacts/fact/table/seviervillecitytennessee,US/PST045221"
+    },
+    {
+      "publisher": "Census Reporter",
+      "title": "Sevierville, TN: profile data (American Community Survey)",
+      "date": "ACS 2024 5-year estimates",
+      "url": "http://censusreporter.org/profiles/16000US4767120-sevierville-tn/"
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "American Community Survey 5-Year Estimates, Detailed Tables (Sevier County)",
+      "date": "2020 to 2024",
+      "url": "https://api.census.gov/data/2024/acs/acs5"
+    },
+    {
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "Personal income by county, table CAINC1 (Sevier County)",
+      "date": "Calendar year 2024",
+      "url": "https://www.bea.gov/data/income-saving/personal-income-by-county"
+    },
+    {
+      "publisher": "U.S. Census Bureau",
+      "title": "County Business Patterns, 2023 (Sevier County, restaurant industry codes)",
+      "date": "2023 (week of March 12, 2023)",
+      "url": "https://api.census.gov/data/2023/cbp"
+    },
+    {
+      "publisher": "Sevier County Government",
+      "title": "Tourism in Sevier County Generated $3,929,693,370 in Visitor Spending in 2024",
+      "date": "August 26, 2025",
+      "url": "https://www.seviercountytn.gov/news_detail_T2_R165.php"
+    },
+    {
+      "publisher": "WATE via Yahoo Finance",
+      "title": "Tennessee tourism economy up 40% since 2018",
+      "date": "August 4, 2026 (reporting the Tennessee Department of Tourist Development release of the same date)",
+      "url": "https://finance.yahoo.com/economy/articles/tennessee-tourism-economy-40-since-220517618.html"
+    },
+    {
+      "publisher": "City of Pigeon Forge",
+      "title": "2025 Great Smoky Mountains National Park (monthly recreation visits, from NPS IRMA)",
+      "date": "2025 monthly counts, posted April 2026",
+      "url": "https://www.mypigeonforge.com/wp-content/uploads/2026/04/2025-Great-Smoky-Mountains-National-Park.pdf"
+    },
+    {
+      "publisher": "The Mountain Press",
+      "title": "County approves new tax rate, budget",
+      "date": "June 2026",
+      "url": "https://www.themountainpress.com/news/county-approves-new-tax-rate-budget/article_d93d4239-58e0-5f18-b1be-9598e30bd835.html"
+    },
+    {
+      "publisher": "The Diner on 66",
+      "title": "The Diner on 66 (operator website)",
+      "date": "Operator site read October 15 and October 29, 2026",
+      "url": "https://thedineron66.com/"
+    },
+    {
+      "publisher": "Holston's Kitchen",
+      "title": "Holston's Kitchen, Sevierville (location page)",
+      "date": "Operator page read October 15 and October 29, 2026",
+      "url": "https://holstonskitchen.com/sevierville-tn/"
+    },
+    {
+      "publisher": "The Appalachian",
+      "title": "The Appalachian, Sevierville (operator website)",
+      "date": "Operator site read October 15 and October 29, 2026",
+      "url": "https://theappalachianrestaurant.com/"
+    },
+    {
+      "publisher": "Muchacho Alegre",
+      "title": "Muchacho Alegre, Sevierville (operator website)",
+      "date": "Operator site read October 15 and October 29, 2026",
+      "url": "https://www.mexicanfoodhere.com/"
+    },
+    {
+      "publisher": "Hoodline",
+      "title": "Second Walmart Supercenter Rising on Sevierville's Traffic-Choked Highway 66",
+      "date": "September 2026",
+      "url": "https://hoodline.com/2026/09/second-walmart-supercenter-rising-on-sevierville-s-traffic-choked-highway-66/"
+    },
+    {
+      "publisher": "Loving East Tennessee",
+      "title": "What's New in Sevierville, Summer 2026",
+      "date": "Summer 2026",
+      "url": "https://lovingeasttennessee.com/blog/the-sevierville-summer-nobody-wrote-down-whats-actually-different-this-year"
+    },
+    {
+      "publisher": "WATE",
+      "title": "How Sevier County helps generate record-breaking Tennessee tourism revenue",
+      "date": "June 27, 2025",
+      "url": "https://www.wate.com/news/smoky-mountains/how-sevier-county-helps-generate-record-breaking-tennessee-tourism-revenue/"
+    },
+    {
+      "publisher": "WVLT",
+      "title": "Road work on Winfield Dunn Parkway expected to cause traffic delays (TDOT)",
+      "date": "January 7, 2026",
+      "url": "https://www.wvlt.tv/2026/01/07/road-work-highway-66-sevier-county-expected-cause-traffic-delays-tdot/"
+    },
+    {
+      "publisher": "WATE",
+      "title": "East Tennessee road work: what to expect, September 26 to October 1, 2025",
+      "date": "Week of September 26, 2025",
+      "url": "https://www.wate.com/news/traffic/road-work-to-expect-sept-26-oct-1-2025/"
+    },
+    {
+      "publisher": "Homes with the Mortgage Foodie",
+      "title": "New East Tennessee Restaurants: June 2026",
+      "date": "June 2026",
+      "url": "https://homeswiththemortgagefoodie.com/new-east-tennessee-restaurants-june-2026/"
+    },
+    {
+      "publisher": "Visit Sevierville",
+      "title": "Favorite Restaurants in Sevierville, TN (national and known chains)",
+      "date": "Page read October 2026; undated",
+      "url": "https://visitsevierville.com/NatKnownChains.aspx"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "7(a) loan program: terms, conditions and eligibility",
+      "date": "September 16, 2026",
+      "url": "https://www.sba.gov/partners/lenders/7a-loan-program/terms-conditions-eligibility"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+      "date": "Effective October 1, 2026",
+      "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "Information Notice 5000-881797: FY 2027 7(a) Program Fees",
+      "date": "2026",
+      "url": "https://legacy.sba.gov/document/information-notice-5000-881797-fy-2027-7a-program-fees"
+    },
+    {
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "title": "H.15 Selected Interest Rates",
+      "date": "Release of October 9, 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "publisher": "eCFR",
+      "title": "13 CFR 120.160, Loan conditions",
+      "date": "Current to October 7, 2026",
+      "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+    }
+  ]
+}
+---
+<section id="at-a-glance" data-eyebrow="Study at a Glance" data-h2="A new full-service restaurant on the Winfield Dunn Parkway, tested against the SBA 7(a) rules.">
+<div class="prose">
+<p>Feasibility Study Company prepares feasibility studies for owners, developers and their lenders. This page shows what one looks like for a restaurant: the market, the competitors, the cost of the build and the question every SBA lender asks, which is how much debt the restaurant's cash flow can carry. The project is hypothetical, a new independent full-service restaurant in Sevierville, Tennessee, financed with an SBA 7(a) loan. <a href="/#contact">Ask us to run the same work on your site.</a></p>
+<p>The subject is generic: a freestanding restaurant of about {{case:v.in_bldg_sf}} square feet on about {{case:v.in_land_acres}} acres along the Winfield Dunn Parkway, the highway that carries visitors from Interstate 40 toward the Smokies. The market figures are public and dated. The model figures come from a case engine that works from the inputs table near the end, where every input names a source or is marked as an assumption. For context, see our <a href="/asset-classes/restaurant/">restaurant hub</a>, the <a href="/states/tennessee/">Tennessee</a> state page and the <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 program page</a>.</p>
+</div>
+{{case:glance}}
+</section>
+<section id="market-conclusion" data-eyebrow="Market Conclusion" data-h2="The visitor trade is large and documented. The loan has to be smaller than the sponsor asked.">
+<div class="prose">
+<p>The market answer is a qualified yes, and it rests on visitors, not residents. Sevierville counted 18,231 people on July 1, 2024, up only 0.3% from its 2020 Census count of 17,889 [^1]. The county around it spent differently: direct visitor spending reached $3,929,693,370 in 2024, 2.03% above 2023 [^6]. A restaurant on this corridor serves the people who arrive for the park, the attractions and the lodging, and the households in town are the steady base under that trade.</p>
+<p>The competitive answer is less comfortable. The highway is lined with sit-down restaurants, from national chains to family-owned diners to a chef-driven dining room downtown, and four of them could be confirmed on an operator's own page for this study [^10,11,12,13]. Several of the newest openings reused buildings that earlier restaurants left behind: a burger chain in a former burger-and-shake restaurant site and a comfort-food place on a former fast-food lot [^15]. A new-build entrant competes with operators who inherited a finished kitchen, and that is the cost disadvantage the loan has to absorb.</p>
+<p>The financing answer follows from both. Under the sponsor's {{case:v.equity_proposed_pct}} equity proposal the project costs {{case:v.tpc_proposed}} and asks for a {{case:v.loan_total_proposed}} loan at {{case:v.rate}}. Coverage in the Year 2 test is {{case:v.dscr_y2_proposed}} against a floor of <!--sba:dscr.standard_7a.value-->1.15x<!--/sba:dscr.standard_7a.value--> [^22]. The proposal fails.</p>
+<p>Restructured, the restaurant carries {{case:v.loan_total}} of debt and the sponsor puts in {{case:v.equity}}, {{case:v.equity_pct}} of project cost. That structure meets the floor in Year 2 and reaches {{case:v.dscr_y3}} at stabilization. It passes on these numbers, but it is a different deal from the one proposed, and the sensitivity table later on this page shows how little room Year 2 leaves: a modest shortfall in guests or in the average check undoes it.</p>
+</div>
+</section>
+<section id="demand" data-eyebrow="Demand" data-h2="A small city inside a very large visitor county.">
+<div class="prose">
+<p>Restaurant demand in Sevierville has two layers. The first is the resident base: households, workers and retirees who eat out all year. The second is the visitor flow: the guests of the lodging, attractions and national park that sit within a short drive, whose spending dwarfs the first layer. A feasibility study for a restaurant here has to measure both and be honest about which one pays the debt. The tables below set out the public record for each.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Indicator</th><th scope="col">Figure</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Sevierville population</td><td>18,231</td><td>July 1, 2024</td><td>[^1]</td></tr>
+<tr><td>Sevierville population, 2020 Census</td><td>17,889</td><td>April 1, 2020</td><td>[^1]</td></tr>
+<tr><td>Population estimates base</td><td>18,179</td><td>April 1, 2020</td><td>[^1]</td></tr>
+<tr><td>Change, estimates base to 2024 estimate</td><td>+0.3%</td><td>2020 to 2024</td><td>[^1]</td></tr>
+<tr><td>Population density</td><td>743.1 persons per square mile</td><td>2020</td><td>[^1]</td></tr>
+<tr><td>Population, American Community Survey</td><td>18,397</td><td>ACS 2024 5-year</td><td>[^2]</td></tr>
+<tr><td>Households; margin of error</td><td>7,904 households; <span data-fsc-nocount>465</span> households</td><td>ACS 2024 5-year</td><td>[^2]</td></tr>
+<tr><td>Median age: Sevierville; Sevierville micropolitan area; Tennessee</td><td>39.6; 43.5; 38.9</td><td>ACS 2024 5-year</td><td>[^2]</td></tr>
+<tr><td>Margin of error on Sevierville's median age</td><td>2.9 years</td><td>ACS 2024 5-year</td><td>[^2]</td></tr>
+<tr><td>Sevier County population, BEA</td><td><!--mkt:co-47155.bea_population {"fmt": "int"}-->100,184<!--/mkt:co-47155.bea_population--></td><td>Calendar year 2024</td><td>[^4]</td></tr>
+<tr><td>Sevier County households</td><td><!--mkt:co-47155.acs5_households {"fmt": "int"}-->40,344<!--/mkt:co-47155.acs5_households--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Sevier County renter-occupied households</td><td><!--mkt:co-47155.acs5_renter_occupied {"fmt": "int"}-->11,825<!--/mkt:co-47155.acs5_renter_occupied--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Sevier County residents 65 and over</td><td><!--mkt:co-47155.acs5_pop65 {"fmt": "int"}-->20,290<!--/mkt:co-47155.acs5_pop65--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Sevier County unemployment rate</td><td><!--mkt:co-47155.acs5_unemployment_rate {"fmt": "pct1"}-->3.3%<!--/mkt:co-47155.acs5_unemployment_rate--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Sevier County median household income</td><td><!--mkt:co-47155.acs5_median_hh_income {"fmt": "usd"}-->$62,581<!--/mkt:co-47155.acs5_median_hh_income--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Sevier County per capita personal income</td><td><!--mkt:co-47155.bea_per_capita_income {"fmt": "usd"}-->$63,846<!--/mkt:co-47155.bea_per_capita_income--></td><td>Calendar year 2024</td><td>[^4]</td></tr>
+<tr><td>Sevier County median home value</td><td><!--mkt:co-47155.acs5_median_home_value {"fmt": "usd"}-->$299,000<!--/mkt:co-47155.acs5_median_home_value--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Sevier County median gross rent</td><td><!--mkt:co-47155.acs5_median_gross_rent {"fmt": "usd"}-->$1,072<!--/mkt:co-47155.acs5_median_gross_rent--></td><td>ACS 2020 to 2024</td><td>[^3]</td></tr>
+<tr><td>Restaurant establishments in the county (at least)</td><td><!--mkt:co-47155.cbp_estab.restaurant {"allow_flag": true, "fmt": "int"}-->397<!--/mkt:co-47155.cbp_estab.restaurant--></td><td>2023</td><td>[^5]</td></tr>
+<tr><td>Restaurant employees in the county (at least)</td><td><!--mkt:co-47155.cbp_emp.restaurant {"allow_flag": true, "fmt": "int"}-->10,404<!--/mkt:co-47155.cbp_emp.restaurant--></td><td>Pay period including March 12, 2023</td><td>[^5]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>The resident base is small and not growing fast</h3>
+<p>Between the 2020 Census and the 2024 estimate the city added almost no one: 17,889 became 18,231, a gain of 0.3% [^1]. Its American Community Survey reading is slightly higher, 18,397, with 7,904 households [^2]. The city is compact, at 743.1 persons per square mile [^1], and it is older than the state: its median age of 39.6 compares with 38.9 for Tennessee and 43.5 for the surrounding micropolitan area [^2]. A restaurant that depended on those households alone would have a ceiling set by how often 7,904 households eat out, and no loan officer would underwrite that ceiling against a new building.</p>
+<p>The county tells a larger story. Sevier County is the larger market, and the first county rows of the table add its 2024 population, its households, its older residents and its unemployment rate [^3,4]. Income is middle-market, with the household median and the per capita figure close together, and the home value and rent rows show housing that is not cheap against those incomes [^3,4]. That is one reason the wage in the model is set above a bare minimum.</p>
+<h3>What the county already sells to restaurants</h3>
+<p>The Census Bureau's County Business Patterns counts restaurant establishments and their employees in Sevier County for 2023, shown in the last two rows of the first table [^5]. Both are lower bounds, because the federal tabulation withholds some detail cells to protect individual businesses [^5]. They are the best available measure of how large the supply is, and they say the county's restaurant economy is a major employer in its own right, not a thin retail category. The competition a new restaurant faces is therefore county-wide, not a handful of names on one road.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Visitor indicator</th><th scope="col">Figure</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Sevier County direct visitor spending</td><td>$3,929,693,370</td><td>2024</td><td>[^6]</td></tr>
+<tr><td>Change in county visitor spending versus 2023</td><td>+2.03%</td><td>2024</td><td>[^6]</td></tr>
+<tr><td>State tax revenue generated by county tourism</td><td>$251,693,926</td><td>2024</td><td>[^6]</td></tr>
+<tr><td>Local tax revenue generated by county tourism</td><td>$187,210,059</td><td>2024</td><td>[^6]</td></tr>
+<tr><td>Tennessee direct visitor spending; change on the prior year</td><td>$32.5 billion; +2.7%</td><td>2025</td><td>[^7]</td></tr>
+<tr><td>Tennessee visits</td><td>150 million</td><td>2025</td><td>[^7]</td></tr>
+<tr><td>Tennessee direct visitor spending; visitors</td><td>$31.66 billion; 147 million</td><td>2024</td><td>[^7]</td></tr>
+<tr><td>Great Smoky Mountains National Park visits: January; February</td><td>459,626; 506,742</td><td>2025</td><td>[^8]</td></tr>
+<tr><td>Great Smoky Mountains National Park visits: March; April</td><td>879,991; 1,026,754</td><td>2025</td><td>[^8]</td></tr>
+<tr><td>Visitors to the Smokies during the 40-day federal shutdown</td><td>2.4 million</td><td>Autumn 2025</td><td>[^7]</td></tr>
+<tr><td>County lodging revenue change cited by the county mayor</td><td>+5.8%</td><td>October 2025</td><td>[^7]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>Visitor spending and what it pays for</h3>
+<p>The county's own release puts 2024 direct visitor spending at $3,929,693,370, a gain of 2.03% over 2023, and attributes $251,693,926 in state tax revenue and $187,210,059 in local tax revenue to tourism [^6]. For a restaurant the lesson is not the headline. It is that the visiting guest pays a large share of the local tax base, which gives local government an interest in keeping the corridor open and passable.</p>
+<p>Tennessee set a record in 2025, with $32.5 billion of direct visitor spending, 2.7% above the year before, on 150 million visits [^7]. The year before, the state counted $31.66 billion and 147 million visitors [^7]. The state's growth is steady, not explosive: the tourism economy is up 40% since 2018 [^7], and 2025 added 2.7%. The case therefore does not model a boom. It models a restaurant that earns its share of a mature visitor market.</p>
+<h3>The park and the shape of the year</h3>
+<p>Great Smoky Mountains National Park sits at the southern edge of the county, and the monthly counts for 2025 show the year's shape: 459,626 visits in January, 506,742 in February, 879,991 in March and 1,026,754 in April [^8]. April more than doubles January. A restaurant open every day pays a full week of staff in the winter and does not earn a full week of revenue, which is why the model carries a working capital reserve sized for the slow months and a labor line that does not flex fully with the calendar.</p>
+<p>The park's busiest weeks do not help a restaurant that cannot seat them. At the peak a good table-service restaurant is full for a few hours, and the extra guests wait or leave. That is the practical limit on the guest count in this case, and it is why the model tops out at a level that fills the room about twice on an average day, not at a figure the park's visitation might seem to support.</p>
+<h3>Disruptions and surges</h3>
+<p>Two events from the last year show how the trade behaves under stress. During the 2025 federal shutdown a coalition of state and local partners kept the Smokies open for 40 days, and more than 2.4 million people visited in that window [^7]. In the Sevier County mayor's account of October 2025, lodging revenue was up 5.8% and restaurant and amusement revenue were up too [^7]. The corridor's own calendar also adds weekend surges: a truck show at the Sevierville Convention Center brought police warnings of delays on the highway in the autumn of 2025 [^18], and the state's road crews closed lanes on the parkway for repaving in January 2026 [^17]. A restaurant on the highway has to plan for guests who arrive late, in a hurry, or not at all on a bad traffic day.</p>
+<p>The attractions behind the trade matter as well. The region's best-known theme park is described as Tennessee's most ticketed attraction [^16]. The research found no attendance figure for it, so the case does not size demand from it, but it explains why the corridor stays busy on weekdays outside the summer and why the model assumes a family-dining mix of lunch and dinner rather than a late-night one.</p>
+</div>
+</section>
+<section id="competitors" data-eyebrow="Competitor Census" data-h2="Four sit-down restaurants confirmed on operators' own sites, in a field with many more.">
+<div class="prose">
+<p>The research found more than a dozen sit-down competitors on the parkway and downtown, but could confirm only four against an operator's own website. Directory listings were treated as secondary, and the aggregator review counts and menu prices in the file carry no publication date, so none of them is printed here. Requests to two national chains' store pages were refused by their servers, and the study did not work around the refusal, so those stores are named below only as listings to verify. The rows in the table are the confirmed ones; each links to the operator's own page, which this study read on October 29, 2026.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Competitor</th><th scope="col">Location</th><th scope="col">What the record shows</th><th scope="col">Operator page</th></tr></thead>
+<tbody>
+<tr><td>The Diner on 66</td><td>Winfield Dunn Parkway, Sevierville</td><td>Independent, locally owned diner serving breakfast and lunch on the highway; summer hours posted; the site lists two street addresses, so the exact location is a point to confirm; menu prices posted but not dated [^10]</td><td><a href="https://thedineron66.com/">The Diner on 66 website</a></td></tr>
+<tr><td>Holston's Kitchen</td><td>Dolly Parton Parkway, Sevierville</td><td>Regional restaurant with a second unit in another East Tennessee city; open for lunch and dinner every day of the week; menus posted [^11]</td><td><a href="https://holstonskitchen.com/sevierville-tn/">Holston's Kitchen location page</a></td></tr>
+<tr><td>The Appalachian</td><td>Downtown Sevierville</td><td>Independent upscale dining room; dinner only, Tuesday through Saturday; reservations offered through the site [^12]</td><td><a href="https://theappalachianrestaurant.com/">The Appalachian website</a></td></tr>
+<tr><td>Muchacho Alegre</td><td>Winfield Dunn Parkway, Sevierville</td><td>Independent Mexican restaurant on the highway; catering offered; no prices posted [^13]</td><td><a href="https://www.mexicanfoodhere.com/">Muchacho Alegre website</a></td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>What the field tells a newcomer</h3>
+<p>The four confirmed competitors cover four different bets: a breakfast-and-lunch diner that keeps early hours [^10], a regional brand with a second restaurant elsewhere in the region [^11], a downtown dining room that opens only for dinner on five nights [^12], and a Mexican restaurant that sells catering as well as table service [^13]. None is a direct copy of the subject. The subject is a mid-priced American dining room open for lunch and dinner on the highway, which puts it between the diner and the downtown room on price and in the same lane as the regional brand on hours.</p>
+<p>That positioning has a cost. A restaurant that fills a large dining room at lunch and dinner depends on drive-by visibility and a parking field, which the highway provides, and on a reason to stop that the chains already on the road do not give. The census suggests that reason is a distinctive menu and a place that locals recommend, because the visitors who fill the room in April have a long list of choices on every block.</p>
+<h3>Listings the study does not rely on</h3>
+<p>Several more names turned up on directory pages and stay out of the table because no operator page could be confirmed. They include a national family-dining chain and a national buffet chain on the parkway, a regional barbecue brand, a Thai restaurant whose delivery app status was inconsistent, an older Mexican restaurant, a Chinese restaurant, a billiards hall with a full bar, a fast-casual wrap shop, a downtown fine-dining room and an Italian restaurant on the Red Bank Road side of town. The county's visitor bureau lists the national family-dining chain among the town's known chains [^20]. A Texas steakhouse chain's Sevierville unit could not be located at all. These names are the starting list for the competitor condition at the end of the page, since the census is only as strong as its weakest row.</p>
+<h3>New supply and reuse</h3>
+<p>The newest openings are mostly national or regional brands and reused buildings. A burger chain opened in the spring of 2026 in a former burger-and-shake restaurant site on the parkway, after its site plan won unanimous approval from the Sevierville Planning Commission in the autumn of 2025, and a comfort-food restaurant took over a former fast-food site in the same season [^15]. A seafood restaurant with weekend live music opened on the parkway in 2026 [^19]. The first two converted an old restaurant property, which shortens the opening timeline and lowers the capital a lender must fund. A new-build sponsor starts without that advantage, and this page's model carries the full cost of land, building and kitchen.</p>
+<p>The largest project in the pipeline is not a restaurant at all. A second supercenter, with a fuel center, was under construction on the parkway near the interstate in September 2026 [^14]. It adds daytime traffic and daily errands to the corridor without adding a sit-down competitor, and its parking lot will draw trips that pass a restaurant on the way. No planning commission agenda or permit record for other restaurant projects was found, so the pipeline above is what local news and the county's visitor guides report, not a complete permit list.</p>
+</div>
+</section>
+<section id="site" data-eyebrow="Site" data-h2="The parcel is generic. The research could not confirm zoning, flood or utilities for any parcel on the corridor.">
+<div class="prose">
+<p>The subject is a hypothetical pad of about {{case:v.in_land_acres}} acres on the Winfield Dunn Parkway, the divided state route that carries visitors from Interstate 40 toward Pigeon Forge and the park. Which parcel it is, and what zoning it carries, are conditions to confirm. The research could not retrieve a parcel identifier, a verified zoning district, a flood zone or a utility territory for any corridor site from the county assessor, the city planning office or FEMA, so the paragraphs below describe what is known about the corridor and what each missing item would mean.</p>
+<h3>Zoning and approvals</h3>
+<p>Whether a restaurant is allowed by right or only by conditional approval in the arterial commercial district that lines the parkway was not found, and neither was the approval timeline. The one dated example in the file is the burger chain that reused a former restaurant site: its plan went through the Planning Commission in the autumn of 2025 and the store opened the following spring [^15]. A new-build site plan, a grease interceptor and a parking and stormwater review take longer than a reuse, so the model carries a design and permitting allowance, not a published fee schedule.</p>
+<h3>Frontage and traffic</h3>
+<p>The parkway is the main approach from Interstate 40, and local news describes the stretch near the interstate as traffic-choked [^14]. The state transportation department's own annual average daily traffic count for the site was not found, and the figures that circulate in listings and on aggregator pages carry no count year or station number, so none is printed. The traffic count is the second condition on the list at the end of the page. Lane closures for repaving in January 2026 are a reminder that access can be disrupted [^17], and a site with a deceleration lane and two driveways serves a restaurant better than one with a single shared entrance.</p>
+<h3>Utilities</h3>
+<p>Water and sewer providers, electric territory, gas availability and the city's tap and impact fees were not found for any corridor parcel. The model therefore carries a site work allowance and a soft cost allowance and leaves the fee schedule as a lender condition. A commercial kitchen needs a larger water meter, a grease interceptor and sometimes a gas line, so utility cost is likelier to exceed an allowance than fall below it.</p>
+<h3>Property tax</h3>
+<p>The reappraisal of 2026 changed the arithmetic for every parcel in the county, and it is the best-dated cost item in the research.</p>
+</div>
+<p>The county set a rate of $0.87 per $100 assessed for fiscal 2026-27, slightly above the certified rate pending appeals to the equalization board, and lower than the year before [^9]. The City of Sevierville also reset its rate after the reappraisal, which a lender should confirm for any parcel inside the city limits. A lower rate follows a higher appraised value, so a new building may pay more or less than the old rate suggests, depending on how the county values it. The assessment ratio for commercial property, the appraisal and whether the parcel lies inside the city were not found in a dated source, so the model uses a planning level and the actual levy is a lender condition.</p>
+<h3>Flood and environment</h3>
+<p>A river-bottom parcel on the same highway shows a FEMA special flood hazard designation in the property record the research read. The flood zone for the subject is therefore the first environmental condition, followed by a Phase I environmental assessment. A restaurant that sits in a mapped flood zone needs flood insurance, and the insurance quote can change the operating budget as much as the tax rate does. Wind and wildfire insurance conditions in the mountain foothills were not found and are on the list.</p>
+</div>
+</section>
+<section id="revenue" data-eyebrow="Revenue Build" data-h2="Guests, a food check and a beverage check.">
+{{case:revenue}}
+<div class="prose">
+<p>Revenue is built the way a restaurant operator builds it: guests served, multiplied by what each guest spends on food and on drinks. The research holds no sales, covers or seat counts for any competitor, so both lines are built from assumptions, each explained in the inputs table.</p>
+<h3>Guest volume</h3>
+<p>The model opens at about three quarters of its plateau, ramps through Year 2 and reaches {{case:v.in_guests}} guests in Year 3, then grows slowly. The reasoning is capacity, not market share. A restaurant of about {{case:v.in_bldg_sf}} square feet seats roughly 150 people, serves lunch and dinner, and fills its room about twice on an average day, with far fuller days in the spring and autumn peaks and emptier ones in January. The demand evidence supports that level: a county that took in $3,929,693,370 of visitor spending [^6] has far more guests than one restaurant can seat. But no competitor publishes its covers, and the corridor's many restaurants split the same visitors, so the guest count is an assumption that a share study would replace.</p>
+<h3>Food and beverage checks</h3>
+<p>The model carries {{case:v.in_food_check}} of food sales per guest in Year 1, and {{case:v.in_bev_check}} of beverage sales, growing {{case:v.in_check_growth}} a year. The only price evidence in the research is on operator menus, a diner that sells breakfast plates and a downtown room that sells entrees at several times a diner's price [^10,12], and the dates on those menus are the dates the pages were read, so the study prints no menu price. The blend sits between the two. The beverage check assumes beer and wine but no liquor-by-the-drink, since whether a license is available at the site is a condition. A sponsor with a license in hand would raise this line; a sponsor without one would not lose the model.</p>
+<p>In Year 3 these lines produce {{case:v.rev_y3}} of revenue, rising to {{case:v.rev_y5}} by Year 5 as the checks grow with menu prices.</p>
+</div>
+</section>
+<section id="opex" data-eyebrow="Operating Expenses" data-h2="Labor and the cost of food decide the margin.">
+{{case:opex}}
+<div class="prose">
+<p>The cost of sales lines are food and beverage purchases: {{case:v.in_food_cost}} of food sales and {{case:v.in_bev_cost}} of beverage sales. Gross profit is {{case:v.gp_y3}} in Year 3. Both ratios are placeholders, because the research holds no restaurant cost benchmark for Tennessee or for the nation, and a menu costing and supplier quotes replace them before the loan closes.</p>
+<p>Labor is the largest operating cost. The model staffs {{case:v.in_labor_hours}} paid hourly hours a year at {{case:v.in_wage}} an hour in Year 1, with {{case:v.in_burden}} added for payroll taxes and workers' compensation, plus three salaried managers at {{case:v.in_manager}} in total. No competitor publishes its staffing, and no Tennessee wage series is in the research, so these are planning figures. The wage in a tourist town is also set by lodging and attraction employers who compete for the same workers, a pressure the research does not measure but any lender should ask about.</p>
+<p>The model then adds card processing at {{case:v.in_card_fee}} of sales, marketing at {{case:v.in_marketing_pct}} of sales, an allowance of {{case:v.in_other_opex}} for utilities, insurance, repairs, supplies, licences and the rest, property tax at {{case:v.in_tax_rate}} of land, building and site cost [^9], and a replacement reserve of {{case:v.in_reserve_pct}} of equipment cost each year. Operating costs run {{case:v.opex_y1}} in Year 1 and {{case:v.opex_y3}} in Year 3, while revenue grows from {{case:v.rev_y1}} to {{case:v.rev_y3}}. Net operating income is {{case:v.noi_y1}} in Year 1, {{case:v.noi_y2}} in Year 2 and {{case:v.noi_y3}} in Year 3, a margin of {{case:v.noi_margin_y3}} at stabilization.</p>
+</div>
+</section>
+<section id="sources-uses" data-eyebrow="Sources and Uses" data-h2="Land, a building and a kitchen, funded before the first guest.">
+{{case:uses}}
+{{case:sources}}
+<div class="prose">
+<p>Land and the building together, with site work, make up well over half of the budget, and the cost of each is assumed. The research holds no closed sale of a small corridor pad and no construction cost for Sevierville, so land is carried at a round {{case:v.in_land_per_acre}} an acre and the building at {{case:v.in_bldg_psf}} a square foot. Asking prices on the corridor are not sales, and a lender will order an appraisal before it advances against either one.</p>
+<p>The kitchen line, {{case:v.in_kitchen}}, and the furniture and point-of-sale line, {{case:v.in_ffe}}, pay for what separates a restaurant from an empty shell. The pre-opening allowance of {{case:v.in_preopen}} and the working capital reserve of {{case:v.in_working_capital}} fund the months in which staff are trained and paid and the dining room has not yet filled. The reserve is sized for the slow months of the visitor calendar [^8].</p>
+<p>The sources table shows both structures. As proposed, the sponsor puts in {{case:v.equity_proposed}} and borrows {{case:v.loan_total_proposed}}, inside the program's <!--sba:limits.max_7a.value-->$5 million<!--/sba:limits.max_7a.value--> ceiling [^22]. As restructured, equity rises to {{case:v.equity}} and the loan falls to {{case:v.loan_total}}. The guaranty fee is added to project cost and moves with the loan, so total project cost is {{case:v.tpc}} as restructured.</p>
+</div>
+</section>
+<section id="loan" data-eyebrow="Loan Structure" data-h2="The 7(a) rules this loan is tested against.">
+{{case:loan}}
+<div class="prose">
+<p>The governing document is <!--sba:sop.name-->SOP 50 10 8.1 with Technical Policy Updates<!--/sba:sop.name-->, which applies to applications received on or after <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective--> [^22]. For a start-up it asks for <!--sba:equity.startup_7a.value-->10%<!--/sba:equity.startup_7a.value--> equity and projected coverage of <!--sba:dscr.standard_7a.value-->1.15x<!--/sba:dscr.standard_7a.value--> inside two years, so the coverage test falls in Year 2 of the model. One 7(a) loan may not exceed <!--sba:limits.max_7a.value-->$5 million<!--/sba:limits.max_7a.value-->; the sponsor's request, at {{case:v.equity_proposed_pct}} equity, stays beneath that cap. Since land, building and site work make up a majority of the use of proceeds, the loan can be amortized over as many as <!--sba:terms.real_estate_max_years.value-->25<!--/sba:terms.real_estate_max_years.value--> years [^22].</p>
+<p>Occupancy matters too. For a building to be constructed, the borrower must occupy <!--sba:regulation.occupancy_new.value-->60%<!--/sba:regulation.occupancy_new.value--> of it [^22], which a restaurant using all of its own space satisfies. Pricing starts from Prime, <!--sba:rates.prime.value-->7.00%<!--/sba:rates.prime.value--> in the Federal Reserve's October 9, 2026 release [^24], and adds the largest spread SBA permits on a loan of this size, which gives {{case:v.rate}}. A lender may offer less. SBA guarantees {{case:v.in_sba_guaranty_pct}} of a loan this size [^21], and the upfront guaranty fee for FY2027 follows the fee notice [^23].</p>
+<p>The building is only part of the collateral story, because a restaurant's value is its cash flow. The <a href="/asset-classes/restaurant/">restaurant hub</a> explains why lenders read the operator's record and concept as closely as the real estate. As for the study itself, the regulation says <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^25], which a lender may well invoke for a first-time operator building from the ground up.</p>
+</div>
+</section>
+<section id="pro-forma" data-eyebrow="Pro Forma" data-h2="Five years on the restructured loan.">
+{{case:proforma}}
+<div class="prose">
+<p>Read across the five years, the table has the usual restaurant start-up profile: close to zero income in the opening year, a modest second year that has to carry the coverage test, a much better third year once the dining room is at its plateau, and gradual gains after that. Net operating income reaches {{case:v.noi_y5}} in Year 5. The model lets menu prices rise {{case:v.in_check_growth}} a year and costs rise {{case:v.in_wage_growth}} a year, so the margin widens only slowly once volume stops growing. Year 1 is the exposed year: income of {{case:v.noi_y1}} against {{case:v.ds}} of debt service is a shortfall that the working capital reserve must fund.</p>
+</div>
+</section>
+<section id="dscr" data-eyebrow="Debt Service Coverage" data-h2="As proposed it fails; with much more equity it passes.">
+{{case:dscr}}
+{{case:determination}}
+{{case:verdict}}
+<div class="prose">
+<p>As proposed, coverage is {{case:v.dscr_y1_proposed}} in Year 1, {{case:v.dscr_y2_proposed}} in the Year 2 test and {{case:v.dscr_y3_proposed}} at stabilization. Annual debt service of {{case:v.ds_proposed}} is large next to the restaurant's income in the test year, which is only {{case:v.noi_y2}}. The request fails the start-up test, and weak demand is not the reason. The reason is the size of the loan: a restaurant still filling its dining room is being asked to service debt on a whole building and kitchen from the first month.</p>
+<p>The engine then adds equity until the second year reaches the floor. With {{case:v.equity_pct}} down, annual debt service drops to {{case:v.ds}}, Year 2 coverage is {{case:v.dscr_y2}} and Year 3 climbs to {{case:v.dscr_y3}}. The resulting loan, {{case:v.loan_total}}, is far smaller than the request. Because it only just reaches the floor in the test year, a lender would be right to read it as a ceiling rather than a goal.</p>
+<p>A sponsor has three realistic answers, and the lender should ask which one is intended. One is to bring the extra cash. Another is to take an existing restaurant building on a lease or by purchase, the route several recent corridor openings took [^15]; this page does not model a lease or a conversion, and either would need its own study. The third is to produce evidence, such as the operating record of a sister restaurant, that volume will ramp faster than assumed here. Resubmitting the original request is not among them.</p>
+<p>If you are weighing a restaurant site of your own, <a href="/#contact">contact Feasibility Study Company</a> and have the coverage question answered before the lender raises it. We do not forecast what a lender will decide; we put the analysis in front of the lender.</p>
+</div>
+</section>
+<section id="break-even" data-eyebrow="Break-Even" data-h2="How far the guest count can fall in Year 3.">
+{{case:breakeven}}
+<div class="prose">
+<p>On the restructured loan, the restaurant covers debt service in Year 3 down to {{case:v.breakeven_value}} guests, {{case:v.breakeven_pct}} of the underwritten volume, a cushion of {{case:v.cushion_pct}}. It meets the program floor down to {{case:v.breakeven_floor_value}} guests. The cushion is thin because most labor and occupancy cost does not move with the guest count; a restaurant that seats a few fewer guests pays nearly the same payroll and keeps less of every dollar. The weak point is the opening: Year 1 income is {{case:v.noi_y1}} against {{case:v.ds}} of debt service, and Year 2 income of {{case:v.noi_y2}} leaves little room.</p>
+</div>
+</section>
+<section id="sensitivity" data-eyebrow="Sensitivity" data-h2="Guests served and the food check.">
+{{case:sensitivity}}
+<div class="prose">
+<p>This grid varies the two assumptions that matter most here. Down the rows, the guest count moves by as much as a fifth in either direction in every year; across the columns, food sales per guest move through the range in the headers. Each cell is Year 2 coverage on the restructured loan, and the cells run from {{case:v.sens_min}} to {{case:v.sens_max}}.</p>
+<p>The range is wide because fixed costs absorb a change in revenue before any of it reaches income. At the base check, a one-step shortfall in guests takes Year 2 below the floor, and so does a one-step shortfall in the food check at base volume. A one-step gain in either clears it comfortably. Together, a one-step drop in guests and a one-step drop in the check leaves almost nothing for debt service. The practical lesson is that the concept and its price point matter as much as the building: a sponsor should spend on the menu, the brand and the reservation system before the dining room's finishes.</p>
+</div>
+</section>
+<section id="inputs" data-eyebrow="Model Inputs" data-h2="Every input, and whether a source or an assumption sets it.">
+{{case:inputs}}
+<div class="prose">
+<p>Only the SBA guaranty share is taken directly from a source. Land, construction, volume, the checks, staffing and the operating allowances are assumptions, because the research on this town covers the market, tax rates and program rules but contains no restaurant unit economics. Each assumption names the evidence behind it. A lender should verify the guest count first, then the food check, then the building cost.</p>
+</div>
+</section>
+<section id="risks" data-eyebrow="Risks" data-h2="What could break the Sevierville projection.">
+<ol class="failures">
+<li><div><h3>The winter trough is deeper than modelled</h3><p>The park's January count in 2025 was less than half of April's [^8]. If the corridor's restaurant traffic falls as far, the model's annual average hides months in which payroll exceeds sales, and the working capital reserve is the only protection.</p></div></li>
+<li><div><h3>The field is crowded with reused buildings</h3><p>Recent openings took over finished restaurant buildings [^15], and a new-build sponsor carries the whole cost of land, shell and kitchen. A competitor with a cheaper occupancy cost can underprice a new entrant for years.</p></div></li>
+<li><div><h3>Visitor spending stalls</h3><p>County visitor spending grew 2.03% in 2024 [^6] and the state's grew 2.7% in 2025 [^7], gains that a fuel price spike, a weak consumer or a park closure could erase. The 2025 shutdown showed that the park can stay open [^7], but the research cannot say it always will.</p></div></li>
+<li><div><h3>Labor in a lodging town</h3><p>The research found no wage survey, and restaurants compete with hotels and attractions for the same workers. If the blended wage runs above the model, the labor line, the largest cost, absorbs the margin first.</p></div></li>
+<li><div><h3>Tax and insurance surprises</h3><p>The reappraisal lowered the county rate [^9], but the appraised value of a new building, the assessment ratio and any flood, wind or wildfire insurance conditions are unknown. Each moves operating cost, and the sensitivity table does not test them.</p></div></li>
+<li><div><h3>Access and traffic</h3><p>A highway that local news calls traffic-choked [^14] and that is repaved in the winter [^17] can turn guests away. A site with poor access can lose the visibility advantage that justified the land price.</p></div></li>
+<li><div><h3>Building cost and land cost run high</h3><p>Both are assumptions. Every dollar of overrun at the restructured equity share adds debt the restaurant can only just carry, so the contingency should not be spent on scope. An appraisal below the contract price also shrinks what a lender will advance.</p></div></li>
+</ol>
+</section>
+<section id="lender-conditions" data-eyebrow="Lender Conditions" data-h2="Conditions before commitment.">
+<div class="prose">
+<p>The public record leaves gaps, and each condition below is a gap turned into a requirement. Some conditions bundle several items the research could not find.</p>
+</div>
+<ol class="failures">
+<li><div><h3>Site, title and zoning</h3><p>The parcel identifier from the county assessor, the zoning district with a written determination that a restaurant is allowed there by right or by conditional approval, and the approval timeline. The acreage, price and appraisal of the land and its sale history, and a clearance that the parcel is vacant and free of an occupant's lease.</p></div></li>
+<li><div><h3>Traffic count</h3><p>A state transportation department count station, annual average daily traffic and count year for the parkway at the site; the research found only circulating figures with no station or year.</p></div></li>
+<li><div><h3>Flood and environmental</h3><p>The FEMA flood zone and panel for the parcel, a Phase I environmental site assessment, and any insurance conditions that follow, including wind and wildfire.</p></div></li>
+<li><div><h3>Utility service and fees</h3><p>Confirmation of the water, sewer, electric and gas providers for the parcel, the capacity for a commercial kitchen, the tap and impact fees in force and any line extension cost.</p></div></li>
+<li><div><h3>Taxes and sales tax</h3><p>The combined real property rate for the parcel's jurisdiction, the commercial assessment ratio in a dated source, the appraisal, and the state and local sales tax rates, including any tax on liquor by the drink.</p></div></li>
+<li><div><h3>Licences</h3><p>The food service permit, the beer permit and the liquor-by-the-drink licence, with the city beer board and the state alcoholic beverage commission, and a timeline for each before opening.</p></div></li>
+<li><div><h3>Competitor detail</h3><p>Building size, seats, land area, opening year and assessor records for every competitor, dinner prices on operator pages, and the operating status of the Thai restaurant whose delivery listing was inconsistent. Operator pages for the chain and directory listings named in the census, and the Texas steakhouse unit that could not be found.</p></div></li>
+<li><div><h3>Pipeline</h3><p>Planning commission agendas and building permits for restaurant projects on the parkway, including two announced concepts whose size the research did not find, and the supercenter's opening date [^14].</p></div></li>
+<li><div><h3>Costs and equipment</h3><p>Contractor bids, a construction cost comparison against the national level, kitchen equipment quotes, and quotes for liability, property and flood insurance.</p></div></li>
+<li><div><h3>Demand gaps</h3><p>Trade-area demographics by radius or drive time, daytime employment, the county's 2025 visitor spending, attendance at the area's largest attraction, and truck and event volumes on the highway.</p></div></li>
+<li><div><h3>Program items</h3><p>The final rate at pricing, the owners' eligibility documents under the SOP, and the history of 7(a) lenders and loans in Sevier County from SBA's public loan data. Rural, HUBZone and Opportunity Zone status for the tract were not found; check them if an incentive is part of the plan.</p></div></li>
+<li><div><h3>Opening reserve</h3><p>Cash set aside to cover the Year 1 gap between operating income and debt service, held until the restaurant reaches its stabilized year.</p></div></li>
+</ol>
+</section>

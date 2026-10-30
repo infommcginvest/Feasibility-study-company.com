@@ -95,6 +95,10 @@ class Model:
         for rel, url in site.pages:
             if url.startswith("/case-studies/") and url != "/case-studies/":
                 self.cases.append(self.case(rel, url))
+        # a note promised to a lane (data/site/promised.json, amendment A5) may sit in topics.json before it lands;
+        # until then it is left out of every list
+        promised = links.load_promised(site.root)
+        self.topics["notes"] = {u: v for u, v in self.topics["notes"].items() if site.page_exists(u) or u not in promised}
         self.notes = [u for u in self.topics["notes"] if site.page_exists(u)]
         nb = self.topics.get("state_neighbors", {})
         asym = [(a, b) for a, v in nb.items() for b in v if a not in nb.get(b, [])]

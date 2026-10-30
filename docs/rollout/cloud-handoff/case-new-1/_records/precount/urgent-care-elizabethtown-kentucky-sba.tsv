@@ -1,0 +1,82 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F001	35,448	Elizabethtown city population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L55	Y	
+F002	113,482	Hardin County population, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L55	N	same value printed on served parent page(s): /states/kentucky/
+F003	31,388	Elizabethtown April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L56	Y	
+F004	110,698	Hardin County April 2020 base	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L56	N	same value printed on served parent page(s): /states/kentucky/
+F005	12.9%	Elizabethtown population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L57	N	same value printed on served page(s): /case-studies/retail-nevada-conventional/
+F006	2.5%	Hardin County population change 2020-2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L57	N	same value printed on served page(s): /case-studies/auto-service-new-jersey-sba/, /case-studies/rv-boat-storage-texas-sba/, /case-studies/gas-station-florida-sba/
+F007	13,684	Elizabethtown households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L58	N	rounded repeat of a figure on a served case or note page
+F008	44,622	Hardin County households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L58	Y	
+F009	2.31	Elizabethtown persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L59	Y	
+F010	2.44	Hardin County persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L59	Y	
+F011	$60,760	Elizabethtown median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L60	N	same value printed on served parent page(s): 
+F012	$67,647	Hardin County median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L60	Y	
+F013	$35,019	Elizabethtown per capita income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L61	Y	
+F014	$37,638	Hardin County per capita income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L61	Y	
+F015	25.3%	Elizabethtown persons under 18, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L62	N	same value printed on served parent page(s): /asset-classes/auto-dealership/
+F016	24.0%	Hardin County persons under 18, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L62	N	same value printed on served page(s): /research-notes/special-purpose-property-risk/, /research-notes/coverage-constrained-takeout/, /research-notes/underserved-gas-station-markets/
+F017	14.9%	Elizabethtown persons 65 and over, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L62	N	same value printed on served page(s): /research-notes/sba-default-economics/, /research-notes/special-purpose-property-risk/, /case-studies/auto-dealership-texas-sba/
+F018	17.2%	Hardin County persons 65 and over, V2025	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L62	N	same value printed on served page(s): /case-studies/gas-station-florida-sba/
+F019	8.1%	Elizabethtown uninsured under 65	research	none	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024 (SAHIE, 'latest')	FSC2:UrgentCare:L63	N	vintage given only as latest (I86)
+F020	6.9%	Hardin County uninsured under 65	research	none	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024 (SAHIE, 'latest')	FSC2:UrgentCare:L63	N	vintage given only as latest (I86)
+F021	17.0%	Elizabethtown persons in poverty	research	none	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024 (SAIPE, 'latest')	FSC2:UrgentCare:L64	N	vintage given only as latest (I86)
+F022	12.7%	Hardin County persons in poverty	research	none	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024 (SAIPE, 'latest')	FSC2:UrgentCare:L64	N	vintage given only as latest (I86)
+F023	3,152	Elizabethtown veterans, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L65	Y	
+F024	12,344	Hardin County veterans, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024	FSC2:UrgentCare:L65	Y	
+F025	$880.7 million	Elizabethtown health care and social assistance receipts, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024 (2022 Economic Census)	FSC2:UrgentCare:L66	Y	
+F026	$993.3 million	Hardin County health care and social assistance receipts, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts V2025 / ACS 2020-2024 (2022 Economic Census)	FSC2:UrgentCare:L66	Y	
+F027	26,000	Fort Knox daytime workweek population	research	I77a	U.S. Army (army.mil), 14 Jan 2026	FSC2:UrgentCare:L67	N	same value printed on served page(s): /case-studies/qsr-arkansas-sba/, /case-studies/multifamily-arizona-agency/
+F028	15,000	Fort Knox additional daily visitors	research	I77a	U.S. Army (army.mil), 14 Jan 2026	FSC2:UrgentCare:L110	N	same value printed on served page(s): /research-notes/underserved-gas-station-markets/, /case-studies/auto-service-new-jersey-sba/, /case-studies/pet-boarding-oregon-sba/
+F029	109,000 acres	Fort Knox installation area	research	I77a	U.S. Army (army.mil), 14 Jan 2026	FSC2:UrgentCare:L110	Y	
+F030	22,000	Fort Knox workforce	research	I77a	WKYU, 16 Oct 2025	FSC2:UrgentCare:L108	N	same value printed on served page(s): /case-studies/assisted-living-arizona-hud/, /case-studies/fitness-minnesota-sba/
+F031	$5.6 billion	Fort Knox economic impact, 2024	research	I77a	WKYU, 16 Oct 2025	FSC2:UrgentCare:L109	N	same value printed on served page(s): /research-notes/franchise-vs-non-franchise/
+F032	$1.3 billion	Fort Knox payroll, 2024	research	I77a	WKYU, 16 Oct 2025	FSC2:UrgentCare:L109	N	same value printed on served parent page(s): /asset-classes/glamping/, /asset-classes/auto-service-and-collision/, /asset-classes/marina/
+F033	$4.8 billion	Fort Knox economic impact, 2023 (Chamber op-ed)	research	none	Hardin County Chamber op-ed	FSC2:UrgentCare:L109	N	op-ed date not given in the research
+F034	1,600 jobs	BlueOval SK Glendale layoffs	research	I77a	WYMT/WKYT, 15 Dec 2025	FSC2:UrgentCare:L111	N	same value printed on served page(s): /case-studies/gas-station-georgia-sba/, /case-studies/multifamily-florida-agency/, /case-studies/meat-processing-texas-usda/
+F035	2,100 jobs	Ford energy-storage restart employees expected	research	I77a	WYMT/WKYT, 15 Dec 2025	FSC2:UrgentCare:L112	N	same value printed on served page(s): /case-studies/truck-stop-texas-sba/, /case-studies/gas-station-versailles-ohio-sba/, /case-studies/laundromat-new-mexico-sba/
+F036	$11.4 billion	Ford-SK On EV battery joint venture dissolved	research	I77a	Manufacturing Dive, 23 Mar 2026	FSC2:UrgentCare:L113	N	same value printed on served parent page(s): 
+F037	48,800 vehicles	I-65 AADT south of KY 222, 2022	research	I77a	KYTC Glendale Mobility Study Traffic Forecast Report, Feb 2023	FSC2:UrgentCare:L115	Y	
+F038	53,700 vehicles	I-65 AADT north approaching Elizabethtown, 2022	research	I77a	KYTC Glendale Mobility Study Traffic Forecast Report, Feb 2023	FSC2:UrgentCare:L115	Y	
+F039	62,428 SF	VA outpatient clinic under development on the Ring Road corridor	research	I77a	The News-Enterprise, Aug 2025	FSC2:UrgentCare:L95	Y	
+F040	4,200 SF	Baptist Health Cecilia urgent care clinic	research	I77a	Baptist Health press release, 21 Apr 2026	FSC2:UrgentCare:L82	N	same value printed on served page(s): /case-studies/gas-station-georgia-sba/, /case-studies/gas-station-texas-sba/
+F041	$1,600	HCWD2 water tap fee, 5/8x3/4 meter	research	I77a	Hardin County Water District No. 2 tariff issued 25 Mar 2025 (PSC KY No. 14)	FSC2:UrgentCare:L128	N	same value printed on served parent page(s): /states/utah/
+F042	29.02 acres	VA clinic rezoning request, Pear Orchard Road	research	none	WDRB	FSC2:UrgentCare:L96	N	single-property attribute of one site; article date not given
+F043	9.62 acres	VA site footprint, 2221 Ring Road	research	I77a	U.S. Department of Veterans Affairs OCFM notice, Jan 2026	FSC2:UrgentCare:L97	N	single-property attribute of one site
+F044	150 jobs	VA clinic developer job estimate	research	none	WDRB	FSC2:UrgentCare:L98	N	article date not given in the research
+F045	$100	Norton Immediate Care self-pay range low end	research	none	Norton Healthcare location page modified 28 Sep 2026	FSC2:UrgentCare:L78	N	page-modified stamp is not a publication date of the price (borderline)
+F046	$250	Norton Immediate Care self-pay range high end	research	none	Norton Healthcare location page modified 28 Sep 2026	FSC2:UrgentCare:L78	N	page-modified stamp is not a publication date of the price (borderline)
+F047	1,417 reviews	CareFirst Elizabethtown review count	research	none	CareFirst operator site	FSC2:UrgentCare:L79	N	fetch-dated only; single-property attribute
+F048	$1,500	City sewer connection fee per business tenant	research	none	City of Elizabethtown Engineering FAQ	FSC2:UrgentCare:L127	N	undated FAQ
+F049	$500	HCWD2 sewer capacity fee 5/8x3/4	research	none	HCWD2 Learn More page	FSC2:UrgentCare:L129	N	current/undated
+F050	$100	City gas deposit, commercial	research	none	City of Elizabethtown Utilities	FSC2:UrgentCare:L130	N	current/undated
+F051	$0.110	City real property tax rate per $100, TY 2025	research	none	City of Elizabethtown Finance	FSC2:UrgentCare:L131	N	tax-year label on an undated page; sources conflict ($0.107)
+F052	10.8 cents	County real estate rate, FY2025-26	research	none	WOLF 94.3	FSC2:UrgentCare:L132	N	article date not given
+F053	$0.652	Hardin County Schools rate per $100	research	none	One Louisville Taxes page	FSC2:UrgentCare:L133	N	undated page; 2025 label only
+F054	$0.857	Elizabethtown Independent rate per $100	research	none	One Louisville Taxes page	FSC2:UrgentCare:L133	N	undated page; 2025 label only
+F055	$33.00	Grocery-anchored lease rate low end, 2300 Ring Road	research	none	CommercialSearch index	FSC2:UrgentCare:L47	N	listing rate dated only by our Oct 2026 fetch
+F056	$1,000,000	Subject site asking price	research	none	Century 21 Commercial	FSC2:UrgentCare:L29	N	subject listing figure
+F057	2.24 acres	Subject site acreage	research	none	Century 21 Commercial	FSC2:UrgentCare:L28	N	subject attribute
+F058	$1,695,000	245 Ring Road asking price	research	none	CommercialSearch, updated 12 Jan 2026	FSC2:UrgentCare:L45	N	single-property listing price
+F059	$257.8 million	Kentucky 7(a) approvals 2025 per GoSBA Loans	research	I77b	GoSBA Loans, Best Kentucky SBA Lenders & Rates of 2026	FSC2:UrgentCare:L148	N	aggregator of the SBA FOIA data the register holds; mismatch risk with the register
+F060	508 loans	Kentucky 7(a) loans 2025 per GoSBA Loans	research	I77b	GoSBA Loans (2026)	FSC2:UrgentCare:L148	N	aggregator of FOIA data the register holds; mismatch risk
+F061	9.63%	Kentucky average 7(a) rate per GoSBA Loans	research	I77b	GoSBA Loans (2026)	FSC2:UrgentCare:L148	N	aggregator; mismatch risk with the register
+F062	$34.5 million	Stock Yards Bank & Trust 7(a) volume 2025	research	I77b	GoSBA Loans (2026)	FSC2:UrgentCare:L149	N	aggregator lender ranking; single-lender, mismatch risk with the register
+F063	$37.3 billion	National 7(a) volume FY2025	research	none	MMCG Invest post	FSC2:UrgentCare:L157	N	source is the owner's own site; not independent
+F064	10%	SBA start-up equity injection under SOP 50 10 8	research	none	Whiteford, Taylor & Preston	FSC2:UrgentCare:L153	N	SBA program rule value
+F065	300 beds	Baptist Health Hardin hospital beds	research	none	Baptist Health location page	FSC2:UrgentCare:L85	N	current/undated; single-property attribute
+F066	400,000 residents	Baptist Health Hardin catchment	research	none	Baptist Health location page	FSC2:UrgentCare:L114	N	current/undated
+F067	5 centers	urgent care centers inside the city	research	none	research file	FSC2:UrgentCare:L5	N	research file's own summary count
+F068	$971	Hardin County median gross rent, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_gross_rent.json values.co-21093.all.v	Y	
+F069	$225,800	Hardin County median home value, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_home_value.json values.co-21093.all.v	Y	
+F070	111,942	Hardin County population, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_pop.json values.co-21093.all.v	Y	
+F071	27,921	Hardin County owner-occupied units, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_owner_occupied.json values.co-21093.all.v	Y	
+F072	16,701	Hardin County renter-occupied units, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_renter_occupied.json values.co-21093.all.v	Y	
+F073	16,922	Hardin County residents 65 and over, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_pop65.json values.co-21093.all.v	Y	
+F074	$964	Elizabethtown metro median gross rent, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_gross_rent.json values.cbsa-21060.all.v	Y	
+F075	$67,534	Elizabethtown metro median household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_hh_income.json values.cbsa-21060.all.v	Y	
+F076	$218,800	Elizabethtown metro median home value, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_home_value.json values.cbsa-21060.all.v	Y	
+F077	$36,675	Elizabethtown metro per capita income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_per_capita_income.json values.cbsa-21060.all.v	Y	
+F078	$67,647	Hardin County median household income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_median_hh_income.json values.co-21093.all.v	N	same value as F012 (counts once)
+F079	$37,638	Hardin County per capita income, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_per_capita_income.json values.co-21093.all.v	N	same value as F014 (counts once)
+F080	44,622	Hardin County households, ACS 2020-2024	register	I77c	Census ACS 5-year via register	data/markets/series/acs5_households.json values.co-21093.all.v	N	same value as F008 (counts once)
+#SUMMARY urgent-care-elizabethtown-kentucky-sba counted=26 research=16 register=10 verdict=FOLD engine=N notes=short 4 total, 4 research; A4 reading 33 counted, 23 research, PAGE; 5 shared with assisted-living-elizabethtown sibling (it folds)

@@ -1,0 +1,54 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+R001	12,227	Blytheville population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-ARKANSAS-SBA:52	Y	
+R002	13,414	Blytheville April 2020 population base	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-ARKANSAS-SBA:53	Y	
+R003	8.8%	Blytheville population change 2020-2025 (decline)	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-ARKANSAS-SBA:54	Y	
+R004	5,792	Blytheville households	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-ARKANSAS-SBA:55	Y	
+R005	2.19	Blytheville persons per household	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-ARKANSAS-SBA:56	Y	
+R006	$47,865	Blytheville median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-ARKANSAS-SBA:57	Y	
+R007	$28,970	Blytheville per capita income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-QSR-ARKANSAS-SBA:58	Y	
+R008	25.5%	Blytheville persons under 18, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-ARKANSAS-SBA:60	Y	
+R009	18.0%	Blytheville persons 65 and over, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-QSR-ARKANSAS-SBA:60	Y	
+R010	$53,442,000	Blytheville accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-ARKANSAS-SBA:61	Y	
+R011	$388,261,000	Blytheville retail sales, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-ARKANSAS-SBA:62	Y	
+R012	$30,569	Blytheville retail sales per capita, 2022	research	I77c	U.S. Census Bureau, 2022 Economic Census via QuickFacts	CS-R-QSR-ARKANSAS-SBA:62	Y	
+R013	37,828	Mississippi County population, 2025 estimate	research	I77c	Wikipedia, Mississippi County Arkansas (Census estimate)	CS-R-QSR-ARKANSAS-SBA:64	N	on served page states/arkansas (Mississippi County 2025 count)
+R014	7.0%	Mississippi County population change (decline)	research	I77c	Wikipedia, Mississippi County Arkansas (Census estimate)	CS-R-QSR-ARKANSAS-SBA:64	Y	
+R015	1,712	U.S. Steel employees in Arkansas	research	I77a	Arkansas Democrat-Gazette 29 Apr 2026	CS-R-QSR-ARKANSAS-SBA:63	Y	company statewide headcount
+R016	$12 billion	Mississippi County private investment since early 2000s	research	I77a	Arkansas Democrat-Gazette 29 Apr 2026	CS-R-QSR-ARKANSAS-SBA:113	Y	
+R017	10,000	Mississippi County jobs added since early 2000s	research	I77a	Arkansas Democrat-Gazette 29 Apr 2026	CS-R-QSR-ARKANSAS-SBA:113	Y	
+R018	2,900	Mississippi County steel employees (nearly)	research	I77a	Arkansas Democrat-Gazette 8 Oct 2025	CS-R-QSR-ARKANSAS-SBA:117	Y	
+R019	$99,000	Average regional manufacturing wage	research	I77a	Arkansas Democrat-Gazette 8 Oct 2025	CS-R-QSR-ARKANSAS-SBA:117	Y	
+R020	24.2%	Blytheville persons in poverty	research	none	U.S. Census Bureau, QuickFacts	CS-R-QSR-ARKANSAS-SBA:59	N	research dates it only "QuickFacts current" (I86)
+R021	15.5	Blytheville mean commute minutes	research	none	not tied to a source row	CS-R-QSR-ARKANSAS-SBA:48	N	prose figure with no source row or period
+R022	20.74	City square miles	research	none	not tied to a source row	CS-R-QSR-ARKANSAS-SBA:48	N	no source row
+R023	$1.9 billion	U.S. Steel DRI project	research	I77a	U.S. Steel release 29 Apr 2026	CS-R-QSR-ARKANSAS-SBA:111	N	one named project investment (I66)
+R024	200	Big River Steel DRI full-time employees	research	I77a	U.S. Steel release 29 Apr 2026	CS-R-QSR-ARKANSAS-SBA:111	N	one named project (company estimate)
+R025	2,000	DRI construction jobs at peak	research	I77a	U.S. Steel release 29 Apr 2026	CS-R-QSR-ARKANSAS-SBA:111	N	one named project (company estimate)
+R026	$70 million	Ferrosource plant	research	I77a	Arkansas Economic Development Commission 30 Apr 2026	CS-R-QSR-ARKANSAS-SBA:114	N	one named project investment (I66)
+R027	$37 million	MISA plant	research	none	KJNB	CS-R-QSR-ARKANSAS-SBA:115	N	one named project; Apr 2026 month only
+R028	$1.1 billion	Hybar second mill	research	I77a	KAIT8 26 Jun 2026	CS-R-QSR-ARKANSAS-SBA:116	N	one named project investment (I66)
+R029	630,000	Hybar existing mill tons per year	research	none	Fastmarkets interview	CS-R-QSR-ARKANSAS-SBA:116	N	one named facility capacity (I64); no date
+R030	12,928	ARDOT traffic counts in 2024	research	none	ARDOT blog	CS-R-QSR-ARKANSAS-SBA:43	N	methodology blog, undated
+R031	6.0	Blytheville water treatment capacity (MGD)	research	none	Cotton to Steel, accessed Oct 2026	CS-R-QSR-ARKANSAS-SBA:38	N	dated only by the researcher fetch (I69)
+R032	33.39	Blytheville School District mills	research	none	Arkansas Legislature Exhibit C	CS-R-QSR-ARKANSAS-SBA:134	N	year not stated in excerpt
+R033	10.5%	Blytheville combined sales tax	research	none	SalesTaxHandbook; Avalara	CS-R-QSR-ARKANSAS-SBA:138	N	aggregators conflict (10.0% vs 10.5%), unreconciled
+R034	$50.00	Conditional use fee	research	none	City of Blytheville	CS-R-QSR-ARKANSAS-SBA:130	N	research dates it only "Current" (I86)
+R035	[subject figure withheld]	Subject asking price (listing A)	research	none	LandWatch / Homes.com	CS-R-QSR-ARKANSAS-SBA:28	N	subject listing figure
+R036	[subject figure withheld]	Subject asking price (listing B)	research	I77a	eXp Realty 6 Aug 2026	CS-R-QSR-ARKANSAS-SBA:31	N	subject listing figure
+R037	$549,000	Competing pad 312 N Porter Dr asking price	research	none	Crexi / Homes.com	CS-R-QSR-ARKANSAS-SBA:99	N	single listing (I64)
+R038	$2,714,087	Wendy's building listing price	research	none	LoopNet	CS-R-QSR-ARKANSAS-SBA:73	N	single property listing
+R039	$50,000	SOP 50 10 8 collateral threshold	research	I77a	CRS IN12549	CS-R-QSR-ARKANSAS-SBA:153	N	program rule
+R040	$350,000	7(a) Small Loan cap	research	I77a	Windsor Advantage	CS-R-QSR-ARKANSAS-SBA:155	N	program rule
+R041	5%	Foreign ownership allowance, PN 5000-872050	research	I77a	NAGGL	CS-R-QSR-ARKANSAS-SBA:156	N	program rule
+R042	13 brand units	Competitor census tally	research	none	research file tally	CS-R-QSR-ARKANSAS-SBA:68	N	research summary count
+G01	$52,548	Mississippi County median household income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_hh_income.json key co-05093.acs5_median_hh_income	Y	
+G02	6.9%	Mississippi County unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key co-05093.acs5_unemployment_rate	Y	
+G03	$52,873	Mississippi County per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key co-05093.bea_per_capita_income	Y	
+G04	$830	Mississippi County median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key co-05093.acs5_median_gross_rent	Y	
+G05	43	Mississippi County limited-service restaurant establishments, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key co-05093.cbp_estab.quick-service-restaurant	Y	
+G06	581	Mississippi County limited-service restaurant employees, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_emp.json key co-05093.cbp_emp.quick-service-restaurant	Y	
+G07	2,981	Arkansas limited-service restaurant establishments, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key ar.cbp_estab.quick-service-restaurant	Y	
+G08	111	Arkansas 7(a) loans to limited-service restaurants FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_loans.json key ar.sba7a_loans.quick-service-restaurant (window fy2016_2025)	Y	
+G09	$59,320	Arkansas per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key ar.bea_per_capita_income	Y	
+G10	$47.5 million	Arkansas 7(a) QSR approval volume FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_volume.json key ar.sba7a_volume.quick-service-restaurant (window fy2016_2025)	Y	
+#SUMMARY qsr-arkansas-sba counted=28 research=18 register=10 verdict=FOLD engine=N notes=FOLD on both readings: A4 adds 37,828 (19 research, 29 counted); single-project steel rows excluded (I66)

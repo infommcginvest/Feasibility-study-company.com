@@ -1,0 +1,102 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+G01	26,154	Gardner city population V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Gardner-Flex.md:59	Y	
+G02	23,349	April 2020 base population	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Gardner-Flex.md:60	Y	
+G03	12.0%	Population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Gardner-Flex.md:61	N	value already on served page case-studies/truck-stop-texas-sba/index.html (+11 more)
+G04	8,288	Households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Gardner-Flex.md:62	Y	
+G05	2.93	Persons per household ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Gardner-Flex.md:63	N	value already on served page case-studies/marina-maryland-sba/index.html
+G06	$93,891	Median household income	research	none	Realmo demographics panel	EXTRA-2026-10-15-Gardner-Flex.md:64	N	Secondary, undated
+G07	30.7	Median age 2024	research	I77c	Data Commons (Census-derived, 2024)	EXTRA-2026-10-15-Gardner-Flex.md:65	N	value already on served page research-notes/gas-station-demand-per-capita/index.html (+2 more)
+G08	31.4%	Persons under 18 V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Gardner-Flex.md:66	N	value already on served page asset-classes/laundromat/index.html (+1 more)
+G09	8.4%	Persons 65+ V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-Gardner-Flex.md:66	N	value already on served page research-notes/sba-default-economics/index.html (+8 more)
+G10	$306,200	Median owner-occupied home value	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Gardner-Flex.md:67	Y	
+G11	$1,306	Median gross rent	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Gardner-Flex.md:68	Y	
+G12	32.0%	Bachelor's degree or higher, 25+	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-Gardner-Flex.md:69	N	value already on served page case-studies/rv-boat-storage-texas-sba/index.html (+4 more)
+G13	3.4%	Gardner unemployment rate Jul 2026	research	I77c	Data Commons (BLS-derived, Jul 2026)	EXTRA-2026-10-15-Gardner-Flex.md:70	N	value already on served page asset-classes/restaurant/index.html (+23 more)
+G14	3.8%	Kansas City MSA unemployment May 2026	research	I77a	Newmark Zimmer 2Q26 Kansas City Industrial Report	EXTRA-2026-10-15-Gardner-Flex.md:71	N	value already on served page asset-classes/restaurant/index.html (+22 more)
+G15	4.3%	U.S. unemployment May 2026	research	I77a	Newmark Zimmer 2Q26 Kansas City Industrial Report	EXTRA-2026-10-15-Gardner-Flex.md:71	N	value already on served page asset-classes/medical-office-and-asc/index.html (+31 more)
+G16	3.2%	Construction employment growth YoY	research	I77a	Newmark Zimmer 2Q26 Kansas City Industrial Report	EXTRA-2026-10-15-Gardner-Flex.md:71	N	value already on served page research-notes/sba-default-economics/index.html (+22 more)
+G17	25,159	Warren Street Flex Building size (SF)	research	I77a	CommercialCafe listing (updated Jul 30, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:79	Y	
+G18	1.97 acres	Warren Street Flex Building lot	research	I77a	CommercialCafe listing (updated Jul 30, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:79	N	value already on served page asset-classes/gas-station-and-c-store/index.html (+3 more)
+G19	3,525	Available bay in C1 (SF)	research	I77a	CommercialCafe listing (updated Jul 30, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:81	Y	
+G20	$10.50	C1 asking rent low end per SF/yr	research	none	LoopNet	EXTRA-2026-10-15-Gardner-Flex.md:82	N	Dated only by researcher retrieval (Oct 2026)
+G21	$11.22	C1 asking rent per SF/yr	research	none	CityFeet	EXTRA-2026-10-15-Gardner-Flex.md:83	N	Dated only by researcher retrieval (Oct 2026)
+G22	$10.00	C2 three 2,500 SF bays rent per SF/yr	research	I77a	PropertyShark (updated Nov 11, 2025)	EXTRA-2026-10-15-Gardner-Flex.md:90	Y	
+G23	$10.00	C2 asking rent LoopNet	research	none	LoopNet	EXTRA-2026-10-15-Gardner-Flex.md:89	N	Dated only by retrieval and same value as G22
+G24	15,000	C2 flex building size (SF)	research	none	LoopNet	EXTRA-2026-10-15-Gardner-Flex.md:88	N	Dated only by researcher retrieval (Oct 2026)
+G25	$1,853,600	C3 800 Creekside sale price	research	none	CityFeet	EXTRA-2026-10-15-Gardner-Flex.md:95	N	Listing dated 2026 only
+G26	$11.50	C5 asking rent per SF/yr	research	none	CityFeet	EXTRA-2026-10-15-Gardner-Flex.md:102	N	Dated only by researcher retrieval (Oct 2026)
+G27	110,000	Stone Creek flex project size (SF)	research	I77a	The Bristol Groupe project page (published Aug 24, 2021)	EXTRA-2026-10-15-Gardner-Flex.md:118	N	value already on served page asset-classes/skilled-nursing/index.html (+7 more)
+G28	$15.60	Olathe 16133 Lone Elm asking rent	research	none	CityFeet	EXTRA-2026-10-15-Gardner-Flex.md:105	N	Aggregator, year 2026 only
+G29	4.7%	Kansas City industrial vacancy 2Q26 (Newmark)	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:106	N	value already on served page asset-classes/retail/index.html (+26 more)
+G30	$6.28	Kansas City avg industrial asking rent per SF (Newmark)	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:106	Y	
+G31	5.2%	South Johnson County submarket vacancy	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:106	N	value already on served page asset-classes/restaurant/index.html (+17 more)
+G32	4.9%	Kansas City industrial vacancy Q2 2026 (Colliers; Lee 4.90%)	research	I77c	Colliers Q2 2026 report; Lee and Associates Q2 2026	EXTRA-2026-10-15-Gardner-Flex.md:107	N	value already on served page research-notes/underserved-gas-station-markets/index.html (+24 more)
+G33	$5.81	Kansas City avg industrial asking rent per SF (Colliers)	research	I77c	Colliers Kansas City Industrial Market Report 2026 Q2	EXTRA-2026-10-15-Gardner-Flex.md:107	Y	
+G34	4.12%	Asking rent change YoY (Colliers)	research	I77c	Colliers Kansas City Industrial Market Report 2026 Q2	EXTRA-2026-10-15-Gardner-Flex.md:107	Y	
+G35	1,929,622	YTD net absorption SF (Colliers)	research	I77c	Colliers Kansas City Industrial Market Report 2026 Q2	EXTRA-2026-10-15-Gardner-Flex.md:107	Y	
+G36	4.5%	Kansas City industrial vacancy Q2 2026 (CBRE)	research	I77c	CBRE Kansas City Industrial Figures Q2 2026	EXTRA-2026-10-15-Gardner-Flex.md:108	N	value already on served page asset-classes/multifamily/index.html (+19 more)
+G37	4.6%	CBRE prior-quarter vacancy	research	I77c	CBRE Kansas City Industrial Figures Q2 2026	EXTRA-2026-10-15-Gardner-Flex.md:108	N	value already on served page research-notes/sba-default-economics/index.html (+21 more)
+G38	1.7 MSF	CBRE Q2 absorption	research	I77c	CBRE Kansas City Industrial Figures Q2 2026	EXTRA-2026-10-15-Gardner-Flex.md:108	N	value already on served page research-notes/c-store-franchise-category/index.html (+53 more)
+G39	329,611,789	Lee and Associates metro industrial inventory (SF)	research	I77c	Lee and Associates Q2 2026 Kansas City Metro Industrial	EXTRA-2026-10-15-Gardner-Flex.md:109	Y	
+G40	4,920,000	Lee and Associates under construction (SF)	research	I77c	Lee and Associates Q2 2026 Kansas City Metro Industrial	EXTRA-2026-10-15-Gardner-Flex.md:109	Y	
+G41	7.5 MSF	Metro construction pipeline 2Q26	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:122	N	value already on served page index.html (+50 more)
+G42	4.28 MSF	Build-to-suit pipeline	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:122	N	value already on served page case-studies/assisted-living-north-carolina-hud/index.html
+G43	57%	Build-to-suit share of pipeline	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:122	N	value already on served page case-studies/qsr-arkansas-sba/index.html
+G44	3.25 MSF	Speculative pipeline	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:122	N	value already on served page asset-classes/auto-dealership/index.html (+1 more)
+G45	648,150	Scannell I-35 Logistics Park V speculative (SF)	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:123	Y	
+G46	408,000	NorthPoint Turner Logistics Center Bldg 6 (SF)	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:124	Y	
+G47	2.35 MSF	Panasonic De Soto plant	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:125	N	value already on served page case-studies/rv-park-arizona-usda/index.html (+2 more)
+G48	1,019,520	Flint Commerce Center Bldg C (SF)	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:126	Y	
+G49	234,000	Layton Construction lease at Flint Commerce Center (SF)	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:126	N	value already on served page case-studies/rv-boat-storage-florida-sba/index.html
+G50	3.1 MSF	Metro net absorption over 4 quarters	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:143	N	value already on served page research-notes/trade-area-is-the-study/index.html (+51 more)
+G51	4.2%	Newmark forecast vacancy by 2Q27	research	I77c	Newmark Zimmer 2Q26 report	EXTRA-2026-10-15-Gardner-Flex.md:143	N	value already on served page asset-classes/veterinary-practice/index.html (+28 more)
+G52	6.4 MSF	Metro pipeline at Q4 2025	research	I77a	REjournals (Feb 26, 2026) citing Newmark Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:199	N	value already on served page index.html (+30 more)
+G53	75%	Build-to-suit share of pipeline Q4 2025 (over 75%)	research	I77a	REjournals (Feb 26, 2026) citing Newmark Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:199	N	value already on served page research-notes/how-eb-5-jobs-are-counted/index.html (+66 more)
+G54	335 acres	Velocity Arts district concept	research	I77a	FOX4 KC (Aug 24, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:121	N	value already on served page research-notes/c-store-franchise-category/index.html (+17 more)
+G55	214 acres	Velocity Arts acreage approved by Council Sep 21, 2026	research	I77a	KCTV5 (Sep 22, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:121	N	value already on served page research-notes/office-repurposing/index.html (+9 more)
+G56	$1.5 billion	Velocity Arts proposed investment	research	I77a	FOX4 KC (Aug 24, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:121	N	value already on served page research-notes/coverage-constrained-takeout/index.html (+36 more)
+G57	15,000	Velocity Arts pavilion seats	research	I77a	FOX4 KC (Aug 24, 2026)	EXTRA-2026-10-15-Gardner-Flex.md:121	N	value already on served page research-notes/underserved-gas-station-markets/index.html (+33 more)
+G58	1,500 acres	Logistics Park Kansas City site	research	none	FreightWaves	EXTRA-2026-10-15-Gardner-Flex.md:140	N	Article date not stated
+G59	822,104	Amazon fulfillment center at LPKC (SF)	research	none	FreightWaves	EXTRA-2026-10-15-Gardner-Flex.md:140	N	Article date not stated
+G60	4,400	Edgerton jobs created (mayor quote)	research	none	KSHB 41	EXTRA-2026-10-15-Gardner-Flex.md:141	N	Article date not stated
+G61	318	Walmart Edgerton WARN employees	research	none	Kansas City Star via AOL	EXTRA-2026-10-15-Gardner-Flex.md:142	N	Date not stated
+G62	5,462.2	USD 231 Gardner Edgerton FTE enrollment 2025-26	research	I77b	KU IPSR School Tax Rates 2025-26	EXTRA-2026-10-15-Gardner-Flex.md:145	Y	
+G63	59.76 mills	USD 231 total school levy 2025-26	research	I77b	KU IPSR School Tax Rates 2025-26	EXTRA-2026-10-15-Gardner-Flex.md:164	Y	
+G64	24.110 mills	Johnson County levy 2025	research	none	Johnson County Budget FAQ	EXTRA-2026-10-15-Gardner-Flex.md:163	N	FAQ page undated
+G65	18.172 mills	City of Gardner levy 2025	research	I77a	City of Gardner FY2027 Budget Summary (Sep 8, 2026 packet)	EXTRA-2026-10-15-Gardner-Flex.md:165	Y	
+G66	12.576 mills	City general levy 2025	research	I77a	City of Gardner FY2027 Budget Summary (Sep 8, 2026 packet)	EXTRA-2026-10-15-Gardner-Flex.md:165	Y	
+G67	5.596 mills	City debt service levy 2025	research	I77a	City of Gardner FY2027 Budget Summary (Sep 8, 2026 packet)	EXTRA-2026-10-15-Gardner-Flex.md:165	Y	
+G68	17.814 mills	City levy 2026 and FY2027	research	I77a	City of Gardner FY2027 Budget Summary (Sep 8, 2026 packet)	EXTRA-2026-10-15-Gardner-Flex.md:165	Y	
+G69	16.933 mills	FY2027 revenue-neutral rate	research	I77a	City of Gardner FY2027 Budget Summary (Sep 8, 2026 packet)	EXTRA-2026-10-15-Gardner-Flex.md:165	Y	
+G70	126.161 mills	Johnson County worked example total levy	research	none	Johnson County property tax page	EXTRA-2026-10-15-Gardner-Flex.md:166	N	Current/undated worked example
+G71	25%	Commercial assessment ratio	research	none	K.S.A. 79-1439	EXTRA-2026-10-15-Gardner-Flex.md:167	N	Statutory rule, current
+G72	9.475%	Combined sales tax rate Gardner	research	none	Johnson County Budget FAQ	EXTRA-2026-10-15-Gardner-Flex.md:168	N	Current/undated
+G73	$95.02	Small commercial wastewater charge per month	research	I77a	City of Gardner Ordinance 2824 (2025)	EXTRA-2026-10-15-Gardner-Flex.md:161	Y	
+G74	$87.51	Prior wastewater charge under Ord. 2760 (2023)	research	I77a	City of Gardner Ordinance 2760 (2023)	EXTRA-2026-10-15-Gardner-Flex.md:161	Y	
+G75	$21.96	Commercial water service charge 1-inch meter	research	none	City of Gardner Commercial Accounts and Rates	EXTRA-2026-10-15-Gardner-Flex.md:160	N	Current/undated
+G76	14.3%	City share of Gardner property tax bill	research	I77a	Johnson County Post (Oct 21, 2025)	EXTRA-2026-10-15-Gardner-Flex.md:196	Y	
+G77	47%	School share of Gardner property tax bill	research	I77a	Johnson County Post (Oct 21, 2025)	EXTRA-2026-10-15-Gardner-Flex.md:196	N	value already on served page research-notes/office-repurposing/index.html (+12 more)
+G78	$29.9 billion	Community bank net income 2025	research	I77c	FDIC Quarterly Banking Profile Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:183	N	value already on served page case-studies/multifamily-north-carolina-agency/index.html (+1 more)
+G79	$5.5 billion	Community bank net income change from 2024	research	I77c	FDIC Quarterly Banking Profile Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:183	N	value already on served page research-notes/sop-50-10-8-1-what-changed-for-feasibility-studies/index.html (+21 more)
+G80	22.5%	Community bank net income growth	research	I77c	FDIC Quarterly Banking Profile Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:183	N	value already on served page case-studies/qsr-georgia-sba/index.html (+4 more)
+G81	3,909	Community banks count	research	I77c	FDIC Quarterly Banking Profile Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:183	Y	
+G82	90%	Community banks share of insured institutions	research	I77c	FDIC Quarterly Banking Profile Q4 2025	EXTRA-2026-10-15-Gardner-Flex.md:183	N	value already on served page research-notes/how-eb-5-jobs-are-counted/index.html (+74 more)
+G83	$300,000	Subject listing asking price	research	none	Realmo	EXTRA-2026-10-15-Gardner-Flex.md:35	N	Subject listing figure
+G84	8.5 acres	Alternate site acreage	research	none	Cushman and Wakefield flyer	EXTRA-2026-10-15-Gardner-Flex.md:50	N	Listing figure
+G85	$3,500,000	Alternate site asking price	research	none	Cushman and Wakefield flyer	EXTRA-2026-10-15-Gardner-Flex.md:50	N	Listing figure
+G86	162.29 acres	Edgerton land offering	research	none	Realmo	EXTRA-2026-10-15-Gardner-Flex.md:127	N	Listing, month only
+G87	46,000	Vehicles daily claim at I-35 and Gardner Rd	research	none	Realmo listing	EXTRA-2026-10-15-Gardner-Flex.md:48	N	Listing claim, retrieval dated
+G88	2,000	Small Industrial/Workshop building type minimum SF	research	none	Zoneomics reproduction of LDC	EXTRA-2026-10-15-Gardner-Flex.md:43	N	Code rule, current, secondary
+R01	$109,208	Johnson County KS median household income	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_hh_income.json:co-20091	Y	
+R02	$60,137	Johnson County KS per capita income	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_per_capita_income.json:co-20091	Y	
+R03	$391,200	Johnson County KS median home value	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_home_value.json:co-20091	Y	
+R04	$1,434	Johnson County KS median gross rent	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_gross_rent.json:co-20091	Y	
+R05	3.2%	Johnson County KS unemployment rate	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_unemployment_rate.json:co-20091	N	value already on served page research-notes/sba-default-economics/index.html (+22 more)
+R06	352,618	Johnson County KS civilian labor force	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_labor_force.json:co-20091	Y	
+R07	$95,419	Johnson County KS BEA per capita personal income	register	I77c	BEA (calendar year 2024)	data/markets/series/bea_per_capita_income.json:co-20091	Y	
+R08	$60.33 billion	Johnson County KS BEA personal income	register	I77c	BEA (calendar year 2024)	data/markets/series/bea_personal_income.json:co-20091	Y	
+R09	249,531	Johnson County KS households	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_households.json:co-20091	Y	
+R10	99,005	Johnson County KS population 65+	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_pop65.json:co-20091	Y	
+R11	171,016	Johnson County KS owner-occupied units	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_owner_occupied.json:co-20091	Y	
+R12	78,515	Johnson County KS renter-occupied units	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_renter_occupied.json:co-20091	N	register cap of 10 reached
+#SUMMARY industrial-flex-gardner-kansas-conventional counted=38 research=28 register=10 verdict=PAGE engine=Y notes=A4 reading 39/29; Q2 2026 broker reports and FDIC carry count; competitor rents undated

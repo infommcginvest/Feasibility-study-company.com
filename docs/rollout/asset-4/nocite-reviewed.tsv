@@ -1,0 +1,13 @@
+# url	section	number	phrase that must still be in the block	why the number carries no citation
+/asset-classes/multifamily/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/multifamily/	cases	220	220 units	size of a hypothetical case subject as its live case page states it, not a market figure
+/asset-classes/multifamily/	cases	200	200 units	size of a hypothetical case subject as its live case page states it, not a market figure
+/asset-classes/quick-service-restaurant/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/quick-service-restaurant/	sba-performance	504	SBA 504 loans	the name of the SBA 504 program in a register row label, not a figure; the row values are mkt: register values cited by their source line
+/asset-classes/mixed-use/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/manufactured-housing/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/retail/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/coffee-shop/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/grocery-store/	supply	10,000	10,000 residents	the unit of the register density series (establishments per 10,000 residents), cited by its mktsrc source line, not a market figure
+/asset-classes/mixed-use/	sba-performance	504	SBA 504 loans	the name of the SBA 504 program in a register row label, not a figure; the row values are mkt: register values cited by their source line
+/asset-classes/coffee-shop/	sba-performance	504	SBA 504 loans	the name of the SBA 504 program in a register row label, not a figure; the row values are mkt: register values cited by their source line

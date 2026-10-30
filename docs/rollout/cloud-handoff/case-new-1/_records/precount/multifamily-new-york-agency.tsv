@@ -1,0 +1,106 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+NYAG-01	28,768	Saratoga Springs city population V2025	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L50	Y	
+NYAG-02	28,507	Saratoga Springs population estimates base Apr 2020	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L51	Y	
+NYAG-03	+0.9%	Saratoga Springs population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L52	Y	
+NYAG-04	13,228	Saratoga Springs households	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L53	Y	
+NYAG-05	1.95 persons	persons per household	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L54	Y	
+NYAG-06	$105,944	median household income	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L55	Y	
+NYAG-07	$69,161	per capita income	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L56	Y	
+NYAG-08	$1,470	median gross rent	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L57	Y	
+NYAG-09	57.8%	owner-occupied rate	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L58	Y	
+NYAG-10	$478,100	median owner-occupied value	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L59	Y	
+NYAG-11	21.6%	persons 65 and over V2025	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L60	Y	
+NYAG-12	59.9%	bachelor degree or higher age 25+	research	I77c	U.S. Census Bureau QuickFacts	ny-research:L61	Y	
+NYAG-13	9.7%	persons in poverty	research	none	U.S. Census Bureau QuickFacts	ny-research:L62	N	period not stated (file says only QuickFacts)
+NYAG-14	42.2%	renter share implied from 57.8% owner rate	research	none	analyst derivation	ny-research:L58	N	derived by the research from a counted figure, not a published value
+NYAG-15	42.4 years	median age (Data Commons)	research	none	Data Commons (Google), secondary	ny-research:L63	N	secondary aggregator, year label only, no periodic document identified
+NYAG-16	241,343	Saratoga County population 2025 estimate	research	none	Wikipedia citing Census	ny-research:L66	N	secondary page with year label only
+NYAG-17	28.07 sq mi	city land area	research	none	none given	ny-research:L46	N	no publisher or date
+NYAG-18	11,054 vehicles per day	AADT Washington St near West Ave (NYSDOT 2015 count)	research	I77a	City of Saratoga Springs Agenda Center, SRF traffic study 2017	ny-research:L40	N	nearest substitute on another road, 2015 count, taken from a search extract
+NYAG-19	$1,378 to $2,395	Burns Management starting rents across 13 communities	research	none	Burns Management	ny-research:L74-L98	N	dated only by researcher fetch (checked 15 Oct 2026); live daily-revenue-managed rate
+NYAG-20	$2,201 to $2,763	2 West starting rate snapshots	research	none	Burns Management	ny-research:L76	N	dated only by researcher fetch; snapshots differ
+NYAG-21	$1,910 to $3,868	newer non-Burns rents (The Ridge, Station Lane, The Hamlet)	research	none	aggregators	ny-research:L99-L101	N	aggregator listings, undated
+NYAG-22	62 units	2 West completed Aug 2015 (aggregators conflict 63, 65, 73)	research	none	Bonacio Construction portfolio	ny-research:L78	N	undated portfolio page, conflicting counts
+NYAG-23	308 units	The Springs (conflicts with 178)	research	none	Times Union; Artisan Engineering	ny-research:L96	N	conflicting counts, article date not given
+NYAG-24	145 units	The Hamlet	research	none	Apartments.com	ny-research:L101	N	aggregator, undated
+NYAG-25	36 apartments	The Ridge, 182 Excelsior Ave	research	none	Times Union Sep 2025	ny-research:L99	N	research gives month only and conflicting basis; competitor attribute
+NYAG-26	102 units	North Spring Run (under construction)	research	none	BDC Group; Roohan Realty	ny-research:L116	N	developer and broker pages, undated
+NYAG-27	98 units	Springs West Apartments, Allen Drive	research	I77a	NEWS10 (8 Apr 2025)	ny-research:L117	Y	
+NYAG-28	$43 million	Springs West Apartments project cost	research	I77a	NEWS10 (8 Apr 2025)	ny-research:L117	Y	
+NYAG-29	76 apartments	17 West Ave project (DRB advisory 11 Mar 2026)	research	I77a	Citizen Portal DRB summaries	ny-research:L118	Y	
+NYAG-30	344 units	Saratoga Station multifamily (county agenda 21 Dec 2023)	research	I77a	Saratoga County Planning Board agenda	ny-research:L119	Y	
+NYAG-31	40 rowhouses	Saratoga Station rowhouse units	research	I77a	Saratoga County Planning Board agenda	ny-research:L119	Y	
+NYAG-32	110-room hotel	Saratoga Station hotel	research	I77a	Saratoga County Planning Board agenda	ny-research:L119	Y	
+NYAG-33	$2.5 million	Prime Companies land price for 17 acres (Jan 2023)	research	I77a	Saratoga Business Journal (Jan 2023)	ny-research:L5	Y	
+NYAG-34	25 units	64 Washington St multifamily (county agenda 16 Apr 2026)	research	I77a	Saratoga County Planning Board agenda	ny-research:L120	Y	
+NYAG-35	36 units	269 Broadway mixed use condominium (1 Oct 2026)	research	I77a	Saratoga TODAY	ny-research:L121	Y	
+NYAG-36	71 units	26 Finley St affordable and supportive	research	none	Daily Gazette / Spotlight News	ny-research:L122	N	research gives year 2025 only, no article date
+NYAG-37	11 units	30 Caroline St (extension 8 Oct 2026)	research	I77a	Saratoga Civic Pulse (Planning Board 10/08/2026)	ny-research:L125	Y	
+NYAG-38	120 rooms	11 Federal St hotel (8 Oct 2026)	research	I77a	Saratoga Civic Pulse (Planning Board 10/08/2026)	ny-research:L126	Y	
+NYAG-39	about 600 units	city pipeline total	research	none	research file estimate	ny-research:L112	N	the research file own estimate
+NYAG-40	202 units	The Reserve at Saratoga Springs (income restricted)	research	none	Times Union	ny-research:L106	N	article undated (2025 opening label only)
+NYAG-41	$78 million	The Reserve project cost	research	none	Times Union	ny-research:L106	N	article undated
+NYAG-42	$28 million	Reserve LIHTC equity	research	none	Times Union	ny-research:L106	N	article undated
+NYAG-43	$23 million	Reserve HCR subsidy	research	none	Times Union	ny-research:L106	N	article undated
+NYAG-44	666 units	Merion acquisition Foxrun 468 + North Pointe 198, Clifton Park (28 Jun 2025)	research	I77a	Merion Realty Partners	ny-research:L193	Y	
+NYAG-45	1,061,787	Saratoga summer meet 2025 paid attendance	research	I77a	NYRA release (1 Sep 2025)	ny-research:L136	Y	
+NYAG-46	26,544	Saratoga 2025 meet average daily attendance	research	I77a	NYRA release (1 Sep 2025)	ny-research:L136	Y	
+NYAG-47	1,224,504	all 2025 racing paid attendance (49 days)	research	none	NYRA; BloodHorse	ny-research:L137	N	BloodHorse article undated in research
+NYAG-48	$1,072,548,515	all 2025 racing handle	research	none	NYRA; BloodHorse	ny-research:L137	N	BloodHorse article undated in research
+NYAG-49	1,045,373	2026 summer meet paid attendance	research	none	WNYT citing NYRA	ny-research:L138	N	WNYT article date not given; season label only
+NYAG-50	$905,425,541	2026 summer meet handle	research	none	WNYT citing NYRA	ny-research:L138	N	WNYT article date not given
+NYAG-51	1,149,677	2026 all racing attendance	research	none	WNYT; Saratoga TODAY	ny-research:L138	N	article dates not given
+NYAG-52	$1,105,339,004	2026 all racing handle	research	none	WNYT; Saratoga TODAY	ny-research:L138	N	article dates not given
+NYAG-53	$450 million	racing season impact, SEDC president per-day extrapolation (Sep 2025)	research	I77a	Saratoga Business Journal (Sep 2025)	ny-research:L140	N	an official per-day extrapolation, research says not a study result
+NYAG-54	$9 million per day	racing impact per day (same estimate)	research	I77a	Saratoga Business Journal (Sep 2025)	ny-research:L140	N	same estimate rescaled; extrapolation
+NYAG-55	$371,067,040	SCIDA/Camoin annual racing impact (2021 data)	research	none	NYRA release citing SCIDA/Camoin	ny-research:L140	N	study title and URL missing, 2021 data label only
+NYAG-56	2,937 jobs	SCIDA/Camoin racing jobs	research	none	NYRA release citing SCIDA/Camoin	ny-research:L140	N	study title and URL missing
+NYAG-57	about 2,300 employees	GlobalFoundries Fab 8, Malta (25 Aug 2025)	research	I77a	Times Union (25 Aug 2025)	ny-research:L141	Y	
+NYAG-58	800 jobs	GlobalFoundries 2023 layoff worldwide	research	I77a	Times Union (25 Aug 2025)	ny-research:L141	N	worldwide layoff, not a Capital Region market figure
+NYAG-59	$11.6 billion	GlobalFoundries Malta expansion plan (19 Feb 2024)	research	I77a	Glens Falls Chronicle citing Governor release	ny-research:L142	N	same value already printed on a served page (served: states/new-york/index.html)
+NYAG-60	1,508 jobs	direct jobs tied to Green CHIPS credits (19 Feb 2024)	research	I77a	Glens Falls Chronicle citing Governor release	ny-research:L142	Y	
+NYAG-61	$575 million	Green CHIPS credits (19 Feb 2024)	research	I77a	Glens Falls Chronicle citing Governor release	ny-research:L142	N	same value already printed on a served page (served: states/new-york/index.html (same GlobalFoundries Malta subject))
+NYAG-62	$1.5 billion	federal CHIPS award (19 Feb 2024)	research	I77a	Glens Falls Chronicle citing Governor release	ny-research:L142	Y	
+NYAG-63	$21 billion	Japan funded GlobalFoundries program, two Malta fabs (14 Oct 2026)	research	I77a	Times Union; Spectrum News (14 Oct 2026)	ny-research:L143	Y	
+NYAG-64	1,000 jobs	new full time GF jobs, Japan program (14 Oct 2026)	research	I77a	Times Union; Spectrum News (14 Oct 2026)	ny-research:L143	Y	
+NYAG-65	15,560 units	Saratoga Springs units in County Sewer District No. 1	research	I77b	Saratoga County, 2026 Scale of Charges	ny-research:L162	Y	
+NYAG-66	$276.50	county sewer charge per connection unit 2026	research	I77b	Saratoga County, 2026 Scale of Charges	ny-research:L162	Y	
+NYAG-67	$270.50	county sewer charge per unit 2025	research	I77b	Saratoga County, 2025 Scale of Charges	ny-research:L163	Y	
+NYAG-68	15,370 units	Saratoga Springs units in County Sewer District No. 1, 2025	research	I77b	Saratoga County, 2025 Scale of Charges	ny-research:L163	Y	
+NYAG-69	$58.00	city sewer basic charge per quarter 2026	research	I77b	City of Saratoga Springs DPW, 2026 Sewer Rates	ny-research:L161	Y	
+NYAG-70	$6.00	city sewer capital improvement fee per quarter 2026	research	I77b	City of Saratoga Springs DPW, 2026 Sewer Rates	ny-research:L161	Y	
+NYAG-71	$29.00	city sewer condo/townhouse per unit per quarter 2026	research	I77b	City of Saratoga Springs DPW, 2026 Sewer Rates	ny-research:L161	Y	
+NYAG-72	$3,000 per unit of water	water connection fee minimum	research	I77a	City of Saratoga Springs, 2014 resolution	ny-research:L160	N	2014 resolution; research says current fee NOT FOUND
+NYAG-73	$1,200 + $75	special use permit fee	research	none	City of Saratoga Springs fee worksheet	ny-research:L158	N	"current form", undated
+NYAG-74	$400 + $250 per unit	site plan fee	research	none	City of Saratoga Springs fee worksheet	ny-research:L159	N	"current form", undated
+NYAG-75	40%	equalization rate; last revaluation 2005	research	none	City Assessor page	ny-research:L164	N	"current", undated
+NYAG-76	$7.0973 per $1,000	city and county tax rate inside district	research	none	City Assessor page	ny-research:L165	N	tax year not stated
+NYAG-77	$19.708241 per $1,000	school tax rate 2026-27	research	I77a	Saratoga Springs CSD Tax Information	ny-research:L166	Y	
+NYAG-78	$159,398,849	school budget 2025-26	research	I77b	Saratoga Springs CSD, 2025-2026 School Budget Vote	ny-research:L167	Y	
+NYAG-79	$103,570,244	school tax levy 2025-26	research	I77b	Saratoga Springs CSD, 2025-2026 School Budget Vote	ny-research:L167	Y	
+NYAG-80	3.97%	school levy increase 2025-26	research	I77b	Saratoga Springs CSD, 2025-2026 School Budget Vote	ny-research:L167	Y	
+NYAG-81	$1.95 per $1,000	county full value tax rate 2024	research	I77b	Saratoga County, 2026 Property Tax Report (draft)	ny-research:L168	Y	
+NYAG-82	$1.87 per $1,000	county full value tax rate 2025	research	I77b	Saratoga County, 2026 Property Tax Report (draft)	ny-research:L168	Y	
+NYAG-83	$1.77 per $1,000	county full value tax rate 2026	research	I77b	Saratoga County, 2026 Property Tax Report (draft)	ny-research:L168	Y	
+NYAG-84	$24,241,706	city 2026 budget levy, 2% scenario	research	I77b	City of Saratoga Springs, 2026 Comprehensive Budget	ny-research:L169	N	proposal scenario, not an adopted figure
+NYAG-85	$88 billion	FHFA 2026 multifamily purchase cap per Enterprise (24 Nov 2025)	research	I77a	FHFA release (24 Nov 2025)	ny-research:L183	N	same value already printed on a served page (served: research-notes/coverage-constrained-takeout and asset-classes/multifamily)
+NYAG-86	$176 billion	FHFA 2026 combined caps	research	I77a	FHFA release (24 Nov 2025)	ny-research:L183	N	same value already printed on a served page (served: research-notes/coverage-constrained-takeout and case-studies/multifamily-texas-agency)
+NYAG-87	50% mission driven	FHFA 2026 mission driven minimum	research	I77a	FHFA release (24 Nov 2025)	ny-research:L183	N	FHFA program rule value
+NYAG-88	$73 billion	2025 caps per Enterprise	research	none	Scotsman Guide	ny-research:L184	N	article date not given in research
+NYAG-89	$70 billion	2024 caps per Enterprise	research	none	Scotsman Guide	ny-research:L184	N	article date not given in research
+NYAG-90	$1B to $2B	GSE LIHTC investment cap	research	I77a	Multi-Housing News (25 Nov 2025)	ny-research:L187	N	program rule value
+NYAG-91	$74 billion	Fannie Mae 2025 multifamily production (4 Feb 2026)	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-92	34%	Fannie Mae 2025 production growth	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-93	$55 billion	Fannie Mae 2024 multifamily production	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-94	$5.9 billion	Fannie Mae 2025 Small Loans	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-95	26%	Fannie Mae Small Loans growth	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-96	$8.95 billion	Walker & Dunlop Fannie Mae 2025 volume (#1)	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-97	$7.75 billion	Wells Fargo Fannie Mae 2025 volume (#2)	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-98	$7.47 billion	CBRE Fannie Mae 2025 volume (#3)	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-99	$7.04 billion	Berkadia Fannie Mae 2025 volume (#4)	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-100	$2.85 billion	Greystone Fannie Mae 2025 volume (#8)	research	I77a	Fannie Mae release (4 Feb 2026)	ny-research:L188	Y	
+NYAG-101	11.2%	Walker & Dunlop combined GSE share by deliveries 2025	research	I77a	Walker & Dunlop Form ARS FY2025 (SEC)	ny-research:L189	Y	
+NYAG-102	$694 million	Berkadia small loan activity (212 originations)	research	none	Berkadia marketing page	ny-research:L190	N	lender marketing, undated
+NYAG-103	$2M to $10M	Freddie Mac Conventional Small range	research	I77a	Select Commercial (Apr 2026, broker)	ny-research:L191	N	program rule value
+NYAG-104	$91,851,000	Greystone Fannie Mae loans, three NY Section 8 communities (23 Jul 2026)	research	I77a	Greystone via GlobeNewswire (23 Jul 2026)	ny-research:L192	Y	
+#SUMMARY multifamily-new-york-agency counted=57 research=57 register=0 verdict=PAGE engine=Y notes=FHFA caps and GlobalFoundries Malta figures already served; competitor rents dated only by fetch

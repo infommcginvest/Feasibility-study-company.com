@@ -1,0 +1,88 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+Y01	21,887	Yucca Valley town population V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-YuccaValley-STR.md:43	Y	
+Y02	0.7%	Population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-YuccaValley-STR.md:44	N	value already on served page asset-classes/veterinary-practice/index.html (+24 more)
+Y03	21,737	April 2020 base population	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:44	Y	
+Y04	9,038	Households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:45	Y	
+Y05	2.38	Persons per household ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:45	N	value already on served page asset-classes/funeral-home/index.html (+1 more)
+Y06	$59,563	Median household income	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:46	Y	
+Y07	$33,471	Per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:47	Y	
+Y08	20.9%	Persons 65+ V2025	research	I77c	U.S. Census Bureau (QuickFacts V2025)	EXTRA-2026-10-15-YuccaValley-STR.md:48	N	value already on served page asset-classes/urgent-care/index.html (+1 more)
+Y09	39.1	Median age 2024	research	I77c	Data USA (2024 profile)	EXTRA-2026-10-15-YuccaValley-STR.md:49	N	value already on served page case-studies/index.html (+1 more)
+Y10	$363,400	Median owner-occupied home value	research	I77c	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:50	Y	
+Y11	15.7%	Poverty rate	research	none	U.S. Census Bureau (QuickFacts)	EXTRA-2026-10-15-YuccaValley-STR.md:51	N	Period given only as QuickFacts current
+Y12	$49,513	California per capita income	research	I77c	Census Reporter (ACS 2024 5-year profile)	EXTRA-2026-10-15-YuccaValley-STR.md:53	Y	
+Y13	39.83 sq mi	Town land area	research	I77c	U.S. Census Bureau (QuickFacts, 2020)	EXTRA-2026-10-15-YuccaValley-STR.md:42	N	Geographic extent, not a market figure
+Y14	69	Field Station Joshua Tree rooms	research	I77a	AutoCamp Hospitality Group release (Jun 27, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:62	N	value already on served page research-notes/trade-area-is-the-study/index.html (+125 more)
+Y15	3.4 acres	Field Station site acreage	research	I77a	AutoCamp Hospitality Group release (Jun 27, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:62	N	value already on served page asset-classes/restaurant/index.html (+35 more)
+Y16	73	Field Station rooms per aggregators	research	none	Expedia	EXTRA-2026-10-15-YuccaValley-STR.md:63	N	Contradicted by operator, aggregator undated
+Y17	$134	Field Station aggregator from rate	research	none	National Park Reservations	EXTRA-2026-10-15-YuccaValley-STR.md:65	N	Aggregator, dated only by researcher retrieval (Oct 2026)
+Y18	94	Spark by Hilton rooms	research	none	Expedia / HotelPlanner / Travel Weekly	EXTRA-2026-10-15-YuccaValley-STR.md:68	N	Aggregator, year range only
+Y19	$99	Spark by Hilton standard rate	research	none	Travel Weekly	EXTRA-2026-10-15-YuccaValley-STR.md:70	N	Aggregator, year only, source not captured
+Y20	40	Americas Best Value Inn rooms	research	none	HotelPlanner	EXTRA-2026-10-15-YuccaValley-STR.md:71	N	Aggregator, current/undated
+Y21	55	AutoCamp Joshua Tree units (47 Airstreams, 4 suites, 4 X-Suite cabins)	research	none	Field Mag	EXTRA-2026-10-15-YuccaValley-STR.md:74	N	Article date not stated beyond year 2022
+Y22	$199	AutoCamp launch rate Classic Airstream	research	none	Field Mag	EXTRA-2026-10-15-YuccaValley-STR.md:75	N	Article date not stated beyond year 2022
+Y23	$449	Sweet Rock Ranch nightly from rate	research	none	RentByOwner via Airbnb listing	EXTRA-2026-10-15-YuccaValley-STR.md:77	N	Single listing, aggregator, month only
+Y24	788	Town STR permit cap 2025	research	I77a	Town Planning Commission Resolution PC-25-01 (Jan 28, 2025) via Citizen Portal	EXTRA-2026-10-15-YuccaValley-STR.md:122	N	value already on served page case-studies/rv-park-texas-usda/index.html (+6 more)
+Y25	7,883	Detached single-family units behind the 2025 cap	research	I77a	Citizen Portal (Jan 28, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:122	N	value already on served page asset-classes/marina/index.html
+Y26	149	STR permit openings Jan 28, 2025	research	I77a	Citizen Portal (Jan 28, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:163	N	value already on served page asset-classes/retail/index.html (+22 more)
+Y27	791	Town STR permit cap 2026	research	I77a	Desert Trumpet (Sep 1, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:80	N	value already on served page states/massachusetts/index.html (+1 more)
+Y28	215	STR permit openings for new applicants Sep 1, 2026	research	I77a	Town of Yucca Valley Planning Applications (Sep 1, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:123	N	value already on served page research-notes/coverage-constrained-takeout/index.html (+17 more)
+Y29	918	Active STRs per STR Profit Map	research	none	STR Profit Map	EXTRA-2026-10-15-YuccaValley-STR.md:81	N	Aggregator, year only, flagged low reliability and inconsistent
+Y30	$370	STR ADR per STR Profit Map	research	none	STR Profit Map	EXTRA-2026-10-15-YuccaValley-STR.md:81	N	Aggregator, year only, flagged low reliability
+Y31	$64,832	Average annual STR revenue per STR Profit Map	research	none	STR Profit Map	EXTRA-2026-10-15-YuccaValley-STR.md:81	N	Aggregator, year only, flagged low reliability
+Y32	56%	Median host occupancy per STR Profit Map	research	none	STR Profit Map	EXTRA-2026-10-15-YuccaValley-STR.md:81	N	Aggregator, year only, flagged low reliability
+Y33	7,705	Cactus Club guest room area (sq ft)	research	I77a	Desert Trumpet (County Planning Commission, Oct 8, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:89	Y	
+Y34	17,850	Cactus Club amenity area (sq ft)	research	I77a	Desert Trumpet (County Planning Commission, Oct 8, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:89	N	value already on served page case-studies/assisted-living-texas-hud/index.html (+1 more)
+Y35	20	Cactus Club rooms (approved Oct 8, 2026)	research	I77a	Desert Trumpet (County Planning Commission, Oct 8, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:89	N	value already on served page index.html (+272 more)
+Y36	160	Cactus Club daily trips	research	I77a	Desert Trumpet (County Planning Commission, Oct 8, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:89	N	value already on served page research-notes/office-repurposing/index.html (+53 more)
+Y37	325	Evoque Lomita unit size (sq ft)	research	none	Town of Yucca Valley pre-application	EXTRA-2026-10-15-YuccaValley-STR.md:90	N	Pre-application 2022, status not found
+Y38	50	Design Group 42 bungalows	research	none	Z107.7 FM	EXTRA-2026-10-15-YuccaValley-STR.md:91	N	2022 discussion, status not found
+Y39	2,932,644	Joshua Tree NP recreation visits 2025	research	I77c	NPS visitor-use data via Visit US National Parks (calendar 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:102	Y	
+Y40	325.1K	Joshua Tree NP overnight stays 2025	research	I77c	Public Lands Data (NPS data, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:103	Y	
+Y41	256.9K	Joshua Tree NP campers 2025	research	I77c	Public Lands Data (NPS data, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:103	Y	
+Y42	323,014,305	NPS system-wide recreation visits 2025	research	I77a	Outdoor News (Apr 28, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:102	Y	
+Y43	3,282,575	Joshua Tree NP record visits 2023	research	I77a	National Park Service (Feb 22, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:104	Y	
+Y44	7%	2023 visits over 2022	research	I77a	National Park Service (Feb 22, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:104	N	value already on served page research-notes/break-even-occupancy-trap/index.html (+48 more)
+Y45	12.8%	Off-season visitation Jun to Oct 2023	research	I77a	National Park Service (Feb 22, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:106	N	value already on served page asset-classes/glamping/index.html (+8 more)
+Y46	350	Reservable campsites cited by NPS	research	I77a	National Park Service (Feb 22, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:109	N	value already on served page research-notes/trade-area-is-the-study/index.html (+83 more)
+Y47	$122 million	Visitor spending in local communities	research	I77a	National Park Service 2020 release	EXTRA-2026-10-15-YuccaValley-STR.md:105	N	value already on served page research-notes/underserved-gas-station-markets/index.html (+13 more)
+Y48	2.4 million	Visitors behind the 2020 spending figure	research	I77a	National Park Service 2020 release	EXTRA-2026-10-15-YuccaValley-STR.md:105	N	value already on served page research-notes/sba-default-economics/index.html (+52 more)
+Y49	500	In-park campsites	research	none	National Park Service Campgrounds page	EXTRA-2026-10-15-YuccaValley-STR.md:109	N	Current/undated
+Y50	$1,374	Initial STR permit cost	research	I77a	STRisker bulletin (Sep 1, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:126	N	value already on served page case-studies/gas-station-alabama-sba/index.html
+Y51	$200	Nuisance response plan amendment fee (2026 rewrite)	research	I77a	Desert Trumpet (Sep 1, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:130	N	value already on served page research-notes/five-usda-components-applied/index.html (+77 more)
+Y52	$3,500	Second-violation fine, current code	research	none	American Legal Publishing 5.40.120	EXTRA-2026-10-15-YuccaValley-STR.md:129	N	Enforcement rule value, current code undated
+Y53	12%	Town transient occupancy tax	research	I77a	Z107.7 FM (Dec 28, 2022)	EXTRA-2026-10-15-YuccaValley-STR.md:132	N	value already on served page research-notes/coverage-constrained-takeout/index.html (+37 more)
+Y54	7%	Unincorporated County TOT	research	I77a	San Bernardino County (Aug 14, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:133	N	value already on served page research-notes/break-even-occupancy-trap/index.html (+48 more)
+Y55	11%	Proposed County TOT under Measure K	research	I77a	San Bernardino County (Aug 14, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:133	N	value already on served page asset-classes/restaurant/index.html (+24 more)
+Y56	43.44%	Measure K Yes share Nov 5, 2024	research	I77a	Ballotpedia (Nov 5, 2024 election)	EXTRA-2026-10-15-YuccaValley-STR.md:133	Y	
+Y57	299,182	Measure K Yes votes	research	I77a	Ballotpedia (Nov 5, 2024 election)	EXTRA-2026-10-15-YuccaValley-STR.md:133	Y	
+Y58	56.56%	Measure K No share	research	I77a	Ballotpedia (Nov 5, 2024 election)	EXTRA-2026-10-15-YuccaValley-STR.md:133	Y	
+Y59	389,505	Measure K No votes	research	I77a	Ballotpedia (Nov 5, 2024 election)	EXTRA-2026-10-15-YuccaValley-STR.md:133	Y	
+Y60	8.750%	Sales tax rate Yucca Valley Q1 2025	research	I77c	CDTFA rate table (Jan 1 to Mar 31, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:134	Y	
+Y61	1%	Countywide base property tax levy FY2025-26	research	I77a	San Bernardino County Board of Supervisors File 12766 (Sep 9, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:135	N	Constitutional base rate, rule value
+Y62	1.45%	Median effective property tax rate (Ownwell)	research	none	Ownwell	EXTRA-2026-10-15-YuccaValley-STR.md:136	N	Conflicts with Victor Valley Times, undated
+Y63	$5,000	Average private sewer connection cost	research	I77a	Hi-Desert Water District Phase 2 update (Apr 20, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:138	N	value already on served page research-notes/five-usda-components-applied/index.html (+29 more)
+Y64	1,991	Households connecting in sewer Phase 2	research	I77a	Hi-Desert Water District Phase 2 update (Apr 20, 2026)	EXTRA-2026-10-15-YuccaValley-STR.md:138	N	value already on served page research-notes/break-even-occupancy-trap/index.html
+Y65	$103 million	State grant for sewer Phase 2	research	I77a	Hi-Desert Water District (Apr 20, 2026) and CWEA	EXTRA-2026-10-15-YuccaValley-STR.md:138	N	value already on served page research-notes/office-repurposing/index.html (+14 more)
+Y66	$25	Water service connection fee	research	none	Hi-Desert Water District Start/Stop Service	EXTRA-2026-10-15-YuccaValley-STR.md:139	N	Current/undated
+Y67	10%	STR permit cap share of detached homes	research	I77a	Town Resolution PC-25-01 (Jan 28, 2025)	EXTRA-2026-10-15-YuccaValley-STR.md:122	N	Local cap rule, not a market figure
+Y68	$599,000	Subject listing asking price	research	none	Coldwell Banker	EXTRA-2026-10-15-YuccaValley-STR.md:21	N	Subject listing figure
+Y69	1.816 acres	Subject listing acreage	research	none	Homes.com	EXTRA-2026-10-15-YuccaValley-STR.md:23	N	Subject single-property listing figure
+Y70	$2.952 million	Alternate site asking price	research	none	Yahoo Lifestyle	EXTRA-2026-10-15-YuccaValley-STR.md:34	N	Listing figure
+R01	$85,478	San Bernardino County median household income	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_hh_income.json:co-06071	Y	
+R02	$505,000	San Bernardino County median home value	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_home_value.json:co-06071	N	value already on served page asset-classes/rv-and-boat-storage/index.html (+2 more)
+R03	$1,801	San Bernardino County median gross rent	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_median_gross_rent.json:co-06071	Y	
+R04	$34,343	San Bernardino County per capita income	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_per_capita_income.json:co-06071	Y	
+R05	7.1%	San Bernardino County unemployment rate	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_unemployment_rate.json:co-06071	N	value already on served page research-notes/sba-default-economics/index.html (+29 more)
+R06	259	Hotel establishments, San Bernardino County	register	I77c	Census CBP 2023	data/markets/series/cbp_estab.json:co-06071:hotel	N	value already on served page asset-classes/private-school/index.html (+7 more)
+R07	3,608	Hotel employees, San Bernardino County	register	I77c	Census CBP 2023	data/markets/series/cbp_emp.json:co-06071:hotel	Y	
+R08	1.18	Hotel establishments per 10,000 residents, San Bernardino County	register	I77c	Census CBP 2023	data/markets/series/cbp_estab_per_10k.json:co-06071:hotel	N	value already on served page research-notes/break-even-occupancy-trap/index.html (+15 more)
+R09	$53,991	San Bernardino County BEA per capita personal income	register	I77c	BEA (calendar year 2024)	data/markets/series/bea_per_capita_income.json:co-06071	Y	
+R10	674,915	San Bernardino County households	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_households.json:co-06071	Y	
+R11	418,836	San Bernardino County owner-occupied units	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_owner_occupied.json:co-06071	Y	
+R12	256,079	San Bernardino County renter-occupied units	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_renter_occupied.json:co-06071	Y	
+Y71	70%	Share of in-park campsites reservable (about 70%)	research	I77a	National Park Service (Feb 22, 2024)	EXTRA-2026-10-15-YuccaValley-STR.md:109	N	value already on served page research-notes/sba-default-economics/index.html (+57 more)
+R13	276,984	San Bernardino County population 65+	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_pop65.json:co-06071	Y	
+R14	1,046,624	San Bernardino County civilian labor force	register	I77c	U.S. Census Bureau ACS 2020-2024	data/markets/series/acs5_labor_force.json:co-06071	Y	
+R15	$119.55 billion	San Bernardino County BEA personal income	register	I77c	BEA (calendar year 2024)	data/markets/series/bea_personal_income.json:co-06071	N	register cap of 10 reached
+#SUMMARY short-term-rental-yucca-valley-california-conventional counted=28 research=18 register=10 verdict=FOLD engine=Y notes=short 2 research literal; A4 reading 31/21 PAGE; STR performance figures undated aggregators

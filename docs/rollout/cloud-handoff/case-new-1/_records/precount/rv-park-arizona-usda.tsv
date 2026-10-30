@@ -1,0 +1,60 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+RAZ-001	5,532	Benson city population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:53	Y	
+RAZ-002	7,623,818	Arizona population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:53	N	Also on /states/arizona/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RAZ-003	2.1%	Benson population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:54	N	Already on served page /accessibility/ (by value)
+RAZ-004	5,418	Benson April 2020 base population	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:54	Y	
+RAZ-005	6.5%	Arizona population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:54	N	Held only by legacy case page(s) being rebuilt: /case-studies/rv-boat-storage-california-sba/, /case-studies/rv-boat-storage-arizona-sba/, /case-studies/private-school-connecticut-conventional/ (by value; strict reading excludes)
+RAZ-006	5,589	Benson population per AZ OEO, 1 Jul 2025	research	I77a	Benson Chamber citing Arizona OEO	CS-R-RV-PARK-ARIZONA-USDA:55	N	Conflicts with Census V2025 for the same series and date; not printed
+RAZ-007	2,395	Benson households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:56	Y	
+RAZ-008	2.23	Benson persons per household	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:57	Y	
+RAZ-009	$49,346	Benson median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:58	Y	
+RAZ-010	$29,633	Benson per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:59	Y	
+RAZ-011	31.0%	Benson persons 65+	research	I77a	U.S. Census Bureau (QuickFacts) V2025	CS-R-RV-PARK-ARIZONA-USDA:60	N	Held only by legacy case page(s) being rebuilt: /case-studies/assisted-living-florida-hud/, /case-studies/hotel-nevada-eb5/, /case-studies/assisted-living-hawaii-hud/ (by value; strict reading excludes)
+RAZ-012	50.6	Benson median age ACS 2024 5-yr	research	I77c	Arizona-Demographics.com citing ACS	CS-R-RV-PARK-ARIZONA-USDA:61	Y	Compiler site, period names the ACS vintage; borderline
+RAZ-013	$20,845,000	Benson accommodation and food services sales, 2022	research	I77c	U.S. Census Bureau (QuickFacts) (2022 Economic Census)	CS-R-RV-PARK-ARIZONA-USDA:62	Y	
+RAZ-014	126,332	Cochise County population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:64	Y	
+RAZ-015	0.7%	Cochise County population change since 2020	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-RV-PARK-ARIZONA-USDA:64	N	Held only by legacy case page(s) being rebuilt: /case-studies/qsr-arkansas-sba/, /case-studies/qsr-georgia-sba/, /case-studies/coffee-shop-washington-sba/ (by value; strict reading excludes)
+RAZ-016	34,308	I-10 AADT, Skyline Rd to SR-90, 2024	research	I77b	Benson Chamber citing ADOT 2024	CS-R-RV-PARK-ARIZONA-USDA:43	Y	
+RAZ-017	1.4%	I-10 AADT change vs 2023	research	I77b	Benson Chamber citing ADOT	CS-R-RV-PARK-ARIZONA-USDA:43	N	Already on served page /case-studies/ (by value)
+RAZ-018	4,189	ADOT Station 101747 SR-10B AADT, 2024	research	I77b	ADOT AADT Report 2024	CS-R-RV-PARK-ARIZONA-USDA:42	Y	
+RAZ-019	155,562	Kartchner Caverns visits CY2024	research	I77c	Benson Chamber citing state data	CS-R-RV-PARK-ARIZONA-USDA:120	Y	
+RAZ-020	16.3%	Kartchner Caverns visits change 2024	research	I77c	Benson Chamber citing state data	CS-R-RV-PARK-ARIZONA-USDA:120	Y	
+RAZ-021	92,628	Kartchner Caverns visits Jan-Sep 2025	research	I77c	Arizona Office of Tourism, Monthly State Parks Visitation Report, Sept 2025	CS-R-RV-PARK-ARIZONA-USDA:121	Y	
+RAZ-022	117,202	Kartchner Caverns visits Jan-Sep 2024	research	I77c	Arizona Office of Tourism, Monthly State Parks Visitation Report, Sept 2025	CS-R-RV-PARK-ARIZONA-USDA:121	Y	
+RAZ-023	21.0%	Kartchner Caverns Jan-Sep change	research	I77c	Arizona Office of Tourism	CS-R-RV-PARK-ARIZONA-USDA:121	N	Also on /asset-classes/gas-station-and-c-store/, /states/alabama/, /states/new-hampshire/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RAZ-024	4,408	Kartchner Caverns visits Sep 2025	research	I77c	Arizona Office of Tourism	CS-R-RV-PARK-ARIZONA-USDA:122	Y	
+RAZ-025	4,986	Kartchner Caverns visits Sep 2024	research	I77c	Arizona Office of Tourism	CS-R-RV-PARK-ARIZONA-USDA:122	N	Also on /states/georgia/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+RAZ-026	77,555; 100,735; 23.0%	Kartchner Caverns Jan-Jun 2025 vs 2024	research	none	Benson Chamber of Commerce (undated post)	CS-R-RV-PARK-ARIZONA-USDA:115	N	Chamber post undated; the period belongs to a monthly report the research does not name
+RAZ-027	7,956	Fort Huachuca employment	research	I77a	Cochise County Housing Needs Assessment, 2025 study	CS-R-RV-PARK-ARIZONA-USDA:123	Y	
+RAZ-028	5.4%	Cochise County unemployment, Aug 2025	research	I77c	Cochise County Housing Needs Assessment	CS-R-RV-PARK-ARIZONA-USDA:124	N	Already on served page /research-notes/c-store-franchise-category/ (by value)
+RAZ-029	$3.5 billion	USDA B&I FY2025 allotment	research	I77a	Summit LLC for NRLA, House Ag testimony 18 Sep 2025	CS-R-RV-PARK-ARIZONA-USDA:175	N	Already on served page /research-notes/sba-default-economics/ (by value)
+RAZ-030	0.2%	USDA B&I FY2025 subsidy rate	research	I77a	Summit LLC for NRLA, testimony 18 Sep 2025	CS-R-RV-PARK-ARIZONA-USDA:175	N	Already on served page /research-notes/break-even-occupancy-trap/ (by value)
+RAZ-031	$485M	Arizona B&I volume across 83 loans (apparently 2018-2025)	research	I77a	Summit LLC for NRLA, testimony 18 Sep 2025	CS-R-RV-PARK-ARIZONA-USDA:176	N	Also on /states/alabama/ (state/hub/metro page; yields to the case under A4, strict reading excludes); Period stated only as "apparently 2018-2025"; borderline
+RAZ-032	83 loans	Arizona B&I loans (apparently 2018-2025)	research	I77a	Summit LLC for NRLA, testimony 18 Sep 2025	CS-R-RV-PARK-ARIZONA-USDA:176	N	Already on served page /case-studies/, /case-studies/assisted-living-texas-hud/ (by value); Period stated only as "apparently 2018-2025"; borderline
+RAZ-033	$2.7M	Exceptional Healthcare B&I guarantee, 2023	research	I77a	USDA newsletter repost	CS-R-RV-PARK-ARIZONA-USDA:177	N	Single loan (I66)
+RAZ-034	85%; 80%; 3%; 0.55%; 40 years; 1%	USDA B&I guarantee, fees and term	research	I77a	USDA Rural Development	CS-R-RV-PARK-ARIZONA-USDA:168-173	N	Program rule values
+RAZ-035	$5,000,000	B&I guarantee tier threshold	research	I77a	USDA RD	CS-R-RV-PARK-ARIZONA-USDA:168	N	Program rule value
+RAZ-036	2.6720; 2.6283; 0.8595; 0.8388; 3.3269; 2.3661; 3.2895; 2.2108; 0.0500	Cochise, Benson and school tax rates per $100	research	I77a	Cochise County rates	CS-R-RV-PARK-ARIZONA-USDA:145-149	N	Tax rate = rule value (GEO-4 D5 precedent); borderline
+RAZ-037	3.50%; 2.00%; 5.6%	City and state TPT rates	research	I77a	Arizona Department of Revenue	CS-R-RV-PARK-ARIZONA-USDA:153-155	N	Rule values
+RAZ-038	30.67 acres; $1,300,000; $1,500,000; $1,700,000; 1,335,985 sq ft	Subject site listing	research	none	Hereford Realty; Long Sells	CS-R-RV-PARK-ARIZONA-USDA:28-30	N	Subject listing figures (I64)
+RAZ-039	$2,950,000; 65 acres; 388-acre	Alternate listings	research	none	Hereford Realty IDX	CS-R-RV-PARK-ARIZONA-USDA:40-45	N	Single listings (I64)
+RAZ-040	$70; $430; $640; $4,750; $65; $72.51; $435.05; $600; $635; $475; $50; $55; $238; $285; $579; $619; $32; $166; $465; $48; $313; $610	Competitor posted rates	research	I77a	Operator rate pages (checked 15 Oct 2026; Butterfield "starting Oct 1, 2026")	CS-R-RV-PARK-ARIZONA-USDA:72-89	N	Single named facilities (I64); other rates dated only by the researcher fetch (I69)
+RAZ-041	173; 147; 128; 146; 124; 176; 152; 63; 76; 88; 83; 85; 47; 369; 318; 25; 308; 129; 104; 49; 62	Competitor site counts	research	none	Operators and aggregators	CS-R-RV-PARK-ARIZONA-USDA:73-96	N	Single named facilities (I64); aggregator, undated
+RAZ-042	$50,000-$63,000	Arizona Legends deeded lot prices	research	none	Arizona Legends RV	CS-R-RV-PARK-ARIZONA-USDA:92	N	Single facility, checked-date only
+RAZ-043	$1.6M; $500,000	Pardners RV Park and Benson KOA asking prices	research	none	Parkvestor; Park Brokerage	CS-R-RV-PARK-ARIZONA-USDA:91,97	N	Single-property listings (I64)
+RAZ-044	8 spaces; 24 acres	SU25-06 Landa Lane RV park	research	I77a	CitizenPortal summary of county hearing, May 2025	CS-R-RV-PARK-ARIZONA-USDA:108	N	Single project; AI-generated summary
+RAZ-045	85-signature petition	Aluminum Dynamics CUP petition	research	I77a	City of Benson P&Z minutes	CS-R-RV-PARK-ARIZONA-USDA:125	N	Not a market figure
+RAZ-046	over 15 RV parks; ten or more	Benson RV park counts	research	none	Benson Chamber; research summary	CS-R-RV-PARK-ARIZONA-USDA:5,68	N	Undated chamber claim; research summary count
+RAZ-047	$60,000; $2,000	Benson impact fee collection and compliance cost	research	none	Herald/Review (undated in research)	CS-R-RV-PARK-ARIZONA-USDA:133	N	Date NOT FOUND for the report
+RAZ-048	NOT FOUND	Daytime employment, parcel IDs, taxes, flood zone, B&I lenders	research	none	NOT FOUND	CS-R-RV-PARK-ARIZONA-USDA:31-63	N	NOT FOUND rows
+RAZ-049	418,458	pep_pop_2023 all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.pep_pop_2023.all	N	Value also on /states/wisconsin/ (yields under A4; strict reading excludes)
+RAZ-050	0.5%	pep_change_3y_pct all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.pep_change_3y_pct.all	Y	Register series (geo, series) pair
+RAZ-051	$28,838	acs5_per_capita_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.acs5_per_capita_income.all	Y	Register series (geo, series) pair
+RAZ-052	161,086	acs5_households all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.acs5_households.all	Y	Register series (geo, series) pair
+RAZ-053	94,817	acs5_pop65 all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.acs5_pop65.all	Y	Register series (geo, series) pair
+RAZ-054	8.2%	acs5_unemployment_rate all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.acs5_unemployment_rate.all	Y	Register series (geo, series) pair
+RAZ-055	29	cbp_estab rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.cbp_estab.rv-park-and-campground	Y	Register series (geo, series) pair
+RAZ-056	1	sba7a_loans rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.sba7a_loans.rv-park-and-campground	Y	Register series (geo, series) pair
+RAZ-057	$3,120,000	sba7a_volume rv-park-and-campground	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.sba7a_volume.rv-park-and-campground	Y	Register series (geo, series) pair
+RAZ-058	$51,361	bea_per_capita_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/arizona/rural.json:series.bea_per_capita_income.all	Y	Register series (geo, series) pair
+#SUMMARY rv-park-arizona-usda counted=26 research=17 register=9 verdict=FOLD engine=N notes=short on research; A4 gives 31 counted, 21 research, PAGE; competitor data single-property or fetch-dated

@@ -19,7 +19,10 @@ anchor becomes a span with the same text:
     python3 scripts/links.py             mark every broken link outside generated regions as pending
     python3 scripts/links.py --check     exit 1 on any broken link that is not pending, or any
                                          pending target that now exists
-    python3 scripts/links.py --relink    restore every pending link whose page now exists
+    python3 scripts/links.py --relink    restore every pending link whose page now exists; follow the
+                                         permanent rewrites (fallbacks.json) on live and pending links;
+                                         and mark a broken link to a promised URL (data/site/promised.json,
+                                         FACTORY-2, amendment A5) as pending with its class fallback
     python3 scripts/links.py --report    print link and inbound counts as JSON
     python3 scripts/links.py --pending-csv PATH   write the pending inventory
 
@@ -311,7 +314,33 @@ def classify(path):
         return "hub"
     if path.startswith("/analytical-framework/"):
         return "framework"
+    if re.match(r"^/case-studies/[a-z0-9-]+/?$", path):
+        return "case"
     return "other"
+
+
+def load_promised(root=ROOT):
+    """URLs a ROLLOUT-1 block assigns (data/site/promised.json), as a set of paths with a trailing slash."""
+    path = os.path.join(root, "data", "site", "promised.json")
+    if not os.path.exists(path):
+        return set()
+    with open(path, encoding="utf-8") as fh:
+        return set(json.load(fh).get("pages", {}))
+
+
+def promised_set(site, rows=None):
+    """Promised URLs: data/site/promised.json plus every data-fsc-pending target already on the site."""
+    out = load_promised(site.root)
+    for rel, url, a in (rows if rows is not None else scan(site)):
+        if a["pending"]:
+            p, _ = internal_path(a["pending"], url)
+            if p:
+                out.add(norm_slash(p))
+    return out
+
+
+# Amendment A5 class fallbacks for a promised page with no rule in fallbacks.json 'targets'.
+CLASS_FALLBACK = {"state": "/states/", "hub": "/asset-classes/", "case": "/case-studies/"}
 
 
 def load_fallbacks(root=ROOT):
@@ -335,11 +364,17 @@ def fallback_for(site, path, page_url, fb):
             state = "/" + "/".join(target.strip("/").split("/")[:2]) + "/"
             if site.page_exists(state):
                 href = state + ("#metros" if "metros" in site.ids(state) else "")
+            else:
+                href = "/states/"          # amendment A5: a metro of a state not built yet
         elif cls == "subtype":
             hub = "/" + "/".join(target.strip("/").split("/")[:2]) + "/"
             sect = fb.get("subtype_sections", {}).get(hub)
             if site.page_exists(hub):
                 href = hub + ("#" + sect if sect and sect in site.ids(hub) else "")
+            else:
+                href = "/asset-classes/"   # amendment A5: a subtype of a hub not built yet
+        elif cls in CLASS_FALLBACK:
+            href = CLASS_FALLBACK[cls]     # amendment A5: state, hub and case fall back to their index
     if href is None:
         return None
     hpath, hfrag = internal_path(href, page_url)
@@ -446,32 +481,83 @@ def scan(site):
     return rows
 
 
+def rewritten_target(a, url, fb):
+    """For a pending anchor whose promised target is a permanent rewrite key (ruling 16), the new target."""
+    if not a["pending"]:
+        return None
+    p, _ = internal_path(a["pending"], url)
+    if not p:
+        return None
+    new = fb.get("rewrites", {}).get(norm_slash(p))
+    if new is None or "#" in new:
+        return None
+    return new
+
+
+def page_edits(site, rel, url, s, mode, fb, promised):
+    """The link edits one mode makes on one page's text, as (start, end, new) triples."""
+    edits = []
+    for a in anchors(site, rel, url, s):
+        if a["region"]:
+            continue
+        rw = rewrite_for(a, url, fb) if mode in ("mark", "relink") else None
+        new_target = rewritten_target(a, url, fb) if mode == "relink" else None
+        if rw is not None:
+            # a live link to a retired or alias path: point it at the rewrite target; if that page is not
+            # built yet, it becomes a pending link to the target with the target's fallback
+            npath, _ = internal_path(new_target or fb["rewrites"][norm_slash(a["path"])], url)
+            if mode == "relink" and npath and site.resolve(npath) is None:
+                rw = make_pending(dict(a, path=npath), fallback_for(site, npath, url, fb))
+            edits.append((a["start"], a["end"], rw))
+        elif new_target is not None:
+            # a pending link promised to a slug ruling 16 never builds: promise the rewrite target instead
+            if new_target == url:
+                # the rewrite target is this page: the words stay, as plain text
+                keep = {k: v for k, v in a["attrs"].items() if k in ("class", "id")}
+                tag = "<span" + "".join(' %s="%s"' % (k, html.escape(v, quote=True)) for k, v in keep.items()) + ">"
+                edits.append((a["start"], a["end"], tag + a["inner"] + "</span>"))
+            elif site.page_exists(new_target):
+                edits.append((a["start"], a["end"], relink(dict(a, pending=new_target))))
+            else:
+                a2 = dict(a, path=new_target)
+                if a["kind"] == "span":
+                    a2["raw"] = "<a>" + a["inner"] + "</a>"
+                edits.append((a["start"], a["end"], make_pending(a2, fallback_for(site, new_target, url, fb))))
+        elif mode == "relink" and a["pending"] and pending_live(site, a):
+            edits.append((a["start"], a["end"], relink(a)))
+        elif mode == "relink" and not a["pending"] and broken(site, a) and norm_slash(a["path"]) in promised:
+            edits.append((a["start"], a["end"], make_pending(a, fallback_for(site, a["path"], url, fb))))
+        elif mode == "mark" and not a["pending"] and broken(site, a):
+            edits.append((a["start"], a["end"], make_pending(a, fallback_for(site, a["path"], url, fb))))
+        elif mode == "mark" and a["pending"] and a["kind"] == "a":
+            # keep the fallback truthful if the fallback page moved
+            p, _ = internal_path(a["href"], url)
+            if site.resolve(p) is None:
+                target, _ = internal_path(a["pending"], url)
+                new = fallback_for(site, target, url, fb)
+                a2 = dict(a, path=target)
+                edits.append((a["start"], a["end"], make_pending(a2, new)))
+    return edits
+
+
+def relink_html(site, rel, url, s, fb=None, promised=None):
+    """One page's text as --relink would leave it (build.py renders through this, so render and relink agree)."""
+    if site.held(rel):
+        return s
+    fb = load_fallbacks(site.root) if fb is None else fb
+    promised = promised_set(site) if promised is None else promised
+    return splice(s, page_edits(site, rel, url, s, "relink", fb, promised))
+
+
 def apply(site, mode, skip=()):
     fb = load_fallbacks(site.root)
+    promised = promised_set(site) if mode == "relink" else set()
     changed = []
     for rel, url in site.pages:
         if site.held(rel) or rel in skip:
             continue
         s = site.text(rel)
-        edits = []
-        for a in anchors(site, rel, url, s):
-            if a["region"]:
-                continue
-            rw = rewrite_for(a, url, fb) if mode == "mark" else None
-            if rw is not None:
-                edits.append((a["start"], a["end"], rw))
-            elif mode == "relink" and a["pending"] and pending_live(site, a):
-                edits.append((a["start"], a["end"], relink(a)))
-            elif mode == "mark" and not a["pending"] and broken(site, a):
-                edits.append((a["start"], a["end"], make_pending(a, fallback_for(site, a["path"], url, fb))))
-            elif mode == "mark" and a["pending"] and a["kind"] == "a":
-                # keep the fallback truthful if the fallback page moved
-                p, _ = internal_path(a["href"], url)
-                if site.resolve(p) is None:
-                    target, _ = internal_path(a["pending"], url)
-                    new = fallback_for(site, target, url, fb)
-                    a2 = dict(a, path=target)
-                    edits.append((a["start"], a["end"], make_pending(a2, new)))
+        edits = page_edits(site, rel, url, s, mode, fb, promised)
         if edits:
             new_s = splice(s, edits)
             if new_s != s:
@@ -486,7 +572,11 @@ def check(site):
     pend = {}
     fb = load_fallbacks(site.root)
     retired = set(fb.get("rewrites", {}))
-    for rel, url, a in scan(site):
+    rows = scan(site)
+    promised = promised_set(site, rows)
+    for p in sorted(load_promised(site.root) & retired):
+        problems.append(f"data/site/promised.json: {p} is a permanent rewrite (fallbacks.json) and is never built")
+    for rel, url, a in rows:
         if site.held(rel):
             continue
         if a["pending"]:
@@ -494,13 +584,16 @@ def check(site):
             pend[cls] = pend.get(cls, 0) + 1
             if pending_live(site, a):
                 problems.append(f"{rel}:{a['line']}: pending target now exists: {a['pending']} ({a['text']!r}); run --relink")
+            if rewritten_target(a, url, fb):
+                problems.append(f"{rel}:{a['line']}: pending target is a permanent rewrite: {a['pending']}; run --relink")
             if a["kind"] == "a" and broken(site, a):
                 problems.append(f"{rel}:{a['line']}: pending fallback is broken: {a['href']}")
             continue
         if a["kind"] == "a" and a["path"] and norm_slash(a["path"]) in retired:
             problems.append(f"{rel}:{a['line']}: link to a retired or alias path: {a['href']} ({a['text']!r})")
         elif broken(site, a):
-            problems.append(f"{rel}:{a['line']}: broken internal link: {a['href']} ({a['text']!r})")
+            hint = "; promised, run --relink" if norm_slash(a["path"]) in promised else " (neither built nor promised)"
+            problems.append(f"{rel}:{a['line']}: broken internal link: {a['href']} ({a['text']!r}){hint}")
         elif a["path"] and a["frag"] and site.resolve(a["path"]) == "page" and a["frag"] not in site.ids(a["path"]):
             problems.append(f"{rel}:{a['line']}: missing fragment: {a['href']}")
     return problems, pend

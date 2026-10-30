@@ -1,0 +1,351 @@
+{
+  "slug": "restaurant-acquisition-broussard-louisiana-sba",
+  "page": "/case-studies/restaurant-acquisition-broussard-louisiana-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "acquisition",
+    "business_age": "existing",
+    "special_purpose": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 22,
+    "fees": 23,
+    "prime": 24
+  },
+  "stabilized_year": 3,
+  "units": {
+    "label": "restaurant",
+    "count": 1
+  },
+  "inputs": {
+    "price": {
+      "value": 1000000,
+      "fmt": "$",
+      "label": "Purchase price, building, land and operating business",
+      "assumption": "A round figure built from the illustrative earnings below, not from any asking price. About $620,000 of it is allocated to the real estate, and the remaining business portion is a little over two times the illustrative FY2025 EBITDA. The research holds no restaurant sale multiple or comparable sale for Lafayette Parish, so the independent business valuation and the going-concern appraisal, both lender conditions, set the real value."
+    },
+    "re_alloc": {
+      "value": 620000,
+      "fmt": "$",
+      "label": "Price allocated to land and building",
+      "assumption": "About 62% of the price, for a freestanding building of roughly 4,500 square feet on about 1.5 acres. No land sale, assessor value or construction cost for Broussard was found, so the figure is a round placeholder and the appraisal fixes the split. A lower real estate share moves dollars into the business portion, which amortizes over 10 years instead of 25."
+    },
+    "inventory": {
+      "value": 25000,
+      "fmt": "$",
+      "label": "Food, beverage and bar inventory bought at closing",
+      "assumption": "About two weeks of food and beverage purchases for a full-service kitchen and bar with a seafood-heavy menu, counted at closing and priced at cost."
+    },
+    "working_capital": {
+      "value": 55000,
+      "fmt": "$",
+      "label": "Working capital reserve",
+      "assumption": "Roughly one month of operating expenses, so the first payroll cycles and the first vendor invoices do not run through a credit line during the ownership change."
+    },
+    "closing": {
+      "value": 40000,
+      "fmt": "$",
+      "label": "Closing costs: appraisal, business valuation, Phase I, legal",
+      "assumption": "A going-concern appraisal, the independent business valuation Appendix 15 asks for, an environmental screening of the site, title work, legal fees and the transfer of the liquor, health and occupational licenses. Valuation and appraisal fees are buyer cash."
+    },
+    "guests": {
+      "value": [
+        54000,
+        54500,
+        55000,
+        55600,
+        56200
+      ],
+      "fmt": "n",
+      "label": "Guests served",
+      "assumption": "About 170 guests a day over roughly 315 trading days in Year 1 for a restaurant of about 110 seats, which is under two turns of the dining room on an average day. Year 1 sits a little below the illustrative FY2025 volume because King's Seafood, whose site work began in late March 2026, is expected to open during the year [^12], while the interchange work that disrupted access should be finished [^4]. Later years grow about 1% a year, well below the city's 17.5% five-year population gain [^1] because a table-service dining room cannot grow faster than its seats and its hours."
+    },
+    "food_check": {
+      "value": 19.5,
+      "fmt": "$2",
+      "label": "Food sales per guest, Year 1",
+      "assumption": "A blend of lunch plates and dinner entrees for a Cajun and seafood menu. The operators' own menus show two price tiers in the city, a lower lunch tier and a higher dinner tier [^7,8], and the blend sits between them, weighted toward lunch and weeknight dinner trade. Menu prices on those pages carry only the date we read them, so they set the reasoning here and are not printed as figures."
+    },
+    "bev_check": {
+      "value": 5.5,
+      "fmt": "$2",
+      "label": "Beverage and bar sales per guest, Year 1",
+      "assumption": "Soft drinks, tea, beer, wine and cocktails averaged over every guest, including those who order only water. The restaurant is assumed to hold a standard liquor license that transfers with the business, which is a lender condition."
+    },
+    "check_growth": {
+      "value": 0.025,
+      "fmt": "%",
+      "label": "Annual menu price growth",
+      "assumption": "2.5% a year, a modest pass-through of cost increases. It is a placeholder: no Louisiana restaurant price or cost index was found in the research."
+    },
+    "food_cost": {
+      "value": 0.33,
+      "fmt": "%",
+      "label": "Food cost, share of food sales",
+      "assumption": "About a third of food sales for a menu built on shrimp, crab, catfish and beef, whose costs move with the market. No food cost benchmark for Louisiana restaurants was found in the research; the seller's purchase records replace this figure."
+    },
+    "bev_cost": {
+      "value": 0.25,
+      "fmt": "%",
+      "label": "Beverage cost, share of beverage sales",
+      "assumption": "A quarter of beverage sales, a blend of fountain drinks that cost little and beer, wine and spirits that cost more. Replaced by the seller's invoices in diligence."
+    },
+    "labor_hours": {
+      "value": 27500,
+      "fmt": "n",
+      "label": "Paid hourly hours per year",
+      "assumption": "Cooks, dishwashers, servers, bussers and a bartender across lunch and dinner service six or seven days a week: roughly 87 paid hours on an average trading day. The restaurant is open fewer hours than a convenience store, and the model does not staff the overnight."
+    },
+    "wage": {
+      "value": 14,
+      "fmt": "$2",
+      "label": "Average hourly wage, Year 1",
+      "assumption": "A blended rate across kitchen staff and tipped front-of-house staff. No Louisiana restaurant wage survey was found in the research, so the figure is a placeholder that the seller's payroll registers replace."
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual wage and cost growth",
+      "assumption": "3% a year, a little above the menu price growth, so costs grow slightly faster than prices. It is a placeholder, not a forecast."
+    },
+    "burden": {
+      "value": 0.12,
+      "fmt": "%",
+      "label": "Payroll taxes and workers' compensation",
+      "assumption": "Employer payroll taxes and workers' compensation on hourly wages; no health plan for hourly staff."
+    },
+    "manager": {
+      "value": 110000,
+      "fmt": "$",
+      "label": "General manager and kitchen manager salaries",
+      "assumption": "Two salaried managers, front of house and kitchen, charged at a market rate even if the buyer works in the restaurant, so EBITDA is not inflated by unpaid owner labor."
+    },
+    "card_fee": {
+      "value": 0.027,
+      "fmt": "%",
+      "label": "Card processing, share of sales",
+      "assumption": "Card processing near 2.7% of sales, since most dining checks are paid by card. A placeholder: the seller's processor statements replace it."
+    },
+    "tax_rate": {
+      "value": 0.01,
+      "fmt": "%2",
+      "label": "Property tax, share of the real estate allocation",
+      "assumption": "A placeholder of 1% of the real estate allocation. Broussard levies no municipal general alimony millage on the 2025 roll [^20], but the parish, school and special-district levies that apply to the parcel, and the assessment ratio, were not found. The actual bill is a lender condition."
+    },
+    "other_opex": {
+      "value": 195000,
+      "fmt": "$",
+      "label": "Utilities, insurance, repairs, supplies, marketing, licenses and other",
+      "assumption": "Electricity and gas for a commercial kitchen, water and sewer, property and liability insurance including flood and wind, repairs, linen, smallwares, pest control, waste, music licensing, marketing, point-of-sale software, accounting and permits. Grows 3% a year."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        25
+      ]
+    },
+    "seller_ebitda_fy2024": {
+      "value": 172000,
+      "fmt": "$",
+      "label": "Seller EBITDA, FY2024 (illustrative)",
+      "assumption": "Illustrative. The research found no statements for any restaurant in Broussard. Built from the economics of Year 1 below: about 55,400 guests at Year 1 prices and costs would earn roughly $172,000."
+    },
+    "seller_ebitda_fy2025": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Seller EBITDA, FY2025 (illustrative)",
+      "assumption": "Illustrative. Lower than FY2024 on the assumption that the interchange construction on the Ambassador Caffery corridor, with its lane closures and traffic shifts through 2025 [^4,5], cost the restaurant some visits, and that wage and food costs rose faster than prices. Neither effect is measured for any restaurant in the research. About 54,600 guests at Year 1 prices and costs would earn roughly $160,000. The year still predates the King's Seafood opening [^12,13]."
+    }
+  },
+  "uses": [
+    {
+      "key": "real_estate",
+      "label": "Real estate: land and building (allocated)",
+      "expr": "re_alloc",
+      "class": "real_estate",
+      "basis": "Allocation of the price; appraisal to confirm"
+    },
+    {
+      "key": "business",
+      "label": "Business assets: kitchen equipment, fixtures, licenses and goodwill (allocated)",
+      "expr": "price - re_alloc",
+      "class": "business",
+      "basis": "Price less real estate; valuation to confirm"
+    },
+    {
+      "key": "inventory",
+      "label": "Food, beverage and bar inventory",
+      "expr": "inventory",
+      "class": "working_capital",
+      "basis": "Counted at closing"
+    },
+    {
+      "key": "working_capital",
+      "label": "Working capital reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "About one month of expenses"
+    },
+    {
+      "key": "closing",
+      "label": "Closing costs: appraisal, valuation, Phase I, legal",
+      "expr": "closing",
+      "class": "other",
+      "basis": "Due diligence for a change of ownership [^22]"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "food",
+      "label": "Food sales",
+      "expr": "guests * food_check * (1 + check_growth) ** y",
+      "basis": "Guests x food check, with price growth"
+    },
+    {
+      "key": "beverage",
+      "label": "Beverage and bar sales",
+      "expr": "guests * bev_check * (1 + check_growth) ** y",
+      "basis": "Guests x beverage check, with price growth"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "food_cost",
+      "label": "Food cost",
+      "expr": "rev_food * food_cost",
+      "basis": "Share of food sales"
+    },
+    {
+      "key": "bev_cost",
+      "label": "Beverage cost",
+      "expr": "rev_beverage * bev_cost",
+      "basis": "Share of beverage sales"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Hourly payroll with taxes",
+      "expr": "labor_hours * wage * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "Hours x wage"
+    },
+    {
+      "key": "manager",
+      "label": "Managers",
+      "expr": "manager * (1 + wage_growth) ** y",
+      "basis": "Market salaries"
+    },
+    {
+      "key": "cards",
+      "label": "Card processing",
+      "expr": "rev_total * card_fee",
+      "basis": "Share of sales"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "re_alloc * tax_rate",
+      "basis": "Placeholder rate; tax bill is a condition"
+    },
+    {
+      "key": "other",
+      "label": "Utilities, insurance, repairs and other",
+      "expr": "other_opex * (1 + wage_growth) ** y",
+      "basis": "Full-service run rate"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the buyer proposes the 10% minimum injection for an initial acquisition"
+  },
+  "historical": {
+    "ebitda": [
+      {
+        "label": "FY2024",
+        "value": 172000
+      },
+      {
+        "label": "FY2025",
+        "value": 160000
+      }
+    ],
+    "use": "last"
+  },
+  "breakeven": {
+    "input": "guests",
+    "label": "guests served"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "guests",
+      "label": "Guests served",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "food_cost",
+      "label": "Food cost",
+      "steps": [
+        -0.1,
+        -0.05,
+        0,
+        0.05,
+        0.1
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Broussard in Lafayette Parish, Louisiana, along US 90 and Ambassador Caffery Parkway [^3]"
+    ],
+    [
+      "Subject",
+      "A made-up purchase of an operating, independent, full-service Cajun and seafood restaurant together with its building; no address, seat count or concept is specified"
+    ],
+    [
+      "Program",
+      "SBA 7(a) initial acquisition (change of ownership), graded under Appendix 15 [^22]"
+    ],
+    [
+      "Total project cost",
+      "{tpc}"
+    ],
+    [
+      "Debt",
+      "{loan_total} on one 7(a) note, with a 25-year real estate tranche and a 10-year business tranche, priced at {rate}"
+    ],
+    [
+      "Equity",
+      "{equity_pct} as restructured ({equity}); {equity_proposed_pct} as proposed"
+    ],
+    [
+      "Coverage on the seller's last year (illustrative)",
+      "{hist_dscr} as restructured; {hist_dscr_proposed} as proposed; the floor is {floor}"
+    ],
+    [
+      "Forward coverage, Year 3",
+      "{dscr_y3} on the restructured loan (reviewed, not counted toward the floor)"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service until guests fall to {breakeven_value}, a cushion of {cushion_pct}; reaching 1.25x would take {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "The city can feed an existing dining room, yet the seller's trailing years come before a new full-service neighbor on the same parkway [^12,13]; lend against the past and confirm 2026 results first"
+    ],
+    [
+      "Determination",
+      "Proposed, with {equity_proposed_pct} equity: below the 1.25x historical floor. Restructured, with {equity_pct} equity and {loan_total} of debt: at the floor"
+    ]
+  ]
+}

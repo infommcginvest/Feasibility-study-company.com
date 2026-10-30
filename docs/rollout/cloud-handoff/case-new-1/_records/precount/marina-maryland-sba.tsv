@@ -1,0 +1,73 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+MMD-001	72,891	Glen Burnie CDP population, 2020 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:52	Y	
+MMD-002	67,639	Glen Burnie CDP population, 2010 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:52	Y	
+MMD-003	32,979	Pasadena CDP population, 2020 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:53	Y	
+MMD-004	24,287	Pasadena CDP population, 2010 Census	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:53	Y	
+MMD-005	6,265,347	Maryland population V2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:54	N	Also on /states/maryland/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+MMD-006	6,181,640	Maryland 2020 base population	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:54	N	Also on /states/maryland/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+MMD-007	1.4%	Maryland population change 2020-2025	research	I77a	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:55	N	Already on served page /case-studies/ (by value)
+MMD-008	29,089	Glen Burnie households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:56	Y	
+MMD-009	12,744	Pasadena households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:56	Y	
+MMD-010	2,362,928	Maryland households ACS 2020-2024	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:56	Y	
+MMD-011	2.47	Glen Burnie persons per household	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:57	N	Already on served page /case-studies/hotel-texas-sba/ (by value)
+MMD-012	2.68	Pasadena persons per household	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:57	Y	
+MMD-013	2.57	Maryland persons per household	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:57	N	Already on served page /case-studies/car-wash-texas-sba/ (by value)
+MMD-014	$88,280	Glen Burnie median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:58	Y	
+MMD-015	$129,727	Pasadena median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:58	Y	
+MMD-016	$103,678	Maryland median household income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:58	Y	
+MMD-017	$42,687	Glen Burnie per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:59	Y	
+MMD-018	$56,178	Pasadena per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:59	Y	
+MMD-019	$52,979	Maryland per capita income	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:59	Y	
+MMD-020	64.1%	Glen Burnie owner-occupied rate	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:60	Y	
+MMD-021	83.7%	Pasadena owner-occupied rate	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:60	Y	
+MMD-022	67.6%	Maryland owner-occupied rate	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:60	Y	
+MMD-023	$348,900	Glen Burnie median home value	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:61	Y	
+MMD-024	$423,400	Pasadena median home value	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:61	Y	
+MMD-025	$419,900	Maryland median home value	research	I77c	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:61	N	Already on served page /case-studies/gas-station-texas-sba/ (by value)
+MMD-026	15.1%; 11.8%; 18.4%	Persons 65+ (Glen Burnie, Pasadena, Maryland)	research	none	U.S. Census Bureau (QuickFacts)	CS-R-MARINA-MARYLAND-SBA:62	N	Period "Latest estimate" only (I86)
+MMD-027	38	Patapsco River marinas, June 2018	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	N	Not a figure by the page checker shape (plain number with no unit word)
+MMD-028	1,833	Patapsco River slips	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	Y	
+MMD-029	1,554	Patapsco River commercial slips	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	Y	
+MMD-030	279	Patapsco River community slips	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	N	Not a figure by the page checker shape (plain number with no unit word)
+MMD-031	303	Anne Arundel County marinas	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	N	Not a figure by the page checker shape (plain number with no unit word)
+MMD-032	12,035	Anne Arundel County slips	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	N	Also on /asset-classes/private-school/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+MMD-033	145	Anne Arundel commercial marinas	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	N	Not a figure by the page checker shape (plain number with no unit word)
+MMD-034	8,439	Anne Arundel commercial-marina slips	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	Y	
+MMD-035	16; 18; 4	Patapsco marinas by type (community, commercial, yacht clubs)	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:72	N	Components of the 38-marina total, not separate series
+MMD-036	533 miles	Anne Arundel shoreline	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:133	Y	
+MMD-037	509 employees	Anne Arundel marina-industry paid employees, 2016	research	I77c	Census CBP 2016 via County Marina Inventory	CS-R-MARINA-MARYLAND-SBA:134	N	Also on /states/alabama/ (state/hub/metro page; yields to the case under A4, strict reading excludes)
+MMD-038	$21,110,000	Anne Arundel marina-industry payroll, 2016	research	I77c	Census CBP 2016 via County Marina Inventory	CS-R-MARINA-MARYLAND-SBA:134	Y	
+MMD-039	160,409	Maryland registered vessels, 31 Dec 2025	research	I77a	Maryland State Archives, Maryland Manual On-Line	CS-R-MARINA-MARYLAND-SBA:132	Y	
+MMD-040	19,052	Maryland personal watercraft registered	research	I77a	Maryland State Archives, Maryland Manual On-Line	CS-R-MARINA-MARYLAND-SBA:132	Y	
+MMD-041	214,115	US rolling-12-month new-boat retail, Mar 2025-Feb 2026	research	I77c	NMMA statistics release	CS-R-MARINA-MARYLAND-SBA:136	Y	
+MMD-042	8.8%	US rolling-12-month retail change	research	I77c	NMMA statistics release	CS-R-MARINA-MARYLAND-SBA:136	N	Held only by legacy case page(s) being rebuilt: /case-studies/assisted-living-florida-hud/, /case-studies/rv-park-arizona-usda/, /case-studies/rv-park-maine-usda/ (by value; strict reading excludes)
+MMD-043	215,000-225,000	US new powerboat sales 2025 estimate	research	none	NMMA press release (undated in row)	CS-R-MARINA-MARYLAND-SBA:135	N	Press estimate; release date not in the research
+MMD-044	8%-10%	US new powerboat sales decline 2025	research	none	NMMA press release	CS-R-MARINA-MARYLAND-SBA:135	N	Press estimate; release date not in the research
+MMD-045	$230B; 812,558; 36,101; 12 million; 95%	NMMA boating economic impact	research	none	NMMA, "Latest NMMA study"	CS-R-MARINA-MARYLAND-SBA:137	N	Undated ("Latest", I86)
+MMD-046	13 water bodies	Anne Arundel No Discharge Zone	research	none	Maryland DNR News	CS-R-MARINA-MARYLAND-SBA:139	N	Year not stated; rule item
+MMD-047	$0.968; $0.112; $1.080; $0.977; $2.442	Property tax rates per $100	research	I77a	Anne Arundel County Finance; LegalClarity	CS-R-MARINA-MARYLAND-SBA:156-160	N	Tax rate = rule value (GEO-4 D5 precedent); $1.080 is research arithmetic (I55); borderline
+MMD-048	$11,907; $8,353; $279; $51; $43	County capital connection and tap fees FY2027	research	I77a	Anne Arundel County fee schedule	CS-R-MARINA-MARYLAND-SBA:152-154	N	Fee schedule = rule value (GEO-4 D5 precedent); borderline
+MMD-049	6.0%; 10%	FY2026 utility rate increases	research	I77a	Anne Arundel FY2026 Budget Overview	CS-R-MARINA-MARYLAND-SBA:155	N	Rate-setting rule value
+MMD-050	$70; $24; $20	Vessel registration and title fees	research	I77a	Chesapeake Bay Magazine / MD DNR	CS-R-MARINA-MARYLAND-SBA:163	N	Fee = rule value
+MMD-051	0.50%; 0.203%; 0.209%; 0.331%; 1.15x	SBA 504 fees and DSCR	research	I77a	SBA Information Notice 5000-881796; SOP 50 10 8.1	CS-R-MARINA-MARYLAND-SBA:177-184	N	Program rule values
+MMD-052	5.28%; 5.78%; 5.85%; 6.59%; 6.97%	504 debenture pricing, 8 Oct 2026	research	I77a	Growth Corp (CDC) rate page	CS-R-MARINA-MARYLAND-SBA:185	N	SBA 504 program pricing, treated as program value; secondary; borderline
+MMD-053	4 tracts; 149; 113; 451	Opportunity Zone counts	research	none	MD DHCD	CS-R-MARINA-MARYLAND-SBA:188-189	N	Program designation counts; current page undated
+MMD-054	$4.6M; 6.5 acres; $10.75M; $1.1M; 166 slips	Comparable marina trades	research	I77a	Hyatt Commercial; Marina World; Patch	CS-R-MARINA-MARYLAND-SBA:192	N	Single-property transactions (I64, I66)
+MMD-055	$1,095,000; 1.02 acres; 28/30/36 slips; $497,500; $5,813	Subject listing, assessment and tax	research	none	Bright MLS	CS-R-MARINA-MARYLAND-SBA:28-33	N	Subject single-property attributes (I64)
+MMD-056	375; 350; 109; 54; 112; 115; 95; 74; 70; 55; 120; 105	Competitor slip counts	research	I77a	Anne Arundel County OPZ, Marina Inventory, July 2018	CS-R-MARINA-MARYLAND-SBA:74-106	N	Single named facilities (I64)
+MMD-057	$20-$30/ft/month; $1.50-$2.50/ft/day; $2.50; $5.00; $10.00	Competitor and aggregator slip rates	research	none	Trident; Waterway Guide; lake.com	CS-R-MARINA-MARYLAND-SBA:81-109	N	Operator statement or aggregator, undated or checked-date only (I69, I86)
+MMD-058	356; 359; 250+; 15.69 acres; $11.5M; $11.9M	Marinas listed for sale	research	I77a	Marina World; Simply Marinas	CS-R-MARINA-MARYLAND-SBA:119-121	N	Single-property listings (I64)
+MMD-059	194 slips	Fort Washington Marina lease RFP	research	I77a	National Park Service RFP, 10 Apr 2025	CS-R-MARINA-MARYLAND-SBA:123	N	Single facility (I64)
+MMD-060	4.5 mi; 3.58-7.78 mi	Competitor distances	research	none	Waterway Guide	CS-R-MARINA-MARYLAND-SBA:73-106	N	Single-facility attributes; not market figures
+MMD-061	NOT FOUND	Median age, daytime employment, AADT, permits, 504 loans	research	none	NOT FOUND	CS-R-MARINA-MARYLAND-SBA:35-64	N	NOT FOUND rows
+MMD-062	1,775,286	pep_pop_2023 all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.pep_pop_2023.all	Y	Register series (geo, series) pair
+MMD-063	$56,117	acs5_per_capita_income all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.acs5_per_capita_income.all	Y	Register series (geo, series) pair
+MMD-064	678,614	acs5_households all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.acs5_households.all	Y	Register series (geo, series) pair
+MMD-065	300,530	acs5_pop65 all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.acs5_pop65.all	Y	Register series (geo, series) pair
+MMD-066	71	cbp_estab marina	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.cbp_estab.marina	Y	Register series (geo, series) pair
+MMD-067	3	sba7a_loans marina	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.sba7a_loans.marina	Y	Register series (geo, series) pair
+MMD-068	$4,487,000	sba7a_volume marina	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.sba7a_volume.marina	Y	Register series (geo, series) pair
+MMD-069	1	sba504_loans marina	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.sba504_loans.marina	Y	Register series (geo, series) pair
+MMD-070	$1,022,000	sba504_volume marina	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.sba504_volume.marina	N	Value held only by legacy case page(s) being rebuilt: /case-studies/coffee-shop-washington-sba/
+MMD-071	93	sba504_loans all	register	none	Register (SBA FOIA, Census ACS/PEP, BEA, CBP)	data/markets/geo/maryland/bwi-corridor.json:series.sba504_loans.all	Y	Register series (geo, series) pair
+#SUMMARY marina-maryland-sba counted=36 research=27 register=9 verdict=PAGE engine=N notes=strict reading; A4 adds 4; county 2018 inventory and CDP Census rows carry it; tax and fee rates excluded

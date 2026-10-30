@@ -1,0 +1,42 @@
+restaurant-sevierville-tennessee-sba (CASE-NEW-1), SBA 7(a) new-build restaurant, Sevierville, Sevier County, Tennessee
+
+DETERMINATION
+As proposed (10.0% equity): fails. Year 2 DSCR 0.77x vs 1.15x floor; loan $4,296,223; TPC $4,773,581.
+As restructured (engine): 38.5% equity ($1,822,838), loan $2,911,806, Year 2 DSCR 1.15x (exactly at the floor, 1.1502 unrounded), Year 3 1.76x; TPC $4,734,645. All tests met.
+Break-even Year 3: 105,395 of 118,000 guests (10.7% cushion). Sensitivity grid (Year 2, restructured loan) runs -0.55x to 3.05x.
+
+COUNTS (last check.sh run)
+Body words 5,805. Pagecheck 0 PROBLEM lines; counted 37 (research 27, register 10/10); overlap 6.34% (urgent-care-elizabethtown, 572 shingles). Gate 8: 604 tokens, 0 hits. Dashes 0, banned names 0.
+Research-file origin of the 27 "research" figures: 26 (the 27th is 465, the ACS margin of error on the household count, also from the research row). The 10 register figures are the mkt: markers.
+Lender conditions: 12 items. Sources: 31.
+
+NOT FOUND, turned into lender conditions
+Parcel id, zoning district and by-right/conditional status, FEMA zone for the subject, utility providers and tap/impact fees, vacancy/occupant clearance for the site, TDOT AADT, radius/drive-time demographics, daytime employment, competitor building SF/seats/acres/assessor records, dinner prices on operator pages, Thai Basil operating status, Texas Roadhouse unit, planning agendas/permits, sizes of Best Italian and Toasties, Sevier County 2025 visitor spending, Dollywood attendance, employer/truck volumes, zoning timeline, sales/liquor/hotel tax rates, licences, construction cost index, wind/wildfire insurance, SBA 7(a) lender activity in Sevier County, USDA rural / HUBZone / OZ status, commercial assessment ratio in a dated source.
+
+RESEARCH FIGURES DROPPED OR RE-SOURCED, and why
+- Sevier County V2025 population 101,342 (states/tennessee already prints it) and GSMNP 2025 annual visits 11,527,939 / -5.4% (case-studies/cabin-resort-townsend-tennessee-sba): held by other pages (A4/I71), dropped.
+- Sevier County +3.0% 2020 to 2025 (Wikipedia compiler's own percentage, I109): dropped. 98,380 (2020 Census level) kept, source Wikipedia citing the Census; borderline under I109 (research row says "Wikipedia citing U.S. Census Bureau 2020"). If a reviewer deletes it, counted falls to 36.
+- Walmart 176,128 SF, $5,850,000 for 9.95 acres, $5.2 million adjacent 14 acres, $588k per acre: I64 single-property and the Mountain Press / WVLT rows carry no URL in the research, so no citable source. Pipeline is stated qualitatively, cited to the Hoodline row (which has a URL). Walmart is not named in prose (source title only). The land assumption therefore carries no per-acre comparable.
+- 225 Winfield Dunn listing facts (ask, acreage, 1,280 SF, 2014 sale, assessed value, C-4 zoning, occupant), 1818 / 1376 Winfield Dunn, Lot 4 C P Wilson Dr, 739 Dolly Parton strip center, Bryan Crossing, Chick-fil-A AUV, KAAR CIE parcel and its utilities remark, the AE-zone parcel's id: all DNU or undated listing figures; none printed. The flood remark ("a river-bottom parcel on the same highway shows a FEMA flood designation") is stated without id or panel.
+- AADT 57,867 (Wikipedia) and 48,033 (Hoodline/LoopNet), "exceeds 50,000" (listing): no periodic document / listing claim; not printed. "Six-lane divided" (Wikipedia, "Current") dropped, I86. I-40 Exit 407 number not printed.
+- Menu prices (Diner $8.95, Appalachian entrees), hours for Holston's and the Diner, review counts (Tripadvisor / Yelp), founding years ("since 2003", "opened 2012", "established 2024"), Wilderness at the Smokies 414 rooms / 7 restaurants (Wikipedia "Current"): fetch-dated or aggregator snapshots, I69/I86; described qualitatively.
+- Commercial assessment ratio 40% (PropertyTaxRates.org, period "Current"): undated; not printed; the model tax rate (0.5% of cost basis) is a labelled planning assumption. Derived sums $1.9054 / $1.1388 and $588k (analyst computations): not printed.
+- County rate $1.48 FY2025-26: research source is a Citizen Portal AI meeting summary; I cite it to The Mountain Press (June 2026 article that the research says corroborates "dropping from $1.48"), not the AI summary. Lane owner may want this re-checked.
+- SBA program rows (10% equity, 1.25x CoO DSCR, SOP 50 10 8.1 effective date, 5% foreign-ownership notice, 100% citizenship notice 5000-876626): not printed from the research; rules go through sba: markers only. The citizenship rule is not in sba.json, so it appears only as "owners' eligibility documents under the SOP" in a lender condition. The rescinded 5% notice is not mentioned.
+- Cracker Barrel and Golden Corral store pages: HTTP 403 to my WebFetch (closed door, not worked around); both are named only generically in the "listings the study does not rely on" paragraph (Cracker Barrel supported by the Visit Sevierville chains page). Buddy's (domain parked), Seasons 101 (redirects to another business), DellaSantina (empty page), Roll On In (redirect to an unrelated site): no URL, prose only. Confirmed on 2026-10-29: The Diner on 66, Holston's Kitchen (Sevierville page), The Appalachian, Muchacho Alegre. The Diner site lists two street addresses, so the table gives only the corridor and says so.
+- Muchacho Alegre "former Ruby Tuesday building": the operator site confirms address and catering only; the reuse claim is not attributed to it. Reuse rests on the Loving East Tennessee row (burger chain in a former shake-and-burger site; comfort-food place on a former fast-food lot).
+- Yelp, DoorDash, Tripadvisor, YellowPages, Realmo, LoopNet, Hoodline-as-LoopNet: not used as sources (Hoodline kept only for the Walmart-under-construction and traffic remarks, because it is the one pipeline source with a URL).
+
+BORDERLINE DATING (lane owner may want a reviewer's call)
+- WBIR ($11,191 per household) and The Mountain Press (3rd of 95): article dates not recorded in the research; tied to the annual 2024 TDTD release period (I77c). Sources say so.
+- City of Sevierville $0.4254 (tax-year 2025 label on an undated page; I77c reading). If deleted, counted falls to 36.
+- Census Reporter ACS 2024 5-year figures (dated by the ACS edition).
+
+SOURCES REUSED FROM THE SITE'S STANDARD SET (not in my research file)
+SBA 7(a) terms page (guaranty share), SOP 50 10 8.1, FY2027 fee notice, H.15 of Oct 9 2026, eCFR 120.160: copied (publisher, title, date, URL) from the urgent-care-elizabethtown exemplar. Register block cites the Census ACS API, BEA personal income and Census CBP pages (URLs as on other served pages).
+
+ENGINE / DECISIONS FOR THE LANE OWNER
+- The research file holds no restaurant unit economics (no sales per seat, check, food cost, labor, build cost, equipment or insurance benchmark). Every revenue and cost input is a labelled assumption with reasoning, so the determination rests on planning figures; the restructured Year 2 DSCR sits exactly at 1.15x because the engine solves for the floor.
+- Per-year ramp values (guests) cannot be printed through {{case:v...}} (only the stabilized-year v.in_guests exists); the ramp is described in words.
+- scripts/markets.py exits 1 in the shared worktree because of another draft (medical-office-lebanon-tennessee-sba: NAICS "proxy" fit marker). Not caused by this page; my mkt: markers (BEA pop/per capita, ACS households, pop65, unemployment, median income/home value/rent, renter-occupied, CBP restaurant estab/emp with allow_flag) build and count (10/10).
+- Unemployment 3.3%, 0.3%, 2.7%, 40% (tourism economy since 2018), 48%, 5.8%, 2.4 million are printed but not counted by pagecheck (held by other served pages).

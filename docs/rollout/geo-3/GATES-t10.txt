@@ -1,0 +1,134 @@
+# GEO-3 t10 (Iowa; Minnesota and Nebraska carried): freeze 2 gate record (FSC-RESUME-1, 25 Oct)
+Copy ~/Downloads/fsc-rollout/tmp/geo-3/t10 from worktree HEAD b2fb289c0d46e5dc8b6a4d388d7900df33542391; sources as in drafts/geo-3/FREEZE-t10-f2.txt (src/pages/states tree sha256 d1621ab380e760b4729d7cbe3fee26a12da11b456b4f0c43d833042633d0732d).
+
+## Freeze 2: scripts/qa/gates.py --stage ready
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-25T13:51:16
+root ~/Downloads/fsc-rollout/tmp/geo-3/t10; git dir ~/Downloads/wt-rollout-geo-3 at b2fb289c0d46e5dc8b6a4d388d7900df33542391; range None; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-3/t10 --git-dir ~/Downloads/wt-rollout-geo-3 --urls /states/iowa/,/states/minnesota/,/states/nebraska/ --stage ready --look-out ~/Downloads/fsc-rollout/tmp/geo-3/look-t10 --out ~/Downloads/fsc-rollout/drafts/geo-3/iowa/GATES-t10-f2.txt
+pages (3): /states/iowa/ /states/minnesota/ /states/nebraska/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+3 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 64 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 15 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /states/iowa/                                                  state     counted 61 (research 51, register 10/10)
+  /states/minnesota/                                             state     counted 96 (research 86, register 10/10)
+  /states/nebraska/                                              state     counted 93 (research 86, register 7/7)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /states/iowa/                                                  max 0.35% (/states/south-carolina/charleston/)
+  /states/minnesota/                                             max 0.19% (/states/south-carolina/charleston/)
+  /states/nebraska/                                              max 0.11% (/states/alabama/huntsville/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+0 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in (no range): 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 10; case-scoped tokens 6084 over 67 case(s); site-wide tokens 217; history scanned: none (0 bytes)
+
+legacy hand-built cases (not in this set, no factory source) carrying a listed value, reported for their CASE rebuild: 6
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85 million
+  auto-service-new-jersey-sba: subject identifier present in case-studies/auto-service-new-jersey-sba/index.html: $1.85M
+  multifamily-arizona-agency: subject identifier present in case-studies/multifamily-arizona-agency/index.html: $2.4 million
+  multifamily-north-carolina-agency: subject identifier present in case-studies/multifamily-north-carolina-agency/index.html: $1.75M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.3M
+  private-school-connecticut-conventional: subject identifier present in case-studies/private-school-connecticut-conventional/index.html: $1.6M
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1078 term link(s) on 175 page(s)
+pages checked for inbound links: 3; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 190 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): GREEN
+3 page(s)
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in ~/Downloads/fsc-rollout/tmp/geo-3/look-t10 (port 54664)
+  states_iowa-desktop-1440.png                                           scrollWidth 1440 / 1440 overflow False offenders []
+  states_iowa-mobile-390.png                                             scrollWidth 390 / 390 overflow False offenders []
+  states_minnesota-desktop-1440.png                                      scrollWidth 1440 / 1440 overflow False offenders []
+  states_minnesota-mobile-390.png                                        scrollWidth 390 / 390 overflow False offenders []
+  states_nebraska-desktop-1440.png                                       scrollWidth 1440 / 1440 overflow False offenders []
+  states_nebraska-mobile-390.png                                         scrollWidth 390 / 390 overflow False offenders []
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  3 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 14/14
+
+## Freeze 2: --only 9 --stage landing
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-25T13:53:31
+root ~/Downloads/fsc-rollout/tmp/geo-3/t10; git dir ~/Downloads/wt-rollout-geo-3 at b2fb289c0d46e5dc8b6a4d388d7900df33542391; range None; stage landing; site-wide False
+command: python3 scripts/qa/gates.py --root ~/Downloads/fsc-rollout/tmp/geo-3/t10 --git-dir ~/Downloads/wt-rollout-geo-3 --urls /states/iowa/,/states/minnesota/,/states/nebraska/ --only 9 --stage landing --look-out ~/Downloads/fsc-rollout/tmp/geo-3/look-t10 --out ~/Downloads/fsc-rollout/drafts/geo-3/iowa/GATES-t10-f2-g9-landing.txt
+pages (3): /states/iowa/ /states/minnesota/ /states/nebraska/
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 190 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1078 term link(s) on 175 page(s)
+pages checked for inbound links: 3; under 3: 0
+
+required edges: all present
+
+SUMMARY
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  green 1/1
+
+## Freeze 2: pagecheck --figures
+/states/iowa/                                                  state     words   5600  counted   61 (research 51, register 10/10)  overlap 0.35% (/states/south-carolina/charleston/)
+    research: $108.59; $118.19; $195.9 million; $49,907,000,; $54.28; $6,650,500; $69.04; $96.10 million; 1,560; 1,585,800; 101,291; 105,941; 106,649; 11,184; 118,457; 122,412; 122,733; 125,252; 128,090; 14,681; 160,044; 168,461; 169,189; 174,669; 175,259; 19; 2,459; 232,028; 276,520; 279,285; 3,097; 3,190,582; 3,238,387; 3,328; 3,591; 37,763; 4,650; 421; 5,492; 5,700; 5,777; 516,546; 58.4%; 709,466; 758,539; 85.76%; 87,000; 92,996; 963; 99,266; 99,381
+    register: co-19013.acs5_per_capita_income=$37,541; co-19103.acs5_labor_force=90,024; co-19113.acs5_median_home_value=$214,300; co-19153.acs5_renter_occupied=67,049; co-19155.bea_personal_income=$5,877.0 million; co-19163.acs5_median_hh_income=$78,277; co-19169.acs5_households=38,904; co-19193.acs5_pop65=16,864; ia.bea_per_capita_income=$65,225; ia.sba7a_loans=3,388
+1 page(s), 0 with problems
+/states/minnesota/                                             state     words   7589  counted   96 (research 86, register 10/10)  overlap 0.19% (/states/south-carolina/charleston/)
+    research: $1,155; $11.13; $11.41; $11.87; $113,740,535,; $140,438; $171.6M; $179,492; $212,756; $260,310,600; $28,264,; $29.5 million; $3,530; $3,987; $3.8 million; $4,657,120; $423.5M; $539M; $63.01; $661M; $695,000; $770M; $794 million; $9.31; $915M; $936 million; 1,012; 1,275; 1,590; 1,822; 1,871; 1.844; 11.875%; 12,486; 14,800; 14.375%; 162,847; 166,731; 18 billion; 18,007; 2,058; 2,568; 2.36%; 200,630; 205,854; 26,300; 267; 27,875; 29,163; 3,234; 3,332; 32; 33,400; 36,865; 37,100; 37.12%; 38,374; 4.8M; 435,246; 44,400; 44,889; 440; 45,041; 48.23%; 5,706,733; 5,830,405; 5,964; 5,976; 51,000; 51.9%; 56,999; 6,307; 6,387; 6,667; 6.49%; 6.7M; 6.875%; 7,541; 7,667; 7,746; 715,000; 8,611; 83,276; 876; 9,917; 9.99%
+    register: mn.acs5_households=2,307,955; mn.acs5_labor_force=3,119,042; mn.acs5_median_hh_income=$89,062; mn.acs5_owner_occupied=1,666,687; mn.acs5_pop65=992,385; mn.acs5_renter_occupied=641,268; mn.bea_per_capita_income=$75,603; mn.cbp_estab=10,016; mn.sba7a_loans=14,475; mn.sba7a_volume=$5,611.1 million
+1 page(s), 0 with problems
+/states/nebraska/                                              state     words   7568  counted   93 (research 86, register 7/7)  overlap 0.11% (/states/alabama/huntsville/)
+    research: $1,203; $1,288; $1,305; $1,471; $11,369; $11.2 million; $123,740,100; $13.50; $13.70; $14,665; $15.1 million; $15.26; $15.53; $15.80; $158 million; $159.8 million; $16.08; $198.4 million; $2,134; $2,790; $2.19 billion; $2.34; $24.4 million; $269.5 million; $3,553; $3.283 billion; $35 million; $375 million; $47.8 million; $535.9 million; $58 million; $628,356; $7,107; $7.69; $9,044,222; $950; 0.99%; 1,060.9; 1,062.7; 1,073,234; 1,187; 1,498; 1,961,980; 16,078; 16,415; 17,150; 17,629; 199.0; 2,018,006; 209,000; 24,885; 25,217; 25,627; 3,212; 3,218; 3,793; 3.06%; 30,292; 30,540; 33,303; 33,972; 35,586; 35,649; 352,081; 36,084; 36,272; 361; 40,187; 44,878; 46,583; 465; 48,744; 49,228; 50,084; 51,172; 56,026; 57,962; 584,527; 6,599; 606,460; 62,895; 63,633; 710; 77,278; 89.4 million; 897.79
+    register: ne.acs5_households=797,847; ne.acs5_pop65=330,805; ne.acs5_renter_occupied=266,969; ne.bea_per_capita_income=$72,701; ne.sba504_loans=371; ne.sba7a_loans=2,940; ne.sba7a_volume=$1,184.7 million
+1 page(s), 0 with problems

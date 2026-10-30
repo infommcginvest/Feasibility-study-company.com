@@ -1,0 +1,48 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	12,645	Port Washington city population, ACS 2024 5-year	research	I77c	U.S. Census Bureau ACS 2024 5-year (via Census Reporter)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:67	Y	
+F02	94,346	Ozaukee County population, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:63	Y	
+F03	91,504	Ozaukee County Apr 2020 estimates base	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:64	Y	
+F04	3.1%	Ozaukee County population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:64	N	repeat: held by /case-studies/truck-stop-texas-sba/ (case) and 4 more
+F05	24.4%	Ozaukee County share aged 65+, V2025	research	I77c	U.S. Census Bureau, QuickFacts (V2025 / ACS 2020-2024)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:65	Y	note: also on /asset-classes/skilled-nursing/ (lower rank, case keeps it, A4)
+F06	56,488	Wisconsin resident deaths 2024	research	I77a	Wisconsin DHS, Deaths Overview Dashboard (updated 17 Feb 2026)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:72	Y	
+F07	957.1	Wisconsin crude death rate per 100,000, 2024	research	I77a	Wisconsin DHS, Deaths Overview Dashboard (updated 17 Feb 2026)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:72	Y	
+F08	725.6	Wisconsin age-adjusted death rate per 100,000, 2024	research	I77a	Wisconsin DHS, Deaths Overview Dashboard (updated 17 Feb 2026)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:72	Y	
+F09	61%	Wisconsin 2018 cremation share of resident deaths	research	I77b	Wisconsin DHS, Annual Wisconsin Death Report 2018 (P-01170-18)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:134	N	repeat: held by /research-notes/gas-station-demand-per-capita/ (note) and 5 more
+F10	53,680	Wisconsin resident deaths 2018	research	I77b	Wisconsin DHS, Annual Wisconsin Death Report 2018 (P-01170-18)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:134	Y	
+F11	63.4%	U.S. projected cremation rate 2025	research	I77a	NFDA, 2025 Cremation & Burial Report (release 6 Oct 2025)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:132	Y	note: also on /asset-classes/hotel/ (lower rank, case keeps it, A4) and 1 more
+F12	31.6%	U.S. projected burial rate 2025	research	I77a	NFDA, 2025 Cremation & Burial Report (release 6 Oct 2025)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:132	N	repeat: held by /case-studies/auto-dealership-texas-sba/ (case)
+F13	82.3%	U.S. projected cremation rate 2045	research	I77a	NFDA, 2025 Cremation & Burial Report (release 6 Oct 2025)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:132	N	repeat: held by /case-studies/rv-park-texas-usda/ (case)
+F14	15,401	U.S. funeral homes (industry size)	research	I77a	NFDA Media Center (page updated 29 Sep 2025)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:135	Y	note: also on /asset-classes/funeral-home/ (lower rank, case keeps it, A4)
+F15	105,300	U.S. funeral home employees	research	I77a	NFDA Media Center (page updated 29 Sep 2025)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:135	N	repeat: held by a rounded match (rounding rule)
+F16	$16.3 billion	U.S. funeral industry revenue	research	I77a	NFDA Media Center (page updated 29 Sep 2025)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:135	Y	note: also on /asset-classes/funeral-home/ (lower rank, case keeps it, A4)
+F17	70%	Local cremation share, 'about 70%' (operator statement)	research	I77a	Ozaukee Press, Jan 2024	CS-R-FUNERAL-HOME-WISCONSIN-SBA:133	N	repeat: held by /research-notes/absorption-forensics/ (note) and 37 more
+F18	12,608	Grafton village population	research	none	Neilsberg (edition year not stated)	CS-R-FUNERAL-HOME-WISCONSIN-SBA:21	N	not the case market; source year not stated (I86)
+F19	22.9%	Ozaukee County 65+ share (USAFacts)	research	none	USAFacts	CS-R-FUNERAL-HOME-WISCONSIN-SBA:66	N	page says '2024' but is not a periodic document (I77); conflicts with QuickFacts 24.4%
+F20	19.6%	Wisconsin 65+ share (USAFacts)	research	none	USAFacts	CS-R-FUNERAL-HOME-WISCONSIN-SBA:66	N	non-periodic page with a year only (I77)
+F21	12,353	Port Washington persons per data.census.gov profile	research	none	U.S. Census Bureau data.census.gov profile	CS-R-FUNERAL-HOME-WISCONSIN-SBA:68	N	vintage not displayed, 'to be confirmed' (I86)
+F22	43.9	Ozaukee County median age (Data USA)	research	none	Data USA	CS-R-FUNERAL-HOME-WISCONSIN-SBA:69	N	re-publisher page with '2024' only, ACS file not named (I77)
+F23	$3,325	Eernisse direct cremation price	research	none	Eernisse Funeral Homes	CS-R-FUNERAL-HOME-WISCONSIN-SBA:88	N	one firm's posted price, retrieval-dated 15 Oct 2026 (I64, I69)
+F24	$4,115	Mueller direct cremation price (Funeralocity)	research	none	Funeralocity	CS-R-FUNERAL-HOME-WISCONSIN-SBA:98	N	undated aggregator; one firm (I86)
+F25	$4,360	Schramka cremation package start (After.com)	research	none	After.com	CS-R-FUNERAL-HOME-WISCONSIN-SBA:104	N	undated guide; one firm (I86)
+F26	$8,600	Cedarburg-area typical traditional funeral price	research	none	Everloved	CS-R-FUNERAL-HOME-WISCONSIN-SBA:109	N	undated aggregator (I86)
+F27	$5.67	Port Washington city tax rate per $1,000	research	none	Ozaukee Press	CS-R-FUNERAL-HOME-WISCONSIN-SBA:154	N	tax rate is a rule value
+F28	$1.51931	Ozaukee County levy rate per $1,000	research	I77a	Ozaukee County Resolution 24-30	CS-R-FUNERAL-HOME-WISCONSIN-SBA:157	N	tax rate is a rule value
+F29	$1,650,647,000	'City equalized value' (source is Village of Grafton library tax sheet)	research	I77b	Village of Grafton, 2025 Library Tax Info	CS-R-FUNERAL-HOME-WISCONSIN-SBA:158	N	attribution unclear: source is Grafton village's sheet, not Port Washington
+F30	5.5%	Port Washington combined sales tax	research	none	Kintsugi	CS-R-FUNERAL-HOME-WISCONSIN-SBA:161	N	rule value; secondary
+F31	135	Harbor Campus land residential units	research	none	Ozaukee Press / Hoodline	CS-R-FUNERAL-HOME-WISCONSIN-SBA:121	N	single project attribute (I64)
+F32	$1,250,000	Subject asking price	research	none	Cityfeet	CS-R-FUNERAL-HOME-WISCONSIN-SBA:35	N	subject's own listing figure (I64)
+F33	18,500	Subject building size (SF)	research	none	Cityfeet	CS-R-FUNERAL-HOME-WISCONSIN-SBA:38	N	subject's own attribute (I64)
+F34	$16,270	Subject real estate tax 2024	research	none	Powers Realty IDX	CS-R-FUNERAL-HOME-WISCONSIN-SBA:42	N	subject's own attribute (I64)
+F35	$2,750,000	BizQuest WI funeral listing asking price	research	none	BizQuest	CS-R-FUNERAL-HOME-WISCONSIN-SBA:183	N	single listing, undated (I64, I86)
+F36	233.02	Ozaukee County land area (sq mi)	research	none	no source row	CS-R-FUNERAL-HOME-WISCONSIN-SBA:59	N	no source row or period in the research table
+G01	99 establishments	establishments in the asset class NAICS group, wisconsin/milwaukee (week of March 12, 2023)	register	I77c	U.S. Census Bureau, County Business Patterns 2023	data/markets/series/cbp_estab.json values[wisconsin/milwaukee:funeral-home]	Y	
+G02	732 employees	employees in the asset class NAICS group, wisconsin/milwaukee (week of March 12, 2023)	register	I77c	U.S. Census Bureau, County Business Patterns 2023	data/markets/series/cbp_emp.json values[wisconsin/milwaukee:funeral-home]	Y	
+G03	$8.2 million	7(a) dollars approved FY2021 to FY2025 in the asset class, wisconsin/milwaukee (SBA FOIA data as of 2026-06-30)	register	I77a	SBA 7(a) FOIA loan file, data as of 30 Jun 2026	data/markets/series/sba7a_volume.json values[wisconsin/milwaukee:funeral-home]	Y	
+G04	$390,200	median home value, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_home_value.json values[co-55089]	Y	
+G05	$1,154	median gross rent, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_median_gross_rent.json values[co-55089]	Y	
+G06	27,920 households	owner-occupied housing units, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_owner_occupied.json values[co-55089]	Y	
+G07	10,389 households	renter-occupied housing units, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_renter_occupied.json values[co-55089]	Y	
+G08	20,105 residents	population aged 65 and over, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_pop65.json values[co-55089]	Y	
+G09	49,963 workers	civilian labor force, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_labor_force.json values[co-55089]	Y	
+G10	1,383 workers	unemployed civilians, Ozaukee County WI (ACS 2020-2024 5-year)	register	I77c	U.S. Census Bureau, ACS 2020-2024 5-year	data/markets/series/acs5_unemployed.json values[co-55089]	Y	
+#SUMMARY funeral-home-wisconsin-sba counted=21 research=11 register=10 verdict=FOLD engine=N notes=short 9 research and 9 counted; thin demographics, undated aggregator prices, many repeated values; 7 under strict repeats

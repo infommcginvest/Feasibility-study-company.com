@@ -1,0 +1,28 @@
+car-wash-port-charlotte-florida-sba (CASE-NEW-1). New page, published/updated "DEPLOY", data_as_of 2026-10.
+
+DETERMINATION (casemodel, sba_7a, startup, test Year 2, floor 1.15x)
+As proposed (10.0% equity): TPC $5,794,165, loan $5,214,748 (over the $5,000,000 7(a) limit), Year 2 DSCR 0.77x. Fails size cap and coverage.
+As restructured (engine): equity 38.9% ($2,235,290), loan $3,510,956 at 10.00% (Prime + 3.0%), debt service $382,849, TPC $5,746,246, Year 2 DSCR 1.15x, Year 3 1.38x. Break-even Year 3 1,832 members (67.9%).
+
+COUNTS (last check.sh): body words 5,444; pagecheck counted 37 (research 32, register 5 of 8 printed); real overlap max 3.9% (urgent-care-elizabethtown); the 72.86% and 17.53% PROBLEM/overlap lines are against two STUB pages in the shared worktree (restaurant-sevierville-tennessee-sba, grocery-store-ness-city-kansas-usda: ~51 shingles of template boilerplate), not my text. Gate 8: 468 tokens, 0 hits. Dashes 0, banned names 0. Lender conditions: 11.
+Margin: 37 vs floor 30. If a review removes undated items (Braves attendance dated by season only; Data USA median age; B+E Florida cap rate 6.43%), still above 30 but thinner.
+
+DROPPED / RE-SOURCED
+- All subject-brochure items (traffic counts, 3-mile demographics, West Port Marketplace, 3,500 residences, 633 Tamiami figures, 1999/4732/367 listings, CityFeet/LoopNet/LandWatch/Realmo): subject listing, dnu. Traffic = lender condition.
+- USAFacts (5,760; 2.7%) and Gulfshore Business (235,255; 16.9%; 134,690; 17,000): no URL in the research file, so no source entry possible.
+- Competitor posted prices (Tommy's, Coastal, Bubble Down, ModWash $44.99/$20/$35, Town Center), competitor hours, review counts: dated only by page-modified metadata or fetch/check date, or article with no year (I69/I86/I106). Described in words, no numbers. If the lane owner accepts the page-modified stamps as dates, prices can be restored.
+- 65+ shares (33.1%, 40.9%): QuickFacts period not stated. Replaced by register acs5_pop65 for the county.
+- Permit fees ($22, $200, undated brochure); CCU connection fee fund and Sales Tax Extension fund (NOT FOUND substitutes); US population change 3.1% (already served elsewhere); BEA 2024 population and PEP 2020-2023 change (older vintage than research V2025).
+- Single-property figures printed inside data-fsc-nocount: Tommy's parcel values and 2020 sale, building size; Mister McCall sale price and acreage. Tommy's lot size etc. in case.json reasoning (case: region).
+- SBA citizenship rule content not stated (not in sba.json); page only says rules changed twice in 2026 (NAGGL notice, Feb 12 2026) and makes owner eligibility a lender condition.
+- Grasshopper, Whiteford, PilieroMazza SOP summaries not used (rules via sba: markers). Yelp, YellowPages, WashIndex, Birdeye, Realmo not used.
+
+NOT FOUND -> lender conditions: parcel/title/price; CG use-table and timeline; flood zone; FDOT count/station, I-75 distance; utilities and connection fees, current impact fees, permit fees; competitor menus, parcels, acres, 2025 tax bills; Charlotte Square identity; county permits, Bubble Down site size, ModWash Veterans year; radius demographics, FL comparison, daytime employment, major employers, truck volumes, seasonality; school/SWFWMD/WCIND millage, assessment ratio, sales tax, licenses, cost index, insurance; 7(a) lender activity, USDA/HUBZone/OZ status.
+
+NETWORK CONFIRMATIONS (read-only GET, 2026-10-29): modwash.com/office/port-charlotte-2/ (24080 Beatrix Blvd, hours, no dollar prices; its map embed points to a Sumter SC address, a site defect); coastalexpresscarwash.com/locations/ (3291 Tamiami Trail and 2105 S Tamiami Trl). Other competitor URLs come from the research. Mister Car Wash not fetched (research says its site blocked automated access): prose only, sourced to Sun Newspapers.
+
+BENCHMARKS (AH-EXPRESS-CAR-WASH-A) used only in case.json assumption reasoning: Mister 10-K/Q3/Q4 2025, Tommy's Item 19 and 2026 FDD, Raymond James Spring 2026, B+E Mighty Wash and Aug 2025 report (Florida cap rate also printed in prose, counted), AGC Sept 10 2026. SBA terms page (75% guaranty), SOP, FY2027 fee notice, H.15 and eCFR entries copied from the gas-station-florida-sba exemplar (not in the research file); lane owner to confirm reuse.
+
+ASSUMPTIONS TO REVIEW: land $1.1M for ~1.5 acres (reasoned from Tommy's land roll, not the subject listing); tax allowance of ~5.3 mills over the county series; member price $30 and retail ticket $16 now reasoned without printed competitor prices.
+
+ENGINE: for sba_7a the engine always restructures to a passing structure (equity solved up to 99.9%), so a 7(a) case cannot render a hard "does not support"; page states the negative finding about the request in prose. Per-year inputs (members ramp) cannot be printed per year through v.in_*. {{case:v...}} not allowed in FAQ answers (used qualitative wording).

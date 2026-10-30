@@ -1,0 +1,69 @@
+slug	class	reader_counted	reader_research	reader_register	a4_counted	a4_research	tally_counted	tally_research	engine	verdict	note
+self-storage-bardstown-kentucky-usda	new	29	19	10	42	32	43	33	N	PAGE	A4 reading used
+self-storage-pataskala-ohio-sba	new	14	4	10	20	10	25	15	N	FOLD	A4 reading used
+restaurant-acquisition-broussard-louisiana-sba	new	30	20	10	38	28	41	31	N	PAGE	A4 reading used
+urgent-care-elizabethtown-kentucky-sba	new	26	16	10	33	23	31	21	N	PAGE	thin margin 1; A4 reading used
+childcare-gonzales-louisiana-sba	new	57	47	10			43	35	N	PAGE	
+marina-gig-harbor-washington-sba	new	75	65	10			56	46	N	WAIT-OWNER (CASE-4 engine + hypothetical transient-heavy subject, 28 Oct)	real-subject file: hypothetical subject only
+retreat-center-kerhonkson-new-york-usda	new	28	18	10			26	17	N	FOLD-OWNER (28 Oct)	
+assisted-living-elizabethtown-kentucky-bridge	new	29	19	10			48	43	Y	FOLD(engine)	reader and tally disagree
+hotel-natchitoches-louisiana-eb5	new	30	22	8			46	36	Y	PAGE-WAIT-ENGINE	thin margin 0
+short-term-rental-yucca-valley-california-conventional	new	28	18	10			42	32	Y	FOLD(engine)	reader and tally disagree
+grocery-store-ness-city-kansas-usda	new	73	63	10			63	53	N	PAGE	
+hotel-acquisition-fairlawn-ohio-sba	new	21	11	10	21	13	26	17	N	FOLD	real-subject file: hypothetical subject only; A4 reading used
+hotel-hays-kansas-usda	new	24	14	10	24	15	27	17	N	FOLD	A4 reading used
+marina-new-baltimore-michigan-sba	new	28	18	10	28	18	32	23	N	FOLD	reader and tally disagree; A4 reading used
+marina-shell-knob-missouri-usda	new	27	17	10	27	17	29	20	N	FOLD	A4 reading used
+car-wash-port-charlotte-florida-sba	new	58	48	10			55	45	N	PAGE	
+restaurant-sevierville-tennessee-sba	new	46	36	10			42	32	N	PAGE	
+laundromat-acquisition-huron-county-ohio-sba	new	33	23	10			29	19	N	FOLD	real-subject file: hypothetical subject only; reader and tally disagree
+medical-office-lebanon-tennessee-sba	new	58	48	10			44	36	N	PAGE	
+industrial-flex-gardner-kansas-conventional	new	38	28	10			58	48	Y	PAGE-WAIT-ENGINE	
+mixed-use-multifamily-euclid-ohio-eb5	new	34	24	10			40	30	Y	PAGE-WAIT-ENGINE	
+multifamily-clarksville-tennessee-dscr	new	27	17	10			40	30	Y	FOLD(engine)	reader and tally disagree
+fitness-minnesota-sba	legacy CASE-1	37	27	10			39	32	N	PAGE	
+fitness-new-hampshire-sba	legacy CASE-1	71	61	10			62	55	N	PAGE	
+glamping-utah-usda	legacy CASE-1	28	18	10			33	26	N	FOLD	reader and tally disagree
+grocery-store-mississippi-usda	legacy CASE-1	31	21	10			30	22	N	PAGE	thin margin 0
+hotel-florida-sba	legacy CASE-1	37	27	10			39	30	N	PAGE	
+hotel-georgia-sba	legacy CASE-1	47	37	10			44	37	N	PAGE	
+hotel-south-carolina-sba	legacy CASE-1	26	17	9	37	27	37	27	N	PAGE	A4 reading used
+marina-maryland-sba	legacy CASE-1	36	27	9	40	31	40	31	N	PAGE	real-subject file: hypothetical subject only; A4 reading used
+rv-park-arizona-usda	legacy CASE-1	26	17	9	31	21	32	22	N	PAGE	thin margin 1; A4 reading used
+rv-park-maine-usda	legacy CASE-1	19	11	8	22	13	20	11	N	FOLD	A4 reading used
+rv-park-pennsylvania-usda	legacy CASE-1	25	25	0	31	31	30	30	N	PAGE	thin margin 0; A4 reading used
+auto-service-new-jersey-sba	legacy CASE-2	47	39	8	56	47	49	39	N	PAGE	real-subject file: hypothetical subject only; A4 reading used
+coffee-shop-washington-sba	legacy CASE-2	36	26	10			29	22	N	FOLD	reader and tally disagree
+meat-processing-georgia-usda	legacy CASE-2	38	28	10			31	22	N	PAGE	thin margin 1
+meat-processing-north-carolina-usda	legacy CASE-2	39	29	10			29	19	N	FOLD	reader and tally disagree
+qsr-arkansas-sba	legacy CASE-2	28	18	10			21	13	N	FOLD	
+qsr-georgia-sba	legacy CASE-2	53	43	10			37	28	N	PAGE	
+restaurant-missouri-sba	legacy CASE-2	52	42	10			47	37	N	PAGE	real-subject file: hypothetical subject only
+rv-boat-storage-arizona-sba	legacy CASE-2	55	47	8			47	39	Y	PAGE-WAIT-ENGINE	
+rv-boat-storage-california-sba	legacy CASE-2	47	37	10			37	29	N	PAGE	
+rv-boat-storage-florida-sba	legacy CASE-2	52	44	8			33	29	N	PAGE	thin margin 3
+self-storage-arizona-sba	legacy CASE-2	70	63	7			45	37	N	PAGE	
+self-storage-indiana-sba	legacy CASE-2	50	40	10			37	31	N	PAGE	
+truck-stop-georgia-sba	legacy CASE-2	62	52	10			46	37	N	PAGE	
+truck-stop-oklahoma-sba	legacy CASE-2	52	42	10			42	32	N	PAGE	
+assisted-living-arizona-hud	legacy CASE-3	47	37	10			44	35	N	PAGE	
+assisted-living-california-hud	legacy CASE-3	50	40	10			45	37	N	PAGE	
+assisted-living-florida-hud	legacy CASE-3	46	36	10			45	36	N	PAGE	
+assisted-living-hawaii-hud	legacy CASE-3	35	25	10			36	27	N	PAGE	
+assisted-living-north-carolina-hud	legacy CASE-3	25	15	10			28	19	N	FOLD	
+childcare-illinois-sba	legacy CASE-3	35	25	10			33	23	N	PAGE	thin margin 3
+childcare-iowa-sba	legacy CASE-3	24	14	10			23	14	N	FOLD	
+funeral-home-wisconsin-sba	legacy CASE-3	21	11	10			22	12	N	FOLD	
+laundromat-new-mexico-sba	legacy CASE-3	32	22	10			33	23	N	PAGE	thin margin 2
+medical-office-north-carolina-sba	legacy CASE-3	30	20	10			28	19	N	FOLD	reader and tally disagree
+pet-boarding-oregon-sba	legacy CASE-3	29	19	10			26	17	N	FOLD	
+urgent-care-florida-sba	legacy CASE-3	31	21	10			28	18	N	FOLD	reader and tally disagree
+behavioral-health-massachusetts-conventional	legacy CASE-4	71	61	10			44	35	Y	PAGE-WAIT-ENGINE	
+hotel-nevada-eb5	legacy CASE-4	43	33	10			31	22	Y	PAGE-WAIT-ENGINE	thin margin 1
+multifamily-arizona-agency	legacy CASE-4	83	73	10			63	54	Y	PAGE-WAIT-ENGINE	
+multifamily-florida-agency	legacy CASE-4	59	49	10			42	34	Y	PAGE-WAIT-ENGINE	
+multifamily-georgia-agency	legacy CASE-4	81	71	10			59	50	Y	PAGE-WAIT-ENGINE	
+multifamily-new-york-agency	legacy CASE-4	57	57	0			43	43	Y	PAGE-WAIT-ENGINE	
+multifamily-north-carolina-agency	legacy CASE-4	39	39	0			35	35	Y	PAGE-WAIT-ENGINE	
+private-school-connecticut-conventional	legacy CASE-4	34	34	0			33	33	Y	PAGE-WAIT-ENGINE	thin margin 3
+retail-nevada-conventional	legacy CASE-4	46	46	0			35	35	Y	PAGE-WAIT-ENGINE	

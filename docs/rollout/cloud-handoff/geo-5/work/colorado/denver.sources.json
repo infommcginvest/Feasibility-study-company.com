@@ -1,0 +1,122 @@
+{
+  "cbre_dt": {
+    "publisher": "CBRE",
+    "title": "Denver Downtown Office Figures Q3 2026",
+    "date": "October 13, 2026 (Q3 2026 data)",
+    "url": "https://www.cbre.com/insights/figures/denver-downtown-office-figures-q3-2026"
+  },
+  "cbre_off": {
+    "publisher": "CBRE",
+    "title": "Denver Office Figures Q3 2026",
+    "date": "October 9, 2026 (Q3 2026 data)",
+    "url": "https://www.cbre.com/insights/figures/denver-office-figures-q3-2026"
+  },
+  "cw_off": {
+    "publisher": "Cushman &amp; Wakefield",
+    "title": "MarketBeat Denver Office Q3 2026",
+    "date": "October 15, 2026 (Q3 2026 data)",
+    "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/denver-marketbeats/office"
+  },
+  "cw_ind": {
+    "publisher": "Cushman &amp; Wakefield",
+    "title": "MarketBeat Denver Industrial Q3 2026",
+    "date": "October 15, 2026 (Q3 2026 data)",
+    "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/denver-marketbeats/industrial"
+  },
+  "cbre_rt": {
+    "publisher": "CBRE",
+    "title": "Denver Retail Figures Q3 2026",
+    "date": "October 22, 2026 (Q3 2026 data)",
+    "url": "https://www.cbre.com/insights/figures/denver-retail-figures-q3-2026"
+  },
+  "cbre_mf": {
+    "publisher": "CBRE",
+    "title": "Denver Multifamily Figures Q3 2026",
+    "date": "October 27, 2026 (Q3 2026 data; trailing 12 months to Q3 2026)",
+    "url": "https://www.cbre.com/insights/figures/denver-multifamily-figures-q3-2026"
+  },
+  "mat_mf": {
+    "publisher": "Matthews Real Estate Investment Services (report charts credited to CoStar)",
+    "title": "Denver, CO Multifamily Market Report Q2 2026",
+    "date": "August 13, 2026 (Q2 2026 data)",
+    "url": "https://www.matthews.com/insights/denver-multifamily-q2-2026"
+  },
+  "mat_ind": {
+    "publisher": "Matthews Real Estate Investment Services (report charts credited to CoStar)",
+    "title": "Denver, CO Industrial Market Report Q2 2026",
+    "date": "August 27, 2026 (Q2 2026 data)",
+    "url": "https://www.matthews.com/insights/denver-industrial-q2-2026"
+  },
+  "qcew": {
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "title": "County Employment and Wages in Colorado, First Quarter 2026",
+    "date": "September 4, 2026 (employment for March 2026, wages for Q1 2026; preliminary)",
+    "url": "https://www.bls.gov/regions/mountain-plains/news-release/countyemploymentandwages_colorado.htm"
+  },
+  "oews": {
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "title": "Occupational Employment and Wages in Denver-Aurora-Centennial, May 2025",
+    "date": "August 5, 2026 (May 2025 estimates)",
+    "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm"
+  },
+  "fred_gdp": {
+    "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Bureau of Economic Analysis)",
+    "title": "Total Gross Domestic Product for Denver-Aurora-Lakewood, CO (MSA) (DISCONTINUED) (NGMP19740)",
+    "date": "December 4, 2024 (calendar 2023; series labelled discontinued)",
+    "url": "https://fred.stlouisfed.org/series/NGMP19740"
+  },
+  "visit": {
+    "publisher": "Visit Denver",
+    "title": "Tourism in Denver Increased in 2025",
+    "date": "May 21, 2026 (calendar 2025 data)",
+    "url": "https://visitdenver.com/articles/post/tourism-in-denver-increased-in-2025/"
+  },
+  "fred_pd": {
+    "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+    "title": "New Private Housing Structures Authorized by Building Permits for Denver County, CO (BPPRIV008031)",
+    "date": "May 28, 2026 (calendar 2025)",
+    "url": "https://fred.stlouisfed.org/series/BPPRIV008031"
+  },
+  "fred_pa": {
+    "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+    "title": "New Private Housing Structures Authorized by Building Permits for Arapahoe County, CO (BPPRIV008005)",
+    "date": "May 28, 2026 (calendar 2025)",
+    "url": "https://fred.stlouisfed.org/series/BPPRIV008005"
+  },
+  "fred_lp": {
+    "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+    "title": "Housing Inventory: Median Listing Price in Denver-Aurora-Lakewood, CO (CBSA) (MEDLISPRI19740)",
+    "date": "October 1, 2026 (September 2026)",
+    "url": "https://fred.stlouisfed.org/series/MEDLISPRI19740"
+  },
+  "fred_al": {
+    "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+    "title": "Housing Inventory: Active Listing Count in Denver-Aurora-Lakewood, CO (CBSA) (ACTLISCOU19740)",
+    "date": "October 1, 2026 (September 2026)",
+    "url": "https://fred.stlouisfed.org/series/ACTLISCOU19740"
+  },
+  "acs5": {
+    "publisher": "U.S. Census Bureau",
+    "title": "American Community Survey 5-Year Estimates, Detailed Tables (Census Data API)",
+    "date": "2020 to 2024 five-year estimates; retrieved October 16, 2026",
+    "url": "https://api.census.gov/data/2024/acs/acs5"
+  },
+  "acs1": {
+    "publisher": "U.S. Census Bureau",
+    "title": "American Community Survey 1-Year Estimates, Detailed Tables (Census Data API)",
+    "date": "2024 one-year estimates; retrieved October 16, 2026",
+    "url": "https://api.census.gov/data/2024/acs/acs1"
+  },
+  "cfr": {
+    "publisher": "eCFR",
+    "title": "13 CFR 120.160, Loan conditions",
+    "date": "current to October 7, 2026",
+    "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+  },
+  "sop": {
+    "publisher": "U.S. Small Business Administration",
+    "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+    "date": "effective October 1, 2026",
+    "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+  }
+}

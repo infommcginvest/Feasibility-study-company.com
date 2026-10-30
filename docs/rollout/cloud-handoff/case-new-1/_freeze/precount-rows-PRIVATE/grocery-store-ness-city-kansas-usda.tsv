@@ -1,0 +1,93 @@
+fig_id	value_token	figure_short	class(research|register)	date_basis(I77a|I77b|I77c|none)	source_publisher	research_ref(file:line or row id)	counts(Y|N)	why_not
+N01	2,617	Ness County population 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:42	Y	
+N02	2,977,220	Kansas population 1 Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:42	N	value already on states/kansas/index.html (Kansas population 1 Jul 2025, same measure)
+N03	2,682	Ness County estimates base 1 Apr 2020	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:43	Y	
+N04	2,937,986	Kansas estimates base 1 Apr 2020	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:43	N	value already on states/kansas/index.html (Kansas April 2020 estimates base, same measure)
+N05	2.4%	Ness County population change Apr 2020 to Jul 2025 (decline)	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:44	Y	note: same string on asset-classes/gas-station-and-c-store/ev-charging/index.html (+13), different measure; kept
+N06	1.3%	Kansas population change Apr 2020 to Jul 2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:44	Y	note: same string on asset-classes/coffee-shop/index.html (+29), different measure; kept
+N07	2,687	Ness County 2020 Census	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:45	Y	
+N08	1,329	Ness City 2020 Census population	research	I77c	Wikipedia citing 2020 Census	CS-Q-NESS-CITY-KANSAS-GROCERY:45	Y	
+N09	595	Ness City households, 2020 Census	research	I77c	Wikipedia citing 2020 Census	CS-Q-NESS-CITY-KANSAS-GROCERY:45	Y	
+N10	2,937,880	Kansas 2020 Census	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:45	Y	
+N11	1,161	Ness County households, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:46	Y	note: same string on states/rhode-island/index.html, different measure; kept
+N12	2.23	Persons per household, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:46	Y	note: same string on asset-classes/coffee-shop/index.html (+2), different measure; kept
+N13	$68,616	Ness County median household income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:47	Y	
+N14	$45,085	Ness County per capita income, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:48	Y	
+N15	29.5%	Ness County persons 65+, V2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:49	Y	note: same string on asset-classes/gas-station-and-c-store/index.html, different measure; kept
+N16	45.1	Ness County median age, ACS 2024 5-year	research	I77c	Kansas-Demographics.com (ACS 2024 5-year)	CS-Q-NESS-CITY-KANSAS-GROCERY:50	Y	note: same string on case-studies/car-wash-texas-sba/index.html (+2), different measure; kept
+N17	12.9%	Hispanic or Latino share, V2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:51	Y	note: same string on asset-classes/retail/index.html (+4), different measure; kept
+N18	14.2%	Language other than English at home, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:52	Y	note: same string on case-studies/assisted-living-texas-hud/index.html (+3), different measure; kept
+N19	807	Ness County private employment, CBP 2023	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:54	Y	
+N20	122	Ness County employer establishments, CBP 2023	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:54	Y	note: same string on states/pennsylvania/index.html, different measure; kept
+N21	2.9%	Employment change 2022-2023 (decline)	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:54	Y	note: same string on asset-classes/hotel/index.html (+11), different measure; kept
+N22	$12,031,000	Ness County total retail sales, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:55	Y	
+N23	$4,528	Retail sales per capita, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:55	Y	
+N24	1,542	Ness County housing units, V2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:56	Y	note: same string on states/maryland/index.html, different measure; kept
+N25	2.7%	Ness County unemployment rate 2024	research	I77c	Kansas Dept. of Commerce, County Dataview: Ness	CS-Q-NESS-CITY-KANSAS-GROCERY:57	Y	note: same string on asset-classes/gas-station-and-c-store/index.html (+15), different measure; kept
+N26	15.6	Mean travel time to work, minutes, ACS 2020-2024	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:114	Y	note: same string on asset-classes/gas-station-and-c-store/ev-charging/index.html (+2), different measure; kept
+N27	2,450	US-283 AADT, south city limits to K-96 (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:28	Y	
+N28	38.8%	US-283 truck share, south city limits to K-96 (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:28	Y	note: same string on asset-classes/gas-station-and-c-store/index.html (+5), different measure; kept
+N29	3,120	US-283 AADT, K-96 to north city limits (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:29	Y	note: same string on case-studies/cabin-resort-townsend-tennessee-sba/index.html (+1), different measure; kept
+N30	10.9%	US-283 truck share, K-96 to north city limits (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:29	Y	note: same string on asset-classes/hotel/index.html (+8), different measure; kept
+N31	1,580	US-283 AADT, MP 100 to Ness City (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:30	Y	note: same string on research-notes/underserved-gas-station-markets/index.html, different measure; kept
+N32	28.5%	US-283 truck share, MP 100 to Ness City (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:30	Y	note: same string on asset-classes/gas-station-and-c-store/index.html (+12), different measure; kept
+N33	1,430	US-283 AADT, Ness City to MP 116 (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:30	Y	note: same string on states/texas/houston/index.html (+1), different measure; kept
+N34	31.5%	US-283 truck share, Ness City to MP 116 (2019)	research	I77c	Route56.com reproducing KDOT counts (2019)	CS-Q-NESS-CITY-KANSAS-GROCERY:30	Y	
+N35	$24 million	USD 303 school bond, notice posted 26 Mar 2025	research	I77a	Ness County, Notice of Bond Election USD 303; KSN	CS-Q-NESS-CITY-KANSAS-GROCERY:97	Y	
+N36	$25,930,000	Health care and social assistance receipts, 2022 Economic Census	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:108	Y	
+N37	$3,046,449.62	Hospital district property tax, tax year 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:109	Y	
+N38	23.13%	Hospital district share of county ad valorem tax, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:109	Y	
+N39	$23,251,523	Oil and gas taxable value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:110	Y	
+N40	29.57%	Oil and gas share of taxable value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:110	Y	
+N41	$16,549,938	Agricultural land taxable value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:111	Y	
+N42	21.05%	Agricultural land share of taxable value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:111	Y	
+N43	167.502	Ness County average mill levy, tax year 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:127	Y	
+N44	$78,626,942	Ness County total taxable value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:128	Y	
+N45	$13,169,019	Ness County total ad valorem tax, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:128	Y	
+N46	$4,547,337.19	County share of ad valorem tax, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N47	34.53%	County share (percent), 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N48	$2,035,222.41	USD other share of ad valorem tax, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N49	15.45%	USD other share (percent), 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N50	$1,390,051.10	USD general share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N51	10.56%	USD general share (percent), 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N52	$1,084,613.89	City share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N53	8.24%	City share (percent), 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	note: same string on states/nevada/index.html, different measure; kept
+N54	$260,223.98	Fire share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N55	$178,012.44	Extension share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N56	$163,690.82	Watershed share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N57	$136,308.90	Recreation share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N58	$117,941.10	State share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N59	$116,375.52	Township share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N60	$92,861.91	Library share, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:129	Y	
+N61	$8,167,824	Commercial real property value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:130	Y	
+N62	10.39%	Commercial share of county value, 2025	research	I77b	Kansas Dept. of Revenue, 2025 Real and Personal Property Value and Tax Summary: Ness County	CS-Q-NESS-CITY-KANSAS-GROCERY:130	Y	
+N63	20.000	USD 303 general levy, mills, 2025	research	I77a	Kansas Open Gov Property Tax Mill Rates (KSDE), updated 17 Mar 2025	CS-Q-NESS-CITY-KANSAS-GROCERY:131	Y	
+N64	18.224	USD 303 supplemental general levy, mills, 2025	research	I77a	Kansas Open Gov Property Tax Mill Rates (KSDE), updated 17 Mar 2025	CS-Q-NESS-CITY-KANSAS-GROCERY:131	Y	
+N65	59.29%	USDA B&I loans in Opportunity Zones, increase 2018-2025	research	I77a	House Agriculture hearing testimony 18 Sep 2025	CS-Q-NESS-CITY-KANSAS-GROCERY:162	Y	
+N66	0	Ness County building permits 2025	research	I77c	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:96	N	zero count; token cannot be tested for uniqueness and is trivial
+N67	11.3%	Persons in poverty	research	none	U.S. Census Bureau QuickFacts Ness County (V2025 / ACS 2020-2024)	CS-Q-NESS-CITY-KANSAS-GROCERY:53	N	period stated only as "QuickFacts (SAIPE)", year not given
+N69	507	USD 303 bond vote 507 no to 179 yes (74% no)	research	none	KSN	CS-Q-NESS-CITY-KANSAS-GROCERY:97	N	article date not stated; vote day not confirmed
+N70	280	USD 303 enrollment, 2024 school year	research	none	Ballotpedia snippet	CS-Q-NESS-CITY-KANSAS-GROCERY:112	N	snippet only, page not fetched, URL not retained
+N71	57	Average Kansas grocery owner age	research	none	The Hustle	CS-Q-NESS-CITY-KANSAS-GROCERY:117	N	article undated
+N72	6.5%	Kansas state sales tax 6.5%; food 0% from 1 Jan 2025	research	none	Kansas Dept. of Revenue FAQ	CS-Q-NESS-CITY-KANSAS-GROCERY:134-135	N	tax rule value, "Current"; 0% token trivial
+N73	8.5%	Ness City combined sales tax 8.5% (local 2.0%)	research	none	Sales Tax Handbook; Sales-Taxes.com	CS-Q-NESS-CITY-KANSAS-GROCERY:137	N	period given as a range of fetch months; city/county attribution conflicts
+N74	25%	Commercial assessment ratio 25%, vacant lots 12%	research	none	Kansas Constitution Art. 11	CS-Q-NESS-CITY-KANSAS-GROCERY:133	N	constitutional rule value, "Current"
+N75	$422,800	Cheney KS grocery REDLG loan, $528,500 total project, 16 jobs	research	none	Farm Progress	CS-Q-NESS-CITY-KANSAS-GROCERY:159	N	undated; different program
+N76	85%	USDA B&I 85% guarantee, 3% fee (1%), 0.55% retention, 40-year term; CF 80%, $100 million	research	I77a	USDA Rural Development	CS-Q-NESS-CITY-KANSAS-GROCERY:149-157	N	USDA program rule values
+N77	72	Jamboree Foods 4.2 stars from 72 reviews; 4.4 Google; six stores; 5 SNAP retailers	research	none	ChamberofCommerce.com; operator site; Feedam	CS-Q-NESS-CITY-KANSAS-GROCERY:66,72-73,86	N	checked-date or "current" only
+N78	$160,000	104 S Iowa Avenue listed at $160,000 then $130,000	research	none	KC Homes 4U	CS-Q-NESS-CITY-KANSAS-GROCERY:34	N	residential listing, undated
+N79	7.14	Listed industrial property 7.14 acres, 12,500 SF (13937 US Hwy 283)	research	none	LoopNet	CS-Q-NESS-CITY-KANSAS-GROCERY:19	N	listing attribute of a non-retail candidate site, 2021 listing
+R01	485	Grocery store establishments, Kansas, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[ks][grocery-store]	Y	
+R02	23,176	Grocery store employees, Kansas, CBP 2023	register	I77c	U.S. Census Bureau CBP 2023	data/markets/series/cbp_emp.json values[ks][grocery-store]	Y	
+R03	-	Grocery store establishments, Ness County, CBP 2023	register	none	U.S. Census Bureau CBP 2023	data/markets/series/cbp_estab.json values[co-20135][grocery-store]	N	null, absent or lower-bound (CBP withheld) in register
+R04	82	Grocery 7(a) loans approved, Kansas, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_loans.json values[ks][grocery-store]	Y	note: same string on asset-classes/retail/index.html, different measure; kept
+R05	$38,469,075	Grocery 7(a) volume, Kansas, all years to 2026-06-30	register	I77c	SBA FOIA 7(a) as of 2026-06-30	data/markets/series/sba7a_volume.json values[ks][grocery-store]	Y	
+R06	17	Grocery 504 loans approved, Kansas, all years to 2026-06-30	register	I77c	SBA FOIA 504 as of 2026-06-30	data/markets/series/sba504_loans.json values[ks][grocery-store]	Y	note: same string on asset-classes/fitness-and-recreation/index.html, different measure; kept
+R07	$89,700	Median home value, Ness County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_home_value.json values[co-20135]	Y	
+R08	$538	Median gross rent, Ness County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_gross_rent.json values[co-20135]	Y	note: same string on practice-areas/index.html, different measure; kept
+R09	$70,371	Per capita personal income, Ness County, 2024	register	I77c	BEA county personal income 2024	data/markets/series/bea_per_capita_income.json values[co-20135]	Y	
+R10	$184,162,000	Total personal income, Ness County, 2024	register	I77c	BEA county personal income 2024	data/markets/series/bea_personal_income.json values[co-20135]	Y	
+R11	947	Owner-occupied housing units, Ness County, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_owner_occupied.json values[co-20135]	Y	note: same string on states/arkansas/index.html, different measure; kept
+R12	$65,856	Per capita personal income, Kansas, 2024	register	I77c	BEA state personal income 2024	data/markets/series/bea_per_capita_income.json values[ks]	N	value already on states/kansas/index.html (BEA per capita personal income 2024, same measure)
+R13	$217,200	Median home value, Kansas, ACS 2020-2024	register	I77c	U.S. Census Bureau ACS 5-year 2020-2024	data/markets/series/acs5_median_home_value.json values[ks]	N	over the 10-figure register cap
+#SUMMARY grocery-store-ness-city-kansas-usda counted=73 research=63 register=10 verdict=PAGE engine=N notes=Population, traffic and KDOR 2025 tax-year figures carry it; competitors, listings and rules excluded.

@@ -1,0 +1,74 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+F01	26,730	Yorkville population	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-CHILDCARE-ILLINOIS-SBA:L51	Y	
+F02	21,619	Yorkville April 2020 estimates base	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-CHILDCARE-ILLINOIS-SBA:L52	Y	
+F03	23.6%	Yorkville change 2020 to 2025	research	I77c	U.S. Census Bureau QuickFacts V2025	CS-R-CHILDCARE-ILLINOIS-SBA:L53	N	same value (and kind) printed on served page /case-studies/assisted-living-texas-hud/
+F04	21,533	Yorkville 2020 Census population	research	I77c	U.S. Census Bureau QuickFacts 2020 Census	CS-R-CHILDCARE-ILLINOIS-SBA:L54	Y	
+F05	6.0%	Yorkville persons under 5	research	I77c	U.S. Census Bureau QuickFacts (latest)	CS-R-CHILDCARE-ILLINOIS-SBA:L55	N	same value (and kind) printed on served page /research-notes/c-store-franchise-category/
+F06	26.8%	Yorkville persons under 18	research	I77c	U.S. Census Bureau QuickFacts (latest)	CS-R-CHILDCARE-ILLINOIS-SBA:L56	N	same value (and kind) printed on served page /case-studies/assisted-living-texas-hud/
+F07	8,140	Yorkville households	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L57	Y	
+F08	2.87	Yorkville persons per household	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L58	Y	
+F09	$108,513	Yorkville median household income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L59	Y	
+F10	$48,117	Yorkville per capita income	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L60	Y	
+F11	68.4%	Yorkville female civilian labor force participation	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L61	Y	
+F12	34.0	Yorkville mean commute, minutes	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L62	Y	
+F13	79.8%	Yorkville owner-occupied rate	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L63	N	same value (and kind) printed on served page /case-studies/gas-station-texas-sba/
+F14	$335,300	Yorkville median home value	research	I77c	U.S. Census Bureau QuickFacts ACS 2020-2024	CS-R-CHILDCARE-ILLINOIS-SBA:L63	Y	
+F15	$48,216,000	Yorkville health care and social assistance receipts	research	I77c	U.S. Census Bureau QuickFacts 2022 Economic Census	CS-R-CHILDCARE-ILLINOIS-SBA:L66	Y	
+F16	20.00	Yorkville land area, sq mi	research	I77c	U.S. Census Bureau QuickFacts	CS-R-CHILDCARE-ILLINOIS-SBA:L47	N	same value (and kind) printed on served page /research-notes/absorption-forensics/
+F17	145,470	Kendall County population	research	I77c	Wikipedia citing Census V2025	CS-R-CHILDCARE-ILLINOIS-SBA:L67	Y	
+F18	25,732	Yorkville city staff estimate (Jun 2025)	research	I77a	Shaw Local / Kendall County Now, 17 Jun 2025	CS-R-CHILDCARE-ILLINOIS-SBA:L68	Y	
+F19	4,199	Yorkville added since 2020, city staff estimate (Jun 2025)	research	I77a	Shaw Local / Kendall County Now, 17 Jun 2025	CS-R-CHILDCARE-ILLINOIS-SBA:L68	Y	
+F20	155	Children of America licensed capacity (license valid to 20 Dec 2025)	research	I77a	childcarecenter.us; TrustedCare (license dates)	CS-R-CHILDCARE-ILLINOIS-SBA:L78	Y	
+F21	170	Children's Courtyard capacity ceiling (14 Feb 2025)	research	I77a	Shaw Local, 14 Feb 2025	CS-R-CHILDCARE-ILLINOIS-SBA:L85	N	same value (and kind) printed on served page /research-notes/franchise-vs-non-franchise/
+F22	30	Children's Courtyard staff (14 Feb 2025)	research	I77a	Shaw Local, 14 Feb 2025	CS-R-CHILDCARE-ILLINOIS-SBA:L85	N	bare integer; collides with other values
+F23	$2.4M	Fortec purchase of the Courtyard building (Nov 2023)	research	I77a	Shaw Local, 21 Nov 2023	CS-R-CHILDCARE-ILLINOIS-SBA:L87	N	same value (and kind) printed on served page /asset-classes/quick-service-restaurant/burger/
+F24	$500,000	Courtyard building remodel (Nov 2023)	research	I77a	Shaw Local, 21 Nov 2023	CS-R-CHILDCARE-ILLINOIS-SBA:L87	N	same value (and kind) printed on served page /research-notes/c-store-franchise-category/
+F25	1,975	Learning Care Group schools nationwide (Nov 2023)	research	I77a	Shaw Local, Nov 2023	CS-R-CHILDCARE-ILLINOIS-SBA:L88	Y	
+F26	145	Heartland School capacity at the Courtyard address (2015)	research	I77a	childcarecenter.us (2015 license)	CS-R-CHILDCARE-ILLINOIS-SBA:L89	Y	
+F27	113	Lighthouse Academy capacity (conflicting)	research	none	childcarecenter.us	CS-R-CHILDCARE-ILLINOIS-SBA:L94	N	sources conflict (113, 238, 152)
+F28	72	Lighthouse Academy enrollment (NCES PSS, year not stated)	research	none	Private School Review citing NCES	CS-R-CHILDCARE-ILLINOIS-SBA:L95	N	year not stated
+F29	142	Little Learner licensed capacity (license active to 5 Apr 2028)	research	I77a	childcarecenter.us (license dates)	CS-R-CHILDCARE-ILLINOIS-SBA:L102	Y	
+F30	47	Trinity's Little Hands capacity	research	none	childcarecenter.us	CS-R-CHILDCARE-ILLINOIS-SBA:L111	N	undated
+F31	159	Kiddie Academy of Oswego capacity	research	none	childcarecenter.us	CS-R-CHILDCARE-ILLINOIS-SBA:L115	N	undated
+F32	$1M	Y115 purchase of the Early Childhood Center building (Jul 2022)	research	I77a	Shaw Local, 11 Jul 2022	CS-R-CHILDCARE-ILLINOIS-SBA:L113	N	same value (and kind) printed on served page /
+F33	10,000	Y115 Early Childhood Center building, sf (Jul 2022)	research	I77a	Shaw Local, 11 Jul 2022	CS-R-CHILDCARE-ILLINOIS-SBA:L113	N	same value (and kind) printed on served page /research-notes/how-eb-5-jobs-are-counted/
+F34	$170	Future Foxes part-day preschool, 3-year-olds, resident, per month (2026-27)	research	I77a	United City of Yorkville, Future Foxes Preschool (school year 2026-27)	CS-R-CHILDCARE-ILLINOIS-SBA:L114	N	same value (and kind) printed on served page /case-studies/grocery-store-mississippi-usda/
+F35	$185	Future Foxes 3-year-olds, nonresident, per month (2026-27)	research	I77a	United City of Yorkville, Future Foxes Preschool (school year 2026-27)	CS-R-CHILDCARE-ILLINOIS-SBA:L114	N	same value (and kind) printed on served page /case-studies/rv-boat-storage-california-sba/
+F36	$220	Future Foxes Pre-K, resident, per month (2026-27)	research	I77a	United City of Yorkville, Future Foxes Preschool (school year 2026-27)	CS-R-CHILDCARE-ILLINOIS-SBA:L114	N	same value (and kind) printed on served page /asset-classes/mixed-use/
+F37	$235	Future Foxes Pre-K, nonresident, per month (2026-27)	research	I77a	United City of Yorkville, Future Foxes Preschool (school year 2026-27)	CS-R-CHILDCARE-ILLINOIS-SBA:L114	N	same value (and kind) printed on served page /asset-classes/hotel/
+F38	$75	Future Foxes registration fee (2026-27)	research	I77a	United City of Yorkville, Future Foxes Preschool (school year 2026-27)	CS-R-CHILDCARE-ILLINOIS-SBA:L114	N	same value (and kind) printed on served page /asset-classes/pet-boarding-and-daycare/
+F39	$90	Feels Like Home Daycare infant rate per day	research	none	Operator site (checked Oct 2026)	CS-R-CHILDCARE-ILLINOIS-SBA:L116	N	date is the researcher fetch date (I69); home-based provider
+F40	7,010	Yorkville CUSD 115 enrollment (2026-27)	research	I77c	Yorkville CUSD 115 home page (school year 2026-27)	CS-R-CHILDCARE-ILLINOIS-SBA:L137	Y	
+F41	2,070	Yorkville High School enrollment	research	none	Yorkville High School home page	CS-R-CHILDCARE-ILLINOIS-SBA:L138	N	"2026" label only; live site counter
+F42	1,500	New residential permits since 2020 (through Jun 2025)	research	I77a	Shaw Local, 17 Jun 2025 (citing city)	CS-R-CHILDCARE-ILLINOIS-SBA:L139	N	same value (and kind) printed on served page /research-notes/how-eb-5-jobs-are-counted/
+F43	$899,950	City cost of special census (31 Aug 2026)	research	I77a	WCSJ/WSPY, 31 Aug 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L140	Y	
+F44	1,034	Project Cardinal data-centre campus acres (approved 11 Mar 2026)	research	I77a	Shaw Local, 26 Mar 2026; WSPY	CS-R-CHILDCARE-ILLINOIS-SBA:L141	Y	
+F45	$51M	Project Cardinal developer package (11 Mar 2026)	research	I77a	Shaw Local, 26 Mar 2026; WSPY	CS-R-CHILDCARE-ILLINOIS-SBA:L141	N	same value (and kind) printed on served page /case-studies/assisted-living-hawaii-hud/
+F46	$38,250,000	Project Cardinal payment to schools (11 Mar 2026)	research	I77a	Shaw Local, 26 Mar 2026; WSPY	CS-R-CHILDCARE-ILLINOIS-SBA:L141	Y	
+F47	540	Project Steel acres (PZC 13 Aug 2025)	research	I77a	Yorkville PZC minutes, 13 Aug 2025; Shaw Local 26 Mar 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L142	Y	
+F48	$30M	Project Steel pledge to CUSD 115	research	I77a	Shaw Local, 26 Mar 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L142	N	same value (and kind) printed on served page /research-notes/usda-rd-deadline-calendar/
+F49	228	CyrusOne data-centre acres	research	I77a	The Real Deal, 9 Jun 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L143	Y	
+F50	3,000	Acres across about a dozen data-centre proposals (Jun 2026)	research	I77a	The Real Deal, 9 Jun 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L143	N	same value (and kind) printed on served page /research-notes/usda-rd-deadline-calendar/
+F51	$40 million	Project Steel agreement per The Real Deal	research	I77a	The Real Deal, 9 Jun 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L143	N	conflicts with $30M in Shaw Local
+F52	$4.4 billion	Illinois early childhood appropriation, IDEC first year (FY2027)	research	I77a	IDEC Transition FAQ, 28 Jul 2026	CS-R-CHILDCARE-ILLINOIS-SBA:L164	Y	
+F53	$118,044	Yorkville commercial land average per acre (LandSearch)	research	none	LandSearch	CS-R-CHILDCARE-ILLINOIS-SBA:L43	N	listing aggregator average, undated
+F54	3,850	Broker vehicles per day claim	research	none	Coldwell Banker listing	CS-R-CHILDCARE-ILLINOIS-SBA:L37	N	broker claim, no source or year (research says not an AADT)
+F55	$1,695,000	Subject listing asking price	research	none	Coldwell Banker / MRED	CS-R-CHILDCARE-ILLINOIS-SBA:L29	N	subject listing figure
+F56	4.25	Subject acreage	research	none	Coldwell Banker / MRED	CS-R-CHILDCARE-ILLINOIS-SBA:L28	N	single-property attribute
+F57	$7,847	Subject annual real estate tax (broker figure)	research	none	Rodgers Group IDX	CS-R-CHILDCARE-ILLINOIS-SBA:L35	N	subject listing figure
+F58	100%	SBA citizenship rule: owners must be US citizens or nationals	research	I77a	SBA Policy Notice 5000-876441	CS-R-CHILDCARE-ILLINOIS-SBA:L174	N	SBA program rule value
+F59	$350,000	SBA 7(a) Small threshold	research	I77a	SBA SOP 50 10 8.1	CS-R-CHILDCARE-ILLINOIS-SBA:L177	N	SBA program rule value
+F60	2%	FY2027 7(a) upfront fee, loans of $150,000 or less	research	I77a	SBA Information Notice 5000-881797	CS-R-CHILDCARE-ILLINOIS-SBA:L178	N	SBA program rule value
+F61	25	Kendall County childcare establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[co-17093][childcare-and-daycare]	Y	
+F62	272	Kendall County childcare employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[co-17093][childcare-and-daycare]	Y	
+F63	1.79	Kendall County childcare establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[co-17093][childcare-and-daycare]	Y	
+F64	3,138	Illinois childcare establishments (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab.json values[il][childcare-and-daycare]	Y	
+F65	42,273	Illinois childcare employment (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_emp.json values[il][childcare-and-daycare]	Y	
+F66	300	Illinois SBA 7(a) childcare loans FY2016 to FY2025 (FOIA loans as of 2026-06-30, fy2016_2025)	register	I77c	register: sba_foia	data/markets/series/sba7a_loans.json values[il][childcare-and-daycare]	Y	
+F67	$213,489,100	Illinois SBA 7(a) childcare loan volume FY2016 to FY2025 (FOIA loans as of 2026-06-30, fy2016_2025)	register	I77c	register: sba_foia	data/markets/series/sba7a_volume.json values[il][childcare-and-daycare]	Y	
+F68	2.4%	Illinois SBA 7(a) childcare charge-off rate (FOIA loans as of 2026-06-30)	register	I77c	register: sba_foia	data/markets/series/sba7a_chgoff_rate.json values[il][childcare-and-daycare]	N	same value printed on served page /research-notes/sba-default-economics/
+F69	$111,601	Kendall County median household income (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_median_hh_income.json values[co-17093]	Y	
+F70	$63,048	Kendall County BEA per capita income (calendar year 2024)	register	I77c	register: bea_cainc1_api	data/markets/series/bea_per_capita_income.json values[co-17093]	Y	
+F71	2.5	Illinois childcare establishments per 10k residents (week of March 12, 2023)	register	I77c	register: census_cbp	data/markets/series/cbp_estab_per_10k.json values[il][childcare-and-daycare]	N	same value printed on served page /research-notes/hospitality-str-report/
+F72	15,466	Kendall County population 65+ (2020-2024 (ACS 5-year))	register	I77c	register: census_acs5	data/markets/series/acs5_pop65.json values[co-17093]	Y	
+#SUMMARY childcare-illinois-sba counted=35 research=25 register=10 verdict=PAGE engine=N notes=SBA 7(a) is not an engine program; register includes Illinois SBA FOIA childcare rows; rule and subject rows excluded

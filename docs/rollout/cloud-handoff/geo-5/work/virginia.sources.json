@@ -1,0 +1,464 @@
+{
+ "wc": {
+  "publisher": "Weldon Cooper Center for Public Service, University of Virginia",
+  "title": "2025 Virginia Population Estimates",
+  "date": "February 24, 2026 (population as of July 1, 2025)",
+  "url": "https://www.coopercenter.org/research/2025-virginia-population-estimates"
+ },
+ "eag": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Virginia Economy at a Glance",
+  "date": "data extracted October 28, 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/eag/eag.va.htm"
+ },
+ "qcew": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "County Employment and Wages in Virginia, First Quarter 2026",
+  "date": "September 2, 2026 (employment for March 2026; wages for the first quarter of 2026)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/news-release/countyemploymentandwages_virginia.htm"
+ },
+ "bed": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Business Employment Dynamics in Virginia, Second Quarter 2025",
+  "date": "March 4, 2026 (March to June 2025)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/news-release/businessemploymentdynamics_virginia.htm"
+ },
+ "ffx": {
+  "publisher": "FFXnow (secondary, reporting state labor market data released April 16, 2026)",
+  "title": "Fairfax County started 2026 with more jobless residents than it did 2025, latest data shows",
+  "date": "April 20, 2026 (January 2026, preliminary)",
+  "url": "https://www.ffxnow.com/2026/04/20/fairfax-county-started-2026-with-more-jobless-residents-than-it-did-2025-latest-data-shows/"
+ },
+ "arl": {
+  "publisher": "ARLnow (secondary, reporting Virginia Department of Workforce Development and Advancement data released January 7, 2026)",
+  "title": "N. Va. reports 8,200 fewer jobs after federal workforce cuts in 2025",
+  "date": "January 8, 2026 (November 2024 to November 2025)",
+  "url": "https://www.arlnow.com/?p=395804"
+ },
+ "gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Gross Domestic Product: All Industry Total in Virginia",
+  "date": "last updated September 30, 2026 (2025 annual)",
+  "url": "https://fred.stlouisfed.org/series/VANGSP"
+ },
+ "rgdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Real Gross Domestic Product: All Industry Total in Virginia",
+  "date": "last updated September 30, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/VARQGSP"
+ },
+ "hpi_va": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Virginia",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/VASTHPI"
+ },
+ "perm_va": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Units Authorized by Building Permits for Virginia",
+  "date": "last updated October 27, 2026 (September 2026, not seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/VABPPRIV"
+ },
+ "perm_va_sa": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Units Authorized by Building Permits for Virginia",
+  "date": "last updated October 27, 2026 (September 2026, seasonally adjusted)",
+  "url": "https://fred.stlouisfed.org/series/VABPPRIVSA"
+ },
+ "list_va": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Virginia",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRIVA"
+ },
+ "act_va": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Active Listing Count in Virginia",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/ACTLISCOUVA"
+ },
+ "new_va": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: New Listing Count in Virginia",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/NEWLISCOUVA"
+ },
+ "eia": {
+  "publisher": "U.S. Energy Information Administration",
+  "title": "Virginia Electricity Profile, 2024",
+  "date": "November 10, 2025 (calendar 2024)",
+  "url": "https://www.eia.gov/electricity/state/virginia/"
+ },
+ "hk": {
+  "publisher": "Holland & Knight (secondary, citing JLARC report Rpt598-2 of December 2024)",
+  "title": "Virginia Preserves Data Center Tax Incentive, Adds New Electricity Consumption Tax",
+  "date": "August 20, 2026",
+  "url": "https://www.hklaw.com/en/insights/publications/2026/08/virginia-preserves-data-center-tax-incentive"
+ },
+ "gov": {
+  "publisher": "The Virginian-Pilot via Governing (secondary, reporting JLARC findings)",
+  "title": "Virginia's Data Center Tax Breaks Cost the State $1 Billion",
+  "date": "November 26, 2025",
+  "url": "https://www.governing.com/infrastructure/virginias-data-center-tax-breaks-cost-the-state-1-billion"
+ },
+ "wdbj": {
+  "publisher": "WDBJ7 (secondary, reporting the Governor's release of Virginia Tourism Corporation data prepared by Tourism Economics)",
+  "title": "State tourism spending reached record $36.2 billion in 2025, Gov. Spanberger says",
+  "date": "August 11, 2026 (calendar 2025)",
+  "url": "https://www.wdbj7.com/2026/08/11/state-tourism-spending-reached-record-362-billion-2025-gov-spanberger-says/"
+ },
+ "fema_va": {
+  "publisher": "FEMA (OpenFEMA API)",
+  "title": "OpenFEMA DisasterDeclarationsSummaries, Virginia declarations from 2025-01-01",
+  "date": "retrieved October 28, 2026 (declarations of April 4, 2025 and January 23, 2026)",
+  "url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state%20eq%20%27VA%27%20and%20declarationDate%20ge%20%272025-01-01T00:00:00.000z%27&$select=disasterNumber,declarationTitle,declarationDate,incidentType,declarationType&$top=40"
+ },
+ "fema_4863": {
+  "publisher": "FEMA (OpenFEMA API)",
+  "title": "OpenFEMA DisasterDeclarationsSummaries, disaster 4863",
+  "date": "retrieved October 28, 2026 (declared April 4, 2025; incident February 10 to 18, 2025)",
+  "url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=disasterNumber%20eq%204863&$select=designatedArea,incidentBeginDate,incidentEndDate,ihProgramDeclared,paProgramDeclared&$top=60"
+ },
+ "port": {
+  "publisher": "The Port of Virginia",
+  "title": "Port Debuts the Deepest Harbor on US East Coast, Marks Progress on North Berth Project",
+  "date": "June 18, 2026 (deepening work complete February 2026)",
+  "url": "https://www.portofvirginia.com/news/port-debuts-the-deepest-harbor-on-us-east-coast-marks-progress-on-north-berth-project/"
+ },
+ "acs": {
+  "publisher": "U.S. Census Bureau",
+  "title": "American Community Survey 5-Year Estimates, Detailed Tables (Census Data API)",
+  "date": "2020 to 2024 five-year estimates",
+  "url": "https://api.census.gov/data/2024/acs/acs5"
+ },
+ "bea": {
+  "publisher": "U.S. Bureau of Economic Analysis",
+  "title": "Personal Income by County, Metro, and Other Areas (Regional table CAINC1)",
+  "date": "calendar year 2024",
+  "url": "https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas"
+ },
+ "ecfr": {
+  "publisher": "eCFR",
+  "title": "13 CFR 120.160, Loan conditions",
+  "date": "current to October 7, 2026",
+  "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+ },
+ "sop": {
+  "publisher": "U.S. Small Business Administration",
+  "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+  "date": "effective October 1, 2026",
+  "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+ },
+ "ric_bls": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Richmond, VA: Nonfarm employment and labor force data",
+  "date": "listed with the BLS metro area data tables of October 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/data/xg-tables/ro3fx9539.htm"
+ },
+ "ric_perm": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Census Bureau",
+  "title": "New Private Housing Structures Authorized by Building Permits for Richmond City, VA",
+  "date": "last updated May 28, 2026 (2025 annual)",
+  "url": "https://fred.stlouisfed.org/series/BPPRIV051760"
+ },
+ "ric_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Richmond, VA (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS40060Q"
+ },
+ "ric_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Richmond, VA (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP40060"
+ },
+ "ric_cbre_off": {
+  "publisher": "CBRE",
+  "title": "Richmond Office Figures Q3 2026",
+  "date": "September 30, 2026 (third quarter 2026)",
+  "url": "https://www.cbre.com/insights/figures/richmond-office-figures-q3-2026"
+ },
+ "ric_cw_off": {
+  "publisher": "Cushman & Wakefield",
+  "title": "Richmond Office MarketBeat",
+  "date": "October 7, 2026, listing date (third quarter 2026)",
+  "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/richmond-marketbeats/office"
+ },
+ "ric_cbre_ind": {
+  "publisher": "CBRE",
+  "title": "Richmond Industrial Figures Q3 2026",
+  "date": "September 30, 2026 (third quarter 2026)",
+  "url": "https://www.cbre.com/insights/figures/richmond-industrial-figures-q3-2026"
+ },
+ "ric_cw_ret": {
+  "publisher": "Cushman & Wakefield",
+  "title": "Richmond Retail MarketBeat",
+  "date": "October 7, 2026, listing date (first three quarters of 2026)",
+  "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/richmond-marketbeats/retail"
+ },
+ "ric_air": {
+  "publisher": "Richmond International Airport",
+  "title": "RIC Sets Passenger and Cargo Records in 2025",
+  "date": "January 30, 2026 (dateline January 29, 2026; calendar 2025)",
+  "url": "https://flyrichmond.com/ric-sets-passenger-and-cargo-records-in-2025/"
+ },
+ "hr_bls": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Virginia Beach-Chesapeake-Norfolk, VA-NC: Nonfarm employment and labor force data",
+  "date": "listed with the BLS metro area data tables of October 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/data/xg-tables/ro3fx9537.htm"
+ },
+ "hr_oews": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Virginia Beach-Chesapeake-Norfolk, May 2025",
+  "date": "July 10, 2026 (May 2025)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_virginiabeach.htm"
+ },
+ "hr_vb_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Virginia Beach City, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51810"
+ },
+ "hr_ches_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Chesapeake City, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51550"
+ },
+ "hr_nor_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Norfolk City, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51710"
+ },
+ "hr_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Virginia Beach-Norfolk-Newport News, VA-NC (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS47260Q"
+ },
+ "hr_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Virginia Beach-Norfolk-Newport News, VA-NC (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP47260"
+ },
+ "hr_cw_mf": {
+  "publisher": "Cushman & Wakefield",
+  "title": "Hampton Roads Multifamily MarketBeat, Q3 2026",
+  "date": "October 15, 2026, listing date (third quarter 2026)",
+  "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/hampton-roads-marketbeats/multifamily"
+ },
+ "hr_cw_ret": {
+  "publisher": "Cushman & Wakefield",
+  "title": "Hampton Roads Retail MarketBeat",
+  "date": "October 21, 2026 (first three quarters of 2026)",
+  "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/hampton-roads-marketbeats/retail"
+ },
+ "orf": {
+  "publisher": "AviationPros (secondary, reporting a Norfolk Airport Authority release)",
+  "title": "Norfolk International Airport Posts Fourth Straight Year of Record Passenger Traffic in 2025, Airport Authority Says",
+  "date": "January 15, 2026 (calendar 2025 and December 2025)",
+  "url": "https://www.aviationpros.com/airport-business/news/55343938/norfolk-international-airport-posts-fourth-straight-year-of-record-passenger-traffic-in-2025-airport-authority-says"
+ },
+ "roa_bls": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Roanoke, VA: Nonfarm employment and labor force data",
+  "date": "listed with the BLS metro area data tables of October 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/data/xg-tables/ro3fx9440.htm"
+ },
+ "roa_oews": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Occupational Employment and Wages in Roanoke, May 2025",
+  "date": "July 10, 2026 (May 2025)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/news-release/occupationalemploymentandwages_roanoke.htm"
+ },
+ "roa_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Roanoke City, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51770"
+ },
+ "roa_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Roanoke, VA (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS40220Q"
+ },
+ "roa_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Roanoke, VA (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP40220"
+ },
+ "roa_cw_off": {
+  "publisher": "Cushman & Wakefield",
+  "title": "Roanoke Office MarketBeat, Q3 2026",
+  "date": "October 9, 2026 (third quarter 2026)",
+  "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/roanoke-marketbeats/office"
+ },
+ "roa_cw_ret": {
+  "publisher": "Cushman & Wakefield",
+  "title": "Roanoke Retail MarketBeat, Q3 2026",
+  "date": "October 22, 2026 (third quarter 2026)",
+  "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/roanoke-marketbeats/retail"
+ },
+ "cho_bls": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Charlottesville, VA: Nonfarm employment and labor force data",
+  "date": "listed with the BLS metro area data tables of October 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/data/xg-tables/ro3fx9541.htm"
+ },
+ "cho_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Charlottesville City, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51540"
+ },
+ "alb_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Albemarle County, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51003"
+ },
+ "cho_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Charlottesville, VA (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS16820Q"
+ },
+ "cho_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Charlottesville, VA (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP16820"
+ },
+ "cho_wvir": {
+  "publisher": "WVIR (NBC29) (secondary, reporting a Charlottesville Albemarle Convention and Visitors Bureau report)",
+  "title": "Visitor spending tops $1 billion in Charlottesville and Albemarle County",
+  "date": "September 9, 2026 (calendar 2025)",
+  "url": "https://www.29news.com/2026/09/09/visitor-spending-tops-1-billion-charlottesville-albemarle-county/"
+ },
+ "cho_pop": {
+  "publisher": "Information Charlottesville (Town Crier Productions) (secondary, reporting Census Bureau estimates)",
+  "title": "Charlottesville's population estimate drops below 45,000 after new Census figures",
+  "date": "March 26, 2026 by its byline, posted May 27, 2026 (estimates for July 1, 2025)",
+  "url": "https://infocville.com/2026/03/26/charlottesvilles-population-estimate-drops-below-45000-after-new-census-figures/"
+ },
+ "lyn_bls": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Lynchburg, VA: Nonfarm employment and labor force data",
+  "date": "listed with the BLS metro area data tables of October 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/regions/mid-atlantic/data/xg-tables/ro3fx9544.htm"
+ },
+ "lyn_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Lynchburg City, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51680"
+ },
+ "lyn_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Lynchburg, VA (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS31340Q"
+ },
+ "lyn_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Lynchburg, VA (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP31340"
+ },
+ "bla_eag": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Blacksburg-Christiansburg-Radford, VA Economy at a Glance",
+  "date": "data extracted October 28, 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/eag/eag.va_blacksburg_msa.htm"
+ },
+ "bla_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Montgomery County, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51121"
+ },
+ "bla_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Blacksburg-Christiansburg, VA (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS13980Q"
+ },
+ "bla_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Blacksburg-Christiansburg-Radford, VA (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP13980"
+ },
+ "har_eag": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Harrisonburg, VA Economy at a Glance",
+  "date": "data extracted October 28, 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/eag/eag.va_harrisonburg_msa.htm"
+ },
+ "har_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Rockingham County, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51165"
+ },
+ "har_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Harrisonburg, VA (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS25500Q"
+ },
+ "har_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Harrisonburg, VA (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP25500"
+ },
+ "win_eag": {
+  "publisher": "U.S. Bureau of Labor Statistics",
+  "title": "Winchester, VA-WV Economy at a Glance",
+  "date": "data extracted October 28, 2026 (September 2026, preliminary)",
+  "url": "https://www.bls.gov/eag/eag.va_winchester_msa.htm"
+ },
+ "win_list": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying Realtor.com",
+  "title": "Housing Inventory: Median Listing Price in Frederick County, VA",
+  "date": "last updated October 1, 2026 (September 2026)",
+  "url": "https://fred.stlouisfed.org/series/MEDLISPRI51069"
+ },
+ "win_hpi": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Federal Housing Finance Agency",
+  "title": "All-Transactions House Price Index for Winchester, VA-WV (MSA)",
+  "date": "last updated August 25, 2026 (second quarter 2026)",
+  "url": "https://fred.stlouisfed.org/series/ATNHPIUS49020Q"
+ },
+ "win_gdp": {
+  "publisher": "Federal Reserve Bank of St. Louis (FRED), relaying the U.S. Bureau of Economic Analysis",
+  "title": "Total Gross Domestic Product for Winchester, VA-WV (MSA) (DISCONTINUED)",
+  "date": "last updated December 4, 2024 (2023 annual; series discontinued)",
+  "url": "https://fred.stlouisfed.org/series/NGMP49020"
+ },
+ "vpm": {
+  "publisher": "VPM News (secondary, analysis by the Virginia Center for Investigative Journalism at WHRO, citing Census Bureau data)",
+  "title": "DOGE cuts wiped out years of growth in Virginia's federal civilian jobs",
+  "date": "January 20, 2026",
+  "url": "https://www.vpm.org/news/2026-01-20/trump-doge-federal-civilian-job-cuts-layoffs-danville-goodyear"
+ },
+ "reb1": {
+  "publisher": "REBusinessOnline",
+  "title": "LV Collective, Harrison Street to Break Ground on 862-Bed Student Housing Development Near Virginia Tech",
+  "date": "January 13, 2026 (groundbreaking January 2026)",
+  "url": "https://rebusinessonline.com/?p=448204"
+ },
+ "reb2": {
+  "publisher": "REBusinessOnline",
+  "title": "Cardinal Group, PGIM Break Ground on 493-Bed Student Housing Development Near Virginia Tech",
+  "date": "October 22, 2025 (groundbreaking October 2025)",
+  "url": "https://rebusinessonline.com/?p=442700"
+ }
+}

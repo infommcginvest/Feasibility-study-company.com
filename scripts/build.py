@@ -39,6 +39,9 @@ import re
 import string
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import links  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
 PAGES = os.path.join(SRC, "pages")
@@ -48,8 +51,7 @@ SITE = "https://feasibility-study-company.com"
 ORG_ID = SITE + "/#org"
 AUTHOR_FILE = os.path.join(ROOT, "data", "authors", "mark-otava.json")
 
-TYPES = ("state", "metro", "hub", "subtype", "case")
-REFERENCE = ("state", "metro", "hub", "subtype")
+TYPES_FILE = os.path.join(SRC, "types.json")
 OWNED = ("chrome", "mesh", "fsc", "sba", "mkt", "case")
 REGION = re.compile(r"<!--(chrome|mesh|fsc|sba|mkt|case):([a-z0-9_.:-]+)( \{.*?\})?-->(.*?)<!--/\1:\2-->", re.S)
 # scripts/mesh.py's own patterns: its regions (with their indentation and the blank line after them), which it
@@ -82,6 +84,32 @@ def read(path):
 def esc(text):
     """Escape a plain-text front-matter value once, whether it was written with & or &amp;."""
     return html.escape(html.unescape(text), quote=True)
+
+
+def load_types():
+    """Page types (FACTORY-2): every src/templates/<type>.html except base.html, with its settings in src/types.json."""
+    settings = json.loads(read(TYPES_FILE))
+    types = {}
+    for fn in sorted(os.listdir(TPL)):
+        if not fn.endswith(".html") or fn == "base.html":
+            continue
+        name = fn[:-5]
+        conf = settings.get(name)
+        if not isinstance(conf, dict):
+            raise BuildError(f"src/templates/{fn} has no entry in src/types.json")
+        for key in ("schema", "byline", "house", "cite"):
+            if key not in conf:
+                raise BuildError(f"src/types.json: type {name} lacks '{key}'")
+        if conf["schema"] not in ("article", "webpage"):
+            raise BuildError(f"src/types.json: type {name} schema must be article or webpage")
+        if conf["byline"] not in ("byline-article", "line-state", "line-asset", "byline-framework"):
+            raise BuildError(f"src/types.json: type {name} byline must be byline-article, line-state, line-asset "
+                             f"or byline-framework")
+        types[name] = conf
+    return types
+
+
+TYPES = load_types()
 
 
 def site_config():
@@ -134,7 +162,8 @@ def parse_source(path):
         if key not in front:
             raise BuildError(f"{path}: front matter lacks '{key}'")
     if front["type"] not in TYPES:
-        raise BuildError(f"{path}: unknown type {front['type']}")
+        raise BuildError(f"{path}: unknown type {front['type']} (types: {', '.join(sorted(TYPES))}; a type is a "
+                         f"src/templates/<type>.html with an entry in src/types.json)")
     if os.path.normpath(source_path(front["url"])) != os.path.normpath(path):
         raise BuildError(f"{path}: url {front['url']} does not match the file's place under src/pages")
     return front, body
@@ -152,7 +181,7 @@ def all_sources():
 # ------------------------------------------------------------------ body expansion
 
 def cite_html(kind, numbers):
-    if kind == "case":
+    if TYPES[kind]["cite"] == "case":
         return "".join(f'<a class="cite" href="#s{n}">[{n}]</a>' for n in numbers)
     return "".join(f'<sup class="fn"><a href="#s{n}">{n}</a></sup>' for n in numbers)
 
@@ -280,9 +309,10 @@ def jsonld(front, cfg, kind):
     ref = author_ref()
     graph = [{"@type": "Organization", "@id": ORG_ID, "name": "Feasibility Study Company",
               "url": SITE + "/", "logo": SITE + "/og.png"}]
-    if kind == "case":
+    if TYPES[kind]["schema"] == "article":
         graph.append({"@type": "Article", "@id": url + "#article", "headline": strip_tags(front["h1"]),
-                      "description": front["description"], "articleSection": "Case Studies", "inLanguage": "en-US",
+                      "description": front["description"],
+                      "articleSection": TYPES[kind].get("article_section", "Articles"), "inLanguage": "en-US",
                       "datePublished": published, "dateModified": updated, "image": SITE + "/og.png",
                       "author": "__AUTHOR__", "publisher": {"@id": ORG_ID}, "mainEntityOfPage": url})
     else:
@@ -324,14 +354,16 @@ def render(front, body, cfg, old=None):
     published = resolve_date(front["published"], cfg)
     body_html, alt, _ids = render_body(body, front, kind, start_alt=False)
     faq, alt = faq_html(front, kind, alt)
-    if kind == "case":
+    conf = TYPES[kind]
+    if conf["byline"] == "byline-article":
         params = {"published": published, "updated": updated}
         if front.get("data_as_of"):
             params["data_as_of"] = front["data_as_of"]
         byline = marker("fsc", "byline-article", params)
+    elif conf["byline"] == "byline-framework":
+        byline = marker("fsc", "byline-framework")   # undated, as on /analytical-framework/
     else:
-        name = "line-state" if kind in ("state", "metro") else "line-asset"
-        byline = marker("fsc", name, {"updated": updated})
+        byline = marker("fsc", conf["byline"], {"updated": updated})
     hero_secondary = ""
     if front.get("hero_secondary"):
         hs = front["hero_secondary"]
@@ -355,12 +387,12 @@ def render(front, body, cfg, old=None):
     }
     main = string.Template(read(os.path.join(TPL, kind + ".html"))).substitute(main_values)
     main = pend_folded(main, front["url"])
-    house = "house-b.css" if kind == "case" else "house-a.css"
+    house = conf["house"]
     page_css = ""
-    if kind == "case":
-        page_css = "<style>" + read(os.path.join(PART, "case-components.css")) + "</style>"
+    if conf.get("page_css"):
+        page_css = "<style>" + read(os.path.join(PART, conf["page_css"])) + "</style>"
     # byline.py keeps the page's one date in the author-ld region too (date_modified mirrors the visible line)
-    author_ld = "" if kind == "case" else marker("fsc", "author-ld", {"date_modified": updated, "url": url})
+    author_ld = "" if conf["schema"] == "article" or conf["byline"] == "byline-framework" else marker("fsc", "author-ld", {"date_modified": updated, "url": url})
     values = {
         "title": esc(front["title"]),
         "description": esc(front["description"]),
@@ -380,8 +412,29 @@ def render(front, body, cfg, old=None):
     if old:
         out = keep_owned(out, old)
         out = keep_mesh(out, old)
+    out = relink_rendered(out, front["url"])
     validate(out, front)
     return out
+
+
+_LINKS = {}
+
+
+def link_site():
+    """links.py's view of the tree, read once per run."""
+    if "site" not in _LINKS:
+        site = links.Site(ROOT)
+        _LINKS.update(site=site, fb=links.load_fallbacks(ROOT), promised=links.promised_set(site))
+    return _LINKS["site"], _LINKS["fb"], _LINKS["promised"]
+
+
+def relink_rendered(out, page_url):
+    """The page as links.py --relink leaves it: a link to a promised page not built yet renders pending with its
+    class fallback, and a pending link whose page now exists renders live (amendment A5), so render and relink
+    agree and build.py --check reads neither state as stale."""
+    site, fb, promised = link_site()
+    site.urls.add(page_url)   # the page being rendered exists: its own #fragment links are never pending
+    return links.relink_html(site, links.url_to_rel(page_url), page_url, out, fb, promised)
 
 
 FALLBACKS = os.path.join(ROOT, "data", "mesh", "fallbacks.json")
@@ -493,6 +546,8 @@ def build_one(path, cfg, check):
         os.makedirs(os.path.dirname(target), exist_ok=True)
         with open(target, "w", encoding="utf-8") as fh:
             fh.write(out)
+        if "site" in _LINKS:
+            _LINKS["site"].urls.add(front["url"])
         return rel, "written"
     return rel, None
 

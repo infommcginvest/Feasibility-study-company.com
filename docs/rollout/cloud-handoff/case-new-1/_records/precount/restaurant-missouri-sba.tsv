@@ -1,0 +1,84 @@
+fig_id	value_token	figure_short	class	date_basis	source_publisher	research_ref	counts	why_not
+R001	12,921	Branson population, V2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-RESTAURANT-MISSOURI-SBA:51	Y	
+R002	12,641	Branson April 2020 population base	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-RESTAURANT-MISSOURI-SBA:52	Y	
+R003	2.2%	Branson population change 2020-2025	research	I77c	U.S. Census Bureau, QuickFacts V2025	CS-R-RESTAURANT-MISSOURI-SBA:52	Y	
+R004	12,638	Branson 2020 Census population	research	I77c	U.S. Census Bureau, 2020 Census via QuickFacts	CS-R-RESTAURANT-MISSOURI-SBA:53	Y	
+R005	10,520	Branson 2010 Census population	research	I77c	U.S. Census Bureau, 2010 Census via QuickFacts	CS-R-RESTAURANT-MISSOURI-SBA:53	Y	
+R006	2.21	Branson persons per household	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-RESTAURANT-MISSOURI-SBA:54	Y	
+R007	$51,978	Branson median household income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-RESTAURANT-MISSOURI-SBA:55	Y	
+R008	$70,702	Missouri median household income	research	I77c	StateDemographics, Branson Missouri Demographics 2026 (ACS 2020-2024)	CS-R-RESTAURANT-MISSOURI-SBA:55	N	on served page states/missouri (median household income)
+R009	$33,281	Branson per capita income	research	I77c	U.S. Census Bureau, QuickFacts (ACS 2020-2024)	CS-R-RESTAURANT-MISSOURI-SBA:56	Y	
+R010	6,582	Branson civilian labor force, ACS 2018-2022	research	I77c	City of Branson / Taney County Partnership, Economic Overview Feb 2025	CS-R-RESTAURANT-MISSOURI-SBA:58	Y	
+R011	61.1%	Branson labor force participation, ACS 2018-2022	research	I77c	City of Branson / Taney County Partnership, Economic Overview Feb 2025	CS-R-RESTAURANT-MISSOURI-SBA:58	Y	
+R012	57,001	Taney County population, V2025	research	I77c	Wikipedia, Taney County (citing Census V2025)	CS-R-RESTAURANT-MISSOURI-SBA:59	Y	
+R013	1.7%	Taney County population change vs 2020	research	I77c	Wikipedia, Taney County (citing Census)	CS-R-RESTAURANT-MISSOURI-SBA:59	Y	
+R014	56,066	Taney County 2020 Census population	research	I77c	Wikipedia, Taney County (citing Census)	CS-R-RESTAURANT-MISSOURI-SBA:59	Y	
+R015	$19,671,572	Branson tourism tax CY2025	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:108	Y	
+R016	10.1%	Branson tourism tax change 2025 vs 2024	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:108	Y	
+R017	$1,797,621	Branson tourism tax gain 2025	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:108	Y	
+R018	2.5%	Branson tourism tax change 2024 vs 2023 (decline)	research	I77a	Branson4U / KCAX, 25 Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:109	Y	
+R019	$1,896,470	January 2025 tourism tax	research	I77a	Branson Tri-Lakes News, Feb 2025	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R020	4.2%	January 2025 tourism tax change	research	I77a	Branson Tri-Lakes News, Feb 2025	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R021	$1,652,838	April 2025 tourism tax	research	I77a	Branson Tri-Lakes News, May 2025	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R022	13.9%	April 2025 tourism tax change	research	I77a	Branson Tri-Lakes News, May 2025	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R023	$2,802,273	August 2025 tourism tax (record month)	research	I77a	Branson Tri-Lakes News, Oct 2025	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R024	8.1%	August 2025 tourism tax change	research	I77a	Branson Tri-Lakes News, Oct 2025	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R025	$1,842,718	November 2025 tourism tax	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R026	18.1%	November 2025 tourism tax change	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R027	$1,997,550	December 2025 tourism tax	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R028	11.2%	December 2025 tourism tax change	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:112	Y	
+R029	$4 million	Theater tourism tax topped $4 million, CY2025	research	I77a	Branson Tri-Lakes News, Jan 2026	CS-R-RESTAURANT-MISSOURI-SBA:113	Y	
+R030	228,327	Branson Convention Center visitors CY2025	research	I77c	City of Branson, 2025 Year End Report (Convention Center Q4)	CS-R-RESTAURANT-MISSOURI-SBA:114	Y	
+R031	4.5%	Convention Center visitor change vs 2024	research	I77c	City of Branson, 2025 Year End Report (Convention Center Q4)	CS-R-RESTAURANT-MISSOURI-SBA:114	Y	
+R032	$14,399,761	Tourism tax year to date through September 2025	research	I77a	Branson Tri-Lakes News, 24 Oct 2025	CS-R-RESTAURANT-MISSOURI-SBA:179	Y	
+R033	10.29 million	Branson visitors 2023 (KPI-weighted model)	research	I77b	Branson CVB, 2023 Year-End Marketing Report (Mar 2024)	CS-R-RESTAURANT-MISSOURI-SBA:116	Y	research says the figure is a model; print with that caveat
+R034	2.9	Average visits per traveler per year, 2023	research	I77b	Branson CVB, 2023 Year-End Marketing Report (Mar 2024)	CS-R-RESTAURANT-MISSOURI-SBA:118	Y	
+R035	8,059,295	76 and Fall Creek vehicles Jan-Oct 2024	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R036	8,131,982	76 and Fall Creek vehicles Jan-Oct 2023	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R037	0.9%	76 and Fall Creek change 2024 vs 2023	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R038	5,396,748	76 and Gretna Rd vehicles 2024	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R039	5,509,811	76 and Gretna Rd vehicles 2023	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R040	2%	76 and Gretna Rd change	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R041	5,823,106	76 and Shepherd of the Hills Expwy vehicles 2024	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R042	5,823,025	76 and Shepherd of the Hills Expwy vehicles 2023	research	I77a	Branson Tri-Lakes News, Nov 2024	CS-R-RESTAURANT-MISSOURI-SBA:42	Y	
+R043	$0.18	Library levy per $100 AV, approved Aug 2023	research	I77a	KSMU, 8 Aug 2023	CS-R-RESTAURANT-MISSOURI-SBA:135	Y	
+R044	$16,078,706	City 1% sales tax CY2025	research	none	Branson Tri-Lakes News	CS-R-RESTAURANT-MISSOURI-SBA:110	N	article date not in research, news article is not a periodic document (I69)
+R045	7.1%	City sales tax change CY2025	research	none	Branson Tri-Lakes News	CS-R-RESTAURANT-MISSOURI-SBA:110	N	article date not in research
+R046	$7,920,143	Transportation tax CY2025	research	none	Branson Tri-Lakes News	CS-R-RESTAURANT-MISSOURI-SBA:111	N	article date not in research
+R047	$0.5821	City property tax levy per $100 AV, 2023 levy	research	none	Branson Tri-Lakes News	CS-R-RESTAURANT-MISSOURI-SBA:134	N	article date not in research; period alone does not date it (I77)
+R048	$4.0280	Branson R-IV school levy per $100, 2012	research	I77a	Branson Tri-Lakes News, 2013	CS-R-RESTAURANT-MISSOURI-SBA:136	N	2012 vintage, research marks it superseded
+R049	32%	Commercial assessment ratio	research	none	City of Branson, Taxes page	CS-R-RESTAURANT-MISSOURI-SBA:133	N	rule value, research dates it "Current page"
+R050	0.5%	Tourism tax on restaurant food and drink	research	none	City of Branson	CS-R-RESTAURANT-MISSOURI-SBA:138	N	tax rate, research dates it "Current page"
+R051	9.475%	Combined F&B sales tax, 2018 schedule	research	I77a	City of Branson Sales Tax PDF	CS-R-RESTAURANT-MISSOURI-SBA:139	N	superseded by a newer schedule; rate rule
+R052	$40.4 million	Branson Landing restaurant sales 2021	research	none	Springfield Business Journal	CS-R-RESTAURANT-MISSOURI-SBA:84	N	2021 figure from an undated page, older
+R053	$132.6 million	Branson Landing total retail sales 2021	research	none	Springfield Business Journal	CS-R-RESTAURANT-MISSOURI-SBA:84	N	2021 figure from an undated page, older
+R054	80,000	Two-county year-round residents (city claim)	research	none	City of Branson, Branson Profile	CS-R-RESTAURANT-MISSOURI-SBA:61	N	undated city claim, method not stated
+R055	10 million	Visitors annually (city claim)	research	none	City of Branson, Branson Profile	CS-R-RESTAURANT-MISSOURI-SBA:61	N	undated claim
+R056	332	Branson restaurants (Tripadvisor)	research	none	Tripadvisor	CS-R-RESTAURANT-MISSOURI-SBA:86	N	undated
+R057	9	Branson Bank SBA loans	research	none	SBALenders.com 2025 ranking	CS-R-RESTAURANT-MISSOURI-SBA:155	N	period of loans not stated
+R058	$389,111	Branson Bank average SBA loan	research	none	SBALenders.com 2025 ranking	CS-R-RESTAURANT-MISSOURI-SBA:155	N	period of loans not stated
+R059	$20.5 million	2012 tornado damage	research	none	National Weather Service 2012 event summary	CS-R-RESTAURANT-MISSOURI-SBA:145	N	event dated 2012, research marks it older, no publication date
+R060	[subject figure withheld]	Subject asking price	research	none	Vinton Commercial Realty	CS-R-RESTAURANT-MISSOURI-SBA:29	N	subject listing figure
+R061	[subject figure withheld]	Subject building SF	research	none	Vinton Commercial Realty	CS-R-RESTAURANT-MISSOURI-SBA:27	N	subject attribute (I64)
+R062	[subject figure withheld]	Subject tax TY2021	research	I77a	Vinton Commercial Realty MLS	CS-R-RESTAURANT-MISSOURI-SBA:33	N	subject attribute
+R063	[subject figure withheld]	Subject lease alternative per month	research	none	LoopNet	CS-R-RESTAURANT-MISSOURI-SBA:30	N	subject listing figure
+R064	$1,999,000	100 Fall Creek Dr listing price	research	none	Crexi	CS-R-RESTAURANT-MISSOURI-SBA:99	N	single listing
+R065	$4,300,000	2421 W 76 listing price	research	none	Crexi	CS-R-RESTAURANT-MISSOURI-SBA:99	N	single listing
+R066	$1,400,000	269 State Hwy 248 listing price	research	none	Realmo	CS-R-RESTAURANT-MISSOURI-SBA:99	N	single listing
+R067	110	Chick-fil-A Branson jobs	research	I77a	Springfield Business Journal 14 Dec 2023	CS-R-RESTAURANT-MISSOURI-SBA:97	N	one named facility headcount
+R068	$14.00	Starvin Marvin breakfast buffet price	research	none	Starvin Marvin menu, checked Oct 15, 2026	CS-R-RESTAURANT-MISSOURI-SBA:69	N	dated only by the researcher fetch (I69)
+R069	1,662	Starvin Marvin Tripadvisor reviews	research	none	Tripadvisor	CS-R-RESTAURANT-MISSOURI-SBA:69	N	undated single business attribute
+R070	$50,000	SOP 50 10 8 collateral threshold	research	none	a source the pattern list forbids naming	CS-R-RESTAURANT-MISSOURI-SBA:161	N	program rule; cited only to a forbidden-pattern publisher in that row
+R071	$350,000	7(a) Small Loan ceiling	research	none	forbidden-pattern publisher	CS-R-RESTAURANT-MISSOURI-SBA:161	N	program rule
+R072	$5 million	7(a) maximum	research	none	SBA	CS-R-RESTAURANT-MISSOURI-SBA:158	N	program rule, "Current"
+G01	$63,520	Taney County median household income, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_hh_income.json key co-29209.acs5_median_hh_income	Y	
+G02	7.1%	Taney County unemployment rate, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_unemployment_rate.json key co-29209.acs5_unemployment_rate	Y	
+G03	$55,320	Taney County per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key co-29209.bea_per_capita_income	Y	
+G04	$896	Taney County median gross rent, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_gross_rent.json key co-29209.acs5_median_gross_rent	Y	
+G05	$249,000	Taney County median home value, ACS 2020-2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/acs5_median_home_value.json key co-29209.acs5_median_home_value	Y	
+G06	11,786	Missouri restaurant and eating place establishments, CBP 2023	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/cbp_estab.json key mo.cbp_estab.restaurant	Y	
+G07	923	Missouri 7(a) loans to restaurants FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_loans.json key mo.sba7a_loans.restaurant (window fy2016_2025)	Y	
+G08	8.8%	Missouri 7(a) restaurant charge-off rate by count, FY2011-FY2020 cohorts	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_chgoff_rate.json key mo.sba7a_chgoff_rate.restaurant	Y	
+G09	$407.0 million	Missouri 7(a) restaurant approval volume FY2016-FY2025	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/sba7a_volume.json key mo.sba7a_volume.restaurant (window fy2016_2025)	Y	
+G10	$64,920	Missouri per capita personal income, BEA 2024	register	I77c	data/markets register (US Census Bureau, BEA or SBA FOIA as of 2026-06-30)	data/markets/series/bea_per_capita_income.json key mo.bea_per_capita_income	Y	
+#SUMMARY restaurant-missouri-sba counted=52 research=42 register=10 verdict=PAGE engine=N notes=monthly tourism tax and camera counts carry it; A4 adds $70,702; real-listing file so subject must be hypothetical

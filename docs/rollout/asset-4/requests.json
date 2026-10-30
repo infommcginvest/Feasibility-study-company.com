@@ -1,0 +1,83 @@
+{
+ "lane": "asset-4",
+ "requests": [
+  {
+   "id": "asset-4-1",
+   "kind": "folded",
+   "url": "/asset-classes/multifamily/garden-style/",
+   "target": "/asset-classes/multifamily/#garden-style"
+  },
+  {
+   "id": "asset-4-2",
+   "kind": "folded",
+   "url": "/asset-classes/multifamily/lihtc/",
+   "target": "/asset-classes/multifamily/#lihtc"
+  },
+  {
+   "id": "asset-4-3",
+   "kind": "folded",
+   "url": "/asset-classes/multifamily/mid-and-high-rise/",
+   "target": "/asset-classes/multifamily/#mid-and-high-rise"
+  },
+  {
+   "id": "asset-4-4",
+   "kind": "folded",
+   "url": "/asset-classes/multifamily/student-housing/",
+   "target": "/asset-classes/multifamily/#student-housing"
+  },
+  {
+   "id": "asset-4-5",
+   "kind": "folded",
+   "url": "/asset-classes/multifamily/workforce-housing/",
+   "target": "/asset-classes/multifamily/#workforce-housing"
+  },
+  {
+   "id": "asset-4-6",
+   "kind": "subtype_section",
+   "hub": "/asset-classes/multifamily/",
+   "section": "subtypes"
+  },
+  {
+   "id": "asset-4-7",
+   "kind": "folded",
+   "url": "/asset-classes/quick-service-restaurant/chicken/",
+   "target": "/asset-classes/quick-service-restaurant/#chicken"
+  },
+  {
+   "id": "asset-4-8",
+   "kind": "folded",
+   "url": "/asset-classes/quick-service-restaurant/mexican/",
+   "target": "/asset-classes/quick-service-restaurant/#mexican"
+  },
+  {
+   "id": "asset-4-9",
+   "kind": "folded",
+   "url": "/asset-classes/quick-service-restaurant/multi-unit-platform/",
+   "target": "/asset-classes/quick-service-restaurant/#multi-unit-platform"
+  },
+  {
+   "id": "asset-4-10",
+   "kind": "folded",
+   "url": "/asset-classes/quick-service-restaurant/pizza/",
+   "target": "/asset-classes/quick-service-restaurant/#pizza"
+  },
+  {
+   "id": "asset-4-11",
+   "kind": "folded",
+   "url": "/asset-classes/quick-service-restaurant/sandwich-and-subs/",
+   "target": "/asset-classes/quick-service-restaurant/#sandwich-and-subs"
+  },
+  {
+   "id": "asset-4-12",
+   "kind": "subtype_section",
+   "hub": "/asset-classes/quick-service-restaurant/",
+   "section": "subtypes"
+  },
+  {
+   "id": "asset-4-13",
+   "kind": "subtype_section",
+   "hub": "/asset-classes/mixed-use/",
+   "section": "subtypes"
+  }
+ ]
+}
