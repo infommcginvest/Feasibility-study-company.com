@@ -1,0 +1,5 @@
+# CLOUD-1 GEO-5 vermont freeze 1 (2026-10-30T14:30Z)
+branch cloud/geo-5 HEAD d005ae960cd9cb688aea2903716e41daa92f5129 (origin/main 1559002d plus the plan)
+git archive HEAD 73aa292da9496bf54b10a9a89fa9e9dad365b998e19997d9e0e176daa0d42fe8
+source vermont 8715941a6d864f7b8d102eb62b7bf2742ccade9b2bf7bfaf7feb35a5ea01818b (handoff draft 8715941a6d864f7b8d102eb62b7bf2742ccade9b2bf7bfaf7feb35a5ea01818b)
+rendered /states/vermont/ be4e4f560fa8f3e67d18b5a13fb85c3b3117408d89cdd90c51ae0754872c507d

@@ -1,0 +1,5 @@
+# CLOUD-1 GEO-5 district-of-columbia freeze 1 (2026-10-30T14:30Z)
+branch cloud/geo-5 HEAD d005ae960cd9cb688aea2903716e41daa92f5129 (origin/main 1559002d plus the plan)
+git archive HEAD 73aa292da9496bf54b10a9a89fa9e9dad365b998e19997d9e0e176daa0d42fe8
+source district-of-columbia 480d775e607ce5a77200f5e83100a91182a036e902c86319bab416d328bef6f5 (handoff draft 480d775e607ce5a77200f5e83100a91182a036e902c86319bab416d328bef6f5)
+rendered /states/district-of-columbia/ c5ff00e29aaaa37aa4e125769ba005560d59dbd842351fddb234488a1975a8d0

@@ -1,4 +1,27 @@
-# GEO-5 resume point (28 October 2026, about 21:30Z)
+# GEO-5 resume point (30 October 2026, CLOUD-1; parked by the owner)
+
+GEO-5 is parked by owner amendment 2 to FSC-CLOUD-1 (30 Oct): states stop, cases and the asset-class buyer-intent retrofit go first. Nothing is in flight: the three Track A agents still running at the amendment (the District and Vermont verifiers, the North Dakota and Alaska capped review) were stopped before writing. Branch `cloud/geo-5` (pushed, no pull request) holds every record below; no page source is under `src/pages/`, because no state has finished its review (A2). Decisions D29 to D33.
+
+## Where each state stands
+
+| State | Stage reached | Counted at the last gate run (cloud) | Exactly what is left |
+|---|---|---|---|
+| North Dakota (t4) | Mac freeze 1 and both attacker files (28 Oct). CLOUD-1: cold Sonnet verifier done (`cloud-1/reviews/t4-f1-verifier.md`): 22 confirmed (BLOCKER 0, MAJOR-FACTUAL 6, MAJOR-NONFACTUAL 7, MINOR 9), 12 refuted, A1-1 (the one blocker as filed) among them as not reproduced. Its 43 edits plus the D31 precaution are applied in `cloud-1/candidates/north-dakota.f2-candidate.html` (diff `north-dakota.f1-f2.diff`). | 64 (56 research, 8 register), READY gates 14/14 on the candidate (`cloud-1/gates/GATES-f2-north-dakota.txt`) | 1. Capped Opus review of the NON-DELETION edits listed in the verifier file (not done). 2. A networked check of A1-2 ("for July", 24 rigs) and A1-3 ("in June 2026", 3,040 wells) against the Minot Daily News article, and A1-4's Fargo permit clause (281, "peak month") against its article. 3. Freeze 2, gates, copy the candidate to `src/pages/states/north-dakota.html`, tranche record, commit, land. |
+| Alaska (t5) | Mac freeze 1 and both attacker files. CLOUD-1: cold verifier done (`t5-f1-verifier.md`): 20 confirmed (BLOCKER 0, MAJOR-FACTUAL 7, MAJOR-NONFACTUAL 7, MINOR 6), 15 refuted (A1-3, A1-4, A1-5 not reproduced). 34 edits plus the D31 precautions applied, source 5 dropped and citations renumbered (`alaska.f2-candidate.html`). Inbound link fix: `patches/alaska_links.py` (D32). | 66 (61 research, 5 register), READY gates 14/14 with the patch applied | 1. Capped Opus review of the nine NON-DELETION edits and of the renumbering (not done). 2. A networked check of A1-3 (fiscal 2027 mining revenue, one counted figure). 3. Freeze 2, gates, source to `src/pages/states/alaska.html`, record, commit, land with the patch. |
+| District of Columbia (t7) | CLOUD-1 freeze 1 (`cloud-1/freeze/FREEZE-district-of-columbia-f1.txt`; source = the handoff draft). Attacker A (`t7-f1-attacker1.md`): BLOCKER 0, MAJOR-FACTUAL 4, MINOR 7. Attacker B (`t7-f1-attacker2.md`): BLOCKER 0, MAJOR-FACTUAL 4, MAJOR-NONFACTUAL 10, MINOR 10, among them mesh links to Maine and Connecticut on "Maine Avenue SW" and "Connecticut Avenue NW". No verifier output. | 56 (48 research, 8 register), READY 14/14 (`GATES-f1-district-of-columbia.txt`, gate 13 in `-g13.txt`); attacker A expects 53 (45) after its fixes | 1. Cold Sonnet verifier on both files (brief: handoff `REVIEW-BRIEF.md` with `cloud-1/reviews/CLOUD-PATHS.md`). 2. Fixes, capped review, freeze 2, gates, record, commit, land. |
+| Vermont (t8) | CLOUD-1 freeze 1 (`FREEZE-vermont-f1.txt`). Attacker A: BLOCKER 0, MAJOR-FACTUAL 3, MINOR 9. Attacker B: BLOCKER 0, MAJOR-FACTUAL 4, MAJOR-NONFACTUAL 11, MINOR 8, among them the keyword forms "consultant" and "company" appearing only low on the page, and a mesh link to Connecticut on "Connecticut Public". No verifier output. | 77 (69 research, 8 register), READY 14/14; both attackers expect 77 after their fixes | As the District. |
+| Wyoming (t6) | Drafted and SEO-finished (handoff), not frozen. | draftcheck 113 (Mac) | Waits for the vote of 3 November 2026: refresh the closing band to cite the result, then the full close. A session reminder is scheduled for 4 Nov 15:07Z; it does nothing unless the owner reopens the track. |
+
+Order when the track reopens: North Dakota, Alaska, the District, Vermont, then Wyoming after the vote.
+
+## How to resume in a cloud session
+1. Network: the attackers and verifiers need the source hosts (D30). Check with one GET to a government host before starting.
+2. Build a copy: `docs/rollout/geo-5/cloud-1/mkcopy.sh <copy> <worktree> <candidate>=src/pages/states/<state>.html` (env `PATCHES` for `patches/alaska_links.py`), then from inside the copy `python3 scripts/qa/gates.py --root . --git-dir <worktree> --urls /states/<state>/ --new /states/<state>/ --stage ready --range origin/main..HEAD`. Gate 13 needs a headless Chromium at the path `scripts/qa/shots.mjs` names.
+3. Apply a verifier's fix list with `cloud-1/apply_edits.py`; drop an orphaned source with `cloud-1/dropsource.py` (it keeps the front matter's indentation and renumbers every citation).
+4. On the Mac: the handoff tools (`docs/rollout/cloud-handoff/geo-5/tools/`) and the landing procedure in the earlier resume point below still apply; take the candidates from `cloud-1/candidates/`.
+
+## Earlier resume point (28 October 2026, kept for the landing procedure)
+
 
 GEO-5 is paused after South Dakota, before North Dakota. Nothing is in flight: no subagent, copy build, gate run, landing or deploy is running. The integrator (`~/Downloads/wt-rollout-int`) is free and equal to local main; `bus/status/int` says so.
 

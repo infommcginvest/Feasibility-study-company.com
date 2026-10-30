@@ -1,0 +1,13 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-30T14:28:07
+root <scratchpad>/copies/f1-district-of-columbia; git dir /home/user/wt/geo-5 at d005ae960cd9cb688aea2903716e41daa92f5129; range None; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root . --git-dir /home/user/wt/geo-5 --urls /states/district-of-columbia/ --new /states/district-of-columbia/ --stage ready --only 13 --look-out <scratchpad>/copies/look-district-of-columbia --out <scratchpad>/copies/GATES-f1-district-of-columbia-g13.txt
+pages (1): /states/district-of-columbia/
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in <scratchpad>/copies/look-district-of-columbia (port 51691)
+  states_district-of-columbia-desktop-1440.png                           scrollWidth 1440 / 1440 overflow False offenders []
+  states_district-of-columbia-mobile-390.png                             scrollWidth 390 / 390 overflow False offenders []
+
+SUMMARY
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  green 1/1

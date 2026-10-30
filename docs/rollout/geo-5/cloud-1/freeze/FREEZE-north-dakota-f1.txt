@@ -1,0 +1,5 @@
+# CLOUD-1 GEO-5 north-dakota freeze 1 (2026-10-30T14:30Z)
+branch cloud/geo-5 HEAD d005ae960cd9cb688aea2903716e41daa92f5129 (origin/main 1559002d plus the plan)
+git archive HEAD 73aa292da9496bf54b10a9a89fa9e9dad365b998e19997d9e0e176daa0d42fe8
+source north-dakota 16ba0e9300ff2efe15882edcaa6b80eeff8e497987e456bf6690f53693b020f0 (handoff draft 16ba0e9300ff2efe15882edcaa6b80eeff8e497987e456bf6690f53693b020f0)
+rendered /states/north-dakota/ 1581f9f63fd23828c760508e918f094cb0826cafd0c851f8832ef68d5f8c440f

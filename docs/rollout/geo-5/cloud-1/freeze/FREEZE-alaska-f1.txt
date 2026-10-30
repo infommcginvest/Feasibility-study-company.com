@@ -1,0 +1,5 @@
+# CLOUD-1 GEO-5 alaska freeze 1 (2026-10-30T14:31Z)
+branch cloud/geo-5 HEAD d005ae960cd9cb688aea2903716e41daa92f5129 (origin/main 1559002d plus the plan)
+git archive HEAD 73aa292da9496bf54b10a9a89fa9e9dad365b998e19997d9e0e176daa0d42fe8
+source alaska aefa7dc9f30fa2960f409a274ff0a7e61af20f076639ac9e68a8f297adde1c10 (handoff draft aefa7dc9f30fa2960f409a274ff0a7e61af20f076639ac9e68a8f297adde1c10)
+rendered /states/alaska/ 7097931e6412eb9968273e12846294bd81768b88806e8553578f426d977f3d32
