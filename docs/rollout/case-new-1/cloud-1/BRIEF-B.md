@@ -1,6 +1,6 @@
 # CLOUD-1 Track B brief: NEW case studies, tranche after tranche (owner amendments 1 to 3)
 
-For the cloud session that runs Track B of FSC-CLOUD-1 (owner: the site owner; charter of 30 Oct 2026 with owner amendments 1 and 2, all summarized here). The coordinating session is `session_01A2qr3tS3VCSPW2hcYk4VEv` (it runs Track D, the asset-class buyer-intent retrofit). Report to it with `send_message` after each tranche, if your tools allow; it relays to the owner.
+For the cloud session that runs Track B of FSC-CLOUD-1 (owner: the site owner; charter of 30 Oct 2026 with owner amendments 1 and 2, all summarized here). The coordinating session is `session_01A2qr3tS3VCSPW2hcYk4VEv` (it runs Track D, the asset-class buyer-intent retrofit). It is idle to save credit: report in your own replies, which the owner reads.
 
 ## Hard constraints (never relax)
 - Branches and pull requests only. Never push to main, never merge, never deploy, never call Netlify, IndexNow or Search Console. Landing stays with the integrator on the owner's Mac.
@@ -34,5 +34,9 @@ Tranches of up to six cases (owner amendment 3), one branch and one pull request
 5. `git fetch origin main` then push the branch, open a pull request to main (title "CASE-NEW-1 new cases, tranche c<n>: <cases>"; body: pages, gate summary and the gate output, held cases and why; end with the session's attribution lines). Do not merge. The next tranche branch is cut from this one.
 6. Report: PR link, pages done, gates passed, what is held and why.
 
-## Budget
-The owner's cloud credit is finite and shared with the coordinating session. Check `get_session` (your own) usage after each tranche; when your `cost_usd` passes 100, finish the current tranche's close, push, open its pull request, report, and stop.
+## Budget, reporting and pull requests (owner, 30 Oct, evening)
+- Models: researchers and writers on Sonnet; Opus only for the two attackers; the verifier on Sonnet. Keep your own context lean: delegate reading to subagents and do not re-read large files.
+- The owner has about $130 of cloud credit left in total, shared with the coordinating session. Check your own `cost_usd` with `get_session` (no session_id) before starting each tranche and after closing it. Start a tranche only if your cost so far plus 1.2 times the previous tranche's cost (40 for the first) stays under 115. If your cost passes 120 at any point, stop starting new work: commit only what has passed its review, push, write RESUME.md, report, stop.
+- Run the tranches back to back in queue order (c1 to c4, 24 cases). If credit remains after c4, Track C: the new hubs, starting with a class financed under an SBA or USDA program (meat and poultry processing, cold storage, brewery and distillery), with the same close.
+- After each tranche, report in your reply (the owner reads this session): branch, cases built, gates passed, what is held and why, credit used (your `cost_usd`). Do not message the coordinating session; it is idle to save credit.
+- Pull request: try to open one per tranche. If GitHub refuses (this repository's integration answered 403 to the coordinating session), push the branch and record in `docs/rollout/case-new-1/RESUME.md` the compare link `https://github.com/infommcginvest/Feasibility-study-company.com/compare/main...<branch>?expand=1` and the path of the tranche record; the integrator lands from the branch.
