@@ -1,0 +1,33 @@
+order	tranche	slug	asset_class	state	program	hub_that_links_it	hub_status	tier	note
+1	c1	skilled-nursing-dothan-alabama-hud	skilled nursing	Alabama	hud_232	/asset-classes/skilled-nursing/	live	1 (class has no case)	Dothan: no Alabama state-page use, no case town (A4)
+2	c1	mixed-use-dubuque-iowa-sba	mixed-use	Iowa	sba_504	/asset-classes/mixed-use/	live	1	owner-occupied ground floor with apartments above; the 504 occupancy test comes from sba.json or is a lender condition
+3	c1	event-venue-fredericksburg-texas-sba	event and wedding venue	Texas	sba_504	/asset-classes/event-and-wedding-venue/	promised (track C)	1	the case links the pending hub (A5); the hub links back when it is built
+4	c1	industrial-warehouse-kingsport-tennessee-sba	industrial and warehouse	Tennessee	sba_504	/asset-classes/industrial-and-warehouse/	promised (track C)	1	owner-occupied distribution building
+5	c1	cold-storage-greer-south-carolina-usda	cold storage	South Carolina	usda_bi	/asset-classes/cold-storage/	promised (track C)	1	B&I rural eligibility checked against PA-USDA first; if Greer fails it, sba_504
+6	c1	brewery-roseburg-oregon-sba	brewery and distillery	Oregon	sba_504	/asset-classes/brewery-and-distillery/	promised (track C)	1	a manufacturer under the 504 manufacturer limit in sba.json
+7	c2	wellness-retreat-galena-illinois-usda	wellness and retreat	Illinois	usda_bi	/asset-classes/wellness-and-retreat/	promised (track C)	1	Kerhonkson folded on thin evidence; the pre-count decides Galena the same way
+8	c2	funeral-home-florence-alabama-sba	funeral home	Alabama	sba_7a	/asset-classes/funeral-home/	live	2 (class has one case)	
+9	c2	veterinary-practice-chico-california-sba	veterinary practice	California	sba_504	/asset-classes/veterinary-practice/	live	2	
+10	c2	coffee-shop-san-angelo-texas-sba	coffee shop	Texas	sba_7a	/asset-classes/coffee-shop/	live	2	
+11	c2	laundromat-muncie-indiana-sba	laundromat	Indiana	sba_7a	/asset-classes/laundromat/	live	2	
+12	c2	pet-boarding-williamsport-pennsylvania-sba	pet boarding and daycare	Pennsylvania	sba_504	/asset-classes/pet-boarding-and-daycare/	live	2	
+13	c3	retail-tifton-georgia-sba	retail	Georgia	sba_504	/asset-classes/retail/	live	2	owner-occupied store (504 occupancy test)
+14	c3	auto-dealership-hutchinson-kansas-sba	auto dealership	Kansas	sba_504	/asset-classes/auto-dealership/	live	2	
+15	c3	auto-service-altoona-pennsylvania-sba	auto service and collision	Pennsylvania	sba_7a	/asset-classes/auto-service-and-collision/	live	2	
+16	c3	behavioral-health-elmira-new-york-sba	behavioral health	New York	sba_504	/asset-classes/behavioral-health/	live	2	outpatient clinic; SBA eligibility from sba.json or a lender condition
+17	c3	private-school-gainesville-georgia-sba	private school	Georgia	sba_504	/asset-classes/private-school/	live	2	
+18	c3	childcare-gonzales-louisiana-sba	childcare and daycare	Louisiana	sba_7a	/asset-classes/childcare-and-daycare/	live	3 (new state for a covered class)	handed-off draft, URL not live: finish it with more dated local figures (held 29 Oct on I64)
+19	c4	urgent-care-hagerstown-maryland-sba	urgent care	Maryland	sba_504	/asset-classes/urgent-care/	live	3	
+20	c4	medical-office-roswell-new-mexico-sba	medical office and ASC	New Mexico	sba_504	/asset-classes/medical-office-and-asc/	live	3	
+21	c4	grocery-store-durango-colorado-usda	grocery store	Colorado	usda_bi	/asset-classes/grocery-store/	live	3	
+22	c4	car-wash-texarkana-arkansas-sba	express car wash	Arkansas	sba_504	/asset-classes/express-car-wash/	live	3	
+23	c4	fitness-cedar-city-utah-sba	fitness and recreation	Utah	sba_504	/asset-classes/fitness-and-recreation/	live	3	
+24	c4	hotel-oneonta-new-york-sba	hotel	New York	sba_504	/asset-classes/hotel/	live	3	
+-	held	independent-living (no slug)	independent living and CCRC	-	-	/asset-classes/independent-living-and-ccrc/	promised	1	HUD 232 does not cover independent living and the engine has no other program for it: waits for CASE-ENGINE-1
+-	held	build-to-rent (no slug)	build-to-rent	-	-	/asset-classes/build-to-rent/	promised	1	passive rental real estate: SBA-ineligible; agency, DSCR or conventional need CASE-ENGINE-1
+-	held	manufactured-housing (no slug)	manufactured housing	-	-	/asset-classes/manufactured-housing/	promised	1	as build-to-rent
+-	held	short-term-rental (no slug)	short-term rental	-	-	/asset-classes/short-term-rental/	promised	1	as build-to-rent (yucca-valley also waits for the engine)
+-	held	data-center (no slug)	data center	-	-	/asset-classes/data-center/	promised	1	program fit unproven (a colocation operator leases space): conventional, which needs CASE-ENGINE-1
+-	held	the promised new cases that need CASE-ENGINE-1	-	-	-	-	-	-	hotel-natchitoches-louisiana-eb5, industrial-flex-gardner-kansas-conventional, mixed-use-multifamily-euclid-ohio-eb5, assisted-living-elizabethtown-kentucky-bridge, short-term-rental-yucca-valley-california-conventional, multifamily-clarksville-tennessee-dscr
+-	held	marina-gig-harbor-washington-sba	marina	Washington	-	/asset-classes/marina/	live	3	waits for CASE-ENGINE-1 (SBA transient-revenue eligibility) and a hypothetical subject (owner, 28 Oct)
+-	held	folded promised cases	-	-	-	-	-	-	retreat-center-kerhonkson-new-york-usda (owner fold), and the six the C0 count folded: self-storage-pataskala-ohio-sba, hotel-acquisition-fairlawn-ohio-sba, hotel-hays-kansas-usda, marina-new-baltimore-michigan-sba, marina-shell-knob-missouri-usda, laundromat-acquisition-huron-county-ohio-sba; a fresh public-document pre-count may revive one, never its old research
