@@ -21,3 +21,8 @@ tools/check.sh (builder check), tools/addcards.py (the /case-studies/ cards), to
 
 ## Pushing
 The public remote `origin` was NOT pushed: three commits on main (a03f5624, 0310699e, b5ad4948) carry the sister firm's domain in author and committer, the GEO-5 D9 owner item. Pushing main or any branch containing them publishes that domain in a public repository. Main and the lane branch were pushed to the private `backup` remote only (see CLOSE.md for the hashes).
+
+## CLOUD-1 (4 Nov 2026)
+- Tranche c1 (six new cases from the repository's research): `cloud/case-new-1`, record `tranches/c1.md`, gates `GATES-c1-ready.txt` (13/14). Shipped at the owner's word before the attacker round finished: review the two attacker files and a cold verifier before landing.
+- Tranches c2 and c3 (nine more new cases, unreviewed): `cloud/case-new-1-drafts`, `docs/rollout/case-new-1/cloud-1/drafts/` (README there). Folded: pet-boarding-bismarck-north-dakota-sba.
+- Pull requests are refused for this session's GitHub integration (403). Compare link: https://github.com/<owner>/Feasibility-study-company.com/compare/main...cloud/case-new-1?expand=1 (`<owner>` is the repository's account, not written out: its name matches the ruling 9 pattern).
