@@ -235,7 +235,7 @@
       "value": 0.075,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^27]; the model uses 7.50%, a half point above Prime for a start-up borrower. The bank sets the rate at pricing, and SBA caps the third-party spread."
+      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^27]; the model uses 7.50%, a half point above Prime for a start-up borrower. The bank sets the rate at pricing, and SBA caps the third-party spread"
     },
     "tpl_amort_years": {
       "value": 25,
@@ -247,7 +247,7 @@
       "value": 0.0695,
       "fmt": "%2",
       "label": "504 debenture effective rate, 25-year",
-      "assumption": "A planning rate. The research for this state holds no debenture pricing, and the rate is set when the debenture is sold. A rate lock quote from the CDC replaces it."
+      "assumption": "A planning rate. The research for this state holds no debenture pricing, and the rate is set when the debenture is sold. A rate lock quote from the CDC replaces it"
     },
     "debenture_years": {
       "value": 25,

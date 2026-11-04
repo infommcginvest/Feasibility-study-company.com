@@ -157,7 +157,7 @@
       "value": 0.075,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "A round planning rate set half a point over the Prime rate in the Federal Reserve's H.15 release [^33]. No published 2026 bank terms for a mixed-use loan in El Paso County were found; the bank sets the rate at pricing, and the program caps the third-party spread."
+      "assumption": "A round planning rate set half a point over the Prime rate in the Federal Reserve's H.15 release [^33]. No published 2026 bank terms for a mixed-use loan in El Paso County were found; the bank sets the rate at pricing, and the program caps the third-party spread"
     },
     "tpl_amort_years": {
       "value": 25,
@@ -169,7 +169,7 @@
       "value": 0.07,
       "fmt": "%2",
       "label": "504 debenture rate, 25-year",
-      "assumption": "A round planning rate. The research holds no debenture pricing; the CDC quotes the effective rate at closing, and the study has no basis to estimate a rate beyond the Prime rate in the Federal Reserve's H.15 release [^33]. The rate is a lender condition, and the sensitivity table shows how much room the structure has if it comes in higher."
+      "assumption": "A round planning rate. The research holds no debenture pricing; the CDC quotes the effective rate at closing, and the study has no basis to estimate a rate beyond the Prime rate in the Federal Reserve's H.15 release [^33]. The rate is a lender condition, and the sensitivity table shows how much room the structure has if it comes in higher"
     },
     "debenture_years": {
       "value": 25,

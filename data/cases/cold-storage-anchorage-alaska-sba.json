@@ -253,7 +253,7 @@
       "value": 0.075,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "Prime of 7.00% in the October 9, 2026 H.15 release [^25] plus half a point for a start-up special purpose building. No published Anchorage bank terms were found; the bank sets the rate at pricing."
+      "assumption": "Prime of 7.00% in the October 9, 2026 H.15 release [^25] plus half a point for a start-up special purpose building. No published Anchorage bank terms were found; the bank sets the rate at pricing"
     },
     "tpl_amort_years": {
       "value": 25,
@@ -265,7 +265,7 @@
       "value": 0.069,
       "fmt": "%2",
       "label": "504 debenture effective rate, 25-year",
-      "assumption": "A round planning rate. The research holds no 2026 debenture pricing, and the rate is fixed when the debenture is sold. A CDC rate quote replaces it."
+      "assumption": "A round planning rate. The research holds no 2026 debenture pricing, and the rate is fixed when the debenture is sold. A CDC rate quote replaces it"
     },
     "debenture_years": {
       "value": 25,

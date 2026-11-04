@@ -237,7 +237,7 @@
       "value": 0.075,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^19] plus a half point. No published 2026 bank terms for industrial real estate in Chesapeake were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+      "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^19] plus a half point. No published 2026 bank terms for industrial real estate in Chesapeake were found; the bank sets the rate at pricing, and SBA caps the third-party spread"
     },
     "tpl_amort_years": {
       "value": 25,
@@ -249,7 +249,7 @@
       "value": 0.065,
       "fmt": "%2",
       "label": "504 debenture effective rate, 25-year",
-      "assumption": "The research holds no debenture pricing. The study carries a round 6.5% for a 25-year debenture; the actual rate is set when the debenture is sold, and a CDC quote replaces it."
+      "assumption": "The research holds no debenture pricing. The study carries a round 6.5% for a 25-year debenture; the actual rate is set when the debenture is sold, and a CDC quote replaces it"
     },
     "debenture_years": {
       "value": 25,

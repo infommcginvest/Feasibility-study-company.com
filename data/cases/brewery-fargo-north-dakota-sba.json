@@ -253,7 +253,7 @@
       "value": 0.075,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "Prime of 7.00% on the H.15 release [^29] plus a half point for a start-up production business. No published 2026 bank terms for brewery real estate in Cass County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+      "assumption": "Prime of 7.00% on the H.15 release [^29] plus a half point for a start-up production business. No published 2026 bank terms for brewery real estate in Cass County were found; the bank sets the rate at pricing, and SBA caps the third-party spread"
     },
     "tpl_amort_years": {
       "value": 20,
@@ -265,7 +265,7 @@
       "value": 0.0675,
       "fmt": "%2",
       "label": "504 debenture effective rate",
-      "assumption": "The debenture is sold into the market and priced when it closes; the research for this case holds no pricing, so the study carries a round 6.75%, just under the bank rate. The CDC's quote at closing replaces it."
+      "assumption": "The debenture is sold into the market and priced when it closes; the research for this case holds no pricing, so the study carries a round 6.75%, just under the bank rate. The CDC's quote at closing replaces it"
     },
     "debenture_years": {
       "value": 20,
@@ -277,14 +277,14 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land, about 2.5 acres on the I-29 corridor",
+      "label": "Land, about 2.0 acres on the I-29 corridor",
       "expr": "land_acres * land_per_acre",
       "class": "real_estate",
       "basis": "acres x assumed price per acre"
     },
     {
       "key": "building",
-      "label": "Building, about 12,000 sq ft, production shell and taproom",
+      "label": "Building, about 10,000 sq ft, production shell and taproom",
       "expr": "bldg_sf * bldg_psf",
       "class": "real_estate",
       "basis": "sq ft x assumed hard cost"
