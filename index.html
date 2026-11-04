@@ -1022,6 +1022,8 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
               <li><a href="/states/colorado/" role="menuitem">Colorado</a></li>
               <li><a href="/states/virginia/" role="menuitem">Virginia</a></li>
               <li><a href="/states/south-dakota/" role="menuitem">South Dakota</a></li>
+              <li><a href="/states/north-dakota/" role="menuitem">North Dakota</a></li>
+              <li><a href="/states/alaska/" role="menuitem">Alaska</a></li>
             </ul>
           </div>
           <div class="mega-col metros">
@@ -1102,7 +1104,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
           <div class="stat-label">Asset Classes in Practice</div>
         </div>
         <div class="stat">
-          <div class="stat-num"><!--fsc:count:states-->46<!--/fsc:count:states--></div>
+          <div class="stat-num"><!--fsc:count:states-->48<!--/fsc:count:states--></div>
           <div class="stat-label">State Practice Profiles</div>
         </div>
         <div class="stat">
@@ -1516,6 +1518,8 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
         <li><a href="/states/idaho/">Idaho</a></li>
         <li><a href="/states/nebraska/">Nebraska</a></li>
         <li><a href="/states/south-dakota/">South Dakota</a></li>
+        <li><a href="/states/north-dakota/">North Dakota</a></li>
+        <li><a href="/states/alaska/">Alaska</a></li>
         <li><a href="/states/west-virginia/">West Virginia</a></li>
         <li><a href="/states/hawaii/">Hawaii</a></li>
         <li><a href="/states/new-hampshire/">New Hampshire</a></li>
@@ -1811,7 +1815,8 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
         <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
         <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
       </div>
-      <form class="contact-form" id="fsc-contact-form" novalidate>
+      <form class="contact-form" id="fsc-contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="company_website" novalidate>
+<input type="hidden" name="form-name" value="contact">
         <div class="cf-row">
           <label>Name<input type="text" name="name" required autocomplete="name"></label>
           <label>Email<input type="email" name="email" required autocomplete="email"></label>
@@ -1908,9 +1913,7 @@ dl.glossary dd { font-size: 14.5px; color: var(--grey); line-height: 1.55; margi
     if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
     s.className='cf-status'; s.textContent='Sending...';
     var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
-    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
-      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
-    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
       if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
       else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
     }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })

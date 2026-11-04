@@ -1,0 +1,6 @@
+{
+ "lane": "cloud-1",
+ "requests": [
+  {"id": "cloud-1-1", "kind": "mesh_term", "key": "framework-methodology", "target": "/analytical-framework/", "terms": ["methodology"], "ignore_case": true}
+ ]
+}

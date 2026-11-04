@@ -941,6 +941,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
               <li><a href="/states/colorado/" role="menuitem">Colorado</a></li>
               <li><a href="/states/virginia/" role="menuitem">Virginia</a></li>
               <li><a href="/states/south-dakota/" role="menuitem">South Dakota</a></li>
+              <li><a href="/states/north-dakota/" role="menuitem">North Dakota</a></li>
+              <li><a href="/states/alaska/" role="menuitem">Alaska</a></li>
             </ul>
           </div>
           <div class="mega-col metros">
@@ -1548,7 +1550,8 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
         <p class="contact-alt">Prefer email? <a href="mailto:info@feasibility-study-company.com">info@feasibility-study-company.com</a></p>
         <p class="contact-nda">Need a confidentiality agreement first? <a href="/tools/nda/">Generate an NDA</a></p>
       </div>
-      <form class="contact-form" id="fsc-contact-form" novalidate>
+      <form class="contact-form" id="fsc-contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="company_website" novalidate>
+<input type="hidden" name="form-name" value="contact">
         <div class="cf-row">
           <label>Name<input type="text" name="name" required autocomplete="name"></label>
           <label>Email<input type="email" name="email" required autocomplete="email"></label>
@@ -1645,9 +1648,7 @@ ol.standards-list p { font-size: 14.5px; line-height: 1.55; color: var(--grey); 
     if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
     s.className='cf-status'; s.textContent='Sending...';
     var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
-    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
-      name:name, email:email, organization:el('organization').value.trim(), project_type:el('project_type').value, message:message, company_website:''
-    })}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()}).then(function(r){ return r.json().catch(function(){ return {ok:r.ok}; }); }).then(function(d){
       if(d && d.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); }
       else { s.className='cf-status err'; s.textContent=(d&&d.error)||'Something went wrong. Please email info@feasibility-study-company.com.'; }
     }).catch(function(){ s.className='cf-status err'; s.textContent='Network error. Please email info@feasibility-study-company.com.'; })

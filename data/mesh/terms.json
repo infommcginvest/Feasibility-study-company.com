@@ -783,6 +783,14 @@
       "terms": [
         "District of Columbia"
       ]
+    },
+    {
+      "key": "framework-methodology",
+      "target": "/analytical-framework/",
+      "terms": [
+        "methodology"
+      ],
+      "ignore_case": true
     }
   ]
 }
