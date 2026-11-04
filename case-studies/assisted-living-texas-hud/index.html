@@ -1693,7 +1693,70 @@ table.data.matrix td.base { box-shadow: inset 0 0 0 2px var(--ink); }
   </section>
 </main>
 
-<!--chrome:footer--><footer class="site-footer">
+<!--chrome:footer--><section class="fsc-inquiry" id="inquiry" aria-labelledby="h-inquiry">
+  <div class="frame">
+    <span class="eyebrow">Inquiries</span>
+    <h2 id="h-inquiry">Request a feasibility study.</h2>
+    <p class="fsc-inquiry-lede">Describe the project, the capital source and the timeline, and Feasibility Study Company will reply by email.</p>
+    <form class="contact-form" id="fsc-contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="company_website" novalidate>
+      <input type="hidden" name="form-name" value="contact">
+      <div class="cf-row">
+        <label>Name<input type="text" name="name" required autocomplete="name"></label>
+        <label>Email<input type="email" name="email" required autocomplete="email"></label>
+      </div>
+      <label>Organization<input type="text" name="organization" autocomplete="organization"></label>
+      <label>Project type
+        <select name="project_type">
+          <option value="">Select...</option>
+          <option>SBA 7(a) or 504</option>
+          <option>USDA Rural Development</option>
+          <option>EB-5</option>
+          <option>Conventional or institutional</option>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+      <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+      <div class="cf-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label></div>
+      <button type="submit" class="btn">Send inquiry</button>
+      <p class="cf-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<style>
+.fsc-inquiry { padding: 64px 0; background: #f6f5f2; border-top: 1px solid #e4e2dc; }
+.fsc-inquiry .frame { max-width: 760px; }
+.fsc-inquiry h2 { margin: 8px 0 10px; }
+.fsc-inquiry-lede { margin-bottom: 22px; }
+.fsc-inquiry .contact-form label { display: block; font-size: 13px; font-weight: 600; letter-spacing: .01em; margin-bottom: 16px; }
+.fsc-inquiry .contact-form input, .fsc-inquiry .contact-form select, .fsc-inquiry .contact-form textarea { display: block; width: 100%; margin-top: 6px; padding: 11px 13px; font: inherit; font-size: 15px; background: #fff; border: 1px solid #cfccc4; border-radius: 0; box-sizing: border-box; }
+.fsc-inquiry .contact-form textarea { resize: vertical; }
+.fsc-inquiry .cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.fsc-inquiry .contact-form .btn { margin-top: 4px; border: 0; cursor: pointer; }
+.fsc-inquiry .cf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.fsc-inquiry .cf-status { margin-top: 14px; font-size: 14px; min-height: 20px; }
+.fsc-inquiry .cf-status.ok { color: #0a7d3f; }
+.fsc-inquiry .cf-status.err { color: #b3261e; }
+@media (max-width: 620px) { .fsc-inquiry { padding: 48px 0; } .fsc-inquiry .cf-row { grid-template-columns: 1fr; } }
+</style>
+<script>
+(function(){
+  var f=document.getElementById('fsc-contact-form'); if(!f || !f.closest('.fsc-inquiry')) return;
+  var s=f.querySelector('.cf-status'); var el=function(n){return f.elements[n];};
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(el('company_website') && el('company_website').value){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent.'; f.reset(); return; }
+    var name=el('name').value.trim(), email=el('email').value.trim(), message=el('message').value.trim();
+    if(!name||!email||!message){ s.className='cf-status err'; s.textContent='Please complete name, email, and message.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ s.className='cf-status err'; s.textContent='Please enter a valid email address.'; return; }
+    s.className='cf-status'; s.textContent='Sending...'; var btn=f.querySelector('button[type=submit]'); btn.disabled=true;
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+      .then(function(r){ if(r.ok){ s.className='cf-status ok'; s.textContent='Thank you. Your inquiry has been sent, and we will respond shortly.'; f.reset(); } else { throw new Error(); } })
+      .catch(function(){ s.className='cf-status err'; s.textContent='Something went wrong. Please email info@feasibility-study-company.com.'; })
+      .then(function(){ btn.disabled=false; });
+  });
+})();
+</script>
+<footer class="site-footer">
   <div class="frame">
     <div class="footer-grid">
       <div class="footer-brand">
