@@ -22,28 +22,28 @@
   },
   "inputs": {
     "land": {
-      "value": 1200000,
+      "value": 1400000,
       "fmt": "$",
-      "label": "Land, about 2.5 acres of commercial frontage",
-      "assumption": "A round placeholder, not the price of any parcel. The research prints no Sioux Falls land price: the Bender outlook gives acres sold, 1,120 of unimproved land in 2025, and no dollars per acre [^13]. The round figure is a planning price for about 2.5 acres, not a comparable sale; no sale was found. An appraisal of the actual parcel replaces it."
+      "label": "Land, about 3 acres of commercial frontage",
+      "assumption": "A round placeholder, not the price of any parcel. The research prints no Sioux Falls land price: the Bender outlook gives acres sold, 1,120 of unimproved land in 2025, and no dollars per acre [^13]. The round figure is a planning price for about 3 acres, not a comparable sale; no sale was found. An appraisal of the actual parcel replaces it."
     },
     "site_acres": {
-      "value": 2.5,
+      "value": 3.0,
       "fmt": "n1",
       "label": "Site area, acres",
-      "assumption": "A round figure. An independent store with a 14,000 sq ft building needs room for display rows, customer and employee parking and a service queue, and about 2.5 acres leaves that room. The research holds no dealer site size for Sioux Falls."
+      "assumption": "A round figure. An independent store with an 18,000 sq ft building needs room for display rows, customer and employee parking and a service queue, and about 3 acres leaves that room. The research holds no dealer site size for Sioux Falls."
     },
     "bldg_sf": {
-      "value": 14000,
+      "value": 18000,
       "fmt": "n",
-      "label": "Building, sq ft (showroom, offices, six service bays, reconditioning)",
-      "assumption": "Sized for one independent store with a service department of six bays, a small showroom and offices, and the rest shop and reconditioning space. The research holds no dealer building size for Sioux Falls; this is a planning size."
+      "label": "Building, sq ft (showroom, offices, service bays, reconditioning)",
+      "assumption": "Sized for one independent store with a service department of eight bays, a showroom, offices, and the rest shop and reconditioning space. The research holds no dealer building size for Sioux Falls; this is a planning size set before the model was run, and it is not adjusted to the result."
     },
     "bldg_psf": {
       "value": 190,
       "fmt": "$",
       "label": "Building cost per sq ft",
-      "assumption": "The city's permit statistics put the average valuation of a new single-family dwelling at $321,594 and its average size at 1,572 sq ft [^2], about $205 a sq ft before land. A shop and showroom shell has no kitchens or finished interiors but needs overhead doors, drains and a heavier slab, so the model carries $190. A general contractor's bid replaces it."
+      "assumption": "The city's permit statistics put the average valuation of a new single-family dwelling at $321,594 and its average size at 1,572 sq ft [^2], roughly $205 a sq ft before land. A shop and showroom shell has no kitchens or finished interiors but needs overhead doors, drains and a heavier slab, so the model carries $190. A general contractor's bid replaces it."
     },
     "sitework_per_acre": {
       "value": 180000,
@@ -95,15 +95,15 @@
     },
     "used_units": {
       "value": [
-        440,
-        640,
-        740,
-        790,
-        810
+        405,
+        590,
+        680,
+        725,
+        745
       ],
       "fmt": "n",
       "label": "Used vehicles retailed",
-      "assumption": "The research holds no vehicle sales count for any Sioux Falls dealer. The ramp is an assumption: the store sells to customers who today buy from the dealer establishments the competitor section counts for the metro area [^22], so the model builds slowly and stabilizes in Year 3. Dealer-level sales evidence is a lender condition."
+      "assumption": "The research holds no vehicle sales count for any Sioux Falls dealer, so volume is an assumption: about 13 used vehicles a week in the stabilized year for a store of this size, reached over three years from a standing start. The store sells to customers who today buy from the dealer establishments the competitor section counts for the metro area [^22]. Dealer-level sales evidence is a lender condition, and the result is read as it comes out."
     },
     "used_price": {
       "value": 27500,
@@ -124,10 +124,10 @@
       "assumption": "A round planning figure; the research holds no finance and insurance income. The lender should ask for the store's reserve and product sales mix in the first twelve months of any comparable store."
     },
     "bays": {
-      "value": 6,
+      "value": 8,
       "fmt": "n",
       "label": "Service bays",
-      "assumption": "Matches the building program above; the number of bays is a design choice, not a market fact."
+      "assumption": "Matches the building program above: eight bays in an 18,000 sq ft building; the number of bays is a design choice, not a market fact."
     },
     "bay_util": {
       "value": [
@@ -155,15 +155,15 @@
     },
     "fte": {
       "value": [
-        12,
-        16,
-        18,
+        15,
         19,
-        19
+        21,
+        22,
+        22
       ],
       "fmt": "n",
       "label": "Employees, full-time equivalents (excluding the owner)",
-      "assumption": "Sales, finance, service advisor, technicians, porters and office. The competitor section counts paid employees and establishments for the metro area's dealer classes [^22]; the subject is a single-line store with a small shop and staffs well below a full-line franchised store."
+      "assumption": "Sales, finance, service advisor, technicians, porters and office. The competitor section counts paid employees and establishments for the metro area's dealer classes [^22], which averages in the mid-twenties per establishment; the subject is a single-line store and staffs a little below that average. The headcount follows the building and the eight bays, and was set before the model was run."
     },
     "avg_pay": {
       "value": 58000,
@@ -211,7 +211,7 @@
       "value": 230000,
       "fmt": "$",
       "label": "Utilities, repairs, shop supplies, software, licenses and professional fees, Year 1",
-      "assumption": "A round allowance for the fixed costs of a 14,000 sq ft building and its lot. No Sioux Falls utility rates were found."
+      "assumption": "A round allowance for the fixed costs of an 18,000 sq ft building and its lot. No Sioux Falls utility rates were found."
     },
     "other_growth": {
       "value": 0.03,
@@ -232,10 +232,10 @@
       "assumption": "The research holds no Sioux Falls commercial levy or assessment ratio. 1.5% of cost is a placeholder. The Minnehaha County director of equalization sets the value for the actual parcel."
     },
     "tpl_rate": {
-      "value": 0.0725,
+      "value": 0.075,
       "fmt": "%2",
       "label": "Bank first-lien rate",
-      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^27]; the model uses 7.25%, a quarter point above Prime. The bank sets the rate at pricing, and SBA caps the third-party spread."
+      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^27]; the model uses 7.50%, a half point above Prime for a start-up borrower. The bank sets the rate at pricing, and SBA caps the third-party spread."
     },
     "tpl_amort_years": {
       "value": 25,
@@ -259,14 +259,14 @@
   "uses": [
     {
       "key": "land",
-      "label": "Land, about 2.5 acres",
+      "label": "Land",
       "expr": "land",
       "class": "real_estate",
       "basis": "assumption"
     },
     {
       "key": "building",
-      "label": "Building, 14,000 sq ft",
+      "label": "Building",
       "expr": "bldg_sf * bldg_psf",
       "class": "real_estate",
       "basis": "assumption, [^2]"
@@ -455,7 +455,7 @@
     ],
     [
       "Equity",
-      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured, the new-business tier, which still falls short of the coverage floor"
     ],
     [
       "DSCR in the test year (Year 2)",
@@ -467,7 +467,7 @@
     ],
     [
       "Break-even",
-      "Year 3 covers debt service at all down to {breakeven_value} used vehicles a year ({cushion_pct} below the {in_used_units} underwritten); the {floor} floor holds down to {breakeven_floor_value}"
+      "Year 3 needs {breakeven_value} used vehicles to cover debt service at all, against {in_used_units} underwritten; the {floor} floor needs {breakeven_floor_value}"
     ],
     [
       "Market conclusion",
@@ -475,7 +475,7 @@
     ],
     [
       "Determination",
-      "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets the Year 2 test at the floor"
+      "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): still fails the {floor} test, {dscr_y2} in Year 2; the model does not support the loan at any equity share"
     ]
   ]
 }

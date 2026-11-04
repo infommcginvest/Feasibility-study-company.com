@@ -1,1 +1,7 @@
-{"slug": "cold-storage-anchorage-alaska-sba", "card": "An owner-operated cold storage and refrigerated distribution building near the Anchorage airport, where the register lists no refrigerated warehousing establishment: the 504 structure reaches {dscr_y2} in Year 2 only at {equity_pct} equity, with a {debenture} debenture on a {tpc} project.", "category": "SBA 504 \u00b7 Alaska", "asset": "Cold Storage", "title": "Cold Storage Feasibility Study Case: Anchorage, Alaska, SBA 504"}
+{
+  "slug": "cold-storage-anchorage-alaska-sba",
+  "card": "An owner-operated cold storage and refrigerated distribution building near the Anchorage airport, where the register lists no refrigerated warehousing establishment: Year 2 coverage reaches {dscr_y2} only with {equity_pct} equity, which leaves a {debenture} debenture on a {tpc} project.",
+  "category": "SBA 504 · Alaska",
+  "asset": "Cold Storage",
+  "title": "Cold Storage Feasibility Study Case: Anchorage, Alaska, SBA 504"
+}

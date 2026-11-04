@@ -1,510 +1,510 @@
 {
- "slug": "cold-storage-anchorage-alaska-sba",
- "page": "/case-studies/cold-storage-anchorage-alaska-sba/",
- "program": "sba_504",
- "sba": {
-  "purpose": "startup",
-  "business_age": "new",
-  "special_purpose": true,
-  "manufacturer": false,
-  "rural_fee_waiver": false
- },
- "rule_sources": {
-  "sop": 23,
-  "fees": 24,
-  "prime": 25
- },
- "stabilized_year": 3,
- "dscr_test_year": 2,
- "units": {
-  "label": "cold storage building",
-  "count": 1
- },
- "inputs": {
-  "land_acres": {
-   "value": 3.0,
-   "fmt": "n1",
-   "label": "Land area, acres (hypothetical airport-area industrial site)",
-   "assumption": "A round hypothetical site of about three acres: room for a single-story refrigerated building with truck docks on two sides, trailer staging and a reefer truck yard. A listing acreage would be a property attribute, so the study sizes the site from the building. The site plan fixes the real figure."
+  "slug": "cold-storage-anchorage-alaska-sba",
+  "page": "/case-studies/cold-storage-anchorage-alaska-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": true,
+    "manufacturer": false,
+    "rural_fee_waiver": false
   },
-  "land_per_acre": {
-   "value": 300000,
-   "fmt": "$",
-   "label": "Land cost per acre",
-   "assumption": "The research holds no Anchorage industrial land sale or listing it can print, and broker land evidence is NOT FOUND. The study carries a round $300,000 an acre as a planning figure, to be replaced by an appraisal and an executed land contract."
+  "rule_sources": {
+    "sop": 23,
+    "fees": 24,
+    "prime": 25
   },
-  "bldg_sf": {
-   "value": 20000,
-   "fmt": "n",
-   "label": "Refrigerated building, gross square feet",
-   "assumption": "A round size for a single-story building with coolers, freezers, a dock and a small office. The size is a design assumption, not a market observation; the research holds no Anchorage cold storage building size."
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "cold storage building",
+    "count": 1
   },
-  "bldg_psf": {
-   "value": 340,
-   "fmt": "$",
-   "label": "Building hard cost per square foot, insulated shell, floors and docks",
-   "assumption": "No Anchorage construction cost index was found; the research lists it as NOT FOUND. The study carries a round figure for an insulated panel shell with a heated slab and dock doors, with the refrigeration plant priced separately. A contractor bid replaces it."
+  "inputs": {
+    "land_acres": {
+      "value": 3.0,
+      "fmt": "n1",
+      "label": "Land area, acres (hypothetical airport-area industrial site)",
+      "assumption": "A round hypothetical site of about three acres: room for a single-story refrigerated building with truck docks on two sides, trailer staging and a reefer truck yard. A listing acreage would be a property attribute, so the study sizes the site from the building. The site plan fixes the real figure."
+    },
+    "land_per_acre": {
+      "value": 300000,
+      "fmt": "$",
+      "label": "Land cost per acre",
+      "assumption": "The research holds no Anchorage industrial land sale or listing it can print, and broker land evidence is NOT FOUND. The study carries a round $300,000 an acre as a planning figure, to be replaced by an appraisal and an executed land contract."
+    },
+    "bldg_sf": {
+      "value": 20000,
+      "fmt": "n",
+      "label": "Refrigerated building, gross square feet",
+      "assumption": "A round size for a single-story building with coolers, freezers, a dock and a small office. The size is a design assumption, not a market observation; the research holds no Anchorage cold storage building size."
+    },
+    "bldg_psf": {
+      "value": 340,
+      "fmt": "$",
+      "label": "Building hard cost per square foot, insulated shell, floors and docks",
+      "assumption": "No Anchorage construction cost index was found; the research lists it as NOT FOUND. The study carries a round figure for an insulated panel shell with a heated slab and dock doors, with the refrigeration plant priced separately. A contractor bid replaces it."
+    },
+    "refrig_equip": {
+      "value": 2400000,
+      "fmt": "$",
+      "label": "Refrigeration plant, evaporators, controls and pallet racking",
+      "assumption": "Allowance for a refrigeration plant sized to freezers and coolers, controls and racking for the pallet positions below. No vendor quote was found."
+    },
+    "sitework": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Site work, paving, utility taps, lighting and fencing",
+      "assumption": "Allowance for a three-acre industrial site, including frost-protected paving for truck turning. Utility territory and tap fees were not confirmed."
+    },
+    "contingency_pct": {
+      "value": 0.07,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "Seven percent of building, refrigeration and site work, a round allowance for a priced but unbid special purpose building in a high-cost state."
+    },
+    "soft": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Design, engineering, survey, Phase I, permits, food-safety design review and legal",
+      "assumption": "Allowance. The research found no Anchorage fee schedule for commercial permits; it found only that commercial zoning review now runs 20 business days [^11]."
+    },
+    "trucks": {
+      "value": 420000,
+      "fmt": "$",
+      "label": "Two refrigerated delivery trucks",
+      "assumption": "Allowance for two new reefer straight trucks for the distribution line. A dealer quote replaces it."
+    },
+    "preopen": {
+      "value": 250000,
+      "fmt": "$",
+      "label": "Pre-opening: hiring, training, commissioning, food-safety audits and customer onboarding",
+      "assumption": "Allowance. Staff are trained and the plant is commissioned before the first pallet."
+    },
+    "working_capital": {
+      "value": 450000,
+      "fmt": "$",
+      "label": "Working capital and ramp reserve",
+      "assumption": "An allowance to carry payroll and power while customers move in. The research holds no days-receivable figure."
+    },
+    "positions": {
+      "value": 4200,
+      "fmt": "n",
+      "label": "Pallet positions",
+      "assumption": "A round capacity for about 20,000 square feet of high-bay racked cooler and freezer space. A rack layout fixes the real count; the research holds no Anchorage cold storage capacity."
+    },
+    "occupancy": {
+      "value": [
+        0.45,
+        0.68,
+        0.8,
+        0.84,
+        0.85
+      ],
+      "fmt": "%",
+      "label": "Share of pallet positions occupied, each year",
+      "assumption": "A new operator fills positions as customers sign. The ramp is a planning assumption: the research holds no Anchorage cold storage vacancy, and the air cargo, seafood and grocery volumes that would fill the building are NOT FOUND in a form that reaches it. Signed storage agreements replace it."
+    },
+    "storage_rate": {
+      "value": 42,
+      "fmt": "$",
+      "label": "Storage charge per occupied pallet position per month",
+      "assumption": "No published Anchorage cold storage rate was found. The study carries a round planning rate and treats it as the most important price assumption; signed customer agreements replace it."
+    },
+    "turns": {
+      "value": 10,
+      "fmt": "n",
+      "label": "Pallets handled in and out per occupied position per year",
+      "assumption": "A round planning figure for a mix of grocery and seafood accounts. No Anchorage throughput data was found."
+    },
+    "handling_rate": {
+      "value": 24,
+      "fmt": "$",
+      "label": "Handling charge per pallet received and shipped",
+      "assumption": "A round planning rate for in and out handling. No Anchorage handling tariff was found."
+    },
+    "stops": {
+      "value": [
+        4000,
+        6500,
+        8200,
+        8600,
+        9000
+      ],
+      "fmt": "n",
+      "label": "Refrigerated delivery stops per year",
+      "assumption": "A round ramp for two trucks serving grocery and food service accounts in the Anchorage bowl. The register holds a count of grocery establishments in the county, not any customer commitment."
+    },
+    "rev_per_stop": {
+      "value": 105,
+      "fmt": "$",
+      "label": "Delivery revenue per stop",
+      "assumption": "A round planning figure for a delivery charge per stop. No Anchorage refrigerated delivery tariff was found."
+    },
+    "wh_fte": {
+      "value": [
+        6,
+        7,
+        8,
+        8,
+        8
+      ],
+      "fmt": "n",
+      "label": "Warehouse full-time equivalents",
+      "assumption": "Receiving, put-away, picking and shipping staff at the stabilized volume. A staffing plan replaces it."
+    },
+    "wh_wage": {
+      "value": 60000,
+      "fmt": "$",
+      "label": "Warehouse annual wage before payroll costs",
+      "assumption": "About $29 an hour for a full year. The Anchorage mean hourly wage for all occupations was $36.14 in May 2025 [^5]; the study sets cold-chain warehouse labor at a discount to that all-occupation mean. A local wage survey replaces it."
+    },
+    "drivers": {
+      "value": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fmt": "n",
+      "label": "Delivery drivers",
+      "assumption": "One driver per truck."
+    },
+    "driver_wage": {
+      "value": 66000,
+      "fmt": "$",
+      "label": "Driver annual wage before payroll costs",
+      "assumption": "A round figure set above warehouse labor for commercial drivers, against the all-occupation mean of $36.14 an hour [^5]. The Anchorage transportation and material moving group held 17,980 jobs in May 2025 [^5], so drivers and warehouse hands draw on a large local group."
+    },
+    "mgmt_payroll": {
+      "value": 300000,
+      "fmt": "$",
+      "label": "General manager, operations supervisor, sales and office payroll, before payroll costs",
+      "assumption": "One allowance for four salaried roles. A market salary is charged even where the owner fills a role."
+    },
+    "burden": {
+      "value": 0.22,
+      "fmt": "%",
+      "label": "Payroll taxes, workers compensation and benefits",
+      "assumption": "A round employer cost on wages; no Alaska figure was in the research."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and operating costs",
+      "assumption": "A round 3% a year. Anchorage prices rose 3.3% over twelve months to August 2026 [^6], which the study treats as the upper end for the planning period. Rates charged to customers are held flat."
+    },
+    "kwh_psf": {
+      "value": 40,
+      "fmt": "n",
+      "label": "Electricity use, kilowatt hours per square foot per year",
+      "assumption": "A planning figure for a refrigerated building with freezers. No Anchorage use data was found; a refrigeration engineer replaces it."
+    },
+    "kwh_rate": {
+      "value": 0.22,
+      "fmt": "$2",
+      "label": "Electricity price per kilowatt hour",
+      "assumption": "No Anchorage commercial electric tariff was found, and the utility serving the site is a condition to confirm. A utility rate letter replaces it."
+    },
+    "vehicle": {
+      "value": 140000,
+      "fmt": "$",
+      "label": "Fuel, truck maintenance, licences and truck insurance",
+      "assumption": "One allowance for two delivery trucks."
+    },
+    "insurance": {
+      "value": 130000,
+      "fmt": "$",
+      "label": "Property, liability and spoilage insurance",
+      "assumption": "Allowance for a refrigerated building with stored product. A broker quote replaces it; earthquake cover is a separate lender condition."
+    },
+    "repairs": {
+      "value": 110000,
+      "fmt": "$",
+      "label": "Refrigeration service contract, repairs and janitorial",
+      "assumption": "One allowance for plant service and building repairs."
+    },
+    "supplies_pct": {
+      "value": 0.015,
+      "fmt": "%",
+      "label": "Pallets, wrap, labels and packaging, share of revenue",
+      "assumption": "A round share of revenue."
+    },
+    "admin": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Warehouse software, accounting, phones, licences and food-safety audits",
+      "assumption": "Allowance, per year."
+    },
+    "tax_rate": {
+      "value": 0.011,
+      "fmt": "%2",
+      "label": "Property tax, share of land, building and refrigeration cost",
+      "assumption": "A planning level. The research holds no Anchorage commercial mill rate or assessment ratio, so the levy cannot be computed and is a lender condition."
+    },
+    "reserve_pct": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Replacement reserve, share of refrigeration and truck cost per year",
+      "assumption": "Funds compressor, evaporator and truck replacement over a long cycle."
+    },
+    "tpl_rate": {
+      "value": 0.075,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime of 7.00% in the October 9, 2026 H.15 release [^25] plus half a point for a start-up special purpose building. No published Anchorage bank terms were found; the bank sets the rate at pricing."
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank first-lien amortization",
+      "assumption": "25 years, matching the debenture. A bank may require a shorter term, which would raise debt service."
+    },
+    "debenture_rate": {
+      "value": 0.069,
+      "fmt": "%2",
+      "label": "504 debenture effective rate, 25-year",
+      "assumption": "A round planning rate. The research holds no 2026 debenture pricing, and the rate is fixed when the debenture is sold. A CDC rate quote replaces it."
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Debenture term",
+      "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+    }
   },
-  "refrig_equip": {
-   "value": 2400000,
-   "fmt": "$",
-   "label": "Refrigeration plant, evaporators, controls and pallet racking",
-   "assumption": "Allowance for a refrigeration plant sized to freezers and coolers, controls and racking for the pallet positions below. No vendor quote was found."
-  },
-  "sitework": {
-   "value": 650000,
-   "fmt": "$",
-   "label": "Site work, paving, utility taps, lighting and fencing",
-   "assumption": "Allowance for a three-acre industrial site, including frost-protected paving for truck turning. Utility territory and tap fees were not confirmed."
-  },
-  "contingency_pct": {
-   "value": 0.07,
-   "fmt": "%",
-   "label": "Hard-cost contingency",
-   "assumption": "Seven percent of building, refrigeration and site work, a round allowance for a priced but unbid special purpose building in a high-cost state."
-  },
-  "soft": {
-   "value": 650000,
-   "fmt": "$",
-   "label": "Design, engineering, survey, Phase I, permits, food-safety design review and legal",
-   "assumption": "Allowance. The research found no Anchorage fee schedule for commercial permits; it found only that commercial zoning review now runs 20 business days [^11]."
-  },
-  "trucks": {
-   "value": 420000,
-   "fmt": "$",
-   "label": "Two refrigerated delivery trucks",
-   "assumption": "Allowance for two new reefer straight trucks for the distribution line. A dealer quote replaces it."
-  },
-  "preopen": {
-   "value": 250000,
-   "fmt": "$",
-   "label": "Pre-opening: hiring, training, commissioning, food-safety audits and customer onboarding",
-   "assumption": "Allowance. Staff are trained and the plant is commissioned before the first pallet."
-  },
-  "working_capital": {
-   "value": 450000,
-   "fmt": "$",
-   "label": "Working capital and ramp reserve",
-   "assumption": "Roughly four months of Year 2 operating cost to carry payroll and power while customers move in. The research holds no days-receivable figure."
-  },
-  "positions": {
-   "value": 4200,
-   "fmt": "n",
-   "label": "Pallet positions",
-   "assumption": "A round capacity for about 20,000 square feet of high-bay racked cooler and freezer space. A rack layout fixes the real count; the research holds no Anchorage cold storage capacity."
-  },
-  "occupancy": {
-   "value": [
-    0.45,
-    0.68,
-    0.8,
-    0.84,
-    0.85
-   ],
-   "fmt": "%",
-   "label": "Share of pallet positions occupied, each year",
-   "assumption": "A new operator fills positions as customers sign. The ramp is a planning assumption: the research holds no Anchorage cold storage vacancy, and the air cargo, seafood and grocery volumes that would fill the building are NOT FOUND in a form that reaches it. Signed storage agreements replace it."
-  },
-  "storage_rate": {
-   "value": 42,
-   "fmt": "$",
-   "label": "Storage charge per occupied pallet position per month",
-   "assumption": "No published Anchorage cold storage rate was found. The study carries a round planning rate and treats it as the most important price assumption; signed customer agreements replace it."
-  },
-  "turns": {
-   "value": 10,
-   "fmt": "n",
-   "label": "Pallets handled in and out per occupied position per year",
-   "assumption": "A round planning figure for a mix of grocery and seafood accounts. No Anchorage throughput data was found."
-  },
-  "handling_rate": {
-   "value": 24,
-   "fmt": "$",
-   "label": "Handling charge per pallet received and shipped",
-   "assumption": "A round planning rate for in and out handling. No Anchorage handling tariff was found."
-  },
-  "stops": {
-   "value": [
-    4000,
-    6500,
-    8200,
-    8600,
-    9000
-   ],
-   "fmt": "n",
-   "label": "Refrigerated delivery stops per year",
-   "assumption": "A round ramp for two trucks serving grocery and food service accounts in the Anchorage bowl. The register holds a count of grocery establishments in the county, not any customer commitment."
-  },
-  "rev_per_stop": {
-   "value": 105,
-   "fmt": "$",
-   "label": "Delivery revenue per stop",
-   "assumption": "A round planning figure for a delivery charge per stop. No Anchorage refrigerated delivery tariff was found."
-  },
-  "wh_fte": {
-   "value": [
-    6,
-    7,
-    8,
-    8,
-    8
-   ],
-   "fmt": "n",
-   "label": "Warehouse full-time equivalents",
-   "assumption": "Receiving, put-away, picking and shipping staff at the stabilized volume. A staffing plan replaces it."
-  },
-  "wh_wage": {
-   "value": 60000,
-   "fmt": "$",
-   "label": "Warehouse annual wage before payroll costs",
-   "assumption": "About $29 an hour for a full year. The Anchorage mean hourly wage for all occupations was $36.14 in May 2025 [^5]; the study sets cold-chain warehouse labor at a discount to that all-occupation mean. A local wage survey replaces it."
-  },
-  "drivers": {
-   "value": [
-    2,
-    2,
-    2,
-    2,
-    2
-   ],
-   "fmt": "n",
-   "label": "Delivery drivers",
-   "assumption": "One driver per truck."
-  },
-  "driver_wage": {
-   "value": 66000,
-   "fmt": "$",
-   "label": "Driver annual wage before payroll costs",
-   "assumption": "A round figure set above warehouse labor for commercial drivers, against the all-occupation mean of $36.14 an hour [^5]. The Anchorage transportation and material moving group held 17,980 jobs in May 2025 [^5], so drivers and warehouse hands draw on a large local group."
-  },
-  "mgmt_payroll": {
-   "value": 300000,
-   "fmt": "$",
-   "label": "General manager, operations supervisor, sales and office payroll, before payroll costs",
-   "assumption": "One allowance for four salaried roles. A market salary is charged even where the owner fills a role."
-  },
-  "burden": {
-   "value": 0.22,
-   "fmt": "%",
-   "label": "Payroll taxes, workers compensation and benefits",
-   "assumption": "A round employer cost on wages; no Alaska figure was in the research."
-  },
-  "inflation": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Annual growth in wages and operating costs",
-   "assumption": "A round 3% a year. Anchorage prices rose 3.3% over twelve months to August 2026 [^6], which the study treats as the upper end for the planning period. Rates charged to customers are held flat."
-  },
-  "kwh_psf": {
-   "value": 40,
-   "fmt": "n",
-   "label": "Electricity use, kilowatt hours per square foot per year",
-   "assumption": "A planning figure for a refrigerated building with freezers. No Anchorage use data was found; a refrigeration engineer replaces it."
-  },
-  "kwh_rate": {
-   "value": 0.22,
-   "fmt": "$2",
-   "label": "Electricity price per kilowatt hour",
-   "assumption": "No Anchorage commercial electric tariff was found, and the utility serving the site is a condition to confirm. A utility rate letter replaces it."
-  },
-  "vehicle": {
-   "value": 140000,
-   "fmt": "$",
-   "label": "Fuel, truck maintenance, licences and truck insurance",
-   "assumption": "One allowance for two delivery trucks."
-  },
-  "insurance": {
-   "value": 130000,
-   "fmt": "$",
-   "label": "Property, liability and spoilage insurance",
-   "assumption": "Allowance for a refrigerated building with stored product. A broker quote replaces it; earthquake cover is a separate lender condition."
-  },
-  "repairs": {
-   "value": 110000,
-   "fmt": "$",
-   "label": "Refrigeration service contract, repairs and janitorial",
-   "assumption": "One allowance for plant service and building repairs."
-  },
-  "supplies_pct": {
-   "value": 0.015,
-   "fmt": "%",
-   "label": "Pallets, wrap, labels and packaging, share of revenue",
-   "assumption": "A round share of revenue."
-  },
-  "admin": {
-   "value": 120000,
-   "fmt": "$",
-   "label": "Warehouse software, accounting, phones, licences and food-safety audits",
-   "assumption": "Allowance, per year."
-  },
-  "tax_rate": {
-   "value": 0.011,
-   "fmt": "%2",
-   "label": "Property tax, share of land, building and refrigeration cost",
-   "assumption": "A planning level. The research holds no Anchorage commercial mill rate or assessment ratio, so the levy cannot be computed and is a lender condition."
-  },
-  "reserve_pct": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Replacement reserve, share of refrigeration and truck cost per year",
-   "assumption": "Funds compressor, evaporator and truck replacement over a long cycle."
-  },
-  "tpl_rate": {
-   "value": 0.075,
-   "fmt": "%2",
-   "label": "Bank first-lien rate",
-   "assumption": "Prime of 7.00% in the October 9, 2026 H.15 release [^25] plus half a point for a start-up special purpose building. No published Anchorage bank terms were found; the bank sets the rate at pricing."
-  },
-  "tpl_amort_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Bank first-lien amortization",
-   "assumption": "25 years, matching the debenture. A bank may require a shorter term, which would raise debt service."
-  },
-  "debenture_rate": {
-   "value": 0.069,
-   "fmt": "%2",
-   "label": "504 debenture effective rate, 25-year",
-   "assumption": "A round planning rate. The research holds no 2026 debenture pricing, and the rate is fixed when the debenture is sold. A CDC rate quote replaces it."
-  },
-  "debenture_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Debenture term",
-   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land, about 3 acres near the airport",
-   "expr": "land_acres * land_per_acre",
-   "class": "real_estate",
-   "basis": "acres x assumed price per acre"
-  },
-  {
-   "key": "building",
-   "label": "Refrigerated building, 20,000 sq ft",
-   "expr": "bldg_sf * bldg_psf",
-   "class": "real_estate",
-   "basis": "sq ft x assumed hard cost"
-  },
-  {
-   "key": "sitework",
-   "label": "Site work, paving and utility taps",
-   "expr": "sitework",
-   "class": "real_estate",
-   "basis": "allowance"
-  },
-  {
-   "key": "contingency",
-   "label": "Hard-cost contingency",
-   "expr": "(bldg_sf * bldg_psf + refrig_equip + sitework) * contingency_pct",
-   "class": "real_estate",
-   "basis": "7% of hard cost"
-  },
-  {
-   "key": "soft",
-   "label": "Design, survey, Phase I, permits and legal",
-   "expr": "soft",
-   "class": "real_estate",
-   "basis": "allowance [^11]"
-  },
-  {
-   "key": "refrig",
-   "label": "Refrigeration plant and racking",
-   "expr": "refrig_equip",
-   "class": "equipment",
-   "basis": "allowance"
-  },
-  {
-   "key": "trucks",
-   "label": "Two refrigerated trucks",
-   "expr": "trucks",
-   "class": "equipment",
-   "basis": "allowance"
-  },
-  {
-   "key": "preopen",
-   "label": "Pre-opening and commissioning",
-   "expr": "preopen",
-   "class": "working_capital",
-   "basis": "allowance"
-  },
-  {
-   "key": "wc",
-   "label": "Working capital and ramp reserve",
-   "expr": "working_capital",
-   "class": "working_capital",
-   "basis": "about four months of Year 2 operating cost"
-  }
- ],
- "revenue": [
-  {
-   "key": "storage",
-   "label": "Pallet storage charges",
-   "expr": "positions * occupancy * storage_rate * 12",
-   "basis": "positions x occupancy x monthly rate"
-  },
-  {
-   "key": "handling",
-   "label": "Handling charges",
-   "expr": "positions * occupancy * turns * handling_rate",
-   "basis": "occupied positions x turns x rate"
-  },
-  {
-   "key": "delivery",
-   "label": "Refrigerated delivery",
-   "expr": "stops * rev_per_stop",
-   "basis": "stops x revenue per stop"
-  }
- ],
- "cost_of_sales": [],
- "opex": [
-  {
-   "key": "warehouse",
-   "label": "Warehouse payroll with costs",
-   "expr": "wh_fte * wh_wage * (1 + burden) * (1 + inflation) ** y",
-   "basis": "FTE x wage [^5]"
-  },
-  {
-   "key": "drivers",
-   "label": "Driver payroll with costs",
-   "expr": "drivers * driver_wage * (1 + burden) * (1 + inflation) ** y",
-   "basis": "drivers x wage [^5]"
-  },
-  {
-   "key": "mgmt",
-   "label": "Management and office payroll with costs",
-   "expr": "mgmt_payroll * (1 + burden) * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "power",
-   "label": "Electricity",
-   "expr": "bldg_sf * kwh_psf * kwh_rate * (1 + inflation) ** y",
-   "basis": "sq ft x kWh x price"
-  },
-  {
-   "key": "vehicle",
-   "label": "Fuel and truck costs",
-   "expr": "vehicle * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "insurance",
-   "label": "Insurance",
-   "expr": "insurance * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "repairs",
-   "label": "Refrigeration service and repairs",
-   "expr": "repairs * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "supplies",
-   "label": "Pallets and packaging",
-   "expr": "rev_total * supplies_pct",
-   "basis": "share of revenue"
-  },
-  {
-   "key": "admin",
-   "label": "Software, accounting and audits",
-   "expr": "admin * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + refrig_equip + sitework) * tax_rate",
-   "basis": "cost basis x planning rate"
-  },
-  {
-   "key": "reserve",
-   "label": "Replacement reserve",
-   "expr": "(refrig_equip + trucks) * reserve_pct",
-   "basis": "3% of equipment"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.15,
-  "note": "the sponsor applies the 15% tier for a special purpose property and overlooks that the business is also new"
- },
- "breakeven": {
-  "input": "occupancy",
-  "label": "pallet occupancy"
- },
- "sensitivity": {
-  "rows": {
-   "input": "occupancy",
-   "label": "Pallet occupancy",
-   "steps": [
-    -0.2,
-    -0.1,
-    0,
-    0.05,
-    0.1
-   ]
-  },
-  "cols": {
-   "input": "storage_rate",
-   "label": "Storage charge per pallet",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.075,
-    0.15
-   ]
-  },
-  "year": 2
- },
- "glance": [
-  [
-   "Town, county and corridor",
-   "Anchorage, Municipality of Anchorage, Alaska, in the Ted Stevens airport-area industrial corridor [^1,8]"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land near the airport",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x assumed price per acre"
+    },
+    {
+      "key": "building",
+      "label": "Refrigerated building",
+      "expr": "bldg_sf * bldg_psf",
+      "class": "real_estate",
+      "basis": "sq ft x assumed hard cost"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, paving and utility taps",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(bldg_sf * bldg_psf + refrig_equip + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "7% of hard cost"
+    },
+    {
+      "key": "soft",
+      "label": "Design, survey, Phase I, permits and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance [^11]"
+    },
+    {
+      "key": "refrig",
+      "label": "Refrigeration plant and racking",
+      "expr": "refrig_equip",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "trucks",
+      "label": "Two refrigerated trucks",
+      "expr": "trucks",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "preopen",
+      "label": "Pre-opening and commissioning",
+      "expr": "preopen",
+      "class": "working_capital",
+      "basis": "allowance"
+    },
+    {
+      "key": "wc",
+      "label": "Working capital and ramp reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "about four months of Year 2 operating cost"
+    }
   ],
-  [
-   "Subject (hypothetical)",
-   "Owner-operated cold storage and refrigerated distribution building of about {in_bldg_sf} sq ft on about {in_land_acres} acres, about {in_positions} pallet positions and two delivery trucks; site, owner and operator not specified"
+  "revenue": [
+    {
+      "key": "storage",
+      "label": "Pallet storage charges",
+      "expr": "positions * occupancy * storage_rate * 12",
+      "basis": "positions x occupancy x monthly rate"
+    },
+    {
+      "key": "handling",
+      "label": "Handling charges",
+      "expr": "positions * occupancy * turns * handling_rate",
+      "basis": "occupied positions x turns x rate"
+    },
+    {
+      "key": "delivery",
+      "label": "Refrigerated delivery",
+      "expr": "stops * rev_per_stop",
+      "basis": "stops x revenue per stop"
+    }
   ],
-  [
-   "Program",
-   "SBA 504: bank first lien, CDC debenture and borrower contribution; cold storage is on SBA's special purpose list and the business is new [^23]"
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "warehouse",
+      "label": "Warehouse payroll with costs",
+      "expr": "wh_fte * wh_wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "FTE x wage [^5]"
+    },
+    {
+      "key": "drivers",
+      "label": "Driver payroll with costs",
+      "expr": "drivers * driver_wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "drivers x wage [^5]"
+    },
+    {
+      "key": "mgmt",
+      "label": "Management and office payroll with costs",
+      "expr": "mgmt_payroll * (1 + burden) * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "power",
+      "label": "Electricity",
+      "expr": "bldg_sf * kwh_psf * kwh_rate * (1 + inflation) ** y",
+      "basis": "sq ft x kWh x price"
+    },
+    {
+      "key": "vehicle",
+      "label": "Fuel and truck costs",
+      "expr": "vehicle * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "repairs",
+      "label": "Refrigeration service and repairs",
+      "expr": "repairs * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "supplies",
+      "label": "Pallets and packaging",
+      "expr": "rev_total * supplies_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "admin",
+      "label": "Software, accounting and audits",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + refrig_equip + sitework) * tax_rate",
+      "basis": "cost basis x planning rate"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "(refrig_equip + trucks) * reserve_pct",
+      "basis": "3% of equipment"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc_proposed} as proposed; {tpc} as restructured"
-  ],
-  [
-   "Financing",
-   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
-  ],
-  [
-   "Equity",
-   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
-  ],
-  [
-   "DSCR in the test year (Year 2)",
-   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
-  ],
-  [
-   "Stabilized year (Year 3)",
-   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
-  ],
-  [
-   "Break-even",
-   "Year 3 covers debt service down to {breakeven_value} pallet occupancy ({cushion_pct} below the {in_occupancy} underwritten)"
-  ],
-  [
-   "Market conclusion",
-   "Record air cargo and a stable food-buying base support a cold chain building, but the register lists no refrigerated warehousing cell for the county and no SBA cold storage loan in the state [^8,9]"
-  ],
-  [
-   "Determination",
-   "As proposed ({equity_proposed_pct} equity): see the coverage test. As restructured ({equity_pct} equity, {loan_total} of debt): see the coverage test"
+  "proposed": {
+    "equity_pct": 0.15,
+    "note": "the sponsor applies the 15% tier for a special purpose property and overlooks that the business is also new"
+  },
+  "breakeven": {
+    "input": "occupancy",
+    "label": "pallet occupancy"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "occupancy",
+      "label": "Pallet occupancy",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.05,
+        0.1
+      ]
+    },
+    "cols": {
+      "input": "storage_rate",
+      "label": "Storage charge per pallet",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    },
+    "year": 2
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Anchorage, Municipality of Anchorage, Alaska, in the Ted Stevens airport-area industrial corridor [^1,8]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "Owner-operated cold storage and refrigerated distribution building of about {in_bldg_sf} sq ft on about {in_land_acres} acres, about {in_positions} pallet positions and two delivery trucks; site, owner and operator not specified"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien, CDC debenture and borrower contribution; cold storage is on SBA's special purpose list and the business is new [^23]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured"
+    ],
+    [
+      "Financing",
+      "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+    ],
+    [
+      "Stabilized year (Year 3)",
+      "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service down to {breakeven_value} pallet occupancy ({cushion_pct} below the {in_occupancy} underwritten)"
+    ],
+    [
+      "Market conclusion",
+      "Record air cargo and a stable food-buying base support a cold chain building, but the register lists no refrigerated warehousing cell for the county and no SBA cold storage loan in the state [^8,9]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets both"
+    ]
   ]
- ]
 }

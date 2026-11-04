@@ -1,1 +1,7 @@
-{"slug": "mixed-use-colorado-springs-colorado-sba", "card": "An owner's storefront with six apartments above it in central Colorado Springs, financed with an SBA 504 loan: the sponsor's equity proposal misses the coverage floor, and the structure reaches {dscr_y2} in Year 2 only at {equity_pct} equity, with a {debenture} debenture on a {tpc} project.", "category": "SBA 504 · Colorado", "asset": "Mixed-Use", "title": "Mixed-Use Feasibility Study Case: Colorado Springs, Colorado, SBA 504"}
+{
+  "slug": "mixed-use-colorado-springs-colorado-sba",
+  "card": "An owner's storefront with six apartments above it in central Colorado Springs, financed with an SBA 504 loan: the sponsor's equity proposal misses the coverage floor, and Year 2 coverage reaches {dscr_y2} only when equity rises to {equity_pct}, leaving a {debenture} debenture on a {tpc} project.",
+  "category": "SBA 504 · Colorado",
+  "asset": "Mixed-Use",
+  "title": "Mixed-Use Feasibility Study Case: Colorado Springs, Colorado, SBA 504"
+}

@@ -1,501 +1,501 @@
 {
- "slug": "industrial-warehouse-chesapeake-virginia-sba",
- "page": "/case-studies/industrial-warehouse-chesapeake-virginia-sba/",
- "program": "sba_504",
- "sba": {
-  "purpose": "startup",
-  "business_age": "existing",
-  "special_purpose": false,
-  "manufacturer": false,
-  "rural_fee_waiver": false
- },
- "rule_sources": {
-  "sop": 17,
-  "fees": 18,
-  "prime": 19
- },
- "stabilized_year": 3,
- "dscr_test_year": 2,
- "units": {
-  "label": "distribution building",
-  "count": 1
- },
- "inputs": {
-  "land_acres": {
-   "value": 4.5,
-   "fmt": "n1",
-   "label": "Land area, acres (hypothetical site in southern Chesapeake)",
-   "assumption": "A round hypothetical site of about four and a half acres: room for a single-story building of the size below, a truck court, trailer and van parking, employee parking and a stormwater area. The research holds no Chesapeake site or parcel record, so the study sizes the site from the building. The site plan, not this study, fixes the dock count and the parking."
+  "slug": "industrial-warehouse-chesapeake-virginia-sba",
+  "page": "/case-studies/industrial-warehouse-chesapeake-virginia-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "existing",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
   },
-  "land_per_acre": {
-   "value": 250000,
-   "fmt": "$",
-   "label": "Land cost per acre, improved industrial land",
-   "assumption": "No Chesapeake land sale, assessment or listing is in the research, and the broker page that reports metro industrial sales volume prints no price per acre [^11]. The study carries a round $250,000 an acre as a planning figure; the appraisal and an executed land contract replace it."
+  "rule_sources": {
+    "sop": 17,
+    "fees": 18,
+    "prime": 19
   },
-  "bldg_sf": {
-   "value": 60000,
-   "fmt": "n",
-   "label": "Building, gross square feet",
-   "assumption": "A round size for a single-story, dry (unrefrigerated) distribution building with a small office and sales counter. The research holds no size for a comparable owner-occupied building; the one facility size it prints for the metro is a single project of a different scale [^11] and is not used. The size is a design assumption."
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "distribution building",
+    "count": 1
   },
-  "bldg_psf": {
-   "value": 92,
-   "fmt": "$",
-   "label": "Building hard cost per square foot, shell, slab, docks and office finish",
-   "assumption": "No Chesapeake construction cost, and no cost index against the national level, was found. The study carries a round $92 a square foot for a tilt-wall or metal shell with a reinforced slab, dock doors and a small office. A contractor bid replaces it."
+  "inputs": {
+    "land_acres": {
+      "value": 4.5,
+      "fmt": "n1",
+      "label": "Land area, acres (hypothetical site in southern Chesapeake)",
+      "assumption": "A round hypothetical site of about four and a half acres: room for a single-story building of the size below, a truck court, trailer and van parking, employee parking and a stormwater area. The research holds no Chesapeake site or parcel record, so the study sizes the site from the building. The site plan, not this study, fixes the dock count and the parking."
+    },
+    "land_per_acre": {
+      "value": 250000,
+      "fmt": "$",
+      "label": "Land cost per acre, improved industrial land",
+      "assumption": "No Chesapeake land sale, assessment or listing is in the research, and the broker page that reports metro industrial sales volume prints no price per acre [^11]. The study carries a round $250,000 an acre as a planning figure; the appraisal and an executed land contract replace it."
+    },
+    "bldg_sf": {
+      "value": 60000,
+      "fmt": "n",
+      "label": "Building, gross square feet",
+      "assumption": "A round size for a single-story, dry (unrefrigerated) distribution building with a small office and sales counter. The research holds no size for a comparable owner-occupied building; the one facility size it prints for the metro is a single project of a different scale [^11] and is not used. The size is a design assumption."
+    },
+    "bldg_psf": {
+      "value": 92,
+      "fmt": "$",
+      "label": "Building hard cost per square foot, shell, slab, docks and office finish",
+      "assumption": "No Chesapeake construction cost, and no cost index against the national level, was found. The study carries a round $92 a square foot for a tilt-wall or metal shell with a reinforced slab, dock doors and a small office. A contractor bid replaces it."
+    },
+    "sitework": {
+      "value": 1000000,
+      "fmt": "$",
+      "label": "Site work, paving, truck court, utility taps, lighting and stormwater",
+      "assumption": "An allowance for a site with heavy paving for trucks and trailers. The research found no Chesapeake utility territory, tap fee or stormwater requirement, so the allowance carries paving, drainage, lighting, any line extension and fill. Low ground in the city may raise it; the flood zone is a lender condition."
+    },
+    "contingency_pct": {
+      "value": 0.06,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
+    },
+    "soft": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Design, engineering, survey, Phase I, permits and legal",
+      "assumption": "Allowance for the architect and engineers, the survey, a Phase I environmental assessment, city plan review and permits and loan-closing legal work. The research found no Chesapeake permit fee schedule, so the figure is round."
+    },
+    "racking": {
+      "value": 950000,
+      "fmt": "$",
+      "label": "Racking, dock equipment and forklifts",
+      "assumption": "Allowance for selective racking, dock levelers and seals, a small forklift fleet and handheld scanners. No equipment quote was found; a vendor quote replaces it."
+    },
+    "wms": {
+      "value": 170000,
+      "fmt": "$",
+      "label": "Inventory and order system, network and security",
+      "assumption": "Allowance for the inventory system, network, cameras and access control."
+    },
+    "preopen": {
+      "value": 250000,
+      "fmt": "$",
+      "label": "Move-in: moving stock, hiring, training and licences",
+      "assumption": "Allowance for the weeks in which the building is staffed and stock is moved from the operator's leased space, with overlapping rent and payroll."
+    },
+    "working_capital": {
+      "value": 1100000,
+      "fmt": "$",
+      "label": "Working capital and ramp reserve (inventory and receivables)",
+      "assumption": "Roughly three weeks of Year 2 sales financed in inventory and receivables as stock is added for new accounts. The research holds no inventory-turn or days-sales figure for the market."
+    },
+    "accounts": {
+      "value": [
+        380,
+        430,
+        470,
+        495,
+        510
+      ],
+      "fmt": "n",
+      "label": "Active customer accounts",
+      "assumption": "The operator is an existing regional wholesale distributor that moves its current customers into the building, so Year 1 opens with most of its accounts. It then adds accounts as the larger building lets it stock more lines. The research gives no vacancy, absorption or demand count for distribution in the market, only a metro leasing total [^11], so the ramp is a planning assumption."
+    },
+    "sales_per_account": {
+      "value": 45000,
+      "fmt": "$",
+      "label": "Average annual sales per account",
+      "assumption": "A round planning figure for a mixed account base of contractors, retailers and institutions. The research holds no wholesale sales figure for the market, and the study uses no figure from any operator's books; the operator's trailing sales by account replace it."
+    },
+    "gross_margin": {
+      "value": 0.23,
+      "fmt": "%",
+      "label": "Gross margin on sales",
+      "assumption": "A round planning margin for general-line distribution. No margin series for the market is in the research; the operator's own gross margin by product line replaces it."
+    },
+    "warehouse_fte": {
+      "value": [
+        15,
+        17,
+        18,
+        19,
+        19
+      ],
+      "fmt": "n",
+      "label": "Warehouse and dock full-time equivalents",
+      "assumption": "Receiving, put-away, picking and loading, scaled with sales. The research holds no staffing ratio for distribution."
+    },
+    "wage": {
+      "value": 44000,
+      "fmt": "$",
+      "label": "Average warehouse wage, before payroll costs",
+      "assumption": "A round planning wage for dock and warehouse labor. The metro's mean hourly wage across all occupations was $30.83 in May 2025 [^2] and Chesapeake's average weekly wage across all covered industries was $1,201 in the first quarter of 2026 [^3]; both include every occupation and industry, so the study carries a warehouse wage well below them. The research has no warehouse occupation wage; a local wage survey replaces it."
+    },
+    "drivers": {
+      "value": [
+        7,
+        8,
+        8,
+        9,
+        9
+      ],
+      "fmt": "n",
+      "label": "Drivers and delivery trucks",
+      "assumption": "One driver for each delivery truck. The count follows sales and is a planning assumption."
+    },
+    "driver_wage": {
+      "value": 52000,
+      "fmt": "$",
+      "label": "Average driver wage, before payroll costs",
+      "assumption": "A round planning wage for local delivery drivers. The research holds no driver occupation wage for the metro."
+    },
+    "office_payroll": {
+      "value": 980000,
+      "fmt": "$",
+      "label": "Management, sales, purchasing, customer service and billing payroll, before payroll costs",
+      "assumption": "One allowance for a general manager, a purchasing lead, outside and inside sales staff, customer service and billing. A market salary is charged even where an owner fills a role, so earnings are not inflated by unpaid owner labor."
+    },
+    "truck_cost": {
+      "value": 58000,
+      "fmt": "$",
+      "label": "Delivery truck cost per truck per year: lease, fuel, repairs and insurance",
+      "assumption": "A round planning cost per truck. Trucks are leased, so none is in the project budget. The research holds no fuel, lease or insurance cost for the market."
+    },
+    "burden": {
+      "value": 0.22,
+      "fmt": "%",
+      "label": "Payroll taxes, workers' compensation and benefits",
+      "assumption": "Employer payroll taxes, workers' compensation (which runs high for warehouse work) and a basic benefit package. No Virginia figure was in the research."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and operating costs",
+      "assumption": "A round 3% a year; no inflation series is in the research. Storage and handling rates are held flat, so the model does not assume that customers pay more each year."
+    },
+    "kwh_psf": {
+      "value": 6.5,
+      "fmt": "n1",
+      "label": "Electricity use, kilowatt-hours per square foot per year",
+      "assumption": "A planning load for lighting, dock doors, chargers for electric forklifts and an office, in a building that is not refrigerated. No Chesapeake or Virginia consumption benchmark is in the research."
+    },
+    "elec_price": {
+      "value": 0.1062,
+      "fmt": "$2",
+      "label": "Electricity price, dollars per kilowatt-hour",
+      "source": [
+        16
+      ]
+    },
+    "other_utilities": {
+      "value": 30000,
+      "fmt": "$",
+      "label": "Water, sewer, gas and telecom",
+      "assumption": "Allowance, per year. The research found no Chesapeake water or sewer rate."
+    },
+    "insurance": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Property, liability and cargo-legal liability insurance",
+      "assumption": "Allowance for a distribution building and a warehouse operator's liability cover. A broker's quote replaces it. Coastal wind and flood cover may cost more in this market; the research found no premium figure."
+    },
+    "repairs_psf": {
+      "value": 0.9,
+      "fmt": "$2",
+      "label": "Repairs, maintenance, snow-free paving and roof upkeep, dollars per square foot per year",
+      "assumption": "A round allowance for a new building in its early years."
+    },
+    "equip_ops": {
+      "value": 70000,
+      "fmt": "$",
+      "label": "Forklift power, equipment service and supplies",
+      "assumption": "Allowance, per year, for battery or propane power, service contracts, pallets and wrap."
+    },
+    "admin": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Software licences, accounting, marketing and other administration",
+      "assumption": "One allowance, per year, for the inventory system's licence, the accountant, marketing to new accounts and small recurring costs."
+    },
+    "bad_debt": {
+      "value": 0.004,
+      "fmt": "%2",
+      "label": "Bad debt and credit losses, share of sales",
+      "assumption": "A round allowance for a trade-credit business."
+    },
+    "tax_rate": {
+      "value": 0.011,
+      "fmt": "%2",
+      "label": "Property tax, share of land, building and site cost",
+      "assumption": "A planning level of about one percent of cost. The research holds no Chesapeake real estate tax rate, assessment ratio or assessed value for industrial property, so the levy cannot be computed. The actual levy is a lender condition."
+    },
+    "reserve_psf": {
+      "value": 0.3,
+      "fmt": "$2",
+      "label": "Replacement reserve, dollars per building square foot per year",
+      "assumption": "Funds roof, paving and dock equipment replacement over a long cycle."
+    },
+    "tpl_rate": {
+      "value": 0.075,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^19] plus a half point. No published 2026 bank terms for industrial real estate in Chesapeake were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank first-lien amortization",
+      "assumption": "25 years, matching the debenture. The bank may require a shorter amortization, which would raise debt service."
+    },
+    "debenture_rate": {
+      "value": 0.065,
+      "fmt": "%2",
+      "label": "504 debenture effective rate, 25-year",
+      "assumption": "The research holds no debenture pricing. The study carries a round 6.5% for a 25-year debenture; the actual rate is set when the debenture is sold, and a CDC quote replaces it."
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Debenture term",
+      "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+    }
   },
-  "sitework": {
-   "value": 1000000,
-   "fmt": "$",
-   "label": "Site work, paving, truck court, utility taps, lighting and stormwater",
-   "assumption": "An allowance for a site with heavy paving for trucks and trailers. The research found no Chesapeake utility territory, tap fee or stormwater requirement, so the allowance carries paving, drainage, lighting, any line extension and fill. Low ground in the city may raise it; the flood zone is a lender condition."
-  },
-  "contingency_pct": {
-   "value": 0.06,
-   "fmt": "%",
-   "label": "Hard-cost contingency",
-   "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
-  },
-  "soft": {
-   "value": 650000,
-   "fmt": "$",
-   "label": "Design, engineering, survey, Phase I, permits and legal",
-   "assumption": "Allowance for the architect and engineers, the survey, a Phase I environmental assessment, city plan review and permits and loan-closing legal work. The research found no Chesapeake permit fee schedule, so the figure is round."
-  },
-  "racking": {
-   "value": 950000,
-   "fmt": "$",
-   "label": "Racking, dock equipment and forklifts",
-   "assumption": "Allowance for selective racking, dock levelers and seals, a small forklift fleet and handheld scanners. No equipment quote was found; a vendor quote replaces it."
-  },
-  "wms": {
-   "value": 170000,
-   "fmt": "$",
-   "label": "Inventory and order system, network and security",
-   "assumption": "Allowance for the inventory system, network, cameras and access control."
-  },
-  "preopen": {
-   "value": 250000,
-   "fmt": "$",
-   "label": "Move-in: moving stock, hiring, training and licences",
-   "assumption": "Allowance for the weeks in which the building is staffed and stock is moved from the operator's leased space, with overlapping rent and payroll."
-  },
-  "working_capital": {
-   "value": 1100000,
-   "fmt": "$",
-   "label": "Working capital and ramp reserve (inventory and receivables)",
-   "assumption": "Roughly three weeks of Year 2 sales financed in inventory and receivables as stock is added for new accounts. The research holds no inventory-turn or days-sales figure for the market."
-  },
-  "accounts": {
-   "value": [
-    380,
-    430,
-    470,
-    495,
-    510
-   ],
-   "fmt": "n",
-   "label": "Active customer accounts",
-   "assumption": "The operator is an existing regional wholesale distributor that moves its current customers into the building, so Year 1 opens with most of its accounts. It then adds accounts as the larger building lets it stock more lines. The research gives no vacancy, absorption or demand count for distribution in the market, only a metro leasing total [^11], so the ramp is a planning assumption."
-  },
-  "sales_per_account": {
-   "value": 45000,
-   "fmt": "$",
-   "label": "Average annual sales per account",
-   "assumption": "A round planning figure for a mixed account base of contractors, retailers and institutions. The research holds no wholesale sales figure for the market, and the study uses no figure from any operator's books; the operator's trailing sales by account replace it."
-  },
-  "gross_margin": {
-   "value": 0.23,
-   "fmt": "%",
-   "label": "Gross margin on sales",
-   "assumption": "A round planning margin for general-line distribution. No margin series for the market is in the research; the operator's own gross margin by product line replaces it."
-  },
-  "warehouse_fte": {
-   "value": [
-    15,
-    17,
-    18,
-    19,
-    19
-   ],
-   "fmt": "n",
-   "label": "Warehouse and dock full-time equivalents",
-   "assumption": "Receiving, put-away, picking and loading, scaled with sales. The research holds no staffing ratio for distribution."
-  },
-  "wage": {
-   "value": 44000,
-   "fmt": "$",
-   "label": "Average warehouse wage, before payroll costs",
-   "assumption": "A round planning wage for dock and warehouse labor. The metro's mean hourly wage across all occupations was $30.83 in May 2025 [^2] and Chesapeake's average weekly wage across all covered industries was $1,201 in the first quarter of 2026 [^3]; both include every occupation and industry, so the study carries a warehouse wage well below them. The research has no warehouse occupation wage; a local wage survey replaces it."
-  },
-  "drivers": {
-   "value": [
-    7,
-    8,
-    8,
-    9,
-    9
-   ],
-   "fmt": "n",
-   "label": "Drivers and delivery trucks",
-   "assumption": "One driver for each delivery truck. The count follows sales and is a planning assumption."
-  },
-  "driver_wage": {
-   "value": 52000,
-   "fmt": "$",
-   "label": "Average driver wage, before payroll costs",
-   "assumption": "A round planning wage for local delivery drivers. The research holds no driver occupation wage for the metro."
-  },
-  "office_payroll": {
-   "value": 980000,
-   "fmt": "$",
-   "label": "Management, sales, purchasing, customer service and billing payroll, before payroll costs",
-   "assumption": "One allowance for a general manager, a purchasing lead, outside and inside sales staff, customer service and billing. A market salary is charged even where an owner fills a role, so earnings are not inflated by unpaid owner labor."
-  },
-  "truck_cost": {
-   "value": 58000,
-   "fmt": "$",
-   "label": "Delivery truck cost per truck per year: lease, fuel, repairs and insurance",
-   "assumption": "A round planning cost per truck. Trucks are leased, so none is in the project budget. The research holds no fuel, lease or insurance cost for the market."
-  },
-  "burden": {
-   "value": 0.22,
-   "fmt": "%",
-   "label": "Payroll taxes, workers' compensation and benefits",
-   "assumption": "Employer payroll taxes, workers' compensation (which runs high for warehouse work) and a basic benefit package. No Virginia figure was in the research."
-  },
-  "inflation": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Annual growth in wages and operating costs",
-   "assumption": "A round 3% a year; no inflation series is in the research. Storage and handling rates are held flat, so the model does not assume that customers pay more each year."
-  },
-  "kwh_psf": {
-   "value": 6.5,
-   "fmt": "n1",
-   "label": "Electricity use, kilowatt-hours per square foot per year",
-   "assumption": "A planning load for lighting, dock doors, chargers for electric forklifts and an office, in a building that is not refrigerated. No Chesapeake or Virginia consumption benchmark is in the research."
-  },
-  "elec_price": {
-   "value": 0.1062,
-   "fmt": "$2",
-   "label": "Electricity price, dollars per kilowatt-hour",
-   "source": [
-    16
-   ]
-  },
-  "other_utilities": {
-   "value": 30000,
-   "fmt": "$",
-   "label": "Water, sewer, gas and telecom",
-   "assumption": "Allowance, per year. The research found no Chesapeake water or sewer rate."
-  },
-  "insurance": {
-   "value": 120000,
-   "fmt": "$",
-   "label": "Property, liability and cargo-legal liability insurance",
-   "assumption": "Allowance for a distribution building and a warehouse operator's liability cover. A broker's quote replaces it. Coastal wind and flood cover may cost more in this market; the research found no premium figure."
-  },
-  "repairs_psf": {
-   "value": 0.9,
-   "fmt": "$2",
-   "label": "Repairs, maintenance, snow-free paving and roof upkeep, dollars per square foot per year",
-   "assumption": "A round allowance for a new building in its early years."
-  },
-  "equip_ops": {
-   "value": 70000,
-   "fmt": "$",
-   "label": "Forklift power, equipment service and supplies",
-   "assumption": "Allowance, per year, for battery or propane power, service contracts, pallets and wrap."
-  },
-  "admin": {
-   "value": 120000,
-   "fmt": "$",
-   "label": "Software licences, accounting, marketing and other administration",
-   "assumption": "One allowance, per year, for the inventory system's licence, the accountant, marketing to new accounts and small recurring costs."
-  },
-  "bad_debt": {
-   "value": 0.004,
-   "fmt": "%2",
-   "label": "Bad debt and credit losses, share of sales",
-   "assumption": "A round allowance for a trade-credit business."
-  },
-  "tax_rate": {
-   "value": 0.011,
-   "fmt": "%2",
-   "label": "Property tax, share of land, building and site cost",
-   "assumption": "A planning level of about one percent of cost. The research holds no Chesapeake real estate tax rate, assessment ratio or assessed value for industrial property, so the levy cannot be computed. The actual levy is a lender condition."
-  },
-  "reserve_psf": {
-   "value": 0.3,
-   "fmt": "$2",
-   "label": "Replacement reserve, dollars per building square foot per year",
-   "assumption": "Funds roof, paving and dock equipment replacement over a long cycle."
-  },
-  "tpl_rate": {
-   "value": 0.075,
-   "fmt": "%2",
-   "label": "Bank first-lien rate",
-   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^19] plus a half point. No published 2026 bank terms for industrial real estate in Chesapeake were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
-  },
-  "tpl_amort_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Bank first-lien amortization",
-   "assumption": "25 years, matching the debenture. The bank may require a shorter amortization, which would raise debt service."
-  },
-  "debenture_rate": {
-   "value": 0.065,
-   "fmt": "%2",
-   "label": "504 debenture effective rate, 25-year",
-   "assumption": "The research holds no debenture pricing. The study carries a round 6.5% for a 25-year debenture, a little below the bank rate above because the debenture is sold at a fixed rate; the actual rate is set when the debenture is sold, and a CDC quote replaces it."
-  },
-  "debenture_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Debenture term",
-   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land, about 4.5 acres in southern Chesapeake",
-   "expr": "land_acres * land_per_acre",
-   "class": "real_estate",
-   "basis": "acres x assumed price per acre"
-  },
-  {
-   "key": "building",
-   "label": "Building, 60,000 sq ft, dry distribution",
-   "expr": "bldg_sf * bldg_psf",
-   "class": "real_estate",
-   "basis": "sq ft x assumed hard cost"
-  },
-  {
-   "key": "sitework",
-   "label": "Site work, paving, truck court and utility taps",
-   "expr": "sitework",
-   "class": "real_estate",
-   "basis": "allowance"
-  },
-  {
-   "key": "contingency",
-   "label": "Hard-cost contingency",
-   "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
-   "class": "real_estate",
-   "basis": "6% of building and site work"
-  },
-  {
-   "key": "soft",
-   "label": "Design, survey, Phase I, permits and legal",
-   "expr": "soft",
-   "class": "real_estate",
-   "basis": "allowance"
-  },
-  {
-   "key": "racking",
-   "label": "Racking, dock equipment and forklifts",
-   "expr": "racking",
-   "class": "equipment",
-   "basis": "allowance"
-  },
-  {
-   "key": "wms",
-   "label": "Inventory system, network and security",
-   "expr": "wms",
-   "class": "equipment",
-   "basis": "allowance"
-  },
-  {
-   "key": "preopen",
-   "label": "Move-in, hiring and stock transfer",
-   "expr": "preopen",
-   "class": "working_capital",
-   "basis": "allowance"
-  },
-  {
-   "key": "working_capital",
-   "label": "Working capital and ramp reserve",
-   "expr": "working_capital",
-   "class": "working_capital",
-   "basis": "about three weeks of Year 2 sales"
-  }
- ],
- "revenue": [
-  {
-   "key": "sales",
-   "label": "Wholesale sales",
-   "expr": "accounts * sales_per_account",
-   "basis": "accounts x average sales per account"
-  }
- ],
- "cost_of_sales": [
-  {
-   "key": "goods",
-   "label": "Cost of goods sold",
-   "expr": "rev_total * (1 - gross_margin)",
-   "basis": "sales x (1 - gross margin)"
-  }
- ],
- "opex": [
-  {
-   "key": "warehouse",
-   "label": "Warehouse payroll with costs",
-   "expr": "warehouse_fte * wage * (1 + burden) * (1 + inflation) ** y",
-   "basis": "full-time equivalents x wage"
-  },
-  {
-   "key": "drivers",
-   "label": "Driver payroll with costs",
-   "expr": "drivers * driver_wage * (1 + burden) * (1 + inflation) ** y",
-   "basis": "drivers x wage"
-  },
-  {
-   "key": "office",
-   "label": "Management and sales payroll with costs",
-   "expr": "office_payroll * (1 + burden) * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "trucks",
-   "label": "Delivery trucks: lease, fuel and repairs",
-   "expr": "drivers * truck_cost * (1 + inflation) ** y",
-   "basis": "trucks x cost per truck"
-  },
-  {
-   "key": "power",
-   "label": "Electricity",
-   "expr": "bldg_sf * kwh_psf * elec_price * (1 + inflation) ** y",
-   "basis": "sq ft x kWh x state average price [^16]"
-  },
-  {
-   "key": "utilities",
-   "label": "Water, sewer, gas and telecom",
-   "expr": "other_utilities * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "insurance",
-   "label": "Insurance",
-   "expr": "insurance * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "repairs",
-   "label": "Repairs and maintenance",
-   "expr": "bldg_sf * repairs_psf * (1 + inflation) ** y",
-   "basis": "sq ft x allowance"
-  },
-  {
-   "key": "equip",
-   "label": "Forklift power, service and supplies",
-   "expr": "equip_ops * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "admin",
-   "label": "Software, accounting, marketing and administration",
-   "expr": "admin * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "baddebt",
-   "label": "Bad debt",
-   "expr": "rev_total * bad_debt",
-   "basis": "share of sales"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
-   "basis": "cost basis x planning rate"
-  },
-  {
-   "key": "reserve",
-   "label": "Replacement reserve",
-   "expr": "bldg_sf * reserve_psf",
-   "basis": "sq ft x allowance"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.1,
-  "note": "the sponsor applies the standard tier and asks for the full 504 split"
- },
- "breakeven": {
-  "input": "accounts",
-  "label": "active customer accounts"
- },
- "sensitivity": {
-  "rows": {
-   "input": "accounts",
-   "label": "Active accounts",
-   "steps": [
-    -0.2,
-    -0.1,
-    0,
-    0.1,
-    0.2
-   ]
-  },
-  "cols": {
-   "input": "gross_margin",
-   "label": "Gross margin",
-   "steps": [
-    -0.1,
-    -0.05,
-    0,
-    0.05,
-    0.1
-   ]
-  },
-  "year": 3
- },
- "glance": [
-  [
-   "Town, county and corridor",
-   "Chesapeake, an independent city in the Hampton Roads market of Virginia, on a southern Chesapeake industrial corridor with highway access [^3]; site, owner and operator not specified"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x assumed price per acre"
+    },
+    {
+      "key": "building",
+      "label": "Building",
+      "expr": "bldg_sf * bldg_psf",
+      "class": "real_estate",
+      "basis": "sq ft x assumed hard cost"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, paving, truck court and utility taps",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "6% of building and site work"
+    },
+    {
+      "key": "soft",
+      "label": "Design, survey, Phase I, permits and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "racking",
+      "label": "Racking, dock equipment and forklifts",
+      "expr": "racking",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "wms",
+      "label": "Inventory system, network and security",
+      "expr": "wms",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "preopen",
+      "label": "Move-in, hiring and stock transfer",
+      "expr": "preopen",
+      "class": "working_capital",
+      "basis": "allowance"
+    },
+    {
+      "key": "working_capital",
+      "label": "Working capital and ramp reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "about three weeks of Year 2 sales"
+    }
   ],
-  [
-   "Subject (hypothetical)",
-   "New owner-occupied dry distribution building of about {in_bldg_sf} sq ft on about {in_land_acres} acres, for an established regional wholesale distributor moving out of leased space"
+  "revenue": [
+    {
+      "key": "sales",
+      "label": "Wholesale sales",
+      "expr": "accounts * sales_per_account",
+      "basis": "accounts x average sales per account"
+    }
   ],
-  [
-   "Program",
-   "SBA 504: bank first lien, CDC debenture and borrower contribution; an established operator in a general-purpose building takes the standard equity tier [^17]"
+  "cost_of_sales": [
+    {
+      "key": "goods",
+      "label": "Cost of goods sold",
+      "expr": "rev_total * (1 - gross_margin)",
+      "basis": "sales x (1 - gross margin)"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  "opex": [
+    {
+      "key": "warehouse",
+      "label": "Warehouse payroll with costs",
+      "expr": "warehouse_fte * wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "full-time equivalents x wage"
+    },
+    {
+      "key": "drivers",
+      "label": "Driver payroll with costs",
+      "expr": "drivers * driver_wage * (1 + burden) * (1 + inflation) ** y",
+      "basis": "drivers x wage"
+    },
+    {
+      "key": "office",
+      "label": "Management and sales payroll with costs",
+      "expr": "office_payroll * (1 + burden) * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "trucks",
+      "label": "Delivery trucks: lease, fuel and repairs",
+      "expr": "drivers * truck_cost * (1 + inflation) ** y",
+      "basis": "trucks x cost per truck"
+    },
+    {
+      "key": "power",
+      "label": "Electricity",
+      "expr": "bldg_sf * kwh_psf * elec_price * (1 + inflation) ** y",
+      "basis": "sq ft x kWh x state average price [^16]"
+    },
+    {
+      "key": "utilities",
+      "label": "Water, sewer, gas and telecom",
+      "expr": "other_utilities * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "repairs",
+      "label": "Repairs and maintenance",
+      "expr": "bldg_sf * repairs_psf * (1 + inflation) ** y",
+      "basis": "sq ft x allowance"
+    },
+    {
+      "key": "equip",
+      "label": "Forklift power, service and supplies",
+      "expr": "equip_ops * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "admin",
+      "label": "Software, accounting, marketing and administration",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "baddebt",
+      "label": "Bad debt",
+      "expr": "rev_total * bad_debt",
+      "basis": "share of sales"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+      "basis": "cost basis x planning rate"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "bldg_sf * reserve_psf",
+      "basis": "sq ft x allowance"
+    }
   ],
-  [
-   "Financing",
-   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
-  ],
-  [
-   "Equity",
-   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
-  ],
-  [
-   "DSCR in the test year (Year 2)",
-   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
-  ],
-  [
-   "Stabilized year (Year 3)",
-   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of sales"
-  ],
-  [
-   "Break-even",
-   "Year 3 covers debt service down to {breakeven_value} active accounts ({cushion_pct} below the {in_accounts} underwritten)"
-  ],
-  [
-   "Market conclusion",
-   "A 832.9 thousand-job metro with active industrial leasing and sales supports a distributor, but the record prints no industrial rent or vacancy, so the loan rests on the operator's margin [^1,11]"
-  ],
-  [
-   "Determination",
-   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor applies the standard tier and asks for the full 504 split"
+  },
+  "breakeven": {
+    "input": "accounts",
+    "label": "active customer accounts"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "accounts",
+      "label": "Active accounts",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "gross_margin",
+      "label": "Gross margin",
+      "steps": [
+        -0.1,
+        -0.05,
+        0,
+        0.05,
+        0.1
+      ]
+    },
+    "year": 3
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Chesapeake, an independent city in the Hampton Roads market of Virginia; the research names no corridor, so the road, interchange and parcel are lender conditions; site, owner and operator not specified"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New owner-occupied dry distribution building of about {in_bldg_sf} sq ft on about {in_land_acres} acres, for an established regional wholesale distributor moving out of leased space"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien, CDC debenture and borrower contribution; an established operator in a general-purpose building takes the standard equity tier [^17]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+    ],
+    [
+      "Financing",
+      "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+    ],
+    [
+      "Stabilized year (Year 3)",
+      "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of sales"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service down to {breakeven_value} active accounts ({cushion_pct} below the {in_accounts} underwritten)"
+    ],
+    [
+      "Market conclusion",
+      "A 832.9 thousand-job metro with active industrial leasing and sales supports a distributor, but the record prints no industrial rent or vacancy, so the loan rests on the operator's margin [^1,11]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+    ]
   ]
- ]
 }

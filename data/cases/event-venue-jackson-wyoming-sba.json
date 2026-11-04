@@ -1,456 +1,456 @@
 {
- "slug": "event-venue-jackson-wyoming-sba",
- "page": "/case-studies/event-venue-jackson-wyoming-sba/",
- "program": "sba_504",
- "sba": {
-  "purpose": "startup",
-  "business_age": "new",
-  "special_purpose": false,
-  "manufacturer": false,
-  "rural_fee_waiver": false
- },
- "rule_sources": {
-  "sop": 26,
-  "fees": 27,
-  "prime": 28
- },
- "stabilized_year": 3,
- "dscr_test_year": 2,
- "units": {
-  "label": "venue",
-  "count": 1
- },
- "inputs": {
-  "land_acres": {
-   "value": 2.0,
-   "fmt": "n1",
-   "label": "Land area, acres (hypothetical site on the US-26/89/191 corridor)",
-   "assumption": "A round hypothetical site of about two acres: room for a single-story event hall of the size below, a terrace and lawn for ceremonies, and the parking below. A listing's acreage is a property attribute and not a market figure, so the study sizes the site from the building and the parking and cites no listing. The site plan, not this study, fixes the parking count."
+  "slug": "event-venue-jackson-wyoming-sba",
+  "page": "/case-studies/event-venue-jackson-wyoming-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
   },
-  "land_per_acre": {
-   "value": 650000,
-   "fmt": "$",
-   "label": "Land cost per acre",
-   "assumption": "The research holds no Teton County land sale, asking price or assessed value, and the county's assessed valuation came back as an unreadable file. The study carries a round $650,000 an acre as a planning figure for a small commercial or agricultural-residential parcel near town. It is chosen to be high against a mountain resort county whose median home value is far above the state's [^2], and it is not a sale price. An appraisal and an executed land contract replace it. Land in the county can cost much more than this, and a lender should expect the appraisal to move the project."
+  "rule_sources": {
+    "sop": 26,
+    "fees": 27,
+    "prime": 28
   },
-  "seats": {
-   "value": 150,
-   "fmt": "n",
-   "label": "Seated guests the hall holds",
-   "assumption": "A round capacity for a hall with banquet seating and a dance floor. Event capacity sets the largest wedding the venue can sell and the size of the building. No Teton County venue publishes its capacity in the research, so the figure is a design assumption."
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "venue",
+    "count": 1
   },
-  "parking": {
-   "value": 75,
-   "fmt": "n",
-   "label": "Parking spaces on site",
-   "assumption": "About one space for every two seated guests, plus staff and vendors. The county's parking requirement was not found, and the site plan fixes the real count."
+  "inputs": {
+    "land_acres": {
+      "value": 2.0,
+      "fmt": "n1",
+      "label": "Land area, acres (hypothetical site on the US-26/89/191 corridor)",
+      "assumption": "A round hypothetical site of about two acres: room for a single-story event hall of the size below, a terrace and lawn for ceremonies, and the parking below. A listing's acreage is a property attribute and not a market figure, so the study sizes the site from the building and the parking and cites no listing. The site plan, not this study, fixes the parking count."
+    },
+    "land_per_acre": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Land cost per acre",
+      "assumption": "The research holds no Teton County land sale, asking price or assessed value, and the county's assessed valuation came back as an unreadable file. The study carries a round $650,000 an acre as a planning figure for a small commercial or agricultural-residential parcel near town. It is chosen to be high against a mountain resort county whose median home value is far above the state's [^2], and it is not a sale price. An appraisal and an executed land contract replace it. Land in the county can cost much more than this, and a lender should expect the appraisal to move the project."
+    },
+    "seats": {
+      "value": 150,
+      "fmt": "n",
+      "label": "Seated guests the hall holds",
+      "assumption": "A round capacity for a hall with banquet seating and a dance floor. Event capacity sets the largest wedding the venue can sell and the size of the building. No Teton County venue publishes its capacity in the research, so the figure is a design assumption."
+    },
+    "parking": {
+      "value": 75,
+      "fmt": "n",
+      "label": "Parking spaces on site",
+      "assumption": "About one space for every two seated guests, plus staff and vendors. The county's parking requirement was not found, and the site plan fixes the real count."
+    },
+    "bldg_sf": {
+      "value": 4500,
+      "fmt": "n",
+      "label": "Building, gross square feet: event hall, bridal and groom suites, catering prep room, restrooms",
+      "assumption": "A round size for a single-story hall that seats the guests above at tables, with two preparation suites, a warming kitchen for outside caterers and public restrooms. No Teton County venue publishes its square footage in the research. The size is a design assumption."
+    },
+    "bldg_psf": {
+      "value": 400,
+      "fmt": "$",
+      "label": "Building hard cost per square foot, finished event hall",
+      "assumption": "The research holds no Jackson construction cost and no cost index against the national level. The study carries a round $400 a square foot for a finished timber-frame hall with heating, a commercial kitchen shell and restrooms, a planning figure for a mountain county where labor and materials arrive from a distance. A contractor bid replaces it."
+    },
+    "sitework": {
+      "value": 420000,
+      "fmt": "$",
+      "label": "Site work: driveway, parking, water and septic or sewer service, lighting, landscaping",
+      "assumption": "An allowance for a two-acre site with parking and a ceremony lawn. The research found no utility provider, no sewer availability and no septic rule for the subject, so the allowance carries a line extension or an on-site system as a lump sum. The utility answer is a lender condition."
+    },
+    "contingency_pct": {
+      "value": 0.06,
+      "fmt": "%",
+      "label": "Hard-cost contingency",
+      "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
+    },
+    "soft": {
+      "value": 320000,
+      "fmt": "$",
+      "label": "Design, survey, Phase I, county and town permits, liquor licensing and legal",
+      "assumption": "Allowance. It covers the architect and engineers, a survey and Phase I environmental assessment, plan review and permits, liquor and catering licensing and loan-closing legal work. The research found no Teton County permit count or fee schedule (it lists permit counts as not found), so the figure is round."
+    },
+    "ffe": {
+      "value": 300000,
+      "fmt": "$",
+      "label": "Tables, chairs, linens, lighting, sound, outdoor furniture and a small vehicle",
+      "assumption": "Allowance for an event inventory sized to the hall: tables, chairs, linens, lighting, sound and projection, ceremony furniture, a ceremony arch and a utility vehicle. A vendor quote replaces it."
+    },
+    "preopen": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Pre-opening: hiring, website, photography, wedding platform listings and open-house events",
+      "assumption": "Allowance. A venue sells a year or more ahead, so marketing and staffing run ahead of the first booking. The research holds no booking lead-time figure."
+    },
+    "working_capital": {
+      "value": 300000,
+      "fmt": "$",
+      "label": "Working capital and off-season reserve",
+      "assumption": "Roughly five months of Year 2 operating cost. A mountain venue earns most of its revenue between late spring and early autumn and carries its payroll, insurance and heat through the winter; the reserve funds that gap and the deposits-for-bookings timing. The research holds no seasonality series for events."
+    },
+    "weddings": {
+      "value": [
+        14,
+        24,
+        28,
+        30,
+        31
+      ],
+      "fmt": "n",
+      "label": "Weddings per year",
+      "assumption": "The model ramps a newcomer from 14 weddings in Year 1 to 28 in Year 3 and 31 by Year 5. The ceiling is the calendar: the study assumes about 22 summer weekends and counts a Friday and a Saturday as the two days that sell, 44 premium dates, so 28 weddings fill about two in three. No Teton County venue publishes bookings, and the research holds no wedding count or occupancy series for any venue. The demand evidence is visitor volume and airport traffic [^5,6], not weddings. A booking-calendar study of competing venues should replace it."
+    },
+    "wedding_fee": {
+      "value": 20000,
+      "fmt": "$",
+      "label": "Wedding rental fee, per event (venue only, caterer and bar extra)",
+      "assumption": "A round planning fee for a weekend-day rental of the hall, grounds and preparation suites. No Teton County venue publishes a price in the research, and rates found on wedding marketplaces would be undated. The fee is set high against a resort county with 3,800,648 recreation visits to Grand Teton National Park in 2025 [^6], and the sensitivity table moves it across a wide range. A mystery-shop of competing venues' published and quoted rates replaces it."
+    },
+    "events": {
+      "value": [
+        20,
+        32,
+        40,
+        42,
+        44
+      ],
+      "fmt": "n",
+      "label": "Other private and corporate events per year",
+      "assumption": "Rehearsal dinners, corporate retreats, family reunions, benefits, holiday parties and winter events, which fill weekdays and the shoulder and winter months. The ramp is slower than weddings because corporate and benefit buyers book through relationships. No venue count of such events is in the research. The study assumes 40 in Year 3, under one a week."
+    },
+    "event_fee": {
+      "value": 8000,
+      "fmt": "$",
+      "label": "Fee per non-wedding event",
+      "assumption": "A round planning fee for a weekday or winter rental, set well under the wedding fee. No local rate was found."
+    },
+    "addon_per_event": {
+      "value": 3500,
+      "fmt": "$",
+      "label": "Net add-ons per event: bar commission, rentals, coordination, lighting and heaters",
+      "assumption": "Revenue the venue keeps from services sold with the rental, before the cost of sales below. It assumes the venue permits outside caterers and takes a commission on the bar and a fee for rentals; the actual structure depends on the county liquor licensing rules, which the research did not find."
+    },
+    "addon_cost_pct": {
+      "value": 0.4,
+      "fmt": "%",
+      "label": "Cost of add-ons, share of add-on revenue",
+      "assumption": "A round share for the bar stock, rented items and subcontracted labor behind the add-on line."
+    },
+    "staff_payroll": {
+      "value": 160000,
+      "fmt": "$",
+      "label": "Venue manager, coordinator and grounds and maintenance staff, before payroll costs",
+      "assumption": "Three year-round positions as one allowance. A market salary is charged even when an owner fills a role, so earnings are not inflated by unpaid owner labor. The research holds no Teton County wage figure for hospitality or events."
+    },
+    "burden": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Payroll taxes, workers' compensation and benefits",
+      "assumption": "A round share for employer payroll taxes, workers' compensation and a basic benefit package; no Wyoming figure is in the research."
+    },
+    "event_labor": {
+      "value": 1000,
+      "fmt": "$",
+      "label": "Event-day labor per event: setup, parking, security, cleaning",
+      "assumption": "A round cost per event for hourly and contract labor on the day. The research holds no event labor rate."
+    },
+    "inflation": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and operating costs",
+      "assumption": "A round 3% a year; no inflation series is in the research. Rental fees are held flat, so the model does not assume that couples or companies pay more each year."
+    },
+    "insurance": {
+      "value": 60000,
+      "fmt": "$",
+      "label": "Property, general liability and liquor liability insurance",
+      "assumption": "Allowance for a public-assembly building with alcohol served on site. A broker's quote replaces it."
+    },
+    "utilities": {
+      "value": 70000,
+      "fmt": "$",
+      "label": "Utilities, heat, snow removal and waste",
+      "assumption": "Allowance for electric, propane or gas, water and sewer or septic service, and winter snow removal on a mountain site. Which providers serve the parcel was not confirmed."
+    },
+    "marketing": {
+      "value": 50000,
+      "fmt": "$",
+      "label": "Marketing: wedding platforms, website, photography, trade and tourism listings",
+      "assumption": "Allowance, per year. A new venue has to buy its visibility among established competitors, which the register counts only by proxy [^3]."
+    },
+    "repairs": {
+      "value": 60000,
+      "fmt": "$",
+      "label": "Repairs, grounds, janitorial and equipment replacement",
+      "assumption": "Allowance, per year, for a timber building, a lawn and a fleet of tables and chairs used outdoors."
+    },
+    "admin": {
+      "value": 40000,
+      "fmt": "$",
+      "label": "Accounting, licences, software and other administration",
+      "assumption": "Allowance, per year."
+    },
+    "tax_rate": {
+      "value": 0.0065,
+      "fmt": "%2",
+      "label": "Property tax, share of land, building and site cost",
+      "assumption": "A planning level of about two thirds of one percent of cost. The research lists Teton County assessed valuation and mill levy as not found (the file came back as binary), so the commercial assessment ratio and the combined rate on the site cannot be computed. The actual levy is a lender condition."
+    },
+    "reserve_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Replacement reserve, share of furniture and equipment cost per year",
+      "assumption": "Funds replacement of tables, chairs, linens and audio equipment over a long cycle."
+    },
+    "tpl_rate": {
+      "value": 0.075,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^28] plus a half point for a start-up venue. No published 2026 bank terms for event-venue real estate in Teton County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank first-lien amortization",
+      "assumption": "25 years, matching the debenture. The bank may require a shorter term on a special purpose property, which would raise debt service."
+    },
+    "debenture_rate": {
+      "value": 0.07,
+      "fmt": "%2",
+      "label": "504 debenture effective rate, 25-year",
+      "assumption": "A round planning rate. No debenture pricing notice is in this case's research, and the rate is set when the debenture is sold. A CDC's rate sheet on the day of application replaces it."
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Debenture term",
+      "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+    }
   },
-  "bldg_sf": {
-   "value": 4500,
-   "fmt": "n",
-   "label": "Building, gross square feet: event hall, bridal and groom suites, catering prep room, restrooms",
-   "assumption": "A round size for a single-story hall that seats the guests above at tables, with two preparation suites, a warming kitchen for outside caterers and public restrooms. No Teton County venue publishes its square footage in the research. The size is a design assumption."
-  },
-  "bldg_psf": {
-   "value": 400,
-   "fmt": "$",
-   "label": "Building hard cost per square foot, finished event hall",
-   "assumption": "The research holds no Jackson construction cost and no cost index against the national level. The study carries a round $400 a square foot for a finished timber-frame hall with heating, a commercial kitchen shell and restrooms, a planning figure for a mountain county where labor and materials arrive from a distance. A contractor bid replaces it."
-  },
-  "sitework": {
-   "value": 420000,
-   "fmt": "$",
-   "label": "Site work: driveway, parking, water and septic or sewer service, lighting, landscaping",
-   "assumption": "An allowance for a two-acre site with parking and a ceremony lawn. The research found no utility provider, no sewer availability and no septic rule for the subject, so the allowance carries a line extension or an on-site system as a lump sum. The utility answer is a lender condition."
-  },
-  "contingency_pct": {
-   "value": 0.06,
-   "fmt": "%",
-   "label": "Hard-cost contingency",
-   "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
-  },
-  "soft": {
-   "value": 320000,
-   "fmt": "$",
-   "label": "Design, survey, Phase I, county and town permits, liquor licensing and legal",
-   "assumption": "Allowance. It covers the architect and engineers, a survey and Phase I environmental assessment, plan review and permits, liquor and catering licensing and loan-closing legal work. The research found no Teton County permit count or fee schedule (it lists permit counts as not found), so the figure is round."
-  },
-  "ffe": {
-   "value": 300000,
-   "fmt": "$",
-   "label": "Tables, chairs, linens, lighting, sound, outdoor furniture and a small vehicle",
-   "assumption": "Allowance for an event inventory sized to the hall: tables, chairs, linens, lighting, sound and projection, ceremony furniture, a ceremony arch and a utility vehicle. A vendor quote replaces it."
-  },
-  "preopen": {
-   "value": 120000,
-   "fmt": "$",
-   "label": "Pre-opening: hiring, website, photography, wedding platform listings and open-house events",
-   "assumption": "Allowance. A venue sells a year or more ahead, so marketing and staffing run ahead of the first booking. The research holds no booking lead-time figure."
-  },
-  "working_capital": {
-   "value": 300000,
-   "fmt": "$",
-   "label": "Working capital and off-season reserve",
-   "assumption": "Roughly five months of Year 2 operating cost. A mountain venue earns most of its revenue between late spring and early autumn and carries its payroll, insurance and heat through the winter; the reserve funds that gap and the deposits-for-bookings timing. The research holds no seasonality series for events."
-  },
-  "weddings": {
-   "value": [
-    14,
-    24,
-    28,
-    30,
-    31
-   ],
-   "fmt": "n",
-   "label": "Weddings per year",
-   "assumption": "The model ramps a newcomer from 14 weddings in Year 1 to 28 in Year 3 and 31 by Year 5. The ceiling is the calendar: the study assumes about 22 summer weekends and counts a Friday and a Saturday as the two days that sell, 44 premium dates, so 28 weddings fill about two in three. No Teton County venue publishes bookings, and the research holds no wedding count or occupancy series for any venue. The demand evidence is visitor volume and airport traffic [^5,6], not weddings. A booking-calendar study of competing venues should replace it."
-  },
-  "wedding_fee": {
-   "value": 20000,
-   "fmt": "$",
-   "label": "Wedding rental fee, per event (venue only, caterer and bar extra)",
-   "assumption": "A round planning fee for a weekend-day rental of the hall, grounds and preparation suites. No Teton County venue publishes a price in the research, and rates found on wedding marketplaces would be undated. The fee is set high against a resort county with 3,800,648 recreation visits to Grand Teton National Park in 2025 [^6], and the sensitivity table moves it across a wide range. A mystery-shop of competing venues' published and quoted rates replaces it."
-  },
-  "events": {
-   "value": [
-    20,
-    32,
-    40,
-    42,
-    44
-   ],
-   "fmt": "n",
-   "label": "Other private and corporate events per year",
-   "assumption": "Rehearsal dinners, corporate retreats, family reunions, benefits, holiday parties and winter events, which fill weekdays and the shoulder and winter months. The ramp is slower than weddings because corporate and benefit buyers book through relationships. No venue count of such events is in the research. The study assumes 40 in Year 3, under one a week."
-  },
-  "event_fee": {
-   "value": 8000,
-   "fmt": "$",
-   "label": "Fee per non-wedding event",
-   "assumption": "A round planning fee for a weekday or winter rental, set well under the wedding fee. No local rate was found."
-  },
-  "addon_per_event": {
-   "value": 3500,
-   "fmt": "$",
-   "label": "Net add-ons per event: bar commission, rentals, coordination, lighting and heaters",
-   "assumption": "Revenue the venue keeps from services sold with the rental, before the cost of sales below. It assumes the venue permits outside caterers and takes a commission on the bar and a fee for rentals; the actual structure depends on the county liquor licensing rules, which the research did not find."
-  },
-  "addon_cost_pct": {
-   "value": 0.4,
-   "fmt": "%",
-   "label": "Cost of add-ons, share of add-on revenue",
-   "assumption": "A round share for the bar stock, rented items and subcontracted labor behind the add-on line."
-  },
-  "staff_payroll": {
-   "value": 160000,
-   "fmt": "$",
-   "label": "Venue manager, coordinator and grounds and maintenance staff, before payroll costs",
-   "assumption": "Three year-round positions as one allowance. A market salary is charged even when an owner fills a role, so earnings are not inflated by unpaid owner labor. The research holds no Teton County wage figure for hospitality or events."
-  },
-  "burden": {
-   "value": 0.18,
-   "fmt": "%",
-   "label": "Payroll taxes, workers' compensation and benefits",
-   "assumption": "A round share for employer payroll taxes, workers' compensation and a basic benefit package; no Wyoming figure is in the research."
-  },
-  "event_labor": {
-   "value": 1000,
-   "fmt": "$",
-   "label": "Event-day labor per event: setup, parking, security, cleaning",
-   "assumption": "A round cost per event for hourly and contract labor on the day. The research holds no event labor rate."
-  },
-  "inflation": {
-   "value": 0.03,
-   "fmt": "%",
-   "label": "Annual growth in wages and operating costs",
-   "assumption": "A round 3% a year; no inflation series is in the research. Rental fees are held flat, so the model does not assume that couples or companies pay more each year."
-  },
-  "insurance": {
-   "value": 60000,
-   "fmt": "$",
-   "label": "Property, general liability and liquor liability insurance",
-   "assumption": "Allowance for a public-assembly building with alcohol served on site. A broker's quote replaces it."
-  },
-  "utilities": {
-   "value": 70000,
-   "fmt": "$",
-   "label": "Utilities, heat, snow removal and waste",
-   "assumption": "Allowance for electric, propane or gas, water and sewer or septic service, and winter snow removal on a mountain site. Which providers serve the parcel was not confirmed."
-  },
-  "marketing": {
-   "value": 50000,
-   "fmt": "$",
-   "label": "Marketing: wedding platforms, website, photography, trade and tourism listings",
-   "assumption": "Allowance, per year. A new venue has to buy its visibility among established competitors, which the register counts only by proxy [^3]."
-  },
-  "repairs": {
-   "value": 60000,
-   "fmt": "$",
-   "label": "Repairs, grounds, janitorial and equipment replacement",
-   "assumption": "Allowance, per year, for a timber building, a lawn and a fleet of tables and chairs used outdoors."
-  },
-  "admin": {
-   "value": 40000,
-   "fmt": "$",
-   "label": "Accounting, licences, software and other administration",
-   "assumption": "Allowance, per year."
-  },
-  "tax_rate": {
-   "value": 0.0065,
-   "fmt": "%2",
-   "label": "Property tax, share of land, building and site cost",
-   "assumption": "A planning level of about two thirds of one percent of cost. The research lists Teton County assessed valuation and mill levy as not found (the file came back as binary), so the commercial assessment ratio and the combined rate on the site cannot be computed. The actual levy is a lender condition."
-  },
-  "reserve_pct": {
-   "value": 0.05,
-   "fmt": "%",
-   "label": "Replacement reserve, share of furniture and equipment cost per year",
-   "assumption": "Funds replacement of tables, chairs, linens and audio equipment over a long cycle."
-  },
-  "tpl_rate": {
-   "value": 0.075,
-   "fmt": "%2",
-   "label": "Bank first-lien rate",
-   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^28] plus a half point for a start-up venue. No published 2026 bank terms for event-venue real estate in Teton County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
-  },
-  "tpl_amort_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Bank first-lien amortization",
-   "assumption": "25 years, matching the debenture. The bank may require a shorter term on a special purpose property, which would raise debt service."
-  },
-  "debenture_rate": {
-   "value": 0.07,
-   "fmt": "%2",
-   "label": "504 debenture effective rate, 25-year",
-   "assumption": "A round planning rate. No debenture pricing notice is in this case's research, and the rate is set when the debenture is sold. A CDC's rate sheet on the day of application replaces it."
-  },
-  "debenture_years": {
-   "value": 25,
-   "fmt": "yr",
-   "label": "Debenture term",
-   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
-  }
- },
- "uses": [
-  {
-   "key": "land",
-   "label": "Land, about 2 acres on the US-26/89/191 corridor",
-   "expr": "land_acres * land_per_acre",
-   "class": "real_estate",
-   "basis": "acres x assumed price per acre"
-  },
-  {
-   "key": "building",
-   "label": "Building, 4,500 sq ft event hall",
-   "expr": "bldg_sf * bldg_psf",
-   "class": "real_estate",
-   "basis": "sq ft x assumed hard cost"
-  },
-  {
-   "key": "sitework",
-   "label": "Site work, parking, utilities and lighting",
-   "expr": "sitework",
-   "class": "real_estate",
-   "basis": "allowance"
-  },
-  {
-   "key": "contingency",
-   "label": "Hard-cost contingency",
-   "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
-   "class": "real_estate",
-   "basis": "6% of building and site work"
-  },
-  {
-   "key": "soft",
-   "label": "Design, survey, Phase I, permits, licensing and legal",
-   "expr": "soft",
-   "class": "real_estate",
-   "basis": "allowance"
-  },
-  {
-   "key": "ffe",
-   "label": "Furniture, lighting, sound and vehicle",
-   "expr": "ffe",
-   "class": "equipment",
-   "basis": "allowance"
-  },
-  {
-   "key": "preopen",
-   "label": "Pre-opening marketing and hiring",
-   "expr": "preopen",
-   "class": "working_capital",
-   "basis": "allowance"
-  },
-  {
-   "key": "working_capital",
-   "label": "Working capital and off-season reserve",
-   "expr": "working_capital",
-   "class": "working_capital",
-   "basis": "about five months of Year 2 operating cost"
-  }
- ],
- "revenue": [
-  {
-   "key": "weddings",
-   "label": "Wedding rentals",
-   "expr": "weddings * wedding_fee",
-   "basis": "weddings x fee"
-  },
-  {
-   "key": "events",
-   "label": "Other private and corporate events",
-   "expr": "events * event_fee",
-   "basis": "events x fee"
-  },
-  {
-   "key": "addons",
-   "label": "Add-ons: bar commission, rentals and coordination",
-   "expr": "(weddings + events) * addon_per_event",
-   "basis": "events x net add-on revenue"
-  }
- ],
- "cost_of_sales": [
-  {
-   "key": "addons",
-   "label": "Cost of add-ons",
-   "expr": "rev_addons * addon_cost_pct",
-   "basis": "share of add-on revenue"
-  }
- ],
- "opex": [
-  {
-   "key": "staff",
-   "label": "Venue staff payroll with costs",
-   "expr": "staff_payroll * (1 + burden) * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "labor",
-   "label": "Event-day labor",
-   "expr": "(weddings + events) * event_labor * (1 + inflation) ** y",
-   "basis": "events x cost per event"
-  },
-  {
-   "key": "insurance",
-   "label": "Insurance",
-   "expr": "insurance * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "utilities",
-   "label": "Utilities, heat and snow removal",
-   "expr": "utilities * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "marketing",
-   "label": "Marketing and platform fees",
-   "expr": "marketing * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "repairs",
-   "label": "Repairs, grounds and janitorial",
-   "expr": "repairs * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "admin",
-   "label": "Accounting, licences and administration",
-   "expr": "admin * (1 + inflation) ** y",
-   "basis": "allowance"
-  },
-  {
-   "key": "tax",
-   "label": "Property tax",
-   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
-   "basis": "cost basis x planning rate"
-  },
-  {
-   "key": "reserve",
-   "label": "Replacement reserve",
-   "expr": "ffe * reserve_pct",
-   "basis": "5% of furniture and equipment"
-  }
- ],
- "proposed": {
-  "equity_pct": 0.1,
-  "note": "the sponsor applies the standard 504 contribution and overlooks that the business is new"
- },
- "breakeven": {
-  "input": "weddings",
-  "label": "weddings a year"
- },
- "sensitivity": {
-  "rows": {
-   "input": "weddings",
-   "label": "Weddings",
-   "steps": [
-    -0.2,
-    -0.1,
-    0,
-    0.1,
-    0.2
-   ]
-  },
-  "cols": {
-   "input": "wedding_fee",
-   "label": "Wedding rental fee",
-   "steps": [
-    -0.15,
-    -0.075,
-    0,
-    0.075,
-    0.15
-   ]
-  },
-  "year": 2
- },
- "glance": [
-  [
-   "Town, county and corridor",
-   "Jackson, Teton County, Wyoming, on the US-26/89/191 corridor between town and the national parks [^1,5]"
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land on the US-26/89/191 corridor",
+      "expr": "land_acres * land_per_acre",
+      "class": "real_estate",
+      "basis": "acres x assumed price per acre"
+    },
+    {
+      "key": "building",
+      "label": "Building, event hall",
+      "expr": "bldg_sf * bldg_psf",
+      "class": "real_estate",
+      "basis": "sq ft x assumed hard cost"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, parking, utilities and lighting",
+      "expr": "sitework",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "contingency",
+      "label": "Hard-cost contingency",
+      "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+      "class": "real_estate",
+      "basis": "6% of building and site work"
+    },
+    {
+      "key": "soft",
+      "label": "Design, survey, Phase I, permits, licensing and legal",
+      "expr": "soft",
+      "class": "real_estate",
+      "basis": "allowance"
+    },
+    {
+      "key": "ffe",
+      "label": "Furniture, lighting, sound and vehicle",
+      "expr": "ffe",
+      "class": "equipment",
+      "basis": "allowance"
+    },
+    {
+      "key": "preopen",
+      "label": "Pre-opening marketing and hiring",
+      "expr": "preopen",
+      "class": "working_capital",
+      "basis": "allowance"
+    },
+    {
+      "key": "working_capital",
+      "label": "Working capital and off-season reserve",
+      "expr": "working_capital",
+      "class": "working_capital",
+      "basis": "about five months of Year 2 operating cost"
+    }
   ],
-  [
-   "Subject (hypothetical)",
-   "New event and wedding venue: a single-story hall of about {in_bldg_sf} sq ft seating about {in_seats} guests, with terrace and lawn and {in_parking} parking spaces, on about {in_land_acres} acres; site, owner and operator not specified"
+  "revenue": [
+    {
+      "key": "weddings",
+      "label": "Wedding rentals",
+      "expr": "weddings * wedding_fee",
+      "basis": "weddings x fee"
+    },
+    {
+      "key": "events",
+      "label": "Other private and corporate events",
+      "expr": "events * event_fee",
+      "basis": "events x fee"
+    },
+    {
+      "key": "addons",
+      "label": "Add-ons: bar commission, rentals and coordination",
+      "expr": "(weddings + events) * addon_per_event",
+      "basis": "events x net add-on revenue"
+    }
   ],
-  [
-   "Program",
-   "SBA 504: bank first lien, CDC debenture and borrower contribution; the borrower is a new business [^26]"
+  "cost_of_sales": [
+    {
+      "key": "addons",
+      "label": "Cost of add-ons",
+      "expr": "rev_addons * addon_cost_pct",
+      "basis": "share of add-on revenue"
+    }
   ],
-  [
-   "Total project cost",
-   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  "opex": [
+    {
+      "key": "staff",
+      "label": "Venue staff payroll with costs",
+      "expr": "staff_payroll * (1 + burden) * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "labor",
+      "label": "Event-day labor",
+      "expr": "(weddings + events) * event_labor * (1 + inflation) ** y",
+      "basis": "events x cost per event"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "utilities",
+      "label": "Utilities, heat and snow removal",
+      "expr": "utilities * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing and platform fees",
+      "expr": "marketing * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "repairs",
+      "label": "Repairs, grounds and janitorial",
+      "expr": "repairs * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "admin",
+      "label": "Accounting, licences and administration",
+      "expr": "admin * (1 + inflation) ** y",
+      "basis": "allowance"
+    },
+    {
+      "key": "tax",
+      "label": "Property tax",
+      "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+      "basis": "cost basis x planning rate"
+    },
+    {
+      "key": "reserve",
+      "label": "Replacement reserve",
+      "expr": "ffe * reserve_pct",
+      "basis": "5% of furniture and equipment"
+    }
   ],
-  [
-   "Financing",
-   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
-  ],
-  [
-   "Equity",
-   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
-  ],
-  [
-   "DSCR in the test year (Year 2)",
-   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
-  ],
-  [
-   "Stabilized year (Year 3)",
-   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
-  ],
-  [
-   "Break-even",
-   "Year 3 covers debt service down to {breakeven_value} weddings a year ({cushion_pct} below the {in_weddings} underwritten)"
-  ],
-  [
-   "Market conclusion",
-   "A county that draws millions of park visitors and a record airport year can fill a wedding calendar, but the venue supply and booking evidence are not public and land is costly [^5,6,3]"
-  ],
-  [
-   "Determination",
-   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor applies the standard 504 contribution and overlooks that the business is new"
+  },
+  "breakeven": {
+    "input": "weddings",
+    "label": "weddings a year"
+  },
+  "sensitivity": {
+    "rows": {
+      "input": "weddings",
+      "label": "Weddings",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "wedding_fee",
+      "label": "Wedding rental fee",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    },
+    "year": 2
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Jackson, Teton County, Wyoming, on the US-26/89/191 corridor between town and the national parks [^1,5]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New event and wedding venue: a single-story hall of about {in_bldg_sf} sq ft seating about {in_seats} guests, with terrace and lawn and {in_parking} parking spaces, on about {in_land_acres} acres; site, owner and operator not specified"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien, CDC debenture and borrower contribution; the borrower is a new business [^26]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+    ],
+    [
+      "Financing",
+      "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+    ],
+    [
+      "Stabilized year (Year 3)",
+      "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service down to {breakeven_value} weddings a year ({cushion_pct} below the {in_weddings} underwritten)"
+    ],
+    [
+      "Market conclusion",
+      "A county that draws millions of park visitors and a record airport year can fill a wedding calendar, but the venue supply and booking evidence are not public and land is costly [^5,6,3]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets both"
+    ]
   ]
- ]
 }

@@ -1,1 +1,7 @@
-{"slug": "event-venue-jackson-wyoming-sba", "card": "A new wedding and event venue on the US-26/89/191 corridor in Jackson, Wyoming: the 504 structure reaches {dscr_y2} in Year 2 only at {equity_pct} equity, with a {debenture} debenture on a {tpc} project.", "category": "SBA 504 \u00b7 Wyoming", "asset": "Event & Wedding Venue", "title": "Event Venue Feasibility Study Case: Jackson, Wyoming, SBA 504"}
+{
+  "slug": "event-venue-jackson-wyoming-sba",
+  "card": "A new wedding and event venue on the US-26/89/191 corridor in Jackson, Wyoming: Year 2 coverage reaches {dscr_y2} only with {equity_pct} equity, which leaves a {debenture} debenture on a {tpc} project.",
+  "category": "SBA 504 · Wyoming",
+  "asset": "Event & Wedding Venue",
+  "title": "Event Venue Feasibility Study Case: Jackson, Wyoming, SBA 504"
+}
