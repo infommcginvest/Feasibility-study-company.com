@@ -54,6 +54,28 @@
   status = 404
   force = true
 
+# Common typed addresses for the about page and the contact form (CLOUD-1 site check, 4 Nov 2026). The practice's
+# about page is /the-practice/ and the inquiry form sits on the home page.
+[[redirects]]
+  from = "/about"
+  to = "/the-practice/"
+  status = 301
+
+[[redirects]]
+  from = "/about-us"
+  to = "/the-practice/"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/#contact"
+  status = 301
+
 # Retired asset-class paths, kept alive for anything that linked to them. Each
 # alias answers 301 to the hub that now covers it. /asset-classes/industrial/
 # gets its redirect when the industrial-and-warehouse hub ships, not before.
