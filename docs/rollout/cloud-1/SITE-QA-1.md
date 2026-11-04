@@ -29,3 +29,6 @@ Merge, run the chain (it re-renders every page's header region), gates, deploy. 
 ## Noted, not changed
 - The desktop header has no Case Studies item (it is in the footer and on the home page). Adding one is a `data/site/chrome.json` change and a desktop layout decision: owner's call.
 - External links (census.gov, bls.gov, sba.gov and others, about 2,400 in all) could not be checked from the cloud: the network policy refuses those hosts.
+
+## Pull request
+Refused by GitHub for this session's integration (403, 4 Nov). The branch is pushed; the integrator lands from it. Compare link: https://github.com/<owner>/Feasibility-study-company.com/compare/main...cloud/site-qa-1?expand=1 (`<owner>` is the repository's GitHub account, left out because its name matches the ruling 9 pattern).
