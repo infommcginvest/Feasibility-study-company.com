@@ -133,23 +133,28 @@
     },
     "/asset-classes/event-and-wedding-venue/": {
       "name": "event and wedding venue",
-      "family": "Hospitality and outdoor recreation"
+      "family": "Hospitality and outdoor recreation",
+      "slug_prefix": "event-venue-"
     },
     "/asset-classes/brewery-and-distillery/": {
       "name": "brewery and distillery",
-      "family": "Food and retail"
+      "family": "Food and retail",
+      "slug_prefix": "brewery-"
     },
     "/asset-classes/wellness-and-retreat/": {
       "name": "wellness and retreat",
-      "family": "Hospitality and outdoor recreation"
+      "family": "Hospitality and outdoor recreation",
+      "slug_prefix": "wellness-retreat-"
     },
     "/asset-classes/industrial-and-warehouse/": {
       "name": "industrial and warehouse",
-      "family": "Industrial and logistics"
+      "family": "Industrial and logistics",
+      "slug_prefix": "industrial-warehouse-"
     },
     "/asset-classes/cold-storage/": {
       "name": "cold storage",
-      "family": "Industrial and logistics"
+      "family": "Industrial and logistics",
+      "slug_prefix": "cold-storage-"
     },
     "/asset-classes/data-center/": {
       "name": "data center",

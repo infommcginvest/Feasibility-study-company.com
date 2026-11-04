@@ -1278,6 +1278,10 @@
    "lane": "geo-1",
    "class": "metro"
   },
+  "/states/alaska/": {
+   "lane": "case-new-1",
+   "class": "metro"
+  },
   "/states/arizona/": {
    "lane": "geo-4",
    "class": "state"
@@ -1429,6 +1433,10 @@
   "/states/delaware/": {
    "lane": "geo-2",
    "class": "state"
+  },
+  "/states/district-of-columbia/": {
+   "lane": "case-new-1",
+   "class": "metro"
   },
   "/states/florida/": {
    "lane": "geo-1",
@@ -2194,6 +2202,10 @@
    "lane": "geo-1",
    "class": "metro"
   },
+  "/states/north-dakota/": {
+   "lane": "case-new-1",
+   "class": "metro"
+  },
   "/states/ohio/": {
    "lane": "geo-3",
    "class": "state"
@@ -2438,6 +2450,10 @@
    "lane": "geo-4",
    "class": "metro"
   },
+  "/states/vermont/": {
+   "lane": "case-new-1",
+   "class": "metro"
+  },
   "/states/virginia/northern-virginia/": {
    "lane": "geo-5",
    "class": "metro"
@@ -2512,6 +2528,10 @@
   },
   "/states/wisconsin/wisconsin-dells/": {
    "lane": "geo-3",
+   "class": "metro"
+  },
+  "/states/wyoming/": {
+   "lane": "case-new-1",
    "class": "metro"
   }
  }
