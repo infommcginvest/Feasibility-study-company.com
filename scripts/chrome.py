@@ -35,6 +35,17 @@ import links  # noqa: E402
 ROOT = links.ROOT
 CHROME = os.path.join(ROOT, "data", "site", "chrome.json")
 
+# Every page's house CSS hides the header links under 680px and leaves only the Inquiries button, so phones had no
+# menu. This rule, rendered inside the header region on every page, shows the primary links as a wrapped second row
+# instead, and lets the taller header scroll away rather than stay stuck over the page (CLOUD-1 site check,
+# 4 Nov 2026). Desktop and tablet widths are untouched.
+MOBILE_NAV = ("<style>@media (max-width: 680px) {"
+              " .site-header { position: static; }"
+              " .site-header .header-row { height: auto; flex-wrap: wrap; row-gap: 10px; padding-top: 12px; padding-bottom: 10px; }"
+              " .site-header .site-nav { flex: 1 0 100%; flex-wrap: wrap; gap: 8px 18px; padding-top: 10px; border-top: 1px solid var(--line); }"
+              " .site-header .site-nav a:not(.btn), .site-header .site-nav .mobile-markets { display: inline-block; font-size: 14px; }"
+              " .site-header .site-nav .btn { padding: 7px 14px; font-size: 14px; }"
+              " }</style>")
 HEADER_REGION = re.compile(r"<!--chrome:header-->.*?<!--/chrome:header-->", re.S)
 FOOTER_REGION = re.compile(r"<!--chrome:footer-->.*?<!--/chrome:footer-->", re.S)
 RAW_HEADER = re.compile(r'<header class="site-header">.*?</header>', re.S)
@@ -152,6 +163,7 @@ def render_header(ctx, c):
     out.append('    </nav>')
     out.append('  </div>')
     out.append('</header>')
+    out.append(MOBILE_NAV)
     return "<!--chrome:header-->" + "\n".join(out) + "<!--/chrome:header-->"
 
 
