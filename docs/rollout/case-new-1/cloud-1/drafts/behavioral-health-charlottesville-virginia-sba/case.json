@@ -1,0 +1,454 @@
+{
+ "slug": "behavioral-health-charlottesville-virginia-sba",
+ "page": "/case-studies/behavioral-health-charlottesville-virginia-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "existing",
+  "special_purpose": true,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 20,
+  "fees": 21,
+  "prime": 22
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "clinic",
+  "count": 1
+ },
+ "inputs": {
+  "bldg_sf": {
+   "value": 11000,
+   "fmt": "n",
+   "label": "Building purchased, gross square feet (existing two-story office building with its lot)",
+   "assumption": "A round size for an existing office building that the practice buys with its lot: enough rooms for the clinician roster below, a group room and a waiting area. The research holds no building sale, listing or assessment for the city or county, so the study sizes the building from the roster and not from any property. Appraisal and a survey replace it."
+  },
+  "price_psf": {
+   "value": 235,
+   "fmt": "$",
+   "label": "Purchase price per square foot, building and lot",
+   "assumption": "No Charlottesville or Albemarle commercial sale is in the research, and the housing prices in it (a median listing of $530,250 in the city and $596,870 in the county [^4,5]) are homes, not offices. The study carries a round $235 a square foot as a planning price for a small suburban office building; an appraisal and an executed contract replace it."
+  },
+  "reno_psf": {
+   "value": 80,
+   "fmt": "$",
+   "label": "Renovation per square foot: sound-isolated therapy rooms, group room, secure intake, accessibility",
+   "assumption": "No local construction cost is in the research. The study carries a round $80 a square foot to convert an office floor plan into small sound-isolated rooms with a secure entry, a group room and accessible restrooms. A contractor bid replaces it."
+  },
+  "contingency_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Renovation contingency",
+   "assumption": "Eight percent of renovation cost, a round allowance for a priced but unbid conversion of an older building."
+  },
+  "soft": {
+   "value": 170000,
+   "fmt": "$",
+   "label": "Architect, survey, Phase I, appraisal, change-of-use permits and legal",
+   "assumption": "Allowance. It covers drawings for the conversion, a survey, a Phase I environmental assessment, an appraisal, county permit review and closing legal work. The research holds no permit fee schedule, so the figure is round."
+  },
+  "ffe_it": {
+   "value": 240000,
+   "fmt": "$",
+   "label": "Furniture, telehealth rooms, records system, network, door security and phones",
+   "assumption": "Allowance for consulting-room furniture, a video-visit setup in each room, the electronic records system, a network and door access control. No vendor quote is in the research."
+  },
+  "preopen": {
+   "value": 95000,
+   "fmt": "$",
+   "label": "Move, licence updates, payer address changes and overlapping rent",
+   "assumption": "Allowance for the move from leased space, the practice's licence and payer-enrollment updates for the new address, and about two months when both buildings are paid for. The research holds no licensing timetable, so the figure is round."
+  },
+  "working_capital": {
+   "value": 400000,
+   "fmt": "$",
+   "label": "Working capital and ramp reserve",
+   "assumption": "Roughly three months of Year 2 operating cost. Payers pay weeks after a visit while clinicians are paid every two weeks, and the research holds no days-in-receivables figure for the market."
+  },
+  "therapists": {
+   "value": [
+    11,
+    13,
+    14,
+    14,
+    14
+   ],
+   "fmt": "n",
+   "label": "Licensed therapists, full-time equivalents",
+   "assumption": "The practice moves from leased rooms into a building with space for more clinicians. The study ramps therapists from 8 in Year 1 to 13 in Year 3 as recruiting catches up with the larger building. The roster is a planning assumption; no clinician count for any local practice is in the research."
+  },
+  "prescribers": {
+   "value": [
+    2,
+    2.5,
+    3,
+    3,
+    3
+   ],
+   "fmt": "n1",
+   "label": "Prescribers (psychiatrist or psychiatric nurse practitioner), full-time equivalents",
+   "assumption": "A small prescriber group that adds medication management to talk therapy. Prescribers are the scarcest clinicians, so the ramp is slower than the therapists'. A planning assumption."
+  },
+  "ther_cap": {
+   "value": 1100,
+   "fmt": "n",
+   "label": "Visits per therapist per year at full booking",
+   "assumption": "About 21 visits a week over 47 working weeks. A planning figure for a full caseload after holidays, leave and cancellations. No local productivity figure is in the research."
+  },
+  "presc_cap": {
+   "value": 2000,
+   "fmt": "n",
+   "label": "Visits per prescriber per year at full booking",
+   "assumption": "About 8 short medication-management visits a day over 47 weeks of four and a half working days. A planning figure; no local figure is in the research."
+  },
+  "fill": {
+   "value": [
+    0.8,
+    0.88,
+    0.91,
+    0.91,
+    0.91
+   ],
+   "fmt": "%",
+   "label": "Booked share of clinician capacity",
+   "assumption": "The share of full-booking visits that are actually kept. A move and new hires cost bookings in Year 1; the study ramps to 84% in Year 3 and 86% from Year 4. Bookings depend on referral sources and payer panels that the research does not describe, so the practice's own trailing schedule and waitlist should replace this ramp. It is the volume driver tested in the break-even and the sensitivity matrix."
+  },
+  "net_ther": {
+   "value": 150,
+   "fmt": "$",
+   "label": "Net collected revenue per therapy visit",
+   "assumption": "The research holds no payer mix, allowed amount or collection rate, and no practice posts a price. The study carries a round $125 net per visit, blended across commercial plans, Medicaid and self-pay after denials. The payer mix is the largest unknown in the model and a lender condition."
+  },
+  "net_med": {
+   "value": 174,
+   "fmt": "$",
+   "label": "Net collected revenue per medication-management visit",
+   "assumption": "A round blended planning figure for a short prescriber visit, after denials and across payers. No local rate is in the research."
+  },
+  "rate_index": {
+   "value": 1.0,
+   "fmt": "n2",
+   "label": "Collected-rate index applied to every visit",
+   "assumption": "A multiplier on both visit rates. At 1.00 the rates above apply; the sensitivity matrix moves it to test a payer rate cut or a worse payer mix."
+  },
+  "ther_wage": {
+   "value": 60000,
+   "fmt": "$",
+   "label": "Therapist salary, before payroll costs",
+   "assumption": "A round planning wage for licensed counselors and clinical social workers. No Charlottesville or Albemarle wage for these occupations is in the research; the only local wage figure is the all-industry covered-employment wage, which includes every profession [^2]. A local wage survey replaces it."
+  },
+  "presc_wage": {
+   "value": 155000,
+   "fmt": "$",
+   "label": "Prescriber salary, before payroll costs",
+   "assumption": "A round blended planning wage for psychiatric nurse practitioners and psychiatrists. No local wage is in the research. A recruiting quote replaces it."
+  },
+  "admin_payroll": {
+   "value": 300000,
+   "fmt": "$",
+   "label": "Practice manager, intake, front desk and records staff, before payroll costs",
+   "assumption": "A clinical director, a practice manager and about five front-office and records staff, as one allowance. A market salary is charged even when an owner fills a role, so earnings are not inflated by unpaid owner labor."
+  },
+  "burden": {
+   "value": 0.17,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package. No Virginia figure is in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year; no inflation series is in the research. Visit rates are held flat, so the model does not assume that payers pay more each year."
+  },
+  "billing_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Billing, credentialing and collections service, share of revenue",
+   "assumption": "A round share of collected revenue for outsourced billing, payer credentialing and claim follow-up."
+  },
+  "insurance": {
+   "value": 70000,
+   "fmt": "$",
+   "label": "Professional liability, general liability, cyber and property insurance",
+   "assumption": "Allowance for a clinic with sixteen clinicians and a records system. A broker's quote replaces it."
+  },
+  "utilities": {
+   "value": 40000,
+   "fmt": "$",
+   "label": "Utilities",
+   "assumption": "Allowance for electric, gas, water, sewer and internet on a building of this size. The research holds no utility provider or rate for the site; the electric supplier is a lender condition."
+  },
+  "it_software": {
+   "value": 70000,
+   "fmt": "$",
+   "label": "Records system, scheduling, telehealth platform and phones, per year",
+   "assumption": "Allowance, per year."
+  },
+  "marketing": {
+   "value": 40000,
+   "fmt": "$",
+   "label": "Referral outreach and recruiting, per year",
+   "assumption": "Allowance. A practice that has just doubled its rooms has to fill them through referral sources and recruiting; the research names no local referral source."
+  },
+  "admin_other": {
+   "value": 80000,
+   "fmt": "$",
+   "label": "Janitorial, repairs, licences, continuing education, accounting and legal, per year",
+   "assumption": "One allowance for the small recurring costs of a clinic building and a licensed practice."
+  },
+  "tax_rate": {
+   "value": 0.01,
+   "fmt": "%2",
+   "label": "Property tax, share of purchase and renovation cost",
+   "assumption": "A planning level of about one percent of cost. The research holds no Albemarle or Charlottesville tax rate or assessment ratio, so the levy cannot be computed; the actual levy is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Replacement reserve, share of renovation and fixture cost per year",
+   "assumption": "Funds replacement of finishes, the roof and systems over a long cycle."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^22] plus a half point. No published 2026 bank terms for medical or professional-office real estate in Albemarle County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. The bank may require a shorter amortization on a health facility, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.067,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "assumption": "The research holds no debenture pricing. The study carries a round 6.7% for a 25-year debenture; the actual rate is set when the debenture is sold, and a CDC quote replaces it."
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because the building and its renovation are the majority of project cost."
+  }
+ },
+ "uses": [
+  {
+   "key": "building",
+   "label": "Existing office building and lot, about 11,000 sq ft",
+   "expr": "bldg_sf * price_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed price"
+  },
+  {
+   "key": "reno",
+   "label": "Renovation to therapy rooms, group room and secure intake",
+   "expr": "bldg_sf * reno_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed cost"
+  },
+  {
+   "key": "contingency",
+   "label": "Renovation contingency",
+   "expr": "bldg_sf * reno_psf * contingency_pct",
+   "class": "real_estate",
+   "basis": "8% of renovation"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, appraisal, permits and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "ffe_it",
+   "label": "Furniture, telehealth rooms and systems",
+   "expr": "ffe_it",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Move, licence updates and overlapping rent",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "wc",
+   "label": "Working capital and ramp reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about three months of Year 2 operating cost"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "therapy",
+   "label": "Therapy visits",
+   "expr": "therapists * ther_cap * fill * net_ther * rate_index",
+   "basis": "therapists x visits x booked share x net per visit"
+  },
+  {
+   "key": "meds",
+   "label": "Medication-management visits",
+   "expr": "prescribers * presc_cap * fill * net_med * rate_index",
+   "basis": "prescribers x visits x booked share x net per visit"
+  }
+ ],
+ "cost_of_sales": [],
+ "opex": [
+  {
+   "key": "ther",
+   "label": "Therapist payroll with costs",
+   "expr": "therapists * ther_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "FTE x wage"
+  },
+  {
+   "key": "presc",
+   "label": "Prescriber payroll with costs",
+   "expr": "prescribers * presc_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "FTE x wage"
+  },
+  {
+   "key": "admin",
+   "label": "Practice management and front-office payroll with costs",
+   "expr": "admin_payroll * (1 + burden) * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "billing",
+   "label": "Billing and credentialing service",
+   "expr": "rev_total * billing_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "insurance",
+   "label": "Liability and property insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "it",
+   "label": "Records, scheduling and telehealth",
+   "expr": "it_software * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "marketing",
+   "label": "Referral outreach and recruiting",
+   "expr": "marketing * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "other",
+   "label": "Repairs, janitorial, licences, accounting",
+   "expr": "admin_other * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(bldg_sf * price_psf + bldg_sf * reno_psf) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "(bldg_sf * reno_psf + ffe_it) * reserve_pct",
+   "basis": "5% of renovation and fixtures"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor applies the standard tier and treats an outpatient clinic as an ordinary office"
+ },
+ "breakeven": {
+  "input": "fill",
+  "label": "booked share of clinician capacity"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "fill",
+   "label": "Booked share of capacity",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "rate_index",
+   "label": "Collected-rate index",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Charlottesville and Albemarle County, Virginia, on the US 29 corridor north of the city; the subject site is generic [^1]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "Established outpatient behavioral health practice (therapy and medication management) buying an existing office building of about {in_bldg_sf} sq ft and converting it to clinical rooms; the practice is leaving leased space, and site, owner and operator are not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; SBA's special purpose list names health facilities, so the case reads the clinic as special purpose [^20]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} of clinician capacity booked ({cushion_pct} below the {in_fill} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "A metro of 128.4 thousand jobs and a county of 118,356 residents can support a clinic, but the record holds no payer, referral or wait-time data, so the loan rests on the practice's own schedule [^1,3]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets both"
+  ]
+ ]
+}

@@ -1,0 +1,547 @@
+---
+{
+  "type": "case",
+  "url": "/case-studies/auto-service-rapid-city-south-dakota-sba/",
+  "title": "Auto Service Feasibility Study Case: Rapid City, SD SBA 504",
+  "description": "Auto service and collision feasibility study case for an SBA 504 loan in Rapid City, South Dakota: demand, shop counts, a priced build and the coverage test.",
+  "h1": "Auto Service and Collision Feasibility Study Case: Rapid City, South Dakota, SBA 504",
+  "eyebrow": "Case Study &middot; South Dakota &middot; Auto Service &amp; Collision &middot; SBA 504",
+  "hero_sub": "Pennington County had 62,445 covered workers in 2025 [^4] and a September 2026 unemployment rate of 1.7% [^8], but the repair field is already dense and the research names no shop. An SBA 504 loan at {{case:v.equity_proposed_pct}} equity covers Year 2 debt service only {{case:v.dscr_y2_proposed}}; the model supports it at {{case:v.equity_pct}}, at the floor.",
+  "hero_secondary": {
+    "text": "Jump to the coverage test",
+    "href": "#dscr"
+  },
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Case Studies",
+      "/case-studies/"
+    ],
+    [
+      "Auto Service &amp; Collision",
+      "/asset-classes/auto-service-and-collision/"
+    ],
+    [
+      "Rapid City SD"
+    ]
+  ],
+  "published": "DEPLOY",
+  "updated": "DEPLOY",
+  "data_as_of": "2026-11",
+  "faq": {
+    "eyebrow": "Rapid City Questions",
+    "h2": "What lenders ask about the Rapid City auto service case.",
+    "items": [
+      {
+        "q": "Is Rapid City too crowded for another repair and collision shop?",
+        "a": "The record does not say it is, and it does not say it is not. The register's Census count puts Pennington County at no fewer than 122 repair-class establishments, or at least 10.53 per 10,000 residents against 8.42 for South Dakota [^35]. That is a denser field than the state average. The county also had 62,445 covered workers in 2025 [^4]. What the record cannot show is who the shops are, since the research names none, so the model builds its volume slowly and the lender conditions ask for a named census before any commitment."
+      },
+      {
+        "q": "Why does a 10% equity proposal fail when 10% is the standard tier?",
+        "a": "The standard 504 contribution is <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> of project cost for an established business [^38], and the project must also show coverage of <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> in the test year [^38]. This shop meets the first test and misses the second, because a relocation year carries moving costs and a ramp in volume. The engine therefore raises the contribution until Year 2 coverage reaches the floor, and the coverage table on this page shows both structures."
+      },
+      {
+        "q": "Can the analysis use repair order data for Rapid City?",
+        "a": "Not from this research. The research for South Dakota holds permits, wages, airport traffic, visitor counts and federal business counts for the city and county, and no repair order count, labor rate, insurer program or shop revenue. The model's order volumes, order values and parts cost are labelled assumptions, and the sensitivity table varies two of them. A study prepared for a real project replaces them with the operator's own repair-order history."
+      },
+      {
+        "q": "Does SBA require a feasibility study for an auto repair loan?",
+        "a": "SBA does not require one in every case. The rule says that <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^41]. On a ground-up building financed with a first lien and a debenture, a lender may ask for one anyway, and a study that counts the competitors and tests the coverage puts that work in the lender's hands up front."
+      },
+      {
+        "q": "Does a spray booth make the building a special purpose property?",
+        "a": "Not on the face of the SOP. Its list of examples names service centers with pits and in-ground lifts [^38], and this model assumes above-ground lifts and an ordinary steel building. The CDC and the lender decide on the plans. If they classify the building as special purpose, the contribution tier rises to <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> [^38], and the structure needs to be rerun."
+      },
+      {
+        "q": "What could stop the project before any loan question arises?",
+        "a": "Site facts the research could not find: the parcel's zoning determination for auto body and paint work, its flood status, its utility providers and the permits for solvent and paint waste. Insurer program standing after a move is the business question that matters most. Farm income is a background risk for the rural customers: the October 2026 crop forecast puts corn at 881,840 thousand bushels, down from 1,085,850 thousand in 2025 [^28]."
+      }
+    ]
+  },
+  "cta": {
+    "h2": "Planning an auto service or collision shop in Rapid City? Test the site against the debt before you sign.",
+    "p": "Feasibility Study Company, a feasibility study company for owners, developers and their lenders, builds the trade area, the competitor count and the coverage test from dated public records. Contact us if you need an auto service feasibility study consultant for a Rapid City project."
+  },
+  "sources_lede": "Each figure carries its publisher, date and link below. Shop economics the research could not source appear in the model as labelled assumptions.",
+  "sources": [
+    {
+      "publisher": "Rapid City Post",
+      "title": "Rapid City Sees Near Record Growth as 2025 Building Valuations Top $390 Million",
+      "date": "January 8, 2026 (2025 annual figures; relays the city of Rapid City)",
+      "url": "https://rapidcitypost.com/rapid-city-sees-near-record-growth-as-2025-building-valuations-top-390-million/"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Where demographic data meets the road",
+      "date": "e-Labor Bulletin, December 2025 (Census Population Estimates Program, 2024)",
+      "url": "https://dlr.sd.gov/lmic/lb/2025/lbart_dec2025_population.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+      "date": "2025 annual report (Rapid City MSA establishments, workers and pay)",
+      "url": "https://dlr.sd.gov/lmic/qcew2025_9_rcmsa_est_work_pay.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+      "date": "2025 annual report (covered workers by county)",
+      "url": "https://dlr.sd.gov/lmic/qcew2025_6_county_workers.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Annual Pay for Covered Workers by County 2024 and 2025",
+      "date": "2025 annual report (county annual pay)",
+      "url": "https://dlr.sd.gov/lmic/qcew2025_7_county_annual_pay.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Labor Market Information Center - 2025 QCEW Annual Report",
+      "date": "2025 annual report (statewide summary)",
+      "url": "https://dlr.sd.gov/lmic/qcew2025_2_summary.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation",
+      "title": "South Dakota e-Labor Bulletin, City Labor Force Data",
+      "date": "September 2026 (monthly bulletin, preliminary)",
+      "url": "https://dlr.sd.gov/lmic/lbtables/citylf.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation",
+      "title": "South Dakota e-Labor Bulletin",
+      "date": "September 2026 (monthly bulletin, county labor force)",
+      "url": "https://dlr.sd.gov/lmic/lbtables/countylf.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Labor Market Information Center - Economic Snapshot",
+      "date": "September 2026 (monthly release)",
+      "url": "https://dlr.sd.gov/lmic/economic_snapshot.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "Nonfarm employment trends in 2025",
+      "date": "e-Labor Bulletin, April 2026 (2025 annual average)",
+      "url": "https://dlr.sd.gov/lmic/lb/historical_lmi_articles/lbart_apr2026_nonfarm_year_in_review.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "South Dakota Industry Employment Trends to 2034",
+      "date": "e-Labor Bulletin, July 2026 (2034 projection)",
+      "url": "https://dlr.sd.gov/lmic/lb/2026/lbart_jul2026_industry_projections_2024_2034_top_growers.aspx"
+    },
+    {
+      "publisher": "South Dakota Dept of Labor and Regulation, Labor Market Information Center",
+      "title": "The Nitty Gritty of Occupational Demand",
+      "date": "e-Labor Bulletin, October 2026 (2024 to 2034 projection)",
+      "url": "https://dlr.sd.gov/lmic/lb/2026/lbart_oct2026_occupational_demand_projections_2024_2034.aspx"
+    },
+    {
+      "publisher": "KOTA TV",
+      "title": "Rapid City Regional Airport sets passenger record in 2025",
+      "date": "January 19, 2026 (2025 annual; relays the airport)",
+      "url": "https://www.kotatv.com/2026/01/19/rapid-city-regional-airport-sets-passenger-record-2025/"
+    },
+    {
+      "publisher": "Rapid City Regional Airport",
+      "title": "Record-Breaking Start to 2025 for Rapid City Regional Airport",
+      "date": "April 11, 2025 (first quarter of 2025)",
+      "url": "https://rapairport.com/?p=33533"
+    },
+    {
+      "publisher": "Dakota News Now (relaying SDDOT)",
+      "title": "Sturgis Rally vehicle traffic down nearly 6% in first three days, SDDOT says",
+      "date": "August 11, 2026 (August 2026 rally; relays the Department of Transportation)",
+      "url": "https://www.dakotanewsnow.com/2026/08/12/sturgis-rally-vehicle-traffic-down-nearly-6-first-three-days-sddot-says/"
+    },
+    {
+      "publisher": "South Dakota Department of Transportation",
+      "title": "2026 Sturgis Motorcycle Rally Vehicle Count - Through Day Ten",
+      "date": "August 17, 2026 (August 2026 rally)",
+      "url": "https://dot.sd.gov/inside-sddot/media/press-releases/2026-sturgis-motorcycle-rally-vehicle-count-through-day-ten/"
+    },
+    {
+      "publisher": "South Dakota Department of Revenue",
+      "title": "$1.4 million in Tax Collections from 2026 Sturgis Motorcycle Rally",
+      "date": "September 1, 2026 (August 2026 rally)",
+      "url": "https://dor.sd.gov/newsroom/14-million-in-tax-collections-from-2026-sturgis-motorcycle-rally"
+    },
+    {
+      "publisher": "South Dakota Department of Tourism",
+      "title": "2025 SHOWS CONTINUED STRENGTH FOR SOUTH DAKOTA'S TOURISM INDUSTRY",
+      "date": "January 21, 2026 (2025 annual)",
+      "url": "https://sdvisit.com/newsroom/2025-shows-continued-strength-south-dakotas-tourism-industry"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "Housing Inventory: Median Listing Price in Rapid City, SD (CBSA)",
+      "date": "September 2026, published October 1, 2026 (relays Realtor.com)",
+      "url": "https://fred.stlouisfed.org/series/MEDLISPRI39660"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "All-Transactions House Price Index for Rapid City, SD (MSA)",
+      "date": "Second quarter 2026, published August 25, 2026 (relays the Federal Housing Finance Agency)",
+      "url": "https://fred.stlouisfed.org/series/ATNHPIUS39660Q"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "Total Gross Domestic Product for Rapid City, SD (MSA) (DISCONTINUED)",
+      "date": "2023 annual, last updated December 4, 2024 (relays the Bureau of Economic Analysis)",
+      "url": "https://fred.stlouisfed.org/series/NGMP39660"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "Resident Population in South Dakota",
+      "date": "July 1, 2025, published March 3, 2026 (relays the Census Bureau)",
+      "url": "https://fred.stlouisfed.org/series/SDPOP"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "All Employees: Manufacturing in South Dakota",
+      "date": "September 2026, published October 20, 2026 (relays the Bureau of Labor Statistics)",
+      "url": "https://fred.stlouisfed.org/series/SDMFG"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "All Employees: Leisure and Hospitality in South Dakota",
+      "date": "September 2026, published October 20, 2026 (relays the Bureau of Labor Statistics)",
+      "url": "https://fred.stlouisfed.org/series/SDLEIH"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "Gross Domestic Product: All Industry Total in South Dakota",
+      "date": "2025 annual, published September 30, 2026 (relays the Bureau of Economic Analysis)",
+      "url": "https://fred.stlouisfed.org/series/SDNGSP"
+    },
+    {
+      "publisher": "Federal Reserve Bank of St. Louis (FRED)",
+      "title": "Real Gross Domestic Product: All Industry Total in South Dakota",
+      "date": "2025 annual, published September 30, 2026 (relays the Bureau of Economic Analysis)",
+      "url": "https://fred.stlouisfed.org/series/SDRGSP"
+    },
+    {
+      "publisher": "DTN Progressive Farmer",
+      "title": "USDA Land Values Report: US Cropland Tops $6,000 an Acre in 2026",
+      "date": "July 31, 2026 (2026 land values; relays USDA NASS)",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/07/31/usda-land-values-report-us-cropland"
+    },
+    {
+      "publisher": "USDA National Agricultural Statistics Service",
+      "title": "Crop Production (October 2026)",
+      "date": "October 9, 2026 (2026 crop forecast)",
+      "url": "https://esmis.nal.usda.gov/sites/default/release-files/796123/crop1026.pdf"
+    },
+    {
+      "publisher": "Pro Farmer",
+      "title": "South Dakota Cropland Values Rise 1%",
+      "date": "June 17, 2026 (2026 survey; relays the SDSU Extension Farm Real Estate Survey)",
+      "url": "https://www.profarmer.com/news/agriculture-news/south-dakota-cropland-values-rise-1"
+    },
+    {
+      "publisher": "South Dakota Commission on Gaming",
+      "title": "Commission on Gaming Annual Report Fiscal Year 2025",
+      "date": "FY2025 annual report (July 1, 2024 to June 30, 2025)",
+      "url": "https://dor.sd.gov/media/ulhbkp2a/fy-25-annual-report-final.pdf"
+    },
+    {
+      "publisher": "South Dakota Board of Economic Development",
+      "title": "BOARD OF ECONOMIC DEVELOPMENT (minutes, 10 June 2026)",
+      "date": "June 10, 2026",
+      "url": "https://boardsandcommissions.sd.gov/bcuploads/REDI%20Board%20Minutes%2006-10-2026.pdf"
+    },
+    {
+      "publisher": "South Dakota News Watch",
+      "title": "B-21 Ellsworth expansion getting mixed support in Pierre",
+      "date": "February 29, 2024 (projection as of February 2024)",
+      "url": "https://www.sdnewswatch.org/ellsworth-b21-expansion-millions-south-dakota-legislature-support/"
+    },
+    {
+      "publisher": "Aviation Pros (Rapid City Journal)",
+      "title": "Ellsworth Leaders Give Update on Base Construction Efforts for B-21 Mission",
+      "date": "April 17, 2023 (briefing of April 15, 2023)",
+      "url": "https://www.aviationpros.com/aircraft/defense/news/53057503/ellsworth-leaders-give-update-on-base-construction-efforts-for-b-21-mission"
+    },
+    {
+      "publisher": "U.S. Census Bureau, American Community Survey",
+      "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024",
+      "date": "2020 to 2024 five-year estimates",
+      "url": "https://api.census.gov/data/2024/acs/acs5"
+    },
+    {
+      "publisher": "U.S. Census Bureau, County Business Patterns",
+      "title": "2023 County Business Patterns (Census Data API)",
+      "date": "2023 data year",
+      "url": "https://api.census.gov/data/2023/cbp"
+    },
+    {
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "Personal Income by County, Metro, and Other Areas (Regional table CAINC1)",
+      "date": "calendar year 2024",
+      "url": "https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "7(a) and 504 FOIA dataset (data.sba.gov)",
+      "date": "Data as of June 30, 2026",
+      "url": "https://data.sba.gov/dataset/7a-504-foia"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+      "date": "Effective October 1, 2026",
+      "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "Information Notice 5000-881796: FY 2027 504 Program Fees",
+      "date": "Fiscal year 2027 (loans approved October 1, 2026 through September 30, 2027)",
+      "url": "https://legacy.sba.gov/document/information-notice-5000-881796-fy-2027-504-program-fees"
+    },
+    {
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "title": "H.15 Selected Interest Rates",
+      "date": "Release of October 9, 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "publisher": "eCFR",
+      "title": "13 CFR 120.160, Loan conditions",
+      "date": "Current to October 7, 2026",
+      "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+    }
+  ]
+}
+---
+<section id="at-a-glance" data-eyebrow="Study at a Glance" data-h2="An owner-occupied auto service and collision shop in Rapid City, tested against the SBA 504 rules.">
+<div class="prose">
+<p>Feasibility Study Company prepares auto service and collision feasibility studies for owners, developers and their lenders. A study joins a dated market read, a count of the shops already working the trade area, a priced build and a coverage test that shows how much debt a shop can carry. This page runs that work on one hypothetical project: a combined collision and mechanical repair shop that an established operator builds and owns in Rapid City, South Dakota, in place of the building it rents today, financed with an SBA 504 loan. Owners who search for an auto service feasibility study consultant, or for an auto service feasibility study company they can hand to a bank, will find on this page what such a study contains. <a href="/#contact">Ask us to run the same work on your site.</a></p>
+<p>The subject is generic: a one-story steel building of about {{case:v.in_bldg_sf}} square feet on about {{case:v.in_site_acres}} acres along the Interstate 90 corridor in Rapid City, in Pennington County, with a paint area, a spray booth and a short bank of mechanical bays. No parcel, owner, brand, insurer program or listing is meant. Every market figure is public and dated. Every model figure is computed by the case engine from the inputs listed near the end, and each input carries a source or the word assumption. The shop belongs to our <a href="/asset-classes/auto-service-and-collision/">auto service and collision practice</a>. The city sits in <a href="/states/south-dakota/">South Dakota</a>, and the program rules are laid out on our <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 page</a>.</p>
+<p>One limit governs how to read the page. The research for this state holds labor, wage, permit, airport, visitor and traffic records for Rapid City and the Black Hills, and federal business counts for the repair class, but no repair order count, shop revenue, labor rate or insurer data, and it names no shop. Those inputs are labelled assumptions, and the determination below is only as firm as they are.</p>
+</div>
+{{case:glance}}
+</section>
+<section id="market-conclusion" data-eyebrow="Market Conclusion" data-h2="Rapid City has the customers and a tight labor market. The test is whether a relocated shop holds its volume in a crowded field.">
+<div class="prose">
+<p>The demand answer is yes. The state labor agency tables 79,900 residents for Rapid City in the Census estimate for 2024, inside a metropolitan area of 156,000 [^2]. Pennington County had 62,445 covered workers in 2025 and the metropolitan area 74,312 [^4,3]. Unemployment in September 2026 was 1.7% in the city and 2.0% across the metropolitan area [^7,9]. A repair shop's customers are employed and insured. The county is also a gateway for visitors: South Dakota counted 14.97 million visitors in 2025 [^18], and the state's count stations logged 448,166 vehicles entering Sturgis over the ten days of the August 2026 rally [^16].</p>
+<p>The competitive answer is harder, and it comes from federal business counts rather than from any named rival. The register of County Business Patterns holds at least <!--mkt:co-46103.cbp_estab.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->122<!--/mkt:co-46103.cbp_estab.auto-service-and-collision--> establishments in the auto service and collision class in Pennington County in 2023, which is <!--mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision {"allow_flag": true, "fmt": "num"}-->10.53<!--/mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision--> per 10,000 residents against <!--mkt:sd.cbp_estab_per_10k.auto-service-and-collision {"fmt": "num"}-->8.42<!--/mkt:sd.cbp_estab_per_10k.auto-service-and-collision--> for South Dakota as a whole [^35]. The county is more densely supplied with repair establishments than the state, so a new building has to win customers from shops that are already there. The research names no shop, so no row of the competitor section is a business. The supply table counts the field, and a named census is a lender condition.</p>
+<p>The financing answer follows from the model. Under the sponsor's {{case:v.equity_proposed_pct}} equity proposal, which is the standard 504 tier for an operator past its second year, the project costs {{case:v.tpc_proposed}} and Year 2 coverage is {{case:v.dscr_y2_proposed}} against a floor of <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value-->. The equity tier is met and the coverage test is not. Restructured, the sponsor brings {{case:v.equity}}, {{case:v.equity_pct}} of project cost, the bank lends {{case:v.tpl}} and the debenture is {{case:v.debenture}}. That structure meets the Year 2 test at the floor and reaches {{case:v.dscr_y3}} at stabilization. The binding constraint in this case is coverage, not the equity tier, and the break-even section shows how thin the Year 3 cushion is.</p>
+</div>
+</section>
+<section id="demand" data-eyebrow="Demand" data-h2="A city of 79,900, a county payroll of 62,445, and a summer in which the whole state drives through.">
+<div class="prose">
+<p>A repair shop lives on vehicles in use and on households and insurers that pay to keep them running. The tables set out the public record for the places those vehicles are driven: the city and county first, then the state around them.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Indicator</th><th scope="col">Figure</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Rapid City population (Census estimate as tabled by the state)</td><td>79,900</td><td>2024</td><td>[^2]</td></tr>
+<tr><td>Pennington County covered workers</td><td>62,445</td><td>2025 annual</td><td>[^4]</td></tr>
+<tr><td>Rapid City metropolitan area covered workers</td><td>74,312</td><td>2025 annual</td><td>[^3]</td></tr>
+<tr><td>Metropolitan area average annual pay, all covered workers</td><td>$59,377</td><td>2025 annual</td><td>[^3]</td></tr>
+<tr><td>Pennington County average annual pay</td><td>$59,768</td><td>2025 annual</td><td>[^5]</td></tr>
+<tr><td>City unemployment rate</td><td>1.7%</td><td>September 2026</td><td>[^7]</td></tr>
+<tr><td>Pennington County unemployment rate</td><td>1.7%</td><td>September 2026</td><td>[^8]</td></tr>
+<tr><td>Metropolitan unemployment rate (seasonally adjusted)</td><td>2.0%</td><td>September 2026</td><td>[^9]</td></tr>
+<tr><td>City building permit valuation, all construction</td><td>More than $390.9 million</td><td>2025 annual</td><td>[^1]</td></tr>
+<tr><td>City permits issued</td><td>2,428</td><td>2025 annual</td><td>[^1]</td></tr>
+<tr><td>Airport passengers boarding</td><td>452,195</td><td>2025 annual</td><td>[^13]</td></tr>
+<tr><td>Airport passengers boarding, first quarter</td><td>76,958</td><td>First quarter 2025</td><td>[^14]</td></tr>
+<tr><td>Median home listing price, Rapid City housing market</td><td>$417,450</td><td>September 2026</td><td>[^19]</td></tr>
+<tr><td>Federal Housing Finance Agency price index, metropolitan area</td><td>489.32</td><td>Second quarter 2026</td><td>[^20]</td></tr>
+<tr><td>Metropolitan area gross domestic product</td><td>$9,425.612 million</td><td>2023</td><td>[^21]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>People and jobs</h3>
+<p>Employment is counted more cleanly than population. Pennington County averaged 62,445 covered workers in 2025, half a percent above the 62,109 of 2024, while neighboring Meade County had 9,178 and Lawrence County 13,694 [^4]. The metropolitan area, as the state labor agency defines it, averaged 74,312 covered workers across 7,928 establishments, and 3,328 of those workers were federal government employees [^3]. The research does not say where those federal workers are stationed, so the lender should ask the operator to map its own customer list against the base and the other public employers.</p>
+<p>The monthly labor figures say the market is tight. The city's labor force was 41,200 in September 2026, with 40,517 employed, and a year earlier the rate had been 1.8% [^7]. Pennington County's labor force was 59,596, with 58,596 employed [^8]. A shop in that market competes for technicians as well as for customers, and the model's hiring plan reflects it.</p>
+<h3>Pay and the cost of technicians</h3>
+<p>Wages bear on a repair shop twice, as a cost and as buying power. The metropolitan area's average annual pay was $59,377 in 2025, and the 10,953 leisure and hospitality workers who serve visitors earned $27,622 [^3]. Pennington County averaged $59,768, Meade County $59,355 and Lawrence County $50,950 [^5]. Statewide, pay averaged $60,577 in 2025 and construction $71,093 [^6]. A skilled body or paint technician earns more than the county average, which is why the model carries {{case:v.in_avg_pay}} a year per employee before payroll costs and does not use the county figure itself.</p>
+<h3>Visitors, the rally and the traffic they bring</h3>
+<p>The Black Hills draw drivers from every state. South Dakota's Department of Tourism counted 14.97 million visitors in 2025, who spent $5.16 billion, supported 59,145 jobs and generated $406.1 million of state and local tax revenue, and tourism supplied 16.5% of the state's sales tax collections [^18]. Leisure and hospitality employed 55.7 thousand people statewide in September 2026 [^24], and Deadwood gaming sent $2,315,908.04 of excess proceeds to the state general fund in the fiscal year to June 2025 [^30].</p>
+<p>The August motorcycle rally is the heaviest single week. The state's count sites logged 448,166 vehicles entering Sturgis over the ten days of the 2026 rally, 10.0% below the 2021 to 2025 five-year average of 498,042 [^16]. The first three days brought 168,482 vehicles, down 5.8% from the year before, and the first Saturday was the busiest day at 58,519 vehicles, 2.5% above the five-year average for that day [^15]. The Department of Revenue estimated $1,404,408 of tax collections from the rally, 11% below the $1,581,736 of 2025, with $473,668 of it from 161 vendors in Rapid City, Custer, Hill City and Keystone [^17]. A rally week fills the roads with out-of-state vehicles whose owners may need quick service, but the research gives no repair count for that week, so the model does not count on it.</p>
+<h3>Growth and construction</h3>
+<p>The city's 2025 building valuation topped $390.9 million across 2,428 permits, behind the 2023 record of $463.5 million and ahead of 2024's $383.6 million [^1]. Single-family permits rose to 186 from 119 [^1]. Building activity is steady, not surging, and the contractors who build run trucks and vans that need repair.</p>
+<p>Rapid City Regional Airport boarded a record 452,195 passengers in 2025, against 427,325 in 2024, with 905,211 passengers in all [^13]. In the first quarter of 2025 it boarded 76,958, up 8.8% from 70,763 a year earlier [^14]. Air travel is not repair demand, but visitors who arrive by air and rent a vehicle feed rental fleets, a steady source of collision work.</p>
+<h3>Housing, wealth and the cost of staying put</h3>
+<p>The median listing price in the Rapid City housing market was $417,450 in September 2026, against $449,900 in May [^19]. The Federal Housing Finance Agency index for the metropolitan area was 489.32 in the second quarter of 2026, up from 480.78 a year earlier [^20]. The metropolitan area produced $9,425.612 million of gross domestic product in 2023, the last year before the series was discontinued [^21]. That is context for repair demand and not a forecast of it.</p>
+<h3>The state around the city</h3>
+<p>South Dakota had 935.094 thousand residents on July 1, 2025 [^22]. Its civilian labor force was 484,700 in September 2026, with 475,100 employed [^9], and nonfarm employment averaged 469,400 in 2025 [^10]. State gross domestic product was $82,001.9 million in 2025, or $59,865.2 million in chained 2017 dollars [^25,26]. The state labor agency projects 562,027 wage and salary jobs in 2034 and 63,399 average annual openings across all occupations from 2024 to 2034, a count that includes workers leaving the labor force and changing occupations [^11,12]. Openings of that size across every trade suggest technicians will stay scarce.</p>
+<h3>Context from the Census register</h3>
+<p>The table adds estimates from the Census Bureau and the Bureau of Economic Analysis. They differ from the figures above because they use other vintages and definitions.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Indicator</th><th scope="col">Pennington County</th><th scope="col">South Dakota</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Median household income</td><td><!--mkt:co-46103.acs5_median_hh_income {"fmt": "usd"}-->$74,517<!--/mkt:co-46103.acs5_median_hh_income--></td><td><!--mkt:sd.acs5_median_hh_income {"fmt": "usd"}-->$75,081<!--/mkt:sd.acs5_median_hh_income--></td><td>ACS 2020 to 2024</td><td>[^34]</td></tr>
+<tr><td>Median home value</td><td><!--mkt:co-46103.acs5_median_home_value {"fmt": "usd"}-->$302,200<!--/mkt:co-46103.acs5_median_home_value--></td><td><!--mkt:sd.acs5_median_home_value {"fmt": "usd"}-->$257,400<!--/mkt:sd.acs5_median_home_value--></td><td>ACS 2020 to 2024</td><td>[^34]</td></tr>
+<tr><td>Households</td><td><!--mkt:co-46103.acs5_households {"fmt": "int"}-->46,370<!--/mkt:co-46103.acs5_households--></td><td><!--mkt:sd.acs5_households {"fmt": "int"}-->365,544<!--/mkt:sd.acs5_households--></td><td>ACS 2020 to 2024</td><td>[^34]</td></tr>
+<tr><td>Per capita personal income</td><td><!--mkt:co-46103.bea_per_capita_income {"fmt": "usd"}-->$78,464<!--/mkt:co-46103.bea_per_capita_income--></td><td><!--mkt:sd.bea_per_capita_income {"fmt": "usd"}-->$75,699<!--/mkt:sd.bea_per_capita_income--></td><td>Calendar year 2024</td><td>[^36]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<p>Pennington County's household income is close to the state's, while its median home value is well above it [^34], and per capita personal income is higher in the county than in the state [^36]. The next section counts the shops that already compete for those households.</p>
+</div>
+</section>
+<section id="competitors" data-eyebrow="Competitor Census" data-h2="The research names no shop, so the field is counted from federal business data and the named census is a lender condition.">
+<div class="prose">
+<p>A competitor census normally lists each rival with a link to its own website or its county assessor record. This case cannot do that honestly. The research for South Dakota holds no dated document that names an auto repair or collision shop in the Rapid City area. Rather than invent a roster, the study counts the field with the Census Bureau's County Business Patterns, which lists every establishment by industry code, and it makes the named census a lender condition. The class counted below is the register's auto service and collision class, an exact fit: mechanical, body and paint, glass, lube and other automotive repair, and tire retail and service, but not car washes.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Geography</th><th scope="col">Repair-class establishments</th><th scope="col">Paid employees</th><th scope="col">Establishments per 10,000 residents</th><th scope="col">Register source</th></tr></thead>
+<tbody>
+<tr><td>Pennington County (at least)</td><td><!--mkt:co-46103.cbp_estab.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->122<!--/mkt:co-46103.cbp_estab.auto-service-and-collision--></td><td><!--mkt:co-46103.cbp_emp.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->677<!--/mkt:co-46103.cbp_emp.auto-service-and-collision--></td><td><!--mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision {"allow_flag": true, "fmt": "num"}-->10.53<!--/mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision--></td><td><a href="https://api.census.gov/data/2023/cbp">County Business Patterns 2023</a></td></tr>
+<tr><td>Rapid City metropolitan area (at least)</td><td><!--mkt:cbsa-39660.cbp_estab.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->155<!--/mkt:cbsa-39660.cbp_estab.auto-service-and-collision--></td><td><!--mkt:cbsa-39660.cbp_emp.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->825<!--/mkt:cbsa-39660.cbp_emp.auto-service-and-collision--></td><td><!--mkt:cbsa-39660.cbp_estab_per_10k.auto-service-and-collision {"allow_flag": true, "fmt": "num"}-->9.94<!--/mkt:cbsa-39660.cbp_estab_per_10k.auto-service-and-collision--></td><td><a href="https://api.census.gov/data/2023/cbp">County Business Patterns 2023</a></td></tr>
+<tr><td>South Dakota</td><td><!--mkt:sd.cbp_estab.auto-service-and-collision {"fmt": "int"}-->774<!--/mkt:sd.cbp_estab.auto-service-and-collision--></td><td><!--mkt:sd.cbp_emp.auto-service-and-collision {"fmt": "int"}-->3,933<!--/mkt:sd.cbp_emp.auto-service-and-collision--></td><td><!--mkt:sd.cbp_estab_per_10k.auto-service-and-collision {"fmt": "num"}-->8.42<!--/mkt:sd.cbp_estab_per_10k.auto-service-and-collision--></td><td><a href="https://api.census.gov/data/2023/cbp">County Business Patterns 2023</a></td></tr>
+</tbody>
+</table>
+</div>
+<p class="table-source"><!--mktsrc:co-46103.cbp_estab-->x<!--/mktsrc:co-46103.cbp_estab--> Counts are the register's auto service and collision class. County and metropolitan cells are lower bounds, because the Census Bureau withholds some industry cells in smaller geographies, so those rows say "at least" [^35]. No dated document in the research names a competitor, so no row of this table is confirmed by a competitor's own website; the named census is a lender condition.</p>
+<div class="prose">
+<h3>What the counts say</h3>
+<p>Pennington County holds at least <!--mkt:co-46103.cbp_estab.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->122<!--/mkt:co-46103.cbp_estab.auto-service-and-collision--> repair-class establishments with at least <!--mkt:co-46103.cbp_emp.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->677<!--/mkt:co-46103.cbp_emp.auto-service-and-collision--> paid employees, and the metropolitan area at least <!--mkt:cbsa-39660.cbp_estab.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->155<!--/mkt:cbsa-39660.cbp_estab.auto-service-and-collision--> with at least <!--mkt:cbsa-39660.cbp_emp.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->825<!--/mkt:cbsa-39660.cbp_emp.auto-service-and-collision--> [^35]. The county's density of at least <!--mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision {"allow_flag": true, "fmt": "num"}-->10.53<!--/mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision--> per 10,000 residents is above the <!--mkt:sd.cbp_estab_per_10k.auto-service-and-collision {"fmt": "num"}-->8.42<!--/mkt:sd.cbp_estab_per_10k.auto-service-and-collision--> of the state and the <!--mkt:cbsa-39660.cbp_estab_per_10k.auto-service-and-collision {"allow_flag": true, "fmt": "num"}-->9.94<!--/mkt:cbsa-39660.cbp_estab_per_10k.auto-service-and-collision--> of the metropolitan area [^35]. A county with more repair establishments per resident than its state is not an empty field. It may serve visitors and rural customers from the surrounding Black Hills as well as its own residents, which would lift the count, and the rate divides by the Census population estimate for July 2023, so the metropolitan area's growth since then lowers the density somewhat [^35,2].</p>
+<p>The employee counts describe a field of small businesses. Dividing the county's paid employees by its establishments gives an average of roughly five or six per establishment, and the state's gives about the same [^35]. The class mixes independent mechanical shops, tire stores, glass shops and larger collision centers and cannot be split further. The subject, with {{case:v.in_fte}} full-time equivalents in the stabilized year, is well above the average, so it needs a steady flow of insurer-referred work that the small shops do not need. That is why the ramp is a risk.</p>
+<h3>Federal loan history for the class in South Dakota</h3>
+<p>The register also holds the Small Business Administration's loan-level files. For the repair class the loan counts in South Dakota show that both programs have financed shops in this state in the last ten full fiscal years.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Program</th><th scope="col">Repair-class loans, South Dakota</th><th scope="col">Approved amount</th><th scope="col">Window</th><th scope="col">Register source</th></tr></thead>
+<tbody>
+<tr><td>SBA 504</td><td><!--mkt:sd.sba504_loans.auto-service-and-collision {"fmt": "int"}-->36<!--/mkt:sd.sba504_loans.auto-service-and-collision--></td><td><!--mkt:sd.sba504_volume.auto-service-and-collision {"fmt": "usd"}-->$13,263,000<!--/mkt:sd.sba504_volume.auto-service-and-collision--></td><td>Approval FY2016 to FY2025</td><td><a href="https://data.sba.gov/dataset/7a-504-foia">SBA 7(a) and 504 FOIA data</a></td></tr>
+<tr><td>SBA 7(a)</td><td><!--mkt:sd.sba7a_loans.auto-service-and-collision {"fmt": "int"}-->27<!--/mkt:sd.sba7a_loans.auto-service-and-collision--></td><td><!--mkt:sd.sba7a_volume.auto-service-and-collision {"fmt": "usd"}-->$9,557,900<!--/mkt:sd.sba7a_volume.auto-service-and-collision--></td><td>Approval FY2016 to FY2025</td><td><a href="https://data.sba.gov/dataset/7a-504-foia">SBA 7(a) and 504 FOIA data</a></td></tr>
+</tbody>
+</table>
+</div>
+<p class="table-source"><!--mktsrc:sd.sba504_loans-->x<!--/mktsrc:sd.sba504_loans--> The SBA files carry no city, so the rows are for the state [^37].</p>
+<div class="prose">
+<p>The 504 program approved more loans in the class over the decade than the 7(a) program did, with a larger approved amount [^37]. South Dakota banks and development companies therefore have recent experience underwriting a repair shop, a point in favor of the file. The register computes charge-off rates for the class, but on small counts of disbursed loans, and this study does not print them.</p>
+<h3>What the supply data cannot tell the lender</h3>
+<p>County Business Patterns does not name a business, a brand, a building size or a repair volume. It cannot say which establishments are in insurer direct repair programs, which are franchised or which are about to close or relocate. The lender condition therefore asks for a named competitor census with each competitor's own website or county assessor record, the services and certifications each shop carries, its insurers and its capacity in stalls, so that the volume ramp can be tested against real neighbors.</p>
+</div>
+</section>
+<section id="site" data-eyebrow="Site" data-h2="The corridor is a working commercial belt. The parcel, zoning and utilities are lender conditions.">
+<div class="prose">
+<p>The subject is a hypothetical site of about {{case:v.in_site_acres}} acres on the Interstate 90 corridor in Rapid City. The corridor fixes a place on the map; no parcel has been identified. Its zoning district, utility territory, flood status and traffic count are conditions to confirm. The research found no traffic count for the interstate or for Highway 79, no impact fee schedule and no zoning text for a paint operation.</p>
+<p>The research does show where the area is investing. The state's economic development board approved a <span data-fsc-nocount>$7,500,000</span> loan on June 10, 2026 to a business park in Rapid City [^31]. The record for the nearby air base is dated and is a projection: the base population was expected to reach <span data-fsc-nocount>nearly 12,000</span> with the new bomber mission, in a February 2024 account that also put construction at <span data-fsc-nocount>about $1.5 billion</span> [^32], and an April 2023 briefing counted <span data-fsc-nocount>more than 1,000</span> homes needed nearby [^33]. Those are single-project figures, cited as context and not as a forecast of repair orders.</p>
+<h3>Land and the commercial market</h3>
+<p>The research holds no sale or listing of commercial land in Rapid City, and no broker report for the city's office, retail or industrial markets. Its only land values are for farm ground: $4,770 an acre for South Dakota cropland in the federal 2026 report and $6,268 an acre in the university survey [^27,29]. Neither is a comparable for serviced frontage near a city. The model carries a round land figure, {{case:v.in_land}}, as an assumption, and an appraisal of the real parcel replaces it.</p>
+<h3>Construction cost</h3>
+<p>The research holds no construction cost for a commercial building in the city. It holds the city's permit totals, 2,428 permits and more than $390.9 million of valuation in 2025 [^1], which cannot be turned into a cost per square foot. The model carries {{case:v.in_bldg_psf}} per square foot for the shop and {{case:v.in_sitework_per_acre}} an acre for site work, both assumptions, and a general contractor's bid replaces them.</p>
+<h3>Taxes, licensing and environmental permits</h3>
+<p>The research found no Pennington County commercial levy, no assessment ratio and no rule for a spray booth or for hazardous waste from paint and solvents. The model's property tax line is a placeholder rate of {{case:v.in_tax_rate}} of cost, and the environmental file is a lender condition.</p>
+<h3>Services and flood status</h3>
+<p>Electric, gas, water and sewer providers, the stormwater and oil separator requirements for a repair yard, and the FEMA flood panel for the parcel are not in the research. The site work allowance is high for a retail pad because a repair yard is mostly paved.</p>
+</div>
+</section>
+<section id="revenue" data-eyebrow="Revenue Build" data-h2="Collision repair and mechanical repair, built from repair orders.">
+{{case:revenue}}
+<div class="prose">
+<p>Revenue has two lines. The shop completes {{case:v.in_col_ros}} collision repair orders in Year 3, the stabilized year, after {{case:v.rev_y1}} of total revenue in Year 1 and {{case:v.rev_y2}} in Year 2. The ramp is the largest assumption in the model, and the research cannot support it: no repair order count for any Rapid City shop was found. What the research does give is the setting. The county has a payroll of 62,445 [^4], its unemployment rate was 1.7% in September 2026 [^8], and a rally week sends 448,166 vehicles through the Sturgis count sites [^16]. Those conditions help a shop hold its volume after a move, but the existing shops share them.</p>
+<p>The model values a collision repair order at {{case:v.in_col_ro}} in Year 1 and a mechanical order at {{case:v.in_mech_ro}}, and grows both by {{case:v.in_price_growth}} a year. Both are round planning figures. A collision order is the sum of labor, parts, paint and materials and sublet work, and its value depends on the mix of repairs and on what insurers will pay. The lender's file should hold the operator's own repair-order history, which is a lender condition. The collision order value is the input the sensitivity table tests, because it is the figure that moves with insurer programs and parts prices and that a single shop controls least.</p>
+<p>Mechanical repair is the steadier line. The model books {{case:v.in_mech_ros}} mechanical orders in the stabilized year, drawn from the operator's existing customers and from the traffic of the corridor. The county's vehicle count and the age of its vehicles are not in the research, so the registration count for the trade area is a lender condition.</p>
+<p>The cost of sales is the cost of parts, paint, materials and sublet work. The model takes {{case:v.in_col_cos_pct}} of collision revenue and {{case:v.in_mech_cos_pct}} of mechanical revenue. Labor sits in operating expense, not in cost of sales, because technician pay in the model is a fixed monthly cost that does not fall when orders fall. Gross profit grows from {{case:v.gp_y1}} in Year 1 to {{case:v.gp_y3}} in Year 3 and {{case:v.gp_y5}} in Year 5.</p>
+</div>
+</section>
+<section id="opex" data-eyebrow="Operating Expenses" data-h2="Payroll leads, and a tight labor market keeps it there.">
+{{case:opex}}
+<div class="prose">
+<p>Payroll with costs is the largest operating line. The model staffs the shop with {{case:v.in_fte}} full-time equivalents in the stabilized year at {{case:v.in_avg_pay}} each before a payroll-cost load of {{case:v.in_burden}}, rising by {{case:v.in_wage_growth}} a year. The pay figure sits above the Pennington County average of $59,768 and the metropolitan average of $59,377 [^5,3], and below the statewide construction average of $71,093 [^6], on the logic that body and paint technicians earn more than the typical covered worker and estimators and office staff earn less than a tradesperson. With unemployment at 1.7% in the city in September 2026 [^7], a shop that offers the county average will not fill its stalls. Statewide pay rose 3.9% in 2025 [^6], so the model's {{case:v.in_wage_growth}} is modest, and the sensitivity table does not test it. An owner-operator compensation line of {{case:v.in_owner_pay}} is added because a lender normalizes owner pay before it counts coverage.</p>
+<p>The other lines are advertising and insurer-program fees at {{case:v.in_mkt_pct}} of revenue, utilities, supplies, software, calibration licenses and waste disposal at {{case:v.in_other_fixed}} in Year 1, insurance at {{case:v.in_insurance}} and property tax at {{case:v.in_tax_rate}} of cost. Insurance carries more weight than for a retail building because the shop holds customers' vehicles. Operating costs move from {{case:v.opex_y1}} in Year 1 to {{case:v.opex_y3}} in Year 3. Net operating income runs from {{case:v.noi_y1}} in Year 1 to {{case:v.noi_y3}} in Year 3, about {{case:v.noi_margin_y3}} of revenue, which is the thin margin of a labor-heavy repair business before debt.</p>
+</div>
+</section>
+<section id="sources-uses" data-eyebrow="Sources and Uses" data-h2="A one-story shop on about 1.5 acres, funded before the first repair order.">
+{{case:uses}}
+{{case:sources}}
+<div class="prose">
+<p>Land and the building are most of the budget, and the cost of both is assumed. The research holds no Rapid City land sale and no construction cost for a commercial building, so land is carried at {{case:v.in_land}}, the building at {{case:v.in_bldg_psf}} a square foot, and site work at {{case:v.in_sitework_per_acre}} an acre. Equipment is carried at {{case:v.in_equipment}}: a frame and measuring system, a spray booth, lifts and calibration tools. The model assumes above-ground lifts only, because the SOP treats a service center with pits and in-ground lifts as a special purpose property [^38], and that classification would raise the equity tier. A general contractor's bid, vendor quotes and an appraisal replace the assumptions.</p>
+<p>As proposed, the sponsor puts in {{case:v.equity_proposed}}, the bank lends {{case:v.tpl_proposed}} and the debenture is {{case:v.debenture_proposed}}, within the program's <!--sba:limits.max_504.value-->$5 million<!--/sba:limits.max_504.value--> limit. The project costs {{case:v.tpc_proposed}} in that structure. Restructured, project cost is {{case:v.tpc}}, because the debenture fee, which is added to project cost, moves with the debenture. The budget holds {{case:v.in_preopening}} for moving costs, recertification and working capital. The operator already has customers and staff, so there is no hiring-ahead payroll, but the move costs two months of duplicated rent and wages and the downtime between locations.</p>
+</div>
+</section>
+<section id="loan" data-eyebrow="Loan Structure" data-h2="A bank first lien and a CDC debenture, sized by the 504 rules for an established operator.">
+{{case:loan}}
+<div class="prose">
+<p>An SBA 504 project is split three ways. The rules in force from <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective--> (<!--sba:sop.name-->SOP 50 10 8.1 with Technical Policy Updates<!--/sba:sop.name-->) [^38] put the split at <!--sba:equity.sba_504_split.value-->Third Party Lender 50%, debenture 40%, borrower 10%; debenture 35% at a 15% contribution and 30% at 20%<!--/sba:equity.sba_504_split.value--> [^38]. The standard contribution is <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> of project cost. The model applies the higher tier of <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> to a new business, which it defines as one with two years or less in operation, or to a special purpose property [^38]. The subject operator is past that point, so the standard tier applies to the business.</p>
+<p>The property is the second question. The SOP defines a special purpose property as <!--sba:valuation.special_purpose_definition.value-->a limited-market property with a unique physical design, special construction materials, or a layout that restricts its utility to the use for which it was built<!--/sba:valuation.special_purpose_definition.value--> [^38]. Its list of examples includes service centers with pits and in-ground lifts [^38]. A collision and mechanical shop with above-ground lifts and an ordinary steel frame is a general commercial building by that test, and the CDC and the lender decide that on the plans, which makes the property type a lender condition. If they decided otherwise, the tier would rise and the structure would need to be rerun.</p>
+<p>The debenture at both structures sits well under the <!--sba:limits.max_504.value-->$5 million<!--/sba:limits.max_504.value--> limit. The sponsor's {{case:v.equity_proposed_pct}} proposal meets the equity tier of {{case:v.equity_req_pct}} and fails the coverage floor, which is why the engine does not stop at the tier. It raises the contribution to the smallest share at which Year 2 coverage meets the floor, {{case:v.equity_pct}}. The 504 upfront fee on the debenture is <!--sba:fees_fy2027.upfront_504.value-->0.50%<!--/sba:fees_fy2027.upfront_504.value--> under the fiscal year 2027 schedule [^39], added to project cost.</p>
+<p>The debenture rate is {{case:v.in_debenture_rate}}, a planning rate, since the research for this state holds no debenture pricing and the rate is set when the debenture is sold. The bank rate is an assumption of {{case:v.rate}}, a quarter point over Prime of <!--sba:rates.prime.value-->7.00%<!--/sba:rates.prime.value--> [^40], and SBA caps the third-party spread at <!--sba:rates.tpl_504_max_spread.value-->6% over New York Prime<!--/sba:rates.tpl_504_max_spread.value--> [^38]. The bank's term and amortization are assumed at 25 years, matching the debenture, and the bank may set a shorter maturity that would raise debt service.</p>
+<p>Two more program tests belong in the file. The operating business must occupy the building: the SOP's figure is <!--sba:regulation.occupancy_new.value-->60%<!--/sba:regulation.occupancy_new.value--> for a newly constructed property and <!--sba:regulation.occupancy_existing.value-->51%<!--/sba:regulation.occupancy_existing.value--> for an existing one [^38]. A single-tenant repair shop that owns its building meets the test on its face. And a 504 loan is tied to jobs, at <!--sba:jobs_504.per_job.value-->$95,000<!--/sba:jobs_504.per_job.value--> of debenture per job for a project that is not a small manufacturer or an energy project [^38]. The CDC will test the staffing plan, {{case:v.in_fte}} full-time equivalents in the stabilized year, against the debenture. Because the headcount is itself an assumption, that arithmetic is a lender condition.</p>
+</div>
+</section>
+<section id="pro-forma" data-eyebrow="Pro Forma" data-h2="Five years on the restructured loan.">
+{{case:proforma}}
+<div class="prose">
+<p>The five-year view shows the shape of a relocation: a Year 1 in which net operating income falls well short of debt service while the shop reaches full output in the new building, a Year 2 that carries the test, and a stronger Year 3 once the paint area and the insurer approvals are back to full volume. Net operating income is {{case:v.noi_y1}} in Year 1, {{case:v.noi_y2}} in Year 2, {{case:v.noi_y3}} in Year 3, {{case:v.noi_y4}} in Year 4 and {{case:v.noi_y5}} in Year 5, on revenue of {{case:v.rev_y1}}, {{case:v.rev_y2}}, {{case:v.rev_y3}}, {{case:v.rev_y4}} and {{case:v.rev_y5}}. Margin improves because fixed payroll and fixed costs are spread over more orders.</p>
+<p>Year 1 does not cover debt service on its own, and the structure relies on the sponsor funding the shortfall. The moving and working capital budget of {{case:v.in_preopening}} is of the same order as the Year 1 gap against debt service, so a lender would require a further reserve. The pro forma is the arithmetic of the assumptions listed in the input table, not a forecast of sales.</p>
+</div>
+</section>
+<section id="dscr" data-eyebrow="Debt Service Coverage" data-h2="As proposed it meets the equity tier and fails the coverage test. Restructured it passes the Year 2 test at the floor.">
+{{case:dscr}}
+{{case:determination}}
+{{case:verdict}}
+<div class="prose">
+<p>The 504 coverage standard is <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> [^38]. The program's basis is <!--sba:dscr.sba_504_basis.value-->historical EBITDA over combined post-transaction debt service, last fiscal year-end or two-year average; projections analysed only where history falls short<!--/sba:dscr.sba_504_basis.value--> [^38]. This case carries no history, because the operator's figures are a lender condition, so the engine tests the projection in Year 2. <strong>As proposed</strong>, at {{case:v.equity_proposed_pct}} equity, debt service is {{case:v.ds_proposed}} and Year 2 coverage is {{case:v.dscr_y2_proposed}}. The proposal meets the equity tier and the debenture size test, and it fails the coverage floor.</p>
+<p><strong>As restructured</strong>, the engine raises the contribution until Year 2 coverage reaches the floor. At {{case:v.equity_pct}} equity, debt service falls to {{case:v.ds}} and Year 2 coverage is {{case:v.dscr_y2}}, at the floor. Coverage rises to {{case:v.dscr_y3}} in Year 3 and {{case:v.dscr_y5}} in Year 5. The structure passes every test, but only just in the year the test is applied, and any shortfall in the Year 2 pro forma becomes a failed test.</p>
+<p>Read the result in two ways. As an SBA test, it passes at the floor. As an investment, it lives on the relocation ramp: a small slip in Year 2 collision volume or order value drops coverage below the floor. A lender should treat the equity as the minimum and ask for the reserve described in the lender conditions. <a href="/#contact">Feasibility Study Company can build the same test for your shop with your own repair-order data in place of the assumptions.</a></p>
+</div>
+</section>
+<section id="break-even" data-eyebrow="Break-Even" data-h2="How far collision volume can fall in Year 3.">
+{{case:breakeven}}
+<div class="prose">
+<p>On the restructured loan, the shop covers debt service at the floor in Year 3 down to {{case:v.breakeven_floor_value}} collision repair orders a year, and covers it at all (a coverage of one times) down to {{case:v.breakeven_value}}. The underwritten volume is {{case:v.in_col_ros}}, so the cushion before cash break-even is {{case:v.cushion_pct}}, and the floor itself is reached at {{case:v.breakeven_floor_pct}} of the underwritten volume. That is a narrow margin for a business whose volume depends on insurer referrals and on a relocation, and it explains why the determination is read as a pass at the floor and not as comfort.</p>
+<p>The cushion is measured against the stabilized year. The more difficult year is Year 2, where the volume is lower and the test is applied, and the sensitivity table reads that year.</p>
+</div>
+</section>
+<section id="sensitivity" data-eyebrow="Sensitivity" data-h2="Collision repair orders and the value of a collision order.">
+{{case:sensitivity}}
+<div class="prose">
+<p>Rows move collision repair orders up and down by up to a fifth in every year, and columns move the average collision order across the range in the headers. The table reads Year 2, the test year, on the restructured loan, and its lowest cell is {{case:v.sens_min}} against a highest of {{case:v.sens_max}}. Cells below the floor mark the combinations in which the structure fails.</p>
+<p>The two drivers are the least certain. Order volume is a ramp the research cannot support, and the value of an order is a planning figure that moves with insurer programs and parts prices. The table shows that a fall of one step in either, with the other held, takes the test year from a pass at the floor to a fail, which is why the lender conditions ask for the operator's actual repair-order history and for a ramp tied to named competitors.</p>
+</div>
+</section>
+<section id="inputs" data-eyebrow="Model Inputs" data-h2="Every input, and whether a source or an assumption sets it.">
+{{case:inputs}}
+<div class="prose">
+<p>Every input in this model is an assumption. The research for this state is rich in labor, visitor and traffic records and holds no repair shop unit economics, so the assumptions carry the model, and several cite a research figure only to show why a number is placed where it is. The most important to verify are collision order volume, the value of a collision order, building cost and staffing, in that order.</p>
+</div>
+</section>
+<section id="risks" data-eyebrow="Risks" data-h2="What could break the Rapid City projection.">
+<ol class="failures">
+<li><div><h3>The relocation ramp is slower than modelled</h3><p>By Year 3 the model needs {{case:v.in_col_ros}} collision orders a year from customers who today use the shops the register counts, and the register cannot say how many of them do collision work [^35]. A late ramp fails the Year 2 test, and the sensitivity table shows how little room there is.</p></div></li>
+<li><div><h3>Insurers steer work elsewhere</h3><p>Collision volume depends on insurer referral programs, and the research holds no insurer data. A program that cuts what it pays a shop cuts coverage with it, which is why the order value is the input the sensitivity table varies.</p></div></li>
+<li><div><h3>Technicians are scarce and expensive</h3><p>City unemployment was 1.7% in September 2026 and the metropolitan rate 2.0% [^7,9]. Statewide projections count 63,399 average annual openings across all occupations [^12], and a shop that pays the county average of $59,768 [^5] will lose people to employers that pay more. A shop that cannot staff its stalls does not reach its utilization.</p></div></li>
+<li><div><h3>The field is dense</h3><p>Pennington County has at least <!--mkt:co-46103.cbp_estab.auto-service-and-collision {"allow_flag": true, "fmt": "int"}-->122<!--/mkt:co-46103.cbp_estab.auto-service-and-collision--> repair-class establishments and <!--mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision {"allow_flag": true, "fmt": "num"}-->10.53<!--/mkt:co-46103.cbp_estab_per_10k.auto-service-and-collision--> per 10,000 residents, against <!--mkt:sd.cbp_estab_per_10k.auto-service-and-collision {"fmt": "num"}-->8.42<!--/mkt:sd.cbp_estab_per_10k.auto-service-and-collision--> for the state [^35]. A well-capitalized neighbor can match price on the work the new building most needs, and the research cannot name that neighbor.</p></div></li>
+<li><div><h3>Construction and equipment cost more than assumed</h3><p>Every dollar of overrun adds debt the shop can only just carry. A city with more than $390.9 million of 2025 permit valuation [^1] means contractors have other work and may bid high.</p></div></li>
+<li><div><h3>The rally and the tourist season soften</h3><p>The 2026 rally count of 448,166 vehicles was 10.0% below its five-year average of 498,042 [^16], and rally tax collections fell 11% [^17]. The model does not depend on rally traffic, but fewer visitors would reduce walk-in work on the corridor.</p></div></li>
+<li><div><h3>Farm income</h3><p>Corn production was forecast at 881,840 thousand bushels for the 2026 crop, against 1,085,850 thousand in 2025, and soybeans at 226,800 thousand against 237,820 thousand [^28]. Rural households that bring vehicles and farm trucks into the city spend less on repairs when farm income drops, and weather is the one risk the model cannot price.</p></div></li>
+<li><div><h3>Rates differ from the model</h3><p>The debenture rate is set when the debenture is sold and the bank rate at pricing. Both are planning assumptions, and Prime stood at <!--sba:rates.prime.value-->7.00%<!--/sba:rates.prime.value--> on the October 9, 2026 release [^40]. A higher bank rate raises debt service immediately.</p></div></li>
+<li><div><h3>The local economy cools</h3><p>Statewide nonfarm employment averaged 469,400 in 2025 [^10], and manufacturing employed 43.8 thousand people in September 2026 [^23]. A shop financed on a Year 3 ramp is exposed if hiring stalls. A weaker local economy would push some owners toward more repair and less replacement, but it would also slow the commercial and insured work the shop depends on.</p></div></li>
+</ol>
+</section>
+<section id="lender-conditions" data-eyebrow="Lender Conditions" data-h2="Conditions before commitment.">
+<div class="prose">
+<p>Each condition below closes a gap the public record left open. Several group related items the research reported as not found.</p>
+</div>
+<ol class="failures">
+<li><div><h3>Named competitor census</h3><p>A named competitor census with each competitor's own website or county assessor record: every collision and mechanical shop within the trade area, its services, its stalls, its insurer programs, its certifications and its age. The research named no shop, and the supply table above counts establishments but names none [^35].</p></div></li>
+<li><div><h3>Repair order history and ramp evidence</h3><p>The operator's own repair orders, order values, parts and paint cost, and insurer mix for the last full years at the current location, a vehicle registration count for the trade area, and a volume ramp tied to named competitors. The research found no repair order or shop revenue figure for Rapid City.</p></div></li>
+<li><div><h3>Insurer program status</h3><p>The shop's standing in the direct repair programs of the insurers that supply its work, in writing, and the effect of a move to a new address. The research holds no insurer data.</p></div></li>
+<li><div><h3>Eligibility and property type</h3><p>The CDC's confirmation that the business is eligible under the SOP [^38], that the building is not a special purpose property, that the occupancy test is met and that the jobs standard is met by the staffing plan. If the lifts or any pits change, the tier changes with them.</p></div></li>
+<li><div><h3>Site, title and zoning</h3><p>The parcel identifier from the county records, a written zoning determination that auto body and paint work is allowed on the parcel, and the appraisal, survey and sale history of the land. The research holds no Rapid City zoning text.</p></div></li>
+<li><div><h3>Traffic, flood and environmental</h3><p>A state count station and annual average daily traffic for the corridor and its nearest interchange, the FEMA flood panel and a Phase I environmental site assessment. The research found no traffic count for the interstate or for Highway 79. A paint and body operation adds hazardous waste, solvent storage and air permit questions to the environmental file.</p></div></li>
+<li><div><h3>Utilities, fees, costs and insurance</h3><p>The utility providers for the parcel, the connection and impact fees in force, the stormwater and oil separator requirements, the Pennington County levy and assessment practice, contractor bids, vendor quotes for the frame system, spray booth, lifts and calibration tools, and bound quotes for property, garage liability, garagekeepers and workers compensation insurance.</p></div></li>
+<li><div><h3>Staffing and wages</h3><p>An organization chart with named roles, offer letters or a wage survey for body, paint and mechanical technicians in the trade area, and a plan for hiring and training ahead of the move [^5,3].</p></div></li>
+<li><div><h3>Program items</h3><p>The CDC and bank terms set at pricing, the debenture rate lock, owner eligibility documents under the SOP, and the loan history for the class from SBA's public data [^37]. The rural, HUBZone and Opportunity Zone status of the tract were not found.</p></div></li>
+<li><div><h3>Opening reserve</h3><p>A funded reserve for the Year 1 shortfall between operating income and debt service, held until the stabilized year is reached, because Year 1 coverage in the model is well below one times.</p></div></li>
+<li><div><h3>Prior location and exit</h3><p>The lease terms at the current location and a plan for the months in which two locations are paid for, since the moving budget assumes two months of overlap.</p></div></li>
+</ol>
+</section>

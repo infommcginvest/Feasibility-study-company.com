@@ -1,0 +1,116 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-11-04T14:19:27
+root <scratchpad>/cases/event-venue-jackson-wyoming-sba/copy; git dir /home/user/wt/case at 752d0afd8845ad2d5be3563f5e2782ddc9c8386d; range None; stage ready; site-wide False
+command: python3 scripts/qa/gates.py --root . --git-dir /home/user/wt/case --urls /case-studies/event-venue-jackson-wyoming-sba/ --new /case-studies/event-venue-jackson-wyoming-sba/ --stage ready --skip-look --out <scratchpad>/cases/event-venue-jackson-wyoming-sba/GATES.txt
+pages (1): /case-studies/event-venue-jackson-wyoming-sba/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+1 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: RED
+build.py --check rc=0: 104 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=1: 23 case(s) checked, 1 problem(s)
+
+=== Gate 3: counted figures, amendment A6 ready floors (research and register apart): GREEN
+  /case-studies/event-venue-jackson-wyoming-sba/                 case      counted 35 (research 32, register 3/3)
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /case-studies/event-venue-jackson-wyoming-sba/                 max 10.92% (/case-studies/medical-office-lebanon-tennessee-sba/)
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+0 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 15: GREEN
+  event-venue-jackson-wyoming-sba                sba_504  words  5887  equity  42.2% (tier 15%)  test DSCR 1.150 (floor 1.15)
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
+stale-claim hits 0
+
+source entries lacking a part or never cited 0
+
+figure blocks without a citation 0
+
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in (no range): 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 2; case-scoped tokens 584 over 9 case(s); site-wide tokens 27; history scanned: none (0 bytes)
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): RED
+links.py --check rc=1: 1 problem(s) over 214 checked pages (0 held, data/site/hold.json)
+  case-studies/event-venue-jackson-wyoming-sba/index.html:1043: broken internal link: /states/wyoming/ ('Wyoming') (neither built nor promised)
+  pending anchors by class: {"case": 9, "framework": 31, "hub": 2416, "metro": 841, "other": 2, "retired-infrastructure": 1, "subtype": 216}
+  1 problem(s) over 214 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=1: 105 page(s) out of date; 0 held; 1168 term link(s) on 200 page(s)
+  out of date: asset-classes/gas-station-and-c-store/index.html
+  out of date: asset-classes/gas-station-and-c-store/ev-charging/index.html
+  out of date: asset-classes/gas-station-and-c-store/interstate-highway/index.html
+  out of date: asset-classes/hotel/index.html
+  out of date: asset-classes/mixed-use/index.html
+  out of date: asset-classes/multifamily/index.html
+  out of date: asset-classes/private-school/index.html
+  out of date: asset-classes/quick-service-restaurant/index.html
+  out of date: asset-classes/quick-service-restaurant/burger/index.html
+  out of date: asset-classes/self-storage/index.html
+  out of date: asset-classes/skilled-nursing/index.html
+  out of date: case-studies/assisted-living-texas-hud/index.html
+  out of date: case-studies/auto-dealership-texas-sba/index.html
+  out of date: case-studies/car-wash-port-charlotte-florida-sba/index.html
+  out of date: case-studies/car-wash-texas-sba/index.html
+  out of date: case-studies/event-venue-jackson-wyoming-sba/index.html
+  out of date: case-studies/gas-station-alabama-sba/index.html
+  out of date: case-studies/gas-station-florida-sba/index.html
+  out of date: case-studies/gas-station-georgia-sba/index.html
+  out of date: case-studies/gas-station-texas-sba/index.html
+  out of date: case-studies/gas-station-versailles-ohio-sba/index.html
+  out of date: case-studies/grocery-store-ness-city-kansas-usda/index.html
+  out of date: case-studies/hotel-texas-sba/index.html
+  out of date: case-studies/lodging-retreat-johnson-city-texas-sba/index.html
+  out of date: case-studies/meat-processing-texas-usda/index.html
+  out of date: case-studies/medical-office-lebanon-tennessee-sba/index.html
+  out of date: case-studies/restaurant-acquisition-broussard-louisiana-sba/index.html
+  out of date: case-studies/restaurant-sevierville-tennessee-sba/index.html
+  out of date: case-studies/rv-boat-storage-texas-sba/index.html
+  out of date: case-studies/rv-park-texas-usda/index.html
+pages checked for inbound links: 1; under 3: 1
+  /case-studies/event-venue-jackson-wyoming-sba/                 0
+missing edges:
+  /case-studies/event-venue-jackson-wyoming-sba/ links no hub page
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 214 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10): RED
+1 page(s)
+  /case-studies/event-venue-jackson-wyoming-sba/: not in the sitemap
+
+=== Gate 13: look: PENDING
+  skipped in this run (--skip-look)
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: RED
+  /case-studies/event-venue-jackson-wyoming-sba/: not in the sitemap with a lastmod
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: RED      factory: build.py --check and casemodel.py --check exit 0
+  gate  3: GREEN    counted figures, amendment A6 ready floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 
+  gate  7: GREEN    sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: RED      links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: RED      dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: PENDING  look
+  gate 14: RED      index all: index, follow, and in the sitemap with lastmod
+  green 9/14

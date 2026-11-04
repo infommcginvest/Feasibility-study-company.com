@@ -1,0 +1,638 @@
+{
+ "slug": "wellness-retreat-stowe-vermont-sba",
+ "page": "/case-studies/wellness-retreat-stowe-vermont-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": true,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 29,
+  "fees": 30,
+  "prime": 31
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "retreat",
+  "count": 1
+ },
+ "inputs": {
+  "land_acres": {
+   "value": 6,
+   "fmt": "n",
+   "label": "Land area, acres (hypothetical parcel on the Route 100 corridor)",
+   "assumption": "A round hypothetical parcel of about six acres: room for a lodge, a guest wing, a treatment wing, a program studio, parking, a wastewater field and wooded setbacks. A listing's acreage is a property attribute and not a market figure, so the study sizes the site from the program and not from any listing."
+  },
+  "land_per_acre": {
+   "value": 140000,
+   "fmt": "$",
+   "label": "Land cost per acre",
+   "assumption": "The research holds no Stowe land sale, assessed value or listing. It does show a resort-county price level well above the state's: Windsor County's median listing price of $625,000 [^7] against a statewide median sale price of about $353,000 [^15]. Those are home prices, not land prices, so the study carries a round $140,000 an acre as a planning figure. An appraisal and an executed land contract replace it."
+  },
+  "rooms": {
+   "value": 14,
+   "fmt": "n",
+   "label": "Guest rooms and suites",
+   "assumption": "A design choice, not a market observation. Fourteen rooms keep a retreat small enough to run as one program with one dining room, and large enough that room revenue can carry a payroll. A sponsor with a different program would change this input first."
+  },
+  "bldg_sf": {
+   "value": 15800,
+   "fmt": "n",
+   "label": "Building, gross square feet",
+   "assumption": "A round size built from parts: fourteen rooms at about 520 square feet, a treatment wing of about 4,000 square feet, a program studio of about 1,500, a lodge with dining room and kitchen of about 2,200, and about 800 of laundry, storage and staff space. The design is generic; a site plan and an architect fix the real areas."
+  },
+  "bldg_psf": {
+   "value": 350,
+   "fmt": "$",
+   "label": "Building hard cost per square foot, shell and hospitality finish",
+   "assumption": "No Stowe or Vermont construction cost was found in the research. The study carries a round $350 a square foot for a cold-climate hospitality building with guest-room finish, and prices the treatment wing's wet areas separately below. A contractor bid replaces it."
+  },
+  "wet_sf": {
+   "value": 4000,
+   "fmt": "n",
+   "label": "Treatment wing area within the building, square feet",
+   "assumption": "Six treatment rooms, a thermal and hydrotherapy area, changing rooms and a reception, as one wing of about 4,000 square feet. It is the part of the building that guests and day clients enter for treatments."
+  },
+  "wet_psf": {
+   "value": 100,
+   "fmt": "$",
+   "label": "Treatment wing premium per square foot, over the guest-room finish",
+   "assumption": "The extra cost of plumbed treatment rooms, thermal and hydrotherapy areas, ventilation and moisture-resistant finishes. No Vermont price for this work was found, so it is a round allowance that a contractor bid replaces."
+  },
+  "sitework": {
+   "value": 550000,
+   "fmt": "$",
+   "label": "Site work, drive, parking, well, wastewater field and landscaping",
+   "assumption": "An allowance for a six-acre rural parcel without a confirmed sewer connection. The research found no Stowe water or sewer provider, no capacity fee and no wastewater permit rule, so the allowance carries an on-site wastewater system, a well, the drive, parking and lighting. Utility territory and wastewater capacity are lender conditions."
+  },
+  "contingency_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Eight percent of building, treatment wing premium and site work, a round allowance for a priced but unbid project in a cold-climate resort town with a short building season."
+  },
+  "soft": {
+   "value": 650000,
+   "fmt": "$",
+   "label": "Design, engineering, survey, Phase I, permits, legal and loan costs",
+   "assumption": "Allowance. It covers the architect and engineers, survey, soils and wastewater design, a Phase I environmental assessment, local and state permit work and closing legal work. The research found no Stowe permit fee schedule and no review timeline, so the figure is round and the pre-opening line carries timing risk."
+  },
+  "ffe_per_room": {
+   "value": 32000,
+   "fmt": "$",
+   "label": "Furniture, fixtures and linens per guest room",
+   "assumption": "Allowance per room for beds, linens, casework, lighting and in-room amenities. No vendor quote was found."
+  },
+  "wet_equip": {
+   "value": 380000,
+   "fmt": "$",
+   "label": "Treatment and thermal equipment: tables, hydrotherapy, sauna and steam, laundry",
+   "assumption": "Allowance for six treatment rooms, a thermal area and an on-site laundry. No equipment quote or price was found. A vendor quote replaces it."
+  },
+  "lodge_ffe": {
+   "value": 300000,
+   "fmt": "$",
+   "label": "Lodge, kitchen, studio and systems: kitchen equipment, dining and studio furnishings, network and signage",
+   "assumption": "Allowance for a commercial kitchen, the dining room, the program studio, a booking and records system, signage and a vehicle."
+  },
+  "preopen": {
+   "value": 320000,
+   "fmt": "$",
+   "label": "Pre-opening: hiring, practitioner credentialing, licences, marketing launch",
+   "assumption": "Allowance. Treatment staff and program leaders are hired and trained before the first guest, and licences and a booking system are set up. The research found no timeline for these steps, so the figure is round and the working capital reserve carries the real exposure."
+  },
+  "working_capital": {
+   "value": 550000,
+   "fmt": "$",
+   "label": "Working capital and off-season reserve",
+   "assumption": "Roughly four months of Year 2 operating cost, to carry payroll and heat through the months when bookings are thin. The research holds no occupancy series for Stowe, so the reserve is a judgment about a seasonal market and a lender will size its own."
+  },
+  "occupancy": {
+   "value": [
+    0.42,
+    0.56,
+    0.61,
+    0.63,
+    0.63
+   ],
+   "fmt": "%",
+   "label": "Guest room occupancy, share of room-nights sold",
+   "assumption": "No hotel or retreat occupancy for Stowe is in the research that can be printed with a date. The study ramps a newcomer with a program-led product to 61% in Year 3, the stabilized year, and 63% by Year 5, a level that leaves the quiet months thin. The inputs that matter most to a lender are this one and the room rate, and a booking-evidence study should replace both. The ramp also assumes the town's short-term rental cap, adopted in July 2026 [^1], keeps casual rentals from absorbing all of the weekend demand."
+  },
+  "room_rate": {
+   "value": [
+    540,
+    556,
+    573,
+    590,
+    608
+   ],
+   "fmt": "$",
+   "label": "Average room rate per occupied night, room only",
+   "assumption": "A round planning rate for a luxury-positioned retreat lodge in a resort town, rising about 3% a year. No Vermont or Stowe rate that can be printed with a date was found, so this is the least certain input in the room line. A competitor census with quoted rates replaces it."
+  },
+  "program_per_night": {
+   "value": [
+    230,
+    237,
+    244,
+    251,
+    259
+   ],
+   "fmt": "$",
+   "label": "Treatments, classes and guided activities bought by in-house guests, per occupied night",
+   "assumption": "An allowance for the program revenue a retreat earns beyond the room: treatments, classes and guided sessions sold to the guests who stay. It is a package assumption; the research holds no wellness spending figure."
+  },
+  "fb_per_night": {
+   "value": [
+    135,
+    139,
+    143,
+    147,
+    151
+   ],
+   "fmt": "$",
+   "label": "Meals and beverages per occupied night",
+   "assumption": "Revenue from the retreat's dining room, where meals are part of the program. A restaurant study of the lodge's menu and covers replaces the allowance."
+  },
+  "day_sessions": {
+   "value": [
+    1000,
+    1900,
+    2600,
+    2800,
+    2900
+   ],
+   "fmt": "n",
+   "label": "Treatment sessions sold to day clients (non-resident guests and locals) per year",
+   "assumption": "Sessions sold to people who do not stay overnight, in six treatment rooms. At 2,600 sessions a year in Year 3 the six rooms average well under one session a day each, a modest use of the wing. The research holds no count of local clients, and the town's resident base is not in the research as a Stowe figure; the demand evidence is county employment and visitor counts, which suggest a working and visiting population but not a client list."
+  },
+  "session_price": {
+   "value": [
+    185,
+    191,
+    196,
+    202,
+    208
+   ],
+   "fmt": "$",
+   "label": "Average price per day-client treatment session",
+   "assumption": "A round planning price rising about 3% a year. No Stowe treatment price that can be printed was found. A competitor census replaces it."
+  },
+  "retail_pct": {
+   "value": 0.04,
+   "fmt": "%",
+   "label": "Retail and other income, share of lodging, program, meals and session revenue",
+   "assumption": "A round share for product sales, gift cards and rentals."
+  },
+  "therapist_fte": {
+   "value": [
+    5,
+    6,
+    6,
+    7,
+    7
+   ],
+   "fmt": "n",
+   "label": "Treatment and program staff, full-time equivalents",
+   "assumption": "Licensed therapists, movement and program leaders. Six full-time equivalents in Year 3 cover six treatment rooms at the session volume above. No competitor publishes a staffing ratio, so it is a planning figure."
+  },
+  "therapist_wage": {
+   "value": 62000,
+   "fmt": "$",
+   "label": "Average pay of treatment and program staff, before payroll costs",
+   "assumption": "A round blended planning wage. Lamoille County's all-industry average weekly wage was $1,170 in the first quarter of 2026 and Windsor County's was $1,265 [^3]. Licensed practitioners are hired from a pool that the ski resorts, medical offices and other spas also draw on, so the study carries a wage above the county average. A local wage survey replaces it."
+  },
+  "hosp_fte": {
+   "value": [
+    4,
+    5,
+    5,
+    5,
+    5
+   ],
+   "fmt": "n",
+   "label": "Front desk, housekeeping and night staff, full-time equivalents",
+   "assumption": "A planning figure for a fourteen-room lodge. Housekeeping and front desk are the staff that follow occupancy, and the model holds them flat from Year 2 as a simplification."
+  },
+  "hosp_wage": {
+   "value": 47000,
+   "fmt": "$",
+   "label": "Average pay of front desk and housekeeping staff, before payroll costs",
+   "assumption": "A round planning wage, set against the Lamoille County average weekly wage of $1,170 [^3]. A resort-town labor market and a shortage of staff housing may require more."
+  },
+  "kitchen_fte": {
+   "value": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "fmt": "n",
+   "label": "Kitchen and dining staff, full-time equivalents",
+   "assumption": "A chef, a cook and a server or dishwasher, as a planning figure for a dining room that serves guests and not the public."
+  },
+  "kitchen_wage": {
+   "value": 52000,
+   "fmt": "$",
+   "label": "Average pay of kitchen and dining staff, before payroll costs",
+   "assumption": "A round planning wage. No Stowe kitchen wage was found."
+  },
+  "mgmt_payroll": {
+   "value": 270000,
+   "fmt": "$",
+   "label": "General manager, program director, spa director and bookkeeping, before payroll costs",
+   "assumption": "One allowance for four management roles. A market salary is charged even when an owner fills a role, so earnings are not inflated by unpaid owner labor."
+  },
+  "burden": {
+   "value": 0.2,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package. No Vermont figure was in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year. No local wage or cost series is in the research, and a lender will want one."
+  },
+  "fb_cost_pct": {
+   "value": 0.36,
+   "fmt": "%",
+   "label": "Food and beverage cost, share of meals revenue",
+   "assumption": "A round planning share for ingredients, beverages and kitchen consumables. A menu costing replaces it."
+  },
+  "supplies_pct": {
+   "value": 0.1,
+   "fmt": "%",
+   "label": "Treatment supplies, oils, linens and consumables, share of program and session revenue",
+   "assumption": "A round planning share. No supplier price was found."
+  },
+  "housekeeping_per_night": {
+   "value": 26,
+   "fmt": "$",
+   "label": "Laundry, amenities and guest supplies per occupied night",
+   "assumption": "A round planning figure per occupied night, grown with the operating-cost rate."
+  },
+  "commission_pct": {
+   "value": 0.09,
+   "fmt": "%",
+   "label": "Booking commissions, card fees and online fees, share of room and program revenue",
+   "assumption": "A round planning share for booking platforms and card processing. A retreat that sells direct pays less and spends more on marketing."
+  },
+  "marketing": {
+   "value": 95000,
+   "fmt": "$",
+   "label": "Marketing, photography, partnerships and web, per year",
+   "assumption": "Allowance. A newcomer in a market with established resorts has to buy its visibility."
+  },
+  "utilities": {
+   "value": 165000,
+   "fmt": "$",
+   "label": "Utilities: heating, hot water, hydrotherapy, laundry and electricity",
+   "assumption": "Allowance for a cold-climate building with wet areas and a laundry. Which utilities serve the site was not confirmed, so the figure is round and the provider quotes replace it."
+  },
+  "insurance": {
+   "value": 90000,
+   "fmt": "$",
+   "label": "Property, liability, professional liability and flood insurance",
+   "assumption": "Allowance for a lodging and treatment operation. A broker's quote replaces it, and a site in a flood zone would raise it; the 2023 flooding reached Lamoille County [^25]."
+  },
+  "admin": {
+   "value": 105000,
+   "fmt": "$",
+   "label": "Administration, software, licences, accounting and professional fees",
+   "assumption": "One allowance for the small recurring costs of a business with treatment licences, a booking system and a payroll."
+  },
+  "repairs": {
+   "value": 85000,
+   "fmt": "$",
+   "label": "Repairs, grounds, snow removal and maintenance",
+   "assumption": "Allowance for a cold-climate property with a drive and parking to clear."
+  },
+  "tax_rate": {
+   "value": 0.012,
+   "fmt": "%2",
+   "label": "Property tax, share of land, building and site cost",
+   "assumption": "A planning level of about 1.2% of cost. The research holds no Stowe tax rate or assessment ratio, so the combined levy on the site cannot be computed and is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Replacement reserve, share of revenue",
+   "assumption": "A round reserve for furniture, equipment and finishes."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^31] plus a half point for a start-up lodging and treatment property. No published 2026 bank terms for resort-town lodging in Lamoille County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. A bank may require a shorter term for a special purpose property, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.07,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "assumption": "A round planning rate. No debenture pricing notice is in this case's research, and the rate is set when the debenture is sold. A CDC's rate sheet on the day of application replaces it."
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, about 6 acres on the Route 100 corridor",
+   "expr": "land_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "acres x assumed price per acre"
+  },
+  {
+   "key": "building",
+   "label": "Building, 15,800 sq ft, hospitality finish",
+   "expr": "bldg_sf * bldg_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed hard cost"
+  },
+  {
+   "key": "wet",
+   "label": "Treatment wing premium, 4,000 sq ft",
+   "expr": "wet_sf * wet_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed premium"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, wastewater, well, drive and parking",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * bldg_psf + wet_sf * wet_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "8% of building and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "ffe",
+   "label": "Guest room furniture and linens",
+   "expr": "rooms * ffe_per_room",
+   "class": "equipment",
+   "basis": "rooms x assumed allowance"
+  },
+  {
+   "key": "wet_equip",
+   "label": "Treatment, thermal and laundry equipment",
+   "expr": "wet_equip",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "lodge_ffe",
+   "label": "Kitchen, dining, studio and systems",
+   "expr": "lodge_ffe",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening, hiring and licences",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital and off-season reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about four months of Year 2 operating cost"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "rooms",
+   "label": "Guest rooms",
+   "expr": "rooms * 365 * occupancy * room_rate",
+   "basis": "rooms x 365 x occupancy x rate"
+  },
+  {
+   "key": "program",
+   "label": "In-house treatments and program",
+   "expr": "rooms * 365 * occupancy * program_per_night",
+   "basis": "occupied nights x spend per night"
+  },
+  {
+   "key": "meals",
+   "label": "Meals and beverages",
+   "expr": "rooms * 365 * occupancy * fb_per_night",
+   "basis": "occupied nights x spend per night"
+  },
+  {
+   "key": "sessions",
+   "label": "Day-client treatment sessions",
+   "expr": "day_sessions * session_price",
+   "basis": "sessions x price"
+  },
+  {
+   "key": "retail",
+   "label": "Retail and other",
+   "expr": "(rev_rooms + rev_program + rev_meals + rev_sessions) * retail_pct",
+   "basis": "share of the lines above"
+  }
+ ],
+ "cost_of_sales": [],
+ "opex": [
+  {
+   "key": "therapy",
+   "label": "Treatment and program payroll with costs",
+   "expr": "therapist_fte * therapist_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x pay"
+  },
+  {
+   "key": "hosp",
+   "label": "Front desk and housekeeping payroll with costs",
+   "expr": "hosp_fte * hosp_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x pay"
+  },
+  {
+   "key": "kitchen",
+   "label": "Kitchen and dining payroll with costs",
+   "expr": "kitchen_fte * kitchen_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x pay"
+  },
+  {
+   "key": "mgmt",
+   "label": "Management payroll with costs",
+   "expr": "mgmt_payroll * (1 + burden) * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "food",
+   "label": "Food and beverage cost",
+   "expr": "rev_meals * fb_cost_pct",
+   "basis": "share of meals revenue"
+  },
+  {
+   "key": "supplies",
+   "label": "Treatment supplies and consumables",
+   "expr": "(rev_program + rev_sessions) * supplies_pct",
+   "basis": "share of program and session revenue"
+  },
+  {
+   "key": "housekeeping",
+   "label": "Laundry, amenities and guest supplies",
+   "expr": "rooms * 365 * occupancy * housekeeping_per_night * (1 + inflation) ** y",
+   "basis": "occupied nights x cost"
+  },
+  {
+   "key": "commission",
+   "label": "Booking commissions and card fees",
+   "expr": "(rev_rooms + rev_program) * commission_pct",
+   "basis": "share of room and program revenue"
+  },
+  {
+   "key": "marketing",
+   "label": "Marketing",
+   "expr": "marketing * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "admin",
+   "label": "Administration, software and professional fees",
+   "expr": "admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "repairs",
+   "label": "Repairs, grounds and snow removal",
+   "expr": "repairs * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + wet_sf * wet_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "rev_total * reserve_pct",
+   "basis": "share of revenue"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.15,
+  "note": "the sponsor applies the new-business tier alone and overlooks that lodging is also on SBA's special purpose list"
+ },
+ "breakeven": {
+  "input": "occupancy",
+  "label": "guest room occupancy"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "occupancy",
+   "label": "Guest room occupancy",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "room_rate",
+   "label": "Room rate",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Stowe, Lamoille County, Vermont, on the Route 100 corridor, a resort town whose county had 12,865 covered jobs in March 2026 [^3]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "New owner-operated wellness and retreat property: {in_rooms} guest rooms, a treatment wing with six treatment rooms, a program studio and a dining room, in a building of about {in_bldg_sf} sq ft on about {in_land_acres} acres; site, owner and operator not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; lodging facilities are on SBA's special purpose list and the business is new [^29]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_pct} of underwritten occupancy ({cushion_pct} cushion)"
+  ],
+  [
+   "Market conclusion",
+   "A county and state that draw millions of visitors can support a small retreat, but no competing wellness operator, rate or occupancy series is in the public record and the town is capping short-term rentals [^12,1]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

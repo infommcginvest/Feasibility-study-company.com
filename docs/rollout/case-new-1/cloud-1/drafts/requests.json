@@ -1,0 +1,16 @@
+{
+ "lane": "case-new-1",
+ "requests": [
+  {
+   "id": "case-new-1-c1-1",
+   "kind": "promised",
+   "urls": [
+    "/states/wyoming/",
+    "/states/alaska/",
+    "/states/north-dakota/",
+    "/states/vermont/",
+    "/states/district-of-columbia/"
+   ]
+  }
+ ]
+}

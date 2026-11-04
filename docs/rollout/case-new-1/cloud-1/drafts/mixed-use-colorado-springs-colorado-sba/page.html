@@ -1,0 +1,555 @@
+---
+{
+  "type": "case",
+  "url": "/case-studies/mixed-use-colorado-springs-colorado-sba/",
+  "title": "Mixed-Use Feasibility Study Case: Colorado Springs, SBA 504",
+  "description": "Mixed-use feasibility study case for an SBA 504 loan in Colorado Springs, Colorado: an owner buys a storefront building with six apartments above.",
+  "h1": "Mixed-Use Feasibility Study Case: Colorado Springs, Colorado, SBA 504",
+  "eyebrow": "Case Study &middot; Colorado &middot; Mixed-Use &middot; SBA 504",
+  "hero_sub": "Colorado Springs apartments were 94.4% occupied in the first half of 2026 [^10], while average office rent fell 4.3% [^9]. An owner's storefront with six apartments above it clears the SBA 504 occupancy share on the floor area as modeled, but at {{case:v.equity_proposed_pct}} equity Year 2 coverage is only {{case:v.dscr_y2_proposed}}; the model supports the loan at {{case:v.equity_pct}} equity.",
+  "hero_secondary": {
+    "text": "Jump to the coverage test",
+    "href": "#dscr"
+  },
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Case Studies",
+      "/case-studies/"
+    ],
+    [
+      "Mixed-Use",
+      "/asset-classes/mixed-use/"
+    ],
+    [
+      "Colorado Springs CO"
+    ]
+  ],
+  "published": "DEPLOY",
+  "updated": "DEPLOY",
+  "data_as_of": "2026-11",
+  "faq": {
+    "eyebrow": "Colorado Springs Questions",
+    "h2": "What lenders and owners ask about the Colorado Springs mixed-use case.",
+    "items": [
+      {
+        "q": "Does a mixed-use building qualify for an SBA 504 loan?",
+        "a": "It can, when the operating business occupies enough of it. For an existing building the borrower must occupy at least <!--sba:regulation.occupancy_existing.value-->51%<!--/sba:regulation.occupancy_existing.value-->, and for a new building <!--sba:regulation.occupancy_new.value-->60%<!--/sba:regulation.occupancy_new.value--> [^31]. The case gives the owner's business the whole ground floor, which is more than half of the building, and rents the six apartments upstairs. The lender and the certified development company must still confirm in writing how the current edition treats the apartments, so the page makes that a condition and not an assumption."
+      },
+      {
+        "q": "Is the Colorado Springs apartment market strong enough for the upstairs units?",
+        "a": "Occupancy was 94.4% in the first half of 2026 and the market absorbed 1,319 units in the half year, but average rent per unit fell 2.6% over twelve months [^10]. Demand is firm and pricing is soft. The model holds rent flat and below the market average, and it fills the six apartments to just under the market occupancy."
+      },
+      {
+        "q": "What rent does the case charge the owner's business, and why a rent at all?",
+        "a": "The study tests the building on the income it earns, and the business is the largest tenant. The rent is a modified gross figure set between CBRE's average office asking rent of $17.67 per square foot on a triple-net basis and its Class A rent of $21.14 [^9]. No source in the research prices ground-floor space, so the figure is a labelled proxy. The business's own earnings are tested separately, in a global cash flow, and that test is a lender condition."
+      },
+      {
+        "q": "Why does the competitor section name no competitors?",
+        "a": "Because no dated public document behind this page names one, and a census that named a building without a source would be invented. The census therefore becomes a lender condition, a named census with each competitor's own website or assessor record, and the section carries a supply table instead. The table counts landlord establishments in the Census Bureau's County Business Patterns, a proxy for the class, for El Paso County and for the metro area [^29]."
+      },
+      {
+        "q": "Why does the restructured loan need more equity than the program minimum?",
+        "a": "Because the minimum is a floor and not a recommendation. An established business buying a general-purpose building contributes at least <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> of project cost [^31], and the project must also show projected coverage of <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> [^31]. The building's income cannot carry a loan sized at the minimum, so the engine raises the borrower's contribution until Year 2 coverage reaches the floor. The coverage table on this page shows both structures."
+      },
+      {
+        "q": "Does SBA require a feasibility study for a loan like this one?",
+        "a": "Not in every case. The rule reads <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^34]. On a mixed-use building with owner-occupancy questions, a lender may ask for one anyway, and a study that builds the supply count, the two income streams and the coverage test puts that work in the lender's hands up front."
+      },
+      {
+        "q": "What could stop the project before any loan question arises?",
+        "a": "Site facts the research could not find: the zoning status of each use, the flood zone and the property tax. Colorado's 2024 parking law and transit-area housing law may change what an owner can do on the lot [^22,23], and the federal agency recorded money for city drainage and creek work in 2026 [^13]. A zoning letter, a flood determination and the assessor's record settle each in turn."
+      },
+      {
+        "q": "Can Feasibility Study Company prepare a study like this for my building?",
+        "a": "Feasibility Study Company prepares feasibility studies for owners, developers and their lenders, including mixed-use buildings financed with SBA 504 and 7(a) loans. Use the contact form to describe your building, and we will tell you what a study for it would cover."
+      }
+    ]
+  },
+  "cta": {
+    "h2": "Planning a mixed-use building? Test the price and the rent against the debt before you sign.",
+    "p": "Feasibility Study Company builds the market read, the supply count and the coverage test from dated public records for owners, developers and their lenders."
+  },
+  "sources_lede": "Each figure carries its publisher, date and link below. Rows that relay another publisher are labelled as relays, and inputs the research could not source appear in the model as labelled assumptions.",
+  "sources": [
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "BLS Mountain-Plains: Colorado Springs, CO (area page)",
+      "date": "October 2026 release (September 2026 data, preliminary)",
+      "url": "https://www.bls.gov/regions/mountain-plains/co_coloradosprings_msa.htm"
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Occupational Employment and Wages in Colorado Springs, May 2025",
+      "date": "August 5, 2026 (May 2025 data)",
+      "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_coloradosprings.htm"
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "County Employment and Wages in Colorado, First Quarter 2026",
+      "date": "September 4, 2026 (first quarter 2026 data)",
+      "url": "https://www.bls.gov/regions/mountain-plains/news-release/countyemploymentandwages_colorado.htm"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: U.S. Census Bureau)",
+      "title": "New Private Housing Structures Authorized by Building Permits for El Paso County, CO (BPPRIV008041)",
+      "date": "May 28, 2026 (2025 annual series)",
+      "url": "https://fred.stlouisfed.org/series/BPPRIV008041"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+      "title": "Housing Inventory: Median Listing Price in Colorado Springs, CO (CBSA) (MEDLISPRI17820)",
+      "date": "October 1, 2026 (September 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/MEDLISPRI17820"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+      "title": "Housing Inventory: Active Listing Count in Colorado Springs, CO (CBSA) (ACTLISCOU17820)",
+      "date": "October 1, 2026 (September 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/ACTLISCOU17820"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+      "title": "Housing Inventory: Median Days on Market in Colorado Springs, CO (CBSA) (MEDDAYONMAR17820)",
+      "date": "October 1, 2026 (September 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/MEDDAYONMAR17820"
+    },
+    {
+      "publisher": "CBRE",
+      "title": "Colorado Springs Industrial Figures H1 2026",
+      "date": "August 11, 2026 (first half 2026 data)",
+      "url": "https://www.cbre.com/insights/figures/colorado-springs-industrial-figures-h1-2026"
+    },
+    {
+      "publisher": "CBRE",
+      "title": "Colorado Springs Office Figures H1 2026",
+      "date": "August 11, 2026 (first half 2026 data)",
+      "url": "https://www.cbre.com/insights/figures/colorado-springs-office-figures-h1-2026"
+    },
+    {
+      "publisher": "CBRE",
+      "title": "Colorado Springs Multifamily Figures H1 2026",
+      "date": "August 11, 2026 (first half 2026 data)",
+      "url": "https://www.cbre.com/insights/figures/colorado-springs-multifamily-figures-h1-2026"
+    },
+    {
+      "publisher": "Matthews Real Estate Investment Services",
+      "title": "Colorado Springs Industrial Market Report Q2 2026",
+      "date": "August 27, 2026 (second quarter 2026 data)",
+      "url": "https://www.matthews.com/insights/colorado-springs-industrial-q2-2026"
+    },
+    {
+      "publisher": "Visit Colorado Springs",
+      "title": "Pikes Peak Region Tourism Held Strong in 2025",
+      "date": "May 28, 2026 (2025 annual data)",
+      "url": "https://www.visitcos.com/media/press-releases/pikes-peak-region-tourism-held-strong-in-2025/"
+    },
+    {
+      "publisher": "FEMA",
+      "title": "Trump Administration Delivers More Than $90 Million Through FEMA to Help Communities Recover from Recent Disasters and Strengthen Their Resilience Against Future Disasters in Colorado",
+      "date": "September 15, 2026 (announced September 15, 2026)",
+      "url": "https://www.fema.gov/press-release/20260915/trump-administration-delivers-more-90-million-through-fema-help-communities"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BEA)",
+      "title": "Total Gross Domestic Product for Colorado Springs, CO (MSA) (DISCONTINUED) (NGMP17820)",
+      "date": "December 4, 2024 (2023 annual data; series labelled discontinued)",
+      "url": "https://fred.stlouisfed.org/series/NGMP17820"
+    },
+    {
+      "publisher": "Colorado State Demography Office (DOLA)",
+      "title": "Colorado's State Demography Office Summarizes the U.S. Census Data Released Today",
+      "date": "January 27, 2026 (July 1, 2025 estimates)",
+      "url": "https://content.govdelivery.com/accounts/CODOLA/bulletins/4065eb6"
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "State Employment and Unemployment, September 2026 (Table 1)",
+      "date": "October 20, 2026 (September 2026 data, preliminary)",
+      "url": "https://www.bls.gov/news.release/laus.t01.htm"
+    },
+    {
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "BLS Mountain-Plains Information Office: Colorado",
+      "date": "October 2026 release (September 2026 data, preliminary)",
+      "url": "https://www.bls.gov/regions/mountain-plains/colorado.htm"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: BLS)",
+      "title": "All Employees: Leisure and Hospitality in Colorado (COLEIH)",
+      "date": "October 20, 2026 (September 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/COLEIH"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+      "title": "Housing Inventory: Median Listing Price in Colorado (MEDLISPRICO)",
+      "date": "October 1, 2026 (September 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/MEDLISPRICO"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: Realtor.com)",
+      "title": "Housing Inventory: Active Listing Count in Colorado (ACTLISCOUCO)",
+      "date": "October 1, 2026 (September 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/ACTLISCOUCO"
+    },
+    {
+      "publisher": "FRED, Federal Reserve Bank of St. Louis (source: FHFA)",
+      "title": "All-Transactions House Price Index for Colorado (COSTHPI)",
+      "date": "August 25, 2026 (second quarter 2026 data)",
+      "url": "https://fred.stlouisfed.org/series/COSTHPI"
+    },
+    {
+      "publisher": "Colorado General Assembly",
+      "title": "Minimum Parking Requirements (HB24-1304)",
+      "date": "May 10, 2024",
+      "url": "https://leg.colorado.gov/bills/HB24-1304"
+    },
+    {
+      "publisher": "Colorado General Assembly",
+      "title": "Housing in Transit-Oriented Communities (HB24-1313)",
+      "date": "May 13, 2024",
+      "url": "https://leg.colorado.gov/bills/HB24-1313"
+    },
+    {
+      "publisher": "Colorado General Assembly",
+      "title": "Housing Developments on Qualifying Properties (HB26-1001)",
+      "date": "March 25, 2026",
+      "url": "https://leg.colorado.gov/bills/HB26-1001"
+    },
+    {
+      "publisher": "Colorado General Assembly",
+      "title": "Property Tax (HB24B-1001)",
+      "date": "September 4, 2024",
+      "url": "https://leg.colorado.gov/bills/HB24B-1001"
+    },
+    {
+      "publisher": "The Aspen Times (reporting Colorado Division of Insurance report)",
+      "title": "New report shows how much hail, wildfire contribute to Colorado homeowners insurance costs",
+      "date": "February 11, 2026 (reporting a 2026 Division of Insurance report)",
+      "url": "https://www.aspentimes.com/news/colorado-homeowners-insurance-costs/"
+    },
+    {
+      "publisher": "Colorado Enterprise Fund",
+      "title": "Colorado Enterprise Fund Wraps Fiscal Year, Distributes $18M to Small Businesses Across the State",
+      "date": "December 3, 2025 (fiscal year ended September 30, 2025)",
+      "url": "https://coloradoenterprisefund.org/blog/16049/Colorado-Enterprise-Fund-Wraps-Fiscal-Year-Distributes-18M-to-Small-Businesses-Across-the-State"
+    },
+    {
+      "publisher": "U.S. Census Bureau, American Community Survey",
+      "title": "American Community Survey 5-Year Estimates, Detailed Tables, 2020-2024 (Census Data API)",
+      "date": "2020 to 2024 five-year estimates",
+      "url": "https://api.census.gov/data/2024/acs/acs5"
+    },
+    {
+      "publisher": "U.S. Census Bureau, County Business Patterns",
+      "title": "2023 County Business Patterns (Census Data API)",
+      "date": "2023 data year",
+      "url": "https://api.census.gov/data/2023/cbp"
+    },
+    {
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "Personal Income by County, Metro, and Other Areas (Regional table CAINC1)",
+      "date": "calendar year 2024",
+      "url": "https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates",
+      "date": "Effective October 1, 2026",
+      "url": "https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs"
+    },
+    {
+      "publisher": "U.S. Small Business Administration",
+      "title": "Information Notice 5000-881796: FY 2027 504 Program Fees",
+      "date": "Fiscal year 2027 (loans approved October 1, 2026 through September 30, 2027)",
+      "url": "https://legacy.sba.gov/document/information-notice-5000-881796-fy-2027-504-program-fees"
+    },
+    {
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "title": "H.15 Selected Interest Rates",
+      "date": "Release of October 9, 2026",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "publisher": "eCFR",
+      "title": "13 CFR 120.160, Loan conditions",
+      "date": "Current to October 7, 2026",
+      "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/section-120.160"
+    }
+  ]
+}
+---
+<section id="at-a-glance" data-eyebrow="Study at a Glance" data-h2="An owner's storefront with six apartments above it, tested against the SBA 504 rules in Colorado Springs.">
+<div class="prose">
+<p>Owners who search for a mixed-use feasibility study company or a mixed-use feasibility study consultant usually want one answer: how much debt the building can carry, and what the lender will ask for before it says yes. Feasibility Study Company prepares mixed-use feasibility studies for owners, developers and their lenders. A study joins a dated market read, a count of the competing supply, a priced project and a coverage test that shows how much debt the income supports. This page runs that work on one hypothetical project: a business that buys the two-story building it already trades from, keeps the ground floor for itself and rents the six apartments above, financed with an SBA 504 loan in Colorado Springs, Colorado. <a href="/#contact">Ask us to run the same work on your building.</a></p>
+<p>The subject is generic: an existing building of about {{case:v.in_ground_sf}} square feet at street level for the owner's business and {{case:v.in_upper_sf}} square feet above it for {{case:v.in_apts}} apartments, on a lot in the central commercial core of Colorado Springs, El Paso County, along the Nevada Avenue corridor. The corridor is a case assumption and no parcel, owner or business is described. Every market figure on the page is public and dated. Every model figure is computed by the case engine from the inputs listed near the end, and each input carries either a source or the word assumption. The project belongs to our <a href="/asset-classes/mixed-use/">mixed-use practice</a>, the town sits in <a href="/states/colorado/">Colorado</a>, and the program rules are laid out on our <a href="/practice-areas/sba-7a-504/">SBA 7(a) and 504 page</a>.</p>
+</div>
+{{case:glance}}
+</section>
+<section id="market-conclusion" data-eyebrow="Market Conclusion" data-h2="The apartments have a market. The storefront rent and the purchase price decide the loan.">
+<div class="prose">
+<p>The residential answer is yes. Apartment occupancy in Colorado Springs stood at 94.4% in the first half of 2026, up 150 basis points from the end of 2025, and the market absorbed 1,319 units in the half year against 172 in the half before [^10]. The average rent of $1,457 a unit was up 2.3% from year-end but 2.6% lower than a year earlier [^10]. Demand is strong, rents are soft, and a six-unit owner is a price taker in both.</p>
+<p>The commercial answer is cautious. Office space is the nearest published non-residential rent, and it fell: the average direct asking rent was $17.67 per square foot on a triple-net basis, down 4.3%, while total vacancy stood at 10.4% and the half year's net absorption was negative 8,000 square feet [^9]. No source in the research prices ground-floor retail or service space in the city. The model therefore charges the owner's own business a rent anchored on the office figure and labels it a proxy.</p>
+<p>The building answer follows from the first two. More than half of the floor area belongs to the owner's business, which is the share the occupancy tests look at. The apartments pay for themselves and a little more, the storefront pays an internal rent that a lender will test against the business's own earnings, and the sum is thin against any price that a seller of an occupied building will accept. The financing answer is below.</p>
+<p>Under the sponsor's {{case:v.equity_proposed_pct}} equity proposal the project costs {{case:v.tpc_proposed}} and Year 2 coverage is {{case:v.dscr_y2_proposed}} against a floor of <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value-->. Restructured, the sponsor brings {{case:v.equity}}, {{case:v.equity_pct}} of project cost, the bank lends {{case:v.tpl}} and the debenture is {{case:v.debenture}}. That structure reaches {{case:v.dscr_y2}} in Year 2 and {{case:v.dscr_y3}} at stabilization, so it meets the test with almost no room. It is a different deal from the one proposed, and the sensitivity table shows how little slack the first two years leave. <a href="/#contact">Ask for a study that tests your own price against your own rent roll.</a></p>
+</div>
+</section>
+<section id="demand" data-eyebrow="Demand" data-h2="A steady jobs base, firm apartment demand and a state whose migration has turned flat.">
+<div class="prose">
+<p>A mixed-use building sells two kinds of space to two kinds of tenant. The upstairs tenant needs a job and a lease, and the downstairs tenant needs customers. The tables set out the public record for both, starting with the metro economy and ending with the state.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Indicator</th><th scope="col">Colorado Springs / El Paso County</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Unemployment rate, not seasonally adjusted, preliminary (August 2026 was 4.7%)</td><td>4.5%</td><td>September 2026</td><td>[^1]</td></tr>
+<tr><td>Total nonfarm jobs, preliminary</td><td>331.6 thousand</td><td>September 2026</td><td>[^1]</td></tr>
+<tr><td>Twelve-month change in nonfarm jobs</td><td>0.8%</td><td>September 2026</td><td>[^1]</td></tr>
+<tr><td>Mean hourly wage, all occupations</td><td>$34.03</td><td>May 2025</td><td>[^2]</td></tr>
+<tr><td>Covered employment, El Paso County (down 1.2% over the year)</td><td>301,647</td><td>March 2026</td><td>[^3]</td></tr>
+<tr><td>Average weekly wage, El Paso County (up 5.0% over the year)</td><td>$1,437</td><td>First quarter 2026</td><td>[^3]</td></tr>
+<tr><td>New private housing structures authorized by building permits, El Paso County (relay of Census Bureau data)</td><td>5,707</td><td>2025</td><td>[^4]</td></tr>
+<tr><td>Total gross domestic product, Colorado Springs metro, millions of dollars (relay of BEA data; series labelled discontinued)</td><td>53,092.641</td><td>2023</td><td>[^14]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>Jobs and wages</h3>
+<p>The metro added jobs at a modest pace, 0.8% over twelve months to September 2026, with the unemployment rate at 4.5% [^1]. County payroll data point the other way for the first quarter: covered employment in El Paso County was 301,647 in March 2026, which is 1.2% fewer jobs than a year before, while the average weekly wage rose 5.0% to $1,437 [^3]. The two readings come from different surveys, and the study reads them together: a labor market that is holding its jobs while wages move up. For a landlord the wage growth matters more than the job count, because it is what a tenant pays rent from. The mean hourly wage across all occupations was $34.03 in May 2025 [^2], which at full-time hours is the income base for the upstairs tenant.</p>
+<p>The metro's economic output was $53,092.641 million in 2023, the last year the research could read, in a series its relay labels discontinued [^14]. The study uses it as scale and not as a trend.</p>
+<h3>Housing and renters</h3>
+<p>Colorado Springs is a market in which buying is expensive and renting is the alternative. The median listing price in the metro was $484,950 in September 2026, with 4,266 active listings, according to a relay of Realtor.com data [^5,6]. A price of that size can keep some households renting longer, which supports the apartment half of the building. Listings sat for a median of 67 days before they sold or were withdrawn [^7]. County permitting added supply: 5,707 housing structures were authorized in El Paso County in 2025 [^4]. Both housing series are secondary rows, and the study labels them as relays of the original publishers.</p>
+<p>The apartment market has its own record. Completions in the first half of 2026 were 369 units, against 840 in the second half of 2025, and net absorption of 1,319 units was well above the completions, which is why occupancy rose to 94.4% [^10]. The half year's sales volume for apartment buildings was $82.5 million, up from $22.9 million in the half before [^10]. Buyers returned to the asset class. For a small owner that is a double-edged signal: it supports the value of the building and it raises the price of the next one.</p>
+<h3>Visitors and the storefront</h3>
+<p>The Pikes Peak region drew 25.6 million visitors in 2025, up 0.3%, who spent $3.1 billion, up 0.4%, and 11.2 million of them stayed overnight [^12]. A storefront in the central core draws some of that spending, and the study does not count on it: the release gives no retail or lodging figure, and spending that grows by less than half a percent is not a growth story. The sponsor's own demand case decides whether the ground floor can pay the rent the model charges it.</p>
+<h3>The state behind the city</h3>
+<p>Colorado's population reached 6,012,561 on July 1, 2025, a rise of 0.4%, according to the state demographer's summary of Census Bureau estimates, a secondary relay of the federal release [^15]. Net domestic migration was negative 12,100, more people leaving the state than arriving, and net international migration of 15,356 more than offset it, leaving a total net gain of 3,256 [^15]. A state whose growth depends on arrivals from abroad while its own residents move out is a state in which household formation continues at a slower pace. The apartment demand that Colorado Springs shows in its absorption figures rests on that base, and a landlord should not extrapolate it.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Indicator</th><th scope="col">Colorado</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Resident population</td><td>6,012,561</td><td>July 1, 2025</td><td>[^15]</td></tr>
+<tr><td>Net international migration</td><td>+15,356</td><td>July 2024 to June 2025</td><td>[^15]</td></tr>
+<tr><td>Net domestic migration</td><td>-12,100</td><td>July 2024 to June 2025</td><td>[^15]</td></tr>
+<tr><td>Unemployment rate, seasonally adjusted, preliminary (a year earlier 3.8%)</td><td>4.1%</td><td>September 2026</td><td>[^16]</td></tr>
+<tr><td>Nonfarm payroll jobs, preliminary</td><td>2,973.8 thousand</td><td>September 2026</td><td>[^17]</td></tr>
+<tr><td>Leisure and hospitality jobs (relay of BLS data)</td><td>359.1 thousand</td><td>September 2026</td><td>[^18]</td></tr>
+<tr><td>Median listing price (relay of Realtor.com data)</td><td>$564,000</td><td>September 2026</td><td>[^19]</td></tr>
+<tr><td>Active listings (relay of Realtor.com data)</td><td>34,082</td><td>September 2026</td><td>[^20]</td></tr>
+<tr><td>All-transactions house price index, 1980 first quarter = 100 (relay of FHFA data)</td><td>853.19</td><td>Second quarter 2026</td><td>[^21]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<p>The state's unemployment rate rose from 3.8% a year earlier to 4.1% in September 2026 [^16]. The state median listing price of $564,000 is above the Colorado Springs metro figure of $484,950 [^19,5], so Colorado Springs is the cheaper of the two markets to buy into, a fact that favors a first-time buyer more than it favors an apartment landlord. The state held 34,082 active listings [^20], and its repeat-sales house price index stood at 853.19 in the second quarter [^21].</p>
+<h3>Context from the Census register</h3>
+<p>The table adds estimates from the Census Bureau and the Bureau of Economic Analysis for El Paso County. They use other vintages than the figures above, so small differences are expected.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Indicator</th><th scope="col">Figure</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>El Paso County residents</td><td><!--mkt:co-08041.acs5_pop {"fmt": "int"}-->742,999<!--/mkt:co-08041.acs5_pop--></td><td>ACS 2020 to 2024</td><td>[^28]</td></tr>
+<tr><td>El Paso County renter-occupied homes</td><td><!--mkt:co-08041.acs5_renter_occupied {"fmt": "int"}-->97,958<!--/mkt:co-08041.acs5_renter_occupied--></td><td>ACS 2020 to 2024</td><td>[^28]</td></tr>
+<tr><td>El Paso County median gross rent</td><td><!--mkt:co-08041.acs5_median_gross_rent {"fmt": "usd"}-->$1,696<!--/mkt:co-08041.acs5_median_gross_rent--></td><td>ACS 2020 to 2024</td><td>[^28]</td></tr>
+<tr><td>El Paso County median household income</td><td><!--mkt:co-08041.acs5_median_hh_income {"fmt": "usd"}-->$90,363<!--/mkt:co-08041.acs5_median_hh_income--></td><td>ACS 2020 to 2024</td><td>[^28]</td></tr>
+<tr><td>El Paso County per capita personal income</td><td><!--mkt:co-08041.bea_per_capita_income {"fmt": "usd"}-->$68,934<!--/mkt:co-08041.bea_per_capita_income--></td><td>Calendar year 2024</td><td>[^30]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<p>The county holds 97,958 renter-occupied homes among its 742,999 residents [^28], a deep pool of tenants for a six-unit building. The census median gross rent of $1,696 is a survey median across every kind of rented home, and the CBRE average of $1,457 per unit is a broker survey of larger buildings [^28,10]. The two are built differently and measure different things, and the study uses them as a bracket, not as a target. The model's rent of {{case:v.in_apt_rent}} a month for the apartments sits below both, because they are small, upstairs and in an older building.</p>
+</div>
+</section>
+<section id="competitors" data-eyebrow="Competitor Census" data-h2="No research document names a competing mixed-use building, so the census becomes a lender condition and the page counts the supply instead.">
+<div class="prose">
+<p>A competitor census for a mixed-use building would name the nearby buildings that offer a storefront below and apartments above, each with its own website or county assessor record. The research behind this page names none. Its Colorado Springs material is metro and county statistics, broker quarterly reports and press releases, and not one of them lists a competing building, a landlord or a listing. This study will not invent a competitor and will not describe a building that no document names, so the census is a lender condition: a named competitor census with each competitor's own website or assessor record, delivered before commitment.</p>
+<p>The supply table below stands in for it. It counts the employer establishments that the Census Bureau classes as lessors of residential and nonresidential buildings, the only industry codes under which a building owner appears in federal data. The fit is a proxy. Mixed-use is a form of building and not an industry, and the two codes also hold single-use landlords of every kind, so the counts say how large the landlord industry is and not how many mixed-use buildings compete with the subject. Each row below carries the register's source line and link, and none of it is confirmed by a competitor's own site.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Supply measure (NAICS 531110 and 531120, proxy fit)</th><th scope="col">Figure</th><th scope="col">Period</th><th scope="col">Register source line</th></tr></thead>
+<tbody>
+<tr><td>Establishments, El Paso County</td><td><!--mkt:co-08041.cbp_estab.mixed-use {"fit": "proxy", "fmt": "int"}-->137<!--/mkt:co-08041.cbp_estab.mixed-use--></td><td>County Business Patterns 2023</td><td><!--mktsrc:co-08041.cbp_estab-->source<!--/mktsrc:co-08041.cbp_estab--></td></tr>
+<tr><td>Establishments, Colorado Springs metro area</td><td><!--mkt:cbsa-17820.cbp_estab.mixed-use {"fit": "proxy", "fmt": "int"}-->141<!--/mkt:cbsa-17820.cbp_estab.mixed-use--></td><td>County Business Patterns 2023</td><td><!--mktsrc:cbsa-17820.cbp_estab-->source<!--/mktsrc:cbsa-17820.cbp_estab--></td></tr>
+<tr><td>Paid employees, El Paso County</td><td><!--mkt:co-08041.cbp_emp.mixed-use {"fit": "proxy", "fmt": "int"}-->550<!--/mkt:co-08041.cbp_emp.mixed-use--></td><td>County Business Patterns 2023</td><td><!--mktsrc:co-08041.cbp_emp-->source<!--/mktsrc:co-08041.cbp_emp--></td></tr>
+<tr><td>Paid employees, Colorado Springs metro area</td><td><!--mkt:cbsa-17820.cbp_emp.mixed-use {"fit": "proxy", "fmt": "int"}-->566<!--/mkt:cbsa-17820.cbp_emp.mixed-use--></td><td>County Business Patterns 2023</td><td><!--mktsrc:cbsa-17820.cbp_emp-->source<!--/mktsrc:cbsa-17820.cbp_emp--></td></tr>
+<tr><td>Establishments per 10,000 residents, El Paso County [^29]</td><td><!--mkt:co-08041.cbp_estab_per_10k.mixed-use {"fit": "proxy", "fmt": "num"}-->1.84<!--/mkt:co-08041.cbp_estab_per_10k.mixed-use--></td><td>County Business Patterns 2023</td><td><!--mktsrc:co-08041.cbp_estab_per_10k-->source<!--/mktsrc:co-08041.cbp_estab_per_10k--></td></tr>
+<tr><td>Establishments per 10,000 residents, Colorado Springs metro area [^29]</td><td><!--mkt:cbsa-17820.cbp_estab_per_10k.mixed-use {"fit": "proxy", "fmt": "num"}-->1.83<!--/mkt:cbsa-17820.cbp_estab_per_10k.mixed-use--></td><td>County Business Patterns 2023</td><td><!--mktsrc:cbsa-17820.cbp_estab_per_10k-->source<!--/mktsrc:cbsa-17820.cbp_estab_per_10k--></td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>What the supply table says</h3>
+<p>Landlords of buildings with employees are a small industry here: the county holds just over a hundred establishments and a little over five hundred paid employees, and the metro area adds only a handful beyond the county line [^29]. The county and metro rates per 10,000 residents are almost the same, so the metro adds little landlord activity beyond the county. A new owner-occupant is not entering a crowded landlord field, but the count is a ceiling on what the register can tell a lender. Small owners who run a building through a personal entity with no payroll do not appear, and neither does any building whose owner reports under the code of its main business. That is the case for the named census that the lender conditions ask for.</p>
+<h3>Competing space the research does name</h3>
+<p>The research does carry quarterly reports on the space a storefront tenant or an apartment renter could choose instead. The table gathers them.</p>
+</div>
+<div class="data-table-wrap">
+<table class="data">
+<thead><tr><th scope="col">Space type</th><th scope="col">Vacancy or occupancy</th><th scope="col">Rent or price</th><th scope="col">Period</th><th scope="col">Source</th></tr></thead>
+<tbody>
+<tr><td>Office, total market (central business district vacancy 14.7%)</td><td>10.4% vacant, up 20 basis points</td><td>$17.67 per sq. ft. NNN, down 4.3% (Class A $21.14)</td><td>First half 2026</td><td><a href="https://www.cbre.com/insights/figures/colorado-springs-office-figures-h1-2026">CBRE office figures</a> [^9]</td></tr>
+<tr><td>Industrial, total market</td><td>4.4% vacant, up 50 basis points</td><td>$10.74 per sq. ft. NNN, down 1.4% since year-end 2025</td><td>First half 2026</td><td><a href="https://www.cbre.com/insights/figures/colorado-springs-industrial-figures-h1-2026">CBRE industrial figures</a> [^8]</td></tr>
+<tr><td>Industrial and flex of 5K to 200K SF, a multi-year high (Matthews, whose charts credit CoStar)</td><td>6.0% vacant</td><td>$194 per SF average sale price, a market peak</td><td>Second quarter 2026</td><td><a href="https://www.matthews.com/insights/colorado-springs-industrial-q2-2026">Matthews industrial report</a> [^11]</td></tr>
+<tr><td>Apartments</td><td>94.4% occupied</td><td>$1,457 per unit average rent</td><td>First half 2026</td><td><a href="https://www.cbre.com/insights/figures/colorado-springs-multifamily-figures-h1-2026">CBRE multifamily figures</a> [^10]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="prose">
+<h3>Commercial competition</h3>
+<p>Office space is the weak segment. Vacancy was 10.4% overall and 14.7% downtown, rents fell 4.3%, and absorption was negative 8,000 square feet after negative 108,000 in the half before [^9]. A business that can use office-type space has choices, and a landlord asking above the office average has to explain why. Industrial space is tighter, with absorption of 357,000 square feet in the half year, but 290,000 square feet under construction and more than 550,000 delivered mean new competition for any business that can work from a flex building [^8]. The small-bay segment is looser, with 391,462 square feet under construction, down from peaks above 570,000 [^11]. None of these is a storefront, which is why the model treats the office figure as a proxy rent.</p>
+<h3>Residential competition</h3>
+<p>New apartments arrive in lumps. The market delivered 840 units in the second half of 2025 and 369 in the first half of 2026 [^10]. A six-unit owner competes with those lease-ups on price and not on amenities, and the CBRE average rent fell 2.6% over the year as they leased [^10]. The model's rent for the apartments is therefore held flat in every year and set below the market average.</p>
+<h3>New supply and the rule set</h3>
+<p>The research found no list of mixed-use projects under construction in Colorado Springs and no local permit report by building type, only the county's total of 5,707 housing structures authorized in 2025 [^4]. State law is also moving. A 2026 act on housing developments on qualifying properties caps a qualifying site at 5 acres and sets a deadline of December 31, 2027 for covered jurisdictions to allow qualifying residential development [^24]. Whether it reaches Colorado Springs, and which parcels it covers, are legal questions for the site section and the lender conditions.</p>
+</div>
+</section>
+<section id="site" data-eyebrow="Site" data-h2="Zoning, flood exposure, utilities and traffic are not in the research. The state laws and hazard record set the questions.">
+<div class="prose">
+<p>The subject site is generic, so this section does not describe a parcel. It lists what the public record says about the setting and sends the rest to the lender conditions. The research found no zoning ordinance for Colorado Springs, no flood zone determination, no utility provider or tap fee schedule and no traffic count for any corridor, and it does not guess at them.</p>
+<h3>State housing and parking law</h3>
+<p>Colorado passed a run of housing laws in 2024 and 2026 that bear on a building with apartments. A 2024 act on minimum parking requirements takes effect for covered local governments on June 30, 2025, and it was signed on May 10, 2024 [^22]. A 2024 act on housing in transit-oriented communities sets a goal of 40 dwelling units per acre for zoned density in transit-related areas [^23]. The research does not say whether Colorado Springs is a covered government or whether the subject lies in a covered area. If it does, the parking and density rules loosen what an owner may add or convert on the lot, and if it does not, the city's own code governs. A zoning verification letter settles it.</p>
+<h3>Property tax</h3>
+<p>For tax year 2026 the state sets a 25% assessment rate for commercial property and most other nonresidential property, and its 2024 property tax act limits annual growth in local government property tax revenue to 5.25% [^25]. The research holds neither the El Paso County mill levy nor the assessment rate for residential property, so the tax on a building with both uses cannot be computed. The model carries {{case:v.in_tax_rate}} of cost as a planning level and the lender condition asks for the county assessor's record and the actual levy.</p>
+<h3>Flood, drainage and hail</h3>
+<p>Federal records show the city's drainage work. In September 2026 FEMA announced more than $2.6 million of Public Assistance for water drainage and embankment repairs in Colorado Springs [^13]. The same release carried more than $8 million in hazard mitigation money for floodplain restoration on <span data-fsc-nocount>Cottonwood Creek</span> and more than $2.9 million for <span data-fsc-nocount>Monument Creek</span> stabilization [^13]. These are single projects and the study does not count them; they show that creek flooding is a live issue in the city, and a flood zone determination for the subject parcel is a lender condition. Statewide, FEMA announced more than $90 million for Colorado communities in the same release [^13].</p>
+<p>Hail is the insurance issue. A report by the state's Division of Insurance, relayed by a newspaper, attributes 26% to 54% of a homeowner's premium to hail and 0.9% to 24.6% to wildfire, from 20 carriers that hold 80% of the market [^26]. Those are homeowner premiums, not commercial rates, and the newspaper is a secondary source. They signal that insurance cost in Colorado is driven by weather; the model's insurance line is an allowance, and a broker quote is a lender condition.</p>
+<h3>What a site visit must settle</h3>
+<p>Traffic counts, parking supply, signage rules, the certificate of occupancy for each use and the fire separation between them are all outside the research, and all are on the lender conditions list. A storefront lives on exposure, and the study will not model the ground floor's demand from a traffic count it does not have.</p>
+</div>
+</section>
+<section id="revenue" data-eyebrow="Revenue" data-h2="Two income streams: an internal rent from the owner's business and rent from six apartments.">
+<div class="prose">
+<p>The model tests the building and not the business. The owner's company pays a rent to the entity that owns the building, and the apartments pay rent to the same entity. The business's own sales and profit are outside the model and are tested in the lender conditions as part of a global cash flow, in which the program asks for coverage of <!--sba:dscr.global.value-->1:1<!--/sba:dscr.global.value--> across the borrower's related entities.</p>
+<p>The internal rent starts at {{case:v.in_comm_rent}} per square foot a year on {{case:v.in_ground_sf}} square feet and steps up {{case:v.in_comm_esc}} a year. It is a modified gross figure, anchored on CBRE's office rent of $17.67 per square foot on a triple-net basis [^9], and it is a proxy. The apartment line is {{case:v.in_apts}} units at {{case:v.in_apt_rent}} a month, held flat, with occupancy of {{case:v.in_apt_occ}} at stabilization, just under the market's 94.4% [^10], and a lower figure in the first year while the renovation is done. At stabilization the building earns {{case:v.rev_y3}} a year.</p>
+</div>
+{{case:revenue}}
+<div class="prose">
+<p>Two cautions. First, the largest line is not a market rent; it is the rent the business can afford, and the study cannot know that. A lender will test it against the business's financial statements and against a market rent opinion. Second, the apartment rent is a round assumption with a bracket, not a rent roll. If the seller has leases in place, the lender will use them, and a gap between the roll and the model is the first thing the file should explain.</p>
+</div>
+</section>
+<section id="opex" data-eyebrow="Operating Costs" data-h2="Taxes, insurance, repairs and a market charge for management, with growth of three percent a year.">
+<div class="prose">
+<p>Operating costs are allowances, because the research holds no expense data for small mixed-use buildings or for any building in Colorado Springs. The line items follow what a landlord of a building with a storefront and apartments pays: property tax on cost at {{case:v.in_tax_rate}}, insurance at {{case:v.in_ins_psf}} per square foot, owner-paid utilities, repairs at {{case:v.in_rm_psf}} per square foot, a management and bookkeeping charge of {{case:v.in_mgmt_pct}} of apartment rent even if the owner does the work, legal, advertising and turnover, and a replacement reserve. Costs grow at {{case:v.in_inflation}} a year while apartment rent is held flat. In the commercial lease the tenant is the owner's own business, so the model treats the rent as modified gross and charges the building with the taxes and insurance.</p>
+<p>Operating cost totals {{case:v.opex_y1}} in Year 1 and {{case:v.opex_y3}} in Year 3 against revenue of {{case:v.rev_y1}} and {{case:v.rev_y3}}, leaving net operating income of {{case:v.noi_y1}}, {{case:v.noi_y2}} and {{case:v.noi_y3}} in the first three years, a margin of {{case:v.noi_margin_y3}} in Year 3.</p>
+</div>
+{{case:opex}}
+<div class="prose">
+<p>The expense ratio is the reason a small building carries less debt than its rent roll suggests. Taxes, insurance and maintenance do not shrink with the building. The study treats the tax line as the least certain: the state's rates are in the record [^25], and the local levy that completes the calculation is not.</p>
+</div>
+</section>
+<section id="sources-uses" data-eyebrow="Sources and Uses" data-h2="The price is most of the project. The renovation and soft costs are allowances.">
+<div class="prose">
+<p>The project buys an existing building, refreshes six apartments, fits out the ground floor for the owner's business and pays the costs of closing a federal-program loan. The purchase price is {{case:v.in_price}}, a round planning figure. The research holds no sale of a mixed-use building in Colorado Springs, so the price is the largest assumption in the model, and the nearest evidence is not a price at all: apartment-building sales volume of $82.5 million in the half year [^10] and an average sale price for small-bay industrial property of $194 per square foot [^11]. The apartment refresh is {{case:v.in_apt_reno_psf}} per upper-floor square foot, the storefront fit-out is {{case:v.in_ti_psf}} per ground-floor square foot, and a contingency of {{case:v.in_contingency_pct}} covers hidden conditions in an older building. No local construction cost series is in the research, and a contractor bid replaces each allowance.</p>
+<p>The total project cost is {{case:v.tpc_proposed}} as proposed and {{case:v.tpc}} as restructured. The difference is the 504 fee, which is added to project cost and moves with the size of the debenture.</p>
+</div>
+{{case:uses}}
+<div class="prose">
+<p>The sources table splits the same cost three ways under both structures. The sponsor's proposal brings {{case:v.equity_proposed}} of equity. The restructured loan asks for {{case:v.equity}}, and the extra comes out of the debenture and not the bank loan.</p>
+</div>
+{{case:sources}}
+</section>
+<section id="loan" data-eyebrow="Loan Structure" data-h2="A bank first lien, a CDC debenture and a borrower contribution sized by the 504 rules for an existing business and a general-purpose building.">
+<div class="prose">
+<p>Under the 504 program a bank takes the first lien and a certified development company funds the second through an SBA-guaranteed debenture. The program's standard split is <!--sba:equity.sba_504_split.value-->Third Party Lender 50%, debenture 40%, borrower 10%; debenture 35% at a 15% contribution and 30% at 20%<!--/sba:equity.sba_504_split.value--> [^31]. The sponsor in this case is an established business and the building is a general-purpose mixed-use structure, so the equity tier is <!--sba:equity.sba_504_standard.value-->10%<!--/sba:equity.sba_504_standard.value--> [^31]. The tiers rise to <!--sba:equity.sba_504_new_or_special.value-->15%<!--/sba:equity.sba_504_new_or_special.value--> for a new business or a special purpose property and <!--sba:equity.sba_504_new_and_special.value-->20%<!--/sba:equity.sba_504_new_and_special.value--> for both [^31], and a lender should confirm that the owner's business is more than two years old and that no feature of the building makes it special purpose.</p>
+<p>The sponsor proposes {{case:v.equity_proposed_pct}} equity. That meets the tier and the debenture limit of <!--sba:limits.max_504.value-->$5 million<!--/sba:limits.max_504.value--> [^31], and the proposed debenture of {{case:v.debenture_proposed}} is far under the limit. What it fails is coverage: Year 2 net operating income covers the {{case:v.ds_proposed}} of annual debt service only {{case:v.dscr_y2_proposed}}, and the program's floor is <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value--> [^31]. The engine raises the borrower's contribution until Year 2 coverage reaches the floor. At {{case:v.equity_pct}} equity the bank lends {{case:v.tpl}}, the debenture is {{case:v.debenture}} and annual debt service is {{case:v.ds}}.</p>
+</div>
+{{case:loan}}
+<div class="prose">
+<h3>Occupancy</h3>
+<p>The test that decides whether a building fits the program at all is not in the engine. For an existing building the operating borrower must occupy at least <!--sba:regulation.occupancy_existing.value-->51%<!--/sba:regulation.occupancy_existing.value--> of it, and for a new building <!--sba:regulation.occupancy_new.value-->60%<!--/sba:regulation.occupancy_new.value--> [^31]. The case gives the owner's business the whole ground floor, which is more than half of the building by floor area, and rents the upper floor to third parties. A small shift in the plan moves the share: an extra apartment carved from the ground floor, a ground-floor storage room leased out, or a lease that ends in Year 3 can each pull the occupied share toward the line. The appraisal should state the occupied share, and the application's square footage should match it. The study treats the share as a condition, with the floor plan measured on one basis for the appraisal, the application and the lender's file.</p>
+<p>How the program reads rent from apartments in the same building is a question the lender and the certified development company answer under the current edition, <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short-->, effective <!--sba:sop.effective {"fmt": "date"}--><time datetime="2026-10-01">October 1, 2026</time><!--/sba:sop.effective--> [^31]. The <a href="/asset-classes/mixed-use/">mixed-use hub</a> sets out how the earlier edition framed residential space, and a study has to say which reading its lender applies. This page does not decide that question; it makes it a written lender condition.</p>
+<h3>Rates, term and fees</h3>
+<p>The 504 debenture is available at maturities of <!--sba:terms.sba_504_maturities.value-->10, 20 or 25 years<!--/sba:terms.sba_504_maturities.value--> [^31], and the bank loan carries <!--sba:terms.sba_504_third_party_min_term.value-->7 years for a 10-year debenture, 10 years for a 20- or 25-year debenture<!--/sba:terms.sba_504_third_party_min_term.value--> as the minimum term [^31]. The model uses the 25-year debenture and a 25-year amortization for the bank. The bank rate is {{case:v.in_tpl_rate}}, a planning figure half a point over Prime [^33], and the debenture rate is {{case:v.in_debenture_rate}}, an assumption, because the research holds no debenture pricing. The fiscal year 2027 upfront fee is <!--sba:fees_fy2027.upfront_504.value-->0.50%<!--/sba:fees_fy2027.upfront_504.value--> of the debenture and the annual fee is <!--sba:fees_fy2027.annual_504.value-->0.203%<!--/sba:fees_fy2027.annual_504.value--> [^32]. The upfront fee is added to project cost in the model.</p>
+<h3>Local lenders</h3>
+<p>The research did not find a list of Colorado Springs banks or certified development companies, so the study cannot name the lenders that would hold the two liens; that is a lender condition. One nonprofit lender, the Colorado Enterprise Fund, reported that it deployed $18,085,922 in 185 loans in its fiscal year ended September 30, 2025, with an average loan of $97,762 [^27]. Those are lender-level figures, not state totals, and the loans are far smaller than this project; they show only that small-business credit exists outside the banks.</p>
+</div>
+</section>
+<section id="pro-forma" data-eyebrow="Pro Forma" data-h2="Five years on the restructured loan, with rents flat and costs growing.">
+<div class="prose">
+<p>The pro forma runs the restructured structure through five years. Net operating income rises from {{case:v.noi_y1}} in Year 1 to {{case:v.noi_y5}} in Year 5, because the internal rent steps up {{case:v.in_comm_esc}} a year while costs grow {{case:v.in_inflation}} a year and apartment rent is held flat. Annual debt service is {{case:v.ds}} in every year. Coverage is {{case:v.dscr_y1}} in Year 1 while the apartments fill after the renovation, and {{case:v.dscr_y5}} in Year 5.</p>
+</div>
+{{case:proforma}}
+</section>
+<section id="dscr" data-eyebrow="Determination" data-h2="As proposed it fails the coverage test. Restructured it meets the test in Year 2, with almost no room.">
+<div class="prose">
+<p>The determination applies the program's tests to both structures: the equity tier, the debenture limit and the coverage floor in the test year. The first table lists the tests, the second sets the proposal beside the restructured loan, and the third gives the verdict.</p>
+</div>
+{{case:dscr}}
+{{case:determination}}
+<div class="prose">
+<h3>What the numbers say</h3>
+<p>As proposed, the sponsor meets the tier and the debenture limit and fails coverage: {{case:v.dscr_y2_proposed}} in Year 2 against <!--sba:dscr.sba_504.value-->1.15x<!--/sba:dscr.sba_504.value-->, with {{case:v.dscr_y1_proposed}} in Year 1 and {{case:v.dscr_y3_proposed}} in Year 3 [^31]. The failure is not close. The building's net operating income of {{case:v.noi_y2}} in Year 2 supports about {{case:v.loan_total}} of debt at the assumed rates, not the {{case:v.loan_total_proposed}} the proposal needs.</p>
+<p>The restructured loan solves the problem by putting more of the borrower's money in. Equity of {{case:v.equity_pct}} ({{case:v.equity}}) cuts debt to {{case:v.loan_total}}, debt service falls to {{case:v.ds}} and coverage reaches {{case:v.dscr_y2}} in Year 2 and {{case:v.dscr_y3}} in Year 3. The engine sets equity at the smallest share that clears the floor, which is why the cushion is thin. A lender sizing the loan with a margin would ask for more equity or a lower price.</p>
+</div>
+{{case:verdict}}
+<div class="prose">
+<p>Two cautions apply. The first is that the test rests on a modeled internal rent and a price that no research row supports, so the determination is a statement about the structure and not about a particular building. The second is that the quoted floor is a floor: <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^34], and a lender facing a mixed-use building with owner-occupancy questions may ask for a study before it sizes anything. <a href="/#contact">Feasibility Study Company can prepare that study for your lender.</a></p>
+</div>
+</section>
+<section id="break-even" data-eyebrow="Break-Even" data-h2="How far apartment rent can fall in Year 3 before the building stops covering its debt.">
+<div class="prose">
+<p>Year 3 net operating income covers debt service of {{case:v.ds}} down to an apartment rent of {{case:v.breakeven_value}} a month, which is {{case:v.breakeven_pct}} of the underwritten {{case:v.in_apt_rent}} and a cushion of {{case:v.cushion_pct}}. That is the point at which the building covers its debt exactly, not the point at which it meets the program floor; holding the floor at the Year 3 operating costs takes a rent of {{case:v.breakeven_floor_value}}. The gap between the two numbers is the thin margin the determination described. Rent at that level would sit well below the CBRE average of $1,457 [^10], so the break-even measures survival, not a plan.</p>
+</div>
+{{case:breakeven}}
+</section>
+<section id="sensitivity" data-eyebrow="Sensitivity" data-h2="Apartment rent and the rent from the owner's business, in five steps each.">
+<div class="prose">
+<p>The grid shows Year 2 coverage on the restructured loan when apartment rent moves two steps down to two steps up from the underwritten level, and the owner's internal rent does the same in smaller steps. Coverage ranges from {{case:v.sens_min}} to {{case:v.sens_max}}. The center cell is the base case at the floor. A fall of one step in either driver pushes coverage under the floor, and the two together push it toward break-even.</p>
+</div>
+{{case:sensitivity}}
+<div class="prose">
+<p>The grid shows which driver the structure leans on. The internal rent is the larger line, so a shortfall there matters more, and it is also the line the study knows least about, because it is a proxy anchored on office rents that fell over the half year [^9]. An owner who can show what the business already pays for space has evidence the study does not.</p>
+</div>
+</section>
+<section id="inputs" data-eyebrow="Inputs" data-h2="Every input, and whether a source or an assumption sets it.">
+<div class="prose">
+<p>No input is a client figure or a figure from any engagement. Each carries the word source or the word assumption with its reasoning, and most of the model rests on assumptions because the research holds no pricing, cost or expense data for mixed-use buildings in Colorado Springs.</p>
+</div>
+{{case:inputs}}
+</section>
+<section id="risks" data-eyebrow="Risks" data-h2="What could break the Colorado Springs projection.">
+<div class="prose">
+<ol class="failures">
+<li><div><h3>The price carries the deal</h3><p>The purchase price is a round planning figure with no sale behind it. The building's income of {{case:v.noi_y2}} in Year 2 supports about {{case:v.loan_total}} of debt, and every extra dollar of price is a dollar of equity. Apartment-building sales volume rose from $22.9 million to $82.5 million between the last two half years [^10], and a seller who has read that headline may price the building as if the market had turned for good.</p></div></li>
+<li><div><h3>The storefront rent is a proxy</h3><p>No source in the research prices ground-floor space in the city. The nearest figure is the office rent of $17.67 per square foot, down 4.3% [^9]. If the business can only afford a lower rent, or a lender reads the rent as above market, the largest income line moves and coverage with it.</p></div></li>
+<li><div><h3>Rents are soft while supply arrives</h3><p>Average apartment rent fell 2.6% over the year [^10], and 369 units were completed in the first half of 2026 after 840 in the half before [^10]. The model holds rent flat and below the average, but a six-unit owner has no scale to absorb a concession war.</p></div></li>
+<li><div><h3>Weather drives the insurance bill</h3><p>The state's insurance report attributes between 26% and 54% of a homeowner's premium to hail [^26], and the model's insurance line is an allowance. A hail deductible written as a percentage of building value would change the owner's exposure more than the premium does.</p></div></li>
+<li><div><h3>Property tax is unresolved</h3><p>The assessment rate for most nonresidential property is 25% for tax year 2026 [^25], but the levy and the residential rate are not in the record. The model's planning rate of {{case:v.in_tax_rate}} of cost could be wrong in either direction.</p></div></li>
+<li><div><h3>The occupancy share drifts</h3><p>The owner's business holds the ground floor, and the occupancy test is a share of floor area. A lease that frees ground-floor space, a unit added on the ground floor or a change to the way floor area is measured can move the share. The appraisal and the application must measure it on one basis.</p></div></li>
+<li><div><h3>The lender's reading of apartments in the building</h3><p>The program edition governs how rent from apartments is treated, and the hub notes that the earlier edition used different language. A lender's reading is a condition of the commitment and cannot be assumed from this page.</p></div></li>
+<li><div><h3>Flood and drainage</h3><p>The city's creeks and drainage systems drew federal money in 2026, including more than $2.6 million of Public Assistance for drainage and embankment repairs [^13]. A site near a creek may need flood insurance and a different appraisal. The research holds no flood zone for the subject.</p></div></li>
+<li><div><h3>The business has to carry its own weight</h3><p>The internal rent comes from the owner's business. A loss of customers is a loss of rent, and the apartments alone do not cover the debt. County covered employment was down 1.2% over the year to March 2026 even as wages rose 5.0% [^3], and the visitor economy grew only 0.4% in spending [^12].</p></div></li>
+<li><div><h3>Rates and the timing of the debenture</h3><p>The bank rate is a planning figure and the debenture rate is an assumption. The debenture is priced when the CDC sells it, which can differ from the rate in the commitment letter. The sensitivity table shows the effect of income moving; it does not show the effect of a rate that comes in higher, and a lender will run that case.</p></div></li>
+</ol>
+</div>
+</section>
+<section id="lender-conditions" data-eyebrow="Lender Conditions" data-h2="Conditions before commitment.">
+<div class="prose">
+<p>Each of these answers something the research could not find. A condition is a task and not a number.</p>
+<ol>
+<li>A named competitor census, with each competitor's own website or county assessor record, covering mixed-use buildings and the competing apartment and storefront space within the trade area.</li>
+<li>A zoning verification letter that states the permitted use of each floor, the legal status of the building if it is non-conforming, and whether the 2024 parking and transit-area laws or the 2026 qualifying-property law apply to the lot [^22,23,24].</li>
+<li>An appraisal that values the building by its two income streams, states the owner-occupied share of floor area, and uses floor areas that match the application, as the program's occupancy test requires for an existing building (<!--sba:regulation.occupancy_existing.value-->51%<!--/sba:regulation.occupancy_existing.value-->) [^31].</li>
+<li>A written reading from the lender and the certified development company of how the current edition, <!--sba:sop.short-->SOP 50 10 8.1<!--/sba:sop.short-->, treats the apartments, their rent and their floor area.</li>
+<li>The seller's rent roll, leases, deposits and twelve months of operating statements, and a rent survey of comparable older apartments in the central core.</li>
+<li>A market rent opinion for the ground floor from a broker who has leased storefront space in the city, since the research prices only office and industrial space [^9,8].</li>
+<li>The owner's business financial statements and a global cash flow across the related entities at the program's <!--sba:dscr.global.value-->1:1<!--/sba:dscr.global.value--> level, with the internal lease in market form.</li>
+<li>The county assessor's record for the parcel, the adopted mill levy and the residential assessment rate, replacing the planning rate for property tax [^25].</li>
+<li>A flood zone determination and a drainage review, given the creek and drainage projects in the city [^13].</li>
+<li>An insurance quote that states the hail deductible and any flood or wildfire exclusions [^26].</li>
+<li>Contractor bids for the apartment refresh and the storefront fit-out, and a Phase I environmental report.</li>
+<li>Rate quotes from the bank and the CDC at the time of commitment, with the model re-run on them.</li>
+<li>The names of the lenders and certified development company that will hold the two liens, since the research holds no local list.</li>
+<li>Traffic counts, parking supply, signage rights and certificates of occupancy for each use, with the fire separation between them.</li>
+<li>The owner's business plan for the ground floor, because the research holds no retail or service demand evidence for the corridor.</li>
+<li>A review of this study by the lender's credit officer. The rule reads <!--sba:regulation.feasibility_study.value-->13 CFR 120.160(b): SBA may require professional appraisals, a survey, or a feasibility study<!--/sba:regulation.feasibility_study.value--> [^34], and a study that already covers these items puts the answers in the file before the request comes.</li>
+</ol>
+<p>Feasibility Study Company prepares studies that carry these conditions to a lender's desk for owners, developers and their lenders. <a href="/#contact">Tell us about your building.</a> The <a href="/asset-classes/mixed-use/">mixed-use hub</a> and the <a href="/states/colorado/">Colorado page</a> hold the wider evidence.</p>
+</div>
+</section>

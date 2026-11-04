@@ -1,0 +1,451 @@
+{
+ "slug": "retail-casper-wyoming-sba",
+ "page": "/case-studies/retail-casper-wyoming-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 25,
+  "fees": 26,
+  "prime": 27
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "store",
+  "count": 1
+ },
+ "inputs": {
+  "land_acres": {
+   "value": 2.5,
+   "fmt": "n1",
+   "label": "Land area, acres (hypothetical site on the Yellowstone Highway corridor)",
+   "assumption": "A round hypothetical site of about two and a half acres: an 18,000 square foot store, a customer lot, a truck and trailer apron, loading doors and an outdoor yard for bulk goods and snow storage. No listing's acreage is used; a site plan fixes the real parking and yard need."
+  },
+  "land_per_acre": {
+   "value": 260000,
+   "fmt": "$",
+   "label": "Land cost per acre",
+   "assumption": "A round planning price. The research holds no Natrona County land sale, assessed value or listing that can be printed, and the county's median home listing price of $401,875 in September 2026 [^7] describes houses, not commercial land. An appraisal and an executed land contract replace this figure."
+  },
+  "bldg_sf": {
+   "value": 18000,
+   "fmt": "n",
+   "label": "Building, gross square feet",
+   "assumption": "A round size for a single-story store with a sales floor, a stockroom and a loading dock. It is a design assumption, not a market observation: the research holds no store size for Casper, and one competitor's footprint would be a single-property figure in any case."
+  },
+  "bldg_psf": {
+   "value": 185,
+   "fmt": "$",
+   "label": "Building hard cost per square foot, steel shell and retail finish",
+   "assumption": "No Casper construction cost, bid or index was found. The study carries a round $185 a square foot for a pre-engineered shell with a retail finish, loading dock and mechanical systems. A contractor bid replaces it."
+  },
+  "sitework": {
+   "value": 520000,
+   "fmt": "$",
+   "label": "Site work: paving, drainage, utility taps, lighting, signage, fencing",
+   "assumption": "An allowance for a two and a half acre site with a heavy-vehicle apron and an outdoor yard. The research found no utility territory, tap fee or traffic count for the corridor, so the allowance is round and the utility answer is a lender condition."
+  },
+  "contingency_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
+  },
+  "soft": {
+   "value": 360000,
+   "fmt": "$",
+   "label": "Design, survey, Phase I, permits, legal and loan closing",
+   "assumption": "Allowance. It covers the architect and engineers, survey, a Phase I environmental assessment, city plan review and permits, and closing legal work. The research found no Casper permit fee schedule (the city's site returned an error to the researcher), so the figure is round."
+  },
+  "fixtures": {
+   "value": 430000,
+   "fmt": "$",
+   "label": "Shelving, counters, point-of-sale, security, signage and a forklift",
+   "assumption": "Allowance for racking and gondola shelving, a service counter, point-of-sale and inventory software, cameras, a forklift and exterior signage. A fixture vendor's quote replaces it."
+  },
+  "inventory": {
+   "value": 780000,
+   "fmt": "$",
+   "label": "Opening inventory",
+   "assumption": "Roughly twelve weeks of Year 2 cost of goods at the assumed gross margin, funded before the first sale. The research holds no retailer's inventory turn, so the figure is a planning allowance and a lender condition asks for the vendor terms behind it."
+  },
+  "preopen": {
+   "value": 140000,
+   "fmt": "$",
+   "label": "Pre-opening: hiring, training, vendor set-up, licences and grand opening",
+   "assumption": "Allowance. Staff are hired and trained before the doors open, and vendor accounts, the state sales tax licence and the opening promotion all precede revenue."
+  },
+  "working_capital": {
+   "value": 260000,
+   "fmt": "$",
+   "label": "Working capital and ramp reserve",
+   "assumption": "About three months of Year 2 operating expense, held to fund the gap between the first season's sales and its fixed costs. It is a reserve, not an expense."
+  },
+  "sales_psf": {
+   "value": [
+    190,
+    262,
+    298,
+    308,
+    316
+   ],
+   "fmt": "$",
+   "label": "Net sales per gross square foot, by year",
+   "assumption": "No retail sales-per-square-foot figure for Casper is in the research. The ramp opens at about two thirds of the Year 3 level and reaches $298 in Year 3, so the store reaches about $5.4 million of sales in Year 3. That is a planning figure sized against a county of 80.526 thousand residents [^1], a metro area with 39.9 thousand nonfarm jobs [^5] and a retail job base that shed jobs statewide in late 2025 [^14]. The borrower's own sales history and a trade-area study replace it."
+  },
+  "gross_margin": {
+   "value": 0.355,
+   "fmt": "%",
+   "label": "Gross margin on net sales, after shrink and freight",
+   "assumption": "A round planning margin for a store selling a mix of work apparel, hand tools, fasteners and ranch supplies. The research holds no retailer margin, so a lender condition asks for the borrower's own vendor pricing and the category mix."
+  },
+  "fte": {
+   "value": [
+    8,
+    10,
+    11,
+    11,
+    11
+   ],
+   "fmt": "n",
+   "label": "Store staff, full-time equivalents (sales, yard, stockroom, cashier)",
+   "assumption": "A planning count for an 18,000 square foot store open six days a week. No local staffing ratio is in the research."
+  },
+  "staff_wage": {
+   "value": 41000,
+   "fmt": "$",
+   "label": "Average pay per store full-time equivalent, before payroll costs",
+   "assumption": "A round planning wage, well below the Casper all-occupation mean of $28.93 an hour [^6] because store work pays less than the metro's trades and energy jobs. The metro paid $30.75 an hour on average in installation, maintenance and repair work and $100,820 a year to power-line installers [^6], which is the pay the store's own customers earn and the pay it competes against for staff. The research holds no Casper retail wage, so a lender condition asks for the OEWS retail occupations."
+  },
+  "mgr_pay": {
+   "value": 98000,
+   "fmt": "$",
+   "label": "Store manager and buyer salary, before payroll costs",
+   "assumption": "A market salary is charged even when the owner fills the role, so earnings are not flattered by unpaid owner labor."
+  },
+  "burden": {
+   "value": 0.18,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "A round share for employer payroll taxes, workers' compensation and a basic benefit package. No Wyoming rate is in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year. No inflation series is in the research; sales per square foot are modelled directly and carry their own ramp."
+  },
+  "card_pct": {
+   "value": 0.023,
+   "fmt": "%",
+   "label": "Card processing and bad debt, share of net sales",
+   "assumption": "A round share for card processing and charge-account losses."
+  },
+  "mkt_pct": {
+   "value": 0.012,
+   "fmt": "%",
+   "label": "Marketing and promotions, share of net sales",
+   "assumption": "A round share. A newcomer beside established stores has to buy its visibility."
+  },
+  "insurance": {
+   "value": 54000,
+   "fmt": "$",
+   "label": "Property, liability, inventory and vehicle insurance",
+   "assumption": "Allowance, per year. A broker's quote replaces it."
+  },
+  "utilities": {
+   "value": 76000,
+   "fmt": "$",
+   "label": "Utilities (electric, gas, water, sewer, waste)",
+   "assumption": "Allowance for a heated 18,000 square foot building in a cold climate. Which providers serve the site was not confirmed."
+  },
+  "repairs": {
+   "value": 64000,
+   "fmt": "$",
+   "label": "Repairs, janitorial, snow removal and grounds",
+   "assumption": "Allowance, per year."
+  },
+  "admin": {
+   "value": 62000,
+   "fmt": "$",
+   "label": "Accounting, software, licences, bank charges and professional fees",
+   "assumption": "Allowance, per year."
+  },
+  "delivery": {
+   "value": 44000,
+   "fmt": "$",
+   "label": "Delivery vehicle and freight to customers",
+   "assumption": "Allowance for one delivery truck's fuel, upkeep and insurance, for contractor and ranch accounts."
+  },
+  "tax_rate": {
+   "value": 0.007,
+   "fmt": "%2",
+   "label": "Property tax, share of land, building and site cost",
+   "assumption": "A planning level of seven tenths of one percent of cost. The research holds a statewide figure for K-12 mill levy income [^24] but no Natrona County mill levy, assessed value or commercial assessment ratio, so the real levy on the site cannot be computed. It is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Replacement reserve, share of fixture cost per year",
+   "assumption": "Funds replacement of fixtures, point-of-sale equipment and the forklift over a long cycle."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% in the Federal Reserve release of October 9, 2026 [^27] plus a half point for a new store. No published 2026 bank terms for retail real estate in Natrona County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. A bank may ask for a shorter term, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.0675,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "assumption": "A round planning rate. The rate is set when the debenture is sold, and no pricing notice is in the research, so this is an assumption and not a market observation. The CDC's quote replaces it."
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, about 2.5 acres",
+   "expr": "land_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "acres x assumed price per acre"
+  },
+  {
+   "key": "building",
+   "label": "Building, 18,000 sq ft",
+   "expr": "bldg_sf * bldg_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed hard cost"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, paving, utilities, signage",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "6% of building and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "fixtures",
+   "label": "Fixtures, point-of-sale and forklift",
+   "expr": "fixtures",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "inventory",
+   "label": "Opening inventory",
+   "expr": "inventory",
+   "class": "working_capital",
+   "basis": "about twelve weeks of cost of goods"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening and grand opening",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital and ramp reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about three months of Year 2 expense"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "sales",
+   "label": "Net store sales",
+   "expr": "sales_psf * bldg_sf",
+   "basis": "sales per sq ft x gross sq ft"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "goods",
+   "label": "Cost of goods sold",
+   "expr": "rev_sales * (1 - gross_margin)",
+   "basis": "net sales x (1 - gross margin)"
+  }
+ ],
+ "opex": [
+  {
+   "key": "staff",
+   "label": "Store payroll with costs",
+   "expr": "fte * staff_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x pay"
+  },
+  {
+   "key": "mgr",
+   "label": "Manager and buyer with costs",
+   "expr": "mgr_pay * (1 + burden) * (1 + inflation) ** y",
+   "basis": "market salary"
+  },
+  {
+   "key": "card",
+   "label": "Card processing and bad debt",
+   "expr": "rev_sales * card_pct",
+   "basis": "share of net sales"
+  },
+  {
+   "key": "mkt",
+   "label": "Marketing and promotions",
+   "expr": "rev_sales * mkt_pct",
+   "basis": "share of net sales"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "repairs",
+   "label": "Repairs, janitorial and snow removal",
+   "expr": "repairs * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "admin",
+   "label": "Accounting, software and licences",
+   "expr": "admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "delivery",
+   "label": "Delivery vehicle and freight",
+   "expr": "delivery * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "fixtures * reserve_pct",
+   "basis": "5% of fixture cost"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.15,
+  "note": "the sponsor applies the new-business tier correctly but sizes the loan to a full-ramp year"
+ },
+ "breakeven": {
+  "input": "sales_psf",
+  "label": "dollars of net sales per square foot"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "sales_psf",
+   "label": "Net sales per square foot",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "gross_margin",
+   "label": "Gross margin",
+   "steps": [
+    -0.1,
+    -0.05,
+    0,
+    0.05,
+    0.1
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Casper, Natrona County, Wyoming, on the Yellowstone Highway (US-20/26) corridor; Natrona County had 80.526 thousand residents on July 1, 2025 [^1]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "One owner-operated trade and ranch supply store of about {in_bldg_sf} square feet on about {in_land_acres} acres, built new and occupied entirely by the borrower's operating company; site, owner and brand not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; a new business owes the higher equity tier, and a new building must be occupied by the borrower to the program's owner-occupancy share [^@sop]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} dollars of sales per square foot ({cushion_pct} below the {in_sales_psf} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "A steady, trades-heavy city whose jobs base is flat to slipping, so a store must win share from existing sellers, not ride growth [^5,11]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

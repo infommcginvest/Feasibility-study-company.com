@@ -1,0 +1,451 @@
+{
+  "slug": "auto-service-rapid-city-south-dakota-sba",
+  "page": "/case-studies/auto-service-rapid-city-south-dakota-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "established",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 38,
+    "fees": 39,
+    "prime": 40
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "shop",
+    "count": 1
+  },
+  "inputs": {
+    "land": {
+      "value": 800000,
+      "fmt": "$",
+      "label": "Land, about 1.5 acres of commercial frontage",
+      "assumption": "A round placeholder, not the price of any parcel. The research holds no Rapid City commercial land sale. Its only land values are statewide cropland, $4,770 an acre in the federal survey [^27] and $6,268 in the university survey [^29], which are farm ground and not comparables for serviced commercial frontage in Pennington County. The model plans $800,000 for about 1.5 acres, and an appraisal of the actual parcel replaces it."
+    },
+    "site_acres": {
+      "value": 1.5,
+      "fmt": "n1",
+      "label": "Site area, acres",
+      "assumption": "A round figure. A shop of this size needs a paved yard for cars waiting on insurance approval, customer parking and a truck turning lane, and about 1.5 acres leaves that room. The research holds no shop site size for Rapid City."
+    },
+    "bldg_sf": {
+      "value": 12000,
+      "fmt": "n",
+      "label": "Building, sq ft (collision floor, paint area, mechanical bays, office and parts)",
+      "assumption": "Sized as one combined shop: a collision area with a paint preparation room and spray booth, a short bank of mechanical bays, a front office and a parts room. The research holds no shop building size for Rapid City; this is a planning size."
+    },
+    "bldg_psf": {
+      "value": 185,
+      "fmt": "$",
+      "label": "Building cost per sq ft",
+      "assumption": "The research holds no commercial construction cost for Rapid City. The only local anchor is the city's permit record, 2,428 permits and more than $390.9 million of valuation in 2025 [^1], from which no cost per square foot can be taken. The model carries $185 for a one-story steel-frame shop with a heavy slab, floor drains, oil separators and ventilation for a paint area. A general contractor's bid replaces it."
+    },
+    "sitework_per_acre": {
+      "value": 170000,
+      "fmt": "$",
+      "label": "Paving, lot lighting, drainage and landscaping per acre",
+      "assumption": "No Rapid City site-work cost was found. A repair yard is mostly paved and needs stormwater handling, so the allowance is high for a retail pad. Civil bids replace it."
+    },
+    "equipment": {
+      "value": 650000,
+      "fmt": "$",
+      "label": "Shop equipment (frame and measuring system, spray booth, lifts, alignment, scan and calibration tools) and furniture",
+      "assumption": "No equipment quote or cost series was found. The model assumes above-ground lifts only, so the shop is not a service center with pits and in-ground lifts, a design the SOP treats as special purpose [^38]. Vendor quotes replace the figure."
+    },
+    "ae_pct": {
+      "value": 0.07,
+      "fmt": "%",
+      "label": "Architecture and engineering, share of building cost",
+      "assumption": "A round allowance. No Rapid City fee schedule or contract was found."
+    },
+    "soft_other": {
+      "value": 300000,
+      "fmt": "$",
+      "label": "Permits, survey, Phase I, appraisal, legal, title, fire protection design and lender fees",
+      "assumption": "The research found no Rapid City impact fee, permit fee schedule or fire code requirement for a paint operation. Permit fees collected by the city in 2025 were reported as a total, not as a schedule [^1]. The figure is a placeholder pending the city's fee schedule and the closing statement."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Construction contingency, share of building, site work and equipment",
+      "assumption": "A standard allowance for a ground-up build. No local figure was found."
+    },
+    "build_months": {
+      "value": 10,
+      "fmt": "n",
+      "label": "Construction period, months",
+      "assumption": "A planning period for a one-story shop, with winter weather built into the schedule. The contractor's schedule replaces it."
+    },
+    "draw_factor": {
+      "value": 0.5,
+      "fmt": "%",
+      "label": "Average share of the construction budget outstanding during the build",
+      "assumption": "Draws rise from zero to the full budget over the build, so about half is outstanding on average."
+    },
+    "preopening": {
+      "value": 220000,
+      "fmt": "$",
+      "label": "Moving costs, equipment recertification, training, opening marketing and working capital",
+      "assumption": "The operator moves a working shop, so there is no hiring-ahead payroll as in a new business, but there are two months of duplicated rent and wages, insurer and manufacturer recertification costs and the downtime between locations. No local figure was found."
+    },
+    "col_ros": {
+      "value": [
+        620,
+        740,
+        790,
+        820,
+        840
+      ],
+      "fmt": "n",
+      "label": "Collision repair orders completed",
+      "assumption": "A ramp for an operator that moves to a larger building: the first year carries about three quarters of the stabilized volume while insurer program approvals and the paint area are brought up to full output. The research holds no repair order count for any Rapid City shop. The market it competes in is counted from the federal business data in the competitor section, and a named competitor census is a lender condition. The sensitivity table varies this input."
+    },
+    "col_ro": {
+      "value": 3600,
+      "fmt": "$",
+      "label": "Average collision repair order, Year 1 dollars",
+      "assumption": "A round planning figure covering labor, parts, paint and materials, and sublet work. No South Dakota repair cost or insurer severity figure was found. The sensitivity table varies this input, and the operator's own repair-order history is a lender condition."
+    },
+    "mech_ros": {
+      "value": [
+        2100,
+        2500,
+        2680,
+        2800,
+        2850
+      ],
+      "fmt": "n",
+      "label": "Mechanical repair orders completed",
+      "assumption": "Mechanical work follows the operator's existing customers and the traffic of a busy arterial. The research holds no count of vehicles in operation for Pennington County; the vehicle registration count is a lender condition."
+    },
+    "mech_ro": {
+      "value": 420,
+      "fmt": "$",
+      "label": "Average mechanical repair order, Year 1 dollars",
+      "assumption": "A round planning figure for a blend of brake, suspension, diagnostic and routine work. No local ticket was found."
+    },
+    "price_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in repair order values",
+      "assumption": "A round allowance for parts and labor-rate inflation. The sensitivity table does not test it."
+    },
+    "col_cos_pct": {
+      "value": 0.37,
+      "fmt": "%",
+      "label": "Collision parts, paint, materials and sublet, share of collision revenue",
+      "assumption": "A round planning share. No local parts or paint cost was found, and the share depends on insurer parts policies, which differ by program. The operator's own cost records replace it."
+    },
+    "mech_cos_pct": {
+      "value": 0.4,
+      "fmt": "%",
+      "label": "Mechanical parts and shop supplies, share of mechanical revenue",
+      "assumption": "A round planning share. No local figure was found."
+    },
+    "fte": {
+      "value": [
+        17,
+        19,
+        20,
+        21,
+        21
+      ],
+      "fmt": "n",
+      "label": "Employees, full-time equivalents (excluding the owner)",
+      "assumption": "Technicians in body, paint and mechanical work, estimators, a service writer, parts and office staff. The labor market is tight: Rapid City's September 2026 unemployment rate was 1.7% [^7], and Pennington County counted 58,596 people employed in a labor force of 59,596 [^8]. A shop that cannot hire does not reach its volume, which is why headcount ramps with revenue."
+    },
+    "avg_pay": {
+      "value": 62000,
+      "fmt": "$",
+      "label": "Average annual pay per employee before payroll costs, Year 1 dollars",
+      "assumption": "Set above the Pennington County all-industry average of $59,768 [^5] and below the statewide construction average of $71,093 [^6], because skilled body and paint technicians earn more than a typical covered worker, while estimators and office staff earn less than a construction tradesperson. The Rapid City metro average was $59,377 [^3]."
+    },
+    "burden": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Payroll taxes and benefits, share of pay",
+      "assumption": "A round allowance. No South Dakota benefit-cost series was found."
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in pay",
+      "assumption": "A round allowance. The statewide average pay rose from $58,307 in 2024 to $60,577 in 2025 [^6], a gain of 3.9%, so 3% is modest for a scarce trade. The sensitivity table does not test it."
+    },
+    "owner_pay": {
+      "value": 110000,
+      "fmt": "$",
+      "label": "Owner-operator compensation, Year 1 dollars",
+      "assumption": "A lender normalizes owner pay at a market salary before it counts coverage. This is a placeholder for a general manager's salary; the owner's actual plan replaces it."
+    },
+    "mkt_pct": {
+      "value": 0.012,
+      "fmt": "%",
+      "label": "Advertising and insurer-program fees, share of revenue",
+      "assumption": "A round allowance. A relocating shop spends to tell customers where it has gone; the model holds the share flat."
+    },
+    "other_fixed": {
+      "value": 260000,
+      "fmt": "$",
+      "label": "Utilities, shop supplies, software, calibration and scan licenses, waste disposal, licenses and professional fees, Year 1",
+      "assumption": "A round allowance for a 12,000 sq ft building and its yard. No Rapid City utility rate or waste hauler quote was found, and a paint operation adds hazardous waste and air permit costs the research does not cover."
+    },
+    "other_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in other fixed costs",
+      "assumption": "A round allowance for general cost growth."
+    },
+    "insurance": {
+      "value": 65000,
+      "fmt": "$",
+      "label": "Property, garage liability, garagekeepers and workers compensation, Year 1",
+      "assumption": "No quote was found. Garagekeepers cover for customer vehicles in the shop costs more than retail cover, and workers compensation for paint and body work is a large part of it; a bound quote is a lender condition."
+    },
+    "tax_rate": {
+      "value": 0.013,
+      "fmt": "%2",
+      "label": "Property tax, share of land, building, site work and equipment cost",
+      "assumption": "The research holds no Pennington County commercial levy or assessment ratio. 1.3% of cost is a placeholder. The Pennington County director of equalization sets the value for the actual parcel."
+    },
+    "tpl_rate": {
+      "value": 0.0725,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^40]; the model uses 7.25%, a quarter point above Prime. The bank sets the rate at pricing, and SBA caps the third-party spread."
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank first-lien amortization",
+      "assumption": "Matches the 25-year debenture. The bank may set a shorter maturity, which would raise debt service."
+    },
+    "debenture_rate": {
+      "value": 0.0685,
+      "fmt": "%2",
+      "label": "504 debenture effective rate, 25-year",
+      "assumption": "A planning rate. The research for this state holds no debenture pricing, and the rate is set when the debenture is sold. A rate lock quote from the CDC replaces it."
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Debenture term",
+      "assumption": "The 25-year debenture, available because land, building and site work are most of project cost."
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 1.5 acres",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "building",
+      "label": "Building, 12,000 sq ft",
+      "expr": "bldg_sf * bldg_psf",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, paving, drainage and lighting",
+      "expr": "site_acres * sitework_per_acre",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "equipment",
+      "label": "Shop equipment and furniture",
+      "expr": "equipment",
+      "class": "equipment",
+      "basis": "assumption"
+    },
+    {
+      "key": "ae",
+      "label": "Architecture and engineering",
+      "expr": "bldg_sf * bldg_psf * ae_pct",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "soft",
+      "label": "Permits, survey, Phase I, appraisal, legal, lender fees",
+      "expr": "soft_other",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "contingency",
+      "label": "Contingency",
+      "expr": "(bldg_sf * bldg_psf + site_acres * sitework_per_acre + equipment) * contingency_pct",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "interim",
+      "label": "Construction-period interest",
+      "expr": "(bldg_sf * bldg_psf + site_acres * sitework_per_acre + equipment) * draw_factor * tpl_rate * build_months / 12",
+      "class": "real_estate",
+      "basis": "build period, bank rate"
+    },
+    {
+      "key": "preopening",
+      "label": "Moving costs, recertification, training and working capital",
+      "expr": "preopening",
+      "class": "working_capital",
+      "basis": "assumption"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "collision",
+      "label": "Collision repair",
+      "expr": "col_ros * col_ro * (1 + price_growth) ** y",
+      "basis": "orders x value, grown yearly"
+    },
+    {
+      "key": "mech",
+      "label": "Mechanical repair",
+      "expr": "mech_ros * mech_ro * (1 + price_growth) ** y",
+      "basis": "orders x value, grown yearly"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "collision",
+      "label": "Collision parts, paint, materials and sublet",
+      "expr": "rev_collision * col_cos_pct",
+      "basis": "revenue x share"
+    },
+    {
+      "key": "mech",
+      "label": "Mechanical parts and supplies",
+      "expr": "rev_mech * mech_cos_pct",
+      "basis": "revenue x share"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Payroll with costs",
+      "expr": "fte * avg_pay * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "employees x pay x (1 + burden), grown yearly"
+    },
+    {
+      "key": "owner",
+      "label": "Owner-operator compensation",
+      "expr": "owner_pay * (1 + wage_growth) ** y",
+      "basis": "assumption, grown yearly"
+    },
+    {
+      "key": "marketing",
+      "label": "Advertising and insurer-program fees",
+      "expr": "rev_total * mkt_pct",
+      "basis": "revenue x share"
+    },
+    {
+      "key": "fixed",
+      "label": "Utilities, supplies, software, licenses, waste, professional fees",
+      "expr": "other_fixed * (1 + other_growth) ** y",
+      "basis": "assumption, grows yearly"
+    },
+    {
+      "key": "proptax",
+      "label": "Property tax",
+      "expr": "(land + bldg_sf * bldg_psf + site_acres * sitework_per_acre + equipment) * tax_rate",
+      "basis": "cost x assumed rate"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + other_growth) ** y",
+      "basis": "assumption, grows yearly"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes the standard 10% 504 injection, which fits an operator past its second year of business"
+  },
+  "breakeven": {
+    "input": "col_ros",
+    "label": "collision repair orders"
+  },
+  "sensitivity": {
+    "year": 2,
+    "rows": {
+      "input": "col_ros",
+      "label": "Collision repair orders",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "col_ro",
+      "label": "Average collision repair order",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Rapid City, Pennington County, South Dakota, on the Interstate 90 corridor into the Black Hills [^2,4]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "Owner-occupied combined collision and mechanical repair shop of about {in_bldg_sf} sq ft on about {in_site_acres} acres, built for an established operator that now rents; site, owner, brand and operator not specified"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien, CDC debenture and borrower contribution; the operator is established, so the standard tier applies [^38]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+    ],
+    [
+      "Financing",
+      "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+    ],
+    [
+      "Stabilized year (Year 3)",
+      "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service at all down to {breakeven_value} collision repair orders a year ({cushion_pct} below the {in_col_ros} underwritten); the {floor} floor holds down to {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "A fully employed county with a visitor economy and a dense shop field can support a relocated shop, but the research names no competitor, so the volume rests on stated assumptions [^7,8]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): meets the equity tier and fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets the Year 2 test at the floor"
+    ]
+  ]
+}

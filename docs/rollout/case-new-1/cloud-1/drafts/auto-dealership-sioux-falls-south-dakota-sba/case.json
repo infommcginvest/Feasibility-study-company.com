@@ -1,0 +1,481 @@
+{
+  "slug": "auto-dealership-sioux-falls-south-dakota-sba",
+  "page": "/case-studies/auto-dealership-sioux-falls-south-dakota-sba/",
+  "program": "sba_504",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 25,
+    "fees": 26,
+    "prime": 27
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "dealership",
+    "count": 1
+  },
+  "inputs": {
+    "land": {
+      "value": 1200000,
+      "fmt": "$",
+      "label": "Land, about 2.5 acres of commercial frontage",
+      "assumption": "A round placeholder, not the price of any parcel. The research prints no Sioux Falls land price: the Bender outlook gives acres sold, 1,120 of unimproved land in 2025, and no dollars per acre [^13]. The round figure is a planning price for about 2.5 acres, not a comparable sale; no sale was found. An appraisal of the actual parcel replaces it."
+    },
+    "site_acres": {
+      "value": 2.5,
+      "fmt": "n1",
+      "label": "Site area, acres",
+      "assumption": "A round figure. An independent store with a 14,000 sq ft building needs room for display rows, customer and employee parking and a service queue, and about 2.5 acres leaves that room. The research holds no dealer site size for Sioux Falls."
+    },
+    "bldg_sf": {
+      "value": 14000,
+      "fmt": "n",
+      "label": "Building, sq ft (showroom, offices, six service bays, reconditioning)",
+      "assumption": "Sized for one independent store with a service department of six bays, a small showroom and offices, and the rest shop and reconditioning space. The research holds no dealer building size for Sioux Falls; this is a planning size."
+    },
+    "bldg_psf": {
+      "value": 190,
+      "fmt": "$",
+      "label": "Building cost per sq ft",
+      "assumption": "The city's permit statistics put the average valuation of a new single-family dwelling at $321,594 and its average size at 1,572 sq ft [^2], about $205 a sq ft before land. A shop and showroom shell has no kitchens or finished interiors but needs overhead doors, drains and a heavier slab, so the model carries $190. A general contractor's bid replaces it."
+    },
+    "sitework_per_acre": {
+      "value": 180000,
+      "fmt": "$",
+      "label": "Paving, lot lighting, drainage and landscaping per acre",
+      "assumption": "No Sioux Falls site-work cost was found. A dealership paves most of its site, so the allowance is high for a retail pad; civil bids replace it."
+    },
+    "equipment": {
+      "value": 450000,
+      "fmt": "$",
+      "label": "Service equipment (above-ground lifts, alignment, compressors), diagnostics, IT and furniture",
+      "assumption": "No equipment quote or cost series was found. The model assumes above-ground lifts, so the shop is not a service center with pits or in-ground lifts, a design the SOP treats as a special purpose property [^25]."
+    },
+    "ae_pct": {
+      "value": 0.07,
+      "fmt": "%",
+      "label": "Architecture and engineering, share of building cost",
+      "assumption": "A round allowance; no Sioux Falls fee schedule or contract was found."
+    },
+    "soft_other": {
+      "value": 350000,
+      "fmt": "$",
+      "label": "Permits, survey, Phase I, appraisal, dealer licensing, legal, title and lender fees",
+      "assumption": "Impact fees, building permit fees and the state dealer-licensing cost were not found in the research. This is a placeholder pending the city's fee schedule and the lender's closing statement."
+    },
+    "contingency_pct": {
+      "value": 0.05,
+      "fmt": "%",
+      "label": "Construction contingency, share of building, site work and equipment",
+      "assumption": "A standard allowance for a ground-up build; no local figure was found."
+    },
+    "build_months": {
+      "value": 10,
+      "fmt": "n",
+      "label": "Construction period, months",
+      "assumption": "A planning period for a one-story shop and showroom, with winter weather in the schedule. The contractor's schedule replaces it."
+    },
+    "draw_factor": {
+      "value": 0.5,
+      "fmt": "%",
+      "label": "Average share of the construction budget outstanding during the build",
+      "assumption": "Draws rise from zero to the full budget over the build, so about half is outstanding on average."
+    },
+    "preopening": {
+      "value": 250000,
+      "fmt": "$",
+      "label": "Pre-opening payroll, advertising, licensing and working capital",
+      "assumption": "Pays the hiring and training of the first sales and service staff and the launch advertising before the first sale. Vehicle inventory is financed on a separate floor plan line outside this budget, so no inventory is in the project."
+    },
+    "used_units": {
+      "value": [
+        440,
+        640,
+        740,
+        790,
+        810
+      ],
+      "fmt": "n",
+      "label": "Used vehicles retailed",
+      "assumption": "The research holds no vehicle sales count for any Sioux Falls dealer. The ramp is an assumption: the store sells to customers who today buy from the dealer establishments the competitor section counts for the metro area [^22], so the model builds slowly and stabilizes in Year 3. Dealer-level sales evidence is a lender condition."
+    },
+    "used_price": {
+      "value": 27500,
+      "fmt": "$",
+      "label": "Average used-vehicle retail price",
+      "assumption": "A round planning figure. No Sioux Falls or South Dakota transaction price was found. The sensitivity table tests the gross profit, not the price, and a dealer's own sales report replaces the figure."
+    },
+    "used_gpu": {
+      "value": 2500,
+      "fmt": "$",
+      "label": "Front-end gross profit per used vehicle, after reconditioning",
+      "assumption": "A round planning figure; no dealer margin was found in the research. It is set below what a store would plan on in a strong year, because a new store buys at auction before it has a trade-in base."
+    },
+    "fi_pu": {
+      "value": 950,
+      "fmt": "$",
+      "label": "Finance and insurance income per vehicle retailed",
+      "assumption": "A round planning figure; the research holds no finance and insurance income. The lender should ask for the store's reserve and product sales mix in the first twelve months of any comparable store."
+    },
+    "bays": {
+      "value": 6,
+      "fmt": "n",
+      "label": "Service bays",
+      "assumption": "Matches the building program above; the number of bays is a design choice, not a market fact."
+    },
+    "bay_util": {
+      "value": [
+        0.35,
+        0.55,
+        0.65,
+        0.7,
+        0.72
+      ],
+      "fmt": "%",
+      "label": "Share of bay capacity sold",
+      "assumption": "A ramp from a standing start: the service department builds on the store's own sales base and on walk-in repair work. No Sioux Falls shop utilization was found."
+    },
+    "bay_rev": {
+      "value": 210000,
+      "fmt": "$",
+      "label": "Service and parts revenue per bay at full capacity, Year 1 dollars",
+      "assumption": "A round figure for labor and parts sold through one bay in a year. The research holds no Sioux Falls shop revenue; the aggregate for the auto service and collision class is in the register but covers different business types."
+    },
+    "service_margin": {
+      "value": 0.55,
+      "fmt": "%",
+      "label": "Gross margin on service and parts",
+      "assumption": "A round blend of labor, which earns a high margin, and parts, which earn less. No local figure was found."
+    },
+    "fte": {
+      "value": [
+        12,
+        16,
+        18,
+        19,
+        19
+      ],
+      "fmt": "n",
+      "label": "Employees, full-time equivalents (excluding the owner)",
+      "assumption": "Sales, finance, service advisor, technicians, porters and office. The competitor section counts paid employees and establishments for the metro area's dealer classes [^22]; the subject is a single-line store with a small shop and staffs well below a full-line franchised store."
+    },
+    "avg_pay": {
+      "value": 58000,
+      "fmt": "$",
+      "label": "Average annual pay per employee before payroll costs, Year 1 dollars",
+      "assumption": "Set between the average retail trade pay in the Sioux Falls metro area, $41,028, and the Minnehaha County all-industry average of $66,906 [^5,6]. Salespeople on commission and technicians pay above the retail average; the first quarter of 2026 county weekly wage was $1,369 [^7]."
+    },
+    "burden": {
+      "value": 0.18,
+      "fmt": "%",
+      "label": "Payroll taxes and benefits, share of pay",
+      "assumption": "A round allowance; no South Dakota benefit-cost series was found."
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in pay",
+      "assumption": "A round allowance. The statewide first-quarter 2026 average weekly wage rose 4.2% over the year [^7], so 3% is modest; the sensitivity table does not test it."
+    },
+    "owner_pay": {
+      "value": 120000,
+      "fmt": "$",
+      "label": "Owner-operator compensation, Year 1 dollars",
+      "assumption": "A lender normalizes owner pay at a market salary before it counts coverage. This is a placeholder for a general manager's salary; the owner's actual plan replaces it."
+    },
+    "ad_pu": {
+      "value": 350,
+      "fmt": "$",
+      "label": "Advertising and lead costs per vehicle retailed",
+      "assumption": "A round allowance. A new store spends more per sale than an established one; the model holds it flat."
+    },
+    "days_supply": {
+      "value": 60,
+      "fmt": "n",
+      "label": "Days of vehicle inventory carried on the floor plan",
+      "assumption": "A planning figure for used inventory; no turn rate was found in the research."
+    },
+    "fp_rate": {
+      "value": 0.085,
+      "fmt": "%2",
+      "label": "Floor plan interest rate",
+      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^27]; the model adds a spread of 1.5 points for a floor plan line. The lender sets the actual rate."
+    },
+    "other_fixed": {
+      "value": 230000,
+      "fmt": "$",
+      "label": "Utilities, repairs, shop supplies, software, licenses and professional fees, Year 1",
+      "assumption": "A round allowance for the fixed costs of a 14,000 sq ft building and its lot. No Sioux Falls utility rates were found."
+    },
+    "other_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in other fixed costs",
+      "assumption": "A round allowance for general cost growth."
+    },
+    "insurance": {
+      "value": 70000,
+      "fmt": "$",
+      "label": "Property, garage liability and inventory insurance, Year 1",
+      "assumption": "No quote was found. Garage liability and inventory cover cost more than for a retail store of the same size; a bound quote is a lender condition."
+    },
+    "tax_rate": {
+      "value": 0.015,
+      "fmt": "%2",
+      "label": "Property tax, share of land, building, site work and equipment cost",
+      "assumption": "The research holds no Sioux Falls commercial levy or assessment ratio. 1.5% of cost is a placeholder. The Minnehaha County director of equalization sets the value for the actual parcel."
+    },
+    "tpl_rate": {
+      "value": 0.0725,
+      "fmt": "%2",
+      "label": "Bank first-lien rate",
+      "assumption": "Prime was 7.00% on the October 9, 2026 H.15 release [^27]; the model uses 7.25%, a quarter point above Prime. The bank sets the rate at pricing, and SBA caps the third-party spread."
+    },
+    "tpl_amort_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Bank first-lien amortization",
+      "assumption": "Matches the 25-year debenture; the bank may set a shorter maturity, which would raise debt service."
+    },
+    "debenture_rate": {
+      "value": 0.0695,
+      "fmt": "%2",
+      "label": "504 debenture effective rate, 25-year",
+      "assumption": "A planning rate. The research for this state holds no debenture pricing, and the rate is set when the debenture is sold. A rate lock quote from the CDC replaces it."
+    },
+    "debenture_years": {
+      "value": 25,
+      "fmt": "yr",
+      "label": "Debenture term",
+      "assumption": "The 25-year debenture, available because land, building and site work are most of project cost."
+    }
+  },
+  "uses": [
+    {
+      "key": "land",
+      "label": "Land, about 2.5 acres",
+      "expr": "land",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "building",
+      "label": "Building, 14,000 sq ft",
+      "expr": "bldg_sf * bldg_psf",
+      "class": "real_estate",
+      "basis": "assumption, [^2]"
+    },
+    {
+      "key": "sitework",
+      "label": "Site work, paving and lighting",
+      "expr": "site_acres * sitework_per_acre",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "equipment",
+      "label": "Service equipment, IT and furniture",
+      "expr": "equipment",
+      "class": "equipment",
+      "basis": "assumption"
+    },
+    {
+      "key": "ae",
+      "label": "Architecture and engineering",
+      "expr": "bldg_sf * bldg_psf * ae_pct",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "soft",
+      "label": "Permits, survey, Phase I, appraisal, legal, lender fees",
+      "expr": "soft_other",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "contingency",
+      "label": "Contingency",
+      "expr": "(bldg_sf * bldg_psf + site_acres * sitework_per_acre + equipment) * contingency_pct",
+      "class": "real_estate",
+      "basis": "assumption"
+    },
+    {
+      "key": "interim",
+      "label": "Construction-period interest",
+      "expr": "(bldg_sf * bldg_psf + site_acres * sitework_per_acre + equipment) * draw_factor * tpl_rate * build_months / 12",
+      "class": "real_estate",
+      "basis": "build period, bank rate"
+    },
+    {
+      "key": "preopening",
+      "label": "Pre-opening costs and working capital",
+      "expr": "preopening",
+      "class": "working_capital",
+      "basis": "assumption"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "used",
+      "label": "Used vehicle sales",
+      "expr": "used_units * used_price",
+      "basis": "vehicles x average price"
+    },
+    {
+      "key": "fi",
+      "label": "Finance and insurance income",
+      "expr": "used_units * fi_pu",
+      "basis": "vehicles x income per vehicle"
+    },
+    {
+      "key": "service",
+      "label": "Service and parts sales",
+      "expr": "bays * bay_util * bay_rev",
+      "basis": "bays x share sold x revenue per bay"
+    }
+  ],
+  "cost_of_sales": [
+    {
+      "key": "used",
+      "label": "Cost of used vehicles sold, after reconditioning",
+      "expr": "rev_used - used_units * used_gpu",
+      "basis": "sales less front-end gross"
+    },
+    {
+      "key": "service",
+      "label": "Cost of service and parts sold",
+      "expr": "rev_service * (1 - service_margin)",
+      "basis": "sales x (1 - margin)"
+    }
+  ],
+  "opex": [
+    {
+      "key": "payroll",
+      "label": "Payroll with costs",
+      "expr": "fte * avg_pay * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "employees x pay x (1 + burden)"
+    },
+    {
+      "key": "owner",
+      "label": "Owner-operator compensation",
+      "expr": "owner_pay * (1 + wage_growth) ** y",
+      "basis": "assumption"
+    },
+    {
+      "key": "ads",
+      "label": "Advertising and lead costs",
+      "expr": "used_units * ad_pu",
+      "basis": "vehicles x cost per vehicle"
+    },
+    {
+      "key": "floorplan",
+      "label": "Floor plan interest",
+      "expr": "rev_used * days_supply / 365 * fp_rate",
+      "basis": "sales x days of inventory / 365 x rate"
+    },
+    {
+      "key": "fixed",
+      "label": "Utilities, repairs, supplies, software, licenses, professional fees",
+      "expr": "other_fixed * (1 + other_growth) ** y",
+      "basis": "assumption, grows yearly"
+    },
+    {
+      "key": "proptax",
+      "label": "Property tax",
+      "expr": "(land + bldg_sf * bldg_psf + site_acres * sitework_per_acre + equipment) * tax_rate",
+      "basis": "cost x assumed rate"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + other_growth) ** y",
+      "basis": "assumption, grows yearly"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor proposes the standard 10% 504 injection, which ignores the higher tier for a new business"
+  },
+  "breakeven": {
+    "input": "used_units",
+    "label": "used vehicles retailed"
+  },
+  "sensitivity": {
+    "year": 2,
+    "rows": {
+      "input": "used_units",
+      "label": "Used vehicles retailed",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "used_gpu",
+      "label": "Front-end gross per vehicle",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "Sioux Falls, Minnehaha County (the city also spans Lincoln County), South Dakota, in the 57th Street and Veterans Parkway growth area [^1,14]"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New independent used-vehicle dealership with a {in_bays}-bay service department, in a building of about {in_bldg_sf} sq ft on about {in_site_acres} acres; site, owner, brand and operator not specified"
+    ],
+    [
+      "Program",
+      "SBA 504: bank first lien, CDC debenture and borrower contribution; the business is new, so the higher new-business tier applies [^25]"
+    ],
+    [
+      "Total project cost",
+      "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+    ],
+    [
+      "Financing",
+      "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+    ],
+    [
+      "Equity",
+      "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+    ],
+    [
+      "Stabilized year (Year 3)",
+      "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+    ],
+    [
+      "Break-even",
+      "Year 3 covers debt service at all down to {breakeven_value} used vehicles a year ({cushion_pct} below the {in_used_units} underwritten); the {floor} floor holds down to {breakeven_floor_value}"
+    ],
+    [
+      "Market conclusion",
+      "A growing, fully employed city (224,676 residents at the end of 2025, September 2026 unemployment of 1.7%) can support a new store, but the dealer field is already established and the research names no dealer, so the ramp rests on assumptions [^1,8,22]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets the Year 2 test at the floor"
+    ]
+  ]
+}

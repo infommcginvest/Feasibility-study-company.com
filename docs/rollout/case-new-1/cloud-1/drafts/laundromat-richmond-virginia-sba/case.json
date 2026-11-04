@@ -1,0 +1,446 @@
+{
+  "slug": "laundromat-richmond-virginia-sba",
+  "page": "/case-studies/laundromat-richmond-virginia-sba/",
+  "program": "sba_7a",
+  "sba": {
+    "purpose": "startup",
+    "business_age": "new",
+    "special_purpose": false,
+    "manufacturer": false,
+    "rural_fee_waiver": false
+  },
+  "rule_sources": {
+    "sop": 17,
+    "fees": 18,
+    "prime": 19,
+    "program": 16
+  },
+  "stabilized_year": 3,
+  "dscr_test_year": 2,
+  "units": {
+    "label": "store",
+    "count": 1
+  },
+  "inputs": {
+    "bay_sf": {
+      "value": 3400,
+      "fmt": "n",
+      "label": "Leased in-line bay, square feet",
+      "assumption": "A round planning size, not a listing. The bay holds the washer and dryer counts below, a folding counter and a service desk, with room for a wash-dry-fold bench at the back. Richmond retail vacancy was 3.4% in the third quarter of 2026 [^13], so bays of this size are not abundant, and the real bay and its lease are a lender condition."
+    },
+    "washers": {
+      "value": 34,
+      "fmt": "n",
+      "label": "Washers installed",
+      "assumption": "A planning mix of small, mid-size and large front-loaders, with no store plan or vendor layout behind it. Wash capacity drives revenue and cost, so a machine schedule from an equipment vendor, tied to the real bay's plumbing and power, replaces it."
+    },
+    "dryers": {
+      "value": 38,
+      "fmt": "n",
+      "label": "Dryers installed",
+      "assumption": "A planning count, a little above the washer count because a dryer cycle runs on a shorter ticket than a wash; used for cost only. A vendor layout replaces it."
+    },
+    "turns": {
+      "value": [
+        2.9,
+        3.8,
+        4.3,
+        4.4,
+        4.5
+      ],
+      "fmt": "n1",
+      "label": "Turns per washer per day",
+      "assumption": "Revenue-generating wash cycles per washer per day, ramping over three years as a new store builds a regular base. The research holds no Richmond store count or turn data of any kind. The level leans on the page's renter evidence: more than half of the city's households rent, and the County Business Patterns class for the city is a handful of establishments, both in the register tables on this page. The ramp starts low because a new store has no regulars, and a utility-bill and meter audit of two or three comparable stores in the market is a lender condition."
+    },
+    "wash_price": {
+      "value": 6.5,
+      "fmt": "$2",
+      "label": "Average revenue per wash cycle",
+      "assumption": "A blend of small and large machines, rounded; it is not a posted price. No Richmond vend price was found in the research. The blend is set against the city's median gross rent and median household income in the register table on this page, on the view that a renter household will pay it per load while still choosing a cheaper machine for small loads. Posted prices at competing stores are a lender condition."
+    },
+    "dry_ratio": {
+      "value": 0.65,
+      "fmt": "%",
+      "label": "Dryer revenue as a share of washer revenue",
+      "assumption": "A planning ratio. Most washer customers also dry, and dryers earn less per cycle than the larger washers; the ratio is a judgment, not a benchmark, and a meter audit of comparable stores replaces it."
+    },
+    "wdf_lbs": {
+      "value": [
+        60,
+        115,
+        160,
+        170,
+        180
+      ],
+      "fmt": "n",
+      "label": "Wash-dry-fold pounds per day",
+      "assumption": "Attended service for customers who drop off a bag, ramping from a low base. Richmond employs 116.1 thousand people in government and 123.7 thousand in professional and business services [^1], the kind of working households that buy the service, but no wash-dry-fold demand figure was found. Year 3 volume is a judgment and the first thing a lender should ask an operator to evidence."
+    },
+    "wdf_price": {
+      "value": 1.85,
+      "fmt": "$2",
+      "label": "Wash-dry-fold price per pound",
+      "assumption": "A round placeholder, not a posted price. No Richmond wash-dry-fold price was found. Posted prices at competing attended stores are a lender condition."
+    },
+    "other_rev": {
+      "value": [
+        9000,
+        12000,
+        14000,
+        14500,
+        15000
+      ],
+      "fmt": "$",
+      "label": "Vending, supplies, card fees and other income",
+      "assumption": "Soap and supply vending, bag sales and card-system income, as a small fixed line that grows with the store. No local figure was found."
+    },
+    "wage": {
+      "value": 16.5,
+      "fmt": "$2",
+      "label": "Attendant wage, dollars per hour",
+      "assumption": "Set below the area's all-occupation mean of $32.89 an hour in May 2025 [^2], because that mean includes every profession; the average weekly wage in the city was $1,868 in the first quarter of 2026 [^3]. A local wage survey for attendants is a lender condition."
+    },
+    "hours": {
+      "value": 4300,
+      "fmt": "n",
+      "label": "Attendant hours per year",
+      "assumption": "Attended coverage for the busiest hours of a store that opens longer than the paid hours, with the owner covering the rest. A staffing plan replaces it."
+    },
+    "burden": {
+      "value": 0.12,
+      "fmt": "%",
+      "label": "Payroll burden",
+      "assumption": "Employer taxes and workers' compensation as a share of wages; a planning placeholder. The lender's payroll provider replaces it."
+    },
+    "wage_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in wages and rent",
+      "assumption": "A planning rate for the five years, near general inflation; no Virginia or Richmond wage forecast was found."
+    },
+    "wdf_labor_pct": {
+      "value": 0.36,
+      "fmt": "%",
+      "label": "Fold-room labor, share of wash-dry-fold revenue",
+      "assumption": "Washing, drying and folding by hand is labor-heavy; the share is a judgment because the research holds no wash-dry-fold margin."
+    },
+    "manager": {
+      "value": 38000,
+      "fmt": "$",
+      "label": "Manager or owner-operator pay allowance",
+      "assumption": "Lenders deduct a market wage for the owner's own time. The figure is a round allowance below the city's average annual pay, which the research puts at $1,868 a week [^3]. The owner's real compensation is a lender condition."
+    },
+    "util_pct": {
+      "value": 0.17,
+      "fmt": "%",
+      "label": "Water, sewer, gas and electricity, share of revenue",
+      "assumption": "Utilities are the largest cost after labor and rent in a laundromat, and the research holds no Richmond water, sewer or gas rate. The share is a judgment; a utility-bill history from a comparable store replaces it."
+    },
+    "repairs_pct": {
+      "value": 0.055,
+      "fmt": "%",
+      "label": "Repairs and supplies, share of revenue",
+      "assumption": "A planning share for machine service, parts and cleaning supplies, with no benchmark behind it."
+    },
+    "system_pct": {
+      "value": 0.035,
+      "fmt": "%",
+      "label": "Payment system, software and processing, share of revenue",
+      "assumption": "Card readers, app fees and processing charges; a planning share."
+    },
+    "marketing_pct": {
+      "value": 0.02,
+      "fmt": "%",
+      "label": "Marketing, share of revenue",
+      "assumption": "A planning share that funds signage, local advertising and the wash-dry-fold pickup flyer."
+    },
+    "rent_psf": {
+      "value": 19,
+      "fmt": "$2",
+      "label": "Base rent, dollars per square foot per year",
+      "assumption": "Richmond retail asking rent was not found. Brokers print an average office asking rent of $22.18 a square foot [^9] and an industrial asking rent of $9.02 [^11] for the third quarter of 2026, and the retail broker prints vacancy of only 3.4% [^13]. Retail bays sit between those two uses in most markets and the tight vacancy argues against the low end, so the placeholder is set near the office figure. A letter of intent from a landlord replaces it."
+    },
+    "nnn_psf": {
+      "value": 5.5,
+      "fmt": "$2",
+      "label": "Taxes, insurance and common-area charges, dollars per square foot per year",
+      "assumption": "A planning placeholder for a triple-net lease; no Richmond figure was found. The landlord's pass-through history replaces it."
+    },
+    "insurance": {
+      "value": 8500,
+      "fmt": "$",
+      "label": "Liability, property and business-interruption insurance, Year 1",
+      "assumption": "No quote was found; a bound quote replaces it."
+    },
+    "cost_growth": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Annual growth in insurance",
+      "assumption": "A planning rate near general inflation."
+    },
+    "taxable_value": {
+      "value": 420000,
+      "fmt": "$",
+      "label": "Taxable value of machines and fixtures",
+      "assumption": "Virginia localities tax business tangible property on the reported cost of machinery and fixtures after depreciation; the Richmond assessment method is not in the research, so the line is a planning value below the cost of the machines. The city's assessor replaces it."
+    },
+    "tax_rate": {
+      "value": 0.03,
+      "fmt": "%",
+      "label": "Business tangible property tax, share of taxable value",
+      "assumption": "A planning rate. The research holds no Richmond rate or assessment ratio, so the city's adopted rate is a lender condition."
+    },
+    "buildout_psf": {
+      "value": 105,
+      "fmt": "$",
+      "label": "Build-out, dollars per square foot",
+      "assumption": "Floor drains and trench work, hot-water capacity, gas and electrical service, ventilation, a counter and finishes. No Richmond cost was found; a contractor's bid on the real bay replaces it. A landlord allowance, if any, would lower this line."
+    },
+    "equipment": {
+      "value": 495000,
+      "fmt": "$",
+      "label": "Washers, dryers, card payment system and folding fixtures",
+      "assumption": "A round placeholder for the washers, dryers and payment system counted above. The research holds no equipment price; a vendor quotation replaces it."
+    },
+    "install": {
+      "value": 48000,
+      "fmt": "$",
+      "label": "Delivery, rigging, installation and commissioning",
+      "assumption": "A round placeholder. Vendor quotations replace it."
+    },
+    "deposits": {
+      "value": 38000,
+      "fmt": "$",
+      "label": "Lease and utility deposits",
+      "assumption": "A round placeholder for deposits that the landlord and the utilities set at signing."
+    },
+    "soft": {
+      "value": 42000,
+      "fmt": "$",
+      "label": "Design, permits, plan review and legal",
+      "assumption": "A round placeholder. The city's fee schedule was not found; its permit office replaces it."
+    },
+    "preopening": {
+      "value": 95000,
+      "fmt": "$",
+      "label": "Pre-opening payroll, marketing and working capital",
+      "assumption": "Covers hiring, training, opening promotions and the months before the store turns cash-positive. Employment in the metro was 724.2 thousand in September 2026, down from 731.2 thousand a year earlier [^1], so the opening reserve is not set thin."
+    },
+    "sba_guaranty_pct": {
+      "value": 0.75,
+      "fmt": "%",
+      "label": "SBA guaranty share",
+      "source": [
+        16
+      ]
+    }
+  },
+  "uses": [
+    {
+      "key": "buildout",
+      "label": "Leasehold build-out of the bay",
+      "expr": "bay_sf * buildout_psf",
+      "class": "other",
+      "basis": "area x cost per sq. ft., assumption"
+    },
+    {
+      "key": "equipment",
+      "label": "Washers, dryers, payment system and fixtures",
+      "expr": "equipment",
+      "class": "equipment",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "install",
+      "label": "Delivery, rigging and installation",
+      "expr": "install",
+      "class": "equipment",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "soft",
+      "label": "Design, permits and legal",
+      "expr": "soft",
+      "class": "other",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "deposits",
+      "label": "Lease and utility deposits",
+      "expr": "deposits",
+      "class": "other",
+      "basis": "assumption, see inputs"
+    },
+    {
+      "key": "preopening",
+      "label": "Pre-opening costs and working capital",
+      "expr": "preopening",
+      "class": "working_capital",
+      "basis": "assumption [^1]"
+    }
+  ],
+  "revenue": [
+    {
+      "key": "wash",
+      "label": "Wash revenue",
+      "expr": "washers * turns * 365 * wash_price",
+      "basis": "washers x turns x 365 x average price"
+    },
+    {
+      "key": "dry",
+      "label": "Dryer revenue",
+      "expr": "rev_wash * dry_ratio",
+      "basis": "share of wash revenue"
+    },
+    {
+      "key": "wdf",
+      "label": "Wash-dry-fold revenue",
+      "expr": "wdf_lbs * 365 * wdf_price",
+      "basis": "pounds per day x 365 x price per pound"
+    },
+    {
+      "key": "other",
+      "label": "Vending and other income",
+      "expr": "other_rev",
+      "basis": "assumption, see inputs"
+    }
+  ],
+  "cost_of_sales": [],
+  "opex": [
+    {
+      "key": "labor",
+      "label": "Attendant payroll",
+      "expr": "hours * wage * (1 + burden) * (1 + wage_growth) ** y",
+      "basis": "hours x wage x burden, grows yearly"
+    },
+    {
+      "key": "fold",
+      "label": "Fold-room labor",
+      "expr": "rev_wdf * wdf_labor_pct",
+      "basis": "share of wash-dry-fold revenue"
+    },
+    {
+      "key": "manager",
+      "label": "Manager or owner pay allowance",
+      "expr": "manager * (1 + wage_growth) ** y",
+      "basis": "allowance, grows yearly"
+    },
+    {
+      "key": "util",
+      "label": "Water, sewer, gas and electricity",
+      "expr": "rev_total * util_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "repairs",
+      "label": "Repairs and supplies",
+      "expr": "rev_total * repairs_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "system",
+      "label": "Payment system and processing",
+      "expr": "rev_total * system_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "marketing",
+      "label": "Marketing",
+      "expr": "rev_total * marketing_pct",
+      "basis": "share of revenue"
+    },
+    {
+      "key": "rent",
+      "label": "Base rent and triple-net charges",
+      "expr": "bay_sf * (rent_psf + nnn_psf) * (1 + wage_growth) ** y",
+      "basis": "area x rate, grows yearly"
+    },
+    {
+      "key": "insurance",
+      "label": "Insurance",
+      "expr": "insurance * (1 + cost_growth) ** y",
+      "basis": "assumption, grows yearly"
+    },
+    {
+      "key": "tax",
+      "label": "Business tangible property tax",
+      "expr": "taxable_value * tax_rate",
+      "basis": "taxable value x rate"
+    }
+  ],
+  "proposed": {
+    "equity_pct": 0.1,
+    "note": "the sponsor requests the 7(a) start-up minimum"
+  },
+  "breakeven": {
+    "input": "turns",
+    "label": "washer turns per day"
+  },
+  "sensitivity": {
+    "year": 2,
+    "rows": {
+      "input": "turns",
+      "label": "Washer turns per day",
+      "steps": [
+        -0.2,
+        -0.1,
+        0,
+        0.1,
+        0.2
+      ]
+    },
+    "cols": {
+      "input": "wash_price",
+      "label": "Average revenue per wash",
+      "steps": [
+        -0.15,
+        -0.075,
+        0,
+        0.075,
+        0.15
+      ]
+    }
+  },
+  "glance": [
+    [
+      "Town, county and corridor",
+      "City of Richmond, Virginia (an independent city that is its own county equivalent), on a neighborhood retail corridor in the Southside such as Hull Street Road; the bay itself is generic"
+    ],
+    [
+      "Subject (hypothetical)",
+      "New attended self-service laundromat in a leased in-line bay of about {in_bay_sf} sq ft, with {in_washers} washers, {in_dryers} dryers, card payment and a wash-dry-fold bench, opened by an owner-operator with no laundromat history; parcel, landlord, zoning and utilities to be confirmed"
+    ],
+    [
+      "Program",
+      "SBA 7(a) for a start-up; the page tests the SOP's equity floor, the 7(a) size limit and the coverage floor in the second year"
+    ],
+    [
+      "Total project cost",
+      "{tpc} as restructured ({tpc_proposed} under the request); machines, build-out and working capital, with no real estate bought"
+    ],
+    [
+      "Loan structure",
+      "One 7(a) term loan, blended to a ten-year term because no real estate is financed, at Prime plus the maximum spread for its size, {rate}; annual debt service {ds}"
+    ],
+    [
+      "Equity",
+      "Requested {equity_proposed_pct} ({equity_proposed}); the coverage test needs {equity_pct} ({equity})"
+    ],
+    [
+      "DSCR in the test year (Year 2)",
+      "{dscr_y2_proposed} on the request; {dscr_y2} on the smaller loan; floor {floor}"
+    ],
+    [
+      "Break-even",
+      "Year 3 debt service is met at {breakeven_value} washer turns per day, {breakeven_pct} of the underwritten level"
+    ],
+    [
+      "Market conclusion",
+      "A renter-heavy city with a small, payroll-based laundromat count, a tight retail space market and a flat apartment rent trend: demand is credible, the lease is the risk [^13,14]"
+    ],
+    [
+      "Determination",
+      "As proposed ({equity_proposed_pct} equity): a {loan_total_proposed} loan inside the {cap} 7(a) limit, covering Year 2 debt service {dscr_y2_proposed} against {floor}. As restructured: the modeled income carries {loan_total} of 7(a) debt, which needs {equity_pct} equity on a {tpc} project; no lender approval is implied"
+    ]
+  ]
+}

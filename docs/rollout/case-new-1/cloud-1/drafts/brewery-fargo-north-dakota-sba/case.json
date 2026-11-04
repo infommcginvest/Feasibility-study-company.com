@@ -1,0 +1,523 @@
+{
+ "slug": "brewery-fargo-north-dakota-sba",
+ "page": "/case-studies/brewery-fargo-north-dakota-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": true,
+  "manufacturer": true,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 6,
+  "fees": 28,
+  "prime": 29
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "brewery and taproom",
+  "count": 1
+ },
+ "inputs": {
+  "land_acres": {
+   "value": 2,
+   "fmt": "n1",
+   "label": "Land area, acres (hypothetical site on the I-29 corridor)",
+   "assumption": "A round hypothetical site of about two and a half acres: room for a one-story building of the size below, truck access for grain and kegs, customer parking for a taproom, and a stormwater area. The research prints no parcel or acreage for any Fargo site and none is used. The site plan fixes the parking count."
+  },
+  "land_per_acre": {
+   "value": 300000,
+   "fmt": "$",
+   "label": "Land cost per acre",
+   "assumption": "The research holds no Fargo land sale or listing, so the study carries a round $300,000 an acre as a planning figure. An appraisal and an executed land contract replace it."
+  },
+  "bldg_sf": {
+   "value": 10000,
+   "fmt": "n",
+   "label": "Building, gross square feet",
+   "assumption": "A round size for one story holding a production hall, a cold room, a packaging and keg area, an office, and a taproom. It is a design assumption, not a market observation. The metro lease-rate figures in the research are rents, not build costs [^27]."
+  },
+  "tap_sf": {
+   "value": 3500,
+   "fmt": "n",
+   "label": "Taproom and patio-ready customer area within the building, square feet",
+   "assumption": "About three tenths of the building is customer space; the rest is production, storage and office. The split is a design assumption and the layout plan replaces it."
+  },
+  "bldg_psf": {
+   "value": 210,
+   "fmt": "$",
+   "label": "Building hard cost per square foot, production shell with floor drains",
+   "assumption": "No Fargo construction cost was found in the research. The study carries a round $210 a square foot for an insulated production shell with sloped floors, drains, power for chilling and a finished taproom area, with the heavier production items priced in the equipment line. A contractor bid replaces it."
+  },
+  "sitework": {
+   "value": 420000,
+   "fmt": "$",
+   "label": "Site work, paving, utility taps, wastewater pre-treatment allowance and signage",
+   "assumption": "An allowance for a two-and-a-half-acre site on an arterial corridor in a cold climate, including heavy water and wastewater service. No utility territory, tap fee or discharge rule was confirmed for a site; those are lender conditions."
+  },
+  "contingency_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
+  },
+  "soft": {
+   "value": 300000,
+   "fmt": "$",
+   "label": "Design, engineering, survey, Phase I, permits, brewing licences and legal",
+   "assumption": "Allowance for architect and engineers, a survey and Phase I environmental assessment, city plan review and permits, federal and state brewing and retail licences, and loan-closing legal work. The research found no fee schedule, so the figure is round."
+  },
+  "brew_equip": {
+   "value": 1250000,
+   "fmt": "$",
+   "label": "Brewing and packaging equipment: brewhouse, fermenters, bright tanks, chilling, boiler, canning line",
+   "assumption": "Allowance for a mid-sized brewhouse with fermentation and bright tanks, glycol chilling, a boiler, a grain handling system, a keg washer and a small canning line. No vendor quote or price was found in the research. A vendor quote replaces it."
+  },
+  "tap_ffe": {
+   "value": 330000,
+   "fmt": "$",
+   "label": "Taproom bar, draft system, furniture, point of sale and signage",
+   "assumption": "Allowance for the bar, the draft lines and cooler, seating, a point-of-sale system, outdoor furniture and signage. A bid replaces it."
+  },
+  "preopen": {
+   "value": 170000,
+   "fmt": "$",
+   "label": "Pre-opening: hiring, training, first brews and launch",
+   "assumption": "Allowance for staff paid before the doors open, test batches and the opening campaign. The research found no timeline, so the figure is round and the reserve below carries the real exposure."
+  },
+  "working_capital": {
+   "value": 450000,
+   "fmt": "$",
+   "label": "Working capital: grain, hops, cans and kegs inventory, and ramp reserve",
+   "assumption": "Roughly three months of Year 1 operating cost, which funds the first inventory and the gap between brewing and collecting from distributors. The research holds no days-sales figure for the market."
+  },
+  "barrels": {
+   "value": [
+    1800,
+    2700,
+    3200,
+    3500,
+    3700
+   ],
+   "fmt": "n",
+   "label": "Barrels brewed and sold per year",
+   "assumption": "No Fargo brewer publishes volume in the research. The study ramps a newcomer to 1,800 barrels in Year 3 and 2,050 by Year 5, a modest ramp for a metro area with 156.3 thousand civilian labor force [^2] in a county with 126,659 covered jobs [^1]. A taproom-demand study and distributor letters should replace it."
+  },
+  "tap_share": {
+   "value": [
+    0.5,
+    0.45,
+    0.4,
+    0.4,
+    0.4
+   ],
+   "fmt": "%",
+   "label": "Share of barrels sold across the taproom bar",
+   "assumption": "The taproom is the higher-margin channel and the early one: a new brewery sells most of its first beer over its own bar while it signs distributors. The share falls as wholesale grows. A planning assumption."
+  },
+  "tap_rev_bbl": {
+   "value": 1400,
+   "fmt": "$",
+   "label": "Taproom revenue per barrel sold on premises",
+   "assumption": "A barrel holds 31 US gallons, or 248 pints. At a round $6 a pint less about five percent for spillage, foam, samples and staff pours, a barrel returns about $1,400. The $6 pint price is an assumption; no Fargo taproom price is in the research."
+  },
+  "whs_rev_bbl": {
+   "value": 400,
+   "fmt": "$",
+   "label": "Wholesale revenue per barrel, net of distributor margin",
+   "assumption": "A round net price per barrel for beer sold in kegs and cans through a distributor, after the distributor's margin. No North Dakota distributor terms are in the research; signed distribution letters are a lender condition."
+  },
+  "other_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Other taproom income: events, merchandise, food-truck fees, share of taproom beer sales",
+   "assumption": "A round share of taproom beer sales from private events, merchandise and fees paid by visiting food vendors. The metro's leisure and hospitality workforce is large, 41.6 thousand statewide [^13], but no taproom event data is in the research."
+  },
+  "ingred_bbl": {
+   "value": 165,
+   "fmt": "$",
+   "label": "Grain, hops, yeast and water cost per barrel",
+   "assumption": "A round recipe cost per barrel for a mixed lineup of core and seasonal beers. No ingredient price series is in the research."
+  },
+  "pack_bbl": {
+   "value": 120,
+   "fmt": "$",
+   "label": "Cans, kegs, labels and cartons per wholesale barrel",
+   "assumption": "A round packaging cost per barrel sold wholesale (draft-only barrels use returnable kegs). No packaging price is in the research."
+  },
+  "excise_bbl": {
+   "value": 14,
+   "fmt": "$",
+   "label": "Federal and state beer excise tax per barrel",
+   "assumption": "A round allowance for federal and North Dakota beer taxes per barrel. The rates are not in the research; the tax and trade bureau and state tax filings are a lender condition."
+  },
+  "prod_fte": {
+   "value": [
+    4,
+    5,
+    5,
+    5.5,
+    5.5
+   ],
+   "fmt": "n1",
+   "label": "Production full-time equivalents: head brewer, assistant brewers, cellar and packaging",
+   "assumption": "The study staffs a production hall of this size at 4 full-time equivalents by Year 3. No Fargo brewery publishes a staffing ratio, so the figure is a planning assumption."
+  },
+  "prod_wage": {
+   "value": 50000,
+   "fmt": "$",
+   "label": "Average production salary, before payroll costs",
+   "assumption": "A round blended planning wage. The research holds the Cass County average weekly wage across all covered employment, $1,376 in the first quarter of 2026 [^1], as a general reference, not a brewing wage. A local wage survey replaces it."
+  },
+  "tap_fte": {
+   "value": [
+    7,
+    9,
+    10,
+    10,
+    10
+   ],
+   "fmt": "n1",
+   "label": "Taproom full-time equivalents: bartenders, servers, shift lead",
+   "assumption": "Part-time staff are converted to full-time equivalents. A taproom open most evenings and weekend afternoons needs about nine by Year 3. A planning assumption."
+  },
+  "tap_wage": {
+   "value": 32000,
+   "fmt": "$",
+   "label": "Average taproom wage including tips credited to the employer, before payroll costs",
+   "assumption": "A round blended planning wage for bar and floor staff, set against the statewide figure of 41.6 thousand leisure and hospitality jobs [^13] only as a measure of labour demand. A local wage survey replaces it."
+  },
+  "mgmt": {
+   "value": 200000,
+   "fmt": "$",
+   "label": "General manager, sales and bookkeeping payroll, before payroll costs",
+   "assumption": "A general manager who also runs distributor accounts, a part-time sales and events role and a bookkeeper, as one allowance. A market salary is charged even when an owner fills a role, so earnings are not inflated by unpaid owner labor."
+  },
+  "burden": {
+   "value": 0.18,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package; no North Dakota figure is in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year; no inflation series is in the research. Revenue per barrel is held flat, so the model does not assume that drinkers or distributors pay more each year."
+  },
+  "utilities": {
+   "value": 115000,
+   "fmt": "$",
+   "label": "Utilities: electricity, gas, water and wastewater",
+   "assumption": "Allowance for a production building that chills, boils and washes all year, in a cold climate. Which providers serve the site was not confirmed, and the discharge charge depends on the wastewater rule."
+  },
+  "insurance": {
+   "value": 62000,
+   "fmt": "$",
+   "label": "Property, liability and liquor liability insurance",
+   "assumption": "Allowance. A broker's quote replaces it."
+  },
+  "marketing_pct": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Marketing, events and distributor support, share of revenue",
+   "assumption": "A round share of revenue. The brewery enters a field with at least four breweries and distilleries in the county [^5] and has to buy its visibility."
+  },
+  "repairs": {
+   "value": 60000,
+   "fmt": "$",
+   "label": "Repairs, cleaning chemicals, lab testing and maintenance",
+   "assumption": "One allowance for the small recurring costs of a production hall: sanitation chemicals, water and beer testing, equipment service and building upkeep."
+  },
+  "admin": {
+   "value": 75000,
+   "fmt": "$",
+   "label": "Licences, accounting, software, bank and card fees",
+   "assumption": "One allowance for the recurring administrative costs, including card processing on taproom sales."
+  },
+  "tax_rate": {
+   "value": 0.012,
+   "fmt": "%2",
+   "label": "Property tax, share of land, building and site cost",
+   "assumption": "A planning level of about one percent of cost. The research holds no Cass County or Fargo commercial mill levy or assessment ratio, so the levy on the site cannot be computed. The actual levy is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.04,
+   "fmt": "%",
+   "label": "Replacement reserve, share of equipment and fixture cost per year",
+   "assumption": "Funds replacement of pumps, valves, taproom fixtures and packaging parts over a long cycle."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% on the H.15 release [^29] plus a half point for a start-up production business. No published 2026 bank terms for brewery real estate in Cass County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 20,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "20 years, a blend between a real-estate term and a shorter term for equipment. The bank may require a shorter term on special purpose property, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.0675,
+   "fmt": "%2",
+   "label": "504 debenture effective rate",
+   "assumption": "The debenture is sold into the market and priced when it closes; the research for this case holds no pricing, so the study carries a round 6.75%, just under the bank rate. The CDC's quote at closing replaces it."
+  },
+  "debenture_years": {
+   "value": 20,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "20 years, one of the maturities the program lists. A mixed project of real estate and equipment would carry a 25-year real-estate part and a 10-year equipment part, which the single-term model blends."
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, about 2.5 acres on the I-29 corridor",
+   "expr": "land_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "acres x assumed price per acre"
+  },
+  {
+   "key": "building",
+   "label": "Building, about 12,000 sq ft, production shell and taproom",
+   "expr": "bldg_sf * bldg_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed hard cost"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, paving, utility taps and pre-treatment",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "6% of building and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits, licences and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "brew_equip",
+   "label": "Brewing and packaging equipment",
+   "expr": "brew_equip",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "tap_ffe",
+   "label": "Taproom bar, draft system and fixtures",
+   "expr": "tap_ffe",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening and launch",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital, inventory and ramp reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about three months of Year 1 operating cost"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "taproom",
+   "label": "Taproom beer sales",
+   "expr": "barrels * tap_share * tap_rev_bbl",
+   "basis": "barrels x share x revenue per barrel"
+  },
+  {
+   "key": "other",
+   "label": "Events, merchandise and vendor fees",
+   "expr": "barrels * tap_share * tap_rev_bbl * other_pct",
+   "basis": "share of taproom beer sales"
+  },
+  {
+   "key": "wholesale",
+   "label": "Wholesale beer sales",
+   "expr": "barrels * (1 - tap_share) * whs_rev_bbl",
+   "basis": "barrels x share x net price per barrel"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "ingredients",
+   "label": "Grain, hops, yeast and water",
+   "expr": "barrels * ingred_bbl",
+   "basis": "barrels x recipe cost"
+  },
+  {
+   "key": "packaging",
+   "label": "Cans, kegs, labels and cartons",
+   "expr": "barrels * (1 - tap_share) * pack_bbl",
+   "basis": "wholesale barrels x packaging cost"
+  },
+  {
+   "key": "excise",
+   "label": "Beer excise taxes",
+   "expr": "barrels * excise_bbl",
+   "basis": "barrels x tax per barrel"
+  }
+ ],
+ "opex": [
+  {
+   "key": "production",
+   "label": "Production payroll with costs",
+   "expr": "prod_fte * prod_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x wage"
+  },
+  {
+   "key": "taproom",
+   "label": "Taproom payroll with costs",
+   "expr": "tap_fte * tap_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x wage"
+  },
+  {
+   "key": "mgmt",
+   "label": "Management and office payroll with costs",
+   "expr": "mgmt * (1 + burden) * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "insurance",
+   "label": "Property, liability and liquor liability insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "marketing",
+   "label": "Marketing, events and distributor support",
+   "expr": "rev_total * marketing_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "repairs",
+   "label": "Repairs, chemicals, testing and upkeep",
+   "expr": "repairs * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "admin",
+   "label": "Licences, accounting, software and card fees",
+   "expr": "admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "(brew_equip + tap_ffe) * reserve_pct",
+   "basis": "4% of equipment"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor applies the standard 504 contribution and overlooks the tests for a new business on special purpose property"
+ },
+ "breakeven": {
+  "input": "barrels",
+  "label": "barrels a year"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "barrels",
+   "label": "Barrels sold",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "tap_share",
+   "label": "Taproom share of barrels",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Fargo, Cass County, North Dakota, on the I-29 corridor [^1,2]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "New production brewery with a taproom, in a building of about {in_bldg_sf} sq ft on about {in_land_acres} acres; site, owner and operator not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; the business is new and the building is treated as special purpose (a lender condition); the project is a manufacturer, so the program's manufacturer debenture limit applies"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} barrels a year ({cushion_pct} below the {in_barrels} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "Fargo has the employment base and visitor traffic for a taproom; the competitor census is open and the loan works only with a much larger contribution than proposed [^1,3,5]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

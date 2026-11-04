@@ -1,0 +1,517 @@
+{
+ "slug": "veterinary-practice-burlington-vermont-sba",
+ "page": "/case-studies/veterinary-practice-burlington-vermont-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 28,
+  "fees": 29,
+  "prime": 30
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "hospital",
+  "count": 1
+ },
+ "inputs": {
+  "bldg_sf": {
+   "value": 5000,
+   "fmt": "n",
+   "label": "Existing building, gross square feet (hypothetical one-story commercial building on about one acre)",
+   "assumption": "A round size for a hospital with six exam rooms, a treatment and surgery area, dental and imaging rooms, a pharmacy and lab, a cat ward and a dog ward, and a small reception. The research holds no veterinary facility, and no building size from any listing is used. The size is a design assumption, and the site plan and the hospital's program fix the real one."
+  },
+  "price_psf": {
+   "value": 290,
+   "fmt": "$",
+   "label": "Purchase price of the building and its lot, dollars per square foot of building",
+   "assumption": "The research holds no commercial sale, listing or assessment in Chittenden County: the broker reports it needed were refused or not reached. It does show that real estate here is dear. The county median listing price for homes was $577,925 in September 2026 [^15], and the county house price index stood at 322.44 for 2025 with the year 2000 set to 100 [^14]. The study carries a round $330 per square foot for an older single-story commercial building on about one acre in the Williston Road corridor. An appraisal replaces it, and the price is the first number a lender will test."
+  },
+  "reno_psf": {
+   "value": 210,
+   "fmt": "$",
+   "label": "Conversion of the interior to a hospital, dollars per square foot",
+   "assumption": "Allowance for exam rooms, a surgical suite, kennels and wards with drains, a ventilation upgrade, plumbing, sound control, X-ray shielding and finishes. No Vermont construction cost or index appears in the research. A round allowance for a gut renovation of a retail or office shell; a contractor bid replaces it."
+  },
+  "sitework": {
+   "value": 140000,
+   "fmt": "$",
+   "label": "Site work, paving, drainage, signage and utility upgrades",
+   "assumption": "Allowance for a one-acre commercial lot. The research found no utility provider, tap fee or stormwater rule for the corridor, so the figure carries paving, drainage, a fenced dog relief area, signage and any service upgrade."
+  },
+  "contingency_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Eight percent of renovation and site work. A conversion of an older building hides more than new construction does, so the allowance is higher than the six percent used for a new-build case."
+  },
+  "soft": {
+   "value": 200000,
+   "fmt": "$",
+   "label": "Design, engineering, survey, Phase I, permits, licensure filings, appraisal and legal",
+   "assumption": "Allowance. It covers the architect and engineers, a survey and Phase I environmental assessment, municipal plan review and permits, the closing legal work, and the appraisals a lender orders. The research found no permit fee schedule and no consultant cost, so the figure is round."
+  },
+  "equip": {
+   "value": 560000,
+   "fmt": "$",
+   "label": "Veterinary equipment: digital radiography, ultrasound, dental station, anesthesia and monitoring, in-house laboratory, surgical suite, kennels and cages",
+   "assumption": "Allowance for a six-exam-room hospital. No quote or vendor price is in the research. A vendor quote replaces it, and the equipment is the part of the project the 504 loan finances over its shorter useful life."
+  },
+  "ffe_it": {
+   "value": 110000,
+   "fmt": "$",
+   "label": "Furniture, fixtures, signage, network and practice-management software",
+   "assumption": "Allowance for reception, exam room furniture, pharmacy fixtures, a network and a practice-management and records system."
+  },
+  "preopen": {
+   "value": 100000,
+   "fmt": "$",
+   "label": "Pre-opening: licence and registration filings, hiring and training, soft launch",
+   "assumption": "Allowance. Staff are hired and trained before the first appointment, and the controlled-substance and facility registrations run ahead of revenue. Chittenden County unemployment ran from 1.9% to 2.5% in the months the research covers [^8,9,10], so hiring ahead of opening is an expense the model carries rather than hopes away."
+  },
+  "working_capital": {
+   "value": 450000,
+   "fmt": "$",
+   "label": "Working capital and ramp reserve",
+   "assumption": "Sized to carry the Year 1 operating loss and Year 1 debt service, the two cash drains of a ramp in which the hospital does not cover its own costs, as the pro forma shows. The research holds no receivables or days-on-hand figure for a veterinary practice; most clients pay at the visit, so the reserve is mainly for payroll and loan payments before the client base builds."
+  },
+  "visits": {
+   "value": [
+    4400,
+    7500,
+    9400,
+    10400,
+    11000
+   ],
+   "fmt": "n",
+   "label": "Patient visits per year",
+   "assumption": "The research holds no visit count, no pet ownership rate and no veterinary utilization figure for the county or the state, so the volume is a planning figure and the largest unknown in the model. The study ramps a new owner-operated hospital through a first year of building a client base, to a volume in Year 3 that works out to about fifteen visits per doctor per working day at the staffing below. The demand section sets the county's household count against its count of veterinary establishments, but no pet-owning-household count exists to confirm the volume. A trade-area pet-owner survey and the records of two comparable hospitals should replace this input before a lender relies on it."
+  },
+  "fee_per_visit": {
+   "value": 240,
+   "fmt": "$",
+   "label": "Net professional fees per visit: exam, diagnostics, procedures, dentistry and surgery",
+   "assumption": "A round blended figure for a general small-animal hospital. No Vermont fee schedule, average transaction or price list was found in the research, and a competitor's posted prices are not used because none is named. The county's median household income, shown in the demand section, is consistent with a client base that can pay a full-service price, but it is not evidence of a price. The practice's own fee schedule and two comparable hospitals' invoices replace it."
+  },
+  "retail_per_visit": {
+   "value": 38,
+   "fmt": "$",
+   "label": "Pharmacy, diet and retail sales per visit",
+   "assumption": "A round allowance for prescription diets, preventives and over-the-counter products sold at the visit. Online pharmacies take a share of this line that the research does not measure."
+  },
+  "dvm_fte": {
+   "value": [
+    1.6,
+    2.0,
+    2.6,
+    2.8,
+    3.0
+   ],
+   "fmt": "n1",
+   "label": "Veterinarians, full-time equivalents (the owner counts as one)",
+   "assumption": "The owner practices full time and hires an associate in Year 1 on part-time hours and a second associate as volume builds. Veterinarians are the capacity limit of the model: the Vermont labor force was 337,142 in September 2026 against 347,040 a year before [^4], and the research holds no veterinarian supply figure for the state, so adding a doctor is a recruiting plan and not an assumption of convenience."
+  },
+  "dvm_pay": {
+   "value": 150000,
+   "fmt": "$",
+   "label": "Average veterinarian pay, before payroll costs (the owner is paid a market salary)",
+   "assumption": "A round blended planning figure for an owner and associates in a high-wage county. No Vermont veterinarian wage is in the research (the state occupational wage table was not retrieved). The only local wage anchors are the metro area's all-occupation mean hourly wage of $35.75 for May 2025 [^3] and Chittenden County's average weekly wage of $1,521 for the first quarter of 2026 [^2]. A market salary is charged for the owner even though the owner could take less, so earnings are not flattered by unpaid labor."
+  },
+  "tech_fte": {
+   "value": [
+    3.0,
+    4.0,
+    5.0,
+    5.5,
+    6.0
+   ],
+   "fmt": "n1",
+   "label": "Credentialed technicians and assistants, full-time equivalents",
+   "assumption": "About two support clinicians per doctor at maturity, a planning ratio and not a market observation; the research holds no staffing benchmark."
+  },
+  "tech_wage": {
+   "value": 50000,
+   "fmt": "$",
+   "label": "Average technician and assistant pay, before payroll costs",
+   "assumption": "A round planning figure set against the local all-occupation mean hourly wage of $35.75 [^3], which a full-time technician may not reach; the research holds no technician wage. A local wage survey replaces it."
+  },
+  "support_fte": {
+   "value": [
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.0
+   ],
+   "fmt": "n1",
+   "label": "Client service, kennel and reception staff, full-time equivalents",
+   "assumption": "Reception, check-out, phones and kennel care across the hospital's open hours. A planning figure."
+  },
+  "support_wage": {
+   "value": 41000,
+   "fmt": "$",
+   "label": "Average client service and kennel pay, before payroll costs",
+   "assumption": "A round planning figure; the research holds no wage for the occupation. The state's average weekly wage across all employers was $1,322 in the first quarter of 2026 [^2], and Franklin County, on the metro area's northern edge, averaged $1,255 [^2]."
+  },
+  "manager_pay": {
+   "value": 85000,
+   "fmt": "$",
+   "label": "Practice manager, before payroll costs",
+   "assumption": "A salaried manager for scheduling, hiring, inventory and the books, so the owner's time goes to medicine. Charged even if the owner would do the work at first."
+  },
+  "burden": {
+   "value": 0.18,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package; no Vermont figure is in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year; no cost inflation series is in the research. The state's average weekly wage rose 3.0% in the year to the first quarter of 2026 and Chittenden County's rose 3.4% [^2], which brackets the choice. Fees per visit are held flat, so the model does not assume that clients pay more each year."
+  },
+  "supplies_pct": {
+   "value": 0.19,
+   "fmt": "%",
+   "label": "Drugs, medical supplies and outside laboratory, share of professional fee revenue",
+   "assumption": "A round share for anesthetics, injectables, suture, disposables, vaccines and reference laboratory work. No Vermont figure was found."
+  },
+  "product_cost_pct": {
+   "value": 0.68,
+   "fmt": "%",
+   "label": "Cost of pharmacy, diet and retail goods, share of that revenue",
+   "assumption": "A round wholesale cost for goods resold at the visit."
+  },
+  "insurance": {
+   "value": 38000,
+   "fmt": "$",
+   "label": "Professional liability, property, business and workers' compensation insurance",
+   "assumption": "Allowance for a six-exam-room hospital with a building; the workers' compensation portion is separate from the payroll burden only in part. A broker's quote replaces it."
+  },
+  "utilities": {
+   "value": 58000,
+   "fmt": "$",
+   "label": "Utilities",
+   "assumption": "Allowance for electric, heat, water and sewer in a building with 24-hour ventilation for kennel wards and a medical-gas free layout. Which providers serve the site was not confirmed."
+  },
+  "it_software": {
+   "value": 52000,
+   "fmt": "$",
+   "label": "Practice-management software, phones, internet and card processing",
+   "assumption": "Allowance, per year. Card processing rises with revenue, so this is a planning level for the stabilized year."
+  },
+  "marketing": {
+   "value": [
+    65000,
+    48000,
+    38000,
+    38000,
+    38000
+   ],
+   "fmt": "$",
+   "label": "Marketing, signage upkeep and client acquisition",
+   "assumption": "A heavier launch year and a lower steady level. A new hospital has to buy its first clients, and the research names no competitor whose reputation it would have to overcome; the competing field is a lender condition."
+  },
+  "service": {
+   "value": 36000,
+   "fmt": "$",
+   "label": "Medical waste, controlled-substance compliance, equipment service contracts and linen",
+   "assumption": "One allowance for the recurring service costs that imaging, anesthesia and a surgical suite bring."
+  },
+  "repairs_admin": {
+   "value": 75000,
+   "fmt": "$",
+   "label": "Repairs, cleaning, accounting, licences, continuing education and other administration",
+   "assumption": "One allowance for the small recurring costs of a hospital: cleaning, repairs, the accountant, licences, continuing education and the like."
+  },
+  "tax_rate": {
+   "value": 0.017,
+   "fmt": "%2",
+   "label": "Property tax, share of building, renovation and site cost",
+   "assumption": "A planning level. The research holds no South Burlington or Chittenden County property tax rate and no commercial assessment, so the levy cannot be computed. Education and municipal taxes are billed on assessed value, and the actual levy is a lender condition."
+  },
+  "reserve_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Replacement reserve, share of equipment cost per year",
+   "assumption": "Funds the replacement of imaging, anesthesia and laboratory equipment over its life."
+  },
+  "tpl_rate": {
+   "value": 0.0775,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^30] plus three quarters of a point for a start-up veterinary hospital. No published 2026 bank terms for Chittenden County were found in the research. The bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. The bank may require a shorter term, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.069,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "assumption": "No debenture rate is in this case's research. A round 6.9% stands in for the rate set when the CDC sells the debenture. SBA's published pricing on the day of closing replaces it, and the sensitivity of coverage to debt cost is small against the sensitivity to visits."
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because the building, renovation and site work are the majority of project cost."
+  }
+ },
+ "uses": [
+  {
+   "key": "purchase",
+   "label": "Purchase of building and lot (about 5,000 sq ft)",
+   "expr": "bldg_sf * price_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed price per sq ft"
+  },
+  {
+   "key": "reno",
+   "label": "Conversion to a hospital",
+   "expr": "bldg_sf * reno_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed cost"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, paving and signage",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * reno_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "8% of conversion and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits, appraisal and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "equip",
+   "label": "Veterinary equipment",
+   "expr": "equip",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "ffe_it",
+   "label": "Furniture, fixtures and software",
+   "expr": "ffe_it",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening, hiring and registration",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital and ramp reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "Year 1 loss plus Year 1 debt service"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "fees",
+   "label": "Professional fees",
+   "expr": "visits * fee_per_visit",
+   "basis": "visits x net fee per visit"
+  },
+  {
+   "key": "retail",
+   "label": "Pharmacy, diet and retail",
+   "expr": "visits * retail_per_visit",
+   "basis": "visits x sales per visit"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "supplies",
+   "label": "Drugs, supplies and outside laboratory",
+   "expr": "rev_fees * supplies_pct",
+   "basis": "share of professional fees"
+  },
+  {
+   "key": "product",
+   "label": "Cost of retail goods",
+   "expr": "rev_retail * product_cost_pct",
+   "basis": "share of retail sales"
+  }
+ ],
+ "opex": [
+  {
+   "key": "dvm",
+   "label": "Veterinarian pay with costs",
+   "expr": "dvm_fte * dvm_pay * (1 + burden) * (1 + inflation) ** y",
+   "basis": "FTE x pay"
+  },
+  {
+   "key": "tech",
+   "label": "Technician and assistant pay with costs",
+   "expr": "tech_fte * tech_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "FTE x pay"
+  },
+  {
+   "key": "support",
+   "label": "Client service and kennel pay with costs",
+   "expr": "support_fte * support_wage * (1 + burden) * (1 + inflation) ** y",
+   "basis": "FTE x pay"
+  },
+  {
+   "key": "manager",
+   "label": "Practice manager with costs",
+   "expr": "manager_pay * (1 + burden) * (1 + inflation) ** y",
+   "basis": "salary"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "utilities * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "it",
+   "label": "Software, phones and card fees",
+   "expr": "it_software * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "marketing",
+   "label": "Marketing",
+   "expr": "marketing",
+   "basis": "allowance"
+  },
+  {
+   "key": "service",
+   "label": "Waste, compliance and equipment service",
+   "expr": "service * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "admin",
+   "label": "Repairs, cleaning, accounting and licences",
+   "expr": "repairs_admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(bldg_sf * price_psf + bldg_sf * reno_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "equip * reserve_pct",
+   "basis": "6% of equipment"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor applies the standard 504 tier and overlooks that the veterinary business is new"
+ },
+ "breakeven": {
+  "input": "visits",
+  "label": "patient visits a year"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "visits",
+   "label": "Patient visits",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "fee_per_visit",
+   "label": "Net professional fee per visit",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Burlington-South Burlington, Chittenden County, Vermont, on the Williston Road commercial corridor (the corridor is a case assumption) [^1,2]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "Owner-occupied small-animal hospital with six exam rooms, built by converting an existing one-story commercial building of about {in_bldg_sf} sq ft; site, owner and veterinarian not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; the borrower's veterinary business is new [^28]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} patient visits a year ({cushion_pct} below the {in_visits} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "An affluent county with a tight labor market and a shrinking labor force can support one more full-service hospital only if it can hire the doctors and technicians; the named competitor field is not in the research [^2,4,6,27]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the equity tier and the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets both"
+  ]
+ ]
+}

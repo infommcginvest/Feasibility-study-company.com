@@ -1,0 +1,356 @@
+{
+ "slug": "mixed-use-colorado-springs-colorado-sba",
+ "page": "/case-studies/mixed-use-colorado-springs-colorado-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "existing",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 31,
+  "fees": 32,
+  "prime": 33
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "apartment",
+  "count": 6
+ },
+ "inputs": {
+  "ground_sf": {
+   "value": 5400,
+   "fmt": "n",
+   "label": "Ground floor, owner's business space, square feet",
+   "assumption": "A round size for a street-level space that the owner's business occupies in full. With the upper floor below it is more than half of the building, which is what the occupancy tests in the loan section are about. It is a design assumption, not a market observation; the floor plan and an appraisal that states the occupied share replace it."
+  },
+  "upper_sf": {
+   "value": 4200,
+   "fmt": "n",
+   "label": "Upper floor, apartments, square feet (six units)",
+   "assumption": "A round size for six small apartments of about 700 square feet each. A design assumption; the research holds no unit-size evidence for the market."
+  },
+  "apts": {
+   "value": 6,
+   "fmt": "n",
+   "label": "Apartments",
+   "assumption": "Six units, a count chosen so that the upstairs space stays well under half of the building. The research publishes no count of small mixed-use buildings or of their units."
+  },
+  "price": {
+   "value": 1250000,
+   "fmt": "$",
+   "label": "Purchase price, existing building and lot",
+   "assumption": "A round planning price of about $130 a square foot of building. The research holds no sale of a mixed-use building in Colorado Springs and no price per square foot for one; the nearest evidence is a half-year apartment sales volume [^10] and an average small-bay industrial sale price [^11], neither of which is a price for this kind of building. The contract price and an appraisal replace this figure, and the price is the single largest assumption in the model."
+  },
+  "apt_reno_psf": {
+   "value": 28,
+   "fmt": "$",
+   "label": "Apartment refresh, dollars per upper-floor square foot",
+   "assumption": "An allowance for kitchens, baths, flooring, windows and unit life-safety work in six older apartments. No Colorado Springs renovation cost was found in the research. A contractor bid replaces it."
+  },
+  "ti_psf": {
+   "value": 40,
+   "fmt": "$",
+   "label": "Storefront improvement for the owner's business, dollars per ground-floor square foot",
+   "assumption": "An allowance to fit out the ground floor for the owner's business: partitions, finishes, lighting, accessibility work and signage. Equipment and inventory are the business's own and sit outside this loan. No local cost figure was found. A contractor bid replaces it."
+  },
+  "contingency_pct": {
+   "value": 0.08,
+   "fmt": "%",
+   "label": "Renovation contingency",
+   "assumption": "Eight percent of the two renovation lines, a round allowance for hidden conditions in an older building."
+  },
+  "soft": {
+   "value": 90000,
+   "fmt": "$",
+   "label": "Appraisal, environmental report, survey, title, legal and CDC processing",
+   "assumption": "An allowance for the third-party reports and legal work that a purchase of an occupied building brings. The research found no fee schedule; the lender and the certified development company set these costs."
+  },
+  "comm_rent": {
+   "value": 20,
+   "fmt": "$",
+   "label": "Rent charged to the owner's business, dollars per square foot per year",
+   "assumption": "The study tests the building on the rent its own business would pay, stated as a modified gross figure (the owner of the building pays taxes and insurance). The nearest published rent is CBRE's average direct asking rent for Colorado Springs office space, $17.67 per square foot on a triple-net basis, with Class A at $21.14 [^9]; the study sets $20.00 gross, above the office average because the landlord carries taxes and insurance, and below the Class A figure. No ground-floor retail or service rent was found in the research, so the figure is a proxy and a lender condition asks for a market rent opinion. The business's own earnings are tested separately in the lender conditions."
+  },
+  "comm_esc": {
+   "value": 0.02,
+   "fmt": "%",
+   "label": "Annual escalator in the rent charged to the owner's business",
+   "assumption": "A two percent annual step written into the internal lease, which the sponsor controls and the lender will want in a market-form lease. The research holds no retail or office rent escalator; apartment rents are held flat below, so the step is the only growth in the model."
+  },
+  "apt_rent": {
+   "value": 1250,
+   "fmt": "$",
+   "label": "Apartment rent, dollars per unit per month",
+   "assumption": "CBRE's average rent per unit in Colorado Springs was $1,457 in the first half of 2026, up 2.3% from year-end 2025 and down 2.6% on a year earlier [^10]. That average reflects larger, newer institutional buildings; a round $1,250 sits about 14% below it for six small units above a storefront. The rent is held flat in every year because the market average fell year over year [^10]. A rent survey of comparable older units replaces it."
+  },
+  "apt_occ": {
+   "value": [
+    0.9,
+    0.94,
+    0.94,
+    0.94,
+    0.94
+   ],
+   "fmt": "%",
+   "label": "Apartment occupancy by year",
+   "assumption": "CBRE put Colorado Springs multifamily occupancy at 94.4% in the first half of 2026 [^10]. Year 1 carries 90% because units turn over while the renovation is done; Years 2 to 5 carry 94%, just under the market figure, because six units cannot average out a long vacancy the way a large building can."
+  },
+  "tax_rate": {
+   "value": 0.01,
+   "fmt": "%2",
+   "label": "Property tax, share of purchase price plus renovation",
+   "assumption": "A planning level of one percent of cost. The research holds the state's 25% assessment rate for most nonresidential property in tax year 2026 [^25] but no residential assessment rate, no adopted mill levy and no El Paso County assessor value, so the levy on this building cannot be computed. The actual levy is a lender condition."
+  },
+  "ins_psf": {
+   "value": 1.6,
+   "fmt": "$2",
+   "label": "Property insurance, dollars per building square foot per year",
+   "assumption": "An allowance. A state report on homeowners insurance attributes between 26% and 54% of a premium to hail [^26], and Colorado Springs received federal money for drainage and creek repairs in 2026 [^13]; the research holds no commercial premium. A broker quote replaces the figure, and hail deductibles are a lender condition."
+  },
+  "util": {
+   "value": 9000,
+   "fmt": "$",
+   "label": "Utilities paid by the owner: common areas, water and sewer",
+   "assumption": "Allowance for the landlord's share of utilities in a six-unit building. The research did not identify the utility providers or rates for any site."
+  },
+  "rm_psf": {
+   "value": 1.75,
+   "fmt": "$2",
+   "label": "Repairs and maintenance, dollars per building square foot per year",
+   "assumption": "An allowance for an older building with a storefront and six apartments, including snow and parking-lot upkeep. The research holds no operating expense data for small mixed-use buildings."
+  },
+  "mgmt_pct": {
+   "value": 0.05,
+   "fmt": "%",
+   "label": "Management and bookkeeping, share of apartment rent",
+   "assumption": "A market charge for managing six apartments even when the owner does the work, so that earnings are not inflated by unpaid labor."
+  },
+  "admin": {
+   "value": 6000,
+   "fmt": "$",
+   "label": "Legal, accounting, advertising and unit turnover",
+   "assumption": "One allowance for the small recurring costs of renting six apartments."
+  },
+  "res_unit": {
+   "value": 400,
+   "fmt": "$",
+   "label": "Replacement reserve per apartment per year",
+   "assumption": "A round allowance for appliances, floor coverings and fixtures."
+  },
+  "res_comm_psf": {
+   "value": 0.25,
+   "fmt": "$2",
+   "label": "Replacement reserve per ground-floor square foot per year",
+   "assumption": "A round allowance for roof, storefront and mechanical replacement on the commercial space."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in operating costs",
+   "assumption": "A round 3% a year; the research holds no cost index for the market. Rents are held flat, so the model does not assume that tenants pay more each year."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "A round planning rate set half a point over the Prime rate in the Federal Reserve's H.15 release [^33]. No published 2026 bank terms for a mixed-use loan in El Paso County were found; the bank sets the rate at pricing, and the program caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. The bank may require a shorter term, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.07,
+   "fmt": "%2",
+   "label": "504 debenture rate, 25-year",
+   "assumption": "A round planning rate. The research holds no debenture pricing; the CDC quotes the effective rate at closing, and the study has no basis to estimate a rate beyond the Prime rate in the Federal Reserve's H.15 release [^33]. The rate is a lender condition, and the sensitivity table shows how much room the structure has if it comes in higher."
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because land and building are the whole of the project."
+  }
+ },
+ "uses": [
+  {
+   "key": "price",
+   "label": "Purchase of the building and lot",
+   "expr": "price",
+   "class": "real_estate",
+   "basis": "assumed price"
+  },
+  {
+   "key": "apt_reno",
+   "label": "Apartment refresh, six units",
+   "expr": "upper_sf * apt_reno_psf",
+   "class": "real_estate",
+   "basis": "square feet x assumed cost"
+  },
+  {
+   "key": "ti",
+   "label": "Storefront improvement for the owner's business",
+   "expr": "ground_sf * ti_psf",
+   "class": "real_estate",
+   "basis": "square feet x assumed cost"
+  },
+  {
+   "key": "contingency",
+   "label": "Renovation contingency",
+   "expr": "(upper_sf * apt_reno_psf + ground_sf * ti_psf) * contingency_pct",
+   "class": "real_estate",
+   "basis": "8% of the renovation lines"
+  },
+  {
+   "key": "soft",
+   "label": "Appraisal, environmental, survey, title, legal and CDC costs",
+   "expr": "soft",
+   "class": "other",
+   "basis": "allowance"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "comm",
+   "label": "Rent from the owner's business (ground floor)",
+   "expr": "ground_sf * comm_rent * (1 + comm_esc) ** y",
+   "basis": "square feet x rent x annual step"
+  },
+  {
+   "key": "apts",
+   "label": "Apartment rent",
+   "expr": "apts * apt_rent * 12 * apt_occ",
+   "basis": "units x rent x 12 x occupancy"
+  }
+ ],
+ "cost_of_sales": [],
+ "opex": [
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(price + upper_sf * apt_reno_psf + ground_sf * ti_psf) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "ins",
+   "label": "Property insurance",
+   "expr": "(ground_sf + upper_sf) * ins_psf * (1 + inflation) ** y",
+   "basis": "square feet x allowance"
+  },
+  {
+   "key": "util",
+   "label": "Utilities (common areas, water, sewer)",
+   "expr": "util * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "rm",
+   "label": "Repairs and maintenance",
+   "expr": "(ground_sf + upper_sf) * rm_psf * (1 + inflation) ** y",
+   "basis": "square feet x allowance"
+  },
+  {
+   "key": "mgmt",
+   "label": "Management and bookkeeping",
+   "expr": "rev_apts * mgmt_pct",
+   "basis": "share of apartment rent"
+  },
+  {
+   "key": "admin",
+   "label": "Legal, accounting, advertising, turnover",
+   "expr": "admin * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "(apts * res_unit + ground_sf * res_comm_psf) * (1 + inflation) ** y",
+   "basis": "allowance per unit and per square foot"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor applies the standard tier and assumes the building income carries the rest"
+ },
+ "breakeven": {
+  "input": "apt_rent",
+  "label": "monthly apartment rent"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "apt_rent",
+   "label": "Apartment rent",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "comm_rent",
+   "label": "Rent from the owner's business",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Colorado Springs, El Paso County, Colorado, in the central commercial core along the Nevada Avenue corridor (a case assumption; the site is generic) [^1,3]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "Existing two-story mixed-use building of about 9,600 sq ft: the owner's business on a ground floor of {in_ground_sf} sq ft and six apartments on an upper floor of {in_upper_sf} sq ft; site, owner and business not specified"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; an established business buying an existing building that is not special purpose [^31]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} a month in apartment rent ({cushion_pct} below the {in_apt_rent} underwritten)"
+  ],
+  [
+   "Market conclusion",
+   "Apartment fundamentals in Colorado Springs are firm, with occupancy at 94.4% and 1,319 units absorbed in a half year, but office rents are falling and the building's own income is thin against its price [^10,9]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

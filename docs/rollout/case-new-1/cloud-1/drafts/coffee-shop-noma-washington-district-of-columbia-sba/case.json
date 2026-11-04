@@ -1,0 +1,354 @@
+{
+ "slug": "coffee-shop-noma-washington-district-of-columbia-sba",
+ "page": "/case-studies/coffee-shop-noma-washington-district-of-columbia-sba/",
+ "program": "sba_7a",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "new",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 3,
+  "fees": 20,
+  "prime": 18
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "shop",
+  "count": 1
+ },
+ "inputs": {
+  "space_sf": {
+   "value": 1800,
+   "fmt": "n",
+   "label": "Leased ground-floor space, sq ft (hypothetical unit)",
+   "assumption": "A round figure, not a listing. It is sized for a counter, a small seating area and a back-of-house bar and storage room with no hood or full kitchen, which is what a coffee and pastry concept needs. NoMa carried 701,000 sq ft of retail at the end of 2025 [^1], so the space is one small unit in a district with a large retail stock. A signed letter of intent replaces the figure."
+  },
+  "buildout": {
+   "value": 430000,
+   "fmt": "$",
+   "label": "Leasehold improvements (build-out of the leased shell)",
+   "assumption": "A round placeholder for the sponsor's own build-out of a shell: plumbing, a service counter, finishes, restroom, mechanical changes and storefront work. No NoMa build-out bid was found, and no construction cost index could be read for the District, so the line rests on no local price. It is the largest unsourced input on the page, and a general contractor's bid is the first lender condition. The model assumes no landlord allowance."
+  },
+  "equipment": {
+   "value": 175000,
+   "fmt": "$",
+   "label": "Espresso and brewing equipment, refrigeration, ovens, furniture and point of sale",
+   "assumption": "A round placeholder for a coffee bar and display case, not a vendor quote. No equipment price was found in the research, so a vendor quote is a lender condition."
+  },
+  "soft": {
+   "value": 55000,
+   "fmt": "$",
+   "label": "Design, permits, legal and contingency",
+   "assumption": "A round placeholder for drawings, permit filings, lease review and a contingency. No District permit fee schedule was found in the research; the figure is a judgment, not a published fee."
+  },
+  "preopen": {
+   "value": 110000,
+   "fmt": "$",
+   "label": "Pre-opening rent, payroll, training, opening inventory and working capital",
+   "assumption": "A round placeholder covering build-out months of rent before opening, hiring and training, opening inventory and a cash reserve for the ramp in Year 1. NoMa recorded only 12 new businesses in 2025 [^1], so a new shop should not count on borrowed foot traffic to fund the reserve."
+  },
+  "tx": {
+   "value": [
+    200,
+    250,
+    280,
+    290,
+    296
+   ],
+   "fmt": "n",
+   "label": "Counter transactions per open day",
+   "assumption": "No transaction count for any NoMa or Union Market coffee shop was found, so the ramp is a judgment. Year 1 is about two thirds of the stabilized count because a new shop must build a morning habit in a district whose office buildings sit at partial attendance (Downtown offices were at 48% of their pre-pandemic level over March to December 2025 [^2]); growth then flattens after Year 3. Point-of-sale history from a comparable shop is a lender condition."
+  },
+  "ticket": {
+   "value": 9.0,
+   "fmt": "$2",
+   "label": "Average ticket per transaction, Year 1",
+   "assumption": "A round blend of drinks and pastry, not a posted price. Menus carry no publication date, so none is printed. Sales receipts from a comparable shop replace the figure."
+  },
+  "price_growth": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in average ticket",
+   "assumption": "A modest price step each year. Average weekly pay in the District rose 4.5% over the year to the first quarter of 2026 [^12], so a shop faces wage pressure and must pass some of it into prices; three percent is a judgment below that pay rise."
+  },
+  "days": {
+   "value": 360,
+   "fmt": "n",
+   "label": "Open days per year",
+   "assumption": "Seven days a week less a few holidays; a judgment on a format that serves commuters and weekend visitors."
+  },
+  "catering_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Catering, events and packaged beans, share of counter sales",
+   "assumption": "A judgment for office orders and events from the district's large office stock (12.68 million sq ft at the end of 2025 [^1]). No local catering volume was found."
+  },
+  "cogs_pct": {
+   "value": 0.27,
+   "fmt": "%",
+   "label": "Coffee, milk, pastry and packaging, share of revenue",
+   "assumption": "A round blend of a high-margin drink mix and bought-in pastry. No input-cost series for the District was found in the research, so supplier invoices from a comparable shop are a lender condition."
+  },
+  "labor_pct": {
+   "value": 0.28,
+   "fmt": "%",
+   "label": "Crew payroll and payroll taxes, share of revenue",
+   "assumption": "A judgment for a counter crew. The District's all-industry average weekly wage was $2,725 in the first quarter of 2026 [^12]; that figure averages every industry, so it is context and not an input. A staffing plan is a lender condition."
+  },
+  "labor_floor": {
+   "value": 205000,
+   "fmt": "$",
+   "label": "Minimum crew payroll in Year 1, regardless of sales",
+   "assumption": "A floor so that a slow opening year is not understated: the shop needs two people on the bar during a long opening day whatever the sales. It grows with wage growth."
+  },
+  "wage_growth": {
+   "value": 0.035,
+   "fmt": "%",
+   "label": "Annual growth in crew and owner pay",
+   "assumption": "Set just under the 4.5% rise in the District's average weekly wage over the year to the first quarter of 2026 [^12]; a judgment."
+  },
+  "owner_pay": {
+   "value": 70000,
+   "fmt": "$",
+   "label": "Owner-operator salary, Year 1",
+   "assumption": "An owner who works the shop draws a salary that lenders expect to see in the cost base. A round placeholder; the sponsor's own tax returns and personal budget replace it."
+  },
+  "rent_psf": {
+   "value": 48,
+   "fmt": "$",
+   "label": "Base rent per sq ft per year, Year 1 (triple net)",
+   "assumption": "A round placeholder. No NoMa or Union Market retail asking rent was found: the research prints retail vacancy of just under 29% in 2025 [^1] but no rent. A high vacancy gives a tenant room to negotiate, so the placeholder is not set at a prime-corridor level. A broker opinion of rent and a signed letter of intent replace it."
+  },
+  "rent_esc": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual rent escalator",
+   "assumption": "A round escalator typical of a lease negotiation; the lease replaces it."
+  },
+  "nnn_psf": {
+   "value": 14,
+   "fmt": "$",
+   "label": "Taxes, insurance and common area charges per sq ft per year, Year 1",
+   "assumption": "A round placeholder for pass-through charges. No District retail operating-expense figure was found. The landlord's budget replaces it."
+  },
+  "card_pct": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Card fees, software and delivery commissions, share of revenue",
+   "assumption": "A round placeholder; a processor quote is a lender condition."
+  },
+  "other_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Utilities, supplies, repairs and marketing, share of revenue",
+   "assumption": "A round placeholder for the remaining operating lines; the sponsor's budget replaces it."
+  },
+  "insurance": {
+   "value": 15000,
+   "fmt": "$",
+   "label": "Liability, property and workers' compensation insurance, Year 1",
+   "assumption": "A round placeholder. No District premium figure was found. A bound quote is a lender condition."
+  },
+  "cost_growth": {
+   "value": 0.04,
+   "fmt": "%",
+   "label": "Annual growth in insurance and license cost",
+   "assumption": "A round figure set a little above general price growth."
+  },
+  "licenses": {
+   "value": 6000,
+   "fmt": "$",
+   "label": "Licenses, health permits and fees, Year 1",
+   "assumption": "A round placeholder. No District license fee schedule was found in the research."
+  },
+  "sba_guaranty_pct": {
+   "value": 0.75,
+   "fmt": "%",
+   "label": "SBA guaranty share",
+   "source": [
+    19
+   ]
+  }
+ },
+ "uses": [
+  {
+   "key": "buildout",
+   "label": "Leasehold improvements",
+   "expr": "buildout",
+   "class": "other",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "equipment",
+   "label": "Equipment, furniture and point of sale",
+   "expr": "equipment",
+   "class": "equipment",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "soft",
+   "label": "Design, permits, legal and contingency",
+   "expr": "soft",
+   "class": "other",
+   "basis": "assumption, see inputs"
+  },
+  {
+   "key": "preopen",
+   "label": "Pre-opening costs and working capital",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "assumption, see inputs"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "counter",
+   "label": "Counter sales",
+   "expr": "tx * ticket * (1 + price_growth) ** y * days",
+   "basis": "transactions x ticket x open days"
+  },
+  {
+   "key": "catering",
+   "label": "Catering, events and packaged beans",
+   "expr": "rev_counter * catering_pct",
+   "basis": "share of counter sales"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "goods",
+   "label": "Coffee, milk, pastry and packaging",
+   "expr": "rev_total * cogs_pct",
+   "basis": "share of revenue"
+  }
+ ],
+ "opex": [
+  {
+   "key": "crew",
+   "label": "Crew payroll",
+   "expr": "max(labor_floor * (1 + wage_growth) ** y, rev_total * labor_pct)",
+   "basis": "the larger of a floor and a share of revenue"
+  },
+  {
+   "key": "owner",
+   "label": "Owner-operator salary",
+   "expr": "owner_pay * (1 + wage_growth) ** y",
+   "basis": "assumption, grows yearly"
+  },
+  {
+   "key": "rent",
+   "label": "Base rent",
+   "expr": "space_sf * rent_psf * (1 + rent_esc) ** y",
+   "basis": "sq ft x rent x escalator"
+  },
+  {
+   "key": "nnn",
+   "label": "Taxes, insurance and common area charges",
+   "expr": "space_sf * nnn_psf * (1 + rent_esc) ** y",
+   "basis": "sq ft x charge x escalator"
+  },
+  {
+   "key": "card",
+   "label": "Card fees, software and delivery commissions",
+   "expr": "rev_total * card_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "other",
+   "label": "Utilities, supplies, repairs and marketing",
+   "expr": "rev_total * other_pct",
+   "basis": "share of revenue"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * (1 + cost_growth) ** y",
+   "basis": "assumption, grows yearly"
+  },
+  {
+   "key": "licenses",
+   "label": "Licenses and permits",
+   "expr": "licenses * (1 + cost_growth) ** y",
+   "basis": "assumption, grows yearly"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor requests the 7(a) start-up minimum"
+ },
+ "breakeven": {
+  "input": "tx",
+  "label": "counter transactions per open day"
+ },
+ "sensitivity": {
+  "year": 2,
+  "rows": {
+   "input": "tx",
+   "label": "Transactions per day",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "ticket",
+   "label": "Average ticket",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  }
+ },
+ "glance": [
+  [
+   "Neighborhood, city and county",
+   "NoMa and the Union Market area of Northeast Washington, in the District of Columbia, which is both the city and its own county-equivalent for federal statistics [^1]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "New owner-operated coffee shop and cafe leasing about {in_space_sf} sq ft of ground-floor space in a mixed-use building; address, landlord, lease terms, zoning, traffic count and build-out bid to be confirmed"
+  ],
+  [
+   "Program",
+   "SBA 7(a) for a start-up; the page tests the SOP's equity floor, the 7(a) size limit and the coverage floor in the second year"
+  ],
+  [
+   "Total project cost",
+   "{tpc} as restructured ({tpc_proposed} under the request); the leasehold build-out is the largest line"
+  ],
+  [
+   "Loan structure",
+   "One 7(a) term loan on a blended maturity, at Prime plus the maximum spread for its size, {rate}; annual debt service {ds}"
+  ],
+  [
+   "Equity",
+   "Requested {equity_proposed_pct} ({equity_proposed}); the coverage test needs {equity_pct} ({equity})"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} on the request; {dscr_y2} on the smaller loan; floor {floor}"
+  ],
+  [
+   "Break-even",
+   "Year 3 debt service is met at {breakeven_value} counter transactions per open day, {breakeven_pct} of the underwritten count"
+  ],
+  [
+   "Market conclusion",
+   "Housing in NoMa has more than doubled since 2021 and the office stock is large, but retail vacancy is high and downtown office attendance is partial, so the model builds the first year slowly [^1,2]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): the loan is inside the {cap} 7(a) limit but covers Year 2 debt service only {dscr_y2_proposed} against {floor}, so the request fails the coverage test. As restructured: the modeled income carries {loan_total} of 7(a) debt, which needs {equity_pct} equity on a {tpc} project; no lender approval is implied"
+  ]
+ ]
+}

@@ -1,0 +1,471 @@
+{
+ "slug": "private-school-fort-collins-colorado-sba",
+ "page": "/case-studies/private-school-fort-collins-colorado-sba/",
+ "program": "sba_504",
+ "sba": {
+  "purpose": "startup",
+  "business_age": "existing",
+  "special_purpose": false,
+  "manufacturer": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 25,
+  "fees": 26,
+  "prime": 27
+ },
+ "stabilized_year": 3,
+ "dscr_test_year": 2,
+ "units": {
+  "label": "school campus",
+  "count": 1
+ },
+ "inputs": {
+  "land_acres": {
+   "value": 3.5,
+   "fmt": "n1",
+   "label": "Land area, acres (hypothetical site in the Fort Collins-Loveland corridor)",
+   "assumption": "A round hypothetical site of about four acres: a one-story and part two-story school building of the size below, a car queue long enough to keep drop-off off the public street, parking, and a play field. The research holds no acreage standard for a school, so the figure is a design assumption that a site plan and a traffic study replace."
+  },
+  "land_per_acre": {
+   "value": 300000,
+   "fmt": "$",
+   "label": "Land cost per acre",
+   "assumption": "The research holds no land sale or listing for the corridor. The only price evidence is a median home listing price of $567,500 in the Fort Collins metro in September 2026 [^6], which says the area is costly but does not price an acre of commercial or institutional land. The study carries a round $350,000 an acre as a planning figure; an appraisal and an executed contract replace it."
+  },
+  "bldg_sf": {
+   "value": 20000,
+   "fmt": "n",
+   "label": "School building, gross square feet",
+   "assumption": "A round size for classrooms, a multipurpose room, offices, a library and a commons, sized for about 220 students in the stabilized year. The research holds no space standard per student, so the building is a design assumption, and an architect's program replaces it."
+  },
+  "bldg_psf": {
+   "value": 300,
+   "fmt": "$",
+   "label": "Building hard cost per square foot, shell and school finish",
+   "assumption": "No Fort Collins or Colorado construction cost was found, and no index against the national level. The study carries a round $300 a square foot for a school finish, covering classrooms, restrooms and shared commons space. A contractor bid replaces it, and the amount is a lender condition."
+  },
+  "sitework": {
+   "value": 800000,
+   "fmt": "$",
+   "label": "Site work, drop-off lanes, parking, play areas, utility taps and signage",
+   "assumption": "An allowance for a four-acre site with a long drop-off queue, parking, a play surface and stormwater. The research found no utility provider, fee schedule or flood zone for the site, so the allowance is round and the utility facts are lender conditions."
+  },
+  "contingency_pct": {
+   "value": 0.06,
+   "fmt": "%",
+   "label": "Hard-cost contingency",
+   "assumption": "Six percent of building and site work, a round allowance for a priced but unbid project."
+  },
+  "soft": {
+   "value": 700000,
+   "fmt": "$",
+   "label": "Design, engineering, survey, Phase I, permits, traffic study and legal",
+   "assumption": "Allowance for the architect and engineers, survey, a Phase I environmental assessment, plan review and permits, a traffic study for the drop-off queue and loan-closing legal work. The research found no permit fee schedule, so the figure is round."
+  },
+  "ffe": {
+   "value": 350000,
+   "fmt": "$",
+   "label": "Furniture, fixtures, technology, library, gym and playground equipment",
+   "assumption": "Allowance for classroom furniture, student and teacher devices, network, library stock, gym floor equipment and play structures. No vendor quote was found."
+  },
+  "preopen": {
+   "value": 150000,
+   "fmt": "$",
+   "label": "Move and transition: relocation, signage, licensing and counsel",
+   "assumption": "Allowance for the move, not for a launch. An established school pays for relocation, signage, admissions communication to current families, licensing and counsel before the first day in the new building. The research found no moving or transition cost, so the figure is round."
+  },
+  "working_capital": {
+   "value": 450000,
+   "fmt": "$",
+   "label": "Working capital and transition reserve",
+   "assumption": "About two months of Year 1 operating cost, held against the disruption of a move in the first year, when some families may leave and tuition timing may slip. The research holds no collection or deferral pattern for tuition in the market."
+  },
+  "students": {
+   "value": [
+    200,
+    214,
+    228,
+    238,
+    246
+   ],
+   "fmt": "n",
+   "label": "Students enrolled (kindergarten through grade 8), each year",
+   "assumption": "The school is established, so the model starts from the enrollment it already carries and adds only a few students a year as the new building adds classroom space, a modest gain for a county with a large household base. The research holds no enrollment, waitlist or tuition-discount figure for any Larimer County private school, so the enrollment in the model is the school's own record, the largest unknown for a reader, and the first lender condition: three years of audited enrollment by grade, with withdrawals and applications."
+  },
+  "tuition_net": {
+   "value": [
+    14500,
+    14800,
+    15100,
+    15400,
+    15700
+   ],
+   "fmt": "$",
+   "label": "Net tuition collected per student per year, after financial aid",
+   "assumption": "The research holds no tuition schedule for any school in the county. The study carries a round net tuition after financial aid and lets it rise by about two percent a year, below the growth in costs, and tests it against what households earn: the county's median household income is in the demand table, and net tuition for one child is a meaningful share of it, and a larger share for a household with several children. The school's own tuition schedule and discount history replace it."
+  },
+  "aftercare_share": {
+   "value": 0.35,
+   "fmt": "%",
+   "label": "Share of students in before and after school care",
+   "assumption": "A planning share for working families. The research holds no childcare or extended-day demand figure for the county."
+  },
+  "aftercare_fee": {
+   "value": 3000,
+   "fmt": "$",
+   "label": "Extended-day fee per enrolled student per year",
+   "assumption": "A round annual fee for before and after school care, held flat. No local price was found."
+  },
+  "student_teacher": {
+   "value": 14,
+   "fmt": "n",
+   "label": "Students per classroom teacher (full-time equivalent)",
+   "assumption": "A planning ratio for a small independent school that wants small classes. The research holds no staffing ratio for any school, and a head of school's staffing plan replaces it."
+  },
+  "teacher_salary": {
+   "value": 62000,
+   "fmt": "$",
+   "label": "Average classroom teacher salary, before payroll costs",
+   "assumption": "A round planning wage. The research gives the all-occupation mean hourly wage for the Fort Collins-Loveland area, $33.95 in May 2025 [^3], which a school's pay scale must compete with, but no teacher salary. A local pay survey replaces it."
+  },
+  "specialists": {
+   "value": [
+    4,
+    4.5,
+    5,
+    5,
+    5.5
+   ],
+   "fmt": "n1",
+   "label": "Specialist and aide full-time equivalents (art, music, physical education, language, aides)",
+   "assumption": "A planning allowance that rises as grades are added."
+  },
+  "specialist_salary": {
+   "value": 52000,
+   "fmt": "$",
+   "label": "Average specialist or aide salary, before payroll costs",
+   "assumption": "A round planning wage below the classroom teacher figure; no local wage was found."
+  },
+  "admin_payroll": {
+   "value": 380000,
+   "fmt": "$",
+   "label": "Head of school, admissions, business office and front office payroll, before payroll costs",
+   "assumption": "One allowance for a head of school, an admissions and communications lead, a bookkeeper and a front-office person. A market salary is charged even when the founder fills a role, so earnings are not inflated by unpaid owner labor."
+  },
+  "burden": {
+   "value": 0.22,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits",
+   "assumption": "Employer payroll taxes, workers' compensation and a basic benefit package; no Colorado figure was in the research."
+  },
+  "inflation": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual growth in wages and operating costs",
+   "assumption": "A round 3% a year; no inflation series is in the research. Tuition and fees are held flat, so the model does not assume that families pay more each year."
+  },
+  "per_student": {
+   "value": 1250,
+   "fmt": "$",
+   "label": "Curriculum, supplies, technology licences and activities, per student per year",
+   "assumption": "A round allowance per student for curriculum, classroom supplies, software and field activities. No local figure was found."
+  },
+  "marketing": {
+   "value": [
+    70000,
+    65000,
+    60000,
+    60000,
+    60000
+   ],
+   "fmt": "$",
+   "label": "Admissions marketing, events and enrollment staff costs outside payroll",
+   "assumption": "A school that already has families spends less than a new one on admissions; the allowance falls slightly as the new building fills its added seats. No local advertising cost was found."
+  },
+  "insurance": {
+   "value": 95000,
+   "fmt": "$",
+   "label": "Liability, property, student accident and abuse and molestation insurance",
+   "assumption": "Allowance for a school of 200 students and a 20,000 square foot building. A broker's quote replaces it; the amount is a lender condition."
+  },
+  "utilities_psf": {
+   "value": 2.9,
+   "fmt": "$2",
+   "label": "Utilities, per square foot per year",
+   "assumption": "A planning allowance for electric, gas, water and sewer on a school building. The utility providers for the site were not confirmed."
+  },
+  "upkeep_psf": {
+   "value": 3.4,
+   "fmt": "$2",
+   "label": "Maintenance, janitorial and grounds, per square foot per year",
+   "assumption": "A planning allowance for cleaning, repairs, snow removal and grounds on a building and a four-acre site."
+  },
+  "prof_fees": {
+   "value": 110000,
+   "fmt": "$",
+   "label": "Accounting, legal, accreditation, technology support and licences",
+   "assumption": "One allowance for the recurring professional and compliance costs of running a school."
+  },
+  "tax_rate": {
+   "value": 0.009,
+   "fmt": "%2",
+   "label": "Property tax, share of land, building and site cost",
+   "assumption": "A planning level of about nine tenths of one percent of cost for a for-profit school, which does not hold a nonprofit's property tax exemption. The research holds no Larimer County mill levy, assessment ratio or school-district rate, so the levy on the parcel cannot be computed; it is a lender condition."
+  },
+  "reserve_psf": {
+   "value": 0.8,
+   "fmt": "$2",
+   "label": "Replacement reserve, per square foot of building per year",
+   "assumption": "Funds roof, mechanical and finish replacement over a long cycle."
+  },
+  "tpl_rate": {
+   "value": 0.075,
+   "fmt": "%2",
+   "label": "Bank first-lien rate",
+   "assumption": "Prime of 7.00% on the October 9, 2026 H.15 release [^27] plus a half point for a school real estate loan. No published 2026 bank terms for school real estate in Larimer County were found; the bank sets the rate at pricing, and SBA caps the third-party spread."
+  },
+  "tpl_amort_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Bank first-lien amortization",
+   "assumption": "25 years, matching the debenture. The bank may require a shorter term on a special purpose property, which would raise debt service."
+  },
+  "debenture_rate": {
+   "value": 0.065,
+   "fmt": "%2",
+   "label": "504 debenture effective rate, 25-year",
+   "assumption": "The research holds no debenture pricing. The study carries a round 6.5% for a 25-year debenture, a little below the bank rate above because the debenture is sold at a fixed rate; the actual rate is set when the debenture is sold, and a CDC quote replaces it."
+  },
+  "debenture_years": {
+   "value": 25,
+   "fmt": "yr",
+   "label": "Debenture term",
+   "assumption": "The 25-year debenture, available because land, building and site work are the majority of project cost."
+  }
+ },
+ "uses": [
+  {
+   "key": "land",
+   "label": "Land, about 3.5 acres in the Fort Collins-Loveland corridor",
+   "expr": "land_acres * land_per_acre",
+   "class": "real_estate",
+   "basis": "acres x assumed price per acre"
+  },
+  {
+   "key": "building",
+   "label": "School building, 20,000 sq ft",
+   "expr": "bldg_sf * bldg_psf",
+   "class": "real_estate",
+   "basis": "sq ft x assumed hard cost"
+  },
+  {
+   "key": "sitework",
+   "label": "Site work, drop-off lanes, parking, play areas and utility taps",
+   "expr": "sitework",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "contingency",
+   "label": "Hard-cost contingency",
+   "expr": "(bldg_sf * bldg_psf + sitework) * contingency_pct",
+   "class": "real_estate",
+   "basis": "6% of building and site work"
+  },
+  {
+   "key": "soft",
+   "label": "Design, survey, Phase I, permits, traffic study and legal",
+   "expr": "soft",
+   "class": "real_estate",
+   "basis": "allowance"
+  },
+  {
+   "key": "ffe",
+   "label": "Furniture, fixtures, technology and equipment",
+   "expr": "ffe",
+   "class": "equipment",
+   "basis": "allowance"
+  },
+  {
+   "key": "preopen",
+   "label": "Move and transition: relocation, signage, licensing and counsel",
+   "expr": "preopen",
+   "class": "working_capital",
+   "basis": "allowance"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital and transition reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "about two months of Year 1 operating cost"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "tuition",
+   "label": "Net tuition",
+   "expr": "students * tuition_net",
+   "basis": "students x net tuition per student"
+  },
+  {
+   "key": "aftercare",
+   "label": "Before and after school care",
+   "expr": "students * aftercare_share * aftercare_fee",
+   "basis": "students x share enrolled x annual fee"
+  }
+ ],
+ "cost_of_sales": [],
+ "opex": [
+  {
+   "key": "teachers",
+   "label": "Classroom teacher payroll with costs",
+   "expr": "students / student_teacher * teacher_salary * (1 + burden) * (1 + inflation) ** y",
+   "basis": "students per teacher, salary, burden"
+  },
+  {
+   "key": "specialists",
+   "label": "Specialist and aide payroll with costs",
+   "expr": "specialists * specialist_salary * (1 + burden) * (1 + inflation) ** y",
+   "basis": "full-time equivalents x wage"
+  },
+  {
+   "key": "admin",
+   "label": "Administration payroll with costs",
+   "expr": "admin_payroll * (1 + burden) * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "program",
+   "label": "Curriculum, supplies and activities",
+   "expr": "students * per_student * (1 + inflation) ** y",
+   "basis": "students x allowance per student"
+  },
+  {
+   "key": "marketing",
+   "label": "Admissions marketing",
+   "expr": "marketing",
+   "basis": "allowance by year"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance",
+   "expr": "insurance * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities",
+   "expr": "bldg_sf * utilities_psf * (1 + inflation) ** y",
+   "basis": "sq ft x allowance"
+  },
+  {
+   "key": "upkeep",
+   "label": "Maintenance, janitorial and grounds",
+   "expr": "bldg_sf * upkeep_psf * (1 + inflation) ** y",
+   "basis": "sq ft x allowance"
+  },
+  {
+   "key": "prof",
+   "label": "Accounting, legal, accreditation and technology support",
+   "expr": "prof_fees * (1 + inflation) ** y",
+   "basis": "allowance"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "(land_acres * land_per_acre + bldg_sf * bldg_psf + sitework) * tax_rate",
+   "basis": "cost basis x planning rate"
+  },
+  {
+   "key": "reserve",
+   "label": "Replacement reserve",
+   "expr": "bldg_sf * reserve_psf",
+   "basis": "sq ft x allowance"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the sponsor applies the standard tier and asks for the full 504 split"
+ },
+ "breakeven": {
+  "input": "students",
+  "label": "students enrolled"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "students",
+   "label": "Enrollment",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "tuition_net",
+   "label": "Net tuition per student",
+   "steps": [
+    -0.15,
+    -0.075,
+    0,
+    0.075,
+    0.15
+   ]
+  },
+  "year": 2
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Fort Collins-Loveland, Larimer County, Colorado, between Fort Collins and Loveland; site, owner and school not specified [^2,3]"
+  ],
+  [
+   "Subject (hypothetical)",
+   "Established for-profit independent school, kindergarten through grade 8, moving from leased space into an owned campus: a new building of about {in_bldg_sf} sq ft on about {in_land_acres} acres, for about {in_students} students in the third year"
+  ],
+  [
+   "Program",
+   "SBA 504: bank first lien, CDC debenture and borrower contribution; an established operator takes the standard equity tier unless the CDC classifies the campus as special purpose [^25]"
+  ],
+  [
+   "Total project cost",
+   "{tpc_proposed} as proposed; {tpc} as restructured (the debenture fee, added to project cost, moves with the debenture)"
+  ],
+  [
+   "Financing",
+   "Bank first lien of {tpl} and a debenture of {debenture} ({debenture_position}) as restructured"
+  ],
+  [
+   "Equity",
+   "{equity_proposed_pct} proposed; {equity_pct} ({equity}) as restructured"
+  ],
+  [
+   "DSCR in the test year (Year 2)",
+   "{dscr_y2_proposed} as proposed; {dscr_y2} as restructured; floor {floor}"
+  ],
+  [
+   "Stabilized year (Year 3)",
+   "{dscr_y3} on the restructured loan; net operating income {noi_y3} on {rev_y3} of revenue"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service down to {breakeven_value} students ({cushion_pct} below the {in_students} underwritten)"
+  ],
+  [
+   "Competitors",
+   "No research document names a competing school; the census is a lender condition and the Census Bureau's establishment count stands in"
+  ],
+  [
+   "Market conclusion",
+   "Larimer County's average weekly wage rose 11.5% to $1,627 in early 2026 while covered jobs fell 0.4%, so incumbent households look strong and arrivals do not [^2]"
+  ],
+  [
+   "Determination",
+   "As proposed ({equity_proposed_pct} equity): fails the {floor} test, {dscr_y2_proposed} in Year 2. As restructured ({equity_pct} equity, {loan_total} of debt): meets it"
+  ]
+ ]
+}

@@ -1,0 +1,411 @@
+{
+ "slug": "funeral-home-cheyenne-wyoming-sba",
+ "page": "/case-studies/funeral-home-cheyenne-wyoming-sba/",
+ "program": "sba_7a",
+ "sba": {
+  "purpose": "acquisition",
+  "business_age": "existing",
+  "special_purpose": false,
+  "rural_fee_waiver": false
+ },
+ "rule_sources": {
+  "sop": 17,
+  "fees": 18,
+  "prime": 19
+ },
+ "stabilized_year": 3,
+ "units": {
+  "label": "funeral home",
+  "count": 1
+ },
+ "inputs": {
+  "price": {
+   "value": 1650000,
+   "fmt": "$",
+   "label": "Purchase price, building, land and operating business",
+   "assumption": "A round figure built from the illustrative earnings below, not from any asking price or sale. Roughly $650,000 of it is allocated to the real estate, and the business portion is a little under four times the illustrative FY2025 EBITDA. The research holds no funeral home sale, multiple or comparable for Laramie County, so the independent business valuation and the going-concern appraisal, both lender conditions, set the real value."
+  },
+  "re_alloc": {
+   "value": 650000,
+   "fmt": "$",
+   "label": "Price allocated to land and building",
+   "assumption": "A placeholder for a single-story chapel and arrangement building on about one acre. No Cheyenne commercial sale or assessor value for such a building was found. The county's median home listing price of $473,975 in September 2026 [^6] shows only that a house-sized building is priced in the high six figures; a chapel is larger and more specialized, and the appraisal fixes the split. A lower real estate share moves dollars into the business portion, which amortizes over 10 years instead of 25."
+  },
+  "inventory": {
+   "value": 45000,
+   "fmt": "$",
+   "label": "Caskets, urns, vaults and supplies bought at closing",
+   "assumption": "About two months of merchandise and embalming supplies for a firm of this volume, counted at closing and priced at cost. A round placeholder; the seller's purchase records replace it."
+  },
+  "working_capital": {
+   "value": 95000,
+   "fmt": "$",
+   "label": "Working capital reserve",
+   "assumption": "Roughly one month and a half of operating expenses, so payroll, the crematory invoices and the first insurance installment do not run through a credit line during the ownership change, when families may hesitate and referrals from the previous owner's circle take months to transfer."
+  },
+  "closing": {
+   "value": 55000,
+   "fmt": "$",
+   "label": "Closing costs: appraisal, business valuation, Phase I, legal, licensing",
+   "assumption": "A going-concern appraisal, the independent business valuation that Appendix 15 asks for, an environmental screening that matters for a site with embalming chemicals and fuel storage, title work, legal fees and the transfer of the funeral establishment license and the director-in-charge filings. Valuation and appraisal fees are buyer cash."
+  },
+  "calls": {
+   "value": [
+    172,
+    174,
+    176,
+    178,
+    180
+   ],
+   "fmt": "n",
+   "label": "Funeral and cremation services performed (calls)",
+   "assumption": "The research holds no count of deaths in Laramie County, no state cremation rate and no market share for any funeral home, so the volume is a placeholder for a mid-sized independent firm in a county of 102,938 residents [^1]. The register's County Business Patterns count shows at least three deathcare establishments in the county [^12], so a single firm taking about 170 calls a year is plausible but unproven. Later years add about one percent a year, well under the county's 1.2% population growth [^2], because a funeral home's volume follows deaths, not households. The county death count and the firm's own call log replace this figure in diligence."
+  },
+  "rev_per_call": {
+   "value": 6300,
+   "fmt": "$",
+   "label": "Average revenue per call, Year 1",
+   "assumption": "A blend of full-service burial, service with cremation, direct cremation and graveside arrangements, merchandise included. The research holds no General Price List, no Wyoming price survey and no cremation rate, so the figure is a placeholder, set between a direct cremation and a full burial service. The firm's own price list and its sales by service type replace it."
+  },
+  "price_growth": {
+   "value": 0.025,
+   "fmt": "%",
+   "label": "Annual growth in revenue per call",
+   "assumption": "2.5% a year, a modest pass-through of cost increases. It is a placeholder, because a shift toward cremation can pull the average down even as list prices rise; no Wyoming deathcare price or cremation series was found in the research."
+  },
+  "other_rev": {
+   "value": 85000,
+   "fmt": "$",
+   "label": "Preneed commissions, florals, facility rental and other income, Year 1",
+   "assumption": "Commissions on preneed insurance and trust-funded contracts, a small florals counter, chapel rental for outside services and cemetery lot commissions. A placeholder at about seven percent of service revenue; the seller's ledgers replace it. Grows with the same price growth."
+  },
+  "merch_cost": {
+   "value": 0.22,
+   "fmt": "%",
+   "label": "Merchandise, crematory and cash-advance costs, share of service revenue",
+   "assumption": "About a fifth of service revenue: caskets, urns, vaults where the firm sells them, the third-party crematory fee, obituary and certified-copy costs advanced for families and florist pass-throughs. No benchmark for this ratio is in the research; the seller's invoices replace it."
+  },
+  "dir_salary": {
+   "value": 115000,
+   "fmt": "$",
+   "label": "Director in charge and manager, salary",
+   "assumption": "One licensed director in charge, charged at a market rate even if the buyer fills the role, so EBITDA is not inflated by unpaid owner labor. The Cheyenne metro mean hourly wage for management occupations is $54.72 [^5], which over a full-time year of 2,080 hours is about $114,000; the input is that figure rounded up."
+  },
+  "dir2_salary": {
+   "value": 70000,
+   "fmt": "$",
+   "label": "Second licensed funeral director and embalmer, salary",
+   "assumption": "A second licensed professional so one person can be on a removal while another meets a family. Set a little above the metro mean wage across all occupations, $30.33 an hour [^5], which is about $63,000 over 2,080 hours, because licensed work with on-call duty is paid above the average job."
+  },
+  "hours": {
+   "value": 7800,
+   "fmt": "n",
+   "label": "Paid hourly hours per year",
+   "assumption": "Funeral assistants, removal and service attendants, an office administrator and part-time help across a seven-day on-call schedule: about 3.75 full-time equivalents."
+  },
+  "wage": {
+   "value": 19.5,
+   "fmt": "$2",
+   "label": "Average hourly wage, Year 1",
+   "assumption": "Set between the metro mean for food preparation and serving, $15.43 an hour, and the mean across all occupations, $30.33 [^5]. Attendants and administrators in this trade are paid above entry service wages and below the all-occupation mean. The seller's payroll registers replace it."
+  },
+  "wage_growth": {
+   "value": 0.03,
+   "fmt": "%",
+   "label": "Annual wage and cost growth",
+   "assumption": "3% a year, a little above the growth in revenue per call so costs grow slightly faster than prices. A placeholder, not a forecast. The county's covered employment grew 1.8% in the year to the first quarter of 2025 [^9], which is not a tight labor market by itself."
+  },
+  "burden": {
+   "value": 0.13,
+   "fmt": "%",
+   "label": "Payroll taxes, workers' compensation and benefits on wages",
+   "assumption": "Employer payroll taxes, workers' compensation and a modest benefit allowance on both salaried and hourly staff. A placeholder."
+  },
+  "vehicles": {
+   "value": 34000,
+   "fmt": "$",
+   "label": "Fleet: hearse, removal van and family car, lease, fuel and upkeep",
+   "assumption": "Three vehicles on lease or financed outside the loan, with fuel, tires, insurance and cleaning. Grows with wage and cost growth. The vehicle list and lease terms are a lender condition."
+  },
+  "insurance": {
+   "value": 38000,
+   "fmt": "$",
+   "label": "Insurance and licenses",
+   "assumption": "General and professional liability, property, auto and workers' compensation excluded from payroll burden above, plus funeral establishment, embalmer and crematory-contract licenses. A placeholder; quotes replace it."
+  },
+  "utilities": {
+   "value": 62000,
+   "fmt": "$",
+   "label": "Utilities, building repairs and grounds",
+   "assumption": "Electricity, gas, water and sewer for a chapel, an arrangement room and a prep room, with winter heating on a high plain and snow removal on a large parking lot. A placeholder."
+  },
+  "marketing_pct": {
+   "value": 0.025,
+   "fmt": "%",
+   "label": "Marketing and community presence, share of revenue",
+   "assumption": "Printed memorials, website, community sponsorships, the obituary service and aftercare mailings. A funeral home earns referrals through reputation, so the share is modest but not zero."
+  },
+  "supplies": {
+   "value": 46000,
+   "fmt": "$",
+   "label": "Embalming, prep room and office supplies, professional fees",
+   "assumption": "Chemicals, linens, cosmetics, printing, accounting, legal and association dues. A placeholder."
+  },
+  "card_fee": {
+   "value": 0.012,
+   "fmt": "%",
+   "label": "Card processing, share of revenue",
+   "assumption": "Families pay a large part of the bill by card or by insurance assignment; the blend is about 1.2% of revenue. The seller's processor statements replace it."
+  },
+  "tax_rate": {
+   "value": 0.009,
+   "fmt": "%2",
+   "label": "Property tax, share of the real estate allocation",
+   "assumption": "A placeholder of 0.9% of the real estate allocation. No Laramie County or Cheyenne mill levy or assessment ratio was found in the research, and the actual bill is a lender condition."
+  },
+  "other_opex": {
+   "value": 52000,
+   "fmt": "$",
+   "label": "Software, telephone, memberships, bad debt and other",
+   "assumption": "Case-management software, answering service, bad debt on unpaid accounts, memberships and miscellaneous. A placeholder that grows with costs."
+  },
+  "sba_guaranty_pct": {
+   "value": 0.75,
+   "fmt": "%",
+   "label": "SBA guaranty share",
+   "source": [
+    20
+   ]
+  },
+  "seller_ebitda_fy2024": {
+   "value": 246000,
+   "fmt": "$",
+   "label": "Seller EBITDA, FY2024 (illustrative)",
+   "assumption": "Illustrative. The research found no statements for any funeral home in Laramie County. Built from the economics of Year 1 below: about 170 calls at Year 1 prices and costs would earn roughly this amount."
+  },
+  "seller_ebitda_fy2025": {
+   "value": 252000,
+   "fmt": "$",
+   "label": "Seller EBITDA, FY2025 (illustrative)",
+   "assumption": "Illustrative. A little above FY2024 on the assumption of steady call volume and a few percent of price growth, against wages that rose at about the same pace. Neither year is a public record. The lender replaces both with tax returns, monthly sales reports and interim statements."
+  }
+ },
+ "uses": [
+  {
+   "key": "real_estate",
+   "label": "Real estate: land and building (allocated)",
+   "expr": "re_alloc",
+   "class": "real_estate",
+   "basis": "Allocation of the price; appraisal to confirm"
+  },
+  {
+   "key": "business",
+   "label": "Business assets: goodwill, case files, preneed book, fixtures and vehicles (allocated)",
+   "expr": "price - re_alloc",
+   "class": "business",
+   "basis": "Price less real estate; valuation to confirm"
+  },
+  {
+   "key": "inventory",
+   "label": "Caskets, urns, vaults and supplies",
+   "expr": "inventory",
+   "class": "working_capital",
+   "basis": "Counted at closing"
+  },
+  {
+   "key": "working_capital",
+   "label": "Working capital reserve",
+   "expr": "working_capital",
+   "class": "working_capital",
+   "basis": "About six weeks of expenses"
+  },
+  {
+   "key": "closing",
+   "label": "Closing costs: appraisal, valuation, Phase I, legal, licensing",
+   "expr": "closing",
+   "class": "other",
+   "basis": "Due diligence for a change of ownership [^17]"
+  }
+ ],
+ "revenue": [
+  {
+   "key": "services",
+   "label": "Funeral and cremation services",
+   "expr": "calls * rev_per_call * (1 + price_growth) ** y",
+   "basis": "Calls x revenue per call, with price growth"
+  },
+  {
+   "key": "other",
+   "label": "Preneed commissions, florals, rentals and other",
+   "expr": "other_rev * (1 + price_growth) ** y",
+   "basis": "Placeholder with price growth"
+  }
+ ],
+ "cost_of_sales": [
+  {
+   "key": "merch",
+   "label": "Merchandise, crematory and cash-advance costs",
+   "expr": "rev_services * merch_cost",
+   "basis": "Share of service revenue"
+  }
+ ],
+ "opex": [
+  {
+   "key": "director",
+   "label": "Director in charge, with taxes and benefits",
+   "expr": "dir_salary * (1 + burden) * (1 + wage_growth) ** y",
+   "basis": "Market salary"
+  },
+  {
+   "key": "director2",
+   "label": "Second director and embalmer, with taxes and benefits",
+   "expr": "dir2_salary * (1 + burden) * (1 + wage_growth) ** y",
+   "basis": "Market salary"
+  },
+  {
+   "key": "hourly",
+   "label": "Hourly staff with taxes and benefits",
+   "expr": "hours * wage * (1 + burden) * (1 + wage_growth) ** y",
+   "basis": "Hours x wage"
+  },
+  {
+   "key": "vehicles",
+   "label": "Fleet",
+   "expr": "vehicles * (1 + wage_growth) ** y",
+   "basis": "Run rate for three vehicles"
+  },
+  {
+   "key": "insurance",
+   "label": "Insurance and licenses",
+   "expr": "insurance * (1 + wage_growth) ** y",
+   "basis": "Placeholder; quotes to confirm"
+  },
+  {
+   "key": "utilities",
+   "label": "Utilities, repairs and grounds",
+   "expr": "utilities * (1 + wage_growth) ** y",
+   "basis": "Placeholder"
+  },
+  {
+   "key": "marketing",
+   "label": "Marketing and community",
+   "expr": "rev_total * marketing_pct",
+   "basis": "Share of revenue"
+  },
+  {
+   "key": "supplies",
+   "label": "Prep room supplies and professional fees",
+   "expr": "supplies * (1 + wage_growth) ** y",
+   "basis": "Placeholder"
+  },
+  {
+   "key": "cards",
+   "label": "Card processing",
+   "expr": "rev_total * card_fee",
+   "basis": "Share of revenue"
+  },
+  {
+   "key": "tax",
+   "label": "Property tax",
+   "expr": "re_alloc * tax_rate",
+   "basis": "Placeholder rate; tax bill is a condition"
+  },
+  {
+   "key": "other",
+   "label": "Software, memberships and other",
+   "expr": "other_opex * (1 + wage_growth) ** y",
+   "basis": "Placeholder"
+  }
+ ],
+ "proposed": {
+  "equity_pct": 0.1,
+  "note": "the buyer proposes the 10% minimum injection for an initial acquisition"
+ },
+ "historical": {
+  "ebitda": [
+   {
+    "label": "FY2024",
+    "value": 246000
+   },
+   {
+    "label": "FY2025",
+    "value": 252000
+   }
+  ],
+  "use": "last"
+ },
+ "breakeven": {
+  "input": "calls",
+  "label": "services performed"
+ },
+ "sensitivity": {
+  "rows": {
+   "input": "calls",
+   "label": "Call volume",
+   "steps": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+   ]
+  },
+  "cols": {
+   "input": "rev_per_call",
+   "label": "Revenue per call",
+   "steps": [
+    -0.1,
+    -0.05,
+    0,
+    0.05,
+    0.1
+   ]
+  }
+ },
+ "glance": [
+  [
+   "Town, county and corridor",
+   "Cheyenne in Laramie County, Wyoming, near the I-25 and I-80 corridor [^1]"
+  ],
+  [
+   "Subject",
+   "A made-up purchase of an operating, independent funeral home together with its chapel building; no name, address, call log or price list is specified"
+  ],
+  [
+   "Program",
+   "SBA 7(a) initial acquisition (change of ownership), graded under Appendix 15 [^17]"
+  ],
+  [
+   "Total project cost",
+   "{tpc}"
+  ],
+  [
+   "Debt",
+   "{loan_total} on one 7(a) note, with a 25-year real estate tranche and a 10-year business tranche, priced at {rate}"
+  ],
+  [
+   "Equity",
+   "{equity_pct} as restructured ({equity}); {equity_proposed_pct} as proposed"
+  ],
+  [
+   "Coverage on the seller's last year (illustrative)",
+   "{hist_dscr} as restructured; {hist_dscr_proposed} as proposed; the floor is {floor}"
+  ],
+  [
+   "Forward coverage, Year 3",
+   "{dscr_y3} on the restructured loan (reviewed, not counted toward the floor)"
+  ],
+  [
+   "Break-even",
+   "Year 3 covers debt service until services fall to {breakeven_value}, a cushion of {cushion_pct}; reaching {floor} would take {breakeven_floor_value}"
+  ],
+  [
+   "Market conclusion",
+   "A county of 102,938 residents [^1] can feed one established firm, yet the research holds no death count and names no competitor; lend against the seller's past and confirm the deaths and the field first [^12]"
+  ],
+  [
+   "Determination",
+   "Proposed, with {equity_proposed_pct} equity: {hist_dscr_proposed} on the seller's last illustrative year, below the {floor} historical floor. Restructured, with {equity_pct} equity and {loan_total} of debt: {hist_dscr}, at the floor"
+  ]
+ ]
+}
