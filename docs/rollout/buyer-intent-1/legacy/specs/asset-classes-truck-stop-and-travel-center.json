@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/truck-stop-and-travel-center/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Truck Stop &amp; Travel Center Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Truck Stop Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent truck stop and travel center feasibility and market studies covering diesel fuel volumes, Class 8 truck counts and interstate freight AADT, the C-store, QSR, and diesel revenue mix, truck-parking demand, and SBA, USDA B&I, and conventional going-concern authority.\">",
+   "after": "<meta name=\"description\" content=\"Truck stop credit rests on diesel gallons, truck traffic and the store mix, which Feasibility Study Company forecasts first for owners, developers and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Truck Stop &amp; Travel Center Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Truck Stop Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national diesel, freight-corridor, and truck-parking supply monitor, going-concern ramp-up and diesel-volume failure forensics, and the market-study-versus-feasibility authority SBA, USDA, and conventional lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Truck stop credit rests on diesel gallons, truck traffic and the store mix, which Feasibility Study Company forecasts first for owners, developers and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Truck Stop &amp; Travel Center Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Truck Stop Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national diesel, freight-corridor, and truck-parking monitor, going-concern ramp-up forensics, and SBA 7(a)/504, USDA B&I, and conventional loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Truck stop credit rests on diesel gallons, truck traffic and the store mix, which Feasibility Study Company forecasts first for owners, developers and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Truck Stop &amp; Travel Center Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Truck Stop and Travel Center Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for travel centers and truck stops across SBA 7(a)/504,\n        USDA Business &amp; Industry, conventional bank, CMBS, corporate, C-PACE, and bridge capital.\n        This page is our standing read on why diesel volume follows freight and Class 8 truck traffic\n        rather than car counts, how going-concern ramp-up forecasts fail review, and the difference\n        between the market study, the feasibility study, and the going-concern appraisal a lender\n        requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Berkshire Hathaway's total cost to own Pilot came to roughly $13.6 billion in January 2024,<sup class=\"fn\"><a href=\"#s9\">9</a></sup> and chains like it are the dominant competitive risk in underwriting an independent travel center, whether the lender is a bank, a CMBS or C-PACE lender, a bridge fund, an SBA 7(a) or 504 lender or the USDA Business and Industry program. Diesel volume follows freight and Class 8 traffic, not car counts. Feasibility Study Company prepares <a href=\"/#contact\">feasibility studies for truck stops and travel centers</a>, serving owners, developers and lenders, building the store, food and parking revenue around a corridor market study and its diesel forecast.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Bring us the corridor</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a travel center? Start with the going concern.</h2>",
+   "after": "<h2 id=\"h-cta\">Gallons, trucks and parking spaces decide a travel center loan.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Truck Stop &amp; Travel Center feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current diesel, freight-corridor, parking, and going-concern data for\n        your site and corridor.\n      </p>",
+   "after": "<p>Feasibility Study Company sizes each of them on the corridor in question. Tell us the interchange, whether the plan is a new build, a rebrand or an acquisition, and the lender, and we will lay out the study.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Bring us the corridor</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "$13.6 billion [source 9], already on the page at: stat band (\"Berkshire Hathaway's total cost to own Pilot's 900-plus sites\", [9]) and #thesis (\"roughly $13.6 billion buyout of Pilot\")"
+}

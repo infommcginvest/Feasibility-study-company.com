@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/fitness-and-recreation/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Fitness &amp; Recreation Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Gym and Fitness Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent fitness and recreation feasibility and market studies for gyms, health clubs, and studios: a national and metro supply-and-demand monitor, membership churn and ramp-up forensics, and SBA, USDA, and net-lease authority.\">",
+   "after": "<meta name=\"description\" content=\"From boutique studios to big-box gyms, Feasibility Study Company prepares fitness feasibility studies for club owners, developers and lenders, churn tested.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Fitness &amp; Recreation Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Gym and Fitness Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national and metro gym and health-club supply-and-demand monitor, the membership churn and ramp-up failure forensics, and the going-concern-versus-real-estate authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"From boutique studios to big-box gyms, Feasibility Study Company prepares fitness feasibility studies for club owners, developers and lenders, churn tested.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Fitness &amp; Recreation Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Gym and Fitness Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national and metro fitness supply-and-demand monitor, membership churn forensics, and SBA 7(a), USDA B&amp;I, and net-lease authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"From boutique studios to big-box gyms, Feasibility Study Company prepares fitness feasibility studies for club owners, developers and lenders, churn tested.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Fitness &amp; Recreation Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Fitness and Recreation Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for gyms, health clubs, and studios across SBA 7(a) and\n        504, USDA Business &amp; Industry, conventional bank, equipment, CMBS and net-lease, and\n        bridge capital. This page is our standing read on why a gym is a going concern valued on cash\n        flow rather than passive real estate, how membership-ramp and churn forecasts fail review, and\n        the difference between the market study, the feasibility study, and the going-concern appraisal\n        a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Will the members stay? Churn and the membership ramp decide whether a gym covers its debt, and formats turn quickly: boutique studios grew into a $40.1 billion global market by 2024 and then shook out.<sup class=\"fn\"><a href=\"#s11\">11</a></sup><sup class=\"fn\"><a href=\"#s22\">22</a></sup> Feasibility Study Company prepares fitness and recreation feasibility studies for club and studio owners, developers and their lenders, pairing a <a href=\"/#contact\">trade-area market study</a> with a model that treats the club as a going concern rather than as a building. The work fits net-lease, equipment, bank and bridge underwriting as well as SBA 7(a), 504 and USDA programs.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Test the membership plan</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a gym or studio? Start with churn and the ramp.</h2>",
+   "after": "<h2 id=\"h-cta\">Churn first, square footage second.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Fitness &amp; Recreation feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current membership, churn, and format economics for your concept and\n        trade area.\n      </p>",
+   "after": "<p>Feasibility Study Company looks at retention, pricing and the clubs nearby before it looks at the building. Send the concept, the membership model and the site, and say which lender or program you have in mind.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Test the membership plan</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "$40.1 billion [source 11], already on the page at: #monitor paragraph (\"the segment boomed to a $40.1 billion global market by 2024\"; the sentence cites [11][22], and s11, Market.us, states the figure)"
+}

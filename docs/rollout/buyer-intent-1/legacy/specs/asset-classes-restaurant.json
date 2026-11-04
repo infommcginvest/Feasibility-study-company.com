@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/restaurant/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Restaurant &amp; Foodservice Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Restaurant Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent restaurant and foodservice feasibility and market studies: a national supply and demand monitor, ramp-up and prime-cost forensics, going-concern valuation, and SBA 7(a)/504 and USDA loan-program authority.\">",
+   "after": "<meta name=\"description\" content=\"Because restaurant forecasts fail on ramp and prime cost, Feasibility Study Company tests both in feasibility studies for owners, franchisees and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Restaurant &amp; Foodservice Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Restaurant Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national restaurant and foodservice supply and demand monitor, ramp-up and prime-cost failure forensics, going-concern valuation, and the SBA, USDA, and conventional loan-program authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Because restaurant forecasts fail on ramp and prime cost, Feasibility Study Company tests both in feasibility studies for owners, franchisees and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Restaurant &amp; Foodservice Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Restaurant Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national restaurant and foodservice monitor, ramp-up and prime-cost failure forensics, and SBA 7(a)/504, USDA, and conventional loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Because restaurant forecasts fail on ramp and prime cost, Feasibility Study Company tests both in feasibility studies for owners, franchisees and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Restaurant &amp; Foodservice Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Restaurant Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for restaurant and foodservice going-concern credits across\n        SBA 7(a) and 504, USDA Business and Industry, conventional bank, and equipment or bridge\n        capital. This page is our standing read on where the restaurant market stands, why the recovery\n        is complete on dollars but not on traffic, how ramp-up and prime-cost forecasts fail review, and\n        the difference between the market study, the feasibility study, and the going-concern appraisal a\n        lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\"><a href=\"/#contact\">Start with the concept and the address</a>: Feasibility Study Company prepares restaurant and foodservice feasibility studies for restaurant owners, franchisees, developers and lenders, each with a market study, a ramp-up schedule, a prime-cost budget and a coverage test. Franchise systems, which IFA and FRANdata project at 851,000 US establishments in 2025,<sup class=\"fn\"><a href=\"#s14\">14</a></sup> make many restaurant loans possible, but franchise or independent, the restaurant itself is valued on its cash flow, apart from the net-leased walls around it. The deliverable suits bank, equipment, bridge, SBA and USDA files alike.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Test your restaurant concept</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a restaurant or franchise? Start with the ramp and the prime cost.</h2>",
+   "after": "<h2 id=\"h-cta\">If the ramp is wrong, the rest of the pro forma does not matter.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Restaurant &amp; Foodservice feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital source\n        requires, and the current demand, cost, and program data for your segment, concept, and market.\n      </p>",
+   "after": "<p>Feasibility Study Company models the months before a new dining room fills, and the labor and food costs that decide whether it ever covers its debt. Send the concept, the franchise if there is one, the address and the lender.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Test your restaurant concept</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "851,000 [source 14], already on the page at: #monitor paragraph (\"the IFA and FRANdata project 851,000 US franchise establishments in 2025\", [14])"
+}

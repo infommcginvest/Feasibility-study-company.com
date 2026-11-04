@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/urgent-care/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Urgent Care &amp; Freestanding ED Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Urgent Care Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent urgent care and freestanding ED feasibility and market studies: a demand, payer-mix, and reimbursement monitor, credentialing and ramp forensics, and SBA, USDA, and going-concern valuation authority.\">",
+   "after": "<meta name=\"description\" content=\"To finance an urgent care center or freestanding ED, start with payer mix: Feasibility Study Company prepares the feasibility study for owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Urgent Care &amp; Freestanding ED Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Urgent Care Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A demand, payer-mix, and reimbursement monitor, the credentialing and ramp failure forensics, and the going-concern valuation and loan-program authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"To finance an urgent care center or freestanding ED, start with payer mix: Feasibility Study Company prepares the feasibility study for owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Urgent Care &amp; Freestanding ED Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Urgent Care Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The demand and payer-mix monitor, credentialing and ramp failure forensics, and SBA, USDA, and going-concern valuation authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"To finance an urgent care center or freestanding ED, start with payer mix: Feasibility Study Company prepares the feasibility study for owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Urgent Care &amp; Freestanding ED Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Urgent Care Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, going-concern analysis for urgent care centers and freestanding emergency\n        departments across SBA, USDA, conventional and specialty healthcare, net-lease real-estate,\n        and health-system and platform capital. This page is our standing read on why reimbursement\n        and payer mix, not footfall, drive value, how credentialing and ramp forecasts fail review,\n        and the difference between the market study, the feasibility study, and the going-concern\n        appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">The study an urgent care lender reads should test payer contracts, credentialing and the visit ramp before it projects coverage, because reimbursement and payer mix, not footfall, drive the value of an urgent care center or a freestanding emergency department. <a href=\"/#contact\">Feasibility Study Company</a> prepares urgent care feasibility studies for owners, physician groups, developers and their lenders, built on a market study of the trade area's payers and visits. The industry is large, sized by IBISWorld at $43.3 billion in 2024,<sup class=\"fn\"><a href=\"#s1\">1</a></sup> and fragmented, so a new center wins on its contracts more than its corner. It is written for SBA, USDA, conventional and specialty healthcare, net-lease and health-system lenders.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Book an urgent care consult</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting an urgent care or freestanding ED? Start with the payer mix.</h2>",
+   "after": "<h2 id=\"h-cta\">Ask what each visit will collect.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Urgent Care &amp; Freestanding ED feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current demand, payer-mix, credentialing, and reimbursement data for\n        your trade area and model.\n      </p>",
+   "after": "<p>Commercial credentialing for a new center is slow, and the ramp depends on it. Feasibility Study Company starts there: send the address, the model and any signed payer contracts, and we will describe the study your lender would receive.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Book an urgent care consult</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "$43.3 billion [source 1], already on the page at: #monitor paragraph (\"IBISWorld sized the industry at $43.3 billion in 2024 and $44.3 billion in 2025\", [1])"
+}

@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/coffee-shop/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Coffee Shop &amp; Cafe Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Coffee Shop Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent coffee shop and cafe feasibility and market studies: a national demand and drive-thru monitor, ramp-up and operating forensics, and SBA 7(a), 504, and USDA loan-program authority.\">",
+   "after": "<meta name=\"description\" content=\"Hire Feasibility Study Company for coffee shop and cafe feasibility studies: drive-thru demand, ramp-up and debt service, for owners, franchisees and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Coffee Shop &amp; Cafe Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Coffee Shop Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national coffee-shop demand and drive-thru monitor, the ramp-up and operating failure forensics, and the going-concern-versus-real-estate authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Hire Feasibility Study Company for coffee shop and cafe feasibility studies: drive-thru demand, ramp-up and debt service, for owners, franchisees and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Coffee Shop &amp; Cafe Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Coffee Shop Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national coffee-shop demand and drive-thru monitor, ramp-up failure forensics, and SBA 7(a), 504, and USDA loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Hire Feasibility Study Company for coffee shop and cafe feasibility studies: drive-thru demand, ramp-up and debt service, for owners, franchisees and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Coffee Shop &amp; Cafe Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Coffee Shop and Cafe Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for coffee-shop and cafe projects across SBA 7(a) and 504,\n        USDA, conventional bank, and equipment and bridge capital. This page is our standing read on\n        why a coffee shop is a going-concern operating business rather than passive real estate, how\n        ramp-up and drive-thru forecasts fail review, and the difference between the market study, the\n        feasibility study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">A coffee shop earns as an operating business, so <a href=\"/#contact\">the concept and the corner</a> matter more than the lease. The category is large, with IBISWorld placing coffee and snack shops at $75.3 billion in 2025,<sup class=\"fn\"><a href=\"#s3\">3</a></sup> yet a lender funds one location. Feasibility Study Company prepares coffee shop and cafe feasibility studies that treat it that way, for owners, franchisees, developers and their lenders; inside each, the market study covers trade-area demand, drive-thru capacity, ramp-up and the debt service a first-year cafe can carry, for 7(a), 504, USDA, bank, equipment and bridge credit.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Send your cafe concept</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a coffee shop? Start with the going concern.</h2>",
+   "after": "<h2 id=\"h-cta\">Can one corner carry the loan?</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Coffee Shop &amp; Cafe feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current demand, drive-thru, unit-economics, and coffee-commodity data\n        for your format and trade area.\n      </p>",
+   "after": "<p>Whether the plan is a drive-thru, a walk-up kiosk or a franchise unit, Feasibility Study Company starts with the trade area and the lender's coverage test. Send the address, the format and the franchise, if any, and the first conversation will cover what the study needs.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Send your cafe concept</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "$75.3 billion [source 3], already on the page at: stat band (\"2025 US Coffee & Snack Shops industry revenue\", [3]) and #monitor (IBISWorld \"at $75.3 billion in 2025\", [3])"
+}

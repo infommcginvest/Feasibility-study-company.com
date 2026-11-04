@@ -1,0 +1,231 @@
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-10-30T15:45:44
+root <scratchpad>/copies/d-f1; git dir /home/user/wt/bi at 08637a68f168c8e45ffb2bf8905a48479474b950; range origin/main..HEAD; stage landing; site-wide True
+command: python3 scripts/qa/gates.py --root . --git-dir /home/user/wt/bi --urls /asset-classes/assisted-living-and-memory-care/,/asset-classes/auto-dealership/,/asset-classes/auto-service-and-collision/,/asset-classes/behavioral-health/,/asset-classes/childcare-and-daycare/,/asset-classes/coffee-shop/,/asset-classes/express-car-wash/,/asset-classes/fitness-and-recreation/,/asset-classes/funeral-home/,/asset-classes/gas-station-and-c-store/,/asset-classes/gas-station-and-c-store/ev-charging/,/asset-classes/gas-station-and-c-store/interstate-highway/,/asset-classes/glamping/,/asset-classes/grocery-store/,/asset-classes/hotel/,/asset-classes/laundromat/,/asset-classes/marina/,/asset-classes/medical-office-and-asc/,/asset-classes/mixed-use/,/asset-classes/multifamily/,/asset-classes/pet-boarding-and-daycare/,/asset-classes/private-school/,/asset-classes/quick-service-restaurant/,/asset-classes/quick-service-restaurant/burger/,/asset-classes/restaurant/,/asset-classes/retail/,/asset-classes/rv-and-boat-storage/,/asset-classes/rv-park-and-campground/,/asset-classes/self-storage/,/asset-classes/skilled-nursing/,/asset-classes/truck-stop-and-travel-center/,/asset-classes/urgent-care/,/asset-classes/veterinary-practice/ --stage landing --site-wide --range origin/main..HEAD --look-out <scratchpad>/copies/look-d-f1 --out <scratchpad>/copies/GATES-d-f1.txt
+pages (33): /asset-classes/assisted-living-and-memory-care/ /asset-classes/auto-dealership/ /asset-classes/auto-service-and-collision/ /asset-classes/behavioral-health/ /asset-classes/childcare-and-daycare/ /asset-classes/coffee-shop/ /asset-classes/express-car-wash/ /asset-classes/fitness-and-recreation/ /asset-classes/funeral-home/ /asset-classes/gas-station-and-c-store/ /asset-classes/gas-station-and-c-store/ev-charging/ /asset-classes/gas-station-and-c-store/interstate-highway/ /asset-classes/glamping/ /asset-classes/grocery-store/ /asset-classes/hotel/ /asset-classes/laundromat/ /asset-classes/marina/ /asset-classes/medical-office-and-asc/ /asset-classes/mixed-use/ /asset-classes/multifamily/ /asset-classes/pet-boarding-and-daycare/ /asset-classes/private-school/ /asset-classes/quick-service-restaurant/ /asset-classes/quick-service-restaurant/burger/ /asset-classes/restaurant/ /asset-classes/retail/ /asset-classes/rv-and-boat-storage/ /asset-classes/rv-park-and-campground/ /asset-classes/self-storage/ /asset-classes/skilled-nursing/ /asset-classes/truck-stop-and-travel-center/ /asset-classes/urgent-care/ /asset-classes/veterinary-practice/
+
+=== Gate 1: pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id: GREEN
+33 page(s)
+
+=== Gate 2: factory: build.py --check and casemodel.py --check exit 0: GREEN
+build.py --check rc=0: 103 page(s) checked, 0 out of date or failing
+casemodel.py --check rc=0: 22 case(s) checked, 0 problem(s)
+
+=== Gate 3: counted figures, amendment A6 landing floors (research and register apart): RED
+  /asset-classes/assisted-living-and-memory-care/                hub       counted 2 (research 2, register 0/0)
+  /asset-classes/auto-dealership/                                hub       counted 15 (research 15, register 0/0)
+  /asset-classes/auto-service-and-collision/                     hub       counted 9 (research 9, register 0/0)
+  /asset-classes/behavioral-health/                              hub       counted 11 (research 11, register 0/0)
+  /asset-classes/childcare-and-daycare/                          hub       counted 14 (research 14, register 0/0)
+  /asset-classes/coffee-shop/                                    hub       counted 18 (research 18, register 0/0)
+  /asset-classes/express-car-wash/                               hub       counted 8 (research 8, register 0/0)
+  /asset-classes/fitness-and-recreation/                         hub       counted 4 (research 4, register 0/0)
+  /asset-classes/funeral-home/                                   hub       counted 20 (research 20, register 0/0)
+  /asset-classes/gas-station-and-c-store/                        hub       counted 71 (research 71, register 0/0)
+  /asset-classes/gas-station-and-c-store/ev-charging/            subtype   counted 31 (research 31, register 0/0)
+  /asset-classes/gas-station-and-c-store/interstate-highway/     subtype   counted 32 (research 32, register 0/0)
+  /asset-classes/glamping/                                       hub       counted 4 (research 4, register 0/0)
+  /asset-classes/grocery-store/                                  hub       counted 8 (research 8, register 0/0)
+  /asset-classes/hotel/                                          hub       counted 102 (research 92, register 10/24)
+  /asset-classes/laundromat/                                     hub       counted 13 (research 13, register 0/0)
+  /asset-classes/marina/                                         hub       counted 7 (research 7, register 0/0)
+  /asset-classes/medical-office-and-asc/                         hub       counted 16 (research 16, register 0/0)
+  /asset-classes/mixed-use/                                      hub       counted 35 (research 31, register 4/4)
+  /asset-classes/multifamily/                                    hub       counted 110 (research 104, register 6/6)
+  /asset-classes/pet-boarding-and-daycare/                       hub       counted 3 (research 3, register 0/0)
+  /asset-classes/private-school/                                 hub       counted 130 (research 120, register 10/14)
+  /asset-classes/quick-service-restaurant/                       hub       counted 106 (research 99, register 7/7)
+  /asset-classes/quick-service-restaurant/burger/                subtype   counted 69 (research 69, register 0/0)
+  /asset-classes/restaurant/                                     hub       counted 6 (research 6, register 0/0)
+  /asset-classes/retail/                                         hub       counted 7 (research 7, register 0/0)
+  /asset-classes/rv-and-boat-storage/                            hub       counted 2 (research 2, register 0/0)
+  /asset-classes/rv-park-and-campground/                         hub       counted 0 (research 0, register 0/0)
+  /asset-classes/self-storage/                                   hub       counted 138 (research 128, register 10/18)
+  /asset-classes/skilled-nursing/                                hub       counted 69 (research 59, register 10/13)
+  /asset-classes/truck-stop-and-travel-center/                   hub       counted 5 (research 5, register 0/0)
+  /asset-classes/urgent-care/                                    hub       counted 7 (research 7, register 0/0)
+  /asset-classes/veterinary-practice/                            hub       counted 10 (research 10, register 0/0)
+site-wide: 92 other factory page(s) at landing floors; under the floor: 0
+
+=== Gate 4: overlap under 15% against every page on the site (8-word shingles): GREEN
+  /asset-classes/assisted-living-and-memory-care/                max 2.73% (/case-studies/assisted-living-arizona-hud/)
+  /asset-classes/auto-dealership/                                max 2.38% (/asset-classes/veterinary-practice/)
+  /asset-classes/auto-service-and-collision/                     max 3.77% (/asset-classes/laundromat/)
+  /asset-classes/behavioral-health/                              max 3.85% (/case-studies/behavioral-health-massachusetts-conventional/)
+  /asset-classes/childcare-and-daycare/                          max 4.17% (/asset-classes/fitness-and-recreation/)
+  /asset-classes/coffee-shop/                                    max 4.11% (/asset-classes/fitness-and-recreation/)
+  /asset-classes/express-car-wash/                               max 3.47% (/asset-classes/retail/)
+  /asset-classes/fitness-and-recreation/                         max 4.53% (/asset-classes/retail/)
+  /asset-classes/funeral-home/                                   max 3.86% (/asset-classes/retail/)
+  /asset-classes/gas-station-and-c-store/                        max 2.87% (/practice-areas/sba-7a-504/)
+  /asset-classes/gas-station-and-c-store/ev-charging/            max 0.45% (/states/tennessee/nashville/)
+  /asset-classes/gas-station-and-c-store/interstate-highway/     max 0.45% (/states/south-carolina/charleston/)
+  /asset-classes/glamping/                                       max 4.04% (/asset-classes/retail/)
+  /asset-classes/grocery-store/                                  max 4.01% (/asset-classes/retail/)
+  /asset-classes/hotel/                                          max 1.36% (/asset-classes/multifamily/)
+  /asset-classes/laundromat/                                     max 4.06% (/asset-classes/retail/)
+  /asset-classes/marina/                                         max 3.27% (/asset-classes/retail/)
+  /asset-classes/medical-office-and-asc/                         max 1.6% (/asset-classes/pet-boarding-and-daycare/)
+  /asset-classes/mixed-use/                                      max 1.28% (/states/new-york/)
+  /asset-classes/multifamily/                                    max 1.36% (/asset-classes/hotel/)
+  /asset-classes/pet-boarding-and-daycare/                       max 4.35% (/asset-classes/veterinary-practice/)
+  /asset-classes/private-school/                                 max 1.7% (/asset-classes/skilled-nursing/)
+  /asset-classes/quick-service-restaurant/                       max 1.29% (/case-studies/restaurant-acquisition-broussard-louisiana-sba/)
+  /asset-classes/quick-service-restaurant/burger/                max 0.92% (/asset-classes/gas-station-and-c-store/)
+  /asset-classes/restaurant/                                     max 3.71% (/asset-classes/veterinary-practice/)
+  /asset-classes/retail/                                         max 4.53% (/asset-classes/fitness-and-recreation/)
+  /asset-classes/rv-and-boat-storage/                            max 3.27% (/case-studies/rv-boat-storage-arizona-sba/)
+  /asset-classes/rv-park-and-campground/                         max 2.71% (/asset-classes/marina/)
+  /asset-classes/self-storage/                                   max 2.09% (/practice-areas/sba-7a-504/)
+  /asset-classes/skilled-nursing/                                max 1.7% (/asset-classes/private-school/)
+  /asset-classes/truck-stop-and-travel-center/                   max 3.82% (/asset-classes/pet-boarding-and-daycare/)
+  /asset-classes/urgent-care/                                    max 3.76% (/asset-classes/pet-boarding-and-daycare/)
+  /asset-classes/veterinary-practice/                            max 4.35% (/asset-classes/pet-boarding-and-daycare/)
+site-wide pairs at or over 15%: 10, of which with a page of this set: 0 (the others are on pages this landing did not write, reported, not failed)
+  24.8% / ~ /asset-classes/
+  23.22% /case-studies/qsr-arkansas-sba/ ~ /case-studies/qsr-georgia-sba/
+  20.38% /case-studies/fitness-minnesota-sba/ ~ /case-studies/fitness-new-hampshire-sba/
+  16.12% /case-studies/truck-stop-georgia-sba/ ~ /case-studies/truck-stop-oklahoma-sba/
+  15.81% /case-studies/fitness-minnesota-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.77% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.48% /case-studies/funeral-home-wisconsin-sba/ ~ /case-studies/qsr-arkansas-sba/
+  15.47% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/funeral-home-wisconsin-sba/
+  15.12% /case-studies/hotel-florida-sba/ ~ /case-studies/hotel-south-carolina-sba/
+  15.03% /case-studies/auto-service-new-jersey-sba/ ~ /case-studies/fitness-minnesota-sba/
+
+=== Gate 5: standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds: GREEN
+3 metro or subtype page(s); failing: []
+
+=== Gate 6: case standard v3: GREEN
+  no case pages in the set
+
+=== Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: RED
+stale-claim hits 3
+  /asset-classes/behavioral-health/: SBSS as current: ...ge that must be reserved for. SBA has retired the SBSS credit-score screen for 7(a)...
+  /asset-classes/behavioral-health/: SBSS as current: ...ge that must be reserved for. SBA has retired the SBSS credit-score screen for 7(a)...
+  /asset-classes/rv-park-and-campground/: SOP 50 10 8 as current: ...ss at a time), worded identically in the earlier  SOP 50 10 8 (effective June 1, 2025) , discussed by SBA504Blog, F...
+source entries lacking a part or never cited 583
+  /asset-classes/assisted-living-and-memory-care/: s1: NIC and NIC MAP Vision press release (April 23, 2026): Q1 2026 Primary Market senior housi
+  /asset-classes/assisted-living-and-memory-care/: s2: NIC MAP Vision construction and inventory data (2025-2026): quarterly starts ~1,076 units 
+  /asset-classes/assisted-living-and-memory-care/: s3: NIC MAP Vision Senior Housing Outlook (June 26, 2024): a 550,000-unit shortfall and $275 b
+  /asset-classes/assisted-living-and-memory-care/: s4: Genworth and CareScout Cost of Care Survey: 2024 survey (released March 2025) national med
+  /asset-classes/assisted-living-and-memory-care/: s5: PHI, Direct Care Workers in the United States: Key Facts 2025 (June 2025; BLS OEWS analysi
+  /asset-classes/assisted-living-and-memory-care/: s6: Janover Pro and industry research (2025): labor roughly 55 percent of AL and memory-care o
+  /asset-classes/assisted-living-and-memory-care/: s7: NCAL and Senior Housing News operator survey (March 2025): average assisted living length 
+  /asset-classes/assisted-living-and-memory-care/: s8: U.S. Department of Housing and Urban Development, Handbook 4232.1 and Section 232 program 
+  /asset-classes/assisted-living-and-memory-care/: s9: U.S. Small Business Administration, SOP 50 10 8.1 with Technical Policy Updates (effective
+  /asset-classes/assisted-living-and-memory-care/: s10: USDA Rural Development: Business & Industry guaranteed loans under OneRD (7 CFR Part 5001)
+  /asset-classes/assisted-living-and-memory-care/: s11: Fannie Mae and Freddie Mac Seniors Housing program guides: Fannie Mae segment DSCR minimum
+  /asset-classes/assisted-living-and-memory-care/: s12: CBRE, 17th U.S. Senior Housing & Care Investor Survey (conducted late October 2025): senio
+  /asset-classes/assisted-living-and-memory-care/: s13: JLL, 2026 Seniors Housing & Care Investor Survey (March 12, 2026): average Q4 2025 cap rat
+  /asset-classes/assisted-living-and-memory-care/: s14: NIC and Senior Housing News (2025): net absorption outpaced new openings for 17-plus conse
+  /asset-classes/assisted-living-and-memory-care/: s15: Plante Moran (2024), citing Census projections: penetration rate averaged roughly 10.2 per
+  /asset-classes/assisted-living-and-memory-care/: s16: KFF and NCOA: 41 of 47 responding states cover services in assisted living through at leas
+  /asset-classes/assisted-living-and-memory-care/: s17: ASHA / State of Seniors Housing (via McKnight's) and The Weitz Company ASHA construction-c
+  /asset-classes/assisted-living-and-memory-care/: s18: Appraisal Institute, The Appraisal of Real Estate: going-concern and business-enterprise-v
+  /asset-classes/assisted-living-and-memory-care/: s19: Multi-Housing News (2025): units under construction context, down from just under 50,000 u
+  /asset-classes/assisted-living-and-memory-care/: s20: Activated Insights 2025 Benchmarking Report (via HHAeXchange): home care median caregiver 
+  /asset-classes/assisted-living-and-memory-care/: sources never cited [10, 11, 16, 19, 20]
+  /asset-classes/auto-dealership/: s1: NADA, NADA Data 2024 and NADA Data 2025: franchised dealer counts, new-unit sales, total f
+  /asset-classes/auto-dealership/: s2: Presidio-NCM Average Dealership Performance Benchmark, full-year 2024 (via Digital Dealer,
+  /asset-classes/auto-dealership/: s3: Haig Partners, The Haig Report (Q1 2025 through Q3 2025): national-average blue-sky multip
+  /asset-classes/auto-dealership/: s4: Kerrigan Advisors, The Blue Sky Report and Kerrigan Blue Sky Index (2025 Annual and Q1 202
+  /asset-classes/auto-dealership/: s5: Mercer Capital, dealership-valuation commentary (2025): fixed-operations share of total gr
+  /asset-classes/auto-dealership/: s6: WardsAuto (2024): average dealer floor-plan expense magnitude (~$70,000 per month, an 800%
+  /asset-classes/auto-dealership/: s7: Optimum dealership benchmarking (Q4 2024): service absorption of 66.3%, net floor-plan exp
+  /asset-classes/auto-dealership/: s8: Cox Automotive, 2026 Fixed Operations study: average dealer fixed-ops revenue of $9.23 mil
+  /asset-classes/auto-dealership/: s9: NADA Slide Guide: published fixed-operations absorption target of 115%, against an industr
+figure blocks without a citation 326
+  /asset-classes/assisted-living-and-memory-care/ #thesis: ['1.45x'] in: HUD-FHA Section 232 (LEAN) 1.45x DSCR minimum
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['93.6%'] in: Boston 93.6% Minimal pipeline Strong Supply-constrained
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['91.8%'] in: Baltimore 91.8% Minimal pipeline Strong Supply-constrained
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['91.6%'] in: San Francisco 91.6% Minimal pipeline Recovering strongly Supply-constrained
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['91%'] in: Philadelphia ~91%+ Minimal pipeline Strong Supply-constrained
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['91%'] in: New York metro ~91%+ metro detail thin, subscription Minimal pipeline Strong Supply-constrained
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['90%'] in: Minneapolis >90% Low Strong Supply-constrained
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['90.4%'] in: Tertiary markets ~90.4% Very low Strong Tightest
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['90.0%'] in: Secondary markets ~90.0% Low Strong Tighter than primary
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['90%'] in: Tampa >90% Low-moderate Strong Balanced / tightening
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['87.0%'] in: Las Vegas 87.0% Moderate legacy supply Recovering Working through oversupply
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['86.1%'] in: San Jose ~86.1% (Q4 2025) Low Volatile recovery Recovering
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['86.2%'] in: Miami / S. Florida 86.2% data thin, subscription Moderate Improving Oversupply risk
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['86.0%'] in: Atlanta 86.0% Elevated legacy supply Improving Oversupply risk
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['84.7%'] in: Houston ~84.7% (Q1 2025) Elevated legacy supply Improving Oversupply risk
+  /asset-classes/assisted-living-and-memory-care/ #monitor: ['87%'] in: Sun Belt growth metros Mixed; submarkets <87% Highest, most heterogeneous Fastest absorption Oversupply pocket
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['1.45x', '80%'] in: HUD-FHA Section 232 (LEAN) Market study, going-concern appraisal, PCNA, Phase I ESA 1.45x DSCR, ~80% LTV, 35-y
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['51%', '60%', '$5.0M'] in: SBA 7(a) / 504 Feasibility plus special-purpose going-concern appraisal Owner-occupancy 51% / 60%; max 7(a) $5
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['1.30x', '1.40x', '1.45x'] in: Fannie Mae Seniors Housing Market or feasibility study on stabilized collateral 1.30x IL / 1.40x AL / 1.45x MC
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['1.30x', '75%'] in: Freddie Mac Optigo Seniors Market study on stabilized, licensed collateral ≥1.30x, up to ~75% LTV
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['1.40x', '1.50x', '60%', '70%'] in: CMBS, life-company & bank Lender-aligned market or feasibility study 1.40x-1.50x, 60%-70% LTV
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['65%', '75%'] in: Bridge / debt-fund (to HUD or agency) Lease-up and absorption analysis 65%-75% LTC, 24-36 months, floating
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['$25M'] in: USDA B&I / Community Facilities Independent five-component feasibility study Up to $25M (B&I); rural areas onl
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['1.45x', '80%', '1.30x', '1.45x'] in: Stabilized, licensed AL or MC seeking lowest-cost permanent debt HUD 232/223(f) at 1.45x DSCR and ~80% LTV, or
+  /asset-classes/assisted-living-and-memory-care/ #routing: ['$25M'] in: Rural assisted living or nursing facility USDA Business & Industry (to $25M) or Community Facilities, with an 
+  /asset-classes/assisted-living-and-memory-care/ #faq: ['1.45x', '80 percent', '25 percent'] in: HUD-FHA Section 232, administered by HUD's Office of Residential Care Facilities and processed through the LEA
+  /asset-classes/assisted-living-and-memory-care/ #faq: ['51 percent', '60 percent', '5 million'] in: Yes, when the facility is licensed and provides healthcare or medical services. SBA   (effective  ), makes lic
+  /asset-classes/assisted-living-and-memory-care/ #faq: ['89.5 percent', '77.8 percent', '91 percent', '87.9 percent', '17,000', '0.4 percent'] in: NIC MAP Vision reported Primary Market senior housing occupancy of 89.5 percent in the first quarter of 2026, 
+  /asset-classes/assisted-living-and-memory-care/ #faq: ['40 percent'] in: Assisted living and memory care lease-up is slower and more needs-driven than multifamily. Industry practice m
+  /asset-classes/assisted-living-and-memory-care/ #faq: ['55 percent', '70 percent', '45 percent', '$17.36', '80 percent'] in: Labor is the single biggest operating risk and the most common underwriting error. Wages, benefits, and contra
+  /asset-classes/auto-dealership/ #monitor: ['8.0', '10.0x', '8.0x'] in: Porsche 8.0-10.0x Ultra-luxury Low end cut to 8.0x (Q3) Premium
+  /asset-classes/auto-dealership/ #monitor: ['9.0', '10.0x'] in: Lexus 9.0-10.0x Luxury import Raised (Q3), record values Premium
+  /asset-classes/auto-dealership/ #monitor: ['7.5', '9.0x'] in: BMW 7.5-9.0x Luxury import Stable Premium
+  /asset-classes/auto-dealership/ #monitor: ['7.25', '8.75x'] in: Mercedes-Benz 7.25-8.75x Luxury import Raised on ROFR removal (Q4) Premium
+  /asset-classes/auto-dealership/ #monitor: ['6.75', '8.5x', '6.75x'] in: Toyota 6.75-8.5x Import volume Low end raised to 6.75x (Q2) Premium
+  /asset-classes/auto-dealership/ #monitor: ['6.0', '7.0x'] in: Honda 6.0-7.0x Import volume Stable Premium
+  /asset-classes/auto-dealership/ #monitor: ['5.5', '6.5x'] in: Subaru 5.5-6.5x Import Stable Steady
+  /asset-classes/auto-dealership/ #monitor: ['4.5', '5.5x'] in: Kia 4.5-5.5x Import value Stable Steady
+  /asset-classes/auto-dealership/ #monitor: ['4.0', '5.0x'] in: Audi 4.0-5.0x Luxury import Cut (Q2) Steady
+  /asset-classes/auto-dealership/ #monitor: ['3.75', '4.75x'] in: Chevrolet 3.75-4.75x Domestic Raised (Q4),   bias Steady
+SBA mandate sentences (all served pages, unreviewed) 0
+
+files matching the ruling 9 pattern 0: []
+commit authors, committers or messages matching in origin/main..HEAD: 0
+tag messages matching (0 tag(s)): []
+
+=== Gate 8: subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message: GREEN
+lists 1; case-scoped tokens 580 over 8 case(s); site-wide tokens 27; history scanned: origin/main..HEAD (58320 bytes)
+
+=== Gate 9: links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges (pending links count, amendment A5): GREEN
+links.py --check rc=0: 0 problem(s) over 213 checked pages (0 held, data/site/hold.json)
+mesh.py --check rc=0: 0 page(s) out of date; 0 held; 1164 term link(s) on 199 page(s)
+pages checked for inbound links: 200; under 3: 0
+
+required edges: all present
+
+=== Gate 10: clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the name: GREEN
+  0 in every served file (data/markets excluded: never deployed) and source
+
+=== Gate 11: markers: byline, regulatory, chrome and markets --check: GREEN
+byline.py --check rc=0: out of date: 0 page(s)
+regulatory.py --check rc=0: 0 page(s) out of date
+chrome.py --check rc=0: 0 page(s) out of date; 0 held; 213 checked; 0 problem(s)
+markets.py --check rc=0: 0 page(s) out of date
+
+=== Gate 12: dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; rebuilt pages keep their published date; dates move only with content (A10) (every page): GREEN
+212 page(s)
+
+=== Gate 13: look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box: GREEN
+screenshots in <scratchpad>/copies/look-d-f1 (port 55791)
+  asset-classes_assisted-living-and-memory-care-desktop-1440.png         scrollWidth 1440 / 1440 overflow False offenders []
+  asset-classes_assisted-living-and-memory-care-mobile-390.png           scrollWidth 390 / 390 overflow False offenders []
+  asset-classes_gas-station-and-c-store_ev-charging-desktop-1440.png     scrollWidth 1440 / 1440 overflow False offenders []
+  asset-classes_gas-station-and-c-store_ev-charging-mobile-390.png       scrollWidth 390 / 390 overflow False offenders []
+
+=== Gate 14: index all: index, follow, and in the sitemap with lastmod: GREEN
+  33 page(s) indexable and listed
+
+SUMMARY
+  gate  1: GREEN    pages build; one <title>; JSON-LD parses with BreadcrumbList and author @id
+  gate  2: GREEN    factory: build.py --check and casemodel.py --check exit 0
+  gate  3: RED      counted figures, amendment A6 landing floors (research and register apart)
+  gate  4: GREEN    overlap under 15% against every page on the site (8-word shingles)
+  gate  5: GREEN    standalone: every metro and subtype passes gates 3 and 4 on its own evidence, or it folds
+  gate  6: GREEN    case standard v3
+  gate  7: RED      sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, co
+  gate  8: GREEN    subjects: no identifier from any list in private/ in a served file, source, input, patch or commit message
+  gate  9: GREEN    links: links.py and mesh.py --check; 3+ inbound contextual links from distinct non-index pages; required edges
+  gate 10: GREEN    clean text: zero em and en dashes in any encoding in every served file and source; no credential beside the na
+  gate 11: GREEN    markers: byline, regulatory, chrome and markets --check
+  gate 12: GREEN    dates: JSON-LD dateModified, the visible line and sitemap lastmod agree; new pages carry the landing date; reb
+  gate 13: GREEN    look: 1440 and 390 screenshots; no page-level horizontal scroll at 390; wide tables scroll in their box
+  gate 14: GREEN    index all: index, follow, and in the sitemap with lastmod
+  green 12/14

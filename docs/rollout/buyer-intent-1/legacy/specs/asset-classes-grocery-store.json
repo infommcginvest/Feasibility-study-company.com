@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/grocery-store/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Grocery Store &amp; Supermarket Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Grocery Store Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent grocery store and supermarket feasibility and market studies: a national competitive and razor-thin-margin monitor, DSCR, shrink, and wholesaler-lien forensics, and SBA, USDA, and HFFI loan-program authority.\">",
+   "after": "<meta name=\"description\" content=\"Not a square-footage guess but a margin test: that is how Feasibility Study Company runs grocery store feasibility studies for independent grocers and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Grocery Store &amp; Supermarket Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Grocery Store Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national grocery competitive and razor-thin-margin monitor, the DSCR, shrink, and wholesaler-lien failure forensics, and the going-concern valuation authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Not a square-footage guess but a margin test: that is how Feasibility Study Company runs grocery store feasibility studies for independent grocers and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Grocery Store &amp; Supermarket Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Grocery Store Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national grocery competitive and margin monitor, DSCR, shrink, and wholesaler-lien forensics, and SBA, USDA, and HFFI loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Not a square-footage guess but a margin test: that is how Feasibility Study Company runs grocery store feasibility studies for independent grocers and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Grocery Store &amp; Supermarket Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Grocery Store Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for grocery stores and supermarkets across SBA 7(a) and\n        504, USDA rural, conventional bank and asset-based, CDFI and HFFI food-access, and\n        going-concern acquisition capital. This page is our standing read on why the razor-thin net\n        margin makes debt service fragile, how grocery feasibility forecasts fail review, and the\n        difference between the market study, the feasibility study, and the going-concern appraisal a\n        lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">A grocery store feasibility study has to begin with the competition. Aldi ended 2025 with 2,614 US stores and is still adding more,<sup class=\"fn\"><a href=\"#s7\">7</a></sup> and a new discounter in the trade area is the largest outside risk to an independent's sales. Feasibility Study Company prepares these studies for grocery and supermarket owners, developers and their lenders, with a market study that maps every competing opening. Because net margins are razor-thin, the study stress-tests sales, shrink and the wholesaler lien, then sizes debt for bank and asset-based lenders, SBA 7(a) and 504, USDA rural programs and CDFI or HFFI food-access funds. <a href=\"/#contact\">Send a note on the store and its market</a>.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Weigh the competition with us</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a grocery store? Start with the margin stress test.</h2>",
+   "after": "<h2 id=\"h-cta\">Here is what a grocery lender reads first.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Grocery Store &amp; Supermarket feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current competitive, margin, and financing data for your format and\n        trade area.\n      </p>",
+   "after": "<p>Competing openings, the margin and the supply agreement, read together, because lenders weigh them together. Tell Feasibility Study Company whether the store is a purchase, an expansion or a new build in an underserved area, and who is lending.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Weigh the competition with us</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "2,614 [source 7], already on the page at: #monitor, \"New competition is the largest exogenous threat\" paragraph (\"Aldi operated 2,614 US stores at year-end 2025\", [7])"
+}

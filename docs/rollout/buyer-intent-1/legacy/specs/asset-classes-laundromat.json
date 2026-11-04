@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/laundromat/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Laundromat Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Laundromat Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent laundromat and self-service laundry feasibility and market studies: a national supply-and-demand monitor, utility-cost and turns-per-day forensics, going-concern valuation, and SBA 7(a)/504 and USDA authority.\">",
+   "after": "<meta name=\"description\" content=\"Do the machines turn enough to cover rent? Feasibility Study Company checks that first in laundromat feasibility studies for owners, buyers and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Laundromat &amp; Self-Service Laundry Feasibility Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Laundromat Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national laundromat supply-and-demand monitor, the utility-cost, turns-per-day, and lease-risk failure forensics, and the going-concern valuation and SBA authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Do the machines turn enough to cover rent? Feasibility Study Company checks that first in laundromat feasibility studies for owners, buyers and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Laundromat &amp; Self-Service Laundry Feasibility Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Laundromat Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national laundromat supply-and-demand monitor, utility-cost and turns-per-day forensics, and SBA 7(a)/504 and USDA loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Do the machines turn enough to cover rent? Feasibility Study Company checks that first in laundromat feasibility studies for owners, buyers and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Laundromat &amp; Self-Service Laundry Feasibility Studies</h1>",
+   "after": "<h1>Laundromat Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for laundromat and self-service laundry acquisitions,\n        buildouts, and refinancings across SBA 7(a) and 504, USDA Business &amp; Industry,\n        conventional bank, and equipment-finance capital. This page is our standing read on where\n        laundromat demand and margin actually come from, how utility cost, turns-per-day, and lease\n        risk sink feasibility forecasts, and the difference between the market study, the feasibility\n        study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Buying or building a laundromat? <a href=\"/#contact\">Tell Feasibility Study Company about the store</a>. The firm prepares feasibility studies of laundromats and self-service laundries for owners, buyers, developers and their lenders, starting each with a market study of the renters around the site. Renters are the core customer, and nearly 103 million people in the US rented as of 2023;<sup class=\"fn\"><a href=\"#s20\">20</a></sup> the study maps that base in the trade area, then tests utility cost, turns per day, vend pricing and the lease term against debt service, for review by a 7(a) or 504 lender, a USDA B&amp;I lender, a bank or an equipment finance company.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Talk laundromats with us</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a laundromat? Start with the utility bill and the lease.</h2>",
+   "after": "<h2 id=\"h-cta\">Turns per day mean little without the utility bill.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Laundromat feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current utility-cost, turns-per-day, and lease benchmarks for your\n        trade area and format.\n      </p>",
+   "after": "<p>Send the equipment list, the lease and any card revenue history for an existing store, or the address for a new one. Feasibility Study Company will explain the tests the study would run and how they map to the lender's file.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Talk laundromats with us</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "103 million [source 20], already on the page at: #monitor paragraph (\"nearly 103 million people, rented as of 2023\", [20])"
+}

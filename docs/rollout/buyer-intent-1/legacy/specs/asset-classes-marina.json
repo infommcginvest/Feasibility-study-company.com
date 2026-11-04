@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/marina/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Marina &amp; Boat Harbor Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Marina Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent marina, boat harbor, and dry-stack feasibility and market studies: a national supply and demand monitor, ramp-up and environmental forensics, and SBA, USDA, and going-concern appraisal authority.\">",
+   "after": "<meta name=\"description\" content=\"Owners, developers and lenders turn to Feasibility Study Company for marina feasibility studies built on slips, dry stack and the submerged-land lease.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Marina &amp; Boat Harbor Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Marina Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national marina supply and demand monitor, slip-occupancy and environmental failure forensics, and the going-concern, SBA, and USDA authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Owners, developers and lenders turn to Feasibility Study Company for marina feasibility studies built on slips, dry stack and the submerged-land lease.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Marina &amp; Boat Harbor Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Marina Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national marina supply and demand monitor, ramp-up failure forensics, and SBA, USDA, and going-concern appraisal authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Owners, developers and lenders turn to Feasibility Study Company for marina feasibility studies built on slips, dry stack and the submerged-land lease.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Marina &amp; Boat Harbor Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Marina Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for marinas, recreational boat harbors, and dry-stack\n        storage across SBA 7(a) and 504, USDA Business and Industry, conventional bank, CMBS,\n        life-company, and bridge capital. This page is our standing read on why permittable waterfront\n        is a durable supply moat, how slip-occupancy and multi-stream revenue forecasts fail review,\n        and the difference between the market study, the feasibility study, and the going-concern\n        appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">Every boat sold needs a place to sit: new powerboat unit sales were 231,576 in 2024,<sup class=\"fn\"><a href=\"#s2\">2</a></sup> on top of the installed fleet, while permittable waterfront barely grows. Feasibility Study Company prepares <a href=\"/#contact\">marina, boat harbor and dry-stack feasibility studies</a> for owners, developers and lenders, and each begins with a market study of the boats within reach of the water. Those lenders range from SBA 7(a) and 504 and USDA Business and Industry to banks, CMBS, life companies and bridge funds. Each study treats the marina as a going concern and tests slip and rack occupancy, the submerged-land lease and storm exposure.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Open a marina inquiry</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a marina or boat harbor? Start with the going-concern read.</h2>",
+   "after": "<h2 id=\"h-cta\">Marina credit is won or lost at the waterline.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Marina &amp; Boat Harbor feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the submerged-land, environmental, storm, and revenue-mix diligence your\n        credit file needs.\n      </p>",
+   "after": "<p>Send the term left on the submerged-land lease, the slip and rack count and the revenue streams, whether you are buying, expanding or building. Feasibility Study Company will outline how the study frames each of them for your lender.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Open a marina inquiry</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "231,576 [source 2], already on the page at: #monitor paragraph (NMMA 2024: \"new powerboat unit sales of 231,576, a 9.1 percent decline\", [2])"
+}

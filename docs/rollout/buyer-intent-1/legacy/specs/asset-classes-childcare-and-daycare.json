@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/childcare-and-daycare/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Childcare &amp; Daycare Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Childcare Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent childcare and daycare feasibility and market studies: a national supply, demand, and childcare-desert monitor, enrollment-ramp and staff-to-child-ratio forensics, and SBA 7(a), 504, and USDA loan-program authority.\">",
+   "after": "<meta name=\"description\" content=\"Childcare and daycare feasibility studies are prepared by Feasibility Study Company for owners, developers and lenders, starting from licensed seats and ratios.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Childcare &amp; Daycare Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Childcare Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national childcare supply, demand, and desert monitor, the enrollment-ramp and staffing-to-ratio failure forensics, and the market-study-versus-feasibility authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Childcare and daycare feasibility studies are prepared by Feasibility Study Company for owners, developers and lenders, starting from licensed seats and ratios.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Childcare &amp; Daycare Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Childcare Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national childcare supply and demand monitor, ramp-up and staff-to-child-ratio failure forensics, and SBA 7(a), 504, and USDA loan-program authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Childcare and daycare feasibility studies are prepared by Feasibility Study Company for owners, developers and lenders, starting from licensed seats and ratios.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Childcare &amp; Daycare Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Childcare and Daycare Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for childcare, daycare, and early-childhood-education\n        projects across SBA 7(a) and 504, USDA, conventional bank, and net-lease capital. This page is\n        our standing read on why the sector is undersupplied yet margin-thin, how enrollment-ramp and\n        staff-to-child-ratio forecasts fail review, and the difference between the market study, the\n        feasibility study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">State preschool enrollment reached a record 1,751,109 in 2023-24,<sup class=\"fn\"><a href=\"#s18\">18</a></sup> and public pre-K now competes with private seats. So each study counts licensed seats and subsidy exposure in the trade area, applies staff-to-child ratios to payroll, and only then projects the enrollment ramp and debt service coverage. For childcare and daycare, Feasibility Study Company prepares the feasibility study and the market study within it for <a href=\"/#contact\">center owners</a>, developers and the lenders they work with: SBA 7(a) and 504 lenders, USDA and community banks, with net-lease investors on the building.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Plan a childcare study</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a childcare center? Start with the license and the ratio.</h2>",
+   "after": "<h2 id=\"h-cta\">In childcare, enrollment is the loan.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Childcare &amp; Daycare feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current supply, demand, ratio, and valuation data for your sub-type\n        and trade area.\n      </p>",
+   "after": "<p>Licensed capacity, the age mix and the subsidy share set what a center can earn. Tell Feasibility Study Company the location, the planned capacity and the lender you are approaching, and we will set out the demand, ratio and ramp tests.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Plan a childcare study</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "1,751,109 [source 18], already on the page at: #monitor paragraph (\"state preschool enrollment reaching a record 1,751,109 in 2023-24\", [18])"
+}

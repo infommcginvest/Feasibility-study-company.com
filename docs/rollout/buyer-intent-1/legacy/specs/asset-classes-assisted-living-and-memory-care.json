@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/assisted-living-and-memory-care/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Assisted Living &amp; Memory Care Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Assisted Living Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent assisted living and memory care feasibility and market studies: a national and metro senior housing supply-and-demand monitor, going-concern lease-up forensics, and HUD Section 232, SBA, and agency authority.\">",
+   "after": "<meta name=\"description\" content=\"Senior housing occupancy is set metro by metro. Feasibility Study Company writes memory care and assisted living feasibility studies for owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Assisted Living &amp; Memory Care Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Assisted Living Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A national and metro senior housing supply-and-demand monitor, the going-concern lease-up failure forensics, and the HUD Section 232, SBA, and agency authority lenders rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Senior housing occupancy is set metro by metro. Feasibility Study Company writes memory care and assisted living feasibility studies for owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Assisted Living &amp; Memory Care Feasibility &amp; Market Studies | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Assisted Living Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The national and metro senior housing occupancy monitor, going-concern lease-up forensics, and HUD 232, SBA, and Fannie and Freddie Seniors Housing authority.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Senior housing occupancy is set metro by metro. Feasibility Study Company writes memory care and assisted living feasibility studies for owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Assisted Living &amp; Memory Care Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Assisted Living and Memory Care Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for assisted living, memory care, and the seniors housing\n        continuum across HUD-FHA Section 232, SBA, Fannie Mae and Freddie Mac Seniors Housing, USDA,\n        and bank and bridge capital. This page is our standing read on where senior housing is\n        supply-constrained and where legacy oversupply lingers, how going-concern lease-up forecasts\n        fail review, and the difference between the market study a lender requires and the feasibility\n        study that surrounds it.\n      </p>",
+   "after": "<p class=\"hero-sub\">Boston senior housing runs at 93.6 percent while parts of the Sun Belt are still absorbing legacy oversupply.<sup class=\"fn\"><a href=\"#s1\">1</a></sup> Feasibility Study Company prepares assisted living and memory care feasibility studies, written for owners, developers and the lenders who carry their debt, in a form HUD Section 232, Fannie Mae and Freddie Mac Seniors Housing, SBA, USDA, bank and bridge reviewers can each read. Because a national average says little about one community, each study opens with a market study that sizes demand by penetration and care level, schedules a lease-up a credit officer can test, and carries a going-concern pro forma through debt service. <a href=\"/#contact\">Describe the community and its capital stack</a> to start.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Discuss your community</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting an assisted living or memory care project? Start with the going-concern read.</h2>",
+   "after": "<h2 id=\"h-cta\">One community, one metro, one lender at a time.</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Assisted Living &amp; Memory Care feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable and appraisal\n        basis your capital source requires, and the current occupancy, penetration, and labor data for\n        your metro and submarket.\n      </p>",
+   "after": "<p>Send the address, the planned or existing mix of assisted living and memory care units, and the program you expect to use. Feasibility Study Company will explain how the market study and the going-concern pro forma would be framed for that lender, and what data the file still lacks.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Discuss your community</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "93.6 percent [source 1], already on the page at: #thesis paragraph (\"Boston runs 93.6 percent while several Sun Belt metros still work through legacy oversupply\", [1]); also the #monitor table row Boston 93.6%"
+}

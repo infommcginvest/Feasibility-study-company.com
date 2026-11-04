@@ -1,0 +1,67 @@
+{
+ "url": "/asset-classes/veterinary-practice/",
+ "kind": "legacy",
+ "elements": [
+  {
+   "element": "title",
+   "before": "<title>Veterinary Practice Feasibility &amp; Market Study | Feasibility Study Company</title>",
+   "after": "<title>Veterinary Practice Feasibility Study Company | Feasibility Study Company</title>"
+  },
+  {
+   "element": "description",
+   "before": "<meta name=\"description\" content=\"Independent veterinary practice and animal hospital feasibility and market studies: going-concern valuation, DVM-labor and goodwill forensics, and SBA, USDA, and lender authority.\">",
+   "after": "<meta name=\"description\" content=\"Goodwill and DVM labor are the first two things tested in a Feasibility Study Company veterinary feasibility study for buyers, owners and lenders.\">"
+  },
+  {
+   "element": "og_title",
+   "before": "<meta property=\"og:title\" content=\"Veterinary Practice Feasibility &amp; Market Study | Feasibility Study Company\">",
+   "after": "<meta property=\"og:title\" content=\"Veterinary Practice Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "og_description",
+   "before": "<meta property=\"og:description\" content=\"A going-concern read on veterinary practices and animal hospitals: DVM-labor and goodwill forensics, the acquisition-multiple gradient, and the SBA, USDA, and lender authority underwriters rely on.\">",
+   "after": "<meta property=\"og:description\" content=\"Goodwill and DVM labor are the first two things tested in a Feasibility Study Company veterinary feasibility study for buyers, owners and lenders.\">"
+  },
+  {
+   "element": "twitter_title",
+   "before": "<meta name=\"twitter:title\" content=\"Veterinary Practice Feasibility &amp; Market Study | Feasibility Study Company\">",
+   "after": "<meta name=\"twitter:title\" content=\"Veterinary Practice Feasibility Study Company | Feasibility Study Company\">"
+  },
+  {
+   "element": "twitter_description",
+   "before": "<meta name=\"twitter:description\" content=\"The going-concern valuation, DVM-labor and goodwill forensics, and SBA and USDA authority behind lender-grade veterinary feasibility studies.\">",
+   "after": "<meta name=\"twitter:description\" content=\"Goodwill and DVM labor are the first two things tested in a Feasibility Study Company veterinary feasibility study for buyers, owners and lenders.\">"
+  },
+  {
+   "element": "h1",
+   "before": "<h1>Veterinary Practice &amp; Animal Hospital Feasibility &amp; Market Studies</h1>",
+   "after": "<h1>Veterinary Practice Feasibility Study Consultants</h1>"
+  },
+  {
+   "element": "opening",
+   "before": "<p class=\"hero-sub\">\n        Independent, lender-grade analysis for veterinary practices and animal hospitals financed\n        through SBA 7(a) and 504, USDA rural, conventional practice-finance, and net-lease capital. A\n        veterinary practice is a going concern, cash flow and equipment plus heavy professional\n        goodwill, not passive real estate. This page is our standing read on where the market is\n        feasible, how ramp-up and production forecasts fail review, and the difference between the\n        market study, the feasibility study, and the going-concern appraisal a lender requires.\n      </p>",
+   "after": "<p class=\"hero-sub\">A practice is a going concern whose value is mostly professional goodwill, so a veterinary feasibility study tests DVM staffing, production and the ramp. Feasibility Study Company prepares veterinary practice and animal hospital feasibility studies for <a href=\"/#contact\">veterinarians buying or building a practice</a>, for developers, and for their lenders; its market study covers the pet households in reach. The Census Bureau counted 34,296 veterinary practices in 2023,<sup class=\"fn\"><a href=\"#s1\">1</a></sup> and lenders weigh each new one, or each sale, under SBA 7(a) and 504, USDA rural, practice-finance and net-lease programs.</p>"
+  },
+  {
+   "element": "hero_button",
+   "before": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>",
+   "after": "<div class=\"hero-actions\">\n        <a class=\"btn\" href=\"/#contact\">Contact us about a practice</a>"
+  },
+  {
+   "element": "cta_heading",
+   "before": "<h2 id=\"h-cta\">Underwriting a veterinary acquisition or de-novo? Start with the going concern.</h2>",
+   "after": "<h2 id=\"h-cta\">What does a lender look for in a practice?</h2>"
+  },
+  {
+   "element": "cta_text",
+   "before": "<p>\n        Feasibility Study Company prepares independent Veterinary Practice feasibility and market studies, built to the review standard your capital source applies. A methodology briefing walks through the analytical framework, the deliverable your capital\n        source requires, and the current demand, labor, and multiple data for your sub-type and trade\n        area.\n      </p>",
+   "after": "<p>The answer rests on doctors, technicians and the goodwill a buyer pays for. Feasibility Study Company will walk through how the study tests each; send the practice type, the location and whether it is a purchase or a start-up.</p>"
+  },
+  {
+   "element": "cta_button",
+   "before": "<a class=\"btn\" href=\"/#contact\">Request a methodology briefing</a>\n    </div>\n  </section>",
+   "after": "<a class=\"btn\" href=\"/#contact\">Contact us about a practice</a>\n    </div>\n  </section>"
+  }
+ ],
+ "figure": "34,296 [source 1], already on the page at: #monitor paragraph (\"The U.S. Census Bureau counted 34,296 veterinary practices in 2023\", [1])"
+}
