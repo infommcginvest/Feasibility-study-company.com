@@ -1,4 +1,4 @@
-ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-11-04T15:02:56
+ROLLOUT-1 gates (scripts/qa/gates.py), run 2026-11-04T15:07:56
 root <scratchpad>/cases/wellness-retreat-stowe-vermont-sba/copy; git dir /home/user/wt/case at 752d0afd8845ad2d5be3563f5e2782ddc9c8386d; range None; stage ready; site-wide False
 command: python3 scripts/qa/gates.py --root . --git-dir /home/user/wt/case --urls /case-studies/wellness-retreat-stowe-vermont-sba/ --new /case-studies/wellness-retreat-stowe-vermont-sba/ --stage ready --skip-look --out <scratchpad>/cases/wellness-retreat-stowe-vermont-sba/GATES.txt
 pages (1): /case-studies/wellness-retreat-stowe-vermont-sba/
@@ -20,7 +20,7 @@ casemodel.py --check rc=0: 23 case(s) checked, 0 problem(s)
 0 metro or subtype page(s); failing: []
 
 === Gate 6: case standard v3: components, body length, SBA tiers, floors and caps (sba.json); acquisitions under Appendix 15: GREEN
-  wellness-retreat-stowe-vermont-sba             sba_504  words  6469  equity  42.9% (tier 20%)  test DSCR 1.150 (floor 1.15)
+  wellness-retreat-stowe-vermont-sba             sba_504  words  6372  equity  42.9% (tier 20%)  test DSCR 1.150 (floor 1.15)
 
 === Gate 7: sources: four parts, every source cited, figures cited; ruling 9 pattern absent from served files, sources, commits and tags; sbamandate zero; stale-claim patterns zero: GREEN
 stale-claim hits 0
